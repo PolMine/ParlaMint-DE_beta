@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1969-01-16-05-208">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 5. Wahlperiode, 208. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 16.01.1969 (208. Sitzung der 5. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 5, Session 208 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1969-01-16 (Session 208 in Legislative Period 5)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="208">208. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.05" n="5">5. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="208">Session 208</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.05" n="5">Legislative Period 5</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 16.01.1969</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1969-01-16</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488218/bfba1a02d1090efc873f9a60f318a162/pp05-data.zip</idno>
+          <date when="1969-01-16">1969-01-16</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1969-01-16">1969-01-16</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection">
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg1">Die Sitzung ist eröffnet. Folgende amtliche Mitteilungen werden ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg2">Der Bundesminister des Innern hat am 13. Januar 1969 die Kleine Anfrage der Abgeordneten Müller (Berlin)</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg3">, Ziegler, Exner, Frau Schroeder (Detmold)</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg4">und Genossen betr. Erfahrungen mit dem Personalvertretungsgesetz (PersVG)</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg5">— Drucksache V/3043 — beantwortet. Sein Schreiben wird als Drucksache V/3726 verteilt. Der Bundesminister der Verteidigung hat am 14. Januar 1969 die Kleine Anfrage der Fraktion der FDP betr. Studienbeginn wehrdienender Abiturienten — Drucksache V/3681 — beantwortet. Sein Schreiben wird als Drucksache V/3727 verteilt. Der Vorsitzende des Ausschusses für Ernährung, Landwirtschaft und Forsten hat am 14. Januar 1969 mitgeteilt, daß vom Ausschuß gegen die Verordnung des Rates über die Beteiligung des Europäischen Ausrichtungs- und Garantiefonds für die Landwirtschaft, Abteilung Ausrichtung, für das Jahr 1969 — Drucksache V/3392 —, die inzwischen vom Rat beschlossen wurde, keine Bedenken erhoben worden sind. Der Präsident des Deutschen Bundestages hat mit Schreiben vom 15. Januar 1969 gemäß § 96 a der Geschäftsordnung die von der Bundesregierung als dringlich bezeichnete Verordnung zur Änderung des Deutschen Teil-Zolltarifs (Nr. 1/68 — Zollkontingent für Sulfat- oder Natronzellstoff) — Drucksache V/3708 —</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg6">mit der Bitte um fristgemäße Behandlung an den Ausschuß für Wirtschaft und Mittelstandsfragen überwiesen. Der Bundesminister für Verkehr hat am 10. Januar 1969 die Kleine Anfrage der Abgeordneten Dr. Imle, Ramms und der Fraktion der FDP betr. Sanierung der Deutschen Bundesbahn (DB)</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg7">— Drucksache V/3674 — beantwortet. Sein Schreiben wird als Drucksache V/3718 verteilt. Einziger Punkt der Tagesordnung: Fragestunde — Drucksachen V/3724, V/3705 Wir beginnen mit den Dringlichen Mündlichen Anfragen auf Drucksache V/3724. Ich darf dazu eine Bemerkung machen. Die Dringliche Anfrage Nr. 4 des Herrn Abgeordneten Mattick ist irrtümlich auf die Fragenliste gesetzt worden. Sie ist dem Wortlaut nach als Anfrage nicht zulässig. Im Einvernehmen mit dem Herrn Bundestagspräsidenten, dem diese irrtümliche Aufnahme dieser Frage in die Fragenliste entgangen ist, wird die Zulassung dieser Frage zurückgezogen. Wir kommen zur Beantwortung der Frage 1 des Herrn Abgeordneten Sänger:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg8">Ist die Bundesregierung der Auffassung, daß die Neufassung des § 50 StGB irgendwelche Auswirkungen auf die Strafverfolgung von sogenannten „NS-Tätern”, insbesondere der sogenannten „Schreibtisch-Täter" hat? Das Wort zur Beantwortung hat der Herr Bundesjustizminister.</seg>
+        </u>
+        <note type="speaker">Dr. Dr. Heinemann, Bundesminister der Justiz:</note>
+        <u who="#Q2573" xml:id="ParlaMint-DE_1969-01-16-05-208.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg9">Herr Präsident, ich bitte um Ihr Einverständnis, daß ich die Fragen 1 und 2 einheitlich beantworte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg10">Ich bitte darum und rufe zusätzlich die Frage 2 des Herrn Abgeordneten Sänger auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg11">Welches könnten solche Auswirkungen sein?</seg>
+        </u>
+        <note type="speaker">Dr. Dr. Heinemann, Bundesminister der Justiz:</note>
+        <u who="#Q2573" xml:id="ParlaMint-DE_1969-01-16-05-208.u4" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg12">Die Bundesregierung ist erstaunt über die vielen Meldungen in der Öffentlichkeit, wonach die Neufassung des § 50 des Strafgesetzbuchs dazu führe, daß die große Mehrzahl der NS-Täter nicht mehr bestraft werden könne. Die Neufassung ist — unstreitig — ohne Einfluß auf die Bestrafung von NS-Mordtätern. Sie ist weiter — unstreitig — ohne Einfluß auf die Bestrafung jener NS-Mordgehilfen, welche die besonderen Merkmale einer Mordtat in eigener Person erfüllen, also z. B. entweder selbst „heimtückisch" oder „grausam" oder „mit gemeingefährlichen Mitteln" oder „aus niedrigen Beweggründen" gehandelt haben. Da Schreibtischtäter in maßgeblicher Stellung in aller Regel in eigener Person „aus niedrigen Beweggründen" gehandelt haben, bleiben sie strafbar wie bisher. Es wird behauptet, die Rechtsänderung könnte hinsichtlich solcher Mordgehilfen Bedeutung erlangen, welche die Mordmerkmale nicht in eigener Person erfüllten, sondern lediglich wußten, daß sie beim Haupttäter vorlägen. Diese Behauptung ist jedoch nicht richtig. Sie würde nur dann zutreffen, wenn die Merkmale „heimtückisch", „grausam", „mit gemeingefährlichen Mitteln" oder „aus niedrigen Beweggründen", die die rechtswidrige Tötung eines Menschen zum Mord machen, nicht auf die Tat, sondern auf den Täter zu beziehen wären. Die Rechtsprechung bezieht diese Merkmale aber samt und sonders auf die Tat und nicht auf die Person des Täters. Das gilt also — um es noch einmal zu sagen — auch für das Merkmal der niedrigen Beweggründe. Diese Rechtsprechung lag der Reformarbeit am Strafrecht zugrunde. Indem § 50 Abs. 2 des Strafgesetzbuchs neuer Fassung den seit langem feststehenden Begriff der „besonderen persönlichen Merkmale" übernimmt, besteht kein Anlaß, anzunehmen, daß die Rechtsprechung nunmehr diesen Begriff anders als bisher auslegen werde. In einer Entscheidung vom 14. Januar dieses Jahres, also vor zwei Tagen, bestätigt der Bundesgerichtshof, daß Heimtücke nicht zu den in § 50 des Strafgesetzbuchs neuer Fassung genannten persönlichen Merkmalen gehört, weil sie auf den äußeren Hergang der Tat bezogen ist. In einer Entscheidung des Kammergerichtes Berlin vom 6. Januar dieses Jahres wird dasselbe von dem Merkmal der „niedrigen Beweggründe" bestätigt. Es handelt sich dabei um einen höheren SS-Führer, also um einen Schreibtischtäter, der an der sogenannten Endlösung der Judenfrage mitgewirkt zu haben dringend verdächtig ist. Der Beschluß sagt:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg13">Die sogenannte Endlösung der Judenfrage, an der der Angeschuldigte in verantwortlicher Stellung teilgenommen hat, war ein Massenmord, der keine anderen Beweggründe hatte als den Wunsch der nationalsozialistischen Machthaber, einen von ihnen für minderwertig gehaltenen Teil der Bevölkerung aus rassischen Gründen auszurotten. Das war all denen, die sich daran beteiligt haben, bekannt. Ein ranghöherer SS-Führer wie der Angeschuldigte wird für die Teilnahme an diesem Massenmord keine anderen Beweggründe gehabt haben als diejenigen, die das Verbrechen geplant und befohlen haben. Dann heißt es in derselben Kammergerichtsentscheidung an anderer Stelle wie folgt:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg14">Selbst wenn der Angeschuldigte annimmt, daß das Schwurgericht bei ihm niedrige Beweggründe nicht würde feststellen können, käme eine obligatorische Strafmilderung nach § 50 Abs. 2 StGB n. F. nicht in Betracht. Diese Vorschrift bestimmt, daß die Strafe für die Teilnehmer nach den Grundsätzen der Bestrafung des Versuchs zu mildern ist, sofern ihm besondere persönliche Merkmale fehlen, die die Strafbarkeit des Täters begründen. Hierbei muß es sich um täterbezogene Merkmale handeln; Merkmale, die lediglich oder in erster Hinsicht die Tat als besonders schwer erscheinen lassen, fallen nicht darunter. Nach der Rechtsprechung des BGH aber ist das in § 211 Abs. 2 StGB aufgeführte Mordmotiv des niedrigen Beweggrundes ein inneres Merkmal, das in erster Linie die Tat als besonders schwer erscheinen läßt, mag es mitunter außerdem auch den Charakter des Täters beleuchten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg15">Zusatzfrage, Herr Kollege Sänger.</seg>
+        </u>
+        <note type="speaker">Sänger (SPD) :</note>
+        <u who="#Q1468600" xml:id="ParlaMint-DE_1969-01-16-05-208.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg16">Herr Bundesminister, habe ich Sie richtig verstanden, daß Sie sagen wollten, daß auch vor dem Urteil vom 14. Januar und dem Berliner Kammergerichtsurteil diese Auslegung des § 50 in der neuen Fassung von vornherein feststand, also die Tatbezogenheit und nicht die Täterbezogenheit der Merkmale maßgebend war?</seg>
+        </u>
+        <note type="speaker">Dr. Dr. Heinemann, Bundesminister der Justiz:</note>
+        <u who="#Q2573" xml:id="ParlaMint-DE_1969-01-16-05-208.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg17">Ich wollte darlegen, daß die Rechtsprechung vor der Reform des Strafrechts alle diese Merkmale, die eine Tötung zum Mord machen, als tatbezogen interpretiert hat. Von dieser Rechtsprechung ist die Reformarbeit ausgegangen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg18">Wir kommen dann zur Frage 3 des Abgeordneten Mattick:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg19">Sieht die Bundesregierung irgendeine sachliche Begründung für die Behauptung des „Spiegel" und des „Bayern-Kurier", angesichts der besonderen Bemühungen des Bundesjustizministers um eine Aufhebung der Verjährung für Mord und Völkermord handele es sich bei der Neuformulierung des § 50 StGB um eine „epochale Fehlleistung"?</seg>
+        </u>
+        <note type="speaker">Dr. Dr. Heinemann, Bundesminister der Justiz:</note>
+        <u who="#Q2573" xml:id="ParlaMint-DE_1969-01-16-05-208.u9" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg20">Die Neufassung des § 50 Abs. 2 des Strafgesetzbuches entspricht Vorschlägen, die von der Rechtslehre seit langem vertreten werden, im Alternativ-Entwurf der Gruppe jüngerer Strafrechtslehrer enthalten sind und mit dem Entwurf 1962 seit längerer Zeit auch dem Bundestag vorlagen. Da man im Gesetz über Ordnungswidrigkeiten eine besondere Vorschrift brauchte, die ebenfalls den Begriff der besonderen persönlichen Merkmale enthielt, entschloß man sich im Bundesjustizministerium lange vor meiner Zeit, insoweit die Strafrechtsreform vorwegzunehmen und den geltenden § 50 des Strafgesetzbuches bereits mit dem Einführungsgesetz zum Gesetz über Ordnungswidrigkeiten auf einen modernen Stand zu bringen. In dieser Form ist dann der Entwurf des Einführungsgesetzes zum Ordnungswidrigkeitengesetz bereits von meinem Vorgänger im Amt dem Kabinett vorgelegt worden. Die Neufassung des § 50 des Strafgesetzbuches will eine der individuellen Schuld angemessene Bestrafung des Teilnehmers ermöglichen. Wenn in diesem Zusammenhang von einer „epochalen Fehlleistung" gesprochen wird, so scheint mir darin nicht nur ein Vergreifen im Ausdruck zu liegen. Ich darf auf die Ausführungen verweisen, die ich in meiner Antwort auf die Fragen des Herrn Kollegen Sänger soeben gemacht habe. Meine Forderung nach Aufhebung der Verjährung für Mord und Völkermord wird die Rechtsänderung in keiner Weise berühren. Sie ist und bleibt eine besondere vordringliche Aufgabe, die nicht länger hinausgeschoben werden sollte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u10" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg21">Bitte, Herr Kollege Mattick.</seg>
+        </u>
+        <note type="speaker">Mattick (SPD) :</note>
+        <u who="#Q1793852" xml:id="ParlaMint-DE_1969-01-16-05-208.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg22">Herr Minister, darf ich mir die Frage erlauben, ob Sie mir zustimmen, wenn ich sage, daß diese diffamierende Bemerkung in den Zeitungen eine Ablenkung davon sein soll, daß diese Zeitungen gegen eine Aufhebung der Verjährung Stellung nehmen wollen.</seg>
+        </u>
+        <note type="speaker">Dr. Dr. Heinemann, Bundesminister der Justiz:</note>
+        <u who="#Q2573" xml:id="ParlaMint-DE_1969-01-16-05-208.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg23">Dieser Ihrer Interpretation, Herr Kollege, will ich nicht widersprechen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg24">Damit sind die Dringlichkeitsfragen aus dem Geschäftsbereich des Bundesministers der Justiz beantwortet. Wir haben jetzt eine Dringlichkeitsfrage aus dem Geschäftsbereich des Bundesministers für gesamtdeutsche Fragen, und zwar die Frage des Herrn Abgeordneten Müller (Berlin):</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg25">Welche Pressemeldung entspricht nun den Tatsachen: die Meldung der Zeitung „Die Welt" vom 14. Januar 1969, wonach Bundesminister Wehner auf die Frage zu dem Beschluß, die Bundesversammlung nach Berlin anzuberaumen, erklärt hat, „ich habe keine Bedenken und habe auch jetzt keine", oder die der Augsburger Allgemeinen" vom 13. Januar 1969, wonach der Bundesminister kein Hehl daraus gemacht hat, daß er die Entscheidung Gerstenmaiers für Berlin als falsch ansieht, mit seinen Einwänden habe er jedoch allein gestanden? Das Wort zur Beantwortung hat Herr Bundesminister Wehner.</seg>
+        </u>
+        <note type="speaker">Wehner, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1969-01-16-05-208.u14" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg26">Herr Präsident, ich möchte auf die Fragen des Herrn Kollegen Müller antworten: Bei den beiden hier angeführten Pressedarstellungen handelt es sich um journalistisch freie Bearbeitungen von Meinungen, die ich auf Fragen geäußert habe, deren Gegenstand die Entscheidung des Herrn Präsidenten des Deutschen Bundestages über die Einberufung der Bundesversammlung nach Berlin war. In der Augsburger Zeitung ist die Form der Äußerungen, die ich in einem Gespräch mit Journalisten gemacht hatte, als Interview, am folgenden Tag sogar als Exklusivinterview bezeichnet worden,</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg27">während die andere Zeitung, die Sie genannt haben, die „Welt", sich auf ein Gespräch mit mir bezieht. Im Fall der „Welt" gibt es wohl — da ich nicht annehme, daß sie gelöscht worden ist — eine Bandaufnahme, die mit meinem Wissen angefertigt worden ist, und stenographische Teile. Aber beide befinden sich im Besitz der Fragesteller, nicht in meinem Besitz. Allerdings hat diese Zeitung auch nicht behauptet, sie veröffentliche ein Interview mit mir. Im ersten Fall, dem der Augsburger Zeitung, kann es meines Wissens lediglich Notizen der Journalisten geben. Es mag unterschiedliche Auffassungen darüber geben — und es gibt sie natürlich —, wann von einem Interview gesprochen werden kann. Ich kann hier nur meine eigene Auffassung darlegen. Sie besteht darin, daß ein Interview dem Interviewten im Text vorgelegen haben muß, ehe es als Interview veröffentlicht wird. Dem Journalisten ist es im übrigen unbenommen, zu schreiben, was er von den Auffassungen jemandes hört, der ihm Fragen beantwortet hat. Aber ein Interview ist das nicht. Das ist hier nicht geschehen. So muß ich Sie, Herr Kollege Müller, weil Sie präzis gefragt haben, was denn nun eigentlich stimme oder welche Pressemeldung den Tatsachen entspreche — Sie nannten eine vom 14. und eine vom 13. —; auf eine vom 15. Januar verweisen; ich bitte Sie um Entschuldigung. Dort habe ich in einer Harburger Zeitung über diesen Vorgang geschrieben und dann präzis folgendes zur Veröffentlichung gebracht:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg28">Es ist meine Auffassung, daß wir nicht weniger Recht dazu haben, die Bundesversammlung in Berlin abzuhalten, als die Volkskammer, die regelmäßig in Berlin tagt, für sich in Anspruch nimmt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg29">Wenn der Bundestagspräsident, zu dessen Pflichten es gehört, den Ort und die Zeit für den Zusammentritt der Bundesversammlung zu bestimmen, die Bundesversammlung zum 5. März nach Berlin einberufen hat, so respektiere ich diese Entscheidung. Ich bestreite oder bezweifle nicht die Rechtmäßigkeit der Entscheidung des Bundestagspräsidenten; ich wünsche und bemühe mich, dazu nach meinen Kräften beizutragen, daß diese Entscheidungsfreiheit uneingeschränkt bleibt. Die Gegenseite in Ost-Berlin nimmt die Bundesversammlung zum Vorwand für die Androhung von Pressionen. Meine Mahnung richtet sich an alle, die etwas dazu beitragen können, daß solche Pressionen nicht die Einwohner Berlins treffen oder zu ihren Lasten gehen. Wenn im Streit um den Tagungsort der Bundesversammlung auf beiden Seiten Prestige-Gesichtspunkte maßgebend werden sollten, würde die Situation für die Berliner zu Unrecht zusätzlich belastet. Das ist der Sachverhalt, um den es geht. Darüber muß sachlich gesprochen werden können. Es handelt sich nicht darum, die Erörterungen über die Bundesversammlung noch einmal von vorn zu beginnen, sondern darum, mit Umsicht zu tun, was möglich ist, damit nicht die an den Haaren herbeigezogenen Scheinargumente der Gegenseite zu einem Strick gedreht werden können. Das ist das, was ich am 15. Januar formuliert habe, und das ist genau das, was ich, jener Meldung — sie bezeichnen sie als Meldung, ich sage „Darstellung" — zugrunde liegend, am Samstag, dem 11., in einem Gespräch mit Journalisten gesagt habe, wobei ich mich dagegen wehren mußte, daß wir in einer Situation stünden, in der man noch einmal von vorn beginnen und entscheiden könnte. Ich habe gesagt, die Entscheidung ist getroffen. Jetzt geht es um das, was zu tun ist, und zwar von allen beteiligten Seiten. Es sind sehr viele. Einige davon habe ich kürzlich in einer großen öffentlichen Diskussion angesprochen. Ich setze darauf manche Hoffnung. Das ist die neu ihr Amt antretende amerikanische Administration, die in diesen Fragen vor schwierigen Dingen, über die Gras gewachsen ist, steht. Das ist es, was den Tatbestand ausmacht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u15" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg30">Zusatzfrage, Kollege Müller.</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1969-01-16-05-208.u16" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg31">Darf ich, Herr Präsident, zunächst dem Herrn Bundesminister für die präzise Darstellung vom 15. danken. Nun eine Zusatzfrage: Herr Bundesminister, würden Sie mir zustimmen, wenn ich sage, daß die Wiedergabe Ihrer Äußerung in der Form, wie es die „Augsburger Allgemeine" getan hat, nicht nur eine Frage an die Person des Bundesministers ist, sondern eine üble — ich sage ausdrücklich: üble — Methode, die öffentliche Meinung zu vergiften, und daß sie damit auch die nationalen Interessen des deutschen Volkes beeinträchtigt?</seg>
+        </u>
+        <note type="speaker">Wehner, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1969-01-16-05-208.u17" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg32">Ich bitte Sie, Herr Kollege Müller, um Entschuldigung." Aber ich trete in keinerlei Wertung ein. Ich habe es nicht getan und kann es nicht. Ich habe denen, die dafür die Verantwortung zu tragen haben, erklärt, daß ihre Art, wie sie eine Darstellung gegeben haben, nicht den Tatsachen entspricht und was damit an Schaden angerichtet werden kann. Aber ich muß es ablehnen, sie über diese Feststellung hinaus in irgendeiner Weise zu qualifizieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u18" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg33">Eine weitere Zusatzfrage, Herr Kollege Müller.</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1969-01-16-05-208.u19" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg34">Würde die Bundesregierung wenigstens einmal (Überlegungen anstellen, wie man solcher Art und Weise bei Beachtung der Pressefreiheit begegnen könnte, um die Öffentlichkeit richtig zu unterrichten?</seg>
+        </u>
+        <note type="speaker">Wehner, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1969-01-16-05-208.u20" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg35">Es gehört zu den Risiken der Pressefreiheit, so wie sie eben ist, daß man zeitweilig in eine seltsame Situation kommt, weil diejenigen, die davon Gebrauch machen können, Darstellungen geben, auf die man dann antworten muß. Das Betrübliche daran ist nicht die Pressefreiheit, sondern die Folge, daß zeitweilig manche meinen, das, was da gemeldet oder geschrieben oder dargestellt worden ist, müsse doch wohl stimmen; sonst könne es ja nicht schwarz auf weiß da stehen. Selbst dann — ich habe einige Stammbucheintragungen von einigen Redakteuren bekommen —, wenn sie hinzusetzen: Von dem hätten wir das zuallerletzt erwartet, tut es natürlich weh. Ich bitte Sie um Entschuldigung für diese sentimentale Bemerkung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg36">Zusatzfrage, Kollege Schlager.</seg>
+        </u>
+        <note type="speaker">Schlager (CDU/CSU) :</note>
+        <u who="#Q1889887" xml:id="ParlaMint-DE_1969-01-16-05-208.u22" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg37">Herr Bundesminister, was werden Sie dazu tun, daß Ihre heutige Erklärung auch in der „Augsburger Allgemeinen" wiedergegeben wird?</seg>
+        </u>
+        <note type="speaker">Wehner, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1969-01-16-05-208.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg38">Ich bin in dieser Beziehung sehr zurückhaltend. Ich weiß, daß einige Kollegen aus Ihrer Fraktion — womit ich gar nichts über die Fraktion sage — einmal mit einigen Kollegen der Fraktion, der ich selbst angehöre, eine Art Wette abgeschlossen haben — leider konnte ich am Ertrag nicht teilnehmen —,</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg39">und zwar darüber, ob von Antworten, die ich, wenn ich mich richtig entsinne, am 9. Mai hier auf sehr präzise Fragen gegeben habe, die die damals durch Plebiszit eingeführte DDR-Verfassung betrafen — eine Antwort, auch auf Zusatzfragen, von der ich glaubte, sie stehe, damit könne man etwas machen —, eine Zeile veröffentlicht werde. Diejenigen haben gewonnen — sie waren aus meiner eigenen Fraktion —, die gesagt haben, es werde nichts veröffentlicht werden. So ist es. Man kann niemanden, weder zur Liebe noch zur Veröffentlichung, zwingen.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg40">Es ist natürlich ganz schlimm, wenn ich beides zusammen bringe, die Liebe und das Veröffentlichen. Ich kann mich nur darauf verlassen, daß es den einen oder anderen gibt, der es durch irgendeine Agenturmeldung liest. Es kann ja sein, daß die Agenturen hier mindestens Aufnahmeapparate haben; denn die Pressetribüne ist so wie immer. Mehr kann ich nicht tun. Ich schicke natürlich — das will ich Ihnen versprechen, welche Interessen Sie immer dabei haben — den Augsburgern meine Antwort. Das ist alles.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg41">Wir kommen damit zur Beantwortung der Fragen aus dem Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit, zunächst zur Frage 132 des Herrn Abgeordneten Freiherr von Gemmingen:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg42">An welche multilateralen Organisationen hat der Bundesminister für wirtschaftliche Zusammenarbeit primär gedacht, als er in einer Pressekonferenz am 21. November 1968 ausführte, in der Entwicklungshilfe sei das ökonomisch Zweckmäßige häufig über multilaterale Institutionen leichter durchzusetzen als bilateral? Das Wort zur Beantwortung hat Herr Bundesminister Dr. Eppler.</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg43">Herr Präsident, auf der Pressekonferenz vom 21. November habe ich angekündigt, daß auch in Zukunft der Schwerpunkt unserer Entwicklungshilfe bei der bilateralen Hilfe liegen wird. Ich habe hinzugefügt, daß in der zweiten Entwicklungsdekade eine stärkere Koordinierung der Entwicklungspolitik, insbesondere über multilaterale Organisationen, an Bedeutung gewinnen wird und daß ich keinen Anlaß dafür sehe, daß wir uns gegen diesen Trend sperren. Wir sollten vielmehr versuchen, die darin liegenden neuen' Aufgaben sorgfältig zu prüfen und die politischen Chancen, die sich dabei abzeichnen, zu ergreifen. Außerdem muß die Bundesrepublik als Nichtmitglied der Vereinten Nationen ein besonderes Interesse an einer möglichst intensiven Mitarbeit in den verschiedenen Sonderorganisationen der UNO haben. Der internationale Trend zur Ausweitung der multilateralen Aufgaben schlägt sich schon im Haushalt 1969 des Einzelplans 23 nieder, der noch von meinem Herrn Vorgänger eingebracht wurde. Dort ist eine Steigerung der multilateralen Entwicklungshilfe in Höhe von 30 % gegenüber dem Haushalt 1968 vorgesehen. Von dem Steigerungsbetrag des Einzelplans 23 von etwa 163 Millionen DM entfallen 131,5 Millionen DM auf die Erhöhung im multilateralen Teil, der Rest übrigens auf die bilaterale technische Hilfe. Nach den bisher gültigen Dispositionen meines Hauses — übrigens auch gemacht, ehe ich das Amt antrat — wird auch in den kommenden Jahren ein wesentlicher, wenn auch etwas geringerer Teil der Zuwachsrate im Einzelplan 23 auf multilaterale Hilfe entfallen. Wir sollten vor allem mit den multilateralen Organisationen zusammenarbeiten, die ihrer Struktur nach bereit und in der Lage sind, das für die Entwicklungsländer ökonomisch Sinnvolle durchzusetzen. Ich denke dabei besonders an die Weltbankgruppe oder an das Entwicklungsprogramm der Vereinten Nationen, UNDP, in denen die Entwicklungsländer selbst mitarbeiten. Eine internationale Organisation kann z. B. in Einzelfällen politische Einflüsse in einem Entwickungsland besser neutralisieren und die ökonomischen Interessen besser berücksichtigen, etwa erforderliche Reformen in Gang bringen oder strittige Rechtsfragen klären. Auch dort, wo nationale Empfindlichkeiten oder Prestige im Spiel sind, oder z. B. in Fragen der Bevölkerungskontrolle könnte die Hilfe einer internationalen Organisation vorzuziehen sein. Der Vorzug der Einschaltung internationaler Organisationen bei der Bearbeitung von Großprojekten der Infrastruktur und bei Vorhaben der industriellen und verkehrsmäßigen Erschließung von Großräumen ist in der Vergangenheit ebenfalls klargeworden. Vizepräsdent Scheel: Zusatzfrage, Herr Kollege von Gemmingen.</seg>
+        </u>
+        <note type="speaker">Freiherr von Gemmingen (FDP) :</note>
+        <u who="#Q1555810" xml:id="ParlaMint-DE_1969-01-16-05-208.u26" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg44">Herr Minister, da ich Ihre Antwort nicht als ganz zufriedenstellend ansehen kann, darf ich Sie fragen: Wie weit sollte dann und kann die über multilaterale Organisationen gewährte Hilfe als deutscher Beitrag erkennbar gemacht werden?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg45">Herr Kollege von Gemmingen, ich glaube, daß diejenigen Menschen in den Entwicklungsländern, die einen sehr großen Einfluß auf die öffentliche Meinung dort haben, also die Meinungsmacher, sehr genau darauf achten, was wir an multilateraler Hilfe bereitstellen, und vor allem auch darauf achten, ob wir den Grundsatz der Effizienz in der Entwicklungshilfe an die Spitze aller Erwägungen stellen. Ich glaube, daß die Wirkung einer solchen Konzentration auf das im Einzelfall Effiziente, sei es bilateral, sei es multilateral, auf die Dauer auch am deutlichsten unser Engagement zu erkennen gibt. Im übrigen wird in der UNO-Vollversammlung und auch durch die OECD bekanntgemacht, was wir leisten. Vielleicht darf ich hinzufügen, daß aus den multilateralen Fonds vor allem der Weltbankgruppe ein großer Teil über deutsche Lieferungen in die Entwicklungsländer geht, so daß von daher schon der deutsche Beitrag sichtbar wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg46">Eine weitere Zusatzfrage, Herr Kollege von Gemmingen.</seg>
+        </u>
+        <note type="speaker">Freiherr von Gemmingen (FDP) :</note>
+        <u who="#Q1555810" xml:id="ParlaMint-DE_1969-01-16-05-208.u29" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg47">Angesichts der mittelfristigen Finanzierungsvolumen der Entwicklungshilfe möchte ich fragen, zu Lasten welcher Positionen sie gehen, wenn das für die multilaterale Entwicklungshilfe der Fall ist, und welche Gründe dafür eigentlich maßgebend waren.</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u30" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg48">Herr Kollege von Gemmingen, ich habe vorhin schon in meiner Antwort gesagt, daß es sich nicht darum handelt, die multilaterale Hilfe zu Lasten im Augenblick bereits laufender Maßnahmen auszudehnen. Erstens habe ich niemals gesagt, daß wir nun von uns aus in Multilaterismus machen sollen, wenn die anderen nicht mittun, sondern ich habe gesagt, daß wir uns zur Mitarbeit bereit zeigen sollen, wenn dies allgemein akzeptiert wird. Außerdem habe ich vorhin gesagt, daß sich die Zuwachsraten schon im Haushalt 1969 überwiegend auf multilaterale und bilaterale technische Hilfe konzentrieren. Dies dürfte in Zukunft ähnlich sein, daß nämlich multilaterale Hilfe und technische bilaterale Hilfe überproportional wachsen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u31" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg49">Eine Zusatzfrage, Herr Kollege Brück.</seg>
+        </u>
+        <note type="speaker">Brück (Holz) (SPD) :</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1969-01-16-05-208.u32" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg50">Herr Minister, Sie sprachen eben davon, daß ein beachtlicher Teil der Aufträge der Weltbank an deutsche Firmen gegangen ist. Können Sie mir sagen, wie das Verhältnis zwischen deutschen Einzahlungen in multilateraler Form und Aufträgen an deutsche Firmen im vergangenen Jahr grundsätzlich war?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg51">Herr Kollege Brück, die deutschen Einzahlungen bei der Weltbank betragen 5,3%. Die Weltbank bestellt in der Bundesrepublik 12 %. Die deutschen Einzahlungen bei der IDA, der Weltbanktochter, betragen 5,7%; die Lieferungen aus der Bundesrepublik betragen etwa 15%. Dies bedeutet, daß für jede Mark, die wir der Weltbank oder einer ihrer Töchter gegeben haben, zwischen 2 und 3 DM Bestellungen in der Bundesrepublik aufgegeben wurden, während es bei der bilateralen Kapitalhilfe für jede Mark nur 80 Pfennig gewesen sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u34" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg52">Eine weitere Zusatzfrage, Herr Kollege Brück.</seg>
+        </u>
+        <note type="speaker">Brück (Holz) (SPD) :</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1969-01-16-05-208.u35" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg53">Herr Minister, können Sie mir auch sagen, wie das Verhältnis beim EWG-Fonds gewesen ist?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u36" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg54">Ja, Herr Kollege. Beim EWG-Fonds war das Verhältnis lange Zeit sehr unbefriedigend. Es hat sich in den letzten Jahren zusehends gebessert. Wir sind im Augenblick — im Jahre 1968 — bei 22 % der Lieferungen aus dem Zweiten EWG-Entwicklungsfonds gegenüber etwa 33% Beitrag. Wenn Sie es umrechnen, bedeutet dies, daß etwa 65% .von jeder Mark, die wir dorthin geben, wiederum in die deutsche Wirtschaft zurückfließen. Das ist etwas weniger als bei der bilateralen Kapitalhilfe. Ingesamt kann man aber sagen, wenn man alle multilateralen Organisationen zusammennimmt, daß das, was bei der deutschen Wirtschaft bestellt wird, pro ausgegebener D-Mark multilateral sehr viel mehr ist als bilateral.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u37" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg55">Eine Zusatzfrage, Herr Kollege Kahn-Ackermann.</seg>
+        </u>
+        <note type="speaker">Kahn-Ackermann (SPD) :</note>
+        <u who="#Q105732" xml:id="ParlaMint-DE_1969-01-16-05-208.u38" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg56">Herr Minister, würden Sie mir beipflichten, daß wohl in diesem Zusammenhang schon heute ersichtlich ist, daß in einer Reihe von Jahren, wenn man auch nicht gerade alles auf den multilateralen Sektor verlagert, doch für bilaterale Entwicklungshilfemaßnahmen im Interesse eines besseren wirtschaftlichen Fortschritts eine stärkere internationale Koordinierung dringend geboten ist?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u39" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg57">Ich bin Ihnen sehr dankbar für die Frage, Herr Kollege Kahn-Ackermann. Davon habe ich ja gerade in der Pressekonferenz gesprochen, daß die Koordination zwischen den verschiedenen bilateralen Maßnahmen unabhängig von den multilateralen Organisationen in Zukunft sehr viel wichtiger sein wird; dies übrigens nicht nur auf dem Gebiet des Geldes, des Kapitals und der technischen Hilfe, sondern auch auf dem Gebiet der Entwicklungsdienste. Vielleicht ist Ihnen bekannt, daß am 20. Dezember letzten Jahres in der UNO-Vollversammlung ein persischer Antrag einstimmig angenommen worden ist, den Wirtschafts- und Sozialrat der UNO mit der Prüfung der Möglichkeit eines internationalen Entwicklungsdienstes zu beauftragen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u40" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg58">Weitere Zusatzfrage, Kollege Kahn-Ackermann.</seg>
+        </u>
+        <note type="speaker">Kahn-Ackermann (SPD) :</note>
+        <u who="#Q105732" xml:id="ParlaMint-DE_1969-01-16-05-208.u41" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg59">Herr Minister, können Sie uns vielleicht schon sagen, ob die Bundesregierung in diesem Jahr verstärkt aus eigener Initiative solche Konsultationsgespräche mit anderen Geberländern suchen wird, um diese bessere Koordination herbeizuführen?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u42" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg60">Ja, das erste Gespräch, das vorgesehen ist, findet bei einem Besuch von mir im März bei meinem britischen Kollegen in London statt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u43" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg61">Zusatzfrage, Kollege Porsch.</seg>
+        </u>
+        <note type="speaker">Porsch (FDP) :</note>
+        <u who="#Q2562287" xml:id="ParlaMint-DE_1969-01-16-05-208.u44" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg62">Herr Minister, welche multilateralen Organisationen müssen bei der in Aussicht genommenen Konzentration von der Bundesregierung vorgezogen werden? Gehören auch regionale Entwicklungsbanken dazu?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u45" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg63">Ja, Herr Kollege, regionale Entwicklungsbanken haben den Vorzug, daß sie auf die Region, in der sie wirken, eine starke Integrationswirkung haben. Wir haben natürlich ein Interesse daran, daß die Entwicklungsländer auch unter sich kooperieren. Viezpräsident Scheel: Wir kommen damit zur Beantwortung der Frage 133 des Herrn Abgeordneten Freiherr von Gemmingen:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg64">Welche Gründe haben den Bundesminister für wirtschaftliche Zusammenarbeit bewogen, in der Pressekonferenz den bisher von der Bundesrepublik Deutschland vertretenen Grundsatz der Lieferungebundenheit trotz der gegenläufigen Tendenzen bei den anderen Hauptgeberländern stärker zu betonen? Das Wort zur Beantwortung hat der Herr Bundesminister Dr. Eppler.</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg65">Herr Kollege von Gemmingen, Sie haben nach der Lieferbindung gefragt. Die Bundesregierung hat sich wie auch ursprünglich alle anderen großen westlichen Geberländer stets zum Grundsatz der Lieferungebundenheit der Kapitalhilfe bekannt. Entsprechende Erklärungen wurden auf den Welthandelskonferenzen, in der OECD und in der EWG deutscherseits wiederholt abgegeben. Dieser Haltung, lag und liegt die Auffassung zugrunde, daß ein möglichst wirksamer Einsatz der bereitgestellten Kredite am ehesten durch eine Lieferungebundenheit der Kapitalhilfe aller Geberländer garantiert wird. Nachdem jedoch praktisch alle anderen großen westlichen Geberländer auf Grund eigener Zahlungsbilanzschwierigkeiten mehr und mehr zu einer strikten Bindung ihrer Mittel an Lieferungen aus ihren Ländern übergingen, mußte die Bundesregierung zur Sicherung ihrer eigenen entwicklungspolitischen oder handelspolitischen Interessen in besonderen Fällen ebenfalls eine Bindung der deutschen Kapitalhilfemittel an deutsche Lieferungen vornehmen. Dies kann z. B. bei wirtschaftlicher Notlage eines bestimmten deutschen Wirtschaftszweiges oder aber bei einer Wettbewerbsverzerrung, die sich durch liefergebundene Kredite dritter Länder ergibt, der Fall sein. In der Vergangenheit sind dank der hohen Wettbewerbsfähigkeit der deutschen Wirtschaft mehr als auf Grund einzelner Lieferbindungen über 80 % der deutschen Kapitalhilfe für Lieferungen aus der Bundesrepublik Deutschland verwendet worden. Angesichts der Wettbewerbsfähigkeit der deutschen Wirtschaft und der daraus resultierenden Überschüsse im Außenhandel, die erst vor kurzem einschneidende Maßnahmen im Außenwirtschaftsbereich erforderten, sollten wir bei den Ausnahmen vom Prinzip der Lieferungebundenheit noch zurückhaltender als bisher verfahren. Dies insbesondere auch im Hinblick darauf, daß wir die von uns erhobene Exportsteuer nicht noch über eine besondere Bindung auf die Entwicklungsländer abwälzen sollten. Lassen Sie mich hinzufügen, Herr Kollege von Gemmingen: In unserer gegenwärtigen außenwirtschaftlichen Position können wir uns einiges leisten; nur eines nicht, nämlich so zu tun, als ob wir uns nichts leisten könnten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg66">Eine Zusatzfrage, Herr Kollege von Gemmingen.</seg>
+        </u>
+        <note type="speaker">Freiherr von Gemmingen (FDP) :</note>
+        <u who="#Q1555810" xml:id="ParlaMint-DE_1969-01-16-05-208.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg67">Herr Minister, kann dann eigentlich das von Ihnen auf der besagten Pressekonferenz geforderte Ziel, die Entwicklung neuer Märkte für unsere Industrien in der Zukunft, wirklich dadurch erreicht werden, daß der Grundsatz der Lieferungebundenheit noch stärker in den Vordergrund gestellt wird?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg68">Verehrter Herr Kollege von Gemmingen, das ist zuerst einmal eine Frage des Volumens. Nehmen wir an, daß sich der deutsche Lieferanteil an der bilateralen deutschen Kapitalhilfe etwa von 80 % auf 70% vermindern würde, dann handelt es sich hier um einen Betrag von etwa 140 Millionen DM. Dies ist etwas mehr als 1 % unseres Gesamtexports und einiges weniger als 1% unseres Exports in die Entwicklungsländer. Im übrigen: was wir auf lange Sicht brauchen, sind kaufkräftige Märkte in den Entwicklungsländern. Diese zu entwickeln, ist die wichtigere Aufgabe, wichtiger, als dort im Augenblick eine kleine Einzelposition zu erobern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u50" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg69">Eine weitere Zusatzfrage des Herrn Kollegen von Gemmingen.</seg>
+        </u>
+        <note type="speaker">Freiherr von Gemmingen (FDP) :</note>
+        <u who="#Q1555810" xml:id="ParlaMint-DE_1969-01-16-05-208.u51" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg70">Besteht nicht gerade angesichts der Haltung der anderen Geberländer wie z. B. der USA in dieser Frage doch die Gefahr, daß dadurch langfristig Märkte und Arbeitsplätze verlorengehen?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u52" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg71">Herr Kollege von Gemmingen, ein Land wie die Bundesrepublik, das eine Exportsteuer einführt, damit der Exportüberschuß nicht unsere und anderer Länder Zahlungsbilanz völlig aus dem Gleichgewicht bringt, sollte sich nicht gezwungen sehen, nun ausgerechnet in der Entwicklungshilfe generell und in jedem Fall Lieferbindungen einzusetzen, nur um vielleicht noch einmal Exporte im Werte von 100 Millionen oder 200 Millionen zu haben, wo es uns doch darum geht, den Außenhandelsüberschuß um Milliarden zu vermindern.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u53" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg72">Eine Zusatzfrage, Kollege Brück.</seg>
+        </u>
+        <note type="speaker">Brück (Holz) (SPD) :</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1969-01-16-05-208.u54" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg73">Herr Bundesminister, ist es nicht die Auffassung der gesamten Bundesregierung, daß die deutsche Lieferungsungebundenheit ein guter Beitrag zur internationalen Währungspolitik ist?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u55" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg74">Herr Kollege Brück, ich glaube, es ist so. Es gibt, glaube ich, nichts, worin uns die Entwicklungsländer mit mehr Sympathie folgen, als darin, daß wir sagen: wir geben, soweit dies irgend möglich ist und wenn wir nicht durch Maßnahmen anderer zu etwas anderem gezwungen sind, unsere Entwicklungshilfe ohne Lieferbindung. Dies macht in der gesamten Dritten Welt einen ausgezeichneten Eindruck. Ich glaube, hier können wir uns dies auch leisten, mindestens in der gegenwärtigen Situation.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u56" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg75">Weitere Frage, Kollege Brück.</seg>
+        </u>
+        <note type="speaker">Brück (Holz) (SPD) :</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1969-01-16-05-208.u57" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg76">Meinen Sie nicht, daß das auch bei unseren westlichen Verbündeten einen guten Eindruck macht?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u58" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg77">Ich hoffe, nicht nur einen guten Eindruck. Ich würde das sogar — mit der Zeit — zur Nachahmung empfehlen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u59" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg78">Zusatzfrage, Kollege Kahn-Ackermann.</seg>
+        </u>
+        <note type="speaker">Kahn-Ackermann (SPD) :</note>
+        <u who="#Q105732" xml:id="ParlaMint-DE_1969-01-16-05-208.u60" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg79">Herr Minister, glauben Sie nicht, daß es gut wäre, der deutschen Öffentlichkeit auch in die Erinnerung zu rufen, daß unser Land fast ein Jahrzehnt lang unter währungspolitischen Bedingungen, die nicht so wie heute waren, davon profitiert hat, daß Entwicklungsländer mit den lieferungebundenen Krediten anderer westlicher Industriestaaten auf dem deutschen Markt in großem Umfang eingekauft haben?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u61" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg80">Ja, Herr Kollege, so ist es, und dies gilt nicht nur für die bilateralen Kredite anderer Länder, sondern, wie ich vorhin gesagt habe, ganz besonders für die multilateralen Kredite.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u62" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg81">Wir kommen zur Beantwortung der Frage 134 des Herrn Abgeordneten Freiherr von Gemmingen:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg82">Wo steht nach Ansicht des Bundesministers für wirtschaftliche Zusammenarbeit die Nahrungsmittelhilfe im Verhältnis zwischen Entwicklungshilfe und sogenannter humanitärer Hilfe?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg83">Herr Kollege von Gemmingen, wir werden nicht umhinkönnen, im kommenden Jahrzehnt noch mehr als bisher mit unvorhergesehenen Abläufen und Erscheinungen in der Entwicklungswelt zu rechnen. Wenn unsere enger und auch systematischer werdende Zusammenarbeit mit den Entwicklungsländern nicht jedesmal wieder einen empfindlichen Rückschlag erleiden soll, müssen unsere humanitären Hilfen, die wir besonders in Katastrophenfällen leisten, aber auch die Nahrungsmittelhilfen, stärker in das Gesamtsystem unserer Entwicklungshilfebeziehungen einbezogen werden. Natürlich bleiben für die Gewährung der humanitären Hilfe allein humanitäre Gesichtspunkte maßgebend. Dies gilt besonders für Kriegs- und Katastrophengebiete. Gleichwohl sollte sie, wo dies möglich ist, nicht isoliert betrachtet werden, sondern so weit wie möglich auch im Zusammenhang mit unserer Entwicklungsstrategie in dem jeweiligen Raum. Auch die Nahrungsmittelhilfe sollte noch mehr als Bestandteil unserer Entwicklungspolitik betrachtet werden. Dies kann sich vor allem in einer Bindung an arbeitsintensive und produktive Entwicklungsprojekte in den Nehmerländern ausdrücken. Dabei kenne ich natürlich den grundsätzlichen Einwand, daß humanitäre Hilfe und Nahrungsmittellieferungen kaum zum wirtschaftlichen Wachstum anregen. Zu leicht könnten sich die Entwicklungsländer an diese Hilfe als Dauerform gewöhnen und die Eigenanstrengungen in der Landwirtschaft vernachlässigen. Umgekehrt können aber Hunger und Krankheit den Entwicklungsprozeß erheblich blokkieren. In diesen Fällen schaffen diese Hilfsformen geradezu die Voraussetzung für die Entwicklung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u64" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg84">Zusatzfrage, Kollege von Gemmingen.</seg>
+        </u>
+        <note type="speaker">Freiherr von Gemmingen (FDP) :</note>
+        <u who="#Q1555810" xml:id="ParlaMint-DE_1969-01-16-05-208.u65" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg85">Herr Minister, darf ich aus Ihren Ausführungen schließen, daß Sie der Ansicht sind, Nahrungsmittellieferungen sollten nur in Katastrophen- und Hungergebiete erfolgen?</seg>
+        </u>
+        <note type="speaker">Dr. Eppler, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q71360" xml:id="ParlaMint-DE_1969-01-16-05-208.u66" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg86">Ich würde das so nicht sagen. Wenn ich von arbeitsintensiven und produktiven Projekten gesprochen habe, so habe ich daran gedacht, daß es große Entwicklungsprojekte wie Dammbauten und ähnliches gibt, wo gleichzeitig für die Ernährung derer gesorgt werden muß, die da arbeiten. Das meinte ich mit der Integrierung der Nahrungsmittelbeihilfe in eine gesamte Entwicklungsstrategie.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u67" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg87">Die Fragen aus dem Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit sind damit beantwortet. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers des Innern. Ich rufe die Frage 7 des Abgeordneten Dr. Hudak auf. — Der Abgeordnete ist nicht im Saal. Die Frage wird ebenso wie die Frage 8 des Abgeordneten Dr. Hudak schriftlich beantwortet. Ich rufe die Frage 9 des Abgeordneten Dr. Mende auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg88">Ist der Bundesregierung bekannt, daß an der niederländischdeutschen Grenze auf sieben Kilometer Länge im Raume Merkstein kein Grenzübergang geplant ist und alle Bemühungen der Bevölkerung, einen engeren Kontakt durch die Einrichtung von mehreren Übergängen zwischen der niederländischen und deutschen Bevölkerung im Raume Merkstein zu erreichen, bisher gescheitert sind? Die Frage wird von dem Herrn Abgeordneten Freiherr von Gemmingen übernommen. Das Wort zur Beantwortung hat der Herr Staatssekretär Köppler.</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg89">Herr Kollege, im Raume Merkstein besteht keine für den allgemeinen Verkehr zugelassene Übergangsstelle, da hier infolge natürlicher Hindernisse noch keine leistungsfähige grenzüberschreitende Straße vorhanden ist, die zwei Bahndämme und den Grenzfluß Wurm überqueren müßte. Die Anwohner sind daher auf eine der beiden wenige hundert Meter nördlich und südlich der Gemeindegrenzen liegenden Übergangsstellen angewiesen, soweit sie keine Erlaubnis zum Grenzübertritt außerhalb zulässiger Grenzübergangsstellen haben. Derartige Erlaubnisse werden im Rahmen des deutsch-niederländischen Abkommens über den kleinen Grenzverkehr großzügig erteilt. Der Bundesregierung ist jedoch bekannt, daß eine Kreisstraße von Alsdorf über Merkstein nach Kerkrade geplant ist, die im Raume Merkstein die Grenze überqueren soll. Wenn diese -Planungen konkrete Gestalt gewinnen, kann gemeinsam mit den niederländischen Behörden die Zulassung einer allgemeinen Grenzübergangsstelle geprüft werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u69" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg90">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Freiherr von Gemmingen (FDP) :</note>
+        <u who="#Q1555810" xml:id="ParlaMint-DE_1969-01-16-05-208.u70" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg91">Herr Staatssekretär, ist schon von seiten der Bundesrepublik mit den niederländischen Stellen über die Planung gesprochen worden, und werden da vernünftige Lösungen im Sinne der europäischen Einigung gesucht?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u71" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg92">Selbstverständlich. Gerade das ständige Gesprächsverhältnis und die gemeinsame Planung mit unseren Nachbarn aus den Niederlanden bieten die Gewähr dafür, daß diese Planungen vorangetrieben werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u72" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg93">Frage 10 des Herrn Abgeordneten Dr. Mende:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg94">Was gedenkt die Bundesregierung zu unternehmen, um den parallel auf der Hauptstraße von Herzogenrath aus Betonsteinen errichteten Grenzwall zwischen Deutschland und den Niederlanden wenigstens an einigen Stellen für den Nachbarverkehr von einer Straßenseite Herzogenraths auf die andere passierbar zu machen? Zur Beantwortung Herr Staatssekretär Köppler, bitte!</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u73" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg95">Auf Initiative kommunaler Stellen wurde den niederländischen Behörden bereits im vergangenen Jahr auf diplomatischem Wege vorgeschlagen, an einigen Stellen der Neustraße in Herzogenrath Fußgängerdurchlässe einzurichten, um den kleinen Grenzverkehr der Anwohner zu erleichtern. Um Mißbräuche auszuschließen, müßte allerdings die Grenzaufsicht unter zusätzlichem Personalaufwand verstärkt werden. Das gleiche gilt für die niederländische Seite. Die niederländische Seite sieht sich wegen Personalmangels zur Zeit nicht in der Lage, den Fußgängerdurchlässen zuzustimmen. Die Bundesregierung wird sich auch weiterhin bemühen, die erforderliche niederländische Zustimmung zu erreichen,</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u74" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg96">Eine Zusatzfrage, Herr Kollege von Gemmingen.</seg>
+        </u>
+        <note type="speaker">Freiherr von Gemmingen (FDP) :</note>
+        <u who="#Q1555810" xml:id="ParlaMint-DE_1969-01-16-05-208.u75" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg97">Herr Staatssekretär, ist die Bundesregierung, um den — ich muß beinahe sagen — Widersinn dieser Grenzblockade durch eine Minimauer zu erkennen, bereit, einen Besuch an Ort und Stelle vorzunehmen und sich darüber zu orientieren?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u76" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg98">Nach meinen Informationen, Herr Kollege, ist das bereits erfolgt. Der sehr ärgerliche Zaun, der früher auf dieser Straße vorhanden war, ist entfernt; er ist, soweit ich informiert bin, durch eine niedrige Grenzscheidung in Form eines Mäuerchens ersetzt worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u77" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg99">Wir kommen zur Frage 11 des Abgeordneten Dr. Gleissner:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg100">Ist der Bundesregierung bekannt, daß die in der Presse veröffentlichte Stellungnahme des Präsidenten des Bundeskriminalamtes, Paul Dickopf, über Umfang und Versäumnisse der Bekämpfung von Verbrechen ein großes Echo in der Bevölkerung gefunden und die Frage veranlaßt hat, welche Konsequenzen die Bundesregierung vorsieht, um die Bevölkerung vor der wachsenden Kriminalität zu schützen? Zur Beantwortung Herr Staatssekretär, bitte!</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg101">Herr Präsident, ich würde gern im Interesse der Sache die Fragen im Zusammenhang beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg102">Dann rufe ich auch noch die Fragen 12 und 13 des Abgeordneten Dr. Gleissner auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg103">Trifft es zu, daß die Zahl der allein bekanntgewordenen Verbrechen und Vergehen im Jahre 1967 erstmals die Zwei-Millionen-Grenze überschritten hat (Verkehrsstraftaten nicht mitgerechnet) und daß mindestens jeder dreißigste Einwohner unseres Staates (Kinder eingeschlossen)</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg104">Opfer einer kriminellen Tat wurde?</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg105">Was sagt die Bundesregierung zu dem Vorwurf, daß die Maßnahmen im Rahmen einer Gesamtkonzeption der Verbrechensbekämpfung nicht genügend aufeinander abgestimmt sind und daß sich in der Bevölkerung das Gefühl breit macht, unser Staat könne die innere Sicherheit nicht mehr ausreichend gewährleisten?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u80" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg106">Der Präsident des Bundeskriminalamtes hat in der öffentlichen Informationssitzung des Innenausschusses am. 24. Oktober vorigen Jahres über das moderne Erscheinungsbild des Verbrechens referiert. Er hat dabei den Umfang der heutigen Kriminalität dargestellt und dabei auch Schlußfolgerungen für die weitere Intensivierung der Verbrechensbekämpfung gezogen. In diesem Zusammenhang hat er auf das Ergebnis der polizeilichen Kriminalstatistik für 1967 hingewiesen, nach der erstmals über 2 Millionen Straftaten der Polizei bekanntgeworden sind. Ich halte es für richtig, daß die Bevölkerung über den Umfang der Kriminalität und deren Erscheinungsformen unterrichtet sein soll, warne aber vor der tendenziösen Übertreibung bestimmter Gruppen, die den begreiflichen Wunsch der Bevölkerung nach Sicherheit für ihre eigenen Interessen auszunutzen suchen. Deshalb möchte ich mit allem Nachdruck betonen, daß wirklich nicht die Rede davon sein kann, in unserem Staat sei die innere Sicherheit nicht mehr gewährleistet. Es trifft zwar zu, daß die Kriminalität in den vergangenen Jahren laufend gestiegen ist und im Jahre 1967 in der mit allen Fehlern einer Statistik behafteten Polizeistatistik die 2-MillionenGrenze überschritten hat. In diesen Zahlen sind aber alle Straftaten einschließlich der vielen Bagatelldelikte, z. B. auch gegen die strafrechtlichen Nebengesetze, enthalten. Die Kriminalität in Deutschland ist — worauf der Präsident des Bundeskriminalamtes in seinen Ausführungen mit Recht verwiesen hat — nicht höher als die Kriminalität in vielen vergleichbaren Staaten; teilweise ist sie sogar eindeutig niedriger. Das gilt insbesondere für die Schwerstkriminalität. Außerdem hat die Entwicklung der Kriminalität im Jahre 1968 erfreulicherweise gezeigt, daß ein weiteres Ansteigen abgebremst werden konnte. Die Bundesregierung ist der Auffassung, daß selbstverständlich alle notwendigen Maßnahmen zur Verbrechensbekämpfung getroffen werden müssen. Sie hat auf den Gebieten, für die sie nach der Verfassung eine Zuständigkeit besitzt, schon seit einer Reihe von Jahren Maßnahmen zur Intensivierung der Verbrechensbekämpfung eingeleitet. Herr Kollege, ich verweise in diesem Zusammenhang auf meine Berichte in den vergangenen Jahren an das Hohe Haus über die Verbesserung der Leistungsfähigkeit des Bundeskriminalamtes. Außerdem darf ich darauf hinweisen, daß ich in diesem Hohen Hause am 13. Dezember 1968 im Zusammenhang mit einem Antrag der Fraktion der FDP und dem Mündlichen Bericht des Innenausschusses über die Situation des Bundeskriminalamtes eine Straffung der Organisation der Kriminalpolizei in der Bundesrepublik durch eine entsprechende Gesetzesvorlage in Aussicht gestellt habe. Ich habe auch die Überzeugung ausgesprochen, daß die Länder über das von ihnen bisher Geleistete hinaus hinsichtlich der sachlichen und personellen Ausstattung der Kriminalpolizei weitere Anstrengungen machen werden. Ich stimme sicher mit Ihnen darin überein, daß wir alles tun müssen, damit die Bevölkerung nicht in eine unbegründete Besorgnis über die innere Sicherheit versetzt wird. Darüber bestand auch in diesem Hohen Hause in der schon erwähnten Debatte am 13. Dezember 1968 — wie ich glaube —volle Übereinstimmung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u81" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg107">Zusatzfrage, Herr Dr. Gleissner.</seg>
+        </u>
+        <note type="speaker">Dr. Gleissner (CDU/CSU) :</note>
+        <u who="#Q1446945" xml:id="ParlaMint-DE_1969-01-16-05-208.u82" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg108">Herr Staatssekretär, was sagt die Bundesregierung dazu, daß der Präsident des Bundeskriminalamtes eine Neuorientierung der gesamten Kriminalpolitik gefordert hat — er sagte wörtlich: „wenn sich nicht Versäumnisse noch schlimmer auswirken sollten" —, und was versteht die Bundesregierung unter einer solchen Neuorientierung?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u83" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg109">Herr Kollege, die Bundesregierung ist mit dem Präsidenten des Bundeskriminalamtes der Meinung, daß eine Reihe von veralteten Formen und Einrichtungen der Verbrechensbekämpfung reformiert werden müssen, um der modernen Situation gerecht zu werden. Aber ich glaube, es würde den Rahmen einer Fragestunde sprengen — ich habe ohnehin ein schlechtes Gewissen, daß ich die Antwort auf Ihre drei Fragen so lang fassen mußte —, nun im einzelnen darzulegen, worin diese Neuorientierung auch nach Vorstellung des Präsidenten des Bundeskriminalamtes bestehen soll.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u84" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg110">Eine weitere Frage, Kollege Gleissner.</seg>
+        </u>
+        <note type="speaker">Dr. Gleissner (CDU/CSU) :</note>
+        <u who="#Q1446945" xml:id="ParlaMint-DE_1969-01-16-05-208.u85" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg111">Herr Staatssekretär, Sie sind doch wohl mit mir und der Bevölkerung der Auffassung, daß es ein wichtiges Gebiet ist, daß die Bevölkerung sich über eine Reihe von Erscheinungen in den zurückliegenden Jahren mit Recht Sorgen gemacht hat und daß wir dem volles Augenmerk schenken wollen, damit die jetzigen Verhältnisse nicht von bestimmten Seiten ausgenutzt werden?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u86" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg112">Ich teile diese Ihre Auffassung, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg113">Eine Zusatzfrage, Herr Kollege Picard.</seg>
+        </u>
+        <note type="speaker">Picard (CDU/CSU) :</note>
+        <u who="#Q2545777" xml:id="ParlaMint-DE_1969-01-16-05-208.u88" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg114">Herr Staatssekretär, sind Sie mit der kürzlich wieder geäußerten Auffassung einverstanden, daß insbesondere der Präsident des Bundeskriminalamtes moderneren Formen der Verbrechensbekämpfung nicht aufgeschlossen sei, was sich insbesondere darin zeige, daß er die Einführung der Datenverarbeitungsanlagen verzögert habe?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg115">Sofern eine solche Auffasung bestehen oder geäußert worden sein sollte, würde ich ihr aus meiner Kenntnis der Dinge widersprechen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg116">Eine weitere Zusatzfrage, Herr Picard.</seg>
+        </u>
+        <note type="speaker">Picard (CDU/CSU) :</note>
+        <u who="#Q2545777" xml:id="ParlaMint-DE_1969-01-16-05-208.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg117">Herr Staatssekretär, sind Sie der Auffassung, die aus Kreisen der Gewerkschaft der Polizei in jüngster Zeit wiederum verstärkt geäußert worden ist, daß dieses Hohe Haus sein besonderes Augenmerk der äußeren Sicherheit zuwende, aber die innere Sicherheit sträflich vernachlässige?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg118">Ich halte eine solche Auffassung für nicht vertretbar. Wer die Arbeit und die Bemühungen gerade dieses Hohen Hauses seit Jahren verfolgt hat, die innere Sicherheit und die Möglichkeiten der Verbrechensbekämpfung zu verbessern, kann eine solche Feststellung nicht guten Gewissens treffen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u93" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg119">Ich rufe die Frage 14 des Herrn Abgeordneten Dorn auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg120">Welche Vorkehrungen sind getroffen und welche Maßnahmen sind eingeleitet worden, um das vorgesehene Zivilschutzkorps aufzustellen und zu versorgen? Das Wort zur Beantwortung hat der Herr Staatssekretär Köppler.</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u94" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg121">Herr Kollege Dorn, zur Aufstellung des Zivilschutzkorps wurden lediglich Vorarbeiten geleistet. Das Schwergewicht lag dabei auf Planungen im organisatorischen Bereich und auf der Ausarbeitung von Entwürfen zu Rechts- und Verwaltungsvorschriften. Diese Arbeiten oblagen einem Aufstellungsstab, der im September 1965 nach Inkraftreten des Gesetzes über das Zivilschutzkorps beim Bundesamt für zivilen Bevölkerungsschutz eingerichtet und im Oktober 1968 nach der Suspendierung dieses Gesetzes durch das Finanzänderungsgesetz 1967 aufgelöst worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u95" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg122">Zu einer Zusatzfrage Herr Kollege Dorn.</seg>
+        </u>
+        <note type="speaker">Dorn (FDP) :</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1969-01-16-05-208.u96" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg123">Darf ich daraus schließen, Herr Staatssekretär, daß die Bundesregierung nicht mehr beabsichtigt, ein Zivilschutzkorps aufzustellen?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u97" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg124">Solange die Suspendierung dieses Gesetzes fortbesteht, wird die Bundesregierung in dieser Richtung keine neue Initiativen unternehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u98" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg125">Ich rufe die Frage 15 des Herrn Abgeordneten Dorn auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg126">Welche finanziellen Mittel sind für die bisher im Zusammenhang mit der Aufstellung des Zivilschutzkorps eingeleiteten Maßnahmen aufgewendet worden?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg127">Im Zusammenhang mit den Vorbereitungsarbeiten, von denen ich sprach, sind dem Bund Kosten in Höhe von 1,4 Millionen DM entstanden, die fast ausschließlich auf den Aufstellungsstab entfallen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg128">Wir kommen zur Frage 16 des Abgeordneten Schultz (Gau-Bischofsheim)</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg129">. — Der Fragesteller ist nicht im Saal; die Frage wird schriftlich beantwortet. Ich rufe die Frage 17 des Herrn Abgeordneten Kubitza auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg130">Ist der Bundesregierung bekannt, daß in diesem Sommer 7000 Studenten während der Ferien bei der amerikanischen Regierung in Washington arbeiteten, übersetzten, Kongreßabgeordneten halfen und dadurch einen tieferen Einblick in die Arbeit von Regierung und Parlament gewannen?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u101" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg131">Der Bundesregierung ist nicht bekannt, Herr Kollege Kubitza, wieviel Studenten während der letzten Sommerferien bei der amerikanischen Regierung in Washington gearbeitet, übersetzt und Kongreßabgeordneten geholfen haben. Die Bundesregierung wird sich aber bemühen, über die deutsche Botschaft in Washington in Erfahrung zu bringen, in welcher Form die Studenten dort- beschäftigt wurden und welche Erfahrungen hiermit gemacht worden sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u102" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg132">Zu einer Zusatzfrage Herr Kubitza.</seg>
+        </u>
+        <note type="speaker">Kubitza (FDP) :</note>
+        <u who="#Q2561843" xml:id="ParlaMint-DE_1969-01-16-05-208.u103" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg133">Herr Staatssekretär, haben Sie sich vielleicht auch darüber informiert, ob in Deutschland ähnliche Programme durchgeführt worden sind?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u104" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg134">Nein, das war nicht Gegenstand Ihrer Frage, Herr Kollege. Ich nehme aber Ihren Hinweis gern auf, um, wenn möglich, Erfahrungen auch in dieser Richtung zu sammeln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u105" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg135">Ich rufe die Frage 18 des Herrn Abgeordneten Kubitza auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg136">Hält es die Bundesregierung für einen guten und auch bei uns empfehlenswerten Weg, Studenten auf diese Weise zu zeigen, wie interessant und verantwortungsvoll die Tätigkeit in Regierung und Parlament ist?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u106" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg137">Die Bundesministerien wie auch die ihnen nachgeordneten Behörden beschäftigen schon seit Jahren während der vorlesungsfreien Zeit Studenten. So verfährt auch die Verwaltung des Deutschen Bundestages. Die Tätigkeit in den Ministerien wie im Parlament setzt aber neben einer besonderen Vertrauenswürdigkeit auch ein hohes Maß von allgemeinen und speziellen Kenntnissen voraus. Daher wurden die Studenten bisher im allgemeinen leider mit Aushilfstätigkeiten beschäftigt, die naturgemäß nur ein unvollkommenes Bild der verantwortungsvollen und interessanten Tätigkeit in Regierung und Parlament bieten. Soweit bekannt, bedienen sich auch einzelne Mitglieder dieses Hohen Hauses zur besseren Bewältigung ihres umfangreichen Arbeitsprogramms der Hilfe persönlich bekannter und qualifizierter Studenten. Dies scheint sogar der beste Weg zu sein, meine ich, qualifizierte Studenten für die Tätigkeit von Regierung und Parlament sowie für die Politik zu interessieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u107" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg138">Zu einer Zusatzfrage Herr Kubitza.</seg>
+        </u>
+        <note type="speaker">Kubitza (FDP) :</note>
+        <u who="#Q2561843" xml:id="ParlaMint-DE_1969-01-16-05-208.u108" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg139">Herr Staatssekretär, in welcher Weise sind die jetzt bestehenden Möglichkeiten bekanntgemacht worden?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u109" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg140">Darüber bin ich im einzelnen jetzt nicht orientiert. Ich weiß jedenfalls, daß die Vertretungen der Studenten an allen Hochschulen über die bestehenden Möglichkeiten informiert sind und laufend informiert werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u110" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg141">Dann rufe ich die Frage 19 des Herrn Abgeordneten Dichgans auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg142">Hält die Bundesregierung die Berechnungen des Bildungsrates für richtig, der in seiner Empfehlung von 1967 „Sicherung der öffentlichen Ausgaben für Schulen bis 1970" und in seiner Empfehlung von 1968 „Sicherung der öffentlichen Ausgaben für Schulen und Hochschulen bis 1975" zu dem Ergebnis gekommen ist, daß eine Fortschreibung des heutigen Bildungssystems auf die zu erwartenden vermehrten Schülerzahlen den Aufwand für Schulbildung, der im Jahre 1965 11,3 Milliarden DM betragen hat, im Jahre 1970 auf 16,8 Milliarden DM und im Jahre 1975 auf rund 22 Milliarden DM steigern würde? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u111" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg143">Wenn es gestattet ist, Herr Präsident, würde ich die Fragen 19 und 20 gern im Zusammenhang beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u112" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg144">Bitte! Ich rufe also auch die Frage 20 des Abgeordneten Dichgans auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg145">Hält die Bundesregierung die aus der gleichen Quelle stammende Annahme für richtig, daß eine Umgestaltung der Schulen nach Planzielen mit verminderten Schülerzahlen je Klasse die Zahl für 1975 von rund 22 Milliarden DM auf rund 27 Milliarden DM steigern würde und daß eine weitgehende Reform sogar eine Steigerung auf rund 32 Milliarden DM bringen müßte?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u113" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg146">Die Berechnungen, die der Deutsche Bildungsrat in seinen beiden Empfehlungen über die Sicherung der öffentlichen Ausgaben für Schulen und Hochschulen zugrunde gelegt hat, fußen auf ausführlichen Sachverständigengutachten. Diese Gutachten liegen auch der Bundesregierung vor. Sie geben offensichtlich Mindestwerte wieder, für deren Richtigkeit ein hohes Maß an Wahrscheinlichkeit spricht. Die Bundesregierung hat keine Veranlassung, die Voraussetzungen und gedanklichen Ableitungen dieser Gutachten in Frage zu stellen. Sie geht davon aus, daß der Finanzbedarf bei gleichbleibenden Bedingungen unseres Bildungssystems und erst recht bei Umgestaltung der Schulen nach Planzielen mit verminderter Schülerzahl je Klasse etwa in der genannten Größenordnung besteht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u114" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg147">Wir kommen nun zur Frage 21 des Herrn Abgeordneten Dichgans:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg148">Ist die Bundesregierung bereit, im Hinblick auf ihre Verantwortung für Wissenschaft und Forschung, die eine gute Schulbildung voraussetzen, mit den Ländern, deren Zuständigkeit dadurch nicht beeinträchtigt werden soll, in ein Gespräch darüber einzutreten, wie der wachsende Geldbedarf für die Schulbildung finanziert werden soll?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg149">Die Bundesregierung, die sich — das sei ergänzend festgestellt — vor allem auch wegen des Zusammenhangs zwischen der wirtschaftlichen und gesellschaftlichen Gesamtentwicklung und dem Bildungswesen für die Bildungsfinanzierung mitverantwortlich fühlt, hat die Ab-Parlamentarischer Staatssekretär Köppler sieht, in dieser Frage Kontakte mit den Ländern aufzunehmen. Dabei sollen nicht nur die Empfehlungen des Bildungsrates, sondern auch alle sonstigen Vorschläge zur Sprache kommen, die sich die Sicherung der Bildungsausgaben zum Ziel gesetzt haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg150">Danke schön.</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg151">Wir kommen zur Frage 22 des Kollegen Kahn-Ackermann. — Kollege Kahn-Ackermann ist nicht im Saal. Die Frage wird schriftlich beantwortet. Wir kommen zur Frage 23 des Abgeordneten Wagner. — Herr Abgeordneter Wagner ist nicht im Saal. Die Frage wird schriftlich beantwortet. Ich rufe die Frage 24 des Herrn Abgeordneten Picard auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg152">In welcher Weise ist nach Meinung der Bundesregierung bei der anstehenden Beförderung eines Beamten dessen jahrelange parlamentarische Tätigkeit als Mitglied des Deutschen Bundestages zu berücksichtigen?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg153">Herr Präsident, ich bitte, beide Fragen im Zusammenhang beantworten zu dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg154">Ich bitte darum. Ich rufe dann auch die Frage 25 des Abgeordneten Picard auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg155">Billigt die Bundesregierung die Auffassung, daß parlamentarische Tätigkeit im Deutschen Bundestag bei der Prüfung der Förderungswürdigkeit wohl moralisch, aber nicht praktisch zu berücksichtigen sei und z. B. politisch-parlamentarische Tätigkeit von 1950 bis 1962 als Komponente der bei Beförderungen zu berücksichtigenden Faktoren unterhalb der meßbaren Größe bleibe?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u119" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg156">Die Bundesregierung ist der Auffassung, Herr Kollege Picard, daß die durch eine frühere parlamentarische Tätigkeit gewonnenen Kenntnisse und Erfahrungen einen angemessenen Ausdruck bei der Beförderung eines Beamten finden sollten. Zwar können nach dem geltenden Laufbahnrecht bei einer Beförderung nur solche Dienstzeiten unmittelbar berücksichtigt werden, die der Beamte in seiner Laufbahngruppe zurückgelegt hat, dies schließt jedoch eine Würdigung anderweitiger Tätigkeiten nicht aus. So ist insbesondere bei den Entscheidungen des Bundespersonalausschusses über vorgesehene Beförderungen früherer Mitglieder des Hohen Hauses deren parlamentarische Tätigkeit weitgehend gewürdigt worden. Damit ist der Wert der parlamentarischen Arbeit für den weiteren beruflichen Werdegang im Beamtenverhältnis — wie ich annehme — anerkannt. Dem Bundesminister des Innern ist kein Fall bekanntgeworden, in dem bei der Beförderung früherer Mitglieder des Hohen Hauses Erwägungen eine Rolle gespielt haben, wie sie in Ihrer zweiten Frage angedeutet sind. Ich bin jedenfalls der Meinung, daß derartige Überlegungen auch in keiner Weise gerechtfertigt wären.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u120" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg157">Ich rufe dann die Frage 26 des Abgeordneten Moersch auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg158">Wird die Bundesregierung bei ihrer Stellungnahme zum Bericht der Presse-Kommission das Urteil des 1. Zivilsenats des Bundesgerichtshofs betr. Anzeigenblätter und Tageszeitungen in angemessener Weise berücksichtigen?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u121" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg159">Das angezogene Urteil des Bundesgerichtshofs, Herr Kollege Moersch, ist noch nicht abgesetzt. Bisher liegt lediglich eine kurze, für die Presse bestimmte Verlautbarung der Pressestelle des Bundesgerichtshofs vor. Ehe aber die Entscheidungsgründe des Urteils nicht im einzelnen bekannt sind, läßt sich nicht sagen, ob es von der Bundesregierung in ihrer Stellungnahme zum Bericht der Pressekommission zu berücksichtigen wäre. Wahrscheinlich wird auch die Bundesregierung ihre Stellungnahme — ich hoffe das — dem Deutschen Bundestag zugeleitet haben, bevor das Urteil des Bundesgerichtshofs in vollem Wortlaut vorliegt. Es darf nicht übersehen werden, daß der schwebende Rechtsstreit durch das Urteil des Bundesgerichtshofs nicht beendet, sondern an das Berufungsgericht zurückverwiesen worden ist, das nunmehr die ihm auferlegten wichtigen tatsächlichen Feststellungen zu treffen haben wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u122" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg160">Zusatzfrage, Herr Kollege Moersch.</seg>
+        </u>
+        <note type="speaker">Moersch (FDP) :</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1969-01-16-05-208.u123" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg161">Herr Staatssekretär, wird sich die Bundesregierung überhaupt diesem Problem der Anzeigenblätter — sowohl derer, die in freien Unternehmen erscheinen, als auch der mit Anzeigen bestückten Gemeindeblätter und ähnlichen — intensiver als bisher widmen?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u124" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg162">Der Bundesregierung ist die hohe Bedeutung dieses Komplexes innerhalb des Gesamtkomplexes der Pressesituation durchaus bewußt. Sie wird dieser Entwicklung die gebührende Aufmerksamkeit widmen, auch in der Stellungnahme zu dem Bericht, von dem ich gesprochen habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u125" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg163">Zusatzfrage, Kollege Dr. Kliesing.</seg>
+        </u>
+        <note type="speaker">Dr. Kliesing (Honnef) (CDU/CSU) :</note>
+        <u who="#Q1505009" xml:id="ParlaMint-DE_1969-01-16-05-208.u126" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg164">Herr Staatssekretär, könnten Sie Ihre Hoffnung, die Stellungnahme der Bundesregierung bald vorzulegen, durch die Angabe eines Termins etwas mehr konkretisieren?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg165">Herr Kollege, ich würde gern eine solche Prognose wagen. Angesichts der Tatsache aber, daß die federführend beteiligten Ressorts der Bundesregierung über einige Fragen noch miteinander in Gesprächen stehen, möchte ich mich nicht der Gefahr aussetzen, mich selber später desavouieren zu müssen, wenn ich Ihnen heute eine konkrete Terminangabe mache.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg166">Weitere Zusatzfrage, Herr Kollege Kliesing.</seg>
+        </u>
+        <note type="speaker">Dr. Kliesing (Honnef) (CDU/CSU) :</note>
+        <u who="#Q1505009" xml:id="ParlaMint-DE_1969-01-16-05-208.u129" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg167">Herr Staatssekretär, darf ich darauf hinweisen, daß die sogenannte Günther-Kommission in ihrer Berichterstattung darauf hinweist, daß sie unter Zeitdruck gestanden hat. Wäre es unter diesen Umständen, angesichts des langen Zeitraums, der seit Vorlage des Berichts verstrichen ist, nicht angemessen, wenn die Bundesregierung ihre Stellungnahme beschleunigt vorlegte?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg168">Herr Kollege, ich teile völlig Ihre Auffassung. Sowohl der Bundesminister des Innern als auch ich persönlich sind seit langem bemüht, diese Beschleunigung auch zum Erfolg zu führen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg169">Weitere Zusatzfrage, Kollege Moersch.</seg>
+        </u>
+        <note type="speaker">Moersch (FDP) :</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1969-01-16-05-208.u132" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg170">Herr Staatssekretär, darf ich aus Ihrer heutigen vorsichtigen Antwort schließen, daß sich seit kurzem eine neue Situation ergeben hat, da Sie uns doch vor wenigen Wochen in Aussicht gestellt haben, daß diese Stellungnahme der Bundesregierung Ende Januar vorliege?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg171">Ich hoffe, diesen Termin, den ich damals genannt habe, auch noch einhalten zu können.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Schmitt-Vockenhausen: Hoffentlich wird es nicht mit dem Volksmund heißen „Hoffen und Harren", Herr Staatssekretär!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg172">Ich rufe die Frage 27 des Herrn Abgeordneten Dr. Bechert (Gau-Algesheim)</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg173">auf:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg174">Sieht die Bundesregierung eine Möglichkeit zu bewirken, daß durch die Rundfunk- und Fernsehanstalten kostenlos Sendezeiten zur Verfügung gestellt werden, in denen vor den gesundheitlichen Schäden durch das Rauchen gewarnt wird, wie das die amerikanische Bundeskommission für das Fernmeldewesen den Sendeanstalten in den Vereinigten Staaten rechtsgültig auferlegt hat (siehe FAZ vom 23. November 1968 nach einer AP-Meldung vom 22. November 1968)? Zur Beantwortung Herr Staatssekretär, bitte!</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u135" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg175">Herr Kollege, im Einvernehmen mit dem Bundesminister für Gesundheitswesen beantworte ich Ihre Frage wie folgt:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg176">Nach deutschem Rundfunkrecht gibt es keine dem amerikanischen Beispiel vergleichbaren Möglichkeiten, den Rundfunkanstalten Programmauflagen zu machen, also etwa die Auflage, Warnungen vor übermäßigem Nikotingenuß zu verbreiten. Es liegt im gesundheitspolitischen Interesse und ist wünschenswert, mehr Sendezeiten für die gesundheitliche Aufklärung der Bevölkerung bereitzustellen. Die Bundesregierung wird sich bemühen, die Rundfunkanstalten in Verhandlungen dafür zu gewinnen, mehr Sendezeiten für die gesundheitliche Aufklärung in die Programmplanung aufzunehmen und dabei auch dem Punkt die nötige Aufmerksamkeit zu schenken, den Sie in Ihrer Frage angeschnitten haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u136" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg177">Zusatzfrage, Herr Kollege Dr. Bechert.</seg>
+        </u>
+        <note type="speaker">Dr. Bechert (Gau-Algesheim) (SPD) :</note>
+        <u who="#Q78089" xml:id="ParlaMint-DE_1969-01-16-05-208.u137" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg178">Herr Staatssekretär, darf ich also Ihrer Antwort entnehmen, daß die Bundesregierung es, wenn in Sendungen des Rundfunks und des Fernsehens für etwas anerkannt Gesundheitsschädliches geworben wird, für gesundheitspolitisch notwendig hält, daß von den gleichen Anstalten und in den gleichen Sendungen entsprechende Warnungen erfolgen?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u138" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg179">Herr Kollege, ich kann dieser Ihrer Auffassung für die Bundesregierung nicht widersprechen, auch wenn ich persönlich als notorischer Raucher dabei Schwierigkeiten habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg180">Frau Kollegin Geisendörfer.</seg>
+        </u>
+        <note type="speaker">Frau Geisendörfer (CDU/CSU) :</note>
+        <u who="#Q112234" xml:id="ParlaMint-DE_1969-01-16-05-208.u140" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg181">Herr Staatssekretär, Ihrer Antwort entnehme ich, daß entsprechende Sendezeiten zur Verfügung gestellt werden sollten. Würden Sie bitte sagen, wer diese Sendezeiten ausfüllen soll. Nach den Rundfunkgesetzen ist doch der Intendant für die Sendungen verantwortlich, und die Anstalt gestaltet sie. Oder stellen Sie sich die Sache so vor, daß diese Sendezeiten beispielsweise durch das Bundesgesundheitsministerium in Anspruch genommen und ausgefüllt werden?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg182">Frau Kollegin, soweit es sich um Sendungen außerhalb der Werbesendungen im engeren Sinne handelt, muß selbstverständlich die Verantwortung des Intendanten unberührt bleiben. Es kann sich also bei der Gestaltung solcher gesundheitspolitisch wichtiger Sendungen nur um freiwillige Kooperation handeln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg183">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Geisendörfer (CDU/CSU) :</note>
+        <u who="#Q112234" xml:id="ParlaMint-DE_1969-01-16-05-208.u143" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg184">Es würde sich also um Werbesendungen handeln, in denen diese Warnungen etwa so ausgesprochen werden, wie beispielsweise in Anzeigen des Presse- und Inforamtionsamtes politische Gedanken den Lesern nahegebracht werden.</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u144" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg185">Frau Kollegin, ich könnte mir beides vorstellen. Ich würde es für sinnvoll halten, solche Sendungen sowohl im Sinne der Öffentlichkeitsarbeit in den dafür vorgesehenen Sendezeiten zu veranstalten als auch im redaktionellen Teil, allerdings unter der Verantwortung der Anstalten und ihrer Organe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u145" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg186">Weitere Frage, Kollege Moersch.</seg>
+        </u>
+        <note type="speaker">Moersch (FDP) :</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1969-01-16-05-208.u146" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg187">Herr Staatssekretär, darf ich- so weit gehen, anzunehmen, daß Sie die Anregung des Kollegen Bechert nicht so verstehen werden, den Rundfunk- und Fernsehanstalten zu empfehlen, vorzuschreiben, daß bei Fernsehdiskussionen mit Regierungsmitgliedern die Regierungsmitglieder das Rauchen unterlassen müssen?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg188">Da ohnehin solche Verhandlungen, wie sie Herr Kollege Bechert angeregt hat, durch den zuständigen Ressortminister, nämlich den Bundesminister für das Gesundheitswesen, geführt werden müssen, besteht, würde ich meinen, nicht die von Ihnen hier geäußerte Befürchtung, daß diese Empfehlung dort angebracht wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg189">Meine Kollegen, darf ich mich einmal kurz mit Ihnen einigen. Wir haben nur noch zwei Fragen an den Bundesinnenminister. Wenn Sie noch zwei Minuten Zeit haben und Herr Staatssekretär Köppler mir versichern kann, daß die Beantwortung nicht zu lange dauert, möchte ich diese zwei Fragen gerne noch jetzt abhandeln. Dann brauchen Sie, Herr Staatssekretär, morgen nicht wiederzukommen.</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u149" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg190">Herr Präsident, ich kann das versichern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u150" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg191">Wunderbar! Dann folgen jetzt also als letzte Fragen aus dem Geschäftsbereich des Bundesinnenministers die Fragen 32 und 33 des Kollegen Josten:</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg192">Welche Vorstellungen hat das Bundesinnenministerium für eine Neuorganisation der nächsten Regierung? Wie weit sollen Bundesministerien bei den vorhandenen Plänen zusammengelegt werden? Herr Staatssekretär zur Beantwortung.</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u151" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg193">Ich bedanke mich sehr für dieses Entgegenkommen, Herr Präsident, und bitte, die beiden zusammengehörenden Fragen auch gemeinsam beantworten zu dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u152" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg194">Das ist sehr zweckmäßig, bitte.</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u153" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg195">Das Bundesministerium des Innern befaßt sich schon seit längerer Zeit mit Vorstellungen über die Reform der Bundesregierung und der Bundesverwaltung. Dazu gehören selbstverständlich auch Überlegungen zur Gliederung der Bundesregierung in Ministerien. Dabei sind mehrere Modelle zu erarbeiten, damit fachlichen und politischen Notwendigkeiten gleichermaßen Rechnung getragen werden kann. Die Meinungsbildung darüber ist noch nicht abgeschlossen. Die Bundesregierung hat, wie bekannt sein dürfte, einen Kabinettausschuß zur Reform der Struktur von Bundesregierung und Bundesverwaltung eingesetzt, um ihre Willensbildung vorzubereiten. Im Zuge einer Kabinettreform muß selbstverständlich auch überlegt werden, ob alle vorhandenen Bundesministerien notwendig oder wenigstens zweckmäßig sind. Herr Minister Benda hat dabei mehrfach zu erkennen gegeben, daß er eine bedeutende Verkleinerung des Kabinetts zur Optimierung der Regierungsarbeit anstrebt. Dabei ist jedoch völlig offen, in welcher Weise diese Verringerung der Zahl der Ministerien erreicht werden soll.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u154" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg196">Eine Zusatzfrage, Herr Kollege Josten.</seg>
+        </u>
+        <note type="speaker">Josten (CDU/CSU) :</note>
+        <u who="#Q1695791" xml:id="ParlaMint-DE_1969-01-16-05-208.u155" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg197">Herr Staatssekretär, teilt die Bundesregierung also die Meinung, daß eine Neuorganisation der Regierung in erster Linie eine Frage der besseren Verwaltungsorganisation ist, damit gleiche Aufgaben möglichst auch von nur einem Ministerium bearbeitet werden?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u156" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg198">Herr Kollege, bei dieser Frage der Organisation der Bundesregierung in Ministerien würde ich nicht die Verwaltungsarbeit im Vordergrund sehen. Der wichtigste Gesichtspunkt ist, glaube ich, eine Optimierung der Regierungsaufgaben und der eigentlichen Regierungsarbeit zu erreichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u157" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg199">Noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Josten (CDU/CSU) :</note>
+        <u who="#Q1695791" xml:id="ParlaMint-DE_1969-01-16-05-208.u158" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg200">Herr Staatssekretär, Sie haben keine Zahl genannt. Trifft es zu, wie von dpa verbreitet wurde, daß in Ihrem Ministerium das Modell eines Kabinetts entworfen wird, dem statt 20 zukünftig nur noch 10 bis 12 Ministerien angehören sollen?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1969-01-16-05-208.u159" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg201">Ich kann dazu nur sagen, Herr Kollege, daß, wie ich schon in der Beantwortung Ihrer Frage ausgeführt habe, in der Arbeitsgruppe des Bundesinnenministeriums, die dem Kabinettausschuß zuarbeitet, mehrere Modelle entworfen und bearbeitet werden. Nur auf diese Weise, glaube ich, ist die richtige Vorarbeit für die Willensbildung der Bundesregierung zu leisten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Scheel:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-01-16-05-208.u160" ana="#chair">
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg202">Danke sehr, Herr Staatssekretär. Die Fragestunde ist damit beendet.</seg>
+          <seg id="ParlaMint-DE_1969-01-16-05-208.seg203">Meine Damen und Herren, ich berufe die nächste Sitzung des Deutschen Bundestages ein auf morgen, Freitag, den 17. Januar, 9 Uhr. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 15.08 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

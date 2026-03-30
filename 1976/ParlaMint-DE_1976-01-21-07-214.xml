@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1976-01-21-07-214">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 7. Wahlperiode, 214. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 21.01.1976 (214. Sitzung der 7. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 7, Session 214 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1976-01-21 (Session 214 in Legislative Period 7)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="214">214. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">7. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="214">Session 214</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">Legislative Period 7</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 21.01.1976</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1976-01-21</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488222/b10bae395e887aac9ac08afbd1da62fc/pp07-data.zip</idno>
+          <date when="1976-01-21">1976-01-21</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1976-01-21">1976-01-21</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection">
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg1">Die Sitzung ist eröffnet. Meine Damen und Herren, Ihnen liegt folgende Liste von Vorlagen vor, die keiner Beschlußfassung bedürfen und die gemäß § 76 Abs. 2 der Geschäftsordnung den zuständigen Ausschüssen überwiesen werden sollen:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg2">Betr.: Zweiter Teil der 21. ordentlichen Sitzungsperiode der Versammlung der Westeuropäischen Union vom 1. bis 4. Dezember 1975 in Paris (Drucksache 7/4481)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg3">zuständig: Auswärtiger Ausschuß (federführend)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg4">, Verteidigungsausschuß Betr.: Bericht der Bundesregierung über die Auswirkungen des Gesetzes zur wirtschaftlichen Sicherung der Krankenhäuser und zur Regelung der Krankenhauspflegesätze (KHG)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg5">(Drucksache 7/4530)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg6">zuständig: Ausschuß für Jugend, Familie und Gesundheit (federführend)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg7">, Ausschuß für Arbeit und Sozialordnung. Haushaltsausschuß Betr.: Bericht der Bundesregierung betr. Gesetz zum Schutz gegen Fluglärm Bezug: Entschließung des Deutschen Bundestages vom 17. Apri 1975 (Drucksache 7/4580)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg8">zuständig: Innenausschuß (federführend)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg9">, Ausschuß für Verkehr und für das Post- und Fernmeldewesen Erhebt sich gegen die vorgeschlagene Überweisung Widerspruch? — Ich stelle fest, daß das nicht der Fall ist. Die Überweisung ist beschlossen. Meine Damen und Herren, ich rufe nunmehr Punkt 1 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg10">Fragestunde — Drucksache 7/4595 —</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg11">Nach einer Vereinbarung im Ältestenrat soll die seit längerem geübte Praxis, in jeder Sitzungswoche zwei Fragestunden mit einer jeweiligen Dauer von 90 Minuten durchzuführen, in Abänderung der Richtlinien als vorläufige Regelung für den Rest dieser Wahlperiode fortgesetzt werden. Ist das Haus damit einverstanden? — Ich höre keinen Widerspruch; es ist so beschlossen. Die Frage 1 des Abgeordneten Dr. Schneider aus dem Geschäftsbereich des Bundesministers für Raumordnung, Bauwesen und Städtebau und die Frage 2 des Abgeordneten Rainer aus dem Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit werden auf Wunsch der Fragesteller schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich komme somit gleich zu den Fragen aus dem Geschäftsbereich des Bundesministers für Wirtschaft. Zunächst die Frage 3 des Abgeordneten Dr. Schöfberger. — Ich sehe ihn nicht. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Der Abgeordnete Lenzer hat um schriftliche Beantwortung seiner Fragen 4 und 5 gebeten. Die Antworten werden als Anlagen abgedruckt. Ich komme zu der Frage 6 des Abgeordneten Dr. Holtz:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg12">Fördert die Bundesregierung Bestrebungen, bei Tankstellen ähnlich wie bei Apotheken einen Sonntagsdienst einzuführen? Zur Beantwortung steht Herr Staatssekretär Grüner zur Verfügung.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1976-01-21-07-214.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg13">Herr Kollege, der Bundesregierung sind die Bestrebungen des Tankstellengewerbes, die Möglichkeit eines geregelten Sonntagsdienstes ähnlich wie bei Apotheken zu schaffen, seit langem bekannt. Schwierigkeiten haben sich bisher aus der Tatsache ergeben, daß Absprachen über eine Beschränkung der gesetzlich zulässigen Öffnungszeiten unter das Kartellverbot fallen. Eine gesetzliche Regelung ähnlich wie bei Apotheken würde eine Änderung des Ladenschlußgesetzes erfordern und erscheint angesichts der seit Jahren immer wieder aufflammenden öffentlichen Diskussion über dieses Gesetz kein geeigneter Weg. Eine andere Lösung wäre die stillschweigende Duldung entsprechender regionaler Absprachen im Rahmen des Verfolgungsermessens der zuständigen Landeskartellbehörden trotz formalen Verstoßes gegen Kartellvorschriften, wenn durch eine solche Absprache die Verbraucherinteressen besser befriedigt werden als bei einem ungeregelten Zustand. Das Bundeskartellamt prüft zur Zeit die Marktverhältnisse, um danach im Interesse einer bundeseinheitlichen Handhabung Einvernehmen mit den Landeskartellbehörden bei der Festlegung einer Toleranzgrenze für solche Absprachen herzustellen. Die Bundesregierung unterstützt diese Bestrebungen, durch eine flexible Handhabung der Wettbewerbsbestimmungen eine gleichermachen die Interessen der Verbraucher und des Tankstellengewerbes berücksichtigende Lösung zu suchen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg14">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Holtz (SPD) :</note>
+        <u who="#Q109919" xml:id="ParlaMint-DE_1976-01-21-07-214.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg15">Herr Staatssekretär, sieht die Bundesregierung über diese positive Antwort hinaus noch Möglichkeiten, besonders initiativ zu werden?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1976-01-21-07-214.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg16">Nein, das ist nicht möglich, weil das Sache des Bundeskartellamts ist. Von seiten der Bundesregierung ist im Blick auf die Unterstützung dieser Überlegungen und Bestrebungen alles getan worden, was im Augenblick denkbar ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg17">Keine weitere Zusatzfrage. Ich komme zu der Frage 7 des Abgeordneten Nordlohne:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg18">Ist die Bundesregierung wirklich der Auffassung, daß sie die Arbeitsmarktsituation im Raum Ostfriesland richtig einschätzt, wenn sie mir in ihrer Antwort auf meine Mündliche Anfrage in der Fragestunde am 14./15. Januar 1976 erklärt, „da sich der Abstand der Arbeitslosenquoten in Emden und Leer zum Bundesdurchschnitt nicht vergrößert, sondern beträchtlich verkleinert, kann davon ausgegangen werden, daß sich die Schwächen in der regionalen Wirtschaftsstruktur nicht verstärkt, sondern eher vermindert haben"?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1976-01-21-07-214.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg19">Ich kann noch einmal die Auffassung der Bundesregierung bekräftigen, Herr Kollege, daß sie die Arbeitsmarktsituation im Raume Ostfriesland richtig einschätzt. Sie stützt sich dabei auf folgende Fakten: 1969 betrug die jahresdurchschnittliche Arbeitslosenquote in Emden noch das 4,2fache und in Leer das 5fache des Bundesdurchschnitts; 1975 war der Abstand auf das 1,8fache in Emden und auf das 2,1 fache in Leer gesunken. Dies kann sicher auch als ein Erfolg der regional- und arbeitsmarktpolitischen Bemühungen angesehen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg20">Eine Zusatzfrage? — Bitte sehr!</seg>
+        </u>
+        <note type="speaker">Nordlohne (CDU/CSU) :</note>
+        <u who="#Q1445835" xml:id="ParlaMint-DE_1976-01-21-07-214.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg21">Herr Staatssekretär, sind Sie nicht mit mir der Meinung, daß dann, wenn beispielsweise 1969 beim Arbeitsamt in Leer 2 209, jetzt dagegen 5 839 Arbeitslose und beim Arbeitsamt in Emden damals 3 096 und jetzt 7 349 Arbeitslose zu verzeichnen sind, also Steigerungsraten von mehr als 100 °/o, eben nicht von einer Verbesserung gesprochen werden kann?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1976-01-21-07-214.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg22">Herr Kollege, hier ist nach den Relationen gefragt, und angesichts der außerordentlich hohen Arbeitslosigkeit, die wir im ganzen Bundesgebiet haben, habe ich durch Hinweis auf die Relationen deutlich gemacht, daß sich dort strukturell keine Verschlechterung, sonder eher eine Verbesserung ergeben hat. Das ist durch die prozentualen Aussagen auch tatsächlich belegt, unabhängig davon, daß die Arbeitslosenquote in absoluten Zahlen sehr hoch und aus unserer Sicht zu hoch ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg23">Keine Zusatzfrage mehr. Ich rufe die Frage 8 des Abgeordneten Nordlohne auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg24">Was gedenkt die Bundesregierung in Zusammenarbeit mit dem Land Niedersachsen im Jahr 1976 konkret zu tun, um im Rahmen der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur" außer in den übergeordneten Schwerpunktorten Emden und Leer durch die Schaffung und Erhaltung von Arbeitsplätzen das Problem Nr. 1 in Ostfriesland, die Arbeitslosigkeit, in absehbarer Zeit entscheidend zu vermindern bzw. zu beheben?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1976-01-21-07-214.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg25">Nachdem der vom Bund und allen Ländern gebildete Planungsausschuß der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur" den 5. Rahmenplan für den Zeitraum 1976 bis 1979 am 15. Dezember 1975 verabschiedet hat, kann ich Ihre Frage konkret beantworten. Um die in meiner Antwort zu Ihrer ersten Frage genannten regionalpolitischen Erfolge fortzuführen, ist im Rahmen des regionalen Aktionsprogramms „Niedersächsische Nordseeküste", zu der auch der ostfriesische Raum gehört, vorgesehen, jahresdurchschnittlich rund 6 750 neue Arbeitsplätze zu schaffen und rund 500 gefährdete Arbeitsplätze zu sichern. Dafür werden gemäß Rahmenplan im Jahre 1976 27,4 Millionen DM an Haushaltsmitteln des Bundes und des Landes Niedersachsen bereitgestellt. Die anfallende Investitionszulage wird auf 34,9 Millionen DM geschätzt. Dabei wird die Schaffung neuer Arbeitsplätze in Ostfriesland besonders auf die übergeordneten Schwerpunkte Aurich, Emden und Leer mit 20 %-Förderungspräferenz und auf die 15 %-Schwerpunktorte Norden sowie Wittmund/Jever konzentriert. Zur Verbesserung der wirtschaftsnahen Infrastruktur wie Industriegeländeerschließung, öffentliche Fremdenverkehrseinrichtungen und Bau von Ausbildungsstätten, womit die Erreichung der Arbeitsplatzziele unterstützt werden soll, werden im Jahr 1976 rund 18 Millionen DM an Gemeinschaftsaufgabemitteln im Programmgebiet „Niedersächsische Nordseeküste" eingesetzt. Weitere Einzelheiten bitte ich dem 5. Rahmenplan zu entnehmen, der Ihnen in wenigen Wochen als Bundestagsdrucksache vorliegen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg26">Zu einer Zusatzfrage Herr Abgeordneter Tietjen.</seg>
+        </u>
+        <note type="speaker">Tietjen (SPD) :</note>
+        <u who="#Q1561881" xml:id="ParlaMint-DE_1976-01-21-07-214.u14" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg27">Herr Staatssekretär, sind Sie bereit, dem Kollegen Fragesteller für seine Wahlauseinandersetzung mit dem Kollegen Dr. Ehrenberg mitzuteilen, in welcher Höhe und für welche Maßnahmen Mittel sowohl aus der Gemeinschaftsaufgabe als auch aus dem Sonderprogramm des Bundes und der Länder durch Entscheidung der Bundesregierung und der sozialliberalen Landesregierung in Hannover seit 1969 nach Ostfriesland vergeben worden sind?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1976-01-21-07-214.u15" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg28">Ich bin gern bereit, diese Zahlen vorzulegen, wenn eine entsprechende Anfrage gestellt wird. Sie werden verstehen, daß ich über diese Zahlen hier im Augenblick nicht verfüge. Ich habe die Mittel, die im Rahmen der Gemeinschaftsaufgabe in Zukunft ausgegeben werden, gerade dargestellt. Aber selbstverständlich ist es möglich, die Zahlen auch für die Vergangenheit aufzuschlüsseln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u16" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg29">Die Frage 19 des Abgeordneten Dr. Gölter wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Die Fragen 83 und 84 des Abgeordneten Dr. Mertes (Gerolstein)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg30">werden schriftlich beantwortet, da der Fragesteller nicht im Saal ist. Die Antworten werden als Anlagen abgedruckt. Ich danke Ihnen, Herr Staatssekretär.</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg31">Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär Buschfort zur Verfügung. Die Fragen 9 der Abgeordneten Frau Dr. Neumeister und 10 des Abgeordneten Dr. Franz werden schriftlich beantwortet, da die Fragesteller nicht im Saal sind. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 11 des Abgeordneten Dr. Enders auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg32">In welcher Höhe wurden bisher Zahlungen nach dem Konkursausfallgeldgesetz an Arbeitnehmer und Dritte geleistet? Bitte sehr!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u17" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg33">Herr Kollege Enders, seit dem Inkrafttreten des Konkursausfallgeldgesetzes am 20. Juli 1974 wurden bis zum 31. Dezember 1975 insgesamt rund 334 Millionen DM gezahlt, und zwar rund 205 Millionen DM Konkursausfallgeld an Arbeitnehmer oder deren Rechtsnachfolger sowie rund 129 Millionen DM an rückständigen Sozialversicherungsbeiträgen an die Einzugsstellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u18" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg34">Zu einer Zusatzfrage Herr Abgeordneter Dr. Enders.</seg>
+        </u>
+        <note type="speaker">Dr. Enders (SPD) :</note>
+        <u who="#Q2558966" xml:id="ParlaMint-DE_1976-01-21-07-214.u19" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg35">Herr Staatssekretär, kann ich davon ausgehen, daß diese 205 Millionen DM vor der Schaffung des Konkursausfallgeldgesetzes für die Arbeitnehmer verloren gewesen wären und der Lebensstandard erst seit dem Inkrafttreten des Gesetzes gesichert ist?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u20" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg36">Ja, davon dürfen Sie ausgehen. Die 205 Millionen DM wären in aller Regel verloren. Darüber hinaus wären auch die versicherungsrechtlichen Nachteile eingetreten, die jetzt mit 129 Millionen DM zu Buche schlagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg37">Keine Zusatzfrage mehr. Dann rufe ich die Frage 12 des Abgeordneten Dr. Enders auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg38">Welche soziale Sicherheit ist für junge Menschen gegeben, die nach dem Abitur oder nach der ersten oder zweiten Staatsprüfung keinen Ausbildungsplatz oder kein Beschäftigungsverhältnis finden?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg39">Herr Kollege Enders, aus der Arbeitslosenversicherung erhalten diese jungen Menschen keine Leistungen, da grundsätzlich nur Arbeitnehmer erfaßt werden, die in einem privatrechtlichen Arbeitsverhältnis stehen. Allerdings können Personen, die in einem öffentlich-rechtlichen Dienstverhältnis etwa als Beamte auf Widerruf gestanden haben, bei Bedürftigkeit Arbeitslosenhilfe erhalten. Zu diesem Personenkreis gehören z. B. die Gerichts- und Studienreferendare. Im übrigen steht den von Ihnen genannten Personen unter bestimmten Voraussetzungen Sozialhilfe nach dem Bundessozialhilfegesetz zu. Nunmehr zur Sicherung dieser jungen Menschen bei Krankheit. Kinder in Ausbildung erhalten über das 18. Lebensjahr hinaus bis zum 25. Lebensjahr Familienhilfe. Entfällt die Familienhilfe, insbesondere weil das Kind die Ausbildung beendet hat oder in absehbarer Zeit keinen Ausbildungsplatz findet, kann es der gesetzlichen Krankenversicherung innerhalb eines Monats beitreten. Durch das Gesetz über Krankenversicherung der Studenten ist der Krankenversicherungsschutz für Studienbewerber verbessert worden. Personen, die sich bei der Zentralstelle für die Vergabe von Studienplätzen um einen Studienplatz beworben haben, können sich in der gesetzlichen Krankenversicherung freiwillig versichern. Das gilt auch bei ablehnendem Bescheid, sofern sich der Studienbewerber jeweils für das nächste Semester um einen Studienplatz neu bewirbt. Wird nach Abschluß der Ausbildung die Zeit bis zum Berufseintritt durch eine mindestens sechswöchige versicherungspflichtige Beschäftigung überbrückt, besteht die Möglichkeit der freiwilligen Weiterversicherung. Im übrigen besteht auch für junge Menschen die Möglichkeit, sich bei einem privaten Krankenversicherungsunternehmen gegen die Krankheitskosten zu versichern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg40">Eine Zusatzfrage, bitte sehr!</seg>
+        </u>
+        <note type="speaker">Dr. Enders (SPD) :</note>
+        <u who="#Q2558966" xml:id="ParlaMint-DE_1976-01-21-07-214.u24" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg41">Herr Staatssekretär, da bei der Gewährung der Arbeitslosenhilfe oder der Sozialhilfe das Einkommen der Angehörigen berücksichtigt wird, könnte es doch sein, daß Eltern, die während des Studiums im Zusammenhang mit der Ausbildung der Kinder vielleicht jahrelang Ausgaben hatten, auch nach dem Abschluß des Studiums weiterhin verpflichtet wären, für deren Unterhalt aufzukommen.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg42">Die Bedürftigkeitsprüfung ist in all diesen Bereichen Voraussetzung. Die einzige Möglichkeit der Entlastung besteht dann im sogenannten Lohnsteuer- oder Einkommensteuerbereich. Hier haben die Eltern die Möglichkeit, bestimmte Kosten abzusetzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg43">Eine zweite Zusatzfrage, Herr Abgeordneter Enders.</seg>
+        </u>
+        <note type="speaker">Dr. Enders (SPD) :</note>
+        <u who="#Q2558966" xml:id="ParlaMint-DE_1976-01-21-07-214.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg44">Herr Staatssekretär, könnte es, da die beschäftigungslosen Jahre nach dem Abitur oder nach einer Staatsprüfung auf die Altersversicherung nicht angerechnet werden, sein, daß die Betreffenden, wenn sie später beruflich in einem versicherungspflichtigen Verhältnis beschäftigt werden, im Alter eine Minderung der Rente zu verzeichnen hätten?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg45">Das kann man in aller Regel nicht so sagen. Ich werde veranlassen, daß Ihnen auf diese Frage eine gesonderte Antwort zugeht; denn Schulzeiten können sich unter bestimmten Voraussetzungen auch für eine spätere Altersversorgung positiv auswirken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg46">Eine Zusatzfrage des Herrn Abgeordneten Gansel.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1976-01-21-07-214.u30" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg47">Herr Staatssekretär, ist die Bundesregierung bereit, den Kindergeldbezug und die gesetzliche Krankenversicherung für die Jugendlichen zu überprüfen, die zwar arbeitslos sind, aber keinen Anspruch auf Arbeitslosenunterstützung haben, und bis wann könnte eine solche Überprüfung abgeschlossen sein?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg48">Herr Kollege Gansel, mir sind die Probleme in bezug auf drei Gruppen bekannt. Das sind einmal die jungen Menschen, die einen Ausbildungsplatz suchen und keinen finden; zweitens ist es der Personenkreis von jungen Menschen, die nach dem Studium keine entsprechende Stelle finden; und drittens sind es junge Menschen, die keinen Anspruch auf Arbeitslosengeld und Arbeitslosenhilfe haben. Diese Gruppen sind ein besonderes Problem. Ich werde veranlassen, daß die damit im Zusammenhang stehenden Fragen einmal im Arbeitsministerium geprüft werden — natürlich ist das auch eine finanzielle Frage —, und werde Ihnen dann eine Antwort zukommen lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u32" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg49">Eine Zusatzfrage des Herrn Abgeordneten Ey.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1976-01-21-07-214.u33" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg50">Herr Staatssekretär, sind Sie mit mir der Auffassung, daß unter den von Ihnen genannten drei Gruppen die Abiturienten eine besonders betroffene Gruppe ist, da sie in der heutigen Situation keinerlei Chancen — zumindest nur sehr geringe — haben, einen Arbeitsplatz zu finden und damit Geld zu verdienen?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u34" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg51">Nein, diese Ihre Auffassung kann ich nicht teilen. Die Benachteiligungen sind in allen drei Gruppen gleich. Es ist heute zwar ein besonderes Problem, dem Abiturienten eine Arbeit zuzuweisen. Das gleiche gilt aber natürlich für jemanden, der ein Hochschulstudium abgeschlossen hat. Das Problem ist also sozialrechtlich für alle Gruppen inhaltlich gleich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u35" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg52">Keine weitere Zusatzfrage? Dann komme ich zur Frage 13 des Abgeordneten Müller (Berlin).</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg53">Teilt die Bundesregierung die vom Parlamentarischen Staatssekretär Baum in der Fragestunde vom 14. Januar 1976 in der Beantwortung der Frage 24 des Abgeordneten Berger vertretene Auffassung, wonach die Beihilfe an Beamte, Richter und Soldaten, deren Ehegatte in der gesetzlichen Krankenversicherung pflichtversithert ist, „lediglich ergänzende Fürsorgeleistung des Dienstherrn" und es „zumutbar und sachgerecht" ist, „wenn schon immer nach dem herrschenden Subsidiaritätsgrundsatz zunächst die gesetzlich vorgesehenen Leistungen (der Krankenkasse)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg54">in Anspruch genommen werden" — „auch wenn der Hauptteil des Familienunterhalts durch die Dienstbezüge des Vaters bestritten wird", wie es in der Frage heißt? Bitte sehr, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u36" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg55">Herr Präsident, wenn es gestattet ist, würde ich gern die Fragen 13 und 14 gemeinsam beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u37" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg56">Ich rufe also auch die Frage 14 des Abgeordneten Müller (Berlin)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg57">auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg58">Teilt die Bundesregierung nicht die Auffassung, daß sich der Dienstherr mit der ab 1. April 1976 vorgesehenen Regelung seiner Fürsorgepflicht gegenüber seinen Beamten, Richtern und Soldaten zu Lasten der gesetzlichen Krankenversicherung entzieht, deren Leistungen nach dem Solidaritätsprinzip von der Versichertengemeinschaft finanziert werden? Bitte sehr!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg59">Herr Kollege Müller, Herr Parlamentarischer Staatssekretär Baum hat in der Fragestunde am 14. Januar 1976 die Frage des Herrn Kollegen Berger im Namen der Bundesregierung beantwortet. Ich habe dieser Antwort nichts hinzuzufügen. Zu Ihrer zweiten Frage möchte ich folgendes bemerken. In den von Ihnen angesprochenen Fällen besteht ein Rechtsanspruch auf Leistung der Familienhilfe gegen die Träger der Krankenversicherung. Da die Leistungen der Krankenversicherung auf Antrag zu gewähren sind, ist es dem Versicherten überlassen, ob er die Leistung in Anspruch nimmt. Ich vermag in dem von Ihnen geschilderten Sachverhalt weder eine Verletzung der Fürsorgepflicht des Dienstherrn noch einen Verstoß gegen das Solidaritätsprinzip oder gegen Finanzierungsgrundsätze der gesetzlichen Krankenversicherung zu erkennen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u39" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg60">Die erste Zusatzfrage des Abgeordneten Müller (Berlin).</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1976-01-21-07-214.u40" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg61">Herr Staatssekretär, ist es Ihnen entgangen, daß ich meine Fragen auf solche Fälle abgestellt habe, in denen der Hauptteil des Familienunterhalts durch die Dienstbezüge des Vaters bestritten wird, also nach dem Grundsatz der Subsidiarität zunächst der Dienstherr des Beamten hier versorgungspflichtig ist?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg62">Herr Kollege Müller, das kommt auf den jeweiligen Standort und auf die jeweilige Betrachtungsweise an. Die gleiche Frage wäre genauso zu stellen, wenn der Hauptteil des Familienunterhalts durch gewerbliche Tätigkeit bestritten wird. Hier ist nun als Grundsatz festgelegt, daß der gesetzliche Anspruch Vorrang hat. Ob das aus der Sicht der Krankenkasse richtig ist, ist eine ganz andere Frage. Aber hier ist nun einmal durch Gesetz — und jetzt müßte ich sagen: durch den Bundestag — diese Regelung, wie sie jetzt ist, so beschlossen worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u42" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg63">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1976-01-21-07-214.u43" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg64">Herr Staatssekretär, halten Sie es denn für vertretbar, daß in den Fällen, in denen beispielsweise die Ehefrau eines Oberregierungsrats mit zwei Kindern eine, sagen wir einmal, versicherungspflichtige Tätigkeit ausübt, für die sie die Hälfte des Einkommens ihres verbeamteten Ehemannes erhält, die Krankenversicherung durch die Inanspruchnahme von Leistungen für die Kinder belastet wird?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u44" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg65">Herr Kollege Müller, es steht mir nicht an, den Bundestag zu kritisieren. Der Bundestag hat hier mit Mehrheit diese Regelung beschlossen. Es wäre natürlich möglich gewesen, daß Sie oder Ihre Fraktionskollegen einen Änderungsantrag eingebracht hätten, um diese Frage anders zu regeln. Da aber der Bundestag erst vor wenigen Wochen so beschlossen hat, gehe ich davon aus, daß er das aus Überzeugung getan hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u45" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg66">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1976-01-21-07-214.u46" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg67">Dann möchte ich Sie fragen: Ist diese Auffassung mit dem in der gesetzlichen Krankenversicherung vorherrschenden Prinzip der Solidarität vereinbar, wonach u. a. der wirtschaftlich Stärkere für den wirtschaftlich Schwächeren einzutreten hat, wobei es in den von mir vorgetragenen Fällen so ist, daß der wirtschaftlich Stärkere der Bund bzw. der Staat und nicht die Versichertengemeinschaft ist, die mit kleinerem Beitragsaufkommen die Leistung nun tatsächlich finanzieren muß?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u47" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg68">Herr Kollege Müller, vor wenigen Wochen noch hat Ihre Fraktion ganz anders argumentiert. Da haben Sie gesagt, diese Bundesregierung stehe finanziell vor dem Bankrott. Jetzt sagen Sie, diese Bundesregierung sei finanziell der Stärkere. Das kommt — ich darf das noch einmal wiederholen — auf den jeweiligen Standort an. Im übrigen hat der Bundestag diese Regelung, so wie sie ist, beschlossen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u48" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg69">Die letzte Zusatzfrage des Abgeordneten Müller (Berlin).</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1976-01-21-07-214.u49" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg70">Würden Sie mir aber wenigstens bestätigen — und da benutze ich ein Wort des Arbeitsministers Arendt —, daß auch in der Krankenversicherung die Grenzen der Belastbarkeit der Versicherten erreicht sind?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u50" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg71">Herr Kollege Müller, die Ausführungen des Bundesarbeitsministers will ich gern unterstreichen. Er hat gesagt, die Grenzen der Belastbarkeit sind fast erreicht.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Müller [Berlin] [CDU/CSU] : Sind „fast" erreicht, ah so!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u51" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg72">Eine Zusatzfrage hat der Abgeordnete Berger.</seg>
+        </u>
+        <note type="speaker">Berger (CDU/CSU) :</note>
+        <u who="#Q1303710" xml:id="ParlaMint-DE_1976-01-21-07-214.u52" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg73">Würden Sie, Herr Staatssekretär, vielleicht einmal überprüfen und gegebenenfalls bestätigen, daß Ihre Auskunft, der Bundestag habe so beschlossen, absolut falsch ist, weil es sich um eine beihilferechtliche Verordnung der Bundesregierung handelt, die diese Änderung bewerkstelligt?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Zustimmung bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u53" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg74">Herr Kollege, ich will das gern überprüfen. Wenn dem so ist, habe ich eine falsche Information gehabt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u54" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg75">Ich komme damit zu Frage 15 des Abgeordneten Ey:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg76">Was unternimmt die Bundesregierung, um arbeits- und mittellosen Gastarbeitern die Heimreise in ihr Heimatland zu ermöglichen? Bitte sehr, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u55" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg77">Ausländische Arbeitnehmer verfügen in der Regel über genügend Geld, um die Rückreise in ihr Heimatland selbst bezahlen zu können. Hierauf dürfte es zurückzuführen sein, daß der Bundesregierung keine Fälle bekannt sind, in denen ausländische Arbeitnehmer die nötigen Mittel nicht aufbringen konnten. Auch der vom Bundesrat eingebrachte Entwurf eines Gesetzes zur Änderung und Ergänzung des Arbeitsförderungsgesetzes sieht keine Erstattung der Rückreisekosten vor. Die dort vorgeschlagene Rückkehrhilfe für ausländische Arbeitnehmer hat eine wesentlich weitere — arbeitsmarktpolitische — Zielsetzung. Die Bundesregierung vermag diesen Vorstellungen nicht zu folgen; ihre Stellungnahme ist in diesen Tagen dem Deutschen Bundestag zugeleitet worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u56" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg78">Eine Zusatzfrage, Herr Abgeordneter Ey.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1976-01-21-07-214.u57" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg79">Herr Staatssekretär, ist es für die Bundesregierung denkbar, daß Fälle derartiger Heimreisenot eintreten können? Und darf ich, wenn Sie dieser Auffassung sind, sofort die zweite Frage stellen: Welche Vorstellungen hat die Bundesregierung hinsichtlich der Belastung für solche Rückreisefälle?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u58" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg80">Herr Kollege Ey, denkbar sind natürlich solche Fälle, wie es umgekehrt auch denkbar ist, daß Deutsche in anderen Ländern bestimmte Schwierigkeiten haben. Zuständig ist dann zur Regelung dieser Frage zunächst einmal die Kommunalverwaltung und darüber hinaus möglicherweise auch das jeweilige Konsulat des betreffenden Landes.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u59" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg81">Keine Zusatzfrage mehr?</seg>
+          <vocal type="exclamat">
+            <desc>Ey [CDU/CSU] : Nein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg82">Dann rufe ich die Frage 16 des Herrn Abgeordneten Horstmeier auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg83">Ist die Bundesregierung der Ansicht, daß nach dem Landabgaberecht (GAL)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg84">bei einer langfristigen Verpachtung allein durch die Vorerbin oder den Vererben die Voraussetzung der Abgabe im Sinne des GAL erfüllt wird, und, wenn ja, wird sie entsprechende Schritte einleiten? Bitte sehr, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg85">Herr Kollege Horstmeier, Voraussetzung für die Gewährung einer Landabgaberente ist unter anderem, daß der land-wirtschaftliche Unternehmer sein Unternehmen strukturverbessernd abgibt. Eine solche Abgabe kann auch durch eine langfristige, mindestens zwölfjährige Verpachtung erfolgen. Inwieweit bei einer langfristigen Verpachtung durch eine Vorerbin oder einen Vorerben die insoweit bestehende Voraussetzung für die Gewährung einer Landabgaberente vorliegt, wird nur nach den Umständen des Einzelfalles beurteilt werden können. Bei der Beurteilung wird es von wesentlicher Bedeutung sein, ob infolge des noch ausstehenden Nacherbfalls die Strukturwirksamkeit des Pachtvertrages für die vom Gesetzgeber vorgesehene Dauer eingehalten werden kann. Soweit Ihrer Frage ein Einzelfall zugrunde liegt, bin ich gern bereit, diesen dahin gehend überprüfen zu lassen. Im übrigen muß eine rechtlich verbindliche Beurteilung solcher Einzelfälle den Trägern der landwirtschaftlichen Altershilfe bzw. der Rechtsprechung der Sozialgerichte überlassen bleiben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u61" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg86">Eine Zusatzfrage, Herr Abgeordneter Horstmeier.</seg>
+        </u>
+        <note type="speaker">Horstmeier (CDU/CSU) :</note>
+        <u who="#Q1904092" xml:id="ParlaMint-DE_1976-01-21-07-214.u62" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg87">Herr Staatssekretär, welchem Gesichtspunkt würde die Bundesregierung Vorrang einräumen, dem Risiko des Pächters oder dem Strukturverbesserungseffekt?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg88">Für die Landabgaberente hat zweifellos die Strukturverbesserung Vorrang.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u64" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg89">Keine Zusatzfrage. Ich rufe Frage 17 des Abgeordneten Dr. Czaja auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg90">Diirten in den Oder-Neiße-Gebieten lebende deutsche Staatsangehörige, die das Rentenalter erreicht und durch Beiträge an deutsche Sozialversicherungsträger die gesetzliche Wartezeit erfüllt haben, seitens der Bundesrepublik Deutschland einer vertraglichen Sonderregelung unterworfen werden, die sie gegenüber deutschem innerstaatlichen Recht und anderen deutschen Rentnern außerhalb des Geltungsbereichs des Grundgesetzes schlechter stellt und einer willkürlichen Rentenfestsetzung durch ausländisches Recht ohne Honorierung der deutschen Beiträge unterstellt, ohne daß dadurch die Sozialstaatsklausel des Grundgesetzes, Artikel 14 GG, der Gleichheitsgrundsatz und die grundgesetzliche Schutzpflicht für jeden einzelnen Deutschen schwerwiegend verletzt werden? Bitte sehr, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg91">Die von Ihnen gestellte Frage enthält eine Reihe von Unterstellungen über das deutsch-polnische Rentenabkommen, die die Bundesregierung nicht teilt. Ihre Frage konzentriert sich auf das Problem der Vereinbarkeit des deutschpolnischen Abkommens über Renten- und Unfallversicherung mit dem Grundgesetz. Diese Frage ist im Rechtsausschuß des Deutschen Bundestages in dessen Sitzungen am 10. Dezember 1975 und am 14. Januar 1976 eingehend erörtert und geprüft worden. Die Bundesregierung teilt die Auffassung, die in dein mit Mehrheit gefaßten Beschluß des Rechtsausschusses zum Ausdruck kommt, daß das Abkommen und die Vereinbarung über die Pauschale keine Grundrechte verletzen. Insoweit verweise ich auf Nr. 6 des Beschlusses des Rechtsausschusses vom 14. Januar 1976.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg92">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1976-01-21-07-214.u67" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg93">Herr Staatssekretär, da meine Frage keine Feststellung und daher auch keine Unterstellung enthält und auch das deutschpolnische Abkommen nicht erwähnt, frage ich Sie so, wie es in der Frage geschehen ist, noch einmal, ob nach 1949 deutsche Staatsangehörige, die nicht im Herrschaftsgebiet der Bundesrepublik und im Geltungsbereich des Grundgesetzes leben, sondern in anderen Herrschaftsgebieten, in internationalen Verträgen der Bundesrepublik Deutschland schlechter gestellt worden sind, als Sie nach innerstaatlichem Recht gestellt werden? Diese Frage bitte ich zu beantworten, und zwar für den Fall, daß die Betreffenden das Rentenalter erreicht und die gesetzliche Wartezeit erfüllt haben.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg94">Herr Kollege Czaja, die grundsätzliche Frage das darf ich noch einmal wiederholen - ist im Rechtsausschuß geprüft worden. Dort wurde festgestellt, daß keine Verletzungen des Grundgesetzes bestehen. Dazu ist zu sagen, daß Leistungen, die bereits bestehen, aufrechterhalten werden, daß eine Veränderung zukünftiger Anwartschaften keine Verletzung bedeuten, weil diese Anwartschaften und die späteren Leistungen in ein neues, anderes Recht übergeleitet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u69" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg95">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU CSU):</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1976-01-21-07-214.u70" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg96">1st sichergestellt, daß das Aufrechterhalten der Rechte auch ruhende Anwartschaften betrifft und daß die Überführung in ein anderes Recht die deutschen Staatsangehörigen nicht einer willkürlichen und schlechteren Rentenfestsetzung als nach innerstaatlichem Recht nach erfüllter Wartezeit und nach Erreichen des Rentenalters unterwirft?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u71" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg97">Herr Kollege Czaja, ich glaube, hier ist es wesentlich zu unterscheiden, ob es sich um Leistungen nach § 1318 und § 1319 der Reichsversicherungsordnung oder um Ermessensleistungen nach § 1321 der Reichsversicherungsordnung handelt. Diese Ermessensleistungen können Sie jetzt natürlich nicht in rechtsverbindliche Ansprüche umwandeln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u72" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg98">Eine Zusatzfrage des Abgeordneten Dr. Wittmann (München).</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1976-01-21-07-214.u73" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg99">Herr Staatssekretär, wollen Sie im Ernst leugnen, daß das Rentensystem der Volksrepublik Polen auch unter Zugrundelegung eines anderen Lebensstandards als bei uns Idle Personen, die Deutsche in deutschem Staatsgebiet sind, wesentlich schlechter stellt, wenn ihnen das Antragsrecht bei den deutschen Rentenversicherungsanstalten endgültig abgeschnitten wird, und glauben Sie nicht, daß darin eine Verletzung der Art. 14 und 3 des Grundgesetzes enthalten ist?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u74" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg100">Ich glaube nicht, daß hierin eine Verletzung enthalten ist. Sie könnten diese Frage ja überprüfen lassen, wenn Sie dieser Überzeugung sind.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Czaja [CDU/CSU]: Das kommt noch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg101">Im übrigen ist es so, daß jeder Staat seine Regelungen treffen muß, im Rahmen seiner Möglichkeiten und möglicherweise auch im Rahmen seiner sozialpolitischen Auffassungen. Daß wir es in Polen im Vergleich zur Bundesrepublik Deutschland mit anderen Sozialversicherungsleistungen zu tun haben, das ist jedem bekannt. Dieser Unterschied besteht aber nicht nur zwischen der Volksrepublik Polen und der Bundesrepublik, sondern diese Unterschiede bestehen auch im Vergleich zur westlichen Welt. Es ist ganz natürlich, idaß jeder Staat seine eigene Gesetzgebung hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u75" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg102">Eine Zusatzfrage des Herrn Abgeordneten Sauer.</seg>
+        </u>
+        <note type="speaker">Sauer (Salzgitter) (CDU/CSU) :</note>
+        <u who="#Q118277" xml:id="ParlaMint-DE_1976-01-21-07-214.u76" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg103">Herr Staatssekretär, ich werde nachlesen, worauf Sie leider nur verwiesen haben .Ich hätte aber gern einmal eine Antwort ;auf die Frage: Bekommt ein Rentner, der fünfzehn Jahre lang bis 1945 in die deutsche Sozialversicherungeingezahlt hat und dem die Polen dann nicht mehr gestattet haben, nach 1945 in den Ostgebieten zu arbeiten, mit Sicherheit eine Rente, und wie sieht das im Verhältnis zwischen Zloty und D-Mark aus?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg104">Herr Kollege, zunächst einmal ist zu sagen, daß wir ein Rentenabkommen auf Gegenseitigkeit geschlossen haben, d. h., wir behandeln polnische Bürger und Deutsche, die jetzt hier sind, mit ihren Versicherungszeiten so, als wenn sie ihre Beiträge in der Bundesrepublik geleistet hätten. Umgekehrt tut die polnische Regierung jetzt das gleiche. Sie behandelt alle Zeiten, die aus der Versicherung nach der Reichsversicherungsordnung stammen so, als wenn die Beiträge in Polen geleistet worden wären. Dabei wird der Ermessensspielraum, den es bisher gegeben hat, zukünftig durch einen Rechtsanspruch ersetzt werden. Das ist zweifellos für beide Seiten eine bessere Regelung, als sie bisher bestanden hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u78" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg105">Eine Zusatzfrage des Abgeordneten Schlaga.</seg>
+        </u>
+        <note type="speaker">Schlaga (SPD) :</note>
+        <u who="#Q1422044" xml:id="ParlaMint-DE_1976-01-21-07-214.u79" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg106">Herr Staatssekretär, ist Ihnen bekannt, daß zu diesem gesamten Fragenkomplex, der hier zur Debatte steht, von Ihrem Ministerium bereits in einem nach meiner Erinnerung mindestens fünf Seiten langen Brief oder Exposé näher und besonders unter Würdigung der verfassungs- und versicherungsrechtlichen Probleme — auf Fragen des Herrn Czaja — eingegangen worden ist</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Czaja [CDU/CSU]: Nein, das habe ich nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg107">und daß es sowohl im Rechtsausschuß als auch im Ausschuß für Arbeit und Sozialordnung wie auch im Auswärtigen Ausschuß ausführliche Diskussionen gegeben hat, in denen Herr Czaja all die von ihm gestellten Fragen — so meine ich jedenfalls — zur vollsten Zufriedenheit beantwortet bekommen hat?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Czaja [CDU/CSU]: Ich habe keinen Brief gekriegt!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u80" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg108">Herr Abgeordneter, einem Kollegen aus einer anderen Partei die vollste Zufriedenheit zu unterstellen, ist, wie ich glaube, ein Wagnis.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg109">Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Freiherr von Fircks [CDU/CSU] : Herr Schlaga hat anscheinend schon einen Durchschlag des Briefes!</desc>
+        </vocal>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg110">Herr Kollege, ich kann hier nur noch einmal sagen, daß wir natürlich auch sehr verwundert sind, daß diese Fragen hier im Plenum immer wieder gestellt werden, obwohl die gleichen Fragen zur Zeit im Ausschuß behandelt werden. Jeder, der ernsthaft interessiert ist und nicht nur aus optischen Gründen möglicherweise ein besonderes Interesse hat, könnte sich in den Ausschuß begeben und dort von den Fachleuten alle Auskünfte erhalten, die er haben will. Diese Fragen sind hier aber so gestellt worden; sie sind zugelassen worden, und ich muß sie beantworten. Ich praktiziere das jetzt seit mehreren Wochen und Monaten. Wenn ich die Lage richtig einschätze, ist aus verschiedenen Gründen auch in nächster Zeit mit einer weiteren Behandlung dieser Fragen zu rechnen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg111">Herr Staatssekretär, das verfassungsmäßige Recht des Plenums des Deutschen Bundestages, Fragen öffentlich zu behandeln, die in den Ausschüssen nichtöffentlich behandelt werden, wird durch Ausschußberatungen nicht berührt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU — Sauer [Salzgitter] [CDU/CSU]: Die Demokratie fängt da erst an!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg112">Herr Abgeordneter Dr. Hupka!</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU) :</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1976-01-21-07-214.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg113">Herr Staatssekretär, ich beziehe mich jetzt auf die Antwort, die Sie meinem Kollegen Czaja gegeben haben: Ist die Überleitung in ein neues Recht — im Klartext gesprochen — eine Besserstellung oder eine Schlechterstellung der Deutschen jenseits von Oder und Neiße gegenüber dem bisherigen Rechtstitel?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg114">Nach unserer Auffassung handelt es sich um eine Besserstellung.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Hupka [CDU/CSU] : „Nach unserer Auffassung" !</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg115">Herr Abgeordneter Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1976-01-21-07-214.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg116">Herr Staatssekretär, weshalb ist es der Bundesregierung nicht gelungen, eine Besserstellung der Rentner in den deutschen Ostgebieten zu erreichen? Angesichts der Tatsache, daß sich sogar aus dem Vorblatt zum Gesetzentwurf ergibt, daß rund 1 700 Rentnern, die in Altpolen leben, dort die volle Rente nach unserem Rentenrecht zugesichert wird, ist zu fragen, weshalb die Bundesregierung das gleiche nicht auch für alle Rentner in den deutschen Ostgebieten hat durchsetzen können.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg117">Herr Kollege, es ist nicht das Verschulden dieser Bundesregierung, daß alte gesetzliche Bestimmungen die bisherige unterschiedliche Regelung zugelassen haben. Sie wissen so gut wie ich, aus welchen Motiven diese Regelung mit den Kann-Leistungen einmal geschaffen wurde. Sie kennen auch die internationalen Verhandlungen, die zu diesem Ergebnis geführt haben. Ich möchte aber noch einmal feststellen, daß die Regelung, die wir jetzt anstreben, für sehr viele Menschen sowohl in der Bundesrepublik als auch in Polen wesentliche Verbesserungen bringt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg118">Herr Abgeordneter Freiherr von Fircks.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1976-01-21-07-214.u89" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg119">Herr Staatssekretär, können Sie mir sagen, wie es geregelt ist, wenn ein Rentenbezieher nach den neuen Vereinbarungen jetzt einen Rechtsanspruch gegenüber der polnischen Rentenversicherung hat und danach die Genehmigung zur Aussiedlung in die Bundesrepublik bekommt: Lebt sein alter Rentenanspruch gegenüber der deutschen Rentenversicherung wieder auf, oder wird seine Rente nach dem Rentenanspruch berechnet, den er gegenüber der polnischen Rentenversicherung erworben hat?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u90" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg120">Soweit ich informiert bin, lebt sein alter Rentenanspruch wieder auf, d. h. bei Aussiedlern werden die Versicherungszeiten, die sie in Polen oder aber in den ehemals deutschen Gebieten zurückgelegt haben, so behandelt, als wenn sie in der Bundesrepublik zurückgelegt worden wären.</seg>
+          <vocal type="exclamat">
+            <desc>Freiherr von Fircks [CDU/CSU] : Wer kann dies genau beantworten, wenn Sie nur glauben , daß es so ist?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg121">— Herr Kollege, ich werde diese Frage überprüfen lassen und Ihnen dann eine schriftliche Mitteilung zukommen lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u91" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg122">Herr Abgeordneter Dr. Becher!</seg>
+        </u>
+        <note type="speaker">Dr. Becher (Pullach) (CDU/CSU) :</note>
+        <u who="#Q110156" xml:id="ParlaMint-DE_1976-01-21-07-214.u92" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg123">Herr Staatssekretär, läuft eine Anwendung des Rentenrechts Polens, das, wie man uns in den Ausschüssen sagte, geringere Leistungen erbringt, auf die in den polnischen Gebieten verbliebenen Deutschen nicht darauf hinaus, daß diese etwa 50 000 bis 60 000 — welche im Sinne des Grundgesetzes Deutsche sind — ein zweites Mal enteignet werden, weil die ihnen, von uns aus gesehen, rechtlich zustehenden Sozialleistungen daher nicht erreicht werden?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg124">Herr Kollege, wenn Sie diese Frage noch einmal ganz nüchtern überlegen, werden Sie feststellen, daß es kaum möglich ist, in — wie ich glaube — 1,9 Millionen Einzelfällen deutsches Recht nach Polen zu exportieren. (Dr. Czaja [CDU/CSU): 40 000!)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg125">Das wird der polnische Staat nicht wünschen können, und wir werden es nicht bezahlen können. Jetzt bekommen wir über eine pauschalierte Regelung ein einheitliches Rechtssystem in Polen. Entsprechendes gilt für Personen, die aus Polen zu uns herübergekommen sind. Ich betrachte eine solche Regelung als eine ganz beachtliche Leistung und als eine wesentliche Verbesserung des bisherigen Rechtszustandes.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u94" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg126">Herr Abgeordneter Seiters.</seg>
+        </u>
+        <note type="speaker">Seiters (CDU/CSU) :</note>
+        <u who="#Q73941" xml:id="ParlaMint-DE_1976-01-21-07-214.u95" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg127">Herr Staatssekretär, unter Bezug auf die Bemerkungen des Kollegen Schlaga würde mich jetzt doch eines interessieren: Könnte es sein, daß der Kollege Schlaga bereits im Besitz des Durchschlags eines Briefes ist, der an Herrn Czaja gerichtet ist, den dieser im Original aber noch gar nicht erhalten hat?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u96" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg128">Ich würde vorschlagen, daß Sie Herrn Schlaga einmal fragen. Ich kenne diesen Vorgang nicht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u97" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg129">Herr Abgeordneter Müller (Berlin).</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1976-01-21-07-214.u98" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg130">Herr Staatssekretär, ist Ihre Feststellung, daß es eine Besserstellung sei, in jedem Falle begründet, oder worauf stützen Sie sich bei Ihrer Beurteilung?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg131">Herr Kollege, wenn bisherige Kann-Leistungen oder Ermessensleistungen in Leistungen übergeleitet werden, auf die ein Rechtsanspruch besteht, verstehe ich eine solche Veränderung als Verbesserung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg132">Herr Abgeordneter Dr. Kunz.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1976-01-21-07-214.u101" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg133">Herr Staatssekretär, sind Sie bereit, den Herrn Kollegen Schlaga zu fragen, ob der Sachverhalt, wie Herr Kollege Seiters ihn eben geschildert hat, zutrifft oder nicht?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u102" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg134">Der Herr Staatssekretär kann hier im Hause keinen Abgeordneten fragen. Herr Abgeordneter Biehle!</seg>
+        </u>
+        <note type="speaker">Biehle (CDU/CSU) :</note>
+        <u who="#Q124182" xml:id="ParlaMint-DE_1976-01-21-07-214.u103" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg135">Herr Staatssekretär, würden Sie mir zur Beurteilung der Lage bestätigen, daß das Leistungsniveau des polnischen Rentensystems wesentlich unter dem Leistungsniveau des deutschen steht und daß sich damit das polnische Rentensystem von dem deutschen Rentensystem wesentlich unterscheidet?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u104" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg136">Herr Kollege, diese Frage habe ich mehrfach beantwortet. Natürlich ist in vielen Staaten, ich darf fast sagen, in allen Staaten der Welt das Sozialleistungssystem der Bundesrepublik Deutschland nicht erreicht. Das ist keine Frage, die nur im Verhältnis zu Polen besteht, sondern diese Frage können wir im Verhältnis zu allen Staaten auf dieser Welt stellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u105" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg137">Mit dieser Frage des Abgeordneten Biehle können wir diesen Punkt jetzt wohl abschließen. Ich rufe die Frage 18 des Abgeordneten Althammer auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg138">Kann die Bundesregierung dafür sorgen, daß notleidende Textilunternehmen in Bayern, Baden-Würtemberg und Hessen — insbesondere in Augsburg — aus dem dafür vorgesehnen europäischen Sozialfonds angemessene Unterstützung erhalten?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u106" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg139">Herr Kollege Althammer, der Europäische Sozialfonds ist ein Arbeitsmarktfonds. Er unterstützt die Mitgliedstaaten der Europäischen Gemeinschaften in ihrem Bemühen, Arbeitslosigkeit zu verhindern und zu beseitigen, indem er sich an Maßnahmen der beruflichen Bildung finanziell beteiligt. Er hat nicht die Aufgabe, die Unternehmer im allgemeinen und die Textilunternehmer im besonderen zu unterstützen. Dementsprechend hat die Bundesregierung beantragt, die Maßnahmen der Bundesanstalt für Arbeit zugunsten von Textilarbeitern aus dem Sozialfonds zu fördern. Diese Maßnahmen kommen sowohl Arbeitnehmern zugute, die noch in der Textilindustrie arbeiten und dort bleiben wollen, aber dazu eine andere Qualifikation brauchen, als auch Arbeitskräften, die ihre Arbeit in der Textilindustrie verloren haben und die Eignung für einen anderen Arbeitsplatz erwerben wollen. Die Bundesregierung wird weiterhin bemüht sein, in diesem Sinne für Arbeitnehmer aus der Textilindustrie Beihilfen des Europäischen Sozialfonds zu erhalten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u107" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg140">Eine Zusatzfrage, der Abgeordnete Dr. Althammer.</seg>
+        </u>
+        <note type="speaker">Dr. Althammer (CDU/CSU) :</note>
+        <u who="#Q103721" xml:id="ParlaMint-DE_1976-01-21-07-214.u108" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg141">Herr Staatssekretär, besteht eine Möglichkeit für die Bundesregierung, finanziell auch dann zu helfen, wenn wegen drohender Konkurse eine Vielzahl von Arbeitsplätzen verlorenzugehen drohen, um zu verhindern, daß hinterher, wenn die Leute arbeitslos geworden sind, Zahlungen aus diesem Fonds geleistet werden müssen?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u109" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg142">Herr Kollege, soweit ich das einschätze, besteht keine Möglichkeit, aus diesem Fonds zu helfen. Eine andere Frage ist es, ob nicht aus anderen Programmen geholfen werden kann. Ich denke dabei an den ERP-Fonds, an das Mittelstandsprogramm und an Landesbürgschaften. Aber ich sehe keine Möglichkeit, aus dem Sozialfonds zu helfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u110" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg143">Eine zweite Zusatzfrage, der Abgeordnete Dr. Althammer.</seg>
+        </u>
+        <note type="speaker">Dr. Althammer (CDU/CSU) :</note>
+        <u who="#Q103721" xml:id="ParlaMint-DE_1976-01-21-07-214.u111" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg144">Herr Staatssekretär, sind Sie — ich nehme an, daß Sie den Hintergrund meiner Frage kennen; es handelt sich um den Zusammenbruch mehrerer Textilfirmen im Zusammenhang mit dem Fall Glöggler; der Name ist Ihnen bekannt — bereit, mir schriftlich darüber Auskunft zu geben, welche Möglichkeiten die Bundesregierung sieht, um hier den Verlust von Tausenden von Arbeitsplätzen zu vermeiden?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1976-01-21-07-214.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg145">Herr Kollege, ich werde diese Frage zum Anlaß nehmen, dafür zu sorgen, daß sich der Wirtschaftsminister um dieses Anliegen kümmert. Dort werden die einzelnen Programme haushaltsrechtlich und auch von der Zuständigkeit her betreut. Ich werde veranlassen, daß Ihnen die Möglichkeiten, die es gibt, aufgezeigt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg146">Keine Zusatzfrage mehr? — Ich danke Ihnen, Herr Staatssekretär. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers der Verteidigung, und zwar zunächst zur Frage 20 des Abgeordneten Möhring:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg147">Welche Vorsorgemaßnahmen sind in der Bundeswehr getroffen, um Faktoren, wie zeitgleiches Dienstende mit Verkehrsstoßzeiten, Übermüdung, nicht verkehrssichere Kraftfahrzeuge usw., die als Ursache der Unfallgefahren für Soldaten auftreten können, auszuschließen? Herr Staatssekretär Schmidt steht zur Verfügung.</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u114" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg148">Verehrter Herr Kollege Möhring, das sogenannte „Zwölf-Punkte-Programm zur Eindämmung der Kfz-Unfälle im und außer Dienst" gibt den Vorgesetzten viele Anregungen. Besonders hervorzuheben ist die Möglichkeit, den Soldaten, die gezwungen sind, am Wochenende längere Fahrten mit eigenem Kraftfahrzeug durchzuführen, Urlaubsverlängerung oder Dienstbefreiung zu gewähren, um zu verhüten, daß die betreffenden Soldaten übermüdet oder wegen Zeitmangels mit überhöhter Geschwindigkeit ihrem Fahrtziel zustreben. Je nach Belegungsstärke kann es auch zweckmäßig sein, an den Wochenenden gestaffelte Zeiten des Dienstendes festzulegen, um Verkehrsstörungen zu vermeiden. Darüber hinaus wird neben den Belehrungen durch die Vorgesetzten in Zusammenarbeit mit der Polizei, den Staatsanwälten, den Automobilsportverbänden usw. versucht, die Soldaten zu verkehrsgerechtem Verhalten zu erziehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg149">Eine Zusatzfrage? — Bitte sehr!</seg>
+        </u>
+        <note type="speaker">Möhring (SPD) :</note>
+        <u who="#Q1604431" xml:id="ParlaMint-DE_1976-01-21-07-214.u116" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg150">Herr Staatssekretär, ich darf noch einmal nachfragen, um das ganz präzise formuliert zu bekommen: Sie können bestätigen, daß die Wehrpflichtigen in der Truppe unter ausreichendem Zeitaufwand und mit dem gebotenen Nachdruck im Wege der Belehrung auf das Problem der ungehemmten Kfz-Benutzung an Wochenenden hingewiesen werden?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg151">Ja, das geschieht auf jeden Fall, Kollege Möhring. Wir sind aber auch für Anregungen über das hinaus, was wir tun, jederzeit dankbar, um hierüber den Soldaten noch zusätzlich etwas sagen zu können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg152">Eine zweite Zusatzfrage, Herr Abgeordneter Möhring?</seg>
+          <vocal type="question">
+            <desc>Möhring [SPD] : Zu dieser Frage nicht mehr, Herr Präsident!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg153">— Keine! Dann kommen wir zur Frage 21 des Abgeordneten Möhring:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg154">Bis zu welchem Grad werden die bisher angebotenen kostenlosen Familienheimfahrten von den Wehrpflichtigen der Bundeswehr in Anspruch genommen, und kann sich der Bundesverteidigungsminister einer Forderung der Wehrpflichtigentagung des Bundeswehrverbands anschließen, die Zahl der Familienheimfahrten zu erhöhen, um die hohe Zahl der Unfalltoten zu reduzieren?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u119" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg155">Herr Kollege, die den Grundwehrdienstleistenden eingeräumte monatliche Freifahrt auf der Deutschen Bundesbahn zwischen Standort und Wohnort wurde in den Jahren 1972 und 1973 nur zu rund 43 v. H. in Anspruch genommen. Die Statistiken für 1974 und 1975 liegen noch nicht vor. Jedoch ist aus den Haushaltsausgaben bereits zu erkennen, daß die Ausnutzungsquote nicht angestiegen ist. Die an Stelle der Freifahrten gewährten Fahrtkostenerstattungen bei Benutzung sonstiger öffentlicher Verkehrsmittel, sofern die Deutsche Bundesbahn nicht benutzt werden kann, fallen nicht ins Gewicht; 1974 wurden hierfür lediglich 3 900 DM verausgabt. Wie die Ausnutzungsquote zeigt, besteht unter den Grundwehrdienstleistenden kein Bedürfnis allgemeiner Art nach mehr Freifahrten. Eine Vermehrung ist daher zur Zeit nicht beabsichtigt. Die Soldaten ziehen es aus Gründen der Bequemlichkeit u. a. vor, mit dem eigenen Kraftfahrzeug nach Hause zu fahren. Es muß auch bezweifelt werden, daß sich an der Zahl der bei außerdienstlichen Kraftfahrzeugunfällen tödlich verunglückten Grundwehrdienstleistenden von jährlich rund 150 durch eine Erhöhung der Zahl der Freifahrten etwas ändern würde, weil sich die Mehrzahl der Unfälle mit tödlichem Ausgang nicht bei der Fahrt ins Wochenende, sondern während der Freizeit im Standort ereignet.</seg>
+        </u>
+        <vocal type="question">
+          <desc>Möhring [SPD]: Danke, keine Zusatzfragen!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u120" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg156">Dann eine Zusatzfrage des Abgeordneten Nordlohne.</seg>
+        </u>
+        <note type="speaker">Nordlohne (CDU/CSU) :</note>
+        <u who="#Q1445835" xml:id="ParlaMint-DE_1976-01-21-07-214.u121" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg157">Herr Staatssekretär, sind in letzter Zeit im Verteidigungsministerium — auch nach Rücksprache mit dem Wehrbeauftragten — Überlegungen darüber angestellt worden, wie weit durch die Einberufung von Wehrpflichtigen in der Nähe des Heimatortes solche Familienheimfahrten eventuell reduziert werden könnten?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u122" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg158">Herr Abgeordneter, es ist nach den gesetzlichen Bestimmungen auch schon heute so, daß, wenn möglich, heimatnah einberufen wird. Aber Sie wissen genau, daß z. B. aus dem Ruhrgebiet mit dem hohen Aufkommen an Wehrpflichtigen natürlich ein großer Teil bis hinunter nach Süddeutschland und hinauf nach Norddeutschland einberufen werden muß, weil die notwendigen Kasernenkapazitäten nicht vorhanden sind und dort auch gar nicht vorhanden sein können; sie müssen an anderer Stelle sein. Im Rahmen der gesamten Überprüfung auch im Hinblick auf die Elektronische Datenverarbeitung, die wir eines Tages auch für die Einberufung für das ganze Bundesgebiet haben werden, ist natürlich auch dieser Frage besondere Aufmerksamkeit zu widmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg159">Ich komme dann zur Frage 22 des Abgeordneten Schlaga:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg160">Besteht auf Grund der eidlichen Aussage des ehemaligen Lockheed-Repräsentanten in der Bundesrepublik Deutschland, Herrn Hauser, der Verdacht, daß Beamte des Bundesverteidigungsministeriums und Offiziere der Bundeswehr im Zusammenhang mit der Beschaffung der Starfighter von der Firma Lockheed finanzielle Zuwendungen erhalten haben? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u124" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg161">Herr Kollege Schlaga, die Bundesregierung hat unmittelbar nach Bekanntwerden der von Herrn Hauser erhobenen Vorwürfe um Überlassung des Vernehmungsprotokolls und etwaiger weiterer, deutsche Interessen berührender Unterlagen gebeten. Das Protokoll der Aussage des Herrn Hauser liegt der Bundesregierung bisher noch nicht vor. Es ist jedoch sichergestellt, daß die Bundesregierung über alle Feststellungen des US-Senatsausschusses in bezug auf Unregelmäßigkeiten im Zusammenhang mit der Beschaffung der F 104 G schnellstmöglich unterrichtet wird. Soll ich die zweite Frage gleich mit beantworten, Herr Kollege?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Schlaga [SPD]: Gern!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u125" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg162">Dann rufe ich auch die Frage 23 des Abgeordneten Schlaga auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg163">Was gedenkt die Bundesregierung gegebenenfalls zur weiteren Aufklärung dieses Vorganges zu tun?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u126" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg164">Die Bundesregierung hat sich zu der von dem Vorsitzenden des Unterausschusses für multinationale Beziehungen des Senats der Vereinigten Staaten von Amerika, Senator Church, erbetenen Zusammenarbeit bereit erklärt. Die Ermittlungen des amerikanischen Senats werden in jeder Weise unterstützt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u127" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg165">Herr Abgeordneter Schlaga, Sie haben jetzt vier Zusatzfragen. Bitte!</seg>
+        </u>
+        <note type="speaker">Schlaga (SPD) :</note>
+        <u who="#Q1422044" xml:id="ParlaMint-DE_1976-01-21-07-214.u128" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg166">Herr Staatssekretär, führt die Bundesregierung ihre Untersuchungen auch gegen Personen aus dem zivilen politischen Bereich durch — meine ursprüngliche Frage bezieht sich auf Offiziere und Beamte des Verteidigungsministeriums —, wenn diese mit der Beschaffung z. B. der 104 G befaßt waren?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u129" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg167">Herr Kollege Schlaga, wenn wir aus den Untersuchungen des amerikanischen Senats — und gerade in letzter Zeit ist über das Fernsehen auch von Senatoren sehr viel hierüber in die Bundesrepublik gelangt — Tatbestände haben, die es notwendig machen, daß Untersuchungen durchgeführt werden, werden sie strafrechtlicher Art sein und dann mit großer Sicherheit von den ordentlichen Gerichten durchgeführt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u130" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg168">Eine zweite Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Schlaga (SPD) :</note>
+        <u who="#Q1422044" xml:id="ParlaMint-DE_1976-01-21-07-214.u131" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg169">Es ist wohl richtig, Herr Staatssekretär, daß große US-Rüstungsfirmen jährlich erhebliche Mittel zur sogenannten Verkaufsförderung ausgeben. Die letzte „Monitor"-Sendung am Montag hat darüber, so meine ich jedenfalls, doch einigen Aufschluß gegeben. Versteht es sich da nicht von selbst, daß größere Summen in der Vergangenheit auch in die Bundesrepublik geflossen sind, was dann hier den Tatbestand der Bestechung erfüllen mußte? Liegen darüber Erkenntnisse vor, unabhängig von den Aussagen vor dem amerikanischen Senatsausschuß und seinen Untersuchungsergebnissen?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u132" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg170">Herr Kollege, darüber liegen keine Aussagen vor, und es liegen auch keine Beweise vor. Solange nichts bewiesen wird, werde ich von dieser Stelle auch keine Verdächtigungen aussprechen bzw. werde ich auch nicht meinen, daß in der Bundesrepublik jemand bestechlich war.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u133" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg171">Eine dritte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schlaga (SPD) :</note>
+        <u who="#Q1422044" xml:id="ParlaMint-DE_1976-01-21-07-214.u134" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg172">Herr Staatssekretär, sehen Sie es Hinweise aus den Untersuchungen des US-Senats bekommt, sieht die Bundesregierung dann eine rechtliche Möglichkeit, z. B. Herrn Hauser seine eidlichen Aussagen gegebenenfalls vor einem deutschen Gericht oder vor einem Untersuchungsausschuß — denn er hat sich ausdrücklich in dieser Richtung angeboten — wiederholen zu lassen?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u135" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg173">Zunächst einmal kann das Parlament in eigener Zuständigkeit einen Untersuchungsausschuß dann einsetzen, wenn es meint, daß ein Tatbestand vorliegt, der untersucht werden muß; vor allen Dingen kann der Verteidigungsausschuß hier tätig werden. Zum zweiten ist jede Art der Annahme von Bestechungsgeldern ein strafrechtlicher Tatbestand und würde sofort dazu führen, daß die ordentlichen Gerichte tätig werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u136" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg174">Letzte Zusatzfrage, Herr Abgeordneter Schlaga.</seg>
+        </u>
+        <note type="speaker">Schlaga (SPD) :</note>
+        <u who="#Q1422044" xml:id="ParlaMint-DE_1976-01-21-07-214.u137" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg175">Herr Staatssekretär: sehen Sie es mir nach; vielleicht können Sie mir die Frage nicht beantworten: Wäre es möglich, für den Fall, daß sich der Verteidigungsausschuß als Untersuchungsausschuß konstituiert, auch Herrn Hauser, der ja US-Staatsangehöriger ist, als Zeugen zu laden?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u138" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg176">Wenn der Ausschuß etwas in dieser Richtung beschließt, wird jedenfalls die Bitte an einen ausländischen Bürger gerichtet werden können, vor dem Ausschuß zu erscheinen. Herr Hauser ist wohl amerikanischer Staatsangehöriger. Wir können natürlich in diesem Parlament nicht beschließen, daß ein amerikanischer Staatsangehöriger hier eidlich vernommen wird. Ein solches Ersuchen wäre Sache eines ordentlichen Gerichts.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg177">Ich komme nunmehr zu den zahlreichen Meldungen zu Zusatzfragen. Die erste Zusatzfrage stellt der Abgeordnete Handlos.</seg>
+        </u>
+        <note type="speaker">Handlos (CDU/CSU) :</note>
+        <u who="#Q99903" xml:id="ParlaMint-DE_1976-01-21-07-214.u140" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg178">Herr Staatssekretär, ist der Bundesregierung bekannt, daß Herr Hauser 1972 nach seiner Verurteilung zu einem Jahr Gefängnis aus der Bundesrepublik Deutschland ausgewiesen worden ist und heute Aufenthaltsverbot für die Bundesrepublik Deutschland hat?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg179">Wenn der Tatbestand so ist — ich kann es nicht ganz genau sagen —, ist das selbstverständlich der Bundesregierung, vor allen Dingen dem Justizminister, bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg180">Herr Abgeordneter Handlos, nehmen Sie eine zweite Zusatzfrage in Anspruch? — Nein. Als nächster hat sich der Abgeordnete Spranger gemeldet.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1976-01-21-07-214.u143" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg181">Herr Staatssekretär, sind der Bundesregierung die Zahl und die Gegenstände der Ermittlungsverfahren bekannt, in die Herr Hauser im Bereich der Bundesrepublik Deutschland oder in den Vereinigten Staaten verwickelt war?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u144" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg182">Damit bin ich überfragt, Herr Kollege. Natürlich ist davon eine ganze Menge bekannt. Ich kann Ihnen jetzt aber nicht minutiös sagen, was alles bekannt ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u145" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg183">Herr Abgeordneter Spranger, Ihre Frage müßte wahrscheinlich vom Bundesministerium der Justiz beantwortet werden, nicht vom Bundesministerium der Verteidigung. — Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1976-01-21-07-214.u146" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg184">Herr Staatssekretär, ist der Bundesregierung bekannt, wie die deutschen Strafverfolgungsbehörden unter diesen Gesichtspunkten die Glaubwürdigkeit des Herrn Hauser einschätzen?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe von der SPD: Das ist wieder Justiz!</desc>
+        </vocal>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg185">Ich meine, das geht weit an dem vorbei, was hier gefragt worden ist. Ich möchte mich gerne dem anschließen, was, wenn ich mich nicht irre, der Herr Präsident angeregt hat, daß Sie sich in dieser Frage mit dem Justizminister in Verbindung setzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg186">Eine Zusatzfrage des Abgeordneten Biehle.</seg>
+        </u>
+        <note type="speaker">Biehle (CDU/CSU) :</note>
+        <u who="#Q124182" xml:id="ParlaMint-DE_1976-01-21-07-214.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg187">Herr Staatssekretär, ist der Bundesregierung bekannt, daß Herr Hauser am 14. September 1966 in dem Ermittlungsverfahren gesagt hat, er wisse, daß Behauptungen über Geldzahlungen der Firma Lockheed an den früheren Verteidigungsminister Strauß für das Starfighter-Geschäft eine reine Erfindung sein müßten?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u150" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg188">Das ist bekannt, Herr Kollege Biehle, es ist aber ebenfalls bekannt, daß der amerikanische Senat Ermittlungen durchführt, im Rahmen dieser Ermittlungen Herrn Hauser einvernommen hat und, wie uns ja bekannt und auch von Senatoren mitgeteilt worden ist, diese Ermittlungen in kurzer Zeit abgeschlossen und uns die Unterlagen dann zur Verfügung gestellt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u151" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg189">Herr Abgeordneter Biehle!</seg>
+        </u>
+        <note type="speaker">Biehle (CDU/CSU):</note>
+        <u who="#Q124182" xml:id="ParlaMint-DE_1976-01-21-07-214.u152" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg190">Herr Staatssekretär, können Sie mir sagen, ob der Bundesregierung bekannt ist, ob zwischen 1963 und der Verurteilung 1972 in Deutschland die Wohnung und die Büros des Herrn Hauser mehrfach von der Kriminalpolizei durchsucht, welche Notizen und Belege dabei sichergestellt worden sind und warum das angeblich seit 10. Februar 1961 geführte sogenannte Tagebuch dabei nicht gefunden warden ist?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u153" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg191">Herr Biehle, Sie stellen hier Fragen, zu denen ich — das wissen Sie natürlich ganz genau — überhaupt keine Antwort geben kann, denn es ist gar nicht meine Sache, mich so mit der Person Hausers zu beschäftigen. Wenn Sie eine solche Frage schriftlich an die Bundesregierung richten, wird der heute zuständige Minister für Justiz sicher auch eine Antwort darauf haben.</seg>
+          <vocal type="exclamat">
+            <desc>Biehle [CDU/CSU] : Wir wollten nur einen Beitrag leisten!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg192">— Dieser Beitrag könnte natürlich auch schriftlich geleistet werden, verehrter Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u154" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg193">Herr Abgeordneter Dr. Becher.</seg>
+        </u>
+        <note type="speaker">Dr. Becher (Pullach) (CDU/CSU) :</note>
+        <u who="#Q110156" xml:id="ParlaMint-DE_1976-01-21-07-214.u155" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg194">Herr Staatssekretär, ist Ihnen bekannt, ob und wann frühere Verteidigungsminister im Zusammenhang mit Agentenmeldungen über angebliche Bestechungen, die auf Grund der Verträge mit Lockheed vorgekommen sein sollen, Untersuchungen durchgeführt und zu welchen Ergebnissen diese Untersuchungen geführt haben?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u156" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg195">Welche Untersuchungen durchgeführt worden sind, kann ich im einzelnen natürlich nicht sagen Es ist aber ganz klar, daß niemand, der in der Öffentlichkeit tätig ist, davon ausgeschlossen werden kann, auch einmal verdächtigt zu werden. Das wissen wir ganz genau. Ich kann Ihnen also dazu, was an Untersuchungen mit welchem vorgegebenen Ziel und mit welchem Ergebnis durchgeführt worden ist, nichts sagen. Soweit diese Untersuchungen auf der Ebene des Verteidigungsministeriums durchgeführt worden sind, läßt sich das noch feststellen, und ich bin gern bereit, Ihnen das schriftlich zu geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u157" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg196">Eine zweite Frage, Herr Dr. Becher.</seg>
+        </u>
+        <note type="speaker">Dr. Becher (Pullach) (CDU/CSU) :</note>
+        <u who="#Q110156" xml:id="ParlaMint-DE_1976-01-21-07-214.u158" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg197">Ich wollte meine Frage konkret ergänzen, ob Sie wissen, daß vom Verteidigungsministerium, also von Ihrem Ministerium, und von Vorgängern des jetzigen Verteidigungsministers, solche Untersuchungen eingeleitet worden sind.</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u159" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg198">Ich sage Ihnen ja: Ich bin gern bereit, Ihnen dazu, weil ich Einzelheiten nicht weiß, einen schriftlichen Bescheid zu geben, wenn Sie auf diesen schriftlichen Bescheid Wert legen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u160" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg199">Herr Abgeordneter Dr. Wittmann (München)!</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1976-01-21-07-214.u161" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg200">Herr Staatssekretär, ist Ihnen bekannt, daß gegen Herrn Hauser Ermittlungsverfahren eingeleitet worden sind wegen des Verdachts nachrichtendienstlicher Tätigkeiten?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Gansel [SPD]: Für Strauß!</desc>
+        </vocal>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u162" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg201">Ich kann hier nur sagen, daß ich in Zeitungen hier und da derartiges gelesen habe. Da ich aber nicht alles glaube, was schwarz auf weiß zu lesen ist, kann ich Ihnen das nicht bestätigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u163" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg202">Eine zweite Frage, Herr Abgeordneter Dr. Wittmann (München).</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1976-01-21-07-214.u164" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg203">Wären Sie bereit, Herr Staatssekretär, uns zu diesen Fragenkomplexen, zu denen Sie jetzt nicht Antwort geben konnten, eine schriftliche Mitteilung zu machen?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u165" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg204">Sie können gern eine schriftliche Mitteilung haben, Herr Kollege. Aber ich nehme als sicher an, daß in wenigen Wochen in diesem Hause dieser ganze Komplex erneut Gegenstand einer Fragestunde sein wird, wenn wir das Ergebnis, das uns ja von den amerikanischen Senatoren zugesagt worden ist, auf dem Tisch des Hauses liegen haben. Mir wäre es am liebsten, wenn dazu dann überhaupt keine Fragen mehr zu stellen wären.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u166" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg205">Eine Zusatzfrage, Herr Abgeordneter Gansel.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1976-01-21-07-214.u167" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg206">Tut mir leid; zwei Fragen kann ich Ihnen nicht ersparen. Erste Frage: Herr Staatssekretär, empfinden Sie es nicht auch als erstaunlich, daß in Anbetracht der Vorwürfe gegen Herrn Minister a. D. Strauß die Zwischenfrager von der CDU/CSU es eben darauf abgestellt haben, nach dem Fehlen der Glaubwürdigkeit von Herrn Hauser, anstatt nach dem Vorhandensein von Glaubwürdigkeit bei dem beschuldigten Herrn Strauß zu fragen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u168" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg207">Herr Abgeordneter Gansel, Ihre Frage beinhaltet eine Kritik an der Frage anderer Abgeordneter. Eine solche Kritik können Sie in einer Debatte natürlich vornehmen; aber der Herr Staatssekretär darf sie gegenüber dem Hause nicht vornehmen.</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u169" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg208">Das hätte ich auch gesagt!</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u170" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg209">Ich darf also diese Frage als erledigt betrachten. Die zweite Zusatzfrage, bitte sehr!</seg>
+        </u>
+        <note type="speaker">Gansel (SPD):</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1976-01-21-07-214.u171" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg210">Die zweite Frage: Herr Staatssekretär, wie beurteilen Sie den Umstand, daß der ebenfalls verdächtigte General a. D. Rall nicht wie der ebenfalls verdächtigte Minister a. D. Strauß in einer Monitorsendung eine Gegendarstellung durchgesetzt hat? Hat sich die Bundesregierung an den General a. D. Rall mit der dienstlichen Aufforderung gewandt, zu den gegen ihn erhobenen und damit die Bundeswehr belastenden Vorwürfe Stellung zu nehmen?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u172" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg211">Herr General a. D. Rall hat dazu in Zeitungen Stellung genommen. Es ist an ihn keine Aufforderung gerichtet worden, dienstlich dazu Stellung zu nehmen. Er hat vielmehr als pensionierter General dazu ganz klar Stellung bezogen und gesagt, wenn das aufrechterhalten werde, werde er Strafanzeige erstatten. Ich meine, damit wäre ein solcher Tatbestand am besten zu klären.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u173" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg212">Herr Abgeordneter Dr. Kunz (Weiden)!</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1976-01-21-07-214.u174" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg213">Herr Staatssekretär, ist Ihnen bekannt, daß zu diesem Fragenkomplex der CSU-Vorsitzende Franz Josef Strauß gestern in „Monitor" eine eingehende Erklärung abgegeben hat?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u175" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg214">Ich hatte leider keine Zeit, mir „Monitor" anzusehen; deswegen ist es mir nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u176" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg215">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU):</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1976-01-21-07-214.u177" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg216">Herr Staatssekretär, ist der Bundesregierung bekannt, in welchem Ermittlungsverfahren Hauser erstmals Verdächtigungen gegen die CSU oder den früheren Verteidigungsminister Strauß wegen angeblicher Geldzahlungen seitens der Firma Lockheed erhoben hat?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u178" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg217">Das ist nur allgemein bekannt. Wenn ich all die Fragen, verehrter Herr Kollege, die hier gestellt worden sind, hätte beantworten sollen, hätte ich mich wahrscheinlich 14 Tage vorher sehr eingehend mit Aktenstudium und sonst nichts befassen müssen. Ich kann Ihnen das nicht bindend erklären. Aber ich bin gern bereit, Ihnen das schriftlich zu geben. Diese Möglichkeit besteht ja, damit Sie es hinterher schwarz auf weiß haben und auch nach Hause tragen können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u179" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg218">Herr Abgeordneter Zoglmann!</seg>
+        </u>
+        <note type="speaker">Zoglmann (CDU/CSU) :</note>
+        <u who="#Q2283889" xml:id="ParlaMint-DE_1976-01-21-07-214.u180" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg219">Herr Staatssekretär, ist der Bundesregierung bekannt, ob und von welchen Verteidigungsministern im Anschluß an frühere Agentenmeldungen über Bestechungen der Firma Lockheed Untersuchungen angeordnet worden sind?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u181" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg220">Diese Frage ist eben schon einmal gestellt worden. Ich kann sie nicht beantworten. Schriftlich hätte man dazu etwas sagen können. Aus dem Handgelenk heraus wird niemand, der hier steht, darauf eine Antwort geben können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u182" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg221">Eine zweite Zusatzfrage, Herr Abgeordneter Zoglmann.</seg>
+        </u>
+        <note type="speaker">Zoglmann (CDU/CSU) :</note>
+        <u who="#Q2283889" xml:id="ParlaMint-DE_1976-01-21-07-214.u183" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg222">Herr Staatssekretär, würden Sie mir zustimmen, wenn ich sage: Es ist bedauerlich, daß Sie sich nicht so weit vorbereitet haben, daß Sie die Fragen beantworten können, und zwar mit dem Ergebnis, daß es der Bundesverteidigungsminister Strauß war, der diese Anordnung gegeben hat?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u184" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg223">Sie brauchen sich nicht aufzuregen, wenn ich Ihnen als einem Kollegen den Rat gebe — —</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Das ist bedauerlich!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg224">— Nein, es ist gar nicht bedauerlich. Was in diesen Fragen steht, habe ich beantwortet. Was hier darüber hinaus in einer Reihe von Fragen von Ihnen verständlicherweise vorgebracht wird, war nicht der ursprüngliche Sinn der Fragen; es ist vielmehr eine Ergänzung dieser Fragen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Zustimmung bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u185" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg225">Herr Abgeordneter Conradi zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Conradi (SPD) :</note>
+        <u who="#Q2074395" xml:id="ParlaMint-DE_1976-01-21-07-214.u186" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg226">Herr Staatssekretär, wird die Bundesregierung den pensionierten General Rail dienstlich auffordern, zu den Vorwürfen Stellung zu nehmen?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u187" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg227">Wir werden uns natürlich, wenn wir die entsprechenden Unterlagen aus dem amerikanischen Senat haben, darüber noch unsere abschließende Meinung bilden, und wenn es notwendig ist — und das kann durchaus der Fall sein; ich glaube sogar, daß es notwendig ist —, wird das von der Bundesregierung entsprechend beschlossen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u188" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg228">Keine Zusatzfrage mehr. Wir kommen damit zu der Frage 24 des Abgeordneten Dr. Schöfberger:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg229">Trifft es zu, daß der Kommandeur der Luftlandeschule Altenstadt, Oberst Alfred Jenninger, aus Anlaß des 60. Geburtstages des Abgeordneten Strauß zum Zwecke der Übergabe einer gerahmten Fotografie der Kaserne den Absprung von zehn Fallschirmjägern der Bundeswehr als „Sprungdienst gemäß Ausbildungsplan für den militärischen Freifall-Weiterbildungslehrgang" angeordnet hat, und — wenn ja — billigt die Bundesregierung es, oder sieht sie darin einen Mißbrauch der Bundeswehr? Bitte sehr, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u189" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg230">Herr Kollege Dr. Schöfberger, ich kann nur nochmals bestätigen — dazu hat es ja bereits einmal einen Briefwechsel mit Ihnen gegeben —, daß es sich bei dem Ihrer Frage zugrunde liegenden Absprung von zehn Fallschirmjägern um einen „Sprungdienst gemäß Ausbildungsplan für den militärischen Freifall-Weiterbildungslehrgang" gehandelt hat. Ort und Zeitpunkt wurden vom Kommandeur der Luftlande-und Luittransportschule Altenstadt in eigener Verantwortung festgelegt. Die Bundesregierung vermag hierin keinen Mißbrauch der Bundeswehr zu sehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u190" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg231">Eine Zusatzfrage, Herr Abgeordneter Schöfberger.</seg>
+        </u>
+        <note type="speaker">Dr. Schöfberger (SPD) :</note>
+        <u who="#Q1564139" xml:id="ParlaMint-DE_1976-01-21-07-214.u191" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg232">Herr Staatssekretär, wäre es nach Ihrer Auffassung eine strafbare Gehorsamsverweigerung eines Soldaten, wenn sich dieser aus politischer Motivation weigern würde, an einem solchen Sprungdienst teilzunehmen?</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Lachen bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u192" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg233">Auch bei dieser Frage kann man zweifeln, ob der innere Zusammenhang gegeben ist.</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u193" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg234">Ich bin gern bereit, dazu etwas zu sagen: Wir haben in dieser Bundeswehr immer noch Befehl und Gehorsam. Wenn sich einer beschwert fühlt, kann er sich hinterher beschweren. Den Befehl, der ihm gegeben wird, hat er auszuführen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u194" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg235">Haben Sie noch eine zweite Zusatzfrage, Herr Dr. Schöfberger? — Bitte sehr!</seg>
+        </u>
+        <note type="speaker">Dr. Schöfberger (SPD) :</note>
+        <u who="#Q1564139" xml:id="ParlaMint-DE_1976-01-21-07-214.u195" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg236">Herr Staatssekretär, hängt dieser Absprung von zehn Fallschirmjägern aus Anlaß des 60. Geburtstages des Abgeordneten Strauß etwa mit dem Umstand zusammen, daß der den Absprung anordnende Oberst der Bruder unseres Kollegen Jenninger ist, der seinerseits mehrere Jahre persönlicher Referent des Geehrten war?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der CDU/CSU: Kleinkariert!</desc>
+        </vocal>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u196" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg237">Das ist nicht anzunehmen, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u197" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg238">Eine Zusatzfrage, Herr Abgeordneter Dr. Wittmann (München).</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1976-01-21-07-214.u198" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg239">Herr Staatssekretär, wäre es eine strafbare Gehorsamsverweigerung, wenn sich Besatzungsmitglieder der Maschinen der Flugbereitschaft Köln-Wahn weigern würden, Funktionäre der Regierungsparteien zu transportieren, wenn ein Befehl dazu gegeben ist?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u199" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg240">Von dieser Frage gilt dasselbe, was von der Frage von vorhin gesagt worden ist.</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u200" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg241">Ich würde meinen, daß das mit der eigentlichen Frage nichts zu tun hat. Ich sage aber auch hier noch einmal: Befehl und Gehorsam sind bei der Bundeswehr auch für die Zukunft selbstverständlich. Wer sich bei Ausübung seines Dienstes durch irgendwelche Umstände beschwert fühlt, hat mehrere Wege, sich zu beschweren, etwa über den Wehrbeauftragten, über seinen Abgeordneten oder direkt über den Vorgesetzten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u201" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg242">Frau Abgeordnete Pieser.</seg>
+        </u>
+        <note type="speaker">Frau Pieser (CDU/CSU) :</note>
+        <u who="#Q1827949" xml:id="ParlaMint-DE_1976-01-21-07-214.u202" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg243">Herr Staatssekretär, gestatten Sie einer militärisch nicht erfahrenen Frau die Frage, ob es auch zu anderen Terminen vorgekommen ist, daß zehn Fallschirmjäger abgesprungen sind.</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u203" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg244">Das ist sicher auch zu anderen Terminen vorgekommen. Mir ist allerdings kein Fall bekannt, in dem aus einem solchen besonderen Anlaß ein derartiger Absprung durchgeführt worden ist. Es mag sein, daß das zu irgendeiner Zeit schon einmal geschehen ist. Es ist aber schon etwas Außergewöhnliches.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u204" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg245">Herr Abgeordneter Spranger.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1976-01-21-07-214.u205" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg246">Herr Staatssekretär, trifft es zu, daß die von Herrn Schöfberger aufgeworfene Frage schon vor einigen Wochen öffentlich durch die Bundesregierung geklärt wurde und daß diese Frage deswegen von vornherein nur wegen des Schaueffektes gestellt worden ist?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u206" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg247">Der zweite Teil ist wieder eine Kritik an einer Frage eines Kollegen. Den ersten Teil können Sie beantworten.</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u207" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg248">Gern. — Ich habe in meiner Antwort schon gesagt — das haben Sie sicher gehört —, daß darüber bereits ein Briefwechsel geführt worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u208" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg249">Herr Abgeordneter Schlaga.</seg>
+        </u>
+        <note type="speaker">Schlaga (SPD) :</note>
+        <u who="#Q1422044" xml:id="ParlaMint-DE_1976-01-21-07-214.u209" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg250">Herr Staatssekretär, kann ich damit rechnen, sofern ich meinen 60. Geburtstag erlebe, daß mir zu Ehren zehn Fallschirmjäger abspringen?</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Große Heiterkeit — Zurufe von der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u210" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg251">Herr Kollege Schlaga, das sollte doch wohl eine witzige Zwischenbemerkung sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u211" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg252">Herr Abgeordneter Vahlberg.</seg>
+        </u>
+        <note type="speaker">Vahlberg (SPD) :</note>
+        <u who="#Q1717788" xml:id="ParlaMint-DE_1976-01-21-07-214.u212" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg253">Herr Staatssekretär, ist Ihnen, Ihrem Hause und der Bundeswehrführung bekannt, daß ich am 12. Februar Geburtstag habe, und kann auch ich damit rechnen, daß dieses Datum durch einen Einsatz von Fallschirmspringern gewürdigt wird, wobei ich zugestehe, daß ich nicht ganz so prominent bin wie :der Abgeordnete Strauß und politisch nicht so gewichtig? Ich bin auch nicht Oberleutnant, sondern nur Sanitätsgefreiter. Ich wäre infolgedessen schon mit dem Einsatz von drei bis vier Fallschirmjägern zufriedenzustellen.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit und Zurufe</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u213" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg254">Herr Kollege, Sie enttäuschen mich aber sehr, wenn Sie behaupten, 60 Jahre alt zu sein.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Erneute Heiterkeit</desc>
+        </kinesic>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u214" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg255">Herr Kollege, Sie können nicht damit rechnen.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Fortgesetzte Heiterkeit und Zurufe</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u215" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg256">Herr Abgeordneter Biehle.</seg>
+        </u>
+        <note type="speaker">Biehle (CDU/CSU) :</note>
+        <u who="#Q124182" xml:id="ParlaMint-DE_1976-01-21-07-214.u216" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg257">Herr Staatssekretär, nachdem Herr Kollege Schöfberger die Motivation angesprochen hat und dabei feststellen zu müssen geglaubt hat, daß die Teilnahme aus politischen Gründen hätte abgelehnt werden können, frage ich: Teilen Sie nicht die Auffassung, daß das z. B. auch für ein Musikkorps der Bundeswehr zutreffen würde, das vor kurzem zu einer SPD-Veranstaltung :abgeordnet wurde, und zwar wider Willen eines beteiligten Musikers, der gezwungen wurde, daran teilzunehmen?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u217" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg258">Herr Kollege Biehle, Sie wissen ganz genau, daß dieser Fall nicht so in Schwarzweiß gemalt dargestellt werden kann, sondern das die Meinungen sehr auseinandergingen, daß sogar der Strafsenat lange Ausführungen darüber gemacht hat, ob das Volksfest — es ging um das Hamburger Volksfest — einen Charakter hatte, der weit über den Rahmen einer Parteiveranstaltung hinausging, oder nicht. Man kann also nicht so einfach von einer Abordnung zu einer SPD-Veranstaltung sprechen; :denn hier ist in den vergangenen Jahren ohne Widerspruch immer wieder ein Musikkorps der Bundeswehr dabeigewesen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u218" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg259">Herr Abgeordneter Freiherr von Fircks.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1976-01-21-07-214.u219" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg260">Herr Staatssekretär, auf Ihre vorhin gegebene Antwort darf ich Sie fragen: Ist Ihnen nicht bekannt, daß zu einem Sommerfest des Wehrbereichskommandos in Hannover zu Ehren — wie es dann zum Ausdruck kam — der anwesenden politischen Größen des Landes Niedersachsen, die Ihrer Partei angehören, mehr als zehn Fallschirmspringer absprangen und im Garten des Restaurants der Stadthalle landeten?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Aha-Rufe von der CDU/CSU — Zuruf von der CDU/CSU: Eins zu null!</desc>
+        </vocal>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u220" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg261">Herr Kollege, dort waren nicht nur die Spritzen. Zufällig waren es SPD-Leute. In einem anderen Land könnten auch andere dabeigewesen sein. Ich habe selber schon Flugtage erlebt, wo Bundeswehrleute, allerdings auch Angehörige der mit uns befreundeten Streitkräfte, abgesprungen sind, wo die Spitzen sowohl von der einen als auch von der anderen Seite kamen. Das wissen wir doch alle. Hier geht es ja ein bißchen um etwas anderes.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u221" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg262">Herr Abgeordneter Dr. Becher.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Becher [Pullach] [CDU/CSU] : Ich verzichte!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg263">Dann Herr Abgeordneter Stahl zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD) :</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1976-01-21-07-214.u222" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg264">Herr Staatssekretär, gibt es Hinweise darauf, daß es ein Wunsch von Herrn Strauß persönlich war, dies tun zu lassen und ihm das Bild zu überreichen?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u223" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg265">Nein, diesen Hinweis gibt es nicht. Ich bin auch davon überzeugt, daß das nicht zutrifft. Es ist von dem dortigen Kommandeur in eigener Zuständigkeit angeordnet worden.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Biehle [CDU/CSU] : Das zeugt von der Verbundenheit des Herrn Strauß mit der Bundeswehr im Gegensatz zu den anderen!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u224" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg266">Herr Abgeordneter Zoglmann.</seg>
+        </u>
+        <note type="speaker">Zoglmann (CDU/CSU) :</note>
+        <u who="#Q2283889" xml:id="ParlaMint-DE_1976-01-21-07-214.u225" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg267">Herr Staatssekretär, würden Sie die Freundlichkeit haben, den Kollegen Vahlberg darauf hinzuweisen, daß es bei der Truppe üblich ist, von bestimmten hierarchischen Gegebenheiten auszugehen und daß ein Verteidigungsminister im allgemeinen mehr ist als ein Sanitätsgefreiter und daß infolgedessen bei einem Sanitätsgefreiten etwa der Abwurf von zehn Injektionsspritzen ausreichen würde?</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit</desc>
+        </kinesic>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u226" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg268">Ich bin nicht bereit, Herr Kollege Zoglmann, darauf hinzuweisen, weil es nicht üblich ist, daß der beantwortende Staatssekretär die Kollegen auf etwas hinweist oder sie zurechtweist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u227" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg269">Herr Abgeordneter Lambinus.</seg>
+        </u>
+        <note type="speaker">Lambinus (SPD) :</note>
+        <u who="#Q2504480" xml:id="ParlaMint-DE_1976-01-21-07-214.u228" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg270">Herr Staatssekretär, bleibt es dem Kommandeur der Luftlandeschule in Altenstadt auch künftig überlassen, anzuordnen, anläßlich welchen Geburtstages, ganz gleich, welcher Persönlichkeit, er derartige Absprünge durchführen läßt?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1976-01-21-07-214.u229" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg271">Ich würde sagen: ja; er muß es nur verantworten können. Diese Verantwortung wird genau überprüft.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u230" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg272">Ich danke Ihnen, Herr Staatssekretär. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär Herold zur Verfügung. Ich rufe die Frage 25 des Abgeordneten Jäger (Wangen)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg273">auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg274">Wie beurteilt die Bundesregierung die Berichte ehemaliger politischer Häftlinge der DDR über schwere Mißhandlungen, denen sie während ihrer Haftzeit ausgesetzt waren, und sind der Bundesregierung weitere Berichte über ähnliche Mißhandlungen von Straf- und Untersuchungsgefangenen in der DDR seit Inkrafttreten des Grundvertrags 1973 bekannt? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u231" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg275">Herr Kollege Jäger, ich darf Ihre Frage wie folgt beantworten. Die Bundesregierung nimmt die kürzlich veröffentlichten Berichte über angebliche Mißhandlungen in DDR-Strafanstalten nicht zum Anlaß, von ihrer in diesem Hause mehrfach geäußerten Meinung abzugehen, daß in der DDR nach den vorliegenden Erkenntnissen keine systematischen Mißhandlungen, sei es auf Weisung oder sei es mit Duldung der zuständigen Stellen, an Häftlingen stattfinden. Ich verweise insoweit auf die Antwort von Bundesminister Franke auf die Kleine Anfrage der Herren Abgeordneten Dr. Marx, Reddemann und anderer vom 1. August 1974. Ferner habe ich am 12. März 1975 auf eine Frage von Herrn Kollegen Spranger zu dieser Sache schon eine Antwort erteilt. Es ist allerdings nicht auszuschließen — ich sagte das auch damals —, daß es in einzelnen Fällen zu Übergriffen des Anstaltspersonals kommt. Solche Einzelfälle werden unseres Erachtens auch in Zukunft nicht zu verhindern sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u232" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg276">Eine Zusatzfrage des Abgeordneten Jäger.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1976-01-21-07-214.u233" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg277">Darf ich aus Ihrer Antwort schließen, Herr Staatssekretär, daß nach den Erkenntnissen der Bundesregierung die Berichte, auf die ich mich bezogen habe, zutreffend sind?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u234" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg278">Sehr geehrter Herr Kollege Jäger, ich bin gerne bereit, mich mit Ihnen über die Fälle zu unterhalten, die bekanntgeworden sind. Dann werden auch Sie sicher zu der Überzeugung gelangen, daß man differenzieren muß. Uns sind die Fälle, auf die Sie sich beriefen, von den Stellen, die in dieser Sache zu berichten hatten, bis zur Stunde nicht bestätigt worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u235" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg279">Eine zweite Zusatzfrage, Herr Abgeordneter Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1976-01-21-07-214.u236" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg280">Herr Staatssekretär, zu welchen Maßnahmen hat sich die Bundesregierung angesichts dieser — wie Sie sie bezeichnen — Einzelfälle entschlossen, um auf die Regierung der DDR mit dem Ziel einzuwirken, daß auch dort jene Grundrechte beachtet werden, die, nachdem — wie wir ja heute durch die Bundesregierung erfahren haben — der Pakt über bürgerliche und politische Rechte der Vereinten Nationen durch den Beitritt der Tschechoslowakei inzwischen in Kraft getreten ist, nunmehr auch in der DDR geltendes Recht sind?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u237" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg281">Herr Kollege Jäger, ich sagte schon: Die Vorwürfe, die in der Fernsehsendung erhoben worden sind, konnten bis zur Stunde nicht bestätigt werden. Nach ersten Rückfragen liegen sogar gewisse Fehlinformationen vor. Im übrigen werden wir, wenn uns Einzelfälle bekanntwerden, wie das auch bisher auf anderen innerdeutschen Gebieten der Fall war, mit den uns zur Verfügung stehenden Mitteln bei den zuständigen Stellen in der DDR vorstellig werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u238" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg282">Eine Zusatzfrage, Herr Abgeordneter Kunz (Berlin).</seg>
+        </u>
+        <note type="speaker">Kunz (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1512001" xml:id="ParlaMint-DE_1976-01-21-07-214.u239" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg283">Herr Staatssekretär, wären Sie angesichts des Umstandes, daß andere Kollegen und ich vor kurzem ein ganzes Bündel solcher Beschwerden von ehemaligen Häftlingen über die Verhältnisse in Haftanstalten der DDR lesen konnten, wenigstens bereit, dem innerdeutschen Ausschuß als zuständigem Gremium alsbald zu einer umfassenden Gesamterörterung des Strafvollzuges im Hinblick auf Häftlinge zur Verfügung zu stehen?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u240" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg284">Ich darf folgendes in Erinnerung rufen, wenn ich auch nicht weiß, ob Sie damals dabei waren: Erst vor wenigen Monaten gab es eine umfassende Berichterstattung über den Strafvollzug der DDR im Innerdeutschen Ausschuß. Selbstverständlich stehe ich gerne zur Verfügung, doch nochmals Auskunft zu geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u241" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg285">Eine Zusatzfrage, Herr Abgeordneter Wittmann (München).</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1976-01-21-07-214.u242" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg286">Herr Staatssekretär, befanden sich unter den Mißhandelten auch Menschen, die bevor sie verhaftet worden sind, ihren ständigen Wohnsitz im Geltungsbereich des Grundgesetzes hatten, und wie hat die Bundesregierung auf die Mißhandlung dieser Menschen reagiert?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u243" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg287">Herr Kollege Wittmann, ich weiß nicht, ob ich mich mißverständlich ausgedrückt habe; aber ich habe soeben gesagt, daß wir bisher keine Bestätigung der hier in Rede stehenden Meldungen bekommen haben. Um tätig werden zu können, bedarf es jedoch solcher Bestätigungen. Im konkreten Fall werden wir — ich wiederhole mich — sofort entsprechend reagieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u244" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg288">Eine Zusatzfrage, Herr Abgeordneter Müller (Berlin).</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1976-01-21-07-214.u245" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg289">Herr Staatssekretär, haben Sie wenigstens schon einmal den Versuch gemacht, mit diesen Leuten in Kontakt zu treten, um von ihnen diese Tatbestände geschildert zu bekommen?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u246" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg290">Sehr geehrter Herr Kollege Müller, sollte man nicht eigentlich erwarten, daß sich diese Leute, denen angeblich so mitgespielt wurde, an ihren Abgeordneten, ganz gleich welcher Partei, oder an das Bundesministerium für innerdeutsche Beziehungen wenden, um uns im Detail zu informieren, damit wir handeln können?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Müller [Berlin] [CDU/CSU] : Ich weiß nicht, ob das die Regierung von ihrer Verpflichtung entbindet!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u247" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg291">Herr Abgeordneter Hösl.</seg>
+        </u>
+        <note type="speaker">Hösl (CDU/CSU) :</note>
+        <u who="#Q1525110" xml:id="ParlaMint-DE_1976-01-21-07-214.u248" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg292">Herr Staatssekretär, hat die Bundesregierung Kenntnis davon, ob der Ständige Vertreter der Bundesrepublik Deutschland in Ost-Berlin bei der Behandlung dieser Fragen einen Gesprächspartner hat und auch in einer sachlichen Weise Gehör findet?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u249" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg293">Ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u250" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg294">Frau Abgeordnete Berger.</seg>
+        </u>
+        <note type="speaker">Frau Berger (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1715592" xml:id="ParlaMint-DE_1976-01-21-07-214.u251" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg295">Herr Staatssekretär, wenn es der Bundesregierung, wie aus Ihren Darlegungen hervorgeht, ganz offensichtlich noch nicht möglich gewesen ist, Unklarheiten in dieser Frage zu beseitigen, wäre es dann nicht doch der beste, richtigste und kürzeste Weg, sich unmittelbar an eine der betroffenen Personen zu wenden und sie anzuhören, was ihr passiert ist, um dadurch die Klarheit, nach der Sie ja auch suchen, herbeizuführen?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u252" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg296">Frau Kollegin Berger, wir haben uns sofort von denen informieren lassen, die den Sachverhalt prüfen können. Dazu kommt eine Stelle in Frage — sie hat mit dem Nachrichtendienst nichts zu tun, damit es hier keinen falschen Zungenschlag gibt —, die ich namentlich nicht nennen möchte. Und hier wurden zumindest in der Aussage eines Mannes Differenzen festgestellt, die ich hier in der Öffentlichkeit im Interesse der Beteiligten — ich bitte Sie da um Verständnis — nicht mitteilen möchte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u253" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg297">Herr Abgeordneter Dr. Arndt.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Hamburg) (SPD) :</note>
+        <u who="#Q1098411" xml:id="ParlaMint-DE_1976-01-21-07-214.u254" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg298">Herr Staatssekretär, können Sie bestätigen, daß die Bundesregierung genau das getan hat, was die Kollegin Frau Berger und der Kollege Müller (Berlin)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg299">hier erbeten haben, und daß die entsprechenden Anhörungsprotokolle im Ausschuß für innerdeutsche Beziehungen wörtlich vorgelegen haben?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u255" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg300">Das letztere kann ich im Moment nicht bestätigen. Aber ich bin der festen Überzeugung: Wir haben hier das getan, was in der Sache von uns verlangt werden konnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u256" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg301">Ich komme zur Frage 26 des Abgeordneten Freiherr von Fircks:</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg302">Betrachtet die Bundesregierung den vom „Gesamtdeutschen Institut" für 1976 herausgegebenen Kalender „Blick in die DDR" als der „Unterrichtung über das Thema und der Urteilsfindung des ,Empfängers'" (Zitat des Gesamtdeutschen Instituts)</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg303">dienlich?</seg>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg304">Bitte sehr, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u257" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg305">Herr Kollege Freiherr von Fircks, ich darf Ihre Frage wie folgt beantworten. Aufgabe des Kalenders 1976 „Blick in die DDR" ist es, die Diskussion über den Alltag der Menschen in der DDR an unseren Schulen und in der Öffentlichkeit anzuregen, um zur kritischen Urteilsbildung der Schüler beizutragen. Der Kalender ist nach unserer Auffassung ausgewogen, er stellt die Verhältnisse in der DDR differenziert, sachlich und kritisch dar. Die Bundesregierung ist deshalb davon überzeugt, daß er den vorgesehenen Zwecken dienlich sein kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u258" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg306">Eine Zusatzfrage, bitte sehr!</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1976-01-21-07-214.u259" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg307">Herr Staatssekretär, sind Sie nicht doch der Meinung, daß der Autor oder die Autoren des Kalenders auch nach Auffassung der Bundesregierung, wenn Sie das fertige Produkt jetzt sehen, Schriftsteller sind, die offenbar keine klare Erkenntnis über den grundsätzlichen Unterschied zwischen den liberalen und freiheitlichen Lebensgestaltung der Menschen in der Bundesrepublik und der außengelenkten, unfreien, vom Staatsapparat befohlenen Lebensführung der Menschen Mitteldeutschlands haben, besonders deshalb, weil in keinem Kapitel auf diesen Unterschied klar und eindeutig hingewiesen wird, sondern, z. B. im Abschnitt „Freizeit und Wochenende", das Unterscheidungsmerkmal vor allem in der negativ beurteilten materiell reichen, aber moralisch armen Konsum- und Freizeitgesellschaft hier und in der zwar materiell dürftigen, aber opferbereiten Solidaritätsgesellschaft drüben gesehen wird?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u260" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg308">Herr Kollege von Fircks, ich möchte Ihnen dazu folgendes sagen. Wir werden hier wahrscheinlich nicht weiterkommen, wenn Sie Ausschnitte und Auszüge aus diesem starken Kalender,</seg>
+          <vocal type="exclamat">
+            <desc>Böhm [Melsungen] [CDU/CSU] : So stark ist der gar nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg309">aus dessen einzelnen Kapiteln aus dem Zusammenhang gerissen bringen. Ich könnte dagegen jetzt zwei Seiten mit Gegendarlegungen setzen, ich habe sie hier aufgelistet. Ich bin der festen Überzeugung, Herr Kollege von Fircks, daß dieser Kalender hinsichtlich des Bildmaterials und hinsichtlich des Textes sehr sorgfältig zusammengestellt worden ist. Wir haben freie Journalisten und Bildreporter beteiligt. Ich gebe aber zu, daß der Kalender 1976 einen völlig neuen Charakter hat, auch hinsichtlich der Ausgestaltung und der Aufmachung; dadurch entscheidet er sich von seinen Vorgängern. Aber ich muß grundsätzlich erklären, daß es ganz einfach nicht zutreffend ist, daß in dem Kalender nicht kritisch zu den einzelnen Problemen Stellung genommen wird. Darf ich Sie nur darauf hinweisen, daß in der Einleitung des Kalenders deutlich gemacht wird: Es handelt sich um einen Blick in die DDR, um „einen von vielen möglichen" Blicken. Es kommt daher auf den Standort an!</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Eben!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg310">Ja, natürlich, aber die Bundesregierung ist doch nicht dazu da, Bilder und Texte zu zensieren, die uns von freien Journalisten, die jetzt drüben tätig sein dürfen, geliefert werden. Und wir können doch nicht verlangen oder anregen, Bilder aus der DDR mit einem Graufilter aufzunehmen. Das ist doch ganz einfach unmöglich! Im Gegenteil; und der Herr Kollege Abelein war der Meinung, die Bilder — oder einzelne Bilder — wären das beste an dem Kalender.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der CDU/CSU</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg311">Oder nehmen Sie den Hinweis im ersten Kapitel: „Kirche in der DDR". Da wird gesagt, daß die Verfassungswirklichkeit weit von dem entfernt ist, was in der Verfassung niedergeschrieben ist, oder wenn an anderer Stelle gesagt wird, daß niemand zu befohlenen Demonstrationen kommen würde, wenn nicht Druck von oben dahinter wäre, dann wird doch ausgedruckt, was zu kritisieren ist. Ich bitte Sie: Ersparen Sie es mir, weiteres aufzuzählen; es wäre unvollständig und würde kein klares Bild bringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u261" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg312">Die zweite Zusatzfrage des Herrn Abgeordneten von Fircks.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1976-01-21-07-214.u262" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg313">Herr Staatssekretär, könnten Sie mir aus Ihrer ganzen Auflistung, die Sie da haben, an einem Beispiel deutlich machen, daß der Kalender, wenn er von den wirtschaftlichen Problemen spricht, nicht nur den Luxus in der Bundesrepublik darstellt und die Sehnsucht, die die Menschen dort nach dem Luxus haben, sondern auch ein Wort darüber aussagt, daß die Menschen noch mehr als nach dem westlichen Luxus Sehnsucht nach der westlichen Freiheit haben?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u263" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg314">Schauen Sie, wenn Sie mich nach den wirtschaftlichen Dingen fragen,</seg>
+          <vocal type="exclamat">
+            <desc>Freiherr von Fircks [CDU/CSU] : Nein, danach frage ich gerade nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg315">muß ich Ihnen sagen: Der Kalender stellt ausführlich den Gegensatz zwischen den Möglichkeiten unserer Gewerkschaften und denen der Gewerkschaften drüben dar. Bei uns gibt es die Arbeitsplatzwahl, drüben gibt es kaum Möglichkeiten dieser Art. Dort besteht Arbeitspflicht. Drüben gibt es kein Streikrecht. Der Leistungsdruck wird angesprochen, unter dem die Leute stehen, und es wird gesagt, unter welchen Umständen sie unter viel schwierigeren Bedingungen Leistungen erbringen müssen. Damit ist doch alles klargestellt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u264" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg316">Eine Zusatzfrage der Frau Abgeordneten Pieser.</seg>
+        </u>
+        <note type="speaker">Frau Pieser (CDU/CSU) :</note>
+        <u who="#Q1827949" xml:id="ParlaMint-DE_1976-01-21-07-214.u265" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg317">Herr Staatssekretär, ist nicht auch nach Meinung der Bundesregierung z. B. die Behauptung der Autoren im Abschnitt „Landschaften", daß — ich zitiere — „die Gesetze zum Schutz der Landschaft" und die „Eigentumsstruktur der DDR mit dafür verantwortlich" seien, „daß ... die Ostseeküste der DDR ... unversehrt geblieben und nicht, wie in der Bundesrepublik, zu einem Profit-Paradies für Privatleute und Gemeinden geworden" sei, schon allein angesichts des Beispiels Bulgarien fragwürdig, das unter ähnlichen Gesetzen und bei gleichen Eigentumsstrukturen wie in der DDR seine Schwarzmeerküste aus sehr eindeutig erkennbaren Gründen teilweise in eine für den Staat höchst einträgliche, harte Devisen bringende Betonlandschaft verwandelt hat, woraus zu ersehen ist, daß nicht besondere Gesetze oder Eigentumsstrukturen, sondern vielmehr die auch im Fremdenverkehr vor westlichen Kontakten zurückscheuende Politik der DDR eine Zerstörung der Ostseeküste durch Touristikbauten verhindert hat?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u266" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg318">Frau Kollegin Pieser, wir haben uns über dieses Gesamtproblem ja schon unterhalten. Ich bin davon überzeugt, daß man in den Kalender — und es ist ein Kalender — noch mehr hätte aufnehmen können. Das ist nicht zu bestreiten, und ich habe dies im Ausschuß auch eindeutig erklärt; aber der Kalender ist kein DDR-Handbuch. Frau Kollegin Pieser, es steht doch fest, daß wir uns oft über die Verschandelung unserer schönen Strände, unserer Inseln usw. aufregen. Das ist auch richtig. Daß die Eigentumsverhältnisse z. B. im Hinblick auf die Landwirtschaft vielleicht deutlicher hätten dargestellt werden sollen, will ich akzeptieren. Aber überlegen Sie bitte, für welchen Zweck die Texte des Kalenders gemacht worden sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u267" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg319">Herr Abgeordneter Jäger (Wangen)!</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1976-01-21-07-214.u268" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg320">Herr Staatssekretär, teilen Sie nicht meine Auffassung, daß der eine Blick in die DDR, von dem Sie sprachen, auf dem linken Auge blind ist, wenn hier in farbenprächtigen Bildern wie zu Kaiser Wilhelms Zeiten die Nationale Volksarmee der DDR dargestellt wird, während man gleichzeitig dem Leser und Betrachter dieses Kalenders verschweigt, daß diese Nationale Volksarmee an der langen Grenze quer durch Deutschland mit verschiedenen Apparaturen auf flüchtende Menschen schießt?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u269" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg321">Herr Kollege Jäger, ich weiß nicht, was Sie an dem Bild stört, das einen Mann der Nationalen Volksarmee, von hinten aufgenommen, zeigt. Sie sollten bitte auch den Text zu den Bildern lesen, wo von der Militarisierung und anderen militärischen Dingen in der DDR gesprochen wird.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Jäger [Wangen] [CDU/CSU] : Es gibt noch viele Fragen, Herr Herold!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u270" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg322">Herr Abgeordneter Böhm (Melsungen)!</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1976-01-21-07-214.u271" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg323">Herr Staatssekretär, da Sie sich immer wieder auf die Journalisten, die diesen Kalender erstellt haben, beziehen, frage ich Sie, wie viele und welche Redakteure und Bildredakteure ,an der Erstellung dieses Kalenders beteiligt gewesen sind.</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u272" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg324">Ich bin gerne bereit, Ihnen schriftlich die Anzahl der Beteiligten mitzuteilen. Ich wundere mich aber über eines. Wir haben vor zwei Jahre einen Bildband des Fotografen Cropp aufgekauft und der interessierten Öffentlichkeit zur Verfügung gestellt. Ein großer Teil der Bilder des Kalenders ist aus diesem Bildband entnommen. Ich könnte Ihnen Briefe von Kollegen aus allen Fraktionen und aus der Öffentlichkeit vorlegen, in denen man sich über den Bildband des Herrn Cropp sehr anerkennend ausgesprochen hat. Ich habe schon im Ausschuß etwas ketzerisch gesagt, wenn die Bilder des Kalenders in Schwarzweiß aufgenommen wären, dann hätte er wahrscheinlich gar nicht einen solchen Anklang gefunden. Eines ist auf jeden Fall durch die Diskussion erreicht worden: Wir unterstellen nicht, daß der Kalender — das wäre ja schlimm für die Länder — das einzige Unterrichtsmaterial für Sozialkunde und Geschichtsvorträge ist.</seg>
+          <vocal type="exclamat">
+            <desc>Böhm [Melsungen] [CDU/CSU] : Das wäre weiß Gott schlimm!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg325">Wir sind froh, daß wir heute eine sehr breite Diskussion haben, die dazu geführt hat, daß wir nun sogar über den Nachdruck des Kalenders entscheiden müssen. Dafür sind wir sehr dankbar.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u273" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg326">Eine Zusatzfrage des Herrn Abgeordneten Zoglmann.</seg>
+        </u>
+        <note type="speaker">Zoglmann (CDU/CSU) :</note>
+        <u who="#Q2283889" xml:id="ParlaMint-DE_1976-01-21-07-214.u274" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg327">Herr Staatssekretär, kann man von Objektivität oder, wie Sie sich vorhin auszudrückten beliebten, von Ausgewogenheit der Darstellung der DDR sprechen, wenn im Abschnitt „Industrie und Wirtschaft" als Ursache für das jahrzehntelange Nachhinken der Vergleichszahlen der mitteldeutschen Wirtschaft hinter denen der Wirtschaft der Bundesrepublik zwar, wie es immer von der DDR-Propaganda behauptet wurde, die schlechten Startbedingungen von 1948 und die gegenüber der Bundesrepublik umfangreichen Kriegszerstörungen genannt werden, aber völlig die Hauptursachen verschwiegen werden, nämlich die Zerschlagung des Handwerks und der selbständigen mittelständischen Industrie und der darauf folgende Auszug von fast drei Millionen Menschen sowie die hohen Belastungen auf Grund der Reparationszahlungen an die Sowjetunion?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u275" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg328">Ich möchte Ihre Ansicht hier nicht beeinflussen. Aber nach unserer Auffassung sind die Darstellungen auch in diesen Bereichen ausgewogen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u276" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg329">Eine Zusatzfrage, Frau Abgeordnete Berger.</seg>
+        </u>
+        <note type="speaker">Frau Berger (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1715592" xml:id="ParlaMint-DE_1976-01-21-07-214.u277" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg330">Herr Staatssekretär, weil ich nicht zu dem bevorzugten Kreis der Kollegen gehöre, die diesen Kalender von Ihrem Haus zugestellt bekamen, sondern weil ich der Mehrheit in diesem Hause angehöre, die ihn eben nicht bekommen hat, und ich ihn daher auch noch nicht gesehen habe, möchte ich Sie fragen: Gibt es in diesem Kalender eine Aufnahme von Soldaten der Nationalen Volksarmee in Ost-Berlin? Wenn dies der Fall sein sollte: Steht im Text des Kalenders auch, daß die Anwesenheit von Soldaten der Nationalen Volksarmee in krassem Widerspruch zum Viermächtestatus der Stadt steht und deswegen ungesetzlich ,ist?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1976-01-21-07-214.u278" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg331">Ich weiß nicht, ob das die Aufgabeeines Kalenders ist.</seg>
+          <vocal type="exclamat">
+            <desc>Frau Berger [Berlin] [CDU/CSU] : Ich will ja nur eine Antwort auf meine Frage! Seiters [CDU/CSU] : Was ist denn die Aufgabe?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg332">— Ich bin ja noch nicht fertig. Ich versuche doch, alle Fragen zu beantworten. Ob Sie damit zufrieden sind, ist eine andere Frage. Frau Kollegin Berger, es besteht ein fester Verteilerschlüssel für diesen Kalender. Alle Kollegen, die darin aufgenommen sind, werden selbstverständlich bedient. Ich bedaure es sehr, daß Sie mich noch nicht auf den Kalender angesprochen haben. Ich hätte Ihnen den Kalender dann schon längst zugestellt. Das ist doch selbstverständlich bei den Beziehungen, die wir zueinander haben dienstlich gemeint, natürlich.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg333">Ein Kalender kann natürlich nicht eine so umfassende Dokumentation beinhalten wie z. B. das .,Handbuch der DDR", in dem all diese Dinge — auch die von Ihnen angesprochenen — ebenso wie in anderen Publikationen, die die Bundesregierung herausgibt, dargestellt sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1976-01-21-07-214.u279" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-21-07-214.seg334">Meine Damen und Herren, wir stehen am Ende der Fragestunde und brauchen also nicht weiter in alle möglichen Beziehungen hinelnzuleuchten. Ich danke Ihnen, Herr Staatssekretär! Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 22. Januar 1976, 9 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.32 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

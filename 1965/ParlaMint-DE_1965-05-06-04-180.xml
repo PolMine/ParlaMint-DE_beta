@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1965-05-06-04-180">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 4. Wahlperiode, 180. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 06.05.1965 (180. Sitzung der 4. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 4, Session 180 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1965-05-06 (Session 180 in Legislative Period 4)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="180">180. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.04" n="4">4. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="180">Session 180</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.04" n="4">Legislative Period 4</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 06.05.1965</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1965-05-06</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488216/3b20f8dd5efad2cafa3fb0b6df24cbb9/pp04-data.zip</idno>
+          <date when="1965-05-06">1965-05-06</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1965-05-06">1965-05-06</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection">
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg1">Die Sitzung ist eröffnet. Meine Damen und Herren, vor Eintritt in die Tagesordnung habe ich wieder einmal einer traurigen Pflicht zu genügen.</seg>
+          <incident type="action">
+            <desc>Die Abgeordneten erheben sich.</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg2">Heute nachmittag, vor wenigen Stunden, ist unser Kollege Rudolf Heiland im Krankenhaus zu Gelsenkirchen nach kurzer Krankheit verstorben. Rudolf Heiland wurde am 8. September 1910 in Hohndorf in Sachsen geboren. Die Familie siedelte in das Ruhrgebiet über, wo der Vater Bergmann war. Unser verstorbener Kollege hat dann von 1925 bis 1933 als Arbeiter beim Städtischen Elektrizitätswerk in Marl gearbeitet. Im Jahre 1933 wurde er, der seine demokratische Gesinnung immer mit der Tat bekannt hat, entlassen. Im Jahre 1936 wurde er als ein Widerstandskämpfer zu zweieinhalb Jahren Zuchthaus verurteilt, die er verbüßen mußte, mit all den bösen Nebenerscheinungen, die wir kennen. Nach dem Zusammenbruch hat er sich in seiner Heimatstadt Marl zunächst als selbständiger Kaufmann betätigt und dann hingebungsvoll in den Dienst des politischen kommunalen Wiederaufbaus des zerstörten Landes gestellt. Seit 1946 stand er als Bürgermeister an der Spitze der Stadt Marl, später des Amtes Marl. Seine kommunalpolitische Aufbauleistung fand Ausdruck darin, daß er Vizepräsident des Deutschen Gemeindetages und Vorstandsmitglied des Gemeindetages Westfalen-Lippe war. Jeder, der die Stadt Marl besucht hat, hatte Gelegenheit, zu sehen, welches Denkmal sich Rudolf Heiland dort durch die Bauten, die er veranlaßt hat, setzen konnte. Rudolf Heiland hat früh den Weg zur Sozialdemokratischen Partei Deutschlands gefunden. Er war ihr Vorsitzender in Marl sowie Vorstandsmitglied des sozialdemokratischen Parteibezirks Westliches Westfalen. Ferner gehörte er als Fraktionsvorsitzender der SPD dem Kreistag Recklinghausen an. Von 1947 bis :1949 war Rudolf Heiland Mitglied des Landtags Nordrhein-Westfalen. Rudolf Heiland wurde auch in den Parlamentarischen Rat berufen. Er hat in dem schicksalsschweren Jahr 1948/49 im Parlamentarischen Rat ein gutes Teil zu dem beigetragen, was dann unser Grundgesetz geworden ist. Dem Deutschen Bundestag hat er seit 1949 ununterbrochen angehört. Er hat seine Arbeitskraft besonders dem Haushaltsausschuß gewidmet, dessen Mitglied er während aller bisherigen Legislaturperioden gewesen ist. Ich spreche den Angehörigen unseres Kollegen Rudolf Heiland sowie der Fraktion der Sozialdemokratischen Partei Deutschlands das Beileid des Hauses aus. Ich danke Ihnen.</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg3">Einziger Punkt der Tagesordnung:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg4">Fragestunde (Drucksachen IV/3340, IV/3342).</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg5">Zunächst die Fragen aus dem Geschäftsbereich des Bundesministers der Justiz. Ich rufe die Frage V/1 — des Herrn Abgeordneten Schwabe — auf:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg6">Sind das Anhalten von Kunden und die routinemäßige Vornahme von Untersuchungen ihrer Einkaufstaschen durch Hausdetektive in Selbstbedienungsläden mit dem geltenden Recht vereinbar?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg7">Herr Präsident! Meine Damen und Herren! Die Frage des Herrn Kollegen Schwabe beantworte ich wie folgt: Ich verstehe sie dahin, daß er wissen will, ob es nach geltendem Recht zulässig ist, daß Hausdetektive in - Selbstbedienungsläden stichprobenweise Kunden anhalten und deren Einkaufstasche untersuchen, ohne daß im Einzelfall Anhaltspunkte dafür vorliegen, daß gerade dieser Kunde Waren in Zueignungsabsicht an sich genommen hat und in seiner Einkaufstasche verborgen hält. Eine solche ohne Vorliegen etwa bestimmter Verdachtsgründe vorgenommene Durchsuchung der Einkaufstasche von Kunden halte ich nach geltendem Recht nur mit Einverständnis des Kunden für zulässig. Grundsätzlich wird es rechtlich nicht zu beanstanden sein, wenn der Hausdetektiv die Kunden in angemessener Form um die Erlaubnis bittet, den Inhalt ihrer Einkaufstasche überprüfen zu dürfen. Erklärt sich der Kunde mit einer solchen Untersuchung einverstanden, so liegt ein widerrechtlicher Eingriff in die persönlichkeitsrechtliche Eigensphäre des Kunden nicht vor. Lehnt er dagegen die Durchsuchung I seiner Einkaufstasche ab, so ist der Hausdetektiv nur bei Vorliegen besonderer Rechtfertigungsgründe, z. B. unter den Voraussetzungen der §§ 229 BGB, Selbsthilfe, 859 Abs. 2 BGB, verbotene Eigenmacht, oder des § 127 StPO, Antreffen oder Verfolgung auf frischer Tat, zu Zwangsmaßnahmen gegen den Kunden berechtigt. Ein solcher Rechtfertigungsgrund fehlt, wenn gegen den Kunden keinerlei Verdachtsgründe vorliegen. Ich darf hinzufügen, daß gerichtliche Entscheidungen zu dieser Frage bisher nicht bekanntgeworden sind. Ich kann Ihnen also nur meine persönliche Rechtsauffassung mitteilen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg8">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Schwabe (SPD) :</note>
+        <u who="#Q2591337" xml:id="ParlaMint-DE_1965-05-06-04-180.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg9">Dürfte man nach Ihrer Auffassung, Herr Bundesjustizminister, den Verbrauchern und den Hausfrauen — darauf zielt meine Frage ab — erklären, daß sie derartige Ansinnen von sich weisen und das Geschäftslokal verlassen können, ohne daß man ihnen — wenn nicht ein zwingender Verdachtsgrund vorliegt — irgendein Hindernis in den Weg legen darf?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg10">Diese Auffassung entspricht meiner Stellungnahme, die ich eben bekanntgegeben habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg11">Ich rufe auf die Frage V/2 — des Abgeordneten Dr. Müller-Emmert —:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg12">Wird die Bundesregierung durch Verhandlungen mit den zuständigen amerikanischen Dienststellen dafür Sorge tragen, daß Angehörigen von Stationierungsstreitkräften, bei denen der Verdacht der Trunkenheit am Steuer besteht, unter den gleichen Voraussetzungen eine Blutprobe entnommen werden kann, wie Personen, die ausschließlich der deutschen Strafgerichtsbarkeit unterstehen? Der Fragesteller hat sich mit schriftlicher Beantwortung einverstanden erklärt. Die Antwort des Bundesministers Dr. Weber vom 4. Mai 1965 lautet:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg13">Von meinem Hause wird der Standpunkt vertreten, daß Zwangsmaßnahmen nach § 81 a StPO gegenüber Mitgliedern der amerikanischen Truppe, soweit sie der deutschen Gerichtsbarkeit unterliegen, in gleicher Weise getroffen werden können wie gegenüber anderen Personen, die der deutschen Strafgerichtsbarkeit unterliegen. Amerikanischerseits wird der Frage außerordentliche politische Bedeutung beigemessen. Der zuständige Referent meines Hauses erörtert sie daher zur Zeit in Heidelberg mit Vertretern des amerikanischen Hauptquartiers. Nach Abschluß der Besprechungen werde ich Ihnen weiteren Bescheid zukommen lassen. Ich rufe auf die Frage V/3 — des Herrn Abgeordneten Dr. Luda —:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg14">Ist der Bundesregierung die Äußerung des Frankfurter Generalstaatsanwalts Bauer bekannt, im Gegensatz zur DDR" habe man in der Bundesrepublik noch immer die alte Rechtsmaschinerie, man hätte wie in der „DDR" handeln und die ganze alte Bürokratie abschaffen können (siehe „Die Welt" vom 13. April 1965)?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg15">Die Frage des Herrn Abgeordneten Dr. Luda beantworte ich wie folgt. Generalstaatsanwalt Dr. Bauer ist hessischer Landesbeamter und untersteht dem Hessischen Minister der Justiz. Ich habe mich sofort nach dem Bekanntwerden der Äußerungen mit diesem in Verbindung gesetzt und um Überprüfung gebeten. Dabei habe ich meine große Besorgnis über die möglichen schädlichen Auswirkungen zum Ausdruck gebracht, falls die Wiedergabe der Äußerungen zutreffend sei. Im übrigen muß ich bei der Wertung von Äußerungen von meiner Dienstaufsicht nicht unterliegenden Landesbeamten die dadurch gebotene Zurückhaltung beachten. Dies vorausgeschickt beantworte ich die Frage wie folgt:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg16">Die der Frage zugrunde liegende Darstellung einer dänischen KP-Zeitung über ein Gespräch mit Generalstaatsanwalt Dr. Bauer ist der Bundesregierung bekannt. Die hier in Betracht kommende Stelle lautet in deutscher Übersetzung:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg17">Man hätte es wie in der DDR machen können, die gesamte alte Bürokratie abschaffen, ganz neue Leute finden — ein Experiment, in Wirklichkeit eine Art Revolution. Das war aber in den Westzonen nicht möglich, und darum haben wir noch immer den alten Justizapparat. Anderswo wurde es übersetzt mit „Rechtsmaschinerie". Ich halte eine solche Äußerung für schlechthin unvertretbar, wenn darin ein wertender Vergleich zu erblicken ist.</seg>
+          <kinesic type="applause">
+            <desc>Sehr gut! bei der CDU/CSU.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg18">In einer Pressekonferenz erklärte Generalstaatsanwalt Dr. Bauer, offenbar auf die Intervention des Hessischen Justizministeriums hin, am 22. April 1965 in Frankfurt:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg19">In dem Gespräch mit „Land og Folk", deren kommunistische Zielsetzung mir bekannt war, ist kein wertender Vergleich der Rechtsentwicklung in den Westzonen und in der Ostzone nach 1945 vorgenommen worden. Er hat das weiter dahin erläutert:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg20">Wenn ich keinen Glauben an eine demokratische Entwicklung unseres Rechtswesens gehabt hätte und wenn ich dieses Vertrauen heute nicht besäße, wäre ich weder aus der Emigration zurückgekehrt noch während vieler Jahre Leiter der Staatsanwaltschaft beim Oberlandesgericht in Braunschweig und Frankfurt gewesen und geblieben. So weit Dr. Bauer.</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg21">Der kommunistischen Zeitung wirft Generalstaatsanwalt Dr. Bauer vor, sie habe seine Kritik mißbraucht. Es stellt sich aber die Frage, ob Generalstaatsanwalt Dr. Bauer sich nicht leichtfertig in ein solches Gespräch eingelassen hat, von dem ein Mißbrauch mit allen sich daraus ergebenden Konsequenzen, insbesondere der Schädigung des Ansehens der Bundesrepublik und der Justiz der Bundesrepublik, erwartet werden mußte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg22">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Luda (CDU/CSU) :</note>
+        <u who="#Q1889678" xml:id="ParlaMint-DE_1965-05-06-04-180.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg23">Herr Bundesminister, sind Sie mit mir der Meinung, daß die weitere Äußerung des Generalstaatsanwalts Bauer in dem Interview, daß es Richter, die gegeneinander zeugen, nicht gebe, weil eine Krähe der anderen kein Auge aushacke, eine Kollektivbeleidigung der deutschen Richter darstellt, die von der Bundesregierung schärfstens zurückgewiesen werden muß?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg24">Ein solches Pauschalurteil über die deutschen Richter lehne ich entschieden ab und weise es auch endsprechend zurück.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg25">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Luda (CDU/CSU) :</note>
+        <u who="#Q1889678" xml:id="ParlaMint-DE_1965-05-06-04-180.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg26">Herr Bundesminister, sind Sie mit mir der Meinung, daß es auf das schärfste zu verurteilen ist, wenn ein Generalstaatsanwalt eines deutschen Bundeslandes einer kommunistischen Zeitung ein Interview gewährt, obwohl der Kommunismus rechtsstaatliches Denken ablehnt und in der sowjetisch besetzten Zone Deutschlands die Menschenrechte bekämpft?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg27">Ich sagte bereits, daß man sich der besonders großen Gefahr des Mißbrauchs eines solchen Interviews bewußt sein und seine Äußerung entsprechend einrichten muß, wenn man es nicht angesichts der von Ihnen zutreffend gekennzeichneten Denk- und Handlungsweise der KP schlechthin ablehnt, sich von Vertretern dieser politischen Richtung befragen zu lassen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe von der SPD.</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg28">Herr Abgeordneter Haase zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Haase (Kassel) (CDU/CSU) :</note>
+        <u who="#Q1525172" xml:id="ParlaMint-DE_1965-05-06-04-180.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg29">Herr Minister, habe ich Sie soeben richtig verstanden, daß der oberste hessische Ankläger in einer Pressekonferenz von der Bundesrepublik Deutschland im Vergleich zur Ostzone als von der Westzone gesprochen hat? Trifft das zu?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg30">Nach der mir vorliegenden Übersetzung trifft das zu.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe von der Mitte und Gegenrufe von der SPD.</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg31">Bitte keine Dialoge. — Herr Dr. Kohut!</seg>
+        </u>
+        <note type="speaker">Dr. Kohut (FDP) :</note>
+        <u who="#Q2036324" xml:id="ParlaMint-DE_1965-05-06-04-180.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg32">Herr Minister, ist nicht angesichts vieler bedauerlicher Vorkommnisse und der personellen Fehlbesetzung in der deutschen Justiz nach 1949 ein gewisses Maß an Kritik an der deutschen Justiz berechtigt?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg33">Die deutschen Richter haben sich nach meiner Auffassung stets bemüht, dem rechtsstaatlichen Gedanken zu dienen, und wir sollten froh sein, daß wir im Grundgesetz wiederum garantiert haben, daß die dritte Gewalt nach Recht und Gerechtigkeit entscheiden kann.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU und der FDP.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg34">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Kohut (FDP) :</note>
+        <u who="#Q2036324" xml:id="ParlaMint-DE_1965-05-06-04-180.u21" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg35">Herr Minister, waren nicht viele Richter und Staatsanwälte aus dem „Dritten Reich" übernommen worden, bei denen man annehmen konnte, daß von rechtsstaatlichem Denken überhaupt nicht die Rede war und daß sie dieses rechtsstaatliche Denken erst jetzt entdeckt haben mußten?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg36">Ich bin der Auffassung, daß der Bundestag im Richtergesetz alle Voraussetzungen geschaffen hat, damit diejenigen Richter, die in unserem Staat nicht amtieren sollten, ausgeschlossen werden.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg37">Herr Abgeordneter Müller!</seg>
+        </u>
+        <note type="speaker">Müller (Aachen-Land) (CDU/CSU) :</note>
+        <u who="#Q1705338" xml:id="ParlaMint-DE_1965-05-06-04-180.u24" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg38">Herr Minister, sind Sie mit mir der Meinung, daß es ein ausgesprochener Skandal ist, wenn Herr Bauer als Generalstaatsanwalt eines sozialdemokratisch regierten deutschen Bundeslandes in dem Interview gegenüber einer ausländischen, kommunistischen Zeitung äußert: „Damals hatten wir Adenauer als eine Art Diktator in der Bundesrepublik", obwohl Dr. Adenauer auf Grund demokratischer Wahlen zum Kanzler ernannt und nach seinem Rücktritt auch von der sozialdemokratischen Opposition ehrenvoll verabschiedet worden ist?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg39">Mit dieser Meinung kann nach meiner Auffassung Herr Dr. Bauer überhaupt nicht ernst genommen werden. Gerade aber in einem Gespräch mit einem Vertreter einer KP-Zeitung hätte sich Herr Bauer seiner hohen Stellung und der damit gegebenen Verantwortung bewußt sein müssen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg40">Herr Abgeordneter Sänger zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Sänger (SPD) :</note>
+        <u who="#Q1468600" xml:id="ParlaMint-DE_1965-05-06-04-180.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg41">Herr Bundesminister, ist Ihnen bekannt, daß eine ganze Reihe der hier soeben aus einer kommunistischen Zeitung zitierten Stellen vom Herrn Generalstaatsanwalt Dr. Bauer -entschieden dementiert wurde, insbesondere die Stelle über die Westzonen?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dr. Luda: Das ist nicht dementiert worden!</desc>
+        </vocal>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg42">Das ist mir nicht bekannt. Ich bin aber bereit, die mir hier vorliegende Presseerklärung des Herrn Dr. Bauer noch einmal durchzusehen. Er hat wohl gesagt, er sei mißverstanden worden und es sei mit seinem Interview Mißbrauch getrieben worden. Aber soweit mir erinnerlich, hat er den Wortlaut der in der KP-Zeitung wiedergegebenen Äußerung nicht bestritten.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe von der SPD.</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg43">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Sänger (SPD) :</note>
+        <u who="#Q1468600" xml:id="ParlaMint-DE_1965-05-06-04-180.u30" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg44">Finden Sie, Herr Bundesminister, daß man den Ausführungen einer kommunistischen Zeitung mehr glauben muß als den Aussagen des Generalstaatsanwalts Dr. Bauer?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD. — Zurufe von der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg45">Ich möchte nicht der Meinung sein, daß man der kommunistischen Zeitung mehr Glauben schenken muß. Aber das beweist eben, was ich gesagt habe, nämlich daß man gerade in Äußerungen gegenüber einer solchen Zeitung außerordentlich zurückhaltend sein muß,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg46">wenn man es nicht besser überhaupt ablehnt, einer solchen Zeitung ein Interview zu geben.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Erneuter Beifall bei der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u32" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg47">Herr Abgeordneter Jahn!</seg>
+        </u>
+        <note type="speaker">Jahn (SPD) :</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1965-05-06-04-180.u33" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg48">Herr Minister, ist Ihnen im Hinblick auf Ihre Warnung vor Interviews mit kommunistischen Zeitungen geläufig, daß die der Bundesregierung nahestehende Organisation „Inter Nationes" nach der. Darstellung von Herrn Generalbundesanwalt Bauer in vielen Fällen Pressevertreter aus kommunistischen Ländern zu Interviews zugewiesen hat?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u34" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg49">Herr Generalstaatsanwalt Bauer hat sich nach der von ihm abgegebenen Presseerklärung darauf berufen, daß die Organisation „Inter Nationes" ihm auch Vertreter kommunistischer Zeitungen zugeschickt habe. Ob das in vielen Fällen geschehen ist, kann ich allerdings nicht bestätigen. Nach meiner Erinnerung hat er nur von „Fällen" gesprochen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u35" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg50">Noch eine Zusatzfrage?</seg>
+        </u>
+        <note type="speaker">Jahn (SPD) :</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1965-05-06-04-180.u36" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg51">Wollen Sie dennoch Ihre verallgemeinernde Warnung vor solchen Interviews bzw. vor solchen Interviewern aufrechterhalten?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg52">Ich habe diese allgemeine Warnung in ,einer sehr zurückhaltenden Form ausgesprochen: „wenn man es nicht ablehnt". Ich habe solche Interviews also nicht schlechthin für unzulässig erklärt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg53">Herr Abgeordneter Schultz zu einer Frage.</seg>
+        </u>
+        <note type="speaker">Schultz (FDP) :</note>
+        <u who="#Q122071" xml:id="ParlaMint-DE_1965-05-06-04-180.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg54">Herr Bundesminister, halten Sie es für sehr glücklich, wenn ein Generalstaatsanwalt in der Bundesrepublik Interviews gibt und regelmäßig danach erklären muß, daß er falsch verstanden worden sei?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU. — Zuruf von der SPD: Wieso denn regelmäßig? — Weitere Zurufe und Unruhe links.</desc>
+        </kinesic>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg55">Ich stimme der in Ihrer Frage zum Ausdruck kommenden Auffassung zu.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u41" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg56">Herr Abgeordneter Müller (Aachen-Land)!</seg>
+        </u>
+        <note type="speaker">Müller (Aachen-Land) (CDU/CSU) :</note>
+        <u who="#Q1705338" xml:id="ParlaMint-DE_1965-05-06-04-180.u42" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg57">Herr Minister, darf ich Sie fragen, ob Sie bereit sind, dem Hause — wenn nicht jetzt, dann hinterher — schriftlich eine Nachricht darüber zukommen zu lassen, daß Herr Bauer in der Presseerklärung, die eben von sozialdemokratischen Kollegen .angezogen und auch von Ihnen zitiert wurde, nicht geltend gemacht hat, daß Jorgensen — der kommunistische Reporter der dänischen Zeitung — nicht berechtigt gewesen sei, ihn, Bauer, direkt zu zitieren, und daß Bauer auch nicht behauptet hat, in dem von dem Abgeordneten Dr. Luda beanstandeten Absatz, der heute der Fragestunde zugrunde liegt, falsch zitiert worden zu sein, und daß es sich demnach bei der Presseerklärung offensichtlich nur um den Versuch — nach meinem Gefühl den mißlungenen Versuch — der hinterher stattfindenden ,abschwächenden Interpretation handelt?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u43" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg58">Ich bin gern bereit, die Presseerklärung, die Herr Dr. Bauer am 22. Aprilabgegeben hat, nochmals zu überprüfen, insbesondere darauf hin, ob die von Ihnen erwähnten Passus darin enthalten sind. Ich nehme an, daß Herr Bauer — wenn ich ihn richtig verstehe — davor hat warnen wollen, daß in seine Worte mehr hineingelegt wird, als er hat sagen wollen, also daß .er zu dem vollen Wortlaut des veröffentlichten Interviews hinterher nicht mehr gestanden hat. Allerdings hat er erklärt, Herr Jorgensen habe mit seinen Äußerungen Mißbrauch getrieben.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der SPD: Das reicht doch wohl!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u44" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg59">Herr Abgeordneter Ritzel.</seg>
+        </u>
+        <note type="speaker">Ritzel (SPD) :</note>
+        <u who="#Q1598628" xml:id="ParlaMint-DE_1965-05-06-04-180.u45" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg60">Herr Minister, haben Sie, als Sie sich auf die Beantwortung dieser Frage vorbereiteten, Gelegenheit genommen, vorher mit „Inter Nationes" Fühlung zu nehmen, um festzustellen, was „Inter Nationes" selber zu dieser Mitteilung zu sagen hat?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg61">Ich habe keine Veranlassung gehabt, mich mit „Inter Nationes" in Verbindung zu setzen. Ich habe mich mit dem Herrn in Verbindung gesetzt, der für Herrn Bauer zuständig ist: zunächst telefonisch mit Herrn Justizminister Lauritzen, und dann habe ich auch persönlich mit ihm in Bonn darüber gesprochen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg62">Herr Abgeordneter Ritzel zu einer weiteren Frage.</seg>
+        </u>
+        <note type="speaker">Ritzel (SPD) :</note>
+        <u who="#Q1598628" xml:id="ParlaMint-DE_1965-05-06-04-180.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg63">Ist Ihnen bekannt, Herr Justizminister, daß „Inter Nationes" nicht dem hessischen Justizminister, sondern der Bundesregierung untersteht?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg64">Das ist mir bekannt. Ich habe noch heute morgen eine italienische Besucherkommission empfangen, die auch von „Inter Nationes" hierher eingeladen worden war.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe von der SPD. — Abg. Jahn: Vorsicht, Herr Minister!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u50" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg65">Die Frage ist beantwortet. Meine Damen und Herren, ich kann mich doch einer Bemerkung nicht enthalten.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf des Abg. Ertl.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg66">— Entschuldigen Sie, ich habe die Wortmeldung nicht gesehen. Herr Abgeordneter Ertl!</seg>
+        </u>
+        <note type="speaker">Ertl (FDP) :</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1965-05-06-04-180.u51" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg67">Herr Minister, Sie haben eben gesagt, daß Sie mit dem Vorgesetzten des Herrn Generalstaatsanwalts Bauer gesprochen hätten. Können Sie mir eine Auskunft geben, ob er das Verhalten des Generalstaatsanwalts auch gebilligt hat?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u52" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg68">Herr Minister Lauritzen hat in der persönlichen Rücksprache eine Erklärung abgegeben, aus der ich annehmen muß, daß er die Erklärung in der Pressekonferenz vom 22. April veranlaßt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u53" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg69">Nun, meine Damen und Herren, zurück zu der Bemerkung, die ich machen wollte. Ich glaube, daß wir uns daran gewöhnen sollten, daß die Bundesregierung nicht der Zensor aller Dinge ist, die in Deutschland passieren.</seg>
+          <kinesic type="applause">
+            <desc>Sehr gut! bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg70">Sie ist für die ihr unterstehenden Beamten verantwortlich. Wir können sie fragen, ob sie das Verhalten eines Beamten billigt, der ihr untersteht, und wir können sie auffordern, Konsequenzen zu ziehen, wenn das nicht der Fall ist. Der Landtag in Hessen kann den Justizminister fragen, wie er sich zu dem Verhalten des Generalstaatsanwalts Bauer stellt, und ich würde es begrüßen, wenn das geschähe. Aber es ist nicht Sache der Bundesregierung, an dieser Stelle an dem Verhalten eines Landesbeamten Kritik zu üben.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Müller [Aachen-Land] : Und wenn das Interesse der Bundesrepublik tangiert wird?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg71">— Wir haben eine föderalistische Verfassung. Das Interesse der Bundesrepublik wird auf verschiedenen Schichten unserer Verfassungswirklichkeit gewahrt: beim Bund, bei den Ländern und in den Gemeinden. Wenn ich Ihren Zwischenruf konsequent weiterführte, dann müßte ich die Bundesregierung für kompetent in allen Dingen halten, in denen sie glaubt, kompetent sein zu müssen. Genau das haben wir im Parlamentarischen Rat nicht gewollt.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Luda: Herr Präsident,' gestatten Sie mir die Frage — —</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg72">— Herr Abgeordneter Luda, die Fragestunde ist nicht dazu da, Fragen an den Präsidenten zu stellen.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei der SPD. — Abg. Dr. Luda: Es ist die Aufgabe der Bundesregierung, die Ehre der deutschen Richter wahrzunehmen und zu schützen! Daran geht kein Weg vorbei! — Weiterer Zuruf von der Mitte: Unmögliche Auffassung!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg73">Ich rufe die Frage V/5 — des Herrn Abgeordneten Dr. Wuermeling — auf:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg74">Ist dem Bundeskanzler bekannt, daß Bundesminister Mende nach einer mit dreispaltiger Balkenüberschrift versehenen Meldung der „Rheinzeitung" vom 3./4. April „unter stürmischem Beifall der 1300 Teilnehmer" eines Diskussionsforums in Koblenz erklärt haben soll, der Bundestag habe in der Verjährungsfrage unter dem Druck innerer und äußerer Pressionen entschieden; kein Staat, der auf sich halte, lasse sich in seiner innerstaatlichen Gesetzgebung von außen hereinreden, und daß das Publikum laut „Rheinzeitung" „enthusiastisch zustimmte"?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg75">Ich bitte, die Fragen V/5 bis V/7 im Zusammenhang beantworten zu dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg76">Dann rufe ich auch die Fragen V/6 und V/7 — des Herrn Abgeordneten Dr. Wuermeling — auf:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg77">Teilt der Bundeskanzler die Auffassung, daß solche Methoden verleumderischer Herabsetzung des deutschen Parlaments vor der Öffentlichkeit, wie in Frage V/5 zitiert, vor 1933 zur Zerstörung unserer demokratisch-parlamentarischen Ordnung wesentlich beigetragen haben? Ist der Bundeskanzler gewillt, sich in seinem Amt als Bundeskanzler weiter durch eine Persönlichkeit vertreten zu lassen, die in der in Frage V/5 zitierten Weise das Ansehen des Parlaments untergräbt bzw., wenn die gemeldeten Äußerungen bestritten werden sollten, nicht einmal durch eine faire öffentliche Erklärung davon abrückt?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u56" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg78">Es ist die legitime Aufgabe der Parteien, daß sie ihre politische Haltung den Wählern in Versammlungen, Podiumsdiskussionen, öffentlichen Foren und dergleichen erläutern und sich auch den Fragen des Bürgers stellen. Besonders nötig ist diese Diskussion bei Problemen, die in der Öffentlichkeit so leidenschaftlich erörtert worden sind, wie das z. B. bei der Verjährungsfrage der Fall gewesen ist. Die Bundesregierung wird zwar darauf zu achten haben, daß durch die Teilnahme von Regierungsmitgliedern an solchen Diskussionen die ersprießliche Zusammenarbeit im Kabinett nicht gefährdet wird und das Ansehen demokratischer Einrichtungen nicht gemindert wird. Sie ist aber nicht dazu berufen, über solche Diskussionen im parteipolitischen Raum Zensuren zu erteilen. Die Veranstaltung, mit der sich Ihre Fragen, Herr Abgeordneter Wuermeling, befassen, war ganz eindeutig eine Parteiveranstaltung. Entscheidend für die Fragen, die Sie gestellt haben, erscheint mir, daß die Presseveröffentlichung, auf die Sie sich berufen, mit der Tonbandaufzeichnung, die mir vorliegt, in einem wesentlichen Punkt nicht übereinstimmt. Nach dem Zeitungsbericht soll Herr Dr. Mende erklärt haben: Der Bundestag hat unter Druck entschieden. So lautet auch die von Ihnen angesprochene Balkenüberschrift. Nach der Tonbandaufzeichnung hat er jedoch gesagt:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg79">Die Entscheidung des Deutschen Bundestages ist nach meiner Überzeugung unter dem Eindruck inner- und außenpolitischer Pressionen so und nicht anders erfolgt.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg80">Durch diesen durch das Tonband erhärteten Wortlaut der Erklärung erweist sich die von Ihnen angezogene Presseäußerung als unzutreffend. In den Debatten vom 10. und 25. März haben sich fast alle Redner — ich könnte das mit zahlreichen Beispielen belegen — mit der Frage des Drucks von innen und außen befaßt und auseinandergesetzt. Herr Kollege Benda hat dazu aus einem Leitartikel einer angesehenen Zeitung zitiert; der Satz lautet ) dahin, daß das, was freiwillig und rechtzeitig als ein moralischer Akt hätte geschehen müssen und sollen, jetzt unter dem Druck der Weltmeinung als ein mit Opportunismus belasteter politischer Akt geschehe. Er fuhr dann wörtlich fort:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg81">Ich halte diese Meinung für ganz falsch. Die Antragsteller — soweit ich für meine 49 Kollegen und für mich selbst sprechen darf — haben in dieser Frage unter einem Druck gestanden und stehen heute noch unter einem Druck: keinem Druck des Auslands, sondern dem Druck der eigenen Überzeugung! Ich darf weiter auf die Ausführungen des Herrn Kollegen Dr. Arndt verweisen, der ausgeführt hat, daß wir eine Weltmeinung legitim beachten können, wenn wir sie für richtig halten. Er hat hinzugesetzt:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg82">Ich glaube, wir haben nicht Anlaß, uns, wie das manche tun, so ungeheuer in die Brust zu werfen, als ob uns niemand in der Welt draußen etwas sagen könnte. Die Weltmeinung ist in der Debatte vom 10. und 25. März 1965 gebührend als ein politisches Faktum gewürdigt worden. Aber sie war eben nur ein Faktum. Ich möchte das mit den Worten belegen, die der Herr Präsident dieses Hohen Hauses am Schluß der Debatte vom 25. März 1965 gefunden hat:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg83">Diese Stunde ist nicht die Stunde, in der das frei gewählte Parlament der Deutschen einem Druck von außen gewichen ist, und diese Stunde ist auch keine Stunde des mangelnden Respekts vor dem geschriebenen Recht. Nein, wenn ich dieses Haus recht verstanden habe, dann gehört sie allein dem Dienst an der Gerechtigkeit und dem redlichen Willen, mit der Last unserer jüngsten Geschichte so ehrenhaft fertig zu werden, daß wir vor uns selbst und der Welt damit bestehen können. Die Bundesregierung hat dieser zutreffenden Feststellung des Herrn Bundestagspräsidenten nichts hinzuzufügen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u57" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg84">Eine Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Wuermeling (CDU/CSU) :</note>
+        <u who="#Q280029" xml:id="ParlaMint-DE_1965-05-06-04-180.u58" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg85">Herr Minister, mit meinem besonderen Dank für die ausführlichen Zitate aus der Bundestagsdebatte darf ich die Zusatzfrage verbinden: Sieht die Bundesregierung wirklich einen entscheidenden Unterschied zwischen der Formulierung, der Bundestag habe unter dem „Druck", und der Formulierung, er habe unter dem „Eindruck" innerer und äußerer Pressionen entschieden, angesichts der Tatsache, daß das Publikum laut „Rhein-Zeitung" auf diese Äußerung mit stürmischem Beifall reagierte und das doch wohl nicht, um seine Zustimmung zu dem von Dr. Mende bekämpften Bundestagsbeschluß zu geben, sondern offensichtlich um die angebliche Wirkung der inneren und äußeren Pressionen auf den Bundestag stürmisch zu bestätigen?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u59" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg86">Ich persönlich sehe darin einen erheblichen Unterschied. Druck bedeutet, daß ich mich dem Druck von außen gebeugt habe. Eindruck bedeutet, da ich die Argumente, so wie ich es eben aus der Bundestagsdebatte verlesen habe, mitberücksichtigt habe. Was die Auffassung des Publikums, der Zuhörer, angeht, Herr Kollege Wuermeling, dafür bin ich nicht verantwortlich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u60" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg87">Zweite Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Wuermeling (CDU/CSU) :</note>
+        <u who="#Q280029" xml:id="ParlaMint-DE_1965-05-06-04-180.u61" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg88">Herr Minister, wird meine Deutung der Äußerung Dr. Mendes nicht auch eindeutig dadurch bestätigt, daß der anschließende Satz:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg89">Kein Staat, der auf sich hält, läßt sich in seine innerstaatliche Gesetzgebung von außen hereinreden vom Publikum mit enthusiastischer Zustimmung — ich betone: mit enthusiastischer Zustimmung — beantwortet wurde? Was kann denn die enthusiastische Zustimmung ausgelöst haben, wenn nicht der auch vom Publikum richtig interpretierte Sinn dieses Satzes? Haben wir denn, Herr Minister, die Zeit vor 1933 nicht miterlebt, so daß wir nicht wüßten, was auf solche Weise angerichtet wird?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Sehr wahr! bei der SPD. — Widerspruch bei der FDP.</desc>
+        </kinesic>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u62" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg90">Für mich ist entscheidend, was ich aus dem Tonband festgestellt habe. Ich habe Ihnen gesagt, daß ich darin einen erheblichen Unterschied zwischen dem Inhalt der Pressemeldung und dem im Tonband festgehaltenen Wortlaut sehe. Zum anderen habe ich ebenfalls bereits in meinen einleitenden Bemerkungen betont, daß die Bundesregierung darauf zu achten hat, daß durch solche Diskussionen die ersprießliche Zusammenarbeit im Kabinett nicht gefährdet und das Ansehen demokratischer Einrichtungen nicht gemindert wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u63" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg91">Eine weitere Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Wuermeling (CDU/CSU) :</note>
+        <u who="#Q280029" xml:id="ParlaMint-DE_1965-05-06-04-180.u64" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg92">Herr Minister, wäre die Bundesregierung bereit, die inkriminierte Äußerung Dr. Mendes an Hand des Tonbandes hier im Hause, eventuell in einem Ausschuß, einschließlich der Beifallsbezeugungen vorzuführen, damit wir uns selbst ein klares Bild von den Wahlkampfmethoden dieses Bundesministers machen können?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der FDP: Das haben Sie gerade nötig!</desc>
+        </vocal>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg93">Ich muß darauf erwidern, daß das Tonband sich im Besitz von Herrn Dr. Mende befindet und ich eine Abschrift des Tonbandes, die allerdings beglaubigt und verifiziert ist, besitze. Ich kann Ihnen dazu von mir aus also keine Erklärung abgeben. Ich muß Ihnen dazu aber weiter sagen: Nachdem Ihre Fragen eingegangen waren, hatte ich mich bemüht, von Herrn Dr. Mende selbst eine Erklärung zu erhalten. Dies war nicht möglich. Ihnen ist wohl bekannt, daß er sich zur Zeit zusammen mit dem Gesamtdeutschen Ausschuß auf einer Reise in die Zonenrandgebiete befindet. Ich bin gern bereit, diese Ihre Bitte an ihn weiterzuleiten.</seg>
+        </u>
+        <note type="speaker">Dr. Wuermeling (CDU/CSU) :</note>
+        <u who="#Q280029" xml:id="ParlaMint-DE_1965-05-06-04-180.u66" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg94">Ich darf dafür danken und weiter fragen: Mußte Herr Dr. Mende, Herr Minister, nicht selbstverständlich an die Rhein-Zeitung, die bekanntlich eine weitverbreitete angesehene Zeitung ist, sofort eine Berichtigung senden, nachdem er an Hand der Balkenüberschrift „Der Bundestag hat unter Druck entschieden" festgestellt hatte, welche Wirkung seine Äußerung gehabt hat? Oder meint die Bundesregierung vielleicht, daß Herr Dr. Mende sich entweder für Zeitungsberichte über seine Reden nichtinteressierte oder daß er vielleicht nicht über die erforderliche Einsicht verfügte, um zu erkennen, was auf solche Weise angerichtet wird und wessen Geschäfte auf solche Weise besorgt werden?</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Lachen bei der FDP.</desc>
+        </kinesic>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg95">Ich weiß nicht, ob Herr Dr. Mende diese Zeitung zu Gesicht bekommen hat und infolgedessen, bevor Sie Ihre Frage stellten, Idle inkriminierte Stelle gekannt hat. Ich habe meinerseits vor, Herrn Kollegen Mende vorzuschlagen, daß er in einer Erklärung zu dem, was in der Zeitung im Gegensatz zur Tonbandaufnahme ausgesagt ist, Stellung nimmt.</seg>
+        </u>
+        <note type="speaker">Dr. Wuermeling (CDU/CSU):</note>
+        <u who="#Q280029" xml:id="ParlaMint-DE_1965-05-06-04-180.u68" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg96">Ich danke auch (i für diese Erklärung und darf weiter fragen: Hat die Bundesregierung ihrerseits mit dem Herrn Präsidenten dieses Hohen Hauses Fühlung genommen, um zu erfahren, was der Herr Präsident vielleicht für geboten hält, um diesen unqualifizierten Angriff auf das Ansehen des deutschen Parlaments abzuwehren?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u69" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg97">Die Bundesregierung hat keine Veranlassung, mit ,dem Herrn Präsidenten in dieser Richtung Fühlung zu nehmen. Sie ist der Meinung, daß das Haus selber in der Lage ist, seine Würde zu wahren, daß insbesondere .der Herr Präsident in der Lage ist, in dieser Richtung das zu veranlassen, was er für erforderlich hält.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg98">Ich darf dazu etwas sagen. Das Amt des Präsidenten ist, in diesem Hause Ordnung zu halten. Sein Amt ist nicht, die Abgeordneten bezüglich dessen, was sie draußen tun, zu zensieren.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg99">Letzte Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Wuermeling (CDU/CSU) :</note>
+        <u who="#Q280029" xml:id="ParlaMint-DE_1965-05-06-04-180.u71" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg100">Herr Minister, was gedenkt die Bundesregierung zu tun, um für die Zukunft auszuschließen, daß Herr Bundesminister Mende in ähnlicher Weise, wie es in Koblenz geschehen ist, öffentlich das Ansehen des Deutschen Bundestages herabsetzt?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dorn: Das ist doch unerhört!</desc>
+        </vocal>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u72" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg101">Auf diese Frage, Herr Kollege Wuermeling, werden Sie wohl keine Antwort von mir erwarten.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u73" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg102">Zu einer Zusatzfrage Herr Abgeordneter Jahn.</seg>
+        </u>
+        <note type="speaker">Jahn (SPD) :</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1965-05-06-04-180.u74" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg103">Herr Minister, nachdem die Bundesregierung offenbar die Neigung hat, eine gewisse Schizophrenie in der Eigenschaft zwischen Bundesministern und Parteivorsitzenden zuzugestehen, können Sie mir vielleicht bei der Schwierigkeit helfen, bei öffentlichen Äußerungen jeweils festzustellen, in welcher Eigenschaft der Betreffende gesprochen hat?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg104">Das war hier absolut nicht schwer, weil auf Plakaten, die nach Metern bemessen waren, .die Veranstaltung als Parteiveranstaltung angekündigt war.</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Heiterkeit links und in der Mitte.—Lachen rechts.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg105">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jahn (SPD) :</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1965-05-06-04-180.u77" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg106">Darf ich fragen, Herr Minister, ob der betreffende Parteivorsitzende in diesem Fall als Vizekanzler und Bundesminister oder nur als Parteivorsitzender angekündigt war?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg107">Ich kann Ihnen diese Frage im Augenblick nicht beantworten. Wenn ich die Plakate aber recht in Erinnerung habe, war da von „Vizekanzler" nichts erwähnt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg108">Herr Abgeordneter Moersch zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Moersch (FDP) :</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1965-05-06-04-180.u80" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg109">Herr Bundesminister, ist Ihnen bekannt, daß sich der Abgeordnete Dr. Wuermeling in Wahlreden durch weit bekannte Sanftmut und Wahrheitsliebe auszeichnet?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Hört! Hört! bei der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg110">Ich möchte auch diese Frage nicht beantworten, da es nicht zu meinem Amt gehört, hier Abgeordneten Zensuren zu erteilen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall rechts.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg111">Herr Abgeordneter Ertl zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Ertl (FDP) :</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1965-05-06-04-180.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg112">Herr Bundesminister, gehört stürmischer Beifall nicht zu den demokratischen Einrichtungen unseres Staates? Herr Wuermeling kritisiert sie offensichtlich sehr.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der SPD: Dann war Adolf Hitler der beste Demokrat!</desc>
+        </vocal>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg113">Ich habe keine Veranlassung, diese Ihre Feststellung zu bezweifeln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg114">Herr Schultz!</seg>
+        </u>
+        <note type="speaker">Schultz (FDP) :</note>
+        <u who="#Q122071" xml:id="ParlaMint-DE_1965-05-06-04-180.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg115">Herr Bundesminister, werden die liebenswürdigen Fragen des Kollegen Dr. Wuermeling für die Bundesregierung Veranlassung sein, in Zukunft die Versammlungen der Freien Demokratischen Partei durch besondere Organe des Verfassungsschutzes überwachen zu lassen?</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Lachen bei der SPD. — Zuruf von der SPD: Ist das Ihre Selbsteinschätzung?</desc>
+        </kinesic>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg116">Ich glaube, diese Frage stellen heißt sie verneinen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg117">Herr Abgeordneter Mommer!</seg>
+        </u>
+        <note type="speaker">Dr. Mommer (SPD) :</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1965-05-06-04-180.u89" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg118">Herr Minister, wie steht die Bundesregierung zu der öffentlich verkündeten Forderung des Herrn Vizekanzlers, wir möchten als [Nationalhymne nicht mehr den Text — den schönen Text —: „Einigkeit und Recht und Freiheit", sondern: „Deutschland, Deutschland über alles, . .. von der Maas bis an die Memel, von der Etsch bis an den Belt" singen?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u90" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg119">Herr Kollege Dr. Mommer, diese Äußerung des Herrn Dr. Mende ist mir nicht bekannt.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Ollesch: Ist auch nie gefallen! Ist auch Dr. Mommer nicht bekannt! — Zuruf von der FDP: Lesen müßte man können, Herr Dr. Mommer!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u91" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg120">Herr Abgeordneter Junghans!</seg>
+        </u>
+        <note type="speaker">Junghans (SPD) :</note>
+        <u who="#Q1577720" xml:id="ParlaMint-DE_1965-05-06-04-180.u92" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg121">Herr Minister, sind Sie sicher, daß es sich bei der Ersetzung des Wortes „Eindruck" durch die Worte „dem Druck" nicht lediglich um einen Hörfehler gehandelt haben kann? Ist nicht vielleicht nur der bestimmte Artikel „dem" durch den unbestimmten Artikel „einem" ersetzt worden?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg122">Nach dem mir vorliegenden Wortlaut sind auf dem Tonband die Worte „unter dem Eindruck" aufgezeichnet, so daß dieser Irrtum nicht möglich ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u94" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg123">Vielleicht können wir eine textkritische Kommission einsetzen!</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg124">Das wäre vielleicht die beste Lösung!</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg125">Herr Abgeordneter Busse!</seg>
+        </u>
+        <note type="speaker">Busse (FDP) :</note>
+        <u who="#Q1610801" xml:id="ParlaMint-DE_1965-05-06-04-180.u97" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg126">Herr Minister, sind Sie nicht mit mir der Meinung, daß es gut ist, wenn man, ehe man hier Fragen zu gewissen Äußerungen stellt, selbst den genauen Wortlaut dieser Äußerungen feststellt und nicht so verfährt, wie es sowohl Herr Wuermeling als auch Herr Mommer soeben getan haben?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u98" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg127">Im allgemeinen bin ich der Ansicht, daß man eine Zeitungsmeldung, wenn sie so wörtlich gebracht wird, wie es hier der Fall gewesen ist, zum Anlaß nehmen kann, eine Anfrage zu stellen. Wenn sie aber dann hier beantwortet wird, ist man allerdings verpflichtet, das zu tun, was Sie vorschlagen, nämlich genau zu überprüfen, und dieser Pflicht habe ich mich nicht entzogen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u99" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg128">Keine Zusatzfrage mehr.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der SPD: Schade!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg129">Wir können zur Frage V/8 — des Herrn Abgeordneten Josten — übergehen:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg130">Wie steht die Bundesregierung zu der Forderung von Mitgliedern des Deutschen Kinderschutzbundes, welche eine Erhöhung der Mindeststrafen für Kindesmißhandlungen wünschen?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg131">Die Frage des Abgeordneten Josten beantworte ich wie folgt. Die Mißhandlung von Kindern durch einen Sorgeberechtigten ist nach § 223 b des Strafgesetzbuches mit Gefängnis nicht unter drei Monaten bedroht. Der Strafrahmen beträgt drei Monate bis fünf Jahre Gefängnis; in schweren Fällen ist die Tat im geltenden Recht sogar mit Zuchthaus bis zu fünf Jahren bedroht. Die Mindeststrafe beträgt also drei Monate, jedoch kann nach § 228 des Strafgesetzbuches die Mindeststrafe bei Annahme mildernder Umstände bis auf einen Tag Gefängnis herabgesetzt werden. Die Bundesregierung hat in dem Entwurf eines Strafgesetzbuches — Entwurf 1962 — die Streichung dieser Vorschrift vorgesehen und im übrigen den Tatbestand der Kindesmißhandlung besonders eingehend geregelt. Sie hat es bei der Mindeststrafe von drei Monaten belassen, jedoch den Strafrahmen für besonders schwere Fälle auf Zuchthaus bis zu 15 Jahren erweitert. Das Hohe Haus wird bei der Verabschiedung des Entwurfs des Strafgesetzbuches darüber zu beschließen haben. Die Bundesregierung hat also die von Ihnen für notwendig erachtete Verschärfung vorgeschlagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg132">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Josten (CDU/CSU) :</note>
+        <u who="#Q1695791" xml:id="ParlaMint-DE_1965-05-06-04-180.u102" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg133">Herr Minister, kann also der Deutsche Kinderschutzbund nach Ihren Ausführungen mit einer baldigen Berücksichtigung seiner Wünsche rechnen?</seg>
+        </u>
+        <note type="speaker">Dr. Weber, Bundesminister der Justiz:</note>
+        <u who="#Q85846" xml:id="ParlaMint-DE_1965-05-06-04-180.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg134">Die Bundesregierung hält es angesichts dessen, daß der Entwurf eines Strafgesetzbuches mit den verschärften Bestimmungen dem Hohen Haus bereits zur Beratung vorliegt, nicht für angebracht, nun noch eine Novelle zu diesem speziellen Problem einzubringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u104" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg135">Die Frage ist beantwortet. Meine Damen und Herren, der Kollege Ritzel muß in den nächsten Minuten weggehen. Er hat unter VII drei Fragen gestellt. Ich ziehe die Fragen zu VII vor und rufe zunächst die Frage VII/1 — des Herrn Abgeordneten Ritzel — auf:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg136">Nach welchen Grundsätzen regeln die Haftpflichtversicherungen ihre Schadensleistungen im Einzelfall?</seg>
+        </u>
+        <note type="speaker">Dr. Neef, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1467626" xml:id="ParlaMint-DE_1965-05-06-04-180.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg137">Die Haftpflichtversicherung umfaßt die Befriedigung begründeter Schadensersatzansprüche, die auf Grund gesetzlicher Haftpflichtbestimmungen privatrechtlichen Inhalts gegen den Versicherungsnehmer oder gegen mitversicherte Personen erhoben werden. Nach dem Inkrafttreten des neuen Pflichtversicherungsgesetzes für Kraftfahrzeughalter am 1. Oktober 1965 steht dem Geschädigten ein unmittelbarer Anspruch gegen den Kraftfahrhaftpflichtversicherer des Schadenstifters zu. Maßgeblich für die Schadenleistungen der Haftpflichtversicherungsunternehmen sind die gesetzlichen Haftpflichtbestimmungen, bei Schäden aus Verkehrsunfällen also die Vorschriften des Bürgerlichen Gesetzbuchs über Schadenersatz aus unerlaubten Handlungen und die Bestimmungen des Straßenverkehrsgesetzes über die Gefährdungshaftung. Für die Höhe des geltend gemachten Schadens ist der Anspruchsteller beweispflichtig. Ein Mitverschulden des Geschädigten sowie die eigene Betriebsgefahr wirken auf die Höhe des Schadenersatzanspruches ein. Die Haftpflichtversicherungsunternehmen richten sich bei ihren Schadenleistungen auf Grund außergerichtlicher Vergleiche nach den von der Rechtsprechung entwickelten Grundsätzen für die Bemessung der Schadenhöhe. Dies gilt insbesondere für die Höhe des Schmerzensgeldes bei Personenschäden und für den Ausgleich von Wertminderung bei Sachschäden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u106" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg138">Eine Zusatzfrage? — Bitte, Herr Abgeordneter Ritzel!</seg>
+        </u>
+        <note type="speaker">Ritzel (SPD) :</note>
+        <u who="#Q1598628" xml:id="ParlaMint-DE_1965-05-06-04-180.u107" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg139">Welchen Rechtsschutz genießen die Unfallgeschädigten außer dem der Prozeßführung auf eigene Kosten?</seg>
+        </u>
+        <note type="speaker">Dr. Neef, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1467626" xml:id="ParlaMint-DE_1965-05-06-04-180.u108" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg140">Die Bundesregierung schützt die Interessen der Betroffenen einmal nach dem § 81 des Versicherungsaufsichtsgesetzes. Sie hat die Allgemeinen Bedingungen für die Kraftverkehrsversicherung genehmigt. Sie überwacht im übrigen die Tarife darauf, daß sie eine dauernde Erfüllbarkeit der Haftpflichtversicherungsansprüche sicherstellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u109" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg141">Eine zweite Zusatzfrage des Herrn Abgeordneten Ritzel.</seg>
+        </u>
+        <note type="speaker">Ritzel (SPD) :</note>
+        <u who="#Q1598628" xml:id="ParlaMint-DE_1965-05-06-04-180.u110" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg142">Welche Auffassung vertritt die Bundesregierung, wenn sie die Leistungen in Haftpflichtversicherungsfällen vergleicht mit den Verpflichtungen der Kraftfahrer zum Abschluß von Verträgen mit hohen Schadensersatzverpflichtungen und entsprechenden Prämien?</seg>
+        </u>
+        <note type="speaker">Dr. Neef, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1467626" xml:id="ParlaMint-DE_1965-05-06-04-180.u111" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg143">Abgesehen davon, daß ich in meiner Antwort zu der Frage 2 dazu noch Stellung nehme, sind es die von mir zitierten Anstrengungen der Bundesregierung, mit denen sie ein Gleichgewicht zwischen den Leistungen und den Ansprüchen in der Haftpflichtversicherung für den Kraftverkehr herzustellen hofft.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u112" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg144">Frage VII/2 — des Herrn Abgeordneten Ritzel —:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg145">Welche Wirkung wird durch Gesetz auf die Höhe der Schadenssumme im Einzelfall ausgeübt?</seg>
+        </u>
+        <note type="speaker">Dr. Neef, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1467626" xml:id="ParlaMint-DE_1965-05-06-04-180.u113" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg146">Eine Begrenzung der Schadenersatzansprüche durch Gesetz gibt es nur bei der Gefährdungshaftung, so z. B. durch § 12 des Straßenverkehrsgesetzes auf 50 000 DM Kapitalbetrag oder 3000 DM jährlichen Rentenbetrag im Falle der Tötung oder Verletzung eines Menschen und auf 10 000 DM im Falle der Sachbeschädigung. Das Haftpflichtversicherungsunternehmen ist auch in den Fällen der Verschuldenshaftung mit unbegrenzter Ersatzpflicht nur im Rahmen der abgeschlossenen Deckungssummen leistungspflichtig. Die Mindestdeckungssummen werden in der Kraftfahrhaftpflichtversicherung mit Wirkung vom 1. Oktober 1965 für Personenschäden von 100 000 DM auf 250 000 DM und für Sachschäden von 10 000 DM auf 50 000 DM erhöht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u114" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg147">Keine Zusatzfrage. Dann die Frage VII/3 — des Herrn Abgeordneten Ritzel —:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg148">Bestehen unter den Haftpflichtversicherungsorganen Vereinbarungen über die Hohe der Schadensregelung?</seg>
+        </u>
+        <note type="speaker">Dr. Neef, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1467626" xml:id="ParlaMint-DE_1965-05-06-04-180.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg149">Dem Bundesaufsichtsamt für das Versicherungs- und Bausparwesen sind keinerlei Vereinbarungen bekannt, die unter den Haftpflichtversicherungsunternehmen über die Höhe der Schadensregelungen getroffen sein könnten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg150">Zu einer Zusatzfrage Herr Abgeordneter Ritzel.</seg>
+        </u>
+        <note type="speaker">Ritzel (SPD) :</note>
+        <u who="#Q1598628" xml:id="ParlaMint-DE_1965-05-06-04-180.u117" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg151">Ist der Regierung auch nicht bekannt, daß die Haftpflichtversicherungen Erfahrungstatsachen und Erfahrungssätze anderer Versicherungen — sogar auf Grund richterlicher Urteile — anwenden bzw. anwenden lassen und daß dabei u. a. vielfach die Schadenssätze aus der Unfallversicherung und auch die Leistungen aus der Kriegsbeschädigtenfürsorge angewendet werden?</seg>
+        </u>
+        <note type="speaker">Dr. Neef, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1467626" xml:id="ParlaMint-DE_1965-05-06-04-180.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg152">Ich habe mich darüber informiert, nach welchen Prinzipien im einzelnen — neben den allgemeinen Grundsätzen — die Versicherungen ihre Leistungen bemessen, sofern sie außergerichtlich vereinbart werden. Die Antwort, die ich auf die Frage geben kann, ist, daß z. B. das Schmerzensgeld nach den von der Rechtsprechung für gewisse Verletzungen anerkannten Beträgen zugebilligt wird und daß sich in der Fachliteratur u. a. fast tarifähnlich die Leistungen zusammentragen lassen, so daß für gesundheitliche Schäden, angefangen von Hautabschürfungen bis zum Verlust von Gliedmaßen, die Leistungen tarifähnlich nachzulesen sind. Bei Sachschäden halten sich die Versicherungsgesellschaften meines Wissens im wesentlichen an Einzelgutachten, die sie sich erstatten lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg153">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Ritzel (SPD) :</note>
+        <u who="#Q1598628" xml:id="ParlaMint-DE_1965-05-06-04-180.u120" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg154">Billigt die Bundesregierung die beispielsweise bei der Kriegsbeschädigtenfürsorge geltenden Sätze, die hier von den Haftpflichtversicherungen vielfach angewandt werden, und weiß die Bundesregierung, daß die Leistungen aus der deutschen Kb.-Fürsorge etwa nur den fünften Teil dessen betragen und dementsprechend auch die Leistungen der Haftpflichtversicherung nur den fünften Teil dessen ausmachen, was in anderen Ländern, z. B. in den Vereinigten Staaten von Amerika, für die Kriegsbeschädigten, die ein Auge, ein Bein oder was .sonst verloren haben, gegeben wird?</seg>
+        </u>
+        <note type="speaker">Dr. Neef, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1467626" xml:id="ParlaMint-DE_1965-05-06-04-180.u121" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg155">Ich glaube, Herr Abgeordneter, daß diese letzte Frage .so sorgfältig, aufmerksam und gründlich geprüft werden muß, daß ich Ihnen aus Respekt vor dem Ernst Ihrer Frage vorschlagen möchte, Ihnen nach sorgfältiger Prüfung eine schriftliche Antwort zukommen zu lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u122" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg156">Abgeordneter Dröscher zu einer Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dröscher (SPD) :</note>
+        <u who="#Q2572433" xml:id="ParlaMint-DE_1965-05-06-04-180.u123" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg157">Gibt es einen Unterschied zwischen der Entschädigung, die von Haftpflichtversicherungen geleistet wird, und der Entschädigung, die etwa von Selbstversicherungen wie der Bundesrepublik geleistet wird?</seg>
+        </u>
+        <note type="speaker">Dr. Neef, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1467626" xml:id="ParlaMint-DE_1965-05-06-04-180.u124" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg158">Nein, eis gibt keinen Unterschied.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u125" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg159">Herr Abgeordneter Dröscher zu einer letzten Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dröscher (SPD) :</note>
+        <u who="#Q2572433" xml:id="ParlaMint-DE_1965-05-06-04-180.u126" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg160">Besteht nicht eine Schwierigkeit darin, daß für .den, der mit der Bundesrepublik streitet, dadurch eine außerordentlich schwierige Rechtsposition besteht, daß er gegen einen finanziell fast allmächtigen Gegner streitet?</seg>
+        </u>
+        <note type="speaker">Dr. Neef, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1467626" xml:id="ParlaMint-DE_1965-05-06-04-180.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg161">Ich kann nur meinen Eindruck wiedergeben, und der ist: wem man in einem solchen Fall .gegenübersteht, der ist dem einzelnen gegenüber immer ungleich mächtiger. Ich weiß nicht, ob Sie da noch einen Unterschied machen können. Ich meine, es macht dann ,eben keinen Unterschied, ob es ein Versicherungskonzern oder eine Selbstversicherung ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg162">Meine Damen und Herren, wir kehren nunmehr zurück zu den Fragen unter VI aus dem Geschäftsbereich des Bundesministers der Finanzen. Ich rufe ,auf die Frage VI/1 — des Abgeordneten Hörmann (Freiburg)</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg163">—:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg164">Wie beurteilt die Bundesregierung den von der Stadt Freiburg (Breisgau)</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg165">gemachten Vorschlag, zusätzliche Anreize für Investitionen für den Bau von Parkgaragen durch eine Erhöhung der jährlichen Abschreibungsquote von 10 % während der ersten fünf und von 5 % für die folgenden zehn Jahre zu schaffen? Der Fragesteller hat sich mit schriftlicher Beantwortung einverstanden erklärt. Die Antwort des Bundesministers Dr. Dahlgrün vom 29. April 1965 lautet:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg166">In Hinblick auf die Parkraumnot haben die Finanzministerien (Finanzsenatoren)</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg167">der Länder mit meiner Zustimmung schon Ende 1958 entgegenkommende Regelungen bezüglich der Bemessung der Absetzungen für Abnutzung bei Parkraumbauten getroffen. Die Regelungen sehen vor, daß wegen der Unübersichtlichkeit der weiteren Entwicklung des Kraftfahrzeugverkehrs und der Verkehrsverhältnisse überhaupt für die Bemessung der Absetzungen für Abnutzung bei Parkraumbauten nicht von der technischen, sondern von einer kürzeren wirtschaftlichen Nutzungsdauer ausgegangen werden kann. Dabei wurde für den Regelfall eine voraussichtliche Nutzungsdauer von 30 Jahren für angemessen und vertretbar gehalten. Auf Grund dieser Regelung werden zur Zeit jährlich bei Parkgaragen Absetzungen für Abnutzung in Höhe von 3 1/3 v. H. der Anschaffungs- oder Herstellungskosten vorgenommen. Da seit Erlaß dieser Regelung inzwischen nahezu 7 Jahre vergangen sind, wird im Einvernehmen mit den Ländern geprüft werden, ob der Absetzungssatz von 3 1/3 v. H. den heutigen Verhältnissen noch ausreichend Rechnung trägt. Der Vorschlag der Stadt Freiburg, die bei Parkgaragen zulässigen Absetzungen für Abnutzung in der Weise zu erhöhen, daß in den ersten fünf Jahren jeweils 10 v. H. und in den folgenden zehn Jahren jeweils 5 v. H. der Anschaffungs- oder Herstellungskosten abgesetzt werden konnen, könnte nur durch eine Gesetzesänderung verwirklicht werden, da die bei Gebäuden zulässigen Absetzungen für Abnutzung durch § 7 Abs. 4 und 5 des Einkommensteuergesetzes bindend festgelegt sind. Eine solche Gesetzesänderung vermag ich insbesondere deshalb nicht zu befürworten, weil dies die Aufgabe der durch das Gesetz zur Neuregelung der Absetzungen für Abnutzung bei Gebäuden vom 16. Juni 1964 (BGBl. I S. 353)</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg168">gerade erst erreichten einheitlichen Abschreibungsregelung für alle Gebäude bedeuten würde. Ich rufe auf die Fragen VI/2, VI/3 und VI/4 — des Abgeordneten Müller (Ravensburg)</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg169">—:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg170">Trifft es zu, daß das Bundesfinanzministerium nicht gewillt ist, zusätzliche „Zollandeplätze" für Wassersportler in Immenstaad und Überlingen einzurichten, und sogar plant, die Zollanlegestellen auf der Insel Mainau im Bodensee sowie in Meersburg zu schließen? Ist dei Bundesregierung bekannt, daß unter den Wassersportlern im schweizerischen Bodenseegebiet nicht verstanden wird, daß auf dem Untersee zwischen Ermatingen und Stein am Rhein nicht nur eine Zoll- und Paßkontrolle bei einer Landung vorgeschrieben ist, sondern auch das Vorhandensein eines Freipasses für jene Boote, die die Linie Hori—Reichenau überschreiten, weshalb dies für Segelsportler bedeutet, daß sie einen offiziellen Landeplatz anlaufen müssen? Sieht die Bundesregierung Möglichkeiten, die derzeitigen Bestimmungen für die Zoll- und Paßkontrolle im Bodenseegebiet zu lockern, nicht zuletzt im Hinblick auf die engen Beziehungen zwischen den Anliegerstaaten am Bodensee? Der Fragesteller hat sich mit schriftlicher Beantwortung einverstanden erklärt. Die Antwort des Bundesministers Dr. Dahlgrün vom 28. April 1965 lautet:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg171">Die erste und dritte der von Ihnen gestellten Fragen decken sich im wesentlichen mit den Fragen des Abgeordneten Biechele in der Fragestunde vom 7. April 1965. Ich erlaube mir daher, insoweit auf meine Antwort zu verweisen (vgl. Seite 8954 ff. des stenographischen Berichts über die 178. Sitzung des Deutschen Bundestages) . Ergänzend darf ich noch bemerken, daß auch grenzpolizeiliche Gründe zur Beibehaltung der gegenwärtigen Regelung zwingen. Zu Ihrer zweiten Frage bemerke ich, daß sie anscheinend auf einer irrtümlichen Unterrichtung beruht. Boote, die von der Schweiz kommend den Untersee befahren und am deutschen Ufer nicht anlegen wollen, benötigen nach deutschem Zollrecht keinen Freipaß oder sonstigen Abfertigungsausweis. Dies gilt auch dann, wenn die Linie Hori-Reichenau überschritten wird. Ein Zollandungsplatz braucht nur angelaufen zu werden, wenn beabsichtigt ist, am deutschen Ufer anzulegen. Wir kommen zu der Frage VI/5 — des Abgeordneten Dr. Mommer —:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg172">Ist der Bundesregierung bekannt, daß französische Taxifahrer beim Grenzübertritt in die Bundesrepublik für jede Fahrt eine Deutsche Mark an Kraftfahrzeugsteuer zu entrichten haben, daß sie hierfür ihr Fahrzeug verlassen müssen und die Fahrgäste zum Warten gezwungen sind, während die französischen Behörden von deutschen Taxifahrern keinerlei Steuer fordern?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1965-05-06-04-180.u129" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg173">Die in der Frage angeführten Tatsachen sind der Bundesregierung bekannt. Wir werden sie leider noch einige Zeit in Kauf nehmen müssen, da es vorerst an einer Rechtsgrundlage fehlt, um von der Erhebung der Kraftfahrzeugsteuer für französische Kraftdroschken abzusehen. Diese Rechtsgrundlage soll aber in der Europäischen Wirtschaftsgemeinschaft baldmöglichst geschaffen werden. Der Ministerrat hat beschlossen, daß mit Wirkung vom 1. Januar 1967 die zur Zeit bei der Kraftfahrzeugsteuer bestehenden Doppelbesteuerungen beseitigt werden sollen. Nach dem bereits vorliegenden Vorschlag der EWG-Kommission sollen dann Kraftfahrzeuge, die in einem Mitgliedstaat zugelassen sind und am grenzüberschreitenden Verkehr teilnehmen, in den anderen Mitgliedstaaten von den dort geltenden Kraftfahrzeugsteuern befreit sein. Damit wird auch die Erhebung der deutschen Kraftfahrzeugsteuer für französische Kraftdroschken entfallen. Von diesem Verordnungsentwurf, der als Bundestagsdrucksache IV/2123 vorliegt, hat dieses Hohe Haus in seiner 125. Sitzung am 30. April 1964 zustimmend Kenntnis genommen. Die Bundesregierung ist stets dafür eingetreten, daß die vorgesehenen Steuerbefreiungen so schnell wie möglich wirksam werden, Sie wird diese Bemühungen fortsetzen und zu erreichen versuchen, daß die Verordnung nicht erst am 1. Januar 1967, sondern möglichst schon ein Jahr früher in Kraft tritt. Unabhängig von diesen Verhandlungen über eine EWG-Regelung hat die Bundesregierung auch mit der französischen Regierung über ein bilaterales Kraftfahrzeugsteuer-Abkommen verhandelt. Die Hoffnungen, auf diesem Wege schneller zu einer gegenseitigen Befreiung von der Kraftfahrzeugsteuer zu gelangen, haben sich leider nicht erfüllt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u130" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg174">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Mommer (SPD) :</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1965-05-06-04-180.u131" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg175">Herr Staatssekretär, ist es nicht so, daß die Abschaffung keineswegs durch europäisches Recht zu erfolgen braucht, sondern daß wir durch Änderung unserer Gesetze, wenn nötig, einseitig, diese Verwaltungsschikane — so würde ich es nennen, weil der Erfolg in keinem Verhältnis zu dem Aufwand steht — abschaffen könnten?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1965-05-06-04-180.u132" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg176">Sicherlich, Herr Abgeordneter, wäre es möglich, das Kraftfahrzeugsteuergesetz entsprechend zu ändern. Vorläufig steht eine ausdrückliche Vorschrift einem Verzicht entgegen. Man muß allerdings dabei berücksichtigen, daß wir nicht nur bei Kraftdroschken eine Regelung treffen müßten, um einen gleichen Zustand herbeizuführen. Man müßte vielmehr — oder sollte es wenigstens — auch auf die anderen Kraftfahrzeuge Rücksicht nehmen, für die umgekehrt eine ungünstige Regelung auf der französischen Seite besteht. Daran 'sind auch die bilateralen Verhandlungen bisher gescheitert. Was den Verwaltungsaufwand anlangt, Herr Abgeordneter, so kann man über seine Höhe streiten. Die Steuer wird nämlich nicht in Einzelbeträgen von einer Mark erhoben, sondern sie ist aus Vereinfachungsgründen gemäß einer ausdrücklichen Vorschrift in Beträgen von 5 DM zu entrichten. Es ist also so, daß der Kraftdroschkeninhaber die Steuer jeweils für fünf Fahrten entrichtet und damit eine gewisse Erleichterung erfährt. Ich würde aber trotzdem bereit sein, zu prüfen, ob die Länder, denen die Kraftfahrzeugsteuer ja zufließt, nicht schon von sich aus bereit wären, eine solche Regelung zu treffen, wie sie Ihnen vorschwebt, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u133" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg177">Die Frage ist beantwortet:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg178">Frage VIII/1 — des Herrn Abgeordneten Dr. Effertz —:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg179">Sind Pressemeldungen aus Brüssel zutreffend, daß der französische Landwirtschaftsminister Pisani auf eine sofortige teilweise Angleichung der Getreidepreise in der EWG drängt, obwohl nach dem Ratsbeschluß vom Dezember 1964 die Getreidepreise erst ab 1. Juli 1967 harmonisiert werden sollen? Wird die Frage übernommen?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Ertl: Jawohl!</desc>
+        </vocal>
+        <note type="speaker">Schwarz, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q95839" xml:id="ParlaMint-DE_1965-05-06-04-180.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg180">Der Bundesregierung ist nicht bekannt, daß der französische Landwirtschaftsminister im Zusammenhang mit dem Harmonisierungsbeschluß vom Dezember 1964 auf eine sofortige teilweise Angleichung der Getreidepreise drängt. Der Agrarministerrat hat erst am 13. April 1965 unter Beteiligung des französischen Landwirtschaftsministers einstimmig beschlossen, die Vorjahrsregelung über die unteren und oberen Grenzen der Richtpreise für Getreide und die dazugehörigen Qualitätsstandards unverändert für das Getreidewirtschaftsjahr 1965/66 zu übernehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u135" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg181">Die Frage ist erledigt. Dann Frage VIII/2 — ebenfalls von Herrn Abgeordneten Dr. Effertz —:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg182">Ist die Bundesregierung bereit, auf Beibehaltung der deutschen Schwellenpreise und des zur Zeit gültigen Qualitätsstandards für die Berechnung der deutschen Getreidepreise mindestens bis zum 1. Juli 1967 zu bestehen, weil eine Angleichung an die EWG-Standards schon zum 1. Juli 1965 die deutsche Landwirtschaft mit einer Preissenkung hei Weizen um voraussichtlich 6 DM/t, bei Roggen um 6,50 DM/t und bei Gerste um fast 15,30 DM/t belasten würde, aber ein Ausgleich für diesen Erlösverlust bisher nicht vorgesehen wurde?</seg>
+        </u>
+        <note type="speaker">Schwarz, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q95839" xml:id="ParlaMint-DE_1965-05-06-04-180.u136" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg183">Der Beschluß vom 13. April 1965 hindert die Mitgliedstaaten allerdings nicht, von sich aus vorzeitig ihre Getreidepreise an das ab 1. Juli 1967 geltende Niveau ganz oder teilweise heranzuführen oder die Standards vorzeitig anzugleichen. Wie Presseberichten zu entnehmen ist, beabsichtigt die französische Regierung, die Richtpreise für Getreide für das Getreidewirtschaftsjahr 1965/66 geringfügig anzuheben. Die Bundesregierung sieht keine Veranlassung, die in der Bundesrepublik geltenden Getreidepreise und Qualitätsstandards vorzeitig anzugleichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg184">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Ertl (FDP) :</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1965-05-06-04-180.u138" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg185">Herr Minister, sind Sie in der Lage, zu den jüngsten Pressemitteilungen Stellung zu nehmen, wonach sich Frankreich aus der EWG zurückziehen will, zumindest die Entwicklung der EWG weitgehend bremsen will?</seg>
+        </u>
+        <note type="speaker">Schwarz, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q95839" xml:id="ParlaMint-DE_1965-05-06-04-180.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg186">Dazu kann ich im Augenblick keine Auskunft geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg187">Die Frage ist beantwortet. Die Frage VIII/3 ist vom Fragesteller zurückgestellt. Ich rufe auf die Frage VIII/4 — des Herrn Abgeordneten Dr-. Müller-Emmert —:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg188">Ist die Bundesregierung im Interesse einer gesunden Wasserwirtschaft und zur Verhinderung des Entstehens von Ödlandflächen bereit, den Eigentümern der vielen landwirtschaftlich genutzten, nunmehr aber brachliegenden Grundstücke in der Westpfalz, insbesondere in den Höhenlagen der Lauter, der Alsenz, des Glans und des Odenbaches, durch Förderungsmaßnahmen einen Anreiz zur Aufforstung ihrer Grundstücke zu geben? Der Fragesteller hat sich mit schriftlicher Beantwortung einverstanden erklärt. Die Antwort des Bundesministers Schwarz vom 3. Mai 1965 lautet:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg189">Die Bundesregierung fördert schon seit Jahren mit Mitteln des „Grünen Plans" und mit Mitteln des Regionalen Förderungsprogramms neben anderen Maßnahmen auch die Aufforstung von landwirtschaftlichen Grenzertragsböden und Ödländereien. Aus dem Grünen Plan wurden an das Land Rheinland-Pfalz für forstliche Maßnahmen von 1960-1964 rund 5 943 000 DM ausgezahlt und für 1965 vorläufig weitere 1,4 Mill. DM global bewilligt. Für die Aufforstung von Grenzertragsböden und Ödländereien bewilligten daraus die Behörden des Landes Rheinland-Pfalz für die Zeit von 1960-1964 rund 1 498 000 DM. Die Bundesregierung ist bereit, auch künftig Mittel aus dem Grünen Plan für Aufforstungen der vorgenannten Flächen zu geben. Sie glaubt, damit nicht nur zur Verbesserung der Agrarstruktur, sondern zugleich auch zu einer günstigen Beeinflussung des Wasserhaushaltes beizutragen. Außerdem gewährt die Bundesregierung im Rahmen des Regionalen Förderungsprogramms u. a, auch Mittel für Aufforstungsvorhaben in den Bundesausbaugebieten, soweit keine Überschneidung mit dem Grünen Plan eintritt. Falls spezielle Angaben über die bisher bewilligten Beträge für die von Ihnen genannten Gebiete der West-Pfalz gewünscht werden, bin ich gern bereit, diese von dem rheinland-pfälzischen Ministerium für Landwirtschaft, Weinbau und Forsten zu erbitten. Ich rufe auf die Frage VIII/5 — des Herrn Abgeordneten Ertl —:</seg>
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg190">Treffen Pressemeldungen zu, wonach das Bundesernährungsministerium ein neues Programm für die zukünftige Agrarpolitik ausgearbeitet hat?</seg>
+        </u>
+        <note type="speaker">Schwarz, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q95839" xml:id="ParlaMint-DE_1965-05-06-04-180.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg191">Der Bundesminister für Ernährung, Landwirtschaft und Forsten stellt pflichtgemäß Erwägungen über in der Zukunft vorzunehmende agrarpolitische Maßnahmen an. Die in den verschiedenen Arbeitsbereichen des Bundesministeriums für Ernährung, Landwirtschaft und Forsten getroffenen Überlegungen wurden zusammengefaßt, um sie für die zukünftige Agrarpolitik zu verwenden. Wichtigere Grundsatzfragen müssen dabei besonders sorgfältig geprüft und mit den Ressorts abgestimmt werden. Im vorliegenden Fall ist erst ein Entwurf erstellt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg192">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Ertl (FDP) :</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1965-05-06-04-180.u143" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg193">Herr Minister, ist dieser Entwurf bereits einzelnen Abgeordneten zur Kenntnisnahme zugeleitet worden — ich stelle diese Frage, weil bei einer Veranstaltung der Agrarjournalisten in München der CSU-Abgeordnete Lücker von Ihrem neuen Programm gesprochen hat —, und darf ich in diesem Zusammenhang weiter fragen, ob im Hinblick auf die Gestaltung der zukünftigen Agrarpolitik grundsätzliche Meinungsunterschiede zwischen Ihnen und Ihrem Herrn Staatssekretär bestehen?</seg>
+        </u>
+        <note type="speaker">Schwarz, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q95839" xml:id="ParlaMint-DE_1965-05-06-04-180.u144" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg194">Beide Zusatzfragen möchte ich mit Nein beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u145" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg195">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Ertl (FDP) :</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1965-05-06-04-180.u146" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg196">Herr Bundesminister, wie können Sie sich erklären, daß der Herr Präsident des Bayerischen Bauernverbandes, von Feury, im „Landwirtschaftlichen Wochenblatt" Bayerns in der Ausgabe vom 17. April 1965 massive Kritik an Ihren Mitarbeitern in der Form geübt hat: „Beamte bestimmen nicht den Kurs" und daß er dabei erklärt hat, die Bundesregierung verfolge eine Agrarpolitik ihrer Beamten? Halten Sie diese Kritik für gerechtfertigt?</seg>
+        </u>
+        <note type="speaker">Schwarz, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q95839" xml:id="ParlaMint-DE_1965-05-06-04-180.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg197">Ich halte sie nicht für gerechtfertigt, Herr Kollege. Es ist aber nicht Aufgabe der Bundesregierung, in die Geheimnisse der Überlegungen eines Bauernverbandspräsidenten einzudringen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1965-05-06-04-180.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1965-05-06-04-180.seg198">Die Frage ist beantwortet. Meine Damen und Herren, die Fragestunde ist damit zu Ende. Ich berufe die nächste Sitzung des Bundestages auf Mittwoch, den 12. Mai, 15.00 Uhr, ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 15.32 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

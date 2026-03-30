@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1977-05-25-08-028">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 8. Wahlperiode, 28. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 25.05.1977 (28. Sitzung der 8. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 8, Session 28 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1977-05-25 (Session 28 in Legislative Period 8)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="28">28. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.08" n="8">8. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="28">Session 28</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.08" n="8">Legislative Period 8</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 25.05.1977</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1977-05-25</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490390/dfcac024ce8e548774e16f03c36293e2/pp08-data.zip</idno>
+          <date when="1977-05-25">1977-05-25</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1977-05-25">1977-05-25</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksache 8/458 —</head>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg1">Ich eröffne die Sitzung. Folgende amtliche Mitteilungen werden ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg2">Der Bundeskanzler hat mit Schreiben vom 18. Mai 1977 die Stellungnahme des Bundesrates zum Entwurf eines Gesetzes zur Änderung des Umsatzsteuergesetzes, des Bundeskindergeldgesetzes, des Einkommensteuergesetzes und anderer Gesetze (Steueränderungsgesetz 1977 — StÄndG 1977 —) sowie die Gegenäußerung der Bundesregierung zur Stellungnahme des Bundesrates zum Entwurf eines Gesetzes über die Feststellung der Wirtschaftspläne des ERP-Sondervermögens für das Jahr 1977 (ERP-Wirtschaftsplangesetz 1977)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg3">übersandt.</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg4">Seine Schreiben sind als Drucksachen 8/454 und 8/455 verteilt. Der Bundesminister des Innern hat mit Schreiben vom 13. Mai 1977 die Kleine Anfrage der Abgeordneten Dr. Wittmann (München)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg5">, Spranger, Kunz (Berlin)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg6">, Dr. Miltner, Hartmann, Dr. Hupka, Frau Pieser, Dr. Pfennig, Müller (Berlin)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg7">, Volmer, Broll, Regenspurger, Dr. Laufs, Krey, Biechele, Dr. Jentsch (Wiesbaden)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg8">, Gerlach (Obernau)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg9">und der Fraktion der CDU/ CSU betr. Asylverfahren (Drucksache 8/326)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg10">beantwortet. Sein Schreiben ist als Drucksache 8/448 verteilt. Ich rufe Punkt 1 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg11">Fragestunde — Drucksache 8/458 —</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg12">Wir beginnen mit den Fragen aus dem Geschäftsbereich des Bundeskanzlers und des Bundeskanzleramtes. Zur Beantwortung steht Herr Staatsminister Wischnewski zur Verfügung. Zunächst die Frage 3 des Herrn Abgeordneten Czaja:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg13">Wen hat der Bundeskanzler im einzelnen und welche belegten Aussagen gemeint, als er auf dem NATO-Gipfel nach der vom Bundespresse- und Informationsamt zitierten dpa-Meldung „kritisierte, daß Generale, Politiker und auch Journalisten die konventionelle Unterlegenheit in Europa dramatisierten"? Bitte schön, Herr Staatsminister.</seg>
+        </u>
+        <note type="speaker">Wischnewski, Staatsminister beim Bundeskanzler:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1977-05-25-08-028.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg14">Herr Kollege Dr. Czaja, ich darf Ihre Frage wie folgt beantworten. Jeder, der die öffentliche Diskussion über die Stärke der beiderseitigen konventionellen Streitkräfte in Europa verfolgt hat, weiß, daß solche Dramatisierungen von verschiedenster Seite erfolgt sind. Es ist nicht Sache der Bundesregierung, solche Aussagen, die veröffentlicht und damit jedermann zugänglich sind, zusammenzustellen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg15">Zusatzfrage, Herr Abgeordneter Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1977-05-25-08-028.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg16">Herr Staatsminister, wenn es sich nicht um eine unbedachte Generalisierung handelte, die der Herr Bundeskanzler hier vorgenommen hat, indem er von „Generalen, Politikern und Journalisten" sprach, können Sie uns dann einige Namen dieser Generale, Journalisten und Politiker sagen, die der Bundeskanzler als „unbedachte Dramatisierung" bezeichnete?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Staatsminister:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1977-05-25-08-028.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg17">Herr Kollege Dr. Czaja, die Aussagen sind öffentlich erfolgt. Es ist nicht die Aufgabe der Bundesregierung, dazu Namen zu nennen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg18">Eine weitere Zusatzfrage, Herr Abgeordneter Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1977-05-25-08-028.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg19">Hat der Herr Bundeskanzler etwa auch die Aussage in dem Kommuniqué der Ministertagung der Eurogroup vom 16. Mai 1977 im Auge gehabt, die besagt — ich zitiere die Mitteilung des Bundesministeriums der Verteidigung an die Presse —:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg20">Die Minister gaben jedoch ihrer Besorgnis über das wachsende Potential des Warschauer Paktes Ausdruck, das in steigendem Maße offensiver Art ist.</seg>
+        </u>
+        <note type="speaker">Wischnewski, Staatsminister:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1977-05-25-08-028.u8" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg21">Der Bundeskanzler hat ausdrücklich zum Ausdruck gebracht, daß er damit keinerlei offizielle Dokumente gemeint hat.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u9" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg22">Wir kommen zu der Frage 4 des Abgeordneten D. Czaja:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg23">Welche Unterscheidungsmerkmale hatte der Bundeskanzler im Auge, als er im Interview mit der US-Fernsehgesellschaft „public broadcasting system" am 29. April 1977 ausführte, daß in der — an sich ebenso nationalen sowie übernationalen — Menschenrechtspolitik „sich die nationalen Interessen der Bundesrepublik" von den seitens des Präsidenten Carter für Amerika formulierten unterscheiden und er sich vorbehalte, „die diesbezügliche Politik anders zu artikulieren" (vgl. Nachrichtenspiegel des Bundespresse- und Informationsamtes)? Herr Staatsminister, bitte schön.</seg>
+        </u>
+        <note type="speaker">Wischnewski, Staatsminister:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1977-05-25-08-028.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg24">Herr Kollege Dr. Czaja, ich darf Ihre Frage wie folgt beantworten. I Wie dem Fragesteller bekannt ist, befindet sich die Bundesrepublik Deutschland aus verschiedenen Gründen in anderer Ausgangslage als z. B. die Vereinigten Staaten von Amerika. So gibt es in mehreren Ländern Osteuropas eine große Zahl von Menschen, die sich zur deutschen Volkszugehörigkeit bekennen und die Ausreise zu uns erstreben. Allein seit der Konferenz über Sicherheit und Zusammenarbeit in Europa in Helsinki im Sommer 1975 haben mehr als 60 000 dieser Deutschen in die Bundesrepublik Deutschland ausreisen und die Grundrechte im Sinne des Grundgesetzes für sich erwerben können. Dieser Prozeß soll fortgesetzt werden. Er beruht nur zum Teil auf bilateralen Vereinbarungen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg25">Eine Zusatzfrage, Herr Abgeordneter Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1977-05-25-08-028.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg26">Herr Staatsminister, ich habe gefragt, welches die Merkmale sind, in denen sich die Haltung der Bundesregierung zur Frage der Menschenrechte von der Haltung des amerikanischen Präsidenten unterscheidet. Sie haben soeben auf die 60 000 hingewiesen. Soll der Unterschied darin bestehen, daß wir die 360 000 unerledigten Ausreiseanträge, die sich beim Deutschen Roten Kreuz befinden, nicht öffentlich artikulieren sollen, oder worin besteht der Unterschied?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Staatsminister:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1977-05-25-08-028.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg27">Herr Kollege Dr. Czaja, ich glaube, das ist deutlich zum Ausdruck gekommen. Mir ist nicht bekannt, daß Tausende von Bürgern in die Vereinigten Staaten ausreisen wollen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg28">Eine weitere Zusatzfrage, Herr Abgeordneter Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1977-05-25-08-028.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg29">Herr Staatsminister, würden Sie sich dann dahin gehend sachkundig machen, daß der amerikanische Senat einstimmig die Ausreise von Menschen verschiedener Nationalitäten aus anderen Ostblockstaaten gefordert und daß auch der amerikanische Präsident das getan hat, und würden Sie mir zugeben, daß sich die Haltung der Bundesrepublik und der Bundesregierung bei den drei von Vance ausgesprochenen Grundsätzen bei der Einforderung der Menschenrechte — erstens stille Diplomatie, zweitens offene und öffentliche Erklärungen und drittens Sperrung von Hilfen — nicht von der amerikanischen Haltung unterscheidet?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Staatsminister:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1977-05-25-08-028.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg30">Herr Kollege Dr. Czaja, in der Aussage des Bundeskanzlers ist klar und eindeutig gesagt, daß es in den Grundsätzen in bezug auf die Menschenrechte keine Unterschiede gibt, daß es aber für die Bundesrepublik und für Deutsche in anderen Ländern besondere Probleme gibt. Ich bitte sehr um Verständnisdafür, daß diese Bundesregierung bemüht sein wird, diesen Menschen behilflich zu sein, und sich ihre Politik danach ausrichten wird.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg31">Zu einer Zusatzfrage Herr Abgeordneter Jäger.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1977-05-25-08-028.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg32">Herr Staatsminister, bedeutet Ihr Hinweis auf die besondere Situation, in der sich die Bundesrepublik Deutschland im Verhältnis zu den Staaten des Ostblocks in dieser Frage befindet, auch, daß die Bundesregierung ihre besonderen Rechtsvorteile, die sie als Mitglied der internationalen Pakte für Menschenrechte gegenüber diesen Staaten hat, dazu nutzen wird, aus unserer besonderen Lage heraus noch viel intensiver als der Präsident der Vereinigten Staaten auf die Erfüllung dieser Menschenrechtszusagen zu drängen?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Staatsminister:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1977-05-25-08-028.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg33">Die Bundesregierung wird alle Möglichkeiten nutzen, die ihr zur Verfügung stehen, um den Menschen zu helfen, die in die Bundesrepublik oder in andere Länder ausreisen wollen, damit sie die Grundrechte wie bei uns für sich in Anspruch nehmen können.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg34">Die Frage 5 des Abgeordneten Wolfgramm (Göttingen)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg35">wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Wirtschaft. Zur Beantwortung steht der Herr Staatssekretär im Bundesministerium für Wirtschaft zur Verfügung. Ich rufe die Frage 1 des Abgeordneten Dr. Jens auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg36">Was hat die Bundesregierung bisher unternommen, um das vom ADAC und vom Bundeskartellamt festgestellte „Verschleißkartell" bei Auspuffen von verschiedenen Pkws der deutschen Automobilindustrie zu beseitigen und einen dauerhaften und damit rostfreien Auspuff im Interesse der Verbraucher und des Umweltschutzes allgemein für alle Pkws einzuführen? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Schlecht, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q2040443" xml:id="ParlaMint-DE_1977-05-25-08-028.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg37">Herr Abgeordneter Jens, ich darf Ihre erste Frage wie folgt beantworten. Der Bundesregierung und dem Bundeskartellamt liegen keine Anhaltspunkte für Absprachen der Automobilhersteller über die Nichteinführung technischer Verbesserungen zum Abbau des Verschleißes bei Auspuffanlagen von Personenkraftwagen vor. Im Anschluß an die Veröffentlichung einer Untersuchung des ADAC über den Verschleiß von Auspuffanlagen hat das Bundeskartellamt den Verband der Automobilindustrie im September 1974 darauf hingewiesen, daß es die Durchsetzung bereits entwickelter technischer Verbesserungen in diesem Bereich als ein nicht unwesentliches Element für die Beurteilung der Wirksamkeit des Wettbewerbs auf dem Automobilmarkt ansieht. Im Dezember 1976 hat der ADAC das Bundeskartellamt davon unterrichtet, daß inzwischen bei den Herstellern wesentliche technische Verbesserungen zum Abbau des Verschleißes bei Auspuffanlagen eingeführt worden sind. Einige Anlagen sollen sogar dem sogenannten ADAC-Modell im Hinblick auf den Verschleiß zumindest gleichwertig, teilweise gar überlegen sein. Die bisherige Entwicklung und Einführung technischer Verbesserungen zum Abbau des Verschleißes läßt insgesamt nicht den Schluß zu, daß der Wettbewerb unter den Automobilherstellern beeinträchtigt ist. Allerdings wird das Bundeskartellamt diesen Bereich auch weiterhin in seine Gesamtbeobachtung des Wettbewerbs auf dem Automobilmarkt einbeziehen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u22" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg38">Zu einer Zusatzfrage Herr Abgeordneter Dr. Jens.</seg>
+        </u>
+        <note type="speaker">Dr. Jens (SPD) :</note>
+        <u who="#Q1168733" xml:id="ParlaMint-DE_1977-05-25-08-028.u23" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg39">Herr Staatssekretär, so wie ich Sie verstanden habe, handelt es sich um einige Automobilhersteller, die bereit sind und jetzt auch dazu übergegangen sind, langlebige Auspuffe einzubauen. Es gibt aber noch Automobilhersteller, die das nicht tun. Können Sie mir sagen, um welche es sich dabei handelt?</seg>
+        </u>
+        <note type="speaker">Dr. Schlecht, Staatssekretär:</note>
+        <u who="#Q2040443" xml:id="ParlaMint-DE_1977-05-25-08-028.u24" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg40">Ich kann Ihnen das jetzt nicht sagen. Ich bin gern bereit, das nachzureichen. Aber ein Teil der Frage beantwortet sich vielleicht durch die Beantwortung Ihrer zweiten Frage.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u25" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg41">Zu einer Zusatzfrage Herr Abgeordneter Dr. Köhler.</seg>
+        </u>
+        <note type="speaker">Dr. Köhler (Wolfsburg) (CDU/CSU) :</note>
+        <u who="#Q1666914" xml:id="ParlaMint-DE_1977-05-25-08-028.u26" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg42">Herr Staatssekretär, wie beurteilen Sie denn den Sachverhalt auf Grund Ihrer persönlichen Erfahrungen im Aufsichtsrat eines größeren Automobilherstellers?</seg>
+        </u>
+        <note type="speaker">Dr. Schlecht, Staatssekretär:</note>
+        <u who="#Q2040443" xml:id="ParlaMint-DE_1977-05-25-08-028.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg43">Herr Abgeordneter, ich glaube, die Automobilindustrie ist auf einem guten Weg, hier wesentliche Verbesserungen zu machen, und zwar auch in diesem Bereich. Sie werden auf Grund der Beantwortung der zweiten Frage des Abgeordneten Jens auch weitere Verbesserungen feststellen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg44">Dann rufe ich die Frage 2 des Abgeordneten Dr. Jens auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg45">Ist die Bundesregierung bereit, dafür zu sorgen, daß die vom ADAC geforderte Garantiezeit — wenn nicht von der Automobilindustrie freiwillig — gesetzlich eingeführt wird? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Schlecht, Staatssekretär:</note>
+        <u who="#Q2040443" xml:id="ParlaMint-DE_1977-05-25-08-028.u29" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg46">Herr Abgeordneter Jens, die Bundesregierung sieht keinen zwingenden Anlaß zur Einführung einer Garantiezeit, wie Sie sie genannt haben. Wir halten sie für einen unnötigen Eingriff in die Vertragsfreiheit. Die Bemühungen der Automobilindustrie um die Einführung besserer Auspuffanlagen erscheinen der Bundesregierung zunächst ausreichend. Wir begrüßen sie. Den Antrag des Verbraucherrates beim DIN — Deutsches Institut für Normung — zur Einführung einer Norm für korrosionsgeschützte Auspuffanlagen hat die Automobilindustrie insgesamt befürwortet. Der „Fachnormenausschuß Kraftfahrzeugwesen" hat im Frühjahr vergangenen Jahres eine Arbeitsgruppe, in der alle wesentlich Beteiligten vertreten sind, beauftragt, ein objektives Prüfungsverfahren für die Ermittlung der Korrosionsfestigkeit von Auspuffanlagen auszuarbeiten. Die Arbeiten gehen dem Vernehmen nach zügig voran. Es ist zu erwarten, daß als Ergebnis eine Prüfnorm verabschiedet werden kann. Der nächste Schritt wäre dann, daß dieser Fachnormenausschuß damit beginnt, Anforderungen an die Konstruktion von Auspuffanlagen festzulegen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u30" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg47">Eine Zusatzfrage, bitte schön, Herr Abgeordneter Jens.</seg>
+        </u>
+        <note type="speaker">Dr. Jens (SPD) :</note>
+        <u who="#Q1168733" xml:id="ParlaMint-DE_1977-05-25-08-028.u31" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg48">Herr Staatssekretär, wird auch das Bundeswirtschaftsministerium diese Arbeiten des Normenausschusses unterstützen?</seg>
+        </u>
+        <note type="speaker">Dr. Schlecht, Staatssekretär:</note>
+        <u who="#Q2040443" xml:id="ParlaMint-DE_1977-05-25-08-028.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg49">Wir werden die Arbeiten dieses Ausschusses voll unterstützen. Wir rechnen damit, daß die Arbeitsgruppe bereits gegen Ende des Jahres einen Bericht vorlegen wird. Dann kann man darangehen, Konstruktionsnormen auszuarbeiten.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg50">Eine weitere Zusatzfrage, bitte schön.</seg>
+        </u>
+        <note type="speaker">Dr. Jens (SPD) :</note>
+        <u who="#Q1168733" xml:id="ParlaMint-DE_1977-05-25-08-028.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg51">Herr Staatssekretär, sind Sie mit mir der Meinung, daß die Automobilindustrie sicherlich nicht so schnell dazu übergegangen wäre, langlebige Auspuffe zu entwickeln und einzubauen, wenn nicht der ADAC und der Druck der Öffentlichkeit so darauf hingewirkt hätten?</seg>
+        </u>
+        <note type="speaker">Dr. Schlecht, Staatssekretär:</note>
+        <u who="#Q2040443" xml:id="ParlaMint-DE_1977-05-25-08-028.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg52">Ich teile Ihre Auffassung.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg53">Wir kommen dann zur Frage 41 des Abgeordneten Dr. Hennig:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg54">Welche Konsequenzen zieht die Bundesregierung aus der jüngsten Kammerumfrage des Deutschen Industrie- und Handelstags, nach der die Unternehmen der Industrie erwarten, daß bis zum Ende dieses Jahrzehnts lediglich 90 000 Arbeitsplätze zusätzlich besetzt werden können? Zur Beantwortung der Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Schlecht, Staatssekretär:</note>
+        <u who="#Q2040443" xml:id="ParlaMint-DE_1977-05-25-08-028.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg55">Herr Abgeordneter Dr. Hennig, die Aussagekraft gerade einer solchen Umfrage, wie sie von Ihnen angesprochen wurde, der des Deutschen Industrie- und Handelstages, ist nicht unbestritten. Abgesehen von ihrem begrenzten Repräsentationsgrad enthält sie nur eine Zusammenfassung einer Momentaufnahme der Vorstellungen einer sehr begrenzten Zahl von Industrieunternehmen im Herbst 1976. Diese Vorstellungen werden selbstverständlich von der gesamtwirtschaftlichen Entwicklung und späteren wirtschaftspolitischen Maßnahmen verändert. Die angesprochene Umfrage berücksichtigt im übrigen nur die Vorstellungen der Industrie zu jenem Zeitpunkt, nicht jedoch die in den anderen bedeutenden Wirtschaftsbereichen, z. B. dem gesamten Dienstleistungssektor und dem Handwerk, und auch nicht die von der Bundesregierung im Herbst 1976 und im Frühjahr 1977 eingeleiteten wirtschaftspolitischen Maßnahmen zur Belebung der Wirtschaftstätigkeit und zur Verbesserung der Beschäftigung. Die Wirtschaftspolitik der Bundesregierung zielt nach wie vor insgesamt auf die Rückkehr zu einem höheren Beschäftigungsniveau. Gegen die Arbeitslosigkeit bei besonders betroffenen Personengruppen werden darüber hinaus besondere flankierende Maßnahmen auf Grund des Arbeitsförderungsgesetzes und besondere arbeitsmarktpolitische Programme eingesetzt. Nach dem Programm vom November 1976 berät die Bundesregierung heute nachmittag auf Grund der in den letzten Monaten gewonnenen Erkenntnisse erneut über die Arbeitsmarktlage und die Beschäftigungspolitik. Dabei geht es darum, die auf Verbesserung der Gesamtbeschäftigung gerichteten wirtschafts- und finanzpolitischen Maßnahmen im Bereich der speziellen Arbeitsmarktpolitik verstärkt zu flankieren. Das Bundeskabinett wird heute außerdem über die noch — zugegebenermaßen — labile Lage auf dem Baumarkt und weitere Maßnahmen zur Verstetigung der Bautätigkeit, insbesondere im Wohnungsbau, und zur schrittweisen Lösung wohnungswirtschaftlicher Probleme beraten. Ich bitte um Verständnis, daß ich diesen noch anstehenden Beratungen und Entscheidungen des Bundeskabinetts jetzt nicht vorgreifen und Einzelheiten nennen kann. Sie können aber davon ausgehen, daß sie auf weitere Stabilisierung und Verbesserung der Beschäftigungslage gerichtet sein werden. Hinsichtlich der gesamtwirtschaftlichen Bedingungen für eine Erhöhung des Beschäftigungsgrades wird die Bundesregierung auf rasche Verwirklichung des mittelfristigen Investitionsprogramms drängen. Sie erwartet ferner, daß über das den gesamtwirtschaftlichen Bedingungen angepaßte Steuerpaket bald entschieden und das weitere Konsolidierungstempo bei den öffentlichen Haushalten im Einklang mit den gesamtwirtschaftlichen und beschäftigungspolitischen Perspektiven gehalten wird. Im übrigen wird die Entwicklung am Arbeitsmarkt von der Bundesanstalt für Arbeit und den zuständigen Bundesressorts laufend analysiert. Ich wiederhole: Einzelergebnisse von Umfragen anderer Institutionen werden selbstverständlich in dieses Informationsbild eingefügt. Sie bieten für sich allein allerdings wenig zuverlässige Informationen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg56">Eine Zusatzfrage, Herr Abgeordneter Hennig, bitte schön.</seg>
+        </u>
+        <note type="speaker">Dr. Hennig (CDU/CSU) :</note>
+        <u who="#Q2037716" xml:id="ParlaMint-DE_1977-05-25-08-028.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg57">Herr Staatssekretär, ich bedanke mich zunächst für die ausführliche Beantwortung, möchte aber doch fragen, ob Sie nicht einen Widerspruch darin sehen, daß die Bundesregierung einerseits der Meinung ist, eine Prognose wie diese aus der Wirtschaft sei nicht fundiert und seriös genug, um zur Grundlage von politischen Entscheidungen gemacht zu werden, andererseits aber von derselben Bundesregierung eine Prognose aus der Wirtschaft bezüglich von 100 000 zusätzlicher Ausbildungsplätze für junge Mitbürger zur Grundlage einer Nichtentscheidung im Kabinett gemacht wird.</seg>
+        </u>
+        <note type="speaker">Dr. Schlecht, Staatssekretär:</note>
+        <u who="#Q2040443" xml:id="ParlaMint-DE_1977-05-25-08-028.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg58">Herr Abgeordneter, ich sehe einen gravierenden Unterschied zwischen einer Momentaufnahme auf Grund einer Umfrage von Kammern und der Zusage der Erklärung der Wirtschaft und ihrer Spitzenverbände, in diesem Jahr rund 100 000 zusätzliche Arbeitsplätze zur Verfügung zu stellen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u41" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg59">Eine weitere Zusatzfrage, bitte schön, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Dr. Hennig (CDU/CSU) :</note>
+        <u who="#Q2037716" xml:id="ParlaMint-DE_1977-05-25-08-028.u42" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg60">Herr Staatssekretär, wenn Sie sagen, daß Sie den Beratungen heute im Kabinett nicht vorgreifen können, so habe ich dafür volles Verständnis. Aber hat diese doch sehr ernst zu nehmende Prognose der DIHT einen Einfluß auf diese heutigen Beratungen in der Weise gehabt, daß daraufhin unter Umständen zusätzliche Maßnahmen eingeleitet werden sollen?</seg>
+        </u>
+        <note type="speaker">Dr. Schlecht, Staatssekretär:</note>
+        <u who="#Q2040443" xml:id="ParlaMint-DE_1977-05-25-08-028.u43" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg61">Herr Bundestagsabgeordneter, ich habe bereits gesagt, daß wir in unserer Analyse der Konjunkturentwicklung und der Beschäftigungsentwicklung alle Informationen einbeziehen, so auch diese. Für sich allein hat sie wenig Bedeutung gehabt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u44" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg62">Danke schön, Herr Staatssekretär. Wir kommen dann zum Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär beim Bundesminister für wirtschaftliche Zusammenarbeit zur Verfügung. Ich rufe die Frage 6 des Abgeordneten Stommel auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg63">Hat — wenn ja, weshalb — die Bundesministerin für wirtschaftliche Zusammenarbeit, Frau Marie Schlei, während ihres Besuchs in Botswana nicht auf eine Besichtigung des sogenannten Flüchtlingslagers Selebi Pikwe bestanden, bevor sie dafür eine finanzielle Zuwendung im Rahmen der Entwicklungshilfe in Höhe von einer halben Million DM zusagte, oder hat sie sich gar einfach mit dem Hinweis begnügt, daß dieses Lager — es gilt als streng bewacht — für niemanden zugänglich ist? Bitte schön.</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär beim Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u45" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg64">Herr Kollege Stommel, während ihres Aufenthaltes in Botswana hat Frau Bundesminister Schlei, wie das in Fällen dieser Art üblich ist, unter Vorbehalt der Verabschiedung des Haushalts und einer positiven Projektprüfung eine Rahmenzusage über technische Hilfe zur Minderung der Flüchtlingsnot an die botswanische Regierung gegeben. Im Rahmen der späteren Regierungsverhandlungen wurde die Rahmenzusage konkretisiert, Im übrigen weise ich darauf hin, daß die Unterstützung des Flüchtlingslagers Selebi Pikwe vom UN-Sicherheitsrat empfohlen und der Hohe Flüchtlingskommissar der Vereinten Nationen in Abstimmung mit der botswanischen Regierung die Patenschaft für das Lager übernehmen wird. Zu den Prinzipien des Hohen Flüchtlingskommissars gehört es, daß in dem Flüchtlingslager keine Anwerbung und Ausbildung von Guerillas und keine Präsenz von Waffen geduldet wird.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u46" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg65">Eine Zusatzfrage, Herr Abgeordneter Stommel, bitte schön.</seg>
+        </u>
+        <note type="speaker">Stommel (CDU/CSU) :</note>
+        <u who="#Q1559065" xml:id="ParlaMint-DE_1977-05-25-08-028.u47" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg66">Herr Staatssekretär, trifft es zu, daß eine Regierungsdelegation nach dem Besuch von Bundesministerin Schlei in Botswana eingetroffen ist und unter Führung des zuständigen Sachbearbeiters des Ministeriums für wirtschaftliche Zusammenarbeit vereinbart hat, daß die Mittel für den Erweiterungsbau von Baracken und zusätzlichen sanitären Einrichtungen vergeben werden sollen?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u48" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg67">Herr Kollege Stommel, es trifft zu, daß diese Mittel für den Ausbau des Lagers, auch für den Bau von Baracken, verwendet werden sollen. Die Durchführung hat die Deutsche Gesellschaft für technische Zusammenarbeit.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg68">Eine weitere Zusatzfrage, bitte schön.</seg>
+        </u>
+        <note type="speaker">Stommel (CDU/CSU) :</note>
+        <u who="#Q1559065" xml:id="ParlaMint-DE_1977-05-25-08-028.u50" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg69">Treffen Presseberichte zu, wonach der Bundeskanzler nach der Reise von Bundesministerin Schlei auf Grund der Veröffentlichungen in dem Magazin „Der Spiegel" im Zusammenhang mit einer ins Auge gefaßten Kabinettsumbildung auch eine Ablösung von Frau Bundesministerin Schlei beabsichtigt?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg70">Ich habe keine Pressemeldungen über eine Kabinettsumbildung gelesen. Herr Kollege Stommel, sie haben den Wert wie all die vielen Spekulationen, die man oft lesen kann.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Schäfer [Tübingen] [SPD] : Sehr gut!</desc>
+        </vocal>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg71">Eine Zusatzfrage, Herr Abgeordneter Köhler.</seg>
+        </u>
+        <note type="speaker">Dr. Köhler (Wolfsburg) (CDU/CSU) :</note>
+        <u who="#Q1666914" xml:id="ParlaMint-DE_1977-05-25-08-028.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg72">Herr Staatssekretär, teilen Sie auf Grund der Erklärungen, die Frau Schlei kürzlich in Berlin abgegeben hat, meinen Eindruck, daß sie inzwischen die Gefahr der Fehlleitung dieser Mittel erkannt und nun nachträglich zweckdienliche Schritte eingeleitet hat, um das zu vermeiden?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg73">Herr Kollege Köhler, Frau Schlei hat immer wieder betont — vor ihrer Reise, während ihrer Reise und nach ihrer Reise —, daß sie gegen Gewaltanwendung im südlichen Afrika ist. Von daher hat sie sich selbst immer gegen den Begriff Frontstaat gewandt, weil er ihr zu militärisch ist. Sie spricht lieber von „Konfliktrandstaaten". Von daher ist sie der Auffassung, daß wir den Flüchtlingen dort zu helfen haben. Wir sehen kein Problem in der Verwendung unserer Mittel.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg74">Herr Abgeordneter Czaja, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1977-05-25-08-028.u56" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg75">Herr Staatssekretär, wieso werden die Mittel, wenn es sich um Flüchtlinge handelt, nicht aus der humanitären Hilfe des Auswärtigen Amtes statt vom Entwicklungsministerium zur Verfügung gestellt?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg76">Da die Hilfe bei diesem Lager längerfristig angelegt wird, war es sinnvoll, sie aus technischer Hilfe zu nehmen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u58" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg77">Weitere Zusatzfragen? — Das ist nicht der Fall. Wir kommen zu Frage 7 des Abgeordneten Stommel:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg78">Trifft die Erklärung des deutschen Geschäftsträgers in Botswana, H. J. Regenhardt, gegenüber dem Afrika-Korrespondenten der Zeitung „Die Welt" zu, daß die Bundesregierung über die tatsächlichen Verhältnisse in dem besagten „Flüchtlingslager" informiert wurde, wenn ja, weshalb hat sie trotz solcher und anderer möglicher Informationen — wie etwa durch den UN-Flüçhtlingskommissar Perkins — eine Unterstützung eines Projekts zugesagt, und teilt sie die Auffassung, daß das Projekt der Ausbildung abhängiger Jugendlicher für den Guerillakrieg dient? Zur Beantwortung Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u59" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg79">Nein, nach Angaben des Geschäftsträgers hat der Korrespondent der „Welt" falsch berichtet.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u60" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg80">Eine Zusatzfrage, Herr Abgeordneter Stommel.</seg>
+        </u>
+        <note type="speaker">Stommel (CDU/CSU) :</note>
+        <u who="#Q1559065" xml:id="ParlaMint-DE_1977-05-25-08-028.u61" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg81">Herr Staatssekretär, ist Ihnen bekannt, daß der Korrespondent der „Welt" für seine Aussage Zeugen nennen kann und auch benannt hat?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u62" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg82">Herr Kollege Stommel, ich habe keinen Anlaß, an den Aussagen eines deutschen Beamten, der dort tätig ist, zu zweifeln.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u63" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg83">Eine weitere Zusatzfrage, Herr Abgeordneter Stommel.</seg>
+        </u>
+        <note type="speaker">Stommel (CDU/CSU):</note>
+        <u who="#Q1559065" xml:id="ParlaMint-DE_1977-05-25-08-028.u64" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg84">In welcher Form hat der deutsche Geschäftsträger in Botswana, Herr Regenhardt, die Bundesregierung über die Vorgänge im Zusammenhang mit dem Lager Selebi Pikwe informiert, und wie war das Ergebnis seiner Darstellung?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg85">Ich habe schon in der Antwort auf Ihre Frage gesagt, daß er mitgeteilt hat, daß die Angaben in der „Welt" nicht stimmen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg86">Eine Zusatzfrage, Herr Abgeordneter Köhler.</seg>
+        </u>
+        <note type="speaker">Dr. Köhler (Wolfsburg) (CDU/CSU) :</note>
+        <u who="#Q1666914" xml:id="ParlaMint-DE_1977-05-25-08-028.u67" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg87">Herr Staatssekretär, können Sie zu der in der Frage des Kollegen Stommel zitierten Auffassung, daß das Projekt der Ausbildung abhängiger Jugendlicher für den Guerillakrieg dient, eine negative oder eine positive Auskunft geben?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg88">Herr Kollege Köhler, ich habe keinen Anlaß, an den Angaben der botswanischen Regierung, einer demokratisch legitimierten Regierung, und des Hohen Flüchtlingskommissars der Vereinten Nationen zu zweifeln.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u69" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg89">Eine Zusatzfrage, Herr Abgeordneter Ey.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1977-05-25-08-028.u70" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg90">Herr Staatssekretär, sind die geäußerten Verdachtsmomente nicht doch Anlaß für die Bundesregierung, die Mittelanwendung für dieses Lager nochmals hinsichtlich ihrer Auswirkung zu überprüfen?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u71" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg91">Herr Kollege, ich muß Ihnen noch einmal das sagen, was ich dem Kollegen Köhler gesagt habe: Ich habe keinen Anlaß, an den Angaben der Regierung von Botswana und an den Angaben des Hohen Flüchtlingskommissars zu zweifeln.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u72" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg92">Eine Zusatzfrage des Herrn Abgeordneten Hennig.</seg>
+        </u>
+        <note type="speaker">Dr. Hennig (CDU/CSU) :</note>
+        <u who="#Q2037716" xml:id="ParlaMint-DE_1977-05-25-08-028.u73" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg93">Herr Staatssekretär, meinen Sie nicht, daß Frau Minister Schlei, wenn sie schon nach Botswana reist und wenn dort in unmittelbarem zeitlichen Zusammenhang ein bedeutendes deutsch-botswanisches Unternehmen, nämlich Prinz-Bräu Botswana, eröffnet wird, besser daran getan hätte, in irgendeiner Form von diesem Ereignis Notiz zu nehmen?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u74" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg94">Ich weiß nicht, Herr Kollege, ob Sie die Planung solcher Reisen kennen. Da bleibt dann keine Zeit für Abweichungen vom Programm.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u75" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg95">Danke schön. Die Fragen 8 und 9 des Abgeordneten Reddemann sowie die Fragen 10 und 11 des Abgeordneten Daweke werden schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Wir kommen zu Frage 12 des Abgeordneten Dr. Köhler (Wolfsburg):</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg96">Hat Frau Bundesminister Schlei an das Namibia-Institut in Lusaka die Zusage gemacht, die Bundesregierung wolle dem Institut helfen, eine demokratische Verfassung für Namibia auszuarbeiten, und sich bemühen, für diesen Zweck Privatspenden zu beschaffen, und wie beurteilt die Bundesregierung gegebenenfalls diese Zusage? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u76" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg97">Herr Präsident, ich möchte mit Ihrer Genehmigung gern beide Fragen zusammen beantworten.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u77" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg98">Der Fragesteller ist einverstanden; dann rufe ich zusätzlich die Frage 13 des Abgeordneten Dr. Köhler auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg99">Ist die Bundesregierung überzeugt, daß dieser Vorgang ihren Bemühungen dient, in direkter Verhandlung mit der Südafrikanischen Republik und als Mitglied des Sicherheitsrats der Vereinten Nationen auf eine friedliche Entwicklung in Südafrika und Namibia zu drängen? Bitte schön.</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg100">Herr Kollege Köhler, Frau Minister Schlei hat in der Sitzung des Ausschusses für wirtschaftliche Zusammenarbeit am 20. April 1977 sinngemäß ausgeführt, daß sie bei ihren Gesprächen und Verhandlungen auch auf die Vorarbeiten zum Entwurf einer demokratischen Verfassung und die dabei auftretenden Probleme und Schwierigkeiten hingewiesen worden sei. Frau Bundesminister Schlei hat daraufhin in Aussicht gestellt, sich nach ihrer Rückkehr in die Bundesrepublik um private Spenden für einschlägige Fachliteratur, Expertisen usw. zu bemühen. Es handelt sich also nicht um eine Zusage im Rahmen wirtschaftlicher Zusammenarbeit der Bundesregierung. Dies vorausgeschickt, beantworte ich Ihre Fragen wie folgt. Nr. 12: Nein. Nr. 13: Entfällt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg101">Eine Zusatzfrage, Herr Abgeordneter Köhler.</seg>
+        </u>
+        <note type="speaker">Dr. Köhler (Wolfsburg) (CDU/CSU) :</note>
+        <u who="#Q1666914" xml:id="ParlaMint-DE_1977-05-25-08-028.u80" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg102">Herr Staatssekretär, sind Sie sich darüber im klaren, daß Ihre Darstellung eine außerordentlich weite Interpretation des Ausschußprotokolls ist, in dem klar von einer Zusage die Rede ist?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg103">Ich habe auch das Ausschußprotokoll noch einmal nachgelesen, Herr Kollege Köhler, und festgestellt, daß Frau Bundesminister Schlei von Privatspenden gesprochen hat.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg104">Eine weitere Zusatzfrage, Herr Abgeordneter Köhler.</seg>
+        </u>
+        <note type="speaker">Dr. Köhler (Wolfsburg) (CDU/CSU) :</note>
+        <u who="#Q1666914" xml:id="ParlaMint-DE_1977-05-25-08-028.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg105">Herr Staatssekretär würden Sie bitte zur Kenntnis nehmen, daß ich eben erklärt habe, daß dort klar von einer Zusage die Rede ist? Die Frage der Privatspenden, auf die Sie ausgewichen sind, ist eine ganz andere Angelegenheit.</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg106">Da Sie das gesagt haben, muß ich das natürlich zur Kenntnis nehmen, denn ich habe es ja gehört. Aber ich kann es nicht bestätigen, Herr Kollege Köhler.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg107">Eine weitere Zusatzfrage, Herr Abgeordneter Köhler.</seg>
+        </u>
+        <note type="speaker">Dr. Köhler (Wolfsburg) (CDU/CSU) :</note>
+        <u who="#Q1666914" xml:id="ParlaMint-DE_1977-05-25-08-028.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg108">Herr Staatssekretär, können Sie mir sagen, an welche Art von Privatspenden hier gedacht wird?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg109">Ich habe bereits in meiner Antwort gesagt, daß es sich um Literatur handelt. Es ist auch denkbar, daß deutsche Experten ihre Meinung dazu sagen werden. Ich habe mich, Herr Kollege Köhler, überhaupt gefragt, warum Sie diese Frage stellen, denn ich kann mir nicht vorstellen, daß Sie etwas dagegen haben, daß ein Land in Afrika, das unabhängig werden will, sich bei der Beratung seiner Verfassung auf deutsche Erfahrungen und auf unser Grundgesetz stützt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg110">Herr Abgeordneter Köhler, Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Köhler (Wolfsburg) (CDU/CSU):</note>
+        <u who="#Q1666914" xml:id="ParlaMint-DE_1977-05-25-08-028.u89" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg111">Herr Präsident, da es schwierig zu sein scheint, sich hier zu verständigen, möchte ich von der Möglichkeit einer weiteren Zwischenfrage Gebrauch machen. Herr Staatssekretär, wären Sie denn bereit, zur Kenntnis zu nehmen, daß mich dabei besonders die Frage der außenpolitischen Auswirkungen, das heißt der Erschwerung oder Erleichterung der Zielsetzung interessiert, wie ich es in Frage 13 zum Ausdruck gebracht habe, auf die Sie keine Antwort gegeben haben?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u90" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg112">Herr Kollege Köhler, wenn dies so wäre, sähe ich keine Erschwerung der Bemühungen. Denn ich muß auch darauf hinweisen, daß es sich mit Namibia nicht um einen Bestandteil der Südafrikanischen Republik handelt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u91" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg113">Eine Zusatzfrage, Frau Abgeordnete Erler.</seg>
+        </u>
+        <note type="speaker">Frau Erler (SPD) :</note>
+        <u who="#Q916245" xml:id="ParlaMint-DE_1977-05-25-08-028.u92" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg114">Herr Staatssekretär, würden Sie es als eine sinnvolle entwicklungspolitische Aufgabe der Zukunft ansehen, einem unabhängigen Namibia in der Verfassungsfrage zu raten, nachdem die Turnhallen-Konferenz offensichtlich gescheitert ist?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1977-05-25-08-028.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg115">Frau Kollegin, ich habe eben schon in einer Antwort auf eine Frage des Kollegen Köhler etwas Ähnliches gesagt. Ich habe darauf hingewiesen, daß ich mir nicht vorstellen kann, daß er etwas dagegen haben kann, daß man sich bei der Unabhängigwerdung eines afrikanischen Staates der Erfahrungen mit unserem Grundgesetz bedient.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u94" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg116">Danke schön. Keine weiteren Zusatzfragen. Wir kommen dann zum Geschäftsbereich des Bundesministers des Innern. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär zur Verfügung. Ich rufe Frage 14 des Herrn Abgeordneten Becker (Nienberge)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg117">auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg118">Beabsichtigt die Bundesregierung bei den Überlegungen zur Änderung des Haushaltsstrukturgesetzes, für technische Aufstiegsbeamte und Aufstiegsbeamte aus dem Polizeidienst die Anstellung in Besoldungsgruppe A 10 wiederherzustellen? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg119">Herr Kollege, die durch das Haushaltsstrukturgesetz suspendierte frühere Regelung über die Zuordnung des Eingangsamtes zur Besoldungsgruppe A 10 für Aufstiegsbeamte des gehobenen technischen Dienstes stand in engem Zusammenhang mit einer entsprechenden früheren Einstufung des Eingangsamtes für alle Fachhochschulabsolventen des gehobenen Dienstes. Durch das Haushaltsstrukturgesetz ist das frühere höhere Eingangsamt für Fachhochschulabsolventen des nichttechnischen Dienstes trotz ihrer besonderen qualifizierten Ausbildung ab 1. Januar 1976 wieder der Besoldungsgruppe A 9 zugeordnet worden. Im Hinblick auf diese Regelung hielt es der Gesetzgeber nicht für gerechtfertigt, für Aufstiegsbeamte des technischen Dienstes, die diese qualifizierte Ausbildung nicht absolviert hatten, das Eingangsamt in Besoldungsgruppe A 10 zu belassen. Es ist deshalb ebenfalls wieder der Besoldungsgruppe A 9 zugeordnet worden. Wegen des geschilderten Zusammenhangs mit der Regelung des Eingangsamtes für Fachhochschulabsolventen des gehobenen nichttechnischen Dienstes vermag die Bundesregierung für eine Wiederherstellung des früheren höheren Eingangsamtes für technische Aufstiegsbeamte nicht einzutreten, solange die erwähnten Fachhochschulabsolventen weiterhin in Besoldungsgruppe A 9 angestellt werden. Für Aufstiegsbeamte aus dem Polizeidienst kann schon deshalb nichts anderes gelten, weil Aufstiegsbeamte des nichttechnischen Dienstes auch vor Inkrafttreten des Haushaltsstrukturgesetzes nicht in Besoldungsgruppe A 10, sondern in Besoldungsgruppe A 9 angestellt worden sind.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg120">Eine Zusatzfrage, Herr Abgeordneter Becker.</seg>
+        </u>
+        <note type="speaker">Becker (Nienberge) (SPD) :</note>
+        <u who="#Q1604393" xml:id="ParlaMint-DE_1977-05-25-08-028.u97" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg121">Herr Staatssekretär, diejenigen Aufstiegsbeamten des technischen Dienstes, die in den letzten Jahren von der Möglichkeit dieses Aufstiegs Gebrauch gemacht hatten, gingen davon aus — und sie haben sich zum Teil nur deswegen zum Aufstieg entschieden —, daß sie in Besoldungsgruppe A 10 angestellt werden. Sind Sie nicht der Auffassung, daß man Überlegungen in bezug auf eine Übergangsregelung für diesen Personenkreis anstellen könnte?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u98" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg122">Herr Kollege, diese Frage ist schon verschiedentlich erörtert worden. Die Bundesregierung hat hierzu wiederholt erklärt, daß für derartige Beamte auf Grund des bisherigen Rechts am Tage vor Inkrafttreten des Haushaltsstrukturgesetzes nur die Aussicht auf eine spätere Übernahme in die Besoldungsgruppe A 10 bestand. Diese Exspectanz wird von Besitzstandsregelungen des Haushaltsstrukturgesetzes nicht erfaßt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u99" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg123">Ich rufe die Frage 15 des Abgeordneten Becker auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg124">Wird die Bundesregierung im laufenden Gesetzgebungsverfahren zum Sechsten Besoldungserhöhungsgesetz die Frage wohlwollend prüfen, ob den Beamten des einfachen Dienstes in Besoldungsgruppe A 5 eine Amtszulage gewährt werden kann? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg125">Herr Kollege, die Bundesregierung hält die Ausdehnung der Amtszulage von 28,89 DM monatlich, die insbesondere bei den Betriebsverwaltungen in den Besoldungsgruppen A 2 bis A 4 gezahlt wird, auf das Spitzenamt A 5 gegenwärtig nicht für zwingend. Das Spitzenamt, zugleich besoldungsrechtlich Verzahnungsamt zum Eingangsamt des mittleren Dienstes, ist in sich ohne Zulage abschließend bewertet. Die Frage einer Ausdehnung steht in sehr engem Zusammenhang mit der Bewertung der Ämter des einfachen und des mittleren Dienstes und mit anderen Zulageregelungen. Sie konnte deshalb schon beim 2. BesVNG nicht verwirklicht werden. Auch wenn man sie ohne Rücksicht auf die Zusammenhänge isoliert löste, würden erhebliche Mehrkosten entstehen. Dieses Problem ist daher für eine Regelung in einem Anpassungsgesetz nicht geeignet und muß einer strukturellen Gesamtregelung vorbehalten bleiben.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg126">Eine Zusatzfrage? — Hat sich erledigt. Nun rufe ich die Frage 16 des Herrn Abgeordneten Schäfer (Offenburg)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg127">auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg128">Wie viele Beschäftigte von kerntechnischen Anlagen werden vom Verfassungsschutz überprüft bzw. überwacht, und wie hoch dürfte die Zahl bei der Verwirklichung einer Kernkraftwerksleistung von 30 000 MW im Jahr 1985 sein? Zur Beantwortung der Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u102" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg129">Herr Kollege Schäfer, Errichtung und Betrieb kerntechnischer Anlagen dürfen unter anderem nur dann genehmigt werden, wenn keine Bedenken gegen die Zuverlässigkeit des Antragstellers sowie der für die Errichtung, Leitung und Beaufsichtigung des Betriebes der Anlage verantwortlichen Personen bestehen. Um die Erfüllung dieser Genehmigungsvoraussetzung auch im Hinblick auf die Gewährleistung des Schutzes vor Sabotage und terroristischen Aktivitäten beurteilen zu können, ist eine Überprüfung des genannten Personenkreises durch die jeweils zuständigen Verfassungsschutzbehörden erforderlich. Zusätzlich zu diesem Personenkreis ist auch das für die Bewachung der einzelnen Anlagen eingesetzte Personal einer solchen Sicherheitsüberprüfung zu unterziehen. Gegenwärtig werden bei einem Kernkraftwerk nach überschlägigen Schätzungen bis zu ca. 60 Personen (Schlüsselpersonal und Bewachungspersonal) überprüft. Die exakte Zahl wird gegenwärtig bei den Ländern ermittelt. Die Zahl wird sich auf ca. 100 erhöhen, wenn die von der Innenministerkonferenz empfohlenen Maßnahmen zum Schutz kerntechnischer Einrichtungen realisiert sein werden. Konkrete Schätzungen für die Zukunft bei Verwirklichung des Energieprogramms der Bundesrepublik Deutschland sind gegenwärtig nicht möglich. Die Zahlen hängen maßgeblich von der Entwicklung der allgemeinen Sicherheitslage sowie den Erfahrungen ab, die nach der Realisierung der von der Innenministerkonferenz empfohlenen Schutzmaßnahmen gemacht werden. Die Zuverlässigkeit des Personals wird von den atomrechtlichen Genehmigungs- und Aufsichtsbehörden der Länder überprüft. Diese bedienen sich für die Sicherheitsüberprüfung der Amtshilfe durch die zuständigen Sicherheitsbehörden der Länder. Diese führen die Überprüfung in Anlehnung an die Bestimmungen über die Sicherheitsüberprüfungen von im öffentlichen Dienst Beschäftigten mit Zugang zu Verschlußsachen durch. Eine Überwachung von Personen, die in kerntechnischen Anlagen beschäftigt sind, findet nicht statt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u103" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg130">Eine Zusatzfrage? — Herr Abgeordneter Schäfer (Offenburg)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg131">, bitte.</seg>
+        </u>
+        <note type="speaker">Schäfer (Offenburg) (SPD) :</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1977-05-25-08-028.u104" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg132">Darf ich Ihre Antwort so verstehen, daß die Überprüfung der in Frage kommenden Personen ein einmaliger Vorgang ist? Oder ist es eine dauernde Überprüfung, die mehr in Richtung Überwachung tendiert?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg133">Herr Kollege Schäfer, ich habe darauf hingewiesen, daß eine Überwachung nicht stattfindet.</seg>
+        </u>
+        <note type="speaker">Schäfer (Offenburg) (SPD) :</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1977-05-25-08-028.u106" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg134">Da muß ich konkret nachfragen: Bezieht sich die Überprüfung lediglich auf den Vorgang der Einstellung, oder ist es eine dauernde Überprüfung?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u107" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg135">Sie bezieht sich auf den Vorgang der Einstellung im Hinblick auf die Zuverlässigkeit der in solchen Anlagen als Schlüssel- oder Bewachungspersonal eingesetzten Personen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u108" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg136">Eine Zusatzfrage, Herr Abgeordneter Ey.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1977-05-25-08-028.u109" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg137">Herr Staatssekretär, welchen Wert mißt die Bundesregierung der einmaligen Überprüfung eines Mitarbeiters bei der Einstellung zu? Die Tätigkeit eines Bediensteten in einem solchen Unternehmen kann ja lang dauern, und es ist nicht auszuschließen, daß in dieser Zeit Meinungen sich ändern und Beeinflußbarkeiten entstehen.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u110" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg138">Herr Kollege, den gleichen Wert wie bei den im öffentlichen Dienst Beschäftigten — und das ist ein hoher Wert.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg139">Eine Zusatzfrage, Herr Abgeordneter Gärtner.</seg>
+        </u>
+        <note type="speaker">Gärtner (FDP) :</note>
+        <u who="#Q1745154" xml:id="ParlaMint-DE_1977-05-25-08-028.u112" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg140">Herr Staatssekretär, können Sie nochmals konkretisieren. Wenn ich es richtig verstanden habe, wird also nur bei der Einstellung überprüft. Gibt es für Personen, die bei der Einstellung überprüft worden sind, nach einer bestimmten Zeit ihrer Tätigkeit eine weitere Überprüfung?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u113" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg141">Nach den gesetzlichen Grundlagen sind die zuständigen Behörden verpflichtet, die Zuverlässigkeit sowohl des Bewachungspersonals als auch des Schlüsselpersonals zu überprüfen. Diese Überprüfung bedeutet nicht, daß die betreffenden Personen überwacht werden. Es findet also eine einmalige Überprüfung statt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u114" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg142">Eine Zusatzfrage, Frau Abgeordnete Erler.</seg>
+        </u>
+        <note type="speaker">Frau Erler (SPD) :</note>
+        <u who="#Q916245" xml:id="ParlaMint-DE_1977-05-25-08-028.u115" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg143">Herr Staatssekretär, wie groß ist der Kreis der mitüberprüften Familienangehörigen und Bekannten der jeweils Betroffenen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u116" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg144">Schon aus der von mir genannten Zahl — deren Größe ich nur schätzungsweise angeben konnte, weil, wie ich erwähnte, zur Zeit noch eine Umfrage unter den Ländern stattfindet — können Sie entnehmen, daß es eine Ausdehnung dieses Personenkreises über das Bewachungs- und Schlüsselpersonal hinaus nicht gibt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u117" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg145">Eine Zusatzfrage, Herr Abgeordneter Ueberhorst.</seg>
+        </u>
+        <note type="speaker">Ueberhorst (SPD) :</note>
+        <u who="#Q2141058" xml:id="ParlaMint-DE_1977-05-25-08-028.u118" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg146">Herr Staatssekretär, können Sie uns anhand einiger Beispiele darstellen, nach welchen Kriterien Ablehnungen erfolgt sind?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u119" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg147">Herr Kollege, schon wegen der Zuständigkeitsverteilung für die Durchführung dieser Sicherheitsüberprüfung bin ich nicht in der Lage, Ihnen solche konkreten Einzelfälle zu nennen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u120" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg148">Ich rufe nunmehr die Frage 17 des Abgeordneten Angermeyer auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg149">Trifft es zu, daß es — wie im „Handelsblatt" vom 10. Mai unter Bezugnahme auf eine Stellungnahme des Bundeswirtschaftsministeriums berichtet — Schwierigkeiten bei der Auftragseingangsstatistik gibt, und wenn ja, was gedenkt die Bundesregierung zu tun, um diese Schwierigkeiten möglichst umgehend zu beheben?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u121" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg150">Herr Kollege Angermeyer, ich wäre Ihnen dankbar, wenn ich Ihre beiden Fragen wegen des Sachzusammenhangs zusammen beantworten dürfte.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u122" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg151">Ich rufe also auch die Frage 18 des Abgeordneten Angermeyer auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg152">Trifft es zu, daß — wie ebenfalls im „Handelsblatt" vom 10. Mai gemeldet — „Berlin seinen Langsamkeitsrekord weiter unangefochten verteidigt", und wenn ja, wie erklärt die Bundesregierung diese Tatsache? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u123" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg153">Die Ursachen und Gründe für die aufgetretenen Schwierigkeiten bei der Auftragseingangsstatistik sind differenzierter als in dem betreffenden Artikel dargestellt. Mit der Neugestaltung des industriestatistischen Berichtssystems wurden gleichzeitig grundlegende Umstellungen der Aufbereitung und Programmierung dieser Statistik durch die Statistischen Ämter vorgenommen. Hinzu kommt, daß innerhalb der Statistischen Landesämter, die die Auftragseingangsstatistik erheben, Unterschiede in Größe und Leistungsfähigkeit bestehen. Bei der Beseitigung der aufgetretenen Arbeitsengpässe hat es sich auch als Erschwernis erwiesen, daß in mehreren Ländern eine Verlagerung der maschinellen Arbeiten in Landesrechenzentren erfolgt ist und somit der Ablauf auch dieser Statistik innerhalb der Länder in unterschiedlicher Verantwortung wahrgenommen wird. Gegenüber Anfang Mai hat sich die Situation insofern gebessert, als nunmehr von einigen Ländern als endgültig bezeichnete Ergebnisse des Monatsberichts im Bergbau und Verarbeitenden Gewerbe, die für die Berechnung des endgültigen Auftragseingangsindex gebraucht werden, übersandt bzw. fest in Aussicht gestellt worden sind. Auch die in Berlin aufgetretenen Schwierigkeiten sind zu einem wesentlichen Teil bereits behoben. Insofern treffen die Feststellungen des „Handelsblattes" nicht zu.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u124" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg154">Eine Zusatzfrage? — Das ist nicht der Fall. Die Fragen 19 und 20 sollen auf Wunsch des Fragestellers schriftlich beantwortet werden. Die Antworten werden als Anlage abgedruckt. Ich rufe dann die Frage 21 des Herrn Abgeordneten Hennig auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg155">Wie beurteilt die Bundesregierung die Tatsache, daß das Ausgabenverhältnis zwischen militärischer und ziviler Verteidigung derzeit 60 1 beträgt, obgleich die Bundesregierung bereits 1972 ein Ausgabenverhältnis von 20 : 1 angestrebt hat? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg156">Herr Kollege, die Bundesregierung hat auf die Kleine Anfrage der Abgeordneten Dr. Jungmann, Rommerskirchen, Berger und der CDU/CSU — Drucksache VI/1631 — in ihrer Antwort vom 21. Januar 1971 — Drucksache VI/1759 — erklärt, daß sie als Fernziel ein ausgewogenes Ausgabenverhältnis von 20 : 1 zwischen militärischer und ziviler Verteidigung schon im Interesse einer glaubwürdigen Gesamtverteidigung für erstrebenswert hält. Die für Zwecke der zivilen Verteidigung verfügbaren Haushaltsmittel sind in der Zeit von 1962 bis 1969 ständig von etwa 786 Millionen DM auf 432 Millionen DM vermindert worden. Mit der Übernahme der Verantwortung für die zivile Verteidigung durch die derzeitige Regierungskoalition konnte erstmals ab 1970 eine Stabilisierung und. bis 1976 eine Erhöhung der Ansätze auf 546,9 Millionen DM erreicht werden. Diese Steigerung kam fast ausschließlich dem Zivilschutz zugute — und hier insbesondere dem Katastrophenschutz. Zu berücksichtigen ist auch, daß die Zusammenarbeit ziviler und militärischer Stellen im Interesse der Gesamtverteidigung laufend verbessert wird und daher im Verteidigungsfall alle volkswirtschaftlichen Ressourcen weitgehend genutzt werden. Trotz dieser Steigerung der Ausgaben für die zivile Verteidigung hat sich das angestrebte Fernziel eines Ausgabenverhältnisses von 20 : 1 weiter entfernt. Eine schwieriger gewordene Gesamtlage, die Fülle ebenfalls vordringlicher anderer öffentlicher Aufgaben und die dadurch bedingte Anpassung der öffentlichen Haushalte werden sich in absehbarer Zeit nicht entscheidend verändern lassen. Zur Zeit schreibt die Bundesregierung, wie Sie wissen, auf der Grundlage des Weißbuches zur zivilen Verteidigung von 1972 das Konzept der zivilen Verteidigung fort. Veränderte Bedrohungs- und Krisenlagen, kosteneffizientere Nutzung vorhandener Kapazitäten und die jüngsten Empfehlungen der NATO werden dabei berücksichtigt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u126" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg157">Eine Zusatzfrage, Herr Abgeordneter Hennig.</seg>
+        </u>
+        <note type="speaker">Dr. Hennig (CDU/CSU) :</note>
+        <u who="#Q2037716" xml:id="ParlaMint-DE_1977-05-25-08-028.u127" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg158">Herr Staatssekretär, ist Ihnen bekannt, daß auf Grund der derzeitigen gesetzlichen Lage Aufgaben im Katastrophenschutz, z. B. beim Technischen Hilfswerk, angesichts dieser Verhältnisse nicht erfüllt werden können?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u128" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg159">Herr Kollege, ich habe bereits darauf hingewiesen, daß sich die Bundesregierung zur Zeit mit der Erarbeitung einer neuen Konzeption für die zivile Verteidigung beschäftigt, bei der auch diese Fragen mit einbezogen werden.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u129" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg160">Eine Zusatzfrage, Herr Abgeordneter Jäger.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1977-05-25-08-028.u130" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg161">Herr Staatssekretär, teilen Sie meine Auffassung, daß die derzeit in der Bundesrepublik bestehende unzureichende zivile Sicherheit angesichts der entsprechenden Vorkehrungen in der Sowjetunion gefährliche Schlußfolgerungen hinsichtlich der internationalen Sicherheit zuläßt?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-05-25-08-028.u131" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg162">Herr Kollege, ich glaube, die richtige Antwort auf Fragen der Zivilverteidigung erfordert ein sehr abgewogenes und nüchternes Urteil, das sich von der Dramatisierung von Vorgängen ebenso weit fernhält wie von der Verharmlosung von Vorgängen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u132" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg163">Ich rufe nun die Frage 22 des Herrn Abgeordneten Pensky auf. — Der Herr Abgeordnete Pensky ist nicht im Saal. Die Frage 22 wird schriftlich beantwortet. Ebenfalls wird die Frage 23 des Herrn Abgeordneten Pensky schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Die Fragen 24, 25 und 26 werden auf Wunsch der Fragesteller schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Wir sind damit am Ende Ihres Geschäftsbereichs, Herr Staatssekretär, angelangt. Ich danke Ihnen. Wir kommen damit zum Geschäftsbereich des Bundesministers der Finanzen. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär zur Verfügung. Ich rufe die Frage 27 des Herrn Abgeordneten Spranger auf. Der Fragesteller hat um schriftliche Beantwortung gebeten. Die Antwort wird als Anlage abgedruckt. Wir kommen damit zur Frage 28 des Abgeordneten Dr. Steger. Der Fragesteller ist nicht im Saal. Die Frage wird schriftlich beantwortet; die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 29 des Abgeordneten Dr. Spöri auf. Die Frage wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich danke Ihnen, Herr Staatssekretär.</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg164">Wir kommen damit zu den Fragen aus dem Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär zur Verfügung. Ich komme zunächst zur Frage 30 des Abgeordneten Schedl. Der Fragesteller hat um schriftliche Beantwortung gebeten. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 31 des Abgeordneten Wolfgramm (Göttingen)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg165">auf. Der Fragesteller hat um schriftliche Beantwortung gebeten. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 32 des Abgeordneten Milz auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg166">Ist die Bundesregierung bereit, angesichts der Tatsache, daß, wie z. B. im nördlichen Kammerbezirk der Handwerkskammer Aachen, örtlich 80 bis 90 0/o der Hochbauten von Schwarzarbei tern durchgeführt werden, das Gesetz zur Bekämpfung der Schwarzarbeit zu verschärfen? Herr Staatssekretär, bitte schön.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg167">Herr Präsident, wenn es erlaubt ist, möchte ich wegen des Sachzusammenhangs die Fragen 32 und 33 gemeinsam beantworten.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg168">Der Fragesteller ist damit einverstanden. Ich rufe dann auch die Frage 33 des Abgeordneten Milz auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg169">Hält die Bundesregierung die derzeitigen gesetzlichen Vorschriften zur Bekämpfung der Schwarzarbeit für ausreichend, obwohl auf Grund der Schwarzarbeit Entlassungen im Baugewerbe und Betriebsschließungen zu erwarten sind? Bitte schön.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u135" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg170">Herr Kollege, vorweg möchte ich bemerken, daß der Bundesregierung der von Ihnen erwähnte Anteil von Schwarzarbeit im Hochbau eines Kammerbezirks nicht bekannt ist. Ich würde es im Interesse der notwendigen intensiven Bekämpfung der Schwarzarbeit begrüßen, wenn Sie die zuständigen Stellen über die Ihnen offenbar bekannten Einzelheiten unterrichteten. Nur dann können die bestehenden gesetzlichen Regelungen auch greifen und Beschäftigungsnachteile in der Bauwirtschaft vermieden werden. Wie ich bereits in Antworten auf frühere Anfragen ausgeführt habe, hält es die Bundesregierung nicht für erforderlich, das Gesetz zur Bekämpfung der Schwarzarbeit weiter zu verschärfen. Erst mit Wirkung vom 1. Januar 1975 wurde dieses Gesetz 1 auf Vorschlag der Bundesregierung neu gefaßt. Mit der Einstufung des Tatbestands als Ordnungswidrigkeit wurde eine Vereinfachung und Beschleunigung des Verfahrens ermöglicht, weil die Verfolgung nicht mehr nur den Gerichten, sondern zunächst den Verwaltungsbehörden der Länder obliegt. Auch wird Schwarzarbeit nunmehr schärfer geahndet als zuvor: Statt einer Geldstrafe von in der Regel bis zu 10 000 DM können jetzt Geldbußen bis zu 30 000 DM verhängt werden. Dieser Rahmen kann im Einzelfall noch überschritten werden. Daneben gibt es eine Reihe weiterer gesetzlicher Regelungen, so insbesondere des Gewerbe-, Sozialversicherungs- und Steuerrechts, durch welche die Schwarzarbeit geahndet werden kann.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u136" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg171">Eine Zusatzfrage, Herr Abgeordneter Milz, bitte schön.</seg>
+        </u>
+        <note type="speaker">Milz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1977-05-25-08-028.u137" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg172">Herr Staatssekretär, wenn bei einer anderen Frage die Bundesregierung erklärt, daß eine labile Lage auf dem Baumarkt festzustellen sei, ist es dann nicht auch an der Zeit, auf eine völlig legale Weise und ohne daß dies einen Pfennig Geld kostet, endlich dafür zu sorgen, daß Schwarzarbeit weniger wird, als das zur Zeit der Fall ist?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u138" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg173">Herr Kollege, ich bestreite nicht, daß die Schwarzarbeit insbesondere im Hochbau eine Rolle spielt und daß auch hier nicht zu verkennende Auswirkungen vorhanden sind. Aber die gesetzlichen Vorschriften liegen ja vor. Es kommt jetzt darauf an, daß die zuständigen Behörden Schwarzarbeit verhindern, und dazu, so meine ich, könnten auch Sie maßgeblich beitragen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg174">Eine weitere Zusatzfrage, Abgeordneter Milz.</seg>
+        </u>
+        <note type="speaker">MHz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1977-05-25-08-028.u140" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg175">Herr Staatssekretär, darf ich Ihre Antwort so verstehen, daß Sie den zuständigen Behörden vorwerfen, daß sie die gesetzlichen Bestimmungen nicht ausreichend anwenden?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg176">Sicher mag das auch zutreffend sein. Aber darüber hinaus würde ich sagen: Nicht nur das Verhalten von Behörden, sondern auch die Handlungsweise mancher Unternehmer ist zu beanstanden, insbesondere dann, wenn diese Unternehmer den Arbeitnehmern selbst das Gerät für die Schwarzarbeit zur Verfügung stellen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg177">Eine weitere Zusatzfrage, Abgeordneter Milz.</seg>
+        </u>
+        <note type="speaker">Milz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1977-05-25-08-028.u143" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg178">Herr Staatssekretär, darf ich Sie darauf aufmerksam machen, daß dieser ohne Zweifel vor vielen Jahren vorhandene Mißstand ob der Verhältnisse in der Bauwirtschaft heute längst der Vergangenheit angehört.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u144" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg179">Ich bezweifle diese Ausführungen von Ihnen. Ich will nicht bestreiten, daß es vielleicht in dem Umfang nicht mehr so ist, wie das noch vor einigen Jahren zu beobachten war. Aber es ist ganz sicher so, daß wir alle miteinander aufgerufen sind, hier unseren Teil zu erbringen. Bundesregierung und Bundestag haben mit den neuen gesetzlichen Bestimmungen, die seit dem Jahre 1975 gelten, einen Beitrag geleistet. Jetzt liegt es auch daran, daß alle Beteiligten mithelfen, damit das Ausmaß der Schwarzarbeit eingeengt wird.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u145" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg180">Letzte Zusatzfrage, Abgeordneter Milz.</seg>
+        </u>
+        <note type="speaker">MHz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1977-05-25-08-028.u146" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg181">Herr Staatssekretär, sind Sie bereit, hier mündlich und im Anschluß daran schriftlich einige Begründungen für ihre Zweifel dem Hohen Hause bekanntzugeben?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg182">Herr Kollege, ich habe hier keine Zweifel geäußert. Ich habe deutlich gesagt, daß Bundesregierung und Bundestag die notwendigen gesetzlichen Bestimmungen verabschiedet haben. Jetzt sind alle aufgerufen, diese gesetzlichen Bestimmungen anzuwenden. Wäre das der Fall, gäbe es das Ausmaß der Schwarzarbeit nicht.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Milz [CDU/CSU] : Sie drehen sich im Kreise!</desc>
+        </vocal>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg183">Eine Zusatzfrage des Herrn Abgeordneten Ey.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1977-05-25-08-028.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg184">Herr Staatssekretär, halten Sie nicht auch den wachsenden Anteil der Staatsabgaben am Lohn für einen möglichen Grund zunehmender Schwarzarbeit?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u150" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg185">Herr Kollege, ich will nicht bestreiten, daß es differenzierte Überlegungen bei denen gibt, die Schwarzarbeit ausüben. Ob die Staatsabgaben die Ursache sind oder ob die Schwarzarbeit vielleicht als angenehmer Nebenerwerb zur Arbeitslosenunterstützung angesehen wird, oder aber ob es überhaupt nur um das Stückchen Freiheit geht, Schwarzarbeit zu machen, das alles kann ich hier nicht beantworten. Ich weiß nur, daß viele Bereiche darunter Schaden leiden: die Steuer, die Sozialversicherung, die Arbeitsverwaltung. Hier muß man wohl den Gesamtzusammenhang sehen. Wir würden es seitens der Bundesregierung sehr begrüßen, wenn der Anteil der Schwarzarbeit zurückginge.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u151" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg186">Eine Zusatzfrage, Frau Abgeordnete Erler.</seg>
+        </u>
+        <note type="speaker">Frau Erler (SPD) :</note>
+        <u who="#Q916245" xml:id="ParlaMint-DE_1977-05-25-08-028.u152" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg187">Herr Staatssekretär, halten Sie es für eine legitime Haltung, wie es eben aus der Frage meines Herrn Vorredner hervorging, wenn Unternehmer, um Abgaben zu vermeiden, tatsächlich Schwarzarbeit dulden?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u153" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg188">Ich will hier nicht den Beweis antreten, daß Arbeitgeber Schwarz1 arbeit dulden. Es ist möglich, daß sie sich manchmal in einer gewissen Zwangssituation befinden. Das gilt insbesondere für den Hochbau. Aber Schwarzarbeit gibt es auch in anderen Bereichen. Von daher möchte ich eine Verallgemeinerung vermeiden. Aber richtig ist, daß eine gewisse Art von Schwarzarbeit nicht nur ein Vorgang ist, der ausschließlich den Schwarzarbeiter betrifft, sondern daß es auch ein Zusammenspiel von Arbeitnehmern und Unternehmern gibt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u154" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg189">Weitere Zusatzfragen werden nicht gestellt. Wir kommen dann zur Frage 34 des Herrn Abgeordneten Dr. Kunz (Weiden):</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg190">Ist die Bundesregierung bereit, die bei den Arbeitsämtern vorliegenden Anträge auf Arbeitsbeschaffungsmaßnahmen zu bedienen, um insbesondere im Zonenrandgebiet die unbefriedigende Beschäftigungslage zu verbessern und einen drohenden noch stärkeren Beschäftigungseinbruch zu vermeiden, der wegen fehlender Anschlußaufträge Ende des Sommers 1977 zu erwarten ist, und wenn ja, in welcher Höhe und bis wann werden die erforderlichen Mittel für die bereits beantragten Arbeitsbeschaffungsmaßnahmen bereitgestellt? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg191">Herr Kollege Kunz, wie Sie sicherlich bereits Pressemeldungen entnommen haben, werden heute im Kabinett Ihre Fragen behandelt. Sie haben daher sicher Verständnis dafür, daß ich hier nicht in diese Beratungen eingreifen möchte.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u156" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg192">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1977-05-25-08-028.u157" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg193">Herr Staatssekretär, bis wann könnte ich dann von Ihnen eine eingehende Antwort auf meine Frage erhalten?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg194">Herr Kollege Kunz, ich werde mich bemühen, wie auch in der Vergangenheit, insbesondere die für Ihren Wahlbereich interessierenden Antworten so schnell wie möglich schriftlich nachzureichen. Ich gehe davon aus, daß in einer Presseerklärung noch heute über die Einzelheiten Bericht erstattet wird. Ich werde mir aber erlauben, insbesondere zu Ihren speziellen Anliegen, die ja immer wieder im Bereich der ABM-Maßnahmen beheimatet waren, spezifizierte Antworten nachzureichen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg195">Keine weiteren Zusatzfragen. Dann kommen wir zur Frage 35 des Herrn Abgeordneten Dr. Dollinger:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg196">Auf welche Zahlen und welche Berechnungsmethoden stützt sich der Vizepräsident der Bundesanstalt für Arbeit, wenn er die Millionengrenze bei den Arbeitslosenzahlen für unterschritten erklärt, und um welche Zahl war die Millionengrenze nach dem Stand der Erkenntnisse der Bundesanstalt für Arbeit zu diesem Zeitpunkt unterschritten? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u160" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg197">Herr Kollege Dollinger, bis Mitte Mai war die Zahl der Empfänger von Arbeitslosengeld und Arbeitslosenhilfe gegenüber dem Stichtag der letzten Zählung der Arbeitslosen von Ende April um 30 000 zurückgegangen. In aller Regel entspricht der Abnahme der Leistungsempfängerzahl ein noch größerer Rückgang der Arbeitlosenzahl. Die von Ihnen erwähnte Äußerung basiert auf diesen Zusammenhängen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u161" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg198">Eine Zusatzfrage, Herr Abgeordneter Dr. Dollinger.</seg>
+        </u>
+        <note type="speaker">Dr. Dollinger (CDU/CSU) :</note>
+        <u who="#Q488902" xml:id="ParlaMint-DE_1977-05-25-08-028.u162" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg199">Herr Staatssekretär, besteht die Absicht, daß in Zukunft häufiger Zwischenergebnisse bekanntgegeben werden?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg200">Herr Kollege Dollinger, ich kann diese Zwischenergebnisse nicht begrüßen. Aber Sie wissen, daß kurz vor dem Ersten die einen immer sagen, bestimmte Zahlen würden unterschritten, während andere sagen, diese Zahlen würden noch nicht unterschritten. Dann gibt es am Ersten noch einmal eine Pressemitteilung. Am 3. oder 4. liegt dann das jeweilige endgültige Ergebnis vor. Hier ist wohl immer eine Mischung von wirklicher Veröffentlichung und Vermutung die Grundlage. Ich darf sagen: Die Bundesregierung wäre sehr damit einverstanden, wenn nur einmal pro Monat eine Veröffentlichung stattfände.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg201">Keine weiteren Zusatzfragen. Dann kommen wir zur Frage 36 des Herrn Abgeordneten Reuschenbach. Herr Abgeordneter Reuschenbach ist nicht im Saal. Dann wird diese Frage, ebenso die Frage 37, schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Wir kommen damit zur Frage 38 des Herrn Abgeordneten Horstmeier:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg202">Steht nach Meinung der Bundesregierung der § 9 der Verordnung zur Durchführung des § 33 des Bundesversorgungsgesetzes vom 1. Juli 1975 über die Berechnung des Einkommens aus Landwirtschaft im Einklang mit dem Urteil des 10. Senats des Bundessozialgerichts in Kassel vom 16. Juli 1971 — Az. 10 RV 510/70 —, und wenn nein, sind Änderungen vorgesehen? Herr Staatssekretär, bitte schön.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u165" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg203">Herr Kollege Horstmeier, der Verordnungsgeber hat die von Ihnen angesprochene Vorschrift auf Grund der Rechtsprechung des Bundessozialgerichts im Jahre 1974 geändert. Durch eine differenzierte Methode der Einkommensermittlung trägt diese Vorschrift heute den von der Rechtsprechung entwickelten Grundsätzen Rechnung. Es besteht nicht die Absicht, das Ermittlungsverfahren insofern erneut zu ändern. Ich möchte jedoch darauf hinweisen, daß dem Bundesrat derzeit eine Änderungsverordnung zur Zustimmung vorliegt, durch die die Einkommenssätze für nicht buchführende Landwirte gemindert werden sollen. Die Bundesregierung rechnet mit einem baldigen Zustandekommen dieser Änderungsverordnung.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u166" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg204">Bitte schön, eine Zusatzfrage, Abgeordneter Horstmeier.</seg>
+        </u>
+        <note type="speaker">Horstmeier (CDU/CSU) :</note>
+        <u who="#Q1904092" xml:id="ParlaMint-DE_1977-05-25-08-028.u167" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg205">Ist der Bundesregierung bekannt, Herr Staatssekretär, daß eine Reihe von Verfahren anhängig sind, und wird durch die von Ihnen eben genannte Verbesserung der Durchführungsverordnung diesem Umstand Rechnung getragen?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u168" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg206">Herr Kollege Horstmeier, ich gehe davon aus, daß die derzeit geltende Verordnung den Bestimmungen des genannten Bundessozialgerichtsurteils entspricht. Danach wird eine differenzierte Einteilung vorgenommen, so z. B. nach Wert ,der Arbeitsleistung, Zuschlag für Betriebsleistungen, Reinertrag usw. Ich denke, daß durch diese differenzierte Festlegung den gesetzlichen Bedingungen entsprochen worden ist.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u169" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg207">Eine weitere Zusatzfrage, Abgeordneter Horstmeier.</seg>
+        </u>
+        <note type="speaker">Horstmeier (CDU/CSU) :</note>
+        <u who="#Q1904092" xml:id="ParlaMint-DE_1977-05-25-08-028.u170" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg208">Herr Staatssekretär, wird es dann auch so sein, daß Zinsen, Pacht und Altenteilslasten bei Gütergemeinschaft nicht mehr nur zur Hälfte angerechnet werden?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1977-05-25-08-028.u171" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg209">Herr Kollege Horstmeier, ich kann diese Frage im Augenblick nicht beantworten. Aber ich gehe davon aus, daß die Regelung, die dem Bundesrat jetzt vorliegt, eine erneute Gesamtüberprüfung ermöglichen soll, und ich bin sicher, daß auch solche Überlegungen mit einbezogen worden sind.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u172" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg210">Keine weiteren Zusatzfragen. Frage 39 der Frau Abgeordneten Hürland. — Frau Abgeordnete Hürland ist nicht im Saal. Die Fragen 39 und 40 der Frau Abgeordneten Hürland werden schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Die Frage 42 des Abgeordneten Dr. Hornhues wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Damit sind wir am Ende des Geschäftsbereichs des Bundesministers für Arbeit und Sozialordnung. Ich danke dem Herrn Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers der Verteidigung auf. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär zur Vefügung. Frage 45 des Abgeordneten Dr. Voss:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg211">Welche Rechtsgrundlage hatte die vom Bundesrechnungshof beanstandete ermäßigte Kostenberechnung für den SPD-Partei- vorsitzenden Brandt anläßlich seiner Reise nach Tel Aviv? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1977-05-25-08-028.u173" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg212">Herr Präsident, gestatten Sie, daß ich die Fragen 45 und 46 im Zusammenhang beantworte?</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u174" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg213">Ist der Fragesteller einverstanden? — Dann rufe ich auch die Frage 46 des Abgeordneten Dr. Voss auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg214">Wie gedenkt die Bundesregierung sich auf Grund der Beanstandungen des Bundesrechnungshofs zu verhalten? Bitte.</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1977-05-25-08-028.u175" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg215">Herr Kollege Voss, das Bundesministerium der Verteidigung ist bei der Berechnung der Kosten für den von Ihnen erwähnten Flug vom Erlaß des Ministeriums aus dem Jahre 1973 über die „Beförderung von Personen und Luftfracht in Luftfahrzeugen der Bundeswehr sowie Abrechnung der Kosten" ausgegangen. Hiernach ist bei der Beförderung von Personen in Luftfahrzeugen der Bundeswehr auf außereuropäischen Strecken der Preis der niedrigsten Flugklasse dès öffentlichen Verkehrs zu berechnen. Um den Fluggästen keinen geldwerten Vorteil zu verschaffen, wurden die Kosten erhoben, die ihnen bei der Benutzung der ersten Klasse des öffentlichen Linienverkehrs entstanden wären. Herr Kollege Voss, die Bundesregierung wird prüfen, ob führende Persönlichkeiten des politischen Lebens, deren Sicherheit bei Teilnahme an Linienflügen gefährdet ist, nicht auch die Berechtigung erhalten sollten, die Flugbereitschaft des Bundesministeriums der Verteidigung in Anspruch zu nehmen; sie würden damit den Mitgliedern der Bundesregierung und des Bundestages gleichgestellt und hätten lediglich die Aufwendungen zu erstatten, die der Bundeswehr durch ersatzweise Inanspruchnahme von Beförderungsmitteln Dritter entstehen. Die Prüfung ist noch nicht abgeschlossen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u176" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg216">Bitte schön, eine Zusatzfrage, Herr Abgeordneter Voss.</seg>
+        </u>
+        <note type="speaker">Dr. Voss (CDU/CSU) :</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1977-05-25-08-028.u177" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg217">Herr Staatssekretär, sind Sie in der Lage, bereits jetzt zu sagen, wann diese Prüfung abgeschlossen sein wird? Denn seit dem Flug des Parteivorsitzenden der SPD sind einige Wochen vergangen, und es sind inzwischen einige Fälle gleicher Art, die vom Bundeskriminalamt entsprechend eingeordnet worden sind, vorgefallen, wobei ganz andere Maßstäbe zugrunde gelegt worden sind.</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1977-05-25-08-028.u178" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg218">Sie spielen auf die Korrespondenz an, die mit dem Parteivorsitzenden der CSU geführt worden ist, für den vom Bundeskriminalamt ebenfalls eine besondere Sicherheitseinstufung gefordert wurde. Wir waren grundsätzlich bereit, diesen Transport zu den gegebenen Bedingungen durchzuführen, mußten aber darauf hinweisen, daß der Bundesrechnungshof diese Einstellung beanstandet hat und daß unsere Prüfung, ob wir bei diesen Fragen grundsätzlich andere Maßstäbe anlegen können — und ich bin dafür, daß wir das sollten —, noch durchgeführt werden muß.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u179" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg219">Eine weitere Zusatzfrage, Herr Abgeordneter Voss.</seg>
+        </u>
+        <note type="speaker">Dr. Voss (CDU/CSU) :</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1977-05-25-08-028.u180" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg220">Herr Staatssekretär, ist es zutreffend, daß bei der Flugabrechnung für den SPD-Parteivorsitzenden Brandt nur 23 °/o der Kosten in Rechnung gestellt worden sind, die von dem Parteivorsitzenden der CSU, Herrn Strauß, verlangt worden sind?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1977-05-25-08-028.u181" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg221">Sie bringen es etwas ducheinander; verzeihen Sie bitte. Würde man den Forderungen des Bundesrechnungshofs folgen, dann hätte Herr Franz Josef Strauß für seine Reise nach Ägypten einen Betrag in der Größenordnung von, ich glaube, 80 oder 90 000 DM zahlen müssen, praktisch die Charterkosten für ein ganzes Flugzeug. Wir haben nur gesagt: das ist die Folge, wenn man der Auffassung des Rechnungshofes folgen würde.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u182" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg222">Eine weitere Zusatzfrage, Herr Abgeordneter Voss. Bitte schön.</seg>
+        </u>
+        <note type="speaker">Dr. Voss (CDU/CSU) :</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1977-05-25-08-028.u183" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg223">Herr Staatssekretär, es müßte aber doch möglich sein, diese Differenz bei gleichem Tatbestand irgendwie in Ordnung zu bringen. Ihre Einlassung führt doch nur dahin, daß Sie gleiche Tatbestände sehr unterschiedlich behandeln, nämlich — —</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u184" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg224">Herr Abgeordneter, wollen Sie bitte eine Frage stellen!</seg>
+        </u>
+        <note type="speaker">Dr. Voss (CDU/CSU) :</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1977-05-25-08-028.u185" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg225">Ist es zutreffend, daß Sie gleiche Tatbestände in einem Ausmaß ungleich behandeln, daß dies nur als unerträglich bezeichnet werden kann?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1977-05-25-08-028.u186" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg226">Nein, es findet keine Ungleichbehandlung statt. Vom Bundesverteidigungsministerium ist lediglich darauf hingewiesen worden, daß, wenn die Auffassung des Bundesrechnungshofes zum Tragen kommt, der SPD-Vorsitzende bzw. seine Partei die vollen Charterkosten zu tragen hätte und daß für diesen Fall — wenn man das als geltende Rechtsgrundlage annähme — diese Regelung im nachhinein auch für die Reise von Franz Josef Strauß gelten müßte.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u187" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg227">Eine letzte Zusatzfrage, Herr Abgeordneter Voss.</seg>
+        </u>
+        <note type="speaker">Dr. Voss (CDU/CSU) :</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1977-05-25-08-028.u188" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg228">Ist die Bundesregierung bereit, Herr Staatssekretär, bei dem Sachverhalt, der sich jetzt zeigt, mit dem Bundesrechnungshof in der Weise zu verhandeln, daß es zu einer Regelung kommt, die man als gerecht bezeichnen könnte?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1977-05-25-08-028.u189" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg229">Es ist bereits mit dem Bundesrechnungshof Kontakt aufgenommen worden.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u190" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg230">Wir kommen dann zur Frage 47. Herr Abgeordneter Dr. Hammans ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die (1 Antwort wird als Anlage abgedruckt.</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg231">Frage 48, Herr Abgeordneter Kiechle:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg232">Ist die Bundesregierung bereit, angesichts des jüngsten Absturzes eines Starfighters am 5. Mai 1977 unmittelbar am Orts-ende von Wildpoldsried, künftig Tieffluglinien so festzulegen, daß dabei geschossene Ortschaften nicht überflogen werden und die zu beobachtende Zunahme von Tiefflugeinsätzen entlang der Allgäuer Bergkette auf ein für die Bevölkerung erträgliches Ausmaß zurückgeführt wird? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1977-05-25-08-028.u191" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg233">Herr Kollege Kiechle, Tiefflug wird ohne Bindung an besonders festgelegte Strecken oder Räume über nahezu dem gesamten Bundesgebiet durchgeführt. Tiefflugstrekken werden seit 1974 nicht mehr beflogen. Nur so ist eine annähernd gleichmäßige Verteilung der Flüge und somit auch der unangenehmen, aber leider unvermeidbaren Begleiterscheinungen möglich. Ausgespart werden Tiefflugbeschränkungsgebiete, die Luftverteidigungsidentifizierungszone, der Raum südlich der Grenzabstandslinie zu den neutralen Staaten Österreich und Schweiz sowie zusammenhängende Stadtgebiete mit über 100 000 Einwohnern. Darüber hinaus sind kleinere Orte nach Möglichkeit zu umfliegen. Diesem Bemühen sind jedoch auf Grund der hohen Fluggeschwindigkeit und der entsprechenden Kurvenradien moderner Hochleistungsflugzeuge Grenzen gesetzt. Überdies können Wetterverschlechterungen, Notfälle oder besondere Einsatzerfordernisse die Flugzeugführer zu Kursänderungen zwingen. Der Flugunfall der F 104 G vom 5. Mai 1977 in der Nähe von Wildpoldsried ereignete sich nicht im Tiefflug. Aus Wettergründen wurde der Tiefflug der beiden Flugzeuge in der Nähe der Unfallstrecke abgebrochen und der Rückflug angetreten. Da die Flugunfalluntersuchung noch nicht abgeschlossen ist, kann eine Unfallursache noch nicht genannt werden. Es steht aber fest, daß der Absturz der Maschine aus einer Höhe von ca. 7 000 Fuß gleich 2 100 Meter erfolgte. Ein jährlich wiederkehrendes Problem ist die relative Zunahme von Tiefflügen während der sommerlichen Schönwetterperioden. Da aus Wettergründen an nur etwa 110 Tagen im Jahr die Durchführung von Tiefflügen möglich ist und während der Wintermonate sich häufig Rückstände im Ausbildungsprogramm ergeben, müssen die Schönwettermonate verstärkt genutzt werden. Bei der Bevölkerung entsteht dann der Eindruck, die Tiefflüge hätten generell zugenommen. Tatsache aber ist, daß im Laufe der Jahre ihre Anzahl reduziert wurde. Weitere Einschränkungen sind nicht zu vertreten, da sie zu einer Minderung des Einsatzwertes der fliegenden Verbände führen müßten.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u192" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg234">Eine Zusatzfrage? — Keine Zusatzfrage. Die Fragesteller der Fragen 49 und 51, die Abgeordneten Würtz und Spranger, haben um schriftliche Beantwortung gebeten. Die Antworten werden als Anlagen abgedruckt. Damit ist der Geschäftsbereich des Bundesministers der Verteidigung abgehandelt. Ich danke dem Herrn Staatssekretär. Wir kommen zum Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit. Zur Beantwortung der Herr Staatssekretär bei dem genannten Ministerium. Frage 52 des Herrn Abgeordneten Dr. Bötsch. Ist das Gutachten über Erkenntnisse der Einwirkungen von Gewaltverbrechen und Grausamkeiten im Fernsehen, das in der Fragestunde vom 16. März 1976 angekündigt wurde, bereits erstellt, und welche Erkenntnisse vermittelt es gegebenenfalls in der angesprochenen Problematik? Herr Staatssekretär, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär im Bundesministerium für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1977-05-25-08-028.u193" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg235">Herr Präsident! Herr Abgeordneter Dr. Bötsch, mit Ihrer Frage beziehen Sie sich offenbar auf die Antwort, die am 17. März 1976 auf die Frage des Herrn Abgeordneten Dr. Schöfberger gegeben wurde. Damals wurde darauf hingewiesen, daß gesicherte wissenschaftliche Erkenntnisse über die Auswirkungen von Gewaltdarstellungen im Fernsehen auf die Kriminalität, insbesondere auf die Jugendkriminalität, nicht vorliegen. In diesem Zusammenhang wurde auch ausgeführt, daß das Bundesministerium für Jugend, Familie und Gesundheit prüfe, „welche weiteren Forschungsaufträge vergeben werden müßten, um auf Grund eines dann verbesserten Erkenntnisstandes eventuell notwendige Maßnahmen ergreifen zu können". Ein Gutachten wurde nicht zugesagt. Die in der damaligen Antwort erwähnte Prüfung konnte noch nicht abgeschlossen werden. Sie erfordert die Sichtung und Auswertung umfangreichen Materials einschließlich der Ergebnisse des Forschungsvorhabens über die Wirkung von Gewaltdarstellungen im Fernsehen auf das Zuschauerverhalten, das von den Fernsehanstalten und der Bundeszentrale für politische Bildung im Jahre 1974 in Auftrag gegeben und im vergangenen Jahr vorläufig beendet wurde. Zur Zeit läßt sich auch noch nicht absehen, wann die Prüfung dieser komplexen Frage im Ministerium zum Abschluß gebracht werden kann.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u194" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg236">Eine Zusatzfrage, Herr Abgeordneter Bötsch.</seg>
+        </u>
+        <note type="speaker">Dr. Bötsch (CDU/CSU) :</note>
+        <u who="#Q85844" xml:id="ParlaMint-DE_1977-05-25-08-028.u195" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg237">Herr Staatssekretär, können Sie wenigstens ungefähr — vielleicht in Jahren — sagen, bis wann eine solche Prüfung abgeschlossen werden kann?</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1977-05-25-08-028.u196" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg238">Ich kann mich nicht auf einen Zeitraum festlegen, Herr Abgeordneter, weil nach dem bisher vorliegenden Material zumindest die Aussage möglich ist, daß es da einander sehr widersprechende Erkenntnisse gibt. Wenn aber unterschiedliche wissenschaftliche Meinungen zum Tragen kommen, ist es immer sehr schwierig, zu einer Entscheidung zu kommen, die die Grundlage für Maßnahmen sein könnte.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u197" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg239">Eine weitere Zusatzfrage, Herr Abgeordneter Bötsch.</seg>
+        </u>
+        <note type="speaker">Dr. Bötsch (CDU/CSU) :</note>
+        <u who="#Q85844" xml:id="ParlaMint-DE_1977-05-25-08-028.u198" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg240">Wären Sie angesichts der Sorgen, die von vielen Eltern, Elternbeiräten usw. geäußert werden, bereit, darauf hinzuwirken, daß diese Prüfung, von der Sie sprachen, ohne daß die Qualität der Wissenschaftlichkeit dieses Gutachtens zu leiden braucht, nicht allzulange hinausgezögert wird?</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1977-05-25-08-028.u199" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg241">Selbstverständlich wird die Dauer der Prüfung nicht über das Maß hinaus ausgedehnt, das sich aus der Komplexität des Problems ergibt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u200" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg242">Wir kommen zu der Frage 53 des Herrn Abgeordneten Dr. Becker (Frankfurt)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg243">. — Der Abgeordnete ist nicht anwesend. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Die Fragen 54 und 55 werden auf Wunsch des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Damit ist der Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit abgehandelt. Ich komme zum Geschäftsbereich des Bundesministers der Justiz. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär zur Verfügung. Zunächst die Frage 56 des Herrn Abgeordneten Hoffie. — Herr Abgeordneter Hoffie ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Frage 57 der Frau Abgeordneten Dr. Däubler-Gmelin. — Frau Abgeordnete Däubler-Gmelin ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Frage 58 des Abgeordneten Hauser (Krefeld):</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg244">Ist es zutreffend, daß das Bundesjustizministerium eine Erhebung durchgeführt hat, derzufolge im Bereich des Bundesrechts, also ohne Länder und Gemeinden, gegenwärtig 1 480 Gesetze und 2 280 Rechtsverordnungen gültig sind? Bitte schön, Herr Staatssekretär, zur Beantwortung.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-05-25-08-028.u201" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg245">Ja, Herr Kollege. Es handelt sich allerdings um eine einfache Auszählung der den Gesetzes- oder Verordnungsüberschriften zugeteilten Gliederungsnummern nach dem Stand vom 18. Februar 1977 aus dem „Fundstellennachweis A", der als Beilage zum Bundesgesetzblatt Teil I regelmäßig erscheint. Die Bundesregierung hat dies im Abschnitt II ihrer Antwort vom 21. März 1977 — Bundestagsdrucksache 8/212 — auf eine Kleine Anfrage mitgeteilt. Sie hat dort aber auch bereits darauf hingewiesen, daß sich aus diesen Zahlen allein nichts Wesentliches ableiten läßt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u202" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg246">Eine Zusatzfrage, Herr Abgeordneter Hauser.</seg>
+        </u>
+        <note type="speaker">Hauser (Krefeld) (CDU/CSU) :</note>
+        <u who="#Q1455946" xml:id="ParlaMint-DE_1977-05-25-08-028.u203" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg247">Herr Staatssekretär, sind Sie in der Lage, eine Antwort zu erteilen, aus der sich Wesentliches zu der Frage, um die es hier geht, ableiten läßt?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-05-25-08-028.u204" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg248">Ich meine, wenn man die Antwort auf die Kleine Anfrage noch einmal nachliest, könnte ich mir dies ersparen. Ich würde meinen, dies wäre die zutreffende Antwort auf Ihre Frage; denn daraus ergibt sich das, was Sie unter Umständen wissen wollten und was ich hier nicht gesagt habe.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u205" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg249">Meine Damen und Herren, für den Nichteingeweihten ist nicht ganz leicht zu erkennen, worüber die beiden Herren sprechen. Aber, Herr Abgeordneter Hauser, Sie haben das Recht auf eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hauser (Krefeld) (CDU/CSU) :</note>
+        <u who="#Q1455946" xml:id="ParlaMint-DE_1977-05-25-08-028.u206" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg250">Danke schön. Ich möchte es nicht in Anspruch nehmen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u207" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg251">Dann kommen wir zu der Frage 59 des Herrn Abgeordneten Hauser:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg252">Ist die Bundesregierung bereit, dem Deutschen Bundestag eine Liste derjenigen Gesetze und Rechtsverordnungen zuzuleiten, die ein mittelständischer Unternehmer bei der verantwortlichen Führung seines Unternehmens beachten muß? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-05-25-08-028.u208" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg253">Der Versuch, Herr Kollege Hauser, eine solche Liste zu erstellen, wäre nach Auffassung der Bundesregierung nicht sinnvoll.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Kunz [Weiden] [CDU/CSU] : Auch nicht möglich?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg254">Die von einem mittelständischen Unternehmer zu beachtenden Gesetze und Rechtsverordnungen richten sich nämlich — sieht man von übergreifenden Rechtsbereichen wie Handelsrecht, Arbeitsrecht und Sozialversicherungsrecht einmal ab — hauptsächlich nach dem Wirtschaftszweig und dem Gegenstand des Unternehmens. In der Branche sind die einschlägigen Vorschriften im allgemeinen bekannt. Im besonderen Bedarfsfall wird sich der einzelne Unternehmer bei der zuständigen Industrie- und Handelskammer oder Handwerkskammer erkundigen können, sofern er es nicht vorzieht, seinen Rechtsberater oder einen Fachverband heranzuziehen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u209" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg255">Eine Zusatzfrage, Herr Abgeordneter Hauser.</seg>
+        </u>
+        <note type="speaker">Hauser (Krefeld) (CDU/CSU):</note>
+        <u who="#Q1455946" xml:id="ParlaMint-DE_1977-05-25-08-028.u210" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg256">Herr Staatssekretär, darf ich Ihrer Antwort entnehmen, daß auch Sie der Meinung sind, daß ein mittelständischer Unternehmer aus eigenen Erkenntnissen heraus nicht mehr in der Lage ist, zu übersehen, welche gesetzlichen Bestimmungen er zu beachten hat?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-05-25-08-028.u211" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg257">Ich kann nicht erkennen, wieso Sie dies aus meiner Antwort entnehmen könnten.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u212" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg258">Zu einer weiteren Zusatzfrage Herr Abgeordneter Hauser.</seg>
+        </u>
+        <note type="speaker">Hauser (Krefeld) (CDU/CSU) :</note>
+        <u who="#Q1455946" xml:id="ParlaMint-DE_1977-05-25-08-028.u213" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg259">Herr Staatssekretär, sind Sie, wenn der mittelständische Unternehmer auf die Inanspruchnahme eines Rechtsberaters und der Kammer angewiesen ist, nicht auch der Meinung, daß der Unternehmer selber kaum noch in der Lage ist, die Rechtsvorschriften zu übersehen? Und könnten Sie sich nicht vorstellen, daß es auch für die Bundesregierung interessant sein könnte, einmal festzustellen, mit wieviel gesetzlichen Bestimmungen und Verordnungen ein solcher Unternehmer belastet ist, bevor man darangeht, neue Gesetze zu machen?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-05-25-08-028.u214" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg260">Herr Kollege Hauser, Ihre Prämisse ist nicht korrekt. Ich habe gesagt: Im besonderen Bedarfsfall wird sich der einzelne Unternehmer bei der zuständigen Industrie-und Handelskammer oder Handwerkskammer erkundigen können. Ich habe nicht gesagt, daß er sich stets oder generell dahin wenden müsse. Das heißt: meine Antwort unterstellt durchaus, daß es eine Reihe von mittelständischen und auch sonstigen Unternehmern gibt, die in der Lage sind, sich aus eigener Kraft über die für sie in Frage kommenden Gesetze zu informieren.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u215" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg261">Zu einer Zusatzfrage Herr Abgeordneter Kunz.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU):</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1977-05-25-08-028.u216" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg262">Herr Staatssekretär, sind Sie bereit, für einen spezifizierten mittelständischen Unternehmer eine Übersicht der zu beachtenden Gesetze und Vorschriften erstellen zu lassen und den für die Beachtung dieser Gesetze notwendigen Zeitaufwand zusammenzufassen?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-05-25-08-028.u217" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg263">Die Bundesregierung ist — das gilt wohl für alle Bundesregierungen — in jeder Hinsicht hilfreich. Ich bin überzeugt, daß auch das, was Sie begehren, möglich sein wird. Bloß bitte ich in diesem Fall um Nachsicht, wenn ich sage, daß dies unter Umständen geraume Zeit währen wird. Außerdem würde ich sehr herzlich darum bitten, daß für diesen besonderen Fall sehr präzise Angaben gemacht werden.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u218" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg264">Zu einer Zusatzfrage Herr Abgeordneter Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD) :</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1977-05-25-08-028.u219" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg265">Herr Staatssekretär, da Sie dem Kollegen eben versprachen, eine derartige Liste für die mittelständische Wirtschaft aufzustellen, darf ich Sie fragen, ob Sie bereit sind, darin auch aufzuführen, ob derartige Gesetze mit voller Zustimmung des Hauses oder nur mit den Stimmen der Regierungsparteien verabschiedet wurden, damit in der Öffentlichkeit nicht der Eindruck entstehen kann, den )</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg266">Herr Kollege Hauser hier jetzt wohl erwecken wollte, daß nur die Regierung und nicht das Parlament für die Einbringung und Verabschiedung von Gesetzen zuständig sei.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-05-25-08-028.u220" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg267">Ich darf zunächst darauf verweisen, daß ich keineswegs zugesagt hatte, daß für die mittelständische Wirtschaft generell eine Liste erstellt werde. Ich habe vielmehr meine Bereitschaft erklärt, für einen sehr spezifizierten und genau und detailliert umschriebenen Kreis eine Liste erstellen zu lassen, wofür man einige Zeit braucht. Das muß ganz klar sein. Ich würde diese Anfrage insoweit nur als Beispielfall sehen, nicht als etwas, was ad infinitum verlängert werden könnte. Zum zweiten werden wir selbstverständlich auf Ihre Bitte hin bemüht sein, darzustellen, inwieweit diese Gesetze mit Zustimmung des gesamten Hauses zustande gekommen sind, wobei allgemein bekannt ist, daß — ich mag mich um ein oder zwei Prozent irren — 95 Prozent aller hier verabschiedeten Gesetze die Zustimmung aller hier vertretenen Fraktionen erhalten haben.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u221" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg268">Zu einer Zusatzfrage Herr Abgeordneter Gärtner.</seg>
+        </u>
+        <note type="speaker">Gärtner (FDP) :</note>
+        <u who="#Q1745154" xml:id="ParlaMint-DE_1977-05-25-08-028.u222" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg269">Wie beurteilt die Bundesregierung in diesem Zusammenhang z. B. die Möglichkeit, daß die Opposition im 8. Bundestag den Entwurf eines Gesetzes zur Förderung des Mittelstandes einbringen wird?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-05-25-08-028.u223" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg270">Ich kann das nicht positiv oder negativ beurteilen. Man müßte wissen, wie die Gesetzesvorlage aussieht. Ich darf jedenfalls zum Ausdruck bringen, daß diese Bundesregierung das Ihre dafür tun wird, den Mittelstand nach Möglichkeit zu entlasten und dafür Sorge zu tragen, daß er sich nicht durch zu große Unternehmen untergebuttert fühlen kann.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u224" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg271">Zu einer Zusatzfrage Herr Abgeordneter Jäger.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1977-05-25-08-028.u225" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg272">Herr Staatssekretär, bedeutet die Antwort, die Sie dem Kollegen Hauser und dem Kollegen Kunz gegeben haben, wonach eine generelle Liste von der Bundesregierung nicht erstellt werden kann und selbst die Erstellung einer speziellen Liste durch den ganzen Apparat Ihres Hauses geraume Zeit braucht, daß die Bundesregierung vor dem bestehenden Gesetzesdschungel längst kapituliert hat, ehe sie den Unternehmern erlaubt, es auch zu tun?</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit</desc>
+        </kinesic>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-05-25-08-028.u226" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg273">Herr Kollege Jäger, ich glaube, Ihre Unterstellung geht doch ein klein wenig zu weit. Ich wollte durch meine behutsame Antwort zum Ausdruck bringen, daß die Erstellung der Antwort wohl nicht unbedingt so vorrangig ist, daß sie innerhalb von drei oder vier Tagen gegeben werden kann. Vielmehr brauchen wir geraume Zeit. Dabei lasse ich dahingestellt sein, ob es acht oder vierzehn Tage sind. Von einer Kapitulation kann überhaupt nicht die Rede sein. Ich glaube, das Thema, das hiermit angepickt ist, ist ein Thema, über das wir uns schon oft unterhalten haben. Hier sei generell noch folgendes hinzugefügt: Wenn die Lebenssachverhalte kompliziert werden, müssen auch die Gesetze etwas komplizierter werden. Wenn die Gesetze zu einfach und grob geschnitten würden, müßten wir alles der Rechtsprechung überlassen oder aber dem Verwaltungshandeln im Ermessensbereich. Ich frage, ob dies für den Bürger einfacher, präziser und leichter zu handhaben wäre, als das, was Sie als Gesetzesflut umschreiben.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u227" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg274">Eine Zusatzfrage, Herr Abgeordneter Ey.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1977-05-25-08-028.u228" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg275">Herr Staatssekretär, wird nicht aus der Frage des Kollegen Hauser an Sie und auch aus Ihrer Antwort deutlich, welche ungeheure Bedeutung unsere Kammern und freien Selbstverwaltungskörperschaften bei der Beratung und Durchführung unserer Gesetze haben?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Schäfer [Tübingen] [SPD] : Sehr gut!</desc>
+        </vocal>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-05-25-08-028.u229" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg276">Diese Frage hat nur noch einen sehr losen Zusammenhang mit der ursprünglich gestellten.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u230" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg277">Ich frage Sie, ob Sie die Frage beantworten wollen oder nicht.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-05-25-08-028.u231" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg278">Ich bin sehr gern bereit, Herr Präsident, eine Antwort zu erteilen und sage generaliter: Niemand in diesem Raum wird bestreiten — am allerwenigsten die Bundesregierung —, daß die Arbeit der von Ihnen angesprochenen Kammern für die Gesetzgebung und auch sonst äußerst hilfreich ist.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u232" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg279">Eine letzte Zusatzfrage, Herr Abgeordneter Rawe.</seg>
+        </u>
+        <note type="speaker">Rawe (CDU/CSU) :</note>
+        <u who="#Q1720613" xml:id="ParlaMint-DE_1977-05-25-08-028.u233" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg280">Herr Staatssekretär, darf ich aus Ihrer Antwort schließen, daß die Fragestellung des Herrn Kollegen Jäger nur ein wenig zu weit ging, daß er in Wirklichkeit den Kern getroffen hat?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-05-25-08-028.u234" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg281">Diese Frage ist darauf gerichtet, wie das Maß festgelegt wird.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Schäfer [Tübingen] [SPD] : Sehr gut!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg282">Ich habe generaliter gesagt — und wiederhole das —, daß die Unterstellung auf Grund meiner Antwort nicht gerechtfertigt war. Ich wollte zum Ausdruck bringen, daß die Priorität nicht so groß ist, daß eine Antwort innerhalb von drei oder vier Tagen erwartet werden kann. Daß es, wenn eine spezifiziert gestellte Frage kommt, nicht ganz einfach ist, sofort zu antworten, liegt auf der Hand.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u235" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg283">Dann kommen wir zur Frage 60 des Abgeordneten Dr. Steger. — Er ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 61 des Abgeordneten Hansen auf. — Der Fragesteller ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Wir kommen zur Frage 62 des Abgeordneten Hansen. Der Fragesteller hat um schriftliche Beantwortung gebeten. Die Antwort wird als Anlage abgedruckt. Damit haben wir den Geschäftsbereich des Bundesministers der Justiz abgehandelt. Ich danke dem Herrn Staatssekretär. Wir kommen zum Geschäftsbereich des Bundesministers für Verkehr und für das Post- und Fernmeldewesen. Zur Beantwortung steht der Herr Parlamentarische Staatsskretär zur Verfügung. Ich rufe die Frage 67 des Herrn Abgeordneten Dr. Dollinger auf. — Der Abgeordnete ist nicht im Saal. Dann wird die Frage schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Der Abgeordnete Kiechle hat um schriftliche Beantwortung der Frage 68 gebeten. Die Antwort wird als Anlage abgedruckt. Wir kommen zur Frage 69 des Abgeordneten Tillmann. Die Frage ist unzulässig, da sie mit einem Punkt der Tagesordnung dieser Woche zusammenhängt. Ich rufe die Frage 70 des Abgeordneten Hanz auf. — Der Abgeordnete ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Gleiches gilt für die Frage 71. Wir kommen zur Frage 72 des Abgeordneten Dr. Langner. — Der Fragesteller ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Gleiches gilt für die Frage 73. Ich rufe die Frage 74 des Abgeordneten Erhard (Bad Schwalbach)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg284">auf. — Der Fragesteller ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Gleiches gilt für die Frage 75.</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg285">Ich rufe die Frage 76 des Abgeordneten Dr. Kunz (Weiden)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg286">auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg287">Welche Auswirkungen auf das Frachtaufkommen in Menge und DM hat die Aufhebung der Frachtausnahmetarife 382, 383, 384 in Abt. 2 der Deutschen Bundesbahn im ersten Vierteljahr 1977 im Vergleich zum gleichen Zeitraum der Jahre 1976 und 1975 gebracht, dargestellt am Beispiel der Verhältnisse der Bundesbahndirektion Nürnberg, und welche Konsequenzen zieht die Bundesregierung aus dem Ergebnis dieser Entwicklung? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u236" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg288">Herr Kollege, die von der Deutschen Bundesbahn 1 in den in Rede stehenden Zeiträumen und Gebieten beförderten Mengen von Mineralölprodukten sind unter Berücksichtigung der von der Deutschen Bundesbahn nicht beeinflußbaren Marktverhältnisse praktisch unverändert geblieben. Die Mengensteigerungen im ersten Quartal 1977 beliefen sich im Vergleich zum ersten Quartal 1976 auf 0,7 °/o. Die Erträge dieser bisher extrem unwirtschaftlichen Verkehre sind in der erwarteten Höhe gestiegen, so daß die Wirtschaftlichkeit in dem angestrebten Ausmaß verbessert werden konnte.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u237" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg289">Eine Zusatzfrage, Herr Abgeordneter Kunz.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1977-05-25-08-028.u238" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg290">Herr Staatssekretär, da mir Betriebe bekannt sind, die mir Zahlen mitgeteilt haben, nach denen die Bundesbahn nach Einführung der neuen Tarife beim Frachtaufkommen Ausfälle in Millionenhöhe erlitten hat, frage ich Sie: Glauben Sie nicht, daß die Bundesbahn bei Beibehaltung des alten Tarifs eine Einnahmenentwicklung erzielt hätte, die wesentlich positiver gewesen wäre?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u239" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg291">Herr Kollege, diese Ihre Feststellung widerspricht den Feststellungen der Deutschen Bundesbahn. Die Deutsche Bundesbahn geht davon aus, daß die neuen Tarife zu höheren Einnahmen im Vergleich zu den alten Tarifen geführt haben, die — so die Deutsche Bundesbahn — in der Vergangenheit nicht einmal die variablen Kosten gedeckt haben.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u240" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg292">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1977-05-25-08-028.u241" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg293">Herr Staatssekretär, ist Ihnen bekannt, daß auf Grund dieser Tarifänderungen eine Reihe von Betrieben als Kunden von der Bundesbahn abgewandert sind?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u242" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg294">Nein, Herr Kollege, das ist mir nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u243" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg295">Die Frage 77 des Abgeordneten Röhner wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 78 der Frau Abgeordneten Dr. Hartenstein auf. — Die Fragestellerin ist nicht im Saal. Die Frage wird schriftlich beantwortet, ebenfalls die Frage 79 der Frau Abgeordneten Dr. Hartenstein. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 80 des Herrn Abgeordneten Hoffie auf. — Der Fragesteller ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 81 des Herrn Abgeordneten Spitzmüller auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg296">Trifft es zu, daß die Bundesregierung die für die Einführung eines sogenannten TELETRACERS — der in Holland bereits erfolgreich erprobt ist und mit dessen Hilfe über eine im Krankenhaus installierte Funkzentrale und entsprechende Empfänger die ärztliche Pflege und Versorgung älterer und hilfsbedürftiger Menschen in ihren Wohnungen gesteuert werden kann — erforderliche Funkfrequenz unter Hinweis auf eine Überlastung der in Frage kommenden Frequenzbereiche abgelehnt hat, und wann kann gegebenenfalls eine solche Frequenz frühestens zur Verfügung gestellt werden? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u244" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg297">Herr Präsident, wenn der Fragesteller einverstanden ist, würde ich gerne auch die nachfolgende Frage mit beantworten.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u245" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg298">Der Fragesteller ist einverstanden. Dann rufe ich auch die Frage 82 des Herrn Abgeordneten Spitzmüller auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg299">Wie beurteilt die Bundesregierung die Möglichkeit, mittels dieses Systems Kosteneinsparungen zu erzielen, und wird sie aus einer positiven Beurteilung Folgerungen in ihrem Verantwortungsbereich ziehen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u246" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg300">Herr Kollege, zu Ihrer ersten Frage: Die Deutsche Bundespost hat die Zuteilung von Frequenzen aus dem Frequenzbereich 146 bis 174 Mhz für das sogenannte TELETRACERSystem abgelehnt, weil die kritische Frequenzsituation des beweglichen Landfunkdienstes in der Bundesrepublik Deutschland eine Verwendung dieses für bewegliche Funkdienste zugewiesenen Frequenzbereichs für feste Funkverbindungen nicht zuläßt. Die Deutsche Bundespost hat jedoch für den gewünschten Betriebsversuch bereits 1976 zwei Alternativfrequenzbereiche vorgeschlagen. Es handelt sich dabei um Frequenzen aus den Frequenzbereichen 420 bis 430 Mhz bzw. 455 bis 474 Mhz, in denen die vom Hospital geplanten Funkverbindungen betrieben werden könnten. Zu Ihrer zweiten Frage: Inwieweit durch den Einsatz derartiger Funksysteme auch Kosteneinsparungen zu erzielen wären, ist der Deutschen Bundespost nichts bekannt.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u247" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg301">Eine Zusatzfrage, Herr Abgeordneter Spitzmüller.</seg>
+        </u>
+        <note type="speaker">Spitzmüller (FDP):</note>
+        <u who="#Q1408590" xml:id="ParlaMint-DE_1977-05-25-08-028.u248" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg302">Herr Staatssekretär, wenn feststeht, daß durch solche Funkverbindungen Kosteneinsparungen möglich sind, kann man dann davon ausgehen, daß die Bundespost den erforderlichen Freqenzbereich nicht nur für Versuche, sondern generell zur Verfügung stellen wird?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u249" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg303">Sie dürfen davon ausgehen, daß das in den genannten Frequenzbereichen möglich sein wird, wenn diese Versuche positiv verlaufen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u250" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg304">Keine weitere Zusatzfrage. Die Fragen 83, 84 und 85 der Abgeordneten Wohlrabe, Luster und Dr. Pfennig können nach der Geschäftsordnung nicht zugelassen werden, weil sie einen Punkt der Tagesordnung dieser Woche betreffen. Ich rufe die Frage 86 des Herrn Abgeordneten Gärtner auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg305">Welche Mittel hält die Bundesregierung für erforderlich, um den Zeittakt bzw. den Nahbereich im Fernsprechverkehr einzuführen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u251" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg306">Herr Präsident, darf ich auch in diesem Falle unter Zugrundelegung des Einverständnisses des Fragestellers die Frage 87 mit beantworten?</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u252" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg307">Der Fragesteller ist einverstanden. Dann rufe ich auch die Frage 87 des Herrn Abgeordneten Gärtner auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg308">Welche Mehreinnahmen oder Mindereinnahmen erwartet die Deutsche Bundespost bei Einführung des Zeittakts mit unterschiedlicher Dauer hei gleichzeitiger Verwirklichung des Nahbereichs?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u253" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg309">Herr Kollege, zu Ihrer ersten Frage: Der Mittelbedarf für die Realisierung des Nandienstes im Fernsprechverkehr hängt weitgehend von zur Zeit noch nicht festliegenden Randbedingungen ab. Die Auswirkungen acht Minuten langer Zähltakte werden seit dem 15. März 1977 in einem Großversuch ermittelt. Darüber liegen noch keine gesicherten Daten vor. Die Investitionen für den Nandienstversuchsbetrieb betragen 10 Millionen DM. Davon entfallen auf den Nandienst 7,5 Millionen DM und auf die Zeitzählung 2,5 Millionen DM. Unter der Voraussetzung, daß diese Investitionen für den Versuchsbetrieb ausreichen und sich als repräsentativ erweisen, ergäben sich bundesweit für den Nandienst 1,4 Milliarden DM und für die Zeitzählung ca. 0,4 Milliarden DM, also insgesamt 1,8 Milliarden DM an Investitionen. Zur zweiten Frage: Der Großversuch ist mit einem Zähltakt von 8 Minuten über alle Tarifzeiten angelegt. Eine Realisierung des Zähltaktes ist frühestens im Herbst dieses Jahres möglich. Die Auswirkungen können daher erst etwa gegen Ende des Erprobungsjahres festgestellt werden.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u254" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg310">Eine Zusatzfrage, Herr Abgeordneter Gärtner? — Bitte schön.</seg>
+        </u>
+        <note type="speaker">Gärtner (FDP) :</note>
+        <u who="#Q1745154" xml:id="ParlaMint-DE_1977-05-25-08-028.u255" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg311">Gibt es denn, Herr Staatssekretär, keine Planungen oder Prognosen hinsichtlich des Umfangs der zu erwartenden Mehreinnahmen oder Mindereinnahmen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u256" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg312">Nein, Herr Kollege. Gerade der Untersuchung des veränderten Telefonverhaltens der Telefonkunden dienen ja die Versuche in den Versuchsbereichen. Eine aussagekräftige Angabe kann erst dann gemacht werden, wenn die Erprobungsversuche ausgewertet sind.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u257" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg313">Eine weitere Frage, Herr Abgeordneter Gärtner.</seg>
+        </u>
+        <note type="speaker">Gärtner (FDP) :</note>
+        <u who="#Q1745154" xml:id="ParlaMint-DE_1977-05-25-08-028.u258" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg314">Ich habe also richtig verstanden, daß die Bundespost in diesem Falle einen Versuch unternimmt, bei dem sie, was die finanziellen Möglichkeiten des Bundes angeht, keine genauen Vorstellungen davon hat, was das für den Bundeshaushalt an negativen Belastungen bringt?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u259" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg315">Herr Kollege, ich habe Ihnen die Zahlen für die Investitionen genannt, die sich ergeben, wenn die genannten Voraussetzungen stimmen. Dies ist also eine Schätzung, die nicht unbedingt genau so eintreffen muß, weil man nicht weiß, ob das auf den gesamten Bereich der Bundesrepublik übertragbar ist. Was die Einnahmeentwicklung angeht, hat die Bundespost wiederholt zum Ausdruck gebracht, daß sie sich von der Einführung des Zeittaktes im Zusammenhang mit den Nahbereichen keine zusätzlichen Einnahmen erwartet, sondern mit Einnahmeausfällen durch das billigere Telefonieren in den vergrößerten Nahbereichen rechnet. Aber über die Größenordnung ist zur Zeit nichts zu sagen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u260" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg316">Eine weitere Zusatzfrage des Abgeordneten Gärtner.</seg>
+        </u>
+        <note type="speaker">Gärtner (FDP) :</note>
+        <u who="#Q1745154" xml:id="ParlaMint-DE_1977-05-25-08-028.u261" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg317">Trifft es, was die Einführung des Telefonzeittakts angeht, zu, daß der Anteil der hier anzusprechenden Telefongespräche nur rund 3 % ausmacht?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u262" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg318">Sie meinen die Gespräche, die innerhalb dieser Grenze liegen?</seg>
+          <vocal type="exclamat">
+            <desc>Gärtner [FDP] : Ja, 8 Minuten!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg319">— Da gibt es sehr unterschiedliche Zahlen. Diese Zahl ist ermittelt und eine Zeitlang genannt worden. Nach neueren Ermittlungen dauert der größte Anteil der Telefongespräche weit länger.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u263" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg320">Eine letzte Zusatzfrage, Herr Abgeordneter Gärtner.</seg>
+        </u>
+        <note type="speaker">Gärtner (FDP) :</note>
+        <u who="#Q1745154" xml:id="ParlaMint-DE_1977-05-25-08-028.u264" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg321">Wäre es Ihnen möglich, mir in der nächsten Zeit — zwei Wochen, drei Wochen — darüber eine konkrete Aufstellung zukommen zu lassen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u265" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg322">Sofern das zu erfassen ist, selbstverständlich, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u266" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg323">Eine Zusatzfrage des Herrn Abgeordneter Jäger.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1977-05-25-08-028.u267" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg324">Herr Staatssekretär, wie kommt eigentlich der Bundesminister für das Post- und Fernmeldewesen dazu, in dieser Angelegenheit eine solche in der Öffentlichkeit weitgehend kritisierte Maßnahme zu treffen, ehe er sichere Gewißheit darüber hat, ob hier nicht erhebliche Mehrausgaben auf den Bundeshaushalt zukommen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u268" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg325">Ich weiß nicht, Herr Kollege, welche „Maßnahme", die der Bundespostminister getroffen habe, Sie meinen. Es gibt eine Entscheidung des Verwaltungsrates der Deutschen Bundespost, den Nahbereich mit Zeitzählung einzuführen. Die Einführung dieser Zeitzählung ist ausgesetzt worden, um zwischenzeitlich in ausgesuchten Gebieten einen Großversuch mit einem Zeittakt von 8 Minuten im Nahbereich durchzuführen. Hier hat also der Bundespostminister nicht ohne oder gar, wie man verschiedentlich hören und lesen konnte, gegen die Öffentlichkeit oder hinter dem Rücken des Deutschen Bundestages — oder was auch immer Sie meinen mögen — eine Entscheidung getroffen, sondern hier wird ein Versuch gestartet, um festzustellen, ob der von den zuständigen Organen der Deutschen Bundespost, insbesondere dem Verwaltungsrat, beschlossene Nahbereich mit Zeittakt zu realisieren ist.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u269" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg326">Eine Zusatzfrage, Herr Abgeordneter Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD) :</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1977-05-25-08-028.u270" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg327">Herr Staatssekretär, würden Sie, obwohl der Kollege Jäger die Einführung einer derartigen Maßnahme als negativ bezeichnet hat, mir darin zustimmen, daß der größte Tell z. B. der Gemeinden, die neu gegliedert sind, aber auch andere eine derartige Maßnahme der Einführung des Zeittaktes im Nahbereich begrüßen und eigentlich dieses Verfahren beschleunigt durchgeführt wissen wollen, damit in den Orten, die neu gegliedert wurden, nun endlich nicht mehr drei oder vier verschiedene Ortszahlen bei Ferngesprächen vorhanden sind?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u271" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg328">Ich kann Ihnen erstens bestätigen, Herr Kollege, daß aus vielen Bereichen der Bundesrepublik Anforderungen an den Bundespostminister gestellt werden, doch möglichst als erste in der Umstellung auf den Nahbereich mit Zeittakt berücksichtigt zu werden. Ich kann Ihnen zweitens bestätigen, daß nach den ersten Erfahrungen in den ausgesuchten Versuchsbereichen, in denen der Nahbereich mit dem 8-Minuten-Zeittakt praktiziert wird, insbesondere nachdem die ersten Telefonrechnungen mit erheblichen Verbesserungen, also mit geringeren Kosten als früher vorliegen, auch dort weit überwiegend positive Reaktionen zu verzeichnen sind.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u272" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg329">Keine weiteren Zusatzfragen? — Dann rufe ich die Frage 88 des Herrn Abgeordneten Böhm (Melsungen)</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg330">auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg331">Hat sich die Bundesregierung mittlerweile entschlossen, bei der Einführung der Nahverkehrsbereiche im Telefondienst Sonderregelungen für das Zonenrandgebiet einzuführen, und wie sollen diese gestaltet werden? Herr Staatssekretär, bitte.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u273" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg332">Herr Kollege, die Bundesregierung beabsichtigt, für bestimmte Fernsprechortsnetze im Zonenrandgebiet bei der Nahbereichseinteilung begünstigende Sonderregelungen einzuführen. Deshalb wird im Bereich der Knotenvermittlungsstelle Hilders der Nahbereichsverkehr mit einem auf 25 km erweiterten Radius getestet. Entsprechend dem vorliegenden Antrag der Fraktionen der SPD und FDP wird der Bundesminister für das Post- und Fernmeldewesen dem Ausschuß für Verkehr und für das Post- und Fernmeldewesen nach Auswertung des Probebetriebes Vorschläge für eine Nahbereichseinteilung im Zonenrandgebiet machen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u274" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg333">Eine Zusatzfrage, Herr Abgeordneter Böhm.</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1977-05-25-08-028.u275" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg334">Herr Staatssekretär, da Sie darauf hingewiesen haben, daß für bestimmte Gemeinden entlang der Zonengrenze eine Sonderregelung gefunden werden soll, frage ich Sie, ob das bedeutet, daß nicht alle Gemeinden entlang der Demarkationslinie eine solche Vergünstigung erhalten sollen.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u276" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg335">Nein, Herr Kollege, dies können Sie aus meiner Antwort nicht herauslesen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u277" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg336">Eine weitere Zusatzfrage, Herr Abgeordneter Böhm.</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1977-05-25-08-028.u278" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg337">Herr Staatssekretär, darf ich davon ausgehen, daß die Bundesregierung bei der Einführung des Nahbereichs generell einen verdoppelten Radius für die Gemeinden entlang der Zonengrenze einführen will und daß sie dabei strukturpolitische Erwägungen in den Vordergrund ihrer Hilfe für das Zonenrandgebiet stellen will?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-05-25-08-028.u279" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg338">Herr Kollege, ich kann Ihnen nicht sagen, daß eine generelle Verdopplung des Radius eingeführt wird. Es wird das Bestreben der Bundespost sein, in den Problembereichen, in denen die Grenzziehung das Zustandekommen eines vollen Kreises verhindert, durch Vergrößerung des Radius zu ähnlichen Bedingungen wie im übrigen Bundesgebiet zu kommen. Dabei wird sicherlich von Fall zu Fall in einzelnen Bereichen die Abgrenzung sehr genau untersucht werden müssen.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u280" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg339">Damit haben wir den Geschäftsbereich des Bundesministers für Verkehr und für das Post- und Fernmeldewesen abgehandelt. Ich danke dem Herrn Staatssekretär. Die Fragen 89 bis 91 aus dem Geschäftsbereich des Bundesministers für Raumordnung, Bauwesen und Städtebau werden sämtlich schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe den Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen auf. Zur Beantwortung steht der Parlamentarische Staatssekretär zur Verfügung. Die Fragen 92, 93 und 95 sind wegen des Zusammenhangs mit einem in dieser Woche anstehenden Tagesordnungspunkt nicht zulässig. Ich rufe die Frage 94 des Herrn Abgeordneten Kittelmann auf. — Der Fragesteller ist nicht im Saal? — Auch diese Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Forschung und Technologie. Zur Beantwortung steht Herr Staatssekretär Haunschild zur Verfügung. Ich rufe die Frage 96 des Herrn Abgeordneten Engelsberger auf. — Der Fragesteller ist nicht im Saal; die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Für Frage 97 gilt das gleiche.</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg340">Ich rufe Frage 98 des Herrn Abgeordneten Dr. Spöri auf:</seg>
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg341">Hat die Bundesregierung mit der Regierung des Iran in der Frage einer eventuellen Lagerung radioaktiven Mülls im Iran Kontakt aufgenommen, und wenn nicht, beabsichtigt sie, Kontakte aufzunehmen? Herr Staatssekretär, bitte.</seg>
+        </u>
+        <note type="speaker">Haunschild, Staatssekretär im Bundesministerium für Forschung und Technologie:</note>
+        <u who="#Q1577233" xml:id="ParlaMint-DE_1977-05-25-08-028.u281" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg342">Die Bundesregierung hat mit der iranischen Regierung in der Frage einer eventuellen Lagerung radioaktiven Mülls im Iran bisher keinen Kontakt aufgenommen. Der Schah hat im Rahmen eines mehrstündigen allgemeinen Interviews, bei dem auch die Frage der Lagerung von Atommüll berührt wurde, auf Befragen die Möglichkeit einer internationalen Zusammenarbeit erwähnt und dann lediglich hinzugefügt: ,,... vielleicht sogar auf bilateraler Basis." Der Schah hat folglich in erster Linie auf eine internationale Erörterung des Problemkreises abgestellt und die denkbare bilaterale Variante nur beiläufig gestreift. Die Bundesregierung interpretiert diese Bemerkung des Schahs daher auch mehr als eine allgemeine Bekundung seiner Bereitschaft, das Problem im internationalen Rahmen zu erörtern, und schließt nicht aus, daß sie bei einer sich auf internationaler Ebene bietenden Gelegenheit — etwa im Rahmen der Internationalen Atomenergiekommission — auf diese Frage zurückkommen wird.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u282" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg343">Eine Zusatzfrage, Herr Abgeordneter Dr. Spöri.</seg>
+        </u>
+        <note type="speaker">Dr. Spöri (SPD) :</note>
+        <u who="#Q92536" xml:id="ParlaMint-DE_1977-05-25-08-028.u283" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg344">Herr Staatssekretär, ist es für die Bundesregierung grundsätzlich denkbar, daß die Entsorgungsfrage bei deutschen Kernkraftwerken aufgespalten wird in die Wiederaufbereitung von Brennelementen im Inland und in die Endlagerung radioaktiven Mülls im Ausland, sofern solche Angebote für Lagerstätten noch gemacht werden sollten?</seg>
+        </u>
+        <note type="speaker">Haunschild, Staatssekretär:</note>
+        <u who="#Q1577233" xml:id="ParlaMint-DE_1977-05-25-08-028.u284" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg345">Es ist sehr schwer, Herr Abgeordneter, eine solche hypothetische Frage zu beantworten, weil bisher konkrete Angebote dieser Art nicht gegeben sind. Man wird bei der Beantwortung berücksichtigen müssen, daß die Bundesrepublik Deutschland sich auf dem Gebiet der Entsorgung wie auch auf dem Gebiet der Versorgung bei der Kernenergie nicht in unangemessene Abhängigkeiten begeben sollte.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u285" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg346">Eine weitere Zusatzfrage, Herr Abgeordneter Dr. Spöri.</seg>
+        </u>
+        <note type="speaker">Dr. Spöri (SPD) :</note>
+        <u who="#Q92536" xml:id="ParlaMint-DE_1977-05-25-08-028.u286" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg347">Herr Staatssekretär, wäre ein eventuelles präzises Angebot der iranischen Regierung oder irgendeiner anderen Regierung ein Argument gegen den geplanten Bau einer Entsorgungsanlage in Niedersachsen?</seg>
+        </u>
+        <note type="speaker">Haunschild, Staatssekretär:</note>
+        <u who="#Q1577233" xml:id="ParlaMint-DE_1977-05-25-08-028.u287" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg348">Herr Abgeordneter, ehe ich diese Frage beantworten kann, müßte die Bundesregierung den Inhalt eines solchen Angebots, den Umfang einer möglichen Lagerung und die damit verbundenen Zeitvorstellungen kennen. Rein hypothetisch kann man — ich bedauere — diese Frage nicht beantworten.</seg>
+        </u>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1977-05-25-08-028.u288" ana="#chair">
+          <seg id="ParlaMint-DE_1977-05-25-08-028.seg349">Ich rufe die Fragen 99 und 100 des Herrn Abgeordneten Krey auf. — Der Herr Abgeordnete Krey ist nicht im Saal. Die beiden Fragen werden daher schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Damit haben wir auch die Fragen aus dem Geschäftsbereich des Bundesministers für Forschung und Technologie abgeschlossen. Ich danke Ihnen, Herr Staatssekretär. Die Fragestunde ist damit beendet. Sie wird morgen um 14 Uhr fortgesetzt. Die nächste Plenarsitzung des Deutschen Bundestags beginnt, wie vorgesehen, morgen um 9 Uhr. Ich schließe die Sitzung.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.33 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

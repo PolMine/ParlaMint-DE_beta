@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1973-02-21-07-016">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 7. Wahlperiode, 16. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 21.02.1973 (16. Sitzung der 7. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 7, Session 16 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1973-02-21 (Session 16 in Legislative Period 7)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="16">16. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">7. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="16">Session 16</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">Legislative Period 7</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 21.02.1973</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1973-02-21</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488222/b10bae395e887aac9ac08afbd1da62fc/pp07-data.zip</idno>
+          <date when="1973-02-21">1973-02-21</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1973-02-21">1973-02-21</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection">
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg1">Die Sitzung ist eröffnet. Zunächst darf ich in Abwesenheit der Kollegin, der Frau Abgeordneten Schroeder aus Detmold zu ihrem 60 Geburtstag gratulieren den sie am 17 Februar beging. Ich spreche ihr dazu die Glückwünsche des Hauses aus.</seg>
+          <kinesic type="applause">
+            <desc>Beifall.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg2">Folgende Amtliche Mitteilungen werden ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg3">Der Parlamentarische Staatssekretär beim Bundesminister der Finanzen hat mit Schreiben vom 14. Februar 1973 die Kleine Anfrage der Abgeordneten Gerster, Pieroth, Josten, Dr. Gölter, Dr. Todenhöfer, Dr. Wagner (Trier)</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg4">, Dr. Freiherr von Weizsäcker und Genossen betr. Räumung der Marne-Kaserne (RheinNahe-Eck)</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg5">in Bingen — Drucksache 7 92 — beantwortet. Sein Schreiben ist als Drucksache 7/190 verteilt. Der Bundesminister für Verkehr hat mit Schreiben vom 16. Februar 1973 die Kleine Anfrage der Abgeordneten Rollmann, Dr. Waigel, Geisenhofer, Dr. Hornhues, Dreyer, Nordlohne und Genossen betr. Schutz von Kindern im Straßenverkehr — Drucksache 7/94 - beantwortet. Sein Schreiben wird als Drucksache 7 192 verteilt. Wir treten in die Tagesordnung ein. Einziger Punkt ist die Fragestunde — Drucksache 7/188 -</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg6">Wir kommen zum Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen. Ich rufe Frage 1 des Herrn Abgeordneten Dr. Franz auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg7">Wie beurteilt die Bundesregierung die erneute Versagung der Einreisegenehmigung für den Bischof der Evangelischen Kirche Berlin-Brandenburg zum 11. Februar 1973 durch die Ostberliner Behörden, und welche Erwartungen hegt sie angesichts dieser wiederholten Verletzung des Berlin-Abkommens durch Ost-Berlin für die Zukunft der innerdeutschen Verhältnisse? Zur Beantwortung Herr Parlamentarischer Staatssekretär Herold.</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1973-02-21-07-016.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg8">Herr Kollege Dr. Franz, ich darf Ihre Frage wie folgt beantworten: Die Bundesregierung und der Berliner Senat bedauern die Tatsache, daß die Behörden der DDR dem Bischof Scharf erneut einen Besuch in Ost-Berlin verweigert haben. Die Ablehnungen sind Gegenstand der Erörterungen im Rahmen der fortlaufenden Gespräche über den Reise- und Besucherverkehr zwischen Beauftragten des Senats und der Regierung der DDR. Das Verhalten der DDR-Behörden widerspricht nach Meinung der Bundesregierung der Vereinbarung zwischen dem Senat und der Regierung der DDR über Erleichterungen und Verbesserungen des Reise- und Besuchsverkehrs vorn 20. Dezember 1971 sowie den dazu ergangenen Erklärungen der Regierung der DDR. Ich wiederhole, was Herr Bundesminister Franke am 14. Februar 1973 vor dem Bundestagsausschuß für innerdeutsche Beziehungen ausgeführt hat und was ich selber in der Fragestunde des Deutschen Bundestages am 20. Dezember 1972 gesagt habe, daß nämlich die Bundesregierung derartige Schwierigkeiten sehr ernst nimmt. Die verbindlich zugesagten Reiseerleichterungen dürfen nicht durch interne Maßnahmen der DDR ausgehöhlt werden. Die Bundesregierung erwartet, daß die Regierung der DDR künftig die vertraglichen Verpflichtungen dem Geist und dem Buchstaben nach erfüllen wird, wie dies Staatssekretär Dr. Kohl zugesagt hat.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dr. Franz: Danke schön!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg9">Keine Zusatzfrage. Frage 2 des Abgeordneten Wohlrabe ist vom Fragesteller zurückgezogen worden. Ich danke Ihnen, Herr Parlamentarischer Staatssekretär, für die Beantwortung. Wir kommen zum Geschäftsbereich des Bundesministers für Raumordnung, Bauwesen und Städtebau. Die Fragen 3 und 4 des Herrn Abgeordneten. Wüster sind vom Fragesteller zurückgezogen worden. Frage 5 des Herrn Abgeordneten Dr. Schmitt-Vockenhausen wird auf Wunsch des Fragestellers schriftlich beantwortet; die Antwort wird als Anlage abgedruckt. Ich rufe den Geschäftsbereich des Bundesministers für Wirtschaft auf, zuerst Frage 61 der Abgeordneten Frau Dr. Neumeister:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg10">Hält jetzt auch die Bundesregierung ein gesetzliches Vertriebsverbot von elektronischen Hörgeräten im Versandhandel u. a. entsprechend der einmütigen Stellungnahme des Ausschusses fur Jugend, Familie und Gesundheit der 6. Legislaturperiode vom 20. Juni 1972</seg>
+          <incident type="incident">
+            <desc>zu Drucksache VI /2972 -- neu</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg11">aus gesundheitspolitischen Gründen für dringend geboten, nachdem laut Backnanger Kreiszeitung vom 15, Januar 1973 ein großes Versandhaus in seinem neuesten Katalog entgegen namhaften fachärztlichen Gutachten elektronische Hörgeräte wiederum allgemein feilbietet? Zur Beantwortung der Herr Parlamentarische Staatssekretär Grüner.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-02-21-07-016.u4" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg12">Frau Kollegin, die Bundesregierung kann auf Grund des derzeitigen Erkenntnismaterials ein gesetzliches Verbot des Vertriebs von elektronischen Hörgeräten im Versandhandel aus gesundheitspolitischen Gründen nicht ausreichend begründen. Es trifft zwar zu, daß der Ausschuß für Jugend, Familie und Gesundheit in seiner Sitzung am 15. Juni 1972 den von Ihnen erwähnten Gesetzentwurf, der ein Vertriebsverbot u. a. im Versandhandel vorsieht, grundsätzlich gebilligt hat; jedoch ist bei der Beratung die Frage der Verfassungsmäßigkeit eines derartigen Verbots nicht ausdiskutiert worden. Eine dem federführenden Wirtschaftsausschuß nahegelegte Anhörung medizinischer Sachverständiger und der betroffenen Verbände zur Klärung der gesundheitspolitischen und verfassungsrechtlichen Fragen hat nicht mehr stattgefunden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg13">Keine Zusatzfrage. Wir kommen zu den Fragen 62 und 63 des Abgeordneten Löffler. Ist der Fragesteller anwesend? -Er ist nicht anwesend. Beide Fragen werden schriftlich beantwortet, und die Antworten werden als Anlage abgedruckt. Ich rufe Frage 64 des Herrn Abgeordneten Dr. Jahn (Braunschweig)</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg14">auf. Der Fragesteller ist nicht anwesend. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe Frage 65 des Abgeordneten Wagner (Günzburg)</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg15">auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg16">Welche Möglichkeiten sieht die Bundesregierung, um zu besseren Wettbewerbsbedingungen für die durch Einfuhren aus EWG- und Dritthandelsländern bedrängte deutsche Lederhandschuhindustrie zu kommen? Zur Beantwortung Herr Parlamentarischer Staatssekretär Grüner, bitte!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-02-21-07-016.u6" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg17">Die Lage der deutschen Lederhandschuhindustrie wird seit Jahren durch hohe Importe und seit 1971 auch durch rückläufigen Inlandverbrauch bestimmt. Die Importe stammen zu 65 0/o aus Ländern der Europäischen Wirtschaftsgemeinschaft. Einige deutsche Unternehmen reagieren auf diese Entwicklung, indem sie sich an den Importen beteiligen und durch Lohnveredelungsaufträge selber Nutzen aus den ausländischen Standortvorteilen ziehen. Diese Praxis sollte in geeigneten Fällen durch eine Kooperation mit ausländischen Produzenten ergänzt werden. Die Bundesregierung erleichtert die Anpassung an diesen Strukturprozeß durch ihre allgemeinen Hilfen, die grundsätzlich auch der Lederhandschuhindustrie zur Verfügung stehen. Außerdem kann aus Mitteln des ERP-Sondervermögens eine Produktionsumstellung gefördert werden. Ich darf mich hierzu auf die in Anlage 10 zur Bundestagsdrucksache VI /2113 wiedergegebene Antwort auf Ihre Anfrage vom 30. März 1971 beziehen. Eine darüber hinausgehende gezielte staatliche Hilfe zugunsten der deutschen Lederhandschuhproduzenten wird nicht erwogen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u7" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg18">Eine Zusatzfrage des Herrn Abgeordneten Wagner.</seg>
+        </u>
+        <note type="speaker">Wagner (Günzburg) (CDU/CSU) :</note>
+        <u who="#Q1818771" xml:id="ParlaMint-DE_1973-02-21-07-016.u8" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg19">Herr Staatssekretär, da Einfuhrschutzmaßnahmen zugunsten der meist mittelständischen Betriebe der Lederhandschuhindustrie doch wenig Wirkung zeigen, möchte ich Sie fragen, ob die Bundesregierung nicht bereit ist, diesen Industriezweig, der besondere Anpassungs- und Absatzschwierigkeiten hat, durch gezielte Maßnahmen in der weiteren Entwicklung des Mittelstandsprogramms der Bundesregierung zu fördern.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-02-21-07-016.u9" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg20">Wir kennen die schwierige Lage der Lederhandschuhindustrie, sehen aber keine Möglichkeit, Herr Kollege, über den Rahmen unserer Gesamtprogramme, zu dem auch das Mittelstandsprogramm gehört, hinaus Förderungen ins Auge zu fassen. Selbstverständlich wird in diesem Rahmen alles getan, was möglich ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u10" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg21">Eine zweite Zusatzfrage, Herr Abgeordneter Wagner.</seg>
+        </u>
+        <note type="speaker">Wagner (Günzburg) (CDU/CSU) :</note>
+        <u who="#Q1818771" xml:id="ParlaMint-DE_1973-02-21-07-016.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg22">Herr Staatssekretär, halten Sie es nicht für erwägenswert, daß die Bundesregierung das vorliegende Mittelstandsprogramm daraufhin überprüft, ob es in der Tat all den Zweigen, die heute unter ganz besonderen Schwierigkeiten stehen, die notwendige Förderung gibt?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-02-21-07-016.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg23">Die Bundesregierung ist der Auffassung, daß dieses Mittelstandsprogramm ständig überprüft und angepaßt werden muß. Sie liegen durchaus richtig mit der Annahme, daß die Bundesregierung gerade die Zweige, die besonders lohnintensiv sind und unter besonderen Schwierigkeiten leiden, dabei im Auge hat. Ich möchte aber gleichzeitig sagen, daß es nicht der Sinn eines Mittelstandsprogramms sein kann, Strukturen, die sich auf die Dauer wirtschaftlich nicht halten lassen, aufrechtzuerhalten. Ich glaube, daß wir darin übereinstimmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg24">Ich danke Ihnen für die Beantwortung der Fragen aus Ihrem Geschäftsbereich, Herr Parlamentarischer Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten auf, zunächst die Frage 66 des Abgeordneten Dr. Früh:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg25">Teilt die Bundesregierung die in der Frankfurter Allgemeinen Zeitung vom 15. Februar 1973 geäußerte Meinung, daß der „Grüne Doller mausetot" ist? Zur Beantwortung Herr Parlamentarischer Staatssekretär Logemann.</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u14" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg26">Herr Präsident, darf ich die Fragen des Abgeordneten Dr. Früh zusammen beantworten?</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u15" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg27">Keine Bedenken, dagegen, daß die Frage 67 mitbeantwortet wird?</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Früh: Nein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg28">— Dann rufe ich auch die Frage 67 des Herrn Abgeordneten Dr. Früh auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg29">Sieht die Bundesregierung eine Möglichkeit, bei den laufenden Beratungen über gemeinsames Handeln in der Währungsfrage innerhalb der EWG das Problem des „Grünen Dollars" gezielt anzusprechen? Bitte schön, zur Beantwortung beider Fragen!</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg30">Herr Kollege Dr. Früh, der Wert der Rechnungseinheit und des Dollars war ursprünglich — in Gramm Feingold ausgedrückt gleich. Auf diese Weise ist wohl der Begriff „Grüner Dollar" entstanden. Durch die zwischenzeitlich erfolgte Dollarabwertung liegt der Wert der der Rechnungseinheit in Feingold ausgedrückt, über dem des Dollars; eine Wertgleichheit ist also nicht mehr gegeben. Insoweit ist der Satz der FAZ „Der Grüne Dollar ist mausetot" nicht unrichtig. Das bedeutet jedoch nicht, daß das System der gemeinsamen Rechnungseinheit überflüssig geworden ist. Das System der Agrarpreise, der Abschöpfungen und Erstattungen setzt das Bestehen einer gemeinsamen Verrechnungseinheit voraus. Ihr Wert ist, in Feingold ausgedrückt, nicht verändert worden. Die Währungskorrekturen der letzten Jahre haben allerdings dazu geführt, daß die Preisniveaus in der Gemeinschaft der Neun nicht mehr einheitlich sind. Um Marktstörungen zu vermeiden, mußte deshalb ein Grenzausgleich eingeführt werden, der gut funktioniert und den Außenhandel entgegen allen Behauptungen bisher nicht beeinträchtigt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg31">Eine Zusatzfrage des Abgeordneten Früh.</seg>
+        </u>
+        <note type="speaker">Dr. Früh (CDU/CSU) :</note>
+        <u who="#Q1673925" xml:id="ParlaMint-DE_1973-02-21-07-016.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg32">Herr Staatssekretär, würden Sie es nach Ihren Ausführungen nicht für zweckmäßig halten, wenn wir uns bemühten, uns von dem Ausdruck „Grüner Dollar", der draußen zu einem gewissen Begriff geworden ist, abzusetzen und schlicht und einfach von der „Rechnungseinheit" zu sprechen?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg33">Das würde ich durchaus für richtig halten. In der Tat ist der Begriff „Grüner Dollar" eigentlich überholt. Er ist nur eine Fiktion.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg34">Eine zweite Zusatzfrage des Abgeordneten Dr. Früh.</seg>
+        </u>
+        <note type="speaker">Dr. Früh (CDU/CSU) :</note>
+        <u who="#Q1673925" xml:id="ParlaMint-DE_1973-02-21-07-016.u21" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg35">Herr Staatssekretär, sind Sie dann mit mir auch der Meinung, daß nach diesen Veränderungen der Währungsparitäten der Grenzausgleich im System dieser Rechnungseinheit nicht mehr nur als als Hilfsinstrument, sondern als eine wesentliche Hilfe zur Funktion dieses Systems überhaupt akzeptiert werden sollte?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg36">Der Meinung bin ich schon. Die Rechnungseinheit hat bis jetzt noch eine sehr bedeutende Funktion. Der Grenzausgleich wurde in dem Augenblick, als sich die Währungen unterschiedlich entwickelten, als ein gewisses System des Ausgleichs notwendig.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg37">Eine dritte Zusatzfrage des Herrn Abgeordneten Dr. Früh.</seg>
+        </u>
+        <note type="speaker">Dr. Früh (CDU/CSU) :</note>
+        <u who="#Q1673925" xml:id="ParlaMint-DE_1973-02-21-07-016.u24" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg38">Herr Staatssekretär, sollten wir dann nicht, da Veränderungen der Währungsparitäten wahrscheinlich nicht oder nur sehr schwer verhindert werden können und dies jedenfalls nicht in unserer Macht allein liegt, dazu übergehen, die Rechnungseinheit und den Grenzausgleich als das System des europäischen Agrarmarktes sozusagen zu institutionalisieren?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg39">Ich würde nicht so weit gehen, das offiziell zu tun. Wir sollten hier doch die Entwicklung abwarten. Wir bemühen uns um Fortschritte in Richtung Wirtschafts- und Währungsunion. Ich möchte deshalb hier nicht durch eine Festlegung vorgreifen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg40">Eine letzte Zusatzfrage des Herrn Abgeordneten Dr. Früh.</seg>
+        </u>
+        <note type="speaker">Dr. Früh (CDU/CSU):</note>
+        <u who="#Q1673925" xml:id="ParlaMint-DE_1973-02-21-07-016.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg41">Welche Möglichkeiten sehen Sie, Herr Staatssekretär, gerade auf Grund der jüngsten Erscheinungen im Zusammenhang mit dem Floating der italienischen Lira, zur Verbesserung des nicht greifenden Grenzausgleichs bei Obst und Gemüse, um die deutsche Gemüse- und Obstwirtschaft vor Schäden zu bewahren?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg42">Herr Kollege Dr. Früh, es ist bekannt, daß der Grenzausgleich nicht bei allen Waren greift. Sie haben Obst und Gemüse genannt. Ich könnte auch auf Eier und Geflügelfleisch hinweisen. Hier wird der Grenzausgleich bekanntlich nur nach dem Getreideanteil berechnet. Hier ist es so gewesen, daß wir uns national bemüht haben, Härten in diesen Bereichen durch gewisse Ausgleichsmöglichkeiten zu vermeiden. Das wird auch künftig wohl der Weg sein. Wir haben uns schon laufend bemüht, den Grenzausgleich noch besser zu gestalten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg43">Eine Zusatzfrage des Herrn Abgeordneten Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1973-02-21-07-016.u30" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg44">Herr Staatssekretär, teilen Sie die Auffassung, daß das Vorhandensein einer Rechnungseinheit mit eine der Vorbedingungen für das Funktionieren der Marktordnungen in der EWG darstellt und insofern beides wegen eines gemeinsamen Marktes absolut notwendig ist?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg45">Das ist durchaus richtig, Herr Kollege Kiechle. Ich darf hinzufügen, daß das gemeinsame Agrarsystem eigentlich mit der am 1. November 1962 in Kraft getretenen Verordnung auf Grund des einheitlichen Nennwertes festgelegt wurde, und das war damals schon die Rechnungseinheit.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u32" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg46">Eine zweite Zusatzfrage des Herrn Abgeordneten Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1973-02-21-07-016.u33" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg47">Herr Staatssekretär, darf ich daraus schließen, daß die Bundesregierung in diesem Zusammenhang auch die Marktordnungen verteidigen wird, wenn sie angegriffen werden sollten?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u34" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg48">Wir haben uns bisher immer für den Gemeinsamen Markt eingesetzt, und das wird auch in Zukunft so sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u35" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg49">Keine weiteren Zusatzfragen. Ich rufe die Frage 68 des Herrn Abgeordneten Kiechle auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg50">Trifft es zu, daß staatliche italienische Stellen in schikanöser Weise den Transport von Frischmilch aus Bayern nach Norditalien behindern oder gänzlich unmöglich machen, hält die Bundesregierung es gegebenenfalls mit dem Buchstaben und dem Sinn des EWG-Vertrages für vereinbar, und welche Schritte hat die Bundesregierung hiergegen bisher unternommen?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u36" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg51">Herr Präsident, darf ich auch diese beiden Fragen zusammen beantworten?</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u37" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg52">Der Fragesteller hat keine Bedenken. Ich rufe auch die Frage 69 des Herrn Abgeordneten Kiechle auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg53">Bejahendenfalls, welche rechtlichen und sonstigen Maßnahmen stehen der Bundesregierung für die Zukunft zur Verfügung, um derartigen diskriminierenden Praktiken italienischer Behörden zu begegnen, und hat die Bundesregierung den zuständigen italienischen Stellen unmißverständlich dargelegt, daß bei einer Fortsetzung der Behinderung des Milchtransports von Bayern nach Norditalien von deutscher Seite ein ähnliches Instrumentarium beim Verbringen z. B. von Obst, Gemüse und Wein von Italien in die Bundesrepublik Deutschland angewendet werden könnte?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg54">Die Bundesregierung hat nach Bekanntwerden der Transportschwierigkeiten bei den Milchlieferungen nach Italien sofort die Deutsche Botschaft in Rom eingeschaltet und auch die Kommission der Europäischen Gemeinschaften unterrichtet. Nach den bisherigen Ermittlungen trifft es nicht zu, daß staatliche italienische Stellen in schikanöser Weise den Transport von Frischmilch aus Bayern nach Norditalien behindern oder gänzlich unmöglich machen. Bei den italienischen Maßnahmen handelt es sich vielmehr um Forderungen von Molkerei zu Molkerei, die privatrechtlicher Art sind. So hat die Milchzentrale Mailand ihre Milchlieferanten aus Bayern gebeten, ihr in regelmäßigen Abständen Bescheinigungen einer neutralen, möglichst amtlichen Prüfstelle über die Frische und einwandfreie Beschaffenheit der Milch zukommen zu lassen. Außerdem hat ein italienischer Veterinärbeamter den „Weg" der Milch vom bayerischen Erzeuger bis zur Milchzentrale in Mailand verfolgt, um den Vorwürfen des italienischen Bauernverbandes entgegentreten zu können. Im übrigen ist das Bayerische Staatsministerium für Ernährung, Landwirtschaft und Forsten in München zur Zeit bemüht, die Italienische Handelskammer mit Sitz in München als neutrale Stelle einzuschalten, um das Problem des Milchtransportes nach Italien künftig auf der unteren Verwaltungsebene zu lösen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u39" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg55">Eine Zusatzfrage des Herrn Abgeordneten Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1973-02-21-07-016.u40" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg56">Herr Staatssekretär, nachdem Sie festgestellt haben, daß es keine schikanösen, sagen wir einmal, „Vorschriften" von seiten der Italiener mehr gibt, möchte ich Sie fragen: Ist dann das Problem z. B. des Rücktransports von Wein in den leeren Milchtankern mittlerweile gelöst? Wird dieser Transport genehmigt?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg57">Dieses Problem hat schon in den vergangenen Jahren eine Rolle gespielt. Ich kann Ihnen den neuesten Stand der Entwicklung nicht sagen und müßte Ihre Frage insoweit schriftlich beantworten.</seg>
+        </u>
+        <note type="speaker">KieChle (CDU/CSU):</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1973-02-21-07-016.u42" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg58">Ich bitte darum.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u43" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg59">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1973-02-21-07-016.u44" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg60">Herr Staatssekretär, da es vorgekommen ist, daß solche Milchtransporte wegen der Abfertigung an der Grenze und einiger „Vorschriften", wie ich das einmal höflich umschreiben möchte, bis zu einer Woche gedauert haben, darf ich Sie fragen: Ist auch das jetzt geregelt oder ist in naher Zukunft eine Regelung zu erwarten, wonach solche Transporte, die ja schließlich Frischprodukte betreffen, normal über die Grenze laufen können?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u45" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg61">Herr Kollege Kiechle, ich habe eigentlich schon darauf geantwortet und gesagt, daß wir uns bemüht haben, sofort die Deutsche Botschaft in Rom einzuschalten, um solche Vorfälle zu verhindern. Da es sich aber hier um Probleme zwischen den Molkereien handelt, scheint mir der geeignetere Weg der zu sein, daß wir uns bemühen, möglichst schon hier bei uns eine neutrale Stelle einzuschalten. Deshalb ist daran gedacht, jetzt die Vertretung Italiens in München als neutrale Stelle wirksam werden zu lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u46" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg62">Eine dritte Zusatzfrage, Herr Abgeordneter Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1973-02-21-07-016.u47" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg63">Herr Staatssekretär, wird die Bundesregierung, wenn solche Kontakte und Bemühungen auf der unteren Verwaltungsebene bzw., wie Sie es formuliert haben, zwischen den Molkereien nun nicht zum Ziele führen, ihrerseits entsprechende Hilfestellung leisten, notfalls auch in der von mir in der zweiten Frage angedeuteten Weise?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u48" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg64">Ich glaube, in der Weise, wie Sie es angedeutet haben, nicht, sondern wir würden uns bemühen, diplomatische Wege zu gehen, die weniger auffällig sein werden, aber trotzdem sehr erfolgversprechend sein können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg65">Keine weiteren Zusatzfragen. Ich rufe die Frage 70 der Abgeordneten Frau Dr. Riede auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg66">Kann die Bundesregierung angeben, ob und inwieweit sie die durch das Hagelunwetter am 15. August 1972 in landwirtschaftlichen und gärtnerischen Betrieben im Raum Stuttgart (Kreis Waiblingen)</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg67">in Höhe von rd. 20 Millionen DM verursachten Schäden finanziell zumindest teilweise ausgeglichen hat?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u50" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg68">Wegen des bestehenden Sachzusammenhangs möchte ich gern beide Fragen zusammen beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u51" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg69">Die Fragestellerin hat keine Bedenken. Ich rufe gleichzeitig die Frage 71 auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg70">Für den Fall, daß die vorstehende Frage verneinend beantwortet wird, frage ich die Bundesregierung, wie sie den teilweise in ihrer Existenz bedrohten Unternehmen Hilfe angedeihen lassen kann, nachdem der Bundesminister für Ernährung, Landwirtschaft und Forsten sich selbst von dem Ausmaß des Schadens überzeugt hat?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1973-02-21-07-016.u52" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg71">Während sich der Bund mit seinen Katastrophenschutzkräften stets an der Bekämpfung von Katastrophen durch die Länder und Kommunen beteiligt, fallen Hilfsmaßnahmen zur Folgenbeseitigung entsprechend der grundgesetzlichen Aufgaben- und Lastenverteilung in Art. 30 und 104 a des Grundgesetzes in die Zuständigkeit der Länder. Durch Bundestagsbeschluß vom 16. Dezember 1960 ist festgelegt, daß die finanzielle Beteiligung des Bundes an Hilfsmaßnahmen eines Landes bei witterungsbedingten Schäden nur subsidiär sein kann und nur dann in Frage kommt, wenn dem einzelnen Bundesland eine ausreichende Hilfeleistung nicht zugemutet werden kann, im Einzelfall die Existenz der Betroffenen gefährdet ist und der Schaden nicht versicherungsfähig war. Vom Land Baden-Württemberg ist bisher kein Antrag auf subsidiäre Hilfeleistung durch den Bund für die in Rede stehenden Betriebe gestellt worden. Das Land hat jedoch aus Landesmitteln Zinsverbilligungen und Beihilfen gewährt, soweit Schäden z. B. an Gewächshäusern nicht durch Glasbruchversicherungen abgesichert waren. Unbeschadet dieser für besondere Katastrophenhilfen geltenden Regelung war und ist die Vergabe von Mitteln zugunsten unwettergeschädigter Betriebe, soweit die sonstigen Voraussetzungen erfüllt sind, im Rahmen des einzelbetrieblichen Investitionsförderungsprogramms für land- und forstwirtschaftliche Betriebe möglich. Obwohl diese Hilfen nicht als besondere Schadensausgleichsmaßnahmen aufzufassen sind, können sie wesentlich dazu beitragen, Unwetterschäden leichter zu überwinden. Nach Mitteilung des Landes Baden-Württemberg ist auch von dieser Möglichkeit Gebrauch gemacht worden, allerdings nach bisherigen Feststellungen nur in einem Fall im Regierungsbezirk Tübingen. Außerdem ist die Bundesregierung bereit, bei mit Bundesmitteln geförderten landwirtschaftlichen und gärtnerischen Betrieben, die unverschuldet in Not geraten sind, im Einzelfall bei der Rückzahlung gewährter Bundesdarlehen Erleichterungen einzuräumen. Voraussetzung hierfür ist allerdings, daß die nach dem Haushaltsrecht vorgesehenen Voraussetzungen für eine Stundung oder eine ähnliche Maßnahme gegeben sind und das betreffende Land hinsichtlich der Landesmittel ebenso verfährt. Den Ländern ist diese Möglichkeit aus früheren Jahren bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u53" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg72">Keine Zusatzfrage. Ich danke Ihnen für die Beantwortung, Herr Parlamentarischer Staatssekretär. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung. Ich rufe die Frage 72 der Abgeordneten Frau Dr. Neumeister auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg73">Welche Schlußfolgerungen für die langfristige Leistungsfähigkeit der gesetzlichen Rentenversicherungen hat die Bundesregierung aus der Tatsache gezogen, daß erstmals 1972 ein Geburtendefizit von 0,1 je 1000 Einwohner errechnet und für 1973 sogar mit 0,6 vorausgeschätzt. wurde? Zur Beantwortung hat Herr Parlamentarischer Staatssekretär Rohde das Wort.</seg>
+        </u>
+        <note type="speaker">Rohde, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1973-02-21-07-016.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg74">Sehr geehrte Frau Kollegin, die Bundesregierung beobachtet die von Ihnen genannte rückläufige Geburtenentwicklung auch unter dem Gesichtspunkt, welche möglichen finanziellen Konsequenzen sowohl entlastender als auch belastender Art sich im Bereich von Sozial-, Bildungs- und Arbeitsmarktpolitik ergeben können. Die von Ihnen angesprochene langfristige Leistungsfähigkeit der gesetzlichen Rentenversicherungen ist angesichts der derzeitigen rückläufigen Geburtenentwicklung nicht gefährdet. Dieses Urteil kann auf Grund der im Bundesministerium für Arbeit und Sozialordnung erarbeiteten demographischen sowie versicherungstechnischen Analysen und langfristigen Vorausberechnungen getroffen werden. Die im jüngsten Rentenanpassungsbericht 1973 — das ist die Bundestagsdrucksache 7/88 — dem Bundestag vorgelegten langfristigen Berechnungen zur Finanzlage der gesetzlichen Rentenversicherungen berücksichtigen die aktuellen demographischen Entwicklungen. Die Ergebnisse zeigen, daß sich im Vorausberechnungszeitraum, d. h. bis zum Jahre 1987, die Finanzlage der gesetzlichen Rentenversicherungen nicht in einem kritischen Bereich bewegt oder deren Solidität gefährdet ist. Mögliche finanzielle Auswirkungen für die Rentenversicherungen als Folge des Geburtenrückgangs könnten sich frühestens etwa gegen 1990 ergeben, wenn die jetzigen schwächeren Geburtenjahrgänge in das Erwerbsleben eintreten und Beitragszahler der Rentenversicherung werden. Es ist möglich, daß sich hierdurch das Verhältnis von Beitragszahlern zu Leistungsempfängern ungünstiger entwickelt, wobei jedoch zu berücksichtigen ist, daß bis zu diesem Zeitpunkt der sogenannte Rentenberg überwunden sein wird. Die finanziellen Belastungen infolge der rückläufigen Geburtenentwicklung, die — unter der Annahme sich fortsetzender niedriger Geburtenzahlen — hierdurch entstehen könnten, sind aber bis zum Jahre 2000 geringer als die durch den gegenwärtigen, bis dahin aber längst überwundenen Rentenberg verursachten finanziellen Folgen. In diesem Zusammenhang ist besonders hervorzuheben, daß eine mögliche finanzielle Mehrbelastung nicht eintreten muß, wenn man unterstellt, daß schon eine stärker steigende Produktivität diese möglichen Folgen des Geburtenrückgangs im Bereich der Rentenversicherung ausgleichen kann. Zudem wäre es verfrüht, zu prognostizieren, daß sich der Geburtenrückgang langfristig in dem Maße fortsetzt, wie er in den vergangenen fünf Jahren sichtbar wurde.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg75">Keine Zusatzfrage. Ich rufe die Frage 73 des Abgeordneten Werner auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg76">Wann gedenkt die Bundesregierung, sowohl im Rahmen der gesetzlichen Rentenversicherung als auch der gesetzlichen Unfallversicherung, die Witwenrente, unabhängig vom Lebensalter, über den bisherigen Wert von sechs Zehntel der dem Versicherten zustehenden Erwerbsunfähigkeitsrente hinausgehend zu verbessern, weil der überwiegende Teil der feststehenden Kosten auch nach dem Tode des Ehemannes unverändert bestehenbleibt? Zur Beantwortung der Herr Parlamentarische Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Rohde, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1973-02-21-07-016.u56" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg77">Herr Kollege Werner, der Herr Bundeskanzler hat bereits in der Regierungserklärung vom 18. Januar 1973 erklärt, daß die soziale Stellung der Frau verbessert werden soll. Der von Ihnen in Ihrer Frage aufgezeigte Weg, der Witwe eines Versicherten nach seinem Tode eine höhere Witwenrente zu geben als bisher, ist eine Möglichkeit zur Verwirklichung dieses Ziels. Ein anderer Weg ist in Schritten zu einer vom Ehemann unabhängigen ausreichenden, eigenständigen Alterssicherung für die Frau zu sehen. Eine solche Lösung wird, folgt man der öffentlichen Diskussion, als vordringlicher bewertet, weil sie der gewandelten Stellung der Frau in Familie, Gesellschaft und Wirtschaft und dem heutigen Verständnis von der Gleichberechtigung von Mann und Frau eher Rechnung trägt. Daher hat die Bundesregierung bereits in der vergangenen Legislaturperiode durch die im Rentenreformgesetz vorgesehene Öffnung der Rentenversicherung erste Schritte in Richtung auf eine eigenständige soziale Sicherung der Frau getan. Weitere Schritte sind in dem Entwurf eines Ersten Eherechtsreformgesetzes, der zur Zeit von dem Herrn Bundesjustizminister zusammen mit meinem Hause vorbereitet wird und in Kürze vom Kabinett verabschiedet werden soll, für geschiedene Ehefrauen vorgesehen. Der Ausbau der eigenständigen Sicherung aller Frauen wird, so hoffe ich, noch im Laufe dieser Legislaturperiode weitere Fortschritte machen. Bei der weiteren Behandlung dieses Problems ist also der Zusammenhang zwischen der Entwicklung einer eigenständigen Alterssicherung der Frau und der Witwenrente zu sehen. Dabei ist auch die finanzielle Leistungskraft der gesetzlichen Rentenversicherung zu berücksichtigen. Auch muß zunächst das finanzielle Ergebnis der Rentenreform 1972 und des kürzlich behandelten 4. Rentenversicherungs-Änderungsgesetzes abgewartet werden. In der gesetzlichen Unfallversicherung ist zu berücksichtigen, daß die Renten auf der Grundlage des letzten Verdienstes des Versicherten berechnet werden und damit eine höhere Augangsbasis haben als die Renten aus der gesetzlichen Rentenversicherung. Zusammen mit der Rente aus der Rentenversicherung, die der Witwe eines Arbeitnehmers nach einem tödlichen Arbeitsunfall ihres Ehemannes neben der Rente aus der Unfallversicherung zusteht, erreichen ihre Bezüge in der Regel mindestens sechs Zehntel seines letzten Nettoverdienstes.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u57" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg78">Eine Zusatzfrage des Herrn Abgeordneten Werner.</seg>
+        </u>
+        <note type="speaker">Werner (CDU/CSU) :</note>
+        <u who="#Q1522503" xml:id="ParlaMint-DE_1973-02-21-07-016.u58" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg79">Herr Staatssekretär, Sie sprachen die Kosten an. Können Sie überschlagsweise bekanntgeben, wie hoch die zusätzlichen Kosten sein würden, wenn man bei der derzeitigen Lage über den Sechs-Zehntel-Betrag hinausginge?</seg>
+        </u>
+        <note type="speaker">Rohde, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1973-02-21-07-016.u59" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg80">Wie weit die Kosten über den Sechs-Zehntel-Betrag hinausgingen, Herr Kollege, hängt von der Annahme ab, die Sie zugrunde legen. Ich kann also Ihre Frage ohne eine nähere Spezifizierung Ihrer Vorstellungen hier nicht beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u60" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg81">Eine zweite Zusatzfrage des Herrn Abgeordneten Werner.</seg>
+        </u>
+        <note type="speaker">Werner (CDU 'CSU) :</note>
+        <u who="#Q1522503" xml:id="ParlaMint-DE_1973-02-21-07-016.u61" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg82">Da Sie gern eine Spezifizierung meiner Vorstellungen haben möchten, frage ich Sie, ob auf der bestehenden Berechnungsgrundlage im Rahmen der Rentenversicherung in Ihrem Ministerium dahin gehende Überlegungen angestellt worden sind, welche zusätzlichen Kosten durch den von mir erwähnten Weg entstehen würden?</seg>
+        </u>
+        <note type="speaker">Rohde, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1973-02-21-07-016.u62" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg83">Herr Kollege, ich habe in meiner Hauptantwort deutlich zu machen versucht, daß das Problem der Witwenrente nicht isoliert zu betrachten ist, sondern mit den auch in der Öffentlichkeit diskutierten Schritten zu einer eigenständigen Sicherung der Frau in engem Zusammenhang zu sehen ist. Das heißt, daß wir Sicherungsformen prüfen, die den Witwen nicht nur als vom Mann abgeleitete Ansprüche zugute kommen, sondern die den Frauen mehr eigenständige Ansprüche eröffnen. Das muß bei den weiteren Beratungen dieses Sachverhalts im Zusammenhang gesehen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u63" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg84">Ich rufe die Frage 74 des Herrn Abgeordneten Zebisch auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg85">Welche Auswirkungen haben sich nach Auffassung der Bundesregierung bisher aus dem EWG-Sozialfonds auf die Bundesrepublik Deutschland insbesondere unter regionalpolitischen Gesichtspunkten ergeben? Zur Beantwortung, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Rohde, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1973-02-21-07-016.u64" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg86">Herr Kollege Zebisch, ich würde Ihre beiden Fragen wegen des engen Sachzusammenhangs gern zusammen beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u65" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg87">Dagegen bestehen keine Bedenken. Ich rufe also auch die Frage 75 des Herrn Abgeordneten Zebisch auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg88">Hält die Bundesregierung Initiativen zur weiteren Aktivierung des EWG-Sozialfonds für notwendig?</seg>
+        </u>
+        <note type="speaker">Rohde, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1973-02-21-07-016.u66" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg89">Ich gehe davon aus, daß sich Ihre erste Frage, Herr Kollege, auf den neuen EWG-Sozialfonds bezieht; denn der alte Sozialfonds läuft seit dem 1. Mai 1972 aus. Er hatte wegen seiner automatischen Intervention, die in Deutschland hauptsächlich der Rehabilitation Behinderter zugute kamen, nur geringe regionalpolitische Auswirkungen. Die Zeit der Wirksamkeit des neuen Sozialfonds, der nunmehr seit Mai 1972 arbeitet, ist aber noch zu kurz, als daß schon ein umfassendes Urteil über seine regionalpolitischen Auswirkungen gefällt werden könnte. Immerhin war es gerade die Bundesrepublik, die den bisher einzigen regionalpolitischen Antrag auf Hilfen aus dem neuen Fonds an die Kommission der Europäischen Gemeinschaften stellte. Über ihn ist auch positiv entschieden worden. Es handelt sich um einen Antrag der Bundesanstalt für Arbeit, der eng an die Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur" angelehnt war und Hilfen des Sozialfonds für die Ausgaben der Bundesanstalt, insbesondere zu Unterhaltsgeldern während der Umschulung oder Fortbildung, Lehrgangsgebühren, Kosten für Unterkunft und Verpflegung, Einarbeitungszuschüssen, Reise- und Umzugskosten sowie Trennungsbeihilfen, beinhaltete. Leider konnte der Antrag nicht in seiner ursprünglich vorgesehenen Höhe von der Kommission angenommen werden, da er mit mehr als 79 Millionen DM für die Bundesrepublik den finanziellen Rahmen des Europäischen Sozialfonds für 1972 überschritten hätte. Immerhin ermöglichen es die von der Kommission genehmigten 37 Millionen DM der Bundesanstalt für Arbeit, Arbeitslosigkeit in den Fördergebieten, vor allem im Zonenrandgebiet, abzubauen oder ihr durch vorsorgliche Maßnahmen rechtzeitig entgegenzutreten. Zu Ihrer zweiten Frage kann ich Ihnen versichern, daß die Bundesregierung alle Initiativen der Gebietskörperschaften, der Bundesanstalt für Arbeit oder jeder anderen Körperschaft unterstützen wird, durch die Hilfen aus dem Europäischen Sozialfonds zur Förderung der regionalen Entwicklung erlangt werden können. Das Volumen des Sozialfonds wird in den kommenden Jahren so ansteigen, daß auch bei uns regionalpolitische Auswirkungen der Hilfen des Fonds spürbar werden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u67" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg90">Eine Zusatzfrage des Abgeordneten Zebisch.</seg>
+        </u>
+        <note type="speaker">Zebisch (SPD) :</note>
+        <u who="#Q1251027" xml:id="ParlaMint-DE_1973-02-21-07-016.u68" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg91">Herr Staatssekretär, bis wann glauben Sie die ersten authentischen Zahlen hinsichtlich des neuen Sozialfonds von der Bundesanstalt bekommen zu können?</seg>
+        </u>
+        <note type="speaker">Rohde, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1973-02-21-07-016.u69" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg92">Herr Kollege, ich habe schon darauf hingewiesen, daß der neue Sozialfonds erst voll wirksam werden muß. Ich werde gern dafür Sorge tragen, daß Ihnen, wenn ein angemessener Zeitabschnitt verstrichen ist, ein Überblick über die bisherigen Bewilligungen bzw. Antragstellungen gegeben wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg93">Keine Zusatzfragen. Ich rufe die Frage 76 des Herrn Abgeordneten Dr. Miltner auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg94">Entspricht es den Tatsachen, daß die im Haushalt 1973 der Bundesanstalt für Arbeit (BA)</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg95">enthaltenen Stellenmehrungen von der Bundesregierung ohne nähere Prüfung gestrichen worden sind, nachdem bereits vorher durch die Selbstverwaltungsorgane der BA eine erhebliche Globalkürzung der sich nach der Personalbedarfsrechnung vom Mai 1972 rechnerisch ergebenden Stellenmehrungen erfolgt ist? Zur Beantwortung, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Rohde, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1973-02-21-07-016.u71" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg96">Herr Präsident, ich würde die Fragen 76 und 77 des Herrn Abgeordneten Dr. Miltner gern zusammen mit der Frage 78 des Herrn Abgeordneten Schulte (Schwäbisch Gmünd)</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg97">beantworten, weil sie faktisch den gleichen Sachverhalt betreffen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u72" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg98">Zumindest die Frage 77 des Abgeordneten Dr. Miltner rufe ich mit auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg99">Hält die Bundesregierung eine derartige Behandlung der Bediensteten dieser Anstalt für vertretbar, die im Interesse des zu betreuenden Personenkreises in den vergangenen Jahren über das normale und zumutbare Maß hinaus Belastungen auf sich genommen haben? Der Herr Abgeordnete Schulte (Schwäbisch Gmünd)</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg100">ist zwar nicht anwesend, aber ich denke, daß es im Sinne des Herrn Abgeordneten Schulte ist, wenn Sie seine Frage in diesem Zusammenhang beantworten.</seg>
+        </u>
+        <note type="speaker">Dr. Miltner (CDU/CSU) :</note>
+        <u who="#Q1732384" xml:id="ParlaMint-DE_1973-02-21-07-016.u73" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg101">Herr Präsident, wäre es möglich, daß ich dann die Frage 78 als Zusatzfrage nehme?</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u74" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg102">Sie haben vier Zusatzfragen. Wenn Sie nicht zu weit vom Thema abschweifen, bin ich bereit, das zuzulassen. Zur Beantwortung der Herr Parlamentarische Staatssekretär, bitte!</seg>
+        </u>
+        <note type="speaker">Rohde, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1973-02-21-07-016.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg103">Herr Kollege, zu den Überlegungen, auf denen die von Ihnen erwähnte Entscheidung der Bundesregierung beruht, habe ich in meiner schriftlichen Antwort auf die Frage des Abgeordneten Dr. Oetting Stellung genommen. Ich darf Sie auf die Anlage 17 zum Protokoll der Bundestagssitzung vom 1. Februar 1973 hinweisen. Hieraus können Sie entnehmen, daß die Bundesregierung ihre Entscheidung nach sorgfältiger Prüfung des Sachverhalts getroffen hat. Ich habe damals ausgeführt, daß die Bundesanstalt für Arbeit ihr Personal seit dem Inkrafttreten des Arbeitsförderungsgesetzes im Jahre 1969 um 6100 Stellen — das sind mehr als 23 % — vermehren konnte und damit zur Zeit mehr als 40 000 Bedienstete beschäftigt. Der Bundesanstalt war es bei gegenwärtigen Arbeitsmarktlage noch nicht möglich, alle ihr zur Verfügung stehenden Stellen zu besetzen. Bei dieser Sachlage erschien es der Bundesregierung vertretbar, den weiteren Ausbau des Personalbestandes der Bundesanstalt vorübergehend auf die Besetzung der noch freien Stellen zu beschränken. Sie sah daher keine Möglichkeit, die Bundesanstalt von ihrem generellen Beschluß für die Personalpolitik im Jahre 1973 auszunehmen. Vorstand und Präsident der Bundesanstalt haben inzwischen die in meiner früheren Antwort angekündigten organisatorischen Vorkehrungen getroffen, um sicherzustellen, daß die nach dem Arbeitsförderungsgesetz vorgesehenen Geld- und Dienstleistungen uneingeschränkt gewährt werden und die Bediensteten der Bundesanstalt nicht über das normale und zumutbare Maß hinaus belastet werden. Ich kann erneut versichern, daß das Bundesministerium für Arbeit und Sozialordnung im Gespräch mit der Bundesanstalt für Arbeit steht, um zu prüfen, ob weitere Maßnahmen erforderlich sind. Sie können davon ausgehen, daß alle Beteiligten darin zusammenwirken, daß der Bundesanstalt für Arbeit in ihrem Geschäftsbereich auch künftig die für die Durchführung ihrer Aufgaben benötigten Stellen zur Verfügung stehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg104">Eine Zusatzfrage, der Abgeordnete Dr. Miltner.</seg>
+        </u>
+        <note type="speaker">Dr. Miltner (CDU/CSU) :</note>
+        <u who="#Q1732384" xml:id="ParlaMint-DE_1973-02-21-07-016.u77" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg105">Herr Staatssekretär, darf ich dann davon ausgehen, daß Sie die Belastung der Angehörigen der Bundesanstalt für Arbeit anerkennen und auch anerkennen, daß sie im Augenblick über das normale Maß hinausgeht?</seg>
+        </u>
+        <note type="speaker">Rohde, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1973-02-21-07-016.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg106">Herr Kollege, es ist anzuerkennen, daß die Bediensteten der Bundesanstalt für Arbeit nach dem Inkrafttreten des Arbeitsförderungsgesetzes umfangreiche Aufgaben übernommen haben, die sich aus diesem Gesetz ergeben. Sie haben beachtliche Anstrengungen unternommen, die zum Ziel hatten, den Betroffenen möglichst schnell die neuen Hilfen an die Hand zu geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg107">Eine zweite Zusatzfrage, der Abgeordnete Dr. Miltner.</seg>
+        </u>
+        <note type="speaker">Dr. Miltner (CDU/CSU) :</note>
+        <u who="#Q1732384" xml:id="ParlaMint-DE_1973-02-21-07-016.u80" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg108">Herr Staatssekretär, können Sie bestätigen, daß die Konzeption des Arbeitsförderungsgesetzes wegen des Fehlens von Arbeitskräften nicht voll verwirklicht werden kann?</seg>
+        </u>
+        <note type="speaker">Rohde, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1973-02-21-07-016.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg109">Herr Kollege, so kann ich das nicht bestätigen. Sie wissen, daß aus den Bestimmungen des Arbeitsförderungsgesetzes in den ersten Jahren seiner Durchführung zunächst Schwierigkeiten erwachsen sind. Daraufhin ist es zu neuen Anordnungen der Bundesanstalt für Arbeit gekommen, die u. a. für viele Leistungen pauschalierende Verwaltungsverfahren vorsehen. Ich habe den Eindruck, daß diese neuen Anordnungen zum Arbeitsförderungsgesetz in dem von Ihnen genannten Leistungsbereich zur Erleichterung der Arbeit beigetragen haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg110">Keine Zusatzfrage. Die Frage 78 des Abgeordneten Schulte (Schwäbisch Gmünd)</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg111">wird auf inzwischen vorgebrachten Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 79 des Abgeordneten Dr. Evers auf. — Der Abgeordnete ist nicht im Saal. Die Fragen 79 und 80 werden schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Ich danke Ihnen, Herr Parlamentarischer Staatssekretär, für die Beantwortung der Fragen aus Ihrem Geschäftsbereich. Ich rufe den Geschäftsbereich des Bundesministers der Verteidigung auf. Zunächst die Frage 81 der Abgeordneten Frau Dr. Riedel-Martiny:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg112">Welche raumordnerischen Gesichtspunkte leiten die Bundesregierung bei der Planung von Übungsplätzen der Bundeswehr in Ballungsgebieten? Zur Beantwortung der Herr Parlamentarische Staatssekretär Berkhan.</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u83" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg113">Herr Präsident! Frau Kollegin! Die Bundesregierung und selbstverständlich auch der Bundesminister der Verteidigung berücksichtigen bei der Planung von Einrichtungen der Bundeswehr die in § 2 des Raumordnungsgesetzes aufgeführten Grundsätze. Darüber hinaus hat die Bundesregierung in ihren Raumordnungsberichten von 1963 und 1966 eindeutig festgestellt, daß bei der Deckung des Landbedarfs für Zwecke der Verteidigung, wenn es die strategischen Erfordernisse zulassen, Raum mit dichter Besiedlung von einer Inanspruchnahme soweit wie möglich ausgenommen wird. Sie dürfen versichert sein, Frau Kollegin, daß der Bundesminister der Verteidigung bei der Planung und Errichtung neuer Übungsplätze soweit wie möglich auf die Interessenlage der unmittelbar Betroffenen Rücksicht nimmt. Allerdings, Frau Kollegin —, das müssen wir uns alle gegenwärtig halten —, wenn man die politische Notwendigkeit der Bundeswehr bejaht, muß man auch Beeinträchtigungen in Kauf nehmen, die sie verursacht. Die Bundeswehr kann nur dann ihren politischen Auftrag im Verteidigungsfall und auch in der Sicherung der Verteidigung erfüllen, wenn man ihr die Möglichkeit gibt, sich im Frieden auf diesen Auftrag vorzubereiten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u84" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg114">Eine Zusatzfrage, die Abgeordnete Frau Dr. Riedel-Martiny.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Riedel-Martiny (SPD) :</note>
+        <u who="#Q556817" xml:id="ParlaMint-DE_1973-02-21-07-016.u85" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg115">Hält die Bundesregierung einen Standortübungsplatz mit Munitionsdepot etwa 10 km nördlich einer Millionenstadt raumordnerisch für vertretbar, und wie nahe an Wohnsiedlungen dürfen Übungsplätze und darf ein Munitionsdepot generell liegen?</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesministerium der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u86" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg116">Frau Kollegin, ich nehme an, daß Sie in Ihrer Zusatzfrage die Standortübungsplätze Freimann und Feldmoching und deren Verlegung ansprechen.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Frau Dr. Riedel-Martiny: Ja, die Verlegung!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg117">Diese beiden Truppenübungsplätze müssen im Interesse der städtebaulichen Entwicklung der Landeshauptstadt München und wegen des Baus verschiedener Verkehrseinrichtungen von zum Teil überörtlicher Bedeutung verlegt werden. Für das Vorhaben wurde im Jahre 1968 — ich glaube, es war im Oktober — ein Anhörungsverfahren nach dem Landbeschaffungsgesetz eingeleitet, das mit zustimmender Stellungnahme der bayerischen Staatskanzlei vom 22. Dezember 1972 abgeschlossen wurde. Das bayerische Staatsministerium für Landesentwicklung und Raumordnung war an diesem Anhörungsverfahren maßgeblich beteiligt. Der Bundesminister der Verteidigung hat keinen Zweifel daran, daß hierbei alle raumplanerischen und raumordnerischen Gesichtspunkte gebührend berücksichtigt wurden. Das neue Übungsgelände wird im Süden von einer nur für Gewerbebetriebe ausgewiesenen Fläche begrenzt, im Osten überwiegend von der Autobahn München—Nürnberg, im Westen durch die neue Staatsstraße 2053; als Nordgrenze ist ein Weg vorgesehen, der in zirka 300 m Abstand vom Südrand der Ortschaft Eching verläuft. Wegen erheblicher Einwendungen wurde auf die Planung einer Standortschießanlage für das Übungsgelände von vornherein verzichtet. Es werden auf dem Standortübungsplatz keine Übungen mit scharfem Schuß durchgeführt. Daher ist nach Auffassung der Bundesregierung und des Bundesministers der Verteidigung nicht zu befürchten, daß durch den Übungsbetrieb eine übermäßige Belästigung der Bevölkerung erfolgt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg118">Verehrter Herr Parlamentarischer Staatssekretär, ich mache darauf aufmerksam, daß wir Fragen von lokaler Bedeutung jeweils schriftlich beantworten wollen. Hier ist generell gefragt worden, welche Bestimmungen im Zusammenhang mit Siedlungen, Wohnbezirken und ähnlichem einzuhalten sind. Ich bitte also, sich in weiteren Zusatzfragen nicht auf rein lokale Dinge zu beziehen. Bitte schön, eine weitere Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Frau Dr. Riedel-Martiny (SPD) :</note>
+        <u who="#Q556817" xml:id="ParlaMint-DE_1973-02-21-07-016.u88" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg119">Ich frage nochmals generell: Sind Schadenersatzansprüche bei Lärmbelästigung und Wohnwertminderung in einer Wohnsiedlung nahe eines Standortübungsplatzes gesetzlich geregelt bzw. beabsichtigt die Bundesregierung, dieses zu tun?</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg120">Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg121">Verehrte Frau Fragestellerin, Ihre Zusatzfrage trifft nicht ganz die Grundfrage. Ich bitte Sie, diesen Gesichtspunkt in Zukunft zu berücksichtigen. Weitere Zusatzfragen dazu? — Bitte schön, Herr Kollege!</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD) :</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1973-02-21-07-016.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg122">Herr Staatssekretär, können Sie die Frage allgemein beantworten, in welcher Entfernung von Wohnsiedlungen Munitionslager liegen dürfen?</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg123">Nein, diese Frage kann ich Ihnen so nicht beantworten. Ich werde das prüfen lassen. Sie können nicht erwarten, daß ich einen Computer im Kopf habe, der auf Meter und Kilometer genau festlegt, welche Abstände eingehalten werden müssen. Die Sicherheitsabstände sind in Vorschriften festgelegt. Ich kann Ihnen die Gewißheit geben, daß Standortsmunitionsniederlagen sich nicht in ungebührender Entfernung von Wohnsiedlungen befinden.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u93" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg124">Eine Zusatzfrage des Abgeordneten Damm.</seg>
+        </u>
+        <note type="speaker">Damm (CDU/CSU) :</note>
+        <u who="#Q1037437" xml:id="ParlaMint-DE_1973-02-21-07-016.u94" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg125">Herr Staatssekretär, können Sie bestätigen, daß eine große Zahl von Übungsplätzen von der Bundeswehr aus der Vergangenheit übernommen worden ist, daß diese Plätze oftmals weitab von der Bebauung etwa der Großstädte gelegen haben, daß sich die Großstädte oder Städte aber ohne Rücksicht darauf, daß hier solche Übungsplätze vorhanden waren, immer weiter in dieser Richtung ausgedehnt haben, so daß die Bundeswehr sich jetzt in der Benutzung dieser Plätze eingeengt fühlt, was sich beispielsweise in der Tatsache niederschlägt, daß sie dort jetzt nicht mehr mit scharfern Schuß üben kann?</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u95" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg126">Herr Parlamentarischer Staatssekretär zur Beantwortung, bitte!</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u96" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg127">Herr Kollege Damm, lassen wir den letzten Satz bitte beiseite. Sie wissen ganz genau, daß für Übungen mit scharfem Schuß besondere Sicherheitsmaßnahmen gelten. Es ist richtig, daß in dem geordneten Verfahren — das ist im Raumordnungsgesetz festgelegt — Baugenehmigungen durch die dafür zuständigen Landesbehörden oder nachgeordneten Behörden erteilt wurden. Es ist ebenso richtig, daß durch diese Maßnahmen viele Übungsplätze, insbesondere Standortübungsplätze, langsam von bebautem Gebiet umgeben werden. Dafür kann aber das Haus, welches ich hier vertrete — unser Haus hat dies sozusagen als Erbmasse übernommen — nicht verantwortlich gemacht werden. Ich wiederhole hier den Satz aus der Antwort auf die Ausgangsfrage der Frau Kollegin Riedel-Martiny: Wer eine Bundeswehr instand halten will, muß dafür sorgen, daß sie in Standortnähe üben kann. Es helfen keine Übungsplätze, die Anmärsche von mehreren Stunden erforderlich machen, damit wieder die Straßen belasten und den Verkehr verstopfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u97" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg128">Eine Zusatzfrage des Herrn Abgeordneten Dr. Probst.</seg>
+        </u>
+        <note type="speaker">Dr. Probst (CDU/CSU):</note>
+        <u who="#Q119696" xml:id="ParlaMint-DE_1973-02-21-07-016.u98" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg129">Herr Staatssekretär, da es sich bei dem hier angesprochenen Übungsplatz um einen solchen handelt, der eigentlich nicht mehr eine normale Garnison bedienen soll, möchte ich an Sie die Frage richten, ob es nicht möglich wäre, den Übungsplatz in diesem Raum wenigstens nicht in voller Größe auszuweisen, zumal München ja mehr und mehr eine Bundeswehrschulstadt wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u99" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg130">Verehrter Herr Kollege, lokale Fragen lassen wir nicht zu. Der Herr Staatssekretär kann Ihre Frage gelegentlich schriftlich beantworten. Ich muß daran erinnern, daß wir in der vergangenen Legislaturperiode ausdrücklich festgelegt haben, daß Fragen lokaler Bedeutung nicht Gegenstand der Fragestunde sind, sondern schriftlich beantwortet werden. Eine Zusatzfrage allgemeiner Art, Herr Kollege Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU):</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1973-02-21-07-016.u100" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg131">Herr Staatssekretär, können Sie der Auffassung zustimmen, daß im Zusammenhang mit der Antwort auf die vorige Frage gesagt werden könnte, daß kommunale Planungsbehörden sowohl ihrer Planungsbefugnis als auch ihrer Planungsaufgabe nicht richtig nachgekommen sind?</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u101" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg132">Herr Kollege, es steht mir nicht zu, hier Werturteile über Kommunalverwaltungen und Aufsichtsorgane der Kommunalverwaltungen abzugeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u102" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg133">Keine weiteren Zusatzfragen. Ich rufe die Frage 82 des Herrn Abgeordneten Gerster auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg134">Wird die Bundesregierung Maßnahmen ergreifen, uni die Verlegung der Raketenbasen von USA-Streitkräften, die unmittelbar neben dem Wohngebiet Mainz-Lerchenberg stationiert sind, aus Gründen des Umweltschutzes zu erreichen und außerdem zu verhindern, daß die geplante Abholzung von 43 ha Wald unterbunden wird, damit es nicht zur weitgehenden Zerstörung eines der wichtigsten Naherholungsgebiete der Landeshauptstadt Mainz kommt? Zur Beantwortung der Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg135">Herr Präsident! Herr Kollege, auf dem Übungsgelände der US-Streitkräfte im Ober-Olmer Wald bei Mainz befindet sich der Abschußbereich einer NATO-NIKE-Stellung. Der zugehörige Feuerleitbereich liegt in der amerikanischen Kaserne südlich Wackernheim. Diese Anlage ist ein wichtiger Bestandteil des Luftverteidigungssystems der NATO und viele Jahre vor dem Bau der Wohnsiedlung Mainz-Lerchenberg errichtet worden. Es besteht keine Möglichkeit, diese NIKE-Stellung zu verlegen. Für die Funktion der Stellung ist eine unmittelbare Sichtverbindung zwischen Abschuß- und Feuerleitbereich erforderlich. Diese Sichtverbindung war bei dem Bau der Stellung vorhanden, ist aber gegenwärtig unterbrochen, weil in dem Wald auf der Strecke von dem Feuerleitbereich zum Abschußbereich Stangenholz nachgewachsen ist. Da ohne diese Sichtverbindung die Stellung nicht einsatzbereit ist, muß das Stangenholz beseitigt werden. Das Gelände wird anschließend in der Weise wieder aufgeforstet, daß sowohl den Belangen der Forstwirtschaft als auch der Landesverteidigung und dem verständlichen Wunsch der Bevölkerung, dort wandern und spazierengehen zu können, entsprochen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u104" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg136">Das ist im Grunde wiederum eine lokale Frage, da sie aber eine gewisse überörtliche Bedeutung hat, sollen Sie eine Zusatzfrage haben.</seg>
+        </u>
+        <note type="speaker">Gerster (Mainz) (CDU/CSU) :</note>
+        <u who="#Q1436925" xml:id="ParlaMint-DE_1973-02-21-07-016.u105" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg137">Herr Staatssekretär, gestatten Sie, daß ich an die Zusatzfragen zu der Vorfrage anschließe. Kann es Ihrer Auffassung nach hingenommen werden, daß in unmittelbarer Nachbarschaft zu Wohngebieten — hier in einem Wohngebiet, das für 10 000 bis 15 000 Menschen ausgewiesen ist — NIKE-Raketen-Abschußanlagen stationiert sind, oder sind Sie nicht der Meinung, daß diese in eine größere Entfernung zu den Wohngebieten verlegt werden müssen?</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u106" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg138">Herr Kollege, ich teile die Auffassung, die aus der Frage herauszuhören ist, nicht. Diese NIKE-Raketen dienen dem Schutz der Bevölkerung, die dort wohnt, und es sind keine Angriffswaffen, sondern Abwehrwaffen für einen hoffentlich nie eintretenden Ernstfall.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u107" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg139">Noch eine Zusatzfrage, Herr Abgeordneter Gerster.</seg>
+        </u>
+        <note type="speaker">Gerster (Mainz) (CDU/CSU) :</note>
+        <u who="#Q1436925" xml:id="ParlaMint-DE_1973-02-21-07-016.u108" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg140">Herr Staatssekretär, wer hat in Fällen dieser Art die Kosten für die Wiederaufforstung zu tragen?</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u109" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg141">Herr Kollege Gerster: der Veranlasser. Ich kann im Moment nicht sagen, wer der Veranlasser ist. Ich werde mich jedenfalls im weiteren Verfolg dieser Angelegenheit darum kümmern, daß dort Anpflanzungen vorgenommen werden, die möglichst von vornherein einen nur relativ niedrigen Bewuchs garantieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u110" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg142">Dazu noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wichert (SPD) :</note>
+        <u who="#Q1561201" xml:id="ParlaMint-DE_1973-02-21-07-016.u111" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg143">Herr Staatssekretär, obwohl es sich hier wirklich um eine Problem lokaler Größenordnung handelt, möchte ich fragen: Trifft es zu, daß sich der Staatssekretär im Verteidigungsministerium, Herr Fingerhut, demnächst an Ort und Stelle überzeugen wird und daß dann wohl auch Lösungen besprochen werden, die sich anbieten?</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg144">Herr Kollege, nachdem Sie mich hier so festnageln, muß ich Ihnen natürlich sagen, das trifft zu. Es wäre schlimm, wenn ich sagen müßte, wir sehen uns solche Dinge nicht an. Ich werde meinen Kollegen Fingerhut bitten, eine Ortsbesichtigung vorzunehmen, spreche aber gleichzeitig die Bitte aus, daß damit nicht verbunden ist, daß mein beamteter Kollege ununterbrochen in dieser Republik herumreisen und Ortsbesichtigungen vornehmen muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg145">Ich rufe die Frage 83 des Herrn Abgeordneten Damm auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg146">Welchen Wert mißt die Bundesregierung der Fortsetzung der MRCA-Entwicklung und der geplanten Einführung dieses Flugzeugs in die deutschen, englischen und italienischen Streitkräfte bei im Hinblick auf die künftige militärische Friedenssicherung, die europäische Zusammenarbeit, die technische und wirtschaftliche Entwicklung der Bundesrepublik Deutschland und Europas? Zur Beantwortung der Herr Parlamentarische Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u114" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg147">Herr Präsident! Herr Kollege Damm, die Bundesregierung hat ihren Partnern am MRCA-Programm — Multi Role Combat Aircraft, also Mehrzweckkampfflugzeug —, Großbritannien und Italien, erklärt, daß sie bereit ist, gemeinsam mit ihnen die Entwicklung des MRCA weiterzuführen und in die Produktionsvorbereitungsphase einzutreten. Diese Erklärung erfolgte nach intensiver Prüfung, bei der die sicherheitspolitischen, die militärischen, die technischen, die wirtschaftlichen und die finanziellen Gesichtspunkte durchleuchtet wurden. Ausgangspunkt ist die Erkenntnis, daß am Ende dieses Jahrzehnts die gegenwärtigen fliegenden Waffensysteme durch eine neue Generation ersetzt werden müssen. Für bestimmte, konkret definierte Aufgaben ist das unter der Bezeichnung „Multi Role Combat Aircraft" (MRCA)</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg148">bekannte Muster besonders geeignet. Das gilt nicht allein für die Bundeswehr, sondern auch für unsere Partner Großbritannien und Italien. Ein besonderes Kennzeichen dieses Flugzeugmusters ist, daß unterschiedliche nationale Einsatzaufgaben in einem Einsatzspektrum zusammengefaßt werden konnten, die auch den NATO-Forderungen entsprechen. Insbesondere sicherheitspolitische, aber auch wirtschaftliche Erwägungen sprechen für eine europäische Lösung. Unter anderem wird auf diese Weise technisches und wirtschaftliches Risiko auf mehrere Partner aufgeteilt. Es werden technisches Know-how und Produktionskapazität in Europa erhalten und damit auch in dieser Hinsicht eine politische und wirtschaftliche Integration gefördert. Diese Auffassung steht nicht im Gegensatz zu unserer Haltung gegenüber anderen Bündnispartnern. Dieses Programm ist gewissermaßen eine europäische Eigenleistung innerhalb der Atlantischen Allianz und entspricht damit einer von vielen Seiten gewünschten stärkeren Beteiligung der Europäer. Die jetzt getroffene Meilensteinentscheidung nimmt nicht automatisch auch die „endgültige" Entscheidung über Produktion und Einführung vorweg. Das kann frühestens am Ende der Entwicklungsphase geschehen und setzt weitere einmütige Beschlüsse der Partner an weiteren Meilensteinen voraus. Dieses Verfahren garantiert der Bundesrepublik den notwendigen inneren und äußeren Entscheidungsspielraum.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg149">Eine Zusatzfrage, der Abgeordnete Damm.</seg>
+        </u>
+        <note type="speaker">Damm (CDU/CSU) :</note>
+        <u who="#Q1037437" xml:id="ParlaMint-DE_1973-02-21-07-016.u116" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg150">Herr Staatssekretär, ich kann sicherlich Ihrer Antwort entnehmen, daß die Regierung der MRCA-Entwicklung und der Einleitung der Produktion einen sehr großen Wert beimißt. Ich möchte Sie deswegen fragen, ob Ihre Antwort eine eindeutige Dementierung der auch noch in der letzten Woche wiederkehrenden Meldungen bedeutet, daß etwa die Entwicklung von MRCA eingestellt werden müsse, weil die Preise für die Weiterführung dieser Entwicklung und eine mögliche Produktion zu hoch seien.</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg151">So ist es, Herr Kollege. Wir sind in der Entwicklungsphase 3 A. Diese Entwicklungsphase ist nicht abgeschlossen. Sie wird erst abgeschlossen sein, wenn aus der Vorserienphase und der Produktionsinvestmentphase bereits ein paar Monate Lauf entstanden sind. Sie wird also erst abgeschlossen sein, wenn das erste Flugzeug fliegt. Erst dann stehen wir wieder vor einem Meilenstein der Entscheidung. Wir werden uns dann zu entscheiden haben, ob und in welcher Stückzahl wir und unsere Partner dieses Flugzeug einführen. Bis zum Ende dieser Entwicklungsphase ist die Bundesregierung auf jeden Fall voranzuschreiten gewillt. Damit habe ich gar keine Aussagen über das gemacht, was danach kommt. Das bleibt noch für die Entscheidung offen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg152">Eine zweite Zusatzfrage, der Abgeordnete Damm.</seg>
+        </u>
+        <note type="speaker">Damm (CDU/CSU) :</note>
+        <u who="#Q1037437" xml:id="ParlaMint-DE_1973-02-21-07-016.u119" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg153">Herr Staatssekretär, sind Sie in der Lage, zu bestätigen — vielleicht nur in negativer Weise —, daß die in der Öffentlichkeit genannten möglichen System-Stückpreise — 50 Millionen hat es in einem Nachrichtenmagazin geheißen — weit über das Ziel hinausschießen und keinerlei Realität hinter sich haben?</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg154">Herr Kollege Damm, Stückpreise sind abhängig von Stückzahlen. Da heute keiner weiß, wieviel Stück von diesem Waffensystem eventuell einmal gebaut werden, ist jede Nennung von Stückpreisen ein Griff in eine ungewisse Zukunft. Sie werden verstehen, daß ich als Vertreter der Regierung und als Parlamentarischer Staatssekretär des Bundesministers der Verteidigung nicht bereit bin, mich an diesem Spiel zu beteiligen, ganz davon abgesehen, Herr Kollege Damm, daß wir dieses Flugzeug nicht alleine bauen und daß wir es ja auch nicht in einem staatlichen Unternehmen bauen, sondern in freier Industrie. Jede Äußerung über Preise vor diesem Haus und vor der Öffentlichkeit durch mich würde unsere Verhandlungsmöglichkeiten eingrenzen. Sie können gewiß sein, daß wir unsere Erfahrungen, die wir bei dem jüngst im Verteidigungsausschuß besprochenen Waffensystem des Fla-Panzers bei der Preisgestaltung angewandt haben, bei diesem schwierigen Waffensystem ebenfalls anwenden werden. Würde ich jetzt sagen: „Wir sind weit darunter geblieben", so würde ein großes Gezerre und Gezeter in der Öffentlichkeit passieren. Würde ich sagen: „Wir haben diesen Punkt erreicht", dann würde es gehen wie im Märchen, wo der kleine Häwelmann immer „Mehr, mehr!" wollte. Daher sage ich zu den Preisen hier überhaupt nichts.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg155">Eine Zusatzfrage, der Abgeordnete van Delden.</seg>
+        </u>
+        <note type="speaker">van Delden (CDU/CSU) :</note>
+        <u who="#Q2142861" xml:id="ParlaMint-DE_1973-02-21-07-016.u122" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg156">Herr Staatssekretär, bleibt es dabei, daß die militärischen Anforderungen der Marine, bezogen auf dieses Flugzeugmuster, weiterhin berücksichtigt werden, oder können Sie meinen Verdacht erhärten, daß die Marine im Rahmen Ihrer Konzeptionsstudien sich auch schon wieder mit anderen Flugzeugmustern beschäftigt? Das ist eine Frage, die Sie gegebenenfalls im Ausschuß beantworten können. Ich wollte sie hier nur festgehalten haben.</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u123" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg157">Herr Kollege, das eine schließt das andere nicht aus. Die Marine ist verpflichtet, schon aus Gründen, die ich eben vorsichtig andeutete, Ausweichmöglichkeiten rechtzeitig zu studieren, damit wir nie an einen Nullpunkt gedrückt werden, wo unsere Verhandlungspartner gewissermaßen in einer günstigeren Position sind als die Regierung oder die Beamten der Regierung. Ich kann Ihnen aber den ersten Teil der Frage dahin beantworten, daß wir uns bemühen, den Anforderungen die an ein über See fliegendes Flugzeug gestellt werden müssen, auch im MRCA gerecht zu werden. Die andere Anforderung, die verlangt, daß es sich um eine Besatzung von zwei Soldaten handelt, ist gewährleistet. Es bleibt abzuwarten, was am Ende dann wirklich herauskommt. Prophezeiungen auf diesem technischen Feld, Herr Kollege van Delden — auch Sie haben Erfahrung —, sind gefährlich. Ich möchte mich in zwei oder drei Jahren von Ihnen nicht fragen lassen, welche Illusionen ich heute gehabt habe. Ich will Ihnen die Beispiele, an die ich jetzt denke und an die auch Sie denken können, nicht nennen. Damals war ich in der glücklichen Position, als Abgeordneter der Opposition Fragen stellen zu dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u124" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg158">Eine Zusatzfrage des Herrn Abgeordneten Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD) :</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1973-02-21-07-016.u125" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg159">Herr Staatssekretär, habe ich Sie richtig verstanden, daß Sie nicht an Stückkosten interessiert sind, die dazu führen würden, daß das MRCA zu kostbar wäre, um im Gefährdungsfall eingesetzt zu werden?</seg>
+        </u>
+        <note type="speaker">Berkhan, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1973-02-21-07-016.u126" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg160">Ich bin bei Stückkosten an der Grenze Null interessiert. Diese ist atypisch und nicht zu erreichen. Die maximale Grenze nenne ich nicht, Herr Kollege. Damit möchte ich das Thema Stückkosten und Preise hier vor der Öffentlichkeit beenden. Die Regierung ist bereit, in dem zuständigen Ausschuß darüber Auskunft zu geben, wenn die Frage ansteht. Zur Zeit ist jede Frage, die gestellt wird, eigentlich nur eine Hilfe für diejenigen, die aus diesem Objekt möglichst viel Geld für sich machen wollen.</seg>
+          <kinesic type="applause">
+            <desc>Zuruf von der CDU/CSU: Genau! — Beifall bei allen Fraktionen.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg161">Dies ist noch nicht einmal anstößig. Wenn ich dafür bezahlt würde, gute Geschäfte für die Industrie zu machen, und auf der anderen Seite des Tisches säße, würde ich die gleichen Verhandlungstaktiken anwenden. Daher, Herr Kollege Dr. Sperling, müssen Sie meine Zurückhaltung nicht als Flapsigkeit gegenüber diesem Hause verstehen, sondern als Vorsicht, um mit dem Geld des Steuerzahlers möglichst viel erreichen zu können. Es wird schon teuer genug.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u127" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg162">Wir sind am Ende der Fragen aus dem Geschäftsbereich des Bundesministers der Verteidigung angelangt. Ich danke Ihnen für die Beantwortung, Herr Staatssekretär Berkhan. Ich rufe den Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit auf. Die Frage 84 des Herrn Abgeordneten Dr. Schmitt-Vockenhausen wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 85 des Herrn Abgeordneten Dr. Slotta auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg163">Ist der Bundesregierung Näheres über die in diesen Tagen beginnende bundesweite Aktion zur Erforschung und Bekämpfung der Krebskrankheit durch die Aktionsgemeinschaft „Krebs geht uns alle an", deren Initiator Prof. Dr. Carl Gottfried Schmidt ist, bekannt, und welche Möglichkeiten bestehen für die Bundesregierung, diese Aktion zu unterstützen? Zur Beantwortung Herr Parlamentarischer Staatssekretär Westphal.</seg>
+        </u>
+        <note type="speaker">Westphal, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1973-02-21-07-016.u128" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg164">Herr Kollege Dr. Slotta, die Aktion „Kampf dem Krebs", die in diesen Tagen als Bürgerinitiative an die Öffentlichkeit getreten ist, ist unter maßgeblicher Mitarbeit von Professor Dr. Carl Gottfried Schmidt von Kreisen des Vorstandes der Deutschen Krebsgesellschaft und anderen an der Sache interessierten Bürgern vorbereitet worden. Die Absicht, auf dem Gebiet der Krebsforschung eine Bürgerinitiative ins Leben zu rufen, ist schon vor längerer Zeit von Herrn Professor Dr. Schmidt mit dem Bundesministerium für Jugend, Familie und Gesundheit erörtert worden. Ausgangspunkt dieser Bestrebungen, die von der Bundesregierung begrüßt werden, ist die Tatsache, daß in den angelsächsischen Ländern ähnliche Aktionen dazu geführt haben, daß neben der Förderung der Krebsforschung durch die öffentliche Hand diesem überragenden gesundheitspolitischen Anliegen namhafte weitere Mittel aus dem Kreis der letzten Endes betroffenen Bevölkerung zur Verfügung gestellt werden konnten. Das Bundesministerium für Jugend, Familie und Gesundheit ist bereit, die Aktion in geeigneter Weise zu unterstützen. Es wird geprüft, ob dies z. B. im Rahmen der Öffentlichkeitsarbeit des Ministeriums geschehen kann. Ferner wird die Bundeszentrale für gesundheitliche Aufklärung im Rahmen des finanziell Möglichen für Aufklärungsmaterial in verstärktem Umfang der Aktion zur Verfügung stellen. Das Ministerium wird sich darüber hinaus bemühen, auf die Länder in dem Sinne einzuwirken, daß auch sie die Aktion unterstützen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u129" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg165">Eine Zusatzfrage des Herrn Abgeordneten Dr. Slotta.</seg>
+        </u>
+        <note type="speaker">Dr. Slotta (SPD) :</note>
+        <u who="#Q1275463" xml:id="ParlaMint-DE_1973-02-21-07-016.u130" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg166">Herr Staatssekretär, haben Sie schon Vorstellungen über eine in Ihrer Antwort bereits angedeutete Regionalisierung dieser Aktion?</seg>
+        </u>
+        <note type="speaker">Westphal, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1973-02-21-07-016.u131" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg167">Herr Dr. Slotta, es handelt sich nicht um unsere Aktion, sondern um eine Bürgerinitiative. Wir können hier nur flankierend helfen in dem Sinne, daß wir die Länder anregen, sich auch darum zu kümmern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u132" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg168">Keine Zusatzfrage. Ich rufe die Frage 86 der Abgeordneten Frau Huber auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg169">Ist der Bundesregierung bekannt, daß Familien mit geistig behinderten Kindern, die einkommensmäßig unter der im Bundessozialhilfegesetz vorgesehenen Grenze liegen, die Hilfe zum Lebensunterhalt für ihr behindertes Kind, die mehrere hundert DM betragen kann, bei sonst gleichen Lebens- und Betreuungsumständen einfach dadurch verlorengeht, daß diese Kinder aus dem Sozialbereich zugeordneten Kindertagesstätten in Sonderschulen überführt werden? Zur Beantwortung der Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Westphal, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1973-02-21-07-016.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg170">Frau Kollegin Huber, darf ich bitten, beide Fragen zusammen beantworten zu dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg171">Keine Bedenken. — Ich rufe also auch die Frage 87 der Abgeordneten Frau Huber auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg172">Ist die Bundesregierung bereit, die Lücke im § 43 des Bundessozialhilfegesetzes so zu schließen, daß eine Gleichbehandlung der geistig behinderten Kinder und ihrer Familien erfolgt?</seg>
+        </u>
+        <note type="speaker">Westphal, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1973-02-21-07-016.u135" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg173">Hilfe zum Lebensunterhalt wird nach dem Bundessozialhilfegesetz grundsätzlich nur gewährt, wenn im Einzelfal eine echte Bedarfslage gegeben ist. Diese bemißt sich am sogenannten Regelbedarf. Eine Ausnahme gilt bei einzelnen Hilfen in besonderen Lebenslagen, so auch bei bestimmten Maßnahmen der Eingliederungshilfe für Behinderte, wo aus besonderen Gründen Hilfe zum Lebensunterhalt in die besondere Hilfe einbezogen ist. Wird nun die Eingliederungsmaßnahme nach dem BSHG entbehrlich, weil z. B. die Schulverwaltung die Gesamtkosten der Ausbildung in einer Sonderschule trägt, entfällt damit auch die Grundlage für die zusammen mit der Eingliederungshilfe gewährte Hilfe zum Lebensunterhalt. Sie wird dann nur noch gewährt, wenn die allgemeinen Voraussetzungen, d. h. die eingangs erwähnte tatsächliche Bedarfslage, gegeben ist. Daß bei dieser Rechtslage in Einzelfällen einmal die Hilfe zum Lebensunterhalt ganz entfällt — wenn nämlich das Einkommen über dem sogenannten Regelbedarf liegt — mag von den Betroffenen als schmerzlich empfunden werden, steht aber letztlich im Einklang mit dem das ganze Sozialhilferecht beherrschenden Grundsatz, daß nur derjenige Sozialhilfe erhält, der sich nicht selbst helfen kann oder die erforderliche Hilfe nicht von anderer Seite bekommt. Aus diesem Grunde, Frau Kollegin Huber, kann ich Ihre Auffassung nicht teilen, daß § 43 BSHG für die von Ihnen genannten Fälle eine Lücke enthielte. Ich kann Ihnen daher auch keine Regelung in Aussicht stellen, die gleichsam auf eine Besitzstandswahrung hinausliefe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u136" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg174">Eine Zusatzfrage, Frau Abgeordnete Huber.</seg>
+        </u>
+        <note type="speaker">Frau Huber (SPD) :</note>
+        <u who="#Q87744" xml:id="ParlaMint-DE_1973-02-21-07-016.u137" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg175">Herr Staatssekretär, würden Sie, wenn die geistig behinderten Kinder in den Tagesstätten genauso betreut worden sind, wie sie jetzt in den Sonderschulen betreut werden, sagen, daß die Abgabe von einer Mark pro Tag für das Mittagessen hier völlig neue Maßstäbe setzt? Ich mache Sie gleichzeitig darauf aufmerksam, daß bei der Überführung der ersten 70 geistig behinderten Kinder in meiner Stadt 20 einkommensschwache Familien ihre Beihilfen von über 200 DM — im Einzelfall sogar 280 DM — im Monat verloren haben, nur weil das Kind — bei sonst völlig gleicher Betreuung — zu einem anderen Träger übergewechselt ist?</seg>
+        </u>
+        <note type="speaker">Westphal, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1973-02-21-07-016.u138" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg176">Frau Kollegin Huber, das Problem ist uns bekannt. Wir haben versucht, die Ihrer Frage zugrunde liegenden Schwierigkeiten aufzuklären. Sie hängen in einem bedeutsamen Maße mit der Tatsache zusammen, daß das Land, aus dem Sie kommen und aus dem die praktische Erfahrung stammt, in der letzten Zeit eine gute neue Regelung für die behinderten Kinder im Hinblick auf die Realisierung ihrer Schulpflicht geschaffen hat. In den Fällen, die Sie genannt haben, ist mit dem Übergang der Kinder von den Sonderkindertagesstätten in die Sonderschule gleichzeitig ein Wechsel aus dem Bereich der Eingliederungshilfe nach dem BSHG in den rein schulischen Bereich vollzogen worden. In den meisten Fällen werden dann die Voraussetzungen für die Gewährung von Eingliederungshilfe, soweit es um die Hilfe zu einer angemessenen Schulbildung geht, nicht mehr gegeben sein. Damit entfällt auch die Voraussetzung für die in Zusammenhang mit der Eingliederungshilfe gewährte Hilfe zum Lebensunterhalt, es sei denn, das unabhängig von der Gewährung von Eingliederungshilfe die wirtschaftlichen Voraussetzungen für die Gewährung von Hilfe zum Lebensunterhalt vorliegen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg177">Eine zweite Zusatzfrage der Abgeordneten Frau Huber.</seg>
+        </u>
+        <note type="speaker">Frau Huber (SPD) :</note>
+        <u who="#Q87744" xml:id="ParlaMint-DE_1973-02-21-07-016.u140" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg178">Darf ich Sie fragen, ob Sie damit nicht auf rein formale Kriterien abheben, da die Schulpflicht der Kinder zur Zeit sowohl in den Tagesstätten der Sozialhilfeeinrichtungen als auch in den ganz wenigen jetzt schon vorhandenen Sonderschulen abgeleistet wird.</seg>
+        </u>
+        <note type="speaker">Westphal, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1973-02-21-07-016.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg179">Auf den ersten Blick könnte man das zugestehen. Wegen der damit zusammenhängenden weiteren Fragen kann ich eine derartige Aussage aber nicht machen, zumal sie auch die Lasten der Gemeinden betreffen würde.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg180">Eine dritte Zusatzfrage? — Bitte schön!</seg>
+        </u>
+        <note type="speaker">Frau Huber (SPD) :</note>
+        <u who="#Q87744" xml:id="ParlaMint-DE_1973-02-21-07-016.u143" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg181">Unabhängig von der Frage, auf wessen Kosten das ginge, würde ich doch sehr bitten, darüber nachzudenken, daß hier bei faktisch gleichen Umständen unterschiedliches Recht angewandt wird.</seg>
+        </u>
+        <note type="speaker">Westphal, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1973-02-21-07-016.u144" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg182">Ich werde mit den Mitarbeitern meines Ministeriums und mit den Ländern die Angelegenheit überdenken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u145" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg183">Keine weiteren Zusatzfragen. Wir haben zwar schon um fast zwei Minuten überzogen, aber ich schlage vor, daß wir die letzten beiden Fragen noch mitbehandeln; dann brauchen wir diesen Bereich morgen nicht erneut aufzurufen. — Ich höre keinen Widerspruch. Dann rufe ich Frage 88 der Abgeordneten Frau Schleicher auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg184">Wieweit identifiziert sich die Bundesregierung mit der Hypothese einer vom Bundesministerium für Jugend, Familie und Gesundheit in Auftrag gegebenen Forschungsarbeit (Familie und Identität — die Familie als pathogenes System) , daß „die Familie die einzig ihr verbleibende materielle Funktion, die Aufzucht der Kinder, nicht mehr optimal erfüllen kann, weil sie deren immateriellem Aspekt, nämlich dem Anspruch, die Kinder für die Gesellschaft zu tauglichen und gesunden Individuen zu erziehen, nicht mehr gewachsen ist"? Zur Beantwortung Herr Parlamentarischer Staatssekretär Westphal.</seg>
+        </u>
+        <note type="speaker">Westphal, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1973-02-21-07-016.u146" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg185">Frau Kollegin Schleicher, familienpolitische Entscheidungen, durch die man die größtmögliche Effizienz familienfördernder Maßnahmen erreichen will, setzen auch wissenschaftliche Erkenntnisse über Leistungsbehinderungen der heutigen Familie voraus. Darum hat es sich bei der von Ihnen angesprochenen Bibliographie gehandelt. Die Bundesregierung kann allerdings keinen Grund erkennen, aus dem sie sich mit einer bestimmten — und in diesem Falle wohl bewußt überspitzt formulierten Hypothese identifizieren sollte, die einer Untersuchung über nachteilige Aspekte der Familienerziehung anhand in- und ausländischer soziologischer und psychologischer Literatur zugrunde gelegt worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u147" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg186">Eine Zusatzfrage der Abgeordneten Frau Schleicher.</seg>
+        </u>
+        <note type="speaker">Frau Schleicher (CDU/CSU):</note>
+        <u who="#Q744185" xml:id="ParlaMint-DE_1973-02-21-07-016.u148" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg187">Darf ich die Bundesregierung bitten, zu gegebener Zeit eine eindeutige Stellungnahme zu dem Ergebnis dieser Forschungsarbeit abzugeben.</seg>
+        </u>
+        <note type="speaker">Westphal, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1973-02-21-07-016.u149" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg188">Frau Kollegin Schleicher, nach dem Ergebnis der Forschungsarbeit kann die Hypothese, von der ausgegangen worden ist, durchgehend nicht bestätigt werden. Diesem wissenschaftlichen Ergebnis kann ich mich anschließen, weil auch ich eine positivere Auffassung von der Wirkung der Familienerziehung habe, als sie in der Hypothese zum Ausdruck gebracht worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u150" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg189">Keine weitere Zusatzfrage. Ich rufe als letzte Frage die Frage 89 der Abgeordneten Frau Schleicher auf:</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg190">Welche Funktion weist die Bundesregierung der Institution Familie nodi zu angesichts der Behauptung, daß „die nachfolgende Generation hei den spezifischen Ansprüchen, denen sie in der gegenwärtigen Entwicklung der modernen Gesellschaft gerecht werden müßte, ihr gesamtes Leben hindurch mehr oder weniger unter der spezifischen familialen Sozialisation zu leiden hat"? Zur Beantwortung Herr Staatssekretär, bitte!</seg>
+        </u>
+        <note type="speaker">Westphal, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1973-02-21-07-016.u151" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg191">Es ist selbstverständlich, Frau Kollegin Schleicher, daß die Familienpolitik der Bundesregierung in Übereinstimmung mit Art. 6 des Grundgesetzes auf Schutz und größtmögliche Förderung der Familie angelegt ist. Eine besondere Aufgabe sieht die Bundesregierung gerade darin, die Familie in ihrer Leistung für die Sozialisation des Kindes und des Jugendlichen zu stärken. Ich darf Sie hierzu auf den dritten Jugendbericht der Bundesregierung hinweisen, der die grundlegende Bedeutung der familialen Sozialisation mit großen Nachdruck aufgezeigt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u152" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg192">Eine Zusatzfrage, Frau Abgeordnete Schleicher.</seg>
+        </u>
+        <note type="speaker">Frau Schleicher (CDU/CSU):</note>
+        <u who="#Q744185" xml:id="ParlaMint-DE_1973-02-21-07-016.u153" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg193">Darf ich in diesem Zusammenhang fragen, was getan wird, um die Familie, die mehr als zwei Kinder hat, noch mehr zu stärken?</seg>
+        </u>
+        <note type="speaker">Westphal, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1973-02-21-07-016.u154" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg194">Wenn Sie mich nach der materiellen Seite der Familienförderung fragten, würde ich auf das Kindergeld hinweisen, bei dem es eine Steigerung nach der Zahl der Kinder gibt. Aber ich glaube, es geht Ihnen hier mehr um die pädagogischen Dinge. Hier würde ich nicht zwischen Familien mit geringerer Zahl von Kindern und Familien mit größerer Zahl von Kindern unterscheiden. Es besteht die Notwendigkeit, daß der Staat und die Gesellschaft den Familien bei der Erziehung von Kindern allgemein helfen. Wir sind sehr daran interessiert und darum bemüht, die Erziehungsfähigkeit der Familie zu stärken, z. B. dadurch, daß wir ihr bestimmte Ratschläge und Hilfen geben, und daß wir Organisationen fördern, die die Familienerziehung unterstützen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u155" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg195">Eine Zusatzfrage des Herrn Abgeordneten Dr. Fuchs; die letzte, die ich zulasse.</seg>
+        </u>
+        <note type="speaker">Dr. Fuchs (CDU/CSU) :</note>
+        <u who="#Q109243" xml:id="ParlaMint-DE_1973-02-21-07-016.u156" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg196">Herr Staatssekretär, teilen Sie meine Meinung, daß die nachfolgende Generation es schwerer haben wird, wenn sie keine spezifische „familiale Sozialisation" erlebt, um diesen etwas schikanösen Ausdruck zu gebrauchen?</seg>
+        </u>
+        <note type="speaker">Westphal, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1973-02-21-07-016.u157" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg197">Ich meine, daß es mehrere Institutionen geben muß, die dem Kind bei seiner Erziehung helfen. Dazu gehört für mich vornehmlich die Familie. Aber sie ist auch nicht der einzige Platz, an dem Erziehung geschehen kann und sollte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1973-02-21-07-016.u158" ana="#chair">
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg198">Wir sind damit am Ende dieses Geschäftsbereichs angelangt. Ich darf Ihnen, Herr Parlamentarischer Staatssekretär Westphal, für die Beantwortung danken. Die Fragestunde ist abgelaufen.</seg>
+          <seg id="ParlaMint-DE_1973-02-21-07-016.seg199">Ich berufe die nächste Sitzung auf morgen früh, Donnerstag, den 22. Februar; 9 Uhr. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 15.08 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

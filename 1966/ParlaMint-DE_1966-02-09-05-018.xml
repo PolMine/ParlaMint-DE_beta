@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1966-02-09-05-018">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 5. Wahlperiode, 18. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 09.02.1966 (18. Sitzung der 5. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 5, Session 18 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1966-02-09 (Session 18 in Legislative Period 5)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="18">18. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.05" n="5">5. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="18">Session 18</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.05" n="5">Legislative Period 5</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 09.02.1966</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1966-02-09</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488218/bfba1a02d1090efc873f9a60f318a162/pp05-data.zip</idno>
+          <date when="1966-02-09">1966-02-09</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1966-02-09">1966-02-09</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde (Drucksachen V/251, V/263)</head>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg1">Die Sitzung ist eröffnet. Meine Damen und Herren, es liegt Ihnen eine Liste betr. Überweisung von Vorlagen der Bundesregierung vor, die keiner Beschlußfassung bedürfen. Diese Vorlagen sollen gemäß § 76 der Geschäftsordnung an die zuständigen Ausschüsse überwiesen werden. Erhebt sich gegen die beabsichtigte Überweisung Widerspruch? — Das ist nicht der Fall. Damit sind folgende Vorlagen überwiesen:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg2">Vorlage des Bundesrechnungshofes betr. Prüfung der Monopolverwaltung für Branntwein beim Landesfinanzamt Berlin — Drucksache V/232 — an den Finanzausschuß, Vorlage des Bundesministers der Justiz betr. Errichtung eines zentralen Instituts zur Ausbildung und Fortbildung von Strafvollzugsbediensteten —Drucksache V/233 — an den Rechtsausschuß. Folgende amtliche Mitteilungen werden ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg3">Der Bundesminister für Arbeit und Sozialordnung hat am 27. Januar 1966 die Kleine Anfrage der Abgeordneten Behrendt, Braun, Folger, Hussong, Frau Rudoll, Stephan, Wolf und der Fraktion der SPD betr. Krankenpflege durch Ersatzdienstpersonal (Drucksache V/172)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg4">beantwortet. Sein Schreiben ist als Drucksache V/234 verteilt. Der Bundesminister für Verkehr hat am 25. Januar 1966 die Kleine Anfrage der Abgeordneten Balkenhol, Majonica, Lenze (Attendorn)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg5">, Meis und Genossen betr. Verkehrsverbindung Ruhrgebiet-Hochsauerland (Drucksache V/175)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg6">beantwortet. Sein Schreiben ist als Drucksache V/237 verteilt. Der Bundesminister für Ernährung, Landwirtschaft und Forsten hat am 1. Februar 1966 die Kleine Anfrage der Abgeordneten Logemann, Ertl, Wächter, Reichmann, Sander und Genossen betr. Baukosten für landwirtschaftliche Bauten (Drucksache V/179)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg7">beantwortet. Sein Schreiben ist als Drucksache V/242 verteilt. Der Bundesminister des Innern hat am 28. Januar 1966 die Kleine Anfrage der Abgeordneten Leicht, Dr. Marx (Kaiserslautern)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg8">, Benda, Dr. Süsterhenn, Dr. h. c. Güde, Dr. Wilhelmi und Genossen betr. Änderung des § 53 des Bundesbesoldungsgesetzes (Drucksache V/176)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg9">beantwortet. Sein Schreiben ist als Drucksache V/247 verteilt. Der Bundesminister des Innern hat am 28. Januar 1966 die Kleine Anfrage der Fraktion der SPD betr. Gesetzentwurf zur Zahlung vermögenswirksamer Leistungen für Beamte, Richter, Berufssoldaten und Soldaten auf Zeit (Drucksache V/186)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg10">beantwortet. Sein Schreiben ist als Drucksache V1249 verteilt. Der Bundesminister des Innern hat am 4. Februar 1966 die Kleine Anfrage der Abgeordneten Dr. Müller (München)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg11">, Liehr, Westphal, Brück (Holz)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg12">, Hauck und der Fraktion der SPD betr. Wahlalter (Drucksache V/194)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg13">beantwortet. Sein Schreiben wird als Drucksache V/264 verteilt. Der Bundesschatzminister hat am 3. Februar 1966 die Kleine Anfrage der Fraktion der SPD betr. VEBA-Aktien (Drucksache V/220)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg14">beantwortet. Sein Schreiben wird als Drucksache V/265 verteilt. Der Bundesminister des Innern hat am 3. Februar 1966 die Kleine Anfrage der Abgeordneten Schmitt-Vockenhausen, Seibert, Gscheidle und der Fraktion der SPD betr. Entschließung des Deutschen Bundestages vom 23. Juni 1965 zur Verbesserung der Dienstdauervorschriften (Drucksache V/195)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg15">beantwortet. Sein Schreiben wird als Drucksache V/266 verteilt. Die Bundesanstalt für Arbeitsvermittlung und Arbeitslosenversicherung hat den Geschäftsbericht für das Rechnungsjahr 1964 übersandt, der im Archiv zur Einsichtnahme aufliegt. Der Präsident hat gemäß § 96 a der Geschäftsordnung die nachstehenden Vorlagen überwiesen:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg16">Verordnung zur Senkung von Binnen-Zollsätzen (Teile zerlegbarer Holzhäuser)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg17">— Drucksache V/216 —</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg18">an den Ausschuß für Wirtschaft und Mittelstandsfragen mit der Bitte um fristgemäße Behandlung Fünfte Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Zollkontingente und Zollaussetzungen 1966 — Agrarwaren — II. Teil) — Drucksache V/217 —</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg19">an den Ausschuß für Wirtschaft und Mittelstandsfragen mit der Bitte um fristgemäße Behandlung Elfte Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Zollaussetzung für Tee usw.)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg20">— Drucksache V/218 —</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg21">an den Ausschuß für Wirtschaft und Mittelstandsfragen mit der Bitte um fristgemäße Behandlung Achte Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Zollaussetzungen 1966 — gewerbliche Waren — II. Teil) — Drucksache V/224 —</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg22">an den Ausschuß für Wirtschaft und Mittelstandsfragen mit der Bitte um fristgemäße Behandlung Fünfzehnte Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Zollaussetzungen 1966 — gewerbliche Waren — IV. Teil) — Drucksache V/225 —</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg23">an den Ausschuß für Wirtschaft und Mittelstandsfragen mit der Bitte um fristgemäße Behandlung Achtzehnte Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Holzhäuser und Fertigbauteile)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg24">— Drucksache V/226 —</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg25">an den Ausschuß für Wirtschaft und Mittelstandsfragen mit der Bitte um fristgemäße Behandlung. Der Präsident des Deutschen Bundestages hat entsprechend dem Beschluß des Bundestages vom 23. Februar 1962 die nachstehende Verordnung überwiesen:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg26">Neunte Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Angleichungszölle — 1. Neufestsetzung) — Drucksache V/243 —</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg27">an den Ausschuß für Wirtschaft und Mittelstandsfragen mit der Bitte um Vorlage des Berichts rechtzeitig vor dem Plenum am 18. Mai. Zu den in der Fragestunde der 17. Sitzung des Deutschen Bundestages am 27. Januar 1966 gestellten Fragen des Abgeordneten Müller (Berlin)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg28">, Drucksache V/212 Nr. VI /4 und VI /5, ist inzwischen die schriftliche Antwort des Staatssekretärs Dr. Carstens vom 1. Februar 1966 eingegangen. Sie lautet:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg29">Es trifft zu, daß die Leitung der Internationalen Chemieausstellung in Moskau die mit ihr mündlich getroffene Abrede über die Beteiligung von Berliner Firmen nicht eingehalten hat. Unsere Botschaft in Moskau hat deswegen bei dem Generaldirektor der Messeleitung protestiert. Bedauerlich ist, daß mehrere Berliner Firmen sich verspätet und unmittelbar bei der Messeleitung angemeldet haben, obwohl die deutschen Wirtschaftsverbände ihre Firmen gebeten hatten, ihre Anmeldung über den Ausstellungs- und Messeausschuß der deutschen Wirtschaft, Köln, zu leiten. Diese Situation hat die sowjetische Messeleitung in ihrem Sinne auszunutzen gesucht. Der sowjetische Versuch, auf diese Weise eine Selbständigkeit Berlins und der Berliner Wirtschaft zu demonstrieren, muß jedoch als mißlungen bezeichnet werden, weil es sich bei den meisten Berliner Firmen. die in Moskau ausstellten, entweder um Tochtergesellschaften von Unternehmen handelte, die ihren Sitz im westlichen Bundesgebiet haben, oder um Vertreterfirmen, die im westlichen Bundesgebiet ansässige Unternehmen repräsentieren. Dadurch wurde die enge Verflechtung der Berliner Wirtschaft mit dem übrigen Bundesgebiet in besonders eindrucksvoller Weise unterstrichen. Um in Zukunft die gemeinsamen Interessen noch besser wahren zu können, wird die Bundesregierung im Zusammenwirken mit dein Berliner Senat die Berliner Wirtschaft darauf hinweisen, daß sie sich in Fällen wie dem hier vorliegenden der entsprechenden deutschen Verbände bedienen und nicht von sich aus direkt mit ausländischen Dienststellen in Verbindung treten sollte. Zu der in der Fragestunde der 17. Sitzung des Deutschen Bundestages am 27. Januar 1966 gestellten Frage des Abgeordneten Schmidt (Kempten)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg30">, Drucksache V/212 Nr. X/5, ist inzwischen die schriftliche Antwort des Bundesministers Höcherl vom 1. Februar 1966 eingegangen. Sie lautet:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg31">Die Bundesregierung hat von der Ermächtigung erstmalig für die Zeit vom 22. August bis 31. Oktober 1965 für eine Gesamtmenge von 1500 t und neuerdings seit dem 19. Januar 1966 bis zunächst zum 31. März 1966 für wiederum 1500 t Gebrauch gemacht. Die Bundesregierung und mit ihr die einschlägige Wirtschaft sind der Auffassung, daß durch eine Erstattung bei der Ausfuhr von monatlich 500 t Emmentalerkäse das Gleichgewicht auf dem Inlandsmarkt hergestellt und die Exportgefährdung insbesondere nach Italien beseitigt werden kann. Zu der in der Fragestunde der 17. Sitzung des Deutschen Bundestages am 27. Januar 1966 gestellten Frage des Abgeordneten Schmidt (Kempten)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg32">, Drucksache V/212 Nr. X/6, ist inzwischen die schriftliche Antwort des Bundesministers Höcherl vom 4. Februar 1966 eingegangen. Sie lautet:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg33">Im Rechnungsjahr 1966 sind besondere Mittel des Grünen Planes für technische Anlagen in Futterbaubetrieben aus Gründen der beschlossenen Einsparungen nicht mehr vorgesehen. Die Förderung dieser Anlagen soll jedoch auf der Grundlage des EWG-Anpassungsgesetzes innerhalb des allgemeinen Investitionshilfeprogramms für landwirtschaftliche Betriebe fortgeführt werden. Dabei sollen vorab die Anträge aus dem Vorjahr berücksichtigt werden, auf die die Länder wegen Fehlens von Mitteln keine Bewilligungen mehr aussprechen konnten. Solche Antragsüberhänge sind nach den mir vorliegenden Meldungen in allen Ländern mit Ausnahme von Nordrhein-Westfalen vorhanden. Um die Abwicklung zu beschleunigen, soll dabei ausnahmsweise auf die Vorlage eines Betriebsentwicklungsplanes verzichtet werden. Zu den in der Fragestunde der 17. Sitzung des Deutschen Bundestages am 27. Januar 1966 gestellten Fragen des Abgeordneten Leicht, Drucksache V/212 Nr. X/7 und X/8, ist inzwischen die schriftliche Antwort des Bundesministers Höcherl vom 1. Februar 1966 eingegangen. Sie lautet:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg34">Zu 1:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg35">Eine abschließende Beurteilung der Versorgungslage ist erst möglich, wenn das Ergebnis der Bestandserhebung per 31. Dezember 1965 vorliegt. Mit einem vorläufigen Ergebnis dürfte nicht vor Mitte März zu rechnen sein. Erst nach Vorliegen dieses vorläufigen Ergebnisses wird die Frage zusätzlicher Weineinfuhren unter Berücksichtigung der gegenüber 1964 geringeren Ernte 1965 und des gestiegenen Weinverbrauchs geprüft werden. Zu 2:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg36">Nach der Entscheidung des EWG-Ministerrats vom 4. April 1962 entscheidet der Rat jährlich mit qualifizierter Mehrheit auf Vorschlag der Kommission „nach Maßgabe des bei Entwicklung der gemeinsamen Marktorganisation erzielten Fortschritts" über die Erhöhung der jährlich von den Mitgliedstaaten zu eröffnenden Globalkontingente für Wein. Im letzten Jahr hat die Bundesregierung eine Kontingentserhöhung abgelehnt, da nach ihrer Auffassung die oben erwähnten Voraussetzungen nicht vorlagen und Frankreich es ablehnte, im Rahmen des von ihm zu eröffnenden Kontingents die Einfuhr von Konsumwein zuzulassen. Die Bundesregierung hatte sich jedoch aufgrund der Marktlage bereit erklärt, autonom zusätzliche Einfuhrmöglichkeiten für 50 000 hl Rotwein aus EWG-Ländern zu eröffnen. Die Bundesregierung wird auch im Jahre 1966 die gleiche Haltung einnehmen. Punkt 1 der Tagesordnung:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg37">Fragestunde (Drucksachen V/251, V/263).</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg38">Wir kommen zunächst zu den Fragen aus dem Geschäftsbereich des Bundesministers des Innern. Ich rufe die Frage I/1 des Abgeordneten Moersch auf:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg39">Treffen Pressemeldungen zu, wonach die Bundesregierung auf Wunsch des Bundespräsidenten eine Liste mit mehr als vier Namen für die Vertretung des Bundes im Deutschen Bildungsrat zur Berufung durch den Bundespräsidenten vorgelegt hat, obwohl nach dem Abkommen über den Deutschen Bildungsrat nicht mehr als vier Vertreter auf Vorschlag der Bundesregierung zu berufen sind?</seg>
+        </u>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1966-02-09-05-018.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg40">Es besteht eine gute Übung, dem Herrn Bundespräsidenten bei solchen Berufungen vor der Benennung durch das Kabinett Auswahlmöglichkeiten einzuräumen. Diese Übung geht auf eine Vereinbarung des verstorbenen Herrn Bundespräsidenten Professor Heuss mit dem früheren Herrn Bundeskanzler Dr. Adenauer zurück. Auch bei der Auswahl der Mitglieder für die Bildungskommission des Bildungsrates wurde so verfahren. Die Bundesregierung hat dann dem Herrn Bundespräsidenten die auf Grund des Abkommens über die Errichtung eines deutschen Bildungsrates zu berufenden vier Mitglieder benannt. Sobald die erforderliche Anhörung der Länder erfolgt ist, werden die benannten vier Mitglieder vom Herrn Bundespräsidenten berufen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg41">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Moersch (FDP) :</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1966-02-09-05-018.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg42">Herr Minister, wie erklärt sich dann die Pressemeldung, daß sich die Ministerpräsidenten der Länder auf einen anderen Rechtsstandpunkt bezüglich dieser Übung gestellt haben?</seg>
+        </u>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1966-02-09-05-018.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg43">Über die Pressemeldung kann ich keine Auskunft geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg44">Keine Frage dazu mehr? — Damit ist die Frage I/2 des Abgeordneten Moersch:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg45">Falls Frage I/1 bejaht wird: Welche Rechtsgrundlagen gibt es im Abkommen über die Errichtung eines Deutschen Bildungsrates für das von der Bundesregierung angewandte Verfahren? gegenstandslos geworden.</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg46">Wir gehen nunmehr über zum Geschäftsbereich des Herrn Bundesministers der Justiz. Ich rufe die Frage VII /1 des Abg. Schmitt-Vockenhausen auf:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg47">Ist die Bundesregierung bereit, dem Bundestag Vorschläge zu unterbreiten, die sicherstellen, daß derjenige, der Nothilfe leistet, ihm dadurch entstehenden Schaden ersetzt bekommt, auch insoweit, als er nach bisher geltendem Recht oder auf Grund der tatsächlichen Umstände Ersatz vom Schädiger oder Hilfenehmer nicht erlangen kann?</seg>
+        </u>
+        <note type="speaker">Dr. Jaeger, Bundesminister der Justiz:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1966-02-09-05-018.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg48">Die Frage VII /1 wird vom Herrn Bundesminister für Arbeit beantwortet. Sie ist irrtümlich beim Geschäftsbereich des Bundesministers der Justiz aufgeführt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg49">Ich bitte uni Entschuldigung. Dann die Frage VII /2 des Abg. Dr. Schulz (Berlin):</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg50">Hat die Bundesregierung davon Kenntnis genommen, daß sich im letzten Jahr Delikte politischer Extremisten in Form von anonymen Drohungen, Brandstiftungen, Hakenkreuzschmierereien, Friedhofsschändungen und sonstigen Anschlägen in der Bundesrepublik einschließlich West-Berlin auffallend vermehrt haben?</seg>
+        </u>
+        <note type="speaker">Dr. Jaeger, Bundesminister der Justiz:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1966-02-09-05-018.u9" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg51">Genaue statistische Unterlagen über die Zahl der von Ihnen genannten Delikte sind nicht verfügbar. Es ist aber leider zu befürchten, daß deren Zahl — wenn auch nicht erheblich — gestiegen ist. Die Bundesregierung verfolgt diese Dinge mit besonderer Aufmerksamkeit und hat sich bereits mit den zuständigen Landesbehörden in Verbindung gesetzt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u10" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg52">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Schmitt-Vockenhausen (SPD) :</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1966-02-09-05-018.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg53">Herr Minister, ist Ihnen bekannt, daß Sie in der Lage wären, sich über den Verfassungsschutz gutes Zahlenmaterial zu verschaffen?</seg>
+        </u>
+        <note type="speaker">Dr. Jaeger, Bundesminister der Justiz:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1966-02-09-05-018.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg54">In erster Linie ist dies der Herr Bundesminister des Innern. Aber ich kann mich an den Herrn Bundesminister des Innern wenden und werde es gerne tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg55">Frage VII /3 des Abg. Dr. Schulz (Berlin):</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg56">Gibt unser derzeitiges Strafrecht die Möglichkeit, gegen die in Frage VII /2 gekennzeichneten Delikte energisch und hart genug einzuschreiten?</seg>
+        </u>
+        <note type="speaker">Dr. Jaeger, Bundesminister der Justiz:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1966-02-09-05-018.u14" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg57">Die einschlägigen Strafdrohungen des allgemeinen Strafrechts etwa für Nötigung, Sachbeschädigung, Brandstiftung und Störung der Totenruhe haben sich bisher für eine angemessene und energische Ahndung als ausreichend erwiesen. Auch die Bestimmungen des Entwurfs eines neuen Strafgesetzbuchs — E 1962 — enthalten entsprechende Straftatbestände mit zum Teil erhöhten Strafdrohungen. Vor allem aber ist darauf hinzuweisen, daß die Bundesregierung bereits antisemitische Ausschreitungen des Jahres 1959 zum Anlaß von gesetzgeberischen Maßnahmen genommen hat, die auf die von Ihnen in Frage VII /4 erwähnten Bestrebungen des Europarats nicht ohne Einfluß geblieben sind. Durch das seinerzeit einstimmig verabschiedete 6. Strafrechtsänderungsgesetz des Jahres 1960 wurden § 96 a StGB neu eingefügt und vor allem § 130 StGB neu gefaßt, den ich seiner besonderen Bedeutung halber wörtlich zitieren möchte:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg58">Wer in einer Weise, die geeignet ist, den öffentlichen Frieden zu stören, die Menschenwürde anderer dadurch angreift, daß er 1. zum Haß gegen Teile der Bevölkerung aufstachelt, 2. zu Gewalt- oder Willkürmaßnahmen gegen sie auffordert oder 3. sie beschimpft, böswillig verächtlich macht oder verleumdet, wird mit Gefängnis nicht unter drei Monaten bestraft. Daneben kann auf Geldstrafe erkannt werden. Der neue Entwurf eines Strafgesetzbuches enthält einen fast wörtlich übereinstimmenden Straftatbestand. Dieser sowie die Strafdrohungen bei den einschlägigen Strafbestimmungen des allgemeinen Strafrechts werden bei den Beratungen, an denen der Fragesteller im Sonderausschuß Strafrecht mitzuwirken besondere Gelegenheit hat, noch eingehend überprüft werden. Eine wirksame Bekämpfung derartiger Straftaten wird aber vor allem auch Gegenstand präventivpolizeilicher Maßnahmen und nicht zuletzt eine wichtige und verantwortungsvolle Aufgabe aller mit der Jugenderziehung und Volksbildungsarbeit befaßten Stellen sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u15" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg59">Frage VII /4 des Herrn Abgeordneten Dr. Schulz (Berlin):</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg60">Ist die Bundesregierung bereit, der jüngst mit Einstimmigkeit verabschiedeten Empfehlung der Beratenden Versammlung des Europarates zu folgen und gegebenenfalls einen Gesetzentwurf vorzulegen, der Vergehen, die aus Nazismus, religiösem oder Rassenhaß begangen werden, mit entsprechenden Strafen bedroht?</seg>
+        </u>
+        <note type="speaker">Dr. Jaeger, Bundesminister der Justiz:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1966-02-09-05-018.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg61">Bei der in der Frage erwähnten Empfehlung der Beratenden Versammlung des Europarats handelt es sich um die Empfehlung 453 über Maßnahmen gegen die Rufreizung zum Rassen-, nationalen und religiösen Haß. Nach dem für die Zusammenarbeit der Mitgliedstaaten des Europarats geltenden Verfahren muß diese Empfehlung, die erst am 27. Januar dieses Jahres von der Beratenden Versammlung angenommen worden ist, nunmehr im Ministerkomitee beraten werden. Dabei wird insbesondere die Frage der Ausarbeitung eines europäischen Übereinkommens über eine „loi uniforme" zu erörtern sein. Wie zu Frage 2 ausgeführt, trägt das geltende deutsche Recht dem Anliegen der Beratenden Versammlung bereits weitgehend Rechnung. Die Bundesregierung begrüßt alle Bestrebungen, derartige Straftaten einzudämmen, und wird sorgfältig prüfen, ob die Beschlüsse des Ministerkomitees Anlaß zu einer Erweiterung der auch im neuen Entwurf eines Strafgesetzbuchs enthaltenen Strafvorschriften über Volksverhetzung sowie sonstiger Vorschriften geben werden. Im übrigen glaube ich, den Beratungen des Ministerkomitees in diesem Zeitpunkt nicht durch eine öffentliche Stellungnahme zu Einzelheiten der Empfehlung vorgreifen zu sollen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg62">Keine Fragen mehr; dann sind diese Fragen beantwortet. Wir fahren fort mit II — Geschäftsbereich des Bundesministers für gesamtdeutsche Fragen —. Zunächst Frage II /1 des Herrn Abgeordneten Dr. Besold:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg63">Ist die Publikation auf einer großen Bautafel, die ich auf meinem Wege vom Reichstag zum Kurfürstendamm in Berlin beobachten konnte, inhaltlich richtig und zu verantworten, auf der steht:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg64">Bundesbaudirektion Berlin — Berlin-Charlottenburg, Fasanenstr. 87 „Neubau des Jugendgästehauses"</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg65">2. Abschnitt Im Auftrag des Bundesministers für gesamtdeutsche Fragen. Architekt Statiker usw.</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg66">Ist der Abgeordnete Dr. Besold anwesend?</seg>
+        </u>
+        <note type="speaker">Dr. Schulze-Vorberg (CDU/CSU) :</note>
+        <u who="#Q1593650" xml:id="ParlaMint-DE_1966-02-09-05-018.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg67">Ich übernehme die Frage.</seg>
+        </u>
+        <note type="speaker">Dr. Mende, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q491610" xml:id="ParlaMint-DE_1966-02-09-05-018.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg68">Herr Präsident, ich bitte um die Genehmigung, beide Fragen des Abgeordneten Dr. Besold zusammen beantworten zu dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg69">Sind Sie einverstanden?</seg>
+        </u>
+        <note type="speaker">Dr. Schulze-Vorberg (CDU/CSU) :</note>
+        <u who="#Q1593650" xml:id="ParlaMint-DE_1966-02-09-05-018.u21" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg70">Ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u22" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg71">Gut. Ich rufe also noch die Frage II /2 auf:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg72">Wer beauftragt, zahlt und hilft: der gesamtdeutsche Minister, das gesamtdeutsche Ministerium, die Bundesregierung, oder geschieht nicht alles, was wir tun und entscheiden, „im Auftrag des deutschen Volkes"? Bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Mende, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q491610" xml:id="ParlaMint-DE_1966-02-09-05-018.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg73">Im Einvernehmen mit dem Bundesschatzminister beantworte ich die beiden Fragen wie folgt. Die Beschriftung auf der genannten Bautafel in Berlin entspricht der bisher geübten Praxis. Die mit der Planung und Leitung von Baumaßnahmen des Bundes beauftragte Bundesbaudirektion hat bei den bisher durchgeführten Maßnahmen als Bauherrn stets das Ressort genannt, in dessen Etat die Mittel für die jeweilige Baumaßnahme eingestellt waren. So geschah es auch bei dem Bau des Jugendgästehauses in Berlin sowohl beim ersten als auch beim zweiten Bauabschnitt. Auf der Bautafel wurde als Bauherr „Der Bundesminister für gesamtdeutsche Fragen" benannt. Das Bauschild für den ersten Bauabschnitt stand vom April 1961 bis Oktober 1962, also unter der Ressortverantwortlichkeit meines Vorgängers Ernst Lemmer. Das für den jetzigen zweiten Bauabschnitt notwendige Schild wurde im August 1965 aufgestellt. Die Mittel für den zweiten Bauabschnitt sind unter Kap. 27 02 Tit. 711 in Höhe von 1 532 000 DM ausgewiesen. Die Beschriftung von Bauschildern bei Baumaßnahmen des Bundes wurde im einzelnen nicht festgelegt. Bei Baumaßnahmen des Bundes aus einmaligen Haushaltsmitteln soll das Bauschild allgemein Auskunft geben über erstens die Zweckbestimmung des Bauvorhabens, zweitens den Bauherrn, drittens die für Planung und Bauleitung verantwortlichen Architekten, Ingenieure, Baudienststellen sowie Statiker und andere Sonderfachleute und viertens über die ausführenden Unternehmer. In dem hier in Frage stehenden Fall hätte also das Bauschild noch zusätzlich die Namen der Architekten aufnehmen müssen. Das wird geschehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg74">Eine weitere Frage, Herr Abgeordneter Ertl.</seg>
+        </u>
+        <note type="speaker">Ertl (FDP) :</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1966-02-09-05-018.u25" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg75">Herr Minister, glauben Sie, daß diese. Frage auch gestellt worden wäre, wenn ein Mitglied der CSU den Stuhl des gesamtdeutschen Ministers innehätte?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg76">Herr Kollege Ertl, ich glaube, das bedeutet, die prophetischen Gaben des Herrn Ministers zu überschätzen.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Dr. Mende, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q491610" xml:id="ParlaMint-DE_1966-02-09-05-018.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg77">Herr Präsident, bei der Gleichheit aller vor dem Gesetz darf ich annehmen, daß das auch dann geschehen wäre. Ich kann das aber nicht beeiden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg78">Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten, und zwar zu den Fragen III /1 und III /2 des Abgeordneten Peters (Poppenbüll):</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg79">In welcher Höhe werden Einzelvorhaben agrar- und marktstruktureller Maßnahmen in der Bundesrepublik durch den EWG- Ausrichtungs- und Garantiefonds mit Zuschüssen und Darlehen gefördert? Werden agrar- und marktstrukturelle Maßnahmen, die eine Förderung durch den EWG-Ausrichtungs- und Garantiefonds erhalten, zusätzlich durch Bundes- und Landesmittel gefördert?</seg>
+        </u>
+        <note type="speaker">Höcherl, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q69115" xml:id="ParlaMint-DE_1966-02-09-05-018.u29" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg80">Es gibt bei diesem europäischen Ausrichtungs- und Garantiefonds nur Zuschüsse und keine Darlehen, und zwar Zuschüsse in Höhe bis zu 25 %. Zur Frage 2: Die Gewährung von Zuschüssen ist davon abhängig, daß der Antragsteller 30 % Eigenleistung erbringt. Wenn wir 25% aus dem Fonds dazurechnen, bleiben für die Unterstützung durch den jeweiligen Antragsstaat, die ebenfalls Voraussetzung ist, maximal 45 %.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u30" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg81">Eine Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Peters- (Poppenbüll) (FDP) :</note>
+        <u who="#Q2545769" xml:id="ParlaMint-DE_1966-02-09-05-018.u31" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg82">Herr Bundesminister, muß ich damit annehmen, daß Vorhaben, die durch den EWG-Ausrichtungs- und Garantiefonds gefördert werden, stärker gefördert werden als Maßnahmen, die nur durch Bundes- und Landesmittel gefördert werden?</seg>
+        </u>
+        <note type="speaker">Höcherl, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q69115" xml:id="ParlaMint-DE_1966-02-09-05-018.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg83">Ja, das ist richtig. Sie werden deswegen stärker gefördert, weil offenbar mehr Geld zur Verfügung steht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg84">Letzte Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Peters (Poppenbüll) (FDP) :</note>
+        <u who="#Q2545769" xml:id="ParlaMint-DE_1966-02-09-05-018.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg85">Herr Minister, halten Sie es für richtig, daß über die Gewichtigkeit der Maßnahmen damit praktisch nicht in der Bundesrepublik, sondern in Brüssel entschieden wird?</seg>
+        </u>
+        <note type="speaker">Höcherl, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q69115" xml:id="ParlaMint-DE_1966-02-09-05-018.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg86">Nein; aber ich habe nichts dagegen, wenn auf diesem Wege das Geld aus dem Fonds nach Deutschland zurückfließt.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall in der Mitte.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg87">Herr Abgeordneter Ertl!</seg>
+        </u>
+        <note type="speaker">Ertl (FDP) :</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1966-02-09-05-018.u37" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg88">Herr Minister, wird es zu einer Dauerpraxis werden, daß die Bundesrepublik zwar relativ erheblich zur Finanzierung beiträgt, aber relativ wenig zurückbekommt?</seg>
+        </u>
+        <note type="speaker">Höcherl, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q69115" xml:id="ParlaMint-DE_1966-02-09-05-018.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg89">Ich werde mich in Ihrem Sinne bemühen.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u39" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg90">Herr Abgeordneter Dröscher!</seg>
+        </u>
+        <note type="speaker">Dröscher (SPD) :</note>
+        <u who="#Q2572433" xml:id="ParlaMint-DE_1966-02-09-05-018.u40" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg91">Herr Bundesminister, gestatten Sie noch eine Zusatzfrage zu der gerade abgewickelten Frage. Gibt es bestimmte Richtlinien, die ')</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg92">eine Aufteilung des deutschen Zuschusses nach Bund und Ländern schon konkret vorsehen?</seg>
+        </u>
+        <note type="speaker">Höcherl, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q69115" xml:id="ParlaMint-DE_1966-02-09-05-018.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg93">Nein!</seg>
+        </u>
+        <note type="speaker">Dröscher (SPD) :</note>
+        <u who="#Q2572433" xml:id="ParlaMint-DE_1966-02-09-05-018.u42" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg94">Also nicht! — Dann eine zweite Frage: Gibt es zwingende Vorschriften, daß sich die Länder an solchen Projekten mit einer bestimmten Quote beteiligen müssen? Ich frage das deshalb, weil gewisse Länder so finanzschwach sind, daß sie aus eigenen Kräften kaum etwas tun können.</seg>
+        </u>
+        <note type="speaker">Höcherl, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q69115" xml:id="ParlaMint-DE_1966-02-09-05-018.u43" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg95">Es gibt Vorschriften über die Eigenleistung und Vorschriften über die Länderbeteiligung. Aber die Länderbeteiligung ist nicht an einen festen Prozentsatz gebunden, aus Gründen, die Sie angeführt haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u44" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg96">Die Fragen aus dem Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten sind beantwortet. Wir kommen zu der Frage aus dem Geschäftsbereich des Bundesministers für Vertriebene, Flüchtlinge und Kriegsgeschädigte:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg97">Teilt die Bundesregierung die in dem Urteil der VI. Kammer des Verwaltungsgerichts München vom 20. November 1962 (AZ 6426/62)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg98">vertretene Auffassung, daß § 7 des Bundesvertriebenengesetzes infolge der Nichtigkeitserklärung des § 1629 Abs. 1 BGB durch Entscheidung des Bundesverfassungsgerichts vom 29. Juli 1959 gegenstandslos geworden ist? Der Fragesteller hat sich mit schriftlicher Beantwortung einverstanden erklärt. Die Antwort des Bundesministers Dr. Gradl lautet:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg99">Die Bundesregierung ist nicht der Auffassung, daß § 7 des Bundesvertriebenengesetzes infolge der Nichtigkeitserklärung des § 1629 Abs. 1 BGB durch die Entscheidung des Bundesverfassungsgerichts vom 29. 7. 1959 gegenstandslos geworden ist. § 7 des Bundesvertriebenengesetzes regelt die Frage des Vertriebenen- oder Flüchtlingsstatus von Kindern, die nach der Vertreibung bzw. Flucht der Eltern geboren wurden. Hierbei strebte der Gesetzgeber an, daß Kinder aus Ehen, bei denen beide Elternteile Vertriebene oder Flüchtlinge sind, in jedem Falle den Status des Vertriebenen oder Flüchtlings erwerben. Dagegen sollen Kinder aus Ehen zwischen Vertriebenen oder Flüchtlingen und Einheimischen nur dann die Vertriebenen- oder die Flüchtlingseigenschaft erwerben, wenn der gesetzliche Vertreter diesen Status besitzt. Gesetzlicher Vertreter war vor Erlaß des genannten Urteils des Bundesverfassungsgerichts in der Regel der Vater. In diesem Sinne ist § 7 des Bundesvertriebenengesetzes von den Flüchtlingsbehörden der Länder weiterhin angewendet worden. Schwierigkeiten ergaben sich nach Erlaß des genannten Urteils des Bundesverfassungsgerichts nur in Bayern. Die bayerischen Flüchtlingsbehörden vertraten die Auffassung, daß § 7 des Bundesvertriebenengesetzes auf die nach dem 31. März 1953 geborenen Kinder aus Ehen zwischen Vertriebenen oder Flüchtlingen und Einheimischen nicht mehr anwendbar sei. In dieser Auffassung wurden sie durch das in Ihrer Anfrage genannte Urteil des Verwaltungsgerichts München vom 20. il. 1962 (AZ 6426/62)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg100">bestärkt. Eine höchstrichterliche Entscheidung in dieser Frage ist bisher nicht ergangen. Das genannte Urteil des Verwaltungsgerichts München ist auch vom Bayerischen Verwaltungsgerichtshof nicht überprüft worden, da von keinem Beteiligten Berufung dagegen eingelegt worden ist. Das Bundesvertriebenenministerium hatte schon in der vergangenen Legislaturperiode eine Novelle zum Bundesvertriebenengesetz ausgearbeitet, in der § 7 eine neue Fassung erhalten sollte. Die Überlastung des Deutschen Bundestages am Ende der Wahlperiode hat diese Novelle nicht zum Zuge kommen lassen. Sie ist nun für die laufende Legislaturperiode vorgesehen. Der Entwurf des Bundesvertriebenengesetzes sieht eine Ergänzung des § 7 des Bundesvertriebenengesetzes dahin gehend vor, daß Kinder aus Ehen zwischen Vertriebenen oder Sowjetzonenflüchtlingen und Einheimischen, die nach dem 31. März 1953 geboren wurden, den Vertriebenen- oder Flüchtlingsstatus erwerben, wenn der Vater diesen Status besitzt. Das bedeutet eine Anlehnung an das Staatsangehörigkeitsrecht. Ich bin der Meinung, daß eine solche Regelung dem Artikel 3 Abs. 2 des Grundgesetzes nicht widerspricht, weil in § 7 des Bundesvertriebenengesetzes nicht der rechtliche Status der Ehegatten angesprochen erscheint. Abschließende Besprechungen zu dieser Frage mit den Verfassungsressorts stehen noch aus. Wir kommen zu den Fragen aus dem Geschäftsbereich des Auswärtigen Amts. Ich rufe die Fragen V/1, V/2 und V/3 des Herrn Abgeordneten Vogel (Warendorf)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg101">auf:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg102">Da Vertreter der deutschen Exportwirtschaft sich immer wieder darüber beklagen, daß sich die deutschen Auslandsvertretungen nicht mit der gleichen Selbstverständlichkeit wie die Auslandsvertretungen anderer wichtiger Exportländer der Wirtschaftsinteressen deutscher Firmen annehmen, frage ich, ob die Bundesregierung bereit ist, dafür zu sorgen, daß sich künftig die Vertretungen der Bundesrepublik Deutschland im Ausland stärker und selbstverständlicher als bisher der Wirtschaftsinteressen deutscher Firmen der Exportwirtschaft annehmen? Welche Weisungen an die Vertretungen der Bundesrepublik Deutschland im Ausland bestehen hinsichtlich des in V/1 umschriebenen Fragenkreises? Teilt die Bundesregierung die Auffassung, daß insbesondere die Exportchancen mittelständischer Betriebe, die sich eigene Auslandsvertretungen nicht leisten können, verbessert werden könnten, wenn diese Betriebe sich an die deutschen Auslandsvertretungen wenden und bei diesen wirkliche Hilfe erwarten könnten? Der Fragesteller hat sich mit schriftlicher Beantwortung einverstanden erklärt. Die Antwort des Staatssekretärs Lahr lautet:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg103">Zu 1.</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg104">Die deutschen Auslandsvertretungen sehen im Rahmen ihrer Möglichkeiten die Förderung des Exports ebensosehr als eine ihrer selbstverständlichen Aufgaben an, wie das die Vertretungen anderer Exportländer tun. Sie sind sich stets bewußt gewesen, daß das politische Gewicht Deutschlands in der Welt von seiner wirtschaftlichen Stärke und dem Umfang seiner außenwirtschaftlichen Beziehungen mit bestimmt wird. An der gewaltigen Exportsteigerung der deutschen Ausfuhr — von 25,7 Mrd. DM im Jahre 1955 auf 71,7 Mrd. DM im Jahre 1965 — haben sie ihren Anteil. Den deutschen Auslandsvertretungen sind jedoch bei der Wahrnehmung dieser Aufgaben objektive Grenzen gesetzt, die sich namentlich aus dem Umfang der Besetzung der Vertretungen ergeben. Die personelle Besetzung unseres Wirtschaftsdienstes ist erheblich geringer, als sie den Vorstellungen der Exportwirtschaft entspricht. Zur Zeit sind bei 201 Botschaften, Handelsvertretungen, Generalkonsulaten, Konsulaten und Schutzmachtvertretungen 152 Referenten und Hilfsreferenten mit wirtschaftlichen Aufgaben befaßt. 77 Auslandsvertretungen sind nur mit je einem Wirtschaftsreferenten besetzt, während 90 Auslandsvertretungen überhaupt keinen besonderen Wirtschaftsreferenten haben. Bei diesen Vertretungen müssen die wirtschaftlichen Arbeiten vom allgemeinen Dienst wahrgenommen werden. Unvergleichlich größer ist der Wirtschaftsdienst Großbritanniens, auf dessen Dienstleistungen die deutschen Exportfirmen so oft hinweisen. Allein in Deutschland sind im Auftrag des Foreign Office und des Board of Trade 11 Personen des diplomatischen Dienstes und 28 Angestellte (Referenten, Hilfsreferenten und Sachbearbeiter) ausschließlich oder vorwiegend mit Aufgaben der Exportförderung betraut. Diesen 39 britischen Beamten und Angestellten stehen in Großbritannien nur 6 deutsche Beamte und Angestellte des höheren und 6 des gehobenen Dienstes mit entsprechender Tätigkeit gegenüber. Freilich sind auch die Leiter der Auslandsvertretung mit außenwirtschaftlichen Fragen befaßt. Bemerkenswert sind auch folgende Vergleichszahlen für ein europäisches Industrieland und für ein Entwicklungsland Asiens:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg105">Laut Auskunft des Board of Trade sind in Italien innerhalb der britischen Botschaft 7 und außerhalb der Botschaft 12 Bedienstete, zusammen also 19, mit Fragen der Exportförderung beauftragt. Dem stehen insgesamt 11 entsprechende deutsche Bedienstete in Italien gegenüber. In Indien sind innerhalb der britischen Botschaft 11, außerhalb der Botschaft 23, zusammen also 34 britische Bedienstete, für Aufgaben der britischen Exportförderung tätig. Die entsprechende Zahl der deutschen Bediensteten in Indien beträgt 12. Auch ist zu berücksichtigen, daß die Hilfestellung für einzelne Exportfirmen nur einen Teil der umfangreichen Aufgaben unserer Auslandsvertretungen auf dem Gebiete des Außenhandels darstellt. Schließlich darf nicht vergessen werden, daß mit dem Wachsen des deutschen Außenhandels auch die Zahl der deutschen Exportfirmen außerordentlich gestiegen ist. Sie wird gegenwärtig auf 70 000 geschätzt. Schon diese Zahl der Exportfirmen führt unausbleiblich dazu, daß sich die Auslandsvertretungen den einzelnen Firmen nur in begrenztem Umfang widmen können. In einigen Ländern ist eine gewisse Erleichterung durch die Gründung von Auslandshandelskammern erreicht worden. Überall, wo solche Kammern bestehen, hat sich eine fruchtbare Zusammenarbeit zwischen Auslandsvertretung und Auslandshandelskammer entwickelt. Für die notwendig gewordene Arbeitsteilung zwischen Auslandsvertretung und Auslandshandelskammer zeigen manche Exportfirmen wenig Verständnis. Sie scheuen entweder die mit einer Mitgliedschaft bei der Auslandshandelskammer verbundenen Kosten oder die höheren Gebührensätze der Kammern für Dienstleistungen. Leider sind auch die Auslandshandelskammern nicht immer in der Lage, die ihnen zufallenden Aufgaben voll durchzuführen, weil die öffentlichen Zuschüsse, auf die sie angewiesen sind, nicht ausreichen. Zu 2.</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg106">Für die Tätigkeit der Auslandsvertretungen auf dem Gebiet der Exportförderung sind umfangreiche Weisungen erlassen worden. Die Grundlage bilden die „Richtlinien für den Wirtschaftsdienst vom 1. Januar 1959". Diese enthalten genaue Anleitungen darüber, in welcher Weise die Auslandsvertretungen deutsche Firmen in ihren Exportbemühungen zu unterstützen haben. Zu 3.</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg107">Eine Verbesserung der Exportchancen mittelständischer Betriebe ließe sich erreichen, wenn es möglich wäre, die deutschen Auslandsvertretungen so zu besetzen, daß sie sich stärker den Exportinteressen dieser Betriebe widmen könnten. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers des Innern. Ich rufe die Frage VI /1 des Abgeordneten Dröscher auf:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg108">Hält es die Bundesregierung für richtig, daß durch die am 1. Oktober 1965 in Kraft getretene Änderung des Bundessozialhilfegesetzes bei Blinden in Anstalten, Heimen oder gleichartigen Einrichtungen eine Kürzung des Blindenhilfegeldes um monatlich 100 DM berechnet wird, obwohl die erforderliche „besondere Pflege" z. B. in vielen Altersheimen nicht möglich ist und nur eine wohnungsmäßige Unterbringung und Verpflegung dort geschieht, vergleichbar mit einer Unterbringung im privaten Bereich? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u45" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg109">Ich darf Ihre Frage wie folgt beantworten. Nach der Fassung des § 67 des Bundessozialhilfegesetzes, wie sie bis zum 30. September 1965 gegolten hat, konnte Blinden, die die erforderliche Pflege in Anstalten oder Heimen in vollem Umfang erhielten, Blindenhilfe überhaupt nicht gewährt werden. Die Frage, ob Pflege in vollem Umfang gewährt wurde, führte in der Praxis zu erheblichen Schwierigkeiten. Deshalb wurde die Gewährung von Blindenhilfe an Blinde in Anstalten, Heimen oder gleichartigen Einrichtungen durch das Änderungsgesetz vom 31. August 1965 neu geregelt. Das ist das Änderungsgesetz, das Sie erwähnt haben. Hiernach erhalten alle Blinden in solchen Einrichtungen Blindenhilfe ohne Rücksicht darauf, in welchem Umfang Pflege gewährt wird. Das bedeutet für solche Blinde, die bisher keinerlei Blindenhilfe erhalten konnten, eine erhebliche Verbesserung. Wenn aber ein Blinder in einer Anstalt, der früher 200 DM Blindenhilfe erhalten hat, jetzt 140 DM erhält, so ist dabei zu berücksichtigen, daß dieser Blinde anders als nach der früheren Regelung außer seinem Anspruch auf Blindenhilfe noch Anspruch auf Pflegeleistungen hat, die wegen seiner Erblindung erforderlich sind. Aus diesen Gründen hält die Bundesregierung die von diesem Hohen Hause beschlossene Neuregelung im Änderungsgesetz für richtig.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u46" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg110">Zu einer Zusatzfrage Herr Abgeordneter Dröscher.</seg>
+        </u>
+        <note type="speaker">Dröscher (SPD) :</note>
+        <u who="#Q2572433" xml:id="ParlaMint-DE_1966-02-09-05-018.u47" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg111">Trifft es zu, Herr Staatssekretär, daß durch diese neue Regelung die Blinden in normalen Altersheimen, in denen keine besondere Pflege, sondern nur Verpflegung und Unterbringung gewährt wird, in der Tat schlechter gestellt sind als bisher, ohne daß das der Gesetzgeber gewollt hat? Bisher erhielten sie 200 DM; nach der Neuregelung erhalten sie nur 140 DM.</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u48" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg112">Diese Fälle habe ich soeben erwähnt; sie sind eine Folge des Änderungsgesetzes. Wenn die Folgen so wären, daß Abhilfe geschaffen werden müßte, wäre die Bundesregierung bereit, die dazu erforderlichen Maßnahmen zu ergreifen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg113">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dröscher (SPD) :</note>
+        <u who="#Q2572433" xml:id="ParlaMint-DE_1966-02-09-05-018.u50" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg114">Würden Sie angesichts der für die Betroffenen ungünstigen Umstände bereit sein, seitens des Bundesinnenministeriums zu untersuchen, wieviel Betroffene es gibt und ob in diesen Fällen eine subjektive Schlechterstellung vertreten werden kann?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg115">Wir müßten darüber Erhebungen bei den Anstalten in den Ländern anstellen lassen. Dazu sind wir bereit.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg116">Wir kommen zu der Frage VI /2 des Abgeordneten Eisenmann:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg117">Ist der Bundesregierung der technische Zustand der in Neustadt stationierten Sicherungsboote des Bundesgrenzschutzes See bekannt?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u53" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg118">Wenn Sie einverstanden sind, Herr Abgeordneter, möchte ich die beiden Fragen, die in einem engen Sachzusammenhang stehen, gemeinsam beantworten.</seg>
+        </u>
+        <note type="speaker">Eisenmann (FDP) :</note>
+        <u who="#Q1504489" xml:id="ParlaMint-DE_1966-02-09-05-018.u54" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg119">Einverstanden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg120">Dann rufe ich auch die Frage VI /3 auf:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg121">Wann gedenkt die Bundesregierung, den Bundesgrenzschutz See personell und materiell in die Lage zu versetzen, die ihm gestellten Aufgaben voll erfüllen zu können?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u56" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg122">Der Bundesregierung ist der technische Zustand der Sicherungsboote des Bundesgrenzschutzes See bekannt. Sie weiß, daß deren Einsatz nur eine vorübergehende Notlösung sein kann. Die Bundesregierung hat die Beschaffung neuer Boote sofort eingeleitet, nachdem der Bundestag zugestimmt hatte, daß der Bundesgrenzschutz See aufgestellt wird, und nachdem die erforderlichen Mittel bereitgestellt waren. Wasserfahrzeuge, die den besonderen Aufgaben des Bundesgrenzschutzes See gerecht werden, waren und sind weder in der Bundesrepublik noch im befreundeten Ausland vorhanden. Deshalb mußte eine völlige Neukonstruktion in Angriff genommen werden. Die Arbeiten hieran sind inzwischen so weit fortgeschritten, daß bei einem normalen Fortgang und bei Bereitstellung der erforderlichen Mittel etwa Mitte 1968 mit der Auslieferung des ersten neuen Bootes gerechnet und dann diese Behelfslösung, die wir zur Zeit praktizieren mußten, abgelöst werden kann. Die personelle Ausstattung des Bundesgrenzschutzes See muß mit der materiellen Schritt halten. Im Haushaltsvoranschlag 1966 sind neue Planstellen vorgesehen. 1967 werden weitere hinzukommen müssen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u57" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg123">Ich rufe die Frage VI /4 des Herrn Abgeordneten Dröscher auf:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg124">Sieht die Bundesregierung angesichts der Bedeutung der Leibesübungen für die vorbeugende Gesunderhaltung weitester Bevölkerungskreise und angesichts der finanziellen Schwierigkeiten der Turn- und Sportvereine mit dem „Jedermann-Turnen" eine Möglichkeit, die Sozialversicherungsträger und die privaten Kranken- und Lebensversicherungen zur Mitfinanzierung der Bau- und Unterhaltungskosten von Turn- und Sportstätten sowie des Aufwandes für Übungsleiter heranzuziehen?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Inneren:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u58" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg125">Der Bundesregierung ist bekannt, daß die Deutsche Olympische Gesellschaft bereits vor der Proklamierung des Goldenen Planes Besprechungen geführt hat mit der Bundesanstalt für Arbeitsvermittlung und Arbeitslosenversicherung in Nürnberg, mit dem Verband Deutscher Rentenversicherungsträger in Frankfurt am Main und mit der Bundesversicherungsanstalt für Angestellte in Berlin. Die Deutsche Olympische Gesellschaft hat dazu mitgeteilt, daß die Besprechungen ergebnislos verlaufen seien, weil die Vertreter der genannten Körperschaften seinerzeit keine Möglichkeit gesehen hätten, bestimmte Beträge — sei es als verlorene Zuschüsse, sei es als zinsverbilligte Darlehen — für den Bau von Übungsstätten der Gemeinden und Vereine abzuzweigen. Als Begründung für diese Stellungnahme gaben die Sozialversicherungsträger seinerzeit an, daß die Unsicherheit über etwaige zukünftige Belastungen auf Grund der Rentenreform die Hergabe von Mitteln für diese Zwecke nicht zulasse. Wir werden Ihre Frage, Herr Abgeordneter, zum Anlaß nehmen, um im Benehmen mit der Deutschen Olympischen Gesellschaft bei den Trägern der Sozialversicherung zu klären, ob auf Grund der zwischenzeitlichen Entwicklung nunmehr Möglichkeiten gegeben sind, die Errichtung von Erholungs-, Spiel- und Sportanlagen zu fördern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u59" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg126">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dröscher (SPD) :</note>
+        <u who="#Q2572433" xml:id="ParlaMint-DE_1966-02-09-05-018.u60" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg127">Würden Sie bereit sein, in diese zukünftigen Gespräche den Vorschlag mit einzubeziehen, daß die großen Sozialversicherungsträger und die freiwilligen Krankenversicherungsträger eventuell in eigener Regie „Jedermann-Turnen" bzw. „Jedermann-Leibesübungen" in den Gemeinden veranstalten und diese Veranstaltungen unter ihrer finanziellen Kontrolle halten, die Ausführung aber den Vereinen übertragen?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u61" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg128">Man wird diese Ihre Überlegung, glaube ich, in die Gespräche mit einbeziehen können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u62" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg129">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Killat (SPD) :</note>
+        <u who="#Q710144" xml:id="ParlaMint-DE_1966-02-09-05-018.u63" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg130">Herr Staatssekretär, halten Sie es nicht für denkbar und zweckmäßig, daß man solche Maßnahmen der allgemeinen Gesundheitsförderung auch aus den Mitteln der öffentlichen Hand — sprich: Bund, Länder und Gemeindeverbände — unterstützt und daß man nicht versucht, einzelne spezielle Träger dafür heranzuziehen?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u64" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg131">Die Förderung durch Bund, Länder und Gemeinden geschieht in weitem Umfange nach den Vorstellungen des Goldenen Planes.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u65" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg132">Zusatzfrage, Herr Abgeordneter Eisenmann.</seg>
+        </u>
+        <note type="speaker">Eisenmann (FDP) :</note>
+        <u who="#Q1504489" xml:id="ParlaMint-DE_1966-02-09-05-018.u66" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg133">Herr Staatssekretär, sind Sie mit mir der Meinung, daß die Vereine die Träger der Leibesübungen sind und daß, wenn ein Zuschuß von den von dem Kollegen genannten Trägern gegeben würde, die Vereine als die Träger der Leibesübungen diesen Zuschuß bekommen müßten?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg134">Träger der Leibesübungen sind in der Tat die Vereine. Aber Sportstätten werden, wie Sie wissen, in weitem Umfange auch von den Gemeinden hergestellt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg135">Bitte, Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Hamm (Kaiserslautern) (FDP) :</note>
+        <u who="#Q1399134" xml:id="ParlaMint-DE_1966-02-09-05-018.u69" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg136">Herr Staatssekretär, können Sie mir sagen, in welchem Umfange der Bund seine hinsichtlich des Goldenen Planes eingegangenen Verpflichtungen erfüllt hat und in welchem Umfange nicht?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u70" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg137">Im vergangenen Haushaltsjahr waren 30 Millionen DM für den Goldenen Plan eingestellt, die natürlich der üblichen Kürzung unterlagen. In dem Entwurf des Haushaltsplanes, der jetzt diesem Hohen Hause zugeht, ist eine Erhöhung um 10 Millionen DM auf 40 Millionen DM vorgesehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u71" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg138">Zweite Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Hamm (Kaiserslautern) (FDP) :</note>
+        <u who="#Q1399134" xml:id="ParlaMint-DE_1966-02-09-05-018.u72" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg139">Herr Staatssekretär, inwieweit bleiben diese Zahlen unter den Ansätzen, die in der Vereinbarung über die Finanzierung des Grünen Planes festgelegt worden sind?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe: Des Goldenen Planes!</desc>
+        </vocal>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u73" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg140">Herr Abgeordneter, es gibt insoweit keine Vereinbarung — etwa zwischen dem Bund und den übrigen Trägern oder der Deutschen Olympischen Gesellschaft —, sondern es gibt, wie in einer Fragestunde im 4. Bundestag schon sehr breit erörtert worden ist, eine Zusage des damaligen Bundeskanzlers, daß der Bund sich an der Spitzenfinanzierung der Sportstätten beteiligen wird.</seg>
+        </u>
+        <note type="speaker">Dr. Hamm (Kaiserslautern) (FDP) :</note>
+        <u who="#Q1399134" xml:id="ParlaMint-DE_1966-02-09-05-018.u74" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg141">„Grüner Plan" war natürlich ein Lapsus linguae; es sollte „Goldener Plan" heißen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u75" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg142">Obwohl auch der Grüne Plan nicht ganz ohne goldene Schattierungen ist.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg143">Zusatzfrage, bitte!</seg>
+        </u>
+        <note type="speaker">Cramer (SPD) :</note>
+        <u who="#Q1693149" xml:id="ParlaMint-DE_1966-02-09-05-018.u76" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg144">Herr Staatssekretär, in welchem Verhältnis stehen diese 30 bzw. die 40 Millionen DM zu den Vorstellungen der Deutschen Olympischen Gesellschaft?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg145">Nach den Vorstellungen der Deutschen Olympischen Gesellschaft sollte der Bund, wenn ich mich recht erinnere — ich habe die Zahlen jetzt nicht hier —, 80 oder 84 Millionen DM zahlen. Bei der Haushaltslage des Bundes war es bisher nicht möglich, auf diese Summe zu kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u78" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg146">Noch eine Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Cramer (SPD) :</note>
+        <u who="#Q1693149" xml:id="ParlaMint-DE_1966-02-09-05-018.u79" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg147">Herr Staatssekretär, glauben Sie, daß Sie in den nächsten Jahren dieser Summe ungefähr nahekommen werden?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u80" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg148">Das wird von der Entwicklung der Haushaltslage abhängen, Herr Abgeordneter, die ich als Vertreter des Innenministers nicht überschauen kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u81" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg149">Keine Zusatzfragen mehr. Dann rufe ich die Frage VI /5 des Abgeordneten Porzner auf:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg150">Trifft die in der Frankfurter Allgemeinen Zeitung am 24. Januar 1966 wiedergegebene UPI-Meldung zu, daß der iranische Geheimdienst ,Savak", der seinen Sitz in Köln hat, mit der Überwachung der persischen Studenten betraut ist?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u82" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg151">Herr Abgeordneter, ich beantworte diese Frage wie folgt. Der Vorsitzende des Innenausschusses, Herr Abgeordneter Schmitt- Vokkenhausen, hat gebeten, vor dem Ausschuß über die Tätigkeit ausländischer Nachrichtendienste im Bundesgebiet zu berichten. Ich glaube, Sie werden Verständnis dafür haben, daß ich diesem Bericht vor dem Ausschuß nicht vorgreifen kann, zumal es sich bei Ihrer Frage um ein Thema handelt, das der Erörterung im zuständigen Ausschuß vorbehalten bleiben sollte und sich jedenfalls zu einer breiten Erörterung vor diesem Hohen Hause nicht eignet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u83" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg152">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Porzner (SPD) :</note>
+        <u who="#Q121730" xml:id="ParlaMint-DE_1966-02-09-05-018.u84" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg153">Es ist schwierig, zu dieser Antwort eine Zusatzfrage zu stellen. Herr Staatssekretär, ich teile Ihre Meinung nicht. Ich glaube, daß die deutsche Öffentlichkeit über das, was ausländische Geheimdienste eventuell in der Bundesrepublik tun, informiert werden muß. Ich behalte mir vor, nach der Behandlung dieser Frage im Innenausschuß hier nochmals eine Frage zu stellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg154">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Matthöfer (SPD) :</note>
+        <u who="#Q65556" xml:id="ParlaMint-DE_1966-02-09-05-018.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg155">Herr Staatssekretär, wird bei der Behandlung im Ausschuß auch die Frage geprüft werden, ob ausländische Geheimdienste ausländische Arbeitnehmer — ich denke etwa an die Arbeitnehmer spanischer Nationalität — überwachen?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg156">Ich möchte hier vor dem Plenum den Erörterungen im zuständigen Ausschuß nicht vorgreifen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg157">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Matthöfer (SPD) :</note>
+        <u who="#Q65556" xml:id="ParlaMint-DE_1966-02-09-05-018.u89" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg158">Wie immer das Ergebnis der Prüfung sein wird, sind Sie nicht auch der Meinung, Herr Staatssekretär, daß man gesetzliche Voraussetzungen schaffen sollte, die das Tätigwerden ausländischer Geheimdienste in dem hier gemeinten Sinn in der Bundesrepublik unmöglich machen?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u90" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg159">Ich kann mich zu dieser Frage im Augenblick noch nicht äußern, weil wir die Angelegenheit auf Grund der vom Herrn Abgeordneten Schmitt-Vockenhausen an unser Haus herangetragenen Frage noch prüfen müssen. Wir müssen erst einmal die Tatbestände klarstellen, ehe wir uns klar darüber werden, ob man etwa mit einer gesetzlichen Regelung einschreiten sollte; auch das muß erst geprüft werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u91" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg160">Herr Abgeordneter Metzger.</seg>
+        </u>
+        <note type="speaker">Metzger (SPD) :</note>
+        <u who="#Q1874784" xml:id="ParlaMint-DE_1966-02-09-05-018.u92" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg161">Darf ich Ihrer Antwort entnehmen, daß Sie jetzt erst, nachdem die Initiative von Herrn Schmitt-Vockenhausen ergriffen worden ist, in die Prüfung dieser wichtigen Frage eingetreten sind?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg162">Nein, das dürfen Sie meiner Antwort durchaus nicht entnehmen. Das Bundesamt für Verfassungsschutz und die Landesämter für Verfassungsschutz sind mit dieser Frage ständig konfrontiert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u94" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg163">Ich glaube, mich nicht zu täuschen, wenn ich hier sage, daß die Sitzung des Innenausschusses mit diesem Thema den Zweck haben soll, allgemein in die Prüfung der Frage einzutreten, was getan werden kann, um dem Treiben dieser Geheimdienste zu steuern. Frage VI /6 des Abgeordneten Porzner:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg164">Gibt es irgendeine Zusammenarbeit des persischen Geheimdienstes mit deutschen Stellen zur Überwachung persischer Studenten in der Bundesrepublik?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg165">Zu dieser Frage kann ich heute folgendes sagen. Die Innenministerkonferenz, die vor zwei Wochen in Saarbrücken getagt hat, hat eine Staatssekretärskommission — bestehend aus den Staatssekretären der Innenministerien von Bayern, Hamburg, Hessen, Nordrhein-Westfalen und dem Staatssekretär des Bundesministeriums des Innern — beauftragt, den Fragenkreis erneut zu prüfen und für die nächste Innenministerkonferenz, die Anfang Mai in Hessen stattfinden wird, einen Beschlußentwurf vorzulegen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg166">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Porzner (SPD) :</note>
+        <u who="#Q121730" xml:id="ParlaMint-DE_1966-02-09-05-018.u97" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg167">Ich glaube nicht, daß diese Antwort des Herrn Staatssekretärs zur Frage VI /6 gehört. Herr Präsident, Sie hatten die Frage V116 aufgerufen.</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u98" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg168">Ich bitte um Entschuldigung; ich bin schon in die Antwort auf Frage 7 geraten. Die Frage 6 steht in Zusammenhang mit der Frage 5, die ich soeben beantwortet habe. Ich kann dazu vor diesem Hohen Hause nicht mehr sagen, als daß im Innenausschuß, der für den Verfassungsschutz zuständig ist, weiter darüber gesprochen werden kann.</seg>
+        </u>
+        <note type="speaker">Porzner (SPD) :</note>
+        <u who="#Q121730" xml:id="ParlaMint-DE_1966-02-09-05-018.u99" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg169">Wollen Sie damit sagen, daß es eine Zusammenarbeit ausländischer Geheimdienste mit deutschen Stellen gibt?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg170">Ich kann zu dieser Zusammenarbeit mit ausländischen Staaten auf diesem Gebiet hier weder positiv noch negativ Stellung nehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg171">Frage VI /7 des Herrn Abgeordneten Rollmann:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg172">Mit welchem Ergebnis hat die Konferenz der Landesinnenminister die Frage der sogenannten Wirtschaftsflüchtlinge aus den Ostblockstaaten behandelt?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u102" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg173">Ich habe die Frage 7 eben beantwortet, Herr Präsident.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u103" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg174">Herr Abgeordneter Rollmann, Sie haben die Antwort vorhin gehört. Haben Sie eine Zusatzfrage?</seg>
+        </u>
+        <note type="speaker">Rollmann (CDU/CSU) :</note>
+        <u who="#Q1223996" xml:id="ParlaMint-DE_1966-02-09-05-018.u104" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg175">Herr Staatssekretär, ist gewährleistet, daß bis zur endgültigen Lösung dieses Problems durch die Landesinnenministerkonferenz keine Abschiebungen in der Art erfolgen werden, wie es im vergangenen Herbst der Fall war?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg176">In der letzten Fragestunde vor zwei Wochen, in der dieses Thema hier ausgiebig abgehandelt worden ist, habe ich schon erklärt, daß seit dem 1. Oktober das Land Bayern — in dem die Fälle hauptsächlich vorgekommen sind — keine Abschiebungen mehr vorgenommen hat. Ich glaube davon ausgehen zu können, daß das Land Bayern bis zu der von der Innenministerkonferenz zu treffenden Regelung bei der bisherigen Übung verbleiben wird, d. h. nicht abschieben wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u106" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg177">Ein Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Fellermaier (SPD) :</note>
+        <u who="#Q1874372" xml:id="ParlaMint-DE_1966-02-09-05-018.u107" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg178">Herr Staatssekretär, habe ich Sie richtig verstanden, daß eine förmliche Zusage der bayerischen Staatsregierung vorliegt, oder schließen Sie das nur aus den allgemeinen Beratungen der Innenminister der Länder über diese bedeutsame Frage?</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1533278" xml:id="ParlaMint-DE_1966-02-09-05-018.u108" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg179">Ich schließe das aus den Gesprächen, die wir schon seit vielen Wochen mit dem bayerischen Innenministerium über diese Frage führen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u109" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg180">VIII, Geschäftsbereich des Bundesministers der Finanzen. Ich rufe die Frage VIII /1 des Herrn Abgeordneten Biechele auf:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg181">Sind Pressemeldungen zutreffend, wonach das Bundesfinanzministerium den Wassersportverbänden des Bodenseegebiets Zollerleichterungen für den Segel- und Motorbootsportverkehr angekündigt hat, um eine schnellere und reibungslosere Abfertigung der Boote zu erreichen, Regelungen, die in ähnlicher Weise die Schweiz und Osterreich schon vor Jahren eingeführt haben? Der Fragesteller hat sich mit schriftlicher Beantwortung einverstanden erklärt. Die Antwort des Bundesministers Dr. Dahlgrün lautet:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg182">Die Pressemeldungen sind zutreffend. Es ist beabsichtigt, den Verkehr mit Sportbooten auf dem Bodensee zollrechtlich und grenzpolizeilich zu erleichtern. Dazu bedarf es aber noch der Zustimmung des Herrn Bundesministers des Innern, der für die grenzpolizeilichen Fragen federführend ist. Seine Zustimmung hängt noch von der Prüfung einiger rein technischer Fragen ab. Voraussichtlich werden die geplanten Erleichterungen noch vor Beginn der Hauptreisezeit in Kraft treten können. Ich werde mir erlauben, Sie zu gegebener Zeit über die Neuregelung zu unterrichten. Wir kommen zur Frage VIII /2 des Herrn Abgeordneten Jahn (Marburg):</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg183">Ist der Bundesregierung bekannt, daß die Mehrzahl der Länder in den Ausführungsgesetzen zur Finanzgerichtsordnung die vom Deutschen Bundestag beschlossene Anhebung der Finanzgerichte zu oberen Landesgerichten dadurch zu umgehen trachtet, daß sie § 2 FGO als eine rein formale Vorschrift interpretiert, die lediglich eine andere Bezeichnung der Finanzgerichte vorsehe?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u110" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg184">Der Bundesregierung ist bekannt, daß — mit Ausnahme des Landes Baden-Württemberg, dessen Gesetz in Kürze verabschiedet werden wird — alle Länder die auf Grund der Finanzgerichtsordnung notwendigen Ausführungsgesetze inzwischen erlassen haben. In diesen Gesetzen hat die vom Bundestag beschlossene Anhebung der Finanzgerichte zu oberen Landesgerichten im Sinne des § 2 der Finanzgerichtsordnung zunächst in der Einführung der Senatsverfassung ihren Ausdruck gefunden. In allen Ausführungsgesetzen ist vorgesehen, daß an die Stelle der bisherigen Kammern künftig Senate treten und die bisherigen Finanzgerichtsdirektoren numehr Senatspräsidenten sind. Darüber hinaus waren die Länder bemüht, sich in gemeinsamen Besprechungen über die durch die Neufassung des § 2 der Finanzgerichtsordnung bedingte besoldungsmäßige Einstufung der Finanzrichter zu verständigen und sie in der Weise neu zu ordnen, daß in bestimmtem Umfang Stellen angehoben werden sollten. Dabei hatten die Länder in organisatorischer Hinsicht naturgemäß die bestehenden Gerichtsorganisationen der anderen Gerichtsbarkeiten in Verbindung mit deren funktionellem Aufgabenbereich zu berücksichtigen. Den in diesem Zusammenhang erörterten Gesichtspunkten haben bereits mehrere Länder bei der Änderung ihrer Landesbesoldungsgesetze Rechnung getragen und entsprechende Stellenanhebungen beschlossen. Nach Auffassung der Bundesregierung trifft es daher nicht zu, daß die Mehrheit der Länder § 2 der Finanzgerichtsordnung als eine rein formale Vorschrift in dem Sinne interpretiert, daß sie lediglich eine andere Bezeichnung der Finanzgerichte vorsieht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg185">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jahn (Marburg) (SPD) :</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1966-02-09-05-018.u112" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg186">Herr Staatssekretär, in welcher Weise ist denn die von Ihnen hier genannte Anhebung der Stellen erfolgt?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u113" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg187">Herr Abgeordneter, ich kann Ihnen darüber noch kein vollständiges Bild geben. Aber soweit mir die Landesbesoldungsgesetze vorliegen, ist festzustellen, daß bei den Finanzgerichtsräten also in der ersten Stufe — im allgemeinen keine Anhebung erfolgt ist. Dagegen ist bei den Finanz- Berichtsdirektoren und den jetzigen Senatspräsidenten in mindestens fünf Ländern eine Anhebung von A 15 nach A 16 erfolgt, während in den anderen Ländern die A-15-Stellen vorläufig unverändert geblieben sind. Ich betone ausdrücklich: vorläufig; es sind nämlich noch nicht alle Länder zu Besoldungsgesetzänderungen gekommen. Bei den Finanzgerichtspräsidenten ist es so, daß es im wesentlichen keine Änderungen gegeben hat. Ich weiß nur von zwei Ländern, nämlich von Nordrhein-Westfalen und dem Saarland, daß dort eine Anhebung erfolgt ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u114" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg188">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jahn (Marburg) (SPD) :</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1966-02-09-05-018.u115" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg189">Herr Staatssekretär, wieso vertreten Sie, wenn die Richter insgesamt offenbar überhaupt keine Änderung ihrer Position erfahren haben und offenbar auch keine volle Gleichstellung der Planstellen für Finanzgerichtsdirektoren bzw. Senatspräsidenten mit den vergleichbaren Planstellen an den oberen Landesgerichten vornommen worden ist, hier die Auffassung, daß das eindeutige Petitum des Bundestages erfüllt sei?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u116" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg190">Herr Abgeordneter, so global hatte ich meine Antwort nicht gefaßt. Ich habe gesagt, daß Ihre Auffassung, die Mehrheit der Länder neige dazu, den § 2 FGO formal auszulegen, in dieser Form nicht zutrifft; denn in der Tat sind Anhebungen erfolgt, die sich in der einen Sparte sogar auf fast die Hälfte der Länder erstrecken; andere Länder werden bei den Senatspräsidenten sicherlich noch folgen. Ich kann die Antwort nur differenziert für die einzelnen Sparten geben. Sie haben aber, Herr Abgeordneter, gleichzeitig das Hauptproblem angeschnitten. Es liegt eben in der Tat darin, ob die Finanzgerichte mit den Oberlandesgerichten oder den Oberverwaltungsgerichten vergleichbar sind. Hier steckt das Problem. Infolge der besonders gearteten Zweistufigkeit der Finanzgerichte wird man die Vergleichbarkeit nicht unbedingt bejahen können.</seg>
+        </u>
+        <note type="speaker">Jahn (Marburg) (SPD) :</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1966-02-09-05-018.u117" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg191">Herr Staatssekretär, ist Ihnen nicht bekannt, was der Abgeordnete Seuffert als Berichterstatter des Vermittlungsausschusses in der 198. Sitzung des Bundestages am 23. Juli 1965 gerade zu dieser Frage ausführte? Er sagte:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg192">Der Vermittlungsausschuß hielt es aber gleichzeitig für notwendig, den Finanzgerichten eine Hebung ihrer Stellung zu gewähren und damit dem Umstand Rechnung zu tragen, daß sie als einzige Mittelinstanz weiter zwischen dem Finanzamt und dem Revisionsgericht stehen... . Der Vermittlungsausschuß meint, daß damit die zweifellos in der Finanzgerichtsbarkeit bestehenden Personal- und auch Laufbahnschwierigkeiten in nicht unerheblichem Umfang gemildert werden können. Er ist sich bewußt, daß sich daraus Stellenhebungen ergeben. . . . Die Finanzgerichte werden obere Landesgerichte. Das war das eindeutige Petitum des Vermittlungsausschusses.</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg193">Herr Abgeordneter, diese Stellungnahme des Herrn Berichterstatters im Bundestag ist mir durchaus bekannt. Ich kann sie noch durch den Hinweis ergänzen, daß der Berichterstatter im Bundesrat entsprechende Ausführungen in der gleichen Richtung gemacht hat. Ich darf aber darauf hinweisen, daß die Besoldungsgesetze für die Finanzrichter Landesgesetze sind und die Länderparlamente in diesem Punkt eine freie Entscheidung treffen können und zum Teil auch bereits getroffen haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg194">Zu einer Zusatzfrage Herr Abgeordneter Arndt.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Berlin /Köln) (SPD) :</note>
+        <u who="#Q90819" xml:id="ParlaMint-DE_1966-02-09-05-018.u120" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg195">Herr Staatssekretär, ist es nicht ganz klar so, daß die Finanzgerichtsordnung die Finanzgerichte zu oberen Landesgerichten erklärt hat mit dem Ziel, daß die Finanzgerichtsräte den Oberlandesgerichtsräten und Oberverwaltungsgerichtsräten und die Senatspräsidenten an Finanzgerichten den Senatspräsidenten an Oberlandesgerichten und Verwaltungsgerichtshöfen nach Rang und Gehalt gleichzustellen sind? Ist das nicht so, und bleibt dann nicht den Ländern gar keine Möglichkeit zum Ungehorsam gegen ein Bundesgesetz?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u121" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg196">Herr Abgeordneter, die Länderregierungen und die Länderparlamente, die bereits Besoldungsgesetze dazu beschlossen haben, sind offensichtlich der Auffassung, daß die Auslegung, die Sie dem Gesetz geben, nicht zwingend ist; denn sonst hätten sie in der Gehaltsfrage nicht zu einer Änderung in beschränktem Umfange kommen können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u122" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg197">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Berlin/ Köln) (SPD) :</note>
+        <u who="#Q90819" xml:id="ParlaMint-DE_1966-02-09-05-018.u123" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg198">Herr Staatssekretär, ist es dann nicht Sache der Bundesaufsicht, den Ländern d i e Auffassung in geeigneter Weise nahezubringen, die von diesem Hause, vom Bundesrat und vorn Vermittlungsausschuß einstimmig und eindeutig vertreten ist?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u124" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg199">Herr Abgeordneter, ich glaube nicht, daß man hier im Zusammenhang mit den Besoldungsgesetzen von einer Bundesaufsicht gegenüber den Ländern sprechen kann.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Arndt [Berlin/ Köln] : Steht doch im Grundgesetz!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg200">Der Bund hat hinsichtlich der Besoldungsgesetze nur ( eine Rahmengesetzgebungskompetenz. Er hat davon in einigen Punkten auch Gebrauch gemacht. Ich nehme auf § 53 des Bundesbesoldungsgesetzes Bezug.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u125" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg201">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Berlin /Köln) (SPD) :</note>
+        <u who="#Q90819" xml:id="ParlaMint-DE_1966-02-09-05-018.u126" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg202">Herr Staatssekretär, sehen Sie denn nicht, daß es sich hier gar nicht um die Rahmengesetzgebung des Bundes in Besoldungsfragen handelt, sondern um die Zuständigkeit des Bundes, eine Finanzgerichtsordnung zu schaffen und in der Finanzgerichtsordnung zu sagen, daß die Finanzgerichte Obergerichte sind — wie es wörtlich darin steht? Das steht doch nicht zum Vergnügen darin.</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg203">Herr Abgeordneter, ich habe dazu die Stellungnahme der Bundesregierung bereits kundgegeben. Sie geht dahin, daß die Vorschrift, daß die Finanzgerichte Landesobergerichte sind, von den Ländern in der Einstufungs- und Gehaltsfrage offensichtlich unterschiedlich ausgelegt wird. Ich selber teile die Auffassung – um das für mich persönlich hinzuzufügen —, die Sie dieser Vorschrift geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg204">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Brück (Köln) (CDU/CSU) :</note>
+        <u who="#Q2508254" xml:id="ParlaMint-DE_1966-02-09-05-018.u129" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg205">Herr Staatssekretär, wäre das nicht ein Punkt für die kommenden Beratungen innerhalb der Bundesregierung, bei denen die Wiederherstellung der Einheit des Besoldungsrechts — nicht nur in bezug auf die Finanzpräsidenten, Finanzgerichte usw., sondern auch in anderen Bereichen — angestrebt wird, damit wir zu klaren Verhältnissen kommen und diese berechtigte Unzufriedenheit endlich einmal ausgeräumt wird?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg206">Herr Abgeordneter, diese Frage zu beantworten fällt in den Geschäftsbereich des federführenden Bundesministers des Inneren. Aus der Sicht meines Hauses, das in diesen Fragen nur zur Mitwirkung berufen ist, möchte ich aber folgendes sagen: Wir werden dafür eintreten, daß im Rahmen einer Novellierung des Besoldungsgesetzes gerade in diesem Punkt die von Ihnen gewünschte Vereinheitlichung gesetzlich verankert wird.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Brück [Köln] : Danke schön!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmidt:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg207">Eine Zusatzfrage, Herr Abgeordneter Schäfer.</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer (SPD) :</note>
+        <u who="#Q1462129" xml:id="ParlaMint-DE_1966-02-09-05-018.u132" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg208">Herr Staatssekretär, Sie sprachen davon, daß die Länder die Bestimmung verschieden auslegen. Hier ist aber die Frage entscheidend, wie Sie sie auslegen, wie das Bundesfinanzministerium sie auslegt.</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg209">Das glaube ich nicht, Herr Abgeordneter. Die Länderparlamente sind bei ihren Entscheidungen über die Besoldung frei.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Jahn [Marburg] : Wieso sind denn die Länder frei, ein Bundesgesetz gegen den klaren Wortlaut auszulegen?</desc>
+        </vocal>
+        <note type="speaker">Dr. Schäfer (SPD) :</note>
+        <u who="#Q1462129" xml:id="ParlaMint-DE_1966-02-09-05-018.u134" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg210">Herr Staatssekretär, ich vermute, daß Sie mich falsch verstehen. Hier geht es um die Durchführung eines Bundesgesetzes. Ein Bundesgesetz bindet jede Behörde und bindet insbesondere auch die Länder, denen die Durchführung der Gesetze übertragen ist. Deshalb ist doch zunächst die Frage zu klären, ob die Bundesregierung im gleichen Sinne, wie es der Bundestag auf den Bericht des Vermittlungsausschusses hin beschlossen hat, ihrerseits auf die Länder eingewirkt hat, den Bestimmungen des Gesetzes zu entsprechen. Hat man etwas getan, oder hat man nichts getan?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u135" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg211">Herr Abgeordneter, es haben Besprechungen stattgefunden. Bei diesen Besprechungen ist die ganze Problematik behandelt worden, und wir haben dabei auch auf das hingewiesen, was die Herren Berichterstatter bei der Verabschiedung der Finanzgerichtsordnung im Bundestag und im Bundesrat — es ist hier schon vorgetragen oder vorgelesen worden — dazu ausgeführt haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u136" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg212">Eine weitere Zusatzfrage? — Bitte, Herr Abgeordneter Brück!</seg>
+        </u>
+        <note type="speaker">Brück (Köln) (CDU/CSU) :</note>
+        <u who="#Q2508254" xml:id="ParlaMint-DE_1966-02-09-05-018.u137" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg213">Herr Staatssekretär, ich möchte Sie nur fragen, ob Ihnen noch in Erinnerung ist, daß der Bund im Jahre 1958 in Karlsruhe einen Prozeß gerade wegen der Einheit gegen das Land Nordrhein-Westfalen verloren hat und daß damals in dem Urteil gesagt worden ist, im Prinzip seien die Länder trotz des Rahmenrechts in einem gewissen Umfange frei.</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u138" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg214">Herr Abgeordneter, dieses Urteil ist mir wohlbekannt. Deswegen habe ich auch in Zweifel gezogen, ob die Landesbesoldungsgesetze etwa den Charakter von Ausführungsgesetzen zur Finanzgerichtsordnung im Sinne von Art. 84 Abs. 3 GG haben. Das habe ich sogar verneint.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg215">Keine weiteren Zusatzfragen. Ich rufe dann die Frage VIII/ 3 des Abgeordneten Lenze (Attendorn)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg216">auf:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg217">Ist der Bundesfinanzminister bereit zu veranlassen, daß der Steuerfreibetrag für nicht am Wohnort der Eltern studierende Kinder von den jetzt völlig unzureichenden 100 DM auf eine den tatsächlichen Verhältnissen angemessene Summe angehoben wird? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u140" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg218">Die Frage, ob die steuerlichen Freibeträge für die auswärtige Unterbringung von Kindern, die sich in der Berufsausbildung befinden, heute noch zeitgemäß sind, ist auch in der Fragestunde des Deutschen Bundestages am 9. Dezember 1965 von Herrn Abgeordneten Dr. Schmidt (Wuppertal)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg219">gestellt worden. Was ich damals geantwortet habe, gilt auch heute noch. Der Freibetrag für die auswärtige Unterbringung eines in der Berufsausbildung stehenden Kindes beträgt nach § 33 a Abs. 2 des Einkommensteuergesetzes zur Zeit 1200 DM im Kalenderjahr. Er steht in einem engen Zusammenhang mit dem Freibetrag, der in gleicher Höhe nach § 33 a Abs. 1 des Einkommensteuergesetzes allgemein für den Unterhalt einer bedürftigen Person gewährt wird, und diese beiden Freibeträge wiederum sind nach dem gleich hohen Kinderfreibetrag für das erste Kind ausgerichtet. Die Frage, ob der Kinderfreibetrag für das erste Kind und damit auch die Freibeträge nach § 33 a erhöht werden sollten, ist gelegentlich der Beratungen des Finanzausschusses über das Steueränderungsgesetz 1964 eingehend erörtert worden. Der Finanzausschuß ist zu dem Ergebnis gelangt, daß eine Erhöhung schon aus Haushaltsgründen nicht vorgenommen werden sollte. Diesem Beschluß hat sich dann der Deutsche Bundestag angeschlossen. Die Bundesregierung wird aber die Frage, ob eine Anhebung der seit 1962 geltenden Freibeträge geboten ist, im Auge behalten. Angesichts der derzeitigen Haushaltslage beim Bund und auch bei den Ländern kann jedoch im gegenwärtigen Augenblick eine Zusage über Zeitpunkt oder Ausmaß einer etwaigen Erhöhung leider nicht gegeben werden. Es ist zu bedenken, daß schon bei einer Anhebung der genannten drei Freibeträge um nur 120 DM pro Freibetrag im Jahr oder um nur 10 DM pro Monat mit Steuerausfällen für Bund und Länder von über 300 Millionen DM zu rechnen ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u141" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg220">Eine Zusatzfrage des Herrn Abgeordneten Lenze (Attendorn).</seg>
+        </u>
+        <note type="speaker">Lenze (Attendorn) (CDU/CSU) :</note>
+        <u who="#Q1448033" xml:id="ParlaMint-DE_1966-02-09-05-018.u142" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg221">Herr Staatssekretär, sind Sie mit mir der Ansicht, daß die Sätze des Honnefer Modells gerade bei solchen auswärts Studierenden, die keine Förderung nach dem Honnefer Modell erhalten, einen Anhaltspunkt für die Höhe des Steuerfreibetrages darstellen können, daß also der Steuerfreibetrag für auswärts Studierende in Höhe von 250 bis 300 DM angemessen wäre?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u143" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg222">Herr Abgeordneter, diese Frage muß ich verneinen. Das kann kein ausreichender Anhaltspunkt für die drei von mir genannten, in einem engen Zusammenhang stehenden Freibeträge sein, ganz abgesehen von den haushaltsmäßigen Auswirkungen, die ja bei einer Erhöhung auf 290 DM im Monat, also um 190 DM im Monat, das Vielfache der von mir genannten Summe ausmachen würden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u144" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg223">Eine zweite Zusatzfrage des Abgeordneten Lenze (Attendorn).</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg224">Der Vermittlungsausschuß meint, daß damit die zweifellos in der Finanzgerichtsbarkeit bestehenden Personal- und auch Laufbahnschwierigkeiten in nicht unerheblichem Umfang gemildert werden können. Er ist sich bewußt, daß sich daraus Stellenhebungen ergeben. . . . Die Finanzgerichte werden obere Landesgerichte. Das war das eindeutige Petitum des Vermittlungsausschusses.</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg225">Herr Abgeordneter, diese Stellungnahme des Herrn Berichterstatters im Bundestag ist mir durchaus bekannt. Ich kann sie noch durch den Hinweis ergänzen, daß der Berichterstatter im Bundesrat entsprechende Ausführungen in der gleichen Richtung gemacht hat. Ich darf aber darauf hinweisen, daß die Besoldungsgesetze für die Finanzrichter Landesgesetze sind und die Länderparlamente in diesem Punkt eine freie Entscheidung treffen können und zum Teil auch bereits getroffen haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg226">Zu einer Zusatzfrage Herr Abgeordneter Arndt.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Berlin /Köln) (SPD) :</note>
+        <u who="#Q90819" xml:id="ParlaMint-DE_1966-02-09-05-018.u147" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg227">Herr Staatssekretär, ist es nicht ganz klar so, daß die Finanzgerichtsordnung die Finanzgerichte zu oberen Landesgerichten erklärt hat mit dem Ziel, daß die Finanzgerichtsräte den Oberlandesgerichtsräten und Oberverwaltungsgerichtsräten und die Senatspräsidenten an Finanzgerichten den Senatspräsidenten an Oberlandesgerichten und Verwaltungsgerichtshöfen nach Rang und Gehalt gleichzustellen sind? Ist das nicht so, und bleibt dann nicht den Ländern gar keine Möglichkeit zum Ungehorsam gegen ein Bundesgesetz?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u148" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg228">Herr Abgeordneter, die Länderregierungen und die Länderparlamente, die bereits Besoldungsgesetze dazu beschlossen haben, sind offensichtlich der Auffassung, daß die Auslegung, die Sie dem Gesetz geben, nicht zwingend ist; denn sonst hätten sie in der Gehaltsfrage nicht zu einer Änderung in beschränktem Umfange kommen können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u149" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg229">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Berlin /Köln) (SPD) :</note>
+        <u who="#Q90819" xml:id="ParlaMint-DE_1966-02-09-05-018.u150" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg230">Herr Staatssekretär, ist es dann nicht Sache der Bundesaufsicht, den Ländern d i e Auffassung in geeigneter Weise nahezubringen, die von diesem Hause, vom Bundesrat und vom Vermittlungsausschuß einstimmig und eindeutig vertreten ist?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u151" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg231">Herr Abgeordneter, ich glaube nicht, daß man hier im Zusammenhang mit den Besoldungsgesetzen von einer Bundesaufsicht gegenüber den Ländern sprechen kann.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Arndt [Berlin/ Köln] : Steht doch im Grundgesetz!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg232">Der Bund hat hinsichtlich der Besoldungsgesetze nur eine Rahmengesetzgebungskompetenz. Er hat davon in einigen Punkten auch Gebrauch gemacht. Ich nehme auf § 53 des Bundesbesoldungsgesetzes Bezug.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u152" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg233">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Berlin/ Köln) (SPD) :</note>
+        <u who="#Q90819" xml:id="ParlaMint-DE_1966-02-09-05-018.u153" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg234">Herr Staatssekretär, sehen Sie denn nicht, daß es sich hier gar nicht um die Rahmengesetzgebung des Bundes in Besoldungsfragen handelt, sondern um die Zuständigkeit des Bundes, eine Finanzgerichtsordnung zu schaffen und in der Finanzgerichtsordnung zu sagen, daß die Finanzgerichte Obergerichte sind — wie es wörtlich darin steht? Das steht doch nicht zum Vergnügen darin.</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u154" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg235">Herr Abgeordneter, ich habe dazu die Stellungnahme der Bundesregierung bereits kundgegeben. Sie geht dahin, daß die Vorschrift, daß die Finanzgerichte Landesobergerichte sind, von den Ländern in der Einstufungs- und Gehaltsfrage offensichtlich unterschiedlich ausgelegt wird. Ich selber teile die Auffassung – um das für mich persönlich hinzuzufügen —, die Sie dieser Vorschrift geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u155" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg236">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Brück (Köln) (CDU/CSU) :</note>
+        <u who="#Q2508254" xml:id="ParlaMint-DE_1966-02-09-05-018.u156" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg237">Herr Staatssekretär, wäre das nicht ein Punkt für die kommenden Beratungen innerhalb der Bundesregierung, bei denen die Wiederherstellung der Einheit des Besoldungsrechts — nicht nur in bezug auf die Finanzpräsidenten, Finanzgerichte usw., sondern auch in anderen Bereichen — angestrebt wird, damit wir zu klaren Verhältnissen kommen und diese berechtigte Unzufriedenheit endlich einmal ausgeräumt wird?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u157" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg238">Herr Abgeordneter, diese Frage zu beantworten fällt in den Geschäftsbereich des federführenden Bundesministers des Inneren. Aus der Sicht meines Hauses, das in diesen Fragen nur zur Mitwirkung berufen ist, möchte ich aber folgendes sagen: Wir werden dafür eintreten, daß im Rahmen einer Novellierung des Besoldungsgesetzes gerade in diesem Punkt die von Ihnen gewünschte Vereinheitlichung gesetzlich verankert wird.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Brück [Köln] : Danke schön!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmidt:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u158" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg239">Eine Zusatzfrage, Herr Abgeordneter Schäfer.</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer (SPD) :</note>
+        <u who="#Q1462129" xml:id="ParlaMint-DE_1966-02-09-05-018.u159" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg240">Herr Staatssekretär, Sie sprachen davon, daß die Länder die Bestimmung verschieden auslegen. Hier ist aber die Frage entscheidend, wie Sie sie auslegen, wie das Bundesfinanzministerium sie auslegt.</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u160" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg241">Das glaube ich nicht, Herr Abgeord-Außerdem erhält die Stadt Bonn aus den bei Kap. 60 02 Tit. 700 veranschlagten Mitteln für den Erwerb des Gronaugeländes als 2. Rate einen Betrag von voraussichtlich 41 750 000 DM. Nach dem Entwurf des Bundeshaushaltsplanes 1966 sind somit für die Stadt Bonn insgesamt vorgesehen: aus Kap. 60 02 Tit. 625 a 6 019 200 DM aus Kap. 06 02 Tit 660 2 000 000 DM aus Kap. 12 10 Tit. 310 2 500 000 DM aus Kap. 60 02 Tit. 700 41 750 000 DM 52 269 200 DM Ich rufe die Frage VIII /5 des Abgeordneten Dr. Müller-Emmert auf:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg242">Haben die von der American Military-International Insurance Association (AMIIA)</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg243">dem Bundesaufsichtsamt für das Versicherungs- und Bausparwesen sicherheitshalber übereigneten Kautionswerte in Höhe von rd. 6,65 Millionen DM ausgereicht, zusammen mit der Konkursmasse die Ansprüche der Unfallgeschadigten zu befriedigen?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u161" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg244">Die Frage darf ich im Einvernehmen mit dem Herrn Bundesminister für Wirtschaft wie folgt beantworten. Aus den zur Verfügung stehenden Kautionswerten, die im Zusammenhang mit dem Konkursverfahren auf Grund einer Vereinbarung zwischen dem Bundesaufsichtsamt für das Versicherungs- und Bausparwesen und dem Konkursverwalter ausschließlich zur Befriedigung der Ansprüche der Unfallgeschädigten und Versicherten verwandt werden, sind bislang keine Zahlungen geleistet worden, da die Prüfung dieser Ansprüche noch nicht abgeschlossen ist. Nach der letzten mir bekanntgewordenen Mitteilung des Konkursverwalters an die Gläubiger wird die Auszahlung der Quoten auf die Entschädigungssumme aus Haftpflicht- und Kaskoschäden voraussichtlich Ende 1966 stattfinden. Mit einer vollständigen Befriedigung der Ansprüche der Geschädigten kann leider nicht gerechnet werden; die Zahlungen werden jedoch, wie bereits auf eine frühere Anfrage hin erklärt worden ist, die Schäden weitgehend decken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u162" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg245">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Müller-Emmert (SPD) :</note>
+        <u who="#Q363451" xml:id="ParlaMint-DE_1966-02-09-05-018.u163" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg246">Herr Staatssekretär, können Sie schon in etwa sagen, wie hoch die Zahl der Unfallgeschädigten ist?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u164" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg247">Die Zahl, Herr Abgeordneter, ist mir leider nicht bekannt. Aber ich bin gerne bereit, sie zu erfragen und sie Ihnen schriftlich mitzuteilen.</seg>
+        </u>
+        <note type="speaker">Dr. Müller-Emmert (SPD) :</note>
+        <u who="#Q363451" xml:id="ParlaMint-DE_1966-02-09-05-018.u165" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg248">Ich wäre Ihnen sehr dankbar, Herr Staatssekretär. Eine weitere Frage: Können Sie in etwa sagen, Herr Staatssekretär, wie hoch die Gesamtsumme der Forderungen ist, die die Unfallgeschädigten zu erhalten haben?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u166" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg249">Auch diese Frage kann ich Ihnen hier nicht beantworten. Mein Haus ist für diese Frage nicht federführend zuständig. Aber ich bin gern bereit, Ihnen auch diese Frage schriftlich zu beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u167" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg250">Frage VIII /6 des Abgeordneten Dr. Müller-Emmert:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg251">Ist die Bundesregierung bereit, den Unfallgeschädigten, die in dem Konkursverfahren der AMIIA keine Befriedigung erhalten, aus Mitteln des Bundes zu helfen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u168" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg252">Zur Frage 6 lautet die Antwort wie folgt. Die Bundesregierung ist grundsätzlich bereit, Unfallgeschädigten finanziell aus Bundesmitteln dann zu helfen, wenn die Zahlungen aus den Kautionswerten ihre Ansprüche nicht vollständig befriedigen und das für sie eine Härte bedeuten würde. Eine entsprechende Regelung wird zur Zeit im Bundesfinanzministerium vorbereitet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u169" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg253">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Müller-Emmert (SPD) :</note>
+        <u who="#Q363451" xml:id="ParlaMint-DE_1966-02-09-05-018.u170" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg254">Herr Staatssekretär, erwägt die Bundesregierung, unter Umständen mit der Regierung der Vereinigten Staaten in Verbindung zu treten, um ähnlich wie im Brandaris- Komplex zu erreichen, daß die Vereinigten Staaten ihrerseits gewisse Zahlungen ohne Anerkennung einer Rechtspflicht an die Bundesregierung leisten?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u171" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg255">Herr Abgeordneter, es sind Verhandlungen mit dem Botschafter der USA hier geführt worden, allerdings ohne Erfolg. Auch weitere Verhandlungen versprechen keinen Erfolg, weil der Unterschied zu der Brandaris- Aktiengesellschaft darin liegt, daß die Brandaris nicht der Aufsicht des Bundesaufsichtsamtes unterlag, während die AMIIA sehr wohl der Aufsicht unterstellt war und deswegen eben auch die Kautionswerte gestellt werden müssen, aus denen die Befriedigung jetzt erfolgen soll. Soweit sie nicht ausreicht, wird der Bund von sich aus noch weitere Zahlungen leisten.</seg>
+        </u>
+        <note type="speaker">Dr. Müller-Emmert (SPD) :</note>
+        <u who="#Q363451" xml:id="ParlaMint-DE_1966-02-09-05-018.u172" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg256">Herr Staatssekretär, würden Sie erwägen, ob nicht die Möglichkeit besteht, Überbrückungszahlungen an die Unfallgeschädigten schon vor Abschluß des Konkurses zu gewähren, weil das Konkursverfahren noch sehr lange Zeit in Anspruch nehmen wird?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u173" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg257">Herr Abgeordneter, ich glaube nicht, daß wir etwa jetzt schon daran denken können, Abschlagzahlungen zu leisten. Ich erwähnte vorhin, daß die Befriedigung aus den Kautionswerten bis Ende 1966 erfolgen soll. Erst wenn zu übersehen ist, wie hoch die Quoten der Unfallgeschädigten ausfallen, kann ich überhaupt entscheiden, mit welcher Summe eine Zusatzzahlung des Bundes zu erfolgen hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u174" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg258">Frage VIII /7 des Herrn Abgeordneten Wagner:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg259">Bis wann ist mit dem Erlaß der Vierzehnten Verordnung zur Änderung der Umsatzsteuer-Durchführungsverordnung zu rechnen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u175" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg260">Nach dem derzeitigen Stand der Arbeiten ist damit zu rechnen, daß der Entwurf der Vierzehnten Verordnung zur Änderung der Durchführungsbestimmungen zum Umsatzsteuergesetz in etwa zwei Monaten dem Kabinett zur Beschlußfassung vorgelegt werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmidt:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u176" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg261">Frage VIII /8 des Herrn Abgeordneten Schmidt (Wuppertal):</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg262">Entspricht die Entschließung des Bayerischen Staatsministeriums des Innern vom 29. November 1965 Nr. I B 4 - 3023 - 7/1, veröffentlicht im Ministerialamtsblatt der bayerischen inneren Verwaltung Nr. 41 vom 20. Dezember 1965, die in ihren Abschnitten 1 und 3 wie folgt lautet: „Das Bundesverfassungsgericht hat die gegen die Baulandsteuer erhobenen Verfassungsbeschwerden nicht zur Entscheidung angenommen. Auch die Normenkontrollverfahren sind auf Anregung des Bundesverfassungsgerichts ohne Sachentscheidung abgeschlossen worden. Damit haben sich alle bisherigen Verfahren erledigt, so daß mit einer Entscheidung über die Verfassungsmäßigkeit der Baulandsteuer nicht mehr zu rechnen ist. Die Verwaltungsbehörden haben deshalb davon auszugehen, daß die Erhebung der Baulandsteuer für die Jahre 1961 und 1962 mit dem Grundgesetz in Einklang steht. Über bisher unerledigte Widersprüche gegen die Heranziehung zur Baulandsteuer ist nunmehr zu entscheiden, wenn nicht die Widerspruchsführer nach einem Hinweis auf die Rechtslage ihr Rechtsmittel zurücknehmen." der Rechts- und Sachlage?</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg263">Herr Staatssekretär, bitte!</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u177" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg264">Die von Ihnen, Herr Abgeordneter, angeführte Entschließung des Bayerischen Staatsministeriums des Innern vom 29. Januar 1965 entspricht nach Auffassung der Bundesregierung der Sach- und der Rechtslage. Die Baulandsteuer, die im Rahmen des Bundesbaugesetzes vom 23. Juni 1960 mit Wirkung ab 1. Januar 1961 eingeführt worden war, ist durch das Gesetz zur Änderung grundsteuerrechtlicher Vorschriften vom 10. Juni 1964 zwar rückwirkend, aber nur mit Rückwirkung ab 1. Januar 1963 aufgehoben worden. Der Gesetzgeber hat damit die Baulandsteuer für die Jahre 1961 und 1962 mindestens mittelbar bestätigt. Es trifft zu, daß das Bundesverfassungsgericht die Annahme der verschiedenen Verfassungsbeschwerden zur Frage der Verfassungsmäßigkeit der Baulandsteuer im Vorprüfungsverfahren wegen Nichtausschöpfung des Rechtsweges als unzulässig nach § 93 a des Bundesverfassungsgerichtsgesetzes abgelehnt hat und daß die Normenkontrollverfahren infolge Zurücknahme der Vorlagen durch die Finanzgerichte ohne Entscheidung in der Sache abgeschlossen worden sind. Die Finanzverwaltungen der Länder haben jetzt aus den Entscheidungen des Gesetzgebers und des Bundesverfassungsgerichts die notwendigen Folgerungen gezogen.</seg>
+        </u>
+        <note type="speaker">Dr. Schmidt (Wuppertal) (CDU/CSU):</note>
+        <u who="#Q119070" xml:id="ParlaMint-DE_1966-02-09-05-018.u178" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg265">Man kann also aus dieser Entschließung des Staatsministeriums nicht etwa den Schluß ziehen, daß weitere Verfahren beim Bundesverfassungsgericht aussichtslos seien? Es handelt sich ja ganz offensichtlich nur um formale Bescheide; der Rechtsweg war nicht ausgeschöpft.</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u179" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg266">Richtig, die Beschwerden sind nur wegen Unzulässigkeit verworfen worden.</seg>
+        </u>
+        <note type="speaker">Dr. Schmidt (Wuppertal) (CDU/CSU) :</note>
+        <u who="#Q119070" xml:id="ParlaMint-DE_1966-02-09-05-018.u180" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg267">Der Rechtsweg war nicht ausgeschöpft. Also sind Rechtswege noch möglich. Aber hier ist der Eindruck erweckt worden, daß das Bundesverfassungsgericht die Steuer überhaupt im Sinne der Verfassungsmäßigkeit bestätigt habe und daß deswegen die Verfahren abgelehnt worden seien. Jedenfalls muß das der unbefangene Leser hieraus entnehmen.</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u181" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg268">Die Entschließung beginnt — da haben Sie recht —: „Das Bundesverfassungsgericht hat die gegen die Baulandsteuer erhobenen Verfasssungsbeschwerden nicht zur Entscheidung angenommen".</seg>
+        </u>
+        <note type="speaker">Dr. Schmidt (Wuppertal) (CDU/CSU) :</note>
+        <u who="#Q119070" xml:id="ParlaMint-DE_1966-02-09-05-018.u182" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg269">Sind Sie nicht mit mir der Auffassung, daß eine Behörde pflichtgemäß zu sagen hätte: wegen Nichtausschöpfung der Rechtsmittel nicht angenommen? So muß doch der falsche Eindruck erweckt werden, daß Rechtsmittel keinen Zweck mehr hätten, daß es also nicht sinnvoll wäre, sich gegen diese Restbaulandsteuer zu wehren.</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u183" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg270">Herr Abgeordneter, die Auffassung, daß das eine Irreführung sei, kann ich nicht ganz teilen. Ich will aber gerne einräumen, daß die Fassung nicht ganz unmißverständlich ist.</seg>
+        </u>
+        <note type="speaker">Dr. Schmidt (Wuppertal) (CDU/CSU) :</note>
+        <u who="#Q119070" xml:id="ParlaMint-DE_1966-02-09-05-018.u184" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg271">Ist Ihnen die Erregung des Publikums bekannt? Ich bekomme täglich Briefe wegen dieser Sache.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u185" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg272">Herr Abgeordneter, wir können hier keinen Dialog installieren. Sie haben Ihre Zusatzfragen längst erschöpft.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Schmidt [Wuppertal] : Ja, aber zur nächsten Frage habe ich noch Zusatzfragen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg273">— Zur nächsten Frage, Frage VIII /9:</seg>
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg274">Hält die Bundesregierung die Stellungnahme des Studien instituts für angewandte Haushalt- und Steuerpolitik e. V. zur Frage der Verfassungsmäßigkeit der Restbaulandsteuer 1961/1962 für begründet?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u186" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg275">Die Bundesregierung hat in Übereinstimmung mit den Finanzministern und Finanzsenatoren der Länder ebenso wie der Bundestag, der die Baulandsteuer nicht von ihrem Beginn ab rückwirkend aufgehoben hat, stets die Vereinbarkeit der Baulandsteuer mit dem Grundgesetz bejaht. Sie hat ihre Auffassung in der Stellungnahme zu den verschiedenen Verfassungsbeschwerden und Normenkontrollverfahren beim Bundesverfassungsgericht eingehend begründet. Die Bundesregierung hält an dieser Auffassung fest. Sie hält deshalb die Stellungnahme des Studieninstituts für angewandte Haushalts- und Steuerpolitik zur Frage der Verfassungsmäßigkeit der Baulandsteuer 1961 und 1962 für nicht begründet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u187" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg276">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Schmidt (Wuppertal) (CDU/CSU) :</note>
+        <u who="#Q119070" xml:id="ParlaMint-DE_1966-02-09-05-018.u188" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg277">Herr Staatssekretär, kann nicht unter Umständen aus der Tatsache, daß die Steuer nur zwei Jahre bestanden hat und rückwirkend aufgehoben worden ist, der Schluß gezogen werden, daß die Steuer ihre innere Zweckbestimmung überhaupt nicht mehr erfüllen konnte? Denn bodenpolitische Maßnahmen sind ja nun einmal langfristiger Art. Konnten die in den zwei Jahren, die nun als Rest blieben, theoretisch überhaupt ihren Zweck erfüllen?</seg>
+        </u>
+        <note type="speaker">Grund, Staatssekretär des Bundesministeriums der Finanzen:</note>
+        <u who="#Q2544537" xml:id="ParlaMint-DE_1966-02-09-05-018.u189" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg278">Herr Abgeordneter, diese Überlegungen hat sicherlich auch das Hohe Haus selber bei den Beratungen über die rückwirkende Aufhebung angestellt, ist aber nicht zu dieser Schlußfolgerung gekommen. Wenn ich die Protokolle richtig in Erinnerung habe, waren zwei Gründe für die rückwirkende Aufhebung, der bekanntlich ein Initiativantrag der FDP zugrunde lag, angeführt worden, nämlich erstens die Wirkungslosigkeit des Gesetzes — man sagte: es habe praktisch keinen Erfolg gehabt — und zweitens die Tatsache, daß es bei den Einkommenschwachen zu sozialen Härten geführt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1966-02-09-05-018.u190" ana="#chair">
+          <seg id="ParlaMint-DE_1966-02-09-05-018.seg279">Damit ist die Fragestunde beendet. Ich berufe die nächste Sitzung ein auf morgen, Donnerstag, den 10. Februar 1966, 9 Uhr. Ich schließe die heutige Sitzung.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 15.34 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

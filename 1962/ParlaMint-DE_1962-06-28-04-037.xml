@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1962-06-28-04-037">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 4. Wahlperiode, 37. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 28.06.1962 (37. Sitzung der 4. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 4, Session 37 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1962-06-28 (Session 37 in Legislative Period 4)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="37">37. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.04" n="4">4. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="37">Session 37</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.04" n="4">Legislative Period 4</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 28.06.1962</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1962-06-28</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488216/3b20f8dd5efad2cafa3fb0b6df24cbb9/pp04-data.zip</idno>
+          <date when="1962-06-28">1962-06-28</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1962-06-28">1962-06-28</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde (Drucksachen IV/510, IV/537)</head>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg1">Die Sitzung ist eröffnet. Meine Damen und Herren, bevor ich in die Tagesordnung eintrete, darf ich dem Herrn Abgeordneten Meis meine und des Hauses Glückwünsche zum 60. Geburtstag übermitteln.</seg>
+          <kinesic type="applause">
+            <desc>Beifall.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg2">Wir kommen zu Punkt 1 der Tagesordnung: Fragestunde (Drucksachen IV/510, IV/537).</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg3">Wir beginnen mit den Fragen aus dem Geschäftsbereich des Bundesschatzministers. Ich rufe zuerst die Frage IV/1 — des Herrn Abgeordneten Diebäcker — auf :</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg4">Beabsichtigt die Bundesregierung, die Ausnahmeregelung, nach der der Bundesschatzminister ermächtigt ist, den Erbbauzins für bundeseigene Liegenschaften in Höhe von 5 v. H. bel ehemaligem, Krankenhäusern, Alters- und Siechenheimen dienendem Reichsvermögen auf 3 v. H. zu senken, auch auf mit öffentlichen Mitteln geförderte gemeinnützige Einrichtungen der Jugendpflege (z. B. Sportanlagen der Jugendverbände) auszudehnen?</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg5">Herr Bundesminister, darf ich bitten.</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg6">Lenz, Bundesschatzminister: Herr Abgeordneter, ich beantworte Ihre Frage wie folgt. Die Ermächtigung des Bundesschatzministers, ehemaliges Reichsvermögen zu einem Mietzins von 341/4 des gemeinen Wertes zu vermieten oder bei Erbbauverträgen einen Erbbauzins in gleicher Höhe zuzugestehen, ist durch das jährliche Haushaltsgesetz auf die Überlassung für Krankenhaus-, Alters- und Siechenheimzwecke beschränkt. Die Bundesregierung ist nicht in der Lage, die bisher erteilte Ermächtigung von sich aus auf gemeinnützige Einrichtungen der Jugendpflege auszudehnen. Es ist jedoch beabsichtigt, eine entsprechende Ausdehnung der Ermächtigung im Zusammenhang mit den Beratungen des Haushaltsplanes für das Rechnungsjahr 1963 zu erwirken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u2" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg7">Eine Zusatzfrage, Herr Abgeordneter Diebäcker?</seg>
+        </u>
+        <note type="speaker">Diebäcker (CDU/CSU) :</note>
+        <u who="#Q1310196" xml:id="ParlaMint-DE_1962-06-28-04-037.u3" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg8">Herr Minister, besteht die Möglichkeit, daß für das Jahr 1963 eine Übergangsregelung für den Fall geschaffen wird, daß diese Dinge nicht so glatt gehen, wie Sie und ich es wünschen? Lenz, Bundesschatzminister: Ich werde darauf hinwirken, daß eine Übergangsmöglichkeit geschaffen wird, wenn dieser Passus nicht in das Haushaltsgesetz aufgenommen' werden sollte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u4" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg9">Ich komme zur Frage IV/2 — des Abgeordneten Hammersen —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg10">Ist die Bundesregierung bereit, im Rahmen des ERP-Wirtschaftsplangesetzes 1962 auch kommunale Aufgaben zu fördern, wenn deren Vorteile unmittelbar oder mittelbar den nach dem ERP-Wirtschaftsplan zu fördernden Personenkreisen zugute kommen? Herr Bundesminister, bitte.</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg11">Lenz, Bundesschatzminister: Herr Abgeordneter Hammersen, ich darf Ihre Frage folgendermaßen beantworten. Nach den Bestimmungen des Gesetzes über die Verwaltung des ERP-Sondervermögens vom 31. August 1953 haben die Mittel des ERP-Sondervermögens ausschließlich der Förderung der deutschen Wirtschaft nach Maßgabe der Bestimmungen des Abkommens über wirtschaftliche Zusammenarbeit zwischen den Vereinigten Staaten von Amerika und der Bundesrepublik Deutschland vom 15. Dezember 1949 zu dienen. Für die Bereitstellung der ERP-Mittel ist es im allgemeinen gleichgültig, ob es sich bei dem Träger des jeweiligen Vorhabens um eine natürliche oder um eine juristische Person des privaten oder des öffentlichen Rechts handelt. Die Bereitstellung von ERP-Mitteln für wirtschaftsfördernde Maßnahmen hat lediglich zur Voraussetzung, daß das jeweilige ERP-Wirtschaftsplangesetz einen entsprechenden Mittelansatz enthält. Hiernach können ERP-Mittel auch Gemeinden zur Verfügung gestellt und kommunale Aufgaben gefördert werden, sofern ihre Durchführung als wirtschaftsfördernde Maßnahme im Sinne des ERP-Verwaltungsgesetzes anzusehen ist. Im Rahmen des ERP-Wirtschaftsplangesetzes 1962 ist die Beantragung von ERP-Mitteln durch Gemeinden bei folgenden Programmen möglich:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg12">Erstens: Finanzierung von Investitionen zur Reinhaltung der Gewässer und zur Abwässerreinigung. Die im Rahmen dieses Programms veranschlagten Mittel werden in Form von Krediten überwiegend an die Gemeinden und Gemeindeverbände gegeben. Zweitens: Errichtung mittelständischer Betriebe in neuen Wohnsiedlungen und neugeordneten Stadtkernen. Nach Nr. 3 b der Richtlinien des Bundesministers für wirtschaftlichen Besitz des Bundes vom 5. August 1961 ist die Kreditgewährung an Gemeinden im Rahmen dieses Programms möglich, wenn die mit den bereitgestellten Mitteln errichteten gewerblichen Räume durch Verkauf oder Vermietung mittelständischen Unternehmen überlassen werden. Drittens: Finanzierung des Baus von Blockheizwerken. Im Rahmen dieses Programms wird die Kreditgewährung an Gemeinden ebenfalls möglich sein. Die Richtlinien für die Durchführung des Programms sind zur Zeit in Vorbereitung. Viertens: Auftragsfinanzierung Berlin. Zur anteiligen Finanzierung von Investitionsvorhaben in Westdeutschland können Gemeinden ERP-Kredite erhalten, wenn sie diese Mittel für die Finanzierung von Aufträgen an Berliner Unternehmen verwenden, z. B. Bestellung von Straßenbahnwagen, Motoren usw.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg13">Keine Zusatzfrage? — Ich danke Ihnen, Herr Bundesminister. Ich komme zu den Fragen aus dem Geschäftsbereich des Bundesministers des Innern; zuerst zur Frage V/1 — des Abgeordneten Schmitt-Vockenhausen —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg14">Wann ist mit der Verkündung der Rechtsverordnungen gemäß § 3 Abs. 2 des Bundespolizeibeamtengesetzes vom 19. Juli 1960 mit den näheren Bestimmungen über die Laufbahnen des Polizeivollzugsdienstes zu rechnen?</seg>
+        </u>
+        <note type="speaker">Höcherl, Bundesminister des Innern:</note>
+        <u who="#Q69115" xml:id="ParlaMint-DE_1962-06-28-04-037.u6" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg15">Ich darf die Frage wie folgt beantworten:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg16">Auf Grund des § 3 Abs. 2 des Bundespolizeibeamtengesetzes vom 19. Juli 1960 sind zwei Rechtsverordnungen von der Bundesregierung zu erlassen: einmal die Rechtsverordnung für die Laufbahnen des Polizeivollzugsdienstes im Bundesgrenzschutz und im Bundesministerium des Innern, zum anderen eine Rechtsverordnung für die Laufbahnen des Polizeivollzugsdienstes im Bundeskriminalamt, im Bundesministerium des Innern und in der Verwaltung des Deutschen Bundestages. Die erste dieser beiden Verordnungen ist bereits erlassen und wird demnächst verkündet werden. Die zweite Verordnung konnte bisher nicht erlassen werden, und zwar deswegen, weil es erhebliche Differenzen mit den Ländern über die Eingruppierungen gibt. Eine kürzlich durchgeführte Besprechung mit den Ländern darüber, wie diese Eingruppierung vorzunehmen wäre, hat zu keiner Einigung geführt, so daß zunächst nicht gesagt werden kann, wann die zweite dieser beiden Verordnungen erlassen werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u7" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg17">Keine Zusatzfrage? Dann komme ich zur Frage V/2 — des Abgeordneten Jahn —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg18">Welche - ggf. gesetzgeberischen — Maßnahmen hält die Bundesregierung für erforderlich, um endlich zu der dringend erforderlichen abschließenden Bereinigung des Falles Lautz zu kommen?</seg>
+        </u>
+        <note type="speaker">Höcherl, Bundesminister des Innern:</note>
+        <u who="#Q69115" xml:id="ParlaMint-DE_1962-06-28-04-037.u8" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg19">Herr Kollege Jahn, ich glaube nicht, daß nach dem schwierigen Stand dieses Verfahrens gesetzgeberische Maßnahmen derzeitig etwas helfen würden, weil eine gesetzgeberische Maßnahme ein laufendes Verfahren kaum beeinflussen könnte. Bezüglich der Frage, welche anderen Maßnahmen möglich sind, stehe ich auf dem Standpunkt, daß es nur die eine Möglichkeit gibt — im Verfahren vor dem Verwaltungsgericht in Schleswig-Holstein ist ja nun ein Rechtsmittel eingelegt worden, und das Bundesministerium des Innern ist diesem Rechtsmittel beigetreten —, mit Zustimmung des Betroffenen in der Sprungrevision eine möglichst rasche Entscheidung zu erreichen. Sie kennen die Situation, daß beide Gerichte in einem präjudiziellen Streit stehen. Leider ist damals bei der Beratung des § 3 a des Gesetzes nach Art. 131 GG die Möglichkeit übersehen worden, daß solche Konfliktfälle über die Zuständigkeiten entstehen und infolgedessen nun ein Gericht behauptet, das andere müsse erst eine Vorentscheidung treffen. Durch dieses gegenseitige Zuschieben von Vorentscheidungen ist eine sehr bedauerliche Verzögerung eingetreten, die niemand mehr bedauert als das Innenministerium selbst.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u9" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg20">Eine Zusatzfrage des Herrn Abgeordneten Jahn.</seg>
+        </u>
+        <note type="speaker">Jahn , (SPD) :</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1962-06-28-04-037.u10" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg21">Herr Minister, darf ich aus der Antwort entnehmen, daß Sie äußersten Wert darauf legen, daß dieses Verfahren und dieser unerträgliche Zustand auf die schnellstmögliche Weise geklärt und bereinigt werden und daß Sie, gegebenenfalls auch im Einvernehmen mit der zuständigen Landesregierung Schleswig-Holstein, nach wie vor alles tun werden, um das zu beschleunigen?</seg>
+        </u>
+        <note type="speaker">Höcherl, Bundesminister des Innern:</note>
+        <u who="#Q69115" xml:id="ParlaMint-DE_1962-06-28-04-037.u11" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg22">Das ist der Fall.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u12" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg23">Wir kommen zur Frage V/3 — des Abgeordneten Berkhan —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg24">Ist die Bundesregierung bereit, die Tagegeldsätze für Arbeiter, Angestellte und Beamte bei Auslandsdienstreisen den erhöhten Lebenskosten im Ausland anzugleichen? Ist der Herr Abgeordnete Berkhan im Saal? — Er ist nicht anwesend. Dann wird diese Frage schriftlich beantwortet werden. Ich danke Ihnen, Herr Bundesminister.</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg25">Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers der Finanzen. Ich rufe auf die Frage VI/1 — des Abgeordneten Wischnewski —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg26">Welche Vorkommnisse veranlaßten den Herrn Bundesfinanzminister zu der Mitteilung, daß unsere Mittel für die Entwicklungshilfe in Strömen fehlgeleitet worden sind? Herr Bundesminister, darf ich bitten.</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg27">Ich beantworte die Frage des Abgeordneten Wischnewski wie folgt. Zur Entwicklungshilfe habe ich in einer Rede am 23. Mai 1962 in Düsseldorf öffentlich Stellung genommen und wörtlich ausgeführt:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg28">Bei der Entwicklungshilfe werde ich mich zusammen mit unserem Kollegen Scheel bemühen, den Haushalt zu entlasten und die Initiative der privaten Wirtschaft zu fördern, vor allem auch durch steuerliche Bestimmungen; ich handele dabei in voller Übereinstimmung mit meinem Kollegen Scheel. Ich habe ferner in einer Rede in Grunbach bei Stuttgart am 21. Mai 1962 im gleichen Sinne Stellung genommen und hinzugefügt, daß die schwierigen und den Dingen nicht zuträglichen Zuständigkeitsverhältnisse die Bildung eines Ministeriums für wirtschaftliche Zusammenarbeit rechtfertigten. Eine Agenturmeldung über diese Rede war, soweit sie die Entwicklungshilfe betraf, 'zugespitzt und damit irreführend formuliert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg29">Eine Zusatzfrage, Herr Abgeordneter Blachstein!</seg>
+        </u>
+        <note type="speaker">Blachstein (SPD) :</note>
+        <u who="#Q2073956" xml:id="ParlaMint-DE_1962-06-28-04-037.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg30">Herr Minister, darf ich Ihre Ausführungen als eine Kritik an Ihrem Vorgänger auffassen?</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg31">Ich bin mir nicht bewußt, inwieweit diese Ausführungen eine Kritik an meinem Vorgänger enthalten sollen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Hilbert: Sehr gut!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg32">Eine zweite Zusatzfrage, Herr Abgeordneter Blachstein!</seg>
+        </u>
+        <note type="speaker">Blachstein (SPD) :</note>
+        <u who="#Q2073956" xml:id="ParlaMint-DE_1962-06-28-04-037.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg33">Werden Sie mit dem Minister für wirtschaftliche Zusammenarbeit künftig dafür sorgen, daß der Bundestag rechtzeitig über die finanziellen Dispositionen für diesen Sektor informiert werden wird?</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg34">Darüber sind Erklärungen sowohl vor dem Plenum wie vor dem Haushaltsausschuß abgegeben worden. Ich darf Ihnen versichern, daß ich an einer rechtzeitigen Information des Parlaments und des Haushaltsausschusses dringend interessiert bin.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg35">Ich rufe auf Frage VI/2 — des Abgeordneten Müller (Berlin)</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg36">—:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg37">Haben Inhaber von Banknoten, die bereits aus dem Zahlungsverkehr gezogen sind, auch noch nach der offiziellen Verfallzeit die Möglichkeit, diese bei der Deutschen Bundesbank einzutauschen, wenn besondere Umstände vorliegen, wie z. B. bei Ostzonenbewohnern? Herr Bundesminister, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg38">Die Frage des Herrn Abgeordneten Müller beantworte ich wie folgt. Nach der Regelung des Bundesbankgesetzes hat die Deutsche Bundesbank die ausschließliche Zuständigkeit für die Ausgabe und die Einziehung von Banknoten. Ich bin nicht befugt, in diese gesetzlich festgelegte Zuständigkeit der Bundesbank einzugreifen. Die Bundesbank hat mir jedoch mitgeteilt, daß sie zur Zeit sämtliche Banknoten, die seit der Währungsumstellung gesetzliches Zahlungsmittel in der Bundesrepublik waren, auch noch nach Ablauf der Umtauschfrist eintauscht. Es sind mir bisher keine Fälle bekannt geworden, in denen die Bundesbank den Umtausch aufgerufener Banknoten abgelehnt hat. Damit dürfte auch für die Bewohner des sowjetischen Besatzungsgebietes eine befriedigende Regelung getroffen sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u22" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg39">Ich rufe auf Frage VI/3 — des Abgeordneten Dr. Kohut —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg40">Hat das Bundesfinanzministerium es gebilligt, daß die Ämter für Verteidigungslasten sich geweigert haben, den Eigentümern der von den Besatzungsmächten beschlagnahmten Häuser einen Zuschlag von 331/8 v. H. zur Verfügung zu stellen, der ihnen auf Grund des Ersten Bundesmietengesetzes vom 9. September 1955 zustand? Herr Bundesminister, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg41">Die Frage Ides Herrn Abgeordneten Dr. Kohut darf ich wie folgt beantworten. Das Erste Bundesmietengesetz vom 27. Juli 1955 läßt unter bestimmten Voraussetzungen eine Erhöhung der Mieten zu. Es war bisher zweifelhaft, ob eine entsprechende Erhöhung auch der Nutzungsentschädigung für beschlagnahmte Häuser allgemein zuzulassen sei. Der Bundesminister der Finanzen hat in vorläufigen Richtlinien für ,die Bemessung 'bei Entschädigungen nach dem Bundesleistungsgesetz vom 6. Juni 1957 und alsdann in den endgültigen Richtlinien vom 23. Januar 1958 nach Abstimmung mit den beteiligten Bundesministerien 'die Auffassung vertreten, .daß die Miete nach § 3 Abs. 1 des Ersten Bundesmietengesetzes, die als preisrechtlich genehmigt gilt, als Nutzungsentschädigung für beschlagnahmte Häuser nur dann maßgebend sei, wenn nachgewiesen wird, daß bei Neuvermietungen nach dem 1. August 1955 üblicherweise einentsprechend höherer Mietpreis vereinbart wird. Diese 'Richtlinie des 'Bundesfinanzministers ist vom Oberlandesgericht Frankfurt 'durch Urteil bestätigt worden. Soweit die Ämter für Verteidigungslasten die Nutzungsentschädigung für beschlagnahmte Häuser ohne einen Zuschlag von bis zu einem Drittel auf die preisrechtlich zulässige Miete 'rechtskräftig festgesetzt haben, muß es nach allgemeinen Rechtsgrundsätzen hierbei verbleiben. Entschädigungsberechtigte, die gegen diese Festsetzungsbescheide keine Rechtsmittel eingelegt haben, müssen die formelle Rechtskraft der Feststellungsbescheide und damit die materiell geringere Nutzungsentschädigung hinnehmen. Diese Rechtsauffassung entspricht der höchstrichterlichen Rechtsprechung. Soviel möchte ich zur rechtlichen Seite der Frage sagen. In einzelnen Fällen mag diese rechtliche Beurteilung zu unbilligen Ergebnissen führen, insbesondere dann, wenn der betreffende Hauseigentümer aus Rechtsunkenntnis versäumt 'hat, gegen den Festsetzungsbescheid der Ämter für Verteidigungslasten Rechtsmittel einzulegen, um den Zuschlag von 331/3 % auf die preisrechtlich genehmigte Miete zu erreichen. Ich werde prüfen lassen, ob in solchen Fällen eine Berichtigung der Festsetzung der Nutzungsentschädigung aus Billigkeitsgründen möglich ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg42">Ich rufe auf Frage VI/4 — ,der Abgeordneten Frau Dr. Diemer-Nicolaus — :</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg43">Welche Maßnahmen beabsichtigt die Bundesregierung zu ergreifen, damit Auskunftspersonen (I 175 AO)</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg44">, die gemäß § 181 AO für Aufwand und Zeitverlust zu entschädigen sind, eine den heutigen Verhältnissen entsprechende Entschädigung erhalten? Bitte, Herr Bundesminister.</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg45">Die Frage der Frau Abgeordneten Dr. Diemer-Nicolaus darf ich wie folgt beantworten. Die Finanzämter können nach § 181 der Abgabenordnung Auskunftspersonen im Sinne des § 175 der Abgabenordnung auf Verlangen eine angemessene Entschädigung für Aufwand und Zeitverlust gewähren. Über die Höhe der Entschädigung, die von den Finanzämtern nach pflichtgemäßem Ermessen festzusetzen ist, enthält die Reichsabgabenordnung unmittelbar keine Bestimmungen. Auf Grund der im Verwaltungsweg ergangenen Weisungen werden die Entschädigungen im allgemeinen in sinngemäßer Anwendung des Gesetzes über die Entschädigung von Zeugen und Sachverständigen vom 26. Juli 1957 berechnet, wobei die in diesem Gesetz festgesetzten Sätze nicht überschritten werden dürfen. Diese Regelung, die aus Gründen der Rechtseinheitlichkeit und der gleichmäßigen Behandlung ergangen ist, hat sich in der Praxis bewährt. Es erscheint daher zweckmäßig, auch künftig die Bindung an die Sätze des Gesetzes über die Entschädigung von Zeugen und Sachverständigen beizubehalten. Das Bundesjustizministerium bereitet zur Zeit einen Entwurf zur Änderung dieses Gesetzes vor. Im Rahmen der geplanten Änderung wird erwogen, auch die Entschädigungssätze für Zeugen zu ändern, um sie den Zeitverhältnissen anzupassen. Es kann damit gerechnet werden, daß die Arbeiten an dem Entwurf noch im Laufe dieses Jahres abgeschlossen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg46">Ich rufe auf Frage VI/5 — des Abgeordneten Bauer (Würzburg)</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg47">—:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg48">Handelt es sich bei der unlängst in die Presse gelangten Äußerung des Ministerialrats Elsholz im Bundesfinanzministerium, rund 30 v. H. aller Sozialleistungsempfänger seien Doppelbzw. Mehrfachrentner" und Gesamtrentenbezüge über 140 v. H. des letzten Arbeitsentgelts, d. h. des Netto- bzw. sogar BruttoArbeitsverdienstes der Erwerbstätigen liegende Beträge seien keine Seltenheit, um eine regierungsoffizielle Feststellung, und gedenkt die Bundesregierung diese Ausarbeitung ggf. ihren soziapolitischen Maßnahmen zugrunde zu legen? Herr Bundesminister, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg49">Die Anfrage des Herrn Abgeordneten Bauer darf ich wie folgt beantworten. Bei den zitierten Ausführungen des Ministerialrats Dr. Elsholz handelt es sich um persönliche Äußerungen des Verfassers in einer unter seinem Namen veröffentlichten Schrift. Im übrigen ist das Problem der Doppel- und Mehrfachrenten der Bundesregierung bekannt. Sie prüft gemäß einem Ersuchen des Deutschen Bundestages zunächst, welche Möglichkeiten zur gesetzlichen Regelung der Doppelversorgung bei Beamten und Versorgungsempfängern bestehen. Gerade in diesem Bereich gibt es zahlreiche Fälle, in denen das Sozialeinkommen über dem früheren Arbeitseinkommen liegt. Sobald die Prüfung abgeschlossen ist, wird das Ergebnis dem Hohen Hause unterbreitet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg50">Eine Zusatzfrage, Herr Abgeordneter Bauer.</seg>
+        </u>
+        <note type="speaker">Bauer (Würzburg)) (SPD) :</note>
+        <u who="#Q99423" xml:id="ParlaMint-DE_1962-06-28-04-037.u29" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg51">Herr Bundesminister, ist die Bundesregierung bereit, in dieser Frage eine objektive Aufstellung vorzulegen derart, daß durch eine Nebeneinanderstellung der verschiedenen Arten von Doppelbezügen ein klares Bild gewährleistet werden kann und nicht der Eindruck entsteht, daß diese Mehrfachbezüge die Regel sind, während doch in Wirklichkeit ein erheblicher Teil der Renten unter dem Fürsorgerichtsatz liegt?</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u30" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg52">Ich glaube, daß man die Frage in zwei Teilen beantworten sollte. Erstens ist es ganz ohne Zweifel, daß wir Renten haben, die dem entsprechen, was der Herr Abgeordnete sagt. Zweitens gibt es daneben aber Doppelrenten in dem hier geschilderten Sinne. Ich werde mich bemühen, im Zusammenwirken mit meinem dafür zuständigen Kollegen eine solche Aufstellung machen zu lassen, die man dann im Zusammenhang mit dem Bericht dem Bundestag vorlegen kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u31" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg53">Eine Zusatzfrage? — Bitte, Herr Abgeordneter Bauer.</seg>
+        </u>
+        <note type="speaker">Bauer (Würzburg), (SPD) :</note>
+        <u who="#Q99423" xml:id="ParlaMint-DE_1962-06-28-04-037.u32" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg54">Darf ich mir die Frage erlauben, ob diese Vorarbeiten getroffen werden, weil vielleicht mit einer Anhöhung der Beitragssätze in der Sozialversicherung zu rechnen ist und man die Unterlagen zur Untermauerung dieser Absicht benötigt?</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg55">Ich bin dabei, offen gesagt, überfragt. Ich habe daran noch gar nicht gedacht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u34" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg56">Wir kommen zur Frage VI/6 — des Abgeordneten Dr. Schäfer —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg57">Wie will die Bundesregierung verantworten, die beantragte Entsperrung von 20 v. H. = 380 Millionen DM für den Straßenbau angesichts der Verkehrsnot auf bundesdeutschen Straßen derart hinauszuzögern, daß die Gefahr eines dauernden Rückschlages zum Nachteil der Ausführung des 1. Vierjahresplanes entsteht? Herr Bundesminister, darf ich bitten.</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg58">Ich darf die Anfrage des Herrn Abgeordneten Schäfer wie folgt beantworten. Die Bundesregierung hat unter Berücksichtigung der Lage auf dem Gebiete des Tiefbaus in der Kabinettsitzung am 22. 6. 1962 beschlossen, von den nach § 8 des Haushaltsgesetzes 1962 gesperrten Straßenbaumitteln einen Betrag von 180 Millionen DM freizugeben. Diese Mittel sollen für Straßenarbeiten in Gebieten verwendet werden, in denen eine Konjunkturüberhitzung auf dem Baugebiet nicht vorliegt und auch nicht zu befürchten ist. Neuere Untersuchungen des Statistischen Bun. desamtes haben nämlich gezeigt, daß auch auf dem Gebiet des Straßenbaus im Verhältnis zum vergangenen Jahr Preissteigerungen zu verzeichnen sind, die denen im Hochbau kaum nachgeben. Der Bundesminister für Verkehr trifft zur Zeit die Vorbereitungen, um den freizugebenden Betrag auf solche Vorhaben zu verteilen, deren sofortige Durchführung konjunkturpolitisch unbedenklich ist. Die Entscheidung hierüber wird unter Beteiligung des Bundesministers für Wirtschaft Anfang Juli getroffen werden. Durch die Aufrechterhaltung der Sperre für die restlichen 180 Millionen DM Straßenbaumittel dürfte eine Verzögerung in der Durchführung des Ersten Vierjahresplans nicht eintreten, weil es den Straßenbauverwaltungen möglich sein wird, mit den vorhandenen Mitteln alle im Bau befindlichen wichtigen Vorhaben durchzuführen. Die Sperre wird nur dort wirksam werden, wo auf dem Baugebiet Überhitzungserscheinungen festzustellen sind, das heißt, wo aus Mangel an Arbeitskräften eine zügige Baudurchführung entweder nicht möglich ist oder nur unter Aufwendung überhöhter Kosten erreicht werden könnte. Im letzten Falle würden mit den vorhandenen Mitteln die Bauziele des Ersten Vierjahresplanes wegen der Preissteigerung nicht erreicht werden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg59">Eine Zusatzfrage, Herr Abgeordneter Dr. Schäfer!</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer (SPD) :</note>
+        <u who="#Q1462129" xml:id="ParlaMint-DE_1962-06-28-04-037.u37" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg60">Herr Minister, würden Sie I bitte dazu Stellung nehmen, wie Ihre jetzige Erklärung mit den letzten Erklärungen des Herrn Bundesverkehrsministers Seebohm in Hamburg zu vereinbaren ist?</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg61">Wir haben beide an den Beratungen im Kabinett teilgenommen. Ich kann wohl sagen, daß die Lösung, die wir jetzt getroffen haben, den Ansichten im Kabinett entspricht. Wir haben dort unsere Gedanken ausgetauscht und insbesondere auch die Preissteigerungen, die auf dem Gebiete des Straßenbaus festgestellt wurden, erörtert. Wir haben dann diese Lösung gefunden, von der ich glaube — ich darf es noch einmal betonen —, daß sie den berechtigten Belangen des Straßenbaus wirklich Rechnung trägt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u39" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg62">Eine zweite Zusatzfrage, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer (SPD) :</note>
+        <u who="#Q1462129" xml:id="ParlaMint-DE_1962-06-28-04-037.u40" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg63">Herr Minister, habe ich Sie recht verstanden, daß Sie sagten, der Erste Vierjahresplan werde nicht gefährdet, und mit den vorhandenen Resten könne die Straßenbauverwaltung ihre Aufgaben durchführen? Sind es dann nicht rein fiskalische Überlegungen, die Sie veranlassen, noch 10 % gesperrt zu halten?</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg64">Ich möchte diese Frage in zwei Teilen beantworten. Fiskalische Belange spielen hierbei überhaupt keine Rolle. Diese Frage ist im Kabinett erörtert worden, und Sie wissen, daß der Bundeswirtschaftsminister aus konjunkturpolitischen Gründen zusätzlich in die Erörterungen der Frage eingeschaltet worden ist. Die Sperrung der restlichen 10 % ist beibehalten worden, weil man zunächst eine Aufteilung der ersten 10 °/o, vornehmen will. Dann werden wir weiter sehen. Zum letzten Satz darf ich noch einmal ausdrücklich sagen: Eine Gefährdung des Ersten Vierjahresplanes kann ich nicht sehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u42" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg65">Eine Zusatzfrage, Herr Abgeordneter Junghans.</seg>
+        </u>
+        <note type="speaker">Junghans (SPD) :</note>
+        <u who="#Q1577720" xml:id="ParlaMint-DE_1962-06-28-04-037.u43" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg66">Herr Minister, können Sie die Summe angeben, die in diesem Haushaltsjahr effektiv durch die Sperre im Straßenbau eingespart wird?</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u44" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg67">Das kann ich Ihnen im Augenblick nicht aus dem Kopf sagen. Ich bin aber bereit, Ihnen das mitzuteilen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u45" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg68">Wir kommen zur Frage VI/7 — des Abgeordneten Hammersen —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg69">Was gedenkt die Bundesregierung zur Behebung der zahlreichen, von Besatzungsgeschädigten und ihren Verbänden über die Ämter für Verteidigungslasten, die Sonderbauämter und die Oberfinanzdirektionen erhobenen Beschwerden über die unbefriedigende Abwicklung von Besatzungsschäden zu tun? Herr Bundesminister, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Starke, Bundesminister der Finanzen:</note>
+        <u who="#Q74254" xml:id="ParlaMint-DE_1962-06-28-04-037.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg70">Bei Ihrer Anfrage, Herr Abgeordneter, handelt es sich offensichtlich um kein Problem von genereller Bedeutung mehr, sondern um ein regionales oder örtliches Anliegen, wie es sich aus dem folgenden Zahlenmaterial ergibt. In der Zeit vom 1. Januar 1955 bis zum 31. März 1962 waren im gesamten Bundesgebiet rund 335 000 Besatzungsschadensfälle bei Landesbehörden anhängig. Von diesen rund 335 000 Fällen sind in dem genannten Zeitraum über 330 000 Fälle von den Landesbehörden abgewickelt worden. Es stehen also bei diesen Behörden heute nur noch etwas über 4000 Fälle im gesamten Bundesgebiet offen. Es ergibt sich aus der Natur der Sache, daß es sich bei diesen vergleichsweise wenigen Restfällen um diejenigen handelt, die in tatsächlicher und rechtlicher Hinsicht die schwierigsten sind. Soweit bei dieser geringen Anzahl noch anhängiger Fälle Beschwerden überhaupt noch an das Bundesfinanzministerium herangetragen werden, geht das Bundesfinanzministerium ihnen nach. Seinem Eingreifen sind freilich enge Grenzen gesetzt, da die Zuständigkeit für die Abwicklung von Besatzungsschäden nach dem Grundgesetz bei den Landesbehörden liegt. Dies gilt insbesondere für Beschwerden über die lange Dauer des Verfahrens oder sonstige Beschwerden mit dienstaufsichtsrechtlichem Charakter. Das Bundesfinanzministerium könnte in solchen Fällen allenfalls die Aufmerksamkeit der Landesbehörden auf die ihm vorgetragenen Mißstände richten. Eine Notwendigkeit hierzu hat sich bisher kaum ergeben. Soweit an Entschädigungsverfahren die Vertreter des Bundesinteresses bei den Oberfinanzdirektionen beteiligt sind, werden Beschwerden, die dem Bundesfinanzministerium bekannt werden, jeweils geprüft. Bisher hat sich kein Anlaß zu Beanstandungen gezeigt. Soweit es bei der Abgeltung von Besatzungsschäden zu gerichtlichen Auseinandersetzungen gekommen ist oder kommt, haben auf die Dauer der gerichtlichen Verfahren natürlich weder die Landesnoch die Bundesbehörden einen Einfluß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg71">Keine Zusatzfrage? — Ich danke Ihnen, Herr Bundesminister. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Wirtschaft. Ich rufe auf idie Frage VII/1 — des Herrn Abgeordneten Schmidt (Braunschweig)</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg72">—:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg73">Wann kann mit der Vorlage des Entwurfs eines Waffengesetzes gerechnet werden, nachdem die Bundesregierung den Entwurf bereits vor mehr als zwei Jahren angekündigt hat? Herr Staatssekretär bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u48" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg74">Der Entwurf eines Bundeswaffengesetzes, der sich aus verfassungsrechtlichen Gründen auf die, Herstellung, ,die Reparatur von und den Handel mit Schußwaffen beschränken muß, ist bereits vor längerer Zeit den Innenressorts der Länder zur Stellungnahme übersandt worden. Die Mehrzahl der Länder hat sich zu dem Entwurf geäußert und eine Reihe von Änderungen und Ergänzungen vorgeschlagen. Das Bundeswirtschaftsministerium ist zur Zeit damit beschäftigt, auf Grund der Stellungnahmen der Länder einen neuen Entwurf zu erstellen. Alsdann soll dieser Entwurf nach Abstimmung mit den übrigen Bundesressorts vorgelegt werden. Hiermit kann noch im Laufe dieser Legislaturperiode gerechnet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg75">Eine Zusatzfrage? — Herr Abgeordneter Schmidt.</seg>
+        </u>
+        <note type="speaker">Schmidt (Braunschweig) (SPD) :</note>
+        <u who="#Q2546152" xml:id="ParlaMint-DE_1962-06-28-04-037.u50" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg76">Herr Staatssekretär, besteht die Absicht, in diesem Gesetzentwurf notwendige zusätzliche Bestimmungen über den Verkauf von bisher waffenscheinfreien Gewehren, Druckluftpistolen, Gaspistolen und dergleichen allgemein und besonders an Jugendliche zu erlassen?</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg77">Ich möchte dem Herrn Abgeordneten antworten, daß verfassungsmäßig nur die Herstellung, die Reparatur und der Handel vom Bund geregelt wird, während die anderen Vorgänge, wie Erwerb, Besitz, Führen und ähnliche Dinge, in die Zuständigkeit der Länder fallen, da es sich hier um Fragen der öffentlichen .Sicherheit handelt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg78">Eine Zusatzfrage des Herrn Abgeordneten Schmidt.</seg>
+        </u>
+        <note type="speaker">Schmidt (Braunschweig) (SPD) :</note>
+        <u who="#Q2546152" xml:id="ParlaMint-DE_1962-06-28-04-037.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg79">Ich frage weiter: Ist beabsichtigt, auch hinsichtlich der Aufbewahrung von Schußwaffen im Waffenhandel zusätzlich 3 Bestimmungen zu erlassen?</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg80">Die Aufbewahrung von Waffen gehört verfassungsrechtlich in die Zuständigkeit des Bundes, so daß Bestimmungen darüber in das Genetz einbezogen werden müßten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg81">Keine Zusatzfrage? Ich komme zur Frage VII/2 — des Herrn Abgeordneten Wischnewski —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg82">Worauf führt es die Bundesregierung zurück, daß die deutsche Wirtschaft nur mit 1,48 v. H. an Aufträgen des Entwicklungsfonds der Europäischen Wirtschaftsgemeinschaft beteiligt ist, zu dessen finanziellen Leistungen die Bundesrepublik 34,5 v. H. des Aufkommmens beiträgt? Der Fragesteller wird vertreten durch den Abgeordneten Blachstein. — Herr Staatssekretär, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u56" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg83">Nach den neuesten Angaben der EWG-Kommission wurden bis Mitte Mai 1962 aus dem mit 581,25 Millionen US-Dollar dotierten Entwicklungsfonds für Studien, Lieferungen und Bauleistungen insgesamt Zuschläge in Höhe von 91,8 Millionen Dollar vergeben. Hiervon entfielen auf deutsche Firmen 3 637 000 Dollar. Dies entspricht einem Anteil von 3,96 %. Die tatsächliche Beteiligung der deutschen Wirtschaft an Aufträgen aus dem Entwicklungsfonds wird wahrscheinlich höher liegen, da deutsche Firmen von den ausländischen Zuschlagsempfängern für Unterlieferungen in Kontrakt genommen werden, zum Teil wohl auch als Partner ausländischer Bieter auftreten. Das Ausmaß dieser indirekten Form der Beteiligung läßt sich jedoch statistisch nicht exakt erfassen. Die Tatsache, daß deutsche Firmen unmittelbar verhältnismäßig selten als Zuschlagsempfänger an Aufträgen aus dem Entwicklungsfonds beteiligt sind, erklärt sich vor allem aus folgenden zwei Umständen: 1. Die Ausführung der wirtschaftlichen und sozialen Infrastrukturprojekte des Entwicklungsfonds ist meist mit der Erbringung von Bauleistungen verbunden (Straßen, Pisten, Brücken, Dämme, Brunnen, Krankenhäuser, Schulen u. ä.) . Soweit indessen Bauleistungen vergeben werden, bedingt die Ausführung der Leistung fast regelmäßig die Errichtung einer Niederlassung der Firma in Form einer Baustelle im Land und am Ort der Bauausführung. Nun handelt es sich aber bei dem Vorhaben des Entwicklungsfonds überwiegend um Aufträge in einer Größenordnung, die die Errichtung einer Niederlassung für ein einzelnes Vorhaben meist nicht wirtschaftlich erscheinen läßt. Daraus erklärt es sich, daß bei diesen Vorhaben in der Regel solche Firmen zum Zuge kommen, die im Lande der Bauausführung bereits ansässig sind. 2. Überdies herrscht in den begünstigten Ländern zumeist die französische Sprache, so daß die Ausschreibungsunterlagen nur in Französisch vorliegen und auch die Angebote in französischer Sprache abgegeben werden müssen. Dabei handelt es sich in der Regel um sehr umfangreiches Material. Interessierte deutsche Firmen mögen deshalb häufig auch die Kosten und Mühen der Übersetzung scheuen, die in keinem sehr günstigen wirtschaftlichen Verhältnis zu der Größe der Projekte stehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u57" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg84">Eine Zusatzfrage des Herrn Abgeordneten Blachstein!</seg>
+        </u>
+        <note type="speaker">Blachstein (SPD) :</note>
+        <u who="#Q2073956" xml:id="ParlaMint-DE_1962-06-28-04-037.u58" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg85">Herr Staatssekretär, was gedenkt die Bundesregierung zu tun, um den unbefriedigenden Zustand bei der Vergabe der Aufträge zugunsten der deutschen Wirtschaft zu verändern?</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u59" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg86">Herr Abgeordneter, man kann die Bauvergabe natürlich nicht nach Deutschland zwingen. Wenn Sie aber die gesamte Verteilung der Entwicklungsaufträge betrachten, werden Sie feststellen, daß die Bundesrepublik nicht schlecht dabei gefahren ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u60" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg87">Herr Abgeordneter Kahn-Ackermann zu einer Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Kahn-Ackermann (SPD) :</note>
+        <u who="#Q105732" xml:id="ParlaMint-DE_1962-06-28-04-037.u61" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg88">Herr Staatssekretär, trifft es nicht zu, daß deutsche Firmen weitgehend dadurch benachteiligt werden, daß infolge der Devisenbewirtschaftungsvorschriften für den afrikanischen Franken, wenn deutsche Firmen sich bewerben, häufig die Antwort erteilt wird, es seien keine Devisen für deutsche Firmen da, und daß infolgedessen die Aufträge an französische Firmen gehen?</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u62" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg89">Sicher werden durch diese Möglichkeiten deutsche Firmen beeinträchtigt, aber die Auswirkung ist nicht so beträchtlich, daß darin eine wesentliche Benachteiligung der deutschen Firmen liegen würde.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u63" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg90">Bine weitere Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Kahn-Ackermann , (SPD) :</note>
+        <u who="#Q105732" xml:id="ParlaMint-DE_1962-06-28-04-037.u64" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg91">ist die Bundesregierung nicht der Auffassung, daß im Interesse der EWG und der assoziierten Staaten das ganze Währungsproblem des afrikanischen Franken schnellstens neu geregelt werden muß?</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg92">Die Bundesregierung ist allerdings dieser Auffassung. Sie unterschätzt aber deswegen nicht die Schwierigkeiten einer solchen Neuregelung. Ich glaube, daß die französische Regierung sich ebenfalls darüber klar ist, daß dieser Weg gegangen werden muß.</seg>
+        </u>
+        <incident type="action">
+          <desc>Abg. Kahn-Ackermann meldet sich zu einer weiteren Zusatzfrage.</desc>
+        </incident>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg93">Sie haben schon zwei Zusatzfragen gehabt; damit ist Ihr Kontingent erschöpft. Sie können aber trotzdem dableiben. Ich rufe auf die Frage VII/3 — des Abgeordneten Kahn-Ackermann —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg94">Trifft es zu, daß Bedenken gegen die Auszahlung des im Haushalt 1962 enthaltenen Zuschusses an die Deutsche Film-ExportUnion aufgetaucht sind? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg95">Bedenken gegen die Auszahlung des im Haushalt 1962 enthaltenen Zuschusses an die Export-Union der deutschen Filmindustrie sind in der Sitzung des Haushaltsausschusses am 1. März 1962 von seiten mehrerer Abgeordneter geäußert worden. Sie haben dazu geführt, daß der Haushaltsausschuß 200 000 DM des Etatansatzes gesperrt hat. Die Bundesregierung bereitet zur Zeit einen Antrag auf Entsperrung vor, wobei die Auszahlung von der Kürzung einiger Positionen der Personalbezüge abhängig gemacht werden soll. Die Bundesregierung bemüht sich, sobald wie möglich den für die Export-Union vorgesehenen Zuschuß in voller Höhe zur Auszahlung zu bringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg96">Wir kommen zur Frage VII/4 — des Abgeordneten Saxowski —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg97">Trifft es zu, daß die einschlägige Industrie Düngemittel im EWG-Raum billiger als in der Bundesrepublik verkauft? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u69" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg98">Um die Frage des Herrn Abgeordneten Saxowski exakt zu beantworten, möchte ich die mir vorliegenden Zahlen des Jahres 1961 zugrunde legen. Danach wurden in den EWG-Raum Stickstoffdüngemittel, phosphathaltige Düngemittel und Kalidüngemittel exportiert. An Stickstoffdünger wurden nur 20 000 t Nährstoffeinheiten in die übrigen Länder der EWG versandt. Das sind knapp 2 % der deutschen Erzeugung. Die Ausfuhrpreise entsprachen den Inlandspreisen. Von den phosphathaltigen Düngemitteln wurde Superphosphat überhaupt nicht in den EWG-Raum exportiert. Dagegen gingen 42 500 t Nährstoffeinheiten oder rund 11 % der Erzeugung an Thomasphosphatmehl in andere EWG-Länder, und zwar fast ausschließlich nach Frankreich. Hierbei handelte es sich um Lieferungen im Rahmen des Saarvertrags, wobei die Preise auf die französischen Verbraucherpreise abgestimmt sein mußten. Letztere lagen zirka 4 bis 5 % unter den Preisen auf dem deutschen Markt. Von den Kalidüngemitteln schließlich wurden 116 000 t Nährstoffeinheiten oder zirka 6 % der Erzeugung von unseren EWG-Nachbarn abgenommen. Die Exportpreise ab Werk entsprachen etwa den Inlandpreisen. Frei Verbraucherstation der EWG-Nachbarn wurde für die gängigste Sorte, das 40%ige Kalidüngesalz, rund 133 DM je Tonne Ware erzielt. Dieser Preis lag damit etwa 12 % über dem vergleichbaren Verbraucherpreis in der Bundesrepublik.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg99">Ich rufe auf Frage VII/5 — des Abgeordneten Bading Wann gedenkt die Bundesregierung eine Rechtsverordnung über die Anforderungen an die Abbaufähigkeit von Detergentien in Wasch- und Reinigungsmitteln vorzulegen? Bitte, Herr Staatssekretär:</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u71" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg100">Bei der Ausarbeitung der Verordnung über die Abbaubarkeit von Detergentien in Wasch- und Reinigungsmitteln gemäß § 2 des Gesetzes über Detergentien in Wasch- und Reinigungsmitteln vom 5. September 1961 mußten äußerst schwierige materielle und rechtsförmliche Fragen geklärt werden. Inzwischen hat die Bundesregierung den Verordnungsentwurf fertigstellen können. Für den Verordnungsentwurf wird zur Zeit mit kurzbemessenen Terminen die Zustimmung des Kabinetts im Umlaufverfahren eingeholt. Die Absicht der Bundesregierung, den Entwurf dem Bundesrat so rechtzeitig zuzuleiten, daß dieser ihn in seinen Ausschüssen und in seiner Plenarsitzung vom 13. Juli 1962 hätte verabschieden können, konnte leider nicht verwirklicht werden. Der Verordnungsentwurf wird dem Bundesrat jedoch in Kürze zugeleitet werden, so daß er unmittelbar nach der Sommerpause verabschiedet werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u72" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg101">Eine Zusatzfrage, Herr Abgeordneter Dr. Hamm!</seg>
+        </u>
+        <note type="speaker">Dr. Hamm (Kaiserslautern) (FDP) :</note>
+        <u who="#Q1399134" xml:id="ParlaMint-DE_1962-06-28-04-037.u73" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg102">Ist die Auffassung mancher Industriekreise richtig, daß die leichtere Abbaufähigkeit von Detergentien nicht zu dem gewünschten Erfolg führt, daß vielmehr schlechtere Ergebnisse erzielt werden als bei schwererer Abbaufähigkeit?</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u74" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg103">Herr Abgeordneter, ich kann Ihnen diese Frage leider jetzt nicht beantworten, bin aber gern bereit, ihr nachzugehen und Ihnen die Antwort schriftlich zukommen zu lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u75" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg104">Ich rufe auf Frage VII/6 — des Abgeordneten Mattick —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg105">Was hat die Bundesregierung unternommen, um den Vorschlag der Regierung der Vereinigten Staaten von Amerika, ein neues Dokumentationszentrum für Entwicklungshilfe im Rahmon der OECD in Berlin zu errichten, in die Tat umzusetzen?</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u76" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg106">Bei dem Dokumentationszentrum dürfte es sich um das OECD-Development Centre handeln, dessen Gründung auf der 5. DAC-Tagung in Tokio im Juli 1961 von amerikanischer Seite vorgeschlagen wurde. Dieser Anregung hat der OECD-Ministerrat am 16./17. November 1961 grundsätzlich zugestimmt, und er hat eine Expertengruppe mit der Prüfung des Vorschlags beauftragt. In dem daraufhin erstellten Gutachten vom 16. Februar dieses Jahres ist unter anderem ausgeführt, das Development Centre sollte im Interesse einer reibungslosen Zusammenarbeit mit der OECD in unmittelbarer Nähe des Sekretariats, also in Paris, errichtet werden. Der Generalsekretär hat sich dieser Auffassung in einer Note an den OECD-Ministerrat angeschlossen. Auch der DAC-Vorsitzende, Botschafter Riddleberger, hat sich auf der Tagung des OECD-Rates am 10. April 1962 für eine möglichst enge räumliche Verbindung zwischen dem OECD-Sekretariat und dem Development Centre ausgesprochen. Auf dieser Tagung hat der Rat eine Arbeitsgruppe zur Prüfung des Sachverständigengutachtens und der Note des Generalsekretärs eingesetzt. Die Arbeitsgruppe hat ihre Untersuchungen noch nicht abgeschlossen. Eine Beschlußfassung der zuständigen OECD-Organe über den Sitz des geplanten Development Centre hat bisher noch nicht stattgefunden, da Rechtsform und Aufgaben der Einrichtung, die von Bedeutung für die Standortfrage sind, noch geklärt werden müssen. Bei einer künftigen Entscheidung über den Sitz des Development Centre wird sich die Bundesregierung darum bemühen, daß Berlin als Sitz in Betracht gezogen wird. Die Aussichten hierfür dürften jedoch wegen des vorliegenden Sachverständigengutachtens, das eine möglichst enge räumliche Verbindung zwischen dem OECD-Sekretariat und dem Development Centre für erforderlich hält, nicht sehr groß sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u77" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg107">Eine Zusatzfrage, Herr Abgeordneter Mattick.</seg>
+        </u>
+        <note type="speaker">Mattick (SPD) :</note>
+        <u who="#Q1793852" xml:id="ParlaMint-DE_1962-06-28-04-037.u78" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg108">Darf ich, Herr Staatssekretär, die Frage stellen: Ist sich die Regierung im klaren darüber, daß es eine solche Begründung in fast allen Fällen geben wird? Wenn wir nicht die Schwierigkeit übernehmen, die sich daraus ergibt, daß wir irgendeine Institution etwas abseits von der Zentrale stellen, wird keine internationale Kommission nach Berlin verlegt werden. Stimmt die Bundesregierung dem Gedanken zu, daß es aus der Sache heraus gut wäre, wenn in Berlin eine solche Institution tätig wäre?</seg>
+        </u>
+        <note type="speaker">Dr. Westrick, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q99445" xml:id="ParlaMint-DE_1962-06-28-04-037.u79" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg109">Ich stimme dem Herrn Abgeordneten darin zu, daß die Bundesregierung den Wunsch hat, den Sitz dieses Development Centre nach Berlin zu bringen. Die Haltung der Bundesregierung ist durch die Domizilierung zahlreicher Verwaltungsstellen in der Vergangenheit unter Beweis gestellt worden; ich denke an das Kartellamt, an das, Aufsichtsamt für das Versicherungswesen, an das Aufsichtsamt für Banken usw. Daß es gelingen wird, innerhalb des OECD-Ministerrates unseren Wünschen auch wirklich zum Erfolg zu verhelfen, kann ich dem Herrn Abgeordneten heute leider nicht zusagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u80" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg110">Ich danke Ihnen, Herr Staatssekretär. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten, zuerst zur Frage VIII/1 — des Herrn Abgeordneten Glüsing (Dithmarschen)</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg111">—:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg112">Trifft es zu, daß in einzelnen Mitgliedsländern der EWG der von der Landwirtschaft verbrauchte Dieselkraftstoff unmittelbar verbilligt an die Landwirte abgegeben wird? Ist Herr Glüsing im Saal? — Dann wird diese Frage schriftlich beantwortet. Ich komme zur Frage VIII/2 — des Herrn Abgeordneten Dr. Morgenstern —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg113">Ist die Bundesregierung der Auffassung, daß die Erste Wasserverbandverordnung vom 3. September 1937 (RGBl. I S. 933)</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg114">nach Artikel 125 des Grundgesetzes Bundesrecht geworden ist? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Hüttebräuker, Staatssekretär im Bundesministerium für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1570613" xml:id="ParlaMint-DE_1962-06-28-04-037.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg115">Herr Abgeordneter, die Bundesregierung ist in Übereinstimmung mit mehreren Urteilen des Bundesverwaltungsgerichts der Auffassung, daß die Erste Verordnung über Wasser- und Bodenverbände mit ihrem wesentlichen Inhalt Bundesrecht geworden ist. Das Bundesverfassungsgericht hat die Frage bisher noch nicht entschieden. In seinem Urteil vom 29. Juli 1959 betreffend den Großen Erftverband hat es nur ausgeführt, es können zweifelhaft sein, ob sich im Hinblick auf die Rahmenkompetenz des Bundes für den Wasserhaushalt nach Art. 75 Nr. 4 des Grundgesetzes eine umfassende Gesetzgebungszuständigkeit des Bundes für das gesamte Wasserrecht begründen lasse. Das Bundesverwaltungsgericht hat in seinem Urteil vom 25. März 1960, das einen landwirtschaftlichen Wasserverband betraf, an seiner früheren Auffassung festgehalten. Die Bundesregierung sieht auch keinen Anlaß, ihre Auffassung aufzugeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg116">Eine Zusatzfrage, Herr Abgeordneter Dr. Morgenstern.</seg>
+        </u>
+        <note type="speaker">Dr. Morgenstern (SPD) :</note>
+        <u who="#Q1600666" xml:id="ParlaMint-DE_1962-06-28-04-037.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg117">Wann wird die Bundesregierung auf Grund ihrer Rechtsauffassung beim Bundestag eine Gesetzesvorlage einbringen, durch die. das Recht der Wasser- und Bodenverbände mit den Grundsätzen eines demokratischen Rechtsstaates in Einklang gebracht wird, beispielsweise in der Richtung, daß der Verbandsvorsteher gewählt und nicht von der Aufsichtsbehörde ernannt wird, oder in der Richtung, daß die Satzung von den Verbandsorganen beschlossen und nicht von der Aufsichtsbehörde erlassen wird?</seg>
+        </u>
+        <note type="speaker">Hüttebräuker, Staatssekretär 'im Bundesministerium für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1570613" xml:id="ParlaMint-DE_1962-06-28-04-037.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg118">Herr Abgeordneter, die Bundesregierung teilt Ihre Auffassung, daß eine Neuordnung des Rechts der Wasser- und Bodenverbände wünschenswert ist. Die Bundesregierung hat darüber jedoch noch keinen Beschluß gefaßt. Wir sind auch der Meinung, daß auf jeden Fall der Ausgang des Normenkontrollverfahrens abgewartet werden sollte, eines Verfahrens, das beim Bundesverfassungsgericht anhängig ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg119">Keine weitere Zusatzfrage. Wir kommen zur Frage VIII/3 - des Herrn Abgeordneten Schultz —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg120">Welches Ergebnis haben die Bemühungen der Bundesregierung gehabt, die für deutsche Weinbrennereien diskriminierenden Bestimmungen der französischen Verordnung, die Neuanlagen von Weinbergen in der Charente betreffend, zu beseitigen? Herr Staatssekretär, bitte!</seg>
+        </u>
+        <note type="speaker">Hüttebräuker, Staatssekretär im Bundesministerium für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1570613" xml:id="ParlaMint-DE_1962-06-28-04-037.u86" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg121">Herr Abgeordneter Schultz, die von der Bundesregierung in dieser Angelegenheit unternommenen Schritte haben zu einem abschließenden Ergebnis bisher nicht geführt. Ich darf mir aber erlauben, Ihnen den augenblicklichen Stand darzulegen. 1. Auf die seitens der Bundesregierung bei den zuständigen französischen Behörden erhobenen Vorstellungen hin ist inzwischen ein erster Bericht eingegangen, der zur Zeit unter Anhörung der betroffenen Wirtschaftskreise geprüft wird. 2. Auf den durch die Bundesregierung bei der EWG-Kommission gestellten Antrag zur Überprüfung der von der französischen Regierung erlassenen Ausfuhrbestimmungen für bestimmte Brennweine hat die Kommission mitgeteilt, daß sie bei den französischen Behörden sofort Schritte zur Klärung unternommen habe und nach Eingang näherer Informationen prüfen werde, ob die betreffenden Bestimmungen gegen Art. 34 des EWG-Vertrages verstoßen. Die Bundesregierung hat die Kommission dringend gebeten, das Ergebnis der Prüfung baldigst mitzuteilen. Bisher liegt eine Antwort hierauf nicht vor. 3. Die Bundesregierung wird laufend darum bemüht bleiben, daß solche Bestimmungen, die die deutschen Weinbrennereien diskriminieren, beseitigt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg122">Eine Zusatzfrage, Herr Abgeordneter Schultz!</seg>
+        </u>
+        <note type="speaker">Schultz (FDP) :</note>
+        <u who="#Q122071" xml:id="ParlaMint-DE_1962-06-28-04-037.u88" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg123">Herr Staatssekretär, halten Sie es überhaupt für wünschenswert, daß eine Ausweitung des Weinbaues, des Weinbergsgeländes stattfindet, da wir doch im EWG-Raum an sich eine Überproduktion haben?</seg>
+        </u>
+        <note type="speaker">Hüttebräuker, Staatssekretär im Bundesministerium für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1570613" xml:id="ParlaMint-DE_1962-06-28-04-037.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg124">Herr Abgeordneter, ich verstehe die Frage so, daß Sie den gesamten Bereich der EWG meinen und nicht nur speziell den französischen oder den deutschen Weinbau. Ich muß Ihnen dazu sagen, daß ich persönlich eine Ausweitung des Weinbaugebiets im EWG-Bereich nicht für angebracht halte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg125">Eine weitere Zusatzfrage, Herr Abgeordneter Schultz!</seg>
+        </u>
+        <note type="speaker">Schultz (FDP) :</note>
+        <u who="#Q122071" xml:id="ParlaMint-DE_1962-06-28-04-037.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg126">Herr Staatssekretär, wäre die Bundesregierung 'eventuell bereit, in dem von Ihnen geäußerten Sinn auch ihre Vorstellungen bei der EWG-Kommission zur Geltung zu bringen?</seg>
+        </u>
+        <note type="speaker">Hüttebräuker, Staatssekretär +im Bundesministerium für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1570613" xml:id="ParlaMint-DE_1962-06-28-04-037.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg127">Herr Abgeordneter, ich bitte gütigst zu entschuldigen, daß ich die Beantwortung dieser Frage auslasse. Ich halte es beim 'gegenwärtigen Stand der Verhandlungen mit Frankreich nicht für angebracht, im Namen der Bundesregierung hierzu eine Erklärung abzugeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u93" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg128">Eine Zusatzfrage, Herr Abgeordneter Dröscher.</seg>
+        </u>
+        <note type="speaker">Dröscher (SPD) :</note>
+        <u who="#Q2572433" xml:id="ParlaMint-DE_1962-06-28-04-037.u94" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg129">Herr Staatssekretär, von wann datiert die Mitteilung der Kommission, daß die französische Regierung aufgefordert worden sei, Stellung zu nehmen?</seg>
+        </u>
+        <note type="speaker">Hüttebräuker, Staatssekretär im Bundesministerium für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1570613" xml:id="ParlaMint-DE_1962-06-28-04-037.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg130">Herr Abgeordneter, ich bin leider überfragt. Ich bitte, schriftlich antworten zu dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg131">Keine weitere Zusatzfrage! Ich komme zur Frage VIII/4 — des Herrn Abgeordneten Bading —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg132">Wie beurteilt der Herr Bundesminister für wirtschaftliche Zusammenarbeit die Einbeziehung des Tapiokamehls in die Europäische Getreidemarktordnung und die damit verbundene Behinderung der Einfuhr eines tropischen Erzeugnisses vom Standpunkt der Entwicklungshilfe? Ist er im Saale? — Das ist nicht der Fall.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Frehsee: Ich vertrete ihn!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg133">— Sie übernehmen die Frage. — Herr Staatssekretär, bitte!</seg>
+        </u>
+        <note type="speaker">Hüttebräuker, Staatssekretär im Bundesministerium für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1570613" xml:id="ParlaMint-DE_1962-06-28-04-037.u97" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg134">Herr Abgeordneter Frehsee, die aufgeworfene Frage des Herrn Abgeordneten Bading fällt in den Zuständigkeitsbereich meines Ministeriums. Ich darf mir daher erlauben, die Frage für die Bundesregierung und damit auch für den Herrn Bundesminister für wirtschaftliche Zusammenarbeit, mit dem die Antwort abgestimmt worden ist, zu beantworten. Die Bundesregierung ist davon überzeugt, daß die Einfuhr von Tapiokamehl aus Entwicklungsländern durch die Einbeziehung des Tapiokamehls in die II EWG-Getreidemarktordnung nicht behindert wird. Die Einbeziehung von Tapiokamehl in die Getreidemarktordnung hat lediglich den Zweck, den Preis des Tapiokamehls in ein angemessenes Verhältnis zum Futtergetreidepreis zu bringen. Der Futterwert des Tapiokamehls beträgt etwa 70 % des Futterwertes der Gerste. Auf diesen Preis wäre das Tapiokamehl bei der Einfuhr zu bringen, um eine Gefährdung des inländischen Getreidepreisniveaus zu verhindern und einer Verdrängung stärkereicher Futterkartoffeln vom Markt entgegenzuwirken. Der EWG-Ministerrat hat in seiner Sitzung am 19. Juni 1962 beschlossen, die Abschöpfung für Tapiokamehl auf 40 % der Gerstenabschöpfung festzulegen. Dieses bedeutet, daß der Einfuhrpreis für Tapiokamehl bei einem Weltmarktpreis von 240 DM je Tonne und einer Gerstenabschöpfung von 174 DM je Tonne 309,20 DM cif betragen wird. Der Großhandelspreis für Tapiokamehl beträgt gegenwärtig im norddeutschen Raum einschließlich Zollbelastung 320 bis 350 DM je Tonne. Nach Inkrafttreten der EWG-Getreidemarktordnung am 30. Juli 1962 wird demgemäß das Tapiokamehl nicht teurer, sondern wahrscheinlich billiger angeboten werden als zum gegenwärtigen Zeitpunkt. Es ist daher nicht zu erwarten, daß die Einfuhr von Tapiokamehl aus den Entwicklungsländern durch die EWG-Getreidemarktordnung behindert wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u98" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg135">Eine Zusatzfrage, Herr Abgeordneter Müller!</seg>
+        </u>
+        <note type="speaker">Müller (Worms) (SPD) :</note>
+        <u who="#Q2582086" xml:id="ParlaMint-DE_1962-06-28-04-037.u99" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg136">Ich frage den Herrn Staatssekretär: Worauf beruht die Annahme, daß der Futterwert des Tapioka-Mehls 70 % der Gerste betrage?</seg>
+        </u>
+        <note type="speaker">Hüttebräuker, Staatssekretär im Bundesministerium für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1570613" xml:id="ParlaMint-DE_1962-06-28-04-037.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg137">Herr Abgeordneter, das ist keine Annahme, sondern das Ergebnis der Nährwertuntersuchung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg138">Eine zweite Zusatzfrage, Herr Abgeordneter Müller!</seg>
+        </u>
+        <note type="speaker">Müller (Worms) (SPD) :</note>
+        <u who="#Q2582086" xml:id="ParlaMint-DE_1962-06-28-04-037.u102" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg139">Ist dem Herrn Staatssekretär bekannt, daß die Stärkeindustrie gestern in Brüssel den Antrag gestellt hat, auch die TapiokaWurzel, aus der das Tapioka-Mehl hergestellt wird, in die Marktordnung einzubeziehen?</seg>
+        </u>
+        <note type="speaker">Hüttebräuker, Staatssekretär im Bundesministerium für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1570613" xml:id="ParlaMint-DE_1962-06-28-04-037.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg140">Ich habe davon gehört, kann mir aber selber kein Urteil zu diesem Problem erlauben, weil es mir noch zu fremd ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u104" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg141">Ich danke Ihnen, Herr Staatssekretär. Wir kommen nun zu den Fragen aus dem Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung. Ich stelle zuerst fest, daß die Frage der Frau Abgeordneten Dr. Flitz (Wilhelmshaven)</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg142">von der Fragestellerin zurückgestellt wurde. Wir kommen dann zur Frage I/2 — des Herrn Abgeordneten Felder —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg143">Welche Erwägungen hindern den Herrn Bundesarbeitsminister, den Gesetzentwurf zur Rechtsanwaltsversicherung, der vom 3. Deutschen Bundestag nicht mehr verabschiedet, aber vor Monaten vom Bundesarbeitsminister dem Kabinett wieder vorgelegt wurde, endlich im Deutschen Bundestag einzubringen? Bitte, Herr Bundesminister!</seg>
+        </u>
+        <note type="speaker">Blank, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q65542" xml:id="ParlaMint-DE_1962-06-28-04-037.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg144">Herr Abgeordneter, der Gesetzentwurf ist von mir dem Kabinett zugeleitet, aber im Kabinett noch nicht beraten worden. Ich als einzelner Minister kann den parlamentarischen Körperschaften keinen Gesetzentwurf zuleiten; das kann nur die Bundesregierung tun, nachdem sie entsprechend beschlossen hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u106" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg145">Eine Zusatzfrage, Herr Abgeordneter Felder!</seg>
+        </u>
+        <note type="speaker">Felder (SPD) :</note>
+        <u who="#Q103836" xml:id="ParlaMint-DE_1962-06-28-04-037.u107" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg146">Ist Ihnen bekannt, daß es sich bei dieser Angelegenheit um eine schon lange verschobene Sache handelt, daß sich eine erhebliche Zahl alter Anwälte in Not befindet, daß die Anwälte diese Versicherung in einer Abstimmung zu 78 % bejaht haben und daß die Erledigung sehr vordringlich ist.</seg>
+        </u>
+        <note type="speaker">Blank, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q65542" xml:id="ParlaMint-DE_1962-06-28-04-037.u108" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg147">Das ist mir bekannt, und ich habe auch mit den Vertretern der Rechtsanwälte diese Frage mehrfach besprochen. Dieser Gesetzentwurf hat ja schon in der vorigen Legislaturperiode im zuständigen. Ausschuß nicht mehr behandelt werden können. Auch gegenwärtig ist dieser Ausschuß so mit Arbeit eingedeckt, daß er, wenn er diesen Gesetzentwurf beraten wollte, die Beratung an unserer Unfallversicherungs-Neuregelung unterbrechen müßte, auf die ebenfalls viele Rentner warten. Sie sehen also, daß es mit dem zeitlichen Ablauf seine Schwierigkeiten hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u109" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg148">Eine zweite Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Felder (SPD):</note>
+        <u who="#Q103836" xml:id="ParlaMint-DE_1962-06-28-04-037.u110" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg149">Besteht also kein Grund zu der Annahme, die in führenden Kreisen des Deutschen Anwaltvereins kursiert, Herr Minister, daß die Privatversicherungswirtschaft hinter den Kulissen erhebliche und wirksame Anstrengungen gemacht hat, um irgendwelche Fortschritte in dieser Richtung zu verhindern?</seg>
+        </u>
+        <note type="speaker">Blank, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q65542" xml:id="ParlaMint-DE_1962-06-28-04-037.u111" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg150">Davon ist mir nichts bekannt. Mir ist auch nicht bekannt, daß derartige Befürchtungen im Deutschen Anwaltverein bestünden. Die Herren, die mit mir noch vor kurzem über die Problematik gesprochen haben, haben dies nicht erkennen lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u112" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg151">Zu einer Zusatzfrage Herr Abgeordneter Schmitt-Vockenhausen!</seg>
+        </u>
+        <note type="speaker">Schmitt-Vockenhausen (SPD) :</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1962-06-28-04-037.u113" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg152">Herr Minister, wenn der Entwurf schon seit Monaten dem Kabinett vorliegt, dann müssen Sie doch als Ressortminister, der den Entwurf vorgelegt hat, eine Möglichkeit haben, eine Stellungnahme des Kabinetts zu erreichen.</seg>
+        </u>
+        <note type="speaker">Blank, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q65542" xml:id="ParlaMint-DE_1962-06-28-04-037.u114" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg153">Durchaus! Sobald das Kabinett nach seiner Geschäftslage und nach der Dringlichkeit der ihm vorliegenden Dinge sich damit beschäftigt, wird ja ein Beschluß erfolgen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg154">Ich rufe auf Frage IX/3 — des Herrn Abgeordneten Behrendt —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg155">Kann aus den Ausführungen des Herrn Bundesarbeitsministers im Bulletin des Presse- und Informationsamtes der Bundesregierung vom 30. Mai 1962 der Schluß gezogen werden, daß er bereit ist, sich dafür einzusetzen, daß auch tarifvertraglich vereinbarte Leistungen für die Vermögensbildung der Arbeitnehmer gesetzlich gefördert werden, und daß er bereit ist, den diesbezüglichen Antrag der SPD-Fraktion, der genau ein Jahr zuvor, nämlich am 31. Mai 1961, bei der zweiten Beratung des Gesetzentwurfs zur Förderung der Vermögensbildung der Arbeitnehmer im Bundestag eingebracht und damals mit den Stimmen der CDU/CSU-Mehrheit abgelehnt wurde, heute in Gestalt einer Regierungsvorlage zur Änderung des Gesetzes zur Förderung der Vermögensbildung der Arbeitnehmer im Bundestag einzubringen? Herr Bundesminister, darf ich bitten!</seg>
+        </u>
+        <note type="speaker">Blank, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q65542" xml:id="ParlaMint-DE_1962-06-28-04-037.u116" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg156">In § 1 des von Meinem Ministerium erstellten und von der Bundesregierung beschlossenen Entwurfs eines Gesetzes zur Förderung der Vermögensbildung der Arbeitnehmer war eine Formulierung vorgesehen, die die Vereinbarung vermögensrechtlicher Leistungen der Arbeitgeber durch Tarifverträge nicht ausschloß. Der Gesetzgeber hat sich jedoch diese Formulierung nicht zu eigen gemacht. Zu Ihrer weiteren Frage, ob ich nunmehr bereit sei, den damaligen SPD-Antrag aufzugreifen und mich für ihn einzusetzen, möchte ich sagen: Ich habe nicht die Absicht, den Initiativmöglichkeiten der SPD-Fraktion vorzugreifen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u117" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg157">Eine Zusatzfrage, Herr Abgeordneter Behrendt!</seg>
+        </u>
+        <note type="speaker">Behrendt (SPD) :</note>
+        <u who="#Q213838" xml:id="ParlaMint-DE_1962-06-28-04-037.u118" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg158">Herr Minister, wenn Sie nicht bereit sind, den damaligen SPD-Antrag in einer Regierungsvorlage aufzugreifen, sind Sie dann bereit — da Sie ja heute der gleichen Ansicht sind, wenn die Initiative ergriffen wird, und dessen können Sie nach Ihrer Darstellung im Bulletin sicher sein —, die Regierungsparteien zu ersuchen, ihren damaligen Standpunkt nach Ihrer heutigen Meinung mit auszurichten und dann einer Regelung zuzustimmen, die vermögenswirksame Leistungen auch durch Tarifverträge 'ermöglicht?</seg>
+        </u>
+        <note type="speaker">Blank, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q65542" xml:id="ParlaMint-DE_1962-06-28-04-037.u119" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg159">Ich muß Sie darauf aufmerksam machen, daß es keine Möglichkeiten gibt, die Meinung der Regierungsparteien „auszurichten", sondern die Regierungsparteien bilden ihre Meinungen selbst. Ich muß es daher Ihnen überlassen, zu versuchen, eine Meinungsangleichung unter den Fraktionen dieses Hauses herbeizuführen. Ich bin untauglich, Meinungen „auszurichten".</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit und Beifall.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u120" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg160">Wir kommen zur Frage IX/4 — des Abgeordneten Bauer (Würzburg)</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg161">—:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg162">Beabsichtigt die Bundesregierung, demnächst ein von Fachleuten und der internationalen Arbeitskonferenz seit geraumer Zeit angeregtes allgemeines "Maschinen-Schutzgesetz" mit dem Ziel vorzulegen, die zahlreichen — vornehmlich in Haushaltungen — durch Verwendung von Maschinen ohne überprüfte Schutzeinrichtungen zu verzeichnenden Unfälle tunlichst einzudämmen? Darf ich Sie bitten, Herr Bundesminister.</seg>
+        </u>
+        <note type="speaker">Blank, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q65542" xml:id="ParlaMint-DE_1962-06-28-04-037.u121" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg163">Im Bundesministerium für Arbeit und Sozialordnung wird der Entwurf eines Gesetzes über den technischen Arbeitsschutz vorbereitet. In diesem Gesetz soll das bisher sehr zersplitterte Recht des technischen Arbeitsschutzes zusammengefaßt werden. Die zum Teil sehr alten Vorschriften sollen durch neue, der technischen und wirtschaftlichen Entwicklung angepaßte Bestimmungen abgelöst werden. Dabei sollen neue Aspekte des Arbeitsschutzes berücksichtigt werden. Zu diesen neuen Aspekten ist auch der nicht nur beim Arbeitgeber, sondern schon beim Hersteller anknüpfende Maschinenschutz zu rechnen. Die rechtlichen und sachlichen Schwierigkeiten dieses Vorhabens sind allen Sachkennern so bekannt, daß ich den Rahmen der Beantwortung einer mündlichen Anfrage nicht durch den Versuch einer Aufzählung dieser Probleme sprengen möchte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u122" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg164">Eine Zusatzfrage, Herr Abgeordneter Bauer (Würzburg)!</seg>
+        </u>
+        <note type="speaker">Bauer (Würzburg) (SPD) :</note>
+        <u who="#Q99423" xml:id="ParlaMint-DE_1962-06-28-04-037.u123" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg165">Können Sie, Hem Bundesminister, einen ungefähren Zeitpunkt angeben, bis zu dem Sie mit der Fertigstellung dieses Gesetzentwurfs rechnen?</seg>
+        </u>
+        <note type="speaker">Blank, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q65542" xml:id="ParlaMint-DE_1962-06-28-04-037.u124" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg166">Nein! Das kann ich deshalb nicht, weil es sich um eine sehr umfangreiche und sehr komplizierte Materie handelt, bei der ich natürlich alle in Frage kommenden Kreise hören muß, um ihren sachverständigen Rat einzuholen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u125" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg167">Eine zweite Zusatzfrage, Herr Abgeordneter Bauer (Würzburg)!</seg>
+        </u>
+        <note type="speaker">Bauer (Würzburg) (SPD) :</note>
+        <u who="#Q99423" xml:id="ParlaMint-DE_1962-06-28-04-037.u126" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg168">Können Sie, Herr Bundesminister, eine Erklärung darüber abgeben, ob die von mir in dieser Anfrage erwähnten mit der Benutzung von Haushaltsgeräten verbundenen Gefahren besondere Berücksichtigung finden?</seg>
+        </u>
+        <note type="speaker">Blank, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q65542" xml:id="ParlaMint-DE_1962-06-28-04-037.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg169">Daß man auch diese Problematik beachten muß, ergibt sich schon daraus, daß heute die Unfallhäufigkeit im Haushalt erschreckend hoch ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg170">Ich danke Ihnen, Herr Bundesminister. Es ist interfraktionell vereinbart, daß die Fragen aus dem Geschäftsbereich des Bundesministers der Verteidigung bis Freitag zurückgestellt werden. Wir kommen nunmehr zu den Fragen aus dem Geschäftsbereich des Bundesministers für Verkehr. Ich rufe zunächst auf .die Frage XI/1 — des Herrn Abgeordneten Ertl —:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg171">Welche Planungen bestehen im Zuge des Ausbaus der Verbindungsstraße zum Achensee (Tirol)</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg172">, um die gefährlichen Ortsdurchfahrten am Tegernsee zu beseitigen? Herr Staatssekretär, ich darf bitten.</seg>
+        </u>
+        <note type="speaker">Dr. Seiermann, Staatssekretär im Bundesministerium für Verkehr:</note>
+        <u who="#Q1591186" xml:id="ParlaMint-DE_1962-06-28-04-037.u129" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg173">Ich beantworte die Frage wie folgt. Ein zügiger Anschluß von der Bundesautobahn München—Salzburg über den ausgebauten Straßenzug entlang des Athensees nach dem Inntal läßt sich nur im Zuge der Bundesstraße 318 am Westufer des Tegernsees erstellen. Dabei sollen Dürnbach, der Gmunder Berg und Gmund westlich umgangen werden. Diese Umgehungsstraße soll östlich Kaltenbrunn die Bundesstraße 318 wieder erreichen, die von hier bis Bad Wiessee bereits ausgebaut ist. Die Frage, ob eine Ortsumgehung von Bad Wiessee oder der Ausbau einer Entlastungsstraße innerhalb der Ortslage durchzuführen ist, erfordert bezüglich einer westlichen Umgehungsstraße eingehende Überlegungen, die noch nicht abgeschlossen sind. Zwischen Wiessee und Reitrain ist die Bundesstraße ausgebaut; bei Reitrain ist eine Verlegung auf eine westlichere Trasse vorgesehen. Daran schließt sich die von Bayern in den letzten Jahren bereits zum erheblichen Teil zwischen Glashütte und der Grenze ausgebaute Staatsstraße 2076 an, deren Aufstufung zur Bundesstraße beabsichtigt ist. Die vorgesehenen Verlegungen westlich Gmund und im Raum Wiessee sind in der Ausführung schwierig, so daß die Oberste Baubehörde in Bayern die Planungen noch nicht endgültig abgeschlossen und vorgelegt hat. Es steht jedoch fest, daß eine östliche Umgehung der Orte Gmund, Tegernsee und Rottach-Egern noch viel größere Schwierigkeiten bereiten und unvergleichlich viel kostspieliger sein wird. Sie eignet sich daher nicht für eine zügige Straßenverbindung zwischen München und dem Inntal über den Athensee. Die Bundesstraße 318 a ist deshalb nur als Zubringerstraße nach Tegernsee ausgebaut, ,soll aber durch den Ausbau der B 318 auf dem Westufer des Sees vom Durchgangsverkehr möglichst freigehalten werden; die Ortsdurchfahrten in Tegernsee und Rottach sollen trotzdem soweit wie möglich wegen des starken Ziel- und Quellverkehrs verbessert werden. Nach Auffassung der Obersten Baubehörde ist die Anlage einer Ostumgehung der Ortschaft Tegernsee aus geologischen Gründen technisch kaum und allenfalls nur mit außerordentlich hohen Kosten durchführbar. Die dazu erforderliche Ostumgehung von Gmund ist wegen des dazu notwendigen Baues einer großen Mangfallbrücke zwar möglich, aber gleichfalls unverhältnismäßig kostspielig.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u130" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg174">Eine Zusatzfrage, Herr Abgeordneter Ertl.</seg>
+        </u>
+        <note type="speaker">Ertl (FDP) :</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1962-06-28-04-037.u131" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg175">Herr Staatssekretär, können Sie vielleicht angeben, bis wann diese Umgehungsstraße in Angriff genommen wird oder vollendet werden kann?</seg>
+        </u>
+        <note type="speaker">Dr. Seiermann, Staatssekretär .im Bundesministerium für Verkehr:</note>
+        <u who="#Q1591186" xml:id="ParlaMint-DE_1962-06-28-04-037.u132" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg176">Das kann ich leider nicht. Denn es sind, wie Sie aus meiner Beantwortung Ihrer Anfrage ersehen, im wesentlichen technische Fragen, über die noch Beratungen innerhalb und mit der Obersten Baubehörde in Bayern stattfinden. Sie haben aber aus der Beantwortung der Anfrage auch ersehen, daß wir in ständigen Verhandlungen über dieses Problem stehen, so daß mit einer nicht notwendigen Verzögerung nicht gerechnet zu werden braucht.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="58" ana="#DE-consultation #DE-motion #DE-report">
+        <head>Beratung des Schriftlichen Berichts des 1. Untersuchungsausschusses gemäß Antrag der Fraktion der SPD (Drucksachen IV/247, IV/512)</head>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u133" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg177">Keine Zusatzfrage mehr. — Ich danke Ihnen, Herr Staatssekretär. Wir stehen am Ende der Fragestunde. Ich rufe nunmehr auf Punkt 58 der Tagesordnung:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg178">Beratung des Schriftlichen Berichts des 1. Untersuchungsausschusses gemäß Antrag der Fraktion der SPD (Drucksachen IV/247, IV/512).</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg179">Das Wort zur Geschäftsordnung hat der Abgeordnete Dr. Bucher.</seg>
+        </u>
+        <note type="speaker">Dr. Bucher (FDP) :</note>
+        <u who="#Q71345" xml:id="ParlaMint-DE_1962-06-28-04-037.u134" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg180">Herr Präsident! Meine Damen und Herren! Die Fraktion der FDP beantragt, den vorliegenden Bericht des Untersuchungsausschusses an den Ausschuß zur weiteren Behandlung der Sache zurückzuverweisen. Wir betrachten diesen Antrag als einen reinen Geschäftsordnungsantrag und haben deshalb darauf verzichtet, ihn dem Hohen Hause schriftlich vorzulegen. Ich darf zunächst bemerken, daß mit diesem Antrag kein Mißtrauensvotum gegen unser Ausschußmitglied, den Abgeordneten Dr. Dahlgrün, verbunden ist,</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg181">dessen Integrität von keiner Seite in Zweifel gestellt ist. — Ich glaube auch Ihre Heiterkeit nicht in diesem Sinne auslegen zu sollen.</seg>
+          <kinesic type="applause">
+            <desc>Unruhe bei der CDU/CSU. — Zurufe von der CDU/CSU: Und die anderen?</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg182">Wir sehen uns zu unserem Antrag veranlaßt, weil wir der Ansicht sind, daß der Ausschuß nicht alle ihm gegebenen Möglichkeiten ausgeschöpft hat. Nach Art. 44 Abs. 2 des Grundgesetzes sind auf Untersuchungsausschüsse die Vorschriften der Strafprozeßordnung sinngemäß anzuwenden. Es haben in dem Vorfahren Zeugen sich selbst und anderen Zeugen widersprochen. Es wird also die Gegenüberstellung von Zeugen erforderlich, es wird die Beeidigung von Zeugen in manchen Fällen unumgänglich sein, und es werden eventuell weitere Beweiserhebungen notwendig sein. Das bisherige Verfahren des Ausschusses hat die Opposition zu dem Vorwurf veranlaßt, die Regierungsmehrheit habe das Verfahren abwürgen und die Aufklärung verhindern wollen.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Das glauben sie ja selber nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg183">— Ich habe gesagt: die Opposition hat sich zu diesem Vorwurf veranlaßt gesehen.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Die meine ich auch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg184">Wenn dieser Vorwurf in der Öffentlichkeit bleibt, entsteht ein gefährliches Zwielicht. Ich lege dabei Wert und meine Fraktion legt Wert auf folgende Feststellung: Wir meinen nicht den ehrenrührigen Vorwurf, der Herr Bundesverteidigungsminister habe sich bereichern wollen. Dieser Vorwurf ist von niemandem in diesem Hause und auch von keiner ernstzunehmenden Stelle außerhalb dieses Hauses erhoben worden. Er war nicht Gegenstand der Untersuchung, und er kann eis auch weiterhin nicht sein. Wir sprechen in dieser Stunde überhaupt nicht von einer Schuld oder von Verfehlungen des Herrn Bundesverteidigungsministers. Es geht uns nicht darum, ihn anzugreifen, sondern im Gegenteil: wir wollen dafür sorgen, daß er aus diesem Zwielicht herauskommt — der Herr Bundesverteidigungsminister und zugleich der Oberbefehlshaber der deutschen Bundeswehr, der Vorgesetzte von 415 000 jungen Menschen —, und wir wollen dafür sorgen, daß wir, das Parlament, nicht in ein Zwielicht geraten. Es wäre nicht zu verantworten, wenn unter Mitwirkung dieses Hohen Hauses auch nur der Anschein erweckt würde, daß an einer völligen Aufklärung der sogenannten Fibag-Affäre kein Interesse besteht.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP und der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u135" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg185">Das Wort zur Geschäftsordnung hat der Abgeordnete Dr. Heinemann.</seg>
+        </u>
+        <note type="speaker">Dr. Dr. Heinemann (SPD) :</note>
+        <u who="#Q2573" xml:id="ParlaMint-DE_1962-06-28-04-037.u136" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg186">Herr Präsident! Meine Damen und Herren! Auch wir beantragen Zurückverweisung an den Ausschuß, und zwar wegen der groben Verfahrensmängel, die dem Ausschuß unterlaufen sind.</seg>
+          <kinesic type="applause">
+            <desc>Lebhafter Widerspruch bei der CDU/CSU.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg187">Zur Begründung im Telegrammstil:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg188">Die letzte Zeugenvernehmung fand am 13. April statt. In der nichtöffentlichen Sitzung am 8. Mai wurden weitere Beweiserhebungen gefordert. Die Antwort war, es müsse ein präziser Beweisbeschluß gefaßt werden darüber, wer noch über was zu hören sei, welche Gegenüberstellungen erforderlich seien usw. Die CDU-Mitglieder des Ausschusses regten an, jeder möge zur nächsten Sitzung im Katalog genau mitteilen, was er noch für erforderlich halte. Auch der Herr Vorsitzende des Ausschusses kündigte an, daß er noch ganz bestimmte Beweisanträge zu stellen habe. Bis zur nächsten Sitzung am 15. Mai hatte sich die CDU-Gruppe anders besonnen. Der Antrag, über einen Beweisbeschluß zu sprechen und zu entscheiden, wurde abgelehnt. Wir beantragten daraufhin, einen schriftlichen Berichtsentwurf zu bekommen. Dieser Antrag wurde zurückgestellt, um Verfahrensfragen zu durchdenken und in internen Gesprächen vorzuklären. Neuer Termin sollte daraufhin am 22. Mai sein. Am 18. Mai teilte der Vorsitzende des Ausschusses mit, daß er auf Wunsch seiner Freunde von einer Einladung auf den 22. Mai absehe. Der nächste Termin fand endlich am 20. Juni statt. Wir verlangten erneut, einen schriftlichen Entwurf für den Bericht zu bekommen. Der Vorsitzende erklärte einen solchen Antrag für unzulässig.</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg189">Wir verlangten Abstimmung und unterlagen dabei. Dies war im Bukett der Verfahrensverstöße der eklatanteste Verstoß. Meine Damen und Herren! Abgesehen davon, daß über den reichlich detailgeladenen Fibag-Komplex — er macht ja in der Vorlage 15 Druckspalten aus — nur auf Grund schriftlicher Vorlage sinnvoll gesprochen werden kann, entspricht es der Praxis der acht früheren Untersuchungsausschüsse dieses Parlaments, daß der Ausschuß über einen schriftlichen Berichtsentwurf berät. Frühere Ausschüsse taten es sogar in mehreren Lesungen.</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg190">Einzelheiten muß ich wegen der Zeitbedrängnis auslassen. Als der Berichterstatter uns am 20. Juni seine Ideen für den Bericht zum Fibag-Komplex vortrug, und zwar, wie er sagte, nach Notizen und, wie er sagte, teilweise, erwies es sich als unmöglich, alle Einzelheiten, die in der Vorlage — ich sage es noch einmal — 15 Druckspalten ausmachen, zu würdigen. Wir beantragten, uns wenigstens das Protokoll seines Vortrages zukommen zu lassen, und baten um einen neuen Termin am 26. Juni. Der Antrag wurde abgelehnt. Ein CDU-Mitglied erklärte, wir könnten uns ja im Plenum zum Bericht äußern. Meine Damen und Herren, damit schob der Ausschuß seine Aufgabe dem Plenum zu! Obwohl der Berichterstatter am 20. Juni keinen schriftlichen Berichtsentwurf vorlegen konnte, wurde der vollständige Bericht bereits am 22. Juni veröffentlicht. Am 21. Juni war Fronleichnamstag. Am 22. Juni machte die Bundestagsverwaltung dem Vernehmen nach einen Betriebsausflug. Das Protokoll mit dem Vortrag des Berichterstatters vom 20. Juni erhielten wir jedenfalls erst am 26. Juni. Nun noch eine Groteske! Abgesehen davon daß der vorliegende Bericht kein Bericht des Ausschusses im ganzen ist, ist er noch nicht einmal ein Bericht der Mehrheit. Er ist, wie die CDU-Mitglieder am 20. Juni wiederholt unterstrichen, nur ein Bericht des Berichterstatters persönlich. Die Mehrheit verantwortet also nur das Votum am Schluß des Berichts, aber nicht die Sachdarstellung. Das hat den Vorteil, daß die CDU-Mitglieder vor ihren Freunden die Verantwortung oder meinetwegen auch den Ärger für das Minimum an Kritik am Bundesverteidigungsminister, das der Berichterstatter in seine Darstellung eingeflochten hat, auf den Berichterstatter abschieben können.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der CDU/CSU: Sowas Schäbiges! — Pfui! -- Weitere Zurufe von der CDU/CSU.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg191">— Ja, das „Schäbige" wird sich ja wohl gegen andere richten. Ich berichte nur den Sachverhalt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD. — Zuruf von der CDU/ CSU: Für den „Spiegel" !</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg192">Letztlich ist noch zu sagen, daß das, was die Minderheit zur Sache in drei nichtöffentlichen Sitzungen geltend machte, im Bericht nicht mitgeteilt wird. Das verstößt gegen § 74 der Geschäftsordnung. Meine Damen und Herren, wenn dieses Parlament noch einen Funken von Selbstachtung vor seiner Aufgabe hat, muß es den Bericht zurückweisen.</seg>
+          <kinesic type="applause">
+            <desc>Lebhafter Beifall bei der SPD. — Abg. Niederalt: Dann hätten Sie nicht in diesen Ausschuß gehen dürfen!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg193">Seien Sie versichert, daß wir gut vorbereitet sind, auch zur Sache zu sprechen, wenn Sie der Zurückweisung nicht zustimmen!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Lebhafter Beifall bei der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg194">Das Wort zur Geschäftsordnung hat der Abgeordnete Hoogen.</seg>
+        </u>
+        <note type="speaker">Hoogen (CDU/CSU) :</note>
+        <u who="#Q1516165" xml:id="ParlaMint-DE_1962-06-28-04-037.u138" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg195">Meine Damen und Herren! Gegen die Arbeit des Ausschusses sind in dieser Geschäftsordnungsdebatte derartig umfangreiche Anwürfe erhoben worden, daß es mir sehr schwerfällt, in der mir zur Verfügung stehenden Zeit von fünf Minuten darauf zu antworten. Darf' ich zunächst einmal mein Befremden darüber zum Ausdruck bringen, daß diejenigen, die hier heute dazu gesprochen haben, Herr Kollege Dr. Bucher und Herr Kollege Dr. Heinemann, mit keinem Worte auf den Bericht selbst eingegangen sind.</seg>
+          <kinesic type="applause">
+            <desc>Sehr richtig! und Hört! Hört! bei der CDU/ CSU. — Abg. Jahn: Der ist das gar nicht wert!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg196">Das gleiche muß ich bei der Erörterung der Tätigkeit dieses Ausschusses in der deutschen Öffentlichkeit feststellen. Meine Damen und Herren, bei der Erstellung des Ausschußberichts, der nicht so zu erstellen ist, wie sich das der eine oder der andere oder die Minderheit in diesem Hause oder meinetwegen auch die Mehrheit vorstellt, sondern wie es die Geschäftsordnung vorschreibt, ist genauso verfahren worden, wie es eben der diesbezügliche Paragraph der Geschäftsordnung vorsieht. Aus dem Ausschußbericht ersehen Sie, daß auf alles das, was Sie jetzt beanstanden — was auch Sie, Herr Kollege Bucher, beanstanden — im einzelnen eingegangen worden ist. Herr Kollege Dr. Bucher, Sie sprechen von Vorwürfen, die die Opposition erhebt, und Sie wollen vermeiden, daß der Eindruck entstehen könnte, daß dieses Parlament sich mit der Sache nicht vorschriftsmäßig befaßt habe. Herr Kollege Jahn hat sich sogar zu der, wie ich glaube, unerhörten Feststellung in der Öffentlichkeit verstiegen, daß die Mehrheit dieses Ausschusses, also die Mitglieder der CDU und das FDP-Mitglied, das Parlament irrezuführen versucht hätten.</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! und Pfui! bei der CDU/CSU.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg197">Meine Damen und Herren, ich weiß nicht, wer sich diesem Vorwurf mehr aussetzt, wir oder solche Mitglieder des Ausschusses, die sich in die Toga eines Richters schwingen, in Wirklichkeit aber die Interessen von Parteien verfolgen.</seg>
+          <kinesic type="applause">
+            <desc>Lebhafte, anhaltende Zustimmung bei der CDU/CSU. — Zurufe von der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg198">Lassen Sie mich mit der geschäftsordnungsmäßigen Bemerkung beginnen, daß ich den Antrag für unzulässig halte. Rückverweisungsanträge sind nicht uneingeschränkt zulässig. Bei Gesetzesberatungen können bei der Einzelberatung Rückverweisungsanträge gestellt werden. Um ein solches Verfahren handelt es sich heute nicht. Wir haben es heute mit dem Bericht eines Untersuchungsausschusses zu tun, und für die Arbeit des Untersuchungsausschusses gelten die Vorschriften der Geschäftsordnung, soweit es die Beratung betrifft. § 74 Abs. 1 der Geschäftsordnung bestimmt, wann schriftlich und mündlich berichtet werden muß. Abs. 3 lautet:</seg>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg199">Der Bundestag kann neben mündlicher Berichterstattung — ich darf hinzufügen: wenn sie zulässig ist — einen schriftlichen Bericht eines Ausschusses verlangen und hierzu den Gegenstand zurückverweisen. Der schriftliche Bericht liegt vor. Infolgedessen kann der Bundestag einen zusätzlichen schriftlichen Bericht, auf den es ja doch hinausläuft, nicht verlangen. Er kann es meines Erachtens auch deswegen nicht, weil das praktisch die Erweiterung des Beweisthemas bedeuten würde. Und dazu müssen wir nun schon nach den Vorschriften der Geschäftsordnung, aber auch des Grundgesetzes, verlangen, daß uns präzise und spezialisiert gesagt wird, was noch ermittelt werden soll. Denn, meine Damen und Herren, die Mehrheit des Ausschusses ist der Meinung, daß alles das ermittelt worden ist, was ermittelt werden konnte und sollte. In der letzten Sitzung des Ausschusses haben die Vertreter der Opposition, obwohl sie einige Tage zuvor in der deutschen Öffentlichkeit spezifiziert die Beweisanträge angekündigt hatten, keinen diesbezüglichen Antrag gestellt.</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der CDU/CSU. — Abg. Jahn: Nicht wahr!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg200">Ich nehme an, daß sie sich in der Zwischenzeit davon überzeugt hatten, daß diese Anträge unzulässig gewesen wären, jedenfalls die, die in der Öffentlichkeit angeführt wurden. Meine Damen und Herren, auch in diesem Zusammenhang die Frage: Wer führt die Öffentlichkeit irre,</seg>
+          <kinesic type="applause">
+            <desc>Sehr gut! bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg201">solche, die diese Anträge in der Öffentlichkeit verbreiten und sie dann im Ausschuß nicht wiederholen, oder die anderen,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg202">die sich nach den Vorschriften der Geschäftsordnung und des Strafprozeßrechts richten und die Anträge so bescheiden, wie sie nach diesen Vorschriften beschieden werden müssen? Da darf ich Ihnen ganz offen sagen, meine Herren, die Anträge, die Sie in der Öffentlichkeit angekündigt hatten, waren Anträge, die die Glaubhaftigkeit der Zeugen, Versuche von Personen, die Zeugen zu beeinflussen, betreffen, etc. Wenn Sie den Ausschußbericht aufmerksam gelesen haben — und ich bitte Sie sehr dringlich, das zu tun —, werden Sie merken, daß wir uns in unserem Bericht nicht auf die zweifelhaften Aussagen von zweifelhaften Zeugen gestützt haben und infolgedessen deren Glaubwürdigkeit und deren mehr oder weniger große Liebe zur Wahrheit nicht zu untersuchen brauchen. Dafür haben wir in Deutschland Strafverfolgungsbehörden, die sich auch mit der Frage befassen können, ob hier unzulässige Beeinflussungen vorgelegen haben. Aber, meine Damen und Herren, allmählich merkt man es doch in diesem Hause:</seg>
+          <kinesic type="applause">
+            <desc>Sehr wahr! bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg203">Uns wird der Vorwurf gemacht, wir wollten verschleppen. Wer verschleppen will, das haben wir unterdessen gemerkt.</seg>
+          <kinesic type="applause">
+            <desc>Zustimmung sowohl bei der CDU/CSU wie bei der SPD. — Zuruf von der SPD: Allerdings!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg204">Was sollte denn dieser Antrag auf Vertagung von Mittwoch auf nächsten Dienstag? Doch nur, um in diese Woche hineinzukommen und die Beratung im Plenum unmöglich zu machen.</seg>
+          <incident type="pause">
+            <desc>Abg. Jahn: Nach fünf Wochen Pause!</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg205">— Ja, wir wollten Ihnen reichlich Gelegenheit geben, sich Ihr Votum gut zu überlegen. Diese Möglichkeit haben Sie anscheinend nicht — —</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Jahn: Das glauben Sie doch selber nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg206">— Doch, das glaube ich selber.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Erler: Da lag doch kein schriftlicher Bericht vor!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg207">Meine Damen und Herren, dann ist, wie ich glaube, noch eines zu sagen. Bis zu einem gewissen Zeitpunkt unserer Beratungen, die im übrigen den kürzesten Zeitraum eingenommen haben, den je ein Untersuchungsausschuß in diesem Hohen Hause gebraucht hat, auf den Tag genau drei Monate, also 12 Wochen, von denen sechs Wochen Ferien waren, — —</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Erler: Sie haben ja auch keinen Bericht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg208">— Herr Erler, Sie werden mir vielleicht antworten; Sie haben bestimmte Zeiten in der Pfingstpause nicht benutzt. Ich persönlich muß Ihnen sagen: dazu war ich nicht bereit, weil ich keine Lust habe, der SPD im nordrhein-westfälischen Wahlkampf Munition zu liefern.</seg>
+          <kinesic type="laughter">
+            <desc>Lautes Lachen und Händeklatschen bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg209">— Meine Damen und Herren, ich verstehe Ihre Heiterkeit nicht ganz;</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Schmücker: Das war doch eine klare Demonstration dessen, was sie wirklich wollen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg210">vielleicht überzeugen Sie sich jetzt davon, daß Sie zu früh gelacht haben.</seg>
+          <kinesic type="applause">
+            <desc>Unruhe bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg211">Worum es Ihnen geht, das ist gar nicht das FibagThema, sondern worum es Ihnen geht, sind die Bestrebungen in Ihren Reihen,</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der SPD: Sauberkeit!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg212">Herrn Strauß um jeden Preis zu beseitigen.</seg>
+          <kinesic type="applause">
+            <desc>Lebhafter Beifall bei der CDU/CSU.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg213">Sie erwarten doch wohl nicht von uns — das möchte ich allerdings auch Ihnen, meine Damen und Herren von der FDP,</seg>
+          <kinesic type="applause">
+            <desc>Sehr gut! bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg214">sagen —, daß wir uns an diesem Unternehmen beteiligen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe von der SPD: Zur Geschäftsordnung!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg215">Herr Abgeordneter, ich darf Sie bitten, zum Schluß zu kommen.</seg>
+        </u>
+        <note type="speaker">Hoogen (CDU/CSU) :</note>
+        <u who="#Q1516165" xml:id="ParlaMint-DE_1962-06-28-04-037.u140" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg216">Lassen Sie mulch zum Schluß noch einen Satz sagen. Eigentore in diesem Hause haben andere geschossen; wir schießen sie nicht. Wir stellen uns geschlossen vor den Bundesverteidigungsminister.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Lebhafter Beifall bei der CDU/CSU; Bravo!-Rufe und ironischer Beifall bei der SPD. — Abg. Dr. Mommer: Eine Serie von Selbsttoren war das!</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u141" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg217">Meine Damen und Herren, weitere Wortmeldungen zur Geschäftsordnung liegen nicht vor. Der Antrag der Fraktion der FDP und der übereinstimmende Antrag der Fraktion der SPD auf Rücküberweisung erscheinen im Hinblick auf die Auslegung des § 82 und des § 100 der Geschäftsordnung sowie im Hinblick auf einen Präzedenzfall in der 131. Sitzung des dritten Deutschen Bundestages am 9. November 1960 unter dem Vorsitz des Bundestagspräsidenten Dr. Gerstenmaier zulässig. Ich werde also jetzt über diese Anträge abstimmen lassen. Wer dem Antrag auf Rücküberweisung zustimmt, den bitte ich um das Handzeichen. — Ich bitte um die Gegenprobe. — Meine Damen und Herren, das kann man so nicht entscheiden. Wir müssen durch Auszählung abstimmen. Meine Damen und Herren, ich schließe die Abstimmung. Ich gebe das Ergebnis</seg>
+          <incident type="editorial">
+            <desc>*)</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg218">der Auszählung bekannt: Mit Ja haben gestimmt 226, mit Nein 224 Mitglieder des Hauses, enthalten haben sich vier. Der Antrag ist mit zwei Stimmen Mehrheit angenommen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg219">Meine Damen und Herren, ich muß nun die Frage an Sie richten, was Sie heute noch behandeln wollen; denn es steht nichts auf der heutigen Tagesordnung. Zur Geschäftsordnung Herr Dr. Mommer!</seg>
+        </u>
+        <note type="speaker">Dr. Mommer (SPD) :</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1962-06-28-04-037.u142" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg220">Herr Präsident! Es ist klar, daß alles, was in dieser Woche zu erledigen ist, morgen behandelt werden kann. Deshalb könnten Sie, Herr Präsident, sehr wohl die Sitzung schließen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Jaeger:</note>
+        <u who="#Q75955" xml:id="ParlaMint-DE_1962-06-28-04-037.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1962-06-28-04-037.seg221">Meine Damm und Herren! Demnach stehen wir am Ende der heutigen Tagesordnung. Sofern die Herren Ausschußvorsitzenden es wünschen, können sie ab 11 Uhr ihre Ausschüsse einberufen. Ich berufe die nächste Sitzung des Bundestages auf morgen, Freitag, den 29. Juni, 9 Uhr. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 10.37 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

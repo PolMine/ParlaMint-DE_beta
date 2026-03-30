@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1979-09-27-08-175">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 8. Wahlperiode, 175. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 27.09.1979 (175. Sitzung der 8. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 8, Session 175 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1979-09-27 (Session 175 in Legislative Period 8)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="175">175. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.08" n="8">8. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="175">Session 175</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.08" n="8">Legislative Period 8</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 27.09.1979</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1979-09-27</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490390/dfcac024ce8e548774e16f03c36293e2/pp08-data.zip</idno>
+          <date when="1979-09-27">1979-09-27</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1979-09-27">1979-09-27</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="U1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksachen 8/3193, 8/3206 —</head>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg1">Die Sitzung ist eröffnet. Meine Damen und Herren, am 23. September 1979 hat der Parlamentarische Staatssekretär Dr. Kreutzmann seinen 60. Geburtstag gefeiert. Wir gratulieren ihm, wenn er auch anscheinend nicht anwesend ist.</seg>
+          <kinesic type="applause">
+            <desc>Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg2">Die Fraktion der CDU/CSU hat für die aus dem Kreis der Schriftführer ausscheidende Abgeordnete Frau Schleicher den Abgeordneten Hartmann benannt. Ist das Haus mit dem Vorschlag einverstanden? — Damit ist der Abgeordnete Hartmann als Schriftführer gewählt. Ich rufe den einzigen Punkt der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg3">Fragestunde — Drucksachen 8/3193, 8/3206 —</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg4">Aus dem Geschäftsbereich des Bundesministers für Verkehr und für das Post- und Fernmeldewesen liegen drei Dringliche Fragen vor. Zur Beantwortung steht der Herr Bundesminister zur Verfügung. Ich rufe die Dringliche Frage 1 des Abgeordneten Dr. Schwarz-Schilling auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg5">Hat die Bundesregierung die Absicht, ihre in dieser Woche bekanntgewordene Entscheidung, die Verkabelungspläne der Bundespost für elf Großstädte zu untersagen, auf der am kommenden Freitag stattfindenden Besprechung der Ministerpräsidenten mit dem Bundeskanzler als endgültig bekanntzugeben, oder bemüht sie sich, noch in dieser Woche die Zustimmung der Länder für diese Entscheidung einzuholen? Bitte schön, Herr Bundesminister.</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg6">Frau Präsidentin, wenn es der Fragesteller gestattet, würde ich seine Dringlichen Fragen 1 und 2 wegen ihres Sachzusammenhangs gern gemeinsam beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg7">Haben Sie etwas dagegen, Herr Kollege, daß Ihre Fragen gemeinsam beantwortet werden?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Schwarz-Schilling [CDU/CSU] : Ja! Ich möchte sie gern getrennt beantwortet haben!</desc>
+        </vocal>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u4" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg8">Das Post- und Fernmeldewesen ist nach dem Grundgesetz ausschließlich Angelegenheit des Bundes. Insoweit besteht keine Notwendigkeit einer Abstimmung mit den Bundesländern. Da es jedoch nicht Stil des Herrn Bundeskanzlers ist, Fragen der Länder auszuweichen, wird er ihnen entsprechende Erläuterungen geben, wenn der Punkt zur Sprache kommt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg9">Eine Zusatzfrage, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Dr. Schwarz-Schilling (CDU/CSU) :</note>
+        <u who="#Q77550" xml:id="ParlaMint-DE_1979-09-27-08-175.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg10">Bedeutet diese Antwort der Bundesregierung, daß die Bundespost an der Planung, elf deutsche Großstädte mit Breitbandfernmeldenetzen auszustatten, festhalten kann und damit die am Vortag veröffentlichte Erklärung des Postministers — Ihre Erklärung —, daß die Bundespost auf diese Planung verzichten wird, voreilig gewesen ist?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg11">Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg12">Eine weitere Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Dr. Schwarz-Schilling (CDU/CSU) :</note>
+        <u who="#Q77550" xml:id="ParlaMint-DE_1979-09-27-08-175.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg13">Bis zu welchem Zeitpunkt gedenkt die Bundesregierung in dieser Frage eine endgültige Entscheidung zu treffen? Und ist die Bundespost bis zu dieser Entscheidung in ihrer Planung blockiert?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg14">Zur ersten Frage: bis zum Abschluß der Pilotprojekte. Zur zweiten Frage: Die Bundespost ist hinsichtlich des Ausbaus breitbandiger Fernmeldenetze nicht blockiert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg15">Zu einer Zusatzfrage Herr Abgeordneter Dr. Stercken.</seg>
+        </u>
+        <note type="speaker">Dr. Stercken (CDU/CSU) :</note>
+        <u who="#Q1493052" xml:id="ParlaMint-DE_1979-09-27-08-175.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg16">Herr Bundesminister, ist die Deutsche Bundespost nach dem jetzigen Stand des Entscheidungsprozesses der Bundesregierung befugt, die mit verschiedenen Gemeinden und Städten bereits vertraglich vereinbarten Verkabelungen ohne Verzögerung durchzuführen und neue Verträge — sei es mit Kommunen oder mit Bundesländern — abzuschließen und dann auch unverzüglich durchzuführen?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg17">Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg18">Zusatzfrage, Herr Abgeordneter Curdt.</seg>
+        </u>
+        <note type="speaker">Curdt (SPD) :</note>
+        <u who="#Q1000337" xml:id="ParlaMint-DE_1979-09-27-08-175.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg19">Herr Bundesminister, sind Sie in der Lage, zu verdeutlichen, auf welchem Hintergrund sich Ihre Entscheidung vollzogen hat, d. h. welche Gründe führen Sie dafür an, diese elf Bereiche zunächst auszuklammern?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg20">Die Absicht der Bundespost, elf Städte flächenmäßig voll zu verkabeln, entstand auf der Grundlage einer Technik, die durch die Leistungen der Koaxialkabel bestimmt ist. Diese Koaxialkabel sind hinsichtlich der Übermittlung von Frequenzbreiten beschränkt. Unter diesem Gesichtspunkt war es im Hinblick auf die derzeit verbreiteten Programme — einschließlich der Kombination mit Fernmeldediensten — unbedenklich, solche Verkabelungen vorzunehmen, da die Bundespost eine Reihe betrieblicher, finanzieller und planerischer Erfahrungen sammeln muß. Im Laufe dieses Jahres ist eine bestimmte Kabeltechnik von der angewandten Forschung bis zur Produktionsreife gelangt, so daß sie in der ersten Generation zur Verfügung steht. Sie hat in ihrem Leistungsvermögen, hinsichtlich der Übertragung von Hochfrequenzbreiten, sehr viel Bedeutung für medienpolitisch noch nicht gefaßte Entscheidungen, die nach Absprache mit den Ministerpräsidenten zu treffen und im Zusammenhang mit dem Abschluß von Pilot-Projekten zu sehen sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg21">Zusatzfrage, Herr Abgeordneter Benz.</seg>
+        </u>
+        <note type="speaker">Benz (CDU/CSU) :</note>
+        <u who="#Q1416833" xml:id="ParlaMint-DE_1979-09-27-08-175.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg22">Herr Minister, liegt nach Auffassung der Bundesregierung die medienpolitische Kompetenz für eine Entscheidung über solche Verkabelungsvorhaben bei der Bundesregierung?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg23">Nein, die Kompetenz für medienpolitische Fragen liegt bei den Ländern. Es liegt eine Teilkompetenz, soweit sie in der Rechtsgrundlage für die „Deutsche Welle" und den „Deutschlandfunk" begründet ist, auch beim Bund.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg24">Ich rufe die Dringliche Frage 2 des Herrn Abgeordneten Dr. Schwarz-Schilling auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg25">Wird sie auf dieser Konferenz darlegen, ob die Gründe für diese Entscheidung politischer oder technischer Natur sind? Bitte schön, Herr Bundesminister.</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg26">Unter Bezug auf meine erste Antwort: Herr Abgeordneter, natürlich wird, wenn die Konferenz es wünscht, auch diese Frage vom Herrn Bundeskanzler oder von den anwesenden zuständigen Ressortministern behandelt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau. Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u22" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg27">Zusatzfrage, Herr Abgeordneter, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Schwarz-Schilling (CDU/CSU) :</note>
+        <u who="#Q77550" xml:id="ParlaMint-DE_1979-09-27-08-175.u23" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg28">Herr Bundesminister, trifft es zu, daß nach Ihren eigenen Äußerungen die Entscheidungskriterien dafür, ob weiter verkabelt wird oder nicht — bezüglich der Großstädte —, nicht postspezifischer, sondern medienpolitischer Art sind?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u24" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg29">Herr Abgeordneter, das ist die Frage, welche Kabeltechnik man bei dieser flächendeckenden Verkabelung unterstellt. Bei der Verwendung von Koaxialkabeln, die der Absicht der Bundespost zugrunde liegt, waren medienpolitische Fragen nicht existent. Bei der Unterstellung einer Glasfasertechnik, wie sie heute schon teilweise, mit hoher Wahrscheinlichkeit in zwei Jahren zur Verfügung steht, sind eminent medienpolitische Fragen berührt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u25" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg30">Zusatzfrage? — Bitte, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Dr. Schwarz-Schilling (CDU/CSU) :</note>
+        <u who="#Q77550" xml:id="ParlaMint-DE_1979-09-27-08-175.u26" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg31">Bedeutet dies, daß die Bundesregierung der Auffassung ist, daß die Frage der Verkabelung von Großstädten in die Kompetenz der Bundesregierung gehört und die Rundfunkhoheit der Länder davon nicht berührt wird?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg32">Soweit die Aufgabe des Fernmeldewesens berührt wird, ist die Kompetenz des Bundes unbestritten. Soweit bei diesen Kabelanlagen 'auch medienpolitische Fragen — d. h. die Übertragung von Fernsehprogrammen — in Frage stehen, ist die Kompetenz der Länder berührt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg33">Zusatzfrage, Herr Abgeordneter Dr. Stercken.</seg>
+        </u>
+        <note type="speaker">Dr. Stercken (CDU/CSU) :</note>
+        <u who="#Q1493052" xml:id="ParlaMint-DE_1979-09-27-08-175.u29" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg34">Herr Bundesminister, ist die Bundesregierung der Auffassung, daß das Fernmeldemonopol der Deutschen Bundespost auch politische Entscheidungen im Zusammenhang mit der Rundfunkhoheit der Länder mit einschließt?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u30" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg35">Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u31" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg36">Herr Abgeordneter Windelen, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Windelen (CDU/CSU) :</note>
+        <u who="#Q74262" xml:id="ParlaMint-DE_1979-09-27-08-175.u32" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg37">Herr Minister, stimmt die Bundesregierung Ihrer Auffassung zu, die Sie in einem Brief an den Herrn Bundeskanzler vorgetragen haben, wonach ein Verkabelungsstopp zu schwerwiegenden negativen technischen, beschäftigungspolitischen und volkswirtschaftlichen Konsequenzen führen wird?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg38">Wenn Sie den wertenden Begriff „schwerwiegend" aus meinen Formulierungen herausnehmen, stimmt die Bundesregierung zu. Sie hat dem insofern Rechnung getragen, als die Bundespost selbstverständlich im Rahmen ihrer Aufgabenstellung das jeweils technologisch Beste verwendet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u34" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg39">Eine Zusatzfrage, Herr Abgeordneter Klein.</seg>
+        </u>
+        <note type="speaker">Klein (München) (CDU/CSU) :</note>
+        <u who="#Q90844" xml:id="ParlaMint-DE_1979-09-27-08-175.u35" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg40">Herr Bundesminister, hält es die Bundesregierung für politisch und rechtlich vertretbar, daß jene Bürger, die zufälligerweise in einem Abschattungsbereich leben, durch die Einrichtung von Kabelanlagen über eine unendlich viel bessere Qualität des Fernseh- und Rundfunkempfangs sowie über eine entsprechend größere Zahl von Programmen verfügen können, währenddessen allen übrigen Bürgern — auch dort, wo technisch und wirtschaftlich keinerlei Einwände zu erheben wären — eine solche qualitative Verbesserung des Rundfunks- und Fernsehempfangs aus gesellschaftspolitischen Gründen vorenthalten wird?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u36" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg41">Herr Abgeordneter, aus meiner Antwort bezüglich der Kompetenz für Medienpolitik läßt sich unschwer erkennen, daß mit Ihrer Frage die Zuständigkeit der Länder und nicht die des Bundes angesprochen- ist. Die Bundespost wird hier als Dienstleistungsunternehmen auf Bitte der Rundfunkanstalten tätig, d. h. Verkabelungen durch die Bundespost in Bereichen, in denen eine schlechte Versorgung durch das übliche Sendernetz vorliegt, erfolgen mit Zustimmung der Länder und nicht auf Veranlassung der Bundesregierung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u37" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg42">Eine Zusatzfrage des Herrn Abgeordneten Benz.</seg>
+        </u>
+        <note type="speaker">Benz (CDU/CSU) :</note>
+        <u who="#Q1416833" xml:id="ParlaMint-DE_1979-09-27-08-175.u38" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg43">Herr Minister, von welchen Gesichtspunkten ließ sich die Bundesregierung bei ihrer Entscheidung leiten, die Verkabelung der Großstädte auf die Zeit nach Beendigung der Pilotprojekte zu verschieben, wenn es sich bei den in Rede stehenden Kabelnetzen Ihres Hauses um reine Verteilernetze handelt, in denen Hörfunk- und Fernsehprogramme in optimaler Signalqualität verteilt werden, in denen Rückkanaldienste nicht vorgesehen sind und die daher auch nicht geeignet sind, die von der KTK vorgeschlagenen und in den Pilotprojekten vorgesehenen vielfachen -Dienstleistungen anzubieten, und somit auch nicht die Versuchsziele der Pilotprojekte vorwegnehmen oder die Pilotprojekte unterlaufen können, wie es in der Kabinettsvorlage des Bundesministers des Innern vom Juni dieses Jahres steht?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u39" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg44">Herr Abgeordneter, ich bitte Sie um Verständnis, wenn ich Sie um Nachsicht bitte, daß es für den Beantwortenden schwer ist, sieben Fragen im Gedächtnis zu behalten, die in einer Frage untergebracht wurden. Im Kern geht es Ihnen, wie ich glaube, darum, welches die Begründung der Bundesregierung dafür ist, eine beabsichtigte flächendeckende Verkabelung durch die Bundespost vorläufig zurückzustellen. Dies geschieht im Hinblick auf die medienpolitische Brisanz, die in der Frage liegt, die durch die Pilotprojekte, welche mit den Ländern abgesprochen sind, geklärt werden sollte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u40" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg45">Eine Zusatzfrage des Herrn Abgeordneten Dr. Friedmann.</seg>
+        </u>
+        <note type="speaker">Dr. Friedmann (CDU/CSU) :</note>
+        <u who="#Q825034" xml:id="ParlaMint-DE_1979-09-27-08-175.u41" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg46">Herr Minister, entspricht die jetzige Entwicklung bei Verkabelung Ihren Vorstellungen oder denjenigen des Bundeskanzlers?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u42" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg47">Herr Abgeordneter, diese Frage scheint mir nachrangig zu sein. Nach dem Gesetz über die Verwaltung der Deutschen Bundespost ist diese in finanzpolitischer, wirtschaftspolitischer, kulturpolitischer und sozialpolitischer Hinsicht nach den politischen Entscheidungen der Bundesregierung zu führen. Für das hier angesprochene Gebiet heißt das, daß Erkenntnisse, die primär nicht von der Bundespost zu entwickeln sind, den Rahmen bestimmen, in dem die Bundespost handeln kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u43" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg48">Ich rufe die Dringliche Frage 3 des Herrn Abgeordneten Windelen auf :</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg49">Bestehen in diesem Zusammenhang auch weitere Bemühungen der Bundesregierung, den Satellitenempfang von Sendern europäischer Nachbarländer durch technische Vorkehrungen zu unterbinden, und werden diese ebenfalls Gegenstand der Beratungen der Konferenz der Ministerpräsidenten mit dem Bundeskanzler sein? Bitte, Herr Bundesminister.</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u44" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg50">Die Bundesregierung stellt fest, daß der Rundfunkempfang von Satellitenprogrammen in Europa bisher nicht existiert. Bemühungen, den Empfang von Satellitenaussendungen aus Nachbarländern zu unterbinden, hat es bislang nicht gegeben. Dementsprechend gibt es auch keine technischen Vorkehrungen dazu. Bei diesem Sachverhalt besteht für die Bundesregierung kein Anlaß zur Erörterung in der Ministerpräsidentenkonferenz.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u45" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg51">Eine Zusatzfrage, Herr Kollege Windelen, bitte.</seg>
+        </u>
+        <note type="speaker">Windelen (CDU/CSU) :</note>
+        <u who="#Q74262" xml:id="ParlaMint-DE_1979-09-27-08-175.u46" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg52">Herr Bundespostminister, trifft es zu, daß die Bundesregierung Verhandlungen mit der französischen Regierung führt, um in gemeinsamen Anstrengungen die Empfangsmöglichkeiten für nicht öffentlich-rechtlich betriebene Fernsehprogramme auf dem Hoheitsgebiet der Bundesrepublik Deutschland und Frankreichs möglichst auszuschließen?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u47" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg53">Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u48" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg54">Zweite Zusatzfrage, Herr Kollege Windelen.</seg>
+        </u>
+        <note type="speaker">Windelen (CDU/CSU) :</note>
+        <u who="#Q74262" xml:id="ParlaMint-DE_1979-09-27-08-175.u49" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg55">Trifft es zu, Herr Bundespostminister, daß die Bundesregierung Erwägungen anstellt, die das Ziel oder die Folge hätten, daß die Empfangsmöglichkeiten für Satellitenprogramme der westlichen und südlichen Anrainerstaaten in der Bundesrepublik behindert würden, wohingegen solche Überlegungen gegenüber östlichen Satellitenprogrammen mit entsprechender politischer Propaganda nicht ins Auge gefaßt werden?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u50" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg56">Zum ersten Teil: Solche Überlegungen sind naheliegend. Zum zweiten Teil: Derartige Bemühungen sind mir nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u51" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg57">Zusatzfrage, Herr Abgeordneter Stercken.</seg>
+        </u>
+        <note type="speaker">Dr. Stercken (CDU/CSU) :</note>
+        <u who="#Q1493052" xml:id="ParlaMint-DE_1979-09-27-08-175.u52" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg58">Herr Bundesminister, ist die Bundesregierung der Auffassung, daß es der Wunsch der Bürger ist, die Bundesregierung möge dafür Sorge tragen, daß andere als deutsche Fernsehprogramme, also etwa auch solche für ausländische Arbeitnehmer, auf deutschem Boden nicht empfangen werden können?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u53" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg59">Das Problem, das Sie ansprechen, Herr Abgeordneter, ist natürlich ein allgemeines. Aus der Verbindung einer gezielten Sendung in Sprache, Verbreitungsgebiet, Werbung und kommerzieller Nutzung eines solchen Senders gibt es Probleme, die international bislang nur deshalb nicht zu einer Klärung geführt wurden, weil sie in diesem Umfang nicht erkannt wurden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u54" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg60">Zusatzfrage, Herr Dr. Friedmann.</seg>
+        </u>
+        <note type="speaker">Dr. Friedmann (CDU/CSU) :</note>
+        <u who="#Q825034" xml:id="ParlaMint-DE_1979-09-27-08-175.u55" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg61">Herr Minister, trifft es zu, daß die nun von Ihnen zu betreibende Politik dazu führt, daß 40 000 Arbeitsplätze — von Gewerkschaftsseite wird sogar von 100 000 Arbeitsplätzen gesprochen — bei der Bundespost erst gar nicht entstehen können?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u56" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg62">Bei dieser Rechnung — sowohl bei 50 000 als auch bei 100 000 — wird unterstellt, daß durch eine Entscheidung der Bundesregierung ein Innovationseffekt bei der Anwendung einer neuen Technik gänzlich unterbliebe. Die bisherige Beratung des Bundeskabinetts gibt zu dieser Meinung keinen Anlaß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u57" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg63">Eine Zusatzfrage, Herr Dr. Schwarz-Schilling.</seg>
+        </u>
+        <note type="speaker">Dr. Schwarz-Schilling (CDU/CSU) :</note>
+        <u who="#Q77550" xml:id="ParlaMint-DE_1979-09-27-08-175.u58" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg64">Herr Bundesminister, trifft es zu, daß die Bundesregierung sich bemüht, die Einrichtung des Satellitenfernsehens möglichst lange hinauszuzögern, so daß die Möglichkeit für die deutsche Bevölkerung, über Satellit Fernsehprogramme zu empfangen, in naher Zukunft ausgeschlossen bleibt?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u59" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg65">Zum ersten Teil: Mit einer gewissen Einschränkung, Herr Abgeordneter, ist die Antwort nein. Zu Ihrer Begründung des ersten Teils muß ich Ihnen sagen: Das Problem stellt sich natürlich in dem Augenblick, in dem jedes Land, wie anzunehmen, nach Einigung auf der weltweiten Funkverwaltungskonferenz die Möglichkeit hat, über Satelliten fünf Fernsehprogramme zu verbreiten. Dann könnte in einer geographischen Situation, wie wir sie in Europa haben, ein Land wie die Bundesrepublik auf Grund der nicht auszuschließenden Überschneidungen bis zu 50 Programme empfangen. Es stellt sich also in der Tat die Frage einer möglichen internationalen Regelung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u60" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg66">Eine Zusatzfrage, Herr Abgeordneter Klein (München).</seg>
+        </u>
+        <note type="speaker">Klein (München) (CDU/CSU) :</note>
+        <u who="#Q90844" xml:id="ParlaMint-DE_1979-09-27-08-175.u61" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg67">Herr Bundesminister, wie vereinbaren sich Erklärungen des Herrn Bundesaußenministers vor der 20. UNESCO-Konferenz im letzten Herbst, in welcher er engagiert dafür eintrat, daß Presse und alle Informationsmedien frei sein müssen, daß das Recht jedes Menschen, seine Meinung frei zu äußern und Informationen frei zu empfangen, ein Grundrecht unserer Verfassung ist, daß unser Land jede Forderung nach staatlicher Kontrolle und Regelung — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u62" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg68">Herr Kollege, was lesen Sie da eigentlich vor?</seg>
+        </u>
+        <note type="speaker">Klein (München) (CDU/CSU) :</note>
+        <u who="#Q90844" xml:id="ParlaMint-DE_1979-09-27-08-175.u63" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg69">Ich stelle eine Frage, Frau Präsidentin, die darauf fußt, daß der Herr Bundesaußenminister bestimmte Erklärungen zu diesem Problemkreis in Paris abgegeben hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u64" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg70">Aha, und dazu stellen Sie jetzt eine Frage?</seg>
+        </u>
+        <note type="speaker">Klein (München) (CDU/CSU) :</note>
+        <u who="#Q90844" xml:id="ParlaMint-DE_1979-09-27-08-175.u65" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg71">Ja, und ich will diesen Erklärungen eine Äußerung eines anderen Mitgliedes der Bundesregierung gegenüberstellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg72">Bitte schön, versuchen Sie es noch einmal. Vielleicht möglichst kurz.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Frau Schlei [SPD]: Keine Lesestunde!</desc>
+        </vocal>
+        <note type="speaker">Klein (München) (CDU/CSU) :</note>
+        <u who="#Q90844" xml:id="ParlaMint-DE_1979-09-27-08-175.u67" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg73">Die Frage wäre längst gestellt. Herr Bundespostminister, wie vereinbaren sich alle diese Erklärungen des Bundesaußenministers vor der UNESCO mit Äußerungen des Forschungsministers Hauff vor der Evangelischen Akademie in Tutzing, der laut Presseberichten erklärt hat, daß die Bundesregierung entschlossen sei, das öffentlich-rechtliche Rundfunksystem der Bundesrepublik gegen ein via Satellit gesendetes privates Fernsehkonkurrenzprogramm von Radio Luxemburg zu verteidigen, daß es auf politischer Ebene zu verhindern gelte, daß ein Satellit von Luxemburg überhaupt hochgeschossen werde, und daß er dem Bundeskanzler Vorschläge gemacht habe, wie dieser RTL-Satellit abgewehrt werden könne?</seg>
+          <kinesic type="applause">
+            <desc>Wehner [SPD] : Haben Sie auch noch eine Fußnote zu dieser „Frage", wie Sie sagten? — Heiterkeit bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg74">— Wenn Sie wünschen, gerne, Herr Kollege Wehner.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg75">Die Fußnote wird dann nicht mehr zugelassen, Herr Kollege.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg76">Herr Bundesminister, bitte.</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u69" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg77">Die Äußerungen des Herrn Bundesaußenministers beruhen auf der internationalen Rechtslage. Die Bedenken von Herrn Minister Hauff beruhen auf den Erkenntnissen, die auf Grund von technologischen Entwicklungen gewonnen werden. Das heißt, der internationale Rechtszustand beruht auf einer Technologie, die bei dem Zustandekommen dieser Vereinbarung nicht erkennbar war.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Rawe [CDU/CSU]: Und was hat das damit zu tun, daß er das verhindern will?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg78">Eine Zusatzfrage, Herr Abgeordneter Benz.</seg>
+        </u>
+        <note type="speaker">Benz (CDU/CSU) :</note>
+        <u who="#Q1416833" xml:id="ParlaMint-DE_1979-09-27-08-175.u71" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg79">Nach Ihren Einlassungen, Herr Bundesminister, frage ich Sie: Ist die Bundesregierung nicht der Auffassung, daß sie sich in der Konsequenz der Äußerungen des Herrn Forschungsministers in einen Gegensatz zum Urteil des Bundesverfassungsgerichts vom 31. Juli 1973 stellt, in dem bekanntlich die Ausstrahlung nach der DDR in beiden Richtungen voll garantiert wird, und sind Sie nicht der Meinung von Fachleuten, daß die Verweigerung der Zustimmung zur vollständigen Bestrahlung des Bundesgebietes auch völkerrechtlichen Vereinbarungen, an die die Bundesrepublik gebunden ist, widerspricht?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u72" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg80">Herrn Kollegen Hauff war bei der Meinungsäußerung vollkommen bewußt, daß er mit seiner Auffassung natürlich an das bestehende Recht herangehen muß. Aber im übrigen ist eine Lösung des von mir angedeuteten Problems ohne Änderung des internationalen Rechts ohnedies nicht denkbar.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u73" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg81">Noch eine Zusatzfrage, Herr Kollege Rawe. Ich wäre dankbar, wenn wir dann diesen Punkt abschließen könnten.</seg>
+        </u>
+        <note type="speaker">Rawe (CDU/CSU) :</note>
+        <u who="#Q1720613" xml:id="ParlaMint-DE_1979-09-27-08-175.u74" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg82">Herr Bundesminister, muß ich aus Ihren bisherigen Antworten zu diesem Thema schließen, daß die Ausübung der Grundrechte in unserem Staat von dem jeweiligen Entwicklungsstand der Technik abhängt?</seg>
+        </u>
+        <note type="speaker">Gscheidle, Bundesminister:</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1979-09-27-08-175.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg83">Nein, ich bitte Sie, bei der Betrachtung des Art. 5 des Grundgesetzes den Art. 6 nicht zu vergessen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg84">Ich danke Ihnen, Herr Bundesminister. Ich rufe den Geschäftsbereich des Bundeskanzlers und des Bundeskanzleramtes auf. Die Frage 98 des Herrn Abgeordneten Dr. Hupka soll auf Wunsch des Fragestellers schriftlich beantwortet werden. Die Antwort wird als Anlage abgedruckt. Ich rufe dann den Geschäftsbereich des Bundesministers des Auswärtigen auf. Frau Staatsminister Hamm-Brücher steht zur Beantwortung der Fragen zur Verfügung. Die Frage 99 des Abgeordneten Dr. Freiherr Spies von Büllesheim soll auf Wunsch des Fragestellers schriftlich beantwortet werden. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 100 des Herrn Abgeordneten Dr. Mertes (Gerolstein)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg85">auf. — Er ist nicht im Saal. Die Frage 100 wird — ebenso wie die Frage 101 des Herrn Abgeordneten Dr. Mertes (Gerolstein)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg86">— schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 102 des Herrn Abgeordneten Dr. Hupka auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg87">Wie hoch ist nach der Bundesregierung vorliegenden Informationen die Zahl der Härtefälle von Familienangehörigen, für die die polnische Regierung seit 1976 keine Interventionsnotizen entgegennimmt, weil ein Familienmitglied als Besucher in der Bundesrepublik Deutschland geblieben ist? Bitte, Frau Staatsminister.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister im Auswärtigen Amt:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg88">Die Frage des Herrn Abgeordneten Hupka beantworte ich wie folgt: Seit Inkrafttreten des Ausreise-Protokolls sind bis Ende August dieses Jahres 17 139 Personen ohne Genehmigung der polnischen Regierung in das Bundesgebiet übergesiedelt. Der Bundesregierung ist nicht bekannt, in wie vielen Fällen insgesamt sich Angehörige dieser Personen um Familienzusammenführung bemühen. Von den der Botschaft Warschau bekanntgewordenen rund 1 000 Fällen konnten bis Ende August dank der beharrlichen Bemühungen der Bundesregierung 16,4 % durch Ausreise erledigt werden. Die Bundesregierung hat die Volksrepublik Polen wiederholt darauf hingewiesen, daß das nach polnischer Ansicht „illegale" Verbleiben im Bundesgebiet die Familienzusammenführung nicht ausschließen darf. Zu unserem Bedauern zeichnet sich aber bis heute keine wesentliche Änderung der polnischen Haltung ab. Die Bundesregierung wird sich weiterhin um die Lösung dieses humanitären Problems bemühen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u78" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg89">Zusatzfrage, Herr Abgeordneter Dr. Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU) :</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1979-09-27-08-175.u79" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg90">Frau Staatsminister, verstößt die polnische Regierung mit ihrem Verhalten nicht gegen die Schlußakte von Helsinki und den internationalen Menschenrechtspakt?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u80" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg91">Herr Kollege, ich kann darauf nur antworten, wie ich es schon oft getan habe, daß wir uns gerade um diese Fälle ganz besonders bemühen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u81" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg92">Die zweite Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU) :</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1979-09-27-08-175.u82" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg93">Sie haben, Frau Staatsminister, von 17 139 in Friedland Registrierten gesprochen, die als Besucher hiergeblieben sind. Kann man, wenn man die Familienangehörigen einbezieht, davon ausgehen, daß sich nahezu 50 000 Personen im Zustand der Familienzerreißung befinden, weil die polnische Seite sich weigert, Interventionsnotizen entgegenzunehmen?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u83" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg94">Herr Kollege, Sie müßten die Zahl der Fälle abziehen, von denen ich vorhin gesprochen habe, in denen die Familienzusammenführung gelungen ist.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Hupka [CDU/CSU]: 164!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u84" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg95">Zusatzfrage, Herr Abgeordneter Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1979-09-27-08-175.u85" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg96">Frau Staatsminister, wie erklärt sich die Bundesregierung den Umstand, daß unter 17 000 Personen, die nach Besuchsreisen hier geblieben sind und bei denen ja davon ausgegangen werden muß, daß die allermeisten noch Angehörige drüben haben, nur bei 1 000 Personen, wie Sie sagten, bekannt ist, daß die Ablehnung wegen der sogenannten illegalen Ausreise erfolgt?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u86" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg97">Herr Kollege, ich glaube, Sie haben meine Antwort nicht genau verstanden. Das sind von den 17 000 die 1 000 Personen, die die Vermittlung unserer Botschaft in Anspruch genommen haben, um die Familienangehörigen in die Bundesrepublik einreisen zu lassen. Das ist der Zusammenhang.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg98">Zusatzfrage. Herr Abgeordneter Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1979-09-27-08-175.u88" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg99">Frau Staatsminister, wird die Bundesregierung bei ihren humanitären Bemühungen auch die Erfüllung der Rechtsverpflichtungen aus der Information vom Dezember 1970 einfordern?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg100">Herr Kollege, entschuldigen Sie: Ich habe das akustisch nicht verstanden.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU):</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1979-09-27-08-175.u90" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg101">Ich habe gefragt, ob die Bundesregierung bei ihren dankenswerten Bemühungen, die Sie soeben angeschnitten haben, sich ausdrücklich auch auf die Notwendigkeit berufen wird, daß die Volksrepublik Polen die Rechtsverpflichtungen aus der Information vom Dezember 1970 erfüllt?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u91" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg102">Herr Kollege, die Bundesregierung wird sich auf jede geeignete Weise bemühen, die Familienzusammenführung abzuschließen und ausreisewilligen deutschstämmigen Menschen aus Polen die Einreise in die Bundesrepublik zu ermöglichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u92" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg103">Ich rufe die Frage 103 des Herrn Abgeordneten Dr. Czaja auf. Ist es mit dem Normalisierungsprozeß in den Beziehungen mit Polen vereinbar, daß Zehntausende Kinder deutscher Staatsangehöriger in den Gebieten östlich von Oder und Neiße keine deutschen Schulen, keinen muttersprachlichen Unterricht haben, und welche weiteren Schritte erwägt die Bundesregierung, um die dadurch bedingte zwangsweise Überführung der Kinder deutscher Staatsangehöriger in die polnische Nationalität, welche Artikel II E der Konvention zur Verhinderung des Völkermordes verletzt und nach § 220 a StGB zu verfolgen ist, zu verhindern, sowie den Zusagen im Bundesrat im Zusammenhang mit den deutsch-polnischen Abmachungen 1975/76 gerecht zu werden? Bitte sehr, Frau Staatsminister.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg104">Herr Kollege Czaja, zunächst weist die Bundesregierung den von Ihnen in Ihrer Frage konstruierten Zusammenhang zwischen Ihrer Meinung nach unzureichendem Deutschunterricht und der Konvention zur Verhinderung des Völkermords mit allem Nachdruck zurück.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Czaja [CDU/CSU]: Hört! Hört!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg105">Zu Ihrer Frage, Herr Kollege, möchte ich darauf hinweisen, daß die Frage der Unterrichtssprache generell nicht von der Staatsangehörigkeit abhängig ist. Auch wir gehen davon aus, daß in der Bundesrepublik Deutschland lebende Kinder die allgemeinen deutschen Schulen besuchen, unabhängig von ihrer Staatsangehörigkeit und Muttersprache. Zusätzlicher muttersprachlicher Unterricht wird angestrebt, ist aber auch bei uns keineswegs allgemein verwirklicht. Was die Deutschen in Polen betrifft, setzt sich die Bundesregierung, wie Sie wissen, dafür ein, ihnen die Pflege der deutschen Sprache und Kultur zu ermöglichen. Dabei sind Fortschritte erzielt worden. Die Bundesregierung bleibt weiterhin bemüht, im Rahmen ihrer Möglichkeiten Verbesserungen zu erreichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u94" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg106">Zusatzfrage. Herr Abgeordneter Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1979-09-27-08-175.u95" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg107">Frau Staatsminister, da Artikel II E der Konvention gegen den Völkermord ausdrücklich vorsieht, daß die gewaltsame Überführung von Kindern der Gruppe einer Nationalität in die andere Nationalität verboten ist, frage ich Sie: Halten Sie die massenweise Entnationalisierung Zehntausender Kinder deutscher Staatsangehöriger für ein Ergebnis normaler Beziehungen und die Erfüllung der Zusage an den Bundesrat, dies abzustellen?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u96" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg108">Herr Kollege Czaja, ich kann im Namen der Bundesregierung diese Konstruktion nur noch einmal mit Nachdruck zurückweisen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg109">In dieser Konvention ist doch etwas ganz anderes gemeint, wenn von gewaltsamer Überführung die Rede ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u97" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg110">Eine zweite Zusatzfrage, Herr Abgeordneter Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1979-09-27-08-175.u98" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg111">Frau Staatsminister, auch wenn Sie das zurückweisen: Ist Ihrer Aufrherksamkeit entgangen, daß die Kinder von 535 000 in der Bundesrepublik eingetroffenen deutschen Spätaussiedlern bereits massiver Zwangsentnationalisierung unterworfen worden waren, und ist Ihnen bekannt, daß in einem Gutachten des Bundesministeriums des Innern von 1972 die Oktroyierung der polnischen Staatsangehörigkeit gegenüber Eltern und Kindern als völkerrechtswidrig festgestellt worden ist, ebenso wie Art. 27 des Menschenrechtspaktes dies tut?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg112">Herr Kollege, ich kann Ihnen darauf nur antworten, daß die Frage der Förderung des Deutschunterrichts in Polen bei jeder geeigneten Gelegenheit zur Sprache kommt. Wie ich Ihnen schon gesagt habe, sind dabei auch Fortschritte erzielt worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg113">Zusatzfrage, Herr Abgeordneter Dr. Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU) :</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1979-09-27-08-175.u101" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg114">Frau Staatsminister, da Sie die Verhältnisse in der Bundesrepublik Deutschland zum Vergleich herangezogen haben, möchte ich Sie fragen: Können Sie mir darin zustimmen, daß ein gewaltiger Unterschied zwischen den Kindern von Gastarbeitern hier in der Bundesrepublik Deutschland, die Sie wohl gemeint haben, und den Deutschen besteht, die daheim nicht die Chance erhalten, einen Unterricht in ihrer Muttersprache zu erhalten?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u102" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg115">Herr Kollege, wir können die Regierung der Volksrepublik Polen nicht zwingen, diesen Unterricht einzuführen oder zu erweitern. Es gibt ja in sehr vielen Schulen Polens Deutsch als Fremdsprache; es steht sogar an dritter Stelle. Wir können nur immer wieder darauf hinwirken, daß dieses Angebot erweitert wird. Das tun wir auch, und dabei sind auch Fortschritte erzielt worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u103" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg116">Zusatzfrage, Herr Abgeordneter Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1979-09-27-08-175.u104" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg117">Frau Staatsminister, kann denn die Bundesregierung ernsthaft in Zweifel ziehen oder gar bestreiten, daß die Vorenthaltung der eigenen Muttersprache, und zwar durch staatliche Zwangsmaßnahmen aller Art, was dazu führt, daß Kinder ihrer eigenen Muttersprache nicht mehr mächtig sind und damit automatisch in den Kultur- und Sprachkreis des anderen Volkes überführt werden, auch unter die vom Kollegen Czaj a angezogenen Strafbestimmungen unseres Strafgesetzbuches subsumiert werden kann?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg118">Herr Kollege, das, was Sie jetzt angesprochen haben, füllt ganz sicher nicht den Tatbestand aus, wie er in der Konvention niedergelegt ist. Ich möchte nachdrücklich wiederholen, daß wir diese Konstruktion ablehnen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Czaja [CDU/CSU]: Eine unbewiesene Meinung!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u106" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg119">Ich rufe die Frage 104 des Herrn Abgeordneten Dr. Czaja auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg120">Wie ist anläßlich des Abschlusses des Konsularvertrages zwischen den USA und Ost-Berlin das diplomatische Betreuungsrecht für deutsche Staatsangehörige durch unsere Auslandsvertretung sichergestellt worden? Sie sind mit der nächsten Frage dran.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Czaja [CDU/CSU]: Ich habe nur einen Zwischenruf gemacht! — Zuruf des Abg. Wehner [SPD] — Dr. Czaja [CDU/CSU]: Herr Wehner, nicht nur Sie können Zwischenrufe machen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg121">Frau Staatsminister.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u107" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg122">Herr Kollege, es ist sichergestellt, daß das Recht der Vertretungen der Bundesrepublik Deutschland in den USA durch den Abschluß des Konsularvertrages USA — DDR unbeeinträchtigt bleibt, alle Deutschen, die dies wünschen, zu betreuen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u108" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg123">Zusatzfrage, Herr Abgeordneter Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1979-09-27-08-175.u109" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg124">Bedeutet das, Frau Staatsminister, daß auch die USA — wie Großbritannien das bereits getan hat — die Bemühungen um Gewährleistung des Schutzes deutscher Staatsangehöriger unterstützen, die, wenn sie sich in Amerika befinden, den Schutz der Vertretung der Bundesrepublik Deutschland wünschen, auch wenn sie Bewohner der DDR waren?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u110" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg125">Ja.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Czaja [CDU/CSU]: Danke schön!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg126">Keine Zusatzfrage.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Czaja [CDU/CSU] : Doch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg127">— Oh, verzeihen Sie!</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Czaja [CDU/CSU] : Ich habe mich nur schön bedankt, weil das eine zutreffende Antwort war!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg128">Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der SPD — Dr. Czaja [CDU/ CSU] : Ja, die Freude wollte ich zum Ausdruck bringen, Herr Kollege! Das ist ja auch wichtig!</desc>
+        </vocal>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1979-09-27-08-175.u112" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg129">Frau Staatsminister, bedeutet das, daß die Vereinigten Staaten von Nordamerika als unser Verbündeter in diesem Zusammenhang sowohl die Rechtstatbestände des Art. 116 des Grundgesetzes als auch die Rechtsverpflichtungen, die sich aus dem Deutschlandvertrag ergeben, voll bejahen?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u113" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg130">Da ich die vorhergehende Frage mit Ja beantworten konnte, nehme ich an, daß das so ist.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Czaja [CDU/CSU]: Danke schön!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u114" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg131">Die Fragen 106 und 107 werden auf Wunsch des Fragestellers, des Herrn Abgeordneten Gansel, schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Ich rufe die Frage 105 des Herrn Abgeordneten Jäger (Wangen)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg132">auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg133">Bei welchen offiziellen Besuchen von Staatsoberhäuptern oder Regierungsmitgliedern in Bonn in den letzten drei Jahren aus Staaten, in denen nach Kenntnis der Bundesregierung Menschenrechte in erheblichem Ausmaß verletzt werden, hat der Bundesaußenminister ungefragt öffentlich bekunden lassen, daß er dem Besucher die Besorgnis der Bundesregierung Ober die Menschenrechtssituation in dem von ihm vertretenen Land ausgedrückt habe, und bei welchen Besuchen der bezeichneten Art haben sich Mitglieder der Bundesregierung geweigert, mit dem Besucher zusammenzutreffen? Frau Staatsminister, wenn Sie sie freundlicherweise beantworten würden.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg134">Herr Kollege Jäger, zunächst möchte ich feststellen, daß der Besuch, auf den Sie offensichtlich abheben, kein offizieller Besuch gewesen ist, sondern ein Arbeitsbesuch. Ich werde aber trotz dieser Einschränkung gerne auf die Sache selbst eingehen. Die Bundesregierung mißt der Förderung der Menschenrechte in ihrer Außenpolitik eine große Bedeutung bei. Menschenrechtliche Anliegen und Durchsetzung humanitärer Grundsätze im internationalen Bereich spielen bei den Kontakten der Bundesregierung mit anderen Regierungen in vielen Fällen eine wichtige Rolle. Die Geltendmachung unseres Standpunktes findet auch in den meisten dieser Fälle öffentlich Niederschlag im Kommuniqué und in Presseunterrichtungen. Das gilt im Rahmen bilateraler Besuche mit Vertretern der Staaten im Osten und in anderen Regionen der Welt. Was den zweiten Teil ihrer Frage angeht, möchte ich erwidern: Wenn es nicht zu Begegnungen von Mitgliedern der Bundesregierung mit Regierungsmitgliedern anderer Staaten, die Bonn besuchen, gekommen ist, so hat dies stets terminliche oder sachliche Gründe gehabt. Es liegt auf der Hand, daß das nicht selten vorkommt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg135">Zusatzfrage, Herr Abgeordneter Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1979-09-27-08-175.u117" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg136">Frau Staatsminister, um gleich beim letzten anzufangen: Hat es denn tatsächlich — darauf habe ich vorhin keine Antwort gehört — schon Bundesminister gegeben, die sich geweigert haben, mit ausländischen Besuchern aus Ländern zusammenzutreffen, in denen Menschenrechte in erheblichem Umfange verletzt werden, und sich gerade deswegen geweigert haben, mit ihnen zusammenzutreffen? Können Sie mir Fälle nennen?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg137">Die kann ich aus dem Kopfe nicht nennen, Herr Kollege. Ich werde der Sache gerne nachgehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg138">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1979-09-27-08-175.u120" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg139">Frau Staatsminister, können Sie mir sagen, ob die Bundesregierung z. B. bei den Besuchen von Vertretern von Ostblockstaaten während der letzten drei Jahre durch den Bundesminister des Auswärtigen oder durch andere Minister in der Offentlichkeit hat erklären lassen, daß dem Vertreter des betreffenden Landes die Besorgnis der Bundesregierung über die Menschenrechtssituation in seinem Lande ausgesprochen werde oder worden sei?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u121" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg140">Herr Kollege, die Bekanntgabe dieses Punktes in Kommuniqués hängt immer vom Einzelfall ab. Bei den humanitären Aspekten geht es uns immer darum, abzuwägen, auf welchem Wege der größtmögliche Erfolg erzielt werden kann. Manchmal geschieht das durch öffentliche Information, manchmal wird es durch Gespräche unter vier Augen erledigt. Es muß der Bundesregierung überlassen bleiben, welchen der beiden möglichen Wege sie wählt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u122" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg141">Zusatzfrage, Dr. Stercken.</seg>
+        </u>
+        <note type="speaker">Dr. Stercken (CDU/CSU) :</note>
+        <u who="#Q1493052" xml:id="ParlaMint-DE_1979-09-27-08-175.u123" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg142">Frau Staatsminister, könnten Sie den Rückschluß bestätigen, daß die Frage des Umgangs mit offiziellen Vertretern von Ländern, die die Menschenrechte verletzen, dann offenbar mehr eine Frage der Opportunität als des Grundsatzes ist?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u124" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg143">Nein, das ist eine Frage des Grundsatzes und keinesfalls eine Frage der Opportunität.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u125" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg144">Zusatzfrage, Herr Abgeordneter Dr. Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU) :</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1979-09-27-08-175.u126" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg145">Frau Staatsminister, können wir nach Ihrer Auskunft davon ausgehen, daß die Bundesregierung bei allen Gesprächen mit Repräsentanten von Ländern, in denen Menschenrechte verweigert werden, über die Menschenrechte und deren Gewährung spricht?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg146">Davon können Sie ausgehen, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg147">Herr Dr. Czaja, Sie haben noch keine Frage dazu gestellt? — Dann bekommen Sie jetzt die Möglichkeit, bitte sehr!</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1979-09-27-08-175.u129" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg148">Wie erklärt es sich, Frau Staatsminister, daß in einem Einzelfall — Sie wünschen ja eine Behandlung je nach Einzelfall — aus den letzten drei Jahren, nämlich in dem Kommuniqué über den Besuch in Bukarest, zwar gemeinsam die Menschenrechte der Palästinenser, nicht aber die Menschenrechte der Deutschen angesprochen sind?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg149">Frau Präsident, das liegt doch sehr weit von der Frage ab.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg150">Vielen Dank, Frau Staatsminister. Es ist absolut nicht erforderlich, daß Sie dazu antworten. Keine weitere Zusatzfrage zu diesem Punkt? — Herr Niegel, noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1979-09-27-08-175.u132" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg151">Frau Staatsminister, können Sie mir Einzelfälle aufzeigen, wo bei Besuchen von Repräsentanten aus dem Ostblock auf die Menschenrechtssituation im Ostblock hingewiesen wurde?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg152">Herr Kollege, ich kann Ihnen von jedem Besuch die Protokolle und Gesprächsnotizen vertraulich zeigen, und Sie werden feststellen können, daß dieser Punkt immer angesprochen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg153">Ich rufe die Frage 108 der Abgeordneten Frau von Bothmer auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg154">Was gedenkt die Bundesregierung in Zukunft aktiver und intensiver zu unternehmen, damit die im deutsch-südafrikanischen Kulturabkommen vorgesehenen Austausch- und Förderungsmaßnahmen grundsätzlich über den Kreis des weißen, vor allem burischen Bevölkerungsanteils (10 v. H.)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg155">prozentual entsprechend den übrigen 90 v. H., nämlich den „vielen Völkern" zugute kommen, von denen die südafrikanischen Unterzeichner- des Abkommens ja selbst in ihrem eigenen Lande sprechen?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u135" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg156">Frau Kollegin, die Bundesregierung bemüht sich seit Jahren, die Kulturbeziehungen zur Republik Südafrika so zu gestalten, daß durch verstärkte Einbeziehung des nicht-weißen Bevölkerungsteils ein wirksamer Beitrag zum Abbau der Rassendiskriminierung geleistet wird. Das gilt vor allem im Erziehungsbereich, in dem die Bundesregierung große Anstrengungen unternommen hat und weiter unternimmt, wobei sie ihre Aktivitäten an den Bedürfnissen der nicht-weißen Bevölkerung orientiert. Einzelne Maßnahmen und Programme in ein finanzielles Verhältnis zu prozentualen Bevölkerungsanteilen zu setzen, erscheint der Bundesregierung jedoch weder möglich noch sinnvoll, auch und gerade unter dem Gesichtspunkt eines Beitrags zum Abbau von Rassendiskriminierung. Wichtig und ausschlaggebend ist es, daß es der Bundesregierung weiterhin und wo möglich verstärkt gelingt, die Kulturbeziehungen inhaltlich so zu gestalten, daß dér Dialog mit der nicht-weißen Bevölkerung intensiviert wird. Insgesamt läßt sich feststellen, daß unsere Kulturbeziehungen bereits überwiegend Zusammenarbeit mit der nicht-weißen Bevölkerungsmehrheit einschließen. Die Bundesregierung verbindet generell jede Maßnahme kultureller Zusammenarbeit mit dem Ziel, den nicht-weißen Bevölkerungsanteil verstärkt und zunehmend einzubeziehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u136" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg157">Eine Zusatzfrage, Frau Abgeordnete von Bothmer.</seg>
+        </u>
+        <note type="speaker">Frau von Bothmer (SPD) :</note>
+        <u who="#Q1331062" xml:id="ParlaMint-DE_1979-09-27-08-175.u137" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg158">Frau Staatsminister, ist es möglich, eine Auflistung darüber zu geben, wie viele Forscher, Lehrer, Studenten, Journalisten, Künstler aus den schwarzen, den farbigen und indischen Bevölkerungsteilen bisher an Studien und Austauschen mit der Bundesrepublik beteiligt gewesen sind?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u138" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg159">Frau Kollegin, ich kann Ihnen hierfür gern ein paar Zahlen nennen und weitere jederzeit nachliefern. Bei den DAAD-Stipendien haben wir in diesem Jahr zum erstenmal einen höheren Anteil an nicht-weißen Stipendiaten als früher. Wir haben diesmal weiße und nichtweiße Stipendiaten im Verhältnis 5 : 12. Wir haben hier also einen großen Fortschritt erzielt. Das Stipendienangebot wird ferner durch ein surplace-Programm erweitert, das gezielt der Fortbildung ausschließlich schwarzer Lehrer dient. Hinsichtlich der vier von uns geförderten deutschen Schulen ist das Programm zur Einbeziehung nichtweißer Kinder bereits angelaufen .und soll von uns jetzt verstärkt vorangebracht werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg160">Eine zweite Zusatzfrage, Frau Kollegin.</seg>
+        </u>
+        <note type="speaker">Frau von Bothmer (SPD) :</note>
+        <u who="#Q1331062" xml:id="ParlaMint-DE_1979-09-27-08-175.u140" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg161">Wenn die Verhältnisse auch in der Vergangenheit so relativ günstig waren, wie Sie es gesagt haben, Frau Staatsminister,. wie erklärt es sich dann, daß die südafrikanische Regierung nach den Bannungen verschiedener Organisationen und Persönlichkeiten im Oktober 1977 selber der Auffassung war, nun müsse wohl die Bundesregierung das Kulturabkommen kündigen?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg162">Diese Äußerung ist mir nicht bekannt. Wir versuchen gerade, das Kulturabkommen nachdrücklich zu nutzen, um nicht-weiße Bevölkerungsteile Südafrikas in alle Kulturprogramme mit einzubeziehen. Ich kann hier noch ergänzend berichten, daß ich vor ganz wenigen Wochen eine Delegation von Schülern aus Südafrika empfangen habe, die im Prämienprogramm für die deutsche Sprache Preise errungen hatten, und dabei waren auch nicht-weiße Schüler in größerer Zahl.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg163">Ich rufe die Frage 109 der Abgeordneten Frau von Bothmer auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg164">Kann die Bundesregierung versichern, daß es im Rahmen des im Kulturabkommen genannten Austausches von Wissenschaftlern keine nuklear-technische Zusammenarbeit gegeben hat? Bitte, Frau Staatsminister.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u143" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg165">Frau Kollegin, Ihre Frage beantworte ich mit Ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u144" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg166">Eine Zusatzfrage, Frau Kollegin. Frau von Bothmer (SPD)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg167">Die Broschüre „Zur Sache", die die Bundesregierung vor eineinhalb Jahren in Beantwortung von sogenannten Behauptungen des ANC aus Südafrika herausgebracht hat, hat von diesen Dingen nichts erwähnt. Wäre es nicht günstiger gewesen, vorhandene Ansätze zu erklären, um das Mißtrauen endgültig zu beseitigen, das bis auf den heutigen Tag nicht ausgeräumt ist?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg168">Frau Kollegin, wir bemühen uns bei jeder Gelegenheit darum, dieses Mißtrauen nun endgültig aus der Welt zu schaffen, und wir haben den Sachverhalt ja in einer genauen Dokumentation dargestellt. Leider ist es so, daß sich manche offensichtlich von den wahren Tatsachen nicht überzeugen lassen wollen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg169">Frau Kollegin von Bothmer, möchten Sie noch eine Zusatzfrage stellen? — Keine. Dann Herr Dr. Stercken, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Stercken (CDU/CSU) :</note>
+        <u who="#Q1493052" xml:id="ParlaMint-DE_1979-09-27-08-175.u147" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg170">Frau Staatsminister, liegen der Bundesregierung Informationen darüber vor, woher eigentlich immer wieder diese Fragen nach einer Zusammenarbeit der Bundesrepublik Deutschland mit der Republik Südafrika auf dem Gebiet der Kernenergie stammen?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u148" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg171">Herr Kollege Stercken, hier liegen uns keine Informationen, sondern allenfalls Vermutungen vor.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u149" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg172">Danke schön. Ich rufe die Frage 110 des Herrn Abgeordneten Gerster (Mainz)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg173">auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg174">Hat Staatsminister von Dohnanyi auf einem SPD-Unterbezirksparteitag in der Südpfalz ausgeführt, „Die Bundesregierung gehe davon aus, daß die Bewaffnung der Sowjetunion defensiv sei" (.Rheinpfalz" vom 17. September 1979)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg175">, und wenn ja, hat er damit die Auffassung der Bundesregierung zutreffend wiedergegeben? Bitte, Frau Staatsminister.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u150" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg176">Herr Kollege, der Herr Staatsminister von Dohnanyi hat die Äußerung, wie sie in der von Ihnen zitierten Zeitung wiedergegeben wurde, nicht getan. Er hat sich vielmehr auf eine Passage einer Rede bezogen, die er auf einer Tagung des Bergedorfer Gesprächskreises in Moskau im Januar dieses Jahres gehalten hat und die im „Bulletin" des Presse- und Informationsamtes der Bundesregierung abgedruckt wurde.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u151" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg177">Eine Zusatzfrage, Herr Abgeordneter Gerster. Gerster (Mainz)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg178">(CDU/CSU)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg179">,: Frau Staatsminister, kann ich also davon ausgehen, daß Sie die Meldung in der „Rheinpfalz" vom 17. September 1979, was diesen Punkt angeht, insgesamt als objektiv falsch bezeichnen?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg180">Diese Meldung wird durch die Verkürzung falsch.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Schäfer [Tübingen] [SPD]: Sehr gut!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg181">Die zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Gerster (Mainz) (CDU/CSU) :</note>
+        <u who="#Q1436925" xml:id="ParlaMint-DE_1979-09-27-08-175.u154" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg182">Würden Sie dann hier, nachdem ja bereits im Frühjahr dieses Jahres durch die Äußerungen eines maßgeblichen Politikers der Koalitionsparteien gewisse Irrungen entstanden sind, zur Klarstellung dieser Falschmeldung erklären, daß es Auffassung der Bundesregierung ist, daß die Militärpolitik und Bewaffnung der Sowjetunion offensiv und aggressiv ist?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Wehner [SPD] : Es wäre besser, zu sagen: „Kriegsvorbereitung ist", nicht?</desc>
+        </vocal>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg183">Herr Kollege, über diese Frage ist in diesem Hohen Hause sehr oft debattiert worden, und die Position der Bundesregierung ist dargestellt worden. Ich habe dem nichts hinzuzufügen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Schäfer [Tübingen] [SPD]: Sehr gut!</desc>
+        </vocal>
+        <note type="speaker">Gerster (Mainz) (CDU/CSU) :</note>
+        <u who="#Q1436925" xml:id="ParlaMint-DE_1979-09-27-08-175.u156" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg184">Kann man diese Position nicht wiederholen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u157" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg185">Verzeihen Sie, Herr Kollege, Sie hatten bereits zwei Fragen gestellt.</seg>
+          <vocal type="exclamat">
+            <desc>Gerster [Mainz] [CDU/CSU] : Das war aber sehr interessant!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg186">Ich rufe die Frage 111 des Herrn Abgeordneten Jäger (Wangen)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg187">auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg188">Welche Möglichkeiten sieht die Bundesregierung, in der Bundesrepublik Deutschland lebenden Vietnamflüchtlingen bei der Wiederbeschaffung zurückgelassener oder verlorengegangener Diplome, Zeugnisse oder anderer Bescheinigungen über abgelegte schulische oder berufliche Ausbildungsgänge zu helfen, und was ist diesbezüglich von der Bundesregierung gegenüber der Regierung Vietnams bereits geschehen oder beabsichtigt?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg189">Herr Kollege Jäger, die Bundesrepublik Deutschland kann Vietnamflüchtlingen leider keinen diplomatischen Schutz gewähren, da es sich nicht um deutsche Staatsangehörige handelt. Im Falle von Flüchtlingen, die mit Einwilligung der vietnamesischen Behörden ihr Land verlassen haben, wird die Botschaft in Hanoi aber im Einzelfall versuchen, die fehlenden Diplome, Zeugnisse etc. bzw. Ersatzbescheinigungen bei der Regierung der Sozialistischen Republik Vietnam zu beschaffen. Bei allen anderen Flüchtlingen — also bei denjenigen, die aus vietnamesischer Sicht illegal das Land verlassen haben; und das ist die ganz große Mehrheit —, sind bisher alle Demarchen aussichtslos gewesen. Das Auswärtige Amt hat den Bundesminister des Innern deshalb gebeten, zu prüfen, ob die Vietnamflüchtlinge nicht analog dem Verfahren der §§ 92 und 93 des Bundesvertriebenengesetzes behandelt werden können, was unter bestimmten Voraussetzungen die Anerkennung von Bildungsabschlüssen bzw. die Ersetzung von Urkunden möglich machen würde.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg190">Eine Zusatzfrage, Herr Abgeordneter Jäger.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1979-09-27-08-175.u160" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg191">Frau Staatsminister, hat die Bundesregierung bei ihren Bemühungen um den Teil der Flüchtlinge, den Sie zuletzt erwähnten, um diejenigen also, die gegen den Willen ihrer Regierung geflohen sind, versucht, die Hilfe des Hohen Kommissars der Vereinten Nationen für das Flüchtlingswesen in Anspruch zu nehmen?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u161" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg192">Wir haben Versuche bisher nur über unsere diplomatische Vertretung unternommen, und das war zu unserem Bedauern ergebnislos.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u162" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg193">Die zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1979-09-27-08-175.u163" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg194">Frau Staatsminister, wird denn die Bundesregierung, nachdem dieser Weg bisher offenbar nicht beschritten worden ist, den Versuch unternehmen, den Hohen Kommissar für das Flüchtlingswesen bei den Vereinten Nationen in dieser Frage einzuschalten, um auf diese Art und Weise einen Beitrag dazu zu leisten, daß diesen Menschen bei ihrer beruflichen Eingliederung Hilfe zuteil wird?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u164" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg195">Herr Kollege, wir werden diese Anregung gern prüfen und im übrigen auf Grund unserer gesetzlichen Möglichkeiten Abhilfe schaffen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u165" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg196">Keine weitere Zusatzfrage. Ich rufe die Frage 112 des Herrn Abgeordneten Schlaga auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg197">Ist der Bundesregierung bekannt, ob — wie die „Frankfurter Rundschau" vom 17. September 1979 berichtet —, Frankreich „zur Sicherung seiner auswärtigen Interessen einschließlich des Schutzes seiner Ölzufuhren" eine 3 000 Mann starke Einsatztruppe aufbaut, die gemeinsam mit der 11. Fallschirmjägerbrigade Mitte 1980 besonders im Mittelmeerraum und in Afrika einsatzfähig sein soll? Bitte, Frau Staatsminister.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u166" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg198">Herr Kollege, die Bereitschaft der französischen Regierung, französische Streitkräfte unter bestimmten Umständen außerhalb Frankreichs einzusetzen, sowie die Fähigkeit der französischen Streitkräfte dafür sind allgemein bekannt. Im übrigen hält es die Bundesregierung nicht für ihre Aufgabe, die Streitkräfteplanung Frankreichs zu kommentieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u167" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg199">Eine Zusatzfrage, Herr Abgeordneter Schlaga.</seg>
+        </u>
+        <note type="speaker">Schlaga (SPD) :</note>
+        <u who="#Q1422044" xml:id="ParlaMint-DE_1979-09-27-08-175.u168" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg200">Frau Staatsminister, die Mitglieder der EG haben die EPZ kodifiziert. Sind Sie der Auffassung — selbst wenn Sie jetzt zu meiner ursprünglichen Frage keinen Kommentar abgeben wollen —, daß es hilfreich ist, die Intentionen der EPZ zu fördern und einzuhalten?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u169" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg201">Herr Kollege, ich glaube, das kommt auch in Ihrer zweiten Frage noch zur Sprache. Es hat bisher keinerlei Schwierigkeiten in der EPZ wegen dieser französischen Überlegungen gegeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u170" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg202">Ich rufe dann gleich die Frage 113 des Herrn Abgeordneten Schlaga auf — oder waren Sie schon mit der Antwort zufrieden? —:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg203">Kann die Bundesregierung gegebenenfalls Gründe anführen — wenn ja, welche —, aus denen klar hervorgeht, daß durch diese geplante französische Maßnahme die notwendige einheitliche außenpolitische Handlungsfähigkeit der Europäischen Gemeinschaft zum Beispiel gegenüber Afrika, nicht gefährdet ist? Bitte, Frau Staatsminister.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u171" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg204">Ich will es bei der Beantwortung der zweiten Frage von Herrn Kollegen Schlaga gern noch einmal präzisieren. Die Bundesregierung ist der Auffassung, daß eine einheitliche Haltung der Neun in einzelnen Bereichen der Afrikapolitik durch die Fähigkeit eines EG-Mitgliedstaates zur militärischen Präsenz außerhalb Europas nicht gefährdet wird. Eine Abstimmung der Standpunkte der Neun im Rahmen der Europäischen Politischen Zusammenarbeit erfolgt zu bestimmten Themen aus dem Bereich Afrika, z. B. Rhodesien, Namibia, jedoch nicht notwendigerweise zu allen afrikapolitischen Fragen. Eine solche Harmonisierung schließt eine nationale Politik in bestimmten Bereichen daher nicht aus.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u172" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg205">Eine Zusatzfrage, Herr Abgeordneter Schlaga.</seg>
+        </u>
+        <note type="speaker">Schlaga (SPD) :</note>
+        <u who="#Q1422044" xml:id="ParlaMint-DE_1979-09-27-08-175.u173" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg206">Ich bitte um Entschuldigung, daß ich angenommen habe, Sie beantworten beide Fragen auf einmal. Insofern gilt meine vorhin gestellte Frage zu der eben von Ihnen erteilten Antwort.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u174" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg207">Dann habe ich Ihre Fragen hoffentlich befriedigend beantwortet.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Schlaga [SPD] : Nein!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u175" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg208">Ich rufe die Frage 114 des Herrn Abgeordneten Hoffmann (Saarbrükken)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg209">auf :</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg210">Liegen der Bundesregierung Erklärungen der Volksrepublik Vietnam vor, nach denen diese bereit ist, bei bilateralen Verträgen und Abkommen mit der Bundesrepublik Deutschland WestBerlin einzubeziehen, und gab es in den letzten Jahren Schwierigkeiten bei Verhandlungen zwischen der Bundesrepublik Deutschland und der Volksrepublik Vietnam über die Einbeziehung West-Berlins? Bitte, Frau Staatsminister.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u176" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg211">Herr Kollege, es liegen keine Erklärungen vor, wonach die Sozialistische Republik Vietnam bereit ist, bei bilateralen Verträgen und Abkommen mit der Bundesrepublik Deutschland eine uns befriedigende Berlin-Klausel zu akzeptieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u177" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg212">Eine Zusatzfrage, Herr Abgeordneter Hoffmann.</seg>
+        </u>
+        <note type="speaker">Hoffmann (Saarbrücken) (SPD) :</note>
+        <u who="#Q1569739" xml:id="ParlaMint-DE_1979-09-27-08-175.u178" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg213">Frau Staatsminister, da das so ist: Würde es eine wesentliche Veränderung der Ausgangslage für entsprechende Vertragsverhandlungen sein, wenn die Volksrepublik Vietnam eine entsprechende Klausel akzeptierte?</seg>
+        </u>
+        <note type="speaker">Frau Fr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u179" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg214">Das ist eine sehr hypothetische Frage, Herr Kollege. Sie wissen, daß die Bundesregierung auf hypothetische Fragen keine Antwort geben kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u180" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg215">Sie haben noch eine Frage, Herr Kollege?</seg>
+        </u>
+        <note type="speaker">Hoffmann (Saarbrücken) (SPD) :</note>
+        <u who="#Q1569739" xml:id="ParlaMint-DE_1979-09-27-08-175.u181" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg216">Ja. Frau Staatsminister, war das Fehlen der Klausel ausschlaggebend für das Nichtzustandekommen von Abkommen zur Aufbauhilfe für die durch den Krieg zerstörten Landesteile Vietnams?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hamm-Brücher, Staatsminister:</note>
+        <u who="#Q215201" xml:id="ParlaMint-DE_1979-09-27-08-175.u182" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg217">Herr Kollege, das war der einzige Grund. Denn man war ja in einigen Verhandlungen schon vorangeschritten, und die Nichtakzeptierung der Berlin-Klausel war der Anlaß, daß es nicht zustande gekommen ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u183" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg218">Keine weitere Zusatzfrage. Die Fragen 115 und 116 des Herrn Abgeordneten Dr. Wittmann (München)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg219">werden auf seinen Wunsch schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich danke Ihnen, Frau Staatsminister.</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg220">Ich rufe den Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung auf. Der Herr Parlamentarische Staatssekretär Buschfort steht zur Beantwortung zur Verfügung. Die Fragen 55 des Herrn Abgeordneten Hasinger, 56 und 57 der Abgeordneten Frau Steinhauer, 58 und 59 des Abgeordneten Löffler, 60 des Herrn Abgeordneten Kirschner sowie 61 des Herrn Abgeordneten Spitzmüller werden auf Wunsch der Fragesteller schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Die Fragesteller der Fragen 62 und 63 — Abgeordneter Cronenberg —, 64 und 65 — Abgeordneter Kleinert — sowie 76 — Abgeordneter Sieler — sind nicht im Saal. Diese Fragen werden ebenfalls schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Es tut mir leid, daß wir Sie bemüht haben, Herr Staatssekretär. Vielleicht war es ganz interessant für Sie. Danke schön. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers der Verteidigung. Zur Beantwortung der Fragen steht Herr Parlamentarischer Staatssekretär Dr. von Bülow zur Verfügung. Die Fragen 66 und 67 des Herrn Abgeordneten Jungmann werden auf Wunsch des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 68 des Herrn Abgeordneten Paterna auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg221">Hat es jemals Aufträge der Bundeswehr an die Firma Stoltzenberg in Hamburg zur Herstellung von Kampfgasen gegeben, und wenn nein, was hat die Bundeswehr getan, um entsprechende, wiederholt in der Öffentlichkeit aufgetauchte, Gerüchte eindeutig zu widerlegen? Wir haben die Freude, den Kollegen Paterna begrüßen zu können. Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u184" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg222">Herr Kollege, im März 1966 hat die Firma Stoltzenberg auf Grund eines Auftrags des Bundesamts für Wehrtechnik und Beschaffung 15 kg Stickstoff „Lost" an die damalige Erprobungsstelle 53 der Bundeswehr in Munster geliefert. Dieser Stickstoff „Lost" wurde für spezielle Forschungsaufgaben — Prüfung von Schutzmaterial und Wiederaufbereitung von kampfstoffverseuchtem Wasser — benötigt. Die 1970 erhobenen Vorwürfe, die Firma Stoltzenberg habe laufend Kampfstoffe für die Bundeswehr produziert, sind durch die Kontrollen des Bundesamts für Gewerbliche Wirtschaft als Aufsichtsbehörde nach dem Kriegswaffenkontrollgesetz und des Rüstungskontrollamts der Westeuropäischen Union im September und November 1970 widerlegt worden. Der seinerzeitige Bundesminister der Verteidigung hat im November 1970 angeordnet, daß diese Substanzen künftig nur noch im Ausland zu beschaffen sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u185" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg223">Zusatzfrage, Herr Abgeordneter Paterna.</seg>
+        </u>
+        <note type="speaker">Paterna (SPD) :</note>
+        <u who="#Q2077442" xml:id="ParlaMint-DE_1979-09-27-08-175.u186" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg224">Herr Staatssekretär, im Hamburger Untersuchungsbericht findet sich eine Behauptung von Dr. Stoltzenberg, dieser habe am 17. August 1955 dem Amt für Arbeitsschutz mitgeteilt, der Bundesverteidigungsminister habe ihn beauftragt, Muster für „Kampfgaspatronen, die unter anderem mit Bombenschlägen ausgestattet sind" herzustellen. Kann die Bundesregierung ausschließen, daß diese Behauptung richtig ist, und, wenn nein, was genau verbarg sich hinter diesem Auftrag?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u187" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg225">Die Bundeswehr hat einen solchen Auftrag nicht erteilt. Ich kenne diese Passage aus dem Untersuchungsbericht. Sie stimmt nicht mit dem überein, was wir in unseren Akten finden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u188" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg226">Zweite Zusatzfrage, Herr Paterna.</seg>
+        </u>
+        <note type="speaker">Paterna (SPD) :</note>
+        <u who="#Q2077442" xml:id="ParlaMint-DE_1979-09-27-08-175.u189" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg227">Herr Staatssekretär, gilt dies auch für die Behauptung, die ebenfalls im Hamburger Untersuchungsbericht enthalten ist, die sich auf die Jahre 1961 und 1963 bezieht, wonach mehrere Genehmigungen zum Transport von Sprengmittelzündern bzw. von Hüllen gegeben worden sein sollen? Empfänger soll Stoltzenberg gewesen sein. Es sind dann noch die Nummern der Kriegswaffenliste angegeben.</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u190" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg228">Da es um Zünder geht, könnte es sich in diesem Fall nur darum handeln, daß Nebeltöpfe mit Zündern versehen worden sind und daß wegen des Einbaus dieser Zünder nach dem Kriegswaffenkontrollgesetz die Transportgenehmigung eingeholt werden mußte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u191" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg229">Zusatzfrage, Frau Abgeordnete Schuchardt.</seg>
+        </u>
+        <note type="speaker">Frau Schuchardt (FDP) :</note>
+        <u who="#Q1602291" xml:id="ParlaMint-DE_1979-09-27-08-175.u192" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg230">Herr Staatssekretär, wie laufen die Prüfungen von Firmen, bevor Sie in so sensiblen Bereichen diesen Firmen Aufträge erteilen?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u193" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg231">Ich sagte schon: Es ist einmal, im Jahre 1966, aus aktuellem Anlaß die Herstellung von 15 kg Stickstoff „Lost" in Auftrag gegeben worden. Darüber hinaus haben wir der Firma in diesen sensiblen Bereichen keinen einzigen Auftrag gegeben. Ich kenne mich nun in den Akten der Zeit vor 1966 nicht so aus, aber damals ist wohl eine intensive Überprüfung der Firma nicht durchgeführt worden. Dem damaligen Referenten des Bundesamtes für Wehrtechnik und Beschaffung, der inzwischen längst aus dem Dienst ausgeschieden ist, ist diese Firma wohl als die einzige erschienen, die in der Lage war, solche Stoffe herzustellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u194" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg232">Ich rufe die Frage 69 des Herrn Abgeordneten Paterna auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg233">Hat es jemals Aufträge der Bundeswehr an die Firma Stoltzenberg zur Beseitigung von Kampfgasen und/oder Munition gegeben, und, wenn ja, wann und in welchem Umfang?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u195" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg234">Die Antwort lautet: nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u196" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg235">Zusatzfrage, Herr Abgeordneter Paterna.</seg>
+        </u>
+        <note type="speaker">Paterna (SPD):</note>
+        <u who="#Q2077442" xml:id="ParlaMint-DE_1979-09-27-08-175.u197" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg236">Hat die Bundesregierung jemals der Firma Stoltzenberg die Ermächtigung zum Umgang mit Verschlußsachen bis zur Einstufung „geheim" erteilt, und, wenn ja, für welchen Zeitraum und für welche Zwecke?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u198" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg237">Das hängt nicht unmittelbar mit der Frage zusammen. Als 1966 dieser Auftrag erteilt worden ist, mag eine solche Genehmigung erteilt worden sein. Aber ich sehe keinen Zusammenhang mit der Frage, die Sie gestellt haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u199" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg238">Eine zweite Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Paterna (SPD) :</note>
+        <u who="#Q2077442" xml:id="ParlaMint-DE_1979-09-27-08-175.u200" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg239">Der letzte Inhaber der Firma, Herr Leuschner, hat behauptet, zehn Gramm Tabun und zehn Gramm Sarin vom Bundeswehrbeschaffungsamt erhalten zu haben. Stimmt diese Behauptung? Wenn ja: Welche Sicherungen sind getroffen worden, daß diese auch in kleinen Mengen hochgefährlichen Stoffe nur an eine von der Wirtschaftsführung und der technischen Ausstattung besonders zuverlässige Firma abgegeben werden?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u201" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg240">Die Meldung dürfte zutreffend sein. Als die Firma in den fünfziger Jahren von der Bundeswehr den Auftrag hatte, z. B. Atemfilter zu entwickeln und sie auf ihre Wirksamkeit zu testen, sind entsprechende Minimengen freigegeben und der Firma zur Verfügung gestellt worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u202" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg241">Zu einer Zusatzfrage Frau Schuchardt.</seg>
+        </u>
+        <note type="speaker">Frau Schuchardt (FDP) :</note>
+        <u who="#Q1602291" xml:id="ParlaMint-DE_1979-09-27-08-175.u203" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg242">Herr Staatssekretär, ich möchte an meine Frage von vorhin anknüpfen. Sind Sie der Auffassung, daß Firmen von Bundes- und anderen staatlichen Stellen Aufträge in Höhe von mehr als 2 Millionen DM erteilt bekommen sollten, wenn sie nachweislich — auch dies weist der Untersuchungsbericht in Hamburg aus — vorhandene Gesetze vom Arbeitsrecht bis zum Gewerbeschutz in höchstem Maße mißachtet haben?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u204" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg243">Frau Kollegin, die Kenntnis über den Zustand einer solchen Firma hat in der Regel die Landesbehörde, nicht der Bund. Der Bund hat im Rahmen des Kriegswaffenkontrollgesetzes und im Rahmen des Bundesamts für die Gewerbliche Wirtschaft durchaus die Möglichkeit, Stichproben durchzuführen; er hat dies auch getan. Ich möchte Sie daran erinnern, daß die Verbindung der Bundeswehr zu diesem „Waschküchenbetrieb", wie es schon in den Akten des Bundesverteidigungsministeriums 1970 hieß, in die späten fünfziger und die frühen sechziger Jahre zurückgeht und daß mit dem Jahr 1966 jede geschäftliche Verbindung zwischen der Bundeswehr und dieser Firma nicht mehr gegeben gewesen ist. Daher sind Überprüfung und Kontrolle dieser Firma seit dieser Zeit ausschließlich im Bereich der Hamburger Verwaltung angesiedelt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u205" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg244">Ich rufe die Frage 70 der Abgeordneten Frau Schuchardt auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg245">Ist der Bundesverteidigungsminister bereit, alle Beamten, die mit dem Kauf und der Verwendung von chemischen Kampfstoffen zu tun gehabt haben oder öffentlich in diesem Zusammenhang genannt wurden, von ihrer Schweigepflicht zu entbinden, um eine vorbehaltlose Aufklärung sicherzustellen, nachdem öffentlich gegen Dienststellen der Bundeswehr und des Bundesverteidigungsministers Vorwürfe erhoben wurden, chemische Kampfstoffe von der Firma Stoltzenberg bezogen zu haben und diese zunächst dementiert und jetzt eingestanden wurden?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u206" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg246">Frau Schuchardt, das Bundesministerium der Verteidigung hat nie gezögert, an der vorbehaltlosen Aufklärung des Falles mitzuarbeiten, und wird auch in Zukunft nicht zögern. In einer Mitteilung an die Presse vom 19. September 1979 hat das Bundesministerium der Verteidigung die Auftragsbeziehungen zur Firma Stoltzenberg vollständig dargelegt. Dieser Presseerklärung ist auch nach neuesten Erkenntnissen nichts hinzuzufügen. Das Bundesministerium der Verteidigung ist bereit, alle Stellen zu unterstützen, die sich offiziell mit der Aufklärung des Falles befassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u207" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg247">Zu einer Zusatzfrage, Frau Abgeordnete Schuchardt.</seg>
+        </u>
+        <note type="speaker">Frau Schuchardt (FDP) :</note>
+        <u who="#Q1602291" xml:id="ParlaMint-DE_1979-09-27-08-175.u208" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg248">Herr Staatssekretär, meine Frage bezieht sich darauf, ob die Beamten, die im Zusammenhang mit Kauf oder Verwendung chemischer Kampfstoffe öffentlich benannt wurden oder etwas damit zu tun haben, ihrerseits von der Schweigepflicht entbunden werden, um damit einen Teil zur Aufklärung beitragen können.</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u209" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg249">Ohne Zweifel!</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u210" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg250">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Schuchardt (FDP) :</note>
+        <u who="#Q1602291" xml:id="ParlaMint-DE_1979-09-27-08-175.u211" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg251">Im Zusammenhang mit den 1970 gegenüber der Firma Stoltzenberg erhobenen Vorwürfen ist auch gesagt worden, Dienststellen der Bundeswehr gingen unsachgemäß mit chemischen Kampfstoffen um. Ist jemals erwogen worden, gerichtliche Schritte gegen solche öffentlichen Behauptungen zu unternehmen, und hat es jemals einen Beamten gegeben, der in diesem Zusammenhang namentlich genannt wurde, der das Ministerium dazu aufgefordert hat?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u212" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg252">Da müßte ich zunächst einmal Einsicht in die Akten von 1970 nehmen, und zwar über die Ihrer Frage zugrunde liegenden unmittelbaren Zusammenhänge hinaus. Ich weiß nur, daß 1970 nach dem Erscheinen des „konkret" -Artikels und der Beschuldigung von Wallraff die Dinge untersucht worden sind und man festgestellt hat, in welchem Umfang Beziehungen mit dieser Firma überhaupt vorhanden gewesen sind. Dabei ist zunächst einmal durch einen Irrtum die einmalige Lieferung von 15 kg Stickstoff-Lost übersehen worden. Erst Wochen später ist dies festgestellt worden, nachdem man in die Registraturen hineingegangen war.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u213" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg253">Ich rufe die Frage 71 der Abgeordneten Frau Schuchardt auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg254">Hält es die Bundesregierung für angemessen, wenn Dienststellen der Bundeswehr in Munsterlager mit der Untersuchung der gefundenen Giftstoffe beauftragt werden, obwohl sie beschuldigt werden, am Sachverhalt beteiligt gewesen zu sein und im Umgang mit chemischen Kampfstoffen möglicherweise gegen internationales Recht verstoßen zu haben, und wenn nein, wie kann sichergestellt werden, daß unabhängige Sachverständige die Untersuchungen begleiten?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u214" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg255">Die Bundeswehr ist in Hamburg auf Grund eines Antrags der Freien und Hansestadt Hamburg entsprechend gesetzlicher Regelungen und gegen Kostenerstattung deshalb tätig geworden, da sie über die entsprechenden Fachleute verfügt, um mit den in Hamburg vorgefundenen Beständen so sachgerecht umzugehen, wie das der Gefährdung der Zivilbevölkerung und der Umwelt entspricht. Die vorgebrachten Beschuldigungen gegen die Bundeswehr sind durch die vom Bundesministerium der Verteidigung vorgelegten Veröffentlichungen widerlegt worden. Sie beziehen sich im übrigen auf eine Zeit, die mehr als ein Jahrzehnt zurückliegt. Die zwischenzeitlich von der Bundeswehr vorgenommene Sicherung und Bergung der bei der Firma Stoltzenberg vorgefundenen Bestände und ihr Abtransport sind vorerst abgeschlossen. Die Bundeswehr leistet bei der Identifizierung der gefundenen Chemikalien Hilfe. Es gibt nicht den geringsten Grund für die Annahme, daß die Bundeswehr einen Grund zur Vertuschung von Sachverhalten hat, im Gegenteil. Nicht zuletzt angesichts der von einzelnen vorgetragenen Vorwürfe hat die Bundeswehr einen Grund, die Aufklärung und damit auch die laufenden Untersuchungen vorbehaltlos zu unterstützen, damit die Zuständigkeit für die in Hamburg vorgefundene Situation eindeutig und völlig klar wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u215" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg256">Zusatzfrage, Frau Schuchardt.</seg>
+        </u>
+        <note type="speaker">Frau Schuchardt (FDP) :</note>
+        <u who="#Q1602291" xml:id="ParlaMint-DE_1979-09-27-08-175.u216" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg257">Wären Sie, falls erneut öffentliche Vorwürfe gegen Dienststellen der Bundeswehr, speziell in Munsterlager, erhoben würden, bereit, unabhängige Sachverständige hinzuzuziehen, wodurch ohne Frage stärkere Kontrollen möglich wären als z. B. durch eine öffentliche Besichtigung des Geländes?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u217" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg258">Frau Kollegin, ich verstehe den Hintergrund Ihrer Frage nicht ganz; denn die Bundeswehr hat sich keineswegs aufgedrängt, um die Schwierigkeiten, die bei dieser Firma aufgetreten sind, zu beseitigen. Da sie aber offensichtlich als einzige über den erforderlichen Sachverstand verfügt, um mit derartigen Giftstoffen fertig zu werden, war sie auf Anforderung zur Hilfe bereit. Es war nicht unser Bedürfnis, uns aufzudrängen oder gar „Beweismittel" in die Hand zu bekommen. Wäre die Stadt Hamburg in der Lage, dies selbst durchzuführen, wären wir glücklich, wenn uns diese Last abgenommen würde. Selbstverständlich können unabhängige Sachverständige diesen Sachverhalt überprüfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u218" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg259">Zweite Zusatzfrage, bitte Frau Schuchardt.</seg>
+        </u>
+        <note type="speaker">Frau Schuchardt (FDP) :</note>
+        <u who="#Q1602291" xml:id="ParlaMint-DE_1979-09-27-08-175.u219" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg260">Herr Staatssekretär, stimmen Sie mir zu, daß der Bundeswehr zu keiner Zeit vorgeworfen worden ist, daß sie sich bereitgefunden hat, diese Dinge zu übernehmen, ihr sehr wohl aber vorgeworfen wurde, daß sie nicht nur Gegenmittelforschung betreibe, sondern in größerem Stil auch Anwendungsforschung? Um dieses zu widerlegen, stelle ich noch einmal die Frage, ob man, wenn dieser Vorwurf wieder öffentlich erhoben werden sollte, bereit wäre, unabhängige Sachverständige hinzuzuziehen.</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u220" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg261">Diese Überprüfung muß dann doch wohl in irgendeiner Form politisch organisiert sein. Ich könnte mir vorstellen, daß sich der Verteidigungsausschuß als Untersuchungsausschuß konstituierte oder sich ein anderes Gremium damit beschäftigte. Dem werden wir selbstverständlich alles offenbaren, was wir haben. Im übrigen habe ich noch einmal die Wallraffschen Beschuldigungen intensiv durchgelesen. Wenn Sie die Akten kennten, die ich jetzt nach längerem Studium kenne, würden Sie sehen, mit welchen raffinierten Methoden Fälschungen vorgenommen worden sind, um zu diesen Vorwürfen zu gelangen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u221" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg262">Zusatzfrage, Herr Abgeordneter Dr. Zumpfort.</seg>
+        </u>
+        <note type="speaker">Dr. Zumpfort (FDP) :</note>
+        <u who="#Q1111836" xml:id="ParlaMint-DE_1979-09-27-08-175.u222" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg263">Herr Staatssekretär, innerhalb welchen Zeitraums können die Giftstoffe, die jetzt in Munsterlager gelagert werden, vernichtet werden, oder weitreichender gefragt: Hat die Bundeswehr den Auftrag, sie zu vernichten, und, wenn ja, in welchem Zeitraum können die Giftstoffe vollständig vernichtet werden?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u223" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg264">Wir sind leider erst ab nächstem Jahr in der Lage, diese chemische Fabrik zur Delaborierung der noch zahlreich aufgefundenen Kampfstoffe in Betrieb zu nehmen. Das ist eine Aufgabe, die fast ohne gesetzlichen Auftrag — weil sie eigentlich in Länderzuständigkeit fällt — von der Bundeswehr wahrgenommen wird. Die Fabrik geht nächstes Jahr in Betrieb und wird dann allein mit dem Material, das in Munster lagert, mindestens. zwei Jahre beschäftigt sein. Dazu kommt noch das Hamburger Material und wahrscheinlich noch einiges anderes, so daß Sie davon ausgehen können, daß wir wahrscheinlich in der Lage sind, die Stoffe innerhalb eines Zeitraums von vier bis fünf Jahren zu beseitigen.</seg>
+        </u>
+        <incident type="action">
+          <desc>Abg. Dr. Zumpfort [FDP] meldet sich zu einer weiteren Zusatzfrage</desc>
+        </incident>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u224" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg265">Nein. Sie dürfen in diesem Fall nur eine Zusatzfrage stellen. Es tut mir leid. Damit ist dieser Fragenkomplex beantwortet. Ich rufe die Frage 72 des Herrn Abgeordneten Voigt (Sonthofen)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg266">auf. — Er ist nicht im Raum. Deshalb wird die Frage schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 73 der Frau Abgeordneten Dr. Timm auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg267">Hat der Bundesverteidigungsminister ein Gespräch mit den Oberkommandierenden der NATO-Luftwaffen über Fluglärm und Flugsicherheit geführt, wie die Presse meldete, und welche Entscheidungen wurden gegebenenfalls in der Besprechung getroffen? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u225" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg268">Gestatten Sie, Frau Kollegin, daß ich beide Fragen im Zusammenhang beantworte?</seg>
+        </u>
+        <note type="speaker">Frau Dr. Timm (SPD) :</note>
+        <u who="#Q1554957" xml:id="ParlaMint-DE_1979-09-27-08-175.u226" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg269">Ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u227" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg270">Dann rufe ich auch die Frage 74 der Frau Abgeordneten Dr. Timm auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg271">Welchen Auftrag erhielt die eingesetzte Arbeitsgruppe Tiefflug, und wann ist mit ersten Ergebnissen zur Linderung der heutigen Fluglärmbelastung zu rechnen?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u228" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg272">Es trifft zu, daß der Bundesminister der Verteidigung das Thema Fluglärmbelastung in den Mittelpunkt des Treffens der Oberbefehlshaber der NATO-Luftstreitkräfte vom 29. August 1979 gestellt hat, an dem er persönlich teilnahm. Der Minister tat dies in der Absicht, die Oberbefehlshaber aufzufordern, alles zu tun, was der Verringerung der Fluglärmbelastung der Bevölkerung dienlich sein kann. Im Verlauf dieser Tagung wurden die mit dem Flugbetrieb, der Flugsicherheit und der Luftraumstruktur zusammenhängenden Fragen hinsichtlich ihrer Auswirkungen auf den Lärm besprochen. Alle Befehlshaber sind sich der Bedeutung einer positiven Einstellung der Bevölkerung zur Landesverteidigung für die Einsatzbereitschaft der Streitkräfte voll bewußt. Nun zu Ihrer zweiten Frage. Es wurde beschlossen, eine multinationale Arbeitsgruppe mit Untersuchungen über eine bessere und damit gerechtere Verteilung der Fluglärmbelastung sowie der Überwachung des Tieffluges zu beauftragen. Unter anderem werden folgende Einzelprobleme auf ihre Realisierbarkeit überprüft: das sogenannte HighLow-High-Konzept — das bedeutet hohes Anfliegen zum Zielort, dort konzentriert Tiefflugübungen und anschließend Rückflug in größeren Höhen —; die flexiblere Nutzung des Tiefflughöhenbandes — hier soll untersucht werden, ob der ganze Flug in einer bestimmten Höhe durchgeführt werden muß oder ob Streckenabschnitte in dem oberen Bereich des Tiefflughöhenbandes geflogen werden können —; variable Geschwindigkeiten; gemeinsame Luftraumbeobachtung mit den Alliierten; Koordinierung auch von kleineren Übungen auf Geschwaderebene. Dabei ist davon auszugehen, daß die Verteidigungsbereitschaft der NATO-Luftstreitkräfte in vollem Umfang aufrechterhalten werden muß. Wann mit ersten Ergebnissen zu rechnen ist, kann angesichts der Vielschichtigkeit des Problems und der notwendigen Zusammenarbeit mit den NATO-Partnern zur Zeit leider noch nicht gesagt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u229" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg273">Eine Zusatzfrage, Frau Kollegin Dr. Timm.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Timm (SPD) :</note>
+        <u who="#Q1554957" xml:id="ParlaMint-DE_1979-09-27-08-175.u230" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg274">Herr Staatssekretär, geht man denn bei diesen Untersuchungen davon aus, daß eine gleichmäßigere Verteilung der regionalen Konzentration zu einer Entlastung der Bevölkerung, was die gegenwärtige Fluglärmbelästigung angeht, führen könnte?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u231" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg275">Frau Kollegin, da Sie es vor allen Dingen mit dem schwierigen Problem des Fluglärms an der vorderen Bergstraße zu tun haben, wissen Sie wahrscheinlich inzwischen auch um die Probleme, die auf unserer Seite zu lösen sind. Wir haben die große Tiefflugbeschränkung im Bereich des Flughafens Frankfurt mit seinen Steig- und Sinkflügen aus dem kommerziellen Bereich, wir haben das Kernkraftwerk Biblis und eine ganze Reihe von anderen Beschränkungen, so daß teilweise Flugschneisen von nur 8 km. Breite übrigbleiben, durch die dann der ganze Nord-Süd-Flugverkehr hindurchgeführt werden muß. Wir wissen, wie sehr der Bevölkerung in diesen Regionen dieses Problem auf den Nägeln brennt. Wir suchen händeringend nach Möglichkeiten, es zu lösen, indem wir auffächern; aber — wie gesagt — die objektiven Daten auf der Erde machen es den Fliegern außerordentlich schwer, dies zu erreichen. Wir bemühen uns, dort Fluglärm abzubauen; ob uns das letztlich gelingt, ist die große Frage.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u232" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg276">Eine weitere Zusatzfrage, Frau Kollegin.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Timm (SPD) :</note>
+        <u who="#Q1554957" xml:id="ParlaMint-DE_1979-09-27-08-175.u233" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg277">Ist die Arbeitsgruppe auch mit der Prüfung der Frage beauftragt, ob die NATO-Luftwaffeneinheiten zur Einhaltung bestimmter Flugzeiten angehalten werden können und wie man diese eventuell kontrollieren könnte?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u234" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg278">Auch dies wird versucht. Gerade in diesem Bereich haben wir Fortschritte gemacht. Die Einhaltung einer sogenannten Mittagspause steht hier immer im Mittelpunkt der Diskussion. Eine solche Pause führt aber dazu, daß die Einheiten, da sie ihre Flugstunden im Laufe des Jahres erreichen müssen, den Flugbetrieb in die Abendstunden verlagern müssen, was wiederum große Schwierigkeiten und Belästigungen der Bevölkerung mit sich brächte. Man wird abwägen müssen, was man tut. Dies alles ist Gegenstand der Gespräche.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u235" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg279">Eine weitere Zusatzfrage, Frau Kollegin, bitte.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Timm (SPD) :</note>
+        <u who="#Q1554957" xml:id="ParlaMint-DE_1979-09-27-08-175.u236" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg280">Ich möchte eine Zusatzfrage daran knüpfen. Eröffnet der Prüfungsauftrag auch die Möglichkeit, die Einhaltung solcher Flugzeiten zu überprüfen oder zu gewährleisten, denn ich weiß, daß die Flugzeiten überschritten werden und die Beweislast dann bei der belästigten und gestörten Bevölkerung liegt?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u237" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg281">Der Inspekteur der Luftwaffe hat deshalb in den letzten Wochen schon angeordnet, daß Beobachtungstrupps an die kritischen Stellen gebracht werden. Sie befinden sich bereits dort und versuchen, festzustellen, ob es Verstöße gibt und von wem sie kommen, weil die Zivilbevölkerung natürlich teilweise völlig überfordert ist, die Identifizierung vorzunehmen. Wir wiederum stehen vor der Schwierigkeit, daß Tiefflug gerade zur Ausschaltung der Radarüberwachung erforderlich ist. Es wird also bewußt so geflogen, daß nicht kontrolliert werden kann — mit der Folge, daß wir wiederum nicht wissen, wo im Augenblick gerade geflogen wird, es sei denn, man kontrolliert nachträglich die Flugpläne. Ich will Ihnen das nur darstellen, damit Sie ermessen können, wo unsere Schwierigkeiten liegen. Aber wir tun jetzt einen weiteren Schritt und versuchen, auch die Alliierten dazu zu bringen, ihrerseits in diese Kontrollaufgaben mit einzusteigen und uns dabei zu helfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u238" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg282">Sie haben noch die Möglichkeit zu einer weiteren Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Timm (SPD):</note>
+        <u who="#Q1554957" xml:id="ParlaMint-DE_1979-09-27-08-175.u239" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg283">Rechtfertigen denn die Aussichten, daß sich die Alliierten solchen Maßnahmen anschließen, einigermaßen Ihre Bemühungen?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u240" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg284">Ich hatte schon befürchtet, Sie würden fragen, ob der Fluglärm drastisch gesenkt werden könne. Das könnte ich nämlich heute nicht versprechen. Aber ich glaube sicher, daß wir die Mitwirkungsbereitschaft unserer alliierten Partner haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u241" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg285">Zusatzfrage, Herr Abgeordneter Flämig.</seg>
+        </u>
+        <note type="speaker">Flämig (SPD) :</note>
+        <u who="#Q1511581" xml:id="ParlaMint-DE_1979-09-27-08-175.u242" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg286">Herr Staatssekretär, gibt es in diesem Zusammenhang Bemühungen Ihres Hauses oder Anweisungen an die NATO-Luftwaffe, bei derartigen Tiefflugübungen Lärmbelästigungen in Kurorten wegen der damit verbundenen Gefahren für die Kurgäste zu vermeiden?</seg>
+        </u>
+        <note type="speaker">Dr. von Bülow, Parl. Staatssekretär:</note>
+        <u who="#Q66619" xml:id="ParlaMint-DE_1979-09-27-08-175.u243" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg287">Es gibt die dringende Bitte an die Piloten der Bundeswehr, Kurorte zu umfliegen. Wenn Sie sich aber die Karte der Kurorte der Bundesrepublik anschauen, werden Sie feststellen, daß es fast keinen Landstrich gibt, der nicht mit irgendwelchen Kurorten gesegnet ist. Es ist für die Piloten fast kein Durchkommen mehr, so daß es leider Gottes immer wieder dazu kommen wird, daß auch Kurorte belästigt werden.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Flämig [SPD] : Auch Herzkurorte?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u244" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg288">Keine weiteren Zusatzfragen. Ich danke Ihnen, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit auf. Herr Parlamentarischer Staatssekretär Zander steht zur Beantwortung zu Verfügung. Die Fragen 48, 49, 50, 51, 75 und 77 der Abgeordneten Susset, Kiechle, Kuhlwein und Sieler werden auf Wunsch der Fragesteller schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 81 der Frau Abgeordneten Hürland auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg289">Ist die Bundesregierung bereit, auch jenen Haushalten Heizkostenzuschüsse zu gewähren, denen als einzige Energiequelle Elektrizität, wie z. B. Wulfen-Barenberg, zur Verfügung steht und die durch die geplante Strompreiserhöhung möglicherweise überdurchschnittlich belastet werden? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1979-09-27-08-175.u245" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg290">Frau Kollegin Hürland, der Gesetzentwurf der Bundesregierung über die Gewährung eines einmaligen Heizölkostenzuschusses verfolgt ein begrenztes Ziel. Er will einkommensschwachen Bevölkerungskreisen, die durch den in seinem Ausmaß nicht vorhersehbaren Preisanstieg bei leichtem Heizöl besonders hart betroffen sind, einmalig für die Heizperiode 1979/80 eine Milderung dieser Härten bringen und ihnen zugleich die auf die Dauer unumgängliche Anpassung an höhere Heizkosten erleichtern. Nicht beabsichtigt ist dagegen die Gewährung allgemeiner Heizkostenzuschüsse. Preiserhöhungen des Ausmaßes und in einem so kurzen Zeitraum, wie sie seit Anfang dieses Jahres bei leichtem Heizöl zu verzeichnen sind, nämlich von 90 bis 100 %, hat es bei anderen Heizarten nicht gegeben. Von daher erschien eine Einbeziehung anderer Heizenergien in den Anwendungsbereich des Gesetzes nicht geboten. Was die künftige Kostenentwicklung bei anderen Heizarten betrifft, die Sie in Ihrer Frage hinsichtlich des Heizstromes ansprechen, so ist hier eine konkrete Vorhersage nicht möglich. Die Bundesregierung erwartet jedoch in absehbarer Zeit bei anderen Heizenergien keine Preisentwicklungen, die der bei leichtem Heizöl vergleichbar wären.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u246" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg291">Zusatzfrage, Frau Kollegin Hürland.</seg>
+        </u>
+        <note type="speaker">Frau Hürland (CDU/CSU) :</note>
+        <u who="#Q394550" xml:id="ParlaMint-DE_1979-09-27-08-175.u247" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg292">Herr Staatssekretär, finden sie das nicht ungerecht angesichts der Tatsache, daß man zunächst Pilotprogramme eingerichtet hat, wie z. B. in Wulfen-Barenberg — ich habe das in der Frage dargelegt —, bei denen als einzige Energiequelle Elektrizität zur Verfügung steht und die Bundesregierung jetzt der Erhöhung des Preises für Elektrizität zugestimmt hat?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1979-09-27-08-175.u248" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg293">Frau Kollegin, ich kann nur davon ausgehen, daß es bei einer Energieart, nämlich dem leichten Heizöl, innerhalb eines Jahres fast eine Verdoppelung der Preise gegeben hat und daß eine solche Entwicklung bei anderen Energieträgern nicht zu beobachten war, auch nicht regional begrenzt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u249" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg294">Keine weitere Zusatzfrage. Ich rufe dann die Frage 82 der Frau Abgeordneten Hürland auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg295">Ist der Bundesregierung bekannt, daß die Erlaubnis zur vorübergehenden Ausübung des ärztlichen Berufs gemäß § 10 der Bundesärzteordnung sehr restriktiv von den Ländern gehandhabt wird und ausländische Ärzte diese Erlaubnis nicht mehr erhalten, selbst wenn sie 14 Jahre und länger in Krankenhäusern in der Bundesrepublik tätig waren, und ist die Bundesregierung in der Lage und bereit, etwa durch allgemeine Verwaltungsvorschriften auf eine Änderung dieser Praxis hinzuwirken? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1979-09-27-08-175.u250" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg296">Frau Kollegin Hürland, die restriktive Handhabung der Erteilung einer Erlaubnis zur vorübergehenden Ausübung des ärztlichen Berufes durch die zuständigen Länderbehörden entspricht den Vorschriften der Bundesärzteordnung. § 10 der Bundesärzteordnung läßt grundsätzlich die Erteilung einer solchen Erlaubnis nur für vier Jahre, in bestimmten Fällen für einen Zeitraum bis zu sieben Jahren zu. Eine Erteilung einer Erlaubnis oder deren Verlängerung über diese Zeiträume hinaus ist nur ausnahmsweise zulässig, wenn dies im Interesse der ärztlichen Versorgung der Bevölkerung liegt oder wenn der Antragsteller asylberechtigt ist. Die Berufserlaubnis nach § 10 der Bundesärzteordnung ist ihrer Natur nach eine vorübergehende Erlaubnis und darf nur befristet erteilt werden. Die Erteilung einer zur dauernden Ausübung des ärztlichen Berufes berechtigenden Approbation als Arzt an Ausländer, die nicht Staatsangehörige der Mitgliedstaaten der EG oder heimatlose Ausländer sind, soll nach der Bundesärzteordnung die Ausnahme und nur in besonderen Einzelfällen oder aus Gründen des öffentlichen Gesundheitsinteresses möglich sein. An den Einzelfall sind strenge Anforderungen zu stellen. Nach der Rechtsprechung des Bundesverwaltungsgerichts kann ein solcher Einzelfall nur angenommen werden, wenn die Besonderheiten in den persönlichen Verhältnissen des Antragstellers ihn bei umfassender Würdigung seiner Lebensumstände vom Regelfall eines ausländischen Arztes unterscheiden, der im Geltungsbereich des Gesetzes tätig sein will. Im Hinblick darauf, daß für die nächsten Jahre mit einer erheblich erhöhten Zahl von deutschen Absolventen einer ärztlichen Ausbildung zu rechnen ist, denen eine Krankenhaustätigkeit ermöglicht werden sollte, ist es auch zweckmäßig, die Tätigkeit von ausländischen Ärzten aus Ländern, die nicht der EG angehören, auf das für eine allerorts gesicherte ärztliche Versorgung erforderliche Maß zu beschränken. Diese Ärzte werden in ihren Heimatländern im allgemeinen auch wesentlich dringender für die Gesundheitsversorgung benötigt als in der Bundesrepublik Deutschland.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u251" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg297">Frau Kollegin Hürland, eine Zusatzfrage. .</seg>
+        </u>
+        <note type="speaker">Frau Hürland (CDU/CSU) :</note>
+        <u who="#Q394550" xml:id="ParlaMint-DE_1979-09-27-08-175.u252" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg298">Herr Staatssekretär, halten Sie es für vertretbar, daß. ausländische Ärzte bei uns immer noch unter dem Begriff der Entwicklungshilfe laufen und man ihnen dieses auch sagt, obwohl sie in der Bundesrepublik erwiesenermaßen den damals bestehenden Ärztemangel wesentlich behoben haben?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1979-09-27-08-175.u253" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg299">Frau Kollegin Hürland, aus den von mir soeben zitierten gesetzlichen Grundlagen geht ja schon hervor, daß sie die Erlaubnis erteilt bekommen, wenn sie irgendwo dringend zur Gesundheitsversorgung unserer Bevölkerung benötigt werden.</seg>
+          <vocal type="exclamat">
+            <desc>Frau Hürland [CDU/CSU]: Eben nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg300">Dies aber, Frau Kollegin Hürland, nachzuprüfen, kann selbstverständlich nicht Sache der Bundesregierung sein. Ich finde, in den Fällen, in denen sie dringend benötigt werden, um die gesundheitliche Versorgung der Bevölkerung sicherzustellen, sind sie ein ganz wichtiges Element unserer Gesundheitsversorgung und sollten keineswegs mit diskriminierenden Bezeichnungen oder Bewertungen versehen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u254" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg301">Zweite Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Frau Hürland (CDU/CSU) :</note>
+        <u who="#Q394550" xml:id="ParlaMint-DE_1979-09-27-08-175.u255" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg302">Leider geschieht das in der Praxis. Frau Präsidentin, meine Frage ist aber auch nicht ganz beantwortet worden. Darf ich das vielleicht noch vor meiner zweiten Zusatzfrage einfügen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u256" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg303">Wenn Sie es vielleicht geschickt in Ihrer zweiten Zusatzfrage unterbringen könnten.</seg>
+        </u>
+        <note type="speaker">Frau Hürland (CDU/CSU) :</note>
+        <u who="#Q394550" xml:id="ParlaMint-DE_1979-09-27-08-175.u257" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg304">Ich habe gefragt, ob die Bundesregierung möglicherweise daran denkt, Verwaltungsvorschriften zu erlassen. Halten Sie es für gerechtfertigt, daß beispielsweise arbeitslose ausländische Ärzte, die unter den § 10 der Bundesärzteordnung fallen, der Versichertengemeinschaft der Arbeitslosenversicherung auf lange Zeit zur Last fallen, und halten Sie nicht eine Harmonisierung des allgemeinen Ausländerrechts für notwendig? Ich denke hier besonders an die vielen Familienangehörigen, Herr Staatssekretär, die ja durch die restriktive Handhabung des § 10 der Bundesärzteordnung besonders mitbeeinträchtigt sind, wenn dieser Zustand mehr als zehn, zum Teil 20 Jahre dauerte und die Erlaubnis jetzt nicht mehr verlängert wird.</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1979-09-27-08-175.u258" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg305">Frau Kollegin Hürland, ähnliche Überlegungen würden sich sicher auch bei einer Reihe anderer Berufe ergeben. Was speziell die Bundesärzteordnung angeht, so ist nicht beabsichtigt, den § 10 zu ändern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u259" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg306">Danke schön, Herr Staatssekretär. Die Fragen aus Ihrem Geschäftsbereich sind damit beantwortet. Ich rufe den Geschäftsbereich des Bundesministers für Verkehr und für das Post- und Fernmeldewesen auf. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Wrede zur Verfügung. Die Fragen 12 und 13 der Abgeordneten Frau Dr. Lepsius sollen auf Wunsch der Fragestellerin schriftlich beantwortet werden. Die Antworten werden als Anlagen abgedruckt. Ich rufe Frage 83 des Herrn Abgeordneten Kolb auf. — Er ist nicht im Saal. Frage 83 wird — ebenso wie Frage 84 des Herrn Abgeordneten Kolb — schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe Frage 85 des Herrn Abgeordneten Broll auf. — Ich sehe ihn nicht im Saal. Frage 85 wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Frage 86 des Herrn Abgeordneten Weisskirchen (Wiesloch)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg307">wird ebenfalls schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich danke Ihnen, verehrter Herr Staatssekretär, und bedaure, daß die Fragen aus Ihrem Geschäftsbereich gar nicht zur Sprache kommen konnten.</seg>
+          <vocal type="exclamat">
+            <desc>Wehner [SPD]: Eine unglaubliche Sache! Da werden Leute bestellt, sitzen da und alles für die Katz! Vorbildliche Sache — des Parlaments, würde ich sagen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg308">— Ja, das ist eine schlimme Sache. Der Zwischenruf ist sicher absolut berechtigt, aber ich kann hier leider keine andere Auskunft geben.</seg>
+          <vocal type="exclamat">
+            <desc>Wehner [SPD]: Sie können nichts dazu, das ist zuzugeben!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg309">Ich rufe den Geschäftsbereich des Bundesministers für Raumordnung, Bauwesen und Städtebau auf. Frage 87 des Abgeordneten Dr. Freiherr Spies von Büllesheim und die Fragen 88 und 89 des Abgeordneten Dr. Jahn (Münster)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg310">sollen auf Wunsch der Fragesteller schriftlich beantwortet werden. Die Antworten werden als Anlagen abgedruckt. Ich rufe den Geschäftsbereich des Bundesministers für Bildung und Wissenschaft auf. Alle Fragen hierzu sind von den Fragestellern zurückgezogen worden. Es handelt sich um die Fragen 90 und 91 der Frau Abgeordneten Simonis, die Fragen 92 und 93 des Herrn Abgeordneten Thüsing und um die Frage 94 des Herrn Abgeordneten Weisskirchen (Wiesloch).</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg311">Ich rufe den Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit auf. Der Herr Parlamentarische Staatssekretär Brück steht zur Beantwortung zur Verfügung. Ich rufe die Frage 95 des Herrn Abgeordneten Bindig auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg312">Trifft es zu, daß die Gesellschaft für Technische Zusammenarbeit (GTZ)</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg313">und ihr Aufsichtsratsvorsitzender, Staatssekretär Dr. Carl-Werner Sanne vom Bundesministerium für wirtschaftliche Zusammenarbeit, die Auffassung vertreten haben, daß in manchen Entwicklungsländern die Grenze der Absorptionsfähigkeit für Großprojekte mit ausländischer Finanzierung erreicht sei, und wenn ja, teilt die Bundesregierung diese Meinung, und wie läßt sich diese Meinung mit der Tatsache vereinbaren, daß eine Vielzahl förderungswürdiger Projekte in, der Planungsreserve verbleiben muß, weil für ihre Realisierung nicht genügend Mittel zur Verfügung stehen? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär beim Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1979-09-27-08-175.u260" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg314">Herr Kollege Bindig, es trifft zu, daß die Geschäftsführung der deutschen Gesellschaft für Technische Zusammenarbeit im allgemeinen Teil ihres.. Geschäftsberichts 1978 die Auffassung äußert, daß manche Entwicklungsländer an der Grenze ihrer Absorptionsfähigkeit für Großprojekte mit ausländischen Finanzierungen angekommen sind. Dieser Satz steht einleitend in einem Kapitel des Geschäftsberichts, das die Aufgabe der technischen Zusammenarbeit näher beschreibt, Engpaßprobleme der Entwicklungsländer in Management, Organisation und Verfügbarkeit qualifizierten Personals zu lösen. Die Bundesregierung teilt die Auffassung der GTZ und ihres Aufsichtsratsvorsitzenden, daß es zu den Aufgaben der deutschen Gesellschaft für Technische Zusammenarbeit gehört, die Planungskapazität der Entwicklungsländer auch mit dem Ziel auszuweiten, Großprojekte innerhalb möglichst kurzer Zeiträume prüfen und durchführen zu können. Es war Absicht des Geschäftsberichts der GTZ, dies deutlich zu machen. Das Problem der Absorptionsfähigkeit ist vielschichtig und nicht nur auf Großprojekte bezogen. Die Absorptionsfähigkeit ist in den einzelnen Entwicklungsländern unterschiedlich groß. Unzureichende Absorptionskapazität ist vielfach ein Ausdruck des niedrigen Entwicklungsstandes und der Bedürftigkeit für ausländische Unterstützung. Die Bundesregierung beabsichtigt, vor allem den am wenigsten entwickelten Ländern verstärkt dabei zu helfen, ihre Entwicklungsvorhaben zu planen und durchzuführen, um ihre Absorptionsfähigkeit zu erweitern. Sie sieht keine Schwierigkeiten, die öffentliche Entwicklungshilfe in den nächsten Jahren in dem geplanten Ausmaß zu steigern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u261" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg315">Zusatzfrage. Herr Abgeordneter Bindig.</seg>
+        </u>
+        <note type="speaker">Bindig (SPD) :</note>
+        <u who="#Q105884" xml:id="ParlaMint-DE_1979-09-27-08-175.u262" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg316">Herr Staatssekretär, teilen Sie meine Meinung, daß es sich bei den Fragen der Administrierbarkeit um ein allgemeines strukturelles Defizit der Entwicklungsländer handelt, das insbesondere den ärmsten und am meisten betroffenen Entwicklungsländern nicht — vielleicht gar, um ungenügende Unterstützung oder Hilfeleistung zu rechtfertigen — vorgehalten werden sollte? Brück, Parl. Staatsekretär: Ich habe schon gesagt, daß mangelnde administrative Kapazität auch ein Zeichen für Unterentwicklung ist und daß es Aufgabe unserer Hilfe auch ist, hier Abhilfe zu schaffen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u263" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg317">Keine weitere Zusatzfrage. Ich rufe die Frage 96 des Herrn Abgeordneten Bindig auf:</seg>
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg318">Wie beurteilt die Bundesregierung in diesem Licht die Anhörung des Bundestagsausschusses für wirschaftliche Zusammenarbeit über die Nord-Süd-Verflechtung, die ergeben hat, daß die Absorptionsfähigkeit der Länder in der Dritten Welt für entwicklungspolitische Maßnahmen noch nicht ausgeschöpft ist, und sieht die Bundesregierung in dem Argument der Begrenztheit der Absorptionsfähigkeit in der Dritten Welt eine Gefahr für die Bereitschaft der Öffentlichkeit, Entwicklungspolitik zu unterstützen? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1979-09-27-08-175.u264" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg319">Bei der Anhörung des Bundestagsausschusses für wirtschaftliche Zusammenarbeit über die Nord-Süd-Verflechtung wurde hervorgehoben, daß genügend Spielraum für zusätzliche Investitionen in der Dritten Welt vorhanden ist, jedoch auch auf die in der Antwort auf die Frage 95 dargestellte Vielschichtigkeit des Problems hingewiesen. Die Bundesregierung teilt diese Auffassung. Sie ist der Meinung, daß dieses Thema im Sinn der Antwort auf die Frage 95 differenziert behandelt werden muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u265" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg320">Zusatzfrage, Herr Abgeordneter Bindig.</seg>
+        </u>
+        <note type="speaker">Bindig (SPD) :</note>
+        <u who="#Q105884" xml:id="ParlaMint-DE_1979-09-27-08-175.u266" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg321">Herr Staatssekretär, läßt sich die apostrophierte sogenannte Grenze der Absorptionsfähigkeit nicht dadurch auflösen oder doch weit hinausschieben, daß im Rahmen von Projekten der technischen Zusammenarbeit, aber auch der finanziellen Zusammenarbeit die Serviceleistungen ausgeweitet werden, und sollten die GTZ und der von mir erwähnte beamtete Staatssekretär bei öffentlichen Erörterungen dieses Problems nicht besser auf diesen Gesichtspunkt abstellen?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1979-09-27-08-175.u267" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg322">Herr Kollege, es war Absicht der GTZ, mit dem, was ich vorher zitiert habe, darauf hinzuweisen, daß es gerade ihre Aufgabe ist, durch Zurverfügungstellung beispielsweise von planerischen Experten diesen Ländern zu helfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1979-09-27-08-175.u268" ana="#chair">
+          <seg id="ParlaMint-DE_1979-09-27-08-175.seg323">Keine weitere Zusatzfrage. Die Frage 97 des Herrn Abgeordneten Kittelmann wird schriftlich beantwortet, da der Fragesteller nicht im Saal ist. Die Antwort wird als Anlage abgedruckt. Wir sind am Ende der Fragestunde und der heutigen Sitzung. Ich berufe die nächste Sitzung für Mittwoch, den 10. Oktober 1979, 13 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.30 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

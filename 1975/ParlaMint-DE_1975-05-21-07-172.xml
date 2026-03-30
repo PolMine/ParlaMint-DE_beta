@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1975-05-21-07-172">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 7. Wahlperiode, 172. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 21.05.1975 (172. Sitzung der 7. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 7, Session 172 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1975-05-21 (Session 172 in Legislative Period 7)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="172">172. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">7. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="172">Session 172</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">Legislative Period 7</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 21.05.1975</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1975-05-21</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488222/b10bae395e887aac9ac08afbd1da62fc/pp07-data.zip</idno>
+          <date when="1975-05-21">1975-05-21</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1975-05-21">1975-05-21</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksache 7/3630 —</head>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg1">Die Sitzung ist eröffnet. Meine Damen und Herren, nach einer interfraktionellen Vereinbarung soll Punkt 3 der Tagesordnung — Gesetzentwurf zur Änderung des Revisionsrechts in Zivilsachen abgesetzt werden. — Das Haus ist damit einverstanden; dann ist so beschlossen. Es liegt Ihnen eine Liste von Vorlagen vor, die keiner Beschlußfassung bedürfen und die gemäß § 76 Abs. 2 der Geschäftsordnung den zuständigen Ausschüssen überwiesen werden sollen:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg2">Betr.: Unterrichtung durch die deutsche Delegation in der Interparlamentarischen Union über die Frühjahrstagung der IPU in Colombo vom 31. März bis 6. April 1975 Drucksache 7/3614 -</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg3">zuständig: Auswärtiger Ausschuß Betr.: Leistung einer überplanmäßigen Ausgabe bei Kap. 23 02 Tit. 896 01 - Beitrag der Bundesrepublik Deutschland zum Indusbecken-Entwicklungsfonds Bezug: § 37 Abs. 4 BHO — Drucksache 7'3619 zuständig: Haushaltsausschuß Erhebt sich gegen die vorgeschlagenen Überweisungen Widerspruch? — Das ist nicht der Fall; es ist so beschlossen. Ich rufe Punkt 1 der Tagesordnung auf: Fragestunde — Drucksache 7/3630 —</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg4">Der Ältestenrat hat vorgeschlagen, daß wir auch in dieser Woche zwei Fragestunden abweichend von den Richtlinien für die Fragestunde mit einer jeweiligen Dauer von 90 Minuten durchführen. Gemäß § 127 unserer Geschäftsordnung muß diese Abweichung von der Geschäftsordnung beschlossen werden. Erhebt sich Widerspruch? — Das ist nicht der Fall; es ist so beschlossen. Wir kommen zunächst zu den Fragen aus dem Geschäftsbereich des Bundesministers für Forschung und Technologie. Zur Beantwortung steht Herr Staatssekretär Haunschild zur Verfügung. Ich rufe die Frage 1 des Herrn Abgeordneten Dr. Stavenhagen auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg5">Welches waren die Gründe für die Vergabe eines Forschungsauftrags über „Wärmeanlagen in Großgebäudekomplexen" zum Preis von zwei Millionen DM an die Vereinigte Esslinger Wohnungsunternehmen im Wahlkreis des Parlamentarischen Staatssekretärs des Bundesforschungsministeriums, Dr. Hauff? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haunschild, Staatssekretär im Bundesministerium für Forschung und Technologie:</note>
+        <u who="#Q1577233" xml:id="ParlaMint-DE_1975-05-21-07-172.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg6">Es handelt sich um einen Forschungsauftrag über Wärmepumpenanlagen zur Raumheizung und Warmwasserbereitung. Derartige Anlagen sind ein wichtiges Mittel für rationelle Energieverwendung. Es fehlen allerdings Erfahrungen über die Anwendungsmöglichkeiten und den wirtschaftlichen Einsatz. Die Bundesregierung versucht daher unter anderem mit Demonstrationsvorhaben die notwendigen Kenntnisse zu gewinnen. Das vom Bundesminister für Raumordnung, Bauwesen und Städtebau seit dem 1. September 1969 als Studien- und Modellvorhaben ausgewiesene Sanierungsprojekt Schelztorstraße in Esslingen bietet aufgrund der Verschiedenheit der beabsichtigten Baustufen die Möglichkeit zur Kombination unterschiedlichster Betriebsarten und Anforderungen. Mit der Installierung einer Wärmepumpenanlage können daher innerhalb kürzester Frist für einen breiten Bereich rationeller Energieverwendung in Wohnanlagen Erfahrungen gewonnen werden. Die im üblichen Verfahren eingeschalteten unabhängigen Gutachter haben das Projekt geprüft und befürwortet. Die wissenschaftliche Begleituntersuchung wird von einem bekannten Wissenschaftler durchgeführt. Auch die baden-württembergische Landesregierung hat in dem Bericht des Ministeriums für Wirtschaft, Mittelstand und Verkehr über Möglichkeiten und Maßnahmen der rationellen Energieverwendung vom März 1975 den Einbau von Wärmepumpenanlagen in das Projekt Schelztorstraße ausdrücklich als ein Demonstrations- und Studienobjekt hervorgehoben, das dem Mangel an Erfahrungen über den Einsatz von Wärmepumpensystemen in Wohnanlagen abhelfen kann. Der ursprünglich an den Bundesminister für Raumordnung, Bauwesen und Städtebau gerichtete Antrag des Wohnungsbauunternehmens ist am 27. Februar 1975 vom Bundesminister für Forschung und Technologie nach eingehender Prüfung bewilligt worden. Mit der Zuwendung werden nur die Mehrkosten der Wärmepumpenanlagen gegenüber dem konventionellen Heizungssystem abgedeckt. Der Antragsteller ist außerdem verpflichtet worden, Wärmeisolierungsmaßnahmen über die vorgeschriebene Norm hinaus zu ergreifen. Im übrigen war das Vorhaben in den Übersichten enthalten, die im November 1974 bei den Erörterungen des Haushalts 1975 vorgelegt worden sind. Die Berichterstatter des Haushaltsausschusses — der Herr Fragesteller ist Mitberichterstatter für den Haushalt des Bundesministeriums für Forschung und Technologie — haben damals keine Bedenken erhoben.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg7">Eine Zusatzfrage, Herr Abgeordneter Dr. Stavenhagen!</seg>
+        </u>
+        <note type="speaker">Dr. Stavenhagen (CDU/CSU):</note>
+        <u who="#Q1878207" xml:id="ParlaMint-DE_1975-05-21-07-172.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg8">Herr Staatssekretär, gab es andere Interessenten für dieses Projekt, wenn ja, welche?</seg>
+        </u>
+        <note type="speaker">Haunschild, Staatssekretär im Bundesministerium für Forschung und Technologie:</note>
+        <u who="#Q1577233" xml:id="ParlaMint-DE_1975-05-21-07-172.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg9">Es gab damals keine anderen Interessenten für dieses Projekt. Eine Ausschreibung hatte nicht stattgefunden, weil es bei Demonstrationsvorhaben im allgemeinen nicht möglich ist, in sehr konkreter Form eine allgemeine Ausschreibung zu machen. Wie es bei solchen Demonstrationsvorhaben die Regel ist, stand ein von außen eingebrachter konkreter Vorschlag zur Diskussion, der, wie ich sagte, im normalen Begutachtungsverfahren geprüft und befürwortet worden ist.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg10">Keine weitere Zusatzfrage. Ich rufe die Frage 2 des Abgeordneten Dr. Stavenhagen auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg11">Aus welchen Gründen behauptete Bundesminister Matthöfer in seiner Antwort auf meine mündliche Anfrage vorn 18. April 1975, daß bisher nur ein einziges Projekt im Landkreis Esslingen mit einem Betrag von 155 300 DM gefördert wurde, obwohl sich nach Drucksache 7/3595, Seite 25, ergibt, daß die Vereinigte Esslinger Wohnungsunternehmen mbH eine Zuwendung von zwei Millionen DM erhält? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haunschild, Staatssekretär im Bundesministerium für Forschung und Technologie:</note>
+        <u who="#Q1577233" xml:id="ParlaMint-DE_1975-05-21-07-172.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg12">Die Antwort des Bundesministeriums für Forschung und Technologie in der Fragestunde vom 18. April 1975 war korrekt. Dank der Datenbank des BMFT war es damals in der Kürze der zur Beantwortung der Mündlichen Anfrage zur Verfügung stehenden Zeit möglich, entsprechend der Fragestellung für das Jahr 1974 abschließend mitzuteilen, welche Fördermittel nach Frankfurt, von dem ein Teil Wahlkreis von Bundesminister Matthöfer ist, und welche Mittel in den Landkreis Esslingen geflossen sind. Dies waren für 1974 zusammen 214 Vorhaben. Nur für 1974 ist also am 18. April eine zahlenmäßige Auskunft gegeben worden. Für 1975 hingegen konnte die Datenbank noch nicht den aktuellen Stand der Planungen wiedergeben, da der Haushalt 1975 erst kurz davor verabschiedet worden war und die Einspeisung in die Datenbank naturgemäß von der Erfüllung formaler Kriterien abhängig ist. Eine Ermittlung im „Handverfahren", also durch Umfrage im Ministerium, ist innerhalb weniger Tage nicht möglich und würde außerdem einen unverhältnismäßig hohen Verwaltungsaufwand bedeuten. Deshalb ist, wie im Protokoll der 165. Sitzung des Deutschen Bundestages vom 18. April 1975 festgehalten ist, dem Herrn Abgeordneten angeboten worden, ihm zum aktuellen Stand einen Auszug aus der Datenbank für 1975 zur Verfügung zu stellen. Es ist bedauerlich, daß von dieser Möglichkeit kein Gebrauch gemacht worden ist.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Hört! Hört! bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg13">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Stavenhagen (CDU/CSU) :</note>
+        <u who="#Q1878207" xml:id="ParlaMint-DE_1975-05-21-07-172.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg14">Herr Staatssekretär, halten Sie die Antwort vom 18. April auch angesichts Ihrer soeben gemachten Aussage für korrekt, daß dieses Projekt bereits in einer Liste bei den Beratungen des Haushalts 1975 enthalten war, und wäre es nicht möglich gewesen, dies in der Antwort vom 18. April aufzuführen?</seg>
+        </u>
+        <note type="speaker">Haunschild, Staatssekretär im Bundesministerium für Forschung und Technologie:</note>
+        <u who="#Q1577233" xml:id="ParlaMint-DE_1975-05-21-07-172.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg15">Herr Abgeordneter, ich hatte bereits gesagt, daß die Antwort auf Grund der Ausdrucke der Datenbank erteilt worden ist. Eine Umfrage im „Handverfahren", wie ich es genannt habe, hätte es vielleicht, aber mit einer größeren Zeitverzögerung, ermöglicht, auch dieses Projekt in die Antwort einzubeziehen. Ein solches „Handverfahren" ließ sich aber bei insgesamt 3 000 bis 4 000 laufenden Vorhaben im BMFT in der kurzen Zeit nicht durchführen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg16">Eine Zusatzfrage des Abgeordneten Lenzer.</seg>
+        </u>
+        <note type="speaker">Lenzer (CDU/CSU) :</note>
+        <u who="#Q1080811" xml:id="ParlaMint-DE_1975-05-21-07-172.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg17">Herr Staatssekretär, darf ich aus der Tatsache, daß Minister Matthöfer, der hier ja apostrophiert ist, diese Frage nicht selber beantwortet, entnehmen, daß er sich vielleicht wieder irgendwo im Lande befindet und ein neues mehrbändiges Gutachten vorstellt?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Unruhe bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg18">Herr Kollege, diese Frage steht in keinem Zusammenhang mit der vorangegangenen Frage. Ich gehe deshalb zur nächsten Frage über. Ich danke Ihnen, Herr Staatssekretär. Die Fragen aus Ihrem Geschäftsbereich sind erledigt. Wir kommen zum Geschäftsbereich des Bundesministers für Bildung und Wissenschaft. Die Frage 3 des Herrn Abgeordneten Dr. Gölter wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Es folgt der Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit. Die Frage 4 wird auf Wunsch des Fragestellers ebenfalls schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Wir kommen zum Geschäftsbereich des Bundesministers der Verteidigung. Zunächst die Frage 5 des Herrn Abgeordneten Würtz. — Der Fragesteller ist nicht im Saal; die Frage wird schriftlich beantwortet, ebenso die Frage 6. Die Antworten werden als Anlagen abgedruckt. Frage 7 des Abgeordneten Reiser:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg19">Teilt die Bundesregierung die Auffassung des Amtes für Sicherheit der Bundeswehr", wonach „die ideologische Ausrichtung der für die Kriegsdienstverweigerung werbenden Organisationen erkennen läßt, daß hinter der Masse der Anträge nicht die Überzeugung zum humanitären Pazifismus, sondern Ablehnung der verfassungsmäßigen Grundordnung steht"? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-05-21-07-172.u14" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg20">Herr Kollege Reiser, ich bitte zu entschuldigen, daß ich die Frage, die Sie gestellt haben, nur ganz kurz beantworte: Der Bundesregierung ist die Ihrer Frage zugrunde liegende Auffassung des „Amtes für Sicherheit der Bundeswehr" als offizielle Äußerung nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u15" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg21">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Reiser (SPD) :</note>
+        <u who="#Q1612324" xml:id="ParlaMint-DE_1975-05-21-07-172.u16" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg22">Herr Staatssekretär, könnten Sie, nachdem es ein öffentliches Papier ist, das da verteilt worden ist, unter Umständen den Eindruck gewinnen, daß es sich um eine inoffizielle Meinung des Amtes handelt? Ich würde Sie nämlich daraufhin fragen wollen, ob Sie gegebenenfalls der Meinung sind, daß eine Reihe von Organisationen, die sich um die Betreuung der Kriegsdienstverweigerer kümmern, beispielsweise religiöse Organisationen der katholischen und der protestantischen Kirche, unter dieser Beurteilung laufen könnten.</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-05-21-07-172.u17" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg23">Herr Kollege Reiser, ich habe ja seinerzeit — damals noch in der Eigenschaft des Vorsitzenden des Verteidigungsausschusses — mit Ihnen an der Besprechung oder dem Vortrag in Köln beim Amt für Sicherheit teilgenommen. Mir ist selbstverständlich bekannt, daß auch über die KDV-Organisationen diskutiert worden ist und daß in dem Papier, das Sie hier anführen, etwas darüber geschrieben ist. Diese Materialien sind den Ausschußmitgliedern damals zur Verfügung gestellt worden. Sie werden sich aber, Herr Kollege Reiser, sicherlich daran erinnern, daß in der Diskussion über den ganzen Komplex, aber auch speziell der Wehrdienstverweigerer, der Amtschef eindeutig erklärt hat, daß alle Angehörigen des Amtes das in Art. 4 Abs. 3 des Grundgesetzes verankerte Recht auf Kriegsdienstverweigerung voll respektieren. Die Bundesregierung könnte sich im übrigen die Schlußfolgerung des Amtes, daß hinter der Masse der Anträge die Ablehnung der verfassungsmäßigen Grundordnung steht — und darum geht es — nicht zu eigen machen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u18" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg24">Eine weitere Zusatzfrage des Herrn Abgeordneten Reiser.</seg>
+        </u>
+        <note type="speaker">Reiser (SPD) :</note>
+        <u who="#Q1612324" xml:id="ParlaMint-DE_1975-05-21-07-172.u19" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg25">Darf ich Sie dann fragen, wie Sie zu folgendem Satz stehen: „Die erkennbare Tendenz bei einer wachsenden Zahl von Jugendlichen, die gesellschaftliche und staatliche Ordnung als solche abzulehnen, könnte sich bei weiterer Verdichtung auf Wehrpflichtstreitkräfte allerdings bedenklich auswirken." Diese Betrachtungsweise steht ja im Gegensatz zu der Auffassung des Verteidigungsministers, die er hier schon ausgedrückt hat?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-05-21-07-172.u20" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg26">Die Bundesregierung teilt diese Auffassung nicht.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg27">Keine weitere Zusatzfrage. Ich danke Ihnen, Herr Staatssekretär. Wir kommen zum Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit. Zur Beantwortung der Fragen steht Herr Staatssekretär Dr. Wolters zur Verfügung. Ich rufe die Frage 8 des Herrn Abgeordneten Dr. Hammans auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg28">Ist der Bundesregierung im Hinblick auf § 37 Abs. 2 Nr. 5 des Lebensmittelgesetzes bekannt, daß der am 8. Februar 1975 verstorbene britische Nobelpreisträger Prof. Sir Robert Robinson kurz vor seinem Tode geschrieben hat, Fluoride seien gefährlich und ihre karieshemmende Wirkung zweifelhaft, sicher sei jedoch, „daß sie toxische Substanzen erzeugen, die Gefahren im Verlauf des Stoffwechselprozesses mit sich bringen, und zwar direkt im Menschen und indirekt über die Nahrung"? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär im Bundesministerium für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1975-05-21-07-172.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg29">Frau Präsident! Herr Abgeordneter Dr. Hammans, der Bundesregierung ist die von Ihnen zitierte Aussage bekannt. Ihr gegenüber stehen aber Aussagen anderer anerkannter Wissenschaftler und der Weltgesundheitsorganisation, denen zufolge die Fluoridierung von Trinkwasser wirksam und gesundheitsunschädlich sei. Die Bundesregierung hat diesen widerstreitenden Aussagen in § 37 des Lebensmittel- und Bedarfsgegenständegesetzes vom 15. August 1974 Rechnung getragen. Nach § 37 Abs. 2 Nr. 5 dieses Gesetzes kann für das Zusetzen von Fluoriden zu Trinkwasser zur Vorbeugung gegen Karies im Einzelfall eine Ausnahme von den Vorschriften des Lebensmittel- und Bedarfsgegenständegesetzes zugelassen werden. Nach Abs. 3 des Gesetzes ist eine solche Ausnahme nur dann zulässig, wenn Tatsachen die Annahme rechtfertigen, daß eine Gefährdung der Gesundheit nicht zu erwarten ist. Die Bundesregierung hält die derzeitige Diskussion um die gesundheitliche Auswirkung der Trinkwasserfluoridierung für außerordentlich wichtig, will jedoch angesichts der widerstreitenden Meinungen zur Zeit eine verbindliche Folgerung hieraus noch nicht ziehen. Sie will der vom Bundesgesundheitsrat zu erwartenden Stellungnahme zur Trinkwasserfluoridierung nicht vorgreifen. Das Bundesgesundheitsamt ist beauftragt, ein abschließendes Gutachten über den neuesten Erkenntnisstand zu erarbeiten.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg30">Eine Zusatzfrage, Herr Dr. Hammans!</seg>
+        </u>
+        <note type="speaker">Dr. Hammans (CDU/CSU) :</note>
+        <u who="#Q1635112" xml:id="ParlaMint-DE_1975-05-21-07-172.u24" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg31">Herr Staatssekretär, teilen Sie meine Meinung, daß man, solange der Widerstreit der Wissenschaftler hinzuweisen ist etwa auf das, was Sir Robert Robinson kurz vor seinem Tode festgestellt hat — noch hin und her geht, mit Ausnahmegenehmigungen, die die Fluoridierung von Trinkwasser in den Gemeinden betreffen, außerordentlich vorsichtig sein sollte?</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär im Bundesministerium für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1975-05-21-07-172.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg32">Ich habe ausdrücklich darauf hingewiesen, daß es sich um eine Regelung im Lebensmittelrecht handelt, von der Gebrauch gemacht werden kann. Der Widerstreit der Meinungen setzt natürlich im Einzelfall bei der Erteilung einer Ausnahmegenehmigung diese Abwägung voraus. Ich möchte aber darauf hinweisen, daß es — über das, was ich in der ursprünglichen Antwort gesagt habe, hinaus eine sehr große Zahl von positiven Erfahrungen gibt. Es gibt praktisch keine belegbaren Erfahrungen in Richtung auf Gesundheitsschäden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg33">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Hammans (CDU/CSU) :</note>
+        <u who="#Q1635112" xml:id="ParlaMint-DE_1975-05-21-07-172.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg34">Wie viele Jahre, schätzen Sie, wird man warten müssen, um auf Grund der laufenden Versuche in der Bundesrepublik und im Ausland eine endgültige Feststellung treffen zu können, ob die Fluoridierung des Trinkwassers auch negative Folgen für die Gesundheit derer hat, die das Wasser getrunken haben?</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär im Bundesministerium für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1975-05-21-07-172.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg35">Ich gehe davon aus, daß man überhaupt nicht mehrere Jahre warten muß, sondern daß man durch eine systematische Auswertung der vorliegenden Erfahrungen bereits zu einer gültigen Schlußfolgerung kommen kann. Diese Vermutung ergibt sich auch daraus, daß schon der natürliche Gehalt an Fluor im Trinkwasser Schwankungen unterliegt, die erheblich über das hinausgehen, was eine künstliche Fluoridierung des Trinkwassers an Höchstmengen ausmachen würde.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg36">Eine Zusatzfrage der Frau Abgeordneten Dr. Neumeister.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Neumeister (CDU/CSU) :</note>
+        <u who="#Q1575728" xml:id="ParlaMint-DE_1975-05-21-07-172.u30" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg37">Herr Staatssekretär, sind Sie mit mir der Meinung, daß allein die Tatsache, daß im Laufe der vergangenen 30 Jahre die Trinkwasserfluoridierung für etwa 250 Millionen Menschen auf der Erde eingeführt wurde und daß es keinen Nachweis dafür gibt, daß überhaupt jemals ein Gesundheitsschaden eingetreten ist, schon ausreichen würde, um Sondergenehmigungen zu erteilen?</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär im Bundesministerium für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1975-05-21-07-172.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg38">Frau Abgeordnete, ich habe meine Antwort eben so formuliert, daß Ihre Meinung in der Tendenz unterstrichen worden ist.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Fau Dr. Neumeister [CDU/CSU] : Danke schön!</desc>
+        </vocal>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u32" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg39">Keine weiteren Zusatzfragen. Frage 9 des Herrn Abgeordneten Dr. Riedl (München)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg40">wird, da der Fragesteller nicht im Saal ist, schriftlich beantwortet; die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 10 der Frau Abgeordneten Schleicher auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg41">Warum hat die Bundesregierung der Bekanntmachung des Bundesgesundheitsamts über die Fristen der Nachregistrierung von Wartezeiten bei Antibiotika, Sulfonamiden und anderen Chemotherapeutika im Veterinärbereich auf Grund des Gesetzes zur Änderung des Arzneimittelgesetzes vom 5. Juni 1974 zugestimmt, die am 15. Februar 1975 nur eine Frist bis zum 31. Mai 1975 gewährt und den Firmen eine angemessene Frist zur Anfertigung und Einreichung der erforderlichen Unterlagen vorenthält? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär im Bundesministerium für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1975-05-21-07-172.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg42">Frau Präsidentin! Frau Abgeordnete Schleicher, die Bundesregierung ist der Auffassung, daß der mit den neuen Lebensmittel- und arzneimittelrechtlichen Vorschriften unter anderem verfolgte Zweck, den Verbraucher vor Arzneimittelrückständen in Lebensmitteln tierischer Herkunft besser zu schützen, eine zügige Nachregistrierung aller zur Anwendung bei Tieren im Verkehr befindlichen Arzneimittel erfordert. Die Festsetzung von Wartezeiten für Antibiotika, Sulfonamide und andere Chemotherapeutika ist dabei besonders wichtig. Nach den Vorschriften des Arzneimittelgesetzes sind Untersuchungsergebnisse über den Verbleib der arzneilich wirksamen Bestandteile und ihrer Umwandlungsprodukte im Tierkörper, insbesondere über Weg und Dauer ihrer Ausscheidung, vorzulegen, soweit sie für die Beurteilung von Wartezeiten erforderlich sind. An Stelle der Untersuchungsergebnisse können Gutachten vorgelegt werden, wenn das Arzneimittel — wie es bei der Nachregistrierung die Regel sein dürfte — lediglich Stoffe enthält, deren Wirksamkeit oder Zubereitung in der medizinischen Wissenschaft allgemein bekannt ist. Im Hinblick darauf, daß diese Vorschriften des Arzneimittelgesetzes seit Jahren diskutiert und bereits vor nahezu einem Jahr — am 7. Juni 1974 verkündet worden sind, kann die Terminsetzung zur Vorlage der Unterlagen bis zum 31. Mai 1975 angesichts des Gesetzeszweckes, gesundheitsbedenkliche Rückstände in Lebensmitteln zu vermeiden, nicht als unangemessen bezeichnet werden. Die Beunruhigung bei einer Reihe von Betroffenen dürfte insbesondere darauf zurückzuführen sein, daß die Möglichkeit des weiteren Inverkehrbringens der nachzuregistrierenden Arzneimittel entsprechend den Übergangsvorschriften nicht genügend bewußt geworden ist.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u34" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg43">Eine Zusatzfrage, Frau Abgeordnete Schleicher? — Bitte!</seg>
+        </u>
+        <note type="speaker">Frau Schleicher (CDU/CSU) :</note>
+        <u who="#Q744185" xml:id="ParlaMint-DE_1975-05-21-07-172.u35" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg44">Ist Ihnen bekannt, um wie viele Medikamente es sich in etwa handelt, die in der kurz gesetzten Frist mit Gutachten belegt werden müssen?</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär im Bundesministerium für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1975-05-21-07-172.u36" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg45">Ich kann Ihnen keine genaue Zahl nennen, aber ich habe ja, um die Größenordnung jedenfalls qualitativ abzuschätzen, ausdrücklich darauf hingewiesen, daß der größere Teil der Arzneimittel, um die es sich handelt, aus Stoffen bekannter Wirksamkeit besteht, so daß man dabei also auf bekannte Unterlagen über die Pharmakokinetik zurückgreifen kann.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u37" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg46">Keine weitere Zusatzfrage. Ich rufe Frage 11 der Abgeordneten Frau Schleicher auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg47">Nach welchen Verfahren müssen die betroffenen Arzneimittel untersucht und geprüft werden, um den Nachregistrierungsanforderungen des Bundesgesundheitsamts zu entsprechen, und hat die Bundesregierung das Verhalten des Bundesgesundheitsamts gebilligt, keine Bestimmungen über die Untersuchungsmethode der Metaboliten zu erlassen?</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär im Bundesministerium für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1975-05-21-07-172.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg48">Frau Präsidentin! Frau Abgeordnete Schleicher, für jede einzelne Nachregistrierung kommt es darauf an, die Wartezeit zu begründen, die ausreicht, um den Lebensmittelkonsumenten vor gesundheitsbedenklichen Rückständen und den Tierhalter vor Beanstandungen bei der Überwachung zu schützen. Ob und gegebenenfalls welche Nachuntersuchungen erforderlich sind, kann demgemäß von Fall zu Fall sehr unterschiedlich sein. Für die Durchführung der Nachregistrierung wäre es deshalb nicht sachgemäß, obligatorische Untersuchungsverfahren, die für jedes Arzneimittel durchzuführen wären, vorzuschreiben.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u39" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg49">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Schleicher (CDU/CSU) :</note>
+        <u who="#Q744185" xml:id="ParlaMint-DE_1975-05-21-07-172.u40" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg50">Trifft es denn zu, daß an sich, wie Sie eben erwähnten, die Hersteller nicht rechtzeitig wußten, nach welchen Gesichtspunkten sie ihre Unterlagen einreichen mußten, so daß die kurz gesetzte Frist für viele eine Überforderung bedeutet?</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär im Bundesministerium für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1975-05-21-07-172.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg51">Die Hersteller wußten durch die Verkündung des Gesetzes im Juni vergangenen Jahres rechtsverbindlich, welche Unterlagen sie vorzulegen haben, und sie wußten es von der Sache her schon viel länger, nämlich spätestens seit einer öffentlichen Anhörung — auch der Wirtschaftsverbände —, die bereits 1972 im federführenden Fachausschuß ausdrücklich zu diesem Problemkreis durchgeführt worden ist.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u42" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg52">Zweite Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Frau Schleicher (CDU/CSU):</note>
+        <u who="#Q744185" xml:id="ParlaMint-DE_1975-05-21-07-172.u43" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg53">Trifft es zu, daß das Bundesgesundheitsministerium und auch das Bundesgesundheitsamt, auf Fristenverlängerung angesprochen, betont haben, eingereichte Unterlagen gebührend würdigen zu wollen? Öffnet dieses Verfahren nicht einem Ermessensmißbrauch Tür und Tor, und steht es nicht dem Anliegen des Gesetzgebers entgegen, Entscheidungsprozesse transparent zu machen?</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär im Bundesministerium für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1975-05-21-07-172.u44" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg54">Ich weiß nicht, worauf Sie die Vermutung eines Ermessensmißbrauches gründen. Ich sehe überhaupt keine Grundlage für einen solchen Ermessensmißbrauch. Das Gesetz ist so flexibel gestaltet — das habe ich in meiner Antwort auch zum Ausdruck zu bringen versucht —, daß es unterschiedlichen Arzneimitteln, die unterschiedliche Prüfungen erfordern, hinsichtlich des Vollzugs Rechnung trägt. Es ist auch so gestaltet, daß es bei unvollständigen Unterlagen dem Bundesgesundheitsamt die Möglichkeit eröffnet, den Hersteller darauf hinzuweisen und eine Nachfrist zu setzen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u45" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg55">Keine weitere Zusatzfrage. Ich danke Ihnen, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers für Verkehr und für das Post- und Fernmeldewesen auf. Die Frage 12 ist von Herrn Abgeordneten Tillmann eingebracht:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg56">Ist der Bundesregierung bekannt, daß Vorstandsmitglieder der Deutschen Bundesbahn gutdotierte Aufsichtsrats- und Beiratssitze inneliaben, aber nicht — wie in anderen Verwaltungen üblich — einen bestimmten Teil der Vergütungen an die Staatskasse abliefern, weil sie als Vorstandsmitglieder der Deutschen Bundesbahn zum Mitglied dieser Gremien berufen worden sind und die damit verbundenen Tätigkeiten in ihrer Dienstzeit ausführen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg57">Frau Präsidentin! Herr Kollege, die Mitglieder des Vorstandes der Deutschen Bundesbahn führen Aufsichtsratsvergütungen entsprechend den geltenden Vorschriften ab.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg58">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU):</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1975-05-21-07-172.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg59">Herr Staatssekretär, ist die in einem Leserbrief des Herrn Ersten Präsidenten der Deutschen Bundesbahn gebrauchte Formulierung „Vergütungen werden im vorgeschriebenen Umfange abgeführt" so zu interpretieren, daß auch in der Vergangenheit, insbesondere vor dem August 1974, so verfahren wurde?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg60">Nach den mir vorliegenden Unterlagen, Herr Abgeordneter, kann ich das bestätigen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u50" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg61">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU) :</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1975-05-21-07-172.u51" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg62">Herr Staatssekretär, da offensichtlich unter Bediensteten der Bundesbahn Zweifel verbreitet sind, ob Aufsichtsratsvergütungen ordnungsgemäß abgerechnet wurden, frage ich: ist die Bundesregierung bereit, bei der Deutschen Bundesbahn darauf hinzuwirken, daß das Hauptprüfungsamt für die Deutsche Bundesbahn den Sachverhalt überprüft und das Ergebnis bekanntgibt, damit Zweifel an der Korrektheit der Abrechnungen der Vergütungen ausgeräumt werden?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u52" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg63">Ich kann Ihnen bestätigen, daß entsprechend den gesetzlichen Bestimmungen auch eine Abführung der über 12 000 DM betragenden Vergütungen stattgefunden hat. Wenn dazu eine besondere Bestätigung des Hauptprüfungsamtes gewünscht wird, können wir den Vorstand auffordern, eine solche Bestätigung einzuholen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u53" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg64">Keine weitere Zusatzfrage. Ich rufe Frage 13 des Abgeordneten Tillmann auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg65">Ist die Bundesregierung bereit zu prüfen, ob es zutrifft, daß der 1. Präsident der Deutschen Bundesbahn nach einem Krankenhausaufenthalt dem Pflegepersonal anstelle eines Trinkgelds Freifahrscheine für die Benutzung der Deutschen Bundesbahn aushändigte? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg66">Der Bundesminister für Verkehr hat sofort nach den Presseveröffentlichungen am 23. April dieses Jahres den Vorstand der Deutschen Bundesbahn um Stellungnahme gebeten. Nach der gegebenen Auskunft trifft der in Ihrer Frage enthaltene Tatbestand zu. Die ausgegebenen Fahrscheine gehen danach aber im internen Verrechnungswege zu Lasten des Ersten Präsidenten der Deutschen Bundesbahn. Die Bundesregierung sieht deshalb keinen Anlaß, an der gegebenen Auskunft zu zweifeln.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg67">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU) :</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1975-05-21-07-172.u56" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg68">Herr Staatssekretär, wie kann eine Abrechnung auf Privatkosten des Herrn Ersten Präsidenten der Deutschen Bundesbahn überhaupt praktisch durchgeführt werden, wenn es sich entweder um Blanko-Fahrscheine gehandelt haben sollte oder aber, was ja durchaus üblich ist, wenn solche Fahrkarten nach der Benutzung weggeworfen werden?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg69">Ich gehe davon aus, daß eine zu diesem Zweck ausgegebene Freikarte auch zurückläuft, wenn das den Empfängern einer solchen Freikarte durch den Vorsitzenden des Vorstandes der Deutschen Bundesbahn bekanntgemacht worden ist. Im übrigen darf ich Sie auf die Presseerklärung des Vorstandes der Deutschen Bundesbahn verweisen. Wann diese abgegebenen Fahrscheine verrechnet werden, ist uns nicht bekannt, da wir ja auch nicht prüfen können, wann sie benützt werden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u58" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg70">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU) :</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1975-05-21-07-172.u59" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg71">Herr Staatssekretär, wie beurteilt die Bundesregierung die in der jüngsten Ausgabe der Zeitschrift „Der deutsche Eisenbahner" wiedergegebene Rechtfertigung des Verhaltens des Ersten Präsidenten der Deutschen Bundesbahn, die so lautet: „Warum soll eigentlich der Chef der Deutschen Bundesbahn nicht einmal zu Werbezwekken einige Freifahrscheine abgeben können, welche die Bahn doch nur mit den Druckkosten der Fahrscheine belastet hätten?", und würde eine solche Verfahrensweise mit den Richtlinien für die Ausgabe von Freifahrscheinen der Deutschen Bundesbahn in Übereinstimmung stehen?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg72">Ich vermag nicht zu überprüfen, welche Praxis frühere Präsidenten der Deutschen Bundesbahn bei der Ausgabe von Freifahrscheinen geübt haben. Ich gehe davon aus, daß die Redaktionen der von Ihnen angesprochenen Zeitungen aus solchen Erfahrungen schöpften. Dazu nimmt die Bundesregierung nicht Stellung.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u61" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg73">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Freiherr Spies von Büllesheim (CDU/CSU) :</note>
+        <u who="#Q361600" xml:id="ParlaMint-DE_1975-05-21-07-172.u62" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg74">Herr Staatssekretär, ist es üblich, daß die ausgegebenen Freifahrscheine dieser Art auch verrechnet werden, und ist es außerdem üblich, daß sie erst nach der Fahrt verrechnet werden?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg75">Ich gehe davon aus, daß eine derartige Verrechnung nicht üblich ist. Wenn in Einzelfällen eine solche Absprache erfolgt, kann das auch überprüft werden, wie es im vorliegenden Fall ebenfalls überprüft werden kann.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u64" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg76">Keine Zusatzfrage. Ich rufe die Frage 14 des Herrn Abgeordneten Dr. Jobst auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg77">Ist der Bundesregierung bekannt, daß dem Verwaltungsrat der Deutschen Bundesbahn bisher kein Bericht über die durch den Flugzeugabsturz von Nairobi bekanntgewordene Reise des Ersten Präsidenten der Deutschen Bundesbahn, des ersten Vorsitzenden der Gewerkschaft der Eisenbahner Deutschlands sowie der Mitglieder des Vorstands der Deutschen Eisenbahnversicherungskasse gemeinam mit ihren Ehegattinnen im November 1974 nadi Südafrika erstattet wurde, obwohl der Parlamentarische Staatssekretär Jung in der 135. Sitzung des Deutschen Bundestages am 11. Dezember 1974 erklärte, „Der Vorstand der Deutschen Bundesbahn hat auch mitgeteilt, daß er in der nächsten Sitzung des Verwaltungsrates, am 13. Dezember 1974, über Anlaß und Finanzierung der Reise berichten wird"? Bitte sehr, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg78">Ich darf mit Ja antworten, Herr Kollege Jobst. Trotzdem geht die Bundesregierung nach der Erklärung des Vorstandes der Deutschen Bundesbahn davon aus, daß anläßlich der nächsten Sitzungen des Verwaltungsrates der Deutschen Bundesbahn der Vorstand der Deutschen Bundesbahn über Anlaß und Finanzierung dieser Reise berichten wird.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg79">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1975-05-21-07-172.u67" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg80">Herr Staatssekretär, welches sind die Gründe, daß von der Bundesregierung der Anlaß und die Finanzierung dieser Gruppenreise, bestehend aus dem Vorstandsvorsitzenden der Deutschen Bundesbahn, den Vorstandsmitgliedern der Eisenbahnversicherungskasse und dem ersten Vorsitzenden der Gewerkschaft der Eisenbahner Deutschlands, nach Südafrika bis heute noch nicht offengelegt werden konnten, obwohl der Herr Parlamentarische Staatssekretär Jung in der Fragestunde am 11. Dezember 1974 erklärt hat: „Hier kann ich Ihnen sagen, daß die Bundesregierung der Ansicht ist, daß dieser Ihrer Forderung nachgegangen werden sollte, weil die Bundesregierung weiß, daß zu der Reise der Eisenbahner Fragen gestellt werden"? Ich darf hinzufügen, daß der Herr Staatssekretär Jung mir mit Schreiben vom 3. Februar 1975 mitgeteilt hat:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg81">Ich bin um eine Klärung der Angelegenheit bemüht und werde, sobald mir ein Ergebnis vorliegt, Sie davon unterrichten.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Hört! Hört! bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg82">Herr Kollege Dr. Jobst, wenn in der letzten Verwaltungsratssitzung der Deutschen Bundesbahn, wie vom Bundesverkehrsminister angenommen, eine Erklärung des Vorstandes oder des Vorstandsvorsitzenden nicht erfolgt ist, hängt es mit dem Ablauf der Tagesordnung bei der Sitzung zusammen. Das wird wohl auch der hier anwesende Kollege Lemmrich bestätigen. Im übrigen ist es Sache des Vorstandes, den ihm geeignet erscheinenden Zeitpunkt nach der Konstituierung des Verwaltungsrates wahrzunehmen, um darüber zu berichten.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u69" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg83">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1975-05-21-07-172.u70" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg84">Herr Staatssekretär, meinen Sie nicht, daß das Verfahren, das in diesem Falle praktiziert wird, nämlich die Sache so lange hinauszuschieben, etwas ungewöhnlich ist?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u71" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg85">Es ist nicht Sache der Bundesregierung, nach einer verbindlichen Erklärung der Betroffenen, soweit sie Vorstandsmitglieder der Deutschen Bundesbahn sind, Einzelerhebungen anzustellen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u72" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg86">Eine Zusatzfrage des Herrn Abgeordneten Tillmann.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU) :</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1975-05-21-07-172.u73" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg87">Herr Staatssekretär, ist der Bundesregierung bekannt, ob ein Pressebericht dementiert worden ist, wonach der Pressesprecher der Eisenbahnversicherungskasse erst durch die Zeitungen erfuhr, daß sein kompletter Vorstand abgestürzt war, und er ein Vorstandsmitglied im Urlaub auf den Kanarischen Inseln wähnte?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u74" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg88">Das ist dem Bundesverkehrsminister, das ist der Bundesregierung im Detail nicht bekannt. Im übrigen haben wir nicht die Absicht, mögliche Reisen von Vorstandsmitgliedern einzelner Sozialeinrichtungen oder einzelner Versicherungen selbst zu überprüfen und zu verfolgen, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u75" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg89">Eine Zusatzfrage des Herrn Abgeordneten Spies von Büllesheim.</seg>
+        </u>
+        <note type="speaker">Dr. Freiherr Spies von Büllesheim (CDU/CSU) :</note>
+        <u who="#Q361600" xml:id="ParlaMint-DE_1975-05-21-07-172.u76" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg90">Herr Staatssekretär, sind Pressemeldungen zutreffend, nach denen alle Vorstandsmitglieder der Eisenbahnversicherungskasse, jedenfalls aber vier davon in diesem Flugzeug saßen?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg91">Ich gehe nach den Presseinformationen davon aus, daß der Vorstand der Deutschen Eisenbahnversicherungskasse an dieser Reise geschlossen beteiligt war. Eine Bestätigung dieses Gremiums liegt mir nicht vor.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u78" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg92">Eine Zusatzfrage des Herrn Abgeordneten Lemmrich.</seg>
+        </u>
+        <note type="speaker">Lemmrich (CDU/CSU) :</note>
+        <u who="#Q1731553" xml:id="ParlaMint-DE_1975-05-21-07-172.u79" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg93">Herr Staatssekretär, stimmen Sie mir zu, daß die Fragen des Kollegen Dr. Jobst im Hinblick auf den Eindruck, der in der Öffentlichkeit und gerade bei Eisenbahnern über diese Gruppenreise entstanden ist, berechtigt waren und daß es mehr als ein Zeichen von Unsicherheit ist, wenn der 1. Vorsitzende der Gewerkschaft der Eisenbahner Deutschlands den Kollegen Dr. Jobst wegen dieser Anfragen in der Zeitung der Eisenbahnergewerkschaft vom Mai dieses Jahres persönlich verunglimpft?</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u80" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg94">Herr Abgeordneter, dieses ist nun keine Frage mehr, die Sie an die Bundesregierung stellen können. Sie sprechen hier über einen Kollegen, und dieser Kollege ist nun zufällig auch der Vorsitzende der Eisenbahnergewerkschaft. Es geht nicht, daß Sie zu diesem Thema eine Dreiecksfrage stellen.</seg>
+          <kinesic type="applause">
+            <desc>Zustimmung bei der SPD und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg95">Werden sonst noch Zusatzfragen gestellt? — Das ist nicht der Fall. Ich rufe dann die Frage 15 des Herrn Abgeordneten Dr. Jobst auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg96">Was wird die Bundesregierung nunmehr tun, um Anlaß und Finanzierung dieser Reise klären zu lassen?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg97">Herr Abgeordneter, die Bundesregierung wartet den Bericht des Vorstandes der Deutschen Bundesbahn in dieser Sache ab.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg98">Eine Zusatzfrage des Herrn Abgeordneten Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1975-05-21-07-172.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg99">Herr Staatssekretär, sind Sie bereit, das Haus oder mich dann schriftlich über diesen Bericht zu informieren?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg100">Dazu bin ich gern bereit, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg101">Keine Zusatzfragen. Ich rufe die Frage 16 des Herrn Abgeordneten Ey auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg102">Welchen Wettbewerbsnachteilen ist gegenwärtig der grenzüberschreitende deutsche Fernverkehr ausgesetzt, wie schlagen diese sich nieder, und welche Maßnahmen plant die Bundesregierung? Bitte schön, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u86" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg103">Frau Präsidentin, Herr Abgeordneter, die Bundesregierung hat zu der Wettbewerbssituation des grenzüberschreitenden deutschen Straßengüterverkehrs in ihren Antworten auf die Große Anfrage der Fraktion der CDU/CSU vom 5. September 1973, die Kleine Anfrage der Abgeordneten Sick, Schulte und Genossen vom 3. Januar 1974 und die Kleine Anfrage der Abgeordneten Dr. Althammer, Dr. Jobst und Genossen vom 21. Februar 1975 ausführlich Stellung genommen. Ich möchte in diesem Zusammenhang hierauf verweisen. Trotz gewisser Wettbewerbsunterschiede hat der deutsche Güterfernverkehr seine Leistungen im grenzüberschreitenden Verkehr erheblich steigern können. Die Bundesregierung bemüht sich weiterhin, im Rahmen der EG-Verkehrspolitik eine Harmonisierung der Wettbewerbsbedingungen im grenzüberschreitenden Güterverkehr zu erreichen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg104">Eine Zusatzfrage des Herrn Abgeordneten Ey.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1975-05-21-07-172.u88" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg105">Herr Staatssekretär, in welchem Ausmaß entwickelten sich Konkurs- und Vergleichsverfahren in diesem Erwerbszweig?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg106">Auf der Grundlage der mir im Augenblick zur Verfügung stehenden Unterlagen kann ich Ihnen Ihre Frage nicht im einzelnen beantworten. Ich will den Sachverhalt aber gern prüfen lassen und Ihnen die Antwort schriftlich geben.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg107">Eine zweite Zusatzfrage, bitte!</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1975-05-21-07-172.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg108">Herr Staatssekretär, ist der Bundesregierung bekannt, daß seit der EG-Zugehörigkeit Englands Fernverkehrsfahrzeuge der Insel besonders häufig nicht den deutschen Vorschriften entsprechen?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg109">Mir sind derartige Entwicklungen nicht in dem Umfang bekannt, wie das Ihrer Frage zu entnehmen ist, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u93" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg110">Keine weitere Zusatzfrage. Ich rufe die Frage 17 des Herrn Abgeordneten Milz auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg111">Trifft es zu und ist es gegebenenfalls mit dem Gebot der Wirtschaftlichkeit vereinbar, daß die Deutsche Bundesbahn für einen Abteilungsleiter hei der Hauptverwaltung ein Haus für rund eine halbe Million DM kauft und zusätzlich erhebliche Renovierungskosten aufwendet, wenn zugleich bundesbahneigene repräsentative Wohnungen im selben Raum zur Verfügong gestanden hätten? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u94" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg112">Frau Präsidentin, ich bitte — wenn der Herr Kollege damit einverstanden ist — die beiden Fragen des Kollegen Milz wegen des Sachzusammenhangs gemeinsam beantworten zu dürfen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u95" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg113">Herr Kollege, sind Sie damit einverstanden? — Das ist der Fall. Dann rufe ich noch die Frage 18 des Herrn Abgeordneten Milz auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg114">Trifft es zu und ist es gegebenenfalls mit dem Gebot der Wirtschaftlichkeit vereinbar, daß die Deutsche Bundesbahn für ein einem Abteilungsleiter bei der Hauptverwaltung zur Verfügung gestelltes Haus eine monatliche Miete von nur 600 DM erhebt, während die Kostenmiete rund 3200 DM betragen würde? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u96" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg115">Der in Ihren Fragen angesprochene Sachverhalt ist dem Bundesminister für Verkehr zuerst durch die Pressemeldung in der „Welt" vom 23. April 1975 bekanntgeworden. Der Vorstand der Deutschen Bundesbahn und das Hauptprüfungsamt für die Deutsche Bundesbahn sind daraufhin um Stellungnahme gebeten worden. Nach den mir bisher vorliegenden Äußerungen beider Stellen kann ich Ihnen folgendes mitteilen. Der Vorstand der Deutschen Bundesbahn hat ausgeführt, daß zum Zeitpunkt des Grundstückserwerbs ein Objekt für eine entsprechende Unterbringung des Abteilungsleiters für Personal und Verwaltung der Hauptverwaltung der Deutschen Bundesbahn nicht vorhanden war und auch nicht in Aussicht gestanden habe. Letzteres sei Grund für die Entscheidung des Vorstandes der Deutschen Bundesbahn gewesen, das Objekt durch die Bundesbahn-Wohnungsgesellschaft, Frankfurt/Main, erwerben zu lassen. Der Kaufpreis betrug nach Feststellung des Hauptprüfungsamtes für die Deutsche Bundesbahn 480 000 DM, die Renovierungskosten beliefen sich auf rund 34 000 DM. Nach Mitteilung des Hauptprüfungsamtes für die Deutsche Bundesbahn erhebt die Deutsche Bundesbahn eine monatliche Miete ohne Nebenkosten — von 673 DM. Die Deutsche Bundesbahn hat ihrerseits an die Wohnungsgesellschaft monatlich 3 174,17 DM zu zahlen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u97" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg116">Bitte, Herr Abgeordneter, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Milz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1975-05-21-07-172.u98" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg117">Herr Staatssekretär, ist der Bundesregierung bekannt, daß den Vorgängern im Amt des betreffenden Abteilungsleiters seitens der Bundesbahn wesentlich bescheidenere Wohnungen zur Verfügung gestellt wurden?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg118">Herr Kollege, in diesem Zusammenhang hat der Bundesminister für Verkehr das Hauptprüfungsamt der Deutschen Bundesbahn nach dem hier beschriebenen Sachverhalt gemäß § 34 Abs. 5 des Bundesbahngesetzes gebeten, den vorliegenden Fall eingehend zu prüfen und dabei die Wohnungsverhältnisse aller Führungskräfte der Deutschen Bundesbahn — darauf zielt ja ein Teil Ihrer Fragen, wenn auch nur auf den zeitlich zurückliegenden Bereich — in die Untersuchung einzubeziehen. Bei den Ermittlungen des Hauptprüfungsamtes — hier werden auch die Beteiligten anzuhören sein — wird die Frage nach einem Verstoß gegen das Gebot der Wirtschaftlichkeit im Vordergrund stehen. Ich bitte daher um Verständnis, daß ich zu dieser Frage noch nicht abschließend Stellung nehmen kann, bevor mir der Prüfungsbericht des Hauptprüfungsamtes selbst vorliegt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg119">Zusatzfrage, bitte, Herr Abgeordneter!</seg>
+        </u>
+        <note type="speaker">Milz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1975-05-21-07-172.u101" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg120">Herr Staatssekretär, ist die Differenz zwischen Kostenmiete einerseits und der vom Benutzer tatsächlich gezahlten Miete andererseits bei allen von der Deutschen Bundesbahn vermieteten Wohnungen so eklatant wie in diesem Fall, oder kommt ein solches Mißverhältnis nur für einen bestimmten Kreis in Frage?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u102" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg121">Sie mögen der Antwort auf Ihre erste Zusatzfrage entnehmen, was den Bundesverkehrsminister veranlaßt hat, unter Beurteilung auch derartiger Kriterien um eine Untersuchung und um Vorlage von Ergebnissen zu bitten.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u103" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg122">Zusatzfrage, bitte!</seg>
+        </u>
+        <note type="speaker">Milz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1975-05-21-07-172.u104" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg123">Herr Staatssekretär, ist die Bundesregierung mit mir der Meinung, daß bei einem solchen Mißverhältnis die Sparmaßnahmen des Vorstandes der Deutschen Bundesbahn ihre Glaubwürdigkeit gegenüber dem einfachen Eisenbahner und dem sogenannten kleinen Mann verlieren müssen?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg124">Herr Kollege, ich möchte dem Bericht des Hauptprüfungsamtes im Augenblick nicht vorgreifen. Dafür haben Sie sicher auch Verständnis. Aber ich bin gerne bereit, Ihnen unmittelbar nach Erhalt des Prüfungsberichts eine schriftliche Antwort auch zu dieser konkreten kritischen Frage zu übermitteln.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u106" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg125">Letzte Zusatzfrage, bitte!</seg>
+        </u>
+        <note type="speaker">MHz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1975-05-21-07-172.u107" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg126">Herr Staatssekretär, wird die Bundesregierung alles tun, die Bahn zu veranlassen, angesichts des ungeheuren Unterschiedes zwischen ca. 600 DM und 3 200 DM Kostenmieten zu verlangen und zukünftig solche Auswüchse zu unterbinden?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u108" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg127">Das kommt ja bereits dadurch zum Ausdruck, daß der Bundesminister für Verkehr einen Bericht des Hauptprüfungsamtes angefordert hat, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u109" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg128">Zusatzfrage, Herr Abgeordneter Lemmrich.</seg>
+        </u>
+        <note type="speaker">Lemmrich (CDU/CSU) :</note>
+        <u who="#Q1731553" xml:id="ParlaMint-DE_1975-05-21-07-172.u110" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg129">Herr Staatssekretär, Sie haben uns den Kaufpreis und die Renovierungskosten genannt. Ich möchte Sie fragen: Sind für den Erwerb auch noch Maklergebühren sowie Finanzierungskosten angefallen, und wer hat die Grunderwerbsteuer getragen?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u111" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg130">Ich kann Ihnen im Augenblick auf diese konkreten Fragen keine Auskunft geben. Sie hätten sie im übrigen als Mitglied des Verwaltungsrates längst bekommen können, Herr Kollege. Wenn Sie wünschen, daß wir deswegen noch einmal eine Rückfrage stellen, soll das geschehen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Seiters [CDU/CSU] : Wir wollen aber die Fragen hier stellen! — Weitere Zurufe von der CDU/CSU</desc>
+        </vocal>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u112" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg131">Zusatzfrage, Herr Abgeordneter Nordlohne.</seg>
+        </u>
+        <note type="speaker">Nordlohne (CDU/CSU) :</note>
+        <u who="#Q1445835" xml:id="ParlaMint-DE_1975-05-21-07-172.u113" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg132">Herr Staatssekretär, wollen wir nicht davon ausgehen, daß die Fragen am heutigen Tage hier im Plenum gestellt werden und daß ein Hinweis wie der, den Sie gerade dem Kollegen Lemmrich gegeben haben, hier von Ihnen nicht gegeben werden sollte?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u114" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg133">Ich habe dazu keine Stellungnahme abzugeben.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg134">Gut! Ich wollte sagen, Herr Abgeordneter Nordlohne, es ist natürlich auch ein bißchen schwierig, solche konkreten Dinge präsent zu haben, wenn Sie in der schriftlichen Frage nicht angesprochen sind.</seg>
+          <vocal type="exclamat">
+            <desc>Erhard [Bad Schwalbach] [CDU/CSU]: Das weiß er doch genau! — Seiters [CDU/CSU] : Schlechtes Gewissen! — Weitere Zurufe von der CDU/CSU</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg135">Keine weiteren Zusatzfragen.</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg136">Frage 19 des Herrn Abgeordneten Reiser:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg137">Ist der Bundesregierung bekannt, wieweit die Deutsche Bundesbahn noch an der Absicht festhält, die Zahl der unbeschrankten Bahnübergänge drastisch zu verringern, und welche Zahlen liegen vor, die gegebenenfalls eine diesbezügliche Entwicklung deutlich machen? Bitte schön, Herr Staatssekretär!</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg138">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und FernmeldeFrau Präsidentin! Herr Kollege, allgemein ist die Beseitigung von Bahnübergängen nach wie vor ein wichtiges Ziel der Deutschen Bundesbahn; jährlich etwa 600 bis 700 Bahnübergänge, davon rund 100 Bahnübergänge durch Überführungsbauwerke. Die Zahl der nichttechnisch gesicherten Bahnübergänge der Deutschen Bundesbahn — das sind Bahnübergänge ohne Schranken oder ohne Blinklicht- bzw. Lichtzeichenanlagen — hat sich wie folgt durch Einbau einer technischen Sicherung oder durch Beseitigung verringert: im Jahre 1960 waren es noch 20 749 derartige Übergänge, im Jahre 1970 noch 16 406 und im Jahre 1974 14 203.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg139">Zusatzfrage, Herr Abgeordneter Reiser, bitte sehr!</seg>
+        </u>
+        <note type="speaker">Reiser (SPD) :</note>
+        <u who="#Q1612324" xml:id="ParlaMint-DE_1975-05-21-07-172.u117" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg140">Herr Staatssekretär, gilt denn das Wort des Ersten Präsidenten der Bundesbahn noch, daß der Bund, Bundesbahn und Kommunen jährlich etwa 500 Millionen DM für den Bau von Unteroder Überführungen ausgeben — dabei werde die Priorität durch Verkehrsdichte und Unfallrisiken bestimmt —, trotz der schwierigen finanziellen Situation der Bundesbahn?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr, und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg141">Ich habe Ihnen in diesem Zusammenhang die Zahl, um die sich die von Ihnen angesprochenen Bahnübergänge jährlich verringern, genannt. Die Höhe der Investitionskosten richtet sich natürlich nach den Möglichkeiten des Wirtschaftsplanes und den Zusschüssen, die auch wir künftig mit geben können, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg142">Keine Zusatzfrage? Ich rufe die Frage 20 des Herrn Abgeordneten Immer auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg143">Inwieweit berücksichtigt die Bundesregierung bei der Konzentration von Einrichtungen der Deutschen Bundespost und der Deutschen Bundesbahn jeweils die Tatsache, daß der jeweilige Standort dieser Einrichtungen im Rahmen des regionalen Programms zur Wirtschaftsförderung zum Schwerpunkt erklärt worden ist?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg144">Frau Präsidentin, ich würde mit dem Einverständnis des Herrn Kollegen die beiden Fragen wegen des Sachzusammenhangs gern zusammen beantworten.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg145">Der Herr Kollege ist einverstanden, Herr Staatssekretär. Ich rufe also auch die Frage 21 des Herrn Abgeordneten Immer auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg146">Inwieweit werden bei den Überlegungen bzw. Beschlüssen zur gänzlichen oder teilweisen Verlagerung von Dienststellen der Deutschen Bundespost und der Deutschen Bundesbahn Entwicklungen berücksichtigt, die den Absichten des Bundeswirtschaftsministeriums und des jeweils zuständigen Landesministeriums für die Beschlußfassung über die Anerkennung eines Schwerpunktortes im Rahmen der regionalen Wirtschaftsförderung zugrunde gelegt wurden? Bitte schön, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u122" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg147">Die Auswirkungen, die bei der gänzlichen oder teilweisen Verlagerung von Dienststellen der Bundespost und Bundesbahn auf die regionale Arbeits- und Wirtschaftsstruktur entstehen, werden von der Bundesregierung durchaus gesehen. In die Planungen der beiden Bundesunternehmen fließen die Zielvorstellungen der regionalen Wirtschaftsförderung, auch soweit sie die Festlegung von Schwerpunktorten betreffen, mit ein. Mit der aus wirtschaftlichen Gründen notwendigen Straffung im organisatorischen Bereich der beiden Unternehmen ist daher in aller Regel keine Verschlechterung bei der Erbringung von Verwaltungs- und Dienstleistungen für Fördergebiete verbunden. Im Gegenteil kann durch die mit diesen Organisationsmaßnahmen ebenfalls beabsichtigte Zuständigkeitsverlagerung von übergeordneten Dienststellen — ich denke jetzt an Oberpostdirektionen oder Bundesbahndirektionen auf die nachgeordnete Ebene den spezifisch regionalen und örtlichen Bedürfnissen im Einzelfall besser entsprochen werden als bislang. Abschließend weise ich darauf hin, daß eine sinnvolle Konzentration des Angebots an Verwaltungs-und Dienstleistungen sowie des Angebots im Bereich der Wirtschafts- und Sozialstruktur auf bestimmte Zentralorte den Zielen der Gemeinschaftsaufgabe „Förderung der regionalen Wirtschaftsstruktur" entspricht.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg148">Eine Zusatzfrage hat der Herr Abgeordnete Immer.</seg>
+        </u>
+        <note type="speaker">Immer (Altenkirchen) (SPD) :</note>
+        <u who="#Q1407193" xml:id="ParlaMint-DE_1975-05-21-07-172.u124" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg149">Herr Staatssekretär, sind Sie nicht mit mir der Meinung, daß es ja nicht nur darauf ankommt, daß die Dienstleistung erbracht wird, sondern daß das Vorhandensein von Dienststellen qualifizierte Arbeitsplätze bindet — das ist ja die Zielsetzung der Schwerpunktorte — und daß ein Abziehen solcher Einrichtungen eben Folgewirkungen in anderen Bereichen haben kann? Meinen Sie nicht auch, daß dieser Gesichtspunkt bei der Überprüfung von Verlegungen mit herangezogen werden muß?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-05-21-07-172.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg150">Herr Kollege, verwaltungsorganisatorische Maßnahmen im Sinne einer Reduzierung des Personals gehören, sofern sie die Dienstleistungsangebote, gleich in welchem Bereich, nicht verringern, zur Aufgabenstellung der beiden großen Dienstleistungsunternehmen Post und Bahn. Ich darf Ihnen aus dem Bereich der Postämterneugliederung z. B. sagen, daß bei etwa 1 600 betroffenen Dienstposten, die aber in der Neuorganisation nicht Dienstleistungsangebote im direkten Sinne darstellen, zu Beginn einer solchen Gesamtmaßnahme eine Einsparung von insgesamt 50 Plätzen zu erwarten ist. Daraus mögen Sie ersehen, daß wir auf die Besonderheiten auch der Arbeitsplatzerhaltung natürlich Wert legen. Aber die organisatorischen Maßnahmen selbst sollten im Interesse der Wirtschaftlichkeit auch durchgeführt werden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u126" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg151">Keine Zusatzfrage. Ich rufe die Frage 22 des Herrn Abgeordneten Dr. Riedl (München)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg152">auf. — Der Herr Abgeordneter ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Die Fragen 23 und 24 werden auf Wunsch des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Damit sind wir am Ende Ihres Geschäftsbereiches angelangt, Herr Staatssekretär. Ich bedanke mich. Wir kommen nunmehr zum Geschäftsbereich des Bundesministers des Innern.</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg153">Ich rufe die Frage 25 des Herrn Abgeordneten Dr. Schwencke auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg154">Welche Möglichkeiten sieht die Bundesregierung, gegen die in den letzten Monaten zunehmenden Fälle von Verunsicherungen, Repressionen oder gar Relegationen von Rundfunk- und Fernsehmitarbeitern, also von Journalisten in Anstalten des öffentlichen Rechts, wegen deren in persönlicher Verantwortung außerhalb ihres Dienstes geäußerten oder unterstützten politischen Meinungen, die ihnen wie jedem Bürger der Bundesrepublik Deutschland garantiert sind, Maßnahmen zu ergreifen? Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Dr. Schmude zur Verfügung.</seg>
+        </u>
+        <note type="speaker">Dr. Schmude, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65545" xml:id="ParlaMint-DE_1975-05-21-07-172.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg155">Herr Kollege Dr. Schwencke, nach Auskunft der Rundfunkanstalten des Bundesrechts, für die der Bundesregierung eine beschränkte Rechtsaufsicht obliegt, gibt es dort keine Fälle der von Ihnen angesprochenen Art. Auch liegen der Bundesregierung keine Informationen über derartige Vorgänge bei Landes- oder Länderrundfunkanstalten vor. Nur bei Nennung konkreter Einzelfälle könnte sich die Bundesregierung um weitere Aufklärung bemühen und die Abgabe einer wertenden Stellungnahme in Betracht ziehen. Jedenfalls ist zu berücksichtigen, daß die Rundfunk- und Fernsehanstalten ihre Angelegenheiten in weitgehender Autonomie selbst regeln. Den Ländern und, soweit Anstalten des Bundesrechts betroffen sind, dem Bund steht nur eine beschränkte Rechtsaufsicht zu. Somit liegt die Verantwortung für das Verhalten der Anstalten bei deren Aufsichtsgremien, in denen, wie Sie wissen, die gesellschaftlich relevanten Kräfte, einschließlich der politischen Parteien, vertreten sind.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg156">Zu einer Zusatzfrage Herr Abgeordneter Dr. Schwencke.</seg>
+        </u>
+        <note type="speaker">Dr. Schwencke (Nienburg) (SPD) :</note>
+        <u who="#Q1696144" xml:id="ParlaMint-DE_1975-05-21-07-172.u129" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg157">Herr Staatssekretär, ist Ihnen nicht bekanntgeworden, daß sich namentlich in der letzten Zeit beim ZDF Fälle häufen, daß insbesondere Moderatoren, die etwa unter eine Wählerinitiative nur ihre persönliche Unterschrift setzten, also keineswegs so immense politische Aktivitäten wie ein Herr Löwenthal entfalten, immer stärker eingeschüchtert werden, d. h. konkret etwa im Bereich der Kulturberichterstattung und der Jugendberichterstattung?</seg>
+        </u>
+        <note type="speaker">Dr. Schmude, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65545" xml:id="ParlaMint-DE_1975-05-21-07-172.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg158">Solche Fälle sind der Bundesregierung konkret nicht bekanntgeworden, Herr Kollege Dr. Schwencke. Es hat natürlich den einen oder anderen Hinweis gegeben, der aber für sich allein nicht Grundlage einer Stellungnahme sein kann.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg159">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Schwencke (Nienburg) (SPD) :</note>
+        <u who="#Q1696144" xml:id="ParlaMint-DE_1975-05-21-07-172.u132" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg160">Herr Staatssekretär, falls Ihnen ganz konkrete Fälle bekanntwerden oder wir sie Ihnen bekanntmachten, würden Sie dann eine Möglichkeit der Bundesregierung sehen, auf Grund ihrer Kompetenzen einzugreifen?</seg>
+        </u>
+        <note type="speaker">Dr. Schmude, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65545" xml:id="ParlaMint-DE_1975-05-21-07-172.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg161">Dies ist eine sehr weitreichende Frage, die ich hier aus dem Stand nicht beurteilen kann. Um sie überhaupt zu stellen und zu erwägen, bedürfte es schon sehr schwerwiegender Vorgänge, von denen ich mir eigentlich nicht vorstellen kann, daß sie vorliegen. Aber es bleibt dabei: Es gibt bisher keine konkreten Hinweise auf Fälle der von Ihnen genannten Art.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg162">Zu einer Zusatzfrage Herr Abgeordneter Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-05-21-07-172.u135" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg163">Herr Staatssekretär, würden Sie den von Herrn Kollegen Schwencke eben bereits in Paranthese angesprochenen Fall des Fernsehmoderators Löwenthal nicht als einen solchen gravierenden Fall ansehen, den Fall nämlich, der sich vor kurzem vor einem hessischen Amtsgericht abgespielt hat, wo sich dieser Fernsehmoderator seitens des Richters Vorwürfe gefallenlassen mußte, die in dieser Form in der Geschichte der deutschen Justiz bisher wohl ziemlich einmalig sein dürften?</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Lachen bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u136" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg164">Herr Abgeordneter Jäger, ich vermag nicht zu erkennen, in welchem Zusammenhang diese Frage mit der vom Fragesteller eingereichten Frage steht. Ich rufe die Frage 26 des Abgeordneten Lattmann auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg165">Ist der Bundesregierung bekannt, daß es bei Fernsehen und Funk, Anstalten des öffentlichen Rechts, zunehmend Bestrebungen gibt, namhafte Kommentatoren, Nachrichtensprecher, Schauspielerinnen und weitere Mitwirkende von Sendungen auszuschließen, also zum Beispiel vom Fernsehschirm fernzuhalten, weil sie sich in ihrer Freizeit und in persönlicher Verantwortung an der Arbeit von Bürgerinitiativen und politischen Parteien beteiligen? Bitte schön, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Schmude, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65545" xml:id="ParlaMint-DE_1975-05-21-07-172.u137" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg166">Herr Kollege Lattmann, in dem von Ihnen angesprochenen Zusammenhang kennt die Bundesregierung lediglich ein vom Justitiar des ZDF erstelltes Gutachten und eine darauf beruhende Weisung des ZDF-Intendanten vom 26. Januar 1975. Die Weisung sieht zur Wahrung der Neutralitätspflicht des ZDF vor, daß Mitarbeiter des ZDF in einem Zeitraum von sechs Wochen bis zum jeweiligen Wahltag nicht auf dem Bildschirm erscheinen sollen, wenn sie im Wahlkampf zugunsten einer Partei öffentlich auftreten. Wie die beim ZDF getroffene Regelung angewendet wird und wie andere Rundfunk- und Fernsehanstalten verfahren, ist der Bundesregierung nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u138" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg167">Keine Zusatzfrage. Ich rufe die Frage 27 des Abgeordneten Lattmann auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg168">Sieht die Bundesregierung darin eine Behinderung nach Artikel 3 des Grundgesetzes, in dem es unter anderem heißt, „niemand darf wegen. . . seiner religiösen und politischen Anschauungen benachteiligt werden."?</seg>
+        </u>
+        <note type="speaker">Dr. Schmude, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65545" xml:id="ParlaMint-DE_1975-05-21-07-172.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg169">Mitarbeiter der Rundfunkanstalten haben wie alle Staatsbürger nach Art. 5 GG das Recht, ihre persönlichen Ansichten frei zu äußern und zu vertreten. Das Programm aller Rundfunkanstalten muß, wie das Bundesverfassungsgericht im sogenannten Fernsehurteil ausgeführt hat, einem Mindestmaß an inhaltlicher Ausgewogenheit und Sachlichkeit entsprechen. Dieses Prinzip ist in den Rundfunkgesetzen sowie in den Senderichtlinien der Anstalten näher konkretisiert. So enthalten beispielsweise die Richtlinien für die Sendungen des ZDF die Verpflichtung der Anstalt zur Überparteilichkeit. Nach Auffassung der Bundesregierung kann das Gebot inhaltlicher Ausgewogenheit eines Rundfunkoder Fernsehprogramms auch Auswirkungen auf den Einsatz eines Mitarbeiters bei der Programmgestaltung haben, wenn sich dieser gleichzeitig für breite Kreise der Bevölkerung erkennbar am Wahlkampf beteiligt. Da z. B. der Ausschluß vom Auftreten im Fernsehprogramm für den Betroffenen stets auch dann ganz erhebliches Gewicht haben wird, wenn sich dieser Ausschluß nur auf einen gewissen Zeitraum beschränkt, wird es in jedem Fall der Abwägung bedürfen, ob das Neutralitätsgebot diese Einschränkung wirklich fordert. Die Entscheidung wird im wesentlichen von dem Ausmaß der Beteiligung des Mitarbeiters am Wahlkampf abhängen. Jedenfalls ist es Sache der Organe der Anstalten einschließlich der Aufsichtsgremien, im Einzelfall sicherzustellen, daß bei Verwirklichung des Gebots der Ausgewogenheit des Programms die Wahrnehmung der staatsbürgerlichen Rechte des Journalisten nicht über Gebühr beeinträchtigt wird.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg170">Keine Zusatzfrage. Dann rufe ich die Frage 28 des Herrn Abgeordneten Dr. Wernitz auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg171">Wann und in welcher Form ist — nach den Ankündigungen in den Fragestunden vom 12. Dezember 1973 und 20. März 1974 — mit einer Einbeziehung der Zollverwaltung in ein fortgeschriebenes Sicherheitsprogramm zu rechnen? Bitte schön, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Schmude, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65545" xml:id="ParlaMint-DE_1975-05-21-07-172.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg172">Herr Kollege Dr. Wernitz, die Frage der Einbeziehung der Zollverwaltung in ein fortgeschriebenes Sicherheitsprogramm steht auf der Tagesordnung für die Sitzung des Arbeitskreises II „Öffentliche Sicherheit und Ordnung" der Ständigen Konferenz der Innenminister der Länder, die in dieser Woche, nämlich am 22. und 23. Mai 1975, stattfindet. Dabei wird sich der Vertreter des Bundesinnenministeriums entsprechend den von Ihnen erwähnten Ankündigungen in der Fragestunde des Deutschen Bundestages für die Einbeziehung der Zollverwaltung aussprechen. Entsprechende Textvorschläge des Bundesministeriums der Finanzen liegen bereits vor. Wann mit einer Realisierung des Vorhabens zu rechnen ist, kann ich auch jetzt nicht sagen. Die Entscheidung, ob und gegebenenfalls in welcher Form das Sicherheitsprogramm nochmals fortgeschrieben wird, liegt im wesentlichen bei den Ländern.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg173">Keine Zusatzfrage. Damit ist Ihr Geschäftsbereich beendet. Ich bedanke mich, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers der Justiz auf. Der Herr Parlamentarische Staatssekretär Dr. de With steht zur Beantwortung zur Verfügung. Frage 29 des Herrn Abgeordneten Erhard (Bad Schwalbach):</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg174">Wie beurteilt die Bundesregierung Meldungen, wonach sich in Frankreich Gruppen bilden wollen, die in der Bundesrepublik Deutschland eine Art Selbstjustiz üben sollen gegen Personen, die nationalsozialistischer Völkermordverbrechen beschuldigt werden? Bitte schön, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-21-07-172.u143" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg175">Der Bundesregierung sind Meldungen über Drohungen einer französischen Gruppe gegen bestimmte Personen für den Fall, daß diese nicht bis zum 1. Dezember 1975 durch Gerichte der Bundesrepublik Deutschland abgeurteilt sein sollten, bekanntgeworden. Nach dem Inhalt der Meldungen besteht gegenwärtig keine unmittelbare Gefahr für Menschenleben. Bezweckt wird offenbar in erster Linie, den Gang von Gerichtsverfahren zu beschleunigen. Bei allem Verständnis für dieses Anliegen lehnt die Bundesregierung entschieden jede Drohung mit Gewalt ab, die geeignet sein könnte, die Unabhängigkeit der Gerichte zu berühren. Für Selbstjustiz ist in der Bundesrepublik Deutschland kein Raum.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u144" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg176">Eine Zusatzfrage, Herr Abgeordneter Erhard.</seg>
+        </u>
+        <note type="speaker">Erhard (Bad Schwalbach) (CDU/CSU) :</note>
+        <u who="#Q817923" xml:id="ParlaMint-DE_1975-05-21-07-172.u145" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg177">Herr Staatssekretär, könnte es passieren, daß eine Staatsanwaltschaft, obwohl sie eigentlich das Verfahren einstellen möchte, mit Rücksicht auf solche Drohungen Anklage erhebt?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-21-07-172.u146" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg178">Ich kann mir nicht vorstellen, daß deutsche Staatsanwälte solchen Drohungen nachgeben könnten.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u147" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg179">Zweite Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Erhard (Bad Schwalbach) (CDU/CSU) :</note>
+        <u who="#Q817923" xml:id="ParlaMint-DE_1975-05-21-07-172.u148" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg180">Bestehen erkennbare und vielleicht auch organisatorische Verbindungen zwischen diesen Vereinigungen in Frankreich und den Vorgängen um den Richter Ehlers?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-21-07-172.u149" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg181">Ich kann Ihnen hierzu keine konkrete Antwort geben, da wir auf Grund der Frage keinen Anlaß gesehen haben, hier Informationen nachzugehen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u150" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg182">Eine Zusatzfrage des Herrn Abgeordneten Dr. Arndt (Hamburg).</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Hamburg) (SPD) :</note>
+        <u who="#Q1098411" xml:id="ParlaMint-DE_1975-05-21-07-172.u151" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg183">Herr Staatssekretär, hat die Bundesregierung Verständnis dafür, daß deutsche Staatsbürger jüdischer Abstammung und andere Verfolgte mit dem gleichen Abscheu, den sie gegenüber nationalsozialistischen Gewaltverbrechen empfinden, diesen Vorbereitungen gegenüberstehen, da sie meinen, daß diese Leute sich die Methoden derer zu eigen machen, die sie zu bekämpfen vorgeben?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-21-07-172.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg184">Insoweit besteht ganz sicher Verständnis, weil das allgemein gilt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg185">Ich rufe die Frage 30 des Herrn Abgeordneten Erhard auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg186">Was unternimmt die Bundesregierung, um die Wiederholung von Vorgängen wie beispielsweise den Überfall auf den pensionierten Richter Ernst Ehlers zu verhindern? Bitte schön, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-21-07-172.u154" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg187">Der Vorfall, auf den Sie abheben, hat sich im Zuständigkeitsbereich der schleswig-holsteinischen Landesjustizverwaltung ereignet. Diese hat mir mitgeteilt, daß es zu einem Überfall auf den pensionierten Richter Ehlers nicht gekommen ist. Als am 9. Mai 1975 belgische Staatsangehörige in seine Wohnung eindrangen, befanden sich darin weder der Wohnungsinhaber noch sonstige Personen. Es ist Strafantrag wegen Sachbeschädigung und Hausfriedensbruchs gestellt worden. Der Schutz von Personen obliegt den örtlichen Polizeidienststellen. Schutzmaßnahmen können jedoch erst beim Vorliegen konkreter Anhaltspunkte für eine Gefährdung getroffen werden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u155" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg188">Eine Zusatzfrage, Herr Abgeordneter Erhard.</seg>
+        </u>
+        <note type="speaker">Erhard (Bad Schwalbach) (CDU/CSU) :</note>
+        <u who="#Q817923" xml:id="ParlaMint-DE_1975-05-21-07-172.u156" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg189">Trifft es zu, daß dieser ehemalige Richter ein führender Mann in dem System der Judenvernichtung in Belgien gewesen ist und daß er bisher von einem deutschen Gericht nicht deswegen abgeurteilt wurde?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der SPD: Nicht abgeurteilt werden konnte!</desc>
+        </vocal>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-21-07-172.u157" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg190">Herr Kollege Erhard, ich kann Ihnen hier keine präzise Antwort geben. Ich bin nicht darauf vorbereitet, weil Ihre Frage eine solche Nachfrage nicht erkennen ließ. Ich bin aber gern bereit, Ihnen diese Frage schriftlich konkret zu beantworten, falls Sie es wünschen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u158" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg191">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Erhard (Bad Schwalbach) (CDU/CSU) :</note>
+        <u who="#Q817923" xml:id="ParlaMint-DE_1975-05-21-07-172.u159" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg192">Treffen Meldungen zu, nach denen Frau Klarsfeld in irgendeiner Weise an der Organisation der Aktionen, die zu diesem Eindringen in die Wohnung des Richters Ehlers geführt haben, und an der Planung entsprechender Aktionen in Frankreich beteiligt gewesen ist, und trifft es zu, daß sie in diesem Zusammenhang mit einer Fahndung gesucht wird?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-21-07-172.u160" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg193">Ich kann mich insoweit nur auf Meldungen stützen, die Sie sicher ebenso verfolgt haben wie ich. Danach trifft dies zu. Ich kann aber nicht bestätigen, daß dies in der Tat so ist, weil wir dieser Frage, die Sie hier gestellt haben, ebenfalls nicht nachgegangen sind. Aber ich bin gern bereit, diese Frage schriftlich konkret zu beantworten, ebenso wie ich dies bei der vorangegangenen angeboten habe.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Erhard [Bad Schwalbach] [CDU/CSU] : Ich bitte darum!</desc>
+        </vocal>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u161" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg194">Die Frage 31 des Herrn Abgeordneten Dr. Wittmann (München)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg195">wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 32 des Herrn Abgeordneten Spranger auf: ist es zutreffend, daß vor dem Anschlag auf den Kammergerichtspräsidenten von Drenkmann Polizeibeamte, Verfassungsschützer, Politiker, Redakteure und Journalisten immer wieder vor der Gefahr des Terrorismus und seiner Verharmlosung gewarnt haben, und hätte die Bundesregierung entgegen der Ansicht des Bundesministers Dr. Vogel, nie im Traume habe man daran gedacht, daß die Terroristen einmal als Mörder auftreten könnten, dennoch dieser Möglichkeit Rechnung tragen müssen? Bitte sehr, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-21-07-172.u162" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg196">Die Frage versucht unter unzutreffender Wiedergabe von Äußerungen des Bundesministers der Justiz den — falschen Eindruck zu erwecken, die Bundesregierung verharmlose die von dem Terrorismus ausgehenden Gefahren.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Arndt [Hamburg] [SPD] : Immer dieselbe Masche!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg197">Demgegenüber ist festzustellen: In den letzten Jahren haben die verschiedensten Vertreter der Bundesregierung in zahlreichen Erklärungen vor dem Bundestag und in der Öffentlichkeit darauf hingewiesen, daß die von terroristischen kriminellen Vereinigungen und ihren Anhängern ausgehenden Gefahren ernst zu nehmen seien. Die Bundesregierung hat sich nicht auf diese Erklärungen beschränkt, sondern entsprechend gehandelt, indem sie in dem Bereich, für den sie Verantwortung trägt, kontinuierlich die technischen, finanziellen, organisatorischen und personellen Voraussetzungen dafür geschaffen hat, daß die Sicherheits- und Justizorgane bisher ihre Pflicht getan haben und auch künftig tun werden. Der Bundesminister der Justiz hat im übrigen in einem Gespräch mit Journalisten aus Anlaß der Vorfälle von Stockholm und Köln gerade im Gegensatz zur Unterstellung der Frage in sehr eindringlicher Weise zum Ausdruck gebracht, wie hoch die vom Terrorismus ausgehende Gefahr auf Grund der sich aus diesen Vorfällen ergebenden neuen Erkenntnisse hinsichtlich des zu extremen Gewalttaten bereiten Personenkreises sei. Er hat dies im Rahmen seiner Ausführungen verdeutlicht, indem er darauf hinwies, daß sich unter den Attentätern von Köln und Stockholm Personen befunden hätten, die nach den bisherigen Erkenntnissen der Polizei und der Sicherheitsbehörden allenfalls dem äußeren Bereich der Terroristen zuzurechnen waren und von denen man nie im Traum habe annehmen können, daß sie einmal als Mörder auftreten könnten. Die Äußerungen des Bundesministers der Justiz sind von der Presse auch keineswegs mißverstanden worden. Ich darf z. B. auf die Ausführungen des „Münchener Merkur" vom 14. Mai 1975 hinweisen. Im übrigen kann gerade der Bundesminister der Justiz für sich in Anspruch nehmen, als einer der ersten schon Ende der 60er Jahre vor Gewaltanwendung und terroristischen Aktivitäten gewarnt zu haben, nachzulesen im einzelnen in seinem Buch „Die Amtskette".</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u163" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg198">Zusatzfrage, Herr Abgeordneter Spranger.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1975-05-21-07-172.u164" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg199">Herr Staatssekretär, kann ich Ihren Ausführungen entnehmen, daß auch nach Auffassung der Bundesregierung ausreichende Warnungen vor den Terroristen vorhanden waren?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Pari. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-21-07-172.u165" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg200">Sie können aus meinen Ausführungen entnehmen das habe ich unterstrichen, und ich wiederhole es —, daß die Bundesregierung die Gefahren, die von diesen Gruppierungen ausgehen, immer sehr ernst genommen hat.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u166" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg201">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1975-05-21-07-172.u167" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg202">Herr Staatssekretär, sind Sie der Meinung, daß, wenn man die Warnungen ernst genommen hätte, dennoch die nachfolgenden Anschläge, die sich beispielsweise in den Jahren 1973 und 1974 ereigneten, stattgefunden hätten?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-21-07-172.u168" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg203">Sie können in keiner Weise davon ausgehen, daß Anzeichen, die Warnungen sein könnten, nicht ernst genommen worden wären. Sie können weiter davon ausgehen, daß die Bundesregierung alles in ihrer Macht Stehende getan hat und weiterhin tun wird, um Gefährdungen von den Bürgern dieses Staates abzuwenden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u169" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg204">Keine weitere Zusatzfrage. Damit ist Ihr Geschäftsbereich beendet. Ich bedanke mich, Herr Staatssekretär. Wir kommen zum Geschäftsbereich des Bundesministers der Finanzen. Herr Parlamentarischer Staatssekretär Haehser steht zur Beantwortung zur Verfügung. Ich rufe die Frage 33 der Frau Abgeordneten Dr. Rehlen auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg205">Teilt die Bundesregierung die Auffassung, daß steuerliche Erleichterungen für Lärmschutzmaßnahmen an Wohngebäuden notwendig sind, sofern das Bundes-Immissionssdiutzgesetz nicht zur Anwendung kommt? Bitte schön, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u170" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg206">Frau Kollegin Dr. Rehlen, bereits nach geltendem Recht sind Maßnahmen zum Lärmschutz an Wohngebäuden in gewissem Umfang steuerlich begünstigt. Aufwendungen zum Lärmschutz an Wohngebäuden können Erhaltungsaufwand sein, der bei der Ermittlung der Einkünfte aus Vermietung und Verpachtung sofort abzugsfähig ist. Aufwendungen bis zum Betrag von 3 000 DM für die einzelne Maßnahmen behandelt die Finanzverwaltung auf Antrag ohne Unterschied als Erhaltungsaufwand. Soweit lärmisolierende Maßnahmen im Zuge von größerem Erhaltungsaufwand getroffen werden, kann zwischen dem sofortigen Abzug oder der gleichmäßigen Verteilung auf zwei bis fünf Jahre gewählt werden. Sind die Aufwendungen als Herstellungsaufwand anzusehen, so sind nach § 82 a der Einkommensteuer-Durchführungsverordnung bestimmte Aufwendungen, z. B. der Einbau von lärmisolierenden Fenstern und Türen, steuerlich begünstigt. Der Eigentümer kann die Aufwendungen mit je 10 % auf zehn Jahre verteilen. Voraussetzung ist, daß das Gebäude vor dem 1. Januar 1957 hergestellt worden ist. Eine Ausdehnung der bereits bestehenden Steuerbegünstigungen ist angesichts der Haushaltslage von Bund, Ländern und Gemeinden auf absehbare Zeit nicht möglich.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u171" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg207">Zusatzfrage, Frau Abgeordnete.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Rehlen (SPD) :</note>
+        <u who="#Q1437096" xml:id="ParlaMint-DE_1975-05-21-07-172.u172" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg208">Herr Staatssekretär, hat die Bundesregierung den mutmaßlichen Steuerausfall einer solchen steuerlichen Begünstigung von Lärmschutzmaßnahmen geprüft, und wie ist gegebenenfalls das Ergebnis dieser Prüfung?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u173" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg209">Frau Kollegin, die Bundesregierung hat den mutmaßlichen Ausfall nicht geprüft. Aber es kann davon ausgegangen werden, daß der mutmaßliche Ausfall nur ganz schwer abzuschätzen ist, weil niemand die Zahl der Anträge und ihre Auswirkungen im voraus beurteilen kann. Ich will dennoch Ihre Frage zum Anlaß nehmen, im Bundesministerium der Finanzen zu recherchieren, ob eine Überprüfung möglich ist.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u174" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg210">Zweite Zusatzfrage, bitte, Frau Dr. Rehlen.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Rehlen (SPD) :</note>
+        <u who="#Q1437096" xml:id="ParlaMint-DE_1975-05-21-07-172.u175" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg211">Herr Staatssekretär, hat die Bundesregierung Verständnis dafür, daß weite Teile der Bevölkerung — vor allem in den Großstädten — Lärmschutzmaßnahmen als Bestandteil der Gesundheitsvorsorge betrachten und daher eine steuerliche Berücksichtigung in Analogie zur steuerlichen Berücksichtigung von Krankheitskosten erwartet wird?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u176" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg212">Frau Kollegin, die Bundesregierung hat Verständnis dafür, aber ich muß auf den letzten Satz meiner Hauptantwort verweisen dürfen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u177" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg213">Keine Zusatzfragen. Die Fragen 34 und 35 des Abgeordneten Dr. Graf Lambsdorff werden schriftlich beantwortet, da er nicht im Saal ist. Die Antworten werden als Anlagen abgedruckt. Die jetzt folgenden Fragen haben wir auf Wunsch der Fragesteller in einer anderen Reihenfolge geordnet. Ich rufe zunächst die Frage 40 des Herrn Abgeordneten Schröder (Lüneburg)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg214">auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg215">Wie stellt sich die Bundesregierung zu dem von dem TokioKorrespondenten des WDR erhobenen Vorwurf, der Besuch des Bundesfinanzministers im Mai in Tokio sei „eine der sinnlosesten Reisen, die sich ein Minister einer Bundesregierung, die angeblich ein Sparprogramm verfolge, vornehmen könnte"? Herr Staatssekretär, bitte!</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u178" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg216">Frau Präsidentin, wenn der Herr Kollege Schröder einverstanden ist, möchte ich gerne beide Fragen zusammen beantworten.</seg>
+        </u>
+        <note type="speaker">Schröder (Lüneburg) (CDU/CSU) :</note>
+        <u who="#Q1629921" xml:id="ParlaMint-DE_1975-05-21-07-172.u179" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg217">Wenn das Kontingent meiner Zusatzfragen dazu nicht beschränkt wird, bin ich damit einverstanden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u180" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg218">Sie erhalten selbstverständlich Ihr Kontingent an Zusatzfragen. Ich rufe auch die Frage 41 des Herrn Abgeordneten Schröder (Lüneburg)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg219">auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg220">Inwiefern war bei der Fernostreise des Bundesfinanzministers vom 2. bis 11. Mai 1975, deren Zweck nach seiner Erklärung gegenüber der „Frankfurter Rundschau" vom 12. Mai 1975 die „Vorbereitung internationaler Währungs- und Energiekonferenzen" gewesen sein soll, laut Presseberichten („Kölner Stadtanzeiger" vom 8./9. Mai 1975) von insgesamt vier Besuchstagen in Japan nur ein einziger Tag Besprechungen mit japanischen Regierungsmitgliedern gewidmet?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u181" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg221">Meine Antworten werden so erschöpfend sein, daß Sie Ihr Kontingent nicht ausschöpfen werden, Herr Kollege. Herr Kollege Schröder, der japanische Finanzminister Ohira hatte wiederholt den Bundesminister der Finanzen und seine Frau zu einem Japan-Besuch eingeladen. Die beiden Finanzminister waren dabei zu der Überzeugung gekommen, daß eine derartige Reise verbunden werden sollte mit der notwendigen Konsultation zwischen Japan und der Bundesrepublik Deutschland zur Vorbereitung der nächsten Sitzung des Interimsausschusses des Währungsfonds am 10. und 11. Juni in Paris. Daraus ergab sich der schließlich festgelegte Reisetermin, weil nur er sicherstellte, daß die gemeinsamen Besprechungen auch von der Sitzung der EG-Finanzminister am 20. Mai 1975, die ebenfalls die Sitzung des Interimskomitees vorbereitete, berücksichtigt werden konnten. Für die japanisch-deutschen Konsultationen ergab sich damit folgende, vom Gastgeberland Japan vorgeschlagene Tagesordnung: 1. Vorbereitung der Sitzung des Interimsausschusses — a) Quotenerhöhung; b)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg222">Goldfrage; c)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg223">etwaige Schaffung eines Trustfonds —; 2. die Entwicklung der Zahlungsbilanzreserven der wichtigsten Industrienationen und das Recycling der Öldollars; 3. die gegenwärtige und die zu erwartende Konjunkturlage. Von deutscher Seite wurde zusätzlich zu diesen Tagesordnungspunkten vorgeschlagen, über die bevorstehende Ausweitung des europäischen Währungsverbunds zu sprechen und zu einer Abstimmung der japanischen und der westdeutschen Position zur Wiederaufnahme der Vorgespräche für eine internationale Ölkonferenz zu kommen. Die Japaner haben diesem deutschen Wunsch auf Erweiterung der Gesprächsthemen entsprochen. Schließlich ergab sich aus der aktuellen Situation ein sehr detaillierter Meinungsaustausch über die politische Lage in Südostasien nach den Ereignissen in Südvietnam und Kambodscha. Der obengenannte Themenkreis wurde mit dem japanischen Finanzminister, dem Gouverneur der Notenbank und dem japanischen Außenminister eingehend besprochen. Der Bundesfinanzminister führte ferner ein eingehendes Gespräch mit dem japanischen Ministerpräsidenten, Miki. Auf Grund dieser Besprechungen ist es zu einer weitgehenden Übereinstimmung der Positionen der Bundesrepublik und Japans gekommen und zu der Vereinbarung, diese Konsultationen fortzusetzen. Der gleiche Themenkreis wurde mit den politisch Verantwortlichen in Hongkong und Singapur erörtert. Der japanische Finanzminister, Ohira, hatte die deutsche Delegation anläßlich ihres Japanaufenthalts zu einem Besuch der alten Kaiserstadt Kyoto eingeladen. Auch dort fanden Gespräche mit dem für internationale Währungsfragen zuständigen Berater des japanischen Finanzministers, Herrn Ina-mura, statt. Abschließend, verehrter Herr Kollege Schröder, möchte ich noch anmerken, was uns zum Japanbesuch des Ministers von der deutschen Botschaft in Tokio u. a. mitgeteilt wurde. Ich zitiere:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg224">Der Besuch von Bundesminister Dr. Apel und seine Gespräche mit Ministerpräsident Miki, Außenminister Miyozawa, Finanzminister Ohira und dem Gouverneur der Bank von Japan, Morinaga, fanden in der japanischen Presse ein im Vergleich zur Beachtung anderer Besucher starkes Echo. Die wichtigsten Zeitungen und die führende Wirtschaftszeitung berichteten an mehreren Tagen ausführlich über seine Begegnung mit den japanischen Politikern und über die Nützlichkeit eines Erfahrungsaustauschs mit einem Gesprächspartner, der wie Bundesminister Apel mit zahlreichen Problemen Japans (Wirtschaftsrezession, Ölkrise, Inflation) vertraut sei.</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg225">Die Botschaft faßt abschließend zusammen — ich fahre mit dem Zitat fort :</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg226">Dem Inhalt und dem Umfang der Veröffentlichungen nach hat der Besuch von Bundesminister Apel in den japanischen Öffentlichkeitsmedien eine ungewöhnlich starke Beachtung gefunden.</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Lachen bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u182" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg227">Herr Abgeordneter, Sie haben vier Zusatzfragen.</seg>
+        </u>
+        <note type="speaker">Schröder (Lüneburg) (CDU/CSU) :</note>
+        <u who="#Q1629921" xml:id="ParlaMint-DE_1975-05-21-07-172.u183" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg228">Herr Staatssekretär, war dem Bundesfinanzminister eigentlich vor dem Antritt seiner Reise bekannt, daß die ersten drei Tage seines Aufenthalts in Japan Feiertage waren, und aus welchem Grunde sah sich der Bundesfinanzminister nicht in der Lage, die von Ihnen genannten Themen anläßlich der internationalen Treffen in den beiden letzten Monaten in Paris und Washington, bei denen er mit dem japanischen Finanzminister zusammengetroffen war, mit diesem zu beraten?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u184" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg229">Zunächst, Herr Kollege Schröder, möchte ich Sie bitten, einmal zu prüfen, welchen Eindruck Fragen der gestellten Art auf den Gastgeber machen, der den Bundesminister der Finanzen eingeladen hat.</seg>
+          <kinesic type="applause">
+            <desc>Zustimmung bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg230">Zweitens. Dem Bundesminister der Finanzen war selbstverständlich bekannt, daß es in Japan wie in der Bundesrepublik Feiertage gibt. Aber auch Ihnen ist vielleicht wie dem Bundesminister der Finanzen — bekannt, daß man selbst an Feiertagen Gespräche führen kann.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u185" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg231">Noch eine Zusatzfrage, Herr Abgeordneter Schröder.</seg>
+        </u>
+        <note type="speaker">Schröder (Lüneburg) (CDU/CSU) :</note>
+        <u who="#Q1629921" xml:id="ParlaMint-DE_1975-05-21-07-172.u186" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg232">Herr Staatssekretär, können Sie angeben, an wie vielen dieser Feiertage mit wem über welche Themen Gespräche stattgefunden haben,</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der SPD: Unzumutbar!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg233">und können Sie mich in diesem Zusammenhang darüber aufklären, ob es international üblich ist, daß ein Bundesminister bei Gesprächen mit einem auswärtigen Amtskollegen diese Gespräche durch Diskussion mit untergeordneten Beamten des Gastlandes vorbereitet?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u187" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg234">Herr Kollege Schröder, ich muß es Ihrem Urteil überlassen, ob die von mir genannten hochgestellten japanischen Persönlichkeiten, Gastgeber des Bundesministers der Finanzen, in den Bereich untergeordneter Beamter eingestuft werden können.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u188" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg235">Dritte Zusatzfrage, Herr Abgeordneter Schröder.</seg>
+        </u>
+        <note type="speaker">Schröder (Lüneburg) (CDU/CSU) :</note>
+        <u who="#Q1629921" xml:id="ParlaMint-DE_1975-05-21-07-172.u189" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg236">Herr Staatssekretär, entspricht es eigentlich der üblichen Praxis bei Reisen von Bundesministern, insbesondere des Bundesfinanzministers, daß die Wichtigkeit der Reise durch einen Begleitbrief des Bundeskanzlers unterstrichen wird?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u190" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg237">Von diesem Begleitbrief des Bundeskanzlers ist mir nichts bekannt. Aber ich halte es für möglich, daß der Bundesminister der Finanzen ein Schreiben des Herrn Bundeskanzlers an die japanischen Gesprächspartner mitbekommen hat; denn Sie wissen ja, daß wir mit der japanischen Nation aufs engste befreundet sind. Dazu kann durchaus gehören, daß der Bundeskanzler seinem Finanzminister eine Botschaft anvertraut.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u191" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg238">Eine letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schröder (Lüneburg) (CDU/CSU) :</note>
+        <u who="#Q1629921" xml:id="ParlaMint-DE_1975-05-21-07-172.u192" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg239">Herr Staatssekretär, nachdem Sie aus einem Bericht der deutschen Botschaft in Tokio zitiert haben, darf ich Sie fragen, wie sich der Inhalt dieses Berichtes eigentlich mit der Aussage der deutschen Botschaft in Tokio vor Antritt der Reise des Bundesfinanzministers in Übereinstimmung bringen läßt, derzufolge es bilaterale Probleme zwischen Bonn und Tokio zur Zeit überhaupt nicht gebe und demgemäß der Besuch des Bundesfinanzministers nicht von so besonderer Wichtigkeit sei?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u193" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg240">Herr Kollege Schröder, Ihre Fragen beziehen sich auf die Reise, die angetreten und glücklicherweise ohne irgendwelche Unfälle beendet worden ist. Ich vermag nicht einzusehen, welchen Zusammenhang Sie mit angeblichen Äußerungen der deutschen Botschaft sehen, die vor der Reise gemacht worden sein sollen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u194" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg241">Eine Zusatzfrage, Herr Abgeordneter Dr. Möller.</seg>
+        </u>
+        <note type="speaker">Dr. h. c. Dr.-Ing. E. h. Möller (SPD) :</note>
+        <u who="#Q76293" xml:id="ParlaMint-DE_1975-05-21-07-172.u195" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg242">Herr Staatssekretär, ist Ihnen bekannt, daß führende Persönlichkeiten der Opposition, z. B. Herr Dr. Barzel, in bestimmten Fällen führende Persönlichkeiten des Auslandes auch unter Mitnahme eines Briefes des Bundeskanzlers besucht haben?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u196" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg243">Das ist mir bekannt, Herr Kollege Professor Möller. Ich halte es auch für eine gute Übung, daß dann, wenn der Herr Bundeskanzler etwas durch seinen Brief mitzuteilen hat, die Gelegenheit einer persönlichen Übergabe genutzt wird.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u197" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg244">Eine Zusatzfrage, Herr Abgeordneter Nordlohne.</seg>
+        </u>
+        <note type="speaker">Nordlohne (CDU/CSU) :</note>
+        <u who="#Q1445835" xml:id="ParlaMint-DE_1975-05-21-07-172.u198" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg245">Herr Staatssekretär, wie hoch sind denn nach den jetzigen Ermittlungen die Gesamtkosten dieser Fernostreise des Bundesministers der Finanzen gewesen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u199" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg246">Sie kennen mich inzwischen als einen sehr höflichen Mann. Die Frage nach den Kosten hatte der Kollege Möller gestellt. Der Kollege Möller hat seine dahin gehende Frage zurückgezogen und mitgeteilt, daß er sie später stellen wolle. Ich möchte zunächst den Wissensdurst des Kollegen Möller befriedigen dürfen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. h. c. Dr.-Ing. E. h. Möller [SPD] : Für das Protokoll: Möller [Lübeck] !</desc>
+        </vocal>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u200" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg247">Von Herrn Abgeordneten Möller (Lübeck)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg248">ist hier die Rede. — Eine Zusatzfrage, Herr Abgeordneter Stavenhagen.</seg>
+        </u>
+        <note type="speaker">Dr. Stavenhagen (CDU/CSU):</note>
+        <u who="#Q1878207" xml:id="ParlaMint-DE_1975-05-21-07-172.u201" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg249">Herr Staatssekretär, könnten Sie noch einmal präzisieren, welchen zeitlichen Anteil die fachlichen Gespräche an der Reise hatten und welcher zeitliche Anteil der Touristik vorbehalten war?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u202" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg250">Herr Kollege, ich hoffe nicht, daß ich Ihre Frage als eine Anregung betrachten soll, zukünftig internationale Besuche nach der Stoppuhr abzuwickeln.</seg>
+        </u>
+        <incident type="action">
+          <desc>Wehner [SPD] : Sehr gut! — Abg. Nordlohne [CDU/CSU] meldet sich zu einer Zusatzfrage</desc>
+        </incident>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u203" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg251">Keine weitere Zusatzfrage, wir haben jetzt ein ähnliches Problem bei den nächsten beiden Fragen 38 und 39 des Herrn Abgeordneten Hauser (Bonn).</seg>
+          <vocal type="exclamat">
+            <desc>Nordlohne [CDU/CSU] : Unglaublich!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg252">— Verzeihen Sie, das ist nicht unglaublich. Eine solche Kritisierung des Präsidenten steht Ihnen nicht zu. Ich rufe Sie zur Ordnung. Ich rufe die Frage 38 des Herrn Abgeordneten Hauser (Bonn-Bad Godesberg)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg253">auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg254">Weshalb war es erforderlich, daß der Bundesfinanzminister auf seine Fernostreise vom 2. his 11. Mai 1975 neben (wie vielen?)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg255">Sachverständigen aus seinem Hause sowohl seinen Pressereferenten wie auch seinen persönlichen Referenten und seine Sekretärin mitnahm? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u204" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg256">Herr Kollege Hauser, trotz der weitreichenden Gesprächswünsche der japanischen Regierung hat der Bundesfinanzminister darauf bestanden, die ihn begleitende Delegation so knapp wie möglich zu halten. Aus dem Bundesfinanzministerium sind zwei Experten, eine persönliche Mitarbeiterin und der Pressesprecher des Ministeriums mitgereist.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u205" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg257">Zusatzfrage, Herr Abgeordneter Hauser?</seg>
+          <vocal type="exclamat">
+            <desc>Hauser [Bonn-Bad Godesberg] [CDU/CSU] : Nein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg258">Eine Zusatzfrage, Herr Abgeordneter Schröder.</seg>
+        </u>
+        <note type="speaker">Schröder (Lüneburg) (CDU/CSU) :</note>
+        <u who="#Q1629921" xml:id="ParlaMint-DE_1975-05-21-07-172.u206" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg259">Herr Staatssekretär, ist es üblich, daß bei derartigen Ministerreisen die Sekretärinnen ihren Chef zu begleiten pflegen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u207" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg260">Nun, Herr Kollege Schröder, ich habe nicht nachgeprüft, wer bei Reisen seit 1949 wen begleitet hat, z. B. den damaligen Bundeskanzler Adenauer. Ich weiß aber, daß sich eine Delegation so zusammensetzen muß, daß die Aufgabe erfolgreich erledigt werden kann.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u208" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg261">Ich rufe die Frage 39 des Herrn Abgeordneten Hauser (Bonn-Bad Godesberg)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg262">auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg263">Welche Personen, die nicht im Bundesdienst stehen, haben auf Staatskosten an der Reise teilgenommen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u209" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg264">Herr Kollege Hauser, im Sinne Ihrer Frage wurde der Bundesfinanzminister von vier Personen begleitet, die nicht im Bundesdienst stehen. Es handelte sich dabei um drei Journalisten und um die Gattin des Bundesfinanzministers, auf die sich die Einladung des japanischen Finanzministers ausdrücklich mit erstreckte. Damit wird üblichen deutschen wie internationalen Gepflogenheiten entsprochen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u210" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg265">Eine Zusatzfrage, Herr Abgeordneter Hauser.</seg>
+        </u>
+        <note type="speaker">Hauser (Bonn-Bad Godesberg) (CDU/CSU) :</note>
+        <u who="#Q2649849" xml:id="ParlaMint-DE_1975-05-21-07-172.u211" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg266">Unter welchen Gesichtspunkten, Herr Staatssekretär, sind die Journalisten, die nach Ihrer Auskunft den Bundesfinanzminister auf Staatskosten begleitet haben, ausgewählt worden?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u212" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg267">Nach äußerst sachlichen Gesichtspunkten.</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Beifall bei der SPD — Lachen bei der CDU/ CSU</desc>
+        </kinesic>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u213" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg268">Zweite Zusatzfrage, Herr Abgeordneter Hauser.</seg>
+        </u>
+        <note type="speaker">Hauser (Bonn-Bad Godesberg) (CDU/CSU) :</note>
+        <u who="#Q2649849" xml:id="ParlaMint-DE_1975-05-21-07-172.u214" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg269">Trifft es zu, daß neben den drei Journalisten, die nach Ihrer Antwort den Bundesfinanzminister auf Staatskosten begleitet haben, weitere Journalisten auf Kosten ihrer Redaktionen bzw. Verlage mitgeflogen sind, und welche Gesichtspunkte waren dafür maßgebend, lediglich drei Journalisten diese Vorzugsbedienung zuteil werden zu lassen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u215" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg270">Herr Kollege Hauser, auf diese Frage war ich nicht vorbereitet; ich komme aber schriftlich darauf zurück. Soviel ich allerdings zu wissen meine, hat es sich um andere, d. h. über die Begleitung des Bundesfinanzministers hinausgehende Besuchsprogramme gehandelt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u216" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg271">Eine Zusatzfrage des Herrn Abgeordneten Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-05-21-07-172.u217" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg272">Herr Staatssekretär, trifft es zu, daß auch der Korrespondent einer Rundfunkanstalt mitgereist ist, die ihrerseits durch einen ständigen Korrespondenten in Japan vertreten ist?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u218" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg273">Vielleicht gehört dieser Journalist — der ja übrigens ein sehr angesehener Journalist ist, wie alle Begleiter des Herrn Bundesfinanzministers — zu denen, die der Herr Kollege Hauser gemeint hat.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u219" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg274">Eine Zusatzfrage, Herr Abgeordneter Schröder (Lüneburg).</seg>
+        </u>
+        <note type="speaker">Schröder (Lüneburg) (CDU/CSU) :</note>
+        <u who="#Q1629921" xml:id="ParlaMint-DE_1975-05-21-07-172.u220" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg275">Herr Staatssekretär, welchem Zweck diente die Begleitung durch diese Journalisten, da mir bekannt ist, daß ein Teil der begleitenden Journalisten zu Zeitungen bzw. Rundfunkanstalten gehört, die zugleich durch eigene Korrespondenten in Japan vertreten sind?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u221" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg276">Die Begleitung, Herr Kollege Schröder, diente den Zwecken, denen die Begleitung von Reisen von Mitgliedern der Bundesregierung durch Journalisten immer dient. Übrigens wissen Sie, daß auch bei Abgeordnetenreisen hier und dort Journalisten zugegen sind.</seg>
+        </u>
+        <incident type="action">
+          <desc>Abg. Nordlohne [CDU/CSU] meldet sich zu einer Zusatzfrage</desc>
+        </incident>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u222" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg277">Keine weitere Zusatzfrage. — Nein, keine weiteren Zusatzfragen! Die Fragen 36 und 37 des Herrn Abgeordneten Möller (Lübeck)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg278">sind zurückgezogen worden.</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg279">Ich rufe Frage 42 des Herrn Abgeordneten Ey auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg280">Ist der Bundesregierung bekannt, daß durch die Blockierung der Verlustrücktragsmöglichkeit die Investitionsneigung erheblich gebremst wird? Bitte schön, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u223" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg281">Herr Kollege Ey, die Bundesregierung wird den vom Bundesrat eingebrachten Entwurf eines Gesetzes zur Änderung des Einkommensteuer- und Gewerbesteuergesetzes — Drucksache 828/74 —, der die Einführung einer Verlustrücktragsregelung vorsieht, mit ihrer Stellungnahme innerhalb der in Art. 76 Abs. 3 des Grundgesetzes vorgesehenen Frist dem Deutschen Bundestag zuleiten, der dann darüber zu beraten und zu beschließen haben wird. Von einer Blockierung der Verlustrücktragsregelung durch die Bundesregierung kann deshalb nicht die Rede sein.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u224" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg282">Eine Zusatzfrage, Herr Abgeordneter Ey.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU):</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1975-05-21-07-172.u225" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg283">Herr Staatssekretär, ist die Bundesregierung mit mir der Meinung, daß unter dem Verbot oder der Unmöglichkeit des Verlustrücktrags auch die Weiterentwicklung neuer Technologien, von denen oftmals wesentliche Impulse für die Wirtschaftsbelebung ausgehen, leiden kann?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u226" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg284">Herr Kollege Ey, den Verlustrücktrag gibt es nicht. Deswegen kann von ihm weder eine negative noch eine positive Wirkung ausgehen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u227" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg285">Eine Zusatzfrage, Herr Abgeordneter Dr. Möller.</seg>
+        </u>
+        <note type="speaker">Dr. h. c. Dr.-Ing. E. h. Möller (SPD) :</note>
+        <u who="#Q76293" xml:id="ParlaMint-DE_1975-05-21-07-172.u228" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg286">Herr Staatssekretär, ist der Bundesregierung bekannt, daß der Verlustrücktrag nicht dazu dienen kann, Investitionen anzuregen oder neue Arbeitsplätze zu schaffen, sondern daß er den in Frage kommenden Firmen die Möglichkeit gibt, sich hinsichtlich der Liquidität wieder in Ordnung zu bringen, um leistungsfähig zu sein? Beim Verlustrücktrag handelt es sich — das ist doch auch sicher Ihre Meinung, Herr Staatssekretär — um Betriebe, die sich in einer Verlustzone befinden und aus dieser Verlustzone durch den Verlustrücktrag heraus wollen. Und ist es nicht Ihre Meinung, daß eine solche Frage deswegen nicht im Rahmen konjunkturpolitischer Programme erörtert werden kann, sondern lediglich bei der Steuerreform und bei der Frage, ob es möglich ist, ein solches Element des Verlustrücktrags in unser Steuersystem einzubauen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u229" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg287">Herr Kollege Professor Dr. Möller, ich stimme dem zu, was ich aus Ihrer Frage herausgehört habe. Sie wissen, daß heute, und zwar innerhalb der gegebenen Frist, das Bundeskabinett eine Stellungnahme beschlossen hat. Genau das, was Ihre Anregung ist, ist meines Wissens ich habe an der Kabinettsitzung nicht teilgenommen — bedacht worden: ein solches Problem, wenn, dann im Zusammenhang mit anderen Steuerregelungen zu lösen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u230" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg288">Herr Kollege, Sie melden sich zu dieser Frage? — Bitte schön, Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU) :</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1975-05-21-07-172.u231" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg289">Sind Sie nicht der Meinung, Herr Staatssekretär, daß die Liquiditätsverbesserung bei Unternehmen auch natürlich dazu dient, Arbeitsplätze zu sichern?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u232" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg290">Dazu will ich Ihnen sagen, Herr Kollege, daß die Bundesregierung mit ihrem Programm für den Aufschwung in Stabilität die von ihr für notwendig erachteten Mittel ergriffen hat. Dazu gehört z. B. auch, wie Sie wissen, die Investitionszulage.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u233" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg291">Zusatzfrage, Herr Abgeordneter Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-05-21-07-172.u234" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg292">Herr Staatssekretär, wie kommt es denn, daß Sie auf der einen Seite sagen, die Bundesregierung habe die erforderlichen Mittel ergriffen, während wir auf der anderen Seite wissen, daß maßgebliche Mitglieder der Bundesregierung, z. B. der Herr Bundeswirtschaftsminister, gerade die Möglichkeit des Verlustrücktrags als eine besonders wirksame Maßnahme empfohlen haben?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u235" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg293">Die Tatsache, daß über die Frage des Carry back diskutiert wird, darf Sie nicht verwundern, und die Tatsache, daß sie heute im Kabinett zu einer Entscheidung anstand, wird Ihnen in diesem Augenblick durch mich mitgeteilt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u236" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg294">Zusatzfrage, bitte schön, Herr Abgeordneter Simpfendörfer.</seg>
+        </u>
+        <note type="speaker">Simpfendörfer (SPD) :</note>
+        <u who="#Q1583943" xml:id="ParlaMint-DE_1975-05-21-07-172.u237" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg295">Herr Staatssekretär, ist Ihnen ein Beschluß der CDU/CSU-Fraktion bekannt, wonach die Fraktionen darauf verzichten wollen, ausgabenerhöhende bzw. einnahmenmindernde Anträge zu stellen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u238" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg296">Der Beschluß ist mir zwar bekannt, aber ich glaube nicht, daß man sich daran halten wird.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Zustimmung bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u239" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg297">Zusatzfrage, Herr Abgeordneter Schröder (Lüneburg).</seg>
+        </u>
+        <note type="speaker">Schröder (Lüneburg) (CDU/CSU) :</note>
+        <u who="#Q1629921" xml:id="ParlaMint-DE_1975-05-21-07-172.u240" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg298">Herr Staatssekretär, ist Ihnen die Auffassung des wirtschaftspolitischen Sprechers der FDP-Fraktion bekannt, der sich sehr nachhaltig für die Einführung des Carry back ausgesprochen hat?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-21-07-172.u241" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg299">Natürlich ist mir das bekannt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u242" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg300">Keine weiteren Zusatzfragen. Die Fragen Nrn. 43 und 44 des Herrn Abgeordneten Dr. Dollinger werden auf seinen Wunsch schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 45 des Herrn Abgeordneten Kiechle auf. Der Abgeordnete ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich danke Ihnen, Herr Staatssekretär.</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg301">Ich rufe den Geschäftsbereich des Bundesministers für Wirtschaft auf. Der Herr Parlamentarische Staatssekretär Grüner steht zur Beantwortung zur Verfügung. Die Fragen Nrn. 46 und 47 des Herrn Abgeordneten Höcherl, der nicht im Saal ist, werden schriftlich beantwortet.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. h. c. Dr.-Ing. E. h. Möller [SPD]: Schade!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg302">Die Antworten werden als Anlagen abgedruckt. Die Fragen Nrn. 48 und 49 des Herrn Abgeordneten Dr. Jahn (Braunschweig)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg303">werden auf Wunsch des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Frage Nr. 50 des Herrn Abgeordneten Dr. Freiherr Spies von Büllesheim — der ebenfalls nicht im Saal ist — wird schriftlich beantwortet.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. h. c. Dr.-Ing. E. h. Möller [SPD] : Was ist das für eine Pflichtauffassung!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg304">Für Frage 51 gilt das gleiche. Auch diese Fragen werden schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Frage Nr. 52 des Herrn Abgeordneten Lenzer. Wie beurteilt die Bundesregierung die Entscheidung der französischen Regierung, die Compagnie Internationale pour 1 Informatique (CII)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg305">mit der Honeywell-Bull (HB)</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg306">zu einer neuen französischamerikanischen Computerfirma zu verschmelzen? Bitte, Herr Staatssekretär Grüner.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-05-21-07-172.u243" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg307">Die Bundesregierung hat in Vorgesprächen mit der französischen Regierung erkennen lassen, daß sie die Fortsetzung und Intensivierung der Zusammenarbeit zwischen den Firmen Compagnie Internationale pour l Informatique, Philips und Siemens in der UNIDATA als die zur Zeit bestmögliche Lösung für die europäische Datenverarbeitungsindustrie ansehe. Der Beschluß der französischen Regierung, die CII mit Honeywell-Bull zu einer neuen französischamerikanischen Computerfirma zu verschmelzen, ist der Bundesregierung bisher nicht offiziell mitgeteilt worden, so daß noch keine abschließende Stellungnahme möglich ist. Die Bundesregierung würde es allerdings bedauern, wenn die französische Entscheidung — wofür einiges spricht — die vorgesehene Weiterentwicklung der gemeinsamen europäischen UNIDATA-Konzeption in Frage stellte.</seg>
+        </u>
+        <note type="speaker">Lenzer (CDU/CSU) :</note>
+        <u who="#Q1080811" xml:id="ParlaMint-DE_1975-05-21-07-172.u244" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg308">Herr Staatssekretär, darf ich aus Ihrer Antwort entnehmen, daß die Bundesregierung dann auch der Auffassung ist, daß mit diesem Schritt einer weiteren Zersplitterung der Industriestruktur auf dem Gebiete der europäischen Datenverarbeitung Vorschub geleistet wird?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-05-21-07-172.u245" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg309">Die Bundesregierung möchte nicht abschließend Stellung nehmen, wie Sie aus meiner etwas vorsichtigen Antwort entnehmen können. Es ist aber nicht auszuschließen, daß durch diese Entwicklung eine Zersplitterung eingeleitet wird, die den ursprünglichen Vorstellungen, die mit dem Konzept UNIDATA verbunden waren, nicht voll entspricht. Man muß aber sehr vorsichtig sein, das heute etwa schon als eine Realität zu konstatieren.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u246" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg310">Zusatzfrage, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Lenzer (CDU/CSU) :</note>
+        <u who="#Q1080811" xml:id="ParlaMint-DE_1975-05-21-07-172.u247" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg311">Herr Staatssekretär, würde das — einmal das unterstellt und den offiziellen Eingang der Mitteilung der französischen Regierung bei der Bundesregierung abgewartet — auch bei der Vergabe von Förderungsmitteln im Rahmen eines jetzt ja diskutierten dritten Datenverarbeitungsförderungsprogramms zu Konsequenzen führen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-05-21-07-172.u248" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg312">Selbstverständlich wird jede wesentliche wirtschaftliche Veränderung dieser Art auf die Entscheidungen der Bundesregierung Einfluß haben, ohne daß ich konkret etwas zu Förderungsmöglichkeiten sagen kann und möchte.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u249" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg313">Ich rufe Frage 53 des Herrn Abgeordneten Lenzer auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg314">Welche Vorstellungen hat die Bundesregierung über die weitere Kooperation der europäischen Computerindustrie angesichts dieser Entwicklung?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-05-21-07-172.u250" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg315">Die Bundesregierung glaubt nicht, daß der französische Entschluß die Situation der beiden anderen UNIDATA-Partner entscheidend verschlechtern wird, zumal in dem Pressekommuniqué der französischen Regierung deutlich herausgestellt worden ist, daß die laufenden Verpflichtungen aus dem UNIDATA-Vertrag erfüllt werden sollen. Die Firmen Siemens und Philips werden nach Auffassung der Bundesregierung in der Lage sein, eine kontinuierliche Entwicklung sicherzustellen. Ob und inwieweit es mittel- oder langfristig zweckmäßig oder notwendig ist, neuartige Kooperationskonzepte zu entwickeln, muß sorgfältig geprüft werden. Dies ist im Rahmen unserer Wirtschaftsordnung zunächst Aufgabe der betroffenen Unternehmen selbst, die diese in ständigem Kontakt mit der Bundesregierung wahrnehmen werden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u251" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg316">Zusatzfrage, Herr Abgeordneter Lenzer.</seg>
+        </u>
+        <note type="speaker">Lenzer (CDU/CSU) :</note>
+        <u who="#Q1080811" xml:id="ParlaMint-DE_1975-05-21-07-172.u252" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg317">Herr Staatssekretär, hält die Bundesregierung es für möglich, daß in der UNI-DATA, die ja doch, was die Herstellung der verschiedenen Produkte angeht, von einer gewissen Arbeitsteilung ausgeht, diese Lücke anderweitig geschlossen werden könnte, die durch ein Ausscheiden der CII und Honeywell-Bull entsteht?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-05-21-07-172.u253" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg318">Das halten wir für möglich.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u254" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg319">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lenzer (CDU/CSU) :</note>
+        <u who="#Q1080811" xml:id="ParlaMint-DE_1975-05-21-07-172.u255" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg320">Hält es die Bundesregierung weiterhin für möglich, und wird sie gegebenenfalls darauf hinwirken, daß unter Umständen diese beiden Gruppen eines Tages einmal zu einem leistungsfähigen europäischen Computerkonzern zusammengeführt werden könnten?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-05-21-07-172.u256" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg321">Herr Kollege, bitte verstehen Sie, daß ich einen solchen Blick in die Zukunft nicht tun kann.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u257" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg322">Keine weiteren Zusatzfragen. Die Fragen 54 und 55 des Herrn Abgeordneten Lemmrich werden auf seinen Wunsch schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Der Herr Abgeordnete Dr. Abelein ist nicht im Saal. Seine Frage 56 wird daher ebenfalls schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich danke Ihnen, Herr Staatssekretär.</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg323">Ich rufe den Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten auf. Die Frage 57 des Herrn Abgeordneten Kiechle wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird ebenfalls als Anlage abgedruckt. Wir kommen zur Frage 58 des Herrn Abgeordneten Eigen:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg324">Wie wirkt sich das Lomé-Abkommen mit den AKP-Staaten in Afrika, der Karibik und im Pazifik auf den Agrarmarkt der EG aus, und welche Kosten bzw. Einnahmenverluste trägt der EAGFL-Fonds in Brüssel? Bitte schön, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-05-21-07-172.u258" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg325">Herr Kollege Eigen, bei den mit der EG-Produktion konkurrierenden Agrarerzeugnissen setzt die Gemeinschaft die Einfuhrpräferenzen autonom fest; sie ist in der Lage, die Einfuhrzugeständnisse so zu dosieren, daß Schwierigkeiten für den EG-Agrarmarkt vermieden werden und etwaige Kosten für den EAGFL begrenzt werden. Aus der Sonderregelung Zucker ergeben sich angesichts der derzeitigen Weltmarktlage keine Schwierigkeiten für den EG-Agrarmarkt und keine finanziellen Belastungen für den EAGFL. Einnahmeverluste aus nicht erhobenen Grenzabgaben wie Zölle, Abschöpfungen, Ausgleichsabgaben, belasten den allgemeinen Haushalt der Gemeinschaft, nicht aber den EAGFL. Im übrigen sind die Einnahmeverluste begrenzt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u259" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg326">Zusatzfrage, Herr Abgeordneter Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU) :</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1975-05-21-07-172.u260" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg327">Herr Staatssekretär, Ihnen ist doch sicher bekannt, daß der EAGFL auch zu einem Teil aus dieser allgemeinen Finanzmasse der Gemeinschaft finanziert wird. Ist es nicht in der Tat so, daß es direkte Einnahmeverluste gibt, wenn beispielsweise mehrere tausend Tonnen Rindfleisch abschöpfungsfrei eingeführt werden?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-05-21-07-172.u261" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg328">Das würde ich nicht sagen. Hier besteht an sich kein direkter Zusammenhang. Allerdings werden die einzelnen Positionen beschlossen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u262" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg329">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU) :</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1975-05-21-07-172.u263" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg330">Sind Sie der Meinung, Herr Staatssekretär, daß es letztlich vor allen Dingen bei Produkten, die schon in der Gemeinschaft mit Ausfuhrzuschüssen bedacht werden, damit sie überhaupt in Drittländern abgesetzt werden können, keine gute Lösung ist, wenn man aus diesen Drittländern dann wiederum dieselben Produkte abschöpfungsfrei importiert?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-05-21-07-172.u264" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg331">Wir treiben doch aber Handel mit dritten Ländern, und ein solcher Handel kann keine Einbahnstraße sein. Insofern muß man wiederum mit gewissen Zufuhren aus dritten Ländern rechnen, die auch Kosten verursachen können.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u265" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg332">Als letzte Frage rufe ich die Frage 59 des Herrn Abgeordneten Eigen auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg333">Ist die Bundesregierung bereit, bei der Verhandlung des Ministerrats am 23/24. Mai 1975 in Brüssel eine Änderung der Rapsmarktordnung zu beantragen: Herabsetzung des Mindestölgehalts auf 38 % und Heraufsetzung des Richtpreises um 15 DM/dz, um die Landwirtschaft hei der Umstellung auf Qualitätsraps zu unterstützen?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-05-21-07-172.u266" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg334">Die Bundesregierung hat bereits in der Sitzung des Verwaltungsausschusses für Fette am 29. April 1975 in Brüssel den Antrag gestellt, den Mindestgehalt an Öl der Standardqualität des Rapses herabzusetzen und einen Qualitätsaufschlag für erucasäurearmen Raps einzuführen oder in anderer Weise sicherzustellen, daß die erfolgte Umstellung auf Qualitätsraps nicht gefährdet wird. Die Kommission der EG hat der Bundesregierung zugesagt, bis Ende Mai eine Entscheidung herbeizuführen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u267" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg335">Eine Zusatzfrage des Herrn Abgeordneten Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU) :</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1975-05-21-07-172.u268" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg336">Darf ich um Konkretisierung bitten. Ich habe in meiner Frage danach gefragt, ob die Bundesregierung bereit ist, den Mindestölgehalt auf 38 % herabzusetzen und den Raps-Richtpreis um 15 DM anzuheben.</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-05-21-07-172.u269" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg337">Zu einer Anhebung kann ich hier heute nicht Stellung nehmen. Es geht uns zunächst um eine Herabsetzung des Mindestgehalts an Ö1. Ich müßte Ihnen dazu dann schriftlich eine Antwort geben.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u270" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg338">Eine letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU) :</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1975-05-21-07-172.u271" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg339">Herr Staatssekretär, habe ich Ihre erste Antwort denn so falsch verstanden? Ich meine, gehört zu haben, daß Sie gesagt haben, daß Sie in Brüssel auch eine Änderung des Richtpreises beantragt haben; denn nur so kann doch letztlich erreicht werden, daß die Landwirtschaft vor übermäßigen Verlusten bei der Umstellung geschützt wird.</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-05-21-07-172.u272" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg340">Ich habe in meiner Antwort von einem Qualitätsaufschlag gesprochen, aber ich kann Näheres zu diesem Aufschlag nicht ausführen. In diesem Sinne waren meine Ausführungen zu verstehen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1975-05-21-07-172.u273" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg341">Die Fragen 60 und 61 werden schriftlich beantwortet, da der Fragesteller, der Herr Abgeordnete Schedl, nicht im Saale ist. Die Antworten werden als Anlagen abgedruckt. Herr Staatssekretär, damit ist Ihr Geschäftsbereich beendet. Die Fragestunde ist ebenfalls beendet.</seg>
+          <seg id="ParlaMint-DE_1975-05-21-07-172.seg342">Ich berufe die nächste Sitzung des Deutschen Bundestages auf Donnerstag, den 22. Mai 1975, 9 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.32 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1977-02-09-08-013">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 8. Wahlperiode, 13. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 09.02.1977 (13. Sitzung der 8. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 8, Session 13 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1977-02-09 (Session 13 in Legislative Period 8)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="13">13. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.08" n="8">8. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="13">Session 13</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.08" n="8">Legislative Period 8</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 09.02.1977</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1977-02-09</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490390/dfcac024ce8e548774e16f03c36293e2/pp08-data.zip</idno>
+          <date when="1977-02-09">1977-02-09</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1977-02-09">1977-02-09</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection">
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg1">Meine Damen und Herren, die Sitzung ist eröffnet. Ich habe die große Freude, dem Kollegen Schmidt (Würgendorf)</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg2">nachträglich zum 60. Geburtstag zu gratulieren. Alles Gute.</seg>
+          <kinesic type="applause">
+            <desc>Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg3">Einziger Punkt der heutigen Tagesordnung: Fragestunde — Drucksache 8/86 —</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg4">Ich rufe zunächst den Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten auf. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Gallus zur Verfügung. Die Frage 64 ist von der Abgeordneten Frau Dr. Martiny-Glotz eingebracht. — Ich sehe die Kollegin nicht im Saal, so daß diese wie auch die von ihr eingebrachte Frage 65 schriftlich beantwortet werden. Die Antworten werden als Anlagen abgedruckt. Der Abgeordnete Grunenberg hat die von ihm eingereichte Frage 66 zurückgezogen. Damit ist Ihr Geschäftsbereich, Herr Staatssekretär, erledigt. Vielen Dank, daß Sie gekommen sind. Ich rufe den Geschäftsbereich des Bundesministers für Verkehr und für das Post- und Fernmeldewesen auf. Herr Parlamentarischer Staatssekretär Wrede steht für die Beantwortung der Fragen zur Verfügung. Ich rufe die Frage 1 des Herrn Abgeordneten Dr. Penner auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg5">Warum ist es am Nachmittag des 28. Januar 1977 über dem Luftraum in Wuppertal-Barmen zu einem Beinahezusammenstoß zwischen einem kanadischen Passagierflugzeug und einer Militärmaschine gekommen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg6">Herr Präsident, wenn der Kollege Dr. Penner einverstanden ist, möchte ich die beiden Fragen zusammen beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg7">Der Kollege ist einverstanden. Dann rufe ich auch die Frage 2 des Herrn Abgeordneten Dr. Penner auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg8">Ist unser Flugsicherungssystem verbesserungsbedürftig, und wenn ja, in welcher Hinsicht? Bitte.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u4" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg9">Die gefährliche Begegnung zwischen dem Passagierflugzeug der Air Canada und einem Hochleistungsstrahlflugzeug der US-Luftwaffe am 28. Januar 1977 um 15.21 Uhr in zirka 6 000 Meter Flughöhe über dem Funkfeuer Barmen ist nach den bisher vorliegenden Ermittlungsergebnissen darauf zurückzuführen, daß sich das US-Flugzeug nicht unter der Kontrolle der Flugsicherungsregionalstelle Düsseldorf, sondern wegen des besonderen Einsatzauftrages unter der Radarführung einer Luftverteidigungsstelle befand. Die Luftverteidigungsstellen sind dafür verantwortlich, daß die von ihnen geführten Flüge einen festgelegten Mindestabstand zu den unter Kontrolle der Flugsicherung fliegenden Luftfahrzeugen nicht unterschreiten. Genauere Angaben darüber, ob und inwieweit dieser Abstand im vorliegenden Fall tatsächlich unterschritten wurde und welche Ursachen vorlagen, liegen noch nicht vor. Die Bundesregierung ist nachdrücklich um eine weitere Erhöhung der Sicherheit im Luftraum über der Bundesrepublik Deutschland bemüht. Neben Verbesserungen im Bereich der Flugsicherung sind Maßnahmen auf dem Gebiet der Luftraumgliederung, der Vorschriften über das Verhalten im Luftraum, der Pilotenausbildung und -aufklärung sowie der Verbesserung der Zusammenarbeit zwischen Flugsicherung und Luftverteidigung Schwerpunkte des am 20. Februar 1976 vom Bundesminister für Verkehr und vom Bundesminister der Verteidigung gemeinsam vorgelegten 18-Punkte-Kataloges. Ich darf auf die Ausschußdrucksache 200 des Ausschusses für Verkehr und für das Post- und Fernmeldewesen verweisen. Die bei der schrittweisen Realisierung dieses Kataloges bisher verwirklichten Maßnahmen haben bereits gute Erfolge gebracht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg10">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Penner (SPD) :</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1977-02-09-08-013.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg11">Gehe ich recht in der Annahme, Herr Staatssekretär, daß solche gefährlichen Begegnungen auch in Zukunft nicht auszuschließen sind?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg12">Das ist wohl nicht anders zu machen. Bei den Maßnahmen der Flugsicherung muß es angesichts des sehr engen Luftraums über der Bundesrepublik Deutschland darum gehen, die immer wieder möglichen gefährlichen Begegnungen auf ein Mindestmaß zu reduzieren.</seg>
+        </u>
+        <note type="speaker">Dr. Penner (SPD) :</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1977-02-09-08-013.u8" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg13">Wäre es nicht zweckmäßig, Herr Staatssekretär, wenigstens dort keine Luftwarteräume auszuweisen, wo es um Ballungszentren geht?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u9" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg14">Die Gespräche zwischen dem Bundesminister für Verkehr und dem Bundesminister der Verteidigung dienen u. a. diesem Zweck: zu eindeutigen Abgrenzungen zu kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u10" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg15">Eine Zusatzfrage, Herr Kollege Hoffie.</seg>
+        </u>
+        <note type="speaker">Hoffie (FDP) :</note>
+        <u who="#Q1716948" xml:id="ParlaMint-DE_1977-02-09-08-013.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg16">Herr Staatssekretär, nachdem Sie auf die Bemühungen um Verbesserung der Zusammenarbeit zwischen militärischer und ziviler Flugsicherung hingewiesen haben, frage ich Sie: Teilt die Bundesregierung heute die Ansicht, daß eine optimale Koordination zwischen ziviler und militärischer Flugsicherung nur in einer sogenannten unity of control, also der Vereinheitlichung beider Teilbereiche der Flugsicherung besteht?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg17">Herr Kollege Hoffie, es ist Ihnen aus den Beratungen im zuständigen Ausschuß bekannt, daß die Bemühungen des zuständigen Verkehrsministers genau in diesen Bereich zielen. Wir wissen aber, daß dieses Ziel nur schrittweise zu erreichen ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg18">Da die Frau Kollegin Martiny-Glotz gerade den Saal betritt, möchte ich ihr sagen, daß sie zu meinem Bedauern den Aufruf ihrer Fragen um wenige Sekunden verpaßt hat. Die Fragen 3 und 4 des Herrn Abgeordneten Painter werden schriftlich beantwortet, da der Herr Kollege nicht im Saal ist. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 5 des Herrn Abgeordneten Dr. Luda auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg19">Teilt die Bundesregierung die Auffassung, daß die bisher ermittelten Vergleidiszahlen über die Unfallhäufigkeit auf den Bundesautobahnen insoweit als überholt anzusehen sind, als es sich um neuere Autobahnstrecken in gebirgigem Gelände handelt, die jetzt erstmals einer längeren Periode kalten und schneereichen Winterwetters ausgesetzt sind, und wenn ja, welche Folgerungen zieht sie daraus? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u14" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg20">Soweit die amtlichen statistischen Unterlagen über das Verkehrs- und Unfallgeschehen ausgewertet sind, ist eine eindeutige Aussage über den Einfluß des bisherigen Winterwetters noch nicht möglich. Eine außergewöhnliche Unfallhäufigkeit bei den Autobahnstrecken im gebirgigen Gelände ist bisher nicht zu erkennen. Dabei ist berücksichtigt, daß es jeweils bei Beginn extremer Witterungsverhältnisse Unfallzunahmen gegeben hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u15" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg21">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Luda (CDU/CSU) :</note>
+        <u who="#Q1889678" xml:id="ParlaMint-DE_1977-02-09-08-013.u16" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg22">Herr Staatssekretär, stimmen Sie mit mir darin überein, daß es gerade in gebirgigem Gelände einige neue Autobahnstrecken gibt, die erst drei oder vier Jahre in Betrieb sind, auf denen sich einigermaßen strenges Winterwetter erstmals im Winter 1976/77 bemerkbar gemacht hat, weshalb es hier einer besonderen Auswertung bedarf?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u17" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg23">Herr Kollege Luda, ich stimme insoweit mit Ihnen überein, muß aber hinzufügen, daß der Ausbauzustand der Bundesfernstraßen in diesen gebirgigen Gegenden natürlich auf die Topographie zugeschnitten ist und daß die besonderen Gegebenheiten beim Ausbau dieser Bundesfernstraßen berücksichtigt sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u18" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg24">Herr Kollege, Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Luda (CDU/CSU) :</note>
+        <u who="#Q1889678" xml:id="ParlaMint-DE_1977-02-09-08-013.u19" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg25">Ist die Bundesregierung bereit, nach Ablauf dieses Winterhalbjahres einen neuen Vergleich anzustellen und das Ergebnis in bezug auf diese neuen gebirgigen Strecken im Verkehrsausschuß vorzutragen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u20" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg26">Die Bundesregierung wird die Zahlen auswerten und ist selbstverständlich bereit, im zuständigen Ausschuß das Ergebnis vorzutragen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg27">Ich rufe die Frage 6 des Herrn Abgeordneten Dr. Luda auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg28">Teilt die Bundesregierung die Meinung, daß bezüglich der neueren gebirgigen Autobahnstrecken, die sich auf Grund des nun seit Jahren erstmals wieder aufgetretenen länger anhaltenden Winterwetters als besonders unfallträchtig herausgestellt haben, die Anordnung folgender weiterer Sicherungsmaßnahmen erwogen werden sollte: Anbringung situationsgerechter Sonderbeschilderung drastisch-suggestiven Charakters (Totenkopf-Symbol mit Hinweis auf Unfallzahlen oder dergleichen) auch in den Bundesländern, in denen bisher auf derartige außerordentliche Warnschilder verzichtet worden ist, Einsatz automatisch oder zentral zu steuernder Nebel- und Glatteiswarnanlagen an besonders nebel-, schnee- oder glatteisgefährdeten Autobahnen und Installation weithin sichtbarer Windsäcke an besonders gefährlichen Talbrüdcen nach bewährtem hessischen Vorbild?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg29">Wie ich Ihnen schon in der Beantwortung der ersten Frage mitteilen konnte, kann aus den vorliegenden Angaben nicht geschlossen werden, daß die neueren gebirgigen Autobahnstrecken auf Grund längeren Winterwetters besonders unfallträchtig sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg30">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Luda (CDU/CSU) :</note>
+        <u who="#Q1889678" xml:id="ParlaMint-DE_1977-02-09-08-013.u24" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg31">Herr Staatssekretär, halten Sie den Zustand für befriedigend und überzeugend, daß auf ein und derselben Bundesautobahn im Zuständigkeitsbereich benachbart liegender Bundesländer unterschiedliche Beschilderungen und Warnsysteme angebracht worden sind? Halten Sie es nicht für richtig, zu prüfen, ob man in diesen einheitlichen regionalen Bereichen nicht einheitliche Methoden der Warnung und der Verkehrsanleitung praktizieren sollte?</seg>
+        </u>
+        <note type="speaker">Wrede, Pari. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg32">Herr Kollege, ich muß darauf verweisen, daß auf Grund der gesetzlichen Bestimmungen die zuständigen Länderbehörden in der Lage sind, die von Ihnen für notwendig gehaltenen Einrichtungen dort anzubringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg33">Sie haben eine letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Luda (CDU/CSU) :</note>
+        <u who="#Q1889678" xml:id="ParlaMint-DE_1977-02-09-08-013.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg34">Halten Sie es nicht für widersprüchlich, wenn z. B. im hessischen Bereich der Bundesautobahn Sauerlandlinie viel intensivere und drastisch-suggestive Beschilderungen vorhanden sind, eine gleiche Praxis aber im nordrhein-westfälischen Bereich nicht festgestellt werden kann?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg35">Herr Kollege Luda, ich erkläre mir das daraus, daß die Beurteilung solcher von Ihnen geschilderten Maßnahmen durchaus nicht einheitlich ist und daß die Erfahrungen auch noch nicht so sind, daß man die Maßnahmen durchgängig für angebracht hält.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg36">Ich rufe die Frage 7 des Herrn Abgeordneten Oostergetelo auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg37">Was gedenkt die Bundesregierung zu tun, um eine baldige Harmonisierung der wettbewerbsverzerrenden unterschiedlichen Vorschriften und Normen innerhalb der EG bei landwirtschaftlichen Schleppern (Beifahrersitz, Höchstgeschwindigkeit, Umsturzbügel, Handbremse, Führerscheinpflicht, TÜV-Überwachung) voranzutreiben?</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg38">Der Abgeordnete ist im Saal. Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u30" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg39">Herr Kollege, die harmonisierten Vorschriften über Beifahrersitz, bauartbedingte Höchstgeschwindigkeit und Bremsanlagen von land- und forstwirtschaftlichen Zugmaschinen auf Rädern hat der Ministerrat der Europäischen Gemeinschaft bereits in Form von Richtlinien erlassen. Gleichzeitig wurden jeweils die Zeitpunkte festgelegt, von denen ab die Mitgliedstaaten spätestens die Richtlinien anwenden müssen. Für die Richtlinie „Beifahrersitz" ist dieser Zeitpunkt der 26. Januar 1978. Die Bundesrepublik Deutschland kommt ihren Verpflichtungen als EG-Mitgliedstaat termingerecht nach. Für die Richtlinien über die Höchstgeschwindigkeit und Bremsanlagen wurde das Kraftfahrtbundesamt bereits durch Erlaß zur Anwendung ermächtigt. Die Richtlinie „Umsturzvorrichtungen" wird in Kürze dem Ministerrat zur Entscheidung vorgelegt werden. Ein entsprechender Vorschlag für eine EG-Richtlinie über die Harmonisierung der Fahrerlaubnisvorschriften liegt vor. Die Verhandlungen hierüber in Brüssel haben begonnen. Ihr Abschluß ist noch nicht vorauszusehen. Am 29. Dezember 1976 wurde eine EG-Richtlinie über die regelmäßige technische Überwachung von Kraftfahrzeugen verabschiedet. Diese Richtlinie umfaßt jedoch vorerst nur Kraftomnibusse, Taxis, Krankenkraftwagen sowie Kraftfahrzeuge und Anhänger zur Güterbeförderung mit mehr als 3,5 Tonnen zulässigem Gesamtgewicht. Die EG-Kommission beabsichtigt jedoch, Vorschläge für die Einbeziehung weiterer Fahrzeuggruppen zu machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u31" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg40">Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Oostergetelo (SPD) :</note>
+        <u who="#Q1368686" xml:id="ParlaMint-DE_1977-02-09-08-013.u32" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg41">Herr Staatssekretär, darf ich das so verstehen, daß wir annehmen können, daß damit ein Abschluß der schon seit den 60er Jahren angestellten Harmonisierungsbemühungen vollzogen wird, und ist auch gewährleistet, — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg42">Herr Kollege, nur eine einzige Zusatzfrage bitte!</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u34" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg43">Herr Kollege, nach meinen Erfahrungen würde ich sagen: Dies können Sie nicht annehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u35" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg44">Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Oostergetelo (SPD) :</note>
+        <u who="#Q1368686" xml:id="ParlaMint-DE_1977-02-09-08-013.u36" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg45">Herr Staatssekretär, ist auch gewährleistet, daß die anderen Mitgliedstaaten so wie die Bundesrepublik Deutschland verfahren?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg46">Die Bundesregierung drängt bei allen Verhandlungen im EG-Raum immer wieder darauf, daß die verabschiedeten Richtlinien von allen Staaten der Gemeinschaft gleichmäßig und gleichzeitig beachtet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg47">Die nächste Frage ist von dem Abgeordneten Hoffie eingebracht. Es ist die Frage 8:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg48">Wie beurteilt die Bundesregierung die besorgten Ermahnungen anerkannter Vertreter der Verkehrs- und Unfallmedizin, daß durch das Tragen von Schutzhelmen das Risiko für die Fahrer von Mopeds, Mofas u. ä., bei Unfällen schwere oder tödliche Verletzungen zu erleiden, ganz erheblich gemindert werden kann, und gedenkt sie, für diesen Teilnehmerkreis am Straßenverkehr in Abänderung des § 21 a Abs. 2 Satz 2 StVO das Tragen von Schutzhelmen während der Fahrt zur Pflicht zu machen? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u39" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg49">Herr Kollege, bei der Einführung der Schutzhelmtragepflicht zum 1. Januar 1976 ist die Frage, ob diese auch für Moped- und Mofa-Fahrer gelten soll, bereits eingehend mit den Bundesländern und den Verbänden erörtert und schließlich verneint worden. Eine möglicherweise von den Betroffenen als unnötig und belastend empfundene Reglementierung sollte vermieden werden — in der Hoffnung, daß diese Fahrzeugführer selber den Nutzen eines Schutzhelms erkennen und diesen freiwillig im eigenen, wohlverstandenen Interesse tragen werden. Die Bundesregierung hat deshalb nicht die Absicht, für diesen Teilnehmerkreis im Straßenverkehr in Abänderung des § 21 a Abs. 2 Satz 2 StVO das Tragen von Schutzhelmen während der Fahrt zur Pflicht zu machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u40" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg50">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hoffie (FDP) :</note>
+        <u who="#Q1716948" xml:id="ParlaMint-DE_1977-02-09-08-013.u41" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg51">Herr Staatssekretär, nach § 21 a Abs. 2 Satz 1 StVO wird zwar heute schon für die Führer von Krafträdern und ihre Beifahrer das Tragen von Schutzhelmen während der Fahrt zur Pflicht gemacht, doch wird ein Verstoß gegen diese Vorschrift nicht als Ordnungswidrigkeit geahndet. Ich frage Sie deshalb: Wie hoch ist statistisch der Prozentsatz jener Fahrer von Krafträdern, die schon heute dieser Helmtragepflicht nachkommen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u42" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg52">Diese Frage kann ich Ihnen, Herr Kollege, im Augenblick nicht beantworten. Ich bitte um Nachsicht. Ich werde dies nachholen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u43" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg53">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hoffie (FDP) :</note>
+        <u who="#Q1716948" xml:id="ParlaMint-DE_1977-02-09-08-013.u44" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg54">Herr Staatssekretär, ist die Bundesregierung bereit, als entscheidende Maßnahme zur Verminderung schwerer bzw. tödlicher Kopf- und vor allem Genickwirbelverletzungen den Sanktionskatalog des § 49 StVO dahin zu erweitern, daß in Zukunft das Nichtbeachten des Gebots, während der Fahrt auf Krafträdern Schutzhelme zu tragen, als Ordnungswidrigkeit verfolgt wird, um auch hierdurch neben anderen Aktionen der Aufklärung zu verdeutlichen, welche Bedeutung die Bundesregierung dieser Sicherheitsmaßnahme im Straßenverkehr beimißt.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u45" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg55">Die Bundesregierung ist derzeit der Ansicht, daß zunächst durch gezielte Aufklärungsaktionen wie auch in anderen Bereichen dazu beigetragen werden sollte, die Quote des Anlegens von Schutzhelmen erheblich zu erhöhen. Sollte sich herausstellen, daß dieser Weg nicht gangbar ist, so werden selbstverständlich andere Maßnahmen in Erwägung gezogen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u46" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg56">Herr Abgeordneter Stahl, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD) :</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1977-02-09-08-013.u47" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg57">Herr Staatssekretär, es ist doch wohl unumstritten, daß für den hier in Frage kommenden Personenkreis die Gefahr bei einem Unfall sehr groß ist, wenn ein Moped oder ein Motorrad ohne Schutzhelm benutzt wird. Deshalb meine Frage: Warum im einzelnen ist die Bundesregierung nicht bereit, Fahrern die Auflage zu machen, daß man Schutzhelme beim Führen eines derartigen Kraftfahrzeugs tragen muß?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u48" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg58">Zunächst einmal handelt es sich bei diesen Fahrzeugen um langsamfahrende Fahrzeuge, und die Gefahr schwerer Verletzungen ist nicht so groß wie bei schnelleren. Darüber hinaus hat bei den Überlegungen, hier nicht zu einer Pflicht zu kommen, sicherlich der Gedanke eine Rolle gespielt, daß die Pflicht zum Tragen eines Sturzhelmes für breite Bevölkerungskreise gerade derjenigen, die diese Fahrzeuge benutzen, eine nicht unerhebliche finanzielle Belastung wäre.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg59">Ich rufe Frage 121 des Abgeordneten Hoffie auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg60">Wie beurteilt die Bundesregierung angesichts der weltweit alarmierenden Zunahme der Verluste von Tankern und der damit einhergehenden gravierenden Umweltverschmutzung den Vorschlag, zur nachhaltigen Erhöhung der Tanksicherheit eine internationale Konvention fiber einheitliche Bau- und Betriebsvorschriften für Tanker aufzulegen, die für neue Tanker und als Umbauvorschriften für existierende Tankschiffe zum Beispiel doppelte Tankerböden oder -rümpfe, doppelte Maschinen- und Steuerungs- sowie Radarausrüstungen, separate Ballasttanks und andere bisher als „zu teuer' deklarierte Verbesserungen bindend vorschreibt, und beabsichtigt sie — gegebenenfalls auch mit anderen EG-Mitgliedstaaten —, zur Verwirklichung dieses Vorschlags initiativ zu werden? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u50" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg61">In ihrer Antwort auf die Fragen der Abgeordneten Grobecker und Grunenberg — Nrn. 73 und 74 in Drucksache 8/66 für die Fragestunden am 2. und 3. Februar 1977 — hat die Bundesregierung ihre Bereitschaft betont, sich, falls erforderlich, für eine weitere Verschärfung der Vorschriften über die Tankersicherheit einzusetzen. Sie wiederholt dabei die Feststellung, daß nach den vorliegenden Informationen nicht technisches, sondern menschliches Versagen sowie Mängel in der Beachtung internationaler Sicherheitsvorschriften die Ursachen der Unfälle gewesen sind. Das gilt besonders für die schweren Tankerhavarien der vergangenen Monate. Vorschläge zum Einbau von Doppelböden und leer zu fahrenden Seitentanks sind international eingehend diskutiert worden. Ihre Verwirklichung würde nur bei kleineren Havarien bedingt größere Sicherheit bieten, auf der anderen Seite aber das Risiko einer Explosion bei mittleren und schweren Havarien wesentlich erhöhen, wobei Doppelböden zusätzliche Erschwernisse für Leichterungen bei Festkommen eines Tankers mit sich bringen. Die Mehrzahl der Tankerunfälle der letzten Zeit wurde durch Auflaufen auf Grund verursacht. Bestimmungen über separate Ballasttanks sind bereits durch die Internationale Marinekommission beschlossen worden. Sie bieten größeren Schutz vor Ölverschmutzung bei Abpumpen von Ballastwasser nach Tankreinigung, haben aber keinen Einfluß auf größere Unfallsicherheit.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u51" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg62">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hoffie (FDP) :</note>
+        <u who="#Q1716948" xml:id="ParlaMint-DE_1977-02-09-08-013.u52" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg63">Herr Staatssekretär, nachdem Sie insbesondere auf das menschliche Versagen bei den Unfällen abgehoben haben, frage ich, ob Sie bestätigen können, daß sehr viele in Unfälle verwickelte Tanker ein Alter von mehr als 13 Jahren hatten, zwischen 17 000 und 35 000 Tonnen groß und sämtlich vollbeladen waren und daß die Unfälle fast ausnahmslos in schwerer See geschahen, und schließen Sie aus diesen Hinweisen bei Tankerkatastrophen nicht auch, daß Tankschiffe mit einem Alter von I mehr als zehn Jahren — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u53" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg64">Herr Kollege, bitte nur eine Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Hoffie (FDP) :</note>
+        <u who="#Q1716948" xml:id="ParlaMint-DE_1977-02-09-08-013.u54" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg65">Das ist nur eine Frage.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg66">Herr Kollege, dann ist sie nach der Geschäftsordnung zu lang, um das ganz deutlich zu sagen.</seg>
+        </u>
+        <note type="speaker">Hoffie (FDP) :</note>
+        <u who="#Q1716948" xml:id="ParlaMint-DE_1977-02-09-08-013.u56" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg67">Dann frage ich kurz, ob die Bundesregierung meine Meinung teilt, daß Tankschiffe mit einem Alter von über zehn Jahren in größerer Gefahr sind, bei schlechter Witterung und starker Belastung auseinanderzubrechen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg68">Ich kann Ihre Frage nur dahin gehend beantworten, Herr Kollege, daß ältere Schiffe sicher in einer größeren Gefahr, auseinanderzubrechen, sind als neuere.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der SPD: Das soll auch bei Menschen so sein!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u58" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg69">Herr Kollege, Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hoffie (FDP) :</note>
+        <u who="#Q1716948" xml:id="ParlaMint-DE_1977-02-09-08-013.u59" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg70">Nachdem damit auch das menschliche Versagen relativiert ist, darf ich zweitens fragen, ob die Bundesregierung bereit ist, gemeinsam mit den anderen EG-Ländern im Rahmen der laufenden Seerechtskonferenz für die Schaffung einer 200-Meilen-Umweltschutzzone vor der Küste, in der eigene, striktere Tankersicherheitsvorschriften durchgesetzt werden, einzutreten, um einen größeren Schutz vor von Schiffen verursachten Ölverschmutzungen der Küstensee und der Küste selbst zu erreichen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg71">Die Bundesregierung ist jederzeit bereit, mit Vertragspartnern in Verhandlungen darüber einzutreten, wie größere Sicherheit erreicht werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u61" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg72">Eine Zusatzfrage, Herr Kollege Peters.</seg>
+        </u>
+        <note type="speaker">Peters (Poppenbüll) (FDP) :</note>
+        <u who="#Q2545769" xml:id="ParlaMint-DE_1977-02-09-08-013.u62" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg73">Herr Staatssekretär, wie glaubt die Bundesregierung der schlimmsten Quelle der Ölverschmutzung der See beizukommen, nämlich dem regelmäßigen Ausspülen der Öltanks mit Wasser sowie dem Auspumpen von ölverschmutztem Wasser, das als Ballast mitgeführt wird, in die See?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg74">Ich kann Ihnen diese Frage im Moment nicht beantworten, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u64" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg75">Noch eine Zusatzfrage? — Bitte, Herr Kollege Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD) :</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1977-02-09-08-013.u65" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg76">Herr Staatssekretär, können Sie bestätigen, daß dieses Thema von der Bundesregierung auch bei den Verhandlungen der Internationalen Seerechtskonferenz aufgegriffen wurde?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u66" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg77">Dies kann ich bestätigen, und ich beziehe mich auf meine vorhergehende Antwort auf die Frage des Kollegen Hoffie.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u67" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg78">Ich rufe die Frage 9 des Herrn Abgeordneten Dr. Enders auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg79">Hält es die Bundesregierung mit den Zielen der Ausbildungsplatzförderung für vereinbar, daß die Deutsche Bundesbahn im Jahr 1977 die Zahl der Ausbildungsstellen beim Bahnbetriebswerk Bebra um 50 % und bei der Fahrleitungsmeisterei Fulda um 30 % zu kürzen beabsichtigt?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg80">Ich bitte darum, die beiden Fragen gemeinsam beantworten zu dürfen.</seg>
+        </u>
+        <note type="speaker">Dr. Enders (SPD) :</note>
+        <u who="#Q2558966" xml:id="ParlaMint-DE_1977-02-09-08-013.u69" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg81">Ja, bitte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg82">Ich rufe dann auch die Frage 10 des Abgeordneten Dr. Enders auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg83">Wie kann nach Ansicht der Bundesregierung die im Bereich der Bundesbahndirektion Frankfurt zum Teil nur zur Hälfte belegte Ausbildungskapazität für Maschinenschlosser und Elektroanlageninstallateure für Jugendliche besser genutzt werden? Sie haben dann vier Zusatzfragen.</seg>
+        </u>
+        <note type="speaker">Wrede, Pari. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u71" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg84">Die Nachwuchsplanung und -ausbildung im Bereich der Deutschen Bundesbahn fällt in die Zuständigkeit des Vorstandes der Deutschen Bundesbahn. Angesichts seiner Verpflichtung zu einer sparsamen Wirtschaftsführung muß auch im Bezirk der Bundesbahndirektion Frankfurt/Main die Zahl der Auszubildenden grundsätzlich auf den Eigenbedarf des Unternehmens abgestellt werden. Die Bundesbahn ist aber, wie bisher, bereit, freie Ausbildungsplätze, die zur Heranbildung eigener Nachwuchskräfte nicht benötigt werden, anderen Interessenten gegen Erstattung der Kosten zur Verfügung zu stellen. Im Rahmen des Eigenbedarfs beabsichtigt die Deutsche Bundesbahn beim Bundesbahnbetriebswerk Bebra 5 und bei der Fahrleitungsmeisterei Fulda 7 Auszubildende 1977 neu einzustellen und 7 bzw. 3 freie Plätze Dritten anzubieten. Im Betriebsmaschinen- und -werkstättendienst der Bundesbahndirektion Frankfurt sind von insgesamt 1 350 Aus- bildungsplätzen zur Zeit 1 200 Stellen besetzt. Dies sind 89 % der Kapazität.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u72" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg85">Herr Dr. Enders, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Enders (SPD) :</note>
+        <u who="#Q2558966" xml:id="ParlaMint-DE_1977-02-09-08-013.u73" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg86">Herr Staatssekretär, stimmen Sie mir zu, daß die teuren Ausbildungsplätze der Bundesbahn durch gezielte Maßnahmen gerade in strukturschwachen Räumen genutzt werden sollten, um dort Jugendlichen die Möglichkeit der Ausbildung zu bieten?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u74" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg87">Ich stimme Ihnen zu, Herr Kollege, und verweise darauf, daß die Deutsche Bundesbahn von ihr selbst nicht benötigte Ausbildungsplätze anderen zur Ausbildung anbietet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u75" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg88">Bitte, Herr Kollege Kunz.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1977-02-09-08-013.u76" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg89">Herr Staatssekretär, können Sie bestätigen, daß die Bundesbahn, trotz der Auskunft, die Sie eben gegeben haben, Ausbildungsplätze — und zwar, wie vorhin schon von Ihnen bestätigt worden ist, sehr teure Ausbildungsplätze — im Zonenrandgebiet nicht mehr besetzt, sondern die Ausbildung in anderen Räumen vornimmt.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg90">Ich kann dies nicht bestätigen, Herr Kollege. Ich kann dies aber auch nicht ausschließen, weil die Bundesbahn bei ihrer Nachwuchsplanung natürlich auch nach betriebswirtschaftlichen Kriterien vorgehen muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u78" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg91">Ich rufe nun die Frage 11 des Herrn Abgeordneten Dr. Mende auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg92">Wie beurteilt die Bundesregierung den gegenwärtigen Sachverhalt, daß viele Tausende deutscher Staatsbürger bei Seereisen auf Schiffe der kommunistischen Staatshandelsländer, vor allem der Sowjetunion, angewiesen sind, da lediglich ein einziges deutsches Fahrgastschiff, MS „Europa" der Hapag-Lloyd Bremen, zur Verfügung steht, und ist die Bundesregierung bereit, die Wettbewerbsfähigkeit der deutschen Passagierschifffahrt auf dem Gebiet der internationalen Seetouristik durch geeignete Maßnahmen wiederherzustellen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u79" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg93">Herr Kollege, deutsche Schiffe sind offensichtlich nicht konkurrenzfähig. Anträge deutscher Reeder zur Förderung von Fahrgastschiffbauten liegen nicht vor.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u80" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg94">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Mende (CDU/CSU) :</note>
+        <u who="#Q491610" xml:id="ParlaMint-DE_1977-02-09-08-013.u81" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg95">Wie beurteilt die Bundesregierung die Gefahr der Anwerbung deutscher Staatsbürger durch kommunistische Nachrichtendienste angesichts der Tatsache, daß nachweislich auf allen Touristikschiffen der kommunistischen Staaten, insbesondere der Sowjetunion, Agenten als sogenannte Sicherheitsoffiziere mitreisen und eine entsprechende Passagierbeobachtung stattfindet? Fühlt sich die Bundesregierung nicht verpflichtet, dieses Sicherheitsrisiko der Staatsbürger der Bundesrepublik Deutschland ins Auge zu fassen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u82" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg96">Herr Kollege, ich sehe den Sachzusammenhang mit der Frage nicht ganz.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg97">Ich kann nur sagen, daß niemand in der Bundesrepublik Deutschland gezwungen wird, seinen Urlaub auf Fahrgastschiffen aus den Nachbarstaaten des Ostens zu verbringen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Sehr gut! bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u83" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg98">Sie haben noch eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Mende (CDU/CSU) :</note>
+        <u who="#Q491610" xml:id="ParlaMint-DE_1977-02-09-08-013.u84" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg99">Ist die Bundesregierung nach dem Grundgesetz nicht auch dort in einer gewissen Schutzpflicht, wo es jedem Bürger frei steht, das eine zu tun oder das andere zu lassen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg100">Herr Kollege Mende, Sie haben die Frage im Grunde bereits gestellt. Jetzt habe ich Sorge, daß eine zweite Frage angefügt wird. Ich wäre Ihnen deshalb dankbar, wenn Sie sich auf die Frage konzentrieren würden.</seg>
+        </u>
+        <note type="speaker">Dr. Mende (CDU/CSU) :</note>
+        <u who="#Q491610" xml:id="ParlaMint-DE_1977-02-09-08-013.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg101">Ist der Bundesregierung bekannt, daß die Fachleute für die kommenden Jahre eine erhebliche Ausweitung der Seetouristik voraussagen, und ist es nicht Pflicht der Bundesregierung, zusammen mit den deutschen Reedereien für diese zukünftige Entwicklung jetzt schon ebenso Maßnahmen ins Auge zu fassen, wie das beispielsweise bei der Lufthansa oder bei der Deutschen Bundesbahn auch geschehen ist?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg102">Herr Kollege, nach Auffassung der Bundesregierung ist es nicht ihre Sache, für Reiseveranstalter oder Reiseunternehmen zu planen. Nach unserer Wirtschaftsordnung liegt es im Ermessen der deutschen Seeschiffahrt. Wenn sie glauben, dies sei ein Gewerbezweig, in dem sie sich beschäftigen und Geld verdienen könnten, werden die deutschen Reedereien, da bin ich sicher, auch wieder Fahrgastschiffe bauen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg103">Herr Abgeordneter Ey.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1977-02-09-08-013.u89" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg104">Herr Staatssekretär, hat die Bundesregierung Überlegungen angestellt, auf welche Weise der Wettbewerbsnachteil aufgehoben werden kann?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u90" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg105">Nein. Das ist nicht Aufgabe der Bundesregierung. Ganz offensichtlich ist es so, daß sich die deutschen Reeder, die ja auch eine Zeitlang Fahrgastschiffe gebaut und betrieben haben, bei den bei uns üblichen Kosten nicht in der Lage sehen, in der Konkurrenz mit anderen mitzuhalten. Ich meine, in unserem Wirtschaftssystem ist es die freie Entscheidung eines jeden Unternehmers, sein Unternehmen so zu betreiben oder auch nicht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u91" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg106">Zu einer letzten Zusatzfrage Herr Abgeordneter Jäger.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1977-02-09-08-013.u92" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg107">Herr Staatssekretär, auf welche Ursache führen Sie die von Ihnen hier mit lapidaren Worten dargestellte Konkurrenzunfähigkeit des deutschen Fahrgastschiffverkehrs zurück?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg108">Ich glaubte dies schon in meiner Antwort auf die Frage des vorigen Fragestellers gesagt zu haben, Herr Kollege Jäger.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u94" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg109">Ich rufe die Frage 12 des Abgeordneten Tillmann auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg110">Liegen inzwischen die Ergebnisse der Modelluntersuchungen in sieben ausgewählten Testgebieten vor, die im Zusammenhang mit der Erarbeitung eines optimalen Streckennetzes der Deutschen Bundesbahn angestellt worden sind, und an wen sind gegebenenfalls die entsprechenden Ergebnisberichte versandt worden?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg111">Herr Präsident, ich wäre dankbar, wenn ich auch hier die beiden von dem Fragesteller eingereichten Fragen zusammen beantworten dürfte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg112">Der Fragesteller ist einverstanden. Ich rufe daher auch die Frage 13 des Abgeordneten Tillmann auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg113">Hat in letzter Zeit das Bundesverkehrsministerium über das Ergebnis der angestellten Modelluntersuchungen Behörden und sonstige Stellen mündlich informiert, und wenn ja, aus welchem Grund sind die Wahlkreisabgeordneten in den betreffenden Testgebieten nicht informiert worden, sei es durch Zustellung der Ergebnisberichte oder auf sonstige Weise? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u97" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg114">Herr Kollege, die Staatssekretärsarbeitsgruppe „Verkehr und Regionalpolitik" hat an Hand der sieben ausgewählten Testräume und der entsprechenden Strecken ein Entscheidungsverfahren erarbeitet und einen ersten Berichtsentwurf verfaßt, der zur Zeit interministeriell auf Bundesebene und dann mit den Ländern und auf Verwaltungsebene mit den jeweiligen Regionen erörtert wird. Es ist beabsichtigt, parallel dazu auch den Bundestagsverkehrsausschuß über den Stand der Arbeiten zu unterrichten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u98" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg115">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU) :</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1977-02-09-08-013.u99" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg116">Herr Staatssekretär, halten nicht auch Sie es für einen nicht gerade guten Umgang der Bundesregierung mit den Abgeordneten, wenn die entsprechenden Ergebnisberichte zwar allen möglichen Stellen zugesandt werden, aber die Abgeordneten, die doch später die Verantwortung für verkehrspolitische Maßnahmen zu übernehmen haben, nichts über diese Berichte erfahren?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg117">Herr Kollege Tillmann, Sie unterstellen, daß die Ergebnisberichte „allen möglichen Stellen zugesandt" worden sind. Ich kann hier erklären, daß die Ergebnisberichte zur Zeit vorbereitet und in den nächsten Tagen auch den Mitgliedern des Verkehrsausschusses zugestellt werden. Bis jetzt sind diese Berichte seitens der Bundesregierung offiziell nicht zugestellt worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg118">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU) :</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1977-02-09-08-013.u102" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg119">Herr Staatssekretär, ist es nicht richtig, daß bereits in der vorigen Woche bei bestimmten Bezirksregierungen Gespräche stattgefunden haben, die es unwahrscheinlich machen, daß ich hier nur eine Unterstellung zum Ausdruck gebracht habe?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg120">Herr Kollege Tillmann, ich gehe davon aus, daß in Vorbereitung der Arbeit der Staatssekretärsgruppe selbstverständlich auch Gespräche mit den verschiedensten Behörden, auch mit den Länderregierungen, geführt worden sind, um hier zu eindeutigen Ergebnissen zu kommen. Ich glaube, das gehörte wohl zur Vorbereitung dieser Arbeit.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u104" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg121">Noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU) :</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1977-02-09-08-013.u105" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg122">Sie bestätigen hier heute also ausdrücklich, daß bisher überhaupt noch keine Ergebnisberichte an irgendwelche Stellen im Lande versandt worden sind?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u106" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg123">Nach meinem Erkenntnisstand ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u107" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg124">Herr Kollege Hoffie, Sie wollen eine Zusatzfrage stellen.</seg>
+        </u>
+        <note type="speaker">Hoffie (FDP) :</note>
+        <u who="#Q1716948" xml:id="ParlaMint-DE_1977-02-09-08-013.u108" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg125">Das hat sich zwar erledigt, aber ich darf nur zur größeren Sicherheit noch nachfragen: in der Presse veröffentlichte Ergebniszahlen sind also nicht aus dem Hause des Bundesverkehrsministers gekommen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u109" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg126">Dies hatte ich so dargestellt, Herr Kollege Hoffie.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u110" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg127">Ich rufe die Frage 14 des Abgeordneten Dr. Langner auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg128">Ist beabsichtigt, den Bundesbahngüterverkehr von Gießen nach Koblenz von der Lahnstrecke wegzunehmen und über Frankfurt zu leiten? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u111" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg129">Ja, Herr Kollege, vom Jahresfahrplan 1977/78 an.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u112" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg130">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Langner (CDU/CSU) :</note>
+        <u who="#Q1268810" xml:id="ParlaMint-DE_1977-02-09-08-013.u113" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg131">In welchem Umfang wird die Einschränkung Platz greifen?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u114" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg132">Es handelt sich bei dieser Maßnahme um die Konzentration der Rangieraufgaben und der Zugbildungen im sogenannten Knotenpunktsystem. Ziel ist, die Güterwagenströme möglichst auf leistungsfähige Rangierbahnhöfe zu konzentrieren, um so eine wirtschaftlichere, kostengünstigere Bedienungsweise im Nah- und Fernbereich zu erreichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg133">Noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Langner (CDU/CSU) :</note>
+        <u who="#Q1268810" xml:id="ParlaMint-DE_1977-02-09-08-013.u116" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg134">Welche Auswirkungen wird diese Maßnahme der Bundesbahn für die Dienststellen an der Lahnstrecke haben?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg135">Auf die Situation der Arbeitsplätze wird diese Maßnahme keinen Einfluß haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg136">Die Frage 15 des Abgeordneten Dr. Riedl (München)</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg137">wird schriftlich beantwortet, da der Fragesteller offensichtlich nicht im Saal ist. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 16 des Abgeordneten Dr. Müller auf. Ist der Bundesregierung bekannt, daß bel der Einführung von Telefonnahverkehrsnetzen, wie sie zur Zeit vorbereitet werden, in den strukturschwachen Grenzgebieten zur Tschechoslowakei und Osterreich erhebliche Benachteiligungen der Telefonteilnehmer entstehen, und ist der Bundesminister für Post- und Fernmeldewesen, der als Bundesminister für Verkehr auch für Fragen der Strukturpolitik zuständig ist, bereit, neue Ungerechtigkeiten in strukturschwachen Gebieten zu verhindern? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u119" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg138">Herr Kollege, die Bundesregierung wird den besonderen Gegebenheiten im Zonenrandgebiet Rechnung tragen. Es handelt sich hierbei in der Regel um dünner besiedelte Gebiete mit kleineren Ortsnetzen und einseitig in Richtung Bundesrepublik ausgerichtetem Gesprächsverkehr, die selbst bei undifferenzierter Anwendung der angestrebten Lösung beachtliche Vorteile haben werden. Der Bundespostminister wird dem Verwaltungsrat der Deutschen Bundespost geeignete Vorschläge unterbreiten, um Nachteile, die sich für die Teilnehmer aus den geographischen und politischen Verhältnissen in diesen Gebieten ergeben, auszugleichen. Es ist beabsichtigt, mit dem Knotenamt Hilders einen ganzen Knotenamtsbereich mit mehreren Ortsnetzen aus dem Zonenrandgebiet in die Erprobung des Nahbereichsverkehrs einzubeziehen. Dort soll ein Begünstigungsmodell erprobt werden, bei dem nicht nur die in einem Radius von 20 km um den jeweiligen Ortskern liegenden Ortsnetze in den Nahbereich einbezogen werden, sondern auch der Radius auf 25 km erweitert wird. Der praktische Betriebsversuch wird dann Aufschluß darüber geben, wie sich diese Vergünstigungen auf die Kunden und die Einrichtungen der Deutschen Bundespost auswirken werden. Eine Ausnahmeregelung dürfte jedoch zumindest hinsichtlich der südlichen Landesgrenze nicht notwendig sein. Die Deutsche Bundespost bietet dort im automatisierten Grenzfernsprechverkehr bereits einen gegenüber dem normalen Auslandstarif sehr günstigen Sondertarif an. Davon wird auch, wie die Statistik zeigt, von beiden Seiten reger Gebrauch gemacht. Diese Erklärung hat Minister Gscheidle in der 222. Sitzung des 7. Deutschen Bundestages am 13. Februar 1976 abgegeben. Ich trage sie hier noch einmal vor und habe ihr nichts hinzuzufügen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u120" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg139">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Müller (CDU/CSU) :</note>
+        <u who="#Q1561675" xml:id="ParlaMint-DE_1977-02-09-08-013.u121" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg140">Herr Staatssekretär, ist Ihnen bekannt, daß gerade im dörflichen Bereich die Benutzung des Telefons in erster Linie nicht der mitmenschlichen Kommunikation, sondern den Kontakten mit den Behörden dient, die durch die steigende Flut von Gesetzen immer größer werden, und daß es deswegen darauf ankommt, die entsprechenden Kontakte, z. B. zu den Kreisstädten, herstellen zu können?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u122" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg141">Dies ist mir bekannt, Herr Kollege. Einer der Gründe für die Einführung des Ortsnahbereichs war eben die allenthalben in der Bundesrepublik durchgeführte kommunale Neuordnung, die zu den von Ihnen angesprochenen Erschwernissen geführt hat. Gerade die Einführung der Nahbereiche soll diese Unzumutbarkeiten beseitigen oder doch zumindest weitgehend einschränken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg142">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Müller (CDU/CSU) :</note>
+        <u who="#Q1561675" xml:id="ParlaMint-DE_1977-02-09-08-013.u124" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg143">Herr Staatssekretär, ist Ihnen bekannt, daß dies nicht für den Grenzbereich zutrifft, denn die im Radius liegenden Städte liegen nicht auf deutschem Boden sondern z. B. auf österreichischem Boden!?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg144">Ja, ich habe aber trotzdem Ihre Frage nicht verstanden. Auch für die im Grenzbereich wohnenden Menschen ergibt sich natürlich durch die Einführung des Nahbereichs in dem Halbradius, von dem sie betroffen sind, ein ganz erheblicher Vorteil gegenüber der jetzigen Situation.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Müller [CDU/CSU] : Das ist nicht richtig!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u126" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg145">Eine Zusatzfrage des Herrn Abgeordneten Dr. Friedmann.</seg>
+        </u>
+        <note type="speaker">Dr. Friedmann (CDU/CSU) :</note>
+        <u who="#Q825034" xml:id="ParlaMint-DE_1977-02-09-08-013.u127" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg146">Herr Staatssekretär, bis wann ist damit zu rechnen, daß es zu dem Nahverkehrstarif, von dem eben die Rede war, nach den Vorstellungen der Bundesregierung kommen wird?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u128" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg147">Zur Zeit laufen die Versuche. Nach Abschluß dieser Versuche, Ende des Jahres, werden Zug um Zug, wie das vorgesehen ist, die Ortsnahbereiche eingeführt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u129" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg148">Ich rufe die Frage der Frau Matthäus-Maier auf. Herr Staatssekretär, haben Sie eventuell die Absicht, die beiden Fragen gemeinsam zu beantworten?</seg>
+          <vocal type="exclamat">
+            <desc>Staatssekretär Wrede: Ich würde darum bitten!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg149">— Ja. — Frau Kollegin, Sie sind einverstanden? — Dann rufe ich Ihre Fragen 17 und 18 auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg150">Treffen Presseberichte zu, wonach im Bereich der Bundesbehörden etwa 20 000 Pflichtplätze nach dem Schwerbehindertengesetz nicht besetzt sind und vom Bund somit monatlich rund zwei Millionen DM an Ausgleichsabgaben zu zahlen sind? Falls dies zutrifft, hält die Bundesregierung diesen Sachverhalt angesichts der hohen Arbeitslosenzahlen bei Schwerbehinderten für vertretbar, und welche Maßnahmen hat die Bundesregierung ergriffen bzw. wird sie in die Wege leiten, um diesen Sachverhalt zu beseitigen? Herr Staatssekretär, bitte.</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg151">Frau Kollegin, die erwähnten Presseberichte beziehen sich auf die Zahl von 20 000 unbesetzten Pflichtplätzen im Bereich der gesamten Bundesverwaltung nach dem Stand vom 1. Oktober 1975. Nach einer soeben durchgeführten vorläufigen Erhebung hat sich die Zahl der unbesetzten Pflichtplätze für Schwerbehinderte seit der letzten Erhebung bis zum 31. Dezember 1976 bei der Bundespost auf rund 5200 und bei der Bundesbahn auf rund 10 900 verringert. Die Bundesverwaltung im engeren Sinne hat ihre nach dem Schwerbehindertengesetz bestehende Verpflichtung, auf 6 °/o der zu zählenden Arbeitsplätze Schwerbehinderte zu beschäftigen, bereits erfüllt. Es ist weder der Deutschen Bundespost noch der Deutschen Bundesbahn möglich, schwerbehinderte Bewerber über den tatsächlichen Personalbedarf hinaus einzustellen. Bei der Deutschen Bundespost ist jedoch Vorsorge getroffen, daß trotz der bestehenden allgemeinen Einstellungsbeschränkungen schwerbehinderte Bewerber jeweils mit Sondergenehmigung eingestellt werden, sobald für sie ein geeigneter Arbeits- oder Ausbildungsplatz gefunden werden kann. Auch die Deutsche Bundesbahn ist bemüht, trotz der in ihrem Bereich bestehenden überdurchschnittlichen Schwierigkeiten ihrer Beschäftigungspflicht nach dem Schwerbehindertengesetz so weit wie möglich zu genügen. Der Rückgang der Zahl der unbesetzten Pflichtplätze um rund 5 000 innerhalb von 1 1/4 Jahren ist das erste Ergebnis dieser Bemühungen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Sdhmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg152">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Matthäus-Maier (FDP) :</note>
+        <u who="#Q1663356" xml:id="ParlaMint-DE_1977-02-09-08-013.u132" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg153">Würden sich die Bundesbehörden anders verhalten, Herr Staatssekretär, wenn die Ausgleichsabgabe höher wäre?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg154">Diese Frage kann ich nicht bejahen, weil es bei den speziellen Betriebsbereichen der Bundespost und insbesondere der Bundesbahn auf Grund der körperlichen Anforderungen an der übergroßen Zahl der Arbeitsplätze gar nicht möglich wäre, Schwerbehinderte in so großem Umfang einzustellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg155">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Matthäus-Maier (FDP) :</note>
+        <u who="#Q1663356" xml:id="ParlaMint-DE_1977-02-09-08-013.u135" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg156">Glauben Sie, daß das Verhalten der Bundesbehörden in dieser Frage Auswirkungen auf das entsprechende Verhalten in der Wirtschaft haben könnte?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u136" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg157">Dies glaube ich nicht, Frau Kollegin.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg158">Graf Stauffenberg, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Graf Stauffenberg (CDU/CSU):</note>
+        <u who="#Q76401" xml:id="ParlaMint-DE_1977-02-09-08-013.u138" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg159">Herr Staatssekretär, handelt es sich bei dem von Ihnen angegebenen Rückgang der Zahl der unbesetzten Pflichtplätze tatsächlich um eine entsprechende Mehreinstellung von Schwerbeschädigten in gleicher Höhe, oder handelt es sich dabei wenigstens zum Teil auch um einen Rückgang der Zahl der Pflichtplätze in diesen Behörden?</seg>
+        </u>
+        <note type="speaker">Wrede, Parl. Staatssekretär:</note>
+        <u who="#Q1871036" xml:id="ParlaMint-DE_1977-02-09-08-013.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg160">Wenn Sie von der Pflichtquote von 6 % nach dem Gesetz ausgehen, Herr Kollege, können Sie sich bei dem Rückgang der Zahl der Beschäftigten insgesamt ausmalen, daß die Zahl von 5 000 tatsächlich der Einstellungsquote entspricht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg161">Damit sind wir am Ende des Geschäftsbereichs des Bundesminsters für Verkehr und für das Post- und Fernmeldewesen. Ich rufe nunmehr den. Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen auf. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Höhmann zur Verfügung. Die Frage 19 des Herrn Abgeordneten Hösl wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 20 des Herrn Abgeordneten Dr. Kunz (Weiden)</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg162">auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg163">Verbirgt sich hinter der Feststellung von Staatssekretär Höhmann in der Hessischen Allgemeinen vom 18. Januar 1977, daß die Zonenrandförderung in diesem Jahr nicht „abgebaut oder mit halber Kraft weitergeführt werden soll", die Absicht der Bundesregierung, diese Maßnahme nach dem Jahr 1977 substantiell zu verändern, oder was versteht die Bundesregierung unter dem bei dieser Förderung angeblich bisher angewandten „Gießkannenprinzip"?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1977-02-09-08-013.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg164">Herr Abgeordneter Dr. Kunz, bei den von Ihnen zitierten Pressemeldungen handelt es sich um den Extrakt eines etwa zweistündigen Pressegespräches über die Zonenrandförderung des Bundes und der vier Zonenrandländer, das deshalb notwendigerweise verkürzt wiedergegeben worden ist. Zur Sache selbst teile ich mit:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg165">Die Bundesregierung betrachtet die Zonenrandförderung als wichtige politische Aufgabe. Sie ist bemüht, die Wirksamkeit dieser Förderung weiter zu verbessern, um der Zielsetzung des Zonenrandförderungsgesetzes, die Leistungskraft dieses Gebietes zu stärken, zu entsprechen. Dies kann nur durch einen gezielten und konzentrierten Einsatz der verfügbaren Haushaltsmittel erreicht werden. Soweit es sich um die wirtschaftliche Förderung des Zonenrandgebietes handelt, werden Bund und Länder auch in der Zukunft im Planungsausschuß der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur" gemeinsam prüfen, wie die Maßstäbe zur Auswahl und Abgrenzung der Förderungsschwerpunkte, zur Differenzierung der Förderungshöhe im Einzelfall sowie zur Erfolgskontrolle verbessert werden können. Auch im Bereich der sozialen und kulturellen Förderung wird geprüft werden, ob die zur Verfügung stehenden Haushaltsmittel finanziell schwergewichtiger auf sachliche Schwerpunkte konzentriert werden sollen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg166">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1977-02-09-08-013.u143" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg167">Herr Staatssekretär, sind Sie in der Lage, zu bestätigen, daß die Bundesregierung nicht beabsichtigt, die bisherigen Hilfen für das Zonenrandgebiet substantiell zu verändern, insbesondere im Bereich der Frachthilfe, der steuerlichen Hilfen und der Investitionszulagen?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1977-02-09-08-013.u144" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg168">Herr Abgeordneter, ich kann Ihnen eine Textpassage aus dem Jahreswirtschaftsbericht der Bundesregierung vorlesen, aus der hervorgeht, was die Bundesregierung vor hat. Da heißt es:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg169">Das Zonenrandgebiet wird wie bisher auch in Zukunft bevorzugt gefördert. Die Förderung soll dazu beitragen, in diesem Raum die Folgen der Teilung Deutschlands zu überwinden und die Nachteile auszugleichen, die sich für das Zonenrandgebiet aus seiner peripheren Lage zu den Wirtschaftszentren der Europäischen Gemeinschaft ergeben. Das Schwergewicht liegt im ersten Satz: Das Zonenrandgebiet wird wie bisher auch in Zukunft bevorzugt gefördert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u145" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg170">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1977-02-09-08-013.u146" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg171">Herr Staatssekretär, wie sind die Äußerungen des Herrn Bundesministers Franke in diesem Zusammenhang zu verstehen, der davon spricht, daß das Zonenrandgebiet nicht zu einem Naturschutzpark für Wirtschaft und Bevölkerung gemacht und Betriebe nicht mit allen Mitteln durchgepäppelt werden können, und wie sind dazu Ihre Äußerungen zu verstehen, die besagen, daß der Abwanderung von qualifizierten Schulabgängern aus dem. Zonenrandgebiet durch eine verstärkte Förderung von Arbeitsplätzen im zukunftsträchtigen Dienstleistungsbereich begegnet werden könnte?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1977-02-09-08-013.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg172">Herr Abgeordneter, was den zweiten Teil Ihrer Frage angeht, so haben Sie sicher auch im vergangenen Jahr zur Kenntnis genommen, daß in das Programm „Förderung der regionalen Wirtschaftsstruktur" zum erstenmal Dienstleistungsbereiche aufgenommen wurden. Wir haben sehr lange gemeinsam darum gekämpft, und eben dies meinte ich damit und denke, daß das verstärkt werden müßte. Was die Interpretation dessen angeht, was Herr Minister Franke in der (Öffentlichkeit ausgeführt hat,</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg173">so kann dieses nur bedeuten, daß wir bestimmte Wirtschaftszweige oder bestimmte Betriebe nicht auf Ewigkeit subventionieren wollen, sondern daß wir Hilfe nur zur Selbsthilfe leisten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg174">Eine Zusatzfrage des Herrn Abgeordneten Böhm.</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1977-02-09-08-013.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg175">Herr Staatssekretär, nachdem Sie angekündigt haben, daß die bisherige Form der Förderung mit dem Ziel einer Konzentration der Förderung auf einige oder mehrere Schwerpunkte verändert wird, frage ich Sie: Wie wird sich diese Konzentration konkret auf den bisher geförderten Raum auswirken?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1977-02-09-08-013.u150" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg176">Herr Kollege, wenn ich Schwerpunkte sage, so meine ich zunächst einmal nicht Schwerpunktorte. Da können Irrtümer entstehen, deshalb möchte ich dies gleich vorwegnehmen. Mir hat der Bayerische Staatsminister für Unterricht und Kultus mitgeteilt, daß auch er versuche, eine gewisse Antragsflut zu steuern, indem er Anträge mit einem Zuschußvolumen von unter 15 000 DM nicht mehr befürworte. Hier will das entsprechende bayerische Staatsministerium, wie ich meine, Schwerpunkte auch finanzieller Art setzen. Ich lasse im Augenblick überprüfen, ob dabei die kleinen Gemeinden unter den Schlitten kommen könnten, die mit Großvorhaben selten aufwarten können. Für das Zonenrandgebiet hat der innerdeutsche Ausschuß eine Maxime aufgestellt, die wir nicht durchbrechen wollen: Wir müssen im Zonenrandgebiet flexibel bleiben und dürfen uns nicht schematisch an bestimmte Kriterien binden.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Böhm [Melsungen] [CDU/CSU] : Was heißt das konkret?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u151" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg177">Ich rufe Frage 21 des Abgeordneten Graf Stauffenberg auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg178">Welche Kenntnisse hat die Bundesregierung über den derzeitigen Aufenthalt der Kinder Ota Grübel (geb. 12. Juli 1969)</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg179">und Jeanette Grübel (geb. 2. September 1970)</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg180">, und wann schätzt die Bundesregierung, daß diese Kinder mit ihren Eltern, Otto und Bärbel Grübel, zusammengeführt werden können?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1977-02-09-08-013.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg181">Herr Abgeordneter Graf Stauffenberg, die beiden Kinder haben zuletzt bei dem Ehepaar Klewin in Eisenhüttenstadt gewohnt. Ihre Pflegeeltern sollen zwischenzeitlich mit ihnen verzogen sein. Die Bundesregierung setzt sich nach wie vor mit Nachdruck für die Ausreise der Kinder zu ihren in der Bundesrepublik Deutschland lebenden Eltern ein. Ich vermag aber leider nicht zu sagen, ob und gegebenenfalls wann dieses Ziel erreicht werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg182">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Graf Stauffenberg (CDU/CSU):</note>
+        <u who="#Q76401" xml:id="ParlaMint-DE_1977-02-09-08-013.u154" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg183">Herr Staatssekretär, wenn Sie sagen, daß die Bundesregierung sich weiter einsetzen wird, darf ich Sie konkret fragen: Steht das Schicksal dieser Kinder und dieser Familie Grübel auf der Gesprächstagesordnung beispielsweise zwischen dem Ständigen Vertreter der Bundesrepublik Deutschland und den entsprechenden Stellen in Ost-Berlin oder vielleicht auch der Bundesregierung hier mit dem Ständigen Vertreter aus Ost-Berlin?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1977-02-09-08-013.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg184">Herr Abgeordneter, Sie wissen, daß es auch andere Gesprächsebenen gibt, die seit langer Zeit bestehen, und eben auf diesen Gesprächsebenen ist das ein dauernder Verhandlungsgegenstand.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u156" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg185">Wollen Sie noch eine Zusatzfrage stellen? — Bitte.</seg>
+        </u>
+        <note type="speaker">Graf Stauffenberg (CDU/CSU) :</note>
+        <u who="#Q76401" xml:id="ParlaMint-DE_1977-02-09-08-013.u157" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg186">Herr Staatssekretär, könnten Sie mir mitteilen, in wieviel vergleichbaren Fällen von Entzug der Erziehungsberechtigung oder der Adoption ohne Einwilligung — also Zwangsadoption —, die Ihr Vorgänger, Herr Staatssekretär Herold, am 16. Januar 1976 und am 18. August 1976 genannt hat, es seither zu einer Familienzusammenführung gekommen ist?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1977-02-09-08-013.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg187">Ich kann die Einzelfälle, die mein Vorgänger, Herr Staatssekretär Herold, hier angesprochen hat, jetzt nicht aus dem Kopf zitieren. Ich kann Ihnen nur sagen, daß im Jahre 1976 etwas mehr als 5000 Familienzusammenführungen stattgefunden haben.</seg>
+        </u>
+        <note type="speaker">Graf Stauffenberg (CDU/CSU) :</note>
+        <u who="#Q76401" xml:id="ParlaMint-DE_1977-02-09-08-013.u159" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg188">Können Sie mir meine Frage schriftlich beantworten, Herr Staatssekretär?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1977-02-09-08-013.u160" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg189">Gerne. Auch mündlich will ich mich gern mit Ihnen darüber unterhalten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u161" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg190">Herr Abgeordneter Hansen, Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1977-02-09-08-013.u162" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg191">Herr Staatssekretär, würden Sie bitte dem Hause mitteilen, ob es erfahrungsgemäß dem humanitären Ziel der Familienzusammenführung dient, wenn Einzelfälle mit Namen hier öffentlich erörtert werden?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1977-02-09-08-013.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg192">Herr Abgeordneter, wenn man mit diesem angesprochenen Fall etwas beweisen kann, dann nur, daß die lautstarke öffentliche Erörterung jedenfalls nicht dazu geführt hat, daß die Kinder zu ihren Eltern in die Bundesrepublik überstellt werden konnten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg193">Herr Abgeordneter Jäger.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1977-02-09-08-013.u165" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg194">Herr Staatssekretär, wird die Bundesregierung diesen Fall mit Rücksicht auf seine Schwere und auf die Tragik des Schicksals dieser Kinder auf die Traktandenliste der Folgekonferenz von Belgrad setzen, und zwar mit Bezug auf Ziffer 1 b) des Korbes III der KSZE-Vereinbarungen, wo auch die DDR die Familienzusammenführung zugesagt hat, falls dieser Fall bis dahin noch nicht positiv geregelt worden ist?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1977-02-09-08-013.u166" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg195">Herr Kollege Jäger, ich habè die Hoffnung, daß der Fall vielleicht vorher positiv entschieden sein wird, wenn wir uns alle hier einer gewissen Diskretion befleißigen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD und der FDP</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u167" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg196">Eine Zusatzfrage des Abgeordneten Dr. Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU) :</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1977-02-09-08-013.u168" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg197">Herr Staatssekretär, ist Ihnen bekannt, daß gerade bezüglich der Menschenrechte der Scheinwerfer der Öffentlichkeit auf diejenigen, die sich schuldig machen, wiederholt dazu geführt hat, daß die von der Unmenschlichkeit Betroffenen freigekommen sind?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1977-02-09-08-013.u169" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg198">Herr Kollege Dr. Hupka, man kann auf einige, sogar auf eine ganze Reihe von Einzelbeispielen verweisen, vergißt darüber aber Millionen oder zumindest Hunderttausende, die in der gleichen Lage sind, die namenlos sind und denen auf keine Weise geholfen wird, sondern deren Schicksal sich dadurch unter Umständen noch verschlimmern könnte.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u170" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg199">Herr Staatssekretär, ich danke Ihnen. Die Fragen aus dem Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen sind damit beantwortet. Wir kommen zum Geschäftsbereich des Bundesministers des Innern. Hier steht zur Beantwortung der Fragen Herr Parlamentarischer Staatssekretär von Schoeler zur Verfügung. Herr Abgeordneter Dr. Friedmann hat die Frage 22 gestellt:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg200">Ist die Bundesregierung bereit, zu einer Beschleunigung des Asylverfahrens im Interesse der Asylsuchenden und des deutschen Steuerzahlers beizutragen, indem sie die Zahl der Ausschüsse beim Bundesamt für die Anerkennung ausländischer Flüchtlinge, die über die Asylanträge zu entscheiden haben, um das erforderliche Maß vermehrt? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u171" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg201">Herr Kollege, die Bundesregierung unternimmt alles in ihren Kräften Stehende, um eine zügige Entscheidung über die Asylanträge ausländischer Flüchtlinge sicherzustellen. Im Haushalt 1974 waren für das Bundesamt für die Anerkennung ausländischer Flüchtlinge zu den seinerzeit bereits zur Verfügung stehenden 102 Stellen 17 neue Stellen bewilligt und 10 mit einem kw-Vermerk versehene Stellen in Dauerstellen umgewandelt worden. Gleichzeitig hat die Bundesregierung das Personal in der Vorprüfung sowie bei den Anerkennungs- und Widerspruchsausschüssen verstärkt und die Zahl der Widerspruchsausschüsse erhöht. Diese personellen und organisatorischen Maßnahmen haben zu einer erheblichen Beschleunigung des Asylverfahrens geführt. Der Haushaltsentwurf 1977 sieht vor, daß im Haushalt 1977 an sich wirksam werdende kw-Vermerke bei 17 Stellen bis zum 31. Dezember 1980 verlängert werden. Obwohl sich die Zahl der Asylanträge in der Zeit von 1973 bis 1976 von 4 792 auf 8 854 nahezu verdoppelt hat, waren dank des Abbaues der Rückstände bei den Anerkennungsausschüssen am 1. Januar 1977 mit 1590 weniger Verfahren anhängig als am 1. Januar 1974, an dem es 1 831 waren. Die Zahl der jährlichen Entscheidungen durch die Anerkennungsausschüsse hat sich in der Zeit von 1973 bis 1976 von ca. 4 000 auf ca. 9 000 sogar mehr als verdoppelt. Demgegenüber haben sich in letzter Zeit Engpässe bei der Durchführung der Widerspruchsverfahren ergeben. Während 1975 in 47 °/o aller Fälle gegen die Entscheidungen der Anerkennungsausschüsse Widerspruch eingelegt wurde, geschah dies im Jahre 1976 in 57 % aller Fälle. Dementsprechend ist die Zahl der anhängigen Widerspruchsverfahren sprunghaft von 2 771 am 1. Januar 1976 auf 4 026 am 1. Januar 1977 gestiegen. Die Bundesregierung ist bemüht, die Abwicklung der Widerspruchsverfahren durch weitere Rationalisierungsmaßnahmen zu beschleunigen. Sie prüft in diesem Zusammenhang auch, ob es erforderlich ist, die Widerspruchsausschüsse personell zu verstärken und ihre Zahl zu erhöhen. Die Beschleunigung des Asylverfahrens ist auch Gegenstand der Beratungen der nächsten Innenministerkonferenz am 18. Februar 1977 in Berlin.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u172" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg202">Zunächst eine Zusatzfrage des Abgeordneten Dr. Friedmann.</seg>
+        </u>
+        <note type="speaker">Dr. Friedmann (CDU/CSU) :</note>
+        <u who="#Q825034" xml:id="ParlaMint-DE_1977-02-09-08-013.u173" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg203">Herr Staatssekretär, nachdem nunmehr der Engpaß offensichtlich bei den Widerspruchsinstanzen liegt, die bisher aber personell nicht verstärkt worden sind, möchte ich Sie fragen: Ist die Bundesregierung bereit, auch noch über den Bundeshaushalt 1977 zu bewirken, daß die Widerspruchsinstanzen verstärkt werden und damit auch von daher das Asylverfahren beschleunigt wird?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u174" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg204">Herr Kollege, ich habe bereits darauf hingewiesen, daß die Bundesregierung gegenwärtig alle Maßnahmen prüft, die dazu geeignet sind, den Engpaß bei den Widerspruchsverfahren abzubauen. Zu dieser Prüfung gehört nicht nur die von Ihnen angesprochene Maßnahme, sondern ebenso die Prüfung der Frage, durch kurzfristige Inanspruchnahme von Bediensteten anderer Dienststellen die Ausschüsse personell zu verstärken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u175" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg205">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Friedmann (CDU/CSU) :</note>
+        <u who="#Q825034" xml:id="ParlaMint-DE_1977-02-09-08-013.u176" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg206">Herr Staatssekretär, teilen Sie mit mir die Auffassung, daß eine Vermehrung der Planstellen auf dem Widerspruchssektor den deutschen Steuerzahler weniger belasten würde als die an die Asylbewerber gezahlte Sozialhilfe zuzüglich der anderen Ausgaben, die sich auf um so höhere Beträge summieren, je länger das Asylverfahren dauert?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u177" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg207">Herr Kollege, Sie können davon ausgehen, daß die Bundesregierung solche Art von Überlegungen in ihre Erwägungen mit einbezieht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u178" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg208">Eine Zusatzfrage des Herrn Abgeordneten Wittmann.</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1977-02-09-08-013.u179" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg209">Herr Staatssekretär, welche Maßnahmen ergreift die Bundesregierung, um die Zahl der Fälle einzuschränken, in denen unter Vorgabe eines Asylersuchens Einreisen in die Bundesrepublik Deutschland z. B. über West-Berlin ermöglicht werden?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u180" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg210">Herr Kollege, ich gehe davon aus, daß heute alle getroffenen Vorkehrungen im Rahmen der geltenden Gesetze getroffen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u181" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg211">Eine Zusatzfrage des Herrn Abgeordneten Professor Schäfer.</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer (Tübingen) (SPD) :</note>
+        <u who="#Q1462129" xml:id="ParlaMint-DE_1977-02-09-08-013.u182" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg212">Herr Staatssekretär, haben die Länder durch zügige Übernahme der Asylbewerber dazu beigetragen, daß der Aufenthalt im Lager Zirndorf möglichst kurz gehalten werden kann?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u183" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg213">Herr Kollege, Sie weisen zu Recht darauf hin, daß es hier in der Vergangenheit gewisse Probleme gegeben hat, die wir aber, so glaube ich, in den Beratungen der Innenminister-Konferenz werden lösen können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u184" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg214">Eine Zusatzfrage des Abgeordneten Müller (Berlin).</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1977-02-09-08-013.u185" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg215">Herr Staatssekretär, stimmt es, daß es immer mehr Asylsuchende gibt, die sich Rechtsanwälte bedienen, daß dadurch das Verfahren mindestens drei Jahre dauert, daß sie während dieser Zeit Sozialhilfe in Anspruch nehmen und daraus also ein Geschäft machen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u186" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg216">Herr Kollege, ich bin im Augenblick nicht in der Lage, Ihnen genauere Angaben über die Dauer der Verfahren zu machen. Ich möchte noch einmal darauf hinweisen, daß es gelungen ist, die Zahl der Rückstände bei den Anerkennungsverfahren insgesamt in den letzten Jahren zu senken. Ich bin aber gern bereit, Ihnen zur Dauer der Verfahren auch noch schriftlich Näheres mitzuteilen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u187" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg217">Eine Zusatzfrage des Abgeordneten Schlaga.</seg>
+        </u>
+        <note type="speaker">Schlaga (SPD) :</note>
+        <u who="#Q1422044" xml:id="ParlaMint-DE_1977-02-09-08-013.u188" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg218">Herr Staatssekretär, halten Sie es für verfassungsgemäß, daß die angestrebte sehr schnelle Abwicklung von Asylanträgen bzw. -verfahren demnächst nach einer Ergänzung der entsprechenden Verwaltungsvorschrift beinhalten wird, daß zur „Beschleunigung" bereits an der Grenze sogenannte Mißbrauchsfälle abgewiesen werden können?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u189" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg219">Herr Kollege, die Bundesregierung ist sich bewußt, daß alle Maßnahmen zur Rationalisierung und Beschleunigung des Verfahrens mit rechtsstaatlichen Grundsätzen vereinbar sein müssen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Schlaga [SPD] : Darf ich Sie bitten, das zu überprüfen und mir das schriftlich zu geben!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u190" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg220">Herr Kollege, das steht im Protokoll. Eine Zusatzfrage des Abgeordneten Becker.</seg>
+        </u>
+        <note type="speaker">Becker (Nienberge) (SPD) :</note>
+        <u who="#Q1604393" xml:id="ParlaMint-DE_1977-02-09-08-013.u191" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg221">Herr Staatssekretär, können Sie etwas über die durchschnittliche Verweildauer und über die Praxis der Beurlaubung während des Asylverfahrens sagen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u192" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg222">Herr Kollege, ich bin dazu im Augenblick nicht in der Lage. Ich bin aber gern bereit, Ihnen weiteres schriftlich mitzuteilen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u193" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg223">Eine letzte Zusatzfrage des Herrn Abgeordneten Dr. Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU) :</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1977-02-09-08-013.u194" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg224">Herr Staatssekretär, Sie haben vorhin in Ihrer Antwort von Rationalisierungsmaßnahmen gesprochen. In welcher Weise wären diese gerade beim Widerspruchsverfahren möglich, wo der Engpaß am deutlichsten ist?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u195" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg225">Herr Kollege, ich möchte Sie darauf hinweisen, daß wir schon heute Fallgruppen mit im wesentlichen gleich oder ähnlich gelagerten Sachverhalten in besonderen Ausschüssen zusammenfassen, um eine rationelle Arbeitsweise zu gewährleisten. Das ist ein Beispiel für solche möglichen Maßnahmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u196" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg226">Ich rufe die Frage 23 des Herrn Abgeordneten Fiebig auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg227">Was gedenkt die Bundesregierung zu tun, um die Aktivitäten der militant-faschistischen Mun-Sekte, deren Zielsetzung mit dem Grundgesetz unvereinbar zu sein scheint, in der Bundesrepublik Deutschland zu unterbinden, die einem Bericht der Westfälischen Rundschau von 22. Dezember 1976 zufolge junge Menschen aus Familie, Beruf und sozialer Verantwortung herausreißt und sie zu willenlosen Werkzeugen des Sektenoberhauptes macht? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u197" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg228">Herr Kollege, zu der Tätigkeit der Mun-Sekte, die sich in der Bundesrepublik Deutschland als „Föderation für Weltfrieden und Vereinigung e. V." bezeichnet, hat der Bundesminister des Innern bereits in der Antwort vom 20. August 1976 — Drucksache 7/5716 — auf die Kleine Anfrage des Abgeordneten Vogel (Ennepetal)</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg229">und der Fraktion der CDU/CSU — Drucksache 7/5646 — Stellung genommen. Bereits dort hat der Bundesminister des Innern darauf hingewiesen, daß sich bisher keine konkreten Nachweise haben führen lassen, auf die strafrechtliche, vereinsrechtliche oder andere behördliche Maßnahmen gestützt werden können. Dies gilt auch für solche Tatsachen, die eine Feststellung rechtfertigen könnten, daß die Tätigkeit der Sekte gegen die freiheitlich-demokratische Grundordnung der Bundesrepublik Deutschland gerichtet ist. Die in der genannten Antwort vom 20. August 1976 erwähnten staatsanwaltschaftlichen Ermittlungsverfahren gegen leitende Personen der Vereinigung sind noch nicht abgeschlossen. Ihr Ergebnis muß abgewartet werden. Die Bundesregierung beobachtet mit der gebotenen Sorgfalt die Entwicklung im Bereich der sogenannten neuen Jugendreligionen, zu denen auch die Mun-Sekte gehört. Ich versichere Ihnen, daß die zuständigen Behörden auch weiterhin begründeten Verdachtsmomenten nachgehen und bei entsprechenden Erkenntnissen die gebotenen Maßnahmen ergreifen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u198" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg230">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Fiebig (SPD) :</note>
+        <u who="#Q1694096" xml:id="ParlaMint-DE_1977-02-09-08-013.u199" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg231">Herr Staatssekretär, da Sie diese Mun-Sekte als „eingetragenen Verein" bezeichnet haben, meine Zusatzfrage: Sind Spenden an die Mun-Sekte bei der Einkommensteuer abzugsfähig?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u200" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg232">Herr Kollege, ich darf zunächst darauf hinweisen, daß ich die Mun-Sekte nicht als „eingetragenen Verein" bezeichnet, sondern darauf hingewiesen habe, daß sich die Mun-Sekte als „Föderation für Weltfrieden und Vereinigung e. V." bezeichnet. Im übrigen hat zur Frage der Gemeinnützigkeit der Kollege Offergeld in der Fragestunde des Deutschen Bundestages am 20. Januar 1977 Stellung genommen. Ich darf insoweit auf das Protokoll dieser Sitzung — Anlage 12 — verweisen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u201" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg233">Frau Abgeordnete Berger, wollten Sie noch eine Zusatzfrage stellen?</seg>
+        </u>
+        <note type="speaker">Frau Berger (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1715592" xml:id="ParlaMint-DE_1977-02-09-08-013.u202" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg234">Herr Kollege von Schoeler, für den Fall, daß die Sekte Vorteile als gemeinnützige Einrichtung in Anspruch nehmen sollte, würde ich gern wissen, ob auch die Frage der Weitergewährung des Status der Gemeinnützigkeit überprüft wird.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u203" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg235">Frau Kollegin, ich habe bereits auf die Antwort hingewiesen, die der Kollege Offergeld im Deutschen Bundestag gegeben hat. Er hat dabei insbesondere auf die Bedeutung des Steuergeheimnisses hingewiesen. Ich kann dem im Augenblick nichts hinzufügen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u204" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg236">Ich rufe die Frage 24 des Herrn Abgeordneten Schäfer auf:. Besteht im Rahmen der allgemeinen Störfallmeldepflicht bei Störfällen kerntechnischer Anlagen, z. B. bei Kernkraftwerken, auch eine Meldepflicht für Störfälle, die sich vor Inbetriebnahme, z. B. während des Baues solcher Anlagen, ereignen? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u205" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg237">Herr Kollege, die atomrechtliche Störfallmeldepflicht muß zum Verständnis ihrer Funktion und Bedeutung in ihrer Zuordnung zur staatlichen Aufsicht, deren Hilfsmittel sie ist, gesehen und dargestellt werden. Bereits die Errichtung kerntechnischer Anlagen unterliegt einer die gesamte Bauphase begleitenden staatlichen Aufsicht nach § 19 des Atomgesetzes. Die Beauftragten der Aufsichtsbehörde und die von ihr zugezogenen Sachverständigen können insbesondere die erforderlichen Auskünfte verlangen. Auf Grund einer Ermächtigung des Atomgesetzes, die durch die 4. Novelle zum Atomgesetz vom 30. August 1976 verbessert worden ist, hat die Erste Strahlenschutzverordnung diese Auskunftspflicht durch eine Meldepflicht für Unfälle und sonstige Schadensfälle beim Umgang mit radioaktiven Stoffen ergänzt und in ihrem § 53 konkretisiert. Diese Meldepflicht wird nunmehr durch die am 1. April 1977 in Kraft tretende Strahlenschutzverordnung (§ 36)</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg238">weiter ausgedehnt. Der Eintritt eines Unfalles, eines Störfalles oder — darüber hinausgehend — eines sonstigen sicherheitstechnisch bedeutsamen Ereignisses ist der Aufsichtsbehörde unverzüglich anzuzeigen. Das gilt für alle genehmigten Tätigkeiten, mithin auch für die der Genehmigung unterliegende Errichtung kerntechnischer Anlagen. Ein eigens dafür eingesetzter Arbeitskreis des Länderausschusses für Atomenergie erarbeitet zur Zeit Kriterien, insbesondere auch für die Meldung sicherheitstechnisch bedeutsamer Ereignisse während der Errichtungsphase kerntechnischer Anlagen. Lassen Sie mich abschließend bemerken, daß für ein im Aufbau befindliches umfassendes System zur Meldung und Auswertung von Störfällen sowie zur Information der Öffentlichkeit und der interessierten Fachwelt über Störfälle durch eine in Vorbereitung befindliche Rechtsverordnung die Rechtsgrundlagen konkretisiert und ergänzt werden sollen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u206" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg239">Eine Zusatzfrage, Herr Abgeordneter Schäfer.</seg>
+        </u>
+        <note type="speaker">Schäfer (Offenburg) (SPD):</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1977-02-09-08-013.u207" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg240">Herr Staatssekretär, nachdem ich Ihrer Antwort entnehme, daß diese Störfallmeldepflicht auch für Störfälle bei im Bau befindlichen Kernkraftwerken im wesentlichen erst am 1. April dieses Jahres in Kraft treten soll, frage ich Sie: Haben Sie in Ihrem Ministerium eine Übersicht über potentielle, sicherheitsrelevante Unfälle, die sich bislang während des Baus von Kernkraftwerken ereignet haben?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u208" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg241">Herr Kollege, wie Sie zu Recht meiner Antwort entnommen haben, gibt es bis zum 1. April 1977 z. B. eine Auskunftspflicht. Die staatliche Aufsicht besteht also auch vor diesem Zeitpunkt. Sie können davon ausgehen, daß die zuständigen Behörden allen Störfällen und ähnlichen Ereignissen im Rahmen der Aufsicht auch früher nachgegangen sind. Ich kann Ihnen im Augenblick keine Übersicht über in der Bauphase gegebenenfalls vorgekommene konkrete Störfälle geben, aber ich bin gern bereit, Ihnen entsprechende Informationen nachzureichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u209" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg242">Herr Kollege, Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schäfer (Offenburg) (SPD) :</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1977-02-09-08-013.u210" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg243">Ist Ihrem Ministerium rechtzeitig über den Brand eines Kabels bei dem in Bau befindlichen Hochtemperaturreaktor in Schmehausen Mitteilung gemacht worden, und haben Sie schon untersucht, ob dieser Brand gegebenenfalls sicherheitsrelevant sein könnte?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u211" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg244">Herr Kollege, Sie haben sicherlich Verständnis dafür, daß ich auf Grund der allgemeinen Formulierung Ihrer Frage nicht wissen konnte, auf welchen speziellen Fall Sie abgezielt haben, und dementsprechend auch nicht den speziellen Fall habe untersuchen können. Aber ich bin auch hier gerne bereit, Ihnen weitere Informationen zukommen zu lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u212" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg245">Ich rufe die Frage 25 des Herrn Abgeordneten Hansen auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg246">Treffen Presseberichte zu, wonach das Bundesamt für Verfassungsschutz über in der Bundesrepublik Deutschland lebende iranische Staatsbürger — vor allem Studenten — Erkenntnisse an iranische Behörden weitergibt, und wie weit geht die, solchen Erkenntnissen vorausgehende, ständige Observierung iranischer Staatsbürger in der Bundesrepublik Deutschland?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u213" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg247">Herr Kollege, Sie beziehen sich offensichtlich auf Presseberichte über die Äußerung des iranischen Außenministers Kalatbari am 30. Januar dieses Jahres, wonach die iranische Regierung von deutscher Seite sicherheitsrelevante Informationen erhalte. Dazu bemerke ich, daß es eine institutionalisierte Zusammenarbeit deutscher Sicherheitsbehörden mit dem iranischen Nachrichtendienst nicht gibt. Das Bundesamt für Verfassungsschutz steht allerdings seit 1959 im Rahmen seines gesetzlichen Auftrages in Kontakt mit dem iranischen Nachrichtendienst, worauf bereits der Regierungssprecher in seiner Erklärung am 31. Januar 1977 hingewiesen hat. Die Bundesregierung ist, entsprechend der bisherigen Übung in vergleichbaren Fällen, gern bereit, das dafür berufene Parlamentarische Vertrauensmännergremium über Einzelheiten zu unterrichten. Zum zweiten Teil Ihrer Frage kann ich Ihnen mitteilen, daß Observationen iranischer Staatsangehöriger, die der Unterrichtung des iranischen Nachrichtendienstes dienen, in der Bundesrepublik Deutschland nicht stattfinden. Im Hinblick auf Aktivitäten einzelner Gruppierungen, die sich zur Gewaltanwendung im Bundesgebiet bekennen, hält allerdings die Bundesregierung eine sorgfältige Beobachtung solcher Gruppierungen für erforderlich. Solche Beobachtungen dienen der Sammlung und Auswertung von Auskünften, Nachrichten und sonstigen Unterlagen über Bestrebungen, die gegen die freiheitlich-demokratische Grundordnung oder die Sicherheit des Bundes oder eines Landes gerichtet sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u214" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg248">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1977-02-09-08-013.u215" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg249">Herr Staatssekretär, vor dem Hintergrund der Tatsache eines detaillierten Berichts des iranischen Geheimdienstes an die Zentrale in Teheran über die Teilnahme von elf iranischen Studenten, die in der Bundesrepublik studieren, an einer Demonstration vor dem Londoner Konsulat des Iran möchte ich Sie fragen, ob Sie es billigen, daß Bedienstete des Verfassungsschutzes unter „illegal" offenbar das verstehen, was im Folterland Iran darunter verstanden wird, z. B. sogar die Verbreitung von regimekritischen Flugblättern?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u216" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg250">Herr Kollege, Sie können nicht davon ausgehen, daß die Behörden des Verfassungsschutzes von der von Ihnen dargestellten Auffassung ausgehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u217" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg251">Meine Damen und Herren, ich möchte zwischendurch die neuen Kolleginnen und Kollegen darauf aufmerksam machen: Wer eine Zusatzfrage stellen möchte, muß sich an eines der Saalmikrophone in seiner Nähe zu bemühen; sonst kann ich die Wünsche nach Zusatzfragen nicht übersehen. Zunächst hat der Herr Abgeordnete Hansen eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1977-02-09-08-013.u218" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg252">Herr Staatssekretär, trotz Ihres Hinweises auf das Parlamentarische Vertrauensmännergremium möchte ich Sie fragen, ob Sie meiner Meinung sind, daß die Bundesregierung die Zusammenarbeit mit dem Geheimdienst eines antidemokratischen Terrorregimes sofort einstellen muß, wenn Verfassungsschutz nicht zur Farce werden oder sogar ins Gegenteil entarten soll, nämlich zum schleichenden Verfassungswandel?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u219" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg253">Herr Kollege, ich möchte noch einmal ausdrücklich darauf hinweisen, daß die Bundesregierung jederzeit bereit ist, Einzelheiten auf Wunsch im Parlamentarischen Vertrauensmännergremium vorzutragen. Darüber hinaus möchte ich Sie allerdings darauf hinweisen, daß wir angesichts der anhaltenden Bedrohung durch terroristische Gewaltakte, von denen vorwiegend diplomatische und konsularische Vertretungen und die dort tätigen Repräsentanten betroffen sind, auf eine Zusammenarbeit mit ausländischen Nachrichtendiensten nicht verzichten können. Ich erinnere in diesem Zusammenhang an einen Mordanschlag gegen den iranischen Kulturattaché am 2. November vorigen Jahres in Paris. Die Sicherheitsbehörden in der Bundesrepublik Deutschland sind gemäß Art. 22 und 29 des Wiener Übereinkommens über diplomatische Beziehungen gesetzlich verpflichtet, ausländische Missionen und diplomatisches Personal im Bundesgebiet zu schützen. Wechselseitige Kontakte sind erforderlich, um diesen Schutzpflichten zu genügen. Das gilt auch für die Auslandsvertretungen der Bundesrepublik Deutschland.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u220" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg254">Eine Zusatzfrage des Herrn Abgeordneten Schäfer.</seg>
+        </u>
+        <note type="speaker">Schäfer (Offenburg) (SPD):</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1977-02-09-08-013.u221" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg255">Herr Staatssekretär, gelten die von Ihnen soeben dargestellten allgemeinen Grundsätze gegenüber dem iranischen Geheimdienst Savak auch gegenüber den Geheimdiensten anderer Länder, d. h., wird beispielsweise der sowjetische Geheimdienst über Aktivitäten von Gegner des Sowjetregimes in der Bundesrepublik entsprechend informiert?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u222" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg256">Herr Kollege, Sie können davon ausgehen, daß es zwischen den Staaten grundsätzlich eine Informationspraxis gibt, welche die Warnung vor terroristischen Anschlägen auf diplomatische Vertretungen betrifft.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u223" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg257">Eine Zusatzfrage des Abgeordneten Daweke.</seg>
+        </u>
+        <note type="speaker">Daweke (CDU/CSU) :</note>
+        <u who="#Q1744975" xml:id="ParlaMint-DE_1977-02-09-08-013.u224" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg258">Herr Staatssekretär, können Sie bestätigen, daß die öffentliche Diskussion dieses Themas, wie sie durch die Frage des Abgeordneten Hansen entstanden ist, für die Behörden schädlich ist?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u225" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg259">Das kann ich nicht bestätigen, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u226" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg260">Eine letzte Zusatzfrage des Abgeordneten Coppik.</seg>
+        </u>
+        <note type="speaker">Coppik (SPD) :</note>
+        <u who="#Q1889288" xml:id="ParlaMint-DE_1977-02-09-08-013.u227" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg261">Herr Staatssekretär, können Sie uns erklären, warum die Bundesregierung auf meine Anfrage nach Maßnahmen gegen die Spitzeldienste des Savak in ihrer Antwort am 23. Juni des vergangenen Jahres den nunmehr offenkundig wahrheitswidrigen Eindruck erweckt hat, daß der Verfassungsschutz nicht etwa Informationen an den Savak liefere, sondern daß im Gegenteil Savak Gegenstand der Beobachtung und Observierung und Ermittlungen des Verfassungsschutzes ,sei?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u228" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg262">Herr Kollege Coppik, der Kollege Baum hat in der Fragestunde in der 252. Sitzung des Deutschen Bundestages vom 23. Juni 1976 darauf hingewiesen, daß die Bundesregierung sorgfältig beobachtet, ob sich ausländil sehe Nachrichtendienste in der Bundesrepublik Deutschland in strafbarer Weise gegen unsere Gesetze verhalten, und daß sie bereit ist, in jedem einzelnen, konkret nachgewiesenen Fall, für den zumindest Anhaltspunkte vorliegen, dagegen vorzugehen. Entsprechende Anhaltspunkte liegen der Bundesregierung bis heute nicht vor. Sollten konkrete Anhaltspunkte vorliegen, ist die Bundesregierung selbstverständlich bereit, auf die Einhaltung der Gesetze zu achten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u229" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg263">Ich rufe die Frage 26 des Herrn Abgeordneten Windelen auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg264">Ist aus der in den Richtlinien für die Prüfung der Staatsangehörigkeit und Namensführung der Aussiedler im Grenzdurchgangslager Friedland vom 29. Juli 1976 enthaltenen Formulierung, „zum Inland . . . haben bis zum Inkrafttreten des Warschauer Vertrags . am 3. Juni 1972. . die polnisch verwalteten Gebietsteile des Deutschen Reichs gehört . " zu schließen, daß die deutschen Gebiete jenseits von Oder und Neiße nach Auffassung der der Bundesregierung seit dem Inkrafttreten des Warschauer Vertrags als Ausland zu betrachten sind, und wie vereinbart sich dies gegebenenfalls mit den einschlägigen Entscheidungen des Bundesverfassungs- und Bundessozialgerichts?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u230" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg265">Die Aussage zum Begriff „Inland" in den von Ihnen zitierten Richtlinien beschränkt sich ausdrücklich auf die spezielle Bestimmung des § 25 Abs. i des Reichs- und Staatsangehörigkeitsgesetzes. Diese Vorschrift geht nach ihrem Sinngehalt davon aus, daß derjenige, der im Machtbereich einer fremden Rechtsordnung freiwillig deren Staatsangehörigkeit erwirbt, sich von seinem bisherigen Heimatrecht lösen will, und ordnet demzufolge den Verlust der deutschen Staatsangehörigkeit an. Da die Bundesregierung mit Inkrafttreten des Warschauer Vertrags unbeschadet der auf Deutschland als Ganzes bezogenen Vorbehalte die in den Oder-Neiße-Gebieten eingetretene tatsächliche und rechtliche Situation als gegeben hinnimmt, besteht insoweit kein Anlaß mehr, vom Fortbestand der deutschen Staatsangehörigkeit bei freiwilligem Erwerb der polnischen Staatsangehörigkeit auszugehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u231" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg266">Herr Abgeordneter, Sie haben eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Windelen (CDU/CSU) :</note>
+        <u who="#Q74262" xml:id="ParlaMint-DE_1977-02-09-08-013.u232" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg267">Herr Staatssekretär, teilt die Bundesregierung die Ansicht des Bundessozialgerichts, die Sach- und Rechtslage schließe es aus, Art. 1 des Warschauer Vertrags so zu verstehen, daß die deutschen Ostgebiete Ausland geworden seien? Liegt also Breslau nach Ansicht der Bundesregierung rechtlich gesehen im Inland oder im Ausland?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u233" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg268">Herr Kollege, die Bundesregierung befindet sich mit ihrer hier eben dargestellten Rechtsauffassung in Übereinstimmung mit der Entscheidung des Bundessozialgerichts, die Sie ansprechen. Sie müssen dabei berücksichtigen, daß jeweils in dem betreffenden Sachzusammenhang die Bedeutung des Wortes „Inland" zu definieren ist. Die Entscheidung des Bundessozialgerichts betrifft, wie Sie wissen, Fragen aus dem Bereich der Reichsversicherungsordnung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u234" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg269">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Windelen (CDU/CSU) :</note>
+        <u who="#Q74262" xml:id="ParlaMint-DE_1977-02-09-08-013.u235" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg270">Herr Staatssekretär, wenn ich Sie recht verstanden habe, sagen Sie, die deutschen Ostgebiete seien für die Bundesrepublik Deutschland Ausland, für das Deutsche Reich aber Inland. Wie verträgt sich diese Unterscheidung mit dem Urteil des Bundesverfassungsgerichts zum Grundvertrag, wonach die Bundesrepublik Deutschland nicht Rechtsnachfolger des Deutschen Reichs, sondern als Staat identisch mit dem Deutschen Reich ist?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u236" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg271">Herr Kollege, ich möchte auf Ihre Interpretation meiner Äußerung zunächst nicht eingehen, sondern nur auf die Frage, die Sie bezüglich des Beschlusses des Bundesverfassungsgerichts gestellt haben. Ich darf Sie darauf hinweisen, daß in dem Beschluß des Bundesverfassungsgerichts wörtlich folgende Formulierung enthalten ist, die ich mit Erlaubnis des Präsidenten zitieren möchte:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg272">Sofern sie nicht freiwillig die sowjetische Staatsbürgerschaft erworben haben, ist ihre deutsche Staatsangehörigkeit auch durch die Einbeziehung des nördlichen Ostpreußen in den Staatsverband der Sowjetunion nicht untergegangen. Daraus ergibt sich im Umkehrschluß, daß die dargelegte Rechtsauffassung der Bundesregierung mit der von Ihnen angesprochenen Entscheidung des Bundesverfassungsgerichts übereinstimmt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u237" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg273">Eine Zusatzfrage des Abgeordneten Wittmann.</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1977-02-09-08-013.u238" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg274">Herr Staatssekretär, ist Ihnen bekannt, daß das Reichs- und Staatsangehörigkeitsgesetz aus dem Jahr 1913, das ja hoffentlich auch nach Auffassung der Bundesregierung weiter geltendes Recht ist, den Begriff „Ausland" klar definiert und nicht von „Machtbereich" spricht, so daß die Gebiete jenseits von Oder und Neiße innerhalb der Grenzen von 1937 im Sinn des deutschen Staats- und Verwaltungsrechts nach wie vor Inland sind, also ein Staatsangehörigkeitsverlust gar nicht eintreten kann?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u239" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg275">Herr Kollege, die Frage ist bereits mit der Antwort auf die Frage 26 des Kollegen Windelen beantwortet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u240" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg276">Eine Zusatzfrage des Abgeordneten Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1977-02-09-08-013.u241" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg277">Herr Staatssekretär, bedeutet Ihre vorher gegebene Antwort eine Zustimmung zu der mir schriftlich gegebenen Antwort des Auswärtigen Amts, wonach die Feststellung des Bundessozialgerichts, die im Einklang mit den Feststellungen des Bundesverfassungsgerichts steht, die ostdeutschen Gebiete seien nicht Ausland und könnten dies nach Grundgesetz und Völkerrecht nicht sein, nicht im Widerspruch zum Wortlaut und Kontext des Warschauer Vertrags steht? Gehen Sie mit dieser Auffassung des Auswärtigen Amts einig?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u242" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg278">Herr Kollege Czaja, ich bin nicht in der Lage, jetzt den ganzen Text dessen, wovon Sie nur Auszüge vorlesen konnten, zu kennen. Deswegen kann ich zu dem, was Sie auszugsweise vorgelesen haben, nicht Stellung nehmen. Aber ich glaube, daß die von der Bundesregierung ingesamt vertretene Position deutlich geworden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u243" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg279">Eine Zusatzfrage des Abgeordneten Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1977-02-09-08-013.u244" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg280">Herr Staatssekretär, ist die Bundesregierung bereit, auf Grund der von Ihnen vorhin dargelegten Rechtsauffassung, die zumindest mißverständlichen und zu Mißbrauch Anlaß gebenden Richtlinien für die Prüfung der Staatsangehörigkeit, die für Aussiedler im Grenzdurchgangslager Friedland angewendet werden, so zu korrigieren, daß sie nicht mehr mißverstanden werden können?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u245" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg281">Herr Kollege, mir ist unverständlich, wie Sie auf der Grundlage meiner Antwort zu der Meinung kommen können, die Richtlinien seien mißverständlich. Ich habe klar ausgeführt, daß sich die Richtlinien eindeutig im Rahmen des § 25 des Reichs- und Staatsangehörigkeitsgesetzes halten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u246" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg282">Eine letzte Zusatzfrage, und zwar von dem Abgeordneten Dr. Hupka. Danach rufe ich die nächste Frage auf.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU) :</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1977-02-09-08-013.u247" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg283">Herr Staatssekretär, können Sie mir darin zustimmen, daß — entgegen dem von meinem Kollegen Windelen erwähnten Zitat - die deutsche Staatsangehörigkeit für die Deutschen jenseits von Oder und Neiße sich durch den Warschauer Vertrag in keiner Weise geändert hat?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u248" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg284">Ich glaube, Herr Kollege, auch diese Frage ist durch die vorherigen Antworten hinreichend beantwortet.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Hupka [CDU/CSU] : Ja oder nein? — Dr. Wittmann [München] [CDU/CSU] : Ja oder nein?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u249" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg285">Der Herr Abgeordnete Gerlach (Obernau)</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg286">hat um schriftliche Beantwortung der zwei von ihm eingereichten Fragen 27 und 28 gebeten. Die Antworten werden als Anlage abgedruckt. Der Abgeordnete Dr. Schwencke (Nienburg)</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg287">ist nicht im Saal. Die von ihm gestellten Fragen 29 und 30 werden daher schriftlich beantwortet. Die Antworten werden ebenfalls als Anlage abgedruckt. Die nächste Frage ist von dem Herrn Abgeordneten Walther eingebracht. Es ist die Frage 31:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg288">Sieht die Bundesregierung in dem derzeitigen Stand der Bekämpfung der Kriminalität durch die dafür zuständigen Kriminalpolizeibehörden der Länder einen Anlaß, sich für die Schaffung einer Bundeskriminalpolizei einzusetzen, um zu einer wirkungsvolleren Verbrechensbekämpfung zu kommen? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u250" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg289">Herr Kollege, die Bundesregierung sieht keinen Anlaß, sich dafür einzusetzen, die gesamte Kriminalpolizei in Bund und Ländern in eine gemeinsame Bundeskriminalpolizei zu überführen. Die Bundesregierung hat hierzu stets die Auffassung vertreten, daß ein derartiges Vorhaben mit der föderativen Struktur der Bundesrepublik Deutschland und der damit gegebenen Abgrenzung der Zuständigkeiten zwischen Bund und Ländern nicht vereinbar wäre. An dieser Auffassung hat sich nichts geändert. Die spektakulären Fälle von Gewaltkriminalität, die wir in letzter Zeit erlebt haben, sind für die Bundesregierung jedoch Veranlassung, die Strategie der Bekämpfung der schweren Gewaltkriminalität erneut zu überdenken. Dabei ist zu berücksichtigen, daß die enge Kooperationsform zwischen dem Bundeskriminalamt und den Polizeien der Länder bei der Bekämpfung des Terrorismus, auf die sich die Innenministerkonferenz im Frühjahr 1975 auf Anregung des Bundesministers des Innern geeinigt hat, zu eindeutigen Erfolgen geführt hat. Entsprechende Maßnahmen erscheinen deshalb auch auf dem Gebiet der nicht politisch motivierten schweren Gewaltkriminalität angebracht. Der Bundesminister des Innern wird daher auf der Innenministerkonferenz am 18. Februar 1977 entsprechende Vorschläge, die eine schnelle und wirksame Kooperation zwischen Bund und Ländern auch in diesem Bereich der Kriminalität sicherstellen sollen, in die Diskussion einbringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u251" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg290">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Walther (SPD) :</note>
+        <u who="#Q1486277" xml:id="ParlaMint-DE_1977-02-09-08-013.u252" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg291">Herr Staatssekretär, nachdem Sie dies jetzt so vorgetragen haben, darf ich Sie fragen, was Sie von der in der Zeitung „Bild am Sonntag" abgedruckten Äußerung des Vorsitzenden des Bundes der Kriminalbeamten halten, daß in der Bundesrepublik die Kriminalität nur noch verwaltet, aber nicht mehr bekämpft werde?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u253" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg292">Herr Kollege, ich kann diese Auffassung in dieser Form nicht teilen. Sie können aber der Antwort auf die von Ihnen gestellte Frage entnehmen, daß die Bundesregierung jederzeit bemüht ist, ihre Anstrengungen zu einer Verbesserung der Bekämpfung aller Formen der Kriminalität ständig zu verbessern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u254" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg293">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Walther (SPD) :</note>
+        <u who="#Q1486277" xml:id="ParlaMint-DE_1977-02-09-08-013.u255" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg294">Herr Staatssekretär, darf ich Sie fragen, was die von Herrn Minister Maihofer angekündigte Spezialtruppe beim Bundeskriminalamt für die Bekämpfung nicht politisch motivierter Gewaltverbrechen beinhalten soll?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u256" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg295">Herr Kollege, ich habe bereits angedeutet, aus welchen Gründen die Bundesregierung entsprechende Überlegungen für geboten hält. Ich darf Sie darauf hinweisen, daß diese Themen auch Gesprächsgegenstand der Innenministerkonferenz am 18. Februar 1977 in Berlin sein werden. Die Bundesregierung rechnet damit, daß auch aus anderen Ländern Vorschläge zur Verbesserung der Kriminalitätsbekämpfung in diese Diskussion eingebracht werden. Sie selbst wird Überlegungen in der Richtung einbringen, daß eine stärkere Unterstützung der Länderpolizei durch das Bundeskriminalamt vereinbart werden könnte, daß sofortige innerorganisatorische Maßnahmen beim Bundeskriminalamt dafür geeignete Voraussetzungen schaffen könnten und daß der Informationsverbund über gefährliche Intensivtäter mit Hilfe des Informationssystems „Inpol" verbesserungswürdig sein könnte. Das sind die Gesprächsthemen und -kreise, die der Bundesinnenminister in diese Diskussion einbringen wird. — Sie haben sicherlich Verständnis dafür, daß ich über das Ergebnis dieser Konferenz jetzt noch nichts sagen kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u257" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg296">Wir kommen nun zur Frage — Doch noch eine Zusatzfrage? Herr Kollege, ich wäre Ihnen dankbar, wenn Sie sich so rechtzeitig melden würden, daß — —</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Penner [SPD] : Ich habe mich die ganze Zeit gemeldet!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg297">— Sie hätten drücken müssen! Das haben Sie nicht gemacht.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Penner [SPD] : Nein, das habe ich nicht getan!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg298">— Sehen Sie, nicht immer recht haben müssen! — Bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Penner (SPD) :</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1977-02-09-08-013.u258" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg299">Herr Staatssekretär, ist die Zergliederung unseres Polizeiwesens nicht als Hindernis für internationale Verbrechensbekämpfung zu werten?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u259" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg300">Herr Kollege, diesem Gedanken ist ja bei der Verlagerung und Straffung von Zuständigkeiten beim Bundeskriminalamt hinsichtlich bestimmter, gerade international organisierter Bereiche der Kriminalität schon Rechnung getragen worden. Nun geht es darum, zu überprüfen, ob die Erfahrungen, die in diesem Bereich auf Grund einer verbesserten Kompetenzverteilung erreicht werden konnten, auch für andere Bereiche nutzbar gemacht werden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u260" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg301">Wir kommen nun, Herr Abgeordneter Paterna, zu Ihren Fragen 32 und 33:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg302">Ist dagegen Vorsorge getroffen, daß das Kampfmittel „chemische Keule" — dessen Wirkstoff CN nach Aussagen von Wissenschaftlern zu bleibenden Gesundheitsschäden führt, wenn nicht unmittelbar nach Einwirkung dem Verletzten medizinischer Beistand geleistet wird — nicht von Zivilpersonen erworben und eingesetzt wird, und wenn nein, wird die Bundesregierung eine Initiative ergreifen, um den Einsatz des Kampfmittels CN durch Zivilpersonen zu unterbinden? Gehört die „chemische Keule" zur Waffenausrüstung des Bundesgrenzschutzes als Polizei des Bundes, und durch welche Rechtsvorschriften wird gegebenenfalls der Einsatz von CN geregelt? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u261" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg303">Herr Kollege, es ist Vorsorge getroffen, daß die als „chemische Keule" bezeichneten Reizstoffsprühgeräte grundsätzlich nicht von Privatpersonen erworben und verwendet werden können. Diese Geräte unterliegen für den zivilen Bereich den Beschränkungen des Waffengesetzes und den dazu erlassenen Durchführungsvorschriften. Nach § 5 Abs. 1 Nr. 2 der 1. Verordnung zum Waffengesetz sind tragbare Geräte, die, ohne Schußwaffe zu sein, zum Angriff oder zur Verteidigung bestimmt sind und bei denen in einer Entfernung von mehr als zwei Metern bei Menschen eine angriffsunfähig machende Wirkung durch ein gezieltes Versprühen oder Ausstoßen von Reizstoffen hervorgerufen werden kann, den für Schußwaffen geltenden Vorschriften des Gesetzes unterworfen. Danach dürfen Geräte, deren Reichweite mehr als zwei Meter beträgt, nur gegen Vorlage einer behördlichen Erlaubnis, einer Waffenbesitzkarte, an Privatpersonen abgegeben werden. Die Waffenbesitzkarte wird nur unter den im Gesetz genannten Voraussetzungen erteilt. Unter diesen Umständen erscheinen weitere gesetzliche Beschränkungen für den privaten Erwerb und die private Verwendung von Reizstoffsprühgeräten, zu denen auch die „chemische Keule" gehört, nicht geboten. Ihre zweite Frage darf ich wie folgt beantworten: Die Einsatzabteilungen des Bundesgrenzschutzes wurden im Jahre 1975 in begrenztem Umfange mit dem Reizstoffsprühgerät RSG I ausgestattet, nachdem der für Fragen der einheitlichen polizeilichen Ausrüstung in Bund und Ländern zuständige Arbeitskreis II der Arbeitsgemeinschaft der Innenministerien der Länder der Einführung dieses Gerätes im Jahre 1974 zugestimmt hatte. Zuvor waren ärztliche Gutachten hinsichtlich der Unschädlichkeit eingeholt und praktische Erprobungen in den Ländern durchgeführt worden. Rechtsgrundlage für den Einsatz von Reizstoffsprühgeräten ist das Gesetz über den unmittelbaren Zwang vom 10. März 1961, in dem Reizstoffe als Einsatzmittel ausdrücklich zugelassen sind. Die sachgerechte Handhabung und Bedienung dieser Geräte ist in einem verbindlichen Merkblatt des Bundesministers des Innern vom 21. Januar 1975 geregelt, das die vom erwähnten Arbeitskreis II beschlossene Bedienungsanleitung enthält. Die Einführung dieses Reizstoffsprühgeräts beim Bund und bei den Ländern steht — wie bereits in der Fragestunde vom 3. Dezember 1975 zur Frage des Herrn Kollegen Pensky ausgeführt wurde — im Zusammenhang mit den Bemühungen, bei der Anwendung von Zwang durch staatliche Organe stets den rechtsstaatlichen Grundsatz zu beachten, daß nur das mildeste geeignete erforderliche verhältnismäßige Mittel einzusetzen ist. Bund und Länder sind bemüht, die Auswahl technischer Zwangsmittel mit abgestufter Wirkung zu vergrößern, damit die Vollzugsbeamten diesem Grundsatz im Einsatz entsprechen können. Die bereits seit Jahrzehnten zu den technischen Zwangsmitteln der Polizei gehörenden Reizstoffe können den Gebrauch anderer Zwangsmittel, wie etwa des Schlagstocks und der Schußwaffe, in vielen Fällen überflüssig machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u262" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg304">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Paterna (SPD) :</note>
+        <u who="#Q2077442" xml:id="ParlaMint-DE_1977-02-09-08-013.u263" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg305">Herr Staatssekretär, kann die Bundesregierung bestätigen, daß die Alliierten den Gebrauch der „chemischen Keule" in Berlin bislang ablehnen und, wenn ja, welche Gründe haben zu diesem Verbot geführt?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u264" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg306">Herr Kollege, mir sind entsprechende Pressemeldungen über die Verhältnisse in Berlin bekannt. Ich meine aber — das bitte ich im Augenblick nur als Meinungsäußerung aus meiner persönlichen Erinnerung über diese Pressemeldungen zu betrachten —, daß in diesen Pressemeldungen enthalten war, daß die „chemische Keule" jetzt in Berlin eingesetzt wird. Ich bin gerne bereit, Ihnen über die Frage des Einsatzes in Berlin noch nähere Auskünfte zu geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u265" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg307">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Paterna (SPD) :</note>
+        <u who="#Q2077442" xml:id="ParlaMint-DE_1977-02-09-08-013.u266" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg308">Beabsichtigt die Bundesregierung, in einem neuen bundeseinheitlichen Polizeigesetz den Einsatz der „chemischen Keule" generell zu verbieten oder aber den gleichen strengen Anforderungen bezüglich der Verhältnismäßigkeit der Mittel zu unterwerfen, wie sie für den Gebrauch von Schußwaffen gelten?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u267" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg309">Herr Kollege, es gibt im Augenblick keine Planungen im Bereich der Bundesregierung für ein bundeseinheitliches Polizeigesetz. Dementsprechend können sich diese Überlegungen im Augenblick auch nicht stellen. Ich weise darauf hin, daß die Innenministerkonferenz eine Regelung über den Einsatz der „chemischen Keule" im Rahmen des Musterentwurfs eines einheitlichen Polizeigesetzes, der im Augenblick im Rahmen der Innenministerkonferenz diskutiert wird, vorgeschlagen hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u268" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg310">Herr Kollege Hansen.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1977-02-09-08-013.u269" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg311">Herr Staatssekretär, könnten Sie auf Grund Ihrer Darlegungen zu der ersten Frage meines Kollegen die Besorgnis verstehen, daß Privatpersonen, die in Wach- und Schließgesellschaften beschäftigt sind und deshalb generell darüber verfügen dürften, weil sie eine Waffenbesitzkarte haben, vorzeitig und damit erweitert von der „chemischen Keule" Gebrauch machen könnten, weil diese Menschen meistens älter sind und deshalb in bestimmten Situationen dazu neigen, sich eher eines solchen Mittels zu bedienen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u270" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg312">Herr Kollege, ich kann diese Besorgnis verstehen, muß Sie allerdings darauf hinweisen, daß der Bundesregierung keine konkreten Anhaltspunkte dafür vorliegen, daß die geltenden Gesetze, insbesondere in diesem Fall das Waffengesetz, nicht einen ausreichenden Schutz gewährleisten. Sollte es solche konkreten Anhaltspunkte geben, ist die Bundesregierung selbstverständlich bereit, notwendige Maßnahmen zu prüfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u271" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg313">Eine letzte Zusatzfrage der Abgeordneten Frau Berger.</seg>
+        </u>
+        <note type="speaker">Frau Berger (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1715592" xml:id="ParlaMint-DE_1977-02-09-08-013.u272" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg314">Herr Parlamentarischer Staatssekretär, würden Sie über meine Anregung nachdenken lassen, für dieses Reizstoffsprühgerät einen weniger aufreizenden und vielleicht auch weniger irreführenden Namen als „chemische Keule" zu finden?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1977-02-09-08-013.u273" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg315">Frau Kollegin, ich bin sogar bereit, selbst darüber nachzudenken.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP und der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u274" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg316">Damit sind die Fragen aus dem Geschäftsbereich des Bundesinnenministers beantwortet. Herr Staatssekretär, ich danke Ihnen. Ich rufe den Geschäftsbereich des Bundesministers der Justiz auf. Zur Beantwortung der Fragen steht Herr Parlamentarischer Staatssekretär Dr. de With zur Verfügung. Ich rufe die Frage 34 des Abgeordneten Dr. Wittmann (München)</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg317">auf. — Herr Abgeordneter Wittmann ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 35 des Herrn Abgeordneten Weißkirchen (Wiesloch)</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg318">auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg319">Sieht die Bundesregierung in dem Umstand, daß in urheberrechtlichen Verwertungsgesellschaften auch Rediteanbieter (Nichturheber)</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg320">als gleichberechtigte Mitglieder oder Wahrnehmungsberechtigte vertreten sind, die keine Nutzungsrechte, Einwilligungsrechte oder Vergütungsansprüche auf die Verwertungsgesellschaft übertragen, aber dennoch über maßgeblichen Einfluß auf die Geschäftsführung und die Verteilungsschlüssel der Verwertungsgesellschaften verfügen und erhebliche Anteile an den Ausschüttungen erhalten, einen Anlaß, gesetzgeberische Maßnahmen mit dem Ziel ergreifen, die Rechte künstlerischer Urheber, über die vermögenswerten Ergebnisse ihrer schöpferischen Leistungen in eigener Verantwortung zu verfügen, zu schützen?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-02-09-08-013.u275" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg321">Die Bundesregierung ist der Auffassung, daß die Vorschriften des Gesetzes über die Wahrnehmung von Urheberrechten und verwandten Schutzrechten, das die Rechte und Pflichten der Verwertungsgesellschaften regelt, ausreichen, den berechtigten Belangen der Mitglieder oder der Wahrnehmungsberechtigten gegenüber den Verwertungsgesellschaften Rechnung zu tragen. Das Gesetz schreibt den Verwertungsgesellschaften zwar nicht eine bestimmte Rechtsform und interne Organisation vor. Dahin gehenden Anregungen ist der Gesetzgeber zu Recht nicht gefolgt, weil es den Urhebern unbenommen bleiben sollte, die ihren Bedürfnissen angemessene Rechtsform und Organisation frei zu wählen. Das Wahrnehmungsgesetz verpflichtet jedoch die Verwertungsgesellschaften, die zu ihrem Tätigkeitsbereich gehörenden Rechte und Ansprüche zu angemessenen Bedingungen wahrzunehmen. Es schreibt ferner vor, daß zur Wahrung der Belange der Berechtigten, die nicht als Mitglieder der Verwertungsgesellschaften aufgenommen werden, eine gemeinsame Vertretung zu bilden ist. Das Deutsche Patentamt hat als Aufsichtsbehörde darüber zu wachen, daß die Verwertungsgesellschaften den ihnen nach dem Gesetz obliegenden Verpflichtungen ordnungsgemäß nachkommen. Danach können in Fällen, in denen eine angemessene Wahrnehmung der Rechte und Ansprüche nicht gewährleistet ist, aufsichtsrechtliche Maßnahmen getroffen werden. Die Bundesregierung beabsichtigt daher nicht, eine Änderung des Gesetzes vorzuschlagen. Beim Deutschen Patentamt ist zur Zeit ein Verfahren gegen eine Verwertungsgesellschaft anhängig, in dem die von Ihnen, Herr Kollege, genannten Gesichtspunkte vorgetragen worden sind. Da die Entscheidung des Deutschen Patentamts der gerichtlichen Nachprüfung unterliegt, möchte ich, wie Sie verstehen werden, zu dem Fall selbst nicht Stellung nehmen, um den Gerichten nicht vorzugreifen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u276" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg322">Eine Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Weißkirchen (Wiesloch) (SPD) :</note>
+        <u who="#Q107636" xml:id="ParlaMint-DE_1977-02-09-08-013.u277" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg323">Herr Staatssekretär, ist es nach Auffassung der Bundesregierung zutreffend, daß Verwertungsgesellschaften grundsätzlich dazu dienen sollen, den Urhebern und Leistungsschutzberechtigten eine bessere Wahrnehmung ihrer Rechte gegenüber allen Werkurhebern zu ermöglichen?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-02-09-08-013.u278" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg324">Dies steht außer allem Zweifel.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u279" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg325">Der Herr Abgeordnete Conradi hat die von ihm eingereichte Frage 36 zurückgezogen. Wir kommen zu den Fragen des Herrn Abgeordneten Schlaga. Herr Abgeordneter Schlaga, im Hinblick auf den bevorstehenden Ablauf der Fragestunde schlage ich vor, daß der Herr Staatssekretär Ihre beiden Fragen gemeinsam beantwortet. Sie haben dann das Recht, vier Zusatzfragen zu stellen, und die Sicherheit, daß noch beide Fragen mündlich beantwortet werden. Somit rufe ich jetzt die Fragen 37 und 38 des Abgeordneten Schlaga auf:</seg>
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg326">Ist der Bundesregierung bekannt, daß bei den jüngsten Bundestagswahlen die Wahlbeteiligung wahlberechtigter Bürger in Justizvollzugsanstalten deutlich unter dem Bundesdurchschnitt der Wahlbeteiligung lag, weil für einen Teil der Gefangenen die erforderlichen Wahlunterlagen nicht beschafft werden konnten, da weder die Inhaftierten nodi die Anstaltsleitungen wußten, bei welcher Kommune der einzelne Gefangene polizeilich gemeldet ist, und wenn ja, welche Folgerungen zieht sie daraus? Ist die Bundesregierung gegebenenfalls bereit, dem Deutschen Bundestag Vorschläge zur Änderung der gesetzlichen Grundlagen für die Bundestagswahlen zu unterbreiten, die sicherstellen, daß alle wahlberechtigten Insassen von Justizvollzugsanstalten künftig an Wahlen teilnehmen können? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-02-09-08-013.u280" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg327">Der Bundesregierung liegen keine zentralen Zahlenangaben über die Beteiligung in den Justizvollzugsanstalten an der Bundestagswahl am 3. Oktober 1976 vor; das Statistische Bundesamt hat ihr derartige Zahlen jedenfalls bisher nicht zugeleitet. Das schließt aber nicht aus, daß örtliche Wahlbehörden eventuell entsprechende Erhebungen angestellt haben. Ich bin gern bereit, bei den Landesjustizverwaltungen anzufragen, ob dort derartige Zahlen bekannt sind, und Ihnen die Antworten zugänglich zu machen. Durch das Änderungsgesetz zum Bundeswahlgesetz vom 24. Juni 1975 — BGBl. I S. 1593 — sowie die Verordnung zur Änderung der Bundeswahlordnung vom 24. Juli 1975 — BGBl. I S. 2043 — sind gerade die die Eintragung in das Wählerverzeichnis regelnden Bestimmungen so gefaßt worden, daß die Wahrnehmung des aktiven Wahlrechts auch für die Strafgefangenen möglich wurde, die im Geltungsbereich des Bundeswahlgesetzes keine Wohnung mehr innehaben. Wie vor früheren Bundestagswahlen hat das Bundesjustizministerium nach Abstimmung mit dem Bundesinnenministerium mit Rundschreiben vom 6. April 1976 die Landesjustizverwaltungen schriftlich auf diese Rechtsänderungen aufmerksam gemacht und die Wege aufgewiesen, wie gewährleistet werden kann, daß auch die wahlberechtigten Insassen von Justizvollzugsanstalten ihr Wahlrecht ausüben können. Der Bundesminister der Justiz ließ sich dabei auch von den Wahiprüfungsentscheidungen des 7. Deutschen Bundestages vom 16. März 1973 — ich darf auf die Bundestagsdrucksachen 7/345 bis 348 hinweisen — leiten, in denen auf die Aufklärungspflicht der Anstaltsleitungen über die Möglichkeiten und Voraussetzungen der Teilnahme an der Bundestagswahl ausdrücklich hingewiesen worden ist. Eine Kopie dieses Rundschreibens stelle ich Ihnen gern zur Verfügung. Sie werden daraus ersehen, daß es nach dem bisher bekannten Sachstand weiterer gesetzgeberischer Maßnahmen nicht bedarf, da möglicherweise aufgetretene Schwierigkeiten eher im Tatsächlichen liegen. Der Bundesminister der Justiz wird Ihre Frage aber zum Anlaß nehmen, nicht nur nachträglich die Landesjustizverwaltungen noch einmal auf das entstandene Problem aufmerksam zu machen, sondern vor der nächsten Bundestagswahl auch verstärkt auf die Aufklärungs- und Mitwirkungspflichten der Anstaltsleitungen hinzuweisen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u281" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg328">Herr Abgeordneter, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schlaga (SPD) :</note>
+        <u who="#Q1422044" xml:id="ParlaMint-DE_1977-02-09-08-013.u282" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg329">Herr Staatssekretär, bedeutet die Regelung, von der Sie sprachen, oder ein Teil dieser Regelung, daß beispielsweise Häftlinge, die keinen Wohnsitz nachzuweisen haben, nach dreimonatiger Einsitzfrist automatisch in das Wählerverzeichnis des Ortes eingetragen werden, in dem die jeweilige Justizvollzugsanstalt liegt?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-02-09-08-013.u283" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg330">Nein, eine Automatik besteht nicht. Aber auf Grund des Rundschreibens, von dem ich sprach, ist darauf hingewiesen worden, daß die Leiter der Justizvollzugsanstalten dafür Sorge tragen sollten, daß die Eintragung in das Wählerverzeichnis bis zum 31. Tag vor der Wahl erfolgt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u284" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg331">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schlaga (SPD) :</note>
+        <u who="#Q1422044" xml:id="ParlaMint-DE_1977-02-09-08-013.u285" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg332">Herr Staatssekretär, es hat eine Reihe von Fällen gegeben — mit denen ich konfrontiert gewesen bin —, in denen selbst nach eingehenden Recherchen nicht eindeutig feststellbar war, ob ein Wohnsitz vorhanden war oder nicht. Ist es nicht in solchen Fällen zweckmäßiger und im Interesse des Wahlberechtigten erforderlich, daß man anstrebt, eine Eintragung im Wählerverzeichnis des Ortes vorzunehmen, in dem die Justizvollzugsanstalt liegt?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-02-09-08-013.u286" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg333">Im Zweifel sind die Behörden nach dem Sinn des Gesetzes gehalten, dafür Sorge zu tragen, daß eine Eintragung erfolgt, um dem Bürger zur Wahl zu verhelfen.</seg>
+        </u>
+        <note type="speaker">Schlaga (SPD) :</note>
+        <u who="#Q1422044" xml:id="ParlaMint-DE_1977-02-09-08-013.u287" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg334">Kann ich davon ausgehen, daß dieses „im Zweifel" so ausgelegt wird und eindeutig so zu interpretieren ist, daß der jeweilige Wahlberechtigte auch tatsächlich von seinem Wahlrecht Gebrauch machen kann?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-02-09-08-013.u288" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg335">Ja, natürlich. Im übrigen ist es selbstredend jedem, der in einer Justizvollzugsanstalt wählen will, unbenommen, von sich aus die erforderlichen Anträge zu stellen. Aber ich sagte eingangs: die Leiter der Justizvollzugsanstalten sind gehalten, dafür Sorge zu tragen, also gewissermaßen von Amts wegen, daß das Wählerverzeichnis in bezug auf diejenigen, die keinen festen Wohnsitz in dem Bereich haben, in dem die Justizvollzugsanstalt liegt, vollzählig ist, damit die Ausübung des Wahlrechts ermöglicht werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-02-09-08-013.u289" ana="#chair">
+          <seg id="ParlaMint-DE_1977-02-09-08-013.seg336">Meine Damen und Herren, wir stehen am Ende der Fragestunde. Ich danke Ihnen, Herr Staatssekretär. Ich berufe die nächste Sitzung des Deutschen Bundestages auf Donnerstag, den 10. Februar, 9 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.32 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

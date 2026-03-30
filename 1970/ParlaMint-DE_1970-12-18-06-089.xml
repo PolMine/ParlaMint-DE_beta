@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1970-12-18-06-089">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 6. Wahlperiode, 89. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 18.12.1970 (89. Sitzung der 6. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 6, Session 89 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1970-12-18 (Session 89 in Legislative Period 6)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="89">89. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.06" n="6">6. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="89">Session 89</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.06" n="6">Legislative Period 6</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 18.12.1970</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1970-12-18</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488220/b2b4d0d49600ef852d15e4052fabce1e/pp06-data.zip</idno>
+          <date when="1970-12-18">1970-12-18</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1970-12-18">1970-12-18</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="U1">
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg1">Die Sitzung ist eröffnet. Es liegt Ihnen eine Liste von Vorlagen vor, die keiner Beschlußfassung bedürfen und die nach § 76 Abs. 2 unserer Geschäftsordnung den zuständigen Ausschüssen überwiesen werden sollen. Vorlage des Bundesministers des Innern Betr.: Vorbereitung und Gesamtfinanzierung der Olympischen Spiele 1972 Bezug: Beschluß des Bundestages vom 4. Juni 1970 — Drucksache VI 1492 —zuständig: Sonderausschuß für Sport und Olympische Spiele (federführend)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg2">Haushaltsausschuß Vorlage der Deutschen Gruppe der Interparlamentarischen Union Betr.: Entschließung der IPU auf der Frühjahrstagung in Monaco — Drucksache VI/1430 —</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg3">zuständig: Auswärtiger Ausschuß (federführend)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg4">Ausschuß für wirtschaftliche Zusammenarbeit Erhebt sich gegen die beabsichtigten Überweisungen Widerspruch? — Ich stelle fest, daß das nicht der Fall ist. Der Herr Bundesminister der Finanzen hat unter Bezugnahme auf § 37 Abs. 4 der Bundeshaushaltsordnung .dem Bundestag folgende Vorlagen zugeleitet, die in der Ihnen vorliegenden Liste bezeichnet sind:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg5">Vorlage des Bundesministers der Finanzen Betr.: Einwilligung zu überplanmäßigen Ausgaben Im Halbjahr 1970 bei Kap. 1412 Tit. 82103 — Beschaffung von Liegenschaften für militärische Zwecke - - Drucksache VI/1559 —</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg6">Vorlage des Bundesministers der Finanzen Betr.: Katastrophenhilfe im Ausland;</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg7">hier: Überplanmäßige Ausgaben Im Haushaltsjahr 1970 bei Kap. 05 02 Tit. 686 12 aus Anlaß der Flutkatastrophe in Ost-Pakistan — Drucksache VI/1591 —</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg8">Vorlage des Bundesministers der Finanzen Betr.: Zustimmung zur Leistung einer überplanmäßigen Ausgabe bei Kap. 14 18 Tit. 553 01 (Erhaltung der Schiffe, Betriebswasserfahrzeuge, Boote, schwimmenden Geräte und sonstigen Marinegeräte) — Drucksache VI/1592 —</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg9">Die Vorlagen sollen dem Haushaltsausschuß überwiesen werden. — Das Haus ist damit einverstanden; es ist so beschlossen. Nach einer interfraktionellen Vereinbarung soll die heutige Tagesordnung ergänzt werden um die Beratung des Antrags der Fraktionen der CDU/CSU, SPD, FDP betr. Beirat für handelspolitische Vereinbarungen — Drucksache VI/ 1â34 —— Das Haus ist damit einverstanden; es ist so beschlossen. Die folgenden amtlichen Mitteilungen werden ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg10">Der Vermittlungsausschuß hat in seiner Sitzung am 17. Dezember 1970 das vom Deutschen Bundestag in seiner 78. Sitzung am 11. November 1970 beschlossene Gesetz über eine Zählung in der Land- und Forstwirtschaft (Landwirtschaftszählungsgesetz 1971)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg11">bestätigt. Sein Schreiben wird als Drucksache VI/1636 verteilt. Der Präsident des Bundestages hat entsprechend dem Beschluß des Bundestages vom 25, Juni 1959 die nachstehenden Vorlagen überwiesen:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg12">EWG-Vorlagen Verordnung des Rates mit den allgemeinen Regeln für die Bestimmung des bei der Berechnung des Rücknahmepreises für bestimmte Fischereierzeugnisse zugrunde zu legenden Hundertsatzes des Orientierungspreises — Drucksache VI/1599 —</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg13">überwiesen an den Ausschuß für Ernährung, Landwirtschaft und Forsten mit der Bitte um Vorlage des Berichts reckzeitig vor der endgültigen Beschlußfassung im Rat Verordnung des Rates über die teilweise Aussetzung des autonomen Zollsatzes des Gemeinsamen Zolltarifs für Makrelen, frisch, gekühlt oder gefroren, ganz, ohne Kopf oder zerteilt, für die Verarbeitungsindustrie (ex 03.01 B I a)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg14">2 cc))</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg15">über die vollständige Aussetzung der autonomen Zollsätze des Gemeinsamen Zolltarifs für bestimmte Fische — Drucksache VI/1600 —überwiesen an den Ausschuß für Wirtschaft mit der Bitte um Vorlage des Berichts rechtzeitig vor der endgültigen Beschlußfassung im Rat Richtlinie des Rates über die Einzelheiten der Übergangsmaßnahmen auf dem Gebiet der selbständigen Tätigkeiten der Richtlinie des Rates (aus Hauptgruppe 01 bis Hauptgruppe 90 CITI) — Drucksache VI/1601 —</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg16">überwiesen an den Ausschuß für Wirtschaft (federführend)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg17">, Ausschuß für Bildung und Wissenschaft mit der Bitte um Vorlage des Berichts rechtzeitig vor der endgültigen Beschlußfassung im Rat Verordnung des Rates über die teilweise Aussetzung des autonomen Zollsatzes des Gemeinsamen Zolltarifs für Makrelen, frisch, gekühlt, oder gefroren, ganz, ohne Kopf oder zerteilt, für die Konservenindustrie (Tarifstelle ex 03.01 B I m)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg18">2))</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg19">— Drucksache VI/1602 —</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg20">überwiesen an den Ausschuß für Wirtschaft mit der Bitte uni Vorlage des Berichts rechtzeitig vor der endgültigen Beschlußfassung im Rat Verordnung des Rates über die zeitweilige Aussetzung der autonomen Zollsätze des Gemeinsamen Zolltarifs für Pfeffer, weder gemahlen noch sonst zerkleinert, und für Pyrethrumauszüge — Drucksache VI/1603 —</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg21">überwiesen an den Ausschuß für Wirtschaft mit der Bitte um Vorlage des Berichts rechtzeitig vor der endgültigen Beschlußfassung im Rat Verordnung des Rates über die Erhöhung des Gemeinschaftszollkontingents für Rohmagnesium der Tarifstelle 77.01 A des Gemeinsamen Zolltarifs — Drucksache VI/1604 —</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg22">überwiesen an den Ausschuß für Wirtschaft mit der Bitte um Vorlage des Berichts rechtzeitig vor der endgültigen Beschlußfassung im Rat Verordnung des Rates zur Änderung der Verordnung Nr. 137/67/EWG über die Grundregeln für das sogenannte „System von Leit- und Folgeerzeugnissen", das die Festsetzung von Zusatzbeträgen auf dem Schweinefleischsektor ermöglicht — Drucksache VI/1605 —</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg23">überwiesen an den Ausschuß für Ernährung, Landwirtschaft und Forsten mit der Bitte um Vorlage des Berichts rechtzeitig vor der endgültigen Beschlußfassung im Rat Wir treten in Punkt 1 .der Tagesordnung ein: Fragestunde — Drucksache W1581 —</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg24">Ich rufe den Geschäftsbereich des Auswärtigen Amtes auf, zunächst die Frage 104 des Abgeordneten Riedel (Frankfurt)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg25">. — Der Abgeordnete ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 105 des Abgeordneten Borm auf. — Der Abgeordnete ist nicht im Saal. Die Frage wird schriftlich beantwortet. Dasselbe gilt für die Frage 106 des Abgeordneten Borm. Die Antworten werden als Anlageabgedruckt. Ich rufe die Frage 107 des Abgeordneten Engelsberger auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg26">Ist die Bundesregierung bereit, bei Lieferungen von Gütern von erheblichem strategischen Wert, wie z. B. einem LKW-Werk in den Ostblock, unsere Verbündeten zu konsultieren, um zu einer gemeinsamen Haltung zu kommen? Zur Beantwortung Herr Parlamentarischer Staatssekretär Moersch.</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg27">Herr Abgeordneter, die Bundesregierung steht mit ihren Verbündeten in einem ständigen Gedankenaustausch über alle wesentlichen Fragen des Ost-West-Verhältnisses. Da sich die Sowjetunion wegen Lieferungen und Leistungen für ihr Lkw-Projekt nicht nur an deutsche Firmen, sondern an eine Vielzahl von Unternehmen in Westeuropa, den USA und Japan gewandt hat, ist es selbstverständlich, daß sich der Gedankenaustausch auch auf die Mitwirkung westdeutscher Unternehmen bei der Realisierung dieses Projektes erstreckt hat. Im übrigen hat im Rahmen des Gedankenaustausches keiner unserer Verbündeten Bedenken gegen Lieferungen und Leistungen deutscher Firmen für das Projekt erhoben.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg28">Eine Zusatzfrage, der Abgeordnete Engelsberger.</seg>
+        </u>
+        <note type="speaker">Engelsberger (CDU/CSU) :</note>
+        <u who="#Q122647" xml:id="ParlaMint-DE_1970-12-18-06-089.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg29">Herr Staatssekretär, steht die Lieferung von strategischen Gütern wie von einem Lkw-Werk in die Sowjetunion nicht im Widerspruch zu unseren militärischen Interessen, und ist es nicht falsch, der Sowjetunion ihre technischen und wirtschaftlichen Schwierigkeiten überwinden zu helfen?</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg30">Verzeihung, diese Zusatzfrage trifft nicht den Kern. Der Kern heißt: Sind unsere Verbündeten konsultiert worden? Diese Frage ist beantwortet. Die Frage, die Sie stellen, ist eine neue Frage. Sie müssen sie erneut einreichen. Haben Sie noch eine weitere Zusatzfrage, die sich auf die Grundfrage bezieht? — Bitte schön, Herr Kollege Engelsberger!</seg>
+        </u>
+        <note type="speaker">Engelsberger (CDU/CSU) :</note>
+        <u who="#Q122647" xml:id="ParlaMint-DE_1970-12-18-06-089.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg31">Herr Staatssekretär, darf ich Ihre Antwort so verstehen, daß Sie im Hinblick auf das Lkw-Werk mit der amerikanischen Regierung Verbindung aufgenommen haben? Herr Staatssekretär Rosenthal hat mir in der letzten Fragestunde geantwortet, daß überhaupt kein Einspruch der amerikanischen Regierung gegen Lieferungen der Ford-Werke erfolgt sei.</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg32">Was Herr Staatssekretär Rosenthal Ihnen geantwortet hat, trifft zu.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg33">Ich rufe die Frage 108 des Abgeordneten Dr. Wagner (Trier)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg34">auf. — Der Abgeordnete ist nicht anwesend. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 109 des Abgeordneten Breidbach auf. — Der Fragesteller ist nicht anwesend. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 110 des Abgeordneten Wohlrabe auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg35">Welche geschichtliche Kenntnis hat es dem Bundesaußenminister möglich gemacht, in seiner Rede vor dem Außerordentlichen Parteitag der FDP (siehe Bulletin der Bundesregierung vom 21. Oktober 1970) folgende Feststellung zu treffen: „Das Moskauer Abkommen hat zum erstenmal nach 1949 annehmbare Zwischenregelungen für Berlin bis zur endgültigen Regelung der deutschen Frage zum ernsthaften Gesprächsgegenstand gemacht"? Zur Beantwortung bitte, Herr Parlamentarischer Staatssekretär Moersch!</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u9" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg36">Herr Abgeordneter, zur Beantwortung Ihrer Frage darf ich folgendes sagen. Zu dem, was Sie gefragt haben, bedarf es lediglich einer normalen politischen Allgemeinbildung, um festzustellen, daß in der Tat in den Jahren 1949 bis 1969 keine Verhandlungen der Vier Mächte über Zwischenregelungen für Berlin stattgefunden haben. Allgemein bekannt ist ferner, daß die am 26. März 1970 begonnenen Viermächtegespräche über Berlin erst nach der Unterzeichnung des Moskauer Vertrages in ein Verhandlungsstadium eingetreten sind und min zum erstenmal seit 1949 zu der Hoffnung annehmbarer Regelungen zwischen den Vier berechtigen.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u10" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg37">Eine Zusatzfrage, der Abgeordnete Wohlrabe.</seg>
+        </u>
+        <note type="speaker">Wohlrabe (CDU/CSU) :</note>
+        <u who="#Q1717846" xml:id="ParlaMint-DE_1970-12-18-06-089.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg38">Herr Staatssekretär, würden Sie meine Meinung teilen, daß annehmbare zwischenmenschliche Regelungen für Berlin mit Unterstützung der vier alliierten Mächte in Berlin, wenn auch nicht durch eine formelle Sitzung dieser, so doch z. B. durch das Passierscheinübereinkommen von 1963 zustande gekommen sind und daß somit die Erklärung, es handle sich hier um das erste Mal, daß derartige annehmbare Zwischenregelungen überhaupt zu erwarten seien, doch recht hoch gegriffen ist?</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg39">Herr Abgeordneter, Sie haben zwei Kleinigkeiten von großer Bedeutung übersehen. Einmal ist in der Rede des Bundesaußenministers von Viermächteverhandlungen und -regelungen die Rede gewesen, also nicht auf das Passierscheinabkommen angespielt worden. Zum zweiten haben Sie soeben von zwischenmenschlichen Regelungen gesprochen, und der Bundesaußenminister hat von Zwischenregelungen gesprochen. Es ist ganz deutlich, daß sich die Rede des Außenministers ganz wesentlich auf die Zugangsfragen, also die Sicherung der wirtschaftlichen Existenz und Lebensfähigkeit Berlins, bezogen hat. Insofern habe ich der Antwort, die ich gegeben habe, nichts hinzuzufügen.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg40">Eine weitere Zusatzfrage, Herr Wohlrabe.</seg>
+        </u>
+        <note type="speaker">Wohlrabe (CDU/CSU) :</note>
+        <u who="#Q1717846" xml:id="ParlaMint-DE_1970-12-18-06-089.u14" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg41">Annehmbare Zwischenregelungen für Berlin, wie Sie sie darstellen, implizieren aber im Grunde genommen auch all die Fragen der zwischenmenschlichen Regelungen, von denen wir eben gesprochen haben. Insofern würde ich die Differenzierung, die Sie hier treffen, als zu weitgehend ansehen. Ich bitte Sie deshalb, doch die Frage zu beantworten — und ich glaube, das ist der Kerngedanke dieses Satzes —, ob Sie der Auffassung sind, daß in der Zeit von 1949 bis 1969 oder bis 1970 an keiner einzigen Stelle, sei es nun durch innerdeutsche Verhandlungen oder durch Viermächteverhandlungen, seien sie bilateral oder global geführt worden, Fortschritte für Berlin und für die Menschen dort zustande gekommen sind.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u15" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg42">Verehrter Herr Kollege, kurz muß die Zusatzfrage sein. Diese war sehr langatmig. Ich darf Sie bitten, das in Zukunft zu berücksichtigen. Zur Beantwortung, bitte!</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg43">Herr Abgeordneter, es führt kein Weg daran vorbei, daß das, was der Bundesaußenminister gesagt hat, den historischen Tatsachen entspricht, daß es nämlich bis zur Unterzeichnung des Moskauer Vertrages keine ernsthaften Viermächteverhandlungen über eine Zwischenregelung über Berlin gegeben hat. Daß es Versuche innerhalb Berlins gegeben hat, vom Berliner Senat und von der Bundesregierueg gegenüber der DDR, ist uns selbstverständlich allen bekannt. Aber die Sicherung Westberlins, um die es uns geht, hat damit nichts unmittelbar zu tun gehabt. Außerdem ging es hier um Viermächtegespräche. Wenn die Rede von Viermächtegesprächen ist, können Sie selbstverständlich die Fragen stellen, warum die Rede nicht andere Passagen enthalten hat. Aber Ihre Frage hat sich auf Passagen der Rede bezogen, und ich habe mich in meiner Antwort ebenfalls auf die Passagen in der Rede bezogen. Insofern ist das ein völlig anderer Gegenstand, den Sie behandeln.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg44">Eine Zusatzfrage des Herrn Abgeordneten Dr. Schulze-Vorberg.</seg>
+        </u>
+        <note type="speaker">Dr. Schulze-Vorberg (CDU/CSU) :</note>
+        <u who="#Q1593650" xml:id="ParlaMint-DE_1970-12-18-06-089.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg45">Herr Staatssekretär, darf man der Rede des Herrn Außenministers und Ihrer Antwort entnehmen, daß die bisherigen Berlin-Regelungen seit 1948 von der Bundesregierung nicht als annehmbare Zwischenregelungen angesehen werden, und welchen Anschein welcher besseren Regelung haben Sie inzwischen gewonnen?</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg46">Das sind zwei Fragen in einer. Zur ersten: Wenn die Regelung seit 1948 annehmbar gewesen wäre, dann hätte es nicht zu Störungen im Interzonenverkehr kommen können, die Sie selbst erst kürzlich wieder beklagen konnten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei den Regierungsparteien.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg47">Zur zweiten Frage: Was den Anschein betrifft, so muß ich sagen, daß der Anschein so ist, daß sich jetzt noch kein endgültiges Urteil darüber abgeben läßt.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg48">Eine Zusatzfrage des Herrn Abgeordneten Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU):</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1970-12-18-06-089.u21" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg49">Meinen Sie nicht, Herr Staatssekretär, daß die Beendigung der Berliner Blockade ein Ergebnis ebenso ernster wie fester Verhandlungspositionen unserer Verbündeten war?</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg50">Herr Abgeordneter Dr. Czaja, darf ich Ihr Gedächtnis auf die Jahre 1948, 1949, 1951 und 1952 zurücklenken. Der Abschluß der Berliner Blockade war eine amerikanischsowjetrussische Vereinbarung, das sogenannte Jessup-Malik-Abkommen. Es war keine Viermächtevereinbarung, und es war insbesondere keine Vereinbarung, die etwa die Zugangsrechte für deutsche Staatsbürger so geregelt hätte, wie wir es uns wünschen mußten. Es war eine Vereinbarung zwischen Alliierten für Alliierte, die je nach Bedarf für Deutsche weniger gut oder besser funktioniert hat. Sie selbst sind, wenn ich das recht sehe, vor kurzem einmal Gegenstand solcher Erörterungen gewesen, nämlich was die Freiheit des Zugangs nach Berlin betrifft.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dr. Czaja: Also doch unserer Verbündeten!</desc>
+        </vocal>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg51">Wir kommen zur Frage 111 des Abgeordneten Dr. Klepsch. Der Fragesteller hat schriftliche Beantwortung erbeten. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 112 des Herrn Abgeordneten von Wrangel auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg52">Welche Bestimmungen des deutschsowjetischen Vertrages hatte der Bundesaußenminister im Auge, wenn er in seiner Parteitagsrede vom 17. Oktober 1970 (siehe Bulletin Nr. 142)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg53">behauptet: „Moskaus Verzicht auf seinen angeblichen oder tatsächlichen einseitigen Rechtsanspruch gegenüber der Bundesrepublik Deutschland ..."? Zur Beantwortung, Herr Parlamentarischer Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u24" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg54">Herr Abgeordneter, Sie haben die Rede des Bundesaußenministers falsch zitiert. Er hat in seiner Rede nicht von einseitigem Rechtsanspruch, sondern von einseitigem Interventionsanspruch gesprochen. Der eindeutige Sinn der Formulierungen der Präambel sowie des Art. 2 des Moskauer Vertrages und die dem Herrn Bundesaußenminister vom sowjetischen Außenminister noch zusätzlich gegebenen mündlichen Interpretationen rechtfertigen diese Feststellung des Bundesaußenministers in seiner Rede in vollem Maße. Im übrigen war der im Memorandum der sowjetischen Regierung vom 22. November 1967 erfolgte Hinweis auf die sogenannten FeindstaatenArtikel 53 und 107 der UNO-Charta mit keiner Formulierung verbunden, die die Interpretation von bestimmten Angehörigen der Opposition, es handele sich hier um einen einseitigen Interventionsanspruch der Sowjetunion, unbezweifelbar rechtfertigen würde.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u25" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg55">Eine Zusatzfrage des Herrn Abgeordneten von Wrangel.</seg>
+        </u>
+        <note type="speaker">Baron von Wrangel (CDU/CSU):</note>
+        <u who="#Q107181" xml:id="ParlaMint-DE_1970-12-18-06-089.u26" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg56">Herr Staatssekretär, darf ich Ihre Ausführungen so verstehen, daß Ihrer Meinung nach die Feindstaaten-Artikel 53 und 107 der Charta der Vereinten Nationen auf Grund des Moskauer Vertrages nun obsolet geworden sind?</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg57">Sie sind nicht mehr Gegenstand der unmittelbaren Politik, sondern der entscheidende Artikel ist, wie in Art. 2 des Moskauer Vertrags gesagt wird, der Art. 2 der UNO-Charta. Wir sind hier zweifellos mit anderen Mächten gleichgestellt. Die Feindstaaten-Artikel stehen weiterhin in der UNO-Charta drin, wie Sie wissen. Es gab frühere Versuche, auch von japanischer Seite, sie herauszubringen. Die Vier Mächte, die das in der UNO entscheiden müßten, haben sich darauf nicht verstehen können. Aber sie haben sich darauf verstanden, daß das nicht mehr Gegenstand ihrer Politik sei. Der entscheidende Punkt in der Frage, die Sie gestellt haben, ist doch ein anderer. Hier war nämlich der Eindruck in der Öffentlichkeit erweckt worden, als ob in der Note vom 22. November 1967 ein einseitiger Interventionsanspruch der Sowjetunion behauptet worden sei. Eine gründliche Lektüre des Textes wird Ihnen zeigen, daß hier auf die allgemeinen Möglichkeiten der Siegermächte des zweiten Weltkriegs hingewiesen worden war.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg58">Eine zweite Zusatzfrage, der Abgeordnete von Wrangel.</seg>
+        </u>
+        <note type="speaker">Baron von Wrangel (CDU/CSU) :</note>
+        <u who="#Q107181" xml:id="ParlaMint-DE_1970-12-18-06-089.u29" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg59">Würden Sie, Herr Staatssekretär, so weit gehen zu sagen, daß die Sowjetunion den beiden genannten Artikeln in der Charta der Vereinten Nationen jetzt dieselbe Bedeutung gibt, wie es unsere westlichen Alliierten getan haben?</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u30" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg60">Ich gehe so weit. Die Frage ist nur, wie Sie die Relativität von der anderen Seite aus sehen.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u31" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg61">Ich rufe die Frage 113 des Abgeordneten Dr. Becher (Pullach)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg62">auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg63">Wie beurteilt die Bundesregierung amerikanische Stimmen, die befürchten, sie helfe der Sowjetunion durch bestimmte Zusagen auf dem Gebiet wirtschaftlicher und wissenschaftlicher Kooperation jene Engpässe zu beseitigen, die einem weiteren Anwachsen des sowjetischen Militär-Potentials und der dadurch gegebenen Bedrohung der USA im Wege stehen?</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg64">Herr Abgeordneter, die Antwort auf die Frage 113 lautet wie folgt: Zusagen der Bundesregierung auf dem Gebiet wirtschaftlicher und wissenschaftlicher Kooperation, die sich dahin auswirken könnten, Engpässe bei einem weiteren Anwachsen des sowjetischen Militärpotentials zu beseitigen, existieren nicht. Unsere Osthandelspolitik ist allgemein auf eine Intensivierung des Handels und der Kooperation mit den osteuropäischen Staaten ausgerichtet. Die Regierung der USA hat hiergegen keine Bedenken erhoben.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg65">Eine Zusatzfrage, der Abgeordnete Dr. Becher.</seg>
+        </u>
+        <note type="speaker">Dr. Becher (Pullach) (CDU/CSU) :</note>
+        <u who="#Q110156" xml:id="ParlaMint-DE_1970-12-18-06-089.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg66">Herr Staatssekretär, sollte uns das Urteil eines so einflußreichen Mannes wie ,des Senators Gordon Allott nicht Anlaß zu besonderer Aufmerksamkeit geben, der schon vor der Reise unseres Wirtschaftsministers Professor Schiller nach Moskau, nämlich am 28. August, im US-Senat erklärt hat, westdeutsche Maschinenausrüstungen und langfristige Kredite würden es der Sowjetunion leichter machen, ihr Rüstungswettrennen mit den Vereinigten Staaten unbehindert von ihren gegenwärtigen wirtschaftlichen Schwierigkeiten fortzusetzen?</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg67">Herr Abgeordneter, die Äußerung dieses amerikanischen Senators beruhte, wie sich hinterher herausstellte, auf einer nicht ganz zutreffenden Information über die Sache selbst. Nach der Veröffentlichung dieser Äußerung — die übrigens, wie ich Ihnen einmal sagen darf, in den USA überhaupt keine Rolle gespielt hat, sondern nur hier — hat ein Gespräch unserer diplomatischen Vertretung mit diesem Senator stattgefunden, in dem er über die wirklichen Zusammenhänge unterrichtet worden ist. Der Senator hat, Parlamentarischer Staatssekretär Moersch soweit mir bekannt ist, diese Unterrichtung als befriedigend angesehen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg68">Eine zweite Zusatzfrage, der Abgeordnete Dr. Becher.</seg>
+        </u>
+        <note type="speaker">Dr. Becher (Pullach) (CDU/CSU) :</note>
+        <u who="#Q110156" xml:id="ParlaMint-DE_1970-12-18-06-089.u37" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg69">Glauben Sie nicht, Herr Staatssekretär, daß der Sachzwang der amerikanischen Interessenlage Männer wie etwa Wolff von Amerongen vor den Unterausschuß für Außenhandelspolitik des US-Senats berufen hat, der dann, zumindest sofern die Wiedergabe dieser Erklärung im „Spiegel" richtig ist, sagte, wenn man dort zuviel von Brandt und seiner Ostpolitik spreche, dächten die, wir redeten von Politik und wollten eigentlich das große Ostgeschäft machen?</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg70">Ich habe das nicht ganz verstanden. Es war wohl eine Glaubensfrage, wenn ich es recht sehe.</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Heiterkeit und Beifall bei den Regierungsparteien. — Lachen bei der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Dr. Becher (Pullach) (CDU/CSU) :</note>
+        <u who="#Q110156" xml:id="ParlaMint-DE_1970-12-18-06-089.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg71">Es war keine Glaubensfrage, sondern eine Frage zu einem Ereignis — —</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Ott: Das ist eine Unverschämtheit! — Abg. Dr. Hauser (Sasbach) : Eine sachliche Antwort! — Weitere erregte Zurufe von der CDU/CSU.</desc>
+        </vocal>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u40" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg72">Einen Augenblick, Herr Parlamentarischer Staatssekretär! Ich darf darum bitten, daß wir uns bei der Atmosphäre, die bei diesen Fragen in diesem Hause vorherrscht, bemühen</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Apel: Bei diesen Fragen herrscht eine sehr merkwürdige Atmosphäre vor! Diese Fragen sind gar nicht zulässig! — Weitere Zurufe</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg73">— jawohl, besonders bei diesen Fragen —, beiderseits bemühen, seitens der Regierungsvertreter und auch der Abgeordneten,</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Wehner: Hört! Hört! — weitere Zurufe</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg74">zu einer Fragestellung zurückzufinden, die uns in die Lage versetzt</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Wehner: Hört! Hört! — Abg. Dr. Apel: Diese Fragen sind überhaupt nicht zulässig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg75">— ich nehme das „Hört! Hört!" zur Kenntnis; ich mache Sie darauf aufmerksam, Herr Abgeordneter Wehner, daß ich Sie bei weiteren Zwischenrufen dieser Art zur Ordnung rufen werde —,</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Wehner: Hört! Hört!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg76">die uns in die Lage versetzt, eine vernünftige Fragestunde durchzuführen.</seg>
+          <kinesic type="applause">
+            <desc>Abg. Dr. Schäfer [Tübingen]: Hört! Hört! - Weitere Hört-Hört-Rufe bei der SPD. — Abg. Dr. Apel: Hört! Hört! kann man doch wohl sagen!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg77">Herr Parlamentarischer Staatssekretär, darf ich fragen: Haben Sie die Frage akustisch verstanden?</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg78">Ich habe die Frage akustisch nicht verstanden.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u42" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg79">Dann bitte ich, sie zu wiederholen, aber sie kurz zu fassen, Herr Dr. Becher.</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u43" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg80">Ich habe nur die Worte „Glauben Sie" verstanden; deswegen meine Replik. Entschuldigen Sie bitte! Es war nicht bös gemeint.</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der SPD. — Unruhe.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg81">Herr Präsident, ich habe von der Frage nur verstanden, ob ich glaube. Alles andere habe ich nicht verstanden. Deswegen habe ich diese Replik gegeben. Entschuldigen Sie, das war vielleicht nicht passend.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dr. Apel: Unerhört ist das! — Weitere Zurufe.</desc>
+        </vocal>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u44" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg82">Herr Kollege Dr. Becher, wiederholen Sie die Frage bitte kurz!</seg>
+        </u>
+        <note type="speaker">Dr. Becher (Pullach) (CDU/CSU) :</note>
+        <u who="#Q110156" xml:id="ParlaMint-DE_1970-12-18-06-089.u45" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg83">Herr Staatssekretär, wie beurteilen Sie die im „Spiegel" in dieser Woche wiedergegebene Äußerung von Herrn Wolff von Amerongen, der nach einer Aussage vor dem Unterausschuß für Außenhandelspolitik des amerikanischen Senats erklärte, „wenn man dort zu viel von Brandt und seiner Ostpolitik spreche, dächten die, wir redeten von Politik und wollten eigentlich das große Ostgeschäft"?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Abg. Dr. Apel: Na und? Kann man das nicht sagen? — Unruhe bei der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg84">Herr Abgeordneter, ich kann zu dieser Frage deshalb nicht Stellung nehmen, weil ich die Quelle nicht kenne. Aber es ist doch völlig unbestreitbar, daß es eine Menge Menschen in der Welt gibt — warum soll es sie in den USA nicht geben? —, die bei der Ostpolitik vorwiegend an die Vertiefung wirtschaftlicher Beziehungen denken und die es sicherlich nicht unbedingt freudig zur Kenntntis nehmen, wenn etwa einer amerikanischen Firma ein Geschäftsabschluß nicht gelang, während eine deutsche Firma dabei ist, einen Geschäftsabschluß zu tätigen. Das ist ganz natürlich auf der Welt. Das gibt es auch unter Verbündeten. Parlamentarischer Staatssekretär Moersch Das gibt es sogar innerhalb eines Landes, daß verschiedene Firmen verschiedener Meinung sind.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg85">Eine Zusatzfrage, Herr Abgeordneter Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU) :</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1970-12-18-06-089.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg86">Herr Staatssekretär, auf welche Tatsachen gründen Sie Ihre Auffassung, daß der Leiter des politischen Komitees der Republikaner im Senat, Gordon Allott seine Meinung, die er in einer Rede im Senat am 28. August dargelegt hat, geändert habe, nachdem er vor einigen Tagen in einer weiteren Rede in noch viel schärferer Form — insbesondere auch zur Berliner Frage — diese These wiederholt hat?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der SPD: Au! Au!</desc>
+        </vocal>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg87">Herr Abgeordneter, Sie machen eine Mitteilung, die mir nicht bekannt ist. Ich gründe meine Meinung, daß Herr Allott das, was er damals gesagt hat, nach einer gründlichen Unterrichtung — in der Tendenz jedenfalls — nicht mehr anerkannte, auf einen Bericht unserer Botschaft in Washington, die mit Herrn Allott, soweit mir bekannt ist, darüber nachher ein Gespräch geführt hat und ihm Unterlagen zugänglich gemacht hat, die uns zugänglich sind.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf des Abg. Dr. Czaja.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg88">— Lassen Sie mich noch hinzufügen: daß es — auch in der Interessenlage — verschiedene Beurteilungen gibt, ist in einer Demokratie wie den USA eigentlich ganz selbstverständlich und sollte niemand überraschen.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u50" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg89">Ich rufe die Frage 114 des Abgeordneten Dr. Becher (Pullach)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg90">auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg91">Handelt die Bundesregierung nicht im Zeichen eines bedenklichen Widerspruches, wenn sie einerseits für die ungeschmälerte europäische Präsenz amerikanischer Streitkräfte plädiert, andererseits aber der Sowjetunion durch Projekte von der Art der mit Mercedes-Hilfe geplanten LKW-Produktion eine Unterstützung gewährt, die sich früher oder später, direkt oder indirekt, militärisch gegen die amerikanischen Streitkräfte und das von ihnen getragene Westbündnis auswirken muß? Bitte zur Beantwortung, Herr Parlamentarischer Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg92">Die Sowjetunion steht mit Unternehmen in Westeuropa und Japan in Verhandlungen über Lieferungen und Leistungen für ein Lkw-Projekt, das seine Produktion frühestens 1975/76 aufnehmen wird. Der Regierung der USA sind diese Verhandlungen bekannt. Sie hätte gegen Lieferungen und Leistungen befreundeter Nationen Bedenken erhoben, wenn sie befürchten müßte, daß eine solche Beteiligung an der Verwirklichung des Lkw-Pojekts sich früher oder später militärisch gegen die amerikanischen Streitkräfte und das von ihnen getragene Westbündnis auswirken könnte.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg93">Eine Zusatzfrage, Herr Abgeordneter Dr. Becher.</seg>
+        </u>
+        <note type="speaker">Dr. Becher (Pullach) (CDU/CSU) :</note>
+        <u who="#Q110156" xml:id="ParlaMint-DE_1970-12-18-06-089.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg94">Herr Staatssekretär, ist sich die Bundesregierung nicht gleichwohl darüber im klaren, daß die Beihilfe zur Produktion sowjetischer Lkws für eine Macht von der riesigen Landweite der Sowjetunion ebenso bedeutsam ist wie die Beihilfe zur Produktion etwa sowjetischer Tanks oder Raketen, mit denen man uns oder die USA militärisch bekämpfen könnte?</seg>
+        </u>
+        <vocal type="question">
+          <desc>Abg. Dr. Apel: Diese Zusatzfragen!</desc>
+        </vocal>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg95">Herr Abgeordneter, die Bundesregierung teilt erstens Ihre Vergleiche nicht; sie hält sie in diesem Punkte für unzulässig. Zweitens ist die Bundesregierung nicht der Meinung — die aus Ihrer Frage durchklingt —, daß eine Embargopolitik der Friedenssicherung und den Interessen des deutschen Volkes und des westlichen Bündnisses nützen kann.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg96">Eine zweite Zusatzfrage, Herr Abgeordneter Dr. Becher.</seg>
+        </u>
+        <note type="speaker">Dr. Becher (Pullach) (CDU/CSU) :</note>
+        <u who="#Q110156" xml:id="ParlaMint-DE_1970-12-18-06-089.u56" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg97">Herr Staatssekretär, macht das in der gemeinsamen Erklärung der NATO-Verteidigungsminister festgestellte und allgemein bekannte eminente Anwachsen des strategischen und konventionellen Potentials der Sowjets nicht gleichwohl eine Überprüfung der technischen bzw. wissenschaftlichen Kooperationsvorhaben nötig, die im Moskauer Vertrag festgelegt wurden?</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg98">Nein, Herr Abgeordneter. Im Gegenteil, im NATO-Rat ist über alle diese Fragen ausführlich gesprochen worden. Ich verweise auf das Kommuniqué. Sämtliche NATO-Partner sind voll mit dem einverstanden, was wir mit Moskau hier abgeschlossen haben. Es entspricht auch dem Interesse unserer Verbündeten, daß wir durch eine Kooperation zum Abbau der Konfrontation kommen. Selbstverständlich können Sie durch eine Rückkehr zur Politik des Röhrenembargos eine Weltmacht wie die Sowjetunion nicht an ihrer wirtschaftlichen Entwicklung hindern; aber Sie können die Spannungen in der Welt verschärfen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u58" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg99">Eine Zusatzfrage, Herr Abgeordneter Schulte.</seg>
+        </u>
+        <note type="speaker">Schulte (Unna) (SPD) :</note>
+        <u who="#Q1432847" xml:id="ParlaMint-DE_1970-12-18-06-089.u59" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg100">Herr Parlamentarischer Staatssekretär, sind Sie mit mir der Auffassung, daß diese Frage des Abgeordneten Dr. Bechert Wertungen und Unterstellungen enthält?</seg>
+        </u>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg101">Herr Abgeordneter, ich enthalte mich hier einer Antwort auf diese parlamentarischer Staatssekretär Moersch Frage; ich glaube, das ergibt sich aus dem Text der Frage ganz von selbst.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien. - - Abg. Dr. Schäfer [Tübingen]:: Die damit nach den Richtlinien nicht zulässig ist!</desc>
+        </kinesic>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u61" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg102">Eine Zusatzfrage, Herr Abgeordneter Dr. Apel.</seg>
+        </u>
+        <note type="speaker">Dr. Apel (SPD) :</note>
+        <u who="#Q65561" xml:id="ParlaMint-DE_1970-12-18-06-089.u62" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg103">Herr Staatssekretär, ist Ihnen bekannt, daß der Parlamentspräsident zugesagt hatte, diese Frage nicht zuzulassen?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Wehner: Hört! Hört! — Weitere Zurufe von der SPD: Au! — Donnerwetter!</desc>
+        </vocal>
+        <note type="speaker">Moersch, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1970-12-18-06-089.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg104">Das ist mir nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u64" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg105">Herr Abgeordneter Dr. Apel, Sie können sich nachher schriftlich an mich wenden. Wenn Sie gegen die Führung des Präsidenten Bedenken haben, dann können Sie das bitte begründen.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Apel: Die Frage ist doch klar oder nicht? — Weitere Zurufe.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg106">Es ist, glaube ich, für den Präsidenten nicht möglich, aus einer umfangreichen Frage nun die ganzen Zusatzfragen — sosehr wir uns darum bemühen - herauszuschalten, die nicht dazugehören.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Apel: Diese Frage war nicht zugelassen! Das hatten Sie zugesagt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg107">— Ich hatte nichts zugesagt. Ich hatte zugesagt, daß wir die Frage Polens nicht miteinbeziehen. Soweit ich sehe, ist das hier nicht eine Frage Polens.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Wohlrabe [zur SPD] : Sie hatten doch mehr Demokratie wagen wollen! — Weitere Rufe und Gegenrufe von Abgeordneten der SPD, der FDP und der CDU/CSU.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg108">Herr Staatssekretär, ich bedanke mich für die Beantwortung der Fragen aus Ihrem Geschäftsbereich. Wir kommen zum Geschäftsbereich des Bundesministers des Innern. Ich rufe die Frage 4 des Herrn Abgeordneten Dr. Enders auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg109">Sind die Informationstagungen, die im Rahmen der politischen Öffentlidikeitsarbeit vom Presse- und Informationsamt der Bundesregierung finanziert werden, staatspolitische Bildungsveranstaltungen, für die den teilnehmenden Beamten Sonderurlaub gewährt wird? Zur Beantwortung, Herr Bundesminister Genscher.</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg110">Nach der Sonderurlaubsverordnung, Herr Kollege, kann Bundesbeamten für die Teilnahme an förderungswürdigen staatspolitischen Bildungsveranstaltungen bezahlter Sonderurlaub bewilligt werden, wenn dienstliche Gründe nicht entgegenstehen. Diese Regelung gilt für die Arbeitnehmer im öffenlichen Dienst des Bundes entsprechend. Wenn die Veranstaltung nicht von einer staatlichen Stelle durchgeführt wird, entscheidet die Bundeszentrale für politische Bildung auf Antrag des Trägers der Veranstaltung nach Prüfung der Veranstaltungsprogramme über die Förderungswürdigkeit. Für die Entscheidung ist maßgebend, ob eine Veranstaltung ihrem Inhalt nach der staatspolitischen Bildung der Teilnehmer dient. Soweit mir bekannt ist, hat die Bundeszentrale für politische Bildung bisher Informationstagungen, die im Rahmen der politischen Öffentlichkeitsarbeit vom Presse- und Informationsamt der Bundesregierung finanziert werden, stets als förderungswürdige staatspolitische Bildungsveranstaltung anerkannt.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg111">Keine Zusatzfragen. Die Frage 5 des Abgeordneten Picard ist nach Ziffer I 2 Abs. 2 der Richtlinien für die Fragestunde unzulässig. Die Fragen 6 und 7 des Abgeordneten Peters (Norden)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg112">sind vom Fragesteller zurückgezogen.</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg113">Ich rufe die Frage 8 des Abgeordneten Dr. Haack auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg114">Ist der Bundesregierung bekannt, daß nach einem Beschluß des Bundesverwaltungsgerichts vom 23. Januar 1970 die Zeit des freiwilligen Arbeitsdienstes bei der Statusdienstzeit nach § 53 des G 131 nicht mehr zu berücksichtigen ist und die zuständigen Verwaltungsbehörden deshalb Versorgungsbezüge an Personen, die nur unter Anrechnung des freiwilligen Arbeitsdienstes die Statusdienstzeit von 10 Jahren erreichen, nicht mehr zahlen, und glaubt die Bundesregierung, daß die Einstellung der Zahlung der Versorgungsbezüge mit dem Vertrauensschutz des Bürgers in behördliche Bescheide vereinbar ist? Der Fragesteller ist anwesend. Bitte, Herr Bundesminister, zur Beantwortung.</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg115">Der Beschluß des Bundesverwaltungsgerichts vom 23. Januar 1970 verweist auf das Urteil des Bundesverwaltungsgerichts vom 23. November 1960. Dieses Urteil stellt klar, daß die Durchführungsbestimmung Nr. 2 zu § 54 des Wehrmachtfürsorge- und -versorgungsgesetzes, die den freiwilligen nationalsozialistischen Arbeitsdienst dem Dienst im Reichsarbeitsdienst gleichstellt, als spezifisch nationalsozialistische Vorzugsregelung im Rahmen des Art. 131 des Grundgesetzes nicht anwendbar ist. Die Verwaltungsvorschriften zu § 53 sehen eine Anrechnung des freiwilligen Arbeitsdienstes auf die zehnjährige Dienstzeit für die Versorgungsberechtigung, nämlich Statuszeit der Berufsoffiziere, nicht vor. Der Bundesminister des Innern hat sich jedoch durch ein Rundschreiben vom 15. Juli 1966 mit der Anrechnung des berufsmäßigen freiwilligen Arbeitsdienstes auf die Statusdienstzeit insoweit einverstanden erklärt, als dieser nach § 29 in Verbindung mit § 181 des Bundesbeamtengesetzes ruhegehaltsfähig ist. Zu dieser gegenüber der Regelung nach dem Wehrmachtfürsorge- und versorgungsgesetz eingeschränkten Anrechnung des freiwilligen Arbeitsdienstes nimmt der Beschluß vom 23. Januar 1970 nicht abschließend Stellung, weil der von dem Kläger abgeleistete freiwillige Arbeitsdienst die Voraussetzung des § 181 des Bundesbeamtengesetzes nicht erfüllt. Das genannte Rundschreiben gilt auch heute noch. Bis jetzt sind mir keine Fälle bekanntgeworden, in denen nicht mehr danach verfahren wird. Sollten solche Fälle tatsächlich vorliegen, ist das Bundesministerium des Innern bereit, sich bei dem zuständigen Bundesland für die Aufrechterhaltung der bisherigen Praxis einzusetzen. Bei dieser Sachlage erübrigt sich für das Haus eine Stellungnahme zur Frage des Vertrauensschutzes des Bürgers in behördliche Bescheide, weil gegebenenfalls für die Beantwortung dieser Frage zunächst die oberste Landesbehörde nach § 60 Abs. 1 Satz 2 des Gesetzes zu Art. 131 GG zuständig wäre.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg116">Eine Zusatzfrage des Abgeordneten Dr. Haack.</seg>
+        </u>
+        <note type="speaker">Dr. Haack (SPD) :</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1970-12-18-06-089.u69" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg117">Herr Minister, darf ich aus Ihrer Antwort schließen, daß ich Ihnen einen speziellen Fall, den ich im Auge habe und der Grund für diese Frage war, zuleiten darf?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u70" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg118">Ich bitte darum, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u71" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg119">Ich rufe die Frage 9 des Abgeordneten Weigl auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg120">Welche Folgerungen haben die Innenminister und Innensenatoren der Länder aus der Feststellung der Bundesregierung in der Fragestunde vom 23. September 1970 gezogen, wonach einer Einführung der paritätischen Mitbestimmung in kommunalen Eigengesellschaften rechtliche Hindernisse entgegenstehen? Der Fragesteller ist anwesend. Bitte, Herr Bundesminister zur Beantwortung.</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u72" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg121">Der Bundesregierung ist nicht bekannt, welche Folgerungen die Innenminister und Innensenatoren der Länder aus der Feststellung gezogen haben, daß einer Einführung der paritätischen Mitbestimmung in kommunalen Eigengesellschaften gesetzliche Hindernisse entgegenstehen. Praktische Konsequenzen auf Grund dieser rechtlichen Beurteilung gehören in den Bereich des kommunalen Verfassungsrechts und damit in die ausschließliche Zuständigkeit der Länder.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u73" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg122">Eine Zusatzfrage des Abgeordneten Weigl.</seg>
+        </u>
+        <note type="speaker">Weigl (CDU/CSU) :</note>
+        <u who="#Q1449394" xml:id="ParlaMint-DE_1970-12-18-06-089.u74" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg123">Herr Bundesminister, gibt es zwischen Ihnen und den Innenministern der Länder, z. B. zwischen Ihnen und dem Innenminister des Landes Hessen, unterschiedliche Auffassungen über die Rechtslage, nachdem die paritätische Mitbestimmung in kommunalen Eigenbetrieben der Städte Wiesbaden und Frankfurt trotz der hier im Parlament gegebenen Auskunft noch nicht aufgehoben wurde?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg124">Herr Kollege, der Innenminister des Landes Hessen ist erst so kurze Zeit im Amt, daß ich mir im Augenblick kein Urteil über seine Auffassung als Mitglied der hessischen Landesregierung bilden kann. Ich möchte aus persönlicher Kenntnis vermuten, daß er meine Meinung teilt.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg125">Keine weitere Zusatzfrage. Ich rufe die Frage 10 des Abgeordneten Weigl auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg126">Trifft es zu, daß die im Namens- und Vorlesungsverzeichnis der Freien Universität Berlin für das Wintersemester 1970/71 angekündigten Vorlesungen über „marxistisch-leninistische Industriesoziologie" gegen die verfassungsmäßige Ordnung des Grundgesetzes gerichtet sind? Bitte, Herr Bundesminister!</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg127">Aus der Themenstellung der Vorlesung als solcher, Herr Kollege, läßt sich der in Ihrer Frage angedeutete Schluß nicht ziehen. Die in Art. 5 Abs. 3 GG garantierte Freiheit von Forschung und Lehre besteht gerade darin, daß wissenschaftliche Gegenstände von ganz verschiedenen geistigen, philosophischen oder auch ideologischen Ausgangspunkten her untersucht und dargestellt werden können. Die Verpflichtung zur Verfassungstreue, an die auch Forschung und Lehre gebunden sind, würde allerdings dann verletzt werden, wenn ein als akademische Vorlesung angekündigtes Unternehmen sich nicht der wissenschaftlichen Durchleuchtung und Untersuchung ihres Gegenstandes, sondern der Propaganda zur Durchsetzung einer bestimmten Ideologie mit gewaltsamen Mitteln widmen würde. Einem solchen Mißbrauch der akademischen Lehrfreiheit entgegenzutreten, wäre Sache der mit der Rechtsaufsicht über die Universität betrauten Landesbehörde. Aus dem Vorlesungsthema ist, wie ich bereits gesagt habe, eine solche verfassungswidrige Absicht und Planung indessen nicht abzuleiten.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u78" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg128">Keine Zusatzfrage. Ich rufe Frage 11 des Abgeordneten Dr. Jobst auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg129">Ist der Bundesregierung die hohe Zahl der Anträge bekannt, die in diesem Jahr an die „Heimkehrer-Stiftung" auf Gewährung eines Darlehens gestellt worden sind? Der Abgeordnete ist anwesend. Zur Beantwortung der Herr Minister!</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u79" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg130">Der Bundesregierung ist die hohe Zahl der Anträge bekannt. Bis Freitag, den 11. Dezember 1970, lagen der Heimkehrer-Stiftung 1557 Darlehensanträge vor, die auf vorschriftsmäßigem Vordruck gestellt wurden. Bis zum gleichen Zeitpunkt sind noch schätzungsweise 3500 formlos gestellte Anträge eingegangen.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u80" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg131">Keine Zusatzfrage. Ich rufe die Frage 12 des Abgeordneten Dr. Jobst auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg132">Wird die Bundesregierung dafür Sorge tragen, daß nicht ungebührlich viele Darlehensgesuche abgelehnt werden müssen?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg133">Mir sind keine Umstände bekannt, die den Schluß zulassen würden, daß die Stiftung ungebührlich viele Darlehensgesuche ablehnt. Der Bundesminister des Innern wird aber im Rahmen seines Aufsichtsrechts dahin gehend wirken, daß nach Maßgabe der hierfür zur Verfügung stehenden Mittel und im Rahmen der vom Stiftungsrat aufgestellten Richtlinien möglichst viele berechtigte Darlehensgesuche positiv entschieden werden können.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg134">Eine Zusatzfrage des Abgeordneten Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU):</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1970-12-18-06-089.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg135">Herr Bundesminister, halten Sie es nicht für angebracht, daß die Bundesregierung darauf hinwirkt, daß der Stiftungsfonds entsprechend erhöht wird?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg136">Ichglaube, daß wir zunächst einmal den zur Verfügung stehenden Stiftungsfonds ausschöpfen und prüfen sollten, welche Fälle dann noch unerledigt bleiben und nicht befriedigt werden können.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg137">Eine Zusatzfrage, Herr Abgeordneter Josten.</seg>
+        </u>
+        <note type="speaker">Josten (CDU/CSU) :</note>
+        <u who="#Q1695791" xml:id="ParlaMint-DE_1970-12-18-06-089.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg138">Herr Minister, nachdem Sie vorhin erwähnten, daß schon 1557 Anträge förmlich gestellt sind und zusätzlich zirka 3500 formlose Anträge vorliegen, darf ich Sie in Ergänzung der Frage des Abgeordneten Dr. Jobst fragen: Wären Sie denn bereit, zu prüfen, ob auf Grund dieser wachsenden Zahl von Anträgen an die Heimkehrer-Stiftung weitere finanzielle Mittel zur Verfügung gestellt werden können, um wenigstens alle Anträge, denen Härtefälle zugrunde liegen, positiv bescheiden zu können?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg139">Herr Kollege, die Zahl der Anträge gibt noch keine Auskunft darüber, wie viele dieser Anträge berechtigt sind.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg140">Keine weiteren Zusatzfragen. Die Fragen 13 und 14 des Abgeordneten Schröder (Wilhelminenhof)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg141">werden vom Fragesteller zurückgezogen.</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg142">- Frage 15 des Abgeordneten Dr. Jahn (Braunschweig)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg143">ist vom Bundesminister der Finanzen beantwortet. Ich rufe Frage 16 des Abgeordneten von Fircks auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg144">Kann die Bundesregierung bestätigen, daß entgegen bekanntgewordenen Behauptungen die Deutsche Jugend des Ostens (DJO)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg145">weder an Aktionen der „Aktion Widerstand" noch an vorbereitenden Maßnahmen oder Veranstaltungen dieser Gruppe beteiligt gewesen ist? Zur Beantwortung Herr Bundesminister!</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg146">Herr Kollege, die Bundesregierung hat nach nochmaliger Uberprüfung keine Anhaltspunkte dafür, daß die Deutsche Jugend des Ostens an der Vorbereitung der Maßnahmen und Veranstaltungen der „Aktion Widerstand" beteiligt ist. Die Bundesregierung hat allerdings mit Genugtuung davon Kenntnis genommen, daß sich die Deutsche Jugend des Ostens von sich aus von der jüngst im Raum Bonn abgehaltenen Veranstaltung der „Aktion Widerstand" vorher ausdrücklich distanziert hat.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg147">Eine Zusatzfrage des Abgeordneten von Fircks.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1970-12-18-06-089.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg148">Herr Bundesminister, würden Sie mir bestätigen, daß die Deutsche Jugend des Ostens Ihrem Hause bereits im Sommer dieses Jahres mitgeteilt hat, daß sie mit der „Aktion Widerstand" und ähnlichen extremen Gruppen keine Verbindung hat und keine Verbindung haben wird?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg149">Herr Kollege, ich kann das im Augenblick nicht bestätigen. Ich will es aber gern nachprüfen und will diese Bestätigung nachholen, wenn sich diese Ihre Vermutung als richtig erweist.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u93" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg150">Eine zweite Zusatzfrage, Herr Abgeordneter von Fircks.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1970-12-18-06-089.u94" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg151">Herr Bundesminister, wären Sie bereit, die Jugendorganisationen, die Mitglied des Bundesjugendringes sind, über das Ergebnis ihrer Ermittlungen zu unterrichten, da die falschen Informationen, die in die Öffentlichkeit gedrungen sind, beim Ausschlußantrag gegen die DJO eine nicht unerhebliche Rolle gespielt haben?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg152">Ich glaube, daß die Beantwortung Ihrer Frage, Herr Kollege, eine besonders sichtbare Form einer solchen Unterrichtung ist. Aber wenn es gewünscht wird, will ich das zusätzlich gerne tun.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg153">Eine Zusatzfrage, Herr Abgeordneter Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD) :</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1970-12-18-06-089.u97" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg154">Herr Minister, könnten Sie die Deutsche Jugend des Ostens unter Umständen auch von dem Verdacht befreien, daß es von ihr aus Verbindungen zu einer „Gesamtdeutschen Aktion" gegeben hat, die wiederum Vorläufer der „Aktion Widerstand" gewesen ist?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u98" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg155">Herr Kollege, ich muß Ihnen offen sagen, daß ich bei der Vorbereitung auf diese Fragestunde noch einmal auf eine solche Fülle von Organisationen dieser Art gestoßen bin, daß ich jetzt nicht in der Lage bin, das Verhältnis der Deutschen Jugend des Ostens zu jeder einzelnen dieser Organisationen, die zum Teil weniger als zehn Mitglieder haben, zu beurteilen. Ich will das gern schriftlich nachreichen, möchte mich aber hier nicht dem Verdacht leichtfertiger Auskunftserteilung aussetzen.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u99" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg156">Eine Zusatzfrage, Herr Abgeordneter Hansen.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1970-12-18-06-089.u100" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg157">Herr Minister, würden Sie meine Auffassung teilen, daß jemand, der aktiv bei „Umsiedlungen" im Warthegau dabei war und der dafür von Himmler zum Ehrenobersturmführer der SS ernannt worden sein soll, wohl kaum der rechte Anwalt für die Deutsche Jugend des Ostens ist und daß man im Gegenteil die Deutsche Jugend des Ostens vor ihm in Schutz nehmen müßte?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der CDU/CSU: Unterstellungen! — Weitere Zurufe.</desc>
+        </vocal>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u101" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg158">Herr Kollege, ich kann im Moment nicht beurteilen, wen Sie mit Ihrer abstrakten Frage im Auge hatten.</seg>
+        </u>
+        <vocal type="question">
+          <desc>Zurufe von der SPD: Den Fragesteller! — Weitere Zurufe.</desc>
+        </vocal>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u102" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg159">Ich rufe Frage 17 des Abgeordneten Engholm auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg160">Wie beurteilt die Bundesregierung den wachsenden Einfluß von Großverlegern auf dem schleswig-holsteinischen Zeitungsmarkt, nachdem der Bauer-Verlag die Itzehoer „Rundschau GmbH + Co. KG." übernommen, der Springer-Verlag die „Ahrensburger Zeitung" gekauft, eine 20%ige Beteiligung an der „Bergedorfer Zeitung" und nun auch eine 20%ige Beteiligung an den „Lübecker Nachrichten" erworben hat? Ist der Fragesteller im Saal? — Er ist anwesend. Zur Beantwortung der Herr Bundesminister!</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg161">Herr Kollege, die Bundesregierung hat bereits am 5. November 1970 auf eine diesbezügliche Frage des Kollegen Dr. Beermann durch den Parlamentarischen Staatssekretär im Bundeswirtschaftsministerium schriftlich geantwortet, daß sie die Konzentrationsvorgänge in Schleswig-Holstein bedauert. Sie hat zugleich darauf hingewiesen, daß diese Vorgänge teilweise Ausfluß des wirtschaftlichen und technischen Strukturwandels im Pressewesen sind und sich wahrscheinlich auch in Zukunft nicht völlig vermeiden lassen werden. Die Bundesregierung würde es, wie Kollege Rosenthal in seiner Antwort vom 5. November 1970 dargetan hat, begrüßen, wenn die beteiligten Kreise noch stärker als bisher sich bietende Formen der Selbsthilfe nutzten. Ich habe gerade diese Überlegung im Juni dieses Jahres persönlich mit den Repräsentanten kleinerer und mittlerer Tageszeitungen und Presseverlage besprochen und weitgehende Zustimmung dafür gefunden. Der Bundesregierung stehen zur Zeit keine direkten Eingriffsmöglichkeiten zur Verfügung. Wenn ich darf, würde ich gerne Ihre nächste Frage in diesem Zusammenhang mit beantworten.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u104" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg162">Dann rufe ich auch noch die Frage 18 des Abgeordneten Engholm auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg163">Wird die Bundesregierung die gegen den, Willen der überwiegenden Mehrheit der Leser, Redakteure und nahezu aller schleswig-holsteinischen Zeitungsverleger erfolgende Konzentration zum Anlaß nehmen, in verstärktem Maß Überlegungen zur Sicherung der Unabhängigkeit der Redaktionen, aber auch vorbeugender Fusionskontrollen anzustellen?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg164">Zu Ihrer zweiten Frage darf ich auf die mehrfach erklärte Absicht der Bundesregierung verweisen, zum erstenmal in der Entwicklung des Presserechts im Entwurf für ein Presserechtsrahmengesetz auch das Verhältnis Verleger/Redakteur gesetzlich zu regeln. Die Bundesregierung betrachtet eine derartige Regelung als einen Beitrag zur Festigung der inneren Pressefreiheit und gegen die Folgen der Pressekonzentration. Die verfassungsrechtlichen Voraussetzungen und Möglichkeiten einer gseetzlichen Regelung für die Fusionskontrolle werden zur Zeit im Bundeswirtschaftsministerium und in meinem Hause geprüft.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u106" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg165">Eine Zusatzfrage der Abgeordnete Engholm.</seg>
+        </u>
+        <note type="speaker">Engholm (SPD) :</note>
+        <u who="#Q62279" xml:id="ParlaMint-DE_1970-12-18-06-089.u107" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg166">Ist Ihnen bekannt, Herr Bundesminister, daß nach hartnäckigen Gerüchten aus sehr wohl informierten Pressekreisen Schleswig-Holsteins weitere Aufkäufe und Beteiligungen in einem erheblichen Ausmaß bevorstehen sollen, so etwa bei den „Kieler Nachrichten", dem „Flensburger Tageblatt", dem „Kurier" in Neumünster, der „Burger Zeitung" und der „Marner Zeitung"?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u108" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg167">Herr Kollege, ich kann die Existenz derartiger Gerüchte, nicht aber die Richtigkeit der diesen Gerüchten zugrunde liegenden Vermutungen bestätigen.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u109" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg168">Eine zweite Zusatzfrage der Abgeordnete Engholm.</seg>
+        </u>
+        <note type="speaker">Engholm (SPD) :</note>
+        <u who="#Q62279" xml:id="ParlaMint-DE_1970-12-18-06-089.u110" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg169">Darf ich mir dennoch erlauben, Ihr Augenmerk darauf zu richten, Herr Bundesminister, daß von einer Vielfalt der Presse in Schleswig-Holstein, wenn diese Gerüchte Wahrheit werden sollten, keine Rede sein kann?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u111" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg170">Ich hatte schon vorher auf diese Frage mein Augenmerk gerichtet; aber Ihre Frage hat meinen Blick dafür geschärft.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u112" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg171">Eine Zusatzfrage der Abgeordnete Dr. Schulze-Vorberg.</seg>
+        </u>
+        <note type="speaker">Dr. Schulze-Vorberg (CDU/CSU) :</note>
+        <u who="#Q1593650" xml:id="ParlaMint-DE_1970-12-18-06-089.u113" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg172">Herr Bundesminister, im Anschluß an die Frage des Kollegen Engholm mit der befürchteten weiteren Konzentration darf ich fragen, ob die Bundesregierung von sich aus alle Maßnahmen unterlassen wird, die einen weiteren Konzentrationsprozeß fördern müßten. Ich denke z. B. an die drastische Verteuerung des Postzeitungsdienstes, die kürzlich angekündigt wurde.</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u114" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg173">Herr Kollege, ich vermute, daß Sie, falls Sie die Sorge haben, daß diese Planungen der Post zu einer Verstärkung des Konzentrationsprozesses führen könnten, für diesen Fall anderweitige Deckungsvorschläge im Haushalt machen werden, wodurch es sich für die Post erübrigt, derartige Gebührenerhöhungen vorzunehmen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien. -Abg. Dr. Schulze-Vorberg: Das war eine Frage an die Bundesregierung!</desc>
+        </kinesic>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg174">Eine Zusatzfrage der Abgeordnete Anbuhl.</seg>
+        </u>
+        <note type="speaker">Anbuhl (SPD) :</note>
+        <u who="#Q1716959" xml:id="ParlaMint-DE_1970-12-18-06-089.u116" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg175">Herr Bundesminister, wie beurteilen Sie die in einem Schreiben an die Bundesregierung vertretene Meinung der Herausgeber und Verleger der „Lübecker Nachrichten", daß die Forderung nach Mitbestimmung die Pressefreiheit bedrohe?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg176">Herr Kollege, ich müßte dieses Schreiben inhaltlich genau prüfen, denn Sie wissen, daß sich unter dem Begriff „Mitbestimmung" so vielfältige Formen und Forderungen der Mitwirkung verbergen, daß ein differenziertes Urteil angebracht ist, wenn nicht verallgemeinernde Antworten gegeben werden sollen.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg177">Ich rufe die Frage 19 des Abgeordneten Zebisch auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg178">Wieviel Bundesmittel stellt die Bundesregierung nach dem Haushaltsplan 1971 wie nach der mittelfristigen Finanzplanung bis 1974 für die Spitzenfinanzierung im Sportstättenbau den Zonenrandgebieten zur Verfügung, und welcher Anteil fällt dabei auf das bayerische Zonenrand- und Grenzgebiet? Der Abgeordnete ist im Saal. Zur Beantwortung der Herr Bundesminister.</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u119" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg179">Im Entwurf des Haushaltsplans für das Haushaltsjahr 1971 sind im Kapitel 06 02 für die Spitzenfinanzierung des Baus von Sportstätten in Zonenrandgebieten einschließlich West-Berlins 9 Millionen DM vorgesehen. Nach der mittelfristigen Finanzplanung bis 1974 soll ein gleichbleibender Betrag von jährlich 9 Millionen DM bereitgestellt werden. Auf den Freistaat Bayern entfallen 1971 voraussichtlich zirka 2,4 Millionen DM.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u120" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg180">Eine Zusatzfrage der Abgeordnete Zebisch.</seg>
+        </u>
+        <note type="speaker">Zebisch (SPD) :</note>
+        <u who="#Q1251027" xml:id="ParlaMint-DE_1970-12-18-06-089.u121" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg181">Herr Minister, teilen Sie die Meinung bayerischer Zeitungen, daß angeblich bei der Spitzenfinanzierung dieser Sportstätten das Land Bayern gegenüber den anderen Ländern benachteiligt wird?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u122" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg182">Herr Kollege, ich teile diese Meinung ausdrücklich nicht, denn die Bundesregierung wird es gar nicht wagen, Bayern zu benachteiligen.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg183">Eine zweite Zusatzfrage der Abgeordnete Zebisch.</seg>
+        </u>
+        <note type="speaker">Zebisch (SPD) :</note>
+        <u who="#Q1251027" xml:id="ParlaMint-DE_1970-12-18-06-089.u124" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg184">Herr Minister, darf ich Sie bitten, daß ich, wenn möglich, aus Ihrem Haus eine Zusammenstellung bekomme, zunächst einmal für das Jahr 1971 und dann auch später für die mittelfristige Finanzplanung bis zum Jahre 1974?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg185">Ich werde dieser Ihrer Anregung schon deshalb sehr gern nachkommen, Herr Kollege, weil das möglicherweise auch denjenigen, die derartige, wie ich meine, falsche Behauptungen aufgestellt haben, Gelegenheit geben wird, ihr Urteil zu korrigieren und zu objektivieren.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u126" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg186">Eine Zusatzfrage der Abgeordnete Aigner.</seg>
+        </u>
+        <note type="speaker">Dr. Aigner (CDU/CSU) :</note>
+        <u who="#Q90026" xml:id="ParlaMint-DE_1970-12-18-06-089.u127" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg187">Herr Bundesminister, sind Sie dann auch bereit, die Prozentzahlen im Rahmen des Gesamthaushalts für die verschiedenen Jahre und die Quoten der einzelnen Länder anzugeben?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u128" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg188">Herr Kollege, ich bin zu jeder Differenzierung, die die Urteilsbildung erleichtert, bereit.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u129" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg189">Ich rufe die Frage 20 des Abgeordneten Dr. Riedl (München)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg190">auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg191">Trifft es zu, daß der Bund im Zonenrandgebiet nur solche Sportanlagen fördert, bei denen eine Mindestgrenze des Bundeszuschusses von 50 000 DM in der Regel nicht unterschritten wird? Bitte, Herr Bundesminister!</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg192">Mein Haus hat die zuständigen Ressorts der Bundesländer gebeten, zur Bezuschussung nach dem Goldenen Plan einschließlich der zusätzlich für die Zonenrandgebiete und West-Berlin bereitgestellten Mittel möglichst größere Projekte anzumelden. Maßgebend hierfür war die Überlegung, daß eine weitgehende Konzentration und größtmögliche Effektivität des Mitteleinsatzes erreicht werden sollte. In zweiter Linie spielen noch Gründe der Verwaltungsvereinfachung eine Rolle. Die genannte Mindesthöhe des Zuschußbetrages von 50 000 DM stellt keine absolute Begrenzung dar. Die Bundesländer wurden vielmehr darauf hingewiesen, daß gegebenenfalls auch unterhalb dieses Betrages liegende Zuschußobjekte vorgeschlagen werden können. Darf ich die zweite Frage gleich mit beantworten?</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg193">Bitte sehr. Dann rufe ich auch Frage 21 auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg194">Reichen die von der Bundesregierung zur Verfügung gestellten Mittel aus, um alle Zuschußanträge für den Sportstättenbau im Zonenrandgebiet zu bedienen, oder besteht ein Abstand zwischen den Antragssummen und der Mittelzuweisung? Bitte, Herr Minister!</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u132" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg195">Den einzelnen Bundesländern wird zu Beginn eines jeden Jahres die auf sie jeweils entfallende Zuschußsumme des Goldenen Planes und der zusätzlichen Zonenrandförderungsmittel mitgeteilt. Nur in diesem abgesteckten Rahmen schlagen die Länder die zu fördernden Maßnahmen vor. Dadurch tritt eine Differenz zwischen den gestellten Zuschußanträgen und den zur Förderung zur Verfügung stehenden Bundesmitteln in meinem Hause weitgehend nicht ein. Mir ist allerdings bekannt, daß bei den Bundesländern in erheblich größerem Umfang Anträge auf Förderung von Sportstättenbauvorhaben im Zonenrandgebiet vorliegen, als Mittel zur Verfügung stehen.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u133" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg196">Eine Zusatzfrage der Abgeordnete Riedl (München).</seg>
+        </u>
+        <note type="speaker">Dr. Riedl (München) (CDU/CSU) :</note>
+        <u who="#Q1353062" xml:id="ParlaMint-DE_1970-12-18-06-089.u134" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg197">Herr Bundesminister, nachdem Sie vorhin eine für Bayern so erfreuliche Mitteilung gemacht haben, darf ich Sie fragen — und jetzt möchte ich mal ausnahmsweise als bayerischer Abgeordneter meinen Blick über die bayerischen Staatsgrenzen hinaus richten —,</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg198">ob Sie mir die Zahlen nennen können, die für das ganze Bundesgebiet zutreffen und repräsentativ sind, auf gut Deutsch gesagt: wie hoch ist die Gesamtsumme der Differenz zwischen Antragssumme und zur Verfügung stehendem Betrag?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u135" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg199">Herr Kollege, würden Sie mir im Interesse einer weiteren Aussöhnung des Freistaates Bayern mit dem Bund erlauben, daß ich auch diese Frage in der angekündigten schriftlichen Darstellung mit beantworte; ich kann das im Augenblick nicht.</seg>
+        </u>
+        <note type="speaker">Dr. Riedl (München) (CDU/CSU) :</note>
+        <u who="#Q1353062" xml:id="ParlaMint-DE_1970-12-18-06-089.u136" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg200">Ich bin gerne einverstanden.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg201">Eine Zusatzfrage der Abgeordnete Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1970-12-18-06-089.u138" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg202">Herr Bundesminister, würden Sie mir nicht zustimmen, daß gerade im Zonenrandgebiet auf Grund seiner besonderen Strukturierung und der dünneren Besiedlung kleinere Sportanlagen notwendig sind und deshalb gefördert werden sollten?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg203">Herr Kollege, darüber kann überhaupt kein Zweifel bestehen. Daß die Bundesregierung dieser Meinung ist, ergibt sich schon daraus, daß nicht eine starre Grenze festgelegt worden ist. Ich bitte auf der anderen Seite zu berücksichtigen, daß sich die Bundesregierung bei ihrer Förderung auf gewisse Schwerpunkte beschränken muß. Den Förderungsmöglichkeiten auf Landesebene sind natürlich keine Grenzen gesetzt.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg204">Eine Zusatzfrage der Abgeordnete Dr. SchuLze-Vorberg.</seg>
+        </u>
+        <note type="speaker">Dr. Schulze-Vorberg (CDU/CSU):</note>
+        <u who="#Q1593650" xml:id="ParlaMint-DE_1970-12-18-06-089.u141" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg205">Herr Bundesminister, hätten Sie Verständnis für kleinere Sportvereine, die durch große Eigenleistungen bei ihren Neuanlagen den Förderungsbetrag möglichst gering halten wollen, und stimmen Sie mir darin zu, daß die Bestimmung mit den 50 000 DM, die doch eine Art Richtzahl darstellt, psychologisch verhängnisvoll ist, weil sie die Vereine geradezu zwingt, möglichst hohe Angebotssummen hereinzugeben?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg206">Herr Kollege, es geht nicht um die Frage, ob gefördert wird, sondern darum, wer in diesen konkreten Fällen fördert. Es geht auch darum, eine Zersplitterung der Förderungsmaßnahmen zu vermeiden. Ich bin aber gern bereit, diesen von Ihnen eben erwähnten Gesichtspunkt noch einmal in die Prüfungen der Bundesregierung einzubeziehen. Da ich meinen Weihnachtsurlaub im Zonenrandgebiet verbringen werde, kann ich dort eine unmittelbare Untersuchung einleiten.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg207">Eine Zusatzfrage der Abgeordnete Dr. Riedl.</seg>
+        </u>
+        <note type="speaker">Dr. Riedl (München) (CDU/CSU) :</note>
+        <u who="#Q1353062" xml:id="ParlaMint-DE_1970-12-18-06-089.u144" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg208">Herr Bundesminister, halten Sie es angesichts der Vielfalt der hier vorgetragenen Fragen nicht doch für zweckmäßig, wenn in den Berichten der Bundesregierung zur Sportförderung die entsprechenden Angaben über die Förderung des Sports im Zonenrandgebiet, die bislang — ich darf mir diese leise Kritik erlauben — verhältnismäßig kurz ausgefallen sind, ausführlicher gemacht werden, damit wir unter Umständen solche Anfragen hier im Plenum vermeiden können?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg209">Herr Kollege, ich bin bereit, die entsprechende Berichterstattung der Bundesregierung in der von Ihnen gewünschten Weise zu ergänzen. Sie sehen daraus, daß die Bundesregierung auf die Vorschläge der Opposition auch dann eingeht, wenn sie zu einem bestimmten Vorhaben die Zweidrittelmehrheit nicht braucht.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit und Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg210">Eine Zusatzfrage der Abgeordnete Mischnick.</seg>
+        </u>
+        <note type="speaker">Mischnick (FDP) :</note>
+        <u who="#Q90837" xml:id="ParlaMint-DE_1970-12-18-06-089.u147" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg211">Trifft es nicht zu. daß die Bundesregierung überhaupt erstmalig einen umfassenden Sportbericht vorgelegt hat und es deshalb notwendig ist, Erfahrungen damit zu sammeln, in welcher Form die Berichte in Zukunft gegeben werden sollen?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u148" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg212">Herr Kollege, Sie haben in einer begrüßenswerten Weise auch in dieser Beziehung einen Vorzug der Bundesregierung dargestellt.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit und Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u149" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg213">Eine Zusatzfrage der Abgeordnete Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1970-12-18-06-089.u150" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg214">Herr Bundesminister, darf ich Sie bitten, bei Ihrer Aufstellung auch die Zahl der Anträge mit aufzuführen, die nicht berücksichtigt werden konnten?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u151" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg215">Auch das werde ich tun, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u152" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg216">Keine weitere Zusatzfrage. Die Fragen 22 und 23 sind nicht zugelassen. Ich rufe die Frage 24 des Abgeordneten Wagner (Günzburg)</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg217">auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg218">Welche Konsequenzen wird die Bundesregierung aus der Entscheidung des Bundesverwaltungsgerichts vom 10. Dezember 1970 ziehen, wonach Beamte einen Anspruch auf Bezahlung von Überstunden haben, wenn der ihnen nach dem Bundesbeamtengesetz dafür zustehende Ausgleich durch Dienstbefreiung aus übergeordneten öffentlichen Interessen nicht in angemessener Frist gewährt werden kann? Zur Beantwortung der Herr Bundesminister!</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u153" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg219">Herr Kollege, die Bundesregierung sieht sich durch die Entscheidung des Bundesverwaltungsgerichts in ihrer seit längerem vertretenen Auffassung bestätigt, daß in verfassungskonformer Weiterentwicklung der hergebrachten Grundsätze des Berufsbeamtentums nach Art. 33 Abs. 5 GG unter bestimmten Voraussetzungen auch Beamte eine finanzielle Entschädigung für eine durch Dienstbefreiung nicht auszugleichende Mehrarbeit erhalten können. Sie hat die hierzu erforderliche Änderung der beamtenrechtlichen Vorschriften vorbereitet und wird, sobald die noch bestehenden Meinungsverschiedenheiten ausgeräumt sind, eine entsprechende Gesetzesvorlage einbringen.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u154" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg220">Eine Zusatzfrage der Abgeordnete Wagner (Günzburg).</seg>
+        </u>
+        <note type="speaker">Wagner (Günzburg) (CDU/CSU) :</note>
+        <u who="#Q1818771" xml:id="ParlaMint-DE_1970-12-18-06-089.u155" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg221">Herr Bundesminister, können Sie schon darüber etwas aussagen, bis zu welchem Zeitpunkt das Haus mit der Vorlage dieser Änderung rechnen kann?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u156" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg222">Das wird in den ersten Monaten des kommenden Jahres sein.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u157" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg223">Eine Zusatzfrage, der Abgeordnete Brück (Köln).</seg>
+        </u>
+        <note type="speaker">BrüCk (Köln) (CDU/CSU) :</note>
+        <u who="#Q2508254" xml:id="ParlaMint-DE_1970-12-18-06-089.u158" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg224">Herr Minister, darf ich da Sie die Gesetzesvorlage angekündigt haben, die Frage an Sie richten, ob Sie bereit sind, diese Regelung möglichst konform mit den Ländern abzustimmen, damit, wenn eine Über-Zeit-Bezahlung erfolgt, sie gleichmäßig in Bund, Ländern und Kommunen erfolgt?</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u159" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg225">Herr Kollege, wir sprechen über diese Frage auf der Innenministerkonferenz.</seg>
+        </u>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u160" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg226">Zu einer Zusatzfrage Herr Abgeordneter Pensky.</seg>
+        </u>
+        <note type="speaker">Pensky (SPD) :</note>
+        <u who="#Q1600734" xml:id="ParlaMint-DE_1970-12-18-06-089.u161" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg227">Herr Bundesminister, würden Sie mir bestätigen, daß die Bundesregierung hierzu schon konkrete Aussagen gemacht hat, die dem Hause durch Drucksache VI/1334 bekannt sind? Darin hat nämlich die Bundesregierung schon vor Erlaß dieses Urteils eine solche Initiative angekündigt und auch die Notwendigkeit unterstrichen, daß eine möglichst einheitliche Regelung mit den Ländern getroffen wird, und daß solche Verhandlungen bereits eingeleitet sind.</seg>
+        </u>
+        <note type="speaker">Genscher, Bundesminister des Innern:</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1970-12-18-06-089.u162" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg228">Herr Kollege, die Bundesregierung hat in bezug auf das besonders drängende Problem der Überstundenregelung der Polizei — aber das gilt nicht nur dort — frühzeitig, nämlich in ihrem Sofortprogramm, zu dieser Frage Stellung genommen. Sie hatte Prüfungen schon früher eingeleitet. Sie ist seit Monaten in Gesprächen mit den Ländern über diese Frage. Deshalb war ich auch in der Lage, Herrn Kollegen Wagner auf seine Frage zu erwidern, daß wir uns in einer schon vorhandenen Auffassung durch das Urteil bestätigt sehen und daß wir in den ersten Monaten des Jahres 1971 die entsprechende Vorlage den gesetzgebenden Körperschaften zuleiten können.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="U2" ana="#DE-consultation #DE-motion">
+        <head>Beratung des Antrags der Fraktionen der CDU/CSU, SPD, FDP betr. Beirat für handelspolitische Vereinbarungen — Drucksache VI/ 1634 —</head>
+        <note type="speaker">Präsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1970-12-18-06-089.u163" ana="#chair">
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg229">Die Fragen 25 und 103 des Abgeordneten Dr. Miltner werden auf Wunsch des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Wir sind damit am Ende der Fragestunde angelangt. Wir haben heute zu Beginn beschlossen, einen Zusatzpunkt auf die Tagesordnung zu setzen. Ich schlage vor, daß wir ihn jetzt abhandeln, zumal die Sitzung wegen der Fragestunde an sich bis 10 Uhr dauern kann. — Keine Bedenken. Damit rufe ich den Zusatzpunkt auf:</seg>
+          <seg id="ParlaMint-DE_1970-12-18-06-089.seg230">Beratung des Antrags der Fraktionen der CDU/CSU, SPD, FDP betr. Beirat für handelspolitische Vereinbarungen — Drucksache VI/ 1634 —. Der Antrag der drei Fraktionen lautet: Der Bundestag wolle beschließen: 1. Es wird ein Beirat für handelspolitische Vereinbarungen eingesetzt. 2. Der Beirat besteht aus elf Mitgliedern, die der Ausschuß für Wirtschaft aus seiner Mitte bestimmt. 3. Arbeitsgrundlage des Beirats ist die Absprache des Ausschusses für Außenhandelsfragen mit der Bundesregierung, die in Drucksache Nr. 1207 der 1. Wahlperiode enthalten ist und vom Bundestag in der 81. Sitzung vom 28. Juli 1950 gebilligt wurde. Wird dazu das Wort gewünscht? — Das ist nicht der Fall. Wir kommen zur Abstimmung. Wer diesem Antrag der drei Fraktionen seine Zustimmung gibt, den bitte ich um das Handzeichen. — Ich bitte um die Gegenprobe. — Enthaltungen? — Einstimmig so beschlossen. Wir sind damit am Ende unserer Tagesordnung angelangt. Ich darf, bevor ich schließe, allen Kolleginnen und Kollegen und ihren Angehörigen eine gesegnete Weihnacht und ein gutes neues Jahr wünschen. Die nächste Sitzung berufe ich auf Mittwoch, den 20. Januar 1971, 10 Uhr. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 9.52 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

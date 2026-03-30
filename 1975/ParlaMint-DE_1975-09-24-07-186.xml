@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1975-09-24-07-186">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 7. Wahlperiode, 186. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 24.09.1975 (186. Sitzung der 7. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 7, Session 186 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1975-09-24 (Session 186 in Legislative Period 7)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="186">186. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">7. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="186">Session 186</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">Legislative Period 7</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 24.09.1975</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1975-09-24</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488222/b10bae395e887aac9ac08afbd1da62fc/pp07-data.zip</idno>
+          <date when="1975-09-24">1975-09-24</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1975-09-24">1975-09-24</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection">
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg1">Die Sitzung ist eröffnet. Meine Damen und Herren, ich teile zunächst mit, daß nach einer interfraktionellen Vereinbarung Punkt 4 betr. Entwurf eines Gesetzes über den Beruf des Logopäden, Punkt 8 betr. Novellierung des Gesetzes zum Schutze der Jugend in der Öffentlichkeit, Punkt 9 betr. Gründung eines Instituts für Familienforschung und Punkt 10 betr. gesetzmäßige Behandlung der Personalangelegenheiten in der Bundesverwaltung von unserer für morgen vorgesehenen Tagesordnung abgesetzt werden sollen. Nach einer weiteren interfraktionellen Vereinbarung soll die Tagesordnung am Donnerstag erweitert werden um die zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Luftverkehrsgesetzes — Drucksachen 7/3721, 7/4056 —. Das Haus ist einverstanden. — Es ist so beschlossen. Folgende amtliche Mitteilungen werden ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg2">Die Stellungnahme des Bundesrates gegenüber dem Bundestag zu dem Programm zur Stärkung von Bau- und anderen Investitionen, die er in seiner Sitzung am 19. September 1975 beschlossen hat, ist als Drucksache 7/4043 verteilt. Der Bundesrat hat in seiner Sitzung am 19. September 1975 gemäß §§ 9 und 7 des Gesetzes über das Bundesverfassungsgericht den von den Wahlmännern des Deutschen Bundestages zum Richter am Bundesverfassungsgericht gewählten Präsidenten des Bundesverwaltungsgerichts Dr. Wolfgang Zeidler zum Vizepräsidenten des Bundesverfassungsgerichts gewählt und gemäß Artikel 94 Abs. 1 des Grundgesetzes in Verbindung mit § 5 Abs. 1, § 7 des Gesetzes über das Bundesverfassungsgericht für die Dauer von zwölf Jahren, längstens bis zur Altersgrenze, 711 Richtern am Bundesverfassungsgericht Professor Dr. Konrad Hesse für Bundesverfassungsrichter Theodor Ritterspach in den Ersten Senat gewählt, Bundesverfassungsrichter Dr. Helmut Simon in den Ersten Senat wiedergewählt Professor Dr. Helmut Steinberger für Bundesverfassungsrichter Walter Seuffert in den Zweiten Senat gewählt. Der Wahlmännerausschuß des Deutschen Bundestages hat in seiner Sitzung am 19. September 1975 zu Richtern am Bundesverfassungsgericht gewählt:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg3">Dr. Dietrich Katzenstein in den Ersten Senat Dr. Engelbert Niebler in den Zweiten Senat Dr. Wolfgang Zeidler in den Zweiten Senat. Überweisung einer Zollvorlage Der Präsident des Bundestages hat entsprechend dem Beschluß des Bundestages vom 23. Februar 1962 die nachstehende Vorlage überwiesen:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg4">Aufhebbare verkündete Verordnung zur Änderung des Deutschen Teil-Zolltarifs (Nr. 9/75 — Erhöhung des Zollkontingents 1975 für Bananen) — Drucksache 7/4030 —</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg5">überwiesen den Ausschuß für Wirtschaft mit der Bitte um Vorlage des Berichts rechtzeitig dem Plenum am 11. Dezember 1975 Überweisungen von EG-Vorlagen Der Präsident des Bundestages hat entsprechend dem Beschluß des Bundestages vom 25. Juni 1959 die nachstehenden Vorlagen überwiesen:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg6">Richtlinie des Rates zur Angleichung der Rechtsvorschriften der Mitgliedsstaaten über Konfitüren, Gelees, Marmeladen und Maronenkrem — Drucksache 7/4012 —</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg7">überwiesen an den Ausschuß für Jugend, Familie und Gesundheit mit der Bitte um Vorlage des Berichts rechtzeitig vor der endgültigen Beschlußfassung im Rat Verordnung (EWG)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg8">des Rates über Sondermaßnahmen für Sojabohnen im Wirtschaftsjahr 1975/1976 — Drucksache 7/4022 —</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg9">überwiesen an den Ausschuß für Ernährung, Landwirtschaft und Forsten mit der Bitte uni Vorlage des Berichts rechtzeitig vor der endgültigen Beschlußfassung im Rat Verordnung (EWG)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg10">des Rates zur Änderung der Verordnung (EWG)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg11">Nr. 542'69 über das gemeinschaftliche Versandverfahren — Drucksache 7/4028 —</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg12">überwiesen an den Finanzausschuß mit der Bitte um Vorlage des Berichts rechtzeitig vor der endgültigen Beschlußfassung im Rat Richtlinie des Rates zur Erleichterung der tatsächlichen Ausübung des freien Dienstleistungsverkehrs der Rechtsanwälte — Drucksache 7/4029 —</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg13">überwiesen an den Rechtsausschuß mit der Bitte um Vorlage des Berichts rechtzeitig vor der endgültigen Beschlußfassung im Rat Ich rufe Punkt 1 der Tagesordnung auf: Fragestunde — Drucksache 7/4038 —</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg14">Der Ältestenrat hat vorgeschlagen, daß wir auch in dieser Woche zwei Fragestunden, abweichend von den Richtlinien für die Fragestunde, mit einer jeweiligen Dauer von 90 Minuten durchführen. Wir müssen nach § 127 unserer Geschäftsordnung diese Abweichung von der Geschäftsordnung beschließen. Erhebt sich dagegen Widerspruch? — Das ist nicht der Fall; dann ist so beschlossen. Ich rufe zunächst den Geschäftsbereich des Bundesministers der Justiz auf. Frage 1 stellt der Herr Abgeordnete Dr. Schwenk (Stade):</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg15">Ist der Bundesregierung bekannt, daß es eine von ihren im Merkblatt des Bundesjustizministeriums vorn 19. Februar 1975 über die Anrechnung von Kindergeld auf Unterhaltszahlungen für eheliche Kinder entwickelten Vorstellungen abweichende Rechtsprechung gibt (vgl. AG Berlin-Neukölln vom 17. April 1975 — 3 C 911/74) , und was gedenkt die Bundesregierung zu tun, wenn sich die vorgenannte Rechtsprechung durchsetzt? Zur Beantwortung Herr Parlamentarischer Staatssekretär Dr. de With.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-09-24-07-186.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg16">Herr Kollege, der Bundesregierung ist die Entscheidung des Amtsgerichts Berlin-Neukölln aus der Veröffentlichung in der Fachzeitschrift „Der Amtsvormund" 1975 Spalte 355 ff. bekannt. Das Urteil, gegen das Berufung eingelegt worden ist, weicht mit seiner Feststellung, daß das dem anderen Elternteil gewährte Kindergeld den Unterhaltsverpflichteten auch nicht teilweise entlasten solle und eine dem geltenden Paragraphen 1615 g BGB entsprechende Anrechnungsregelung für das für eheliche Kinder gezahlte Kindergeld nicht bestehe, von anderen Gerichtsentscheidungen, die vor dem 1. Januar 1975 noch unter der Geltung des alten Kindergeldgesetzes ergangen sind, die aber grundsätzlich die gleiche Rechtsfrage betreffen, ab. Die Entwicklung der Rechtsprechung insbesondere seit Inkrafttreten des Einkommensteuerreformgesetzes am 1. Januar 1975 wird sorgfältig beobachtet. Sollte sich herausstellen, daß das geltende Recht zu unbefriedigenden Ergebnissen führt, so kann eine Überprüfung der auftretenden Schwierigkeiten und gegebenenfalls eine notwendig werdende Korrektur des Gesetzes im Rahmen der für die nächste Legislaturperiode vorgesehenen umfassenden Überarbeitung des geltenden Unterhaltsrechts vorgenommen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg17">Keine Zusatzfragen. Die Frage 2 des Abgeordneten Brandt (Grolsheim)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg18">wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich danke Ihnen für die Beantwortung der Frage aus Ihrem Geschäftsbereich, Herr Parlamentarischer Staatssekretär Dr. de With. Ich rufe den Geschäftsbereich des Bundesministers der Verteidigung auf. Frage 3 stellt der Herr Abgeordnete Reiser:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg19">Beabsichtigt die Bundesregierung, die sogenannten Konditionstrainingslehrgänge für U-Boot-Fahrer an der Bundeswehrsportschule Sonthofen von bisher zwei auf künftig drei Wochen Dauer zu verlängern, nachdem laut übereinstimmenden wissenschaftlichen Erkenntnissen 14-Tage-Kurse für medizinisch nutzlos gehalten werden? Zur Beantwortung, Herr Parlamentarischer Staatssekretär Schmidt!</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-09-24-07-186.u4" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg20">Herr Kollege Reiser, die Konditionslehrgänge, deren Ziel es ist, den durch die Bewegungsarmut an Bord bedingten möglichen Gesundheitsschäden wirkungsvoll vorzubeugen, laufen an der Sportschule der Bundeswehr, Sonthofen, zur Zeit zwei Wochen, d. h. zehn Trainingstage. Das Trainingsprogramm ist gleichzeitig Vorbild und Anregung für die weitere Sportausbildung bei den U-Boot-Geschwadern. Das Bundesministerium der Verteidigung beabsichtigt nicht, diese Lehrgänge auf eine Dauer von drei Wochen zu verlängern. Im übrigen, Herr Kollege Reiser, sind dem Bundesministerium der Verteidigung übereinstimmende wissenschaftliche Erkenntnisse, nach denen 14-Tage-Kurse für medizinisch nutzlos gehalten werden, nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg21">Eine Zusatzfrage des Herrn Abgeordneten Reiser.</seg>
+        </u>
+        <note type="speaker">Reiser (SPD) :</note>
+        <u who="#Q1612324" xml:id="ParlaMint-DE_1975-09-24-07-186.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg22">Wird denn erwogen, derartige wissenschaftliche Erkenntnisse, die vorliegen, unter Umständen noch einzuholen?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-09-24-07-186.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg23">Dazu sind wir selbstverständlich jederzeit gerne bereit. Ich werde auch die Inspektion des Sanitätswesens darauf aufmerksam machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg24">Eine zweite Zusatzfrage des Herrn Abgeordneten Reiser.</seg>
+        </u>
+        <note type="speaker">Reiser (SPD) :</note>
+        <u who="#Q1612324" xml:id="ParlaMint-DE_1975-09-24-07-186.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg25">Herr Staatssekretär, da die Verhältnisse bei den Besatzungsangehörigen von beispielsweise so engen Metall- und Stahlkästen, wie es die Zerstörer der Fletcher-Klasse sind, ähnlich sind, möchte ich fragen: Kann man das Programm gegebenenfalls auch auf diese Marineangehörigen ausdehnen?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-09-24-07-186.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg26">Hierzu kann ich abschließend nichts sagen. Ich meine aber, daß diese Frage es wert ist, eingehend geprüft zu werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg27">Keine Zusatzfragen. Ich rufe die Frage 4 des Abgeordneten Engelsberger auf. — Ist der Fragesteller anwesend? — Er ist nicht anwesend. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich danke Ihnen, Herr Staatssekretär, für die Beantwortung der Fragen aus Ihrem Geschäftsbereich. Ich rufe den Geschäftsbereich des Bundesministers für Bildung und Wissenschaft auf, zunächst Frage 5 des Abgeordneten Dr. Haenschke:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg28">Trifft es zu, daß Abiturienten aus staatlich anerkannten Fernlehrgängen zwar nach dem Bundesausbildungsförderungsgesetz Abendgymnasiasten gleichgestellt sind, aber bei der Vergabe von Studienplätzen nicht den Bonus für den Zweiten Bildungsweg, wohl aber z. B. den Bayern-Malus angerechnet erhalten, und was unternimmt die Bundesregierung, um hier gegebenenfalls eine gerechtere Behandlung der Fernschüler zu erreichen? Der Fragesteller ist anwesend. Zur Beantwortung, bitte, Herr Parlamentarischer Staatssekretär Dr. Glotz!</seg>
+        </u>
+        <note type="speaker">Dr. Glotz, Parl. Staatssekretär beim Bundesminister für Bildung und Wissenschaft:</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1975-09-24-07-186.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg29">Herr Kollege, ich muß den ersten Teil Ihrer Frage mit Ja beantworten. In § 8 der Vergabeverordnung der Länder, die zur Durchführung des Staatsvertrages über die Vergabe von Studienplätzen erlassen worden ist, wird den Bewerbern, die ihre Hochschulzugangsberechtigung an einem Abendgymnasium oder Kolleg oder durch eine sogenannte Sonderreifeprüfung erworben haben, ein Bonus von 0,5 zuerkannt. Für die Absolventen staatlich anerkannter Fernlehrgänge — nach denen Sie gefragt haben —, die sich der staatlichen Reifeprüfung unterzogen haben, ist ein solcher Bonus nicht vorgesehen. Es trifft zu, wie Sie in Ihrer Frage vermuten, daß solche Zeugnisse unter die Bonus-Malus-Regelung fallen, d. h. daß die entsprechenden Nachteile für die Absolventen der Fernlehrgänge in der Tat gegeben sind. Der Bundesregierung ist unbekannt, Herr Kollege Haenschke, und auch nicht klar, warum Abendgymnasiasten und Absolventen von Fernstudienlehrgängen, die eine staatliche Reifeprüfung abgelegt haben, in der Rechtsverordnung der Länder bei der Hochschulzulassung unterschiedlich behandelt werden. In § 3 des Bundesausbildungsförderungsgesetzes werden unter bestimmten Voraussetzungen Abendgymnasiasten und Fernschüler vom Bundesgesetzgeber gleichgestellt. Hinsichtlich des zweiten Teils Ihrer Frage muß ich Sie allerdings auf die beschränkten Kompetenzen des Bundes in dieser Angelegenheit verweisen. Für eine entsprechende Änderung der gerade zitierten Vergabeordnung, die notwendig wäre, sind allein die Länder zuständig. Der Direktor der Akademikergesellschaft für Erwachsenenfortbildung hat mit einem Schreiben vom 31. Juli 1975 die Länderregierungen und die Bundesregierung auf die Sachlage aufmerksam gemacht. In den zuständigen Gremien der Zentralen Verwaltungsstelle wird an einer Lösung dieses Problems gearbeitet. Die Bundesregierung wird auf eine rasche Klärung und Entscheidung in dieser Sache drängen. Sie ist auch Mitglied dieser Gremien. Sobald hierzu ein Beschluß der Ländergremien vorliegt, werde ich Sie gern unterrichten, Herr Kollege Haenschke.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg30">Eine Zusatzfrage, der Abgeordnete Dr. Haenschke.</seg>
+        </u>
+        <note type="speaker">Dr. Haenschke (SPD) :</note>
+        <u who="#Q1443359" xml:id="ParlaMint-DE_1975-09-24-07-186.u14" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg31">Herr Staatssekretär, darf ich Ihrer Antwort entnehmen, daß Fernschüler und Absolventen von Abendgymnasien nach Auffassung der Bundesregierung auf jeden Fall gleichbehandelt werden sollten?</seg>
+        </u>
+        <note type="speaker">Dr. Glotz, Parl. Staatssekretär beim Bundesminister für Bildung und Wissenschaft:</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1975-09-24-07-186.u15" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg32">Sie dürfen diese Auffassung der Bundesregierung meiner Antwort entnehmen, Herr Kollege Haenschke. Aber ich muß nochmals darauf verweisen, daß dies im wesentlichen Sache der Länder ist und daß unser Einfluß begrenzt ist. Wir werden ihn gerne wahrnehmen, soweit unsere Möglichkeiten in diesem Bereich gehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u16" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg33">Keine weitere Zusatzfrage. Ich rufe die Frage 23 des Abgeordneten Dr. Fuchs auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg34">Ist der Bundesregierung bekannt, daß durch Urteil des Bayerischen Verwaltungsgerichts Regensburg (Mündliche Verkündung vom 21. Juli 1975) die II 6 und 7 der Ausbildereignungsverordnung (AEVO)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg35">vom 25. Juli 1974 für grundrechtswidrig und damit für nichtig erklärt wurden, und was beabsichtigt die Bundesregierung angesichts dieser Tatsache zu tun? Der Fragesteller ist anwesend. Bitte, zur Beantwortung, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Glotz, Parl. Staatssekretär beim Bundesminister für Bildung und Wissenschaft:</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1975-09-24-07-186.u17" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg36">Herr Kollege Fuchs, das Urteil, das Sie in ihrer Frage zitieren, ist der Bundesregierung bekannt. Der Bundesregierung ist auch bekannt, daß der Bayerische Verwaltungsgerichtshof als Berufungsinstanz in einem gleichgelagerten, ebenfalls von dem von Ihnen zitierten Verwaltungsgericht Regensburg in erster Instanz entschiedenen Fall die Verfassungsmäßigkeit der hier in Rede stehenden §§ 6 und 7 der Ausbildereignungsverordnung bejaht hat. Deswegen und nachdem der Vertreter des öffentlichen Interesses gegen das Urteil des Verwaltungsgerichts Regensburg Berufung eingelegt hat, wird sich die Bundesregierung darauf beschränken, die Entscheidung des Bayerischen Verwaltungsgerichtshofs in der nächsten Instanz abzuwarten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u18" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg37">Eine Zusatzfrage des Abgeordneten Dr. Fuchs.</seg>
+        </u>
+        <note type="speaker">Dr. Fuchs (CDU/CSU) :</note>
+        <u who="#Q109243" xml:id="ParlaMint-DE_1975-09-24-07-186.u19" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg38">Herr Staatssekretär, teilen Sie meine Meinung, daß diejenigen, die sich in diesem Fall um die Ausbildereignung bewerben, auf Grund des Urteils des Verwaltungsgerichts Regensburg den Eindruck gewinnen müssen, daß ihnen eigentlich zu Unrecht etwas aberkannt wird, und daß dadurch auch die Kammern, die ja diese Ablehnung aussprechen müssen, zumindest in ein schiefes Licht kommen?</seg>
+        </u>
+        <note type="speaker">Dr. Glotz, Parl. Staatssekretär beim Bundesminister für Bildung und Wissenschaft:</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1975-09-24-07-186.u20" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg39">Herr Kollege Fuchs, diese Auffassung kann ich nicht teilen, denn es handelt sich hier um ein erstinstanzliches Urteil, in dem die Verfassungsmäßigkeit zweier Paragraphen dieser Verordnung angezweifelt wird. Es gibt schon andere Urteile, und zwar von höheren Instanzen, in denen eindeutig gesagt ist: Diese Paragraphen sind verfassungsgemäß. Ich glaube nicht, daß man sich mit Recht auf dieses erstinstanzliche Urteil, das schon einmal von einer Berufungsinstanz korrigiert wurde, berufen und sagen kann, dadurch entstünde irgendeine Form von Rechtsunsicherheit.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg40">Eine zweite Zusatzfrage des Abgeordneten Dr. Fuchs.</seg>
+        </u>
+        <note type="speaker">Dr. Fuchs (CDU/CSU) :</note>
+        <u who="#Q109243" xml:id="ParlaMint-DE_1975-09-24-07-186.u22" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg41">Unbeschadet dieser unterschiedlichen Urteile darf ich die Bundesregierung fragen, ob sie den Gesichtspunkt teilt — sie hat ja die Verordnung erlassen —, daß jetzt Leute, die lange Zeit ausgebildet haben, aber zu einem bestimmten Zeitpunkt nicht ausbilden, nur deswegen die Ausbildereignung aberkannt bekommen?</seg>
+        </u>
+        <note type="speaker">Dr. Glotz, Parl. Staatssekretär beim Bundesminister für Bildung und Wissenschaft:</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1975-09-24-07-186.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg42">Herr Kollege Fuchs, die Ausbildereignungsverordnung hat sich, wie uns die betroffenen Kreise weitgehend bestätigen, bewährt. Ich kann deshalb zur Zeit keinen Grund für eine von Ihnen angeregte Änderung dieser beiden Paragraphen erkennen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg43">Keine weitere Zusatzfrage. — Ich danke Ihnen, Herr Staatssekretär, für die Beantwortung. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers des Innern. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär Baum zur Verfügung. Die Frage 6 des Abgeordneten Schedl wird schriftlich beantwortet, da der Fragesteller nicht anwesend ist. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 7 des Abgeordneten Spranger auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg44">Unter welchen Bedingungen sind Arbeitskampfmaßnahmen im öffentlichen Dienst nach Auffassung der Bundesregierung illegal, und in welcher Weise wird sie aus dem Gedanken der Fürsorgepflicht heraus ihre Bediensteten auf die Rechtslage hinweisen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg45">Herr Kollege Spranger, die Bundesregierung ist bereits in der Antwort auf die Kleine Anfrage des Abgeordneten Benda und der Fraktion der CDU/CSU vom 6. Oktober 1970 und in der Antwort auf die mündliche Frage des Herrn Kollegen Ziegler am 27. Februar dieses Jahres auf diesen Fragenkomplex eingegangen. Bei der Beantwortung der Kleinen Anfrage hat die Bundesregierung dazu ausgeführt:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg46">Das Streikrecht ist nach Auffassung der Bundesregierung durch die nach der Rechtsprechung des Bundesverfassungsgerichts von Art. 9 Abs. 3 GG mitgewährleistete Tarifautonomie verfassungsrechtlich gesichert. Entsprechend folgert die Bundesregierung in Übereinstimmung mit der allgemeinen Auffassung von Lehre und Rechtsprechung aus Art. 33 Abs. 4 und 5 GG, daß das Streikrecht für Angehörige des öffentlichen Dienstes, die in einem öffentlich-rechtlichen Dienst- und Treueverhältnis stehen, d. h. Beamte, Richter und Soldaten sind, ausgeschlossen ist. Die Bedingungen der Legalität oder Illegalität eines Arbeitskampfes oder einzelner Betätigungen innerhalb eines Arbeitskampfes ergeben sich im übrigen aus den Grundsätzen des Arbeitskampfrechts, wie sie insbesondere durch die Rechtsprechung des Bundesarbeitsgerichts herausgearbeitet worden sind. Die Bundesregierung geht davon aus, daß die Arbeitnehmer des öffentlichen Dienstes ebenso wie die Arbeitnehmerschaft insgesamt über ihre grundlegenden Rechte und Pflichten orientiert sind und daß es besonderer Hinweise deswegen nicht bedarf.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg47">Zu einer Zusatzfrage Herr Abgeordneter Spranger.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1975-09-24-07-186.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg48">Herr Staatssekretär, konnte dem Verhalten der Bundesregierung im Tarifkonflikt im Februar 1974 nicht der Eindruck entnommen werden, daß einer Arbeitsniederlegung im öffentlichen Dienst keinerlei rechtliche Schranken auferlegt sind, auch nicht die der Sozialadäquanz?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg49">Herr Kollege, die Bundesregierung hat — ich habe hier jetzt auszugsweise zitiert; ich könnte die Zitate fortsetzen — in der erwähnten Antwort auf die Kleine Anfrage von Kollegen Ihrer Fraktion sehr klar ihre Haltung zum Ausdruck gebracht, und auch im Jahre 1974 hat sie durch ihr Verhalten nichts anderes getan, als diese Prinzipien zu unterstreichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg50">Zu einer zweiten Zusatzfrage Herr Abgeordneter Spranger.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1975-09-24-07-186.u30" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg51">Meinen Sie, Herr Staatssekretär, daß der Gesichtspunkt der Sozialadäquanz in diesem Rahmen von gleichwertiger Bedeutung wie im normalen Arbeitskampf ist?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg52">Ich kann mir nicht vorstellen, daß hier für diesen Tarifbereich etwas anderes gilt als sonst im Bereich der gewerblichen Wirtschaft.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u32" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg53">Ich rufe die Frage 8 des Abgeordneten Spranger auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg54">Welche disziplinarischen oder arbeitsrechtlichen Maßnahmen sind für den Fall der Teilnahme an illegalen Arbeitskampfmaßnahmen im öffentlichen Dienst möglich und vorgesehen, und in welcher Weise gedenkt die Bundesregierung, aus dem Gedanken der Fürsorgepflicht ihre Bediensteten über diese Rechtslage aufzuklären? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg55">Für den Fall der Beteiligung an illegalen Arbeitskämpfen oder illegaler Verhaltensweisen bei an sich legalen Arbeitskämpfen gestattet das Arbeitsrecht u. a. die Kündigung des Arbeitsverhältnisses. Es können sich auch Schadensersatzansprüche ergeben. Für Beamte, Richter und Soldaten stellt die Beteiligung an Arbeitskampfmaßnahmen eine schwere Verletzung ihrer Dienstpflichten dar, die disziplinarrechtlicher Ahndung unterliegt. Die Bundesregierung geht davon aus, daß diese Rechtslage den Betroffenen bekannt ist. Sie hat in der Vergangenheit Hinweise gegeben, wenn es notwendig war, und wird das in etwaigen künftigen Fällen wiederum in geeigneter Form tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u34" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg56">Zu einer Zusatzfrage Herr Abgeordneter Spranger.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1975-09-24-07-186.u35" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg57">Herr Staatssekretär, hält die Bundesregierung unter dem Gesichtspunkt der Sozialadäquanz Arbeitskampfmaßnahmen wegen der Maßnahmen, die sie im Rahmen des sogenannten Sparprogramms für den öffentlichen Dienst als Beschränkungen vorschlägt, für politisch und rechtlich vertretbar?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u36" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg58">Herr Kollege, das ist eine Frage, die sich meines Erachtens jetzt gar nicht stellt. Es wäre wohl verfehlt, heute auf eine Situation abzustellen, von der wir gar nicht wissen, ob sie eintritt. Die Frage muß letztlich von den Tarifpartnern, also hier von den Gewerkschaften, entschieden werden. Ich kann mir nicht vorstellen, daß die Gewerkschaften über ihre gesetzlichen Rechte und Pflichten hinausgehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u37" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg59">Die zweite Zusatzfrage des Abgeordneten Spranger.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1975-09-24-07-186.u38" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg60">Wie nimmt die Bundesregierung zu der Äußerung des DGB-Vorstandsmitglieds Schmidt in der „Süddeutschen Zeitung" vom 12. September 1975 Stellung, der im Hinblick auf die Kürzung der Ortszuschläge und der Fahrtkostenzuschüsse erklärt hat, das werde möglicherweise Ärger für Milliarden schaffen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u39" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg61">Es handelt sich nicht um einen Beschluß einer Gewerkschaft, sondern um eine Erklärung, die Sie hier wiedergeben. Ich hielte es nicht für zweckmäßig, wenn sich ein Tarifvertragspartner, nämlich hier die Bundesregierung als einer der Arbeitgeber im öffentlichen Dienst, zu einer Ankündigung äußerte, von der wir gar nicht wissen, ob sie reale Bedeutung erlangt oder nicht. Das wird zu gegebener Zeit der Fall sein müssen. Sich heute aber prophylaktisch zu irgendeinem Verhalten eines Tarifvertragspartners der Bundesregierung zu äußern, hielte ich nicht für sehr zweckmäßig.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u40" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg62">Keine weitere Zusatzfrage. Ich rufe die Frage 9 des Abgeordneten Dr. Arndt (Hamburg)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg63">auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg64">Ist die Bundesregierung bei der von ihr beabsichtigten Vorlage eines einheitlichen Polizeivollzugsgesetzes bereit, nunmehr den verfassungsrechtlichen Bedenken Rechnung zu tragen, die von zahlreichen Wissenschaftlern und von dem damaligen Präses der Hamburger Behörde für Inneres, Senator Helmut Schmidt, dagegen vorgetragen worden sind, daß in Gesetzen über die Ausübung unmittelbaren Zwanges die Bestimmung der zulässigen Waffen nicht im Gesetz selbst, sondern nur in Dienstvorschriften ohne Rechtssatzcharakter erfolgt? Zur Beantwortung, bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg65">Herr Kollege Dr. Arndt, gestatten Sie, daß ich beide Fragen zusammen beantworte?</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u42" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg66">Der Fragesteller ist einverstanden. Dann rufe ich auch die Frage 10 des Abgeordneten Dr. Arndt (Hamburg)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg67">auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg68">Ist die Bundesregierung bereit, im Interesse der Rechtseinheit, im Ilinblick auf die Artikel 87 a und 91 des Grundgesetzes sowie zur Vermeidung von Schwierigkeiten bei der Ausbildung und heim Einsatz von Polizeivollzugsbeamten und Soldaten darauf hinzuwirken, daß in allen Gesetzen des Bundes und der Länder, die zur Ausübung unmittelbaren Zwanges ermächtigen, die zulässigen (allgemeinen und besonderen)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg69">Waffen ausdrücklich im Gesetz und nicht nur in Dienstvorschriften ohne Rechtssatzcharakter aufgeführt werden?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u43" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg70">Herr Kollege Dr. Arndt, der im Auftrag der Innenministerkonferenz ausgearbeitete Musterentwurf eines einheitlichen Polizeigesetzes, der von Bund und Ländern übernommen werden soll, umfaßt Regelungen über die Anwendung des unmittelbaren Zwangs. In § 36 des Entwurfs werden die dazu zugelassenen Hilfsmittel, die körperliche Gewalt und die zugelassenen Waffen, ausdrücklich benannt. Diese Aufstellung ist abschließend. Für eine Regelung durch allgemeine Verwaltungsvorschriften wäre dann in Zukunft kein Raum mehr. Der Entwurf befindet sich zur Zeit im Stadium der öffentlichen Erörterung. Die Innenministerkonferenz hat in Aussicht genommen, im Frühjahr des kommenden Jahres über den Entwurf zu entscheiden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u44" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg71">Eine Zusatzfrage des Abgeordneten Dr. Arndt.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Hamburg) (SPD) :</note>
+        <u who="#Q1098411" xml:id="ParlaMint-DE_1975-09-24-07-186.u45" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg72">Herr Staatssekretär, darf ich aus Ihrer Antwort schließen, daß die Bundesregierung nunmehr entgegen der Stellungnahme in den vorangegangenen Legislaturperioden bereit ist, die Tiefe der Eingriffsmöglichkeit in das Grundrecht auf Leben und körperliche Unversehrtheit durch eine Regelung dieser Art zu verändern?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg73">Herr Kollege Dr. Arndt, die Bundesregierung ist sicher bereit, das zu tun. Es geht doch im wesentlichen urn die Frage, unter welchen Voraussetzungen welche Waffen anwendbar sind. Diese Voraussetzungen müssen nach Ansicht der Bundesregierung gesetzlich geregelt werden. In diesem Zusammenhang wird man auch festlegen, um welche Waffen es sich im einzelnen handeln darf.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg74">Eine zweite Zusatzfrage des Abgeordneten Dr. Arndt.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Hamburg) (SPD) :</note>
+        <u who="#Q1098411" xml:id="ParlaMint-DE_1975-09-24-07-186.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg75">Wird sich die Bundesregierung bemühen, daß dieses Gesetz dann in allen Bundesländern — die Gesetzgebungskompetenz für das Polizeirecht liegt doch mit Ausnahme der Bundespolizei BGS und der Bahnpolizei bei den Ländern - einheitlich in Kraft gesetzt wird, damit die Beamten des Bundes und der Länder, wenn sie z. B. nach Art. 91 des Grundgesetzes eingesetzt werden, nur eine Rechtsvorschrift zu lernen haben?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg76">Herr Kollege Dr. Arndt, das ist der Ausgangspunkt aller Bemühungen um ein solches Polizeigesetz. Es handelt sich hier um einen Musterentwurf, der von den Ländern gerade unter den Gesichtspunkten, die Sie hier aufgezeigt haben — Ermöglichung eines Einsatzes über die Ländergrenzen hinweg nach einheitlichen Vorschriften —, übernommen werden soll.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u50" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg77">Keine weitere Zusatzfrage. Die Fragen 11 und 12 des Abgeordneten Lenzer werden auf Wunsch des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 13 des Abgeordneten Milz auf — der Fragesteller ist anwesend —:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg78">Aus welchen Bundesmitteln wird der deutsche Sport im einzelnen finanziert? Bitte, zur Beantwortung, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg79">Die Bundesregierung stellt im Haushaltsjahr 1975 rund 250 Millionen DM an Sportförderungsmitteln zur Verfügung. Diese Mittel sind in den Haushalten von 12 verschiedenen Bundesressorts veranschlagt. Es handelt sich hierbei beispielsweise um Haushaltsansätze für die Förderung der Sportwissenschaft, des Sports in den Entwicklungsländern, des Sports in der Bundeswehr, des Sports im Rahmen des deutsch-französischen Jugendwerks, des Sportstättenbaues im Zonenrandgebiet und um die Beteiligung des Bundes am Hochschulsportstättenbau. Die Mittel, die speziell und unmittelbar für den deutschen Sport zur Verfügung stehen, sind im wesentlichen im Haushalt des Bundesministers des Innern ausgewiesen. Es handelt sich hierbei entsprechend der begrenzten Finanzierungszuständigkeit des Bundes im Bereich des Sports um Haushaltsansätze, die vorwiegend der Finanzierung zentraler Maßnahmen der Bundessportfachverbände dienen. Im einzelnen sind dies etwa neben der institutionellen Förderung des Deutschen Sportbundes und des Nationalen Olympischen Komitees für Deutschland Mittel zur Finanzierung der Trainings-und Wettkampfprogramme der Nationalkader, der Bundestrainer und hauptamtlichen Führungskräfte der Bundessportfachverbände sowie des sportlichen Nachwuchses. Im Haushaltsjahr 1975 stehen allein für zentrale Maßnahmen auf dem Gebiet des Sports rund 32 Millionen DM zur Verfügung. Im Olympiajahr wird sich die Summe auf rund 38 Millionen DM erhöhen. Ich darf noch einmal darauf hinweisen, daß ich hierbei — in Übereinstimmung mit Ihrer Fragestellung — nur die unmittelbar dem deutschen Sport zufließenden Haushaltsmittel nenne.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg80">Eine Zusatzfrage hat der Abgeordnete Milz.</seg>
+        </u>
+        <note type="speaker">Milz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1975-09-24-07-186.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg81">Herr Staatssekretär, läßt sich eine Aussage darüber machen, welche Beträge die Länder insgesamt für die gleiche Aufgabe verwenden?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg82">Diese Aussage läßt sich sehr wohl machen, Herr Kollege. Sie haben nicht danach gefragt, sonst hätte ich Ihnen das im einzelnen auch ausgewiesen. Ich habe hier eine Übersicht über alle Sportförderungsmaßnahmen, die ich Ihnen gern zur Verfügung stelle, Sportförderungsmaßnahmen auf allen Ebenen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg83">Eine Zusatzfrage hat der Abgeordnete Gerster.</seg>
+        </u>
+        <note type="speaker">Gerster (Mainz) (CDU/CSU) :</note>
+        <u who="#Q1436925" xml:id="ParlaMint-DE_1975-09-24-07-186.u56" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg84">Herr Staatssekretär, wären Sie in der Lage und bereit, die Förderungsmittel des Bundes für den deutschen Sport aufzusplitten in Mittel, die dem Breitensport, und solche, die dem Spitzensport zufließen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-09-24-07-186.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg85">Sie wissen, Herr Kollege Gerster, daß sich die Zuständigkeit des Bundes im wesentlichen auf die Förderung des Spitzensportes bezieht. Ich kann Ihnen gern eine Aufstellung zukommen lassen, aus der sich die Förderung im einzelnen ergibt. Ich möchte auch auf die Berichte verweisen, die die Bundesregierung dem Sportausschuß gegeben hat. In den Ausschußprotokollen finden Sie detaillierte Angaben auch zu der Frage, die Sie soeben aufgeworfen haben.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Arndt [Hamburg] [SPD] : Und ein Grundgesetz, damit er nachlesen kann, wer zuständig ist!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u58" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg86">Die Fragen 14 und 15 des Herrn Abgeordneten Dr. Köhler (Duisburg)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg87">werden auf Wunsch des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Damit sind wir am Ende Ihres Geschäftsbereiches angelangt. Ich danke Ihnen, Herr Staatssekretär Baum. Wir kommen nunmehr zum Geschäftsbereich des Bundesministers der Finanzen. Ich rufe die Frage 16 des Abgeordneten Löffler auf — der Fragesteller ist anwesend —:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg88">Was gedenkt die Bundesregierung zu unternehmen, damit die neue EG-Rechnungseinheit (berechnet nach dem europäischen Währungskorb) möglichst bald auch auf den Haushalt der EG angewendet wird? Zur Beantwortung, Herr Parlamentarischer Staatssekretär Haehser!</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-09-24-07-186.u59" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg89">Herr Kollege Lothar Löffler, die in der Haushaltsordnung der Gemeinschaften definierte Rechnungseinheit ist noch in Gold bestimmt. Sie gründet sich auf die Verhältnisse zur Zeit fester Wechselkurse, wie sie vor der Einführung des Floatens bestanden haben und wie sie de jure auf Grund der beim Internationalen Währungsfonds gemeldeten offiziellen Paritäten auch heute noch bestehen. Danach hat eine Rechnungseinheit den Gegenwert von 3,66 DM. Inzwischen hat die D-Mark an den Devisenmärkten eine erhebliche De-facto-Aufwertung erfahren. Ihr relativer Wert gegenüber den anderen Währungen ist Schritt für Schritt so weit angestiegen, daß heute — bei wirtschaftlicher Betrachtung — eine Rechnungseinheit bereits mit etwa 3,07 DM gleichgesetzt werden müßte. Die rechtlichen Bestimmungen über die Haushalts-Rechnungseinheit sollten grundsätzlich möglichst bald an diese veränderten wirtschaftlichen Verhältnisse angepaßt werden. Die Einführung einer realistischen europäischen Haushalts-Rechnungseinheit würde zu einer Verminderung des deutschen Haushaltsbeitrages führen. Zugleich hätte sie auch beachtlich höhere Zahlungen anderer EG-Mitgliedstaaten zur Folge, deren Währungen einen erheblichen Wertverlust erlitten haben. Die Definition der Haushalts-Rechnungseinheit kann nur auf Vorschlag der Kommission durch einstimmigen Beschluß des Rates im Wege der Änderung der EG-Haushaltsordnung modifiziert werden. Am 18. März 1975 hat sich der Rat mit der Frage einer Neudefinition der Rechnungseinheit befaßt. Die Kommission soll eine Neudefinition der Rechnungseinheiten für die verschiedenen Bereiche der EG in Zusammenarbeit mit dem Währungsausschuß prüfen und dem Rat hierzu Vorschläge unterbreiten. Anläßlich der Beratungen über den EG-Haushalt 1976 hat die deutsche Delegation — gemeinsam mit den Delegationen anderer interessierter Mitgliedstaaten — die Kommission aufgefordert, dem Rat sobald wie möglich einen Vorschlag für eine Neudefinition der Haushalts-Rechnungseinheit vorzulegen. Hierfür bietet sich die neue, nach einem europäischen Währungskorb definierte Rechnungseinheit an, die bereits im Rahmen des Abkommens von Lomé und bei der Europäischen Investitionsbank eingeführt worden ist. Das Bundesministerium der Finanzen hat diese Forderung nach Beratung im Bundeskabinett kürzlich in einem Schreiben an den Präsidenten der EG-Kommission bekräftigt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u60" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg90">Eine Zusatzfrage hat der Abgeordnete Löffler.</seg>
+        </u>
+        <note type="speaker">Löffler (SPD) :</note>
+        <u who="#Q1647066" xml:id="ParlaMint-DE_1975-09-24-07-186.u61" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg91">Herr Staatssekretär, können Sie mitteilen, wie der Beitrag für die Europäische Gemeinschaft in den anderen Ländern der EG berechnet wird, ob die ihre Beiträge auch noch in der alten Dollar-Parität abführen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-09-24-07-186.u62" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg92">Herr Kollege Lothar Löffler, die Umrechnung der europäischen Rechnungseinheit in die Währungen der Mitgliedstaaten richtet sich nach den beim Internationalen Währungsfonds zuletzt angemeldeten Goldparitäten; für die Bundesrepublik ist das also die bereits genannte Zahl. Sie berücksichtigt nicht die bisherigen Veränderungen der Wechselkurse am Devisenmarkt, so daß die Relationen der einzelnen Landeswährungen zueinander bei der Umrechnung über die Rechnungseinheit verzerrt sind. Ich habe hier bei meinen Unterlagen, Herr Kollege, eine Tabelle, wie die nationalen Währungen zur Rechnungseinheit stehen. Ich stelle Ihnen diese Tabelle und andere gerne zur Verfügung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u63" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg93">Eine weitere Zusatzfrage? — Bitte schön, Herr Löffler!</seg>
+        </u>
+        <note type="speaker">Löffler (SPD) :</note>
+        <u who="#Q1647066" xml:id="ParlaMint-DE_1975-09-24-07-186.u64" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg94">Herr Staatssekretär, wie beurteilt die Bundesregierung das Ansinnen, das sie an die Kommission gestellt hat, die Haushalts-Rechnungseinheit neu zu definieren?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-09-24-07-186.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg95">Sie fragen sicher, wie die Bundesregierung die Erfolgsaussichten beurteilt. Dazu will ich Ihnen sagen Herr Kollege Lothar Löffler, daß die Bundesregierung dann, wenn sie sich etwas vorgenommen hat, dies mit aller Kraft verfolgen wird.</seg>
+          <vocal type="exclamat">
+            <desc>Gerster [Mainz] [CDU/CSU] : Na, na! — Dr. Ritz [CDU/CSU] : Mit der ihr verbliebenen Kraft!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg96">Ich hoffe, die Kraft hat Erfolg.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg97">Eine Zusatzfrage, der Abgeordnete Peters (Poppenbüll).</seg>
+        </u>
+        <note type="speaker">Peters (Poppenbüll) (FDP) :</note>
+        <u who="#Q2545769" xml:id="ParlaMint-DE_1975-09-24-07-186.u67" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg98">Herr Staatssekretär, wie hoch schätzt die Bundesregierung die Summe, die die Bundesrepublik bei der EG einsparen würde, wenn von 3,66 DM auf 3,07 DM umgestellt würde?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-09-24-07-186.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg99">Herr Kollege Peters, wenn ich Ihnen diese Frage beantwortete, würde ich Teile der Antwort, die ich auf die zweite Frage des Kollegen Löffler zu geben beabsichtige, vorwegnehmen. Vielleicht können Sie sich einen Moment gedulden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u69" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg100">Ich rufe also zunächst die Frage 17 des Abgeordneten Löffler auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg101">Wie hoch beziffert die Bundesregierung die finanziellen Auswirkungen im nächsten Jahr, wenn die alte Rechnungseinheit (3,66 DM)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg102">bei den Beiträgen zum Haushalt der EG weiterhin zugrunde gelegt wird? Zur Beantwortung Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-09-24-07-186.u70" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg103">Herr Kollege Lothar Löffler, die Kommission der Europäischen Gemeinschaften hat einen Haushaltsentwurf für 1976 mit einem Volumen von 8,058 Milliarden Rechnungseinheiten vorgelegt. Zur Finanzierung des EG-Haushalts 1976 wird die Bundesrepublik Deutschland mit einem relativen Anteil von 27,57 % beitragen müssen. Unter Berücksichtigung gewisser Sondereinnahmen der Gemeinschaft würde dies bei einem Umrechnungskurs, wie wir ihn heute noch kennen, zu einem deutschen Beitrag in Höhe von 8,056 Milliarden DM führen. Der endgültige Betrag hängt selbstverständlich von dem Ergebnis der EG-Haushaltsverhandlungen ab. Falls die neue Währungskorb-Rechnungseinheit so rechtzeitig übernommen wird, daß sie schon auf den EG-Haushalt 1976 Anwendung findet, wird sich der deutsche Finanzierungsanteil, in D-Mark ausgedrückt, erheblich vermindern. Denn wir hätten dann für jede geschuldete Rechnungseinheit nicht mehr wie bisher 3,66 DM, sondern nur etwa 3,07 DM nach Brüssel abzuführen. Den Einsparungen bei der Finanzierung des EG-Haushalts würde allerdings eine Verminderung bestimmter Rückflüsse von den Europäischen Gemeinschaften in die Bundesrepublik gegenüberstehen. Es handelt sich dabei um die Leistungen der Europäischen Gemeinschaft, die in bestimmter Höhe in Haushalts-Rechnungseinheiten festgesetzt sind. Im Endergebnis, Herr Kollege Löffler und Herr Kollege Peters, könnte danach die Einführung der neuen Währungskorb-Rechnungseinheit, soweit das bisher zu übersehen ist, den Bundeshaushalt in den Jahren 1976 und 1977 netto um etwa 700 bis 900 Millionen DM entlasten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u71" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg104">Keine Zusatzfrage. Ich rufe die Frage 18 des Abgeordneten Höcherl auf. — Der Fragesteller ist nicht anwesend. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 19 des Abgeordneten Dr. Warnke auf. — Der Fragesteller ist nicht anwesend. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 20 des Abgeordneten Engelsberger auf. — Der Abgeordnete ist nicht anwesend. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Wir sind am Ende Ihres Geschäftsbereichs angelangt. Ich darf Ihnen, Herr Parlamentarischer Staatssekretär, für die Beantwortung der Fragen danken. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Wirtschaft, und zwar zuerst zu den Fragen 21 und 22 des Abgeordneten Dr. Freiherr Spies von Büllesheim. Der Fragesteiler ist nicht anwesend. Die Fragen werden schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe dann die Frage 24 des Abgeordneten Dr. Jobst auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg105">Trifft die Meldung der Frankfurter Allgemeinen Zeitung vom 17. September 1975 zu, die von der öffentlichen Hand administrierten Preise hätten um über die Hälfte stärker angezogen als die Preise der Privatwirtschaft, und welche Schlußfolgerungen zieht — bejahendenfalls — die Bundesregierung daraus hinsichtlich einer rationellen Wirtschaftsführung durch die öffentliche Hand und der Bereitschaft zur Privatisierung dort, wo die öffentliche Hand zu einer Effizienz nicht in der Lage ist? Der Fragesteller ist anwesend. Zur Beantwortung, bitte, Herr Parlamentarischer Staatssekretär Grüner.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-09-24-07-186.u72" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg106">Die Meldung, Herr Kollege, bezieht sich auf eine Presseerklärung der Arbeitsgemeinschaft der Verbraucher. Die darin enthaltene Aussage ist in dieser Form unzutreffend. Sie stützt sich lediglich auf die Preise von sieben im Preisindex für die Lebenshaltung enthaltenen Gütern. Einerseits unterliegen selbst diese Preise nicht alle einer totalen staatlichen Einflußnahme — ich denke dabei besonders an die Gaspreise —; andererseits gibt es zahlreiche weitere administrativ beeinflußte Preise, welche die Arbeitsgemeinschaft der Verbraucher in ihrer Aufstellung nicht berücksichtigt hat. In der Presseerklärung wird somit unzulässigerweise die Entwicklung einiger administrierter Preise für die der Gesamtheit ausgegeben. Lassen Sie mich die Fehlerhaftigkeit dieses Vorgehens an einem Zahlenbeispiel demonstrieren. Von August 1974 bis August 1975 hat sich der Preisindex für die Lebenshaltung um 5,9 % erhöht. Nach den Berechnungen der AGV sind „die administrierten Preise" um 12,1 % und damit „entscheidend stärker gestiegen als die übrigen Waren und Dienstleistungen". Tatsächlich hat sich die Gesamtheit der im Lebenshaltungsindex enthaltenen ganz oder partiell administrativ beeinflußten Preise — ohne die Preise für Nahrungsmittel, die der EG-Agrarmarktordnung unterliegen — in dem genannten Zeitraum um 5,8 % erhöht. Schaltet man überdies bei den nur teilweise staatlich beeinflußten Preisen diejenigen Preiseffekte aus, die zweifelsfrei nicht dem Staat anzulasten sind, so ergibt sich ein durchschnittlicher Preisanstieg von 4,8 %. Sie werden verstehen, Herr Kollege, daß die Bundesregierung die Pressenotiz der Arbeitsgemeinschaft der Verbraucher somit nicht als Basis für die Schlußfolgerung der von Ihnen angesprochenen Art verwenden kann. Unabhängig davon bedarf es natürlich ständiger Überlegungen, ob staatliche Leistungen nicht von privater Seite rationeller erbracht werden könnten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u73" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg107">Eine Zusatzfrage des Abgeordneten Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1975-09-24-07-186.u74" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg108">Herr Staatssekretär, Sie haben einige Bereiche des öffentlichen Dienstleistungsverkehrs herausgegriffen. Ich will darauf nicht eingehen, sondern möchte Sie fragen: Teilen Sie die Auffassung, daß im öffentlichen Dienstleistungsbereich in den letzten Jahren ein erheblicher Kostenanstieg zu verzeichnen ist? Sind Sie der Meinung, daß Schritte unternommen werden müssen, um diese Kostenentwicklung zu bremsen? Welche Maßnahmen gedenkt die Bundesregierung zu ergreifen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-09-24-07-186.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg109">Erstens ist es sicher richtig, daß ein erheblicher Kostenanstieg entstanden ist, der im übrigen auch im privaten Dienstleistungsbereich wegen der hohen Personalkostenintensität zu verzeichnen ist, die ja beide Bereiche — den öffentlichen und den privaten Dienstleistungsbereich — auszeichnet. Zweitens bin ich durchaus der Meinung, daß sich einige Bereiche für eine Untersuchung in der Richtung anböten, etwa von staatlichen Leistungen auf eine private Besorgung dieser Leistungen überzugehen. Das wird vor allem im Bereich der Kommunen zu untersuchen sein. Allerdings meine ich auf der anderen Seite, daß man die Möglichkeiten, in diesen Bereich zu Einsparungen zu kommen, nicht überschätzen sollte. Insbesondere bietet der große Bereich, der vom Bund beeinflußt werden kann, hier relativ wenig Ansatzpunkte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg110">Eine zweite Zusatzfrage, Herr Abgeordneter Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1975-09-24-07-186.u77" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg111">Herr Staatssekretär, wird die Bundesregierung eine Kommission einsetzen, die geeignete Bereiche der öffentlichen Verwaltung auf Privatisierungsmöglichkeiten hin durchleuchtet und im Benehmen mit den Ländern und den anderen öffentlichen Händen Vorschläge für eine rationalere Handhabe im Dienstleistungsverkehr der öffentlichen Verwaltung wie auch in Richtung Privatisierung macht?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-09-24-07-186.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg112">Die Bundesregierung wird alle Vorschläge sehr eingehend prüfen, die konkret in diesem Bereich gemacht werden. Ich verweise noch einmal darauf, daß gerade im Bereich der Kommunen Überlegungen im Gange sind und vor allem auch schon eine ganze Reihe von Beispielen praktiziert wird. Welche Schlußfolgerungen die Bundesregierung aus diesen konkreten Überlegungen ziehen wird, hängt vom Ergebnis der Initiativen ab, die im Augenblick bei den Kommunen im Gange sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg113">Eine weitere Zusatzfrage der Frau Abgeordneten Dr. Riedel-Martiny.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Riedel-Martiny (SPD) :</note>
+        <u who="#Q556817" xml:id="ParlaMint-DE_1975-09-24-07-186.u80" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg114">Herr Staatssekretär, hat die Bundesregierung die Arbeitsgemeinschaft der Verbraucher darauf aufmerksam gemacht, daß die Grundlage ihrer Presseveröffentlichung nach Meinung der Bundesregierung unzutreffend ist?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-09-24-07-186.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg115">Das ist, soweit ich weiß, Frau Kollegin, nicht geschehen. Meine Antwort und meine Kritik an der AGV hat sich auf die von dem Kollegen damit verbundene Fragestellung bezogen. Man kann durchaus der Meinung sein, daß auch eine Auswahl administrierter Preise, wie sie die AGV verwendet hat, eine Gesamttendenz der administrierten Preise wiedergibt. Nur sind die Schlußfolgerungen, die daraus in der Allgemeinheit und auch in der Darstellung der AGV gezogen werden, in dieser globalen Art nicht zutreffend.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg116">Eine weitere Zusatzfrage des Abgeordneten Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1975-09-24-07-186.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg117">Herr Staatssekretär, darf ich die Frage des Kollegen Jobst wiederholen, die Sie nicht beantwortet haben: Wird die Bundesregierung selber eine solche Kommission einsetzen und entsprechende Vorschläge machen, oder wird sie, wie Sie sagten, auf andere Vorschläge warten?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-09-24-07-186.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg118">Herr Kollege, ich habe die Frage indirekt beantwortet: Es ist nicht beabsichtigt, eine Kommission einzusetzen. Sollten konkrete Vorschläge mit entsprechender Auswirkung sichtbar werden, wird sich die Bundesregierung sicher intensiv damit befassen. Über die Form, in der das geschehen wird, kann ich im Augenblick keine Aussage machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg119">Eine Zusatzfrage des Abgeordneten Milz.</seg>
+        </u>
+        <note type="speaker">Milz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1975-09-24-07-186.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg120">Herr Staatssekretär, wird sich die Bundesregierung unter der Voraussetzung, daß das nach gründlicher Prüfung zweckmäßig erscheint, konsequent in diesen Bereichen für eine Privatisierung einsetzen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-09-24-07-186.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg121">Die Bundesregierung wird jede Gelegenheit nutzen, den Kostenanstieg zu bremsen, und jede Maßnahme ergreifen, die dafür zweckmäßig ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg122">Keine weitere Zusatzfrage. Wir sind am Ende Ihres Geschäftsbereichs angelangt. Ich danke Ihnen, Herr Staatssekretär Grüner, für die Beantwortung. Wir kommen zum Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten. Ich rufe die Frage 25 des Abgeordneten Kiechle auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg123">Um wieviel Millionen wird in der Bundesrepublik Deutschland die Ur-Produktion von Lebensmitteln durch Steuern verteuert, wenn die deutsche Landwirtschaft für Produktionsmittel 2 Mehrwertsteuer mehr bezahlt, ohne daß gleichzeitig die Vorsteuerpauschale entsprechend angehoben wird, und wie wirkt sich das auf die Wettbewerbsfähigkeit innerhalb der EG aus? Zur Beantwortung Herr Parlamentarischer Staatssekretär Logemann.</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg124">Herr Kollege Kiechle, Ihre Frage stellt sich so nicht. Die Bundesregierung hat in der Kabinettssitzung am 10. September 1975 beschlossen, daß die bestehenden Vorsteuerpauschalen für die Land- und Forstwirtschaft noch im Jahre 1976 auf der Basis der endgültigen Ergebnisse der volkswirtschaftlichen Gesamtrechnung für das Wirtschaftsjahr 1974/75 neu festgesetzt werden, und zwar so, daß weder Vor- noch Nachteile für die deutsche Land- und Forstwirtschaft entstehen. Durch eine derartige Regelung werden die durch die vorgesehene Anhebung der Mehrwertsteuer ab 1. Januar 1977 anfallenden Mehrausgaben durch höhere Mehrwertsteuereinnahmen ausgeglichen, so daß sich auch die Wettbewerbsstellung der deutschen Landwirtschaft innerhalb der EG nicht verändert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg125">Eine Zusatzfrage des Abgeordneten Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1975-09-24-07-186.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg126">Herr Staatssekretär, da allgemein bekannt ist, daß die Landwirtschaft mehr als die Hälfte — im Jahre 1972/73 konkret etwa 55 % —des Gesamtvolumens ihres Umsatzes an Vorleistungen erbringt, und da aus dieser Tatsache in etwa geschlossen werden kann, daß zu diesem Zweck eine Erhöhung der Vorsteuerpauschale um 1 % notwendig wäre, frage ich: Warum hat die Bundesregierung nicht klipp und klar gesagt: wir werden das so machen?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg127">Herr Kollege Kiechle, Sie werden sich daran erinnern, daß wir im letzten Jahr sehr lange gebraucht haben, um genaue Unterlagen für die damalige Erhöhung der Vorsteuerpauschale zusammenzubekommen. Es ist durchaus notwendig, daß wir uns zuerst bemühen, die volkswirtschaftliche Gesamtrechnung vorzulegen. Erst dann kann die Bundesregierung so entscheiden, daß für die Landwirtschaft weder Vor- noch Nachteile entstehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u93" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg128">Eine zweite Zusatzfrage, Herr Abgeordneter Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1975-09-24-07-186.u94" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg129">Herr Staatssekretär, darf ich Sie so verstehen, daß Sie den etwas vagen Beschluß des Bundeskabinetts — Vor- und Nachteile zu vermeiden — demnach so interpretieren, daß auf jeden Fall dafür Sorge getragen wird, daß die 2 % Mehrwertsteuer die Landwirte nicht mehr als andere Bürger in diesem Lande belasten werden?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg130">Zunächst mal möchte ich sagen: Der Kabinettsbeschluß ist durchaus nicht vage, sondern es sind zwei Entscheidungen getroffen worden: einmal, daß nach Vorliegen der volkswirtschaftlichen Gesamtrechnung eine Neufestsetzung der Vorsteuerpauschale mit Wirkung vom 1. Januar 1977 erfolgt, zweitens, daß die Landwirtschaft dabei weder Vor- noch Nachteile haben wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg131">Zu einer Zusatzfrage Herr Abgeordneter Dr. Ritz.</seg>
+        </u>
+        <note type="speaker">Dr. Ritz (CDU/CSU) :</note>
+        <u who="#Q1016490" xml:id="ParlaMint-DE_1975-09-24-07-186.u97" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg132">Herr Staatssekretär, sind Sie nicht mit mir der Auffassung, daß man ein hohes Maß an Unsicherheit in dieser Frage der Vorsteueranhebung beseitigen könnte, wenn zeitgleich die Anhebung der Mehrwertsteuer und der Vorsteuer beschlossen und nicht das eine vorgezogen würde, um dann auf irgendwelche Berechnungen im nächsten Jahr zu warten?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u98" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg133">Herr Dr. Ritz, ich darf wieder auf die Schwierigkeiten im Vorjahr verweisen, zu genauen Festlegungen zu kommen. Die Bundesregierung muß zunächst über Unterlagen verfügen, um zu solchen Festsetzungen kommen zu können, bei denen für die Landwirtschaft keine Nachteile entstehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u99" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg134">Keine Zusatzfrage. Ich rufe die Frage 26 des Abgeordneten Kiechle auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg135">Welche direkten irreparablen Einkommenssenkungen, ausgedrückt in DM, entstehen für die deutsche Landwirtschaft bei Abbau des Aufwertungsausgleichs von 3 % Mehrwertsteuer einschließlich Bundes- und Ländermittel in den ersten vier Jahren, und welchen Anteil, ausgedrückt in Prozenten, macht diese Einkommenssenkung am verfügbaren Konsumeinkommen der deutschen Landwirtschaft im ersten, zweiten, dritten und vierten Jahr aus?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg136">Der Aufwertungsausgleich über die Mehrwertsteuer in Höhe von 3 % dürfte der deutschen Landwirtschaft im Jahre 1975 rund 1,1 Milliarden DM direkte Einkommensverbesserungen gebracht haben. Der Abbau dieses von vornherein degressiv konzipierten Aufwertungsausgleichs um jährlich 0,75 Prozentpunkte ab 1. Januar 1976 führt bei Fortschätzung der Verkaufserlöse dazu, daß der Landwirtschaft in den Jahren 1976 bis 1978 noch rund 1,9 Milliarden DM zufließen werden. Bis Ende 1978 wird die Landwirtschaft damit nach der 1969 vollzogenen Aufwertung mehr als 10,6 Milliarden DM Ausgleichszahlungen erhalten haben. Gegenüber dem bisher gültigen Aufwertungsausgleich über die Mehrwertsteuer in Höhe von 3 % der Umsätze dürfte der beschlossene Abbau von jährlich 0,75 % dazu führen, daß die voraussichtlichen Steigerungsraten des Einkommens in dem durch die Testbetriebe des Agrarberichts repräsentierten Bereich der Vollerwerbslandwirtschaft im Wirtschaftsjahr 1975/76 um etwa 1 % und in den drei Folgejahren um reichlich 2 % niedriger sein werden. Die Marktentwicklung und die Kostenentwicklung in den nächsten Jahren werden darüber entscheiden, inwieweit diese rechnerischen Auswirkungen ausgeglichen werden können. Eine Addition dieser Prozentwerte ist wegen der im Marktprozeß mittel- und längerfristig generell bestehenden Anpassungsmöglichkeiten nicht zulässig. Der Abbau des Aufwertungsausgleichs wird deshalb zwar die tendenziellen Steigerungsraten des Einkommens der Landwirtschaft in den nächsten Jahren beeinflussen, aber nicht, wie in Ihrer Frage behauptet, zu irreparablen Einkommenssenkungen führen, Herr Kollege Kiechle.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg137">Eine Zusatzfrage, Herr Abgeordneter Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1975-09-24-07-186.u102" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg138">Herr Staatssekretär, da es sich hier nicht so sehr um Einkommensverbesserungen, sondern um Einkommensersatz wegen der damaligen Preissenkung handelt, möchte ich Sie fragen, ob im Rückschluß aus Ihrer hier eben vorgetragenen Rechnung, daß in den nächsten vier Jahren der Landwirtschaft noch rund 1,9 Milliarden DM zufließen, nicht besser gesagt werden müßte, daß die Landwirtschaft in diesem Zeitraum statt rund 3 Milliarden DM nurmehr 1,9 Milliarden DM erhält und am Ende eben doch eine Einkommensminderung in Höhe von 3 % des Gesamtverkaufs bestehenbleibt?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg139">Herr Kollege Kiechle, das habe ich nie bestritten, das hat auch die Bundesregierung nicht bestritten. In der Tat ist es so, daß dieser Einkommensausfall da sein wird. Andererseits ist es auch notwendig, auf die Tatsache hinzuweisen, daß der Landwirtschaft — wenn man vorschätzt — noch 1,9 Milliarden DM zufließen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u104" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg140">Eine zweite Zusatzfrage, Herr Abgeordneter Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1975-09-24-07-186.u105" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg141">Herr Staatssekretär, stimmen Sie mir dann wenigstens insoweit zu, daß, da sich die dreiprozentige Minderung auf den gesamten Verkaufsumsatz bezieht, während das eigentliche konsumfähige Einkommen höchstens 40 % davon betragen kann, der eigentliche Einkommensverlust wesentlich höher als 3 %, nämlich rund 7 %, sein muß?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u106" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg142">Nein, da stimme ich Ihnen so nicht zu. Ich habe in meiner Antwort eben schon darauf hingewiesen, daß die weitere Entwicklung der landwirtschaftlichen Erzeugerpreise in diesem Zeitraum wesentlich sein wird.</seg>
+          <vocal type="exclamat">
+            <desc>Kiechle [CDU/CSU]: Die 3 % bleiben doch immer bestehen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg143">— Die bleiben bestehen. Aber es wird davon abhängen, wieweit es möglich ist, durch die allgemeinen Preistendenzen diesen Verlust in Zukunft wieder aufzufangen, so daß man nicht genau sagen kann: Es tritt der und der Verlust ein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u107" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg144">Eine Zusatzfrage, Herr Abgeordneter Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU) :</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1975-09-24-07-186.u108" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg145">Herr Staatssekretär, bedeutet diese Ihre Hoffnung auf weitere Einkommenssteigerungen der Landwirtschaft, daß Sie bei den Preisverhandlungen in Brüssel danach streben werden, daß die Preisanhebungen für die deutsche Landwirtschaft höher sein werden als die für die Landwirtschaften der anderen Länder der Europäischen Gemeinschaft?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u109" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg146">Sie werden verstehen, daß ich darauf heute keine Antwort geben kann. Ich würde sonst Verhandlungen vorgreifen, die noch gar nicht fest terminiert sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u110" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg147">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Bremm (CDU/CSU) :</note>
+        <u who="#Q1566486" xml:id="ParlaMint-DE_1975-09-24-07-186.u111" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg148">Herr Staatssekretär, sind Sie mit mir der Auffassung, daß durch den Abbau dieses 3 %igen Ausgleichs bei der Mehrwertsteuer — und erst recht, wenn jetzt noch der Abbau des Grenzausgleichs für den Wein im Gespräch ist — für den deutschen Weinbau wieder eine weitere erhebliche Wettbewerbsverzerrung eintritt?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg149">Das sehe ich in diesem Umfang nicht. Auch hier, Herr Kollege, wird eben die gesamte Preisentwicklung mitentscheidend sein; das wird also auch für den Weinbau gelten. Die Entwicklung wird davon abhängen, wieweit sich unsere Preise nach oben bewegen. Ich habe ja ausdrücklich zugegeben, daß wir festhalten müssen, daß der zu erwartende Einkommensanstieg — etwa 1 °/o im nächsten Wirtschaftsjahr, in den folgenden Jahren jeweils gut 2 % —abgebremst wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg150">Eine weitere Zusatzfrage, Herr Abgeordneter Dr. Ritz.</seg>
+        </u>
+        <note type="speaker">Dr. Ritz (CDU/CSU) :</note>
+        <u who="#Q1016490" xml:id="ParlaMint-DE_1975-09-24-07-186.u114" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg151">Herr Staatssekretär, nachdem Sie den 3%igen Zuschlag zur Mehrwertsteuer als ein Einkommensplus für die Landwirtschaft in den abgelaufenen Jahren dargestellt haben, darf ich Sie fragen, ob es richtig ist, daß das Verhältnis von Erzeugerpreisen und Betriebsmittelpreisen noch im Jahre 1974/75 für die deutschen Landwirte erheblich schlechter war als etwa für die französische Landwirtschaft?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg152">Das gebe ich zu. Wenn Sie an den Quotienten denken, Herr Dr. Ritz, haben Sie recht. Aber Sie wissen auch ganz genau — und das wird meinerseits gleich noch in einer Antwort auf eine andere Frage zum Ausdruck kommen —, daß man nicht allein von einem Quotienten ausgehen darf, sondern auch andere Dinge mit zu berücksichtigen hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg153">Keine weiteren Zusatzfragen. Ich rufe Frage 27 des Herrn Abgeordneten Eigen auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg154">Was gedenkt die Bundesregierung zu unternehmen in bezug auf die Wettbewerbsverzerrungen zwischen dem deutschen und vor allem dein niederländischen Gartenbau, wenn ihre Bemühungen im Rahmen der Europäischen Gemeinschaften und in bilateralen Verhandlungen mit der niederländischen Regierung nicht zu dem gewünschten Erfolg führen, zumal der Preis für leichtes Heizöl in der letzten Zeit außerordentlich gestiegen ist? Bitte, zur Beantwortung Herr Parlamentarischer Staatssekretär Logemann.</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg155">Herr Kollege Eigen, ich bitte um Verständnis für meine kurze Antwort: Bei der Beantwortung dieser Frage nehme ich Bezug auf meine schriftliche Antwort zur Frage 42 in der Drucksache 7/4024. Während der laufenden Verhandlungen sieht sich die Bundesregierung aus naheliegenden Gründen nicht in der Lage, die gestellte Frage zu beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg156">Eine Zusatzfrage, Herr Abgeordneter Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU) :</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1975-09-24-07-186.u119" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg157">Herr Staatssekretär, Ihnen ist doch sicherlich bekannt, daß der holländische Landwirtschaftsminister van der Stee klar und deutlich zum Ausdruck gebracht hat, daß er bereit ist — und auch die entsprechende Absicherung des holländisehen Kabinetts hat - , die Zuschüsse für Energie, die von der Kommission vorgeschlagen und genehmigt sind, für den holländischen Gartenbau voll auszuschöpfen.</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg158">Das ist uns bekannt. Aber vielleicht ist Ihnen nicht bekannt — deshalb möchte ich es hier wiederholen —, daß wir ja in laufenden Verhandlungen stehen, um gerade darauf nun auch entsprechend zu reagieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg159">Eine zweite Zusatzfrage des Abgeordneten Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU) :</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1975-09-24-07-186.u122" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg160">Sind Sie nicht mit mir der Meinung, Herr Staatssekretär, daß, wenn wir auch in den letzten Tagen herrliches Wetter gehabt haben, die Gartenbauwirtschaft bei einer so existentiellen Frage, wie es die der Energieversorgung und der Kosten für die Energieversorgung ist, doch immerhin rechtzeitig etwas über die Intentionen der Bundesregierung erfahren muß?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u123" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg161">Durchaus, aber wir können nichts sagen, bevor nicht ein Verhandlungsergebnis vorliegt. Im übrigen, Herr Kollege Eigen, darf ich doch darauf hinweisen, daß die Bundesregierung im letzten Jahr den Unter-Glas-Anbau keineswegs im Stich gelassen hat. Ich habe hier eine Zusammenstellung, die ich kurz vortragen will: z. B. Gewährung von 38 Millionen DM im Haushaltsjahr 1974 — ergänzend hierzu haben die Länder Beihilfen von insgesamt rund 16 Millionen DM gewährt —, Gewährung von 25 Millionen DM im Haushaltsjahr 1975, Förderung von Investitionen zur Wärmedämmung durch einen 20%igen Zuschuß ab Januar 1975, Freistellung von Zins- und Tilgungslasten für 1974 und 1975 für Betriebe, die nach dem „Einzelbetrieblichen Förderungsprogramm" vor 1973 gefördert worden sind. Hinzu kommt noch — das wird Ihnen aber vielleicht bekannt sein —, daß die Bundesregierung Forschungsvorhaben zur Einsparung von Energie im Gartenbau finanziert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u124" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg162">Keine weiteren Zusatzfragen. Ich rufe Frage 28 des Herrn Abgeordneten Eigen auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg163">Wie verträgt sich die Behauptung von Bundeskanzler Schmidt in seiner Regierungserklärung vom 17. September 1975, daß der landwirtschaftliche Aufwertungsausgleich seinen Zweck erfüllt habe, mit der Tatsache, daß der Erzeugerpreisindex im Verhältnis zum Betriehsmittelindex in der Landwirtschaft der Bundesrepublik Deutschland noch niemals so schlecht (79,4 %)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg164">wie im Wirtschaftsjahr 1974/75 war?</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg165">Zur Beantwortung Herr Parlamentarischer Staatssekretär bitte.</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg166">Zwischen dem vorgesehenen schrittweisen Abbau des Teilausgleichs über die Mehrwertsteuer ab 1. Januar 1976 und dem Verhältnis aus Erzeuger- und Betriebsmittelpreisindex im abgelaufenen Wirtschaftsjahr sehe ich keinen direkten Zusammenhang, und zwar aus folgenden Gründen:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg167">Erstens. Das Preis-Kosten-Verhältnis gibt keine Auskunft über die tatsächliche Einkommensentwicklung in der Landwirtschaft, da Mengen-, Qualitäts- und Produktivitätsveränderungen — das sage ich auch zu Ihrer vorherigen Frage, Herr Dr. Ritz — unberücksichtigt bleiben. Diese Faktoren haben dazu geführt, daß die landwirtschaftlichen Einkommen trotz ungünstiger Preisentwicklung im vorigen Jahr weiter angestiegen sind. Zweitens darf nicht übersehen werden, daß sich das Preis-Kosten-Verhältnis in den letzten Monaten im Bundesgebiet und auch im Vergleich zu den anderen Mitgliedstaaten laufend verbessert hat. Im übrigen möchte ich darauf hinweisen, daß auch für 1975/76 mit einer weiteren Einkommenssteigerung in der Landwirtschaft gerechnet werden kann. Der Einkommenszuwachs dürfte durch den Abbau des Aufwertungsausgleichs über die Mehrwertsteuer 1975/76 lediglich — ich darf das wiederholen — um etwa 1 % und in den drei Folgejahren um gut 2 % geringer ausfallen. Den Abbau dieses Teilausgleichs hält die Bundesregierung für vertretbar, zumal er auch nur als begrenzte Übergangsmaßnahme nach der Aufwertung 1969 gedacht war. Im einzelnen verweise ich hierzu auf meine schriftliche Antwort auf Ihre Frage anläßlich der Fragestunde am 17. September 1975, Herr Kollege Eigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u126" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg168">Eine Zusatzfrage, Herr Abgeordneter Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU) :</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1975-09-24-07-186.u127" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg169">Herr Staatssekretär, wenn Sie die Entwicklung des Einkommens als wichtiger als die Entwicklung des Kaufwerts der Agrarprodukte erachten, dürfte Ihnen doch eigentlich bekannt sein, daß von 1968 — ausgehend von 100 % — bis 1973 die Einkommen der Landwirtschaft in der Bundesrepublik Deutschland auf 108 %, in Frankreich auf 152 % und in Großbritannien auf 146 % gestiegen sind. Wie verträgt sich das mit der soeben von Ihnen gemachten Aussage?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u128" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg170">Das verträgt sich schon, wie Sie sehen, wenn ich in Relation hierzu einmal die Entwicklung des Reineinkommens in der deutschen Landwirtschaft nenne: 1970/71 11 907 DM, 1973/74 19 972 DM, 1974/75 — geschätzt; ich hoffe, daß wir uns nicht verrechnet haben; ich gehe da von der oberen Grenze, von diesen genannten 8 % aus — 20 590 DM, 1975/76 — etwaige Voraussage bei der jetzigen Preisentwicklung — ca. 23 000 DM.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u129" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg171">Eine Zusatzfrage, Herr Abgeordneter Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU) :</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1975-09-24-07-186.u130" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg172">Herr Staatssekretär, wäre es nicht korrekter, wenn Sie auf einen Zeitpunkt vor der Aufwertung vom 23. September 1969 und nicht auf das katastrophalste Jahr der letzten zehn Jahre Bezug nähmen, um damit die Entwicklung der Einkommen statistisch darzustellen? Ich halte das für keine korrekte Handlungsweise.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u131" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg173">Ich kann das heute nicht bis 1962 zurückrechnen; da wäre ich zeitlich einfach überfordert. Ich gebe aber zu, daß wir auch damals positive Entwicklungen hatten. Das habe ich damit gar nicht abgestritten. Ich möchte hier nur auf die letzten Jahre Bezug nehmen, Herr Kollege Eigen, und da müssen Sie eines sehen. Die französische Landwirtschaft hat im Jahr 1974 eine Betriebsmittelpreiserhöhung von 26 % verkraften müssen. Bei uns waren es etwa zwischen 7 und 8 %. Die Italiener haben, glaube ich, 32 % zu verkraften gehabt. Angesichts dieser starken Betriebsmittelpreissteigerungen ist die Einkommensentwicklung in den Nachbarländern natürlich doch negativ verlaufen, obwohl der Quotient — da muß ich Dr. Ritz recht geben — zum Teil etwas anders aussah.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u132" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg174">Ich darf, bevor ich das Wort weitergebe, auf folgendes aufmerksam machen: Das Fragerecht beinhaltet, daß weder bei der Frage noch bei der Antwort Bewertungen vorgenommen werden dürfen. Ich möchte das nur noch einmal aus gegebenem Anlaß erwähnen. Zu einer Zusatzfrage hat das Wort der Abgeordnete Peters (Poppenbüll).</seg>
+        </u>
+        <note type="speaker">Peters (Poppenbüll) (FDP) :</note>
+        <u who="#Q2545769" xml:id="ParlaMint-DE_1975-09-24-07-186.u133" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg175">Herr Staatssekretär, könnten Sie uns die Indexzahlen für landwirtschaftliche Verkaufserlöse vom August dieses Jahres im Verhältnis zum Vorjahr und die Indexzahlen für die Betriebsmittelpreise, ebenfalls vom August dieses Jahres im Verhältnis zum vorigen Jahr, nennen.</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg176">Die Zahlen kann ich durchaus nennen, und zwar bezüglich der Entwicklung des Verhältnisses von Erzeugerpreisindex und Betriebsmittelpreisindex in der Landwirtschaft, Basis — Herr Kollege Eigen, damit komme ich Ihnen entgegen — 1961 bis 1963: Juli 1974 80,0, August 1974 77,4, September 1974 80,0, Oktober 1974 79,8, November 1974 81,1, Dezember 1974 81,0, Januar 1975 79,1, Februar 1975 80,1, März 1975 81,5, April 1975 82,0, Mai 1975 82,0, Juni 1975 83,5, .Juli 1975 85,8, August 1975 86,8.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u135" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg177">Eine weitere Zusatzfrage des Abgeordneten Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1975-09-24-07-186.u136" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg178">Herr Staatssekretär, da Sie vorhin über Prozentsätze in bezug auf den Anstieg der Produktionsmittel gesprochen und dabei Frankreich und Deutschland verglichen haben, darf ich Sie fragen: Geben Sie mir recht, daß das an und für sich keine exakte Aussage deswegen darstellt, weil es natürlich ein Unterschied ist, ob die Bezahlung einer französischen Maurerstunde, die bei etwa 9,80 DM lag, um 20 % oder die für eine deutsche, die bei etwa 22 DM lag, um 10 % steigt.</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u137" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg179">Herr Kollege Kiechle, da mögen Sie vielleicht recht haben. Ich kann Ihnen aber, wenn Sie das beruhigt, auch andere Zahlen nennen: Rückgang der landwirtschaftlichen Reineinkommen in Frankreich 1974 real minus 8,7 %, allgemeine Preissteigerungsrate real 11,2 %, Steigerung der Agrarpreise plus 4,4 %, Steigerung der landwirtschaftlichen Betriebsmittel-preise 23,9 %.</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg180">Oder wenn wir zu den Niederlanden hinüberschauen: Rückgang des Reineinkommens der landwirtschaftlichen Unternehmen im Jahre 1974/75 zwischen minus 6 bis minus 80 %— unterschiedlich, wie ja auch bei uns zum Teil —; Rückgang des Reineinkommens bei der Mehrzahl der Betriebsgruppen zwischen minus 20 und minus 40 %.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u138" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg181">Eine weitere Zusatzfrage des Abgeordneten Dr. Ritz.</seg>
+        </u>
+        <note type="speaker">Dr. Ritz (CDU/CSU) :</note>
+        <u who="#Q1016490" xml:id="ParlaMint-DE_1975-09-24-07-186.u139" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg182">Herr Staatssekretär, nachdem Sie vorhin auf die Erhöhung der Betriebsmittelpreise in Italien im vorigen Jahr in der Größenordnung von 26 °/o verwiesen haben, frage ich Sie: Wären Sie dann auch bereit, die Zahl hinzuzufügen, die ja von Ihnen selbst stammt, daß nämlich mit den nominalen administrativen Preiserhebungen über Brüssel in diesem Jahr für die italienischen Landwirte ein Plus von knapp 50 % an Erzeugerpreisen verbunden war?</seg>
+        </u>
+        <note type="speaker">Logemann, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1975-09-24-07-186.u140" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg183">Die Zahl habe ich nicht so genau im Kopf. Ich kann jetzt auch nicht genau sagen, ob ich sie jemals genannt habe.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Ritz [CDU/CSU] : Die haben Sie genannt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg184">— Ich bleibe dabei: Ich habe für Italien die Zahl von 32 % genannt, für Frankreich 26 %.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Ritz [CDU/CSU] : Aber Sie bleiben bei den 50 % für Erzeugerpreise bei den italienischen Landwirten?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg185">— Diese Zahl von 50 % habe ich heute doch nicht genannt.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Ritz [CDU/CSU] : Nicht heute, Sie haben sie früher einmal in der Fragestunde genannt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg186">Da möchte ich mich jetzt nicht festlegen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u141" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg187">Keine weitere Zusatzfrage. — Damit sind wir am Ende dieses Geschäftsbereiches angelangt. Ich danke Ihnen für die Beantwortung. Wir kommen zum Geschäftsbereich des Bundesminister für Arbeit und Sozialordnung. Ich rufe die Frage 29 des Abgeordneten Rollmann auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg188">Aus welchem Grund hat die Bundesregierung den Anwerbestopp für ausländische Arbeitskräfte aus Nicht-EG-Ländern, die in der Bundesrepublik Deutschland im gastronomischen Gewerbe arbeiten wollen, nicht aufgehoben oder wenigstens gelockert, obwohl nach einer Mitteilung des Deutschen Hotel- und Gaststättenverbands trotz hoher Arbeitslosigkeit noch immer 50 000 Fach- und Hilfskräfte im gastronomischen Gewerbe fehlen? Zur Beantwortung Herr Parlamentarischer Staatssekretär Buschfort.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg189">Herr Kollege Rollmann, gestatten Sie mir zunächst eine grundsätzliche Bemerkung. In der gegenwärtigen Arbeitsmarktsituation dient der Anwerbestopp vor allem dem Ziel, die Arbeitsplätze der inländischen Arbeitnehmer sicherer zu machen. Eine Aufhebung des Anwerbestopps wäre unter den gegebenen Umständen nicht zu verantworten. Längerfristig muß beachtet werden, daß im kommenden Jahrzehnt Arbeitsplätze für eine stark steigende Zahl von neu in das Erwerbsleben hineinwachsenden Jugendlichen zur Verfügung stehen müssen. Eine Anwerbung in der Form, wie sie bis 1973 bestand, kann es also künftig nicht mehr geben. Auf diese Entwicklung sollten sich die Wirtschaft insgesamt, vor allem aber jene Branchen einstellen, die bisher in erster Linie Ausländer anforderten, wenn personelle Engpässe auftraten. Es ist bekannt, daß einige Branchen von der Ausländerbeschäftigungspolitik besonders betroffen sind. Hierzu gehört zweifellos auch das Hotel- und Gaststättengewerbe. Dieser Situation wurde bei der Erteilung von erstmaligen Arbeitserlaubnissen Rechnung getragen: Während nach dem Erlaß der Bundesanstalt für Arbeit zum Arbeitserlaubnisverfahren vom 13. November 1973 erstmalige Arbeitserlaubnisse grundsätzlich nicht mehr erteilt werden, besteht diese Möglichkeit für legal in der Bundesrepublik beschäftigte Ausländer u. a. für das Hotel-und Gaststättengewerbe, sofern nachdrückliche eigene Bemühungen der Betriebe und die Vermittlungsanstregungen der Bundesanstalt für Arbeit ohne Erfolg geblieben sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg190">Eine Zusatzfrage des Abgeordneten Rollmann.</seg>
+        </u>
+        <note type="speaker">Rollmann (CDU/CSU) :</note>
+        <u who="#Q1223996" xml:id="ParlaMint-DE_1975-09-24-07-186.u144" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg191">Herr Staatssekretär, da Sie meine Frage nicht beantwortet haben, darf ich Sie fragen: Aus welchem Grunde haben Sie den Anwerbestopp nicht gelockert, obwohl es dem Hotel- und Gaststättengewerbe trotz aller Bemühungen bei deutschen wie bei ausländischen Arbeitnehmern, die bereits in der Bundesrepublik Deutschland leben, nicht gelungen ist, seinen Arbeitsplatzbedarf zu befriedigen? Warum wird hier nicht der Anwerbestopp wenigstens gelockert?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg192">Herr Kollege Rollmann, ich glaube, Sie sprechen jetzt von Ihrer zweiten Frage, die ich im Anschluß beantworten will. Zu Ihrer ersten Frage will ich noch einmal sagen: Die Bundesrepublik hat zur Zeit eine Million Arbeitslose, darunter 650 000 Leistungsempfänger. Kein Mensch würde es verstehen, und ich glaube, auch Ihre eigenen Fraktionskollegen würden es nicht verstehen, wenn wir jetzt den Anwerbestopp branchenbezogen aufheben würden. Das müßten wir dann nicht nur für diese Branche tun, sondern wir müßten es dann auch für den Bergbau, für die Gemüsebauern und für die Fischverarbeitung tun. Es ist überhaupt nicht daran zu denken, und die Bundesregierung denkt nicht daran, den Anwerbestopp aufzuheben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg193">Eine zweite Zusatzfrage des Herrn Abgeordneten Rollmann.</seg>
+        </u>
+        <note type="speaker">Rollmann (CDU/CSU) :</note>
+        <u who="#Q1223996" xml:id="ParlaMint-DE_1975-09-24-07-186.u147" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg194">Herr Staatssekretär, ist es nicht so, daß sich deutsche Arbeitslose nach wie vor weigern, in dem notwendigen Umfange in gewissen Branchen zu arbeiten, beispielsweise im Hotel- und Gaststättengewerbe, wo sich die Situation nicht verbessert hat?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u148" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg195">Herr Kollege Rollmann, es stehen ja auch genügend arbeitslose ausländische Arbeitnehmer zur Verfügung. Dann muß diese Branche eben alle Mittel einsetzen, um diese arbeitslosen ausländischen Arbeitnehmer einzustellen. Hinzuzufügen ist aber auch, daß wir es zur Zeit gerade im Hotel- und Gaststättengewerbe mit einer bestimmten Saisonlage zu tun haben. Auch aus diesem Grunde muß noch einmal unterstrichen werden, daß zur Zeit an eine Aufhebung des Anwerbestopps überhaupt nicht zu denken ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u149" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg196">Eine Zusatzfrage des Herrn Abgeordneten Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-09-24-07-186.u150" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg197">Herr Staatssekretär, muß ich Ihrer Antwort auf die Frage des Kollegen Rollmann nicht entnehmen, daß sich die Bundesregierung hier einer rein optischen Politik bedient, indem sie sich deswegen davon abhalten läßt, den Anwerbestopp einzuschränken oder zu lockern, weil sie rein optische Auswirkungen befürchtet, anstatt hier auf die Sache konkret einzugehen?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u151" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg198">Nein, Herr Kollege Jäger, hier geht es nicht um optische Eindrücke, sondern um die Erfüllung des wohlverstandenen Auftrags des Arbeitsförderungsgesetzes. In diesem Gesetz steht, daß der deutsche Arbeitnehmer bei der Vermittlung den Vorrang hat. Wir haben in der Bundesrepublik zahlreiche arbeitslose Arbeitnehmer. Von da her gesehen dient die Politik der Bundesregierung nicht der Optik, sondern gesetzlichen Notwendigkeiten.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei Abgeordneten der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u152" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg199">Eine Zusatzfrage des Herrn Abgeordneten Sauer.</seg>
+        </u>
+        <note type="speaker">Sauer (Salzgitter) (CDU/CSU) :</note>
+        <u who="#Q118277" xml:id="ParlaMint-DE_1975-09-24-07-186.u153" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg200">Herr Staatssekretär, können Sie mir sagen, wieviel Nachfragen von deutschen Arbeitnehmern für dieses Gewerbe bei den deutschen Arbeitsämtern zur Zeit vorhanden sind?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u154" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg201">Ich kann Ihnen das aus dem Stegreif nicht sagen, will diese Frage aber gerne nachträglich beantworten.</seg>
+          <vocal type="exclamat">
+            <desc>Sauer [Salzgitter] [CDU/CSU] : Sie müssen das doch vorher geprüft haben!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg202">— Herr Kollege, die Frage ist im Zusammenhang zu beantworten. Hier wurde gefragt, ob die Bundesregierung beabsichtigt, den Anwerbestopp in diesem Bereich aufzuheben.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Erneuter Zuruf des Abg. Sauer [Salzgitter] [CDU/CSU]</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u155" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg203">Eine Zusatzfrage des Herrn Abgeordneten Milz.</seg>
+        </u>
+        <note type="speaker">Milz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1975-09-24-07-186.u156" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg204">Herr Staatssekretär, Sie haben eben der angesprochenen Branche empfohlen, alle Möglichkeiten auf dem inländischen Arbeitsmarkt zu nutzen. Welche Möglichkeiten meinen Sie damit?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u157" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg205">Herr Kollege Milz, es gibt eine ganze Anzahl von Möglichkeiten.</seg>
+          <vocal type="exclamat">
+            <desc>Milz [CDU/CSU] : Zum Beispiel?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg206">Zu nennen sind hier beispielsweise die Mobilitätszulage und Reisekostenzuschüsse. Es gibt die überörtliche Vermittlungsmöglichkeit und die Beratungsmöglichkeit. Es gibt also eine ganze Anzahl von Möglichkeiten, die einmal die Bundesanstalt für Arbeit bietet; darüber hinaus muß allerdings auch erwartet werden, daß sich der Gastronom, der Arbeitskräfte sucht, auch selbst bemüht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u158" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg207">Eine Zusatzfrage, der Abgeordnete Lambinus.</seg>
+        </u>
+        <note type="speaker">Lambinus (SPD) :</note>
+        <u who="#Q2504480" xml:id="ParlaMint-DE_1975-09-24-07-186.u159" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg208">Herr Staatssekretär, wie beurteilen Sie die Tatsache, daß viele Kollegen der Opposition draußen im Lande herumreisen und gegen den hohen Anteil ausländischer Arbeitnehmer in der Bundesrepublik polemisieren,</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der CDU/CSU: Wer?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg209">hier aber nach Einzelvorteilen fragen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u160" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg210">Die Frage lasse ich nicht zu. Sie haben hier nicht nach der Opposition zu fragen, sondern Sie haben im Zusammenhang mit der Ausgangsfrage Fragen an die Regierung zu stellen. Es gibt hier kein Dreiecksfrageverhältnis. Ich rufe Frage 30 des Abgeordneten Rollmann auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg211">In welcher Weise wird die Bundesregierung dazu beitragen, dem Arbeitskräftemangel im gastronomischen Gewerbe abzuhelfen?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u161" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg212">Die Bundesregierung und die Bundesanstalt für Arbeit bemühen sich ständig, die Vermittlung von Arbeitsuchenden in Hotel- und Gaststättenbetriebe zu intensivieren und insbesondere den überregionalen Vermittlungsausgleich zwischen den Arbeitsämtern und Landesarbeitsämtern zu verstärken. Außerdem hat die Bundesregierung angeregt, auch Studenten, Schüler und anderen Personen, die nur eine zeitlich befristete Arbeit suchen, Tätigkeiten in der Gastronomie anzubieten. Soweit sich Vermittlungsschwierigkeiten aus den besonderen Arbeitsbedingungen in Hotel- und Gaststättenbetrieben ergeben, wurde die Bundesanstalt für Arbeit darauf hingewiesen, daß arbeitslose Leistungsempfänger grundsätzlich auch bereit sein müssen, eine zumutbare Beschäftigung im Hotel- und Gaststättengewerbe auszuüben. Die Bundesanstalt für Arbeit hat mit Erlaß vom 10. Juli 1975 ihre Dienststellen entsprechend angewiesen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u162" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg213">Eine Zusatzfrage des Abgeordneten Rollmann.</seg>
+        </u>
+        <note type="speaker">Rollmann (CDU/CSU) :</note>
+        <u who="#Q1223996" xml:id="ParlaMint-DE_1975-09-24-07-186.u163" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg214">Herr Staatssekretär, ist die Bundesregierung in dieser Frage mit dem Deutschen Hotel- und Gaststättenverband im Gespräch?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u164" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg215">Herr Kollege Rollmann, wir haben wiederholt Gespräche mit mehreren Branchenvertretern gehabt. Das Anliegen war aber immer gleich: sie möchten eine bevorzugte Stellung in bezug auf eine Lockerung des Anwerbestopps erhalten. In Anbetracht der derzeitigen Arbeitsmarktsituation ist diese Möglichkeit aber nicht gegeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u165" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg216">Eine zweite Zusatzfrage des Abgeordneten Rollmann.</seg>
+        </u>
+        <note type="speaker">Rollmann (CDU/CSU) :</note>
+        <u who="#Q1223996" xml:id="ParlaMint-DE_1975-09-24-07-186.u166" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg217">Herr Staatssekretär, wie sieht die Bundesregierung diese Frage unter dem Gesichtspunkt der unausgeglichenen Bilanz im deutschen Fremdenverkehr? Die Bundesregierung führt ja selbst darüber Klage, daß zuwenig Deutsche im Inland und zuwenig Ausländer in Deutschland ihren Urlaub verbringen können.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u167" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg218">Herr Kollege Rollmann, ich glaube nicht, daß die Personalfrage dabei ausschlagggebend ist. Sicherlich gibt es dafür eine ganze Anzahl anderer Gründe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u168" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg219">Eine Zusatzfrage, bitte schön, Herr Kollege!</seg>
+        </u>
+        <note type="speaker">Wolfram (Recklinghausen) (SPD) :</note>
+        <u who="#Q1353541" xml:id="ParlaMint-DE_1975-09-24-07-186.u169" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg220">Herr Staatssekretär, teilen Sie meine Auffassung, daß es in einer Marktwirtschaft in erster Linie Aufgabe der zuständigen Branche ist, sich um die erforderlichen Arbeitskräfte zu bemühen, und daß sie das um so leichter tun kann, wenn eine Arbeitsmarktlage wie die derzeitige gegeben ist, noch dazu wenn man berücksichtigt, daß die Bundesregierung alles getan hat, um die Mobilität der Arbeitskräfte zu erhöhen und zu verbessern?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u170" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg221">Herr Kollege, ich kann Ihre Auffassung nur unterstreichen. Wir haben seit jeher die eigene Anstrengung des Unternehmens oder der Unternehmer in den Vordergrund gestellt. Hier wird jetzt plötzlich erwartet, daß die Bundesanstalt für Arbeit für eine volle Befriedigung des in einer Branche notwendigen Arbeitskräftebedarfs sorgt. Das hat es auch in der Vergangenheit nicht gegeben. Die Unternehmen haben auch in der Vergangenheit eine ganz beachtliche Anstrengung unternehmen müssen, um den jeweiligen Bedarf abdecken zu können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u171" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg222">Eine Zusatzfrage, der Abgeordnete Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-09-24-07-186.u172" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg223">Herr Staatssekretär, müßte nicht die Erfolglosigkeit der von Ihnen soeben dargestellten umfangreichen Bemühungen der Arbeitsverwaltung, die sich in den 50 000 offenen Stellen eindeutig dokumentiert, den Schluß nahelegen, daß eine Lockerung des Anwerbestopps eben doch die einzig sinnvolle und vernünftige, diesem Gewerbezweig zugute kommende Haltung wäre?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u173" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg224">Nein, Herr Kollege Jäger, ich glaube nicht, daß das die einzige sinnvolle Lösungsmöglichkeit wäre. Sinnvoller ist es, größere Anstrengungen zu unternehmen, daß die derzeit Arbeitslosen in offene Arbeitsstellen vermittelt werden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg225">Wie Sie wissen, beraten wir zur Zeit eine Gesetzesinitiative, nach der die Vermittlungschancen besser als bisher geregelt werden sollen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u174" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg226">Eine Zusatzfrage, der Abgeordnete Milz.</seg>
+        </u>
+        <note type="speaker">Milz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1975-09-24-07-186.u175" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg227">Herr Staatssekretär, ist es richtig, wenn ich Ihre Auffassung in folgender Weise zusammenfasse: Die Gastronomie ist an diesen Schwierigkeiten selber schuld?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u176" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg228">Zum Teil haben Sie sicherlich recht, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u177" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg229">Eine Zusatzfrage, der Abgeordnete Spitzmüller.</seg>
+        </u>
+        <note type="speaker">Spitzmüller (FDP) :</note>
+        <u who="#Q1408590" xml:id="ParlaMint-DE_1975-09-24-07-186.u178" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg230">Herr Staatssekretär, würden Sie nicht eine wirksame Hilfe bei der Besetzung der freien Stellen darin sehen, daß der Begriff der Zumutbarkeit der anzunehmenden Arbeit für den Arbeitslosen anders gefaßt wird, als es bisher der Fall ist?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u179" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg231">Herr Kollege Spitzmüller, ich kann das nur voll unterstreichen. Mich überrascht allerdings in diesem Moment der Beifall der Opposition, denn genau diese Änderung befindet sich zur Zeit in der Ausschußberatung.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe von der CDU/CSU</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u180" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg232">Ich rufe die Frage 31 des Abgeordneten Dr. Franz auf. — Der Fragesteller ist nicht anwesend. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 32 des Abgeordneten Metzger auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg233">Stimmt die von privaten Versicherungsvertretern zuweilen aufgestellte Behauptung, daß Selbständige, die nach der Rentenreform 1972 der gesetzlichen Rentenversicherung beigetreten sind, nur einen Anspruch auf das Altersruhegeld, aber keinen Anspruch auf eine Hinterbliebenenrente und auf eine Rente wegen Erwerbsunfähigkeit erwerben, und welche Voraussetzungen müssen erfüllt sein, wenn entgegen diesen Behauptungen ein Selbständiger eine Erwerbsunfähigkeitsrente erhält? Zur Beantwortung, bitte, Herr Parlamentarischer Staatssekretär Buschfort!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u181" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg234">Herr Kollege Metzger, die Behauptung, daß Selbständige, die nach der Rentenreform 1972 der gesetzlichen Rentenversicherung beigetreten sind, nur einen Anspruch auf Altersruhegeld, aber keinen Anspruch auf eine Hinterbliebenenrente und auf eine Rente wegen Erwerbsunfähigkeit erwerben können, ist nicht zutreffend. Die Voraussetzung für den Bezug jeder Rente aus der gesetzlichen Rentenversicherung, also auch einer Rente wegen Erwerbsunfähigkeit und einer Hinterbliebenenrente, sind für abhängig Beschäftigte und Selbständige gleich. Die Rente wegen Erwerbsunfähigkeit an Selbständige setzt voraus, daß diese eine Versicherungszeit von 60 Kalendermonaten zurückgelegt haben und eine selbständige Erwerbstätigkeit nicht mehr ausüben (§ 1247 Abs. 1 bis 3 RVO).</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u182" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg235">Eine Zusatzfrage, der Abgeordnete Metzger.</seg>
+        </u>
+        <note type="speaker">Metzger (SPD) :</note>
+        <u who="#Q1561666" xml:id="ParlaMint-DE_1975-09-24-07-186.u183" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg236">Herr Staatssekretär, gibt es für das Entstehen der Ansprüche auf Hinterbliebenenrente oder auf Rente wegen Erwerbsunfähigkeit bestimmte Altersvoraussetzungen?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u184" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg237">Bei der Erwerbsunfähigkeitsrente ist eine Versicherungszeit von 60 Kalendermonaten notwendig. Voraussetzung für das Altersruhegeld sind 15 Beitragsjahre. Hier ist allerdings die altersmäßige Bezogenheit zu beachten: entweder Inanspruchnahme der flexiblen Altersgrenze nach dem 62. bzw. 63. Lebensjahr, wenn die dafür notwendigen Voraussetzungen gegeben sind, ansonsten Rente mit dem 65. Lebensjahr. Diese Voraussetzungen sind aber für Selbständige und für abhängig Beschäftigte gleich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u185" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg238">Keine Zusatzfrage. Ich rufe die Fragen 33 und 34 des Abgeordneten Freiherr von Fircks auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg239">Hat die Bundesregierung im Zuge der weiteren Entwicklung der Kontakte mit der Regierung der Volksrepublik Polen, insbesondere im Rahmen der Verhandlungen über die Vereinbarung eines Abkommens über Renten- und Unfallversicherung zwischen der Bundesrepublik Deutschland und der Volksrepublik Polen, Erkenntnisse darüber gewinnen können, ob und in welchem Umfang bei der Rentenberechnung nach polnischem Sozialversicherungsrecht auch solche Beschäftigungszeiten anspruchsbegründend bzw. rentensteigernd berücksichtigt werden, die in den unter polnischer Verwaltung stehenden Gebieten und im Gebiet der freien Stadt Danzig bis 1945 bei deutschen Versicherungsträgern zurückgelegt worden sind? Wie hoch schätzt die Bundesregierung die Zahl der unter polnischer Verwaltung und im Gebiet Polens in den Grenzen vom 1. September 1939 lebenden Deutschen im Sinne des Grundgesetzes sowie die anteilige Zahl derjenigen Personen, die Versicherungszeiten in der reichsgesetzlichen Rentenversicherung zurückgelegt haben, und auf welches statistische Material stützen sich diese Schätzungen der Bundesregierung? Bitte, zur Beantwortung, Herr Parlamentarischer Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u186" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg240">Anläßlich der Verhandlung hat der polnische Verhandlungspartner an Hand eines von unserer Seite erstellten Fragenkatalogs eingehende Auskünfte über die Gestaltung des polnischen Sozialversicherungsrechts gegeben. Danach berücksichtigen polnische Versicherungsträger Zeiten in den früheren deutschen Ostgebieten einschließlich der freien Stadt Danzig, in denen eine Beschäftigung als Arbeitnehmer ausgeübt wurde, oder Zeiten, die den Beschäftigungszeiten gleichgestellt, sind z. B. KZ-Zeiten. Dabei kommt es nicht darauf an, ob eine Versicherung in der deutschen Rentenversicherung bestanden hat. Zu Ihrer zweiten Frage führe ich folgendes aus. Die genaue Zahl der Deutschen im Sinne des Grundgesetzes, die im Gebiet Polens in den Grenzen vom 1. September 1939 und in den unter polnischer Verwaltung stehenden Gebieten leben, sowie die anteilige Zahl derjenigen Personen, die Versicherungszeiten in der reichsgesetzlichen Rentenversicherung zurückgelegt haben, sind nicht bekannt. Geschätzt wird, daß zur Zeit 600 000 bis 700 000 Deutsche in den genannten Gebieten leben. Diese Zahl basiert auf einem Bericht des Statistischen Bundesamts vom 4. November 1959, wonach im Jahre 1950 in diesen Gebieten rund 1,1 Millionen Deutsche lebten. Die Differenz der Zahlen beruht in erster Linie auf der natürlichen Bevölkerungsbewegung, d. h. der Geburtenentwicklung und der Sterberate. Bei der Berechnung wurde ferner die Zahl der Aussiedler berücksichtigt, die der Statistik „Aussiedler und über das freie Ausland aufgenommene Vertriebene" entnommen wurde. Diese Statistik wird vom Bundesminister des Innern herausgegeben. Wegen des Fehlens einer statistisch gesicherten Altersstruktur kann die Zahl der Personen, die Versicherungszeiten in der reichsgesetzlichen Rentenversicherung zurückgelegt haben, nur grob auf 100 000 bis 180 000 geschätzt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u187" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg241">Zu einer Zusatzfrage Herr Abgeordneter Freiherr von Fircks.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1975-09-24-07-186.u188" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg242">Herr Staatssekretär, habe ich Sie richtig verstanden, daß aus den Gesprächen und Verhandlungen deutlich geworden und verhandlungsmäßig abgesichert ist, daß die beitragslosen Versicherungszeiten wie Arbeitslosenzeiten, Kriegsdienstzeiten, Gefangenschaft und Ausfallzeiten wie Schulzeiten — so wie es in unserem Sozialversicherungsrecht ist — jetzt auch dort berücksichtigt werden sollen?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u189" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg243">Herr Kollege Freiherr von Fircks, es ist richtig, was Sie sagen. Nur müssen diese Zeiten in die besonderen Voraussetzungen des polnischen Versicherungsrechts eingeordnet werden. Z. B. gilt für die Inanspruchnahme des Altersruhegeldes in Polen eine andere Voraussetzung als bei uns. Dort geht man von einer 20jährigen Versicherungszeit aus. Richtig ist aber, daß daß die Zeiten, die in dem ehemaligen Deutschen Reich oder in der Bundesrepublik oder aber in den anderen Bereichen zurückgelegt worden sind, grundsätzlich so behandelt werden, als wären sie in Polen zurückgelegt worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u190" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg244">Zu einer zweiten Zusatzfrage Herr Abgeordneter Freiherr von Fircks.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1975-09-24-07-186.u191" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg245">Herr Staatssekretär, ist gesichert, daß die Personen, die davon eine Vergünstigung haben würden, über diese Vereinbarungen und ihre Folgerungen informiert werden, damit sie selber beurteilen können, ob sie sich mit Anträgen oder durch andere Schritte, wie sie in Polen üblich sind, in ihrem eigenen Interesse an die zuständige Stelle in Polen wenden können?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u192" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg246">Herr Kollege, der bisherige Öffentlichkeitsgrad der angestrebten Vereinbarung ist jetzt schon recht groß. Ich bin ganz sicher, daß, wenn die Verträge einmal unterzeichnet sein werden, sowohl die Bundesrepublik als auch die polnische Seite dazu beitragen werden, daß der Vertragsinhalt den Betroffenen zugänglich gemacht wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u193" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg247">Zu einer weiteren Zusatzfrage Herr Abgeordneter Freiherr von Fircks, bitte schön!</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1975-09-24-07-186.u194" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg248">Herr Staatssekretär, drüben gibt es doch sicher eine Gruppe ganz alter Menschen, die nur Versicherungszeiten in der deutschen Versicherung zurückgelegt und nur dort eingezahlt haben. Wird sich die Vereinbarung auch für diesen Personenkreis der ganz alten Menschen noch positiv auswirken?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u195" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg249">Herr Kollege, hier dürfte sich das Bild gegenüber dem bisherigen Rechtszustand verändern. Diese Deutschen in Polen werden in Zukunft nicht mehr darauf angewiesen sein, sagen wir einmal, freiwillige Leistungen des polnischen Staates entgegennehmen zu müssen, sondern sie werden Leistungen mit einem Rechtsanspruch erhalten, der auf Versicherungszeiten begründet ist, die im Deutschen Reich zurückgelegt worden sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u196" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg250">Letzte Zusatzfrage des Herrn Abgeordneten von Fircks.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU):</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1975-09-24-07-186.u197" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg251">Wie hoch schätzt die Bundesregierung die Zahl derjenigen Deutschen, die auf Grund von reichsgesetzlichen Versicherungszeiten nach Eintritt des Rentenfalls schon jetzt rentenberechtigt sind, und wie groß ist die Zahl derjenigen Personen, die künftig Ansprüche unter Berücksichtigung auch deutscher Versicherungszeiten haben werden? Läßt sich die Frage heute beantworten?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u198" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg252">Ich kann die Frage heute nicht beantworten. Wir hatten schon besondere Schwierigkeiten, die alten Werte zusammenzusuchen. Es gibt darüber noch keine gesicherten Angaben. Ich werde aber veranlassen, einmal nachzuprüfen, in welchem Umfange wir diese Frage beantworten können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u199" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg253">Eine Zusatzfrage des Herrn Abgeordneten Hösl.</seg>
+        </u>
+        <note type="speaker">Hösl (CDU/CSU) :</note>
+        <u who="#Q1525110" xml:id="ParlaMint-DE_1975-09-24-07-186.u200" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg254">Herr Staatssekretär, sind die von Ihnen erwarteten Rechte der Betroffenen in Polen aus der Vereinbarung abzuleiten, oder ist das nur eine Hoffnung von Ihnen?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u201" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg255">Die sind aus der Vereinbarung abzuleiten. Das gilt im übrigen auch im Umkehrverhältnis für Deutsche, die jetzt hier sind und im polnischen Bereich zurückgelegte Zeiten vorweisen können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u202" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg256">Eine Zusatzfrage des Abgeordneten Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-09-24-07-186.u203" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg257">Herr Staatssekretär, ist die von Ihnen eben in der Antwort auf die Frage 34 genannte Zahl von 600 000 bis 700 000 Deutschen bei den Gesprächen über die Pauschalierung der Rentenansprüche mit der polnischen Seite zur Sprache gebracht worden, und ist die von dort bestritten worden?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u204" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg258">Herr Kollege, ich habe an diesen Verhandlungen nicht teilgenommen. Ich kann Ihnen auf diese Frage im Augenblick keine Angaben machen. Sie könnte wohl auch nur von Vertretern des Auswärtigen Amtes beantwortet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u205" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg259">Ich rufe die Frage 35 der Abgeordneten Frau Dr. Rehlen auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg260">Welche Maßnahmen ergreift die Bundesanstalt für Arbeit, um Schulabgängern, die weder einen Ausbildungsvertrag abschließen noch einen Arbeitsplatz finden können, dennoch die Eingliederung in das Arbeitsleben zu erleichtern? Zur Beantwortung, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u206" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg261">Die von Ihnen genannten Schulabgänger können auf der Grundlage des Arbeitsförderungsgesetzes an berufsvorbereitenden Maßnahmen teilnehmen. Das sind im einzelnen Grundausbildungslehrgänge, Förderungslehrgänge und Lehrgänge zur Verbesserung der Eingliederungsmöglichkeiten. Grundausbildungslehrgänge werden für Schulentlassene eingerichtet, die wegen des Mangels an Ausbildungsstellen oder wegen ihrer schulischen Leistungen keine betrieblichen Ausbildungsstellen erhalten. Außerdem werden entsprechende Lehrgänge arbeitslosen Jugendlichen angeboten, für die aus den gleichen Gründen eine Berufsausbildung nicht in Betracht kommt. Förderungslehrgänge werden für noch nicht berufsreife Schulentlassene durchgeführt. Lehrgänge zur Verbesserung der Eingliederungsmöglichkeiten sollen nicht berufsreifen Personen, die wegen einer Behinderung mit Sicherheit nicht für eine Berufsausbildung in Betracht kommen, die Eingliederung auf dem Arbeitsmarkt ermöglichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u207" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg262">Eine Zusatzfrage der Frau Abgeordneten Dr. Rehlen.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Rehlen (SPD) :</note>
+        <u who="#Q1437096" xml:id="ParlaMint-DE_1975-09-24-07-186.u208" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg263">Herr Staatssekretär, sind diese Maßnahmen auf weitere berufliche Qualifikation oder mehr auf Allgemeinbildung abgestimmt?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u209" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg264">Diese beruflichen Bildungsgänge sind unter beiden Aspekten zu bewerten. Wir kennen einmal das Ziel, Lücken in der Allgemeinbildung zu schließen, und bieten natürlich gleichzeitig auch einen ganzen Bereich von Förderungsmaßnahmen an, die auf die erste Ausbildung abgestellt sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u210" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg265">Eine zweite Zusatzfrage, Frau Abgeordnete Dr. Rehlen.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Rehlen (SPD):</note>
+        <u who="#Q1437096" xml:id="ParlaMint-DE_1975-09-24-07-186.u211" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg266">Wird die Bundesregierung diese Maßnahmen in die geplante Novelle zum Arbeitsförderungsgesetz einbeziehen und, wenn ja, plant die Bundesregierung, diese Maßnahmen zu erweitern oder einzuschränken?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u212" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg267">Diese Maßnahmen waren bisher schon Gegenstand der Förderung nach dem Arbeitsförderungsgesetz. Bei den vorgesehenen Änderungen wird dieser Förderungsbereich nicht beeinträchtigt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u213" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg268">Ich rufe die Frage 36 der Frau Abgeordneten Dr. Rehlen auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg269">Konnten bisher alle Schulabgänger, die an solchen Maßnahmen teilnehmen wollten, auch berücksichtigt werden? Zur Beantwortung der Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u214" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg270">Inwieweit die Nachfrage in allen Einzelfällen abgedeckt werden konnte, läßt sich nicht sagen. Hierüber ist keine Statistik geführt worden. Die starke Erweiterung der Maßnahmen ist aber ein Hinweis darauf, daß die Anzahl der geförderten Maßnahmen und der Teilnehmer entsprechend dem gestiegenen Bedarf ausgeweitet wurde. Um geeignete Träger zu gewinnen, gewährt die Bundesanstalt für Arbeit auch eine institutionelle Förderung. In diesem Zusammenhang möchte ich darauf hin- weisen, daß neben der Bundesanstalt für Arbeit auch die Länder auf Grund ihrer Zuständigkeit für das Schulwesen eine Reihe von Maßnahmen mit dem Ziel durchführen, die berufliche Eingliederung von Schulentlassenen, die schwer vermittelbar sind, zu erleichtern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u215" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg271">Frau Dr. Rehlen, zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Rehlen (SPD) :</note>
+        <u who="#Q1437096" xml:id="ParlaMint-DE_1975-09-24-07-186.u216" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg272">Herr Staatssekretär, gibt es Wartelisten für Schulabgänger, die solche Maßnahmen in Anspruch nehmen wollen, und wenn ja, für welche Berufe und in welchen Bundesländern?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u217" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg273">Frau Kollegin, mir ist nichts von Wartelisten bekannt. Mir ist wohl bekannt, daß es bestimmte Schwierigkeiten gegeben hat, bereitgestellte Lehrgänge zu besetzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u218" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg274">Eine zweite Zusatzfrage, Frau Abgeordnete Dr. Rehlen.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Rehlen (SPD) :</note>
+        <u who="#Q1437096" xml:id="ParlaMint-DE_1975-09-24-07-186.u219" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg275">Nehmen an solchen Lehrgängen Jungen und Mädchen in gleicher Weise teil, oder gibt es da signifikante Unterschiede?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u220" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg276">Frau Kollegin, das müßte ich prüfen. Auf Anhieb würde ich sagen, daß die Inanspruchnahme solcher Lehrgänge durch Jungen stärker ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u221" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg277">Eine Zusatzfrage, Herr Abgeordneter Milz.</seg>
+        </u>
+        <note type="speaker">MHz (CDU/CSU) :</note>
+        <u who="#Q2077082" xml:id="ParlaMint-DE_1975-09-24-07-186.u222" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg278">Herr Staatssekretär, wird die Bundesregierung alles tun, auch der nicht berufsreifen weiblichen Jugend alle Möglichkeiten zu geben, in der Weise ausgebildet zu werden, damit der Übergang in normale Berufe leichter wird?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u223" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg279">Herr Kollege, wir bieten jetzt schon ein breites Spektrum an Förderungsmaßnahmen an; diese Maßnahmen sollen auch aufrechterhalten werden. Nur, verstehen Sie bitte, daß wir uns durch die öffentliche Diskussion jetzt nicht verleiten lassen dürfen, Programme aufzustellen, die dann anschließend nicht in Anspruch genommen werden,</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u224" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg280">Die Fragen 37 und 38 der Abgeordneten Frau Schuchardt, die Fragen 39 und 40 des Abgeordneten Hölscher sowie die Fragen 41 und 42 des Abgeordneten von Schoeler werden auf Wunsch der Fragesteller schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Ich rufe die Frage Nr. 43 des Abgeordneten Dr. Evers auf. — Der Fragesteller ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 44 des Abgeordneten Geisenhofer auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg281">Teilt die Bundesregierung die Feststellung des Präsidenten der Bundesversicherungsanstalt für Angestellte, die Rentenleistungen seien bei den derzeitigen Beiträgen nur für die „nächste Zukunft abgedeckt", und welche Konsequenzen ergeben sich hieraus? Zur Beantwortung bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u225" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg282">Herr Kollege Geisenhofer, der Präsident der Bundesversicherungsanstalt für Angestellte hat zutreffend davor gewarnt, die derzeitige Wirtschaftslage in alle Zukunft fortzuschreiben und dadurch ein unzutreffendes Bild über die Finanzlage der gesetzlichen Rentenversicherungen zu erzeugen. Zur Überbrückung des Konjunktureinbruchs steht den Rentenversicherungsträgern eine Reserve von zur Zeit rund 45 Milliarden DM zur Verfügung. Die Bundesregierung wird in wenigen Wochen den Rentenanpassungsbericht 1976 fertigstellen und darin die langfristigen finanziellen Perspektiven der gesetzlichen Rentenversicherungen darlegen. Ich möchte Sie deshalb um Ihr Verständnis bitten, daß ich hier den Ergebnissen der dem Rentenanpassungsbericht 1976 zugrunde zu legenden Abstimmungen nicht vorgreifen kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u226" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg283">Eine Zusatzfrage, Herr Abgeordneter Geisenhofer.</seg>
+        </u>
+        <note type="speaker">Geisenhofer (CDU/CSU) :</note>
+        <u who="#Q1449615" xml:id="ParlaMint-DE_1975-09-24-07-186.u227" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg284">Herr Staatssekretär, nach Ihren Aussagen kann man also annehmen, daß die Situation in der Rentenversicherung in Ordnung ist?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u228" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg285">Ja, davon dürfen Sie ausgehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u229" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg286">Eine zweite Zusatzfrage, Herr Abgeordneter Geisenhofer.</seg>
+        </u>
+        <note type="speaker">Geisenhofer (CDU/CSU) :</note>
+        <u who="#Q1449615" xml:id="ParlaMint-DE_1975-09-24-07-186.u230" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg287">Wurde bei Ihrer Auskunft, Herr Staatssekretär, auch berücksichtigt, daß sich aus den Milliarden-Beiträgen, die jetzt auf Grund der günstigen Nachversicherungsmöglichkeit für Selbständige und für Hausfrauen eingehen, auch sofort oder wenigstens in den nächsten Jahren Rentenansprüche ergeben, so daß diese Einnahmen keine echten Einnahmen, sondern durchlaufende Einnahmen sind, denen sofort die Ausgaben folgen werden, so daß diese Milliarden-Einnahmen eigentlich von den Gesamteinnahmen abgesetzt werden müßten?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u231" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg288">Herr Kollege Geisenhofer, Sie haben völlig recht. Weil es sich um eine unechte Einzahlung handelt, haben wir diesen Betrag auch nicht bei der Rücklage berücksichtigt, sondern kostenneutral verbucht.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Geisenhofer [CDU/CSU] : Vielen Dank!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u232" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg289">Keine Zusatzfrage? Ich rufe die Frage 45 des Herrn Abgeordneten Freiherr von Kühlmann-Stumm auf. — Der Fragesteller ist nicht anwesend. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Die Frage 46 des Herrn Abgeordneten Schröder (Lüneburg)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg290">wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 47 des Abgeordneten Horstmeier auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg291">Ist der Bundesregierung bekannt, daß Halbwaisengeld nach dem Altershilfegesetz für Landwirte nur dann ausgezahlt wird, wenn der Unternehmer gestorben ist, und daß der Unternehmer selber 60 Monate Beiträge gezahlt haben muß, weil bei einem früheren Todesfall die Beiträge der Witwe nicht zählen, und gedenkt die Bundesregierung, hier Abhilfe zu schaffen? Bitte, zur Beantwortung, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u233" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg292">Herr Kollege Horstmeier, laufende Leistungen nach dem Gesetz über eine Altershilfe für Landwirte können frühestens gewährt werden, wenn durchgehend für mindestens 60 Kalendermonate Beiträge vom Unternehmer gezahlt worden sind. Dies gilt auch für das Waisengeld. Liegt im Zeitpunkt des Versicherungsfalles eine Beitragszeit von 60 Kalendermonaten nicht vor, kann dieser Mangel ebenso wie in allen anderen Zweigen der Sozialversicherung nachträglich nicht geheilt werden. In der Altershilfe für Landwirte gibt es allerdings die Vergünstigung, daß der überlebende Ehegatte die Beitragsleistungen des verstorbenen Ehegatten mit eigenen Beiträgen auffüllen kann. Deswegen ist es hier möglich, daß beim Tode des zweiten Elternteils Vollwaisengeld auch dann gezahlt wird, wenn die erforderliche Mindestbeitragszeit von 60 Kalendermonaten nur durch Zusammenrechnung der Beiträge beider Ehegatten erreicht wird. Eine Änderung der gesetzlichen Regelung ist nicht beabsichtigt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u234" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg293">Eine Zusatzfrage, der Abgeordnete Horstmeier.</seg>
+        </u>
+        <note type="speaker">Horstmeier (CDU/CSU) :</note>
+        <u who="#Q1904092" xml:id="ParlaMint-DE_1975-09-24-07-186.u235" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg294">Darf ich Ihnen einige Unterlagen zugehen lassen, wo Ablehnungsbescheide vorliegen?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-09-24-07-186.u236" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg295">Bitte!</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u237" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg296">Keine Zusatzfragen. Wir sind am Ende Ihres Geschäftsbereichs angelangt. Ich danke Ihnen, Herr Staatssekretär, für die Beantwortung. Ich rufe noch den Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit auf, zunächst die Frage 48 des Abgeordneten Amling:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg297">Zieht die Bundesregierung in Erwägung, von Personen, die aus Staaten in die Bundesrepublik Deutschland einreisen, in denen Polioerkrankungen verbreitet auftreten, einen Impfnachweis beim Grenzübertritt zu verlangen? Zur Beantwortung bitte, Herr Parlamentarischer Staatssekretär Zander!</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1975-09-24-07-186.u238" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg298">Herr Kollege Amling, in den vergangenen Jahren sind immer wieder einmal Fälle von Poliomyelitis-Erkrankungen festgestellt worden, bei denen die Infektionsquellen in Staaten lagen, in denen die Poliobekämpfung noch nicht die Erfolge aufzuweisen hat, die wir in der Bundesrepublik verzeichnen können. Die Zahl dieser Erkrankungsfälle ist jedoch insgesamt so gering, daß der personelle Aufwand einer theoretisch möglichen Kontrolle von Impfnachweisen an den Grenzen, Flugplätzen und Schiffshäfen angesichts des starken Reiseverkehrs in keinem Verhältnis zu der seuchenhygienischen Bedeutung dieser Fälle stehen würde.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u239" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg299">Keine Zusatzfrage. Ich rufe die Frage 49 des Abgeordneten Amling auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg300">Wenn nein, welche vorbeugenden Maßnahmen hält die Bundesregierung für erforderlich, um die Einschleppung der Kinderlähmung aus Ländern wie z. B. der Türkei zu verhindern? Zur Beantwortung Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1975-09-24-07-186.u240" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg301">Die sicherste Maßnahme zur Vorbeugung gegen Poliomyelitis ist und bleibt die Schluckimpfung. Sie ist nicht nur billiger, sondern auch effektiver als Grenzkontrollen, weil sie nicht nur gegen die aus Epedemiegebieten eingeschleppten Fälle schützt. In Übereinstimmung mit den obersten Gesundheitsbehörden der Länder bin ich der Meinung, daß die Bemühungen um eine möglichst vollständige Teilnahme der zur Impfung aufgerufenen Bevölkerung an den kostenlosen Impfaktionen weitergeführt werden müssen, zumal das Impfrisiko bei der Polioschluckimpfung nachgewiesenermaßen außerordentlich gering ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u241" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg302">Keine Zusatzfrage. Ich rufe die Frage 50 des Abgeordneten Dr. Haenschke auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg303">Welche Möglichkeiten der Förderung und Unterstützung durch die Bundesregierung für Mitbürger mit besonders kleinem Wuchs sind bisher gegeben bzw. für die Zukunft geplant? Bitte schön, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1975-09-24-07-186.u242" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg304">Herr Kollege Dr. Haenschke, eine Reihe von Gesetzen berücksichtigt die Belange von besonders kleinwüchsigen Menschen. Sie fallen unter den Schutz des neuen Schwerbehindertengesetzes, wenn ihre Körpergröße nach Abschluß des Wachstums 1,30 m nicht übersteigt. In diesem Falle stellt das zuständige Versorgungsamt auf Antrag die Schwerbehinderteneigenschaft des Betreffenden fest mit der Konsequenz, daß er in den Genuß bestimmter gesetzlicher Vergünstigungen kommt, u. a. Bevorzugung bei der Einstellung und Beschäftigung, besonderer Kündigungsschutz sowie Zusatzurlaub von sechs Tagen jährlich. Als Schwerbehinderte erhalten besonders kleinwüchsige Menschen ferner die vorgesehenen steuerlichen Erleichterungen nach § 33 b des Einkommensteuergesetzes. Soweit Menschen, die dem genannten Personenkreis angehören, laufende Hilfe zum Lebensunterhalt nach dem Bundessozialhilfegesetz erhalten, werden körperbedingte zusätzliche Bedarfslagen, etwa bei der Bemessung von Bekleidungszulagen oder der Beschaffung von bestimmtem Hausrat, besonders berücksichtigt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u243" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg305">Eine Zusatzfrage, der Abgeordnete Dr. Haenschke.</seg>
+        </u>
+        <note type="speaker">Dr. Haenschke (SPD) :</note>
+        <u who="#Q1443359" xml:id="ParlaMint-DE_1975-09-24-07-186.u244" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg306">Herr Staatssekretär, ist die Bundesregierung bereit, ihren Einfluß auch dahin gehend geltend zu machen, daß die Normen für den Hochbau so geändert werden, daß sie den Bedürfnissen der kleinen Menschen entgegenkommen?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1975-09-24-07-186.u245" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg307">Herr Kollege Haenschke, ich werde mich bemühen, festzustellen, welche Einflußmöglichkeiten hier gegeben sind, bin aber ganz sicher, daß sie auch genutzt werden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u246" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg308">Keine weitere Zusatzfrage. Ich rufe die Frage 51 des Abgeordneten Schäfer (Appenweier)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg309">auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg310">Liegen der Bundesregierung Untersuchungsergebnisse vor, die eine Verhaltensbeeinflussung von Kindern durch „Spielen" mit Kriegsspielzeug ausweisen, wenn ja, welcher Art sind diese Erkenntnisse?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1975-09-24-07-186.u247" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg311">Herr Kollege Schäfer, Untersuchungsergebnisse speziell im Hinblick auf die Beeinflussung des Verhaltens von Kindern durch Spielen mit Kriegsspielzeug liegen nur in unzureichendem Umfange vor.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u248" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg312">Eine Zusatzfrage, der Abgeordnete Schäfer.</seg>
+        </u>
+        <note type="speaker">Schäfer (Appenweier) (SPD) :</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1975-09-24-07-186.u249" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg313">Ist die Bundesregierung gegebenenfalls bereit, die Erforschung der Ursachen der Kriminalität auch unter Einbeziehung der in der Frage genannten Tatbestände stärker als bisher zu fördern?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für .Jugend. Familie und Gesundheit:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1975-09-24-07-186.u250" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg314">Herr Kollege Schäfer, mit dieser Frage befaßt sich der Wissenschaftliche Beirat der Arbeitsgemeinschaft Spielzeug e. V. Ich werde die Anregung, die Sie ausgesprochen haben, gerne weitergeben. Aber es gibt auch Untersuchungen dieser Art.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u251" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg315">Keine weitere Zusatzfrage. Ich rufe die Frage 52 des Abgeordneten Schäfer (Appenweier)</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg316">auf:</seg>
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg317">Beabsichtigt die Bundesregierung, die Herstellung und den Vertrieb von Kriegsspielzeug in der Bundesrepublik Deutschland zu untersagen, und was sind die Gründe für die Haltung der Bundesregierung in dieser Frage? Bitte schön, zur Beantwortung, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Jugend, Familie. und Gesundheit:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1975-09-24-07-186.u252" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg318">Herr Kollege Schäfer, die Bundesregierung ist der Auffassung, daß Kriegsspielzeug aus erzieherischen Gründen abzulehnen ist. Herstellungs- und Vertriebsverbote sind jedoch so schwerwiegende Beschränkungen der verfassungsrechtlich gewährleisteten Gewerbefreiheit, daß sie sich nur rechtfertigen lassen, wenn zumindest ein hoher Wahrscheinlichkeitsgrad für eine schädigende Auswirkung der Beschäftigung mit Kriegsspielzeug festgestellt werden kann. Derartiges Spielzeug ist in seiner Art und Funktion so unterschiedlich, daß es kaum möglich sein dürfte, verfassungskonforme gesetzliche Beschränkungen unter dem Aspekt einer mutmaßlichen schädigenden Auswirkung auf Kinder festzulegen. Der zur Zeit im Bundesministerium für Jugend, Familie und Gesundheit vorbereitete Entwurf für eine Neufassung des Gesetzes zum Schutz der Jugend in der Öffentlichkeit sieht für Kinder ein Verbot der Anwesenheit in Spielhallen vor, in denen Grausamkeit oder kriegerische Handlungen dargestellt werden oder in denen Schießeinrichtungen benutzt werden, mit denen Feuerstöße abgegeben werden. Auch außerhalb von Spielhallen darf Kindern in der Öffentlichkeit die Teilnahme an derartigen Spielen nicht gestattet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u253" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg319">Eine Zusatzfrage des Abgeordneten Schäfer.</seg>
+        </u>
+        <note type="speaker">Schäfer (Appenweier) (SPD) :</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1975-09-24-07-186.u254" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg320">Herr Staatssekretär, kann ich Ihre Antwort so verstehen, daß sich bei Vorlage eindeutigerer Forschungsergebnisse, die einen möglichen Zusammenhang zwischen Kriminalität und Spielen mit Kriegsspielzeug ergeben, die Bundesregierung im Zielkonflikt zwischen erzieherischem Wert auf der einen Seite und Gewerbefreiheit auf der anderen Seite so entscheiden könnte, wie in der Frage unterstellt wird?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1975-09-24-07-186.u255" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg321">Herr Kollege Schäfer, wenn nachweisbar ein ganz fester Zusammenhang bestünde, müßte man die Frage neu durchdenken. Aber die bisherigen — zugegebenermaßen: unvollkommenen — Untersuchungsergebnisse deuten nicht in die von Ihnen vermutete Richtung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u256" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg322">Eine Zusatzfrage des Abgeordneten Dr. Abelein.</seg>
+        </u>
+        <note type="speaker">Dr. Abelein (CDU/CSU) :</note>
+        <u who="#Q109221" xml:id="ParlaMint-DE_1975-09-24-07-186.u257" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg323">Sieht die Bundesregierung Indianerfederbüsche und Holzbeile ebenfalls als schädliches Kriegsspielzeug an?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Wolfram [Recklinghausen] [SPD] : Das war die Frage eines Professors!</desc>
+        </vocal>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1975-09-24-07-186.u258" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg324">Herr Kollege Abelein, ich habe mich nicht zu einzelnen Kriegsspielzeugen geäußert. Aber ich würde die von Ihnen hier angesprochene Kategorie, mit der sicher sehr viele, die hier im Raum sind, früher zu tun hatten, als nicht schädlich ansehen. Aber es gibt doch ohne Zweifel eine Reihe von Arten von Kriegsspielzeug, bei denen dieser Zusammenhang untersucht werden muß und bei denen der Verdacht naheliegt, daß sie für Kinder unter Umständen schädlich sein könnten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident von Hassel:</note>
+        <u who="#Q65526" xml:id="ParlaMint-DE_1975-09-24-07-186.u259" ana="#chair">
+          <seg id="ParlaMint-DE_1975-09-24-07-186.seg325">Keine weitere Zusatzfrage. Die Fragestunde von 90 Minuten ist für heute abgelaufen. Ich berufe die nächste Sitzung auf morgen, Donnerstag, den 25. September 1975, 9 Uhr ein und schließe die heutige Sitzung.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.32 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

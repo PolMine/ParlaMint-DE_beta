@@ -1,0 +1,1435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1975-10-22-07-195">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 7. Wahlperiode, 195. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 22.10.1975 (195. Sitzung der 7. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 7, Session 195 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1975-10-22 (Session 195 in Legislative Period 7)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="195">195. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">7. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="195">Session 195</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">Legislative Period 7</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 22.10.1975</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1975-10-22</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488222/b10bae395e887aac9ac08afbd1da62fc/pp07-data.zip</idno>
+          <date when="1975-10-22">1975-10-22</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1975-10-22">1975-10-22</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="U1">
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg1">Die Sitzung ist eröffnet. Meine Damen und Herren, bevor wir mit der Arbeit beginnen, habe ich die große Freude und Ehre, eine Delegation der Nationalversammlung des Königreichs Thailand auf der Diplomatentribüne begrüßen zu können.</seg>
+          <kinesic type="applause">
+            <desc>Lebhafter Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg2">Es ist uns eine besondere Freude, nach so langer Unterbrechung frei gewählte Parlamentarier Thailands in unserem Lande und im Deutschen Bundestag willkommen heißen zu können. Ich gebe der Hoffnung Ausdruck, daß die Begegnungen und Gespräche während Ihres Aufenthalts nützlich gewesen sind und Ihnen die Bestätigung einer guten, freundschaftlichen Zusammenarbeit zwischen unseren Ländern gegeben haben. Wir wünschen Ihnen bei Ihrer Arbeit für den Aufbau einer demokratischen Ordnung nachhaltigen und guten Erfolg.</seg>
+          <kinesic type="applause">
+            <desc>Erneuter Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg3">Meine Damen und Herren, nach einer interfraktionellen Vereinbarung soll die Tagesordnung um die in einer Ihnen vorliegenden Liste aufgeführten Vorlagen ergänzt werden:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg4">Beratung des Antrags des Ausschusses nach Artikel 77 des Grundgesetzes (Vermittlungsausschuß)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg5">zu dem Gesetz zur Änderung des Straßenverkehrsgesetzes — Drucksache 7/4065 —Berichterstatter: Abgeordneter Erhard (Bad Schwalbach)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg6">Beratung des Antrags des Ausschusses nach Artikel 77 des Grundgesetzes (Vermittlungsausschuß)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg7">zu dem Gesetz zur Förderung von Wohnungseigentum und Wohnbesitz im sozialen Wohnungsbau — Drucksache 7/4180 —Berichterstatter: Abgeordneter Jahn (Marburg)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg8">Ich sehe und höre keinen Widerspruch; es ist so beschlossen. Beide Vorlagen sollen am Freitag um 9 Uhr aufgerufen werden. Die folgenden amtlichen Mitteilungen werden ohne Verlesung in den Stenographischen Bericht aufgenommen Der Bundesrat hat in seiner Sitzung am 17. Oktober 1975 den nachstehenden Gesetzen zugestimmt bzw. einen Antrag gemäß Artikel 77 Abs. 2 GG nicht gestellt:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg9">Gesetz über die Feststellung eines Nachtrags zum Bundeshaushaltsplan für das Haushaltsjahr 1975 (Nachtragshaushaltsgesetz 1975)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg10">Gesetz zur Änderung des Luftverkehrsgesetzes (8. Änderungsgesetz)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg11">Gesetz zu dem Übereinkommen vom 1. Juni 1967 über das Verhalten beim Fischfang im Nordatlantik Sozialgesetzbuch (SGB)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg12">— Allgemeiner Teil —</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg13">Gesetz über die Statistik im Produzierenden Gewerbe Gesetz zur Änderung von Bezeichnungen der Richter und ehrenamtlichen Richter Der Parlamentarische Staatssekretär beim Bundesminister für Wirtschaft hat mit Schreiben vom 16. Oktober 1975 die Kleine Anfrage der Abgeordneten Höcherl, Leicht, Dr. Häfele, Dr. Narjes und der Fraktion der CDU/CSU betr. Exportlücke und außenwirtschaftliches Gleichgewicht — Drucksache 7/4080 — beantwortet. Sein Schreiben ist als Drucksache 7/4163 verteilt. Der Bundesminister für Verkehr und für das Post- und Fernmeldewesen hat mit Schreiben vom 16. Oktober 1975 die Kleine Anfrage der Abgeordneten Dr. Stavenhagen, Leicht, Dr. Schäuble, Benz, Dr. Prassler, Dr. Evers, Dr. Hauser (Sasbach)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg14">, Dr. Artzinger und Genossen betr. geplante Rheinstaustufe bei Neuburgweier — Drucksache 7/4077 — beantwortet. Sein Schreiben ist als Drucksache 7/4165 verteilt. Der Bundesminister der Finanzen hat mit Schreiben vom 17. Oktober 1975 die Kleine Anfrage der Abgeordneten Schröder (Lüneburg)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg15">, Dr. Dollinger, Dr. Köhler (Duisburg)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg16">, Dr. von Bismarck, Dreyer, Dr. Hornhues, Dr. Gruhl, Dr. Althammer, Dr. Waigel und Genossen und der Fraktion der CDU/ CSU betr. finanzielle Beteiligung des Bundes — Drucksache 7/4075 — beantwortet. Sein Schreiben ist als Drucksache 7/4182 verteilt. Die Stellungnahme des Bundesrates sowie die Gegenäußerung der Bundesregierung dazu zum Entwurf eines Gesetzes zur Verbesserung der Haushaltsstruktur (Haushaltsstrukturgesetz)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg17">— Drucksache 7/4127 — wird als Drucksache 7/4193 verteilt. Meine Damen und Herren, es liegen dann Anträge zur Geschäftsordnung vor. Ich gebe zunächst für die Fraktion der SPD dem Herrn Abgeordneten Porzner das Wort.</seg>
+        </u>
+        <note type="speaker">Porzner (SPD) :</note>
+        <u who="#Q121730" xml:id="ParlaMint-DE_1975-10-22-07-195.u2" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg18">Herr Präsident! Meine verehrten Damen und Herren! Alle Fraktionen sind sich darüber einig, daß das Gesetz zur Änderung dienstrechtlicher Vorschriften in dieser Woche im Bundestag behandelt werden sollte; offen blieb nur, ob am Donnerstag oder am Freitag. Den Einwand, diese politische Debatte könne an einem Freitag nicht geführt werden, wollen wir nicht gelten lassen, denn der Freitag ist Arbeitstag für den Deutschen Bundestag.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD und der FDP — Zurufe von der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg19">Für die sozialdemokratische Fraktion hat in dieser Woche die Beratung des Haushaltsstrukturgesetzes Vorrang vor allem anderen. Dieses Gesetz ist zusammen mit dem schon verabschiedeten Gesetz zur Förderung von Bau- und anderen Investitionen eine Voraussetzung für die Erhaltung der sozialen Sicherheit und für die wirtschaftliche Stabilisierung in unserem Lande. Dieser Gesetzentwurf ist sehr umfangreich und auch sehr schwierig. Er wird heute in den Ausschüssen beraten; zum Teil haben heute noch Anhörungen stattgefunden. Niemand kann jetzt mit Gewißheit sagen, ob alle mitberatenden Ausschüsse mit ihrer Arbeit so rechtzeitig fertig werden, daß dem federführenden Haushaltsausschuß die Berichte heute abend vorliegen werden. In sechs Stunden wäre das, meine Damen und Herren, von der CDU/CSU, wahrscheinlich einfacher zu entscheiden. Die Fraktionen von SPD und FDP beantragen deswegen jetzt, die zweite und dritte Beratung des Gesetzes zur Änderung dienstrechtlicher Vorschriften und die erste Beratung des genannten Gesetzes, in dem es um den Vorbereitungsdienst geht, auf die Tagesordnung zu setzen, und zwar am Freitag, dem 24. Oktober, unmittelbar nach der Abstimmung über die Vorschläge des Vermittlungausschusses. Wir beantragen, beide Gesetzentwürfe in verbundener Debatte zu beraten.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD und der FDP</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg20">Für die Fraktion der CDU/CSU hat der Herr Abgeordnete Dr. Jenninger das Wort.</seg>
+        </u>
+        <note type="speaker">Dr. Jenninger (CDU/CSU) :</note>
+        <u who="#Q214060" xml:id="ParlaMint-DE_1975-10-22-07-195.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg21">Herr Präsident! Meine sehr verehrten Damen und Herren! Namens der CDU/CSU-Bundestagsfraktion bitte ich, den Antrag des Kollegen Porzner insoweit abzulehnen, als die Koalitionsfraktionen wünschen, die zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung dienstrechtlicher Vorschriften am kommenden Freitag vorzusehen. Statt dessen beantrage ich, diese zweite und dritte Beratung am morgigen Donnerstag, dem 23. September, 9 Uhr anzuberaumen. Die Begründung der Koalition, die wir eben gehört haben, ist nicht stichhaltig. Sie entspricht nicht den Tatsachen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg22">Nach den Erkundigungen, die ich bei den Ausschüssen des Deutschen Bundestages eingezogen habe, ist die Geschäftslage der Ausschüsse mit Ausnahme des Haushaltsausschusses so, daß sie mit der Beratung des sogenannten Artikelgesetzes am heutigen Mittwoch fertig werden.</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg23">Darüber hinaus hat mir der Vorsitzende des Haushaltsausschusses mitgeteilt, daß die einzelnen mitberatenden Ausschüsse offiziell dem Sekretariat des Haushaltsausschusses mitgeteilt haben, daß die Beratungen heute abgeschlossen würden</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg24">und daß die Berichte rechtzeitig vorliegen würden.</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg25">Es besteht, meine Damen und Herren, demnach kein sachlicher Grund mehr, dem Antrag der Koalition zu folgen und unseren Antrag abzulehnen.</seg>
+          <vocal type="exclamat">
+            <desc>Rawe [CDU/CSU] : Da müssen die doch etwas anderes im Schilde führen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg26">Wenn die Koalitionsfraktionen nunmehr trotzdem darauf bestehen, dieses sogenannte Radikalengesetz am Freitag zu debattieren, dann sehen wir darin eine schikanöse und unfaire Behandlung der Minderheit dieses Hauses.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg27">Es gehört zu den selbstverständlichen Usancen dieses Parlaments, daß man dem Wunsch einer Fraktion nach einer ausführlichen Debatte eines Tagesordnungspunktes Rechnung trägt. Sie aber wollen eine ausführliche Debatte zu diesem Punkt verweigern.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU — Dr. Marx [CDU/CSU] : Das ist ihnen peinlich!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg28">Sie mißachten damit nicht nur die Spielregeln eines sachgerechten und vernünftigen Umgangs miteinander, Sie leisten damit auch einen weiteren Beitrag zur Aushöhlung und Denaturierung dieses Parlaments.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg29">Dies muß in diesem Zusammenhang einmal deutlich und anklagend gesagt werden, meine sehr verehrten Damen und Herren. Es ist eines der bedauerlichen Kennzeichen sozialliberaler Regierungspraxis und ihrer Mehrheit in diesem Hause, daß sich einerseits die Regierung monatelang Zeit läßt zur Vorbereitung ihrer Initiativen, daß diese sogar dann, wie in zahlreichen Beispielen festgestellt, unausgegoren und unausgereift in dieses Parlament kommen und daß man dann diese Dinge in wenigen Wochen durch das Parlament peitscht und zum Schluß nicht einmal die Gelegenheit gibt, darüber in diesem Parlament ausführlich zu diskutieren.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg30">Es ist offensichtlich, meine Damen und Herren von der Koalition, daß Sie einer ausführlichen Erörterung der Frage der Zulassung von Angehörigen radikaler Gruppen zum öffentlichen Dienst aus dem Wege gehen wollen.</seg>
+          <vocal type="exclamat">
+            <desc>Rawe [CDU/CSU] : Das ist der wahre Grund!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg31">Sie wollen dieses Thema gewissermaßen im Handgalopp zwischen Frühstück und den üblichen Abreiseterminen am Freitag, zwischen Tür und Angel hier abhandeln.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Marx [CDU/CSU] : Das machen wir nicht mit!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg32">Dies in einer so wichtigen und seit Jahren in der deutschen Öffentlichkeit heiß diskutierten Frage ist nicht nur unangemessen, es zeigt auch, meine Damen und Herren von der Koalition, mit erschreckender Deutlichkeit, welch geringe Bedeutung Sie dem Kampf und der Auseinandersetzung mit den Feinden unserer Verfassung und unserer freiheitlichen demokratischen Grundordnung beimessen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU — Dr. Marx [CDU/CSU] : Macht da die FDP mit? — Zurufe von der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg33">Aber wir wissen ja auch, was hinter dieser Verfahrenstaktik steckt. Sowohl SPD als auch FDP wollen im Hinblick auf ihre bevorstehenden Parteitage diese lästige Problematik lautlos vom parlamentarischen Tisch haben, um ihren Systemveränderern und den Radikalensympathisanten in ihren Reihen einen Gefallen zu erweisen. Die Opposition betrachtet sich nicht als Erfüllungsgehilfen einer solchen Parteitagsstrategie.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg34">Wir verlangen eine ausführliche Debatte zu diesem Punkt und eine klare Aussage auch der Koalitionsparteien zu diesen Fragen vor diesem Forum des deutschen Volkes.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der FDP: Am Freitag!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg35">Wenn der Kollege Porzner anführt, auch der Freitag müsse ein Arbeitstag sein, dann möchte ich das in dieser Form klar akzeptieren. Wir stellen uns auch dieser Herausforderung, wenn Sie uns in der anschließenden Abstimmung niederstimmen. Aber ich kann mir die Bemerkung nicht versagen, daß das kein anständiger Stil und auch kein ordentlicher Umgang mit den Kollegen aller Fraktionen dieses Hauses ist,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg36">die seit Wochen für den Freitagnachmittag und Freitagabend Termine festgelegt haben</seg>
+          <vocal type="exclamat">
+            <desc>Aha-Rufe von der SPD</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg37">und die Sie jetzt an der Wahrnehmung dieser Arbeit hindern. Aber wenn Sie uns auch in diesem Bereich die totale Konfrontation aufzwingen wollen: Bitte, wir können Sie nicht daran hindern. Wir legen allerdings Wert darauf, daß wir wenigstens in den Geschäftsordnungsfragen in der Weise wie bisher auch in der Zukunft ein Einvernehmen zwischen den Koalitionsfraktionen und der Opposition sicherstellen können. Deswegen beantragen wir, den Antrag des Kollegen Porzner abzulehnen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg38">Meine Damen und Herren, zur Geschäftsordnung hat das Wort der Herr Abgeordnete Kirst.</seg>
+        </u>
+        <note type="speaker">Kirst (FDP) :</note>
+        <u who="#Q2522417" xml:id="ParlaMint-DE_1975-10-22-07-195.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg39">Herr Präsident! Meine sehr geehrten Damen und Herren! Es kann ja wohl kein Zweifel darüber bestehen,</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der CDU/CSU: Doch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg40">daß vereinbart war — das zeigt wieder einmal, was Vereinbarungen wert sind —,</seg>
+          <vocal type="exclamat">
+            <desc>Rawe [CDU/CSU] : Es war nichts vereinbart! Sie sind falsch unterrichtet!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg41">daß die Ausschüsse am Mittwoch und am Donnerstag tagen. Das war vereinbart.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg42">Im übrigen haben wir Sie ja nicht heute mittag urn 13 Uhr und auch nicht gestern oder vorgestern mit der Absicht überrascht, das Gesetz über die Änderung dienstrechtlicher Vorschriften am Freitag, dem 24. Oktober 1975, zu beraten. Das ist eine seit Wochen bekannte Absicht. Nur, im letzten Augenblick, in der Ältestenratssitzung in der vergangenen Woche, waren Sie dann nicht bereit, dieser Regelung, die längst ins Auge gefaßt war, zuzustimmen. Herr Dr. Jenninger, es ist ja nicht wahr, daß alle Ausschüsse mit ihren Beratungen fertig sind, und kein Mensch kann garantieren, daß die beteiligten Ausschüsse heute abend mit ihren Beratungen fertig sind.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der CDU/CSU: Doch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg43">Sicherlich wäre es schön, wenn dem so wäre. Außerdem: Nach der Vorgeschichte deutet doch diese Erklärung von Ihnen darauf hin, daß Sie das Versprechen, das Sie uns in der vergangenen Woche gemacht haben, Sie würden mit konstruktiven Änderungsvorschlägen in den Ausschüssen aufwarten, unberechtigterweise abgegeben haben,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg44">daß sich das, wie erwartet, als Fata Morgana erweisen wird. Im übrigen: Wir möchten die Ausschüsse, weder unsere Mitglieder noch Sie, bei der Bedeutung des Haushaltsstrukturgesetzes, das zunächst einmal Vorrang haben muß, eben nicht unter einen irgendwie gearteten Zeitdruck setzen. Deshalb halten wir an dieser Planung fest. Schließlich, Herr Kollege Jenninger: Sie können es wirklich nicht als Schikane bezeichnen, wenn wir Sie bitten, so wie wir unsere Pflicht zu erfüllen. Und diese Pflicht bedeutet, daß man auch freitags hier arbeitet.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg45">Ob Sie mit Ihren Einwänden gegen eine Debatte am Freitag</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf des Abg. Reddemann [CDU/CSU]</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg46">dem Ansehen des Parlaments einen guten Dienst erweisen, ist mir zweifelhaft.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg47">Sie argumentieren, Sie wollten lange und ausführlich diskutieren. Herr Dr. Jenninger, wir sind bereit, mit Ihnen am Freitag zeitlich unbegrenzt zu diskutieren. Aber wir werden ja sehen, wer von Ihnen dann noch hier ist.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP und der SPD</desc>
+        </kinesic>
+      </div>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksache 7/4161 —</head>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u7" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg48">Meine Damen und Herren, weitere Wortmeldungen zur Geschäftsordnung liegen nicht vor. Wir kommen zur Abstimmung. Wer dem Antrag der Fraktionen der SPD und der FDP, die zweite und dritte Beratung des Gesetzes zur Änderung dienstrechtlicher Vorschriften — Drucksache 7/4183 — und das eingebrachte Gesetz zur Änderung dienstrechtlicher Vorschriften — Drucksache 7/4187 — in erster Beratung auf die Tagesordnung für Freitag, den 24. Oktober 1975, zu setzen, zustimmen will, den bitte ich um das Zeichen. — Danke. Gegenprobe! —</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der CDU/CSU: Mehrheit!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg49">Enthaltungen? — Meine Damen und Herren, das erstere war die Mehrheit; damit ist der Antrag der Fraktionen der SPD und der FDP angenommen und der Antrag der CDU/CSU-Fraktion gegenstandslos. Ich schlage vor, daß wir einen Augenblick warten und um 13.15 Uhr dann mit der Fragestunde beginnen.</seg>
+          <vocal type="interruption">
+            <desc>Unterbrechung von 13.14 bis 13.16 Uhr</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg50">Ich rufe Punkt 1 der Tagesordnung auf: Fragestunde — Drucksache 7/4161 —</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg51">Meine Damen und Herren, ich möchte darauf hinweisen, daß wir auch in dieser Woche — abweichend von den Richtlinien für die Fragestunde — zwei Fragestunden mit einer jeweiligen Dauer von 90 Minuten durchführen. Nach § 127 der Geschäftsordnung muß diese Abweichung von der Geschäftsordnung beschlossen werden. — Ich höre keinen Widerspruch. Es ist so beschlossen. Wir kommen zunächst zum Geschäftsbereich des Bundesministers der Justiz. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Dr. de With zur Verfügung. Die Frage 1 ist von dem Herrn Abgeordneten Rollmann eingebracht:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg52">Welchen Beitrag hat der durch das 4. Strafrechtsreformgesetz neu geschaffene § 131 StGB bisher geleistet, um Gewalttätigkeit und Brutalität in unserem Land zurückzudrängen? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-10-22-07-195.u8" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg53">Nach den vorliegenden wissenschaftlichen Erkenntnissen ist davon auszugehen, daß Gewaltdarstellungen beim Vorliegen besonderer Komponenten zu aggressivem Verhalten anregen können. Die naheliegende Möglichkeit solcher Gefahren hatte den Gesetzgeber veranlaßt, die gegen die Schilderung von exzessiven Gewalttätigkeiten gerichtete Strafvorschrift des § 131 StGB zu schaffen. Dabei ging der Gesetzgeber von der Erwartung aus, daß § 131 StGB ein Betrag zur Bekämpfung der Ursachen der Gewaltanwendung sein könnte. Ob nun die Vorschrift tatsächlich den gewünschten Beitrag zur Senkung von Brutalität und Gewalthandlungen geleistet hat, läßt sich schwer abschätzen. Eingehende wissenschaftliche Untersuchungen zu dieser Frage liegen angesichts der kurzen Zeit, in der § 131 StGB gilt, nicht vor. Man wird jedoch sagen können, daß § 131 StGB — wie vom Gesetzgeber gewünscht — einen präventiven Effekt in bezug auf die Verbreitung exzessiver Gewaltdarstellung hat. Daß sich öffentliche Rundfunkanstalten, Filmhersteller und Verleger von Schriften bei der Auswahl der von ihnen verbreiteten Darstellungen auch an § 131 StGB ausrichten, dürfte nicht zu bezweifeln sein. In diesem Zusammenhang möchte ich auch auf die Mitteilung des Leitenden Oberstaatsanwalts in Flensburg hinweisen, der zur Frage der Auswirkungen der §§ 131, 184 Abs. 3 StGB berichtet hat, daß dänische Exporteure vor der Einfuhr von Schriften dem deutschen Zoll Muster dieser Schriften vorlegten und daß bei Zurückweisung dieser Muster durch den Zoll die Einfuhr unterbleibe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u9" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg54">Haben Sie Zusatzfragen?</seg>
+        </u>
+        <note type="speaker">Rollmann (CDU/CSU) :</note>
+        <u who="#Q1223996" xml:id="ParlaMint-DE_1975-10-22-07-195.u10" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg55">Herr Präsident, ich wäre Ihnen dankbar, wenn meine zweite Frage gleich mit beantwortet werden könnte und ich dann vielleicht im Blick auf beide Fragen Zusatzfragen stellen könnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg56">Ich bin damit einverstanden. Ich rufe dann noch die Frage 2 des Herrn Abgeordneten Rollmann auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg57">Trifft es zu, daß die Staatsanwaltschaften die neuen Paragraphen 184 (sadomasochistische Pornographie)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg58">und 131 (Gewaltverherrlichung)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg59">StGB nicht anwenden"?</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg60">Bitte, Herr Staatssekretär, fahren Sie in der Beantwortung fort.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-10-22-07-195.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg61">Herr Kollege, es trifft nicht zu, daß die Staatsanwaltschaften § 131 und § 184 Abs. 3 StGB nicht anwenden. Es besteht kein Zweifel, daß die Staatsanwaltschaften dem Legalitätsprinzip der Strafprozeßordnung entsprechend sämtliche Strafvorschriften, also auch die genannten, anwenden. Eine Umfrage bei den Landesjustizverwaltungen hat zwar bei der Kürze der zur Beantwortung Ihrer Fragen zur Verfügung stehenden Zeit kein umfassendes Zahlenmaterial erbracht. Im Hinblick darauf war die Herstellung einer exakten Statistik nicht möglich. Die Umfrage hat jedoch ergeben, daß eine große Anzahl von Ermittlungs- und Strafverfahren anhängig ist. Zwar differiert die Zahl der anhängigen Verfahren stark von Land zu Land, jedoch dürfte dies seinen Grund darin haben, daß sich Verleger und Verleiher auf bestimmte Orte im Bundesgebiet konzentrieren. Aus dem mir vorliegenden Material kann ich folgende Zahlen herausgreifen: Erstens. Berlin und Saarland: keine anhängigen Verfahren. Zweitens. Bayern hat aus dem Bereich der Staatsanwaltschaft München I bei Filmen 20 Verfahren zu § 131 StGB, 14 Verfahren zu § 184 Abs. 3 StGB, bei Schriften 50 Ermittlungsverfahren zu § 131 bzw. § 184 Abs. 3 StGB gemeldet. Drittens. Aus dem Bereich der Staatsanwaltschaft der Hansestadt Hamburg sind folgende Zahlen gemeldet worden: 12 Verfahren wegen § 131 StGB, 40 bis 50 Verfahren wegen § 184 Abs. 3 StGB. Viertens. Hessen hat folgende Zahlen gemeldet: ein bei Gericht anhängiges Verfahren und mehrere Ermittlungsverfahren wegen § 131 StGB, zwei durch Strafbefehl abgeschlossene und 25 Ermittlungsverfahren wegen § 184 Abs. 3 StGB. Diesen Angaben aus drei unterschiedlich strukturierten Ländern — wenn man von den beiden ersten absieht — ist schon zu entnehmen, daß die Anwendbarkeit der genannten Strafvorschrift im Einzelfall zwar schwierig sein wird, daß die Vorschriften jedoch von den Staatsanwaltschaften geprüft und auch angewendet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg62">Eine Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Rollmann (CDU/CSU) :</note>
+        <u who="#Q1223996" xml:id="ParlaMint-DE_1975-10-22-07-195.u14" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg63">Herr Staatssekretär, wie erklären Sie es sich dann, daß Ihr Fraktionskollege Ostman von der Leye in einem Leserbrief an den „Spiegel" haargenau das behauptet hat, was ich in der Frage 2 in Frageform an die Bundesregierung herangetragen habe?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-10-22-07-195.u15" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg64">Ich kann nicht die Motivation unseres Bundestagskollegen ergründen. Möglicherweise war er nicht genau informiert. Ich rege an, daß Sie ihn selbst fragen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u16" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg65">Nach der Übung des Hauses lassen wir auch hier keine Dreiecksfragen zu. Aber Sie haben noch die Möglichkeit, weitere Zusatzfragen zu stellen. — Keine mehr. Der Herr Abgeordnete Dr. Penner hat um schriftliche Beantwortung der eingereichten Frage, der Frage 72, gebeten. Die Antwort wird als Anlage abgedruckt. — Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers der Justiz beantwortet. Herr Staatssekretär, ich danke Ihnen. Wir kommen nunmehr zum Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Buschfort zur Verfügung. Ich rufe nunmehr die Frage 3 des Herrn Abgeordneten Geisenhofer auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg66">Ist die Bundesregierung der Auffassung, daß der gebildete ad hoc-Ausschuß zur Vorbereitung der Durchführungsverordnung nach § 55 des Schwerbehindertengesetzes in Einklang steht mit der Antwort auf die Kleine Anfrage der Fraktion der CDU/CSU (Drucksache 7/3999)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg67">, in der die Bundesregierung erklärte, daß die Organisationen der freien Wohlfahrtspflege, die im wesentlichen Träger der Werkstätten für Behinderte sind, auch an der Vorbereitung der Rechtsverordnung beteiligt werden? Herr Staatsseretär!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u17" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg68">Ihre Frage, Herr Kollege, ist mit Ja zu beantworten. Dabei möchte ich darauf hinweisen, daß die Ad-hoc-Arbeitsgruppe lediglich den Auftrag hat, die erforderlichen Vorarbeiten für die in Ihrer Frage genannte Verordnung zum Schwerbehindertengesetz in technischen Details zu leisten. Diese Arbeitsgruppe kann und will die Beteiligung der Organisationen der Freien Wohlfahrtspflege nicht ersetzen. Die Bundesregierung hat hierzu bereits in der Antwort auf die von Ihnen genannte Kleine Anfrage Stellung genommen. Sie hat damals erklärt, daß sie die Organisationen der Freien Wohlfahrtspflege auch weiterhin bei der Vorbereitung der Rechtsverordnung beteiligen und ihnen das Ergebnis der bisherigen Bemühung zur Stellungnahme zuleiten wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u18" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg69">Möchten Sie eine Zusatzfrage stellen, Herr Kollege? — Bitte!</seg>
+        </u>
+        <note type="speaker">Geisenhofer (CDU/CSU) :</note>
+        <u who="#Q1449615" xml:id="ParlaMint-DE_1975-10-22-07-195.u19" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg70">Herr Staatssekretär, ist außer dem Ad-hoc-Ausschuß noch eine weitere Institution vorgesehen, in der dann die konfessionellen Verbände anteilmäßig mitarbeiten können?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u20" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg71">Herr Kollege, mir ist ein derartiges Vorhaben nicht bekannt. Ich gehe davon aus, daß alle betroffenen Verbände gehört werden, bevor die Rechtsverordnung erlassen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg72">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Geisenhofer (CDU/CSU) :</note>
+        <u who="#Q1449615" xml:id="ParlaMint-DE_1975-10-22-07-195.u22" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg73">Herr Staatssekretär, bin ich richtig informiert, daß mindestens drei der fünf berufenen Werkstattvertreter zur Lebenshilfe und zum Deutschen Paritätischen Wohlfahrtsverband gehören, und sehen Sie keine Benachteiligung der konfessionellen Verbände, obwohl, wie man weiß, die Mehrzahl der Einrichtungen für Behinderte in der Trägerschaft der konfessionellen Verbände, nämlich beim Caritasverband und Diakonischen Werk, liegt?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg74">Herr Kollege, entsprechend der konkreten Aufgabenstellung für die Arbeitsgruppe ist die Zusammensetzung auf Fachkräfte der Werkstattpraxis und der Förderungspraxis beschränkt worden. So gehören beispielsweise Vertreter der Länder oder der Behindertenorganisationen der Arbeitsgruppe nicht an. Die Beteiligung dieser Stellen — ebenso der Verbände der Freien Wohlfahrtspflege — wird im Rahmen der weiteren Vorbereitung der Rechtsverordnung in der üblichen Weise geschehen. Ich möchte noch darauf hinweisen, daß vier von den acht Mitgliedern des Ad-hocAusschusses aus dem Bereich der freien Wohlfahrtspflege kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg75">Ich rufe die Frage 4 des Herrn Abgeordneten Dr. Wernitz auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg76">Gibt es Möglichkeiten, Jugendlichen, die im zweiten Lehrjahr arbeitslos werden, durch Förderungslehrgänge der Bundesanstalt für Arbeit z. B. über Grundausbildungslehrgänge oder durch andere Maßnahmen zu helfen? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg77">Herr Kollege Dr. Wernitz, wenn Jugendliche, die im zweiten Ausbildungsjahr arbeitslos werden, nicht sofort in ein neues Ausbildungsverhältnis vermittelt werden können, liegt das in der Regel daran, daß geeignete Ausbildungsstellen nicht in der notwendigen Anzahl zur Verfügung stehen. Nur in Ausnahmefällen dürfte mangelnde Berufsreife eine Arbeitslosigkeit im zweiten Ausbildungsjahr verursachen. Eine Teilnahme dieses Personenkreises an den Grundausbildungslehrgängen, die von der Bundesanstalt für Arbeit im Rahmen der berufsvorbereitenden Maßnahmen gefördert werden, ist daher auf diese Ausnahmefälle beschränkt. Die Bemühungen der Bundesanstalt für Arbeit müssen sich in erster Linie darauf richten, diesen Jugendlichen in ein neues Ausbildungsverhältnis zu vermitteln. Das ist in der Regel jedoch schwieriger als bei Schulentlassenen. Die Bundesanstalt gewährt diesen Jugendlichen daher Sondertermine für Beratungsgespräche in der Berufsberatung und zieht sie bevorzugt in ihre Vermittlungsbemühungen ein. In Zusammenarbeit mit den zuständigen Kammern werden sie vorrangig geeigneten Betrieben zur Einstellung vorgeschlagen. In den Fällen, in denen die Vermittlung in Ausbildungsverhältnisse nicht möglich ist, werden alle Anstrengungen unternommen, den arbeitslos gewordenen Jugendlichen — gegebenenfalls unter Einsatz der Leistungen zur Förderung der Arbeitsaufnahme — einen Arbeitsplatz zu vermitteln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg78">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Wernitz (SPD) :</note>
+        <u who="#Q792418" xml:id="ParlaMint-DE_1975-10-22-07-195.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg79">Herr Staatssekretär, wäre es für diejenigen Jugendlichen, die im zweiten Lehrjahr arbeitslos werden — ich habe mich ja auf diese bezogen — und die nicht in eine Lehrstelle eines anderen Betriebs vermittelt werden können — auch dies als Voraussetzung —, nicht besser, wenn sie in dieser Zeit über einen Grundausbildungslehrgang in ihrem Berufsfeld bleiben könnten? Denn ist es nicht richtig, daß man sich bei diesen Grundausbildungslehrgängen nur auf mangelnde Berufsfähigkeit bezieht? Denn — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg80">Herr Kollege, Fragezeichen!</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Wernitz [SPD] : Das habe ich immer im Auge gehabt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg81">— Herr Kollege, Sie hatten aber vielleicht die weitere wichtige Bestimmung „kurz gefaßt" nicht in Erinnerung. — Bitte!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u29" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg82">Herr Kollege Dr. Wernitz, der Grundausbildungslehrgang ist vom Inhalt her nicht geeignet, einem Auszubildenden, der bereits im zweiten oder im dritten Lehrjahr war, noch einmal unterstützend zu helfen. Der Grundausbildungslehrgang soll nach Möglichkeit zum ersten Lehrjahr führen; das ist also keine Hilfestellung für den von Ihnen genannten Personenkreis. Hinzuzufügen ist aber auch, daß in aller Regel die Vermittlungsbemühungen der Arbeitsämter und die Anstrengungen der Kammern und sonstiger Organisationen erfolgreich waren. Ich darf Ihnen einmal die Zahlen aus dem Jahre 1974 bekanntgeben. Im Jahre 1974 konnten von 3 000 Auszubildenden, die ihren Ausbildungsplatz durch Stillegung oder Konkurs ihres Ausbildungsbetriebes verloren haben, 2 730 wieder vermittelt werden; das heißt, über 90 % dieser Auszubildenden konnten in relativ kurzer Zeit wieder in eine Ausbildungsstelle vermittelt werden. Sicher ist es bedauerlich, daß zunächst noch eine Restquote übriggeblieben ist: Es war und ist deshalb notwendig, daß besondere Anstrengungen der Arbeitsämter auch in diesen Fällen noch zum Ziel führen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u30" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg83">Herr Kollege, Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wernitz (SPD) :</note>
+        <u who="#Q792418" xml:id="ParlaMint-DE_1975-10-22-07-195.u31" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg84">Herr Staatssekretär, mit dem Blick auf diese 10 % noch einmal die Frage: Wäre es nicht sinnvoll, wenn Sie diesen Sachverhalt einmal unter der Alternative prüfen würden: hie Zahlung des Arbeitslosengeldes, dort Ausgabe entsprechender Beträge für einen solchen Grundausbildungslehrgang, bezogen auf ein Berufsfeld?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg85">Herr Kollege Dr. Wernitz, ich verstehe Ihr Anliegen sehr wohl und würde jetzt sagen: wir müssen das prüfen. Nur, zur Zeit gibt es solche Einrichtungen nicht, die eine angefangene Berufsausbildung abschließen bzw. weiterführen können. Daher bin ich gern bereit, die Notwendigkeit durch die Bundesanstalt für Arbeit prüfen zu lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg86">Ich rufe die Frage Nr. 14 des Abgeordneten Dr. Kraske auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg87">Trifft es zu, daß dem Bundesverteidigungsministerium Umfrageergebnisse eines renommierten Meinungsforschungsinstituts vorliegen, nach denen sich bei Fortfall der Anerkennungsverfahren für Kriegsdienstverweigerer ca. 25 % der 18- bis 20jährigen auch dann für den Zivildienst entscheiden würden, wenn dieser drei Monate länger als der Grundwehrdienst dauert? An den Staatssekretär und an den Fragesteller richte ich die Frage: Wollen Sie die Beantwortung der beiden Fragen verbinden? — Herr Dr. Kraske, auch Sie sind einverstanden. Dann rufe ich auch die Frage Nr. 15 auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg88">Wie beurteilt die Bundesregierung bejahendenfalls dieses Ergebnis im Blick auf die Tatsache, daß im Haushalt 1976 nur 20 000 Zivildienstplätze ausgewiesen sind, während bei 25 % Bewerbern je Geburtsjahrgang über 100 000 Plätze bereitgestellt werden müßten? Bitte!</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u34" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg89">Herr Kollege Dr. Kraske, im Oktober und November 1974 hat das Institut für Angewandte Sozialwissenschaften im Auftrag des Bundesministers der Verteidigung unter 1 144 männlichen Jugendlichen im Alter von 14 bis 22 Jahren eine Befragung durchgeführt. Dabei wurde unter anderem nach der hypothetischen Entscheidung zwischen Wehr- und Zivildienst für den Fall gefragt, daß das bisherige Anerkennungsverfahren für Kriegsdienstverweigerer ausgesetzt würde. Die Auswertung ergab, daß von den 135 befragten Neunzehnjährigen 24 v. H. auch dann den Zivildienst vorziehen würden, wenn der Zivildienst 18 Monate dauern würde. Die Bundesregierung ist der Auffassung, daß dieses Umfrageergebnis als Planungs- und Entscheidungsgrundlage hinsichtlich der Zahl der Zivildienstpflichtigen nicht geeignet und auch durch die jetzige Entwicklung überholt ist. Die in Ihrer zweiten Frage genannte Annahme, daß nach dem Umfrageergebnis 100 000 Plätze bereitgestellt werden müßten, geht von unzutreffenden Voraussetzungen aus. Bei jedem Geburtenjahrgang werden erfahrungsgemäß ca. 25 °/o der erfaßten Wehrpflichtigen auf Grund des Musterungsergebnisses und vorliegender Wehrdienstausnahmen vorab nicht zum Wehrdienst herangezogen. Bei einer angenommenen Jahrgangsstärke von 400 000 Wehrpflichtigen stehen damit nur noch 300 000 Wehrpflichtige zur Verfügung. Außerdem ist zusätzlich bei ca. 20 % der Zivildienstpflichtigen mit begründeten Zivildienstausnahmen zu rechnen. Im Interesse einer relativ gerechten Inpflichtnahme aller zur Verfügung stehenden Wehrpflichtigen wird die Bundesregierung darauf achten, daß im Zivildienst mindestens die gleiche Einberufungsquote eingehalten wird wie bei den Streitkräften. Daher geht die Bundesregierung in den Jahren ab 1977 von 30 000 im Dienst befindlichen Zivildienstleistenden und 10 000 zivildienstadäquaten Beschäftigungsmöglichkeiten aus. Diesen Überlegungen entspricht die Finanzplanung ab 1977. Im Haushaltsjahr 1976 gehen die Ansätze von 20 000 Zivildienstleistenden und nicht nur von Zivildienst p 1 ä t z e n aus. Da sich die derzeitige Rechtslage bis voraussichtlich Sommer 1976 nicht ändern wird, dürften die im Haushalt befindlichen Ansätze ausreichen, den erwarteten Bedarf abzudecken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u35" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg90">Zu einer Zusatzfrage Herr Kollege Dr. Kraske, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Kraske (CDU/CSU) :</note>
+        <u who="#Q124098" xml:id="ParlaMint-DE_1975-10-22-07-195.u36" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg91">Herr Staatssekretär, ist Ihnen bekannt, daß die Mehrzahl der außer dieser Infas-Umfrage vorliegenden Umfragen eher von einem höheren Anteil von jungen Männern ausgehen, die sich bei der faktischen Wahlfreiheit für den Zivildienst aussprechen würden?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg92">Herr Kollege Dr. Kraske, mir ist nicht bekannt, daß es solche Erhebungen gibt. Aber die bisherige Erfahrung sagt etwas ganz anderes. Es sind in der Vergangenheit auch Befragungen unter der alten Gesetzeslage durchgeführt worden, und damals haben sich auch immer zwischen 15 und 20 °/o für den Zivildienst ausgesprochen. Einen Antrag auf Ersatzdienst haben dann aber nur etwa 6 oder 7 % gestellt, und ich vermute, daß eine vergleichbare Abweichung auch zukünftig zu beobachten sein wird.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Kraske [CDU/CSU]: Das ist der Punkt!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg93">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Kraske (CDU/CSU) :</note>
+        <u who="#Q124098" xml:id="ParlaMint-DE_1975-10-22-07-195.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg94">Herr Staatssekretär, würden Sie mir nicht zustimmen, daß sich durch den Gesetzentwurf der Koalitionsfraktionen eben gerade dieses prinzipiell ändert, weil nach den Worten des Ihrem Ministerium zugeteilten Zivildienstbeauftragten der junge Mann sich nicht mehr gegen den Wehrdienst, sondern f ü r den Zivildienst soll entscheiden können?</seg>
+        </u>
+        <kinesic type="kinesic">
+          <desc>Zustimmung des Abg. Dr. Wörner [CDU/CSU]</desc>
+        </kinesic>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg95">Herr Kollege Dr. Kraske, ich befürchte diese Schwierigkeiten nicht. Denn zweifellos ist zur Zeit festzustellen, daß es eine große Sympathiewelle für die Bundeswehr gibt, und alles deutet darauf hin, daß das Verhalten der Jugendlichen eher umgekehrt sein wird.</seg>
+        </u>
+        <note type="speaker">Dr. Kraske (CDU/CSU) :</note>
+        <u who="#Q124098" xml:id="ParlaMint-DE_1975-10-22-07-195.u41" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg96">Herr Staatssekretär, macht es nicht auch Sie stutzig, daß selbst der Gesetzentwurf der Koalitionsfraktionen in der vorliegenden Drucksache unter Punkt D — Kosten — von der Annahme ausgeht, daß nach Meinung der Koalition mindestens 30 000 Zivildienstleistende außerhalb von Arbeitsplätzen untergebracht werden müssen, und wissen Sie — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u42" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg97">Herr Kollege Kraske, Fragezeichen!</seg>
+        </u>
+        <note type="speaker">Dr. Kraske (CDU/CSU) :</note>
+        <u who="#Q124098" xml:id="ParlaMint-DE_1975-10-22-07-195.u43" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg98">Fragezeichen.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg99">Macht es Sie nicht stutzig, daß nicht nur Meinungsumfragen, die Sie anzweifeln, sehr viel höhere Werte anzeigen, sondern daß auch die Koalitionsfraktionen immerhin von 30 000 ausgehen und daß auch dem die zur Verfügung stehenden Plätze in keiner Weise Rechnung tragen?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u44" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg100">Herr Kollege Dr. Kraske, wir beziehen uns jetzt alle auf Schätzungen. Keiner kann genau voraussagen, ob es nun letztlich im Jahre 1977 30 000 oder 40 000 sein werden. Das kann man heute nicht mit letzter Sicherheit vorausbestimmen. Aber ich gehe davon aus, daß die in der Finanzplanung vorgesehenen Mittel ausreichend sein werden. Denn aufbauen können wir eigentlich doch nur auf bestimmten Erfahrenswerten aus der Vergangenheit. Wenn wir diese unter Berücksichtigung der neueren Befragungsergebnisse und der altbekannten Abweichung bewerten, ist, glaube ich, die Vorausschätzung doch recht solide, zumindest ist sie mit bestimmten festen Annahmen versehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u45" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg101">Eine letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Kraske (CDU/CSU) :</note>
+        <u who="#Q124098" xml:id="ParlaMint-DE_1975-10-22-07-195.u46" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg102">Herr Staatssekretär, Sie sprachen soeben vom Jahr 1977. Heißt das, daß Sie nicht mehr damit rechnen, daß dieses Gesetz bereits zum 1. Juli 1976 in Kraft treten wird?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u47" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg103">Herr Kollege Dr. Kraske, das ist ein Mißverständnis. Ich habe vorhin erwähnt, daß wir im Jahre 1976 von einer nicht ganzjährig gleichmäßigen Finanzbelastung ausgehen und deshalb für 1976 diesen hohen Ansatz finanzpolitisch noch nicht zu berücksichtigen brauchen. Wir gehen davon aus, daß das neue Gesetz im nächsten Jahr verabschiedet und wirksam werden wird. Aber auch dann wird es eben nur für sechs Monate wirksam, und das bedeutet eine 50 %ige Inanspruchnahme der Mittel, die möglicherweise für 1977 notwendig werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u48" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg104">Eine Zusatzfrage des Herrn Abgeordneten Walkhoff.</seg>
+        </u>
+        <note type="speaker">Walkhoff (SPD) :</note>
+        <u who="#Q1730013" xml:id="ParlaMint-DE_1975-10-22-07-195.u49" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg105">Herr Staatssekretär, kann man nicht gerade dann, wenn die Zeit des Zivildienstes drei Monate länger währt als die des Grundwehrdienstes, davon ausgehen, daß die Zahl derer, die sich für den Zivildienst bewerben, nicht die Ausmaße annehmen wird, die Herr Kraske annimmt, und zwar deshalb, weil sich weitgehend nur diejenigen melden werden, für die das eine echte Gewissensfrage ist, und nicht diejenigen, die das möglicherweise aus Drückebergerei tun würden?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u50" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg106">Herr Kollege Walkhoff, das kann so sein. Ich kann hier aber nicht definitiv sagen: es wird so eintreten. Ich möchte in diesem Zusammenhang auch sagen: Die drei Monate längere Dienstzeit soll nicht mit dem von Ihnen erwähnten Ziel angehängt werden, sondern sie soll ein Ausgleich sein, z. B. für die Wehrübungen, die der Wehrpflichtige, gegebenenfalls mehrfach, zu leisten hat. Von da her mag natürlich der eine aus diesem Grunde und der andere aus finanziellen Überlegungen sagen: Ich gehe dann lieber zur Bundeswehr.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u51" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg107">Zu einer letzten Zusatzfrage, der Herr Abgeordnete Dr. Wörner.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU) :</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1975-10-22-07-195.u52" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg108">Herr Staatssekretär, sind Sie, nachdem nach Ihren Darlegungen die Bundesregierung in dieser Frage keine hinreichende Klarheit gewonnen hat, bereit, eine Umfrage anstellen zu lassen, die repräsentativere Ergebnisse zeitigt?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1975-10-22-07-195.u53" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg109">Herr Kollege Dr. Wörner, ich würde den Vorschlag machen, dies bitte den Verteidigungsminister zu fragen; denn er ist für die bisherigen Umfragen zuständig gewesen. Möglicherweise gibt es auch solche Umfrageergebnisse, die ich jetzt nicht kenne. Ich bin als Vertreter des Ministeriums für Arbeit und Sozialordnung für diese Fragestellung nicht zuständig gewesen.</seg>
+        </u>
+        <incident type="action">
+          <desc>Dr. Wörner [CDU/CSU] : Ein mir nicht zukommender Zwischenruf: Unsere Fragen gingen an das Verteidigungsministerium! — Abg. Rommerskirchen [CDU/CSU] meldet sich zu einer Zusatzfrage</desc>
+        </incident>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u54" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg110">Herr Abgeordneter Dr. Wörner, nach der Geschäftsordnung der Bundesregierung ist diese Frage dem Arbeitsministerium zugewiesen worden, und das Ministerium hat pflichtgemäß geantwortet. Sie müssen sich bemühen, durch entsprechende Fragestellung zu dem von Ihnen gewünschten Ergebnis zu kommen.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Wörner [CDU/CSU] : Das können wir nicht! Das haben wir ja getan!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg111">Meine Damen und Herren, ich danke dem Herrn Parlamentarischen Staatssekretär. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung erledigt.</seg>
+          <vocal type="exclamat">
+            <desc>Rommerskirchen [CDU/CSU] : Herr Präsident, ich hatte mich zu einer Zusatzfrage gemeldet!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg112">Ich rufe den Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen auf. Zur Beantwortung der Fragen steht Herr Parlamentarischer Staatssekretär Herold zur Verfügung. Die Frage 5 ist von Herrn Abgeordneten Dr. Arnold eingereicht:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg113">Wird sich die Bundesregierung bei den Behörden der DDR dafür einsetzen, daß es gemäß dem auf der KSZE-Konferenz in Helsinki vereinbarten Grundsatz eines freieren Informationsaustausches in absehbarer Zeit möglich sein wird, Zeitungen aus der Bundesrepublik Deutschland an Kiosken in Ost-Berlin, Rostock, Leipzig, Erfurt und anderen Städten zu kaufen?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-10-22-07-195.u55" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg114">Herr Präsident! Sehr geehrter Herr Kollege Dr. Arnold, ich darf Ihre Frage wie folgt beantworten. Im Zusatzprotokoll zum Vertrag über die Grundlagen der Beziehungen zwischen 'der Bundesrepublik Deutschland und der DDR haben beide Staaten in Ziff. 10 zu Art. 7 vereinbart, Verhandlungen mit dem Ziel zu führen, den gegenseitigen Bezug von Büchern, Zeitschriften, Rundfunk- und Fernsehproduktionen zu erweitern. Die Bundesregierung und die Regierung der DDR sind dementsprechend bereits vor der Konferenz von Helsinki übereingekommen, Gespräche darüber zu führen, wie man in diesem Bereich zu Fortschritten kommen kann; dies geschieht im Rahmen der Kulturverhandlungen mit der DDR.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u56" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg115">Herr Abgeordneter Dr. Arnold, eine Zusatzfrage? — Bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Arnold (CDU/CSU) :</note>
+        <u who="#Q1539095" xml:id="ParlaMint-DE_1975-10-22-07-195.u57" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg116">Herr Staatssekretär, sind der Bundesregierung Äußerungen von Herrn Honecker und Verlautbarungen anderer Mitglieder der DDR-Regierung bekannt, die die Tendenz haben, daß hier, insbesondere auf dem Gebiete des Zeitungsaustauschs, eine größere Informationsfreiheit — auch für die Bürger der DDR — nicht stattfinden soll, Äußerungen und Verlautbarungen, die die Tendenz haben, daß auch in der Zukunft auf diesem Gebiet eher eine Sperre gelten soll?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-10-22-07-195.u58" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg117">Herr Kollege, Informationen, wie Sie sie ansprechen, sind uns aus dem genannten Personenkreis nicht bekannt; eine Haltung in dieser Richtung wäre aber nicht verwunderlich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u59" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg118">Sie haben noch eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Arnold (CDU/CSU) :</note>
+        <u who="#Q1539095" xml:id="ParlaMint-DE_1975-10-22-07-195.u60" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg119">Herr Staatssekretär, sehen Sie sich in der Lage, mir in naher Zukunft vielleicht auf schriftlichem Wege zu berichten, welche Aussichten auf Erfolg die Bemühungen der Bundesregierung gehabt haben oder für die Zukunft haben werden?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-10-22-07-195.u61" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg120">Herr Kollege Dr. Arnold, ich bin gern bereit, mich mit Ihnen über diesen Komplex zu unterhalten um die Hintergründe zu besprechen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u62" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg121">Ich rufe Frage 6 des Abgeordneten Jäger (Wangen)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg122">auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg123">Welchen konkreten Benachteiligungen und Diskriminierungen sind nach den Erkenntnissen der Bundesregierung Christen, die sich offen zu ihrem Glauben bekennen, in der DDR ausgesetzt, insbesondere im Bereich des Bildungswesens und bei der Einstellung in den öffentlichen Dienst? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-10-22-07-195.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg124">Herr Präsident! Herr Kollege Jäger! Ich darf wie folgt antworten:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg125">Die Verfassung der DDR gibt auch Anspruch auf Religionsfreiheit; dieser aus der Weimarer Verfassung übernommene Grundsatz wurde aber in der Verfassungswirklichkeit der DDR in besonderem Sinne interpretiert und somit von Anfang an eingeschränkt. Der Bundesregierung ist bekannt, daß die DDR zur Zeit in der Zulassungsordnung zum Hochschulstudium vom 1. Juli 1971 „die aktive Mitwirkung an der Gestaltung der sozialistischen Gesellschaft und Bereitschaft zur aktiven Verteidigung des Sozialismus" zur Zulassungsvoraussetzung macht. Die DDR sieht in einer positiven Einstellung gegenüber ihrem gesellschaftlichem System eine selbstverständliche Voraussetzung zur Teilhabe an allen Möglichkeiten des Bildungssystems und zur Beschäftigung im Staatsdienst. Somit werden Mitgliedschaft und Bekenntnis zu konfessionellen Gemeinschaften zum Hindernis, z. B. beim Besuch von Hochschulen und Universitäten. Darauf wurde auch im Hirtenbrief vom 17. November 1974 und auf der Jahressynode des Bundes evangelischer Kirchen in der DDR im Herbst 1975 sehr eindeutig hingewiesen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u64" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg126">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-10-22-07-195.u65" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg127">Herr Staatssekretär, gibt es außer den von Ihnen genannten Behinderungen noch andere, die Sie hier vortragen können, insbesondere in dem von mir ebenfalls angezogenen Bereich der Einstellung in den öffentlichen Dienst?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf des Abg. Hansen [SPD]</desc>
+        </vocal>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-10-22-07-195.u66" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg128">Ich bin gerne bereit, das uns vorliegende Material noch einmal zu überarbeiten. Mir ging es zunächst darum, Ihre Frage, wie sie gestellt war, zu beantworten, nämlich daß zu erkennen ist, wer aus solchen Gründen Einschränkungen in diesem Bereich wünscht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u67" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg129">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-10-22-07-195.u68" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg130">Herr Staatssekretär, wird die Bundesregierung angesichts der Brisanz dieser Fragen bereit sein, dieses wichtige Kapitel im nächsten Bericht der Bundesregierung zur Lage der Nation besonders anzusprechen und dort die von Ihnen angekündigte ausführliche Antwort zu geben?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-10-22-07-195.u69" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg131">Wir werden dies prüfen. Wenn es zweckmäßig ist, wird auch dieses Thema in dem Bericht mitangesprochen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg132">Eine Zusatzfrage des Herrn Abgeordneten Böhm.</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1975-10-22-07-195.u71" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg133">Herr Staatssekretär, welche Behandlung wird jungen Christen in der DDR zuteil, die sich mit Berufung auf ihr christliches Gewissen gegen den Kriegsdienst aussprechen?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-10-22-07-195.u72" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg134">Es ist mir unmöglich, auf diese pauschale Frage eindeutig zu antworten. Wenn Sie konkrete Fälle haben, bin ich bereit, diese prüfen zu lassen. Ich muß aber darauf hinweisen, daß es hier um Dinge geht, auf die wir keinerlei Einwirkungsmöglichkeiten haben, da sie zu den inneren Angelegenheiten der DDR zählen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u73" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg135">Herr Abgeordneter Dr. Hupka zu einer letzten Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU) :</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1975-10-22-07-195.u74" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg136">Herr Staatssekretär, können Sie mir darin zustimmen, daß die hier angesprochenen Diskriminierungen im Widerspruch zur Schlußakte der KSZE stehen, die ja auch von der DDR unterschrieben worden ist?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-10-22-07-195.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg137">Herr Kollege Hupka, Sie wissen, daß die KSZE-Dokumente Absichtserklärungen sind oder enthalten. Sie sind von den Teilnehmerstaaten der Konferenz mit dem Willen unterzeichnet worden, die von Ihnen angesprochenen Bereiche langfristig zu ändern. Die Politik dieser Bundesregierung richtet sich ebenfalls danach aus.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Hupka [CDU/CSU] : Was hat das mit der DDR zu tun?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg138">Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen beantwortet. Ich rufe den Geschäftsbereich des Bundesministers für Forschung und Technologie auf. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär Dr. Hauff zur Verfügung. Der Abgeordnete Dr. Graf Lambsdorff hat um schriftliche Beantwortung seiner Frage 7 gebeten. Die Antwort wird als Anlage abgedruckt. Frage 8 ist von dem Herrn Abgeordneten Pfeffermann eingebracht:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg139">Wie beurteilt die Bundesregierung die Stellungnahme der Delegiertenversammlung der Gesellschaft für Kernforschung zum fünften Forschungsbericht der Bundesregierung, wonach die durch die Etatkürzung von der Bundesregierung beschlossene restriktive Forschungspolitik das von Bundeskanzler Schmidt proklamierte Ziel gefährde, eine Volkswirtschaft wie die deutsche exportiere im Jahr 2000 im wesentlichen Patente, Verfahrenstechniken und Blaupausen und verschließe so den von Bundeskanzler Schmidt bezeichneten Weg „zur breiten Grundlagenforschung und zu einer möglichst intelligent angelegten angewandten Forschung"?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-10-22-07-195.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg140">Herr Kollege Pfeffermann, von den Kürzungen des Sparprogramms der Bundesregierung konnte kein Ministerium ausgenommen werden. Die Kontinuität der Forschungspolitik in den Schwerpunktbereichen bleibt auch nach der Kürzung der Haushaltsansätze des Bundesministers für Forschung und Technologie, die zu einer finanziellen Konzentration zwingen, gewahrt. Die vom Bundeskanzler aufgezeigte Entwicklung bestimmt weiterhin die Forschungs- und Technologiepolitik. Es ist deshalb unbegründet, von einer restriktiven Forschungspolitik zu sprechen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u78" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg141">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Pfeffermann (CDU/CSU) :</note>
+        <u who="#Q1512231" xml:id="ParlaMint-DE_1975-10-22-07-195.u79" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg142">Herr Staatssekretär, es ist Ihnen bewußt, daß ich in meiner Frage nicht auf eigene Formulierungen, sondern auf Formulierungen einer anderen Institution zurückgegriffen habe, und dort bezog man sich ausdrücklich auf den Bereich der Patente, Erfindungen und die Situation, die wir jetzt schon beim Export bzw. Import dieser Dinge zur Kenntnis zu nehmen haben. Finden Sie, daß daran gemessen Ihre Antwort sehr tiefschürfend war?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-10-22-07-195.u80" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg143">Herr Kollege Pfeffermann, dies zu beurteilen wird nicht meine Sache sein. Aber ich bin ganz sicher, daß die Delegiertenversammlung der Gesellschaft für Kernforschung GmbH in Karlsruhe, die Sie hier zitiert haben, bei der Würdigung der Möglichkeiten der Forschungspolitik die Gesamtsituation gewiß angemessen berücksichtigen wird, u. a. auch die Aufforderung der baden-württembergischen Landesregierung, den Forschungsansatz um weitere 60 Millionen DM zu kürzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u81" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg144">Sie haben noch eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Pfeffermann (CDU/CSU) :</note>
+        <u who="#Q1512231" xml:id="ParlaMint-DE_1975-10-22-07-195.u82" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg145">Herr Staatssekretär, da wir uns hier über den Bundeshaushalt zu verständigen beabsichtigen — jedenfalls sehe ich die Dinge so — und Sie soeben . . .</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u83" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg146">Herr Kollege, Zusatzfrage, bitte!</seg>
+        </u>
+        <note type="speaker">Pfeffermann (CDU/CSU) :</note>
+        <u who="#Q1512231" xml:id="ParlaMint-DE_1975-10-22-07-195.u84" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg147">Herr Präsident, ich werde mich bemühen. — ... abzulenken versuchten, möchte ich Sie fragen: Darf ich davon ausgehen, daß Sie in einer ausführlichen, detaillierten Stellungnahme die hier angesprochenen Fragen beantworten und die Antwort dem Hause zur Verfügung stellen werden?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-10-22-07-195.u85" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg148">Herr Kollege Pfeffermann, zunächst einmal möchte ich darauf hinweisen, daß sich der Kürzungsvorschlag der Landesregierung von Baden-Württemberg auf den Bundeshaushalt bezieht und auch in diesem Sinne gemacht wurde.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Wörner [CDU/CSU]: Aber vor einem ganz anderen Hintergrund! Das wissen Sie auch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg149">Im übrigen liegt dem Hause das Programmbudget für die Gesellschaft für Kernforschung GmbH in Karlsruhe vor, das noch zur parlamentarischen Beratung ansteht. Ich bin sicher, daß im Rahmen des Programmbudgets, also der gesamten Forschungsplanung für die Gesellschaft, die hier zur Debatte steht, eine Möglichkeit gegeben ist, die von Ihnen angesprochenen Fragen ausführlich zu diskutieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u86" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg150">Eine Zusatzfrage des Abgeordneten Jäger.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-10-22-07-195.u87" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg151">Herr Staatssekretär, nachdem Sie sich soeben auf die Landesregierung von Baden-Württemberg berufen haben, sind Sie sich bewußt, daß die Finanznot im Landeshaushalt von Baden-Württemberg, die sie dazu gezwungen hat, auf die gleichen Ursachen zurückgeht, auf die auch die Finanznot des Bundes zurückgeht?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg152">Herr Abgeordneter Jäger, diese Zusatzfrage lasse ich nicht zu.</seg>
+          <vocal type="exclamat">
+            <desc>Parl. Staatssekretär Dr. Hauff: Sehr schade!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg153">— Herr Staatssekretär Hauff, auch das war überflüssig, wenn ich das einmal bemerken darf.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Wörner [CDU/CSU] : Das wollte ich gerade sagen! Gerechtigkeit nach beiden Seiten!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg154">Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Forschung und Technologie beantwortet. Ich danke Ihnen. Ich rufe den Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit auf. Zur Beantwortung der Fragen steht Herr Parlamentarischer Staatssekretär Brück zur Verfügung. Die erste Frage ist von dem Herrn Abgeordneten Sauter (Epfendorf)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg155">eingereicht worden:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg156">Gibt es auf Grund der zur Zeit angespannten Arbeitsmarktlage in der Bundesrepublik Deutschland Schwierigkeiten bei der beruflichen Rückgliederung heimkehrender Entwicklungshelfer, wenn ja, bei welchen Berufsgruppen ist dies besonders zu beobachten, und kann die Bundesregierung Angaben darüber machen, wie lange die durchschnittliche Eingliederungsdauer 1972 war und wie lange sie seit August 1974 ist? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Brück, Parlamentarischer Staatssekretär beim Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1975-10-22-07-195.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg157">Herr Kollege Sauter, die Bundesregierung und die Träger des Entwicklungsdienstes besitzen keine statistischen Angaben über die Arbeitslosigkeit bei heimgekehrten Entwicklungshelfern. Das liegt daran, daß ehemalige Entwicklungshelfer nicht verpflichtet sind, die Entsendeorganisationen nach I Vertragsbeendigung über den weiteren beruflichen Werdegang zu informieren. Einige Entwicklungsdienste berichten jedoch, daß Schwierigkeiten bei der beruflichen Rückgliederung vereinzelt in den Bereichen der landwirtschaftlichen Berufe und der Bauberufe auftraten. Fälle langandauernder Arbeitslosigkeit sind aber auch diesen Diensten nicht bekanntgeworden. Es ist anzunehmen, daß bei größeren Schwierigkeiten die davon betroffenen Rückkehrer sich mit der Bitte um Unterstützung an die Dienste gewandt hätten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg158">Sie haben Zusatzfragen. Bitte, Herr Kollege!</seg>
+        </u>
+        <note type="speaker">Sauter (Epfendorf) (CDU/CSU) :</note>
+        <u who="#Q1448849" xml:id="ParlaMint-DE_1975-10-22-07-195.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg159">Herr Staatssekretär, sind Sie mit mir der Meinung, daß das zuständige Ministerium, wenn sich die Problematik bei der Rückgliederung der Entwicklungshelfer zuspitzt, in besonderer Weise gehalten wäre, hier nachzuforschen und entsprechende Hinweise auch der deutschen Öffentlichkeit und dem Deutschen Bundestag zu geben? Brück, Purl. Staatssekretär: Herr Kollege Sauter, Sie hatten noch eine zweite Frage gestellt. In der Antwort darauf wollte ich eigentlich noch etwas dazu sagen, was jetzt schon getan wird. — Vielleicht darf ich jetzt, Herr Präsident, zunächst die zweite Frage beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u92" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg160">Herr Kollege, ich schlage vor, daß ich jetzt Ihre nächste Frage aufrufe:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg161">Welche praktischen Maßnahmen, neben dem Verteilen von Informationsmaterial, ist die Bundesregierung bereit zu ergreifen, um den zurückkehrenden Entwicklungshelfern die berufliche Rückgliederung zu erleichtern, und sieht die Bundesregierung eine Gefahr darin, daß, wenn jetzt heimkehrende Entwicklungshelfer berufliche Eingliederungsschwierigkeiten haben, sich künftig zu wenig neue Fachkräfte zum Entwicklungshilfedienst bereit finden? Dann gebe ich Ihnen nachher noch Gelegenheit zu weiteren Zusatzfragen, wenn Sie damit einverstanden sind.</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1975-10-22-07-195.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg162">Zur Erleichterung der beruflichen Rückgliederung wurden von den Entwicklungsdiensten spezielle Programme entwickelt. So versorgt z. B. der DED seine Entwicklungshelfer rechtzeitig vor der Rückkehr mit Hinweisen zur beruflichen Reintegration und zur Fortbildung. Er steht zur individuellen Beratung nach der Rückkehr zur Verfügung und veranstaltet Reorientierungsseminare unter Mitarbeit von Förderungsberatern. Außerdem haben die fünf anerkannten Träger des Entwicklungsdienstes und die Kübel-Stiftung das Förderungswerk für rückkehrende Fachkräfte der Entwicklungshilfe gegründet. Die Bundesregierung unterstützt das Förderungswerk im Haushaltsjahr 1975 mit 0,5 Millionen DM. Hieraus werden Ausgaben für einen Informations- und Beratungsdienst finanziert, der die Rückkehrer über Möglichkeiten der Weiterbildung und der entwicklungspolitischen Betätigung unterrichtet. Weiterhin werden Aufbau-, Ergänzungs- und Zweitbildungsgänge für zurückgekehrte Entwicklungshelfer gefördert, die keinen Anspruch auf Leistungen nach dem Arbeitsförderungsgesetz oder dem Bundesausbildungsförderungsgesetz haben. Daß sich auf Grund von Rückgliederungsschwierigkeiten wenig neue Fachkräfte zum Entwicklungsdienst bereitfinden, braucht derzeit nicht befürchtet zu werden. Die Zahl der Bewerber blieb beispielsweise beim DED gleich, die der Interessenten stieg sogar 1974 gegenüber dem Vorjahr um 15 %.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u94" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg163">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Sauter (Epfendorf) (CDU/CSU) :</note>
+        <u who="#Q1448849" xml:id="ParlaMint-DE_1975-10-22-07-195.u95" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg164">Herr Staatssekretär, können Sie verneinen, daß die Bundesregierung beabsichtigt, die Mittel für die Rückgliederungshilfe zu kürzen?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1975-10-22-07-195.u96" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg165">Wir haben nicht die Absicht, die Mittel zu kürzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u97" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg166">Keine weitere Zusatzfrage. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit beantwortet. Herr Staatssekretär, ich danke Ihnen. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers der Verteidigung. Zur Beantwortung steht Herr Staatssekretär Fingerhut zur Verfügung. Ich rufe die Frage 11 des Abgeordneten Reiser auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg167">Sieht sich die Bundesregierung in der Lage, amtierende Jugendvertreter auf deren eigenen Wunsch vom Wehr- und Zivildienst zurückzustellen, wie dies auf dem letzten DGB-Bundeskongreß gefordert wurde? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u98" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg168">Herr Abgeordneter Reiser, die Zurückstellung eines Wehrpflichtigen ist nach geltendem Recht nur dann zulässig, wenn die Heranziehung zum Wehrdienst für den Wehrpflichtigen aus persönlichen Gründen eine besondere Härte bedeuten würde. Die Einberufung eines wehrpflichtigen Betriebsjugendvertreters stellt jedoch nicht eine solche persönliche Härte dar. Sie kann allenfalls die Arbeit der Jugendvertretung berühren. Für die Zurückstellung von Zivildienstpflichtigen gelten die gleichen Grundsätze. Eine Zurückstellung von amtierenden Jugendvertretern ist daher gegenwärtig nicht möglich. Die Bundesregierung beabsichtigt auch nicht, dem Deutschen Bundestag eine entsprechende Änderung des Wehrpflichtgesetzes vorzuschlagen. Die Zurückstellung von Jugendvertretern wäre eine einseitige Bevorzugung einer bestimmten Gruppe von Wehrpflichtigen. Deshalb wäre dies nicht mit dem Grundsatz der Gleichbehandlung vereinbar. Die Auffassung der Bundesregierung, die auf gleichgerichtete Fragen der Herren Abgeordneten Link und Reuschenbach in den Sitzungen des Bundestages am 23. Februar 1973 und am 18. Juni 1973 den gleichen Standpunkt vertreten hatte, ist daher insoweit unverändert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u99" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg169">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Reiser (SPD) :</note>
+        <u who="#Q1612324" xml:id="ParlaMint-DE_1975-10-22-07-195.u100" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg170">Wie erklären Sie sich dann, daß dem amtierenden Jugendvertreter bei den Farbwerken Hoechst Gerhard Deltau bei seiner Musterung nach Auskunft der Industriegewerkschaft Chemie, Papier, Keramik versprochen worden ist, ihn frühestens im Sommer 1976 einzuziehen, um Rücksicht auf seine Tätigkeit zu nehmen?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u101" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg171">Der Fall, den Sie ansprechen, Herr Abgeordneter, ist mir bekannt, da ich aus dem gleichen Landstrich komme. Ich habe deshalb auch sofort als der dafür zuständige beamtete Staatssekretär eine Überprüfung eingeleitet. Diese hat ergeben, daß entgegen der Darstellung in der Presse dem Wehrpflichtigen keine Zusage gemacht worden ist, er werde mit Rücksicht auf seine Tätigkeit als Jugendvertreter zunächst nicht einberufen. Daher bestand keine Veranlassung, die Heranziehung dieses Wehrpflichtigen zur Ableistung des Grundwehrdienstes zu beanstanden. Wie ich bereits vorhin dargelegt habe, ist die Zurückstellung eines Wehrpflichtigen wegen seiner Tätigkeit als Jugendvertreter nicht möglich. An dieser Auffassung halten wir fest.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u102" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg172">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Reiser (SPD) :</note>
+        <u who="#Q1612324" xml:id="ParlaMint-DE_1975-10-22-07-195.u103" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg173">Können Sie sich weiterhin vielleicht erklären, warum der amtierende Jugendvertreter nach seinen eigenen Angaben als erster seiner ehemaligen Schulklasse zur Bundeswehr einberufen worden ist?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u104" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg174">Diese Erklärung fällt mir außerordentlich schwer, weil ich die Zusammensetzung der Schulklasse nicht kenne. Im übrigen gehen wir bei der Einberufung nach einheitlichen Gesichtspunkten vor. Ich kann mir nicht vorstellen, daß zu diesem Zeitpunkt irgendwelche Besonderheiten — es sei denn ein eigener Antrag, schnell einberufen zu werden — vorgelegen haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u105" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg175">Eine Zusatzfrage des Herrn Abgeordneten Walkhoff.</seg>
+        </u>
+        <note type="speaker">Waikhoff (SPD) :</note>
+        <u who="#Q1730013" xml:id="ParlaMint-DE_1975-10-22-07-195.u106" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg176">Herr Staatssekretär, kann ich aus Ihrer Mitteilung, daß die Bundesregierung nicht beabsichtigt, dem Parlament eine Gesetzesänderung vorzuschlagen, schließen, daß die Bundesregierung das persönliche Interesse eines Antragstellers höher bewertet als das gesamtgesellschaftliche Interesse, das meines Erachtens eine Zurückstellung vom Zivil- und Wehrdienst rechtfertigen könnte?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u107" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg177">Wir haben uns auch mit dieser Frage schon wiederholt befaßt, weil es nicht die erste Anfrage dieser Art ist; ich darf gerade auf diesen Punkt zurückgreifen. Wir würden die Zurückstellung von amtierenden Jugendvertretern als eine einseitige Bevorzugung einer bestimmten Gruppe werten, was zwangsläufig auslösen würde, daß eine Reihe von weiteren Gruppen derartige Anträge stellen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg178">Wir sind nach wie vor der Meinung, daß es bei der Prüfung, inwieweit wir einem derartigen Ersuchen stattgeben können, nur um den Begriff der persönlichen Härte gehen kann. Im übrigen wird es schwer sein, den Nachweis zu erbringen, daß die Arbeit für eine Gruppe allgemein Schaden nimmt, wenn ein solcher gewählter Vertreter einberufen wird, da in aller Regel spätestens zum Zeitpunkt der Wahl genügend Ersatzmitglieder benannt sind, die einspringen können, um eine derartige Aufgabe zu übernehmen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Zustimmung bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u108" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg179">Zu einer letzten Zusatzfrage, der Herr Abgeordnete Ey.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1975-10-22-07-195.u109" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg180">Herr Staatssekretär, halten Sie es nicht geradezu für geboten, den amtierenden Jugendvertretern Gelegenheit zur Erfüllung der Dienstpflicht zu geben?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u110" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg181">Es fällt mir sehr schwer, Ihnen in einer solchen Weise Stichworte dafür zu geben, wie meine persönliche Auffassung dazu geartet ist. Denn ich muß Ihnen sagen: Für einen Jugendvertreter — und ich habe ebenfalls einmal in einer solchen Tätigkeit gestanden — ist es sehr wertvoll, als Vorbild dienen zu können.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg182">Ich rufe die Frage 12 des Herrn Abgeordneten Hansen auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg183">Wird die Bundesregierung alle Reisen von Angehörigen der Bundeswehr, die Geheimträger der Stufe II sind, in Länder ohne freiheitlich-demokratische Regierungssysteme genehmigungspflichtig machen? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg184">Herr Abgeordneter Hansen, nach den zur Zeit geltenden Richtlinien, die vom Bundeskabinett am 6. Juni 1973 beschlossen und vom Bundesminister der Verteidigung als Reiseerlaß am 26. März 1974 erlassen wurden, sind private Reisen von Bundeswehrangehörigen, die Geheimnisträger der Stufe II sind, in Länder des kommunistischen Machtbereichs grundsätzlich untersagt. Ausnahmen sind von einer Genehmigung abhängig, die nur beim Vorliegen außergewöhnlicher Umstände erteilt wird. Maßgeblich für die Entscheidung der Bundesregierung ist die Tatsache, daß Bundeswehrangehörige während des Aufenthalts in Ländern des kommunistischen Machtbereichs erfahrungsgemäß mit dem Ziel nachrichtendienstlicher Mitarbeit gegen die Bundeswehr angesprochen werden. Es ist nicht beabsichtigt, die bestehenden Reisebeschränkungen auch auf Länder auszudehnen, von denen eine solche Bedrohung nicht ausgeht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg185">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1975-10-22-07-195.u114" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg186">Herr Staatssekretär, wie erklären Sie es sich dann, daß in der Liste der Länder, in die Reisen von Bundeswehrangehörigen, die Geheimnisträger der Stufe II sind, genehmigungspflichtig sind, wohl Nordvietnam aufgeführt ist, Südvietnam dagegen fehlt?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Wörner [CDU/CSU]: Das wird jetzt geändert, Herr Hansen! — Haase [Kassel] [CDU/CSU] : Das wird ergänzt, Herr Kollege!</desc>
+        </vocal>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg187">Ich sehe mir das gerade an, um festzustellen, ob das, was Sie sagen, so stimmt. Dann müßte ernsthaft erwogen werden, wenn wir Veranlassung dazu haben, eine Ergänzung vorzunehmen. Aber eine solche Prüfung müßte sich dann, wenn ich Sie richtig verstanden habe, auch auf andere Länder beziehen, und wir prüfen an sich nur, Herr Abgeordneter Hansen, wenn Veranlassung besteht. Veranlassung besteht bei uns, wenn Angehörige der Bundeswehr von Nachrichtendiensten anderer Mächte angesprochen und in Anspruch genommen werden, so wie das aus dem kommunistischen Machtbereich feststellbar ist. Wenn ich Ihnen zwei Zahlen nennen darf, beleuchtet das diese Frage in einer sehr überzeugenden Weise: 1974 hatten wir 83 Fälle, in denen — ohne jetzt auf Geheimhaltungsstufen abzustellen — Bundeswehrangehörige von Diensten im kommunistischen Machtbereich angesprochen worden sind, und 1975 waren es bis zum 30. September bereits 72 Fälle. Aus dem von Ihnen genannten Bereich sind Erkenntnisse ähnlicher Art nicht bekannt.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Hört! Hört! bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg188">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1975-10-22-07-195.u117" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg189">Herr Staatssekretär, vor dem Hintergrund, daß das Feindbild für eine freiheitliche Demokratie wohl generell repressive Diktaturen sein müßten, möchte ich Sie fragen, ob Sie nicht meiner Meinung sind, daß die Gefahr besteht, daß Geheimnisträger von anderen Mächten — eben von solchen repressiven Diktaturen — in der Weise, wie Sie das für den kommunistischen Machtbereich dargestellt haben, angesprochen werden können, und ob daraus nicht folgt, daß man auch die Reisen in solche Länder genehmigungspflichtig machen müßte?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg190">Wenn wir feststellen, Herr Abgeordneter, daß diese Gefahren, die Sie befürchten, zutreffen und wir konkrete Anhaltspunkte haben, dann verspreche ich Ihnen, sofort in eine Prüfung einzutreten und diesen Katalog, den dieser „Reiseerlaß" umfaßt, unter Umständen zu ergänzen. Aber bis zur Stunde besteht eine derartige Veranlassung nicht, weil Bundeswehrangehörige, ganz gleich, wohin sie privat reisen, nicht in dieser Weise in Anspruch genommen worden sind und auch die Gefahr einer solchen Inanspruchnahme nicht erkennbar war.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg191">Eine Zusatzfrage des Abgeordneten Dr. Kraske.</seg>
+        </u>
+        <note type="speaker">Dr. Kraske (CDU/CSU) :</note>
+        <u who="#Q124098" xml:id="ParlaMint-DE_1975-10-22-07-195.u120" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg192">Herr Staatssekretär, würden Sie meiner Auffassung zustimmen, daß es der deutschen Außenpolitik und damit den Interessen unseres Landes nicht zuträglich wäre, wenn die Bundesregierung ex officio jederzeit eine Liste bereithielte, in der sie alle Länder dieser Welt daraufhin rubrizierte, ob sie eine freiheitliche demokratische Grundordnung haben oder nicht?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u121" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg193">Herr Abgeordneter Dr. Kraske, Sie unterstreichen an sich mit viel besseren Worten noch einmal das, was ich sagte.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg194">Wir werden erst dann in eine Prüfung eintreten können, wenn dazu Veranlassung besteht. Diese Veranlassung ist nicht erkennbar. Ich bedaure, das nachträglich noch einmal sagen zu müssen; ich nehme an, daß es von mir etwas mißverständlich dargestellt worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u122" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg195">Eine letzte Zusatzfrage. Bitte, Herr Abgeordneter Sayn-Wittgenstein!</seg>
+        </u>
+        <note type="speaker">Prinz zu Sayn-Wittgenstein-Hohenstein (CDU/CSU) :</note>
+        <u who="#Q75893" xml:id="ParlaMint-DE_1975-10-22-07-195.u123" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg196">Herr Staatssekretär, halten Sie es für wahrscheinlich, daß Angehörigen der Bundeswehr die Einreise nach Südvietnam genehmigt wird, während Bundesbürger, die in humanitärem Auftrag dorthin reisen wollen, diese Genehmigung nicht erhalten?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u124" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg197">Herr Abgeordneter, ich habe das Gefühl, im Augenblick werden mit der Zusatzfrage doch die Grenzen der eingereichten Frage überschritten. Die Frage 13 wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe Frage 16 des Abgeordneten Ey auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg198">Welche Müglichkeiten sieht die Bundesregierung, das Überfliegen von Ferien-, Erholungs- und Campingplätzen im Rahmen von Übungsflügen auf ein Minimum zu beschränken?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg199">Herr Abgeordneter, der militärische Tiefflug ist bereits auf das zur Erhaltung der Einsatzbereitschaft der Piloten erforderliche Minimum reduziert. Die Verringerung von Überflügen über die von Ihnen genannten Gebiete wäre nur durch eine erhöhte Lärmbelästigung der Bevölkerung anderer Gebiete möglich; das wäre also eine Verschiebung nach diesem berühmten St.Florians-Prinzip. Darüber hinaus müßten die hierzu in einer Vielzahl vorliegenden Eingaben von Kliniken, Sanatorien und Altenheimen, die nicht nur in Städten, sondern im gesamten Bundesgebiet verstreut liegen, dann auch berücksichtigt werden. Hinzu kämen dann noch anerkannte Kurorte und Heilbäder sowie sonstige schutzwürdige kulturelle oder technische Objekte, so daß es zur Einstellung des gesamten Übungstiefflugs käme. Da grundsätzliche Lösungen bevorzugt werden, die der gesamten Bevölkerung in gleicher Weise zugute kommen, andererseits zur Erhaltung der vollen Einsatzbereitschaft der Luftstreitkräfte auf den militärischen Tiefflug nicht verzichtet werden kann und dieser bereits, wie schon erwähnt, auf das unbedingt notwendige Ausmaß begrenzt ist, werden weitere Möglichkeiten zur Beschränkung nicht erkannt.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Ey [CDU/CSU] : Danke schön!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u126" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg200">Keine Zusatzfragen. Meine Damen und Herren, ,die nächsten sechs Fragen — die Fragen 17 und 18 des Abgeordneten Dr. Wörner, die Fragen 19 und 20 des Abgeordneten Biehle und die Fragen 21 und 22 des Abgeordneten Rommerskirchen — betreffen insgesamt einen Komplex: 17. Dr. Wörner Trifft es zu, daß der damalige Leiter des Studentenbereichs der Hochschule der Bundeswehr in München, Oberstleutnant Eberhard Schmidt, bereits nach einjähriger Tätigkeit ohne erkennbaren Grund von seinem Dienstposten abgelöst wurde, daraufhin unter Verzicht auf alle Versorgungsansprüche aus dem Dienst der Bundeswehr ausschied, und welche Gründe haben bejahendenfalls diese Ablösung bewirkt? 18. Dr. Wörner Welche Überlegungen und Maßnahmen sind anläßlich des ungewöhnlichen Entlassungsvorgangs von den zuständigen Vorgesetzten getroffen worden? 19. Biehle Trifft es zu, daß die Tätigkeit des derzeitigen Leiters des Studentenbereichs der Hochschule der Bundeswehr in München zu einer Reihe von Beschwerden und Versetzungsgesuchen unterstellter Mitarbeiter geführt hat? 20. Biehle Aus welcher dienstlichen Verwendung kam der Nachfolger von Oberstleutnant Schmidt als Leiter des Studentenbereichs der Hochschule der Bundeswehr in München, und welche besondere Qualifikation — gemessen an seinem Vorgänger — zeichnete ihn für die neue Aufgabe an der Hochschule aus, und an wievielter Stelle in der Wertungs- und Eignungsliste seiner dienstgradgleichen Kameraden stand er? 21. Rommerskirchen Welche Gründe liegen für die unterschiedliche Behandlung von Oberstleutnant Schmidt und dessen Nachfolger als Leiter des Studentenbereichs der Hochschule der Bundeswehr in München vor? 22. Rommerskirchen Welche Konsequenzen zieht der Bundesminister der Verteidigung aus dem Vorgang an der Hochschule, um sicherzustellen, daß Stellenbesetzungen allein nach Eignung und Leistung vorgenommen werden? Ich möchte die Fragesteller und den Herrn Staatssekretär fragen, ob diese Fragen gemeinsam beantwortet werden können; das würde sicher die Beantwortung und möglicherweise auch die Stellung von Zusatzfragen durch Kollegen aus dem Hause ererleichtern.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU) :</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1975-10-22-07-195.u127" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg201">Herr Präsident, wir haben grundsätzlich nichts dagegen, daß zunächst in einer einleitenden Erklärung eine Klarstellung erfolgt. Aber die Fragen müssen schon einzeln beantwortet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg202">Ja, ich gehe davon aus, Herr Staatssekretär, daß Sie in der Gesamtbeantwortung auf sämtliche angesprochenen Komplexe zu sprechen kommen.</seg>
+          <vocal type="exclamat">
+            <desc>Staatssekretär Fingerhut: So hatte ich es vor!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg203">— Gut. Notfalls müssen wir das durch weitere Zusatzfragen klären.</seg>
+          <vocal type="exclamat">
+            <desc>Staatssekretär Fingerhut: Dieses Verfahren vereinfacht vielleicht auch die Zusatzfragen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg204">— Ja, bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u129" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg205">Die erste Frage von Herrn Dr. Wörner ist ja von grundsätzlicher Bedeutung und kehrt auch in abgewandeltem Sinne in zwei weiteren Fragen wieder. Die Versetzung des Oberstleutnants Schmidt bereits nach einjähriger Tätigkeit erfolgte im Zuge der Vorbereitung auf die für ihn ab 1975 empfohlene und mögliche Verwendung im technisch-wissenschaftlichen Aufgabenbereich. Oberstleutnant Schmidt wurde auf seinen Antrag hin der Verbleib im Standort München zur Erlangung der Promotion eingeräumt. Der Zeitpunkt der vorgesehenen Versetzung aus dem Aufgabenbereich des Leiters des Studentenbereichs wurde vorverlegt. Sein später gestellter Antrag auf Entlassung steht insoweit im Widerspruch zu seiner Absicht, bis April 1975 als Angehöriger der Bundeswehr zu promovieren. Zu der zweiten Frage, die sich hier anschließt und die sich ebenfalls um Oberstleutnant Schmidt dreht: Der Stellvertreter des Leiters der Personalabteilung führte mit Oberstleutnant Schmidt im Dezember 1974 im Ministerium ein persönliches Gespräch, in dessen Verlauf Oberstleutnant Schmidt die Gründe für seine Versetzung erläutert wurden. Zur Zurücknahme seines Antrags aufgefordert, teilte er am 20. Dezember 1974 mit, daß er wie beantragt entlassen werden wolle. Oberstleutnant Schmidt wurde daraufhin mit Ablauf des 31. Dezember 1974 aus der Bundeswehr entlassen.</seg>
+        </u>
+        <incident type="action">
+          <desc>Abg. Dr. Wörner [CDU/CSU] meldet sich zu einer Zusatzfrage</desc>
+        </incident>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u130" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg206">Einen Augenblick! Ich würde vorschlagen, daß wir die Fragen voll beantworten lassen.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Wörner [CDU/CSU] : Aber offensichtlich, Herr Präsident, ist es ja nicht so, daß sie zusammenhängen, sondern das ist die Beantwortung der ersten beiden Fragen! Sie hat überhaupt nichts mit den anderen Sachbereichen zu tun!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg207">— Einen Augenblick, Herr Kollege Dr. Wörner! Ich habe die Fragen jetzt aufgerufen, und der Herr Staatssekretär wollte die Beantwortung verbinden. Wir werden noch sehen. Bitte, Herr Staatssekretär, fahren Sie in der Beantwortung fort!</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u131" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg208">Ich muß ja so vorgegehen, Herr Präsident. Das war jetzt gerade der Leiter des Studentenbereichs. Auf den, der jetzt die Aufgabe wahrnimmt, müssen wir nun bei der Beantwortung der nächsten Frage kommen. Das ist bei der Beantwortung der gestellten Fragen also ganz systematisch. Als Drittes müssen wir uns über die Konsequenzen aus den Erfahrungen unterhalten und bestätigen, daß der Grundsatz, von dem Sie gesprochen haben, bei der Einstellung uneingeschränkt gilt. Das ist meine Vorstellung, wie man hier vorgehen kann. In diesem Zusammenhang komme ich auch auf die Frage, die Sie gestellt haben, Herr Abgeordneter Biehle: Inwieweit trifft es zu, daß Beschwerden vorliegen? Es trifft zu, daß zwei Stabsoffiziere, die dem Leiter des Studentenbereichs der Hochschule der Bundeswehr München unterstellt sind, sich über das Verhalten ihres Vorgesetzten insgesamt dreimal beim Stellvertreter des Generalinspekteurs der Bundeswehr, der hier aufsichtführend tätig ist und zuständig ist, beschwert haben. Die Beschwerden wurden nach eingehender Prüfung als in der Sache unbegründet zurückgewiesen, da ein schuldhaftes Verhalten des Leiters des Studentenbereichs der Hochschule München in keinem Fall festgestellt werden konnte. Einer der beiden Beschwerdeführer hat inzwischen weitere Beschwerde eingelegt, über die noch nicht entschieden ist. Insoweit befindet sich dieser Punkt noch in der Prüfung. In einem anderen Fall hat ein Stabsoffizier im Rahmen eines Personalgesprächs bei der Personalabteilung mündlich um seine Versetzung gebeten. Dieser Antrag wurde später schriftlich zurückgezogen. In diesem Zusammenhang ist es wichtig, festzustellen: Warum ist nach der Ablösung des Oberstleutnants Schmidt die Wahl nun ausgerechnet auf Oberstleutnant Münx gefallen? Dies will ich kurz erläutern, damit man sieht, daß auch hier der Grundsatz von Eignung und Erfahrung eine Rolle spielt. Der derzeitige Leiter des Studentenbereichs der Hochschule der Bundeswehr München war vor seiner Verwendung als Hilfsreferent im Büro des Parlamentarischen Staatssekretärs tätig.</seg>
+          <vocal type="exclamat">
+            <desc>Haase [Kassel] [CDU/CSU] : Da hat er natürlich an der Quelle das Wissen bekommen! Weitere Zurufe von der CDU/CSU</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg209">Ich habe extra eine Pause gemacht, weil ich das erwartet habe. Die Begründung, warum das so wertvoll ist, kommt jetzt. Das war ja schon irgendwo als ein Vorwurf zu hören. Ich muß sagen, das ist kein Vorwurf, sondern im Gegenteil eine Bestätigung einer personalpolitischen Entscheidung,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg210">aufbauend auf entsprechenden Erfahrungen, die diesen Mann befähigt haben, diese Aufgabe zu übernehmen. Ich will Ihnen kurz sagen, welche Stationen in seinem beruflichen Leben die Grundlage für diese Auffassung abgeben. Wir haben zunächst einmal festzustellen, daß Herr Münx, um den es hier geht, ein abgeschlossenes juristisches Studium hat. Seine langjährige Verwendung als Disziplinarvorgesetzter in der Fallschirmjägertruppe, seine Tätigkeit als Hörsaalleiter und Lehrstabsoffizier an der Heeresoffiziersschule Hamburg und bei der Stabsakademie der Bundeswehr — auf Grund all dieser Tätigkeiten erschien er im Vergleich zu seinem Vorgänger, der über weniger Truppenerfahrung als Disziplinarvorgesetzter verfügte, insbesondere auch im Hinblick auf die guten Beurteilungen für diese Verwendung qualifiziert. Nun könnte man in diesem Zusammenhang ein grundsätzliches Wort zu der Methodik der Personalauswahl sagen. Wie sind wir dazu gekommen? Bei der Personalauswahl konnten wir in diesem Falle, was sonst grundsätzlich der Fall ist — deswegen fällt es uns leicht, Anwürfe oder Kritik an der Personalplanung, Führung oder allgemeinen Entscheidungen zurückzuweisen —, nicht auf die Eignungs- und Wertungslisten, die sonst geführt werden, zurückgreifen.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Wörner [CDU/CSU]: Ach so!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg211">Eignungs- und Wertungslisten werden für jeweils mindestens vier Offiziere einer Dienstgradgruppe geführt, die in vergleichbarer Funktion innerhalb der Bundeswehr insgesamt bzw. einer Teilstreitkraft oder eines Großverbandes tätig sind. Diese Voraussetzungen waren weder bei Oberstleutnant Schmidt noch bei Oberstleutnant Münx in ihrer Funktion als Leiter des Studentenbereichs und — das beziehe ich gleich mit auf unser Haus — als Hilfsreferent im Büro des Parlamentarischen Staatssekretärs gegeben. Das muß man wissen, um auch anerkennen zu können, daß man hier nach besonderen Eignungsmerkmalen sucht und unter Umständen auf dem Weg über bestimmte Verwendungen einen Aufbau vollzieht, der geeignet ist, den Betreffenden mit Erfolg in solch herausgehobenen Funktionen einsetzen zu können. In diesem Zusammenhang ist ja noch eine andere Frage von Bedeutung, die aus der Anfrage des Herrn Abgeordneten Rommerskirchen hervorgeht. Ich darf rundheraus sagen: Es gibt keine unterschiedliche Behandlung der Oberstleutnante Schmidt und Münx. Zur Behandlung des Oberstleutnants Schmidt beziehe ich mich auf die schon eingangs gemachten Ausführungen. Im übrigen aber bitte ich, daraus auch noch zu entnehmen, daß die Vorgesetzten des Oberstleutnants Schmidt bestrebt waren, ihn, seine Anlagen fördernd und seine Fähigkeiten berücksichtigend, auf die nächste Verwendung im wissenschaftlich-technischen Bereich des Ministeriums vorzubereiten. Das geschah — das betone ich ausdrücklich — in Übereinstimmung mit der erklärten Absicht des Oberstleutnants Schmidt, als Angehöriger der Bundeswehr bis April 1975 in München zu promovieren.</seg>
+          <vocal type="exclamat">
+            <desc>Haase [Kassel] [CDU/CSU] : Was hat das damit zu tun?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg212">Außerdem möchte ich sagen: Die von Untergebenen des Oberstleutnants Münx als Nachfolger von Oberstleutnant Schmidt vorgebrachte Kritik an dessen Führungsstil war in ihrer Substanz nicht geeignet, personelle Konsequenzen zu ziehen, z. B. die geforderte Ablösung dieses Offiziers zu bewirken. Um eine abschließende Bemerkung zu machen: Wir sind nicht bereit, Konsequenzen zu ziehen, die dahin zielen, eine Änderung in Fragen der Stellenbesetzung der Soldaten, wie sie jetzt und in den vergangenen drei Jahren durch das Bundesverteidigungsministerium bzw. ihrer Leitung erfolgt sind, vorzunehmen, weil wir weiterhin erstens im Rahmen des Bedarfs und zweitens nach Eignung und Leistung vorzugehen gewillt sind, wie es in der Vergangenheit geschehen ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u132" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg213">Nach dieser Darstellung aus der Sicht des Verteidigungsministeriums haben Sie, Herr Abgeordneter Dr. Wörner, vier Zusatzfragen.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU) :</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1975-10-22-07-195.u133" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg214">Herr Staatssekretär, erste Zusatzfrage: Sie haben dargestellt, daß die Versetzung von Herrn Oberstleutnant Schmidt vorverlegt wurde. Was sind die Gründe gewesen, wenn Sie nach Eignung und Leistung verfahren, diese Versetzung vorzuverlegen?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg215">Ich werde diese Frage nicht beantworten, weil die Fürsorgepflicht</seg>
+          <kinesic type="applause">
+            <desc>Unruhe bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg216">— Herr Präsident, ich bitte um Verständnis, daß ich die Begründung für diese Ablehnung gebe; denn es geht hier um ein grundsätzliches Anliegen;</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg217">ich könnte Ausführungen dazu machen — des Dienstherrn dem durchaus entgegensteht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u135" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg218">Herr Staatssekretär, damit ist die Frage beantwortet, auch wenn der Fragesteller sie nicht als beantwortet ansieht. Bitte, eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU) :</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1975-10-22-07-195.u136" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg219">Dann frage ich noch etwas genauer: Trifft das zu, was Herr Oberstleutnant Schmidt sagt, nämlich daß ihm sein höchster militärischer Vorgesetzter, der stellvertretende Generalinspekteur der Bundeswehr, zugesagt hat, daß er auf diesem Dienstposten länger verbleibe, daß er unmittelbar danach aber dennoch von der politischen Leitung dieses Hauses aus dieser Verwendung herausgelöst wurde?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u137" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg220">Ich habe nach den mir zugänglich gemachten Unterlagen keinen Anhaltspunkt dafür, daß der stellvertretende Generalinspekteur eine derartige Aussage gemacht hat. Ich finde sie in dieser Form in den Unterlagen jedenfalls nicht vor.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der CDU/CSU: Das ist auch nicht verwunderlich!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u138" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg221">Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU) :</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1975-10-22-07-195.u139" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg222">Herr Staatssekretär, wenn Sie jetzt nicht in der Lage sind, diese Frage zu beantworten, sind Sie dann bereit, diese Frage nach entsprechender Prüfung in der nächsten Fragestunde — ich werde dann eine entsprechende Frage einbringen — zu beantworten?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u140" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg223">Herr Abgeordneter Dr. Wörner, ich mache Ihnen einen viel besseren Vorschlag, der Sie in die Lage versetzt, zu einer objektiven Betrachtung dieser Angelegenheit und auch zu einem sehr schlüssigen Ergebnis zu kommen. Mein erstes Angebot ist, mit Ihnen persönlich über diese Angelegenheit zu sprechen, nachdem mir die beiden Betroffenen attestiert haben, mit Ihnen frei und offen über Gründe, die zu bestimmten personellen Maßnahmen geführt haben, sprechen zu können. Mein zweites Angebot — es ist alternativ gemeint — ist, über diese Angelegenheit in vertraulicher Beratung — wieder unter der Voraussetzung der Zustimmung der beiden genannten Offiziere — im Verteidigungsausschuß zu sprechen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u141" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg224">Sie haben eine weitere Zusatzfrage, Herr Abgeordneter Dr. Wörner.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU) :</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1975-10-22-07-195.u142" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg225">Ich frage noch etwas präziser: Hat es Anstände bezüglich des Verhaltens und der dienstlichen Erfüllung der Pflichten des Oberstleutnants Schmidt gegeben, die zur Vorverlegung seiner Versetzung geführt haben?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u143" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg226">Sie können fragen, Herr Abgeordneter, was Sie wollen; ich werde mich nicht auf das Niveau des Abgeordneten im Bayerischen Landtag, Oberst a. D. Prentl, begeben und hier Personalien ausbreiten, die nicht hierher gehören.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Wörner [CDU/CSU] : Das ist eine unerhörte Diffamierung! Was ist hier eigentlich los? Müssen wir die Qualifikation eines Abgeordneten durch einen Staatssekretär hinnehmen? Das sollte in einem anderen Parlament passieren! — Weitere Zurufe von der CDU/CSU</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u144" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg227">Herr Abgeordneter Wörner, Sie sind ja nicht der amtierende Präsident. Herr Staatssekretär, ich meine, Sie sollten auch dann, wenn die Kritik eines Abgeordneten über das hinausgeht, was Sie für berechtigt halten, einen anderen Weg finden, um Ihre Meinung deutlich zu machen, also etwas anders formulieren.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf des Abg. Lemmrich [CDU/CSU]</desc>
+        </vocal>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg228">Herr Präsident, wenn ich in der Formulierung zu hart war, bitte ich um Entschuldigung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg229">Erledigt!</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg230">Es ist mir aber nicht möglich, hier über diese internen Vorgänge zu sprechen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Zustimmung bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg231">Herr Abgeordneter Biehle, haben Sie Zusatzfragen?</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf des Abg. Pawelczyk [SPD]</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg232">— Einen Augenblick! Herr Abgeordneter Pawelczyk, erst gebe ich den drei Fragestellern die Möglichkeit, ihre Zusatzfragen zu stellen. Erst danach nehme ich die anderen Zusatzfragen an. Bitte, Herr Abgeordneter Biehle!</seg>
+        </u>
+        <note type="speaker">Biehle (CDU/CSU) :</note>
+        <u who="#Q124182" xml:id="ParlaMint-DE_1975-10-22-07-195.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg233">Herr Staatssekretär, ich möchte Sie unter Bezugnahme auf wörtliche Passagen des „ZDF-Magazins" fragen, wie Sie sich zu dem plötzlichen Rückzieher von Minister Leber — ich erinnere an die ursprünglichen Androhungen von presserechtlichen und strafrechtlichen Maßnahmen gegen den ZDF-Moderator Löwenthal —, der plötzlich keine Veranlassung mehr sieht — so Minister Leber nach der Sendung —, solche angedrohten Maßnahmen zu ergreifen, stellen? Immerhin sind in der ZDF-Fernsehsendung aber doch handfeste, namentlich belegte, schwerste Vorwürfe gegen Minister Leber und die sozialdemokratische Personalführung in der Bundeswehr erhoben worden.</seg>
+        </u>
+        <vocal type="question">
+          <desc>Würtz [SPD] : Was hat das mit der Frage zu tun?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u150" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg234">Herr Kollege Würtz, bei den zwei Zusatzfragen, die jedem Abgeordneten zu einer von ihm gestellten Frage zustehen, verfahre ich immer etwas weitherziger. Bitte, Herr Statssekretär!</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u151" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg235">Herr Abgeordneter Biehle, ich bin im Rückstand, was diese Information betrifft. Ich pflege mir Löwenthal-Sendungen nicht anzusehen, weil sie keinen Gewinn bringen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg236">Deshalb kann ich nicht auf Stimmung und Atmosphäre eingehen.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg237">— Das sind schon Zusatzfragen, Herr Präsident.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg238">Der zweite Teil der Frage bezieht sich auf das Verhalten von Minister Leber in dieser bewußten Sache. Sicherlich war die Reaktion eine ganz klare, wenn er sich am Anfang aus Gründen des Schutzbedürfnisses der Offiziere dagegen wendet, daß hier Personalien in falschem Zusammenhang dargestellt werden. Daß sich das in der Sendung nachher etwas anders dargestellt hat, war nicht etwa versöhnlich, sondern wir sahen dann keinen Grund mehr, dieser Sache nun offiziell, als Ressort, entgegenzutreten, sondern wollten es den betreffenden Offizieren — es sind ja noch, wie Sie wissen, andere Namen genannt worden — überlassen, selbst auf den ihnen möglichen Wegen vorstellig zu werden. Das war die Erklärung für das Verhalten von Minister Leber. Im übrigen gilt ja noch das Angebot, daß man in einem gemeinsamen Gespräch mit Herrn Dr. Wörner über diesen Punkt spricht. Ich sehe also hier an dieser Stelle keine Veranlassung, Ihnen irgendwelche Vermutungen vorzutragen, für die ich den Beweis schuldig bleiben muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u152" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg239">Herr Abgeordneter Biehle, Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Biehle (CDU/CSU) :</note>
+        <u who="#Q124182" xml:id="ParlaMint-DE_1975-10-22-07-195.u153" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg240">Unabhängig von Ihrer persönlichen Wertung, die sicherlich nicht mit der ,des Ministers übereinstimmt — sonst hätte er nicht gedroht —, frage ich Sie,</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u154" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg241">Herr Abgeordneter, kommen Sie zu einer klaren Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Biehle (CDU/CSU) :</note>
+        <u who="#Q124182" xml:id="ParlaMint-DE_1975-10-22-07-195.u155" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg242">— — ob es nicht ein außergewöhnlicher Vorgang ist, daß trotz der erheblichen Bedenken gegen die Qualifikation und noch laufender Beschwerden, die Sie angeführt haben, die Besetzung mit dem neuen Stelleninhaber dennoch erfolgt ist?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u156" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg243">Ich muß hier noch einmal in aller Deutlichkeit bestätigen, daß wir zu einer solchen Personalentscheidung nach den üblichen Grundsätzen der Eignung und des beruflichen Vorlaufs kommen. Jemandem, der noch nie an einer Kanone gestanden hat, werden wir schwerlich eine Batterie übertragen können. Für solche Bereiche gibt es also festgefügte Eignungsbilder, die die Grundlage für eine Entscheidung abgeben. Für diesen Fall des Leiters des Studentenbereichs, Herr Biehle, muß ich Ihnen zugestehen, gibt es derartige Vorstellungen nicht, sondern wir müssen individuell prüfen, inwieweit der Betreffende Voraussetzungen mitbringt, um diese Aufgabe zu übernehmen, und müssen — das ist unsere Pflicht auch im personalplanerischen Geschehen — den Aufbau mitvollziehen, damit er eine solche Aufgabe, die nur in Hamburg und München anzutreffen ist, abgerundet wahrnehmen kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u157" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg244">Herr Abgeordneter Biehle, Sie haben noch eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Biehle (CDU/CSU) :</note>
+        <u who="#Q124182" xml:id="ParlaMint-DE_1975-10-22-07-195.u158" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg245">Herr Staatssekretär, würden Sie mir nicht wenigstens bestätigen, daß sowohl die Personalabteilung als auch die militärische Führung des Hauses mit dieser Besetzung ursprünglich nicht einverstanden war, sondern erst im Nachhinein zugestehen mußte, diese Besetzung so vorzunehmen, weil politische Anweisungen gekommen sind?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u159" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg246">Das kann ich Ihnen nicht bestätigen. Erstens ist das nicht meine Aufgabe — Sie haben mich persönlich angesprochen —, sondern Sie wissen, daß der Bereich des Hochschulwesens in den Geschäftsbereich des Parlamentarischen Staatssekretärs gehört.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg247">und er auch hier Entscheidungen mit den Präsidenten der einzelnen Hochschulen vorbereitet und abstimmt, so daß also von einer einseitigen, mit Machtvollzug durchgesetzten Personalentscheidung nicht die Rede sein kann. Sowohl bei den Berufungen allgemein wie auch in diesen beiden speziellen Fällen ist diese Abstimmung geschehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u160" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg248">Herr Abgeordneter Biehle, Sie haben eine letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Biehle (CDU/CSU) :</note>
+        <u who="#Q124182" xml:id="ParlaMint-DE_1975-10-22-07-195.u161" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg249">Herr Staatssekretär, wie stellen Sie sich dann vor, daß die Entscheidung zugunsten des jetzigen Stelleninhabers in Abwesenheit des zuständigen militärischen Vorgesetzten erfolgt ist, nachdem man wußte, daß hier erhebliche Bedenken vorgetragen worden waren?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u162" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg250">Ich muß Sie da berichtigen. Denn der dafür zuständige stellvertretende Generalinspekteur wußte von diesen personellen Umbesetzungsabsichten, die wohl begründet waren.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Wörner [CDU/CSU] : Das ist doch nicht richtig! — Biehle [CDU/CSU] : Aber erst im Nachhinein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg251">— Das glaube ich nicht.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Wörner [CDU/CSU] : Der Vollzug ist in seiner Abwesenheit und gegen seinen Willen getroffen worden!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg252">— Der Vollzug ist in seiner Abwesenheit erfolgt, aber die Erklärung der Absicht ist sicherlich zu einem früheren Zeitpunkt vorgenommen worden. Denn — jetzt gebe ich die Begründung dafür, die ich aber hier nicht konkretisieren kann, um nicht wortbrüchig zu werden — es gibt eine Reihe von Gründen, die diese Personaländerung ausgelöst haben.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Wörner [CDU/CSU] : Parteipolitischer Art!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg253">Ich erkläre hier noch einmal meine Bereitschaft, Ihnen die Gründe an anderer Stelle und zu einem anderen Zeitpunkt auseinanderzusetzen, wenn die beiden Offiziere damit einverstanden sind. Ein Grund jedenfalls, der dem jetzigen Stelleninhaber immer wieder unterstellt wird, nämlich der, er habe eine starke politische Bindung, stimmt nicht. Und das ist ja gerade eine der Behauptungen dieses Obersten a. D., die er vor versammelter „Mannschaft" erhoben hat.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Pfeffermann [CDU/CSU] : Hat er diese Parteibindung nicht?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u163" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg254">Einen Augenblick bitte, meine Damen und Herren! — Die nächste Zusatzfrage hat der Abgeordnete Rommerskirchen.</seg>
+        </u>
+        <note type="speaker">Rommerskirchen (CDU/CSU):</note>
+        <u who="#Q1506825" xml:id="ParlaMint-DE_1975-10-22-07-195.u164" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg255">Herr Staatssekretär, da Sie soeben die Stelle, die der jetzige Stelleninhaber innehat, qualifiziert, über Menschenführung aber dabei nichts gesagt haben, möchte ich Sie fragen: Ist es nicht richtig, daß Menschenführung nach unserem allgemeinen Verständnis in der Bundeswehr eine ganz besondere Bedeutung hat, und trifft es zu, daß nach der Qualifizierung durch seine Vorgesetzten gerade im Bereich der Menschenführung die größten Schwächen des Bewerbers lagen?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Hört! Hört! bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u165" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg256">Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u166" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg257">Hier wird der Versuch gemacht, den zweiten Teil dieses Fragenkomplexes überzubewerten. Ich muß dazu sagen: Die Gründe, die zur Ablösung des früheren Leiters des Studienbereiches, des Oberstleutnant Schmidt, geführt haben, sind doch zunächst einmal interessant und müssen bewertet werden, um dann zu sagen: Es mußte eine personelle Nachbesetzung in Erwägung gezogen werden. Das ist der eine Teil. Ich hatte Ihnen angeboten, über diese Frage an einer anderen Stelle etwas zu sagen, damit Sie wissen, warum dies notwendig war. Der zweite Teil bezieht sich darauf: Inwieweit war denn ausgerechnet der, den sie jetzt als Leiter des Studentenbereichs haben, herauszuziehen? —Dazu muß ich ihnen sagen und — in der Annahme, daß Sie nicht alles mitbekommen haben —</seg>
+          <vocal type="exclamat">
+            <desc>Rommerskirchen [CDU/CSU]: Ich habe alles mitbekommen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg258">wiederholen: Er hat ein abgeschlossenes juristisches Studium. Das ist doch die Grundlage für derartige rechtliche Aufgaben.</seg>
+          <vocal type="exclamat">
+            <desc>Seiters [CDU/CSU] : Es ist nach der Menschenführung gefragt worden!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg259">— Das kommt als nächstes. — Er hat eine langjährige Erfahrung als Disziplinarvorgesetzter in der Fallschirmjägertruppe. Er hat dort den Nachweis erbracht, daß er sich im Umgang mit Menschen, auch in diesen schwierigen Situationen, als Truppenvorgesetzter, als Truppenoffizier bewährt hat. Das können Sie doch nicht wegdiskutieren. Das ergibt sich aus den Personalunterlagen.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf des Abg. Biehle [CDU/CSU]</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg260">— Diese Beurteilungen sind nicht von mir, Herr Abgeordneter Biehle, sondern der berühmte Mitzeichnungskamm ergibt die Beteiligung vieler hervorragender Offiziere, die auch Ihr Vertrauen genießen und die sich dort deutlich ausgedrückt haben. Der dritte Punkt ist auch nicht wegzudiskutieren. Auch aus seiner Tätigkeit als Hörsaalleiter und Lehrstabsoffizier an der Heeresoffizierschule in Hamburg ergeben sich keine negativen Anmerkungen, die Sie berechtigen würden, zu sagen:</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Wörner [CDU/CSU] : Das ist auch nicht richtig, die gibt es!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg261">Aus all den Punkten ergibt sich ein so mieses Punktekonto, daß Sie von vornherein nicht auf diesen Mann hätten zurückgreifen dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u167" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg262">Herr Abgeordneter Rommerskirchen, Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Rommerskirchen (CDU/CSU) :</note>
+        <u who="#Q1506825" xml:id="ParlaMint-DE_1975-10-22-07-195.u168" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg263">Herr Staatssekretär, nachdem Sie gerade auf die Aufgaben verwiesen haben, die er vorher im Bereich der Menschenführung wahrgenommen hat: Trifft es nicht zu, daß die Personalabteilung wie auch die militärische Führung mit der Besetzung ursprünglich nicht einverstanden waren, weil genau in diesem Bereich Mängel festgestellt worden waren?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Wörner [CDU/CSU] : Nach seinen Beurteilungen! — Seiters [CDU/CSU] : Eine unkorrekte Auskunft!</desc>
+        </vocal>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u169" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg264">Aus den mir zugänglichen Personalunterlagen — ich betone das noch einmal —, aus den Beurteilungen und aus dem, was Grundlage der Entscheidung ist, ergibt sich das, was Sie jetzt behaupten, nicht. Sonst wäre doch eine solche Entscheidung nicht getroffen worden.</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Lachen bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u170" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg265">Herr Abgeordneter Rommerskirchen, Sie haben noch zwei Zusatzfragen.</seg>
+          <vocal type="exclamat">
+            <desc>Rommerskirchen [CDU/CSU] : Ich verzichte, weil wir sicher im Verteidigungsausschuß noch mehr dazu hören werden!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg266">Ich habe noch zwei Zusatzfragen aus dem Hause vorliegen. Herr Dr. Wörner, ich gebe Ihnen ebenfalls noch die Möglichkeit für Zusatzfragen, weil Sie die zu den Fragen der beiden anderen Fragestellern stellen können. Herr Abgeordneter Hansen!</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1975-10-22-07-195.u171" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg267">Herr Staatssekretär, würden Sie zur Aufklärung der Kollegen und der Öffentlichkeit bitte noch einmal präzise sagen, wer die Eignung eines Offiziers in der Bundeswehr beurteilt und wieweit die politische Führung überhaupt in diesen Prozeß eingeschaltet ist?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u172" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg268">Herr Kollege Hansen, ich kann keinen unmittelbaren Zusammenhang Ihrer Zusatzfrage mit den gestellten Fragen sehen. Wenn der Herr Staatssekretär sie beantworten will, bitte!</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u173" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg269">Ich will sie gern beantworten. Ich muß mich dann nur konkret an die frühere Aussage halten, weil es hier um eine Besonderheit geht. Es gibt nur wenige Dienstposten dieser Art; das sagte ich. Genauso gibt es nur einen Referenten für einen Parlamentarischen Staatssekretär im Verteidigungsministerium, höchstens zwei. Infolgedessen ergibt sich hieraus der Unterschied, den Sie doch bitte alle erkennen mögen: Für die Personalauswahl stehen uns allgemein Eignungs- und Wertungslisten für alle jene Positionen zur Verfügung, in denen mindestens vier Offiziere einer Dienstgradgruppe geführt werden und die in vergleichbaren Funktionen innerhalb der Bundeswehr, innerhalb eines Großverbandes oder, wenn Sie so wollen, auch der Teilstreitkraft tätig sind. Dies gibt uns ein vergleichendes Bild und läßt uns eine Entscheidung, die ja, wie Sie wissen, in Verbindung mit der Personalabteilung gefällt wird, leichter werden. Nun liegt hier eine Besonderheit vor, über die wir die ganze Zeit sprechen: Der Leiter des Studentenbereichs, eine Position, die wir nur bei der Bundeswehrhochschule haben — einmal in Hamburg, einmal in München —, muß bestimmte Voraussetzungen erfüllen. Hier müssen wir auch ein gewisses pädagogisches Geschick fordern und dürfen nicht nur die Anmerkungen berücksichtigen, die Sie hier positiv verstanden wissen wollen, auf die Menschenführung bezogen. Diese Voraussetzungen hat ja der Betreffende, von dem Sie gesprochen haben, auf Grund seiner bisherigen Leistungen und Verwendungen erfüllt. Deshalb ist es bei einer solchen Entscheidung nachher Sache der Leitung und des dafür in erster Linie verantwortlichen Staatssekretärs, konkret zu sagen, daß der von ihm ausgesuchte Offizier Voraussetzungen dieser Art erfüllt und die Aufgabe wahrnehmen kann. Dies geschieht aber dann auch in Verbindung mit dem Präsidenten der Hochschule und anderer dafür noch zuständiger Stellen. Die Entscheidung, wer Leiter eines Studentenbereichs wird, wird also insofern letztlich im Kollegium, in dem neben der Leitung auch die militärische Seite vertreten ist, getroffen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u174" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg270">Eine Zusatzfrage des Abgeordneten Pawelczyk.</seg>
+        </u>
+        <note type="speaker">Pawelcyzk (SPD) :</note>
+        <u who="#Q99277" xml:id="ParlaMint-DE_1975-10-22-07-195.u175" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg271">Herr Staatssekretär, stimmen Sie mir zu, daß es schlimme Folgen für das innere Gefüge der Bundeswehr haben muß, wenn wir in dem Stil fortfahren,</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Wörner [CDU/CSU] Parteipolitisch in die Bundeswehr hineinzuregieren! Das ist es!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg272">den die Opposition hier heute im Plenum eingeführt hat, nämlich Einzelheiten der Inhalte von Personalakten einzelner Soldaten hier im Plenum zu erörtern?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD — Zurufe von der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u176" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg273">Herr Abgeordneter, ich stimme dem uneingeschränkt zu. Sie können mit allem Widerstand aus unserem Hause gegen derartige Ansinnen rechnen.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Die Parteibuchwirtschaft macht den Schaden!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg274">Ich habe Alternativen angeboten, um Ihnen die Informationen zugänglich zu machen, die geeignet sind, Sie von dieser vorgefaßten Meinung oder falschen Betrachtungsweise wegzubringen. Ich finde, man muß auch diesem Menschen hier Rechnung tragen, der sein Bestes in der Zeit des Aufbaus einer Bundeswehrhochschule gegeben hat — unter Betrieb; das muß man sich ja auch einmal vorstellen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u177" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg275">Eine Zusatzfrage des Herrn Abgeordneten Dr. Wörner.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU) :</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1975-10-22-07-195.u178" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg276">Herr Präsident, ist meine Annahme richtig, daß mir zu jeder Frage eine Zusatzfrage zusteht?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u179" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg277">Sie haben jetzt noch zwei Zusatzfragen zu den Fragen der Abgeordneten Rommerskirchen und Biehle.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU):</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1975-10-22-07-195.u180" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg278">Das sind jeweils zwei Fragen; dann müßte mir auch jeweils eine Zusatzfrage zustehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u181" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg279">Nach der Geschäftsordnung ja.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU) :</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1975-10-22-07-195.u182" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg280">Gut. Ich bedanke mich. — Meine erste Frage: Sind Sie der Meinung, daß ein Offizier, der in der Eignungs- und Wertungsliste mehr als 200 seiner Jahrgangskollegen gleichen Dienstgrades vor sich hat, als Leiter eines Studentenbereichs und damit zur Heranbildung künftiger Offiziere geeignet ist?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u183" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg281">Das bin ich — wenn er die Voraussetzungen besonderer Art erfüllt.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg282">— Herr Abgeordneter Dr. Wörner, es wäre doch schier unmöglich, eine vernünftige Personalplanung vorzunehmen, wenn man immer nur strichweise in der berühmten Beförderungsliste vorgeht. Es gibt natürlich solche Springer, die sich auf Grund ihrer umfassenden Voraussetzungen, die sie in vielfältigen Verwendungen gewonnen haben, für eine besondere Tätigkeit qualifiziert haben. Und in diesem Fall ist es nun einmal so.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u184" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg283">Ich lasse zunächst noch eine Zusatzfrage des Herrn Abgeordneten Biehle zu. — Meine Damen und Herren, ich sage Ihnen jetzt schon: Gleich ist der Punkt erreicht, an dem ich die Zusatzfragen abschließen und zu den nächsten Fragen übergehen werde. — Bitte!</seg>
+        </u>
+        <note type="speaker">Biehle (CDU/CSU) :</note>
+        <u who="#Q124182" xml:id="ParlaMint-DE_1975-10-22-07-195.u185" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg284">Herr Staatssekretär, wie bewerten Sie denn die Tatsache, daß ausgerechnet fünf Schlüsselpositionen im Bildungs- und Ausbildungsbereich der Bundeswehr von Mitarbeitern der politischen Leitung und Führung des Ministeriums besetzt werden, nämlich die Positionen der beiden Leiter der Studentenbereiche und zweier Professoren an den Bundeswehrhochschulen sowie des Kommandeurs des Grundlehrganges an der Führungsakademie der Bundeswehr in Hamburg?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u186" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg285">Herr Abgeordneter Biehle, weil Ihre Frage keine Zusatzfrage im Sinne der Geschäftsordnung ist, lasse ich sie nicht zu. Das Wort zu einer Zusatzfrage hat Herr Abgeordneter Pfeffermann.</seg>
+        </u>
+        <note type="speaker">Pfeffermann (CDU/CSU) :</note>
+        <u who="#Q1512231" xml:id="ParlaMint-DE_1975-10-22-07-195.u187" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg286">Herr Staatssekretär, spüren Sie mit mir die Verwunderung darüber, daß Sie sich zwar über die Bewertung der betroffenen Offiziere hier sehr vorsichtig äußern, aber gar nicht so rücksichtsvoll sind bei der Bewertung von an diesem Vorgang beteiligten Journalisten, und sich auch nicht zieren, die einem Rufmord ähnlichen — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u188" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg287">Herr Abgeordneter Pfeffermann, ich lasse Ihre Zusatzfrage nicht zu. Eine Zusatzfrage des Abgeordneten Hansen, anschließend noch Zusatzfragen der Herren Abgeordneten Pawelczyk und Wörner. Dann aber werde ich die nächste Frage aufrufen. -- Bitte!</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1975-10-22-07-195.u189" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg288">Herr Staatssekretär, können Sie bestätigen, daß Oberstleutnant Münx, der Nachfolger von Oberstleutnant Schmidt, keiner Partei angehört?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u190" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg289">Das kann ich bestätigen. Ich habe mich in einem persönlichen Gespräch um die Aufhellung dieser Hintergründe bemüht, nachdem schon von den Beschwerdeführern Vorwürfe ähnlicher Art erhoben worden sind. Ich darf das hier in aller Deutlichkeit bestätigen: Er hat keine parteipolitische Bindung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u191" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg290">Herr Abgeordneter Pawelczyk und als letzter dann Herr Abgeordneter Wörner zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Pawelczyk (SPD) :</note>
+        <u who="#Q99277" xml:id="ParlaMint-DE_1975-10-22-07-195.u192" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg291">Herr Staatssekretär, in der angesprochenen Fernsehsendung sind massive Vorwürfe gegen den stellvertretenden Generalinspekteur erhoben worden. Meine Frage: Hat er zu diesen Vorwürfen bisher Stellung genommen, und wenn ja, in welcher Weise?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u193" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg292">Herr Abgeordneter, auch diese Zusatzfrage steht nur bedingt im Zusammenhang mit den ursprünglichen Fragen. Aber wenn der Herr Staatssekretär sie beantworten kann und will, will ich sie zulassen.</seg>
+        </u>
+        <note type="speaker">Pawelczyk (SPD) :</note>
+        <u who="#Q99277" xml:id="ParlaMint-DE_1975-10-22-07-195.u194" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg293">Vielleicht darf ich das erklären: Oberstleutnant Schmidt hat diese Vorwürfe in der Sendung erhoben.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der CDU/CSU: Er hat doch die Sendung nicht gesehen! — Weitere Zurufe von der CDU/CSU</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u195" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg294">Herr Kollege, Ihre Frage steht nur bedingt im Zusammenhang mit den ursprünglichen Fragen. — Herr Staatssekretär, wollen Sie sie auf Grund Ihrer Kenntnisse beantworten?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u196" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg295">Es ist soeben gerufen worden, ich hätte die Sendung nicht gesehen. Die Niederschrift ergibt eine derartige Aussage. Sie wissen, daß wir zum 1. Oktober einen Personalwechsel hatten und daß inzwischen ein anderer Stellvertretender Generalinspekteur ist. Der seinerzeit dafür zuständige hat von uns eine Mitteilung dieserhalb erhalten und wird zu dieser Aussage Stellung nehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u197" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg296">Eine letzte Zusatzfrage des Herrn Abgeordneten Dr. Wörner.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU):</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1975-10-22-07-195.u198" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg297">Herr Staatssekretär, ist es nicht so, daß Oberstleutnant Schmidt, ohne daß fachliche Gründe vorlagen, dem Oberstleutnant Münx -- gegen den ursprünglichen Widerstand der Personalabteilung wie auch der militärischen Führung des Hauses deswegen weichen mußte, weil dieser aus einem parteipolitisch eindeutig geprägten Bereich der Leitung kam?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der SPD: Unverschämt!</desc>
+        </vocal>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u199" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg298">Herr Abgeordneter Dr. Wörner, es fällt mir wieder sehr schwer, mich zurückzuhalten.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Versuchen Sie es mal!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg299">— Ich gebe mir Mühe; ich lerne das ja im Laufe der Zeit. Der Parlamentarische Staatssekretär Berkhan hat immer die Leistung in den Vordergrund gestellt,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg300">und bei dem betreffenden Offizier ist nichts anderes geschehen als bei den beiden Vorgängern.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Die politische Leistung!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg301">Sie hatten den Aufbau zu vollziehen für die Wahrnehmung einer neuen Aufgabe, die im Zusammenhang mit der Schaffung zweier Bundeswehrhochschulen kurzfristig zu meistern war — und dies, wie Sie wissen, unter starkem Zeitdruck und unter schwierigen Personalverhältnissen. Es war zunächst auch der Aufbau des Lehrkörpers zu vollziehen. Alle diese Schwierigkeiten haben nur mit Offizieren gemeistert werden können, die über die Zusammenarbeit mit dem Parlamentarischen Staatssekretär Berkhan hinaus dieses Projekt vorbereitet und betreut haben und in der Lage waren, in der besonderen Tätigkeit des Leiters des Studentenbereichs qualitativ hervorragende Arbeit zu leisten. Sowohl in Hamburg als auch in München haben Sie doch den Beweis dafür, daß wir eine gute Arbeit leisten. Wir befinden uns mit den Aufbaumaßnahmen völlig im Rahmen des Zeitplans — trotz aller Schwierigkeiten, die hier und da auftreten.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Wörner [CDU/CSU] : Herr Präsident, was hat das mit der Frage zu tun?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u200" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg302">Ich rufe die Frage 23 des Abgeordneten Böhm (Melsungen)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg303">auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg304">Treffen Pressemeldungen zu, daß Kommandeure von Kampfgruppenbataillonen der DDR an der Demarkationslinie Instruktionen für die Geländeeinweisung ihrer Verbände erhalten haben und mit dem Einsatz von Kampfgruppenbataillonen der DDR „zur gefechtsmäßigen Sicherung der Staatsgrenze West" demnächst zu rechnen ist? Herr Staatssekretär, können Sie die beiden Fragen in der Beantwortung verbinden, damit wir vielleicht doch noch ein paar andere Fragen behandeln können? — Ich rufe also noch die Frage 24 des Abgeordneten Böhm (Melsungen)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg305">auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg306">Über welche zahlenmäßige Stärke und Ausrüstung verfügen die Kampfgruppenbataillone der DDR, und wie beurteilt die Bundesregierung deren militärische Bedeutung?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u201" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg307">Herr Abgeordneter Böhm, es ist vorgekommen, daß Teile von Kampfgruppen zusammen mit Grenztruppen der Deutschen Demokratischen Republik an der innerdeutschen Grenze beobachtet wurden. Dabei kann es sich um eine Geländeeinweisung gehandelt haben. Es kann aber hieraus nicht geschlossen werden, daß Kampfgruppenbataillone der Deutschen Demokratischen Republik demnächst zur gefechtsmäßigen Sicherung unmittelbar an der Grenze eingesetzt werden. Die Angehörigen der Kampfgruppen haben ihren Platz im Arbeitsprozeß und können nur in Ausnahmefällen aus ihren Betrieben herausgezogen werden. Für einen Einsatz im grenznahen Raum kommen daher auch nur solche Kampfgruppeneinheiten in Frage, deren Angehörige in den Grenzkreisen der Deutschen Demokratischen Republik werktätig sind. Damit ist schon die zweite Frage angesprochen. Die Kampfgruppenbataillone der Deutschen Demokratischen Republik haben unterschiedliche Personalstärken; das kann im einzelnen von Anzahl und Größe der Betriebe — das ist der eine Punkt — oder von den vorgesehenen Aufgaben der Kampfgruppen selbst abhängen. Entsprechend unterschiedlich ist auch die Ausrüstung. Bei der Ausrüstung handelt es sich aber immer um leichte und mittlere Infanteriewatfen bis zu Mörsern, Panzerabwehrgeschützen und leichten Flugabwehrgeschützen. Der militärische Wert der Kampfgruppen liegt nach Meinung der Bundesregierung vorrangig im Bereich des Objektschutzes. Im Ernstfall können sie reguläre Streitkräfte von Objektschutzaufgaben auf eigenem Territorium einschließlich der Sicherung von Verbindungswegen entlasten sowie die Grenztruppen verstärken. Mittelbar tragen die Kampfgruppen somit zur Stärkung des Potentials des Warschauer Paktes bei.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u202" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg308">Zusatzfrage, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1975-10-22-07-195.u203" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg309">Herr Staatssekretär, hat es in der Vergangenheit bereits Einsätze von Kampfgruppenbataillonen in der Nähe oder an der Demarkationslinie gegeben?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u204" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg310">Das kann ich nicht bestätigen. Ich habe darüber auch keine Nachforschungen angestellt. Wenn die Frage für Sie von großer Bedeutung ist, bin ich gern bereit, das nachzuholen und im Verteidigungsausschuß darüber zu berichten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u205" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg311">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1975-10-22-07-195.u206" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg312">Herr Staatssekretär, würden Sie die Kampfgruppen in der DDR als voll in den militärischen Bereich der DDR integriert ansehen und die Bewertung teilen, daß es sich um eine kommunistische Bürgerkriegsarmee handelt, deren militärische Bedeutung erheblich ist?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u207" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg313">Das darzustellen fällt ebenfalls sehr schwer. Für uns ist zweifellols bedeutsam, daß seit Jahren eine ideologische Schulung vorgenommen wird und daß eine Parteikontrolle bis in die untersten Gliederungen hinein besteht. Das wird von berufener Seite bestätigt. Deshalb vermögen wir, insgesamt gesehen, an der Linientreue und an der Zuverlässigkeit dieser Kampfgruppen als Ganzes nicht zu zweifeln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u208" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg314">Eine weitere Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1975-10-22-07-195.u209" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg315">Wie hoch ist die Personalstärke der Kampfgruppen anzusetzen?</seg>
+        </u>
+        <note type="speaker">Fingerhut, Staatssekretär:</note>
+        <u who="#Q1603533" xml:id="ParlaMint-DE_1975-10-22-07-195.u210" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg316">Das ist genau der Punkt, bei dem ich mit einem dicken roten Strich darauf aufmerksam gemacht worden bin, daß hier Geheimschutzprobleme bestehen, so daß man zweckmäßigerweise, auch hinsichtlich weiterer Daten, die wichtig sind, im Verteidigungsausschuß darüber sprechen sollte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u211" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg317">Keine weiteren Zusatzfragen. Ich danke Ihnen, Herr Staatssekretär. Ich rufe die Fragen aus dem Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit auf. Zur Beantwortung der Fragen steht Herr Staatssekretär Professor Dr. Wolters zur Verfügung. Die Frage 25 ist vom Herrn Abgeordneten Dr. Klein (Stolberg)</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg318">eingebracht worden. Ich sehe den Herrn Abgeordneten nicht. Daher werden die Frage 25 und die ebenfalls von ihm eingebrachte Frage 26 schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 27 des Herrn Abgeordneten Kiechle auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg319">Trifft die im Express-Interview am Mittwoch, dem 1. Oktober 1975, auf die Frage: „Wo hakt es bei der Durchführung von Gesetzen?" getroffene Feststellung zu: „Zum Beispiel bei der Lebensmittelüberwachung. Da werden nach wie vor nur Stichproben gemacht. In vielen Fällen ist das Zeug längst gegessen und verdaut, ehe man bei einer chemischen Analyse darauf kommt, daß es sich um verdorbene Ware handelte."?</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär im Bundesministerium für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1975-10-22-07-195.u212" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg320">Herr Präsident, Herr Abgeordneter Kiechle, es trifft zu, daß — abgesehen von Fleisch und Wein, die besonders eingehenden Untersuchungen unterzogen werden — die Einhaltung der lebensmittelrechtlichen Bestimmungen vornehmlich durch die Entnahme von Stichproben beim Hersteller, Importeur und Handel überprüft wird. Eine Untersuchung eines jeden Erzeugnisses für sich vor der Abgabe an den Verbraucher ist aus personellen, technischen und wirtschaftlichen Gründen leider nicht möglich. Bei im Handel entnommenen Stichproben wird es daher nicht immer zu verhindern sein, daß Erzeugnisse der gleichen Partie wie die untersuchte und beanstandete Probe schon vor Abschluß der Untersuchung in den Verkehr gebracht werden. Um so größere Bedeutung kommt daher der Überwachung im Herstellerbetrieb zu, durch die im Regelfall eine Abgabe der beanstandeten Ware an den Verbraucher verhindert wird und die im verstärkten Maß von den Überwachungsbehörden vorgenommen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u213" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg321">Zusatzfrage, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1975-10-22-07-195.u214" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg322">Herr Staatssekretär, ist nach Auffassung Ihres Ministeriums und der Bundesregierung die Zahl der Stichproben, die gemacht werden, im allgemeinen ausreichend, und, falls nein, wie viele würden als ausreichend bezeichnet werden?</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1975-10-22-07-195.u215" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg323">Es ist schwierig, auf diese etwas abstrakt gestellte Frage eine konkrete Antwort zu geben, weil sich die Zahl der Stichproben nach der Art der Waren, um die es sich handelt, natürlich völlig unterscheiden muß. Es kommt dabei auf die Zeiträume an, die man hinsichtlich der Verderblichkeit berücksichtigen muß, oder auf sonstige Gründe, die Stichprobenuntersuchungen erforderlich machen, etwa Rückstandserfassungen. Ich müßte im Grunde genommen versuchen, sortiert nach den einzelnen Proben oder den einzelnen Lebensmittelarten, um die es sich handelt, an Hand von statistischen Grundregeln eine Aufstellung machen zu lassen, die riesig groß sein würde.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u216" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg324">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1975-10-22-07-195.u217" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg325">Herr Staatssekretär, da Sie diese Frage nicht beantworten wollten, obwohl ich den Zusatz „im allgemeinen" angebracht habe, frage ich noch allgemeiner: Kann sich der deutsche Verbraucher auf die u. a. auch von Ihrem Ministerium erlassenen Verordnungen und die allgemeine Gesetzgebung zur Lebensmittelüberwachung verlassen?</seg>
+        </u>
+        <note type="speaker">Dr. Wolters, Staatssekretär:</note>
+        <u who="#Q1577047" xml:id="ParlaMint-DE_1975-10-22-07-195.u218" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg326">Der deutsche Verbraucher kann sich darauf verlassen, daß die Rechtsgrundlagen im Lebensmittelrecht und in den Verordnungen ihm vom Gesetz her einen ausreichenden Schutz gewähren. Inwieweit dieses Gesetz vollzogen wird, ist Sache der Länder. Ich kann daher nicht die Frage beantworten, inwieweit der Vollzug in allen Fällen dem Anspruch des Gesetzes gerecht wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u219" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg327">Ich danke Ihnen, Herr Staatssekretär. Die Frage des Abgeordneten Dr. Müller-Hermann wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit beantwortet. Ich rufe den Geschäftsbereich des Bundesministers für Verkehr und für das Post- und Fernmeldewesen auf. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Haar zur Verfügung. Die erste Frage ist vorn Herrn Abgeordneten Dr. Hupka eingebracht worden:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg328">Ist die Deutsche Bundesbahn in der Lage, kommunistische Parolen, die auf dem Eigentum der Deutschen Bundesbahn aufgeschmiert worden sind, in kurzer Frist entfernen zu lassen, oder läßt sie diese lediglich allmählich verwittern?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-10-22-07-195.u220" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg329">Die Deutsche Bundesbahn ist bemüht, Schmierereien an den Bahnanlagen in möglichst kurzer Zeit zu beseitigen. Die Beseitigung ist jedoch in Einzelfällen schwierig, da vielfach Farbstoffe verwendet werden, die kaum entfernt werden können. Eine Abhilfe kann häufig nur durch Überstreichen größerer Flächen oder durch ihre Neuverkleidung geschaffen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u221" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg330">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU) :</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1975-10-22-07-195.u222" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg331">Ist die Bundesbahn vielleicht in der Lage, die chemischen Substanzen der schwer zu entfernenden Farben zu untersuchen, um Farben zu bekommen, die solche Schmiererereien zudecken können?</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-10-22-07-195.u223" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg332">Ich denke, das geschieht. Ich kenne den Einzelfall, der Sie zu Ihrer Frage veranlaßt hat, Herr Kollege, nicht.</seg>
+        </u>
+        <incident type="action">
+          <desc>Abg. Dr. Hupka [CDU/CSU] meldet sich zu einer weiteren Zusatzfrage</desc>
+        </incident>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u224" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg333">Herr Kollege, Sie würden dem Kollegen Lemmrich einen großen Dienst tun, wenn ich dessen Frage in den wenigen Sekunden, die zur Verfügung stehen, noch aufrufen könnte. Oder wollen Sie auf Ihrer Zusatzfrage bestehen? Dann ist die Fragestunde möglicherweise zu Ende.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Hupka [CDU/CSU] : Also, bitte, für Herrn Kollegen Lemmrich tue ich alles!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg334">— Ich danke Ihnen.</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg335">Dann rufe ich noch die Frage 30 des Herrn Abgeordneten Lemmrich auf:</seg>
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg336">Wie groß ist die Auflage der Broschüre „Mehr Sicherheit auf unseren Straßen", und wie hoch belaufen sich die haushaltswirksamen Kosten? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-10-22-07-195.u225" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg337">Herr Kollege, die Broschüre „Mehr Sicherheit auf unseren Straßen" wird in einer Auflage von 250 000 Exemplaren herausgegeben. Nach dem Kostenvoranschlag sind hierfür rund 185 000 DM aufzuwenden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u226" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg338">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lemmrich (CDU/CSU) :</note>
+        <u who="#Q1731553" xml:id="ParlaMint-DE_1975-10-22-07-195.u227" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg339">Herr Staatssekretär, haben Sie auch eine Erfolgskontrolle über diese Bemühungen um Aufklärung durchgeführt, und wenn ja, welche Ergebnisse hatte sie?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u228" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg340">Damit haben Sie gleich beide Zusatzfragen gestellt. Bitte!</seg>
+        </u>
+        <note type="speaker">Haar, Parl. Staatssekretär:</note>
+        <u who="#Q1358434" xml:id="ParlaMint-DE_1975-10-22-07-195.u229" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg341">Es sind in kurzer Zeit bereits 150 000 Exemplare gezielt verteilt worden. Ich kann mir nicht vorstellen, daß z. B. der Erfolg der Aufklärungsaktion für Elternhaus, Kindergarten, Schule, Berufskraftfahrer, ausländische Arbeitnehmer etwa am Maßstab einer Unfallstatistik gemessen werden kann. Ich halte die Beantwortung einer solchen Frage nicht für möglich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-10-22-07-195.u230" ana="#chair">
+          <seg id="ParlaMint-DE_1975-10-22-07-195.seg342">Ich danke Ihnen, Herr Staatssekretär. Meine Damen und Herren, wir stehen am Ende der Fragestunde. Ich berufe die nächste Sitzung des Deutschen Bundestages auf Donnerstag, den 23. Oktober 1975, 13 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.48 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

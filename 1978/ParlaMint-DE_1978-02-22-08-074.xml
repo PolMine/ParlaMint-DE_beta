@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1978-02-22-08-074">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 8. Wahlperiode, 74. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 22.02.1978 (74. Sitzung der 8. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 8, Session 74 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1978-02-22 (Session 74 in Legislative Period 8)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="74">74. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.08" n="8">8. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="74">Session 74</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.08" n="8">Legislative Period 8</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 22.02.1978</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1978-02-22</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490390/dfcac024ce8e548774e16f03c36293e2/pp08-data.zip</idno>
+          <date when="1978-02-22">1978-02-22</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1978-02-22">1978-02-22</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksache 8/1526 —</head>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg1">Die Sitzung ist eröffnet. Nach einer interfraktionellen Vereinbarung soll die Tagesordnung um die in der Ihnen vorliegenden Liste „Zusatzpunkte zur Tagesordnung" aufgeführten Punkte ergänzt werden: 1. Erste Beratung des von den Abgeordneten Dr. Warnke, Böhm (Melsungen)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg2">, Dr. Sprung, Dr. von Wartenberg, Glos, Dr. Köhler (Wolfsburg)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg3">, Dr. Kunz (Weiden)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg4">, Lintner, Röhner, Sauer (Salzgitter)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg5">, Schröder (Lüneburg)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg6">, Dr. Waigel, Lemmrich und der Fraktion der CDU/CSU eingebrachten Entwurfs eines Gesetzes zur Änderung des Investitionszulagengesetzes und des Zonenrandförderungsgesetzes — Drucksache 8/1527 —Überweisungswunsch:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg7">Finanzausschuß (federführend)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg8">Ausschuß für Wirtschaft Ausschuß für innerdeutsche Beziehungen Haushaltsausschuß mitberatend und gemäß § 96 AO zusammen mit Punkt 5 TO 2. Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Entlastung der Gerichte in der Verwaltungs- und Finanzgerichtsbarkeit — Drucksache 8/842 —Beschlußempfehlung und Bericht des Rechtsausschusses (6. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg9">— Drucksache 8/1530 —Berichterstatter:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg10">Abgeordneter Dr. Bötsch Abgeordneter Dr. Linde (Erste Beratung 39. Sitzung)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg11">Ich darf unterstellen, daß das Haus damit einverstanden ist. — Es ist so beschlossen. Amtliche Mitteilung ohne Verlesung Der Bundesrat hat in seiner Sitzung am 17. Februar 1978 den nachstehenden Gesetzen zugestimmt bzw. einen Antrag gemäß Art. 77 Abs. 2 GG nicht gestellt:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg12">Gesetz zu dem Abkommen vom 31. Oktober 1975 zwischen der Regierung der Bundesrepublik Deutschland und der Regierung der Volksrepublik China über den Zivilen Luftverkehr Gesetz zu dem Vertrag vom 24. Oktober 1974 zwischen der Bundesrepublik Deutschland und der Französischen Republik zu dem Europäischen Übereinkommen vom 20. April 1959 über die Rechtshilfe in Strafsachen Gesetz zu dem Europäischen Übereinkommen vom 27. Januar 1977 zur Bekämpfung des Terrorismus Viertes Gesetz zur Änderung der Pfändungsfreigrenzen Drittes Gesetz zur Änderung des Biersteuergesetzes Fünftes Gesetz zur Änderung des Gesetzes über den Finanzausgleich zwischen Bund und Ländern Zweites Gesetz zur Änderung des Graduiertenförderungsgesetzes (2. GFÄndG)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg13">Gesetz über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 1978 (Haushaltsgesetz 1978)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg14">Zu dem letztgenannten Gesetz hat der Bundesrat ferner eine Entschließung gefaßt, die als Anlage 2 diesem Protokoll beigefügt ist. In der gleichen Sitzung hat der Bundesrat beschlossen, der Bundesregierung wegen der Haushaltsrechnung und Vermögensrechnung des Bundes für das Haushaltsjahr 1975 (Jahresrechnung 1975)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg15">auf Grund der Bemerkungen des Bundesrechnungshofes Entlastung gemäß Artikel 114 des Grundgesetzes und § 114 der Bundeshaushaltsordnung zu erteilen. Der Parlamentarische Staatssekretär beim Bundesminister für Wirtschaft hat mit Schreiben vom 15. Februar 1978 die Kleine Anfrage der Abgeordneten Dr. Köhler (Wolfsburg)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg16">, Dr. Hoffacker, Dr. Hüsch, Dr. Kunz (Weiden)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg17">, Frau Fischer, Höffkes, Werner, Dr. Todenhöfer und Genossen und der Fraktion der CDU/CSU betr. Handelsförderung für Entwicklungsländer durch die Europäische Gemeinschaft — Drucksache 8/1484 — beantwortet. Sein Schreiben wird als Drucksache 8/1529 verteilt. Ich rufe Punkt 1 der Tagesordnung auf: Fragestunde — Drucksache 8/1526 —Wir kommen zum Geschäftsbereich des Bundesministers der Justiz. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Dr. de With zur Verfügung. Frage 1 stellt der Abgeordnete Sieglerschmidt:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg18">Kann die Bundesregierung nunmehr mit hinreichender Sicherheit den voraussichtlichen Termin für die Vorlage des seit geraumer Zeit angekündigten Entwurfs eines Gesetzes über die internationale Rechtshilfe in Strafsachen nennen? Darf ich bitten.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Pari. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1978-02-22-08-074.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg19">Die von Ihnen, Herr Kollege Sieglerschmidt, gestellte Frage ist bereits wiederholt Gegenstand der Erörterung in der Fragestunde des Deutschen Bundestags gewesen. Zur Vermeidung von Wiederholungen darf ich mich im wesentlichen hierauf beziehen. Die Arbeiten an dem Gesetzentwurf sind inzwischen fortgeführt worden. Es liegt nunmehr ein vorläufiger Referentenentwurf mit einer sehr eingehen- den Begründung vor. Der Entwurf enthält eine umfassende Neuregelung des gesamten Rechts der AusDurch- und Rücklieferung sowie des Rechts der sonstigen zwischenstaatlichen Rechtshilfe in Strafsachen. Ein besonderes Kapitel befaßt sich mit der Vollstreckung ausländischer Strafentscheidungen, einer Materie, bei der wir Neuland betreten und über die hier schon wiederholt gesprochen worden ist. Gegenwärtig werden die zahlreichen Stellungnahmen von Referaten des Hauses ausgewertet. Nach endgültiger Abstimmung im Bundesministerium der Justiz wird der Entwurf sodann den Landesjustizverwaltungen zugeleitet und mit ihnen erörtert werden. Dieses Abstimmungsverfahren wird erhebliche Zeit in Anspruch nehmen. Es kommt ein wichtiger Punkt hinzu, auf den ich besonders hinweisen muß. Die Arbeiten an dem Entwurf haben in den letzten Jahren nicht so gefördert werden können, wie wir dies gewünscht hätten. Das Referat „Internationales Strafrecht", das den jetzt vorliegenden Entwurf erarbeitet hat, ist mit einer Fülle durchweg aktueller, politisch bedeutsamer und sehr arbeitsintensiver Angelegenheiten befaßt gewesen. Ich darf hier beispielhaft auf die Auslieferungsfälle Pohle und Dr. Croissant hinweisen, für die das Bundesministerium der Justiz federführend ist. Das hier zuständige Referat hat maßgeblichen Anteil an der schnellen Ausarbeitung des soeben vom Deutschen Bundestag verabschiedeten Europäischen Übereinkommens zur Bekämpfung des Terrorismus vom 27. Januar 1977 gehabt. Es ist fortgesetzt mit einer Vielzahl von Fragen im Zusammenhang mit der Bekämpfung des internationalen Terrorismus befaßt. Diese Fülle von Aufgaben mußte ohne Personalverstärkung bewältigt werden. Dies alles hat zu Engpässen geführt, die sich leider auch auf den Gesetzentwurf ausgewirkt haben. Bei dieser Sachlage bitte ich um Verständnis, daß ich gegenwärtig allenfalls in der Lage bin, als voraussichtlichen Termin für die Vorlage des Entwurfs eines Gesetzes über die internationale Rechtshilfe in Strafsachen Mitte 1979 zu nennen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg20">Zusatzfrage, Herr Abgeordneter Sieglerschmidt.</seg>
+        </u>
+        <note type="speaker">Sieglerschmidt (SPD) :</note>
+        <u who="#Q1441696" xml:id="ParlaMint-DE_1978-02-22-08-074.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg21">Herr Staatssekretär, wenn auch nicht zu verkennen ist, daß es hier besondere Schwierigkeiten gegeben hat, die in der komplizierten Materie, in den von Ihnen geschilderten Belastungen Ihres Hauses in diesem Bereich und in der Priorität anderer wichtiger Gesetzesvorhaben liegen, sind Sie nicht dennoch mit mir der Meinung, daß ein Gesetzesvorhaben, das auch in Ihrem Hause als durchaus wichtig angesehen wird, wie ,aus Ihrer Schilderung hervorgeht, nachdem es nun jahrelang ansteht, endlich kabinettsreif gemacht werden muß und daß weitere Verzögerungen tunlichst vermieden werden sollten?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1978-02-22-08-074.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg22">Ich stimme dem durchaus zu und habe versucht darzulegen, daß es auch unser Anliegen ist, diesen Gesetzentwurf soweit voranzutreiben, daß er möglichst bald Kabinettsreife erlangt. Ich darf aber noch einmal auf die außerordentlich großen Schwierigkeiten verweisen, wenn man bedenkt, daß eine ganze Reihe von Gesetzen vieler Staaten durchgesehen werden muß, um allein die Frage zu regeln, ob ein ausländisches Strafurteil bei uns vollstreckt werden kann. Das macht deutlich, daß dies geraume Zeit dauert. Wir waren — das möchte ich zusätzlich erwähnen — auch bemüht, Kräfte von außerhalb des Bundesministeriums der Justiz heranzuziehen. Wir haben damit Erfolg. Aber auch dies dauerte geraume Zeit, weil es sehr wenige Leute gibt, die sich schnell in die komplizierte und umfangreiche Materie einarbeiten können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg23">Keine weitere Zusatzfrage. Ich rufe die Frage 2 des Abgeordneten Sieglerschmidt auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg24">Welche Bedeutung kommt einem Gesetz über die internationale Rechtshilfe in Strafsachen nach Auffassung der Bundesregierung zu, insbesondere auch für den Beitritt der Bundesrepublik Deutschland zu einschlägigen europäischen Übereinkommen, zum Beispiel dem Übereinkommen über die internationale Anerkennung von Strafurteilen vom 28. Mai 1970?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1978-02-22-08-074.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg25">Die Bundesregierung mißt dem in Vorbereitung befindlichen Gesetz über die internationale Rechtshilfe in Strafsachen jedenfalls insoweit erhebliche Bedeutung zu, als es die Voraussetzungen für den Beitritt der Bundesrepublik Deutschland zu verschiedenen europäischen Übereinkommen auf dem Gebiet des Strafrechts schaffen soll. In dem jetzt im Bundesministerium der Justiz erarbeiteten vorläufigen Referentenentwurf ist eine gesetzliche Regelung für das sogenannte Exequaturverfahren vorgesehen, das es dem deutschen Richter ermöglichen wird, ein auf Strafe lautendes ausländisches Erkenntnis in eine deutsche Entscheidung umzuwandeln mit der Folge, daß diese in der Bundesrepublik Deutschland vollstreckt werden kann. Ein solches Exequaturverfahren ist Voraussetzung für den Beitritt der Bundesrepublik Deutschland zu den Europäischen Übereinkommen über die Überwachung bedingt verurteilter oder bedingt entlassener Personen vom 30. November 1964, über die Ahndung von Zuwiderhandlungen im Straßenverkehr vom 30. November 1964 und über die internationale Geltung von Strafurteilen vom 28. Mai 1970. Diese Übereinkommen sind jeweils erst im Verhältnis zwischen vier Mitgliedstaaten des Europarates in Kraft. Nach meiner Kenntnis ist dies u. a. eine Folge des Umstandes, daß die Umsetzung dieser Übereinkommen in die verschiedenen Rechtsordnungen den nationalen Gesetzgebern erhebliche Schwierigkeiten bereitet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg26">Eine Zusatzfrage. Herr Abgeordneter Sieglerschmidt.</seg>
+        </u>
+        <note type="speaker">Sieglerschmidt (SPD) :</note>
+        <u who="#Q1441696" xml:id="ParlaMint-DE_1978-02-22-08-074.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg27">Herr Staatssekretär, sind wir uns — wie ich annehme — einig, daß trotz der Schwierigkeiten auch in anderen Ländern natürlich nicht unter Berufung auf diese Schwierigkeiten ein Mitgliedstaat auf den anderen warten darf, um erst dann, wenn andere vorangegangen sind, hinterherzulaufen?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1978-02-22-08-074.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg28">Darüber kann es nicht den geringsten Zweifel geben, Herr Kollege Sieglerschmidt. Ich habe auf ausländische Staaten nur deshalb verwiesen, um darzutun, daß es auch dort sehr lang dauert, und um deutlich zu machen, daß die Bundesrepublik Deutschland keineswegs hinterherhinkt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg29">Eine weitere Zusatzfrage? — Bitte.</seg>
+        </u>
+        <note type="speaker">Sieglerschmidt (SPD) :</note>
+        <u who="#Q1441696" xml:id="ParlaMint-DE_1978-02-22-08-074.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg30">Herr Staatssekretär, stimmen Sie mir zu, daß insbesondere das von mir zitierte Übereinkommen über die Geltung von Strafurteilen, da es das Verbüßen von Strafen im Heimatland des in einem anderen Staat Verurteilten ermöglichen soll, von entscheidender Bedeutung für die Resozialisierung der in Frage kommenden Gefangenen ist, weil eine Resozialisierung natürlich normalerweise im Ausland nicht möglich ist?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1978-02-22-08-074.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg31">Ich stimme Ihnen voll zu. Freilich darf man nicht so generell sagen, daß es im Ausland keine Resozialisierung gebe. Sicher ist — das möchte ich hier unterstreichen —, daß für einen deutschen Staatsangehörigen die Strafverbüßung in einer deutschen Justizvollzugsanstalt allemal besser als in einer ausländischen ist. Die Gründe hierfür muß ich nicht erörtern. Aber gerade dies — um an das anzuknüpfen, was ich auf Ihre vorherige Frage sagte — bereitet enorme Schwierigkeiten. Ich erinnere nur an einige Fälle, die möglicherweise auch Ihnen geläufig sind, wo es darum ging, Vergleiche mit Strafrahmen herzustellen, die im Ausland bezüglich bestimmter Delikte weit höher als bei uns liegen, ja unsere zeitige Höchststrafe weit überschreiten, so daß es in der Praxis nicht ganz einfach sein wird, hier zu einem vernünftigen Strafmaß in der Bundesrepublik Deutschland zu kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg32">Danke. Ich rufe den Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten auf. Hierzu liegt eine einzige Frage vor, nämlich die Frage 3 des Abgeordneten Löffler. Der Fragesteller bittet um schriftliche Beantwortung. Die Antwort wird als Anlage abgedruckt. Ich rufe den Geschäftsbereich des Bundesministers für Bildung und Wissenschaft auf.</seg>
+          <vocal type="question">
+            <desc>Dr. Laufs [CDU/CSU] : Und die Frage 4?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg33">— Welche Frage 4? Ich habe keine Frage 4?</seg>
+          <vocal type="exclamat">
+            <desc>Parl. Staatssekretär Engholm: Doch! Ich habe sie auch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg34">— Wie lautet die Frage? Bitte, lesen Sie die Frage vor!</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1978-02-22-08-074.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg35">Die Frage lautet:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg36">Ist die Bundesregierung bereit, im Hinblick auf die über dem Bundesgebiet vorherrschenden meteorologischen Bedingungen die im Ausland sowie im Freistaat Bayern durchgeführten Maßnahmen zur Hagelabwehr ... zu unterstützen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u16" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg37">Entschuldigen Sie, Herr Abgeordneter. Da scheint irgendwo eine Panne zu sein. Denn auf der einen Seite ist der Parlamentarische Staatssekretär — —</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg38">— Ich höre gerade: Diese Frage 4 ist in ein anderes Ressort umgeleitet worden. Ich bitte Sie, abzuwarten, bis der Geschäftsbereich dieses Ressorts aufgerufen worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg39">Wir kommen zum Geschäftsbereich des Bundesministers für Bildung und Wissenschaft. Zur Beantwortung der Fragen steht uns der Parlamentarische Staatssekretär Engholm zur Verfügung. Ich rufe die Frage 5 des Abgeordneten Thüsing auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg40">Kann die Bundesregierung Berichte bestätigen, wonach die durch die Beendigung von Ausbildungsverhältnissen frei werdende Zahl an Ausbildungsplätzen unter denen des Vorjahrs liegt, wodurch eine zusätzliche Verschärfung der Situation auf dem Ausbildungsstellenmarkt zu befürchten ist?</seg>
+        </u>
+        <note type="speaker">Engholm, Parl. Staatssekretär beim Bundesminister für Bildung und Wissenschaft:</note>
+        <u who="#Q62279" xml:id="ParlaMint-DE_1978-02-22-08-074.u18" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg41">Herr Kollege Thüsing, der Bundesregierung liegen bisher noch keine Angaben über die durch Beendigung von Ausbildungsverhältnissen frei werdende Zahl von Ausbildungsplätzen vor, so daß Berichte über eine sinkende Zahl gegenüber dem Vorjahr von mir nicht bestätigt werden können. Aus der Berufsbildungsstatistik zum 31. Dezember sind hierzu Angaben über die Teilnehmer an Abschlußprüfungen in den Jahren 1973 bis 1976 zu entnehmen. Sie zeigt, daß die Zahl der Teilnehmer an Abschlußprüfungen von 476 400 im Jahre 1973 auf 551 700 im Jahre 1976 gestiegen ist. Dabei ist — bei einem etwa konstanten Anteil von 13 °/o — die absolute Zahl der „Durchgefallenen" zunächst angestiegen, nämlich von 59 900 im Jahre 1973 auf 75 400 im Jahre 1975, 1976 aber wieder leicht zurückgegangen auf 74 600. Für das Jahr 1977 sind genauere Angaben erst möglich, wenn die Ergebnisse der Berufsbildungsstatistik 1977 vorliegen, womit wir im Juni dieses Jahres rechnen können. Im übrigen verweise ich darauf, daß die Zahl der abgeschlossenen Ausbildungsverträge von 1974 an zunächst langsam und inzwischen stark gestiegen ist, nämlich von 450 000 auf 560 000 im vergangenen Jahr, also um mehr als 20 °/o, so daß die Zahl der nach Beendigung der Berufsausbildung frei werdenden Stellen kontinuierlich ansteigt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u19" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg42">Zusatzfrage? — Bitte schön.</seg>
+        </u>
+        <note type="speaker">Thüsing (SPD) :</note>
+        <u who="#Q1271409" xml:id="ParlaMint-DE_1978-02-22-08-074.u20" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg43">Herr Staatssekretär, halten Sie die bisher nach der Statistik gegebenen Planungsmöglichkeiten für ausreichend?</seg>
+        </u>
+        <note type="speaker">Engholm, Parl. Staatssekretär:</note>
+        <u who="#Q62279" xml:id="ParlaMint-DE_1978-02-22-08-074.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg44">Darüber zu entscheiden werden wir erst im Juni dieses Jahres in der Lage sein, wenn die endgültigen Zahlen des abgelaufenen Jahres vorliegen. Wir werden dann auch sehen, ob die bisher von uns geschaffenen Instrumente ausreichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u22" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg45">Eine Zusatzfrage, Herr Abgeordneter Höpfinger.</seg>
+        </u>
+        <note type="speaker">Höpfinger (CDU/CSU) :</note>
+        <u who="#Q1613586" xml:id="ParlaMint-DE_1978-02-22-08-074.u23" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg46">Herr Staatssekretär, hat die Bundesregierung schon die Entscheidung getroffen, ob sie nun die Ausbildungsplatzförderungsabgabe für 1978 einführen will oder nicht?</seg>
+        </u>
+        <note type="speaker">Engholm, Parl. Staatssekretär:</note>
+        <u who="#Q62279" xml:id="ParlaMint-DE_1978-02-22-08-074.u24" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg47">Dies ist ein sehr mittelbarer Zusammenhang mit der Frage. Das Kabinett wird sich in der nächsten Sitzung mit dieser Frage beschäftigen. Zuvor wird das Wissenschaftskabinett dazu tagen. Das heißt, eine Entscheidung des Kabinetts ist nicht gefallen. Bisher hat sich mit dieser Frage der Hauptausschuß des Bundesinstituts für Berufsbildung in Berlin mit dem Ihnen wahrscheinlich bekannten Ergebnis beschäftigt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u25" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg48">Ich rufe die Frage 6 des Abgeordneten Thüsing auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg49">Welche Maßnahmen will die Bundesregierung ergreifen, um die sich verschärfende Situation der ausländischen Jugendlichen zu verbessern, von denen ein großer Teil wegen fehlender Schulabschlüsse und fehlender Motivierung durch die Elternhäuser in kein Ausbildungsverhältnis eintritt und der angesichts der wirtschaftlichen Lage auch keinen Arbeitsplatz findet und in Gefahr steht, die Basis eines neuen Subproletariats zu werden? Bitte schön.</seg>
+        </u>
+        <note type="speaker">Engholm, Parl. Staatssekretär:</note>
+        <u who="#Q62279" xml:id="ParlaMint-DE_1978-02-22-08-074.u26" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg50">Herr Kollege Thüsing, für den Schulbesuch der jugendlichen Ausländer und die Sicherung ihres Schulerfolges sind zunächst die Bundesländer zuständig. Die Bundesregierung wird jedoch im Rahmen der gemeinsamen Bildungsplanung von Bund und Ländern weiter an der Realisierung von Maßnahmen mitwirken, durch die die unbefriedigenden Schulabschlußquoten ausländischer Jugendlicher erhöht werden. Im Rahmen der Arbeiten der Bund-Länder-Kommission soll in die Fortschreibung des Bildungsgesamtplanes ein eigener Ansatz zur Förderung, Eingliederung und Versorgung der ausländischen Jugendlichen aufgenommen werden. Wichtigstes Ziel ist dabei die Erhöhung der Beteiligungs- und Abschlußquoten in den Bildungseinrichtungen. Daneben hat die Bundesregierung den Ländern die Förderung von Modellversuchen zur Entwicklung entsprechender Lehrpläne und Unterrichtsmaterialien und zur Lehrerfortbildung angeboten. Sie ist bereit, auch für Nachholkurse, etwa an den Volkshochschulen, die Entwicklung fehlender Lehrpläne und Lehrmaterialien zu fördern. Die Bundesregierung hat darüber hinaus bundesweit insgesamt 67 achtmonatige Kurse — Maßnahmen zur Eingliederung ausländischer Jugendlicher — eingerichtet. Damit soll auf eine Ausbildungsstelle oder auf die Teilnahme an einem berufsbefähigenden Lehrgang der Bundesanstalt für Arbeit vorbereitet werden. Diese Maßnahmen werden von Bund und Ländern gemeinsam finanziert und sollen in den kommenden Jahren ausgebaut werden. Schließlich ist, einer Absprache in der Bund-Länder-Kommission „Ausländerbeschäftigungspolitik" folgend, der Stichtag für die Aufenthaltserlaubnis nachgereister Jugendlicher vom 30. November 1974 auf den 31. Dezember 1976 verschoben worden. Ausländische Jugendliche, die bis zum 31. Dezember 1976 eingereist sind, können also je nach Lage des Arbeitsmarktes eine Berufsausbildung erhalten. Zur Einstellung der ausländischen Eltern zum Schulbesuch ihrer Kinder liegen unterschiedliche Berichte vor. Sozialpsychologen und Sozialwissenschaftler haben jedoch wiederholt und mit Nachdruck darauf hingewiesen, daß ausländische Eltern hinsichtlich der schulischen und beruflichen Zukunft ihrer Kinder hohe bis sehr hohe Erwartungen hegen. Diese elterliche Motivation muß zugunsten höherer Bildungsbeteiligung ihrer Kinder noch stärker als bisher genutzt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u27" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg51">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Thüsing (SPD) :</note>
+        <u who="#Q1271409" xml:id="ParlaMint-DE_1978-02-22-08-074.u28" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg52">Wie beurteilen Sie die Aussage einiger Kenntnisreicher, die sich mit diesem Problem beschäftigt haben, daß wir, wenn nicht energische Maßnahmen zur Verbesserung der Bildungs-und Beschäftigungssituation ausländischer Arbeitnehmerkinder ergriffen werden, vor der Gefahr des Entstehens eines neuen Subproletariats stehen?</seg>
+        </u>
+        <note type="speaker">Engholm, Parl. Staatssekretär:</note>
+        <u who="#Q62279" xml:id="ParlaMint-DE_1978-02-22-08-074.u29" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg53">Ich schätze diese Aussagen als sehr ernst zu nehmend ein, weil eine Reihe uns in neuester Zeit zur Verfügung stehender Zahlen auf die Bedrohlichkeit der Situation hinweisen. Einige dieser Zahlen will ich noch nachtragen: Im Kindergartenbereich oder in anderen vorschulischen Einrichtungen, in denen man bis zu 70 % aller deutschen Kinder finden kann, partizipieren die ausländischen Kinder nur zu knapp 30 %. Und eine weitere Zahl: Der Anteil der Kinder, die in der Bundesrepublik keinen Schulabschluß in der Vollzeitschulpflicht erreichen, sinkt bei den Deutschen langsam auf unter 12 % ab; bei den ausländischen Kindern liegt er um 6 % und mehr darüber. Das heißt, die Zahlen, die uns bereits bekannt sind, weisen darauf hin, daß wir hier in der Tat, wenn wir nicht große Anstrengungen unternehmen, ein neues Subproletariat schaffen. Dennoch weise ich zusätzlich darauf hin, daß dies nicht nur eine Aufgabe der Bundesregierung oder der Landesregierungen sein kann, denn mit Gesetzen, Verordnungen, Verwaltungsvorschriften und ähnlichen Dingen allein ist dieses Problem nicht zu lösen; das ist nur die eine Seite der Medaille. Ich meine, es kommt entscheidend darauf an, daß alle Bürger in diesem Lande begreifen, daß soziale Integration nicht per Gesetz dekretierbar ist, sondern nur mit großer Unterstützung der Bevölkerung insgesamt geleistet werden kann.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Thüsing [SPD] : Danke schön!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u30" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg54">Eine Zusatzfrage, Herr Abgeordneter Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1978-02-22-08-074.u31" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg55">Herr Staatssekretär, nachdem auch die Bundesregierung in der soeben gegebenen Antwort den Begriff des „Subproletariats", der meines Erachtens hiermit erstmals in den Sprachgebrauch des Deutschen Bundestages eingeführt ist, verwendet, möchte ich doch um Aufklärung bitten, was die Bundesregierung unter einem „Subproletariat" versteht.</seg>
+        </u>
+        <note type="speaker">Engholm, Parl. Staatssekretär:</note>
+        <u who="#Q62279" xml:id="ParlaMint-DE_1978-02-22-08-074.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg56">Herr Kollege, ich habe auf eine Formulierung, die der Fragesteller gebraucht hat, Bezug genommen. Ich mache mir diesen Begriff inhaltlich nicht zu eigen. Ich vermute, daß der Fragesteller mit meinen Intentionen darin übereinstimmt, daß wir möglicherweise eine neue Schicht von Menschen schaffen, die weit unter den Schichtungen in unserer Gesellschaft liegen wird, die damit weit geringere Chancen haben und in ihren ganzen Existenzmöglichkeiten in einem für uns unerträglichen Maße begrenzt wird.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Jäger [Wangen] [CDU/CSU] : Das ist viel besseres Deutsch! — Heiterkeit bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg57">Vielen Dank. — Ich rufe den Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen auf. Zur Beantwortung der Fragen steht uns der Herr Parlamentarische Staatssekretär Höhmann zur Verfügung. Die Fragen 8 und 9 des Abgeordneten Baron von Wrangel werden auf Bitten des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Ich rufe Frage 7 des Abgeordneten Dr. Kunz (Weiden)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg58">auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg59">Beabsichtigt die Bundesregierung, das bayerische Zonenrandgebiet abzukoppeln vom „besonderen Rang einer weiterhin notwendigen Förderung in unmittelbarer Nähe der Grenze zur DDR" (Staatssekretär Höhmann, 10. Oktober 1977, Lübeck) , und wenn nein, wie gedenkt die Bundesregierung den immer schlimmer werdenden wirtschaftlichen und psychologischen Auswirkungen der hermetischen Abriegelung gegen Osten für die unmittelbaren Grenzräume Rechnung zu tragen?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u34" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg60">Herr Abgeordneter Dr. Kunz, den ersten Teil Ihrer Frage beantworte ich mit Nein. Zum zweiten Teil Ihrer Frage ist auszuführen: Die Bundesregierung teilt nicht Ihre Auffassung, daß die wirtschaftlichen und psychologischen Auswirkungen der hermetischen Abriegelung gegen Osten immer schlimmer werden. Sie ist vielmehr der Ansicht, daß insbesondere nach Inkrafttreten des Zonenrandförderungsgesetzes im Jahre 1971 durch die bevorzugte Förderung des Zonenrandgebietes auf wirtschaftlichem, sozialem und kulturellem Gebiet bereits eine wesentliche Verbesserung der Situation im Zonenrandbereich eingetreten ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u35" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg61">Eine Zusatzfrage? — Bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1978-02-22-08-074.u36" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg62">Herr Staatssekretär, ist der Bundesregierung nicht bekannt, daß im unmittelbaren Grenzbereich die Ortschaften, Städte und Märkte einen Vorgang der Bevölkerungsausblutung erleben, wie er sich erst jetzt zeigt und wie er bisher eigentlich noch gar nicht aufgetreten ist?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg63">Herr Abgeordneneter, die Situationen in den verschiedensten Gebieten jener Region, die wir „Zonenrandgebiet" nennen, sind durchaus unterschiedlich, und Abwanderungstendenzen sind nicht überall feststellbar; in manchen Gebieten gibt es sogar Zuwanderungstendenzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg64">Bitte, eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1978-02-22-08-074.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg65">Herr Staatssekretär, nachdem in dieser Frage zwischen Ihnen und mir offenbar ein gewisser Dissens besteht, möchte ich Sie fragen, ob die Bundesregierung bereit ist, die besondere Situation in den unmittelbaren Grenzorten ides nordbayerischen Zonenrandgebiets genauer untersuchen zu lassen.</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg66">Herr Abgeordneter, die Situation wird dauernd untersucht. Wir stehen in ständigem Kontakt auch mit den jeweiligen Landesregierungen, die für die Maßnahmen, die wir mit unterstützen, die Planungshoheit haben. Insofern besteht bisher kein Versäumnis. Wenn Sie mir deutlich machen wollten, daß bestimmte Probleme bisher nicht genau untersucht worden seien, bin ich gern bereit, mich darum zu bemühen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u41" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg67">Eine weitere Zusatzfrage, Herr Abgeordneter Sauer.</seg>
+        </u>
+        <note type="speaker">Sauer (Salzgitter) (CDU/CSU) :</note>
+        <u who="#Q118277" xml:id="ParlaMint-DE_1978-02-22-08-074.u42" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg68">Herr Staatssekretär Höhmann, darf ich Ihrer Antwort an den Kollegen Dr. Kunz entnehmen, daß der Bundesregierung Material über Abwanderungstendenzen aus dem Zonenrandgebiet gerade der jüngeren Generation, insbesondere der akademischen Jugend, vorliegt, und wären Sie bereit, das diesbezügliche Material im Ausschuß einmal diskutieren zu lassen?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u43" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg69">Natürlich gibt es Material. Das Ministerium ist gern bereit, im Ausschuß darüber zu berichten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u44" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg70">Eine weitere Zusatzfrage, Herr Abgeordneter Lintner.</seg>
+        </u>
+        <note type="speaker">Lintner (CDU/CSU) :</note>
+        <u who="#Q1289169" xml:id="ParlaMint-DE_1978-02-22-08-074.u45" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg71">Herr Staatssekretär, wären Sie bereit, Ihre Aussage, daß es sich im Zonengrenzland wesentlich verbessert habe, angesichts der Tatsache, daß z. B. Regionen mit ganz hohen Arbeitslosenquoten dabei sind, etwa in Bayern mit der zweithöchsten Arbeitslosenquote überhaupt, dahin gehend einzuschränken, daß es noch weite Bereiche gibt, in denen diese Verbesserung eben nicht eingetreten ist?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg72">Verehrter Herr Kolle Lintner, soweit Sie besonders die südbayerischen Gefilde meinen — auch das Arbeitsamt Kötzting und ähnliche Regionen —, so wissen Sie genau wie ich und alle anderen Mitglieder des Innerdeutschen Ausschusses, die sich besonders mit dieser Materie befaßt haben, daß dies eine Sache ist, die wir eigentlich schon seit Generationen mit uns schleppen und die wir von 1971 bis heute natürlich nicht beheben konnten. Wir bemühen uns aber darum.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg73">Herr Parlamentarischer Staatssekretär, Kötzting liegt in Nordbayern. Ich rufe die Frage 10 des Herrn Abgeordneten Lintner auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg74">Ist die Tatsache, daß in dem Manifest einer SED-internen Opposition der Lösung der nationalen Frage ein überaus hoher Stellenwert eingeräumt wird, für die Bundesregierung ein Anlaß, dieses Thema künftig zu einem zentralen Punkt ihrer Ost-und Deutschlandpolitik, aber auch ihrer gesamten Außenpolitik zu machen?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u48" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg75">Herr Abgeordneter Lintner, die nationale Frage ist und bleibt der zentrale Punkt der Deutschlandpolitik der Bundesregierung. Hierzu bedarf es keiner besonderen Aufforderung oder eines Anlasses wie die Veröffentlichung des genannten Papieres im „Spiegel". Die Bundesregierung befürwortet eine Politik, die auf die Verwirklichung des Rechts der Selbstbestimmung für alle Deutschen unter Berücksichtigung der politischen Realitäten, so wie sie sich nach 1945 in Europa gebildet haben, gerichtet ist. Es ist der Wille der Bundesregierung, durch eine Verbesserung der Beziehungen zur DDR die Härten der Spaltung Deutschlands für die hiervon betroffenen Menschen zu mildern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg76">Eine Zusatzfrage, Herr Abgeordneter Lintner.</seg>
+        </u>
+        <note type="speaker">Lintner (CDU/CSU) :</note>
+        <u who="#Q1289169" xml:id="ParlaMint-DE_1978-02-22-08-074.u50" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg77">Herr Staatssekretär, ist die Bundesregierung angesichts dieser Vorgänge nicht bereit, gegenüber der Weltöffentlichkeit und nach außen insbesondere den Anspruch auf Wiederververeinigung und auf nationale Einheit mehr als bisher und ausdrücklicher zu vertreten?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg78">Ich wäre Ihnen dankbar, wenn Sie der Bundesregierung Versäumnisse nachweisen wollten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg79">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lintner (CDU/CSU) :</note>
+        <u who="#Q1289169" xml:id="ParlaMint-DE_1978-02-22-08-074.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg80">Ich möchte in diesem Zusammenhang z. B. an die Vorgänge erinnern, die sich im Zusammenhang mit der Deutsch-Polnischen Schulbuchkommission ergeben haben.</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg81">Wollen Sie das bitte konkretisieren, damit ich darauf antworten kann, weil alle die Vorgänge, die damit zu tun haben, ein abendfüllendes Seminar bilden würden, wenn ich darauf antworten sollte.</seg>
+        </u>
+        <note type="speaker">Lintner (CDU/CSU) :</note>
+        <u who="#Q1289169" xml:id="ParlaMint-DE_1978-02-22-08-074.u55" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg82">Sie haben doch eben bestritten — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u56" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg83">Herr Abgeordneter Lintner, es gibt kein Zwiegespräch. Sie haben nur zwei Zusatzfragen. Die sind ausgeschöpft. Eine weitere Zusatzfrage, Herr Abgeordneter Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1978-02-22-08-074.u57" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg84">Herr Staatssekretär, da Sie danach gefragt haben, welche Versäumnisse sich die Bundesregierung hier vorhalten lassen müsse, darf ich Sie fragen, weshalb die Bundesregierung angesichts dieser Dinge in den jüngsten Verhandlungen bei der Folgekonferenz in Belgrad, denen ja die KSZE-Schlußakte zugrunde liegt, die ausdrücklich das Selbstbestimmungsrecht als einen ganz besonders wichtigen Grundsatz der internationalen Beziehungen hervorhebt, über die allgemeine Floskel, die ja auch sonst von der Bundesregierung öfter gebraucht wird, hinaus das Selbstbestimmungsrecht für das deutsche Volk nicht mit dem Nachdruck dort angemahnt hat, wie das eigentlich auf Grund des Bundesverfassungsgerichtsurteils notwendig gewesen wäre.</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u58" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg85">Herr Abgeordneter, es ist ein Irrtum, wenn Sie meinen, dies sei bei der Belgrader Konferenz nicht mit Nachdruck, eingebunden in alle Aktionen der Neun, geschehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u59" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg86">Ich rufe die Frage 11 des Herrn Abgeordneten Kunz (Berlin)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg87">auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg88">Betrachtet die Bundesregierung das im „Spiegel' abgedruckte Manifest einer SED-internen Opposition als einen wichtigen Beitrag zur Darstellung der Lage der Nation im geteilten Deutschland?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg89">Herr Abgeordneter Kunz, die Bundesregierung hat zu den im „Spiegel" veröffentlichten Papieren durch Bundesminister Franke im Bundestagsausschuß für innerdeutsche Beziehungen am 18. Januar Stellung genommen. Der Bundeskanzler hat in seiner Regierungserklärung vom 19. Januar 1978 festgestellt:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg90">Die Bundesregierung hat mit diesem Papier nichts zu tun, aber manche der Reaktionen auf seine Veröffentlichung treffen uns. Dem ist im Augenblick nichts hinzuzufügen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u61" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg91">Eine Zusatzfrage, bitte schön.</seg>
+        </u>
+        <note type="speaker">Kunz (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1512001" xml:id="ParlaMint-DE_1978-02-22-08-074.u62" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg92">Sind Sie, Herr Staatssekretär, bereit, eine Ergänzung dahin gehend zu machen, daß die Bundesregierung aus eigener Kenntnis bestätigen kann, daß die Sachaussagen des Manifests zutreffen?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg93">Herr Abgeordneter, in diesem Papier sind sehr viele Tatsachen genannt worden, die der Bundesregierung natürlich bekannt sind. Insofern kann ich Ihnen sagen, daß darin sehr vieles steht, was wir seit Jahr und Tag wußten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u64" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg94">Eine weitere Zusatzfrage, Herr Abgeordneter Kunz.</seg>
+        </u>
+        <note type="speaker">Kunz (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1512001" xml:id="ParlaMint-DE_1978-02-22-08-074.u65" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg95">Herr Staatssekretär, da dieses Manifest genügend Anhaltspunkte dafür gibt, sich substantiell mit ihm zu befassen, frage ich Sie, ob die Bundesregierung bereit ist, auf das Manifest und seinen Inhalt im Rahmen ihres Berichts zur Lage der Nation im geteilten Deutschland einzugehen.</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u66" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg96">Ich möchte zunächst einmal klarmachen, daß die Bundesregierung das Papier nicht als Manifest ansieht. Ich gebe dazu das bekannt, was am 11. Januar im Deutschen Fernsehen in der Sendung „Manifest oder Manipulation" von Herrn Böhme, Chefredakteur des „Spiegel", gesagt worden ist. Er sagte auf die Frage, von wem der Begriff „Manifest" eigentlich stamme:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg97">Die Herren, die es uns gegeben haben, haben es nicht „Manifest" genannt. Das ist richtig. Wenn Sie wollen: Es ist eine Vorstufe zu einem Manifest, verfaßt von ... Wir halten dies für ein Papier, das durchaus von Leuten gemacht worden sein kann, die in der DDR leben. Es gibt allerdings keinen Beweis dafür, daß es tatsächlich so ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u67" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg98">Eine weitere Zusatzfrage, Herr Abgeordneter Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1978-02-22-08-074.u68" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg99">Herr Staatssekretär, teilen Sie die von namhaften Kennern der innerdeutschen Situation geäußerte Auffassung, daß, gleichgültig, wer auch immer die Verfasser dieses Manifests — oder wie Sie es auch nennen mögen — sein mögen, die Beschreibung der Not der Menschen in Mitteldeutschland durch dieses Papier im wesentlichen zutrifft?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u69" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg100">Herr Abgeordneter, für mich wäre es leichter, wenn Sie einen Verfasser mit einer konkreten Aussage nennen würden. Ich möchte jetzt nicht pauschal allen Verfassern von irgendwelchen Berichten über das Manifest recht geben in einer Aussage, die sie vielleicht gemacht haben, die ich aber nicht kenne. Ich meine aber, daß die in dem Papier geschilderten Zustände durchaus real sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg101">Eine Zusatzfrage, Herr Abgeordneter Schmöle.</seg>
+        </u>
+        <note type="speaker">Schmöle (CDU/CSU) :</note>
+        <u who="#Q1583073" xml:id="ParlaMint-DE_1978-02-22-08-074.u71" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg102">Herr Staatssekretär, stimmen Sie mir zu, daß Inhalte dieses Papiers — auf die Überschrift kommt es sicher nicht an — für uns neue Erkenntnisse bringen können und daß es dringend notwendig wäre, im zuständigen Ausschuß des Deutschen Bundestages ausführlich darüber zu sprechen?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u72" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg103">Wir haben in dem Papier keine neuen Erkenntnisse gefunden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u73" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg104">Eine weitere Zusatzfrage, Herr Abgeordneter Böhme.</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1978-02-22-08-074.u74" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg105">Herr Staatssekretär, darf ich aus der Antwort, die Sie soeben dem Kollegen Kunz gegeben haben, schließen, daß die Bundesregierung nicht beabsichtigt, im Rahmen des Berichts zur Lage der Nation auf das Manifest einzugehen?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg106">Die Bundesregierung hat heute morgen in ihrer Kabinettsitzung zunächst einmal Ihre Große Anfrage behandelt. Was im Bericht über die Lage der Nation stehen wird, wird die Bundesregierung dann bekanntgeben, wenn über die Lage der Nation hier gesprochen wird.</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Lachen bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg107">Eine Zusatzfrage, Herr Abgeordneter Straßmeir.</seg>
+        </u>
+        <note type="speaker">Straßmeir (CDU/CSU) :</note>
+        <u who="#Q1117344" xml:id="ParlaMint-DE_1978-02-22-08-074.u77" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg108">Herr Staatssekretär, wie hat denn die Bundesregierung auf die ungeheuerliche Behauptung aus Ost-Berlin reagiert, das Manifest sei das Machwerk des Bundesnachrichtendienstes und damit einer Dienststelle, die dem Bundeskanzler untersteht?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg109">Diese Behauptung ist scharf zurückgewiesen und hinterher nicht mehr erhoben worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg110">Eine Zusatzfrage, Herr Abgeordneter Thüsing.</seg>
+        </u>
+        <note type="speaker">Thüsing (SPD) :</note>
+        <u who="#Q1271409" xml:id="ParlaMint-DE_1978-02-22-08-074.u80" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg111">Herr Staatssekretär, stimmen Sie meiner Auffassung zu, daß es bei dem Versuch, sich über die Lage der Menschen und über die politische Lage in der DDR zu informieren, bessere und seriösere Quellen gibt als dieses Papier?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg112">Es gibt eine ganze Reihe von Quellen — auch durchaus seriöser Art, auch von Forschungsinstituten und Forschern aus der Bundesrepublik Deutschland —, die ich jener Quelle, die gerade hier angesprochen worden ist, natürlich vorziehe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg113">Eine Zusatzfrage, Herr Abgeordneter Hennig.</seg>
+        </u>
+        <note type="speaker">Dr. Hennig (CDU/CSU) :</note>
+        <u who="#Q2037716" xml:id="ParlaMint-DE_1978-02-22-08-074.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg114">Herr Staatssekretär, begrüßt es die Bundesregierung — findet sie es also gut oder findet sie es schlecht —, daß über die Frage der Wiedervereinigung zumindest seit diesen „Spiegel"-Ausgaben sehr viel mehr gesprochen wird als vorher?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg115">Wir finden es sehr gut, wenn das Problem der Wiedervereinigung verstärkt in der Bundesrepublik Deutschland diskutiert wird. Im übrigen möchte ich sehr davor warnen, das, was in diesem „Manifest" an Wiedervereinigungsvorstellungen steht, sich allgemein zu eigen zu machen.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Hennig [CDU/CSU] : Freie Wahlen zum Beispiel!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg116">— Nein, Herr Abgeordneter — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg117">Herr Abgeordneter, es gibt kein Zwiegespräch außer bei Worterteilung durch den Präsidenten.</seg>
+          <kinesic type="applause">
+            <desc>Müller [Berlin] [CDU/CSU] : Ist aber im Protokoll! — Heiterkeit bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg118">Eine Zusatzfrage, Herr Abgeordneter Graf Huyn.</seg>
+        </u>
+        <note type="speaker">Graf Huyn (CDU/CSU) :</note>
+        <u who="#Q216652" xml:id="ParlaMint-DE_1978-02-22-08-074.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg119">Herr Staatssekretär, wenn Sie auch jetzt noch nicht willens oder in der Lage sind, Auskunft zu erteilen, ob die Bundesregierung im Rahmen des Berichts zur Lage der Nation im geteilten Deutschland zu dem Manifest Stellung nehmen wird, wären Sie bereit, sich persönlich dafür einzusetzen, daß dies geschieht?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg120">Verehrter Herr Abgeordneter, dies werde ich natürlich gern tun. Allerdings wird die Bundesregierung keine Auskünfte über das geben, was im Bericht zur Lage der Nation stehen soll und dann stehen wird, bevor nicht der Bundestag selbst im großen und ganzen mit diesem Tagesordnungspunkt befaßt ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg121">Ich rufe Frage 12 — des Abgeordneten Kunz (Berlin)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg122">— auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg123">Stimmt die Bundesregierung der im Manifest einer SED-internen Opposition geäußerten Ansicht zu, das ungelöste nationale Problem Deutschlands bleibe für den Weltfrieden als ein gefährlicher Spannungsherd trotz aller Entspannung auch weiterhin bestehen, oder sieht die Bundesregierung verstärkte Bemühungen um eine befriedigende Lösung der nationalen Frage als für die Entspannungspolitik hinderlich an? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg124">Herr Abgeordneter, es ist die erklärte Absicht der Deutschlandpolitik der Bundesregierung, durch den Versuch einer Verbesserung der Beziehungen zur DDR die Härten der Spaltung Deutschlands für die hiervon betroffenen Menschen zu mildern und zum Abbau der Spannungen in Europa beizutragen. Eine befriedigende Lösung der nationalen Frage der Deutschen setzt einen Abbau der Spannungen in Europa voraus. Ein Beitrag zur Entspannung in Europa ist nach Meinung der Bundesregierung auch die Normalisierung der Beziehungen zur DDR. Entspannung in Europa und Normalisierung der Beziehungen zur DDR bedingen einander.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg125">Eine Zusatzfrage, Herr Abgeordneter Kunz.</seg>
+        </u>
+        <note type="speaker">Kunz (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1512001" xml:id="ParlaMint-DE_1978-02-22-08-074.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg126">Herr Staatssekretär, hält die Bundesregierung eine dauerhafte Entspannung für möglich, ohne daß die deutsche Frage im Sinne von Einheit in Freiheit gelöst wird?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg127">Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u93" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg128">Eine weitere Zusatzfrage, Herr Abgeordneter Kunz.</seg>
+        </u>
+        <note type="speaker">Kunz (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1512001" xml:id="ParlaMint-DE_1978-02-22-08-074.u94" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg129">Sieht es die Bundesregierung als für die Entspannung nützlich oder schädlich an, wenn im Rahmen internationaler Entspannungsbemühungen die friedensgefährdenden Zustände an der innerdeutschen Demarkationslinie deutlicher als bisher zur Sprache gebracht werden?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg130">Die Bundesregierung bemüht sich unentwegt darum, jene Zustände an der Grenze zu verbessern und dazu beizutragen, daß der Schießbefehl und die anderen Maßnahmen zur Einsperrung der Menschen in der DDR für die Zukunft fortfallen. Sie wissen, daß die DDR auf Grund ihrer inneren Lage dazu im Augenblick nicht bereit, nicht willens und sehr wahrscheinlich auch nicht in der Lage ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg131">Eine weitere Zusatzfrage, Herr Abgeordneter Sieglerschmidt.</seg>
+        </u>
+        <note type="speaker">Sieglerschmidt (SPD) :</note>
+        <u who="#Q1441696" xml:id="ParlaMint-DE_1978-02-22-08-074.u97" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg132">Herr Staatssekretär, ist das Gegensatzpaar, das hier der Kollege Kunz in seiner Frage gebildet hat, nicht falsch? Ist es nicht vielmehr so, daß die einzige Chance in dieser Richtung ist, daß durch eine Fortsetzung und Vertiefung der Entspannungspolitik die Spaltung Berlins, die Spaltung Deutschlands und schließlich auch die Spaltung Europas — alle drei hängen miteinander zusammen — überwunden wird?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u98" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg133">Herr Abgeordneter, ich stimme Ihnen völlig zu. Ein Gegensatzpaar kann dies nicht sein. Ich hatte auch gesagt, daß Entspannung in Europa und Normalisierung der Verhältnisse zwischen der Bundesrepublik Deutschland und der DDR einander bedingen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u99" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg134">Eine weitere Zusatzfrage, Herr Abgeordneter van Aerssen.</seg>
+        </u>
+        <note type="speaker">Dr. van Aerssen (CDU/CSU) :</note>
+        <u who="#Q1691233" xml:id="ParlaMint-DE_1978-02-22-08-074.u100" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg135">Herr Staatssekretär, was hat die Bundesregierung unternommen, um die Entschließung des Europäischen Parlaments, in der die Familientrennung und die Grenzverletzungen durch die DDR gerügt werden, in entsprechende politische Schritte umzusetzen?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u101" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg136">Herr Abgeordneter, ich sehe den Sachzusammenhang zu der gestellten ursprünglichen Frage nicht, will Ihnen aber gerne sagen, daß die Bundesregierung sich tagtäglich bemüht, die Verhältnisse, die sich in Deutschland seit 1945 entwickelt haben, zu mildern und die hiervon betroffenen Menschen besonders in ihre Bemühungen einzubinden. Die Bundesregierung ist auch weiterhin bemüht, auf dem Gebiet der Familienzusammenführung das zu tun, was im Sinne der humanitären Erleichterungen in Deutschland bisher angesprochen worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u102" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg137">Eine weitere Zusatzfrage, Herr Abgeordneter Schmöle.</seg>
+        </u>
+        <note type="speaker">Schmöle (CDU/CSU) :</note>
+        <u who="#Q1583073" xml:id="ParlaMint-DE_1978-02-22-08-074.u103" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg138">Herr Staatssekretär, stimmen Sie mir darin zu, daß der größte Fortschritt für die Entspannung in Europa darin bestehen würde, für die Menschen im anderen Teil unseres Landes das Grundrecht auf Verwirklichung der Freizügigkeit und die Menschenrechte einzuführen?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u104" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg139">Herr Abgeordneter, das ist das Ziel der Bundesregierung. Nur, Sie sind sicher — genau wie alle Kollegen, die sich ernsthaft damit befassen — der Meinung, daß dies von heute auf morgen nicht möglich ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u105" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg140">Eine weitere Zusatzfrage, Herr Abgeordneter Jäger.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1978-02-22-08-074.u106" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg141">Herr Staatssekretär, teilen Sie meine Auffassung, daß die Verfasser des Manifests oder dieser Schrift in ihrem Aufruf sichtbar gemacht haben, daß das, was die Bundesregierung in anderen Teilen der Welt vorbehaltlos für richtig hält, nämlich daß die Mißachtung nationalen Selbstbestimmungsrechts von Völkern zu schweren Spannungen in der Welt führt, auch für Mitteleuropa und insbesondere für unser geteiltes deutsches Volk gilt?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u107" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg142">Herr Abgeordneter, ich bin noch nicht einmal sicher, daß die Verfasser gewünscht haben, daß das, was im „Spiegel" das Manifest genannt worden ist, der Weltöffentlichkeit bekanntgemacht wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u108" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg143">Ich rufe die Frage 13 des Abgeordneten Böhm (Melsungen)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg144">auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg145">Welche Stellungnahme bezieht die Bundesregierung zu den Schikanen, die darin zum Ausdruck kommen, daß es in letzter Zeit mehrfach vorgekommen ist, daß im innerdeutschen Reise-und Postverkehr Schallplatten mit Volks- und Weihnachtsliedern des Sängers. Heino von den DDR-Behörden beschlagnahmt und einbehalten wurden und die in den Merkblättern des Bundesministers für innerdeutsche Beziehungen angegebene Möglichkeit, von den DDR-Behörden beanstandete Schallplatten am Grenzübergang zu deponieren und bei der Rückreise wieder mitzunehmen, nicht eingeräumt wurde?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u109" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg146">Herr Abgeordneter, bis zum Inkrafttreten des Grundlagenvertrages waren die Mitnahme und der Versand von Schallplatten in die DDR generell verboten. Seither gilt nach den DDR-Zollbestimmungen für die Mitnahme von Gegenständen im grenzüberschreitenden Reiseverkehr und für den Versand von Gegenständen im grenzüberschreitenden Geschenkpaket- und -päckchenverkehr auf dem Postwege das Einfuhrverbot nur noch für „Schallplatten, soweit sie nicht Werke des kulturellen Erbes oder des wirklich kulturellen Gegenwartschaffens betreffen". Die DDR-Kontrollpraxis wird nach unseren Beobachtungen bei Schlagermusik in letzter Zeit weniger restriktiv gehandhabt. Allerdings verfahren die Kontrollbeamten bei Schallplatten des von Ihnen angesprochenen Sängers besonders streng und verweigern regelmäßig die Einfuhr. Gründe dafür wurden nicht bekanntgegeben. Die Bundesregierung ist bereit, jedem einzelnen Beschlagnahmefall nachzugehen, wenn ihr die erforderlichen Einzelangaben gemacht werden. Die Möglichkeit, deklarierte, aber nicht zur Einfuhr zugelassene Gegenstände an der Grenze bis zur Wiederausreise zu hinterlegen, ist in den DDR-Zollbestimmungen vorgesehen. Wenn die Hinterlegung im Einzelfall verweigert worden sein sollte, bitte ich um nähere Einzelangaben, damit der Angelegenheit nachgegangen werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u110" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg147">Zusatzfrage, Herr Abgeordneter Böhm.</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1978-02-22-08-074.u111" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg148">Herr Staatssekretär, ist Ihnen bekannt, daß Bürger aus der DDR an ihre Verwandten in der Bundesrepublik Deutschland sehr häufig mit der Bitte herantreten, ihnen solche Schallplatten in die DDR zu schicken, und daß das dann von den Verwandten hier in der Bundesrepublik getan wird und diesen dadurch erhebliche Kosten entstehen, und wie stellt sich die Bundesregierung eine bessere Aufklärung mit dem Ziel vor, daß Bürgern der Bundesrepublik Deutschland keine unnötigen Kosten dieser Art entstehen?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg149">Herr Abgeordneter, die Möglichkeit des Mitnehmens von Geschenken im Reiseverkehr und auch des Versendens. im Paket- und Päckchenverkehr hat die Bundesregierung seit vielen Jahren immer wieder bekanntgemacht. Wir gehen davon aus, daß es trotzdem noch eine große Menge von Menschen in der Bundesrepublik Deutschland gibt, die dies bisher noch nicht zur Kenntnis genommen haben. Das andere, was die DDR an Einfuhren gestattet, nämlich daß diese Schallplatten wirklich das kulturelle Gegenwartschaffen betreffen sollen, kann die Bundesregierung nicht beurteilen. Die Geschmäcker auf diesem Gebiet sind da tatsächlich sehr unterschiedlich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg150">Eine weitere Zusatzfrage, Herr Abgeordneter Böhm.</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1978-02-22-08-074.u114" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg151">Herr Staatssekretär, da die Behörden der DDR, wie ich Ihnen in der Frage mitgeteilt habe, in dem mir bekannten Fall die Möglichkeit, die Schallplatte zu deponieren und bei der Rückkehr wieder mitzunehmen, nicht eröffnet haben, frage ich Sie, ob Sie bereit sind, diesen Fall und auch andere Fälle dieser Art, die ebenfalls bekannt sind, an entsprechender Stelle zur Sprache zu bringen.</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg152">Selbstverständlich, Herr Abgeordneter. Ich bitte Sie sehr herzlich darum, mir diese Fälle bekanntzugeben.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Böhm [Melsungen] [CDU/CSU] : Ich werde sie einer Beschwerdestelle geben!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg153">Zusatzfrage, Herr Abgeordneter Kunz (Berlin).</seg>
+        </u>
+        <note type="speaker">Kunz (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1512001" xml:id="ParlaMint-DE_1978-02-22-08-074.u117" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg154">Herr Staatssekretär, sind Sie bereit, dem Haus und vor allem all denjenigen, die Pakete versenden wollen, mitzuteilen, welche Bemühungen Sie unternommen haben, um den Begriff des „wirklich kulturellen Gegenwartschaffens" zu präzisieren, soweit das überhaupt möglich ist?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg155">Herr Abgeordneter Kunz, die Bundesregierung sieht sich außerstande, diesen Begriff, der in der DDR geprägt worden ist, so auszufüllen, daß es ,den Intentionen der DDR-Behörden entspricht, weil wir nicht in der Lage sind, uns in die Ganglien der dortigen Funktionäre richtig hineinzuversetzen.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit — Wehner [SPD] : Hört! Hört!</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg156">Eine Zusatzfrage, Herr Abgeordneter Hennig.</seg>
+        </u>
+        <note type="speaker">Dr. Hennig (CDU/CSU) :</note>
+        <u who="#Q2037716" xml:id="ParlaMint-DE_1978-02-22-08-074.u120" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg157">Herr Staatssekretär, ist es eine Kontrollmaßnahme, oder liegt darin gar eine Distanzierung, daß der für Sie zuständige Bundesminister zur Zeit auf der Bank der Mitarbeiter der SPD-Bundestagsfraktion Platz genommen hat?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Immer [Altenkirchen] [SPD] : Ach du liebe Zeit! — Wehner [SPD]: Eine komische Art!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg158">Herr Staatssekretär, geben Sie darauf keine Antwort?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u122" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg159">So ist es, Herr Präsident.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg160">Sagen Sie es; dann ist das voll zufriedenstellend.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit</desc>
+        </kinesic>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u124" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg161">Ich hatte eine Zurückweisung der Frage erwartet, Herr Präsident.</seg>
+        </u>
+        <vocal type="question">
+          <desc>Wehner [SPD] : War das denn eine Zusatzfrage?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u125" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg162">Eine Zusatzfrage, Herr Abgeordneter Sauer.</seg>
+        </u>
+        <note type="speaker">Sauer (Salzgitter) (CDU/CSU) :</note>
+        <u who="#Q118277" xml:id="ParlaMint-DE_1978-02-22-08-074.u126" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg163">Herr Kollege Höhmann, da vom Zollamt Dresden auch zwei Platten und ein Plattenetui dem Weihnachtspaket eines Bürgers aus meinem Wahlkreis, aus der Stadt Salzgitter-Bad, entnommen worden sind, dieser Bürger aber die Platten geschickt hat, weil er die Broschüre Ihres Hauses „Praktische Tips" von Februar 1976 kennt, in der auf Seite 31 steht: „In begrenztem Umfang können Sie Schallplatten in die DDR einführen", frage ich Sie: Wäre die Bundesregierung bereit, diesem Rentner die Kosten zu erstatten?</seg>
+        </u>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg164">Herr Abgeordneter, das gibt es nicht. Ich möchte nur sehr darum bitten, wenn Sie solche Fälle hier ansprechen, daß mir konkret Name und Adresse — das gilt auch für den Inhalt der Schallplatten — mitgeteilt werden.</seg>
+          <vocal type="exclamat">
+            <desc>Sauer [Salzgitter] [CDU/CSU] : Heino-Platten! Das waren auch Platten dieses Schlagersängers!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg165">— Jenes Schlagersängers, der in der Frage angesprochen worden ist?</seg>
+          <vocal type="exclamat">
+            <desc>Sauer [Salzgitter] [CDU/CSU]: So ist es!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg166">— Dazu habe ich Herrn Abgeordneten Böhm schon mitgeteilt, daß dessen Platten generell zurückgewiesen werden.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe von der CDU/CSU</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg167">Wenn ich eine weitere Zusatzfrage zulasse, dann bitte ich aber, darauf Rücksicht zu nehmen, daß die Zahl der in Frage kommenden Schlagersänger, Texter usw. so groß ist, daß die Fragestunde wahrscheinlich noch viel länger dauern müßte. Herr Abgeordneter Jäger.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1978-02-22-08-074.u129" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg168">Herr Staatssekretär, bezugnehmend auf Ihre Antwort, daß gerade die Schallplatten des erwähnten Schlagersängers generell oder überwiegend zurückgewiesen werden: Hat die Bundesregierung die DDR in den laufenden Gesprächen darauf hingewiesen, daß so etwas zumindest mit dem Geist des Korbes III der Abmachungen von Helsinki, wo über den gegenseitigen Austausch kultureller Werke ausdrückliches Einvernehmen erzielt worden ist, nicht in Einklang steht und daß hier selbstverständlich niemand generell ausgeschlossen werden darf?</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Lachen bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Höhmann, Parl. Staatssekretär:</note>
+        <u who="#Q1298664" xml:id="ParlaMint-DE_1978-02-22-08-074.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg169">Herr Abgeordneter, ich muß gestehen: der Bundeskanzler hat dort mit Herrn Honecker nicht über Heino gesprochen.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg170">Wir kommen zum Geschäftsbereich des Bundesministers für Forschung und Technologie. Zur Beantwortung der Fragen steht Herr Staatssekretär Haunschild zur Verfügung. Die Fragen 14 und 15 des Abgeordneten Pfeffermann sowie die Frage 16 des Abgeordneten Dr. Steger werden auf Bitten der Fragesteller schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Ich rufe die Frage 40 des Abgeordneten Dr. van Aerssen auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg171">Sind nach dem Erkenntnisstand der Bundesregierung Befürchtungen, wie sie Wirtschaftsminister Riemer geäußert haben soll, begründet, der Atomreaktor in Kalkar vom Typ Schneller Brüter könne als Milliardenruine" unvollendet bleiben, und wenn ja, welche Folgerungen zieht die Bundesregierung daraus? Bitte schön.</seg>
+        </u>
+        <note type="speaker">Haunschild, Staatssekretär im Bundesministerium für Forschung und Technologie:</note>
+        <u who="#Q1577233" xml:id="ParlaMint-DE_1978-02-22-08-074.u132" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg172">Herr Abgeordneter, da bis jetzt lediglich die Presseberichte über Äußerungen des Ministers für Wirtschaft, Mittelstand und Verkehr des Landes Nordrhein-Westfalen vorliegen und der Wortlaut im Detail nicht bekannt ist, kann ich nur zu diesen Pressemeldungen Stellung nehmen. Nach Auffassung der Bundesregierung ist die Befürchtung, in Kalkar entstehe eine „Milliardenruine", unbegründet. Die dafür maßgebenden Gründe sind im einzelnen im Bericht der Bundesregierung zur Entwicklung des Schnellbrutreaktors aufgeführt worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u133" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg173">Eine Zusatzfrage, Herr Abgeordneter van Aerssen. 1 Dr. van Aerssen (CDU/CSU)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg174">: Welche Schritte wird die Bundesregierung unternehmen, damit demnächst solche Äußerungen von verantwortlichen Ministern unterbleiben? Welche internen Informationen werden gegeben werden?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Becker [Nienberge] [SPD] : Man kann ihnen doch nicht den Mund verbieten!</desc>
+        </vocal>
+        <note type="speaker">Haunschild, Staatssekretär:</note>
+        <u who="#Q1577233" xml:id="ParlaMint-DE_1978-02-22-08-074.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg175">Herr Abgeordneter, ich weiß nicht, ob es Aufgabe der Bundesregierung ist, auf Politiker eines Landes einzuwirken, daß sie bestimmte Äußerungen tun oder nicht tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u135" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg176">Keine weitere Zusatzfrage? — Danke. Ich rufe die Frage 41 des Abgeordneten Dr. van Aerssen auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg177">Hat die Bundesregierung — wenn derartige Befürchtungen unbegründet sind — durch entsprechende Informationen und Hinweise dafür Sorge getragen, daß derartige Befürchtungen und entsprechende Außerungen, die sowohl in der Bundesrepublik Deutschland als auch in den Ländern der Europäischen Gemeinschaft nur zu weiteren Belastungen und Verunsicherungen führen, möglichst zerstreut bzw. verhindert werden?</seg>
+        </u>
+        <note type="speaker">Haunschild, Staatssekretär:</note>
+        <u who="#Q1577233" xml:id="ParlaMint-DE_1978-02-22-08-074.u136" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg178">Herr Abgeordneter, den am Prototyp SNR 300 Beteiligten ist der Stand des Genehmigungsverfahrens in Kalkar bekannt. Die Partner in Belgien und in den Niederlanden verfolgen die Entwicklung in der Bundesrepublik Deutschland aufmerksam und zum Teil auch mit Sorge. Durch vielschichtige Kontakte aber zu diesen Partnern und auf Grund des langjährig gewachsenen gegenseitigen Vertrauensverhältnisses ist sichergestellt, daß das Projekt in voller Koordination mit den Partnern weiterhin abgewickelt wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg179">Eine Zusatzfrage, Herr Abgeordneter Dr. van Aerssen.</seg>
+        </u>
+        <note type="speaker">Dr. van Aerssen (CDU/CSU) :</note>
+        <u who="#Q1691233" xml:id="ParlaMint-DE_1978-02-22-08-074.u138" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg180">Wann ist mit einer Novelle zum Bundesatomgesetz zu rechnen, damit die derzeitigen Unsicherheiten um dieses Projekt beseitigt werden?</seg>
+        </u>
+        <note type="speaker">Haunschild, Staatssekretär:</note>
+        <u who="#Q1577233" xml:id="ParlaMint-DE_1978-02-22-08-074.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg181">Ich kann zu dieser Frage, Herr Abgeordneter, keine Auskunft geben. Einerseits vertrete ich nicht das Ressort, das für diese Novelle zum Atomgesetz zuständig ist, andererseits hat die Bundesregierung über diese Frage bisher noch nicht beraten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg182">Eine letzte Zusatzfrage, Herr Abgeordneter Dr. van Aerssen.</seg>
+        </u>
+        <note type="speaker">Dr. van Aerssen (CDU/CSU) :</note>
+        <u who="#Q1691233" xml:id="ParlaMint-DE_1978-02-22-08-074.u141" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg183">Teilt die Bundesregierung die Ansicht, daß diese Unsicherheiten lediglich und ausschließlich durch eine Novelle zum Bundesatomgesetz beseitigt werden können?</seg>
+        </u>
+        <note type="speaker">Haunschild, Staatssekretär:</note>
+        <u who="#Q1577233" xml:id="ParlaMint-DE_1978-02-22-08-074.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg184">Nein, selbstverständlich nicht. Die Bundesregierung hat — das haben Sie in Ihrer Frage ja auch angesprochen — in verschiedenen Verlautbarungen — der von mir zitierte Bericht ist ein Beispiel dafür — darauf hingewiesen, daß die Weiterentwicklung des Schnellen Brüters und insbesondere die Fertigstellung des Reaktors in Kalkar ihrer Meinung nach notwendig ist. Die Bundesregierung hat diese ihre Auffassung über die Notwendigkeit der Fertigstellung des SNR 300 auch der Landesregierung Nordrhein-Westfalen am 30. September 1977 mitgeteilt. Die Bundesregierung hat keinerlei Veranlassung zu der Annahme, daß ihre Auffassung dort nicht geteilt wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg185">Wir kommen zum Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung. Zur Beantwortung steht der Parlamentarische Staatssekretär Buschfort zur Verfügung. Ich rufe die Frage 17 des Abgeordneten Fiebig auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg186">Wann gedenkt die Bundesregierung, beim Bundesamt für den Zivildienst die Beachtung des einmütig erklärten Willens des 7. Deutschen Bundestages zur Gleichberechtigung aller therapeutischen Richtungen durchzusetzen, damit die Kosten für Arzneimittel der besonderen therapeutischen Richtungen bei der Gewährung von Beihilfen erstattet werden?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u144" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg187">Herr Kollege Fiebig, Zivildienstleistende haben nach § 35 des Zivildienstgesetzes Anspruch auf unentgeltliche Heilfürsorge nach den Bestimmungen, die für Soldaten gelten, die auf Grund der Wehrpflicht Wehrdienst leisten. Ebenso wie in der Beihilferegelung für die Bundesbeamten sind wissenschaftlich nicht allgemein anerkannte Behandlungsmethoden ausgeschlossen. Mir ist kein Fall bekannt, in dem für den Bereich des Zivildienstes abweichend von allgemein gültigen Regelungen Einschränkungen in bezug auf therapeutische Richtungen gemacht worden sind. Ich bin gegebenenfalls gerne bereit, einen Einzelfall nachprüfen zu lassen, wenn Sie mir das mitteilen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u145" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg188">Eine Zusatzfrage, bitte schön.</seg>
+        </u>
+        <note type="speaker">Fiebig (SPD) :</note>
+        <u who="#Q1694096" xml:id="ParlaMint-DE_1978-02-22-08-074.u146" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg189">Herr Staatssekretär, vor dem Hintergrund der Tatsache, daß ich Ihnen einen konkreten Fall nennen kann: Sind Sie mit mir grundsätzlich der Auffassung, daß nicht das Bundesamt für Zivildienst, sondern das Bundesgesundheitsamt für die Beurteilung von Medikamenten und auch für die Prüfung der Frage zuständig ist, ob sie wissenschaftlich anerkannt und somit beihilfefähig sind?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg190">Herr Kollege, ich glaube, wir müssen hier sehr sorgfältig trennen, damit sich nicht eine unterschiedliche Auffassung hinsichtlich des Zivildienstes, der Bundeswehr und auch der Versicherungsbereiche entwickelt. Es kommt im wesentlichen darauf an, ob ein solches Medikament zu den anerkannten Behandlungsmethoden zählt oder mit einer solchen Behandlung Krankheiten erkannt, geheilt oder gelindert werden können. Wenn ein solcher Nachweis erbracht wird, dürfte ein auf dem Markt befindliches Medikament oder eine Therapie entsprechend der bisherigen. Praxis auch eingesetzt werden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg191">Keine weitere Zusatzfrage? — Ich rufe die Frage 18 des Abgeordneten Müller (Berlin)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg192">auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg193">Was veranlaßt neuerdings die Bundesregierung — wie z. B. in den „sozialpolitischen Informationen" vom 14. Oktober 1977 oder den Bundeskanzler in seiner Rede vor dem Deutschen Bundestag am 24. Januar 1978 —, das Rentenniveau nach einem Altersruhegeld, dem 45 Versicherungsjahre zugrunde liegen, und an dem durchschnittlichen Nettoarbeitsentgelt zu bemessen, anstatt wie bisher nach der in § 1272 Abs. 2 RVO bzw. § 49 Abs. 2 AVG vorgeschriebenen Formel, wonach das Rentenniveau „an einem Altersruhegeld, dem vierzig anrechnungsfähige Versicherungsjahre und eine für den Versicherten maßgebende Bemessungsgrundlage von 100 v. H." — eines ganz bestimmten durchschnittlichen Bruttoarbeitsentgelts — „zugrunde liegen", gemessen wird?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u149" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg194">Herr Kollege Müller, für die Berechnung des Rentenniveaus gibt es verschiedene Möglichkeiten, die für unterschiedliche Fragestellungen sinnvoll und zweckmäßig sind. Schon seit langem sind deshalb mehrere Definitionen des Rentenniveaus gebräuchlich. Auch die Bundesregierung verwendet unterschiedlich definierte Begriffe des Rentenniveaus, und zwar nicht erst neuerdings. Neben dem in § 1272 Abs. 2 der Reichsversicherungsordnung definierten Rentenniveau ist das von Ihnen zitierte Nettorentenniveau besonders wichtig. Unter verteilungspolitischen Gesichtspunkten ist es nämlich für Rentner und Arbeitnehmer gleichermaßen interessant, in welchem Verhältnis die Renten zu dem Nettoarbeitsentgelt der erwerbstätigen Versicherten stehen. Die sachliche Begründung für eine solche Gegenüberstellung, wie sie im Nettorentenvniveau vorgenommen wird, liegt auf der Hand: Weil für Renten heute in der Regel keine Steuern zu zahlen sind, stellen sie Nettoeinkommen dar. Die entsprechende Vergleichsgröße sind daher die Nettoarbeitsentgelte, wenn es um den Vergleich des Lebenshaltungsniveaus von Rentnern und Arbeitnehmern geht. Auch für die Annahme von 45 Versicherungsjahren für die Berechnung des Rentenniveaus gibt es gute Gründe. Diese Zahl von Jahren ist typisch für Rentner, die ihr ganzes Arbeitsleben lang der Solidargemeinschaft der Rentenversicherung auge-hört haben. So haben z. B. Männer, die das flexible Altersruhegeld wegen Vollendung des 63. Lebensjahrs in Anspruch nehmen, im Durchschnitt rund 45 anrechnungsfähige Versicherungsjahre. Im übrigen kommt es bei einer Betrachtung des Rentenniveaus vor allem auf dessen Entwicklung im Zeitablauf an. Für diese Betrachtung hat die Zahl der Versicherungsjahre keine Bedeutung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u150" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg195">Eine Zusatzfrage, bitte schön.</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1978-02-22-08-074.u151" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg196">Herr Staatssekretär, ist sich die Bundesregierung bewußt, daß der Vergleich eines Altersruhegeldes, dein 45 Versicherungsjahre zugrunde liegen, mit dem durchschnittlichen Nettoarbeitsentgelt eine Irreführung ist, wenn man berücksichtigt, daß die durchschnittliche Anzahl der anrechnungsfähigen Versicherungsjahre in der Arbeiterrentenversicherung bei Männern 37,4 und bei Frauen 22,6 und in der Angestelltenversicherung bei Männern 38 und bei Frauen 27,2 beträgt?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg197">Herr Kollege Müller, deshalb habe ich vorhin ja auch bewußt darauf hingewiesen, daß wir hier von einem Arbeitnehmer ausgehen, der sein Leben lang bis zur flexiblen Altersgrenze der Versicherungspflicht innerhalb der Solidargemeinschaft unterlegen hat. Natürlich werden solche Durchschnittswerte nicht von allen erreicht, z. B. nicht von allen Akademikern. Ich darf hier scherzhafterweise hinzufügen: Das ist wie so häufig mit Statistiken. Sie kennen das Beispiel mit dem Bier. Wenn einer elf trinkt und der andere eins, haben sie im Durchschnitt sechs; nur ihr Befinden ist sehr unterschiedlich. Das gilt hier, bezogen auf den versicherten Personenkreis, genauso. Mit statistischen Durchschnittszahlen kommen Sie hier im allgemeinen nicht viel weiter.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg198">Eine weitere Zusatzfrage, Herr Abgeordneter Müller.</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1978-02-22-08-074.u154" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg199">Herr Staatssekretär, würden Sie Ihre Auffassung auch noch aufrechterhalten, wenn ich aus dem Rentenanpassungsbericht 1977 zitieren darf, wonach in der Arbeiterrentenversicherung von 2 076 800 Männern nur 732 500, also 35,2 %, von 2 291 000 Frauen nur 52 500, also 2,7 %, und in der Angestelltenversicherung von 894 400 Männern nur 327 700, also 38,5 %, und von 843 000 Frauen nur 52 400, also 6,21 %, 45 und mehr Versicherungsjahre erreicht haben, das also niemals die Regel sein kann und es insofern eine Irreführung ist?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Wehner [SPD]: Kommal</desc>
+        </vocal>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg200">Herr Kollege Müller, wie käme ich dazu, die von uns selber herausgegebenen Daten bezweifeln zu wollen? Sicherlich werden sie so, wie Sie sie vorgelesen haben, auch im Rentenanpassungsbericht stehen, und das wird schon seine Richtigkeit haben. Nur darf ich noch einmal darauf hinweisen, daß ich doch ausdrücklich gesagt habe: Es kommt darauf an, zu welchem Zweck ich einen Vergleich ziehen will. Will ich netto zu netto vergleichen, dann ist es sicherlich erlaubt, dieses Verfahren, das ich vorgetragen habe, anzuwenden. Bin ich gehalten, die gesetzlichen Vorschriften anzuwenden, dann beziehen wir uns auf den § 1272. Das machen wir in den amtlichen Ausgaben. Von daher sehe ich überhaupt nicht, inwiefern wir jetzt eine Differenz haben, zumal wir beide Fachmann genug sind, um zu wissen, um welchen Vorgang es sich hier handelt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u156" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg201">Eine Zusatzfrage, Herr Abgeordneter Nordlohne.</seg>
+        </u>
+        <note type="speaker">Nordlohne (CDU/CSU) :</note>
+        <u who="#Q1445835" xml:id="ParlaMint-DE_1978-02-22-08-074.u157" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg202">Herr Staatssekretär, würden Sie nicht auch davon ausgehen, daß die Rentner, die jetzt in Rentenbezug gehen, es im Grunde genommen nicht verstehen, daß hier die Nettobezogenheit eine Rolle spielen soll, wenn sie ihr Leben lang Beiträge nach ihrem Bruttoeinkommen entrichtet haben?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg203">Herr Kollege Nordlohne, ich vermute, daß sie den Zusammenhang der Frage von Herrn Müller nicht erkannt haben. Denn hier geht es nicht um die Beantwortung der Frage: bruttolohnbezogene oder nettolohnbezogene Rente, sondern hier ging es nur darum, ob es erlaubt ist, einen statistischen Vergleich zwischen Nettolöhnen und Renten herzustellen, oder ob, weil es in einem Gesetz, in § 1272, vorgeschrieben ist, nur der bruttolohnbezogene Vergleich erlaubt ist. Hier darf ich darauf aufmerksam machen, daß Statistiken von jeher für viele Vergleiche herangezogen worden sind, und ich finde auch, daß jedenfalls die von mir genannten recht interessant sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg204">Eine weitere Zusatzfrage, Herr Abgeordneter Höpfinger.</seg>
+        </u>
+        <note type="speaker">Höpfinger (CDU/CSU) :</note>
+        <u who="#Q1613586" xml:id="ParlaMint-DE_1978-02-22-08-074.u160" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg205">Herr Staatssekretär, würde es nicht der Versachlichung des ganzen Themas dienen, wenn die Bundesregierung bei solchen Vergleichen auch immer darauf hinwiese, daß die Rentenanpassung mit einer Verzögerung von drei Jahren erfolgt, abgesehen von den Arbeitsjahren, die jemand geleistet hat. Ich glaube, bei diesen Vergleichen fehlt immer wieder der Hinweis, daß die Renten erst mit einer Verzögerung von drei Jahren dem Bruttolohn angepaßt werden.</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u161" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg206">Herr Kollege, ich bin ganz Ihrer Auffassung. Ich bin sehr dafür — ich bin auch sicher, daß die Versicherungsanstalten das im Bereich ihrer Beratung und Betreuung immer wieder tun —, herauszustellen, wie eine Rente überhaupt berechnet wird. Dazu gehört natürlich der Hinweis auf diese Verzögerung, die gesetzlich vorgeschrieben ist. Bisher war es allerdings mein Eindruck, daß wir das trotz großer Anstrengungen der Gesamtbevölkerung nicht verständlich machen konnten. In Versammlungen erfahre ich immer wieder, daß Rentner der Auffassung sind, daß die Rente insgesamt nach dem Arbeitsergebnis der letzten drei Jahre berechnet wird. Das ist völlig falsch; aber wenn dieser Punkt nach wie vor so unklar ist, wie Sie das ausführen, will ich mein Augenmerk gern darauf richten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u162" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg207">Keine weiteren Zusatzfragen. Ich rufe die Frage 19 des Herrn Abgeordneten Müller (Berlin)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg208">auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg209">Um wieviel ist das durthschnittliche Bruttoarbeitsentgelt aller Versicherten seit 1957 — das ja Ausgangsbasis für die Rentenberechnung ist — gestiegen, und wie sind im gleichen Zeitraum bis 1977 die Renten gestiegen?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg210">Herr Kollege Müller, von 1957 bis 1977 sind die Bruttoarbeitsentgelte auf das Fünffache, die Renten auf das Viereinhalbfache und die Nettoarbeitsentgelte auf das Vierfache gestiegen. Hinter der Gesamtzunahme in diesen 20 Jahren — Bruttoentgelte plus 394,6 %, Renten plus 349,6 % und Nettoentgelte plus 301,8 % — verbirgt sich eine interessante zeitliche Differenzierung der Entwicklung. Während im ersten Zehnjahreszeitraum 1957/1967 die Renten mit einer Zunahme um 83,5 % hinter der Entwicklung der Arbeitsentgelte zurückblieben, die brutto um 102,6 °/o und netto um 91,8 % stiegen, haben die Renten im letzten Zehnjahreszeitraum 1967/1977 deutlich besser abgeschnitten: Mit einer Zunahme um 145 % stiegen sie praktisch ebenso stark wie die Bruttoentgelte mit 144,1 % und deutlich stärker als die Nettoarbeitsentgelte, die im Durchschnitt nur um 109,5 % zugenommen haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg211">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1978-02-22-08-074.u165" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg212">Herr Staatssekretär, ist die Bundesregierung mit mir der Ansicht, daß die nun ins Auge gefaßte Anpassung in Höhe von 4,5 % bzw. 4 % in den nächsten Jahren von den Versicherten bzw. von den Rentnern als Betrug angesehen werden kann, die angenommen haben — sie haben entsprechende Beiträge geleistet —, daß ihre Rente mit der Lohnentwicklung entsprechend der bisherigen Rentenformel steigt?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u166" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg213">Herr Kollege Müller, ich glaube nicht, daß es erlaubt ist, hier im Parlament von Betrug zu sprechen.</seg>
+          <vocal type="exclamat">
+            <desc>Müller [Berlin] [CDU/CSU] : Ich habe gesagt: „angesehen werden kann" !</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg214">Wenn es so ist, daß eine Abweichung von der bisherigen Formel so bezeichnet werden darf, müßte ich allerdings antworten: Dann ist das Ausfallen der Rentenanpassung im Jahre 1958 genauso zu beurteilen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u167" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg215">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1978-02-22-08-074.u168" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg216">Stimmt die Bundesregierung mit mir wenigstens darin überein, daß die vorgesehene Anpassung ohne Rücksicht auf die künftige Lohnentwicklung einer grundsätzlichen Änderung des Systems gleichkommt?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u169" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg217">Herr Kollege Müller, diese Auffassung ist genauso falsch wie die Meinung — ich darf das noch einmal wiederholen —, daß es 1958 eine grundsätzliche Entfernung vom System gegeben habe. Gerade weil wir Rücksicht auf die Lohnentwicklung nehmen, ist die von der Bundesregierung vorgetragene Vorstellung, die sehr sozial ausgewogen und vertretbar ist, wie ich meine, auch richtig.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u170" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg218">Eine weitere Zusatzfrage, Herr Abgeordneter Höpfinger.</seg>
+        </u>
+        <note type="speaker">Höpfinger (CDU/CSU) :</note>
+        <u who="#Q1613586" xml:id="ParlaMint-DE_1978-02-22-08-074.u171" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg219">Herr Staatssekretär, können Sie die Auffassung teilen, daß der Vergleich zwischen Rentenanpassung und Nettolöhnen auch deshalb auseinanderfällt, weil nicht etwa die Rentenanpassung so hoch ist, sondern weil die Besteuerung der Einkommen so hoch ist?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u172" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg220">Herr Kollege, ich bin mit Ihnen einig, wenn ich feststelle, daß es sehr problematisch ist, so aus der hohlen Hand heraus hier über die Formel „Nettoanpassung" zu argumentieren. Ich kenne die Schwachpunkte einer Nettoanpassung, aber ich muß jetzt hinzufügen, die Bundesregierung beabsichtigt dies ja auch nicht. Wir haben an verschiedenen Stellen sehr deutlich gemacht, daß wir, nachdem das 21. Rentenanpassungsgesetz abgewickelt ist, zur dynamischen Rentenformel zurückkehren wollen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u173" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg221">Ich rufe die Frage 20 des Abgeordneten Horstmeier auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg222">Ist der Bundesregierung bekannt, daß nach den Bestimmungen des Krankenversicherungs-Kostendämpfungsgesetzes vom 27. Juni 1977 Ehefrauen von Nebenerwerbslandwirten nicht mehr in der Familienhilfe der Krankenversicherung des Ehemanns einbezogen sind, und wenn ja, wie wird die Bundesregierung die unterschiedliche Behandlung von Voll- und Nebenerwerbsbetrieben bezüglich des gemeinsam erwirtschafteten Einkommens in Zukunft regeln?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u174" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg223">Herr Kollege Horstmeier, nach geltendem Recht besteht für die Ehefrau eines in der gesetzlichen Krankenversicherung Versicherten kein Anspruch auf Familienhilfe, wenn ihr Gesamteinkommen regelmäßig im Monat 390 DM — das ist der Wert für 1978 — übersteigt. Diese durch das Krankenversicherungs-Kostendämpfungsgesetz eingeführte Regelung gilt auch für die Ehefrau eines Nebenerwerbslandwirts, der in der gesetzlichen Krankenversicherung versichert ist. Für die in der Krankenversicherung der Landwirte versicherten Vollerwerberslandwirte gilt darüber hinaus folgendes: Bei der Feststellung des Gesamteinkommens bleibt das Einkommen außer Betracht, das die Ehegatten aus dem von ihnen gemeinsam betriebenen landwirtschaftlichen Unternehmen oder aus der gemeinsamen Tätigkeit als mitarbeitende Familienangehörige erzielen. Dadurch soll erreicht werden, daß der Ertrag eines landwirtschaftlichen Unternehmens nicht mehrfach zur Beitragsleistung herangezogen wird. Das könnte eintreten, wenn auch die Tätigkeit der mitarbeitenden Ehefrau in dem landwirtschaftlichen Unternehmen bei der Ermittlung des Gesamteinkommens berücksichtigt würde. Handelt es sich um einen Nebenerwerbslandwirt, der in der Regel nicht in der Krankenversicherung der Landwirte versichert ist, so werden für die Ermittlung des Gesamteinkommens die Einkünfte aus einem gemeinsam geführten landwirtschaftlichen Nebenerwerbsbetrieb wie auch aus jeder anderen gemeinsamen Erwerbstätigkeit grundsätzlich beiden Ehegatten zur Hälfte zugerechnet. Es ist bekannt, daß die Krankenkassen im Einzelfall unterschiedlich verfahren und teilweise die Ehegatten entscheiden lassen, wem die Einkünfte zugerechnet werden sollen, zumal wenn die Tätigkeit beider Ehegatten im Betrieb erhebliche Unterschiede aufweist. Ich halte die geltende Regelung für ausreichend, denn sie berücksichtigt ausreichend die Sonderverhältnisse in der Krankenversicherung der Landwirte, die sich allerdings nicht auf die allgemeine Krankenversicherung übertragen lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u175" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg224">Zusatzfrage, bitte schön.</seg>
+        </u>
+        <note type="speaker">Horstmeier (CDU/CSU) :</note>
+        <u who="#Q1904092" xml:id="ParlaMint-DE_1978-02-22-08-074.u176" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg225">Herr Staatssekretär, sind Sie im Grundsatz — und das klang ja durch — mit mir der Meinung, daß der Begriff des gemeinsam erwirtschafteten Einkommens, der ja in § 32 KVLG verankert ist, eigentlich für alle Betriebsarten und für alle Krankenkassen Anwendung finden müßte?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u177" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg226">Herr Kollege, ich stimme für den Bereich der Landwirtschaft im Grundsatz Ihrer Auffassung zu. Ich glaube auch, daß die Praxis zeigt, daß man so verfährt, denn bei dem einen Landwirt, der voll erwerbstätig ist, wird der Gesamtbetrag einer Person angelastet, die voll versicherungspflichtig ist. Im landwirtschaftlichen Nebenerwerbsbetrieb ist es so, daß der eine möglicherweise in einem gewerblichen Betrieb tätig ist. Er ist dort versichert. Beide müssen sich im allgemeinen das Einkommen aus dem landwirtschaftlichen Betrieb jeweils zur Hälfte anrechnen lassen. Wenn diese Hälfte die Versicherungspflichtgrenze von 390 DM für 1978 erreicht, dann ist natürlich wie auch bei allen anderen versicherten Gruppen dieser Anteil zu versichern, so daß der Anteil des landwirtschaftlichen Nebenerwerbsbetriebes auch nur einmal, ja, ich müßte sogar hinzufügen, höchstens einmal erfaßt werden kann, in manchen Fällen nicht ganz erfaßt wird, weil das erzielte Einkommen aus diesem Betrieb die Versicherungspflichtgrenze nicht erreicht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u178" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg227">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Horstmeier (CDU/CSU) :</note>
+        <u who="#Q1904092" xml:id="ParlaMint-DE_1978-02-22-08-074.u179" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg228">Herr Staatssekretär, sehen Sie nicht auch, daß eine gewisse Benachteiligung der Nebenerwerbslandwirte bei dieser Regelung vorhanden ist?</seg>
+        </u>
+        <note type="speaker">Buschfort, Parl. Staatssekretär:</note>
+        <u who="#Q1610791" xml:id="ParlaMint-DE_1978-02-22-08-074.u180" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg229">Herr Kollege, eine Benachteiligung sehe ich nicht, weil zum einen die Versicherungspflicht natürlich auch Leistungsansprüche herbeiführt und weil zum anderen das aus diesem Betrieb erzielte Einkommen nur einmal erfaßt wird. Alle Versichertengruppen der Bundesrepublik müssen ihr Einkommen versichern, und da kann man im landwirtschaftlichen Bereich sicher keine Ausnahme machen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall des Abg. Immer [Altenkirchen] [SPD]</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u181" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg230">Die Frage 21 des Abgeordneten Rühe wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe den Geschäftsbereich des Bundesministers des Innern auf. Zur Beantwortung steht uns der Parlamentarische Staatssekretär Baum zur Verfügung. Ich rufe die Frage 22 des Abgeordneten Becker (Nienberge)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg231">auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg232">Trifft es zu, daß sich nach Berechnungen des Bundesinnenministeriums die jährlichen Mindestkosten eines zusätzlichen Arbeitsplatzes für einen vollbeschäftigten Beamten auf 53 000 DM belaufen, und wenn ja, wie setzt sich dieser Betrag zusammen, und welche Bestandteile sind dort mit eingerechnet?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u182" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg233">Herr Kollege Becker, es ist schwierig, Berechnungen von Arbeitsplatzkosten im öffentlichen Dienst anzustellen, weil keine allgemeingültigen betriebswirtschaftlichen Untersuchungen vorliegen. Man kann von mehreren Grundlagen, insbesondere bereichsweise, ausgehen. Eine der möglichen Berechnungen, und zwar eine Globalrechnung, hat zu dem von Ihnen genannten Betrag geführt. Die Rechnung erfaßt alle Beamten bei Bund — einschließlich Bahn und Post —, Ländern und Gemeinden. Der Betrag setzt sich wie folgt zusammen: 35 000 DM pro Jahr reine Bezüge einschließlich Sonderzuwendung, Mehrarbeitsvergütung usw.; 12 250 DM pro Jahr angenommene Pensionsrückstellung; 1 750 DM pro Jahr Beihilfen — wobei der Versorgungszeitraum auf die aktive Dienstzeit umgelegt ist —; 500 DM Reise-, Umzugs- und Fahrtkostenzuschüsse; 3 500 DM pro Jahr (geschätzt)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg234">zusätzliche Kosten für Personalverwaltung, Ausbildung, Fortbildung, soziale Dienste. Bezogen auf die reinen Bezügekosten von jährlich 35 000 DM errechnet sich aus den zusätzlichen Beträgen also ein Zuschlag von rund 51 %. Dieser Zuschlag ist als Mindestzuschlag zu sehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u183" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg235">Eine Zusatzfrage. Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Becker (Nienberge) (SPD) :</note>
+        <u who="#Q1604393" xml:id="ParlaMint-DE_1978-02-22-08-074.u184" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg236">Herr Staatssekretär, welche Laufbahn und welches Lebensalter sind dabei zugrunde gelegt worden?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u185" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg237">Herr Kollege, es handelt sich um eine Durchschnittsberechnung, die alle Laufbahnen und alle Lebensalter einschließt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u186" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg238">Eine Zusatzfrage, Herr Abgeordneter Josten.</seg>
+        </u>
+        <note type="speaker">Josten (CDU/CSU) :</note>
+        <u who="#Q1695791" xml:id="ParlaMint-DE_1978-02-22-08-074.u187" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg239">Herr Staatssekretär, ist die Berechnung nicht auch deshalb so schwierig, weil wir tüchtige und weniger tüchtige, fleißige und weniger fleißige Beamte haben?</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit</desc>
+        </kinesic>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u188" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg240">Herr Kollege, das hat auf die Berechnung keinen unmittelbaren Einfluß. Das betrifft höchstens die Frage der Gerechtigkeit der Bezahlung, die aber hier nicht angesprochen ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u189" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg241">Keine weitere Zusatzfrage. Ich rufe die Frage 23 des Abgeordneten Becker (Nienberge)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg242">auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg243">Wird die Bundesregierung in ihren Berechnungen gegebenenfalls künftig nur solche Bestandteile aufnehmen, die einen echten Vergleich zwischen den Gehältern im öffentlichen Dienst und in der freien Wirtschaft ermöglichen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u190" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg244">Herr Kollege, die Bundesregierung geht bei der Berechnung von Global-kosten eines Beamtenarbeitsplatzes und der kostenmäßigen Auswirkungen der Erweiterung der Teilzeitbeschäftigung im gesamten öffentlichen Dienst anders als die Wirtschaft im Ansatz von umfassenden betriebswirtschaftlichen Grundsätzen aus. Die Lohnnebenkosten der Wirtschaft sind nur ein Teil der Preis-Kosten-Kalkulation. Nicht erfaßt werden mittelbare Kosten, z. B. Personalverwaltung und Betriebslenkung. Diese werden in der Wirtschaft erst bei der Preiskalkulation berücksichtigt. Dies muß bei einem Vergleich unbedingt beachtet werden. Vor allem ist zu berücksichtigen, daß die Berechnungen im BMI einen Kostenfaktor mit der Höhe nach zum Teil geschätzten Bestandteilen ergeben, der speziell auf das Beamtensystem ausgerichtet und für Gehaltsvergleiche in keiner Weise geeignet ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u191" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg245">Eine Zusatzfrage. Bitte.</seg>
+        </u>
+        <note type="speaker">Becker (Nienberge) (SPD) :</note>
+        <u who="#Q1604393" xml:id="ParlaMint-DE_1978-02-22-08-074.u192" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg246">Herr Staatssekretär, wir hatten vor Jahren eine Kommission eingerichtet, die ich kurz mit Besoldungsrückstand-Kommission bezeichnen will. Es gab damals viele Vergleiche zwischen den Bezügen in der privaten Wirtschaft und den Bezügen im öffentlichen Dienst. Sind die bei diesen Berechnungen unberücksichtigt geblieben?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u193" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg247">Herr Kollege, diese Berechnungen sind unabhängig von damaligen Aufgabenstellungen, die ja ein besonderes Ziel hatten, nämlich einen Vergleich zwischen dem Gehalts-und Einkommensniveau in der privaten Wirtschaft und dem im öffentlichen Dienst herzustellen. Diese Berechnungen sind unabhängig von dem damaligen Ziel, aber nach objektiven Grundsätzen hier angestellt worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u194" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg248">Eine weitere Zusatzfrage. Bitte schön.</seg>
+        </u>
+        <note type="speaker">Immer (Altenkirchen) (SPD) :</note>
+        <u who="#Q1407193" xml:id="ParlaMint-DE_1978-02-22-08-074.u195" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg249">Herr Staatssekretär, ich habe es vorhin vielleicht nicht richtig verstanden. Inwieweit werden technische Hilfsmittel bei der Arbeitsplatzkostenbewertung in Rechnung gestellt? Wir stellen ja fest, daß Apparaturen, automatische Geräte usw. eine immer größere Rolle spielen.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u196" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg250">Herr Kollege, Sachkosten, die notwendig sind, damit der einzelne seine Tätigkeit ausüben kann, sind hier nicht einbezogen worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u197" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg251">Keine weiteren Zusatzfragen. Die Frage 24 des Abgeordneten Ueberhorst wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Fragen 25 und 26 des Abgeordneten Brandt (Grolsheim)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg252">auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg253">Teilt die Bundesregierung die Auffassung, daß neben der bisherigen Förderung des Versehrtensports — der überwiegende Teil der Betroffenen sind Kriegsversehrte — auch in anderen Behindertenbereichen eine verstärkte Förderung des Sports erforderlich ist, und welche weiteren Maßnahmen beabsichtigt die Bundesregierung gegebenenfalls einzuleiten? Welche Bemühungen hat die Bundesregierung bisher unternommen, um im Zusammenwirken mit dem Deutschen Behindertensportverband neue Förderungsmöglichkeiten für. den Behindertensport zu erschließen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u198" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg254">Herr Kollege Brandt, die Bundesregierung teilt die Auffassung, daß neben der bisherigen Förderung des Versehrtensports nach dem Bundesversorgungsgesetz auch in anderen Behindertenbereichen eine verstärkte Förderung des Sports erforderlich ist. Hierfür wurden mit dem Gesetz über die Angleichung der Leistungen zur Rehabilitation vom 7. August 1974 die Voraussetzungen geschaffen. Nach diesem Gesetz ist es möglich, den ärztlich verordneten Behindertensport in Gruppen unter ärztlicher Betreuung als sogenannte ergänzende Leistung zur Rehabilitation zu fördern. Die Träger der Rehabilitationsmaßnahmen haben auf Grund des Gesetzes für ihre Bereiche zum Teil bereits entsprechende Regelungen getroffen, die vorsehen, daß die Kosten für den ärztlich verordneten Behindertensport der Versicherten als Rehabilitationsleistung übernommen werden. Die Bundesregierung ist darüber hinaus bemüht, den Spitzenverbänden des Behindertensports verstärkt finanzielle Hilfe für die Realisierung ihrer Vorhaben zu gewähren. So erhöht sich die Zuwendung an den Deutschen Behinderten-Sportverband in diesem Jahre um 11 %; die Zuwendung an den Deutschen Gehörlosen-Sportverband erhöht sich sogar um 150 %. Zusammen mit dem Deutschen Behinderten-Sportverband bemüht sich die Bundesregierung, neue Förderungsmöglichkeiten für den Behindertensport zu erschließen. Durch die Bereitstellung entsprechender Mittel wird der Deutsche Behinderten-Sportverband in diesem Jahr erstmals in die Lage versetzt, einen Sportdirektor zu beschäftigen, zu dessen vordringlichen Aufgaben die Verbesserung des Ausbildungs- und Lehrgangswesens im Bereich des Behindertensports gehören wird. Wir haben auch eine Broschüre herausgebracht, Herr Kollege, „Mehr Spaß in sportlicher Freizeit —1 000 Tips für Behinderte", Auflage im vergangenen Jahr 350 000 Exemplare. Die Förderung des Behindertensports wird auch künftig ein besonderes Anliegen der Bundesregierung sein. Dies gilt — neben dem Gedanken des Sports als Therapie — vor allem auch für die zunehmende Zahl internationaler sportlicher Veranstaltungen in diesem Bereich des Behindertensports. Außerdem gibt es Untersuchungen und wissenschaftliche Forschung auf diesem Gebiet, beispielsweise ein Forschungsvorhaben „Behindertensport und Rehabilitation", das 1976 von dem Bundesinstitut für Sportwissenschaft begonnen worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u199" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg255">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Brandt (Grolsheim) (SPD) :</note>
+        <u who="#Q1634888" xml:id="ParlaMint-DE_1978-02-22-08-074.u200" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg256">Herr Staatssekretär, es geht dabei auch noch um eine Frage, die in Ihrer bilanzierten Antwort noch nicht behandelt worden ist, nämlich um die Frage, ob die Gleichbehandlung unabhängig von der Art und der Ursache der Behinderung etwa bei Sportfesten, deutschen Behindertenmeisterschaften gewährleistet werden kann. Das ist nach meiner Kenntnis zur Zeit noch nicht der Fall.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u201" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg257">Herr Kollege, Sie haben völlig recht; das ist der leitende Grundsatz, eine Gleichbehandlung herzustellen, ganz gleich, auf welcher Ursache die Behinderung beruht. Die Bundesregierung wird diese Bemühungen auch im Hinblick auf den von Ihnen geschilderten Fall fortsetzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u202" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg258">Eine weitere Zusatzfrage, Abgeordneter Schirmer.</seg>
+        </u>
+        <note type="speaker">Schirmer (SPD) :</note>
+        <u who="#Q1456516" xml:id="ParlaMint-DE_1978-02-22-08-074.u203" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg259">Herr Staatssekretär, können Sie bestätigen, daß gerade in diesen Tagen die Bundesregierung, vertreten durch Ihr Haus und den Bundesminister für Arbeit und Sozialordnung, darum bemüht ist, zusammen mit dem Präsidium des Deutschen Sportbundes und dem Präsidium des Deutschen Behinderten-Sportverbandes eine umfassende, möglichst unbürokratisch zu praktizierende Lösung für alle Behinderten zu erreichen? Baum Parl. Staatssekretär: Herr Kollege, das kann ich gerne bestätigen. Ich kann in diesem Zusammenhang auch erinnern an die richtungweisenden Worte, die zu diesem Komplex der Bundespräsident vor einiger Zeit ausgesprochen hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u204" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg260">Eine weitere Zusatzfrage, Herr Abgeordneter Josten.</seg>
+        </u>
+        <note type="speaker">Josten (CDU/CSU) :</note>
+        <u who="#Q1695791" xml:id="ParlaMint-DE_1978-02-22-08-074.u205" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg261">Herr Staatssekretär, nachdem hier von der Gleichbehandlung die Rede war: Ist Ihnen bekannt, daß die Behinderten besonders im ländlichen Raum es dadurch, daß die notwendigen Verbindungen fehlen, äußerst schwer haben, zu den Sportzentren zu kommen, und wären Sie bereit, diesem Gesichtspunkt bei den Beratungen besonders Rechnung zu tragen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u206" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg262">Herr Kollege, ich bin Ihnen für den Hinweis sehr dankbar, denn in der Tat ergeben sich im ländlichen Raum Schwierigkeiten, die sich in Ballungsgebieten leichter als in Siedlungsgebieten, die weit auseinander liegen, überbrücken lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u207" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg263">Eine weitere Zusatzfrage, Herr Abgeordneter Dr. Weber (Köln).</seg>
+        </u>
+        <note type="speaker">Dr. Weber (Köln) (SPD) :</note>
+        <u who="#Q1498945" xml:id="ParlaMint-DE_1978-02-22-08-074.u208" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg264">Herr Staatssekretär, welche Institution entscheidet denn über Art und Zweckmäßigkeit der therapeutischen Maßnahmen, und hat die Bundesregierung Möglichkeiten der Einwirkung auf diese Institution?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u209" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg265">Die therapeutischen Maßnahmen werden in erster Linie vom Arzt selbst bewertet, und sie werden dann von dem Behinderten unter Assistenz der Verbände, die ich hier genannt habe, ausgeführt. Eine unmittelbare Einflußnahme der Bundesregierung auf die Einzelfälle ist natürlich nicht gegeben, aber ein wichtiger Schritt zur Gleichbehandlung ist mit dem schon erwähnten Gesetz über die Angleichung der Leistungen zur Rehabilitation gemacht worden. Denn wir müssen ein Interesse daran haben, daß die unterschiedlichen Leistungen, auch was die finanziellen, was die Erstattungsregelungen angeht, gleichbehandelt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u210" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg266">Keine weiteren Zusatzfragen. — Dann rufe ich die Frage 27 des Abgeordneten Fiebig auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg267">Welche Maßhahmen hält die Bundesregierung für erforderlich, um sicherzustellen, daß bei Gewährung von Beihilfen durch den Bund für Arzneimittel der besonderen Heilverfahren die Grundsätze des Arzneimittelgesetzes, insbesondere von § 25 Abs. 6 letzter Satz, tatsächlich berücksichtigt werden und eventuelle Listen nicht vergütungsfähiger Arzneimittel unter diesen Gesichtspunkten überprüft werden?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u211" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg268">Herr Kollege Fiebig, wie die Bundesregierung bereits am 23. Juni 1976 auf Ihre entsprechende Frage dargelegt hat, stehen die Heilmittel der verschiedenen therapeutischen Richtungen nach den Beihilfevorschriften des Bundes bereits jetzt voll gleichberechtigt nebeneinander. Besondere Maßnahmen, um die Erreichung dieses Ziels sicherzustellen, sind demnach im Beihilfebereich, für den allein ich hier sprechen kann, nicht erforderlich. Listen nicht vergütungsfähiger Arznei- mittel werden im Zuständigkeitsbereich des Bundes weder herausgegeben noch geführt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u212" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg269">Eine Zusatzfrage? — Bitte schön.</seg>
+        </u>
+        <note type="speaker">Fiebig (SPD) :</note>
+        <u who="#Q1694096" xml:id="ParlaMint-DE_1978-02-22-08-074.u213" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg270">Wie kommen dann einzelne Bundesbehörden, die über die Gewährung von Beihilfen zu entscheiden haben, immer wieder dazu, Medikamente abzulehnen, obwohl diese beim Bundesgesundheitsamt registriert bzw. nach dem neuen Arzneimittelgesetz, das am 1. Januar 1978 in Kraft getreten ist, zugelassen sind?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u214" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg271">Herr Kollege, ich wäre Ihnen wirklich sehr dankbar, wenn Sie mir diese Fälle mitteilten. Ich gehe davon aus — das habe ich ja eben klar zum Ausdruck gebracht —, daß die verschiedenen Therapierichtungen gleichberechtigt sind. Das hat das Gesetz, das Sie eben erwähnt haben, auch klargelegt. Sollte dies in der Praxis nicht so gehandhabt werden, werde ich jedem einzelnen Fall nachgehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u215" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg272">Keine weiteren Zusatzfragen. Die Fragen 28 und 29 der Abgeordneten Frau Eilers (Bielefeld)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg273">werden auf Wunsch der Fragestellerin schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Ich rufe Frage 30 des Abgeordneten Dr. Schöfberger auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg274">Ist — wie die Bayerische Staatsregierung meint — für ein vereinsrechtliches Verbot der Wehrsportgruppe Hoffmann spätestens seit dem Tübinger Vorfall im Dezember 1976 nach § 3 Abs. 2 Nr. 2 des Vereinsgesetzes der Bundesinnenminister zuständig, weil sich die Tätigkeit der Gruppe über das Gebiet eines Landes hinaus erstreckt?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u216" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg275">Wenn der Fragesteller damit einverstanden ist, würde ich, Herr Präsident, seine beiden Fragen gern zusammen beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u217" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg276">Gut, dann rufe ich zusätzlich Frage 31 des Abgeordneten Dr. Schöfberger auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg277">Hält die Bundesregierung gegebenenfalls die Wehrsportgruppe Hoffmann für unbedenklich, oder was hat sie inzwischen unternommen, um das Verbotsverfahren einzuleiten oder durchzuführen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u218" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg278">Die Wehrsportgruppe Hoffmann und ihre Tätigkeit sind seit 1974 alljährlich im Abschnitt „Rechtsextremistische Bestrebungen" des Verfassungsschutzberichts erwähnt worden. Schon daraus ergibt sich, daß die Bundesregierung die Gruppe für eine rechtsextremistische Organisation hält, deren Tätigkeit von den zuständigen Sicherheitsbehörden zu beobachten ist. Ihre sogenannten Wehrsportübungen hat die Wehrsportgruppe Hoffmann, soweit bekannt, ausschließlich in Bayern abgehalten. Sie ist aber in anderer Weise verschiedentlich auch außerhalb Bayerns in Erscheinung getreten, z. B. bei dem von Ihnen in der Frage erwähnten Vorgang in Tübingen, bei dem der Leiter der Wehrsportgruppe, Karl-Heinz Hoffmann, und mehrere Mitglieder der Gruppe eine Schlägerei mit Demonstranten provozierten. Auf Grund der bis heute vorliegenden Informationen kann die Zuständigkeitsfrage jedoch noch nicht abschließend beantwortet werden. Im übrigen wiederhole ich, Herr Kollege, was in Fragestunden des Deutschen Bundestages schon mehrfach zu vergleichbaren Fragen erklärt worden ist: daß die Bundesregierung über etwaige Verbotsüberlegungen gegen bestimmte Organisationen aus naheliegenden Gründen grundsätzlich keine öffentlichen Erklärungen abgeben kann und möchte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u219" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg279">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Schöfberger (SPD) :</note>
+        <u who="#Q1564139" xml:id="ParlaMint-DE_1978-02-22-08-074.u220" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg280">Herr Staatssekretär, sind Sie mit mir der Ansicht, daß das Verbot oder die abschließende rechtliche Behandlung einer solchen Organisation nicht von langwierigen Kompetenzstreitigkeiten abhängen darf und daß nach vier Jahren es einmal an der Zeit wäre, zu einer klaren Kompetenzabgrenzung gegenüber dem Freistaat Bayern zu kommen?</seg>
+        </u>
+        <note type="speaker">Baum, Pari. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u221" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg281">Ich teile Ihre Meinung, daß die Überlegungen von Kompetenzabgrenzungen oder Kompetenzstreit nicht beeinträchtigt werden dürfen. Ich kann Ihnen versichern, daß die Frage der Kompetenzen bisher auch nicht zur Beeinträchrigung dieser Verfahren oder dieser Überlegungen geführt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u222" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg282">Eine weitere Zusatzfrage, bitte schön.</seg>
+        </u>
+        <note type="speaker">Dr. Schöfberger (SPD):</note>
+        <u who="#Q1564139" xml:id="ParlaMint-DE_1978-02-22-08-074.u223" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg283">Darf ich weiter fragen, ob der Bundesregierung nach den bisherigen Beobachtungen bekanntgeworden ist, daß diese Wehrsportgruppe perfekt ausgerüstet ist und bei ihren allwöchentlichen feldmäßigen Übungen beispielsweise Jeeps, Mannschaftswagen, Kettenfahrzeuge, Schlauchboote, Pferde, . schwere Motorräder sowie Uniformen, Tarnanzüge, Karabiner, Faustfeuerwaffen und Übungshandgranaten einsetzt?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Wehner [SPD] : Hört! Hört!</desc>
+        </vocal>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u224" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg284">Herr Kollege, die Bundesregierung ist über diese Gruppe sehr gut informiert. Im übrigen darf ich Sie darauf hinweisen, daß es hier auch schon zumindest ein Strafverfahren gegeben hat, das mit einer Verurteilung von Herrn Hoffmann geendet hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u225" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg285">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Schöfberger (SPD) :</note>
+        <u who="#Q1564139" xml:id="ParlaMint-DE_1978-02-22-08-074.u226" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg286">Wie erklärt sich die Bundesregierung, daß das zuständige Amt für öffentliche Ordnung des Freistaates Bayern Herrn Hoffmann persönlich Besitzkarten für vier Kurz- und 14 Langfeuerwaffen ausgestellt hat?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u227" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg287">Herr Kollege, diese Mitteilung ist mir neu. Ich werde ihr nachgehen, weil sie mir doch sehr bemerkenswert erscheint.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Wehner [SPD] : Mir auch!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u228" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg288">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Schöfberger (SPD) :</note>
+        <u who="#Q1564139" xml:id="ParlaMint-DE_1978-02-22-08-074.u229" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg289">Weiß die Bundesregierung, wer die Wehrsportgruppe Hoffmann finanziert?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u230" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg290">Herr Kollege, darüber kann ich Ihnen hier keine Auskunft geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u231" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg291">Die Frage 32 des Abgeordneten Dr. Jens wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 33 des Abgeordneten Schirmer auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg292">Beabsichtigt die Bundesregierung — wie u. a. von den Tageszeitungen Frankfurter Rundschau und Die Welt am 8. Februar 1978 berichtet wurde —, im Bundesgrenzschutz einen „Skizug für Mädchen" einzurichten, und welche Ziele sollen damit gegebenenfalls erreicht werden?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u232" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg293">Auch hier wäre ich dankbar, wenn beide Fragen zusammen beantwortet werden könnten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u233" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg294">Dann rufe ich auch die Frage 34 des Abgeordneten Schirmer auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg295">Welche Voraussetzungen bzw. Vorbereitungen hat die Bundesregierung gegebenenfalls geschaffen oder strebt sie zu weh chem Zeitpunkt an, um die in den bezeichneten Berichten erkennbar gewordenen Absichten zu realisieren?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u234" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg296">Im Bereich des Bundesgrenzschutzes, Herr Kollege, wird männlichen Spitzensportlern der verschiedensten Sportarten unter weitgehender beruflicher Absicherung die Möglichkeit geboten, besonders intensiv Leistungssport zu betreiben. Hierfür wurden zum Teil unter erheblichem Aufwand Sportstätten neu erstellt bzw. ausgebaut. Diese aufgezeigte Sportförderung hat sowohl bei der Bundeswehr als auch beim Bundesgrenzschutz in verschiedenen Sportdisziplinen, wie Sie wissen, zu beachtenswerten Erfolgen geführt. Aus sportpolitischer Sicht erscheinen Überlegungen durchaus angebracht, ob und inwieweit auch weiblichen Spitzensportlern der verschiedensten Sportarten — also nicht allein für die Disziplin des Skilanglaufs — die besonders günstigen Möglichkeiten zur Ausübung des Spitzensports unter beruflicher Absicherung im Bereich des Bundesgrenzschutzes eröffnet werden können. Voraussetzung hierfür ist allerdings, daß generell Frauen im Polizeivollzugsdienst des Bundesgrenzschutzes verwendet werden können; diese Frage bedarf noch eingehender Prüfung. Sobald das Ergebnis vorliegt, . wird auf die Anregungen des Deutschen Skiverbandes, auch für geeignete Skisportlerinnen ähnliche Möglichkeiten zu schaffen, wie sie derzeit bereits für männliche Polizeivollzugsbeamte bestehen, näher eingegangen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u235" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg297">Eine Zusatzfrage, Herr Abgeordneter Schirmer.</seg>
+        </u>
+        <note type="speaker">Schirmer (SPD) :</note>
+        <u who="#Q1456516" xml:id="ParlaMint-DE_1978-02-22-08-074.u236" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg298">Herr Staatssekretär, darf ich davon ausgehen, daß diese Erörterungen, die Sie führen werden, auch mit dem Deutschen Sportbund, dem Bundesausschuß für Leistungssport und allen in Frage kommenden Spitzenverbänden frühzeitig geführt werden und daß die Ergebnisse Ihrer Beratungen und Erörterungen dann dem Bundestagssportausschuß zugeleitet werden, so daß wir dort nicht nur informiert werden, sondern die Beratung miteinander zu möglichst positiven Zielen führen können?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u237" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg299">Ja, Herr Abgeordneter, davon können Sie ausgehen. So ist es in vergleichbaren Fällen ja auch bisher geschehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u238" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg300">Keine weiteren Zusatzfragen? — Ich rufe die Frage 35 des Abgeordneten Marschall auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg301">Beurteilt die Bundesregierung die beim Störfall im Atomkraftwerk Ohu/Landshut am 8. Februar 1978 aufgetretenen technischen Mängel als vermeidbar, bzw. ergeben sich aus diesem Vorgang rechtliche Konsequenzen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u239" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg302">Herr Kollege Marschall, das Versagen von Einzelkomponenten in einer derart komplexen großtechnischen Anlage, wie sie nun einmal auch ein Kernkraftwerk darstellt, kann selbst bei größter Sorgfalt in der Herstellung und Qualitätsüberwachung nie mit Sicherheit ausgeschlossen werden. Deshalb beruht das Sicherheitskonzept bei Kernkraftanlagen auf Auslegungsgrundsätzen, die das Einzelversagen von Komponenten oder Anlagenteilen beherrschbar machen. Dieser Grundsatz hat sich auch im vorliegenden Fall bewährt. Hinzu kommt, daß bei der fraglichen Meßleitung die Schadenskonsequenzen eines nicht auszuschließenden Bruches von vornherein als relativ unbedeutsam klassifiziert werden konnten. Soweit die noch laufende Auswertung der Untersuchungsergebnisse keinen Mangel an Sorgfalt bei irgendeiner der beteiligten Stellen erkennen läßt, besteht im übrigen nach Auffassung der Bundesregierung auch keinerlei Anlaß zur Einleitung rechtlicher Konsequenzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u240" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg303">Zusatzfrage, bitte schön.</seg>
+        </u>
+        <note type="speaker">Marschall (SPD) :</note>
+        <u who="#Q1889698" xml:id="ParlaMint-DE_1978-02-22-08-074.u241" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg304">Herr Staatssekretär, Sie sprechen von einer Bewährung der geltenden Sicherheitsbestimmungen. Vom bayerischen Innenministerium wurde dem Innenausschuß des Bundestages mitgeteilt, dies sei ein unbedeutendes technisches Ereignis gewesen; Beschäftigte seien nicht gefährdet worden. Ich möchte Sie fragen: Wäre es bei Einhaltung der geltenden Sicherheitsbestimmungen möglich gewesen, daß, wäre der Störfall Bruch der Meßleitung zu einem anderen Zeitpunkt eingetreten, Mitarbeiter der Inspektion bzw. der Sicherheitsbeauftragte durch radioaktiven Dampf oder radioaktives Wasser gefährdet worden wären?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u242" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg305">Herr Kollege, diese konkrete Frage möchte ich Ihnen jetzt nicht abschließend beantworten, weil mir die Kenntnisse zu dem von Ihnen geschilderten potentiellen Fall fehlen. Ich kann Ihnen nur noch einmal sagen, daß nach unseren Recherchen dieser Fall als relativ unbedeutsam klassifiziert werden kann. Das schließt meines Erachtens ein, daß die von Ihnen geschilderte Gefährdung nicht hätte eintreten können. Aber ich bin sehr vorsichtig und gehe der Frage gern noch einmal nach.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u243" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg306">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Marschall (SPD) :</note>
+        <u who="#Q1889698" xml:id="ParlaMint-DE_1978-02-22-08-074.u244" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg307">Herr Staatssekretär, würden Sie bestätigen, daß, wenn der Fall, den wir soeben konstruiert haben, zuträfe, von einer mehrfachen Sicherung der Beschäftigten nicht gesprochen werden könnte?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u245" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg308">In allen diesen Anlagen sind Mehrfachsicherungen eingebaut. Im übrigen handelte es sich ja hier um eine provisorische Anlage, die nicht für den späteren Dauerbetrieb vorgesehen war.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u246" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg309">Keine weiteren Zusatzfragen. Ich rufe die Frage 36 des Abgeordneten Marschall auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg310">Geht die Bundesregierung davon aus, daß auch in anderen Bundesländern die in Ohu festgestellten Verzögerungen der Information von Behörden und Offentlichkeit, vor allem durch den Kraftwerksbetreiber, auf Grund der geltenden Regelungen möglich sind, bzw. welche Möglichkeiten bestehen seitens der Bundesregierung, diesen Mangel gegebenenfalls abzustellen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u247" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg311">Die Information der zuständigen Aufsichtsbehörde durch den Betreiber über das Vorkommnis vom 8. Februar 1978 erfolgte fernmündlich am 9. Februar und fernschriftlich am 10. Februar 1978. Die Presse wurde durch die Aufsichtsbehörde am Montag, dem 13. Februar, informiert. Fristen für die Meldung von besonderen Vorkommnissen durch den Kernkraftwerksbetreiber an die zuständige Aufsichtsbehörde sind von der sicherheitstechnischen Bedeutung des Vorkommnisses abhängig. Sie sind vorgegeben in den Meldekriterien, die in ihrer derzeit gültigen Fassung im Jahre 1975 im Länderausschuß für Atomkernenergie zur Anwendung beschlossen wurden. Auf diese Meldekriterien wurde auch in der Weisung des Bundesministers des Innern zur Inbetriebnahme des Kernkraftwerkes Ohu Bezug genommen. In der Konkretisierung der in den Meldekriterien als Mindestanforderung festgesetzten Fristen hat die bayerische Genehmigungsbehörde im Genehmigungsbescheid eine unverzügliche Unterrichtung über alle bedeutsamen Störungen sowie auch über sonstige außergewöhnliche Vorkommnisse verlangt. Gegen diese Genehmigungsauflage, Herr Kollege, wurde nach Ansicht der Aufsichtsbehörde durch den Betreiber verstoßen. Im Länderausschuß für Atomkernenergie findet zur Zeit eine Überarbeitung der genannten Kriterien im Sinne einer weiteren Präzisierung statt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u248" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg312">Eine Zusatzfrage, bitte schön.</seg>
+        </u>
+        <note type="speaker">Marschall (SPD) :</note>
+        <u who="#Q1889698" xml:id="ParlaMint-DE_1978-02-22-08-074.u249" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg313">Herr Staatssekretär, ist die Bundesregierung bereit, eine Pflicht zur unverzüglichen Meldung von Störfällen mit radioaktiver Emission über die Vereinbarungen des Länderausschusses hinaus sicherzustellen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u250" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg314">Herr Kollege, wir gehen bei den soeben genannten Überlegungen davon aus, daß dem berechtigten Informationsinteresse der Offentlichkeit so schnell wie nur irgend möglich Rechnung getragen werden muß. Dieser Grundsatz wird sich auch in den neuen Richtlinien niederschlagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u251" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg315">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Marschall (SPD) :</note>
+        <u who="#Q1889698" xml:id="ParlaMint-DE_1978-02-22-08-074.u252" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg316">Ist die Bundesregierung bereit, die bisherigen Regelungen in eine Rechtsverordnung überzuführen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1978-02-22-08-074.u253" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg317">Herr Kollege, abschließende Beratungen über die Frage, wie die Richtlinien in einer Rechtsverordnung niedergelegt werden, haben noch nicht stattgefunden. Dies muß noch entschieden werden.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="2" ana="#DE-consultation">
+        <head>Beratung des Agrarberichts 1978 der Bundesregierung — Drucksachen 8/1500, 8/1501 —</head>
+        <note type="speaker">Vizepräsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1978-02-22-08-074.u254" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg318">Wir sind am Ende der Fragestunde angelangt. Ich rufe Tagesordnungspunkt 2 auf:</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg319">Beratung des Agrarberichts 1978 der Bundesregierung — Drucksachen 8/1500, 8/1501 —Überweisungsvorschlag des Ältestenrates: Ausschuß für Ernährung, Landwirtschaft und Forsten (federführend)</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg320">Haushaltsausschuß Das Wort zur Einbringung hat der Bundesminister für Ernährung, Landwirtschaft und Forsten. Meine Damen und Herren, der Ältestenrat schlägt vor, daß die Beratung dann am Freitag mit der Aussprache fortgesetzt wird; das möchte ich vorweg ankündigen.</seg>
+        </u>
+        <note type="speaker">Ertl, Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1978-02-22-08-074.u255" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg321">Herr Präsident! Meine Damen und Herren! Das Wirtschaftsjahr 1976/1977, über das der Agrarbericht 1978 Auskunft gibt, war vor allem durch die extreme Trockenheit im Sommer 1976 nicht nur in unserem Land, sondern auch in weiten Teilen Europas gekennzeichnet. Ich komme damit gleich einleitend zu einer wichtigen Feststellung. Diese Extremsituation konnte nicht ohne Auswirkungen auf die Einkommen unserer Landwirte bleiben, wenngleich in den am härtesten betroffenen Gebieten existenzbedrohende Schwierigkeiten bei den einzelnen Betrieben durch gezielte unbürokratische und daher schnell greifende Hilfsmaßnahmen von Bund und Ländern vermieden werden konnten. Die Trockenheit hat zusammen mit den veränderten gesamtwirtschaftlichen Rahmenbedingungen, insgesamt gesehen, zu einer spürbaren Verschlechterung der Ertragslage geführt. Ein wesentliches Ziel unserer Agrarpolitik, die ausreichende Versorgung unserer Bevölkerung mit hochwertigen Nahrungsmitteln zu angemessenen Preisen, ist dabei allerdings zu keinem Zeitpunkt in Gefahr geraten. Vor allem im Wirtschaftsjahr 1976/77 hat sich dabei unser agrarpolitisches Grundprinzip der Erhaltung einer leistungs- und anpassungsfähigen Landwirtschaft bewährt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg322">Die Leistungsfähigkeit unserer Agrar- und Ernährungswirtschaft kommt unter anderem auch in dem in den letzten Jahren ständig gestiegenen Export von Nahrungsmitteln zum Ausdruck. Die deutsche Landwirtschaft hat zusammen mit der Ernährungsindustrie und dem Ernährungshandwerk seit Jahren maßgeblich zur Preisstabilität in unserem Lande beigetragen. Sicherlich ist die Landwirtschaft wie kein anderer Wirtschaftsbereich in besonderem Maße an Stabilität interessiert, ja von Stabilität abhängig. Andererseits ist die Erhaltung stabiler Preise jedoch für alle Wirtschaftsbereiche Verpflichtung und kann auch nur das gemeinsame Werk aller Wirtschaftsbereiche sein. Die Zurückführung der Preissteigerungsrate auf 3,2 °/o im Januar 1978, also auf den ungefähren Stand von 1970, ist ein großer Erfolg dieser Bemühungen gerade in einer Zeit steigender Energie- und Rohstoffpreise.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg323">Neben den verbraucherpolitischen Aufgaben bleibt für die Agrarpolitik weiterhin die Teilnahme der Landwirtschaft an der allgemeinen Einkommensentwicklung das Hauptziel. Die Einhaltung dieses Zieles wurde im Wirtschaftsjahr 1976/77 außer durch die Trockenheit auch durch die Rahmenbedingungen erschwert, wie sie nun einmal in der nationalen Volkswirtschaft, in der Weltwirtschaft und in der Europäischen Gemeinschaft für die Landwirtschaft vorgegeben sind. Auf Gemeinschaftsebene denke ich dabei vor allem auch an die fehlenden Fortschritte auf wirtschafts- und währungspolitischem und damit erst recht auch auf dem gesamtpolitischen Gebiet. Entscheidend für die Beurteilung der Lage der Landwirtschaft im Wirtschaftsjahr 1976/77 ist jedoch, daß sich in allen Wirtschaftsbereichen die Einkommenserwartungen nicht voll erfüllt haben. Die gegenwärtige Lage ist in fast allen Wirtschaftsbereichen durch geringere Wachstumsraten gekennzeichnet. Hinzu kommt ein relativ hoher Sokkel an Arbeitslosigkeit, von der allerdings land- und forstwirtschaftliche Arbeitnehmer kaum betroffen sind. Im Gegenteil, im Gartenbau gibt es einen ungedeckten Bedarf an Arbeitskräften. An dieser Stelle möchte ich auch einmal der Gewerkschaft Gartenbau, Land- und Forstwirtschaft für die gute und erfolgreiche Zusammenarbeit ausdrücklich danken.</seg>
+          <kinesic type="applause">
+            <desc>Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg324">Ich denke dabei u. a. insbesondere an die gemeinsam verwirklichten Anliegen: Förderung des Landarbeiterwohnungsbaus und Zusatzversorgung für land- und forstwirtschaftliche Arbeitnehmer. Wenn wir in unserem Lande Umschau halten und Vergleiche über unsere Grenzen hinaus anstellen, dann müssen wir anerkennen: Es lohnt sich doch, und es ist schon ein Erfolg, wenn wir in der Bundesrepublik Deutschland den erreichten Wohlstand für alle — die Landwirtschaft eingeschlossen — erhalten und sichern.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg325">Diese Bundesregierung darf für sich in Anspruch nehmen, sich von Anbeginn mit Erfolg darum bemüht zu haben, nicht nur die materielle und die soziale Lage der Landwirtschaft zu verbessern, sondern ebenso den ökonomischen und den gesellschaftspolitischen Stellenwert der Landwirtschaft sowie ihren Beitrag zur Pflege und Erhaltung unserer Landschaft der Allgemeinheit zu verdeutlichen. Sie nimmt deshalb dankbar zur Kenntnis, daß sich in der Landwirtschaft kein Pessimismus breitmacht und mehr Einsicht als anderswo dafür gegeben ist, daß wir alle unsere Erwartungen hinsichtlich bisher gewohnter Einkommenssteigerungen zurückschrauben müssen. Diese Grundstimmung nötigt Dank und Respekt ab. Das gilt vor allem angesichts der Tatsache, daß bei zurückgehenden außerlandwirtschaftlichen Beschäftigungsmöglichkeiten das landwirtschaftliche Einkommen zwangsläufig auf mehr Menschen verteilt werden muß, als dies angesichts der bisher gewohnten Abwanderungsraten de; Fall gewesen wäre, und daß bei bestimmten Agrarprodukten, insbesondere im Veredelungsbereich, den Preisen vom Markt her Grenzen gesetzt sind. Im Durchschnitt aller Vollerwerbsbetriebe ist im Wirtschaftsjahr 1976/77 das Reineinkommen um 13,8 % auf rund 22 000 DM je Familienarbeitskraft zurückgegangen. Hinter diesem Durchschnittsergebnis verbergen sich jedoch auf Grund der unterschiedlich starken Auswirkungen der Trockenheit in den einzelnen Regionen sowohl positive als auch negative Ausschläge in der Einkommensentwicklung. In der längerfristigen Entwicklung ergibt sich unter Einschluß des ungünstigen Ergebnisses des abgelaufenen Wirtschaftsjahres ein jährlicher Anstieg von 7,7 %. Meine Damen und Herren, der Agrarbericht 1978 zeigt, daß es in der Landwirtschaft gleichwohl eine große Zahl von Betrieben gibt, die einen Höchststand an wirtschaftlicher Leistungsfähigkeit erreicht haben. Begünstigt durch gute natürliche Ertragsbedingungen erzielen diese Betriebe oft deutlich über dem Durchschnitt liegende Einkommensergebnisse. Ein großer Teil der Betriebe ist dagegen durch eine insgesamt begrenzte Produktions- und Einkommenskapazität gekennzeichnet. In mehr als der Hälfte der rund 860 000 landwirtschaftlichen Betriebe muß das landwirtschaftliche Einkommen durch eine Zuoder Nebenerwerbstätigkeit ergänzt werden. Diese Betriebe gewinnen durch das außerbetriebliche Erwerbseinkommen vor allem eine Sicherung und Stabilisierung ihres Gesamteinkommens, wie das Wirtschaftsjahr 1976/77 sehr deutlich gezeigt hat. Hier springt ins Auge, was für die Situation dieser Betriebe die Möglichkeit der Einkommenskombination und somit die Arbeitsmarktlage bedeuten. Hat der Umstieg auf landwirtschaftlichen Nebenerwerb in zurückliegenden Jahren entscheidend mitgeholfen, den Durst einer expandierenden Industrie nach Arbeitskräften zu stillen, so erfüllt der Nebenerwerb heute eine Pufferfunktion von höchstem gesellschaftspolitischen Wert.</seg>
+          <kinesic type="applause">
+            <desc>Sehr gut! bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg326">So kommt es, daß mir die größte Sorge zur Zeit die Entwicklung der Betriebe ohne ausreichende Produktionskapazität und ohne Chancen zu einem außerlandwirtschaftlichen Zusatzverdienst bereitet.</seg>
+          <vocal type="exclamat">
+            <desc>Josten [CDU/CSU] : Zum Beispiel in der Eifel!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg327">Diese Problembetriebe stehen vor schwierigen Anpassungsproblemen. Trotz des zum Teil beachtlichen Einkommensrückgangs wurden im Wirtschaftsjahr 1976/77 die Investitionen im Sektor Landwirtschaft wiederum ausgeweitet. Zusammen mit den Investitionen der Ernährungsindustrie und des Ernährungshandwerks ergibt das ein ganz beträchtliches Investitionsvolumen. Diese Investitionen schaffen vor allem im ländlichen Raum zusätzliche Kaufkraft und Arbeitsplätze.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg328">Sie sind daher auch aus konjunkturpolitischer Sicht nur zu begrüßen. In den Weinbaubetrieben hat sich 1976/77 die günstige Einkommensentwicklung des Vorjahres fortgesetzt. Die wirtschaftliche Entwicklung der Gartenbaubetriebe war durch erhebliche Ertrags- und Erzeugerpreisschwankungen gekennzeichnet. Mit wenigen Ausnahmen konnten jedoch 1976/77 in allen Gartenbaubetrieben Einkommensverbesserungen erzielt werden. In den Forstbetrieben war 1977 vor allem auf Grund der gestiegenen Holzpreise eine deutliche Verbesserung der Ertragslage festzustellen. Ich sehe darin auch einen Erfolg der im Rahmen der Gemeinschaftsaufgabe für diesen Bereich durchgeführten strukturverbessernden Maßnahmen. Es ist daher zu begrüßen, daß sich der zuständige Ausschuß dieses Hohen Hauses demnächst an Ort und Stelle über den Erfolg der bisherigen Förderung und die anstehenden Probleme informieren wird. Meine Damen und Herren, eine nachhaltige Verbesserung der Lage der Landwirtschaft setzt eine Stärkung des Wirtschaftswachstums bei Preisstabilität voraus. Die Landwirtschaft und die übrigen Wirtschaftsbereiche sitzen dabei in einem Boot. Deshalb ist die von der Bundesregierung verfolgte Politik der Verbesserung des Beschäftigungsstandes, der wachstumspolitischen Vorsorge und der Verstetigung der wirtschafts- und finanzpolitischen Rahmenbedingungen voll im Einklang mit den agrarpolitischen Interessen. Die Agrarpolitik befindet sich hierbei jedoch nicht in einer Art Wartestellung für bessere Zeiten. Sie leistet mit der Beteiligung am Programm für Zukunftsinvestitionen vor allem im ländlichen Raum einen aktiven und — ich sage das nicht ohne Stolz — einen vorbildlichen Beitrag. Die Agrarstrukturpolitik hilft nicht nur dem Einzelbetrieb; sie zieht das gesamte wirtschaftliche, infrastrukturelle und soziale Umfeld der Betriebe, den ländlichen Raum, mit ein. Die Richtigkeit dieser Konzeption wird heute immer deutlicher; denn die Agrarstrukturpolitik trägt entscheidend mit dazu bei, daß der ländliche Raum in neue Funktionen hineinwachsen kann. Der ländliche Raum ist heute nicht mehr nur Standort der Agrarproduktion. Er ist Ausgleichsraum für Ballungsgebiete und erfüllt dabei wichtige Aufgaben in Natur- und Umweltschutz sowie in der Wasserversorgung. Er bietet eine lebenswerte Umwelt für die dort arbeitenden Menschen und für die wachsende Zahl derer, die dort Freizeit verbringen und Erholung suchen. Die überbetrieblichen Maßnahmen der Agrarstrukturpolitik wie die Flurbereinigung, Wasserwirtschaft, Kulturbautechnik und der Küstenschutz dienen im hohen Maße auch der Verbesserung der örtlichen und überörtlichen Infrastruktur und ermöglichen dadurch eine gesunde Weiterentwicklung des ländlichen Raumes. Nicht zuletzt trägt eine auf die Belange des Natur- und Landschaftsschutzes Rück- sicht nehmende Agrarstrukturpolitik maßgeblich dazu bei, die Schönheiten und die Anziehungskraft unserer Landschaft zu erhalten. Ich glaube, das ist ein gutes Beispiel für eine Politik, die gleichermaßen ökonomische und ethische Ziele verfolgt. Als weiteres Beispiel könnte ich die Haltung von Nutztieren nennen. Unser modernes Tierschutzgesetz von 1972, in aller Welt als vorbildlich anerkannt, gibt uns die Möglichkeit, bestimmten Auswüchsen in der Massentierhaltung einen Riegel vorzuschieben. Nichts ist allerdings für die Entwicklung unseres Tierschutzrechts schädlicher als eine emotionsgeladene, fundierten wissenschaftlichen Erkenntnissen vorgreifende, unsachliche Auseinandersetzung in der Öffentlichkeit.</seg>
+          <kinesic type="applause">
+            <desc>Sehr gut! bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg329">Lassen Sie mich zur Verbesserung der Lebensverhältnisse im ländlichen Raum kurz einige Zahlen nennen, die eindrucksvoll unterstreichen, was in den vergangenen Jahren geleistet wurde. Im Rahmen der Flurbereinigung werden jährlich rund 230 000 ha Flächen modernen Bewirtschaftungserfordernissen angepaßt, rund 10 000 km Wege und Straßen ausgebaut. Mit wasserwirtschaftlichen und kulturbautechnischen Maßnahmen werden jährlich für fast eine halbe Million Menschen die Wasserversorgung sichergestellt und zentrale Abwasseranlagen errichtet. Die Einrichtung von zentralen Abwasseranlagen, Kanalisationen und Kläranlagen trägt jetzt erste Früchte. Zahlreiche Bäche und Seen unseres Landes werden wieder sauberer. Beim mittlerweile neunten Wettbewerb „Unser Dorf soll schöner werden" haben rund 4 700 Gemeinden und Gemeindeteile teilgenommen. Dabei wird mit geringen öffentlichen Mitteln die Eigeninitiative unserer Bürger geweckt und eine große Breitenwirkung erzielt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg330">Rund 500 000 Menschen machen jährlich Urlaub auf dem Bauernhof. Ihre Zahl steigt von Jahr zu Jahr an. Ich sehe darin einen Gradmesser für den Erfolg unserer Politik für den ländlichen Raum. Im Dorferneuerungsprogramm werden für insgesamt 1 144 Vorhaben öffentliche Mittel in Höhe von 268 Millionen DM bereitgestellt. Das Dorferneuerungsprogramm bietet eine breite Palette von Möglichkeiten an, um die Lebensqualität in den ländlichen Gemeinden zu erhalten und zu verbessern. Darüber hinaus werden die Wirtschaftskraft in den strukturschwachen ländlichen Räumen gestärkt und zusätzliche Arbeitsplätze geschaffen. Ich freue mich, daß die Angebote, die das Dorferneuerungsprogramm und für wasserwirtschaftliche Maßnahmen das Programm für Zukunftsinvestitionen unterbreiten, in einem selten erlebten Ausmaß in Anspruch genommen werden. Und ich freue mich ganz besonders über das Ausbleiben unnötiger bürokratischer Verzögerungen, was ganz wesentlich zur Erreichung des konjunkturpolitischen Effekts beiträgt, den wir erzielen wollen. Das ist nicht zuletzt auch ein Verdienst der zuständigen Landwirtschaftsverwaltungen, denen ich dafür ausdrücklich danken möchte.</seg>
+          <kinesic type="applause">
+            <desc>Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg331">Die veränderten gesamtwirtschaftlichen Rahmenbedingungen erfordern auch ein Überdenken der einzelbetrieblichen Förderungspolitik. Dabei gilt es jedoch, an Bewährtem festzuhalten. Polemische Töne helfen niemand, sie verunsichern höchstens diejenigen, denen geholfen werden soll, unsere praktischen Landwirte.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg332">Ich sage das insbesondere an die Adresse Bayerns und stelle gleichzeitig fest: Die Zahl der Betriebe, die in Bayern die Förderungsschwelle erreichen können, ist wesentlich größer als die Zahl bzw. die Zahlen, die da immer wieder kolportiert werden.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Schmitt-Vockenhausen [SPD] : Hört! Hört!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg333">Das beweist allein schon der Überhang an Förderungsanträgen, der zur Zeit die verfügbaren Mittel um rund 100 % übersteigt. Mit der Aufstockung der Mittel für die Gemeinschaftsaufgabe um 113 Millionen DM im Haushalt 1978 wurde die finanzielle Voraussetzung für den Abbau dieses Engpasses geschaffen. Im Rahmenplan 1978 wurden bei den Förderungskonditionen Verbesserungen vorgenommen, die vor allem den Betrieben zugute kommen, deren Entwicklungsmöglichkeiten mangels alternativer Beschäftigungsmöglichkeiten außerhalb der Landwirtschaft eingeengt sind. Die Aufstiegs- und Überbrückungshilfe sowie die Wohnhausförderung für die Landwirtschaft sind geblieben. Die Bundesregierung hat ferner beschlossen, daß neben den Maßnahmen im Rahmen der Gemeinschaftsaufgabe erstmals ab 1978 durch die Kreditanstalt für Wiederaufbau ein Kreditprogramm für die Landwirtschaft eingeführt wird. Das Kreditvolumen beträgt 1978 400 Millionen DM. Die Konditionen entsprechen denen der bereits laufenden Mittelstandsprogramme: Festzins 6 %, Auszahlung 100 %, Laufzeit zehn Jahre, zwei tilgungsfreie Jahre. Damit ist es endlich gelungen, das Mittelstandsprogramm für Industrie, Handwerk und Gewerbe auch für die Landwirtschaft zu erschließen und auf Dauer offenzuhalten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg334">I Ich kann heute mit Befriedigung feststellen, daß dies ein Erfolg ist, der in der landwirtschaftlichen Öffentlichkeit breite Anerkennung findet. Auf der anderen Seite weiß ich, daß nicht alle an ein Agrarkreditprogramm zu stellenden Wünsche optimal erfüllt werden konnten. Der Zuspruch, den die Eigenprogramme der Deutschen Siedlungs- und Landesrentenbank und der Landwirtschaftlichen Rentenbank in den vergangenen Jahren in den landwirtschaftlichen Betrieben hatten, zeigt jedoch sehr deutlich den Wert eines besonderen Agrarkredits. Lassen Sie mich einige Worte zur Steuerpolitik sagen. Nach Auswertung des jetzt vorliegenden Gutachtens zur Besteuerung in der Landwirtschaft wird man konkrete Vorschläge diskutieren können. Es geht hier einmal — und jedermann weiß das — im wesentlichen um steuerliche Gerechtigkeit innerhalb eines Bevölkerungsanteils, diesmal der Menschen, die auf dem Lande arbeiten, dort wohnen und leben. Andererseits geht es nach außen um die Wettbewerbsposition der deutschen Landwirtschaft innerhalb der EG. Dies sind Gesichtspunkte, die in der Steuerdiskussion unter anderem zu berücksichtigen sein werden. Meine Damen und Herren, in der Agrarsozialpolitik ist das Erreichte nicht in Frage gestellt; viel Neues wird aus den bekannten Gründen wohl nicht möglich sein. Allerdings, die Notwendigkeit der Schaffung eines Altersgeldes für jüngere Hinterbliebene, also der sogenannten Witwenrente — dies möchte ich hier und heute ausdrücklich wiederholen —, ist und bleibt anerkannt, und zwar außerhalb eines zeitlichen Zusammenhangs mit der uns vom Bundesverfassungsgericht auferlegten grundlegenden Reform. Nun möchte ich auf einige Kernpunkte der Markt-und Preispolitik zu sprechen kommen. Die Kommission hat für die Marktordnungspreise 1978/79 eine durchschnittliche Anhebung um 2 % vorgeschlagen. Sie hat sich dabei vorrangig an markt- und stabilitätserforderlichen Erfordernissen der Gemeinschaft ausgerichtet. Diese Überlegungen spielen natürlich bei den Agrarpreisbeschlüssen eine wichtige Rolle. Daneben aber ist auch der landwirtschaftlichen Einkommenssituation Rechnung zu tragen. Angesichts der nach wie vor unterschiedlichen Kostenentwicklung in den einzelnen Mitgliedstaaten sind auch für 1978/79 differenzierte nationale Preisanhebungsraten erforderlich. Zu diesem Zweck werdern wiederum pragmatische Abbauschritte bei den Währungsausgleichsbeträgen erfolgen müssen. Gerade die letzten Wochen haben gezeigt, daß es hierbei keine Fixpunkte geben kann. Eine schematische Verringerung der bestehenden Währungsausgleichsbeträge um ein Siebtel, wie es von der EG-Kommission vorgesehen ist, würde jedoch für die einzelnen Mitgliedstaaten zu unausgewogenen und daher nicht akzeptablen Ergebnissen führen. Die EG-Kommission beabsichtigt, das im Vorjahr beschlossene Aktionsprogramm Milch im wesentlichen fortzusetzen. Sie findet darin unsere volle Unterstützung, denn das Aktionsprogramm konnte in der bisherigen kurzen Laufzeit seine Wirkung erst teilweise entfalten. Immerhin ist festzustellen, daß die Zunahme der Produktion abgeflacht ist und sich die Überschußbestände verringert haben. Wer den sogenannten Butterberg richtig werten will, der muß wissen, daß er zur Zeit lediglich einem Vorrat für einen Monat und zehn Tage entspricht. Indirekt ist überdies am Butterberg natürlich auch die sogenannte Neuseelandbutter beteiligt, also jene Buttermenge, deren Lieferung auf den britischen Markt Neuseeland aus politischen Gründen zugestanden wurde.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Ritz [CDU/CSU]: So ist es!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg335">In der gemeinsamen Marktpolitik müssen unsere Bemühungen darauf gerichtet sein, einem übertriebenen Perfektionismus entgegenzuwirken. Die Marktordnungen dürfen nicht zu einem wesensfremden Element unserer Wirtschaftsordnung werden. Es darf nicht dazu kommen, daß die Marktkräfte ausgeschaltet werden. Wenn es in einzelnen Bereichen auch nicht an erfolgversprechenden Ansätzen zur Wiederherstellung des Marktgleichgewichtes in der Gemeinschaft fehlt, so ist es doch offenbar äußerst schwierig, hier eine einheitliche Linie gegenüber allen EG-Mitgliedstaaten durchzusetzen. Bekanntlich haben einige Partnerländer große Probleme, um zu einer einigermaßen ausgeglichenen Außenhandels- und Zahlungsbilanz zu gelangen. Da die Landwirtschaft dieser Länder generell noch über beträchtliche Produktionsreserven verfügt, bemühen sich diese Länder, durch eine Ausweitung ihrer Agrarproduktion entweder ihre Agrareinfuhren zu verringern, um Devisen einzusparen, oder aber ihre Agrarexporte mit Hilfe gemeinsam finanzierter Exporterstattungen zu steigern, um sich die nötigen Devisen für den Import von Rohstoffen und Energieträgern zu verschaffen.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Ritz [CDU/CSU]: Genauso ist es!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg336">So verständlich eine derartige Haltung aus der nationalen Sicht der betroffenen Länder auch sein mag, sie ist sicherlich nicht dazu angetan, den erforderlichen gemeinschaftlichen Beitrag zur Anpassung der Agrarproduktion an den europäischen Bedarf zu erleichtern.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD — Ey [CDU/CSU] : Das ist das Problem der Europäischen Gemeinschaft!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg337">— Darüber werden wir diskutieren.</seg>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg338">Es folgt ein Wort zu der anstehenden Erweiterung der Gemeinschaft um Griechenland, Portugal und Spanien. Die Bundesregierung hat hierzu bereits wiederholt erklärt, daß sie den Schritt dieser drei Länder, sich wirtschaftlich und politisch in die Gemeinschaft der demokratischen Staaten Europas zu integrieren, nicht nur begrüßt, sondern politisch für notwendig hält. Um jeglichen Illusionen vorzubeugen, muß bereits heute darauf hingewiesen werden, daß die Aufnahme dieser drei Länder — mögen sie auch gleichzeitig neue Kunden sein — von uns erhebliche finanzielle Opfer erfordern wird. Wenn diese aus übergeordneten politischen Gründen unumgänglichen Kosten wiederum auf dem Sektor der Agrarpolitik erbracht werden müssen, so kann dies selbstverständlich nicht der Agrarpolitik zum Vorwurf gemacht werden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg339">In diesem Zusammenhang sei daran erinnert: Die Gemeinschaft führt auch in ihrer internationalen Agrarpolitik kein selbstgenügsames Eigenleben. Sie ist in die weltwirtschaftlichen Verflechtungen der Agrarmärkte eingebettet und trägt dabei auch den welternährungspolitischen Anforderungen Rechnung. Das beweisen u. a. die steigenden Einfuhren in die Gemeinschaft und gerade auch in die Bundesrepublik Deutschland. Die Einfuhren von Gütern der Ernährungswirtschaft in die Bundesrepublik Deutschland aus EG-Mitgliedstaaten sind im Wirtschaftsjahr 1976/77 um 4,6 % auf 18,2 Milliarden DM, die Einfuhren aus Drittländern im gleichen Jahr sogar um 32,5 % auf 20,3 Milliarden DM angestiegen. Die Bundesrepublik ist damit der größte Importeur an agrarischen Rohstoffen und Nahrungsgütern. Solche Zahlen müssen immer wieder als Beweis dafür herausgestellt werden, welchen entscheidenden Beitrag die Bundesrepublik Deutschland damit zu einem liberalen, offenen Welthandel leistet, nicht zuletzt auch im Interesse der exportorientierten deutschen Industrie. Nur kann die deutsche Agrarpolitik nicht alle Lasten eines weltoffenen Handels übernehmen. Seit einigen Jahren ist auf internationaler Ebene der Kampf um die Meeresschätze entbrannt. Die deutsche Seefischerei ist davon in erheblichem Umfang betroffen und gezwungen, sich den neu geschaffenen Fakten anzupassen. Die bisher überwiegende Fernfischerei vor den Küsten. von Drittländern ist auf Grund der seerechtlichen Entwicklungen weitgehend von ihren traditionellen Fangplätzen abgeschnitten. Daneben sind Beschränkungen zum Schutz der stark überfischten Bestände dringend erforderlich. Die Bundesregierung hat die neueren Entwicklungen frühzeitig erkannt und rechtzeitig begonnen, den Interessen der deutschen Fischerei Rechnung zu tragen. Sie hat daher eine angemessene Berücksichtigung der Drittlandsverluste bei der Verteilung der EG-internen Ressourcen gefordert und auch erreicht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg340">Es war klar, daß diese Entschädigung nicht in vollem Umfang bei den bisher vom deutschen Verbraucher bevorzugten Fischarten erfolgen kann; denn diese sind im EG-Meer knapp — übrigens wegen Überfischung. Die für die Bundesrepublik 1978 vorgesehenen Quoten ermöglichen gegenüber 1976 im EG-Meer eine Steigerung auf mehr als das Doppelte der Fangmengen. Somit kann die deutsche Seefischerei fortgeführt werden. Leider konnte der EG-Ministerrat am 30./31. Januar 1978 die Kommissionsvorschläge wegen der unnachgiebigen Forderung Großbritanniens nach Sonderrechten in einer 50-Seemeilen-Zone nicht verabschieden. Großbritannien war nicht bereit, an einer Übergangslösung mitzuwirken. Um keine Lücke in der EG-Fischereipolitik entstehen zu lassen, kamen die anderen acht Mitgliedstaaten überein, die Vorschläge der Kommission unter Ausklammerung der Hauptstreitpunkte vorläufig national durchzuführen. Im Auftrag dieser acht Mitgliedstaaten wird die EG-Kommission in Kürze auch Verhandlungen mit Drittländern über Fangrechte in deren Hoheitsgewässern aufnehmen. Mit den Färöern sind diese Verhandlungen bereits abgeschlossen; mit Norwegen stehen sie möglicherweise kurz vor dem Abschluß. Meine Damen und Herren, in einer Gemeinschaft sind Nehmen und Geben gleichermaßen wichtig und letzten Endes auch vorteilhaft für alle.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg341">Das muß auch Großbritannien in der Fischereipolitik einsehen lernen. Von der Vertragslage will ich hier gar nicht sprechen. Die Bundesregierung setzt ihre Bemühungen um Fanggründe für die deutsche Fischerei auch außerhalb der EG fort. Mit Argentinien wird in Kürze ein Abkommen unterzeichnet werden, das die Zusammenarbeit zwischen den deutschen und argentinischen Fischereiunternehmen fördern soll. Besondere Probleme gibt es in der Ostsee wegen der Errichtung von Fischereizonen durch Anrainerstaaten. Diese Entwicklung bereitet der Bundesregierung große Sorge. Sie wird sich darum bemühen, Fangmöglichkeiten auch für die Ostseefischer soweit wie möglich zu erhalten. Auf dieser Linie liegt auch die in Abstimmung mit der Kommission vorgesehene Errichtung einer Fischereizone in der Ostsee durch die Bundesrepublik Deutschland und Dänemark. Meine Damen und Herren, ich komme zum Schluß. Ich habe ein realistisches Bild der agrar- und ernährungspolitischen Gesamtsituation gezeichnet. Schönfärberei wäre bei einem solchen Vorhaben ebenso schädlich, wie es umgekehrt Schwarzmalerei ist. Es hat sich dabei gezeigt, daß die Dinge nicht einfacher geworden sind. Die deutsche Landwirtschaft hat unter extremen Bedingungen ihre Leistungs- und Anpassungsfähigkeit unter Beweis gestellt. Ihre Leistungen, die uns allen zugute kommen, können sich weltweit und auch im Vergleich mit anderen Mitgliedstaaten sehen lassen. Die Landwirtschaft hat sich als ein vollwertiger Bestandteil der modernen Industriegesellschaft behauptet. Die Agrar- und Ernährungspolitik ist auch weiterhin in erster Linie Gesellschaftspolitik. Unsere Staats- und Wirtschaftsordnung braucht selbständige Existenzen und nicht nur die Erhaltung, sondern sogar die Mehrung von breit gestreutem Eigentum. Unsere Argrarpolitik ist nicht nur auf die Erzeuger und Verbraucher von Agrarprodukten ausgerichtet, sondern sie dient allen Menschen, die im ländlichen Raum arbeiten, wohnen oder dort Erholung suchen. Wir können feststellen, daß Weg und Richtung unserer Agrarpolitik weiterhin stimmen. Über einzelne Aussagen des Agrarberichts werden wir sicherlich übermorgen diskutieren, wie ich hoffe: offen und sachlich. Eines ist Tatsache: Wer mit offenen Augen und Ohren durch unser Land geht, wird feststellen, daß die Landwirtschaft sich in der gegenwärtigen gesamtwirtschaftlichen Situation im Vergleich zu anderen Wirtschaftsbereichen nicht benachteiligt fühlt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD — Immer [Altenkirchen] [SPD] : Sehr wahr!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg342">Relative Sicherheit des Arbeitsplatzes und Unabhängigkeit, weitgehende Sicherung gegen die Risiken des Lebens und Alters, eine intakte Umwelt und sozialer Frieden werden in den landwirtschaftlichen Familien als das empfunden, was sie in Wahrheit sind: ein Stück Lebensqualität, ein Stück Lebensfreude.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg343">Der Zulauf der Jugend in die landwirtschaftlichen Ausbildungsberufe spricht dafür, daß die Jugend den Wert der Einheit von Wohn- und Arbeitsplatz unter einem Dach in der Landwirtschaft wiedererkannt hat. Freude am Beruf und Vertrauen in die Zukunft sind für mich untrügliche Zeichen eines im Kern gesunden Wirtschaftsbereiches.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg344">Erfolge fallen einem aber gerade in der Landwirtschaft nicht in den Schoß. Für die Sicherung der Lebensqualität, von der ich sprach, gelten gewiß nicht der Achtstundentag bzw. die Vierzigstundenwoche. Dafür sind Sonn- und Feiertage zu opfern. Es gehört dazu auch die tätige Mitarbeit der Bäuerin - über ihre Aufgaben als Hausfrau und Mutter hinaus. Wenn ich jetzt meinen Dank an den Berufsstand ausspreche, gilt er in erster Linie unseren Landfrauen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei allen Fraktionen</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg345">Mit diesem Dank verbinde ich den Appell an die nachwachsende junge Generation in unseren landwirtschaftlichen Betrieben, in ihren Anstrengungen um eine gute Aus- und Weiterbildung nicht nachzulassen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg346">Denn Zuversicht ist die eine Sache. Die gründliche Vorbereitung auf einen Beruf, der heute echte Unternehmerqualitäten erfordert, ist die andere Notwendigkeit.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Lebhafter Beifall bei allen Fraktionen</desc>
+        </kinesic>
+        <note type="speaker">Präsident Carstens:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1978-02-22-08-074.u256" ana="#chair">
+          <seg id="ParlaMint-DE_1978-02-22-08-074.seg347">Meine Damen und Herren! Das Haus hat die Rede des Bundesministers für Ernährung, Landwirtschaft und Forsten zur Einbringung des Agrarberichts gehört. Wie soeben beschlossen, findet die Aussprache zusammen mit der Behandlung von Punkt 22 der. Tagesordnung übermorgen, Freitag, um 9 Uhr statt. Wir sind damit am Ende der heutigen Tagesordnung. Ich berufe die nächste Sitzung des Deutschen Bundestages auf Donnerstag, den 23. Februar, 9 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 15.07 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

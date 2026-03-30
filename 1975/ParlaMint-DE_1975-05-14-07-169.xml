@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1975-05-14-07-169">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 7. Wahlperiode, 169. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 14.05.1975 (169. Sitzung der 7. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 7, Session 169 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1975-05-14 (Session 169 in Legislative Period 7)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="169">169. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">7. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="169">Session 169</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">Legislative Period 7</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 14.05.1975</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1975-05-14</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488222/b10bae395e887aac9ac08afbd1da62fc/pp07-data.zip</idno>
+          <date when="1975-05-14">1975-05-14</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1975-05-14">1975-05-14</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksachen 7/3602, 7/3620 —</head>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg1">Meine Damen und Herren, die Sitzung ist eröffnet. Ich habe zunächst die Freude, Ihnen mitzuteilen, daß am 26. April dieses Jahres der Herr Abgeordnete Prof, Dr. Möller seinen 72. Geburtstag gefeiert hat. Ich gratuliere ihm nachträglich noch einmal hier im Namen des Hauses.</seg>
+          <kinesic type="applause">
+            <desc>Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg2">Nach einer interfraktionellen Vereinbarung soll Punkt 24 der Tagesordnung — Vorschlag der EG-Kommission betreffend die weitere Entwicklung der gemeinsamen Verkehrspolitik — abgesetzt sowie die erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Vierten Gesetzes über die Erhöhung von Dienst- und Versorgungsbezügen in Bund und Ländern (Viertes Bundesbesoldungserhöhungsgesetz) — Drucksache 7/3611 — auf die Tagesordnung gesetzt werden. Ist das Haus damit einverstanden? — Ich höre keinen Widerspruch; es ist so beschlossen. Meine Damen und Herren, es liegt Ihnen dann noch eine Liste von Vorlagen vor, die keiner Beschlußfassung bedürfen und die gemäß § 76 Abs. 2 der Geschäftsordnung den zuständigen Ausschüssen überwiesen werden sollen. Erhebt sich gegen die vorgeschlagenen Überweisungen Widerspruch? — Das ist nicht der Fall; es ist so beschlossen. Betr.: Bericht der Bundesregierung nach § 238 des Arbeitsförderungsgesetzes (Winterbau-Bericht 1974)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg3">Bezug: Entschließung des Deutschen Bundestages vom 12. April 1972 — Drucksache 7/3508 —</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg4">zuständig: Ausschuß für Arbeit und Sozialordnung (federführend)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg5">, Ausschuß für Wirtschaft Betr.: Entschließung des Europäischen Parlaments über die Konferenz für Sicherheit und Zusammenarbeit in Europa (KSZE)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg6">— Drucksache 7/3542 —</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg7">zuständig: Auswärtiger Ausschuß Betr.: Überplanmäßige Ausgaben bei Kap. 60 02 Tit. 686 02 — Humanitäre Hilfsmaßnahmen für die Länder des ehemaligen Indochina — Bezug: § 37 Abs. 4 BHO — Drucksache 7/3607 — zuständig: Haushaltsausschuß Folgende amtliche Mitteilungen werden ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg8">Der Bundesrat hat in seiner Sitzung am 25. April 1975 den nachfolgenden Gesetzen zugestimmt bzw. einen Antrag gemäß Artikel 77 Abs. 2 GG nicht gestellt:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg9">Gesetz zur Änderung des Saatgutverkehrsgesetzes Gesetz zu dem Obereinkommen vom 18. November 1974 über ein Internationales Energieprogramm Gesetz zur Änderung des Gesetzes über die Kosten der Zwangsvollstreckung nach der Reichsabgabenordnung Der Bundesminister für Wirtschaft hat mit Schreiben vom 29. April 1975 im Einvernehmen mit dem Bundesminister des Innern die Kleine Anfrage der Abgeordneten Dr. Miltner, Freiherr von Fircks, Franke (Osnabrück)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg10">, Berger, Dr. Althammer, Gerlach (Obernau)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg11">, Gerster (Mainz)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg12">, Entrup, Biechele, Spranger und Genossen betr. Verwendung des beurlaubten Präsidenten der Bundesanstalt für Bodenforschung, Prof. E. Machens — Drucksache 7,3492 — beantwortet. Sein Schreiben ist als Drucksache 7/3586 verteilt. Der Bundesminister der Justiz hat mit Schreiben vom 30. April 1975 die Kleine Anfrage der Abgeordneten Bremer, Eilers (Wilhelmshaven)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg13">und Genossen betr. Aufbau eines juristischen Informationssystems — Drucksache 7/3513 — beantwortet. Sein Schreiben ist als Drucksache 7/3594 verteilt. Der Bundesminister für Jugend, Familie und Gesundheit hat mit Schreiben vom 28. April 1975 im Einvernehmen mit dem Bundesminister für Arbeit und Sozialordnung, der Finanzen, für Wirtschaft, für Ernährung, Landwirtschaft und Forsten und dem Bundesminister für Verkehr und für das Post-und Fernmeldewesen die Kleine Anfrage der Abgeordneten Müller (Remscheid)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg14">, Dr. Blüm, Breidbach, Dr. Hammans, Prinz zu Sayn-Wittgenstein-Hohenstein, Vogt, Zink, Ziegler, von Bokkelberg, Geisenhofer, Frau Pieser, Schmitz (Baesweiler)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg15">und Genossen betr. gesundheitsschädliche Auswirkungen des Zigarettenrauchens - Drucksache 7/2921 — beantwortet. Sein Schreiben ist als Drucksache 7/3597 verteilt. Der Bundesminister für Wirtschaft hat mit Schreiben vom 6. Mai 1975 die Kleine Anfrage der Abgeordneten Hauser (Krefeld)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg16">, Lampersbach, Schmidhuber, Kunz (Berlin)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg17">, Dr. Becker (Mönchengladbach)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg18">, Engelsberger, Dr. Jobst, Pohlmann, Dr. Unland, Rollmann, Sick, Schedl, Tillmann, Schmitz (Baesweiler)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg19">, Biehle, Niegel, Schröder (Lüneburg)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg20">, Frau Pieser, Dr. Franz, Bremer und Genossen betr. Untersuchung der Prognos AG Drucksache 7/3511 — beantwortet. Sein Schreiben ist als Drucksache 7/3600 verteilt. Der Bundesminister für Wirtschaft hat mit Schreiben vom 6. Mai 1975 die Kleine Anfrage der Abgeordneten Wohlrabe, Lenzer, Amrehn, Frau Berger (Berlin)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg21">, Kunz (Berlin)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg22">, Frau Pieser, Straßmeir und der Fraktion der CDU/CSU betr. Energieversorgung von Berlin (West)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg23">— Drucksache 7/3493 — beantwortet. Sein Schreiben ist als Drucksache 7/3603 verteilt. Der Bundesminister für Forschung und Technologie hat mit Schreiben vom 30. April 1975 die Kleine Anfrage der Abgeordneten Pfeifer, Dr. Wörner, Dr. Jenninger, Dr. Stavenhagen, Dr. Schäuble, Burger, Dr. Prassler, Dr. Evers, Werner, Biechele und der Fraktion der CDU/CSU betr. Äußerungen des Parlamentarischen Staatssekretärs Dr. Hauff zum Bau eines Kernkraftwerkes in Wyhl — Drucksache 7/3382 — beantwortet. Sein Schreiben ist als Drucksache 7/3606 verteilt. Der Bundesminister der Finanzen hat mit Schreiben vom 7. Mai 1975 die Kleine Anfrage der Abgeordneten Milz, Vehar, Dr. Jobst, Straßmeir, Dreyer, Sick, Dr. Freiherr Spies von Büllesheim und Genossen betr. Zugang zum Beruf des Zollspediteurs — Drucksache 7/3560 — beantwortet. Sein Schreiben ist als Drucksache 7/3612 verteilt. Der Bundesminister der Finanzen hat mit Schreiben vom 6. Mai 1975 die Kleine Anfrage der Abgeordneten Schröder (Lüneburg)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg24">, Höcherl, Dr. Müller-Hermann, Leicht, Dr. Narjes, Dr. Althammer, Dr. Zeitel, Niegel, Biehle, Gerlach (Obernau)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg25">, Dr. von Bismarck und der Fraktion der CDU/CSU betr. konjunkturpolitische Wirkung der 7,5prozentigen Investitionszulage — Drucksache 7/3557 — beantwortet. Sein Schreiben ist als Drucksache 7/3613 verteilt. Der Bundesminister des Innern hat mit Schreiben vom 29. April 1975 die Kleine Anfrage der Fraktion der CDU/CSU betr. Entwicklung der Besoldungs-, Vergütungs- und Versorgungsausgaben im öffentlichen Dienst — Drucksache 71955 — beantwortet. Sein Schreiben ist als Drucksache 71598 verteilt. Der Bundesminister für Verkehr und für das Post- und Fernmeldewesen hat mit Schreiben vom 9. Mai 1975 die Kleine Anfrage der Abgeordneten Sick, Dreyer, Möller (Lübeck)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg26">, Baron von Wrangel, Straßmeir, Eigen, Frau Tübler, Bremer, von Hassel, Nordlohne, Lagershausen, Ey und Genossen betr. ElbeLübeck-Kanal — Drucksache 7/3514 — beantwortet. Sein Schreiben wird als Drucksache 7'3618 verteilt. Der Bundesminister für Wirtschaft hat mit Schreiben vom 13. Mai 1975 die Kleine Anfrage der Abgeordneten Susset, Dr. Wörner, Dr. Jenninger, Dr. Miltner, Baier, Wawrzik, Burger. Sauter (Epfendorf)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg27">, Dr. Stavenhagen und Genossen betr. Massenentlassungen bei der AUDI-NSU-AG im Werksbereich Neckarsulm — Drucksache 7/3477 — beantwortet. Sein Schreiben wird als Drucksache 7/3622 verteilt. Ich rufe Punkt 1 unserer heutigen Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg28">Fragestunde — Drucksachen 7/3602, 7/3620 —</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg29">Der Ältestenrat hat vorgeschlagen, daß wir auch in dieser Woche zwei Fragestunden abweichend von den Richtlinien für die Fragestunde mit einer jeweiligen Dauer von 90 Minuten durchführen. Gemäß § 127 unserer Geschäftsordnung muß diese Abweichung von der Geschäftsordnung beschlossen werden. Erhebt sich Widerspruch? — Ich sehe und höre keinen Widerspruch; dann ist so beschlossen. Damit treten wir in die Fragestunde ein. Für die heutige Fragestunde liegen zwei dringliche Fragen von dem Herrn Abgeordneten Dr. Hammans aus dem Geschäftsbereich des Bundesministers der Verteidigung auf Drucksache 7/3620 vor. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär Schmidt zur Verfügung. Ich rufe die erste dringliche Frage des Herrn Abgeordneten Dr. Hammans auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg30">Was ist der Bundesregierung über den Diebstahl von mit Giftgas gefüllten Behältern aus einem Bundeswehrdepot bekannt?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-05-14-07-169.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg31">Herr Kollege Dr. Hammans, ich darf zunächst darauf hinweisen, daß der Diebstahl nicht aus einem Bundeswehrdepot erfolgte, sondern aus einem eingezäunten Bereich der Kampfstoffvernichtungsanlage auf dem Truppenübungsplatz Munster-Nord. Gestohlen wurden 51 Literflaschen LOST englicher Fertigung. Der Zeitpunkt des Diebstahls konnte nicht exakt festgestellt werden. Wahrscheinlich geschah der Diebstahl am Wochenende des 26./27. April 1975. Ein Hinweis auf die Täter liegt bisher nicht vor. Wenn Sie wollen, verehrter Herr Kollege, kann ich Ihre zweite Frage gleich mit beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg32">Herr Abgeordneter, wollen Sie erst Zusatzfragen stellen? — Herr Staatssekretär, der Herr Kollege möchte erst seine beiden Zusatzfragen stellen.</seg>
+        </u>
+        <note type="speaker">Dr. Hammans (CDU/CSU) :</note>
+        <u who="#Q1635112" xml:id="ParlaMint-DE_1975-05-14-07-169.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg33">Herr Staatssekretär, teilen Sie nicht meine Meinung, daß gerade im Hinblick auf die bekannte Tatsache, daß die BaaderMeinhof-Bande einen solchen Diebstahl früher schon einmal geplant hat, eine solche Lagerung dieses hochgefährlichen Giftes in einer zu wenig bewachten Situation eine außerordentliche Gefahr für die Sicherheit darstellt?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-05-14-07-169.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg34">Herr Dr. Hammans, zunächst einmal ist bisher noch nicht festgestellt, wer diesen Diebstahl durchgeführt hat. Ich möchte hier nicht eine Gruppe, eine Bande oder auch einzelne verdächtigen. Das ist das erste. Das zweite ist: Sie wissen, daß diese Lagerung eine lange Geschichte hat. Nach 1918 sind an dieser Stelle Giftgasvorräte vernichtet worden, teilweise nach 1945 wieder. 1960 hat eine Kommission, die von der damaligen Regierung dazu legitimiert war, festgestellt, daß über das Maß der Vernichtung oder über das Maß auch der Freimachung des Geländes hinaus, die bis dahin durchgeführt worden waren, nichts getan werden könne. Das Verteidigungsministerium hat schon im vergangenen Jahr auch durch den MAD darauf hingewiesen — veranlaßt, daß die Sicherheitsbestimmungen wesentlich verschärft wurden. Es ist ein „NATO-Zaun" errichtet worden, und es ist auch sonst noch manches getan worden, damit nicht Unbefugte in das Gelände hineinkamen. Es ist darüber hinaus eine zwar unregelmäßige, aber immerhin auch nachts mit Hunden durchgeführte Bewachung erfolgt. Von Leichtfertigkeit kann also in dieser Angelegenheit keine Rede sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg35">Sie haben noch eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Hammans (CDU/CSU) :</note>
+        <u who="#Q1635112" xml:id="ParlaMint-DE_1975-05-14-07-169.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg36">Herr Staatssekretär, sind Sie nicht mit mir der Meinung, daß im Hinblick auf Methoden, die von Terroristen angewendet werden, ein Zaun um eine so gefährliche Waffe, von der die Baader-Meinhof-Bande früher doch gesagt hat, daß sie für sie in Frage käme, sträflicher Leichtsinn ist? Ist es nicht sträflicher Leichtsinn, diese Waffe so zu behandeln, wie Sie dies hier zugeben müssen?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-05-14-07-169.u8" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg37">Zum ersten habe ich gar nichts zugeben müssen. Zum zweiten liegt kein sträflicher Leichtsinn vor. In diesem Zusammenhang darf ich vielmehr darauf hinweisen, daß in den Jahren 1960 bis 1968, in denen ja nun in diesem Lande auch nicht alles in Friede und Sonnenschein war, überhaupt leine Vorkehrungen getroffen worden sind, die Sicherheit dort zu verbessern, während nach 1970, 1971 — vor allen Dingen 1974 — die Sicherheitsvorrichtungen erheblich verbessert worden sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u9" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg38">Eine Zusatzfrage hat der Herr Abgeordnete Evers.</seg>
+        </u>
+        <note type="speaker">Dr. Evers (CDU/CSU) :</note>
+        <u who="#Q1359533" xml:id="ParlaMint-DE_1975-05-14-07-169.u10" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg39">Herr Staatssekretär, habe ich Sie richtig verstanden, daß es nicht möglich ist, diese Kampfstoffe zu vernichten, und wenn dies richtig ist, warum können sie nicht vernichtet werden, wozu lagern wir sie überhaupt?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-05-14-07-169.u11" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg40">Die Kampfstoffe können vernichtet werden; wir sind auch dabei, sie zu vernichten. Die Frage ist, mit welcher Schnelligkeit und mit welchen Möglichkeiten sie vernichtet werden. Schon seit den 60er Jahren wird eine sukzessive Vernichtung von Kampfstoffen durchgeführt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u12" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg41">Eine letzte Zusatzfrage hat der Herr Abgeordnete Spranger.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1975-05-14-07-169.u13" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg42">Herr Staatssekretär, muß man nach den von Ihnen geschilderten Sicherheitsmaßnahmen davon ausgehen, daß auch zukünftig ein Diebstahl derartiger Dinge möglich sein wird?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-05-14-07-169.u14" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg43">Nein, davon brauchen Sie nicht auszugehen. Denn wir haben die Sicherheitsvorrichtungen insofern verstärkt, als wir die militärische Sicherung jetzt wesentlich verbessert haben. Wir werden uns darüber hinaus auch darüber zu unterhalten haben — das ist heute morgen Gegenstand eines Sachstandsberichts von mir im Verteidigungsausschuß gewesen; die Diskussion wird im übrigen dort nächste Woche stattfinden —, was hier zur Vernichtung von Vorräten, die durch Sprengung und Vergrabung noch in der Erde sind, getan werden muß. Ich habe dazu angegeben, daß das nach vorsichtigen Schätzungen viele, viele Millionen DM kosten und auch einen langen Zeitraum in Anspruch nehmen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u15" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg44">Ich rufe die zweite Dringlichkeitsfrage des Herrn Abgeordneten Dr. Hammans auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg45">Welche Vorsorgemaßnahmen zum Schutz der Bevölkerung hat die Bundesregierung gegen einen Mißbrauch dieses Giftgases durch Kriminelle, gerade im Hinblick auf eine mögliche Gefährdung ganzer Städte, getroffen?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-05-14-07-169.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg46">Herr Kollege, das Bundesministerium der Verteidigung hat alle Bundeswehr-Krankenhäuser über die Behandlung von SchwefelLOST-Vergiftungen informiert. Alle Truppenteile und Dienststellen der Bundeswehr erhielten darüber hinaus entsprechende Sanitätsdienstliche Hinweise. Die wehrpharmazeutischen Institute der Bundeswehr wurden angewiesen, einschlägige Vorbereitungen für kurzfristige Untersuchungen auch für den zivilen Bereich sicherzustellen. Die ABC-Abwehr-Bataillone des Heeres halten jederzeit je zwei Dekontaminierungsgruppen zum Soforteinsatz verfügbar, gegebenenfalls auch mittels bereitgehaltener Hubschrauber. In allen Verbänden des Heeres sind zusätzlich die Entseuchungs-, Entgiftungs- und Entstrahlungstrupps alarmierbar. Weitere Maßnahmen wurden vom Bundesminister für Jugend, Familie und Gesundheit und vom Bundesinnenministerium eingeleitet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg47">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Hammans (CDU/CSU) :</note>
+        <u who="#Q1635112" xml:id="ParlaMint-DE_1975-05-14-07-169.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg48">Herr Staatssekretär, glauben Sie nicht, daß im Hinblick auf eine mögliche Gefährdung auch der zivilen Bevölkerung eine Aufklärung der Bevölkerung notwendig wäre für den Fall, daß die beim Diebstahl entwendeten Gasmengen angewendet werden?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-05-14-07-169.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg49">Zum ersten ist dazu zu sagen, daß hier sowohl vom Innenministerium als auch vom Gesundheitsministerium Maßnahmen eingeleitet worden sind. Zum zweiten hat vor allen Dingen auch das Bundeskriminalamt mit den entsprechenden sonstigen Stellen die Ermittlungen zur Zeit in der Hand. Wir meinen, daß bis zum jetzigen Zeitpunkt vor allen Dingen über das Innenministerium und das Gesundheitsministerium ausreichende Maßnahmen eingeleitet worden sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg50">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Hammans (CDU/CSU) :</note>
+        <u who="#Q1635112" xml:id="ParlaMint-DE_1975-05-14-07-169.u21" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg51">Herr Staatssekretär, eine vernünftige Vorsorge hat mit Panikmache nichts zu tun. Ich frage Sie: Wäre es nicht richtig, daß jeder Bürger wissen müßte, wie er sich, wenn hiermit Mißbrauch getrieben wird, verhalten sollte? Können Sie dafür Sorge tragen, daß eine solche Aufklärung des Bürgers jetzt und sofort geschieht? Im übrigen war dies auch ein Anliegen meiner Frage in der Fragestunde.</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-05-14-07-169.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg52">Ich bin Ihnen sehr dankbar, daß Sie das jetzt sagen. Denn ich hatte auch einige andere Grundsätze Ihren Fragen hier entnehmen wollen. Es ist so, daß die Presse über diesen Fall nicht nur einmal, sondern mehrmals — berichtet hat. Wir können nur dankbar sein, daß hier keine Panikmache betrieben worden ist; ich betone das ausdrücklich. Darüber hinaus sind alle die, die fachlich anzusprechen sind, z. B. auch die privaten Krankenhäuser und viele andere Stellen, ärztliche Stellen, informiert. Wir haben in einem engen Kontakt mit den beteiligten Ministerien dafür gesorgt, daß alle diejenigen, die die Anwendung dieser Giftstoffe verhindern können und im Falle ihrer Anwendung heilen können, informiert sind. Deswegen halte ich nichts davon, nun etwa jeden einzelnen Bürger in einer großen Aufmachung darauf hinzuweisen. Das braucht man nicht; denn wir haben bisher keine Hinweise, daß etwa in dieser Weise ein Anschlag zu befürchten ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg53">Eine letzte Zusatzfrage, Frau Kollegin.</seg>
+        </u>
+        <note type="speaker">Frau Dr. NeumeIster (CDU/CSU) :</note>
+        <u who="#Q1575728" xml:id="ParlaMint-DE_1975-05-14-07-169.u24" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg54">Herr Staatssekretär, wäre es nicht auch Aufgabe der Gesundheitsämter, sowohl diagnostische Chemikalien wie auch Gegenmittel bereitzuhalten, und wie kommt es, daß ausgerechnet ein Modellgesundheitsamt darüber keinerlei Auskunft zu geben in der Lage war?</seg>
+        </u>
+        <note type="speaker">Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1321198" xml:id="ParlaMint-DE_1975-05-14-07-169.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg55">Ich kann dazu vor allen Dingen sagen, daß die Maßnahmen über das Bundesministerium für Jugend, Familie und Gesundheit eingeleitet worden sind. Ich weiß aus dem Gesundheitsamt meines eigenen Kreises, daß die Vorsorge in bezug auf die Bevorratung sofort, nachdem dieser Diebstahl bekanntgeworden war, angeordnet wurde.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg56">Ich danke Ihnen, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers der Justiz auf. Zur Beantwortung der Frage steht der Herr Parlamentarische Staatssekretär Dr. de With zur Verfügung. Die Frage 1 ist von Herrn Abgeordneten Spranger eingereicht worden:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg57">Teilt die Bundesregierung die Auffassung, daß die Wiederherstellung der früheren Strafbestimmungen Tiber die Nichtanzeige geplanter verbrechen und des Landfriedensbruchs zur Bekämpfung des Sympathisantenkreises der linksradikalen Terroristen unvermeidbar ist, oder was gedenkt die Bundesregierung ansonsten zu tun, um die Ünterstützung der Anarchisten durch Sympathisanten zu unterbinden? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-14-07-169.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg58">Die Strafvorschrift des § 138 StGVCedroht die Nichtanzeige geplanter schwerer Straftaten wie Mord, Totschlag, Geiselnahme, Luftpiraterie und ähnlich schwerer Delikte mit Strafe. Die jetzige Fassung der Strafvorschrift geht auf das Dritte Strafrechtsänderungsgesetz vom 6. August 1953 zurück und ist seither niemals eingeschränkt worden. Mit der am 1. Januar 1975 in Kraft getretenen Neufassung ist die Strafvorschrift präzisiert worden. Ihre Frage kann also dahin beantwortet werden, daß die Strafvorschrift der Nichtanzeige geplanter Verbrechen nicht wiederhergestellt zu werden braucht, da sie niemals abgeschafft und — zumindest seit dem 6. August 1953 niemals eingeschränkt worden ist. Zur Neufassung des Tatbestandes des Landfriedensbruchs liegen, wie Sie wissen, dem Deutschen Bundestag zwei Gesetzentwürfe des Bundesrates und der Fraktion der CDUí CSU vor. Die Bundesregierung hat ihre Auffassung zu diesen Gesetzentwürfen mitgeteilt. Die Entwürfe werden in nächster Zukunft zusammen mit dem Entwurf der Bundesregierung eines Dreizehnten Strafrechtsänderungsgesetzes — Drucksache 7/3030 — im Sonderausschuß für die Strafrechtsreform beraten werden. Ich darf hier nur feststellen, daß eine Änderung des § 125 StGB — Landfriedensbruch — nach Auffassung der Bundesregierung ein ungeeignetes Mittel wäre, den Sympathisantenkreis von Terroristen zu erfassen, da sich dieser Personenkreis vielleicht früher an gewalttätigen Demonstrationen beteiligt hat, das aber gegenwärtig und künftig aus naheliegenden Gründen kaum tun wird. Im übrigen darf ich darauf verweisen, daß das Strafgesetzbuch den Begriff Sympathisant zu Recht nicht kennt, weil der Begriff für eine Strafvorschrift zu unbestimmt wäre. Derjenige, der einen Terroristen bei einem Verbrechen unterstützt, ist wegen Beihilfe strafbar. Derjenige, der Mitglied einer terroristischen Organisation ist, eine solche Organisation unterstützt oder für sie wirbt, macht sich nach § 129 StGB strafbar. Mit dem im Entwurf eines Dreizehnten Strafrechtsänderungsgesetzes neu geplanten § 130 a StGB sollen weitere Handlungen im Vorfeld von Gewalttätigkeiten erfaßt werden, nämlich die Befürwortung schwerer Gewalttaten und die Anleitung zu solchen Gewalttaten. Die Bundesregierung ist sicher, daß die Strafverfolgungsorgane des Bundes wie der Länder alle rechtlich zulässigen Maßnahmen ergriffen haben und in Zukunft ergreifen werden, um die genannten strafbaren Handlungen aufzuklären. Sie werden Verständnis dafür haben, daß ich Einzelheiten hierzu aus Gründen notwendiger Geheimhaltung nicht. mitteilen kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg59">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU;</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1975-05-14-07-169.u29" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg60">CSU) : Herr Staatssekretär, in welchem Umfang ist die Bundesregierung bereit, den Vorstellungen des Freistaates Bayern in seinem im Bundesrat eingebrachten Gesetzentwurf zur Bekämpfung terroristischer Krimineller zu folgen, und wir die Bundesregierung ohne weitere —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u30" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg61">Herr Kollege, Fragezeichen! Bitte!</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-14-07-169.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg62">Herr Kollege Spranger, die Vorlage, die Sie ansprechen, trägt das Datum vom 5. Mai 1975 und ist noch nicht einmal im Plenum des Bundesrates behandelt worden. Zunächst muß die Bundesregierung abwarten, was das Plenum des Bundesrates hierzu sagt. Sie verstehen deswegen, daß die Bundesregierung heute und hier — außerdem wäre es der falsche Ort eine Stellungnahme nicht abgeben kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u32" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg63">Sie haben noch eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1975-05-14-07-169.u33" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg64">Herr Staatssekretär, meinen Sie nicht, daß die Zahl der Angehörigen des harten Kerns der Baader-Meinhof-Bande und die sich daraus ergebende Gefahr angesichts der letzten Schätzungen des Herrn Bundesjustizministers doch größer sind, als man noch im Jahre 1972 annahm?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1975-05-14-07-169.u34" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg65">Das Jahr 1972 läßt sich mit dem jetzigen nicht vergleichen, weil ganz sicher eine Änderung des Kerns stattgefunden hat. Ich verweise auf den Zeitablauf. Mit Sicherheit muß davon ausgegangen werden, daß der Kern äußerst gefährlich ist. Wie ich schon sagte, bin ich sicher, daß die Organe des Bundes und der Länder alle zulässigen und nötigen Maßnahmen ergreifen werden, um dieser Sache Herr zu werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u35" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg66">Ich danke Ihnen, Herr Staatssekretär, und rufe jetzt den Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen auf. Zur Beantwortung der beiden von dem Herrn Abgeordneten Jäger (Wangen)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg67">eingereichten Fragen steht der Herr Parlamentarische Staatssekretär Herold zur Verfügung. Ich rufe die Frage 2 des Abgeordneten Jäger (Wangen)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg68">auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg69">Welche konkreten Schritte beabsichtigt die Bundesregierung zu unternehmen, um in Gesprächen und Verhandlungen mit der DDR darauf hinzuwirken, daß Deutschen, die wegen sogenannter Fluchthilfe von der Justiz der DDR belangt werden, in Erfüllung des Normalisierungsgebots des Grundlagenvertrags ein fairer Prozeß nach rechtsstaatlichen Grundsätzen, insbesondere die wirksame Verteidigung durch Anwälte ihres Vertrauens und die Möglichkeit der Teilnahme eines Vertreters der Bundesregierung an der gesamten Hauptverhandlung, zugestanden wird?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-05-14-07-169.u36" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg70">Herr Präsident! Herr Kollege Jäger, ich darf Ihre Frage wie folgt beantworten. Erstens. Der Inhalt Ihrer Anfrage war in ähnlicher Form bereits wiederholt Gegenstand eingehender Stellungnahmen in diesem Hause. Die diesbezüglichen Materialien liegen allen Mitgliedern des Hauses vor. Ich darf hierauf verweisen. Zweitens. Die den Fluchthelferprozessen zugrunde liegenden Vorschriften des Strafgesetzbuches der DDR sind das wurde ebenfalls seitens der Bundesregierung wiederholt erklärt — mit unserer Rechtsvorstellung nicht vereinbar. Gleiches gilt für den Ausschluß der Öffentlichkeit in solchen Prozessen. Ich darf aber noch einmal betonen, daß Einwirkungsmöglichkeiten auf die Gesetzgebung der DDR seitens der Bundesregierung nicht bestehen. Drittens. Andererseits sorgt die Bundesregierung im Rahmen des Möglichen seit Jahren dafür, daß Deutschen, die — nicht nur wegen Fluchthilfe -- von der DDR-Justiz belangt werden, Rechtsschutz zuteil wird. Viertens. Die Teilnahme eines Mitglieds der Ständigen Vertretung der Bundesrepublik Deutschland bei der DDR an der Hauptverhandlung wird für alle Prozesse, die gegen Bewohner der Bundesrepublik Deutschland einschließlich Berlin-West geführt werden, angestrebt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u37" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg71">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-05-14-07-169.u38" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg72">Herr Staatssekretär, wie muß ich Ihren Hinweis, nach dem eine Einwirkung auf die Rechtsordnung der DDR nicht möglich sei, angesichts der Tatsache verstehen, daß sich die DDR im Grundlagenvertrag zur Herstellung eines normalen gutnachbarlichen Verhältnisses vertraglich verpflichtet hat, das es ausschließt, Bürger der Bundesrepublik Deutschland in einer rechtsstaatswidrigen Weise in Strafprozessen zu belangen?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-05-14-07-169.u39" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg73">Dazu erkläre ich: Der Grundlagenvertrag bezieht sich u. a. auf Dinge, die weiterentwickelt werden müssen. Wir stehen hier auch am Anfang. Die Bundesregierung ist bemüht, die gegebenen Möglichkeiten im Interesse der Betroffenen zu erweitern. Hier konnte bereits einiges erreicht werden. Vor noch nicht langer Zeit war es überhaupt noch nicht möglich, an Prozessen in der DDR teilzunehmen oder Inhaftierten in irgendeiner Form zur Verfügung zu stehen, sie z. B. zu beraten oder zu betreuen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u40" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg74">Noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-05-14-07-169.u41" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg75">Herr Staatssekretär, wird die Bundesregierung über die Frage der Teilnahme an der Hauptverhandlung hinaus auch die Frage der rechtsstaatlicheren Gestaltung des Strafprozesses in ihren Gesprächen und Verhandlungen mit der DDR ansprechen und versuchen, hierüber konkrete Vereinbarungen zu erzielen?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-05-14-07-169.u42" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg76">Ich glaube, Sie überschätzen die Möglichkeiten, die die Bundesregierung hat, auf die DDR-Gesetzgebung bzw. die DDR-Exekutive einzuwirken, um Dinge zu verändern, die im Unterschied der Systeme in den beiden Staaten in Deutschland begründet liegen und die ohne völlige Veränderung des Systems drüben sicher nicht in unserem Sinne zu beeinflussen wären.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u43" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg77">usen Zu einer Zusatzfrage Herr Abgeordneter Sauer.</seg>
+        </u>
+        <note type="speaker">Sauer (Salzgitter) (CDU/CSU) :</note>
+        <u who="#Q118277" xml:id="ParlaMint-DE_1975-05-14-07-169.u44" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg78">Herr Staatssekretär Herold, nachdem der „DDR"-Staranwalt Kaul hier bei uns sogar als Prozeßbevollmächtigter aufgetreten ist, frage ich, welche Erfolge sich denn in Ihrem Bemühen abzeichnen, daß wenigstens ein Mitglied unserer Vertretung in Ost-Berlin an den Verhandlungen teilnehmen kann.</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-05-14-07-169.u45" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg79">Was den ersten Teil Ihrer Frage betrifft, so sagte ich bereits, daß wir hier in der Bundesrepublik vor eine völlig andere, rechtsstaatliche Situation gestellt sind. Wir selbst bemühen uns — ich sagte das auch bereits —, unsere Möglichkeiten der Beobachtung und der Teilnahme an Prozessen in der DDR zu verbessern. Ich wiederhole noch einmal: Wir haben dabei nach unserer Auffassung einige Fortschritte gemacht, wir haben mindestens erreicht, daß die Teilnahme an Prozessen und die Betreuung des angesprochenen Personenkreises möglich sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u46" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg80">Ich rufe die Frage 3 des Herrn Abgeordneten Jäger (Wangen)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg81">auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg82">Welche konkreten Schritte erwägt die Bundesregierung, um zu erreichen, daß die jüngsten — der Normalisierungspflicht des Grundlagenvertrages kraß widersprechenden — Terrorurteile mit lebenslangen Freiheitsstrafen gegen Deutsche, die der sogenannten Fluchthilfe und ähnlicher Delikte beschuldigt werden, nicht vollstreckt werden? Bitte!</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-05-14-07-169.u47" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg83">Ich darf die Frage wie folgt beantworten: Die Bundesregierung kann nicht verhindern, daß die Urteile, von denen erst eines rechtskräftig ist, vollstreckt werden. Sie bemüht sich in allen Fällen, in denen sie Möglichkeit hierzu erhält, um Strafnachlaß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u48" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg84">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-05-14-07-169.u49" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg85">Herr Staatssekretär, muß ich aus Ihrer Antwort entnehmen, daß die Bundesregierung keine konkreten Schritte erwägt, um in Gesprächen und Verhandlungen eine Vollstreckung dieser Urteile zu verhindern?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-05-14-07-169.u50" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg86">Ich habe meine Meinung bereits bei der letzten Frage eindeutig zum Ausdruck gebracht und gesagt, daß es überhaupt nicht möglich ist, auf die DDR-Gesetzgebung einzuwirken. Wir bemühen uns um jeden einzelnen Verurteilten, ganz egal, in welcher Form er nach Auffassung der DDR straffällig geworden ist. Das ist unsere Pflicht, die wir entsprechend erfüllen. Wir werden darauf hinwirken, daß diese Möglichkeiten noch erweitert werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u51" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg87">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1975-05-14-07-169.u52" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg88">Herr Staatssekretär, hat es über diesen Gegenstand bisher schon konkrete Gespräche zwischen Vertretern der Bundesregierung und der DDR gegeben?</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1975-05-14-07-169.u53" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg89">Natürlich hat es solche Gespräche gegeben.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Jäger [Wangen] [CDU/CSU] : In diesem konkreten Fall?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u54" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg90">Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen beantwortet. Ich danke Ihnen, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesminister für Bildung und Wissenschaft auf. Der Herr Abgeordnete Dr. Gölter hat die von ihm eingereichte Frage 4 zurückgezogen. Ich rufe den Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit auf. Der Herr Abgeordnete Dr. Klein hat um schriftliche Beantwortung der von ihm eingereichten Fragen 6 und 7 gebeten. Die Antworten werden als Anlagen abgedruckt. Wir kommen zum Geschäftbereich des Bundesministers für Raumordnung, Bauwesen und Städtebau. Der Herr Abgeordnete Josten hat um schriftliche Beantwortung der von ihm eingereichten Frage 119 gebeten. Die Antwort wird als Anlage abgedruckt. Der Herr Abgeordnete Link hat um schriftliche Beantwortung der von ihm eingereichten Fragen 120 und 121 gebeten. Dem wird entsprochen. Die Antworten werden als Anlagen abgedruckt. Wir kommen nunmehr zum Geschäftsbereich des Bundesministers für Forschung und Technologie. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Hauff zur Verfügung. Ich rufe die Frage 8 des Herrn Abgeordneten Dr. Evers auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg91">Ist die Bundesregierung bereit, im Rahmen der durch den Bundesminister für Forschung und Technologie vergebenen Forschungsaufträge zur Untersuchung der Möglichkeiten zur Verringerung der Motorengeräusche von Kraftfahrzeugen auch die Untersuchung der Schalldämpfung bei Flugzeugmotoren einzubeziehen?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-05-14-07-169.u55" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg92">Herr Kollege Evers, die Bundesregierung fördert im Rahmen ihrer Forschungsprogramme sowohl Arbeiten mit dem Ziel der Lärmminderung bei Kraftfahrzeugen als auch Vorhaben, deren Ziel des Minderung des von propeller- und strahlgetriebenen Flugzeugen ausgehenden Lärms ist. Die mehr grundlagenorientierten Untersuchungen zur Lärmminderung von Flugzeugen werden von der Deutschen Forschungs-und Versuchsanstalt für Luft- und Raumfahrt e. V. durchgeführt. Die dort erzielten Ergebnisse sind allgemein zugänglich. Sie werden von der einschlägigen Industrie für ihre Arbeiten genutzt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u56" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg93">Keine Zusatzfragen.</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg94">Der Herr Abgeordnete Dr. Laermann hat um schriftliche Beantwortung der von ihm eingereichten Fragen 9 und 10 gebeten. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Fragen 11 und 12 des Herrn Abgeordneten Zywietz auf. Ich sehe den Herrn Abgeordneten nicht im Saal. Die beiden von ihm einge-I reichten Fragen werden daher schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Fragen 13 und 14 des Herrn Abgeordneten Dr. Hirsch auf. Ich habe ihn zwar eben noch gesehen, aber er ist jetzt nicht im Saal. Die Fragen werden schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 15 des Herrn Abgeordneten Dr. Haenschke auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg95">Welche wirtschaftlichen Anreize, Verbote oder Gebote könnten nach Ansicht der Bundesregierung zur verstärkten Nutzung der Sonnenenergie führen? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-05-14-07-169.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg96">Herr Kollege Dr. Haenschke, die Bundesregierung hat im Rahmen der nichtnuklearen Energieforschung und Technologie im Jahre 1975 rund 14 Millionen DM für Projekte auf dem Gebiet der Solartechnik bereitgestellt. Ziel der laufenden und in Vorbereitung befindlichen Forschungs- und Entwicklungsvorhaben ist es, Sonnenenergie für terrestrische Anwendung unter wirtschaftlichen Bedingungen technisch nutzbar zu machen. Die erste Entwicklungsphase ist bereits abgeschlossen, nachdem einzelne Kollektoren für solarthermische Wandlung mit erfolgversprechenden Ergebnissen getestet wurden. Eine zweite Phase in der Sonnenenergietechnik hat gerade begonnen. Sie ist dadurch gekennzeichnet, daß erste Großversuchs- und Demonstrationsanlagen errichtet und betrieben werden. Dabei ist es wichtig, daß in der Industrie erste Großserien von Kollektoren produziert werden, damit Verfahrenstechniken zur Massenproduktion entwickelt werden können. Gleichzeitig können verschiedene Meß- und Regelprobleme untersucht und auf ihren Erfolg hin analysiert werden. Außerdem ist es notwendig, Langzeitteste durchzuführen, damit Erfahrungen über das Alterungsverhalten der Kollektoren und der damit gekoppelten Systeme vorliegen. Die Ergebnisse dieser Testserien werden wesentlich den Zeitpunkt beeinflussen, wann Solarsysteme auf den Markt gelangen. Solare Großanlagen haben darüber hinaus die Aufgabe, der Bevölkerung nahezubringen, daß Sonnenenergie nichts Utopisches ist, sondern einen Beitrag zu unserer Energieversorgung leisten kann. Hierdurch soll die Nachfrage nach Sonnenenergietechnik angeregt werden. Heute sind die technischen und wirtschaftlichen Randbedingungen der Nutzung von Sonnenenergie noch zu wenig bekannt, so daß Aussagen über die dritte Phase der Solartechnik, die Einführung in den Markt, noch nicht möglich sind. Die Bundesregierung tritt jedoch mit großem Engagement für die Weiterentwicklung der Solartechnik ein. Sie wird ebenso sorgsam beobachten, ob bzw. zu welchem Zeitpunkt durch wirtschaftliche Anreize oder gesetzgeberische Maßnahmen die verstärkte Nutzung der Sonnenenergie erleichtert werden sollte. In diesem Zusammenhang verweise ich auf die schriftliche Antwort in der Fragestunde vom 21. März 1975.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u58" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg97">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Haenschke (SPD) :</note>
+        <u who="#Q1443359" xml:id="ParlaMint-DE_1975-05-14-07-169.u59" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg98">Herr Staatssekretär, liegt der Bundesregierung schon ein Antrag einer Privatfirma zur Förderung der Markteinführung von Sonnenkollektorsystemen vor?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-05-14-07-169.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg99">Herr Abgeordneter, ich vermag diese Frage im Augenblick nicht zu beantworten und bitte Sie um Verständnis. Zur Zeit werden in unserem Hause 2 900 Einzelprojekte bearbeitet. Ich werde die Frage aber gern prüfen lassen und Ihnen dann schriftlich die Information übermitteln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u61" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg100">Keine weiteren Zusatzfragen. Die Frau Abgeordnete Dr. Walz hat um schriftliche Beantwortung der beiden von ihr eingereichten Fragen — 16 und 17 — gebeten. Dem wird entsprochen. Die Antworten werden als Anlagen abgedruckt. Die Fragen 18 und 19 sind vom Herrn Abgeordneten Dr. Sperling eingebracht:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg101">Wie beurteilt die Bundesregierung die Berechnungen von Dr. P. Chapman in New Scientist vom 19. Dezember 1974, die besagen, daß zum Bau von Kernreaktoren und deren Brennstoffbeschickung mehr elektrische Energie verbraucht wird, als die Reaktoren in den ersten Jahren ihres Betriebes erzeugen? Sind die Überlegungen richtig, daß ein schneller Ausbau von Kernreaktoren infolgedessen zeitweilig, nach Zahl und Leistungsfähigkeit der Reaktoren unterschiedlich lang, mehr Energie aus fossilen Brennstoffen verbrauchen wird, als die erstellten Reaktoren liefern können und ein schneller Ausbau deshalb zu einer zeitweiligen Energielücke führt? Bitte sehr, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-05-14-07-169.u62" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg102">Herr Kollege Sperling, die von Dr. Peter Chapman im „New Scientist" vom 19. Dezember 1974 veröffentlichten Berechnungen behandeln die Frage des Verhältnisses der für den Bau von Kernreaktoren und deren Brennstoffbeschickung aufgewandten fossilen Energie zur insgesamt erzeugten elektrischen Energie eines Kernkraftwerks und die Frage der Nettoenergiebilanzen eines Kernkraftwerksprogramms mit einer Zubaurate von 14 % pro Jahr. Das entspricht in etwa dem britischen Kernkraftwerkprogramm. Der Bundesminister für Forschung und Technologie hat Anfang 1975 eine Studie über diese Fragen, angewandt auf die Verhältnisse in der Bundesrepublik Deutschland, in Auftrag gegeben. Die Studie liegt in Kürze vor. Es kann aber bereits jetzt gesagt werden, daß sich für das in der Fortschreibung des Energieprogramms der Bundesregierung beschriebene Ausbauprogramm für Kernkraftwerke bei weitem keine negative Nettoenergiebilanz ergibt. Es zeigt sich vielmehr, daß der Bau von Kernkraftwerken auch von der Energiebilanz her vernünftig ist und zu der erwarteten Steigerung des Energieangebots führt. Einzelheiten werden nach Abschluß der Studie selbstverständlich bekanntgemacht werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u63" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg103">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD) :</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1975-05-14-07-169.u64" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg104">Herr Staatssekretär, hat die Bundesregierung nur eine Studie in Auftrag gegeben oder hat sie mehrere Berechnungen von verschiedenen Instituten erbeten?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-05-14-07-169.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg105">Die Bundesregierung hat nur eine Studie in Auftrag gegeben. Aber der Bundesregierung ist bekannt, daß an anderer Stelle zu dieser Frage ebenfalls Forschungsarbeiten durchgeführt werden, und sie hat die entsprechenden Stellen, soweit sie ihr bekannt wurden, aufgefordert, ihre Forschungsergebnisse vorzulegen, damit dann die unterschiedlichen Ergebnisse unter Umständen konfrontiert werden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg106">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD) :</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1975-05-14-07-169.u67" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg107">Herr Staatssekretär, was ich nicht ganz verstanden habe: haben Sie versucht, beide Fragen im Zusammenhang zu beantworten?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-05-14-07-169.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg108">Das ist richtig.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD) :</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1975-05-14-07-169.u69" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg109">Dann würde ich gern noch eine weitere Frage stellen. — Sollte sich aus den Studien und den sonst der Bundesregierung zur Verfügung gestellten Materialien ergeben, daß die Energiebilanz zwar gerade noch positiv ist für einen gewissen Zeitraum, aber dennoch die in den Kernreaktorbau hineingesteckten Investitionen und Energien genutzt werden könnten, um Energie sparen zu helfen durch höhere Wärmedämmung, wäre es dann nicht sinnvoller — auch aus der Sicht der Bundesregierung —, ein Energiesparprogramm mit dem Einsatz an Investitionsmitteln und Energien zu machen, statt ein Kernreaktorbauprogramm?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-05-14-07-169.u70" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg110">Herr Abgeordneter, es gibt überhaupt keinen Zweifel, daß, wenn die Vermutungen, die Herr Chapman vorgetragen hat, sich auch nur in Ansätzen als richtig herausstellen, dies tiefgreifende Auswirkungen auf ein Energieprogramm haben müßte. Der derzeitige Erkenntnisstand der Bundesregierung deutet jedoch darauf hin, daß davon überhaupt keine Rede sein kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u71" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg111">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD) :</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1975-05-14-07-169.u72" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg112">Herr Staatssekretär, wenn dies so ist, wäre es dann nicht sehr sinnvoll, noch einmal vielleicht weitere Studien an Institute in Auftrag zu geben, die garantiert unabhängig von denjenigen sind, die am Kernkraftwerkbau ein Interesse haben?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-05-14-07-169.u73" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg113">Herr Abgeordneter, Sie können sicher sein, daß jedermann, der in diesem Bereich in der wissenschaftlichen Diskussion einen ernst zu nehmenden Beitrag zu leisten hat, von der Bundesregierung gehört werden wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u74" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg114">Eine Zusatzfrage des Herrn Abgeordneten Dr. Evers.</seg>
+        </u>
+        <note type="speaker">Dr. Evers (CDU/CSU) :</note>
+        <u who="#Q1359533" xml:id="ParlaMint-DE_1975-05-14-07-169.u75" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg115">Können Sie sagen, Herr Staatssekretär, wie das Verhältnis von Energie-Input zu Energie-Output bei Kernkraftwerken ist?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-05-14-07-169.u76" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg116">Herr Kollege Evers, exakt diese Fragestellung ist Gegenstand der Studie, die in diesen Tagen abgeschlossen wird und die dann in sehr differenzierter Form quantitative Ergebnisse zu dieser Frage bringen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u77" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg117">Damit sind die beiden Fragen des Herrn Abgeordneten Dr. Sperling beantwortet. Ich rufe die Frage 20 des Herrn Abgeordneten Dr. Gruhl auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg118">Wie erklärt die Bundesregierung, daß die Antwort des Bundesministers für Forschung und Technologie auf meine Frage nach den gesicherten Uranlieferungen am 17. April 1975 lautete, 1985 seien 15 Prozent des Bedarfs gesichert, während ein Vertreter der Bundesregierung (meines Wissens aus dem gleichen Ministerium) wenige Tage zuvor vor dem Wirtschaftsausschuß erklärte, daß schon ab 1980 nur noch 5 Prozent des jährlichen Uranbedarfs fest gedeckt sind? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-05-14-07-169.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg119">Herr Kollege Gruhl, im Wirtschaftsausschuß wurde am 9. April 1975 erklärt, daß der Uranbedarf der deutschen Kernkraftwerke bis 1980 weitgehend gedeckt ist. Es wurde weiter ausgeführt, daß ab 1980 die Bedarfsdeckung stark zurückgehen und 1985 — nicht etwa 1980 — bei rund 5 °/o liegen werde. Neuere Umfragen bei den Unternehmen, die die Uranlieferungsverträge in eigener Verantwortlichkeit abschließen, haben folgendes Ergebnis erbracht:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg120">Der Uranbedarf im Jahre 1985 wird unter Berücksichtigung des Bedarfs für die Erstkerne von Reaktoren, die dann in Bau sein werden, sowie für Nachladungen laufender Reaktoren etwa 11 000 Tonnen Uran betragen. Davon sind rund 1 100 Tonnen Uran durch Lieferverträge, also 10 °/o, gedeckt. Der Uranbedarf für den Betrieb der 1985 installierten 50 000 Megawatt, also lediglich der Bedarf für Nachladungen, beträgt etwa 8 000 Tonnen Uran. Dies entspricht unter Zugrundelegung der vertraglich gesicherten 1 100 Tonnen Uran einer Bedarfsdeckung von etwa 15 °/o.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg121">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Gruhl (CDU/CSU) :</note>
+        <u who="#Q100838" xml:id="ParlaMint-DE_1975-05-14-07-169.u80" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg122">Herr Staatssekretär, können Sie beantworten, um welche Lieferländer es sich bei diesen Verträgen handelt?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-05-14-07-169.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg123">Herr Kollege Gruhl, hier handelt es sich um die Lieferländer, die heute auf dem Anreicherungsmarkt tätig sind. Das ist neben den Vereinigten Staaten von Amerika die Sowjetunion.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg124">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Gruhl (CDU/CSU) :</note>
+        <u who="#Q100838" xml:id="ParlaMint-DE_1975-05-14-07-169.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg125">Herr Staatssekretär, können Sie bestätigen, daß in diesen Verträgen größtenteils die Preise offengehalten sind, so daß also über die Preisgestaltung bei Lieferung keine verbindlichen Abmachungen bestehen?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1975-05-14-07-169.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg126">Herr Kollege Dr. Gruhl, dies kann ich in dieser allgemeinen Form nicht bestätigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg127">Meine Damen und Herren, damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Forschung und Technologie beantwortet. Ich danke Ihnen, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers des Innern auf. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Baum zur Verfügung. Die Frage 21 ist von dem Herrn Abgeordneten Würtz eingereicht. — Der Abgeordnete ist nicht im Saal; die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Der Herr Abgeordnete Dr. Schulze-Vorberg hat um schriftliche Beantwortung der beiden von ihm eingereichten Fragen 22 und 23 gebeten. Dem wird entsprochen. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 24 des Herrn Abgeordneten Biehle auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg128">Treffen Pressemeldungen zu, wonach die beiden Vorsitzenden der Gewerkschaft der Polizei, Werner Kuhlmann und Dr. Kurt Ginzel, vertrauliches Material und Ausbildungsvorschriften der Polizei an den Terroristen Borvin Wulf in seiner Eigenschaft als ehemaliger SPD-Funktionär ausgehändigt haben, und was haben die Ermittlungen des Bundeskriminalamts oder anderer Stellen zu diesem Vorgang ergeben? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u86" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg129">Herr Kollege Biehle, Borvin Wulf, der am 21. Januar 1974 in Hamburg wegen Verdachts der Zugehörigkeit zu einer kriminellen Vereinigung nach § 129 StGB festgenommen worden ist, hat unter Verwendung von Kopfbogen „Der Vorstand der SPD Norderstedt" mit Behörden, Organisationen und bekannten Persönlichkeiten Schriftwechsel geführt. Solche Unterlagen wurden neben verschiedenen anderen Gegenständen wie z. B. Waffen und Munition nach seiner Festnahme in einer von ihm gemieteten Wohnung sichergestellt. Zu Beginn des Jahres 1974 hatte Borvin Wulf von dem Bundesvorsitzenden der Gewerkschaft der Polizei, Kuhlmann, Informationen über die Polizei und den Bundesgrenzschutz erbeten. Herr Kuhlmann hatte daraufhin mit Schreiben vom 8. Januar 1974 folgende von der Gewerkschaft der Polizei herausgegebene Broschüren übermittelt: 1. Polizeinotruf. Untersuchung über die Situation der Schutzpolizei in der Bundesrepublik Deutschland. 2. Dokumentation in Sachen Bundesgrenzschutz. 3. Grundsätze der Gewerkschaft der Polizei zur Steigerung der polizeilichen Leistungsfähigkeit durch Neuordnung der Bildung und Ausbildung der Polizei. Wegen der außerdem erbetenen Organisations-und Ausbildungspläne der Polizei und des Bundesgrenzschutzes hat Herr Kuhlmann auf seinen Stellvertreter, Herrn Dr. Ginzel, verwiesen. Dr. Ginzel hat Borvin Wulf dann Anfang Februar 1974 die Ausbildungspläne für den gehobenen und höheren Dienst übermittelt, dagegen nicht Organisationspläne der Polizei sowie nicht Ausbildungs- und Organisationspläne des Bundesgrenzschutzes. Bei den übermittelten Informationen, Herr Kollege, handelt es sich durchweg um nichtvertrauliches Material. Die genannten Informationsbroschüren waren für die Öffentlichkeit bestimmt und für jedermann zugänglich. Die Ausbildungspläne sind zwar für den internen Dienstgebrauch bestimmt, haben jedoch keinen vertraulichen Charakter.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg130">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Biehle (CDU/CSU) :</note>
+        <u who="#Q124182" xml:id="ParlaMint-DE_1975-05-14-07-169.u88" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg131">Herr Staatssekretär, wären Sie bereit, dafür Sorge zu tragen, daß unter Umständen noch einmal geprüft wird, inwieweit Ausbildungspläne in der von Ihnen angesprochenen Art oder auch andere Unterlagen künftig eben nicht mehr auf diese Weise weitergegeben werden können?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg132">Herr Kollege, Sie müssen sich in die Situation derjenigen versetzen, die damals hier Informationen weitergegeben haben. Sie haben an ein Mitglied einer demokratischen Partei Informationen weitergegeben, von dem sie nicht wußten, daß es gleichzeitig möglicherweise auch noch einer kriminellen Vereinigung angehört. Ich sagte Ihnen ja schon, daß die Ausbildungspläne im Grunde auch für jedermann zugänglich sind. Sie sind kein vertrauliches Material.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg133">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Biehle (CDU/CSU) :</note>
+        <u who="#Q124182" xml:id="ParlaMint-DE_1975-05-14-07-169.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg134">Herr Staatssekretär, wären Sie bereit, mir zuzugestehen, daß wir heute eine andere Situation haben und daß man auf Grund dieser veränderten Situation unter Umständen zu anderen Überlegungen kommen müßte?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg135">Wenn Sie Vorsitzender einer Organisation sind und von Ihnen Informationsmaterial angefordert wird, können Sie nicht jedesmal nachprüfen, wer es anfordert. Das ist eine schwierige Situation, die Sie berücksichtigen müssen. Außerdem handelt es sich hier, wie gesagt, nicht um Material vertraulichen Charakters. Wenn es sich um solches Material gehandelt hätte, wäre eine andere Beurteilungsweise möglicherweise angebracht.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Biehle [CDU/CSU] : Aber es war doch Material für den internen Dienstgebrauch!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u93" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg136">Ich rufe die Frage 25 des Herrn Abgeordneten Dr. Weber auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg137">Ist die Bundesregierung bereit, eine Änderung des Waffengesetzes in die Wege zu leiten mit dem Ziel, den Verkauf von Modellwaffen und 4-mm-Waffen im freien Verkauf zu untersagen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u94" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg138">Herr Kollege Dr. Weber, diese Frage ist im Entwurf eines Gesetzes zur Änderung des Waffengesetzes, der zur Zeit dem Deutschen Bundestag vorliegt, nicht angesprochen. Sie ist im Laufe der Erörterungen der Berichterstattergruppe „Waffenrecht" des Innenausschusses des Deutschen Bundestages zur Sprache gekommen und in die Beratungen mit einbezogen worden. Dazu sind auch mehrere Sachverständige gehört worden. Auf Grund der dabei gewonnenen Erkenntnisse stehen folgende Vorschläge zur Diskussion. Erstens. Der Erwerb von Handfeuerwaffen mit einer Bewegungsenergie der Geschosse von weniger als 7,5 Joule und einer Länge bis zu 60 cm, Kurzwaffen also, die zum Verschießen von Geschossen aus festen Körpern bestimmt sind, wird der Waffenbesitzkartenpflicht unterworfen. Hierunter fallen vornehmlich die 4-mm-Waffen, die ihrer Bauart nach von der Physikalisch-Technischen Bundesanstalt zugelassen werden. Bei den von Ihnen als Modellwaffen bezeichneten Waffen handelt es sich um dieselben Waffen. Zweitens. Schußwaffen mit der erwähnten Bewegungsenergie und einer Länge von mehr als 60 cm — Langwaffen — dürfen wie bisher frei erworben werden. Drittens. Im Interesse einer elastischen Anpassung soll die Erlaubnispflicht für die erwähnten Kurzwaffen im Rahmen einer Rechtsverordnung geregelt werden. Die Beratung und Beschlußfassung über die Vorschläge, Herr Kollege, ist nunmehr Sache der zuständigen parlamentarischen Gremien, deren Entscheidungen ich nicht vorgreifen möchte. Einzelheiten über diese waffentechnische Problematik kann ich Ihnen, wenn Sie es wünschen, gerne auch noch schriftlich übermitteln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u95" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg139">Bitte, eine Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Weber (Köln) (SPD) :</note>
+        <u who="#Q1498945" xml:id="ParlaMint-DE_1975-05-14-07-169.u96" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg140">Herr Staatssekretär, treffen Meldungen, die insbesondere mit Überfällen zusammenhängen, zu, daß fabrikneue Maschinenpistolen als Schaustücke vom Handel funktionsuntüchtig gemacht werden und dann durch eben diesen Handel wieder angeboten werden?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u97" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg141">Herr Kollege, das kann ich Ihnen nicht bestätigen. Dies war nicht Gegenstand der Fragestellung. Ich will dieser Frage aber gerne nachgehen. Die Ausgangsfrage bezog sich auf die von Ihnen erwähnten Waffen mit dem Kaliber 4 mm.</seg>
+        </u>
+        <note type="speaker">Dr. Weber (Köln) (SPD):</note>
+        <u who="#Q1498945" xml:id="ParlaMint-DE_1975-05-14-07-169.u98" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg142">Noch eine Zusatzfrage: Herr Staatssekretär, stimmen Sie mir darin zu — und würden Sie unter diesem Gesichtspunkt für eine beschleunigte Beratung des Entwurfs sorgen —, daß diese 4-mm-Waffen und in Ergänzung dazu auch die eben erwähnten Modellwaffen nicht mehr frei verkäuflich sein sollten, weil sie von echten Waffen nicht unterschieden werden können, im Grund genommen aber die gleiche Abschreckungswirkung haben und dadurch insbesondere Fälle von Putativnotwehr verursachen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg143">Herr Kollege, bei der Antwort auf Ihre Frage bin ich von Überlegungen dieser Art ausgegangen. Ich glaube, ich habe der Antwort nichts hinzuzufügen. Die Überlegungen, die dem Innenausschuß jetzt vorgelegt worden sind, habe ich Ihnen dargelegt. Sie betreffen im Grunde die Motivation, die Sie hier noch einmal angesprochen haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg144">Herr Abgeordneter Wende!</seg>
+        </u>
+        <note type="speaker">Wende (SPD) :</note>
+        <u who="#Q1303910" xml:id="ParlaMint-DE_1975-05-14-07-169.u101" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg145">Herr Staatssekretär, wie beurteilen Sie die Möglichkeit, die Werbung für solche Waffen in der Tagespresse und ähnlichen Publikationsmitteln einzuschränken oder gar zu verbieten?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u102" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg146">Herr Abgeordneter Wende, ich bedaure sehr, aber diese Zusatzfrage steht nicht in dem erforderlichen unmittelbaren Zusammenhang mit der eingereichten Frage. Ich rufe die Frage 26 des Herrn Abgeordneten Berger auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg147">Sieht die Bundesregierung eine Möglichkeit, die früheren Beschäftigungsverhältnisse des Personals der deutschen Lufthansa als öffentlichen Dienst anzuerkennen, nachdem die Beteiligung der öffentlichen Hand am Anlagekapital der Gesellschaft gegen Ende des zweiten Weltkriegs rund 95 % betrug und die Gesellschaft trotz ihrer privaten Rechtsform nach einem Erlaß des Reichs- und Preußischen Arbeitsministers vom 30. März 1935 (Az. Z III b 5977/35)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg148">„als öffentlicher Betrieb anzusehen" war?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg149">Die Anerkennung der Beschäftigungsverhältnisse des Personals der früheren Deutschen Lufthansa AG als öffentlicher Dienst setzt die Einbeziehung dieses Personenkreises in den Geltungsbereich des G 131 durch eine Änderung dieses Gesetzes voraus. Dies ist nach Auffassung der Bundesregierung aus folgenden Gründen nach wie vor nicht möglich. Nach Sinn und Entstehungsgeschichte des Art. 131 des Grundgesetzes sollte — und dies stimmt mit der Rechtsprechung des Bundesverfassungsgerichts überein — „nur denjenigen Personen eine besondere staatliche Fürsorge zuteil werden, die im Dienst des öffentlichen Gemeinwesens gestanden hatten, nicht jedoch denjenigen, die bei privatrechtlichen Arbeitgebern", wie bei der früheren Deutschen Lufthansa AG, tätig gewesen waren. Der Umfang der Beteiligung der öffentlichen Hand am Kapital einer Gesellschaft ist in diesem Zusammenhang unerheblich. Im übrigen würde sich eine solche gesetzliche Maßnahme nicht nur auf die frühere Deutsche Lufthansa AG beschränken können, Herr Kollege, sondern auch zahlreiche andere Kapitalgesellschaften, an denen die öffentliche Hand am 8. Mai 1945 beteiligt war, erfassen müssen. Wie Ihnen bekannt ist, hat die Bundesregierung in ihrem Bericht vom 12. März 1974 zum Abschluß der Wiedergutmachungs- und Kriegsfolgengesetzgebung ihre Auffassung zum Ausdruck gebracht, daß dieser Bereich 30 Jahre nach Kriegsende als abgeschlossen betrachtet werden müsse.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u104" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg150">Zusatzfrage, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Berger (CDU/CSU) :</note>
+        <u who="#Q1303710" xml:id="ParlaMint-DE_1975-05-14-07-169.u105" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg151">Ist Ihnen bekannt, Herr Staatssekretär, daß nach einem Erlaß des Reichsarbeitsministeriums vom 7. Februar 1927 die bei der Deutschen Lufthansa beschäftigten Personen als im öffentlichen Dienst stehend anzusehen sind, und dieser Erlaß des Reichsarbeitsministeriums später eine Bestätigung durch ein Urteil des Reichsversorgungsgerichts vom 4. März 1929 und durch ähnliche weitere Erlasse gefunden hat?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u106" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg152">Herr Kollege, ich habe noch einmal sehr aufmerksam die Antwort gelesen, die Herr Kollege Haehser vor einigen Wochen dem Kollegen von Fircks gegeben hat. Herr Kollege Haehser hat auf die Entstehung dieses Problems hingewiesen und dargelegt, wieso es dazu gekommen ist, daß die Angehörigen der Lufthansa nicht einbezogen waren. Ich möchte auf die Antwort verweisen, die der Kollege Haehser damals gegeben hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u107" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg153">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Berger (CDU/CSU) :</note>
+        <u who="#Q1303710" xml:id="ParlaMint-DE_1975-05-14-07-169.u108" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg154">Erscheint es dann, Herr Staatssekretär, nicht doch geboten, im engeren Grenzbereich dieses verfassungsmäßigen Auftrages des Gesetzes zu Art. 131 liegende Rechtsverhältnisse so zu regeln, daß es zu einer tragbaren Befriedigung auch der Personenkreise solcher Einrichtungen kommt, die durch das G 131 unmittelbar nicht erfaßt werden, und kann man nicht im Rahmen einer Härtebestimmung, etwa in Anlehnung an die Lastenausgleichsgesetzgebung und die dortigen Härtevorschriften, zu einer befriedigenden Regelung kommen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u109" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg155">Herr Kollege, ich möchte zunächst noch einmal auf das verweisen, was Herr Kollege Haehser hier vor einigen Wochen ausgeführt hat. Er hat auch einen konkreten Vorschlag gemacht. Die Bundesregierung prüft im übrigen auf Grund der Entschließung des Deutschen Bundestages vom 27. März 1974, ob und gegebenenfalls wie in Fällen besonderer wirtschaftlicher Notlage über eine Härteregelung im Rahmen von § 56 des G 131 geholfen werden kann. Diese Prüfung ist aber noch nicht abgeschlossen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u110" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg156">Eine Zusatzfrage des Abgeordneten von Fircks.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1975-05-14-07-169.u111" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg157">Herr Staatssekretär, könnten Sie die letzte Passage wenigstens dahin konkretisieren, daß Sie einen Zeitraum nennen, wann ungefähr damit gerechnet werden darf, daß diese Prüfung abgeschlossen ist und das Ergebnis dieser Prüfung vorliegt? — Sie schauen zu Ihrem Nachbarn: Würden Sie die Antwort lieber Ihrem Nachbarn überlassen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg158">Ich schaue zu meinem Nachbarn, weil dieser das Geld verwaltet.</seg>
+          <vocal type="exclamat">
+            <desc>Freiherr von Fircks [CDU/CSU] : Vielleicht können Sie sich schnell verständigen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg159">— Herr Kollege, ich kann Ihnen heute noch nicht sagen, wann die Prüfung abgeschlossen sein wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg160">Die Frage 27 ist von dem Herrn Abgeordneten Dr. Abelein eingebracht worden. — Der Herr Abgeordnete ist nicht im Saal. Dann werden diese und die weitere von ihm eingebrachte Frage schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Ich rufe die Frage 29 des Herrn Abgeordneten Lambinus auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg161">Beabsichtigt die Bundesregierung, künftig bei Einladungen zu Gesprächen zwischen Bundesministern und Abgeordneten streng zu unterscheiden zwischen direkt gewählten Parlamentariern und Listenabgeordneten? Herr Staatssekretär, wollen Sie die beiden Fragen gemeinsam beantworten? — Ich nehme an, der Herr Fragesteller ist damit einverstanden.</seg>
+          <vocal type="exclamat">
+            <desc>Lambinus [SPD]: Ja!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg162">— Dann rufe ich noch die Frage 30 auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg163">Hält es die Bundesregierung mit dem Grundgesetz für vereinbar, daß direkt gewählte Abgeordnete als Parlamentarier „besonderer Art" eingestuft werden und über Listen gewählte Abgeordnete somit als Abgeordnete zweiter Klasse diskriminiert werden? Bitte!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u114" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg164">Die Frage 29, Herr Kollege, ist mit einem klaren Nein zu beantworten. Es ist auch nicht bekannt, daß die Bundesregierung jemals so verfahren wäre. Nach Art. 38 Abs. 1 des Grundgesetzes werden die Abgeordneten des Deutschen Bundestages in allgemeiner, unmittelbarer, freier, gleicher und geheimer Wahl gewählt. Bei der vom Grundgesetz offengelassenen Ausgestaltung des Wahlrechts zum Bundestag hat sich der Gesetzgeber im Bundeswahlgesetz für eine personalisierte Verhältniswahl entschieden. Die Abgeordneten werden zur einen Hälfte über Kreiswahlvorschläge in 248 Wahlkreisen und zur anderen Hälfte über Landeswahlvorschläge der Parteien gewählt. Sowohl die in den Wahlkreisen gewählten Abgeordneten als auch die über Landeslisten gewählten Abgeordneten sind Vertreter des ganzen Volkes und besitzen nach der Verfassung die gleiche Rechtsstellung als Mitglieder des Bundestages. Ergänzend möchte ich darauf hinweisen, daß es das erklärte Ziel der im Bundeswahlgesetz verwirklichten Verbindung von Verhältniswahl mit Elementen der Personenwahl ist, die Beziehungen zwischen den Abgeordneten des Deutschen Bundestages und ihren Wählern möglichst eng und persönlich zu gestalten. Durch Praktizierung dieses Wahlsystems haben sich zwischen den in Wahlkreisen kandidierenden Bewerbern — seien sie dort als Direktkandidaten erfolgreich oder über Landeslisten in den Bundestag eingezogen — und den jeweiligen Wahlkreisen besondere Vertrauensverhältnisse ergeben. Dies rechtfertigt es aber nicht, generell zwischen direkt und über Landeslisten gewählten Abgeordneten zu unterscheiden und eine entsprechende Beteiligungspraxis zu verfolgen. Die Rechtslage ist eindeutig, und sie gilt, soweit ich sehe, auch für den Freistaat Bayern.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit bei der FDP und der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg165">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lambinus (SPD) :</note>
+        <u who="#Q2504480" xml:id="ParlaMint-DE_1975-05-14-07-169.u116" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg166">Herr Staatssekretär, darf ich Ihrer Antwort entnehmen, daß Sie nicht die Auffassung des bayerischen Innenministers teilen, der — ich darf zitieren wörtlich ausführte, daß dem in einem Stimmkreis direkt gewählten Abgeordneten eine zusätzliche Funktion in der Wahrnehmung der Belange dieses Wahlkreises zukommt.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg167">Aus meiner Antwort können Sie entnehmen, daß ich diese Auffassung nicht teile.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg168">Sie haben noch eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lambinus (SPD) :</note>
+        <u who="#Q2504480" xml:id="ParlaMint-DE_1975-05-14-07-169.u119" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg169">Darf ich Ihrer Antwort weiter entnehmen, daß Sie die Meinung des bayerischen Innenministers nicht teilen, der ausführte, daß die Verfassung sehr wohl einen nicht nur förmlichen Unterschied zwischen Stimmkreis- bzw. Wahlkreisabgeordneten und Listenabgeordneten mache?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg170">Ich habe soeben zum Ausdruck gebracht, wie die Situation aus der Sicht der Bundesverfassung und des Bundesgesetzgebers zu beurteilen ist. Ich gehe davon aus, daß sich aus der Sicht des Freistaats Bayern keine andere Beurteilung ergibt.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Lambinus [SPD] : Ich danke Ihnen!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg171">Meine Damen und Herren, das ist offensichtlich ein sehr interessantes Thema, wie ich aus der Heiterkeit im Haus feststelle. Jetzt eine Zusatzfrage des Herrn Abgeordneten Dr. Wittmann.</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1975-05-14-07-169.u122" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg172">Herr Staatssekretär, darf ich aus Ihrer Antwort bezüglich des Bundesrechts entnehmen, daß Sie in Zukunft auch dafür Sorge tragen werden, daß Informationen der Bundesregierung nicht zuerst Abgeordneten mitgeteilt werden, die der Koalition angehören, und die Abgeordneten der Opposition das erst durch die Presse erfahren?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU — Zurufe von der SPD</desc>
+        </kinesic>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u123" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg173">Herr Kollege, das ist eine andere Frage, möchte ich sagen. Ich habe hier deutlich gemacht, daß es keine Abgeordneten erster und zweiter Klasse gibt.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Wittmann [München] [CDU/CSU] : Das geschieht aber durch die Bundesregierung!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u124" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg174">Meine Damen und Herren, ich sehe, die Erheiterung hier ist schnell einem tiefen Ernst gewichen. Wir wollen aber bei der Beantwortung der Zusatzfragen bleiben. — Zunächst die Zusatzfrage des Herrn Abgeordneten Horn.</seg>
+        </u>
+        <note type="speaker">Horn (SPD) :</note>
+        <u who="#Q1363054" xml:id="ParlaMint-DE_1975-05-14-07-169.u125" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg175">Herr Staatssekretär, wenn das, wovon Sie soeben sprachen, eine verfassungsrechtliche Bedingung ist, sehen Sie sich dann in der Lage, den Herrn Kollegen Merk darüber aufzuklären, nach welchen Bedingungen verfassungsrechtlicher Art er künftig auch in Bayern zu verfahren haben wird?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u126" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg176">Herr Kollege, ich nehme an, daß Herr Kollege Merk über tüchtige Verfassungsjuristen im Lande selbst verfügt, die ihm darüber Aufklärung geben können.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit bei der FDP und der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u127" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg177">Eine Zusatzfrage des Herrn Abgeordneten Niegel.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1975-05-14-07-169.u128" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg178">Herr Staatssekretär, wenn Sie davon sprechen, daß ein im Wahlkreis — oder im Stimmkreis, wie es in Bayern heißt — gewählter Abgeordneter ein enges persönliches Vertrauensverhältnis zu seiner Bevölkerung hat, und wenn Herr Staatsminister Merk wegen der Gemeindegebietsreform und wegen des Vertrauensverhältnisses zu Gesprächen gerade mit den direkt gewählten Abgeordneten eingeladen hat, so glaube ich, daß hier kein Verstoß gegen die Verfassung vorliegt.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u129" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg179">Herr Kollege Niegel, ich habe deutlich gemacht, daß dieses Vertrauensverhältnis in vielen Fällen auch zwischen den Listen-Bewerbern und dem Wahlkreis besteht.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP und der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u130" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg180">Meine Damen und Herren, ich lasse noch eine letzte Zusatzfrage des Herrn Abgeordneten Haenschke zu; dann gehen wir weiter.</seg>
+        </u>
+        <note type="speaker">Dr. Haenschke (SPD) :</note>
+        <u who="#Q1443359" xml:id="ParlaMint-DE_1975-05-14-07-169.u131" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg181">Herr Staatssekretär, Sie haben vorhin gesagt, die Rechtslage sei eindeutig und gelte auch für Bayern. Darf ich die Frage anschließen, ob sie wohl auch für Baden-Württemberg gilt, weil diese „Merk-würdige" Rechtsauffassung auch vom dortigen Bundesratsminister vertreten worden ist.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u132" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg182">Herr Kollege, ich gehe davon aus, daß dies auch für Baden-Württemberg gilt. Ich bin aber gerne bereit, eine genaue Prüfung der Rechtslage in den einzelnen Bundesländern vorzunehmen und damit bei Bayern und Baden-Württemberg zu beginnen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit und Beifall bei der FDP und der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u133" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg183">Ich rufe die Frage 31 des Herrn Abgeordneten Gansel auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg184">Was ist aus den Überlegungen der Bundesregierung geworden, die Kosten für den Betrieb von Dienstwagen drastisch einzuschränken? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg185">In der Antwort auf Ihre Frage vom 4. Dezember 1974, Herr Kollege, hatte ich eine Rationalisierungskonzeption für den Einsatz der Dienstkraftfahrzeuge im Bereich der Bundesregierung angekündigt. Diese Konzeption ist fertiggestellt und wird zur Zeit mit den Ressorts abgestimmt. Die Abstimmung steht kurz vor dem Abschluß. Die Bundesregierung wird in Kürze darüber entscheiden. Sie wird dann dem Haushaltsausschuß des Deutschen Bundestages unverzüglich berichten. Vorbehaltlich der Zustimmung durch das Bundeskabinett enthält die Konzeption folgende wesentlichen Vorschläge: 1. Die Zahl der Kraftfahrzeuge der Bundesregierung wird auf einen Stand reduziert, der nicht nach einem gelegentlich auftretenden Spitzenbedarf festgelegt ist. Das bedeutet u. a. eine schrittweise Reduzierung um 20 °/o. 2. Der Spitzenbedarf wird durch eine gemeinschaftliche Einsatzzentrale zunächst für die obersten Bundesbehörden im Raume Bonn abgefangen. Diese Einsatzzentrale soll über einen Teil der mit Funk ausgerüsteten Fahrzeuge der einzelnen Ministerien ausschließlich verfügen können. 3. Die Bindung von Dienstkraftfahrzeugen wird ausschließlich auf Minister und Staatssekretäre beschränkt. 4. Die bisherige Berechtigung für Unterabteilungsleiter, sich zwischen Wohnung und Dienststelle befördern zu lassen, wird entfallen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg186">5. Das Werkstattwesen wird rationalisiert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u135" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg187">Keine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1975-05-14-07-169.u136" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg188">Ich bin erschlagen, Herr Präsident!</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg189">So. Herr Kollege, ich hoffe, daß Sie das nicht immer sind, sonst würde manchmal der Rhein ohne Schlauchboote sein.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg190">Ich rufe Ihre nächste Frage auf, Herr Abgeordneter Gansel, die Frage 32:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg191">Zu welchem Ergebnis haben die beiden von der Bundesregierung in Auftrag gegebenen Kosten-Nutzen-Untersuchungen geführt? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u138" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg192">Die durchgeführten Kosten-Nutzen-Untersuchungen dienten dazu, die in Aussicht genommenen Rationalisierungsmaßnahmen auf ihre Wirtschaftlichkeit hin zu überprüfen. Die beiden Untersuchungen haben die Vorüberlegungen bestätigt und sind in die Konzeption eingeflossen, die ich Ihnen eben vorgetragen habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg193">Jetzt haben Sie aber Zusatzfragen. Bitte, Herr Kollege Gansel!</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1975-05-14-07-169.u140" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg194">Die Anspielung des Präsidenten gibt mir Gelegenheit zu fragen, ob jene Richtlinien und ob diese Ergebnisse auch auf Dienstboote angewendet werden sollen.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg195">Nach meinem Wissen hat der Bund keine Dienstschiffe, die sich hier auf irgendeinem Gewässer bewegen können.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf: Doch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg196">— Wenn das der Fall ist, dann müßte man auch dort prüfen, was von einer Beförderung von Unterabteilungsleitern auf Dienstschiffen zu halten ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg197">Herr Kollege, Sie sind auch da wieder ins Wasser gefallen.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit — Dr. Wittmann [München] [CDU/CSU] : Salonwagen!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg198">Dann rufe ich die Frage 143 des Abgeordneten Dr. Wittmann (München)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg199">auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg200">Wie beurteilt die Bundesregierung die Aufforderung in dem Organ des polnisch-kommunistischen Zgoda-Verbandes „Glos polski" die sogenannten Deutschland-Polen müßten trotz Annahme der deutschen Staatsangehörigkeit ihre Pflichten gegenüber dem polnischen Staat erfüllen? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u143" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg201">Zunächst, Herr Kollege, bitte ich um Verständnis, daß ich zu dem genauen Wortlaut der von Ihnen erwähnten Äußerung in der Zeitschrift „Glos polski" nicht Stellung nehmen kann, da mir dieser noch nicht vorliegt. Mit diesem Vorbehalt möchte ich zu der von Ihnen aufgeworfenen Frage folgendes sagen:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg202">Nach dem zwischen Bund und Ländern vereinbarten Einbürgerungsgrundsätzen setzt der Erwerb der deutschen Staatsangehörigkeit regelmäßig die Aufgabe der bisherigen Staatsangehörigkeit voraus. Das Ziel dieser Regelung ist es, Mehrstaatigkeit und damit Loyalitätskonflikte des Betroffenen zu vermeiden. Deutsche Staatsangehörige haben daher grundsätzlich ausländischen Staaten gegenüber keine Pflichten zu erfüllen. Für deutsche Staatsangehörige polnischer Abstammung gilt insoweit nichts anderes als für alle anderen deutschen Staatsangehörigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u144" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg203">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1975-05-14-07-169.u145" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg204">Herr Staatssekretär, glauben Sie nicht, daß durch eine solche Aufforderung — ich gehe jetzt davon aus, daß diese Meldung stimmt; ich habe sie gelesen — doch diese Personen in einen Loyalitätskonflikt hineingetrieben werden?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1975-05-14-07-169.u146" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg205">Ich kann mir das eigentlich nicht vorstellen. Jeder deutsche Staatsangehörige ist in der Regel über seine Rechte und Pflichten als Staatsangehöriger belehrt. Insbesondere, wenn er eingebürgert ist, weiß er ganz genau, was es bedeutet, eine andere Staatsangehörigkeit aufzugeben. Ich kann mir also die von Ihnen geschilderte Wirkung eigentlich nicht vorstellen, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u147" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg206">Keine weiteren Zusatzfragen? — Herr Kollege, Sie wollen noch eine Zusatzfrage stellen? — Bitte!</seg>
+        </u>
+        <note type="speaker">Sauer (Salzgitter) (CDU/CSU) :</note>
+        <u who="#Q118277" xml:id="ParlaMint-DE_1975-05-14-07-169.u148" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg207">Wie beurteilt die Bundesregierung in diesem Zusammenhang die Tatsache, daß die Zgoda-Mitglieder fast kostenlos in die ehemaligen deutschen Ostgebiete fahren dürfen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u149" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg208">Herr Kollege, diese Frage steht nicht in dem erforderlichen unmittelbaren Zusammenhang mit der eingereichten Frage. — Herr Staatssekretär, ich danke Ihnen. Ich rufe den Geschäftsbereich des Bundesministers der Finanzen auf. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Haehser zur Verfügung. Die erste Frage ist von Herrn Abgeordneten Wende. Ich rufe die Frage 33 auf :</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg209">Liegen der Bundesregierung Angaben des Bundesfinanzministers und der Länderfinanzminister darüber vor, in welcher Höhe die Amateursportvereine im Rahmen ihrer sportlichen Tätigkeit im Jahr 1974 Steuern gezahlt haben?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u150" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg210">Der Bundesregierung liegt keine umfassende Statistik über die steuerliche Belastung der Amateursportvereine vor. Das verfügbare statistische Material ist nicht so weit aufgeschlüsselt, daß aus ihm Angaben über das Steueraufkommen bestimmter Arten von Vereinen zu erhalten wären. Durch eine — allerdings nicht repräsentative — Umfrage bei fünf Finanzämtern in verschiedenen Bundesländern hat die Bundesregierung jedoch Anhaltspunkte für die steuerliche Belastung der Amateursportvereine gewonnen. Die Umfrage ergab, daß von 1 363 Vereinen nur 20 — das sind 1,5 v. H. — zur Körperschaftsteuer, nur 25, also knapp 2 v. H., zur Gewerbesteuer und nur 184 Vereine — das sind 13,5 v. H. — zur Umsatzsteuer herangezogen worden sind. Man kann also davon ausgehen, Herr Kollege Wende, daß der weitaus überwiegende Teil der Sportvereine überhaupt keine Steuern zahlen muß. Soweit Steuern anfallen, betreffen sie im wesentlichen Einnahmen aus Werbung, Vereinsgaststätten und ähnlichen wirtschaftlichen Geschäftsbetrieben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u151" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg211">Haben Sie Zusatzfragen, Herr Kollege?</seg>
+          <vocal type="question">
+            <desc>Wende [SPD] : Zu dieser Frage nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg212">— Dann rufe ich Ihre nächste Frage, die Frage 34, auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg213">Kann die Bundesregierung Angaben des Deutschen Sportbundes bestätigen, daß von den Amateursportvereinen in der Bundesrepublik Deutschland jährlich zwischen 22 Millionen und 25 Millionen DM an steuerlichen Abgaben (z. B. Körperschaftsteuer)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg214">gezahlt werden?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg215">Aus meiner Antwort auf Ihre erste Anfrage, Herr Kollege Wende, ergibt sich, daß die Bundesregierung keine Aussage zu den Zahlenangaben des Deutschen Sportbundes machen kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg216">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Wende (SPD) :</note>
+        <u who="#Q1303910" xml:id="ParlaMint-DE_1975-05-14-07-169.u154" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg217">Herr Staatssekretär, darf ich Ihrer Antwort entnehmen, daß die von mir zitierten Zahlenangaben wenig realistisch sind?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg218">Ich hatte Ihnen die Schwierigkeiten geschildert, die für die Bundesregierung vorhanden sind, solche Zahlen zu ermitteln. Ich weiß nicht, ob das Instrumentarium des Deutschen Sportbundes besser als das der Bundesregierung ist; deswegen sind die Zahlenangaben entsprechend zu bewerten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u156" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg219">Eine Zusatzfrage des Herrn Abgeordneten Dr. Riedl (München).</seg>
+        </u>
+        <note type="speaker">Dr. Riedl (München) (CDU/CSU) :</note>
+        <u who="#Q1353062" xml:id="ParlaMint-DE_1975-05-14-07-169.u157" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg220">Herr Staatssekretär, wie erklären Sie es sich dann überhaupt, daß solche Zahlenangaben in die Öffentlichkeit gelangen, wo wir doch das Instrument der Deutschen Sportkonferenz haben, in der Regierung und Deutscher Sportbund an einem Tisch sitzen und wo seit Jahren seitens des Sports diese Zahlen über die steuerliche Belastung der Amateurvereine offiziell genannt werden?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg221">Ich kann das nicht sagen, Herr Kollege Dr. Riedl.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg222">Meine Damen und Herren, Frage 35 des Abgeordneten Dr. Jahn (Braunschweig)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg223">wird, da der Herr Abgeordnete nicht im Saal ist, schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Dasselbe gilt für die Fragen 36 und 37 des nicht anwesenden Abgeordneten Dr. Freiherr Spies von Büllesheim; auch diese Antworten werden als Anlage abgedruckt. Ich rufe Frage 38 des Herrn Abgeordneten Dr. Wagner (Trier)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg224">auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg225">Worauf führt der Bundesfinanzminister es zurück, daß nach seiner Erklärung in der letzten Personalversammlung die Mehrheit der Bediensteten seines Ministeriums „gegen ihn ist" (Hinweis auf die „Welt" vom 25. April 1975)? Bitte, Herr Parlamentarischer Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u160" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg226">Herr Kollege Dr. Wagner, eine Erklärung des von Ihnen zitierten Inhalts ist mir nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u161" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg227">Haben Sie Zusatzfragen, Herr Kollege? — Bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Wagner (Trier) (CDU/CSU) :</note>
+        <u who="#Q87656" xml:id="ParlaMint-DE_1975-05-14-07-169.u162" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg228">Herr Staatssekretär, dann trifft es also nicht zu, daß der Herr Bundesfinanzminister auf der Personalkonferenz, auf der u. a. die Frage der Beförderung des Herrn Referenten Manke erörtert wurde, geäußert hat „Ich weiß ja, daß in diesem Hause die Mehrheit gegen mich ist." ?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg229">Ich habe, Herr Kollege Dr. Wagner, an dieser Konferenz teilgenommen und sogar in der ersten Reihe gesessen, wie das bei Staatssekretären manchmal üblich ist. Mir ist diese Aussage meines Ministers, Herrn Apel, nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg230">Sie haben die Möglichkeit, eine zweite Zusatzfrage zu stellen. Bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Wagner (Trier) (CDU/CSU) :</note>
+        <u who="#Q87656" xml:id="ParlaMint-DE_1975-05-14-07-169.u165" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg231">Können Sie denn mit Sicherheit ausschließen, daß der Herr Minister auf dieser Konferenz diese Äußerung getan hat?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u166" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg232">Herr Kollege Wagner, ich teile eine Eigenschaft mit Ihnen, nämlich gut zuzuhören, wenn einer redet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u167" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg233">Meine Damen und Herren, die nächsten beiden Fragen sind von dem Herrn Abgeordneten Engelsberger eingereicht worden. Ich frage mich, ob sie gegebenenfalls gemeinsam beantwortet werden sollen. Aber ich glaube, wir können sie auch einzeln aufrufen.</seg>
+          <vocal type="exclamat">
+            <desc>Parl. Staatssekretär Haehser: Ja!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg234">— Dann kommen wir zunächst zu Frage 39:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg235">Ist die Bundesregierung in der Lage, wenigstens einen ungefähren Termin für die in Aussicht genommene Erhöhung der Mehrwertsteuer anzugeben, und welcher Prozentsatz kommt nach den Vorstellungen der Bundesregierung in Frage? Bitte!</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen :</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u168" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg236">Herr Kollege Engelsberger, die Bundesregierung hat in den letzten Wochen bereits mehrfach erklärt, daß es keinerlei Pläne gibt, die Mehrwertsteuer zu erhöhen. Anderslautende Behauptungen sind reine Spekulationen und entbehren jeder Grundlage. Ihre Frage nach dem Termin für eine Steuererhöhung und nach der Höhe des in Betracht kommenden Steuersatzes stellt sich deshalb nicht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u169" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg237">Bitte, die erste Zusatzfrage, Herr Abgeordneter!</seg>
+        </u>
+        <note type="speaker">Engelsberger (CDU/CSU) :</note>
+        <u who="#Q122647" xml:id="ParlaMint-DE_1975-05-14-07-169.u170" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg238">Herr Staatssekretär, nachdem Sie die Frage, ob eine Erhöhung der Mehrwertsteuer zur Diskussion steht, verneint haben, möchte ich an Sie die Frage richten, warum dann der Vorsitzende der SPD, der sich mit dem Bundeskanzler einig wußte, in einem Interview in der „Wirtschaftswoche" erklärt hat — ich darf zitieren —, daß die Bundesregierung „Ende dieses Jahres offen und ehrlich auf Grund der Situation zur Frage der Mehrwertsteuererhöhung Stellung nehmen" müsse. „Der Bundeskanzler und er seien sich einig, daß es unfair und politisch unvernünftig wäre, sich in so ernsten Fragen wie denen der Staatsfinanzen ,über eine Bundestagswahl hinwegmogeln' zu wollen." Und das deutet — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u171" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg239">Herr Kollege, Fragezeichen!</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u172" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg240">Herr Kollege Engelsberger, ich habe nicht gesagt, daß es keine Diskussion um die Mehrwertsteuererhöhung gibt. Sie wissen, daß es Ihr Kollege Häfele ist, der eine Erhöhung der Mehrwertsteuer gefordert hat. Es gibt also eine Diskussion. Aber Sie haben die Bundesregierung gefragt, und die Bundesregierung hat Ihnen durch meinen Mund die Antwort erteilt, die ich Ihnen gegeben habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u173" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg241">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Engelsberger (CDU/CSU) :</note>
+        <u who="#Q122647" xml:id="ParlaMint-DE_1975-05-14-07-169.u174" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg242">Herr Staatssekretär, stimmen Sie mir zu, wenn ich die Frage stelle, ob Sie glauben, daß die betroffene Wirtschaft und die Bürger gerade durch eine Diskussion, wie sie durch die Aussagen des SPD-Vorsitzenden Brandt angeregt worden ist, bedeutend verunsichert werden und daß gerade seine Äußerung bezüglich einer Aufspaltung der Mehrwertsteuer in zwei oder drei Steuern verschiedener Höhe in den betroffenen Bereichen zu einer erheblichen Beunruhigung geführt hat?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u175" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg243">Herr Kollege Engelsberger, ich habe keine Beunruhigung festgestellt, als Ihr Kollege Häfele eine Steuererhöhung forderte. Ich stelle auch jetzt keine Beunruhigung fest, wenn eine Diskussion um eine Steuererhöhung stattfindet. Aber Sie haben, bitte sehr, die Bundesregierung gefragt, und ich habe Ihnen eine Antwort gegeben.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Gerster [Mainz] [CDU/CSU] : Was für eine Antwort!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u176" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg244">Ich rufe die Frage 40 des Herrn Abgeordneten Engelsberger auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg245">Ist die Bundesregierung im Falle der Erhöhung der Mehrwertsteuer bereit, für die Gastronomie — wie auch in anderen europäischen Ländern der Fall — eine Halbierung des Steuersatzes vorzusehen, um die bereits bestehende Wettbewerbsverzerrung nicht noch weiter zu verschärfen, sondern abzubauen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u177" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg246">Herr Kollege Engelsberger, wie ich Ihnen bereits gesagt habe, gibt es bei der Bundesregierung keine Pläne, die Mehrwertsteuer zu erhöhen. Es stellt sich deshalb auch nicht die Frage, ob die Bundesregierung bereit wäre, im Falle der Erhöhung der Mehrwertsteuer den Steuersatz für den Verzehr in Gaststätten zu halbieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u178" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg247">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Engelsberger (CDU/CSU) :</note>
+        <u who="#Q122647" xml:id="ParlaMint-DE_1975-05-14-07-169.u179" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg248">Diese zweite Frage von mir, Herr Staatssekretär, hat sich speziell auf den Fremdenverkehr bezogen. Darf ich deshalb aus Ihrer Antwort entnehmen, daß die deutsche Gastronomie keine Befürchtungen zu haben braucht, daß während dieses oder des nächsten Jahres die Mehrwertsteuer erhöht werden wird?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u180" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg249">Herr Kollege Engelsberger, ich habe Ihnen eine Auskunft gegeben, die lautet, daß es bei der Bundesregierung keine Pläne gibt, die Mehrwertsteuer zu erhöhen. Die Schlußfolgerungen aus dieser meiner Bemerkung muß ich Ihnen überlassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u181" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg250">Sie haben noch eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Engelsberger (CDU/CSU) :</note>
+        <u who="#Q122647" xml:id="ParlaMint-DE_1975-05-14-07-169.u182" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg251">Herr Staatssekretär, Sie sind meiner Frage ausgewichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u183" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg252">Herr Kollege, Wertungen bitte nicht!</seg>
+        </u>
+        <note type="speaker">Engelsberger (CDU/CSU) :</note>
+        <u who="#Q122647" xml:id="ParlaMint-DE_1975-05-14-07-169.u184" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg253">Herr Staatssekretär, ich möchte an Sie ganz konkret die Frage richten, ob die Bundesregierung eine Erhöhung der Mehrwertsteuer in dieser Legislaturperiode ausschließt.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u185" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg254">Herr Kollege, ich muß Ihnen dann ganz konkret als Antwort das sagen, was ich Ihnen vorhin auf Ihre Fragen, die Sie gestellt haben, vorgelesen habe, nämlich daß es bei der Bundesregierung keine Pläne gibt, die Mehrwertsteuer zu erhöhen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Gerster [Mainz] [CDU/CSU] : Das ist keine Antwort!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u186" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg255">Eine Zusatzfrage des Herrn Abgeordneten Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1975-05-14-07-169.u187" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg256">Herr Staatssekretär, welche Äußerung können Sie mir konkret zitieren — oder welche Veröffentlichung, namentlich und mit der Angabe, wo sie erfolgte —, aus der hervorgeht, daß Ihre Behauptung stimmt, unser Fraktionskollege Häfele habe eine Erhöhung der Mehrwertsteuer gefordert?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u188" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg257">Diese Äußerung ist in einem Aufsatz abgedruckt, den ich nicht bei mir habe, wie Sie verstehen werden. Aber dieser Aufsatz ist bereits einmal in einer Fragestunde des Deutschen Bundestages erwähnt worden. Wenn das möglich ist, Herr Präsident, füge ich den Titel des Aufsatzes dem Protokoll bei.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u189" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg258">Sie können die Quellenangabe Ihrer Antwort beifügen.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u190" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg259">Ich darf mit Ihrer Erlaubnis, Herr Präsident, hinzufügen: Die Forderung ist in dem Heft „Die Politische Meinung", Nr. 152, erhoben worden. — Ich danke meinen Mitarbeitern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u191" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg260">Ich rufe die Frage 63 des Herrn Abgeordneten Sauer (Salzgitter)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg261">auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg262">Erscheint nach Auffassung der Bundesregierung die bereits 1937 in ihrer Höhe festgelegte und bisher nicht dynamisierte Rente der Versorgungskasse der deutschen Luftfahrt angesichts des ständigen Geldwertrückgangs heute noch sozial vertretbar insbesondere in den Fällen, in denen die Betroffenen mangels anderer Versorgungseinkünfte ausschließlich auf die Leistungen der Versorgungskasse angewiesen sind?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u192" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg263">Herr Kollege Sauer, mit der Antwort auf diese Frage möchte ich einige grundsätzliche Bemerkungen verbinden, die auch für die folgenden Fragen Ihrer Kollegen gelten. Ich beziehe mich dabei zum Teil auf Ausführungen, die im Protokoll über die letzte Fragestunde abgedruckt worden sind. Die niedrige Versorgung des fliegenden Personals der alten Deutschen Lufthansa ist darauf zurückzuführen, daß die Bediensteten seinerzeit wegen ihrer verhältnismäßig hohen Bezüge in der Regel nicht sozialversicherungspflichtig waren und damit heute keine Ansprüche auf dynamisierte Renten aus der Rentenversicherung haben. Die Versorgung des fliegenden Personals beruht vielmehr nur auf Leistungen aus einer privaten Versicherung, die 1936 als Versorgungskasse für die deutsche Luftfahrt geschaffen wurde. Dazu kommen freiwillige Leistungen der Lufthansa AG. Die in der privaten Versicherung angesammelten Beiträge erlauben Renten nur in der gegenwärtig gezahlten, satzungsmäßigen Höhe. Insoweit befindet sich das fliegende Personal der Deutschen Lufthansa in der gleichen Lage wie jeder andere Bürger, der nicht versicherungspflichtig war. Ein großer Teil der früheren Angehörigen des fliegenden Personals hat nach 1945 in einem neuen Beruf — oder später vielleicht auch wieder im alten Beruf — zusätzliche Versorgungsansprüche erworben. Das schließt das Vorliegen von Härtefällen nicht aus. Die Bundesregierung hatte deshalb schon Ende der 50er Jahre versucht, dadurch zu helfen, daß die im Verhältnis 10 : 1 abgewerteten Renten aufgebessert wurden. Seit Anfang der 60er Jahre werden die Renten voll im Verhältnis 1 Reichsmark 1 D-Mark gezahlt.</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg264">Weitere Verbesserungen sind nicht möglich, weil sie ein Präjudiz für alle anderen privaten Versicherungsrentner, für Kapitallebensversicherte aus der Vorwährungszeit, für Althypothekengläubiger, Sparer von Reichsmarkwerten usw. sein würden, die dann daraus ebenfalls einen entsprechenden Anspruch herleiten könnten. Die dafür insgesamt erforderlichen Haushaltsmittel — das wird Sie als Mitglied des Haushaltsausschusses ganz gewiß interessieren — in Milliardenhöhe stehen nicht zur Verfügung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u193" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg265">Eine Zusatzfrag!</seg>
+        </u>
+        <note type="speaker">Sauer (Salzgitter) (CDU/CSU) :</note>
+        <u who="#Q118277" xml:id="ParlaMint-DE_1975-05-14-07-169.u194" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg266">Ich gehöre dem Haushaltsausschuß nicht an, Herr Kollege Haehser.</seg>
+          <vocal type="exclamat">
+            <desc>Parl. Staatssekretär Haehser: Ich dachte, ich hätte Sie dort schon gesehen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg267">— Ja aber durch Ihre Tätigkeit bei der Salzgitter-AG dürften wir uns besser kennen. Herr Staatssekretär, gerade auf Ihre letzten Bemerkungen hin möchte ich Sie fragen: Kann die Bundesregierung vergleichbare Zwangsversicherungsverhältnisse benennen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u195" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg268">Nun, ich habe vergleichbare Verhältnisse genannt, Herr Kollege Sauer ich kann das gern noch einmal tun —; das sind die vergleichbaren Verhältnisse.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u196" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg269">Eine weitere Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Sauer (Salzgitter) (CDU/CSU) :</note>
+        <u who="#Q118277" xml:id="ParlaMint-DE_1975-05-14-07-169.u197" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg270">Teilt die Bundesregierung die Auffassung, daß die Situation des fliegenden Personals der Lufthansa, dem mit 55 Jahren eine Vollversorgung zustand, innerhalb des Systems der sozialen Sicherung eben nicht mit einer bloßen Privatversicherung vergleichbar ist?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u198" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg271">Herr Kollege Sauer, es kommt hier weniger auf die Auffassung der Bundesregierung als auf die Rechtslage an, und die ist so, wie ich sie Ihnen habe schildern müssen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u199" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg272">Ich rufe die Frage 64 des Hern Abgeordneten Sauer auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg273">Welche Folgerungen sind hinsichtlich der Anpassung der Versorgungsleistungen an die wirtschaftliche Entwicklung nach Auffassung der Bundesregierung aus der Tatsache zu ziehen, daß das ehemalige fliegende Personal der deutschen Lufthansa ausschließlich wegen der Besonderheiten dieses Berufs nicht in der gesetzlichen Rentenversicherung, sondern in einer privaten Versorgungskasse zwangsversichert wurde, die — 1945 zunächst aufgelöst — erst 1957 wieder in die Lage versetzt wurde, nicht dynamisierte Rentenzahlungen in Höhe des Rentenniveaus des Jahres 1937 zu leisten? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u200" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg274">Zu dieser Frage, Herr Kollege Sauer, bemerke ich folgendes. Die Frage der Versorgung des fliegenden Personals der alten Deutschen Lufthansa ist entgegen Ihrer Auffassung — und da komme ich noch einmal auf Ihre Frage zurück — nicht ein Problem, das ausschließlich wegen der Besonderheiten dieses Berufes besteht. Der von Ihnen genannte Personenkreis teilt vielmehr das Schicksal anderer Personengruppen, die wegen ihrer vergleichsweise hohen Einkünfte vor 1945 nicht pflichtversichert waren. Die Versorgungskasse für die deutsche Luftfahrt wurde erst errichtet, nachdem sich herausstellte, daß das Personal eigene Vorsorge für das Alter, z. B. durch Abschluß von Lebensversicherungsverträgen, vielfach nicht betrieben hatte. Aus dieser privaten Versorgungskasse werden nun privatrechtliche Versicherungsrenten entsprechend den geleisteten Beiträgen gezahlt. Diese privatrechtlichen Renten können ihrer Natur nach nicht dynamisiert sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u201" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg275">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Sauer (Salzgitter) (CDU/CSU):</note>
+        <u who="#Q118277" xml:id="ParlaMint-DE_1975-05-14-07-169.u202" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg276">Ihr Vorredner, Herr Staatssekretär Baum, erinnerte an die 30 Jahre nach Kriegsbeendigung. Sind Sie nicht auch der Meinung, daß der Personenkreis nicht so groß ist, daß wir uns dieses Problems noch einmal annehmen sollten?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u203" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg277">Herr Kollege Sauer, ich möchte Ihnen mit einem Dichterwort antworten: „Mit der Größe der Pfarre dürfen sich die Grundsätze nicht ändern."</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u204" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg278">Sie haben noch eine Zusatzfrage!</seg>
+          <vocal type="exclamat">
+            <desc>Sauer [Salzgitter] [CDU/CSU] : Danke schön!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg279">Dann hat das Wort zu einer Zusatzfrage der Herr Abgeordnete Freiherr von Fircks.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1975-05-14-07-169.u205" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg280">Herr Staatssekretär, Sie begründeten den Standpunkt der Bundesregierung damit, daß die Bezüge des fliegenden Personals so hoch waren, daß es in einer Privatversicherung und nicht in der öffentlichen Versicherung war. Ist es aber nicht so, daß der Grund dafür, daß es nicht in der öffentlichen Versicherung versichert sein konnte, mehr in der Tatsache zu suchen ist, daß es bereits im 55. Lebensjahr aus dem Berufsleben ausscheiden mußte, die Angestelltenversicherung aber zu dem Zeitpunkt nicht bereit war, Versicherungsnehmer anzunehmen, die mit dem 55. Lebensjahr aus dem Berufsleben ausscheiden?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u206" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg281">Dazu möchte ich ihnen sagen, Herr von Fircks, daß ich diesen Zusammenhang nicht sehe. Der Zugang zur Angestelltenversicherung war in der Tat wegen des hohen Einkommens verwehrt. Der Zugang zur Sozialversicherung knüpft grundsätzlich an das Vorhandensein einer sozialversicherungspflichtigen Tätigkeit an, wobei die Dauer, abgesehen von der Tätigkeit von Praktikanten, Studenten usw., ohne Einfluß ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u207" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg282">Eine Zusatzfrage des Herrn Abgeordneten Gerster.</seg>
+        </u>
+        <note type="speaker">Gerster (Mainz) (CDU/CSU):</note>
+        <u who="#Q1436925" xml:id="ParlaMint-DE_1975-05-14-07-169.u208" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg283">Herr Staatssekretär, darf ich Ihr freundliches Zitat, daß sich mit der Größe der Pfarre nichts an den Grundsätzen ändern dürfe, so verstehen, daß Sie meinen, daß es hier doch um eine Grundsatzfrage geht, und wenn das richtig ist, wie läßt sich das mit Ihrer vorherigen Antwort vereinbaren, wonach Sie finanzielle Gründe als Ursache angegeben haben, die einer Regelung dieser Härtefälle entgegenstehen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u209" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg284">Sie hätten mir schlecht zugehört, Herr Kollege, wenn Sie meiner Antwort entnehmen wollten, daß es in erster Linie um finanzielle Gründe geht. Ich hatte gesagt: Es geht um ein Rechtsproblem.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u210" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg285">Meine Damen und Herren, ich bitte um Verständnis, daß ich jetzt nur noch jeweils die Zusatzfragen der Fragesteller zulasse; denn ich möchte erreichen, daß alle Fragen beantwortet werden. Ich rufe die Frage 65 des Herrn Abgeordneten Ey auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg286">Hält es die Bundesregierung im Hinblick auf die Tatsache, daß im Bereich der gesetzlichen Rentenversicherung die Höhe der Zuweisungen aus dem Bundeshaushalt für die Arbeiterrentenversicherung im Jahr 1974 18,6 % und für die Angestelltenversicherung 6,4 "/o der Gesamtaufwendungen betrug, bei Würdigung der besonderen Situation der für die deutsche Luftfahrt geschaffenen Betriebsversorgung für sachlich gerechtfertigt, die Zuweisung vergleichbarer Zuschüsse auch an die Versorgungskasse für die deutsche Luftfahrt zu ermöglichen? Bitte.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u211" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg287">Herr Kollege Ey, Zuweisungen aus dem Bundeshaushalt an die Versorgungskasse für die deutsche Luftfahrt, gleich aus welchen Gründen und in welcher Höhe, wären ein Präjudiz für alle anderen privaten Versicherungsrentner — und ich wiederhole mich , für Kapitallebensversicherte aus der Vorwährungszeit, für Althypothekengläubiger, Sparer von Reichsmarkwerten usw., die dann daraus ebenfalls einen entsprechenden Anspruch herleiten könnten. Wir haben — von den Rechtsgründen einmal ganz abgesehen — nicht das Geld in der Höhe zur Verfügung, das hier gebraucht würde.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Gerster [Mainz] [CDU/CSU] : Also doch finanzielle Gründe! Das ist ein Widerspruch!</desc>
+        </vocal>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1975-05-14-07-169.u212" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg288">Herr Staatssekretär, auf welchen Betrag würden, falls eine solche Möglichkeit bestünde, diese Mittel eingeschätzt?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u213" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg289">Nun, wir müßten umfangreiche Recherchen anstellen. Das, was in unserem Ministerium errechnet worden ist, und zwar an Hand — natürlich weniger — vorhandener Fakten, deutet eindeutig darauf hin, daß es sich um eine Größenordnung von 1 Milliarde DM oder mehr handeln würde.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u214" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg290">Keine weitere Zusatzfrage. Ich rufe die Frage 66 des Herrn Abgeordneten Ey auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg291">Wie beurteilt die Bundesregierung dahin gehende Vorschläge, der Versorgungskasse der deutschen Luftfahrt im Wege der Kreditgewährung (Einräumung von Ausgleichsforderungen oder Gewährung eines zinslosen Darlehens) die Zeichnung von Bundesanleihen zu ermöglichen, deren Zinserträge für die Anpassung der Renten des fliegenden Personals an das Rentenniveau im übrigen Sozialbereich Verwendung finden könnten?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u215" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg292">Herr Kollege Ey, auch die in Ihrer zweiten Frage erwähnten Vorschläge laufen auf eine Hilfe aus Haushaltsmitteln hinaus, die aus den genannten präjudiziellen Gründen nicht gewährt werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u216" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg293">Keine Zusatzfrage. Dann rufe ich die Frage 67 des Herrn Abgeordneten Freiherr von Fircks auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg294">Wie beurteilt die Bundesregierung die Frage der Vergleichbarkeit der privatrechtlich strukturierten Versorgungskasse für die deutsche Luftfahrt mit anderen pivatrechtlichen Versorgungskassen, und hält die Bundesregierung insoweit eine Gleichbehandlung auch unter Berücksichtigung der besonderen verkehrswirtschaftlichen und verkehrspolitischen Aufgaben der deutschen Luftfahrt und der dominierenden Beteiligung der öffentlichen Hand an dieser Einrichtung für gerechtfertigt? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u217" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg295">Es handelt sich, Herr Kollege von Fircks, hier um ein versicherungsrechtliches Problem, das man nicht mit verkehrswirtschaftlichen oder verkehrspolitischen Zielsetzungen vermengen kann. Die Bundesregierung ist deshalb der Auffassung, daß die Versorgungskasse für die deutsche Luftfahrt eine Versorgungseinrichtung wie jede andere private Versorgungskasse ist und deshalb ebenso wie die anderen Versorgungskassen zu behandeln ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u218" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg296">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1975-05-14-07-169.u219" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg297">Herr Staatssekretär, sind Sie nicht der Überzeugung, daß die alten Flugkapitäne der Deutschen Lufthansa ein so hohes Ansehen, auch wegen ihrer damaligen Leistungen, bei der deutschen Bevölkerung besitzen, daß man durchaus Verständnis hätte, wenn sie und ihre Witwen — ein ganz geringer Personenkreis — doch in irgendeiner Form eine menschenwürdige und nicht zum Teil auf Sozialleistungen beruhende Hilfe von der Bundesregierung bekämen, und sei es eventuell durch Einführung .. .</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u220" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg298">Fragezeichen!</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU):</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1975-05-14-07-169.u221" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg299">... eines Zusatzpfennigs — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u222" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg300">Herr Kollege von Fircks, Fragezeichen bitte!</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1975-05-14-07-169.u223" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg301">Herr Präsident, ich hatte meine Frage eigentlich noch nicht abgeschlossen. Bestimmt man das noch selber, oder wird einem das vorgeschrieben?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u224" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg302">Nein, Herr Kollege, Sie waren meines Erachtens an dem Punkt, wo Sie noch eine weitere Frage in Ihre Frage einkleiden wollten.</seg>
+          <vocal type="exclamat">
+            <desc>Freiherr von Fircks [CDU/CSU] : Nein, keine weitere Frage!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg303">Bitte.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u225" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg304">Herr Kollege von Fircks, ich nehme an, daß Sie ein bißchen der Initiator der zahlreichen Fragen sind.</seg>
+          <vocal type="exclamat">
+            <desc>Freiherr von Fircks [CDU/CSU] : Ja!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg305">Wenn das zutrifft, Herr Kollege von Fircks, verstehe ich nicht, daß Sie mir jetzt eine Zusatzfrage zu einem Thema stellen, dem eine eigene Frage gewidmet ist.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Gerster [Mainz] [CDU/CSU]: Oberzensor!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u226" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg306">Keine weitere Zusatzfrage. Dann rufe ich die Frage 68 des Herrn Abgeordneten Freiherr von Fircks auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg307">Teilt die Bundesregierung die Auffassung, daß weitere Maßnahmen zur Verbesserung der Versorgung des fliegenden Personals der alten deutschen Lufthansa wegen der besonderen Umstände, die dem betroffenen Personenkreis den Zugang zur gesetzlichen Rentenversicherung versperrten und nur eine Versicherung auf privatrechtlicher Grundlage ermöglichten, nicht zwangsläufig präjudizielle Auswirkungen auf andere private Versicherungsverhältnisse haben würden?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Gerster [Mainz] [CDU/CSU] : Zu den Aufgaben der Regierung gehört es nicht, Noten zu verteilen!</desc>
+        </vocal>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u227" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg308">Ich darf doch darauf hinweisen, daß mich Herr von Fircks besser verstanden hat als mein Kollege zur Linken. Die Probleme der Versorgung des fliegenden Personals der alten Deutschen Lufthansa sind entgegen Ihrer Auffassung, Herr Kollege von Fircks, keine Besonderheit dieses Personenkreises. Auch andere Personengruppen mit gleich hohen oder höheren Einkommen hatten keinen Zugang zur gesetzlichen Rentenversicherung. Finanzielle Hilfen des Bundes für das fliegende Personal der alten Deutschen Lufthansa hätten also zwangsläufig die Ihnen schon geschilderten präjudiziellen Wirkungen auf andere private Versicherungsverhältnisse. Ich füge dem gern hinzu, Herr Kollege von Fircks, daß die Anfragen, die Sie in der letzten Fragestunde an mich gerichtet haben, dem Herrn Bundesverkehrsminister Veranlassung waren, Anregungen, die Sie gegeben haben, weiterzuleiten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u228" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg309">Möchten Sie weitere Zusatzfragen stellen, Herr Abgeordneter? — Nein. Dann rufe ich die Frage 69 des Abgeordneten Dr. Riedl (München)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg310">auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg311">Wie beurteilt die Bundesregierung unter Berücksichtigung der Sozialklausel und des Gleichheitsgrundsatzes unserer Verfassung die Tatsache, daß ein Flugkapitän der alten deutschen Lufthansa nach 20 Dienstjahren eine nichtdynamisierte Rente von maximal 360 DM monatlich als Vollversorgung bezieht, während vergleichsweise ein Flugkapitän der neuen Lufthansa gegenwärtig mit ca. 4 500 DM bis 5 200 DM dynamischer Rente in Pension geht?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u229" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg312">Herr Kollege Dr. Riedl, darf ich mit Ihrer Zustimmung Ihre beiden Fragen zusammen beantworten?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u230" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg313">Der Kollege ist einverstanden. Daher rufe ich auch die Frage 70 des Abgeordneten Dr. Riedl (München)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg314">auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg315">Hält es die Bundesregierung für sozial gerecht, daß ein früherer Flugkapitän der alten deutschen Lufthansa nach 20 Dienstjahren auf die zusätzliche Inanspruchnahme von Leistungen aus der Sozialhilfe angewiesen ist, um seine Alterssicherung mindestens auf Fürsorgeniveau anzuheben?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u231" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg316">Ich habe schon ausgeführt, Herr Kollege Dr. Riedl, daß die Versorgung des fliegenden Personals der alten Lufthansa in privatrechtlicher Form gestaltet worden ist. Die Höhe der Versicherung richtet sich nach den geleisteten Beiträgen. Die Beiträge waren in den dreißiger Jahren entsprechend den damaligen Einkommens- und Preisverhältnissen vergleichsweise niedrig. Deshalb sind auch die Renten niedrig. Einen Vergleich dieser Renten mit der Versorgung eines Piloten der Lufthansa, der jetzt in Pension geht, kann man nicht ziehen, weil die beiden Personengruppen ihre Versorgungsansprüche unter ganz unterschiedlichen Bedingungen und Verhältnissen erworben haben. Der Gleichheitssatz im Grundgesetz verlangt selbstverständlich nicht, daß Flugkapitäne der alten Deutschen Lufthansa hinsichtlich ihrer Versorgung den Piloten der derzeitigen Lufthansa nachträglich gleichzustellen sind. Was nun die von Ihnen erwähnte Sozialklausel betrifft, so möchte ich auf das Netz sozialer Sicherheit hinweisen, das erfreulicherweise jedem in unserem Land ein Mindestmaß an sozialen Garantien gewährt, und sei es in Form der Sozialhilfe, die Sie in Ihrer zweiten Frage ansprechen. Ich verkenne nicht — wie es vorhin auch erfragt worden ist —, daß die Betroffenen, um die es hier geht, ein hohes Ansehen haben; aber solche Dinge lassen sich nicht nach dem Ansehen beurteilen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u232" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg317">Herr Kollege Riedl, Sie können jetzt vier Zusatzfragen stellen. Bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Riedl (München) (CDU/CSU) :</note>
+        <u who="#Q1353062" xml:id="ParlaMint-DE_1975-05-14-07-169.u233" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg318">Herr Staatssekretär, da es sich hier offensichtlich um ein Problem handelt, das nach wie vor nicht gelöst ist, sei es, daß es sich um ein ungelöstes Rechtsproblem oder um eine Finanzfrage handelt, hätte ich die fragende Bitte an Sie zu richten, ob die Bundesregierung nicht doch bereit wäre, diesen gesamten Komplex einmal durch den Herrn Bundesminister für Verkehr in Zusammenarbeit mit Ihrem Hause einer Prüfung zu unterziehen mit dem Ziel, vielleicht doch noch über eine Härteregelung eine einigermaßen zufriedenstellende Lösung herbeizuführen.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u234" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg319">Herr Kollege Riedl, die Bundesregierung hat diesen gesamten Komplex nicht erst überprüft, nachdem wir in der vorigen Fragestunde Fragen dazu hatten, sondern er ist in unserem Ministerium seit Jahren überprüft worden und sicher auch in dem — allerdings noch weniger zuständigen — Verkehrsministerium; denn das hat ja mit der alten Einrichtung nichts zu tun. Diese Überprüfung hat eben das ergeben, was in den Antworten, die ich für die Bundesregierung vorgetragen habe, zum Vorschein kommt. Ich habe Ihnen vorhin in einem Zusatzhinweis auch gesagt, daß das Bundesverkehrsministerium Anregungen, die hier gegeben worden sind, und wenn auch nicht in der Fragestunde selber, aber im Protokoll ihren Niederschlag gefunden haben,-weitergegeben hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u235" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg320">Noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Riedl (München) (CDU/CSU) :</note>
+        <u who="#Q1353062" xml:id="ParlaMint-DE_1975-05-14-07-169.u236" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg321">Herr Staatssekretär, wir Abgeordneten — der eine kommt aus Hamburg, der andere aus Frankfurt, der dritte aus München — werden von den dort beheimateten früheren Angehörigen der Lufthansa schwerpunktmäßig angesprochen. Was kann man den Leuten denn nun raten? Kann man ihnen raten, den Rechtsweg zu beschreiten, oder kann man ihnen raten, sich weiterhin über den Abgeordneten oder direkt an die Regierung zu wenden? Wo könnte dieser Personenkreis nach Ihrer Ansicht am ehesten Hilfe erwarten?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u237" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg322">Herr Kollege Riedl, Sie wissen, daß viele Mitbürger in unserem Staat Hilfen haben wollen und auch benötigen. Es gibt für alte Flugkapitäne kein Sonderrecht, sich an irgend jemanden zu wenden; sie haben das Recht wie jeder andere Staatsbürger.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u238" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg323">Herr Kollege Riedl, damit sind Ihre Fragen beantwortet. Ich rufe die Frage 71 des Abgeordneten Gerster (Mainz)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg324">auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg325">Kann die Bundesregierung darüber Auskunft geben, ob und welche Nachteile sich aus dem von den Alliierten verhängten 10jährigen Flug- und damit Berufsverbot für die Versorgung des ehemaligen fliegenden Personals der alten deutschen Lufthansa ergeben, und welche Möglichkeiten sieht die Bundesregierung, solche Nachteile gegebenenfalls im Rahmen des Rentenrechts auszugleichen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u239" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg326">Herr Kollege Gerster, es ist richtig, daß der Flugverkehr in der Bundesrepublik Deutschland für deutsche Unternehmen nach 1945 jahrelang verboten war. Wie viele andere Deutsche mußten auch die Piloten der alten Lufthansa nach dem Kriege ihre bisherige berufliche Tätigkeit aufgeben. Ich wiederhole sehr deutlich: wie viele andere Deutsche. In dem neuen Tätigkeitsbereich konnten sich die meisten eine neue Altersversorgung aufbauen, so daß sie heute über angemessene Versorgungsbezüge verfügen und staatliche Hilfe schon deshalb nicht zur Diskussion stehen kann. Aber auch in den Fällen, in denen neue Versorgungsansprüche nicht erworben werden konnten, sieht sich die Bundesregierung außerstande, die Renten der ehemaligen Piloten mit Haushaltsmitteln zu verbessern, weil — wie ich schon mehrfach ausführte — solche Hilfen ein Präjudiz für die Versorgung aller derjenigen wären, die nach 1945 ihren früheren Beruf aus kriegsbedingten Gründen ebenfalls nicht mehr ausüben konnten. Derartige Ansprüche — und das ist natürlich ein finanzieller Zusammenhang — würden mit Sicherheit Milliardenhöhe erreichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u240" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg327">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Gerster (Mainz) (CDU/CSU) :</note>
+        <u who="#Q1436925" xml:id="ParlaMint-DE_1975-05-14-07-169.u241" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg328">Herr Staatssekretär, wäre die Bundesregierung bereit und in der Lage, diesem Hohen Hause eine Aufstellung zu übermitteln, aus der hervorgeht, um wie viele Personen es sich in diesem und vergleichbaren Bereichen tatsächlich handelt?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u242" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg329">Herr Kollege Gerster, da Sie Fragen zu diesem Komplex gestellt haben, werden Sie sicher der Beantwortung der übrigen Fragen zuhören. Ich komme da auf eine Zahl zurück. Sie müßten sich nur ein bißchen gedulden. Nun haben Sie allerdings nicht nur gefragt, wer aus dem Bereich der alten Lufthansa betroffen ist, sondern auch danach, wer sich in vergleichbaren Situationen befindet. Ich muß prüfen lassen, ob die Recherchen ergeben, daß der Verwaltungsaufwand, der damit verbunden wäre, gerechtfertigt ist. Eines hat die bisherige Prüfung schon ergeben: Die Milliardenhöhe, von der ich gesprochen habe, ist zutreffend.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u243" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg330">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Gerster (Mainz) (CDU/CSU) :</note>
+        <u who="#Q1436925" xml:id="ParlaMint-DE_1975-05-14-07-169.u244" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg331">Herr Staatssekretär, würden Sie mir noch einmal erklären, ob es sich hier um ein ungelöstes Rechtsproblem, wie aus der Antwort auf meine Zusatzfrage hervorgeht, oder um ein finanzielles Problem handelt, wie das aus den Antworten auf die Fragen der Kollegen Sauer und Ey hervorgeht? Oder handelt es sich um beides?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u245" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg332">Es handelt sich nicht um ein ungelöstes Rechtsproblem, sondern es handelt sich um ein Problem, das durch das Recht so gelöst ist, daß es die Folgen hat, die sich jetzt zeigen. Wenn wir das Problem anders, als es das derzeitige Recht will, lösten, dann würden durch die Präjudizwirkung Kosten in Milliardenhöhe entstehen. Das ist der Zusammenhang.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u246" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg333">Ich rufe die Frage 72 des Herrn Abgeordneten Gerster auf:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg334">Ist der Bundesregierung bekannt, daß der hier in Frage stehende Personenkreis heute zahlenmäßig nur noch 192 Angehörige des früheren fliegenden Personals und etwa 150 Witwen umfaßt, so daß der für eine Aufbesserung der Versorgungsbezüge dieses Personenkreises notwendige jährliche Finanzbedarf — bei absinkender Tendenz — als kaum ins Gewicht fallend anzusehen ist? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u247" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg335">Es ist richtig, Herr Gerster, daß der in Betracht kommende Personenkreis nicht sehr umfangreich ist.</seg>
+          <vocal type="exclamat">
+            <desc>Sauer [Salzgitter] [CDU/CSU] : Keine große Pfarre!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg336">— So ist es, Herr Kollege Sauer.</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg337">Diesen Personenkreis kann man aber nicht für sich allein betrachten. Staatliche Hilfen wären — ich wiederhole mich erneut — ein Präjudiz für andere Personengruppen, so daß Ansprüche anderer Rentnergruppen in Milliardenhöhe zu erwarten wären.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u248" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg338">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Gerster (Mainz) (CDU/CSU) :</note>
+        <u who="#Q1436925" xml:id="ParlaMint-DE_1975-05-14-07-169.u249" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg339">Herr Staatssekretär, schließen Sie eine Differenzierung zwischen dieser Gruppe und etwa Althypothekengläubigern aus, obwohl es sich hier um eine persönliche Altersversorgung handelt, während das andere rein sachbezogene Absicherungen sind?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u250" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg340">Nein, diese Unterscheidung vermag ich nicht mitzuvollziehen, Herr Kollege Gerster.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u251" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg341">Ich habe noch eine letzte Frage zu diesem Komplex. Es ist die Frage 73 des Herrn Abgeordneten Graf Stauffenberg:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg342">Wie steht die Bundesregierung angesichts der Versorgungsprobleme des ehemaligen fliegenden Personals der alten deutschen Lufthansa zur Einführung eines „Notpfennig Deutsche Lufthansa"? I lerr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u252" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg343">Herr Kollege Graf Stauffenberg, die Bundesregierung sieht sich nicht in der Lage, Haushaltsmittel für die Aufbesserung der Versorgung der Rentner der Pensionskasse für die deutsche Luftfahrt bereitzustellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u253" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg344">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Graf Stauffenberg (CDU/CSU) :</note>
+        <u who="#Q76401" xml:id="ParlaMint-DE_1975-05-14-07-169.u254" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg345">Herr Staatssekretär, die Luftfahrt in unserem Lande ist in gewisser Weise monopolistisch strukturiert. Wäre es denkbar, daß gerade 30 Jahre nach dem Krieg und angesichts der relativ kleinen „Pfarrgemeinde" — um mit Ihren Worten zu sprechen — so etwas ähnliches wie ein Ehrensold durch die Lufthansa oder ein Ehrensold durch eine Institution, die von der heutigen Lufthansa möglicherweise aus den Erträgen oder gewissen Zusatzbeiträgen finanziert werden könnte, in Erwägung gezogen wird?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1975-05-14-07-169.u255" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg346">Herr Kollege Graf Stauffenberg, eine solche Frage wäre an die Lufthansa zu richten, die eine Aktiengesellschaft ist, wie Sie wissen, und die in Konkurrenz mit anderen Gesellschaften steht. Das heißt, wenn das einträte, was Ihnen vorschwebt, könnte es vielleicht passieren, daß Flugkarten, die die Lufthansa anbietet, teurer wären als die anderer Fluggesellschaften. Die Lufthansa würde unter Umständen dann den Bund — wenn wir die Anregung gäben — für entstandene Schäden haftbar machen. Wir würden nicht bereit sein, eine solche Forderung zu erfüllen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u256" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg347">Keine weiteren Fragen.</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg348">Der Herr Abgeordnete Dr. Schulte (Schwäbisch Gmünd)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg349">hat um schriftliche Beantwortung der eingereichten Frage — Nr. 74 — gebeten. Die Antwort wird als Anlage abgedruckt. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers der Finanzen beantwortet. Herr Staatssekretär, ich danke Ihnen. Ich rufe den Geschäftsbereich des Bundesministers für Wirtschaft auf. Zur Beantwortung der Fragen steht der Parlamentarische Staatssekretär Grüner zur Verfügung. Der Herr Abgeordnete Egert hat die von ihm eingereichte Frage — Nr. 41 — zurückgezogen. Der Herr Abgeordnete Dr. Graf Lambsdorff hat um schriftliche Beantwortung der eingereichten Fragen Nrn. 42 und 43 — gebeten, ebenso der Herr Abgeordnete Dr. Schwörer — Nrn. 44 und 45 —; auch die Antworten auf diese Fragen werden als Anlagen abgedruckt. Der Herr Abgeordnete Höcherl hat seine Frage Nr. 46 zurückgezogen. Ich rufe die Fragen Nrn. 47 und 48 — des Herrn Abgeordneten Breidbach — auf. — Der Herr Abgeordnete ist nicht im Saal, so daß die beiden von ihm eingereichten Fragen schriftlich beantwortet werden. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage des Herrn Abgeordneten Dr. Kunz (Weiden)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg350">— Nr. 49 — auf. — Der Herr Abgeordnete Dr. Kunz (Weiden)</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg351">ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Der Herr Abgeordnete Dr. Klepsch hat um schriftliche Beantwortung der beiden von ihm eingereichten Fragen — Nrn. 50 und 51 — gebeten. Die Antworten werden als Anlagen abgedruckt. Die nächste Frage — Nr. 52 — ist vom Herrn Abgeordneten Dr. Wernitz eingereicht:</seg>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg352">Ist es mit der bisherigen Praxis und den Grundsätzen der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur" vereinbar, wenn ein Land bei den Schwerpunktorten ein „rollierendes System" dergestalt einführen will, daß z. B. zu den jeweiligen Anmeldeterminen bestimmte Schwerpunktorte regelmäßig ausgewechselt werden? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-05-14-07-169.u257" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg353">Die Bundesregierung, Herr Kollege, ist der Ansicht, daß mit der bisherigen Praxis und den Grundsätzen der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur" ein regelmäßiger Austausch zwischen Schwerpunktorten in Form eines rollierenden Systems nicht vereinbar ist. Falls eine Landesregierung dieses System einzuführen versuchen sollte, wird sich die Bundesregierung im Planungsausschuß dagegen aussprechen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u258" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg354">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wernitz (SPD) :</note>
+        <u who="#Q792418" xml:id="ParlaMint-DE_1975-05-14-07-169.u259" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg355">Herr Staatssekretär, kann ich aus Ihrer Antwort entnehmen, daß bisher im Planungsausschuß keine Landesregierung Derartiges in der Vergangenheit versucht hat?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-05-14-07-169.u260" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg356">Herr Kollege, es ist denkbar, daß solche Überlegungen in dem dafür zuständigen Unterausschuß angestellt worden sind. Aber es hat keinen Beschluß des Planungsausschusses gegeben, der ein solches rollierendes System ermöglichen würde; und das allein könnte die Grundlage einer solchen Länderpraxis sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u261" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg357">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wernitz (SPD) :</note>
+        <u who="#Q792418" xml:id="ParlaMint-DE_1975-05-14-07-169.u262" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg358">Herr Staatssekretär, ist davon auszugehen, daß — abgesehen von der Bundesregierung — auch die Mehrheit der Länder sich gegen eine solche Praxis wenden wird?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1975-05-14-07-169.u263" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg359">Davon ist auszugehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1975-05-14-07-169.u264" ana="#chair">
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg360">Der Herr Abgeordnete Dr. Dollinger hat die beiden von ihm eingereichten Fragen Nrn. 78 und 79 — zurückgezogen. Der Herr Abgeordnete Link hat um schriftliche Beantwortung der eingereichten Fragen — Nrn. 120 und 121 — gebeten. Die Antworten werden als Anlagen abgedruckt. Herr Staatssekretär, ich nehme an, daß die Abwesenheit verschiedener Fragesteller mit der Sitzung des Wirtschaftsausschusses in Berlin im Zusammenhang steht. Ich wollte das nur im Hinblick auf die Situation des Hauses deutlich machen. Ich danke Ihnen für die Beantwortung der einzigen Frage, die Sie heute hier beantworten konnten. Meine Damen und Herren, ich schlage ihnen folgendes vor. Ich sehe den Herrn Staatssekretär Jung noch. Ich kann aber im Moment nicht sehen, ob die Fragesteller für den Geschäftsbereich seines Hauses anwesend sind. Der Herr Staatssekretär Logemann ist noch nicht eingetroffen. Unter diesen Umständen meine ich — es sind noch eineinhalb Minuten für die Fragestunde —, daß es vertretbar ist — —</seg>
+          <vocal type="exclamat">
+            <desc>Seiters [CDU/CSU] : Wird dadurch das System geändert, mit morgen, wenn wir nicht zu Ende kommen?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg361">— Herr Kollege, morgen kommen vor allem die Fragen aus dem Bereich des Auswärtigen Amtes.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf: Bundeskanzleramt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg362">— Bundeskanzleramt, Auswärtiges Amt, dann geht es weiter mit Ernährung, Landwirtschaft und Forsten.</seg>
+          <vocal type="exclamat">
+            <desc>Seiters [CDU/CSU] : Nicht mit Verkehr?!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1975-05-14-07-169.seg363">- Nein, das ist klar, unter den gegebenen Umständen. Wir wären wahrscheinlich ohnehin — es ist jetzt halb drei — mit Ernährung, Landwirtschaft und Forsten nicht fertig geworden. Meine Damen und Herren, ich danke Ihnen. Wir stehen am Ende der heutigen Plenarsitzung. Ich schließe die Sitzung und berufe die nächste Sitzung des Deutschen Bundestages auf Donnerstag, den 15. Mai 1975, 9 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.30 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

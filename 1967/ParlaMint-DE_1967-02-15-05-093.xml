@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1967-02-15-05-093">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 5. Wahlperiode, 93. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 15.02.1967 (93. Sitzung der 5. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 5, Session 93 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1967-02-15 (Session 93 in Legislative Period 5)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="93">93. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.05" n="5">5. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="93">Session 93</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.05" n="5">Legislative Period 5</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 15.02.1967</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1967-02-15</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488218/bfba1a02d1090efc873f9a60f318a162/pp05-data.zip</idno>
+          <date when="1967-02-15">1967-02-15</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1967-02-15">1967-02-15</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="U1">
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg1">Die Sitzung ist eröffnet. Meine Damen und Herren! Zunächst habe ich einige Glückwünsche zu bemerkenswerten Geburtstagen auszusprechen. Dieser Tage vollendete unser Kollege Professor Dr. Erhard sein 70. Lebensjahr,</seg>
+          <kinesic type="applause">
+            <desc>Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg2">unser Kollege Abgeordneter Seuffert das 60. Lebensjahr.</seg>
+          <kinesic type="applause">
+            <desc>Beifall.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg3">Frau Kollegin Schanzenbach hatte auch einen bemerkenswerten Geburtstag.</seg>
+          <kinesic type="applause">
+            <desc>Beifall.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg4">Herr Abgeordneter Stiller wurde 60 Jahre,</seg>
+          <kinesic type="applause">
+            <desc>Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg5">und heute vollendete unser Kollege Feuring sein 65. Lebensjahr.</seg>
+          <kinesic type="applause">
+            <desc>Beifall.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg6">Ich spreche allen die Glückwünsche des Hauses aus. Ich habe einige Mitteilungen zu machen. Nach einer Mitteilung der Fraktion der SPD vom 1. Februar 1967 hat der Abgeordnete Dr. Heinz Kreutzmann, bisher Hospitant bei der SPD-Fraktion, die Mitgliedschaft der Sozialdemokratischen Partei Deutschlands erworben und gehört der Bundestagsfraktion der SPD nunmehr als ordentliches Mitglied an. Die Fraktion der SPD hat mit Schreiben vom 1. Februar 1967 für den als Schriftführer ausscheidenden Abgeordneten Frehsee den Abgeordneten Büttner benannt. Wer dem zustimmen will, gebe bitte das Handzeichen. — Das ist einstimmig angenommen. Damit ist der Abgeordnete Büttner als Schriftführer in den Vorstand des Deutschen Bundestages gewählt worden. Der Entwurf eines Siebenten Gesetzes zur Änderung des Gesetzes über Arbeitsvermittlung und Arbeitslosenversicherung, Drucksache V/1279, soll wegen seiner finanziellen Auswirkungen auch dem Haushaltsausschuß gemäß § 96 der Geschäftsordnung überwiesen werden. Ich höre keinen Widerspruch; dann ist es so beschlossen. Es liegt Ihnen eine Liste auf Überweisung von Vorlagen der Bundesregierung, die keiner Beschlußfassung bedürfen, an die zuständigen Ausschüsse gemäß § 76 Abs. 2 der Geschäftsordnung vor: 1. Vorlage des Bundesministers der Finanzen Betr.: Billigkeitsmaßnahmen für grenzdurchschnittene Betriebe bei der Abgrenzung der zum landwirtschaftlichen Betrieb gehörenden Tierbestände gemäß § 39 a BewÄndG vom 13. August 1965</seg>
+          <vocal type="exclamat">
+            <desc>jetzt: § 51 BewG 1965</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg7">Bezug: Beschluß des Bundestages vom 25. Juni 1965 — Drucksache V/1364 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg8">zuständig: Finanzausschuß 2. Vorlage des Bundesministers des Innern Betr.: Bundeskriminalamt Bezug: Beschluß des Bundestages vom 29. Juni 1966 — Drucksache V/1377 — zuständig: Innenausschuß (federführend)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg9">, Haushaltsausschuß Gegen diese Überweisungen erhebt sich kein Widerspruch; es ist so beschlossen. Folgende amtliche Mitteilungen werden ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg10">Der Bundesrat hat in seiner Sitzung am 10. Februar 1967 den nachstehenden Gesetzen zugestimmt bzw. einen Antrag gemäß Artikel 77 Abs. 2 GG nicht gestellt:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg11">Gesetz zu dem Vertrag vom 23. August 1965 zwischen der Bundesrepublik Deutschland und der Zentralafrikanischen Republik über die Förderung und den gegenseitigen Schutz von Kapitalanlagen Gesetz zu dem Vertrag vom 12. Dezember 1961 zwischen der Bundesrepublik Deutschland und der Republik Liberia zur Förderung und zum gegenseitigen Schutz von Kapitalanlagen Gesetz zu dem Vertrag vom 31. August 1961 zwischen der Bundesrepublik Deutschland und dem Königreich Marokko über die Förderung von Kapitalanlagen Gesetz zu dem Vertrag vom 11. Juni 1965 zwischen der Bundesrepublik Deutschland und der Republik Kolumbien über die Förderung und den gegenseitigen Schutz von Kapitalanlagen Gesetz zu dem Abkommen vom 21. Mai 1965 über den Handelsverkehr und die technische Zusammenarbeit zwischen der Europäischen Wirtschaftsgemeinschaft und den Mitgliedstaaten einerseits und der Libanesischen Republik andererseits Gesetz zu dem Abkommen vom 9. Juni 1965 zwischen der Bundesrepublik Deutschland und dem Königreich Dänemark über die Zusammenlegung der Grenzabfertigung und über die Einrichtung von Gemeinschafts- oder Betriebswechselbahnhöfen an der deutsch-dänischen Grenze Zweites Gesetz über das Beteiligungsverhältnis an der Einkommensteuer und der Körperschaftsteuer Gesetz zur Änderung des Gesetzes über den Finanzausgleich unter den Ländern vom Rechnungsjahr 1965 an (Länderfinanzausgleichsgesetz 1965).</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg12">Zum Vierten Gesetz zur Änderung des Gesetzes über Umstellung der Abgaben auf Mineralöl hat der Bundesrat in der gleichen Sitzung verlangt, daß der Vermittlungsausschuß gemäß Artikel 77 Abs. 2 des Grundgesetzes einberufen wird. Sein Schreiben ist als Drucksache V/1398 verteilt. Der Bundesminister für wissenschaftliche Forschung hat am 31. Januar 1967 die Kleine Anfrage der Abgeordneten Dr. Martin, Dr. Vogel (Speyer)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg13">, Frau Geisendörfer, Dr. Geißler und Genossen betr. Kosten und personeller Aufwand für die Studienreform — Drucksache V/1138 — beantwortet. Sein Schreiben ist als Drucksache V/1381 verteilt. Der Bundesminister für Ernährung, Landwirtschaft und Forsten hat am 7. Februar 1967 die Kleine Anfrage der Abgeordneten Bauknecht, Dr. Reinhard, Bewerunge, Stooß und Genossen betr. Gefahren für die deutsche Veredelungswirtschaft - Drucksache V/1317 - beantwortet. Sein Schreiben ist als Drucksache V/1386 verteilt. Der Staatssekretär des Bundesministers für Arbeit und Sozialordnung hat am 3. Februar 1967 die Kleine Anfrage der Abgeordneten Spitzmüller, Schmidt (Kempten)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg14">, Dr. Friderichs, Geldner und Genossen betr. Verbesserung der Situation der Arbeitslosen und Maßnahmen zu einer schnellen Wiedereingliederung in den Arbeitsprozeß - Drucksache V/1314 - beantwortet. Sein Schreiben ist als Drucksache V/1395 verteilt. Der Vorsitzende des Ausschusses für Wirtschaft und Mittelstandsfragen hat am 1. Februar 1967 mitgeteilt, daß der federführende Ausschuß für Wirtschaft und Mittelstandsfragen und der mitberatende Ausschuß für Ernährung, Landwirtschaft und Forsten die Verordnung Nr. 188/66/EWG des Rates vom 24. November 1966 zur Ermächtigung des Königreichs Belgien, der Bundesrepublik Deutschland, der Französischen Republik und der Italienischen Republik, die Abschöpfungen auf bestimmte Rinder- und Rindfleischeinfuhren aus dritten Ländern zu erhöhen sowie die Entscheidung des Rats vom 26. Juli 1966 über die Abschaffung der EWG-Binnenzölle, die Anwendung der Zollsätze des Gemeinsamen Zolltarifs sowie das Verbot der mengenmäßigen Beschränkungen zwischen den Mitgliedstaaten für die im Anhang II des Vertrages nicht aufgeführten Erzeugnisse zur Kenntnis genommen haben und sich eine Berichterstattung erübrigt. Der Vorsitzende des Ausschusses für Ernährung, Landwirtschaft und Forsten hat mit Schreiben vom 14. Februar 1967 mitgeteilt, daß der Ausschuß gegen die nachfolgenden Verordnungen keine Bedenken erhoben habe:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg15">Verordnung Nr. 2/67/EWG des Rates vom 12. Januar 1967 zur Festsetzung des Grundpreises und des Ankaufspreises für Blumenkohl Verordnung Nr. 3/67/EWG des Rates vom 12. Januar 1967 zur Festsetzung des Grundpreises und des Ankaufspreises für Apfelsinen Verordnung Nr. 4/67/EWG des Rates vom 12. Januar 1967 zur Festsetzung des Grundpreises und des Ankaufspreises für Mandarinen Verordnung Nr. 5/67/EWG des Rates vom 12. Januar 1967 zur Festsetzung des Grundpreises und des Ankaufspreises für Zitronen Verordnung Nr. 6/67/EWG des Rates vom 12. Januar 1967 zur Festsetzung des Grundpreises und des Ankaufspreises für Äpfel Verordnung Nr. 7/67/EWG des Rates vom 12. Januar 1967 zur Festsetzung des Grundpreises und des Ankaufspreises für Birnen. Nach einer Vereinbarung im Ältestenrat ist der Entwurf eines Gesetzes zum Protokoll vom 8. Februar 1965 über die Ergänzung des Allgemeinen Zoll- und Handelsabkommens durch Einfügung eines Teils 1V über Handel und Entwicklung - Drucksache V/1018 - dem Ausschuß für Entwicklungshilfe mitberatend überwiesen worden. Der Abgeordnete Dr. Schäfer hat am 14. Februar 1967 gegenüber dem Herrn Präsidenten des Deutschen Bundestages erklärt, daß er auf seine Mitgliedschaft im Bundestag verzichtet. Der Präsident des Bundestages hat entsprechend dem Beschluß des Bundestages vom 23. Februar 1962 die nachstehenden Vorlagen überwiesen:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg16">Sechsundsiebzigste Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Zollaussetzung für Tee, Mate und tropische Hölzer - 1967) - Drucksache V/1388 -</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg17">an den Ausschuß für Wirtschaft und Mittelstandsfragen mit der Bitte um Vorlage des Berichts rechtzeitig vor dem Plenum am 26. April 1967; Siebenundsiebzigste Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Kaschu-Nüsse usw. - 1967)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg18">- Drucksache V/1389 -</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg19">an den Ausschuß für Wirtschaft und Mittelstandsfragen mit der Bitte um Vorlage des Berichts rechtzeitig vor dem Plenum am 26. April 1967. Der Präsident des Bundestages hat am 9. Februar 1967 gemäß § 96 a der Geschäftsordnung die von der Bundesregierung als dringlich bezeichnete Neunundachtzigste Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Zollkontingente für Pflaumen, Rohblei usw.) - Drucksache V/1390 -</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg20">dem Ausschuß für Wirtschaft und Mittelstandsfragen mit der Bitte um fristgemäße Behandlung überwiesen. Der Präsident des Bundestages hat entsprechend dem Beschluß des Bundestages vom 25. Juni 1959 die nachstehenden Vorlagen überwiesen:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg21">Verordnung des Rates über die gemeinsame Marktorganisation für Geflügelfleisch Verordnung des Rates über die gemeinsame Marktorganisation für Eier - Drucksache V/1352 -</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg22">an den Ausschuß für Ernährung, Landwirtschaft und Forsten - federführend - und an den Ausschuß für Wirtschaft und Mittelstandsfragen - mitberatend - mit der Bitte um Vorlage des Berichts rechtzeitig vor dem Plenum am 14. April 1967; Verordnung des Rates über Maßnahmen bei den Preisen für Milch und Milcherzeugnisse Im Milchwirtschaftsjahr 1967/1968 und zur Änderung der Verordnung Nr. 215/66/EWG an den Ausschuß für Ernährung, Landwirtschaft und Forsten -federführend - und an den Ausschuß für Wirtschaft und Mittelstandsfragen - mitberatend - mit der Bitte um Vorlage des Berichts rechtzeitig vor dem Plenum am 24. Februar 1967. Zu den in der Fragestunde der 91. Sitzung des Deutschen Bundestages am 2. Februar 1967 gestellten Fragen des Abgeordneten Zebisch, Drucksache V/1353 Nr. VI/4 und VI/5</seg>
+          <incident type="editorial">
+            <desc>*)</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg23">, ist inzwischen die schriftliche Antwort des Bundesministers Höcherl vom 3. Februar 1967 eingegangen:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg24">Die angespannte Kassenlage des Bundes hatte gegen Ende des vergangenen Jahres zur Folge, daß nicht ausreichend Betriebsmittel bereitgestellt werden konnten, um allen Verpflichtungen und Zusagen nachkommen zu können. Dabei mußte zunächst die Auszahlung freiwillig gewährter Zuschüsse - wie z. B. für die Wasserversorgung und Abwasserbeseitigung - etwas zurückstehen. Der Bundesregierung ist bekannt, daß durch diese unvermeidlichen zeitweiligen Beschränkungen Finanzierungslücken bei inzwischen fertiggestellten Bauvorhaben aufgetreten sind. In der Regel konnten diese von den Bauträgern zunächst durch Aufnahme von Zwischenkrediten abgedeckt werden. Nachdem nunmehr ein Überblick über die Gesamthöhe der Ausgabereste aus dem Jahr 1966 vorliegt, ist die Bundesregierung bemüht, entsprechend der jeweiligen Finanzlage, alle Verpflichtungen und Zusagen baldmöglichst zu erfüllen. Dann treten wir in die Tagesordnung ein. Ich rufe auf die Fragestunde - Drucksachen V/1399, V/1408 -</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg25">Wir kommen zunächst zu den Dringlichen Mündlichen Anfragen auf Drucksache V/1408. Ich rufe die erste Dringliche Mündliche Anfrage des Abgeordneten Genscher aus dem Geschäftsbereich des Bundesministers für Wirtschaft auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg26">Gehört die deutsche Luft- und Raumfahrtindustrie nach Auffassung der Bundesregierung zu den Schlüsselbereichen der technischen Entwicklung, deren Förderung „für die Zukunft der Gesamtwirtschaft und damit für den Wohlstand unseres Volkes ertragreicher" sind „als Subventionen, die nur der Erhaltung von stagnierenden Bereichen dienen", wie es in der Regierungserklärung vom 13. Dezember 1966 heißt? Zur Beantwortung Herr Staatssekretär, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg27">Herr Präsident! Meine Damen und Herren! Ich möchte die Frage 1 wie folgt beantworten. Die Bundesregierung ist in der Tat der Auffassung, daß die Luft- und Raumfahrtindustrie mit zu den Bereichen der technischen Entwicklung gehört, die in einem modernen Industriestaat von großer Bedeutung sind. Ich verweise auf die Antwort der Bundesregierung auf die Anfrage des Herrn Abgeordneten Wellmann in der Fragestunde am 3. Februar 1967. Auf Frage 2 möchte ich antworten - -</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg28">Herr Genscher, sind Sie mit der zusammenfassenden Beantwortung einverstanden?</seg>
+        </u>
+        <note type="speaker">Genscher (FDP) :</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1967-02-15-05-093.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg29">Wenn ich dann entsprechend viele Zusatzfragen stellen kann! 1 Siehe 91. Sitzung, Seite 4211 D</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg30">Sie haben dann das Recht zu entsprechenden Zusatzfragen. Dann rufe ich die Frage 2 des Abgeordneten Genscher auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg31">Hat der Staatssekretär im Bundesverteidigungsministerium am 10. Februar 1967 den Vertretern der Luft- und Raumfahrtindustrie angeraten, in den Jahren 1967 und 1968 ca. 30% der in diesem Industriezweig beschäftigten, mit erheblichen Aufwendungen ausgebildeten und mit der Durchführung jahrelang öffentlich geförderter Projekte befaßten hockqualifizierten Techniker und Ingenieure — insgesamt etwa 3000 Personen — zu entlassen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u6" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg32">Der Sachverhalt stellt sich etwas anders dar, als er in der Frage wiedergegeben ist. Der Herr Staatssekretär des Bundesverteidigungsministeriums hat den Vertretern der Luft- und Raumfahrtindustrie am 10. Februar 1967 angeraten, ihre Entwicklungskapazität im wehrtechnischen Bereich zunächst um 15 % zu reduzieren. Dabei ging er von der Annahme aus, daß im Jahre 1967 ein Teil der bisher für wehrtechnische Projekte vorgesehenen Kapazität für Vorhaben der zivilen Luftfahrt und Raumfahrt eingesetzt werden könne. Er hat allerdings darauf hingewiesen, daß eine weitere Verminderung der Zahl der für wehrtechnische Zwecke eingesetzten Entwicklungsingenieure unvermeidlich wäre, wenn die für die reduzierten Entwicklungskapazitäten für wehrtechnische Zwecke erforderlichen Mittel nicht bereitgestellt werden könnten. Er hat ferner auf die Notwendigkeit einer Konzentration der Unternehmen in diesem Bereich hingewiesen, die bekanntlich im Ausland wesentlich weiter fortgeschritten ist als bei uns. Ein Teil der jetzt aufgetretenen Schwierigkeiten ist im übrigen darauf zurückzuführen, daß einzelne Firmen in den letzten Jahren entgegen den Warnungen des Bundesministers der Verteidigung ihre Entwicklungskapazität in einem durch die voraussehbare Auftragslage nicht gerechtfertigten Umfang weiter ausgebaut haben. Das Bundesverteidigungsministerium rechnet damit, daß die Industrie etwa 1200 Beschäftigte entlassen muß. Es handelt sich hierbei nicht ausschließlich um Ingenieure und Techniker, sondern auch um andere durch Entwicklungsaufgaben gebundene Beschäftigte wie kaufmännische Angestellte oder Büropersonal. Die Unternehmen werden sich voraussichtlich vor allem von den zuletzt eingestellten Kräften trennen, die noch nicht zum Kreis der in der Frage erwähnten Techniker und Ingenieure gehören dürften, die von den Firmen jahrelang unter Einsatz erheblicher Mittel ausgebildet worden sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u7" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg33">Eine Zusatzfrage, Herr Abgeordneter Genscher.</seg>
+        </u>
+        <note type="speaker">Genscher (FDP) :</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1967-02-15-05-093.u8" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg34">Herr Staatssekretär, welchen Nutzen verspricht sich die Bundesregierung von ihren Empfehlungen zur Konzentration für die Erhaltung aller Entwicklungsteams?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u9" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg35">Herr Abgeordneter, die Bundesregierung glaubt, daß gerade eine sinnvolle Konzentration in diesem Industriebereich ein ganz wesentliches Element bei den Bemühungen um eine nicht nur kurzfristige Besserung der Situation der Luft- und Raumfahrtindustrie darstellt. Sowohl die englische als auch die französische Regierung haben gerade in der letzten Zeit mit Nachdruck auf eine größere Konzentration in ihrer Luft- und Raumfahrtindustrie hingearbeitet mit dem Ziel, zu größerer Rationalisierung und zur Stärkung der internationalen Wettbewerbsfähigkeit zu gelangen. Zur Beleuchtung der deutschen Situation gibt es einige Vergleichszahlen. Sie zeigen alle, daß die meisten Firmen sowohl in Frankreich als auch in England, von den USA ganz abgesehen, mit viel, viel größeren Einheiten in diesem Bereich tätig sind. Der Nutzen und der Zweck der Konzentration sind in mehrfacher Hinsicht ganz evident. Es handelt sich darum, kostspielige Doppelentwicklungen zu vermeiden, einen intensiveren und rascheren Austausch von technischen Erfahrungen sicherzustellen, die Gemeinkosten in diesem Bereich zu senken und — das ist angesichts der jetzigen Situation ganz besonders notwendig — die Wirtschaftskraft zu stärken, um Auftragsschwankungen, die es in diesem Bereich immer wieder geben wird, besser auffangen zu können, und schließlich und nicht zuletzt darum, als Partner für die internationale Zusammenarbeit entsprechend gerüstet zu sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u10" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg36">Eine zweite Zusatzfrage, Herr Abgeordneter Genscher.</seg>
+        </u>
+        <note type="speaker">Genscher (FDP) :</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1967-02-15-05-093.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg37">Darf ich, Herr Staatssekretär, aus dieser Auskunft entnehmen, daß die Bundesregierung für den Fall einer Herbeiführung der von ihr gewünschten Konzentration ausreichende Entwicklungsaufträge, seien es deutsche Aufträge, seien es Aufträge aus Gemeinschaftsproduktionen, zur Verfügung stellen kann, was sie jetzt nicht kann?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg38">Eines ist von dem anderen sicher nicht zu trennen. Die Bundesregierung wird natürlich bestrebt sein, von sich aus die Voraussetzung für eine Konzentration durch Aufrechterhaltung eines möglichst hohen Beschäftigungsniveaus sicherzustellen. Andererseits muß sie natürlich bei der Vergabe ihrer Mittel mit großem Nachdruck auch bestimmte Forderungen stellen und bestimmte Anregungen geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg39">Eine weitere Zusatzfrage, Herr Abgeordneter Genscher.</seg>
+        </u>
+        <note type="speaker">Genscher (FDP) :</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1967-02-15-05-093.u14" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg40">Herr Staatssekretär, hat das Wirtschaftskabinett bei der Festsetzung eines ersten Betrages von 850 Millionen DM aus dem Eventualhaushalt das Problem der Luftfahrtindustrie mitberücksichtigt und, wenn ja, in welchem Umfang?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u15" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg41">Herr Abgeordneter, ich bin leider noch nicht in der Lage, Ihnen Zahlen zu nennen; denn das Kabinett wird die Vorschläge, die gestern im Wirtschaftskabinett erörtert worden sind, erst morgen beraten. Aber ich kann Ihnen versichern, daß in den gestrigen Beratungen sehr ausführlich über die Probleme der Luftfahrt- und Raumfahrtindustrie sowie der technischen Entwicklung gesprochen worden ist. Der Vorschlag, den das Wirtschaftskabinett für die morgige Sitzung des Kabinetts unterbreiten wird, stellt eine große Hilfe dar, wenn er so akzeptiert wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u16" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg42">Eine vierte Zusatzfrage, Herr Genscher.</seg>
+        </u>
+        <note type="speaker">Genscher (FDP) :</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1967-02-15-05-093.u17" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg43">Herr Staatssekretär, hat entsprechend Ihrer Ankündigung in der letzten Fragestunde der Herr Bundesaußenminister bei seinen Verhandlungen in den USA das Problem der Gemeinschaftsproduktionen und sonstiger Aufträge für die deutsche Luftfahrt den dortigen Forderungen nach Devisenausgleich entgegengesetzt?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u18" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg44">Herr Abgeordneter, ich bin über diese Frage nicht unterrichtet, werde mich aber bemühen, sofort Auskunft zu bekommen, und Sie dann benachrichtigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u19" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg45">Noch eine Zusatzfrage, Herr Genscher.</seg>
+        </u>
+        <note type="speaker">Genscher (FDP) :</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1967-02-15-05-093.u20" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg46">Eigentlich eine Frage an den Herrn Präsidenten: Ist es möglich, daß der anwesende Staatssekretär aus dem Verteidigungsministerium, der vielleicht über ein größeres Wissen verfügt, dieses hier offenbart?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg47">Herr Staatssekretär, sind Sie bereit? — Bitte sehr!</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums für Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg48">Ich bin gerne bereit, zu antworten, Herr Abgeordneter. Allerdings kann ich über diese Frage auch nicht mehr sagen als mein Kollege aus dem Wirtschaftsministerium.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg49">Sie haben eine letzte Zusatzfrage, Herr Genscher.</seg>
+        </u>
+        <note type="speaker">Genscher (FDP) :</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1967-02-15-05-093.u24" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg50">Herr Staatssekretär, wird die Bundesregierung sofort Verhandlungen mit allen verbündeten Nationen aufnehmen — ich habe vor 14 Tagen schon einmal danach gefragt —, um doch noch in diesem Jahr durch die Hereinnahme von Aufträgen für Gemeinschaftsproduktionen die Ausfälle auszugleichen, die durch Kürzungen im Haushalt erforderlich erscheinen?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg51">Herr Abgeordneter, soweit hiermit ein schon in konkreter Form beabsichtigtes Projekt gemeint ist, nämlich der Airbus, sind diese Anstrengungen bereits unternommen worden. Die Bemühungen sind erfolgversprechend. Was den weiteren Kreis betrifft, so wird sich zweifellos der dafür besonders eingesetzte Ausschuß, über den ich im Zusammenhang mit der Beantwortung der Frage 3 berichten kann, mit allem Nachdruck dieses Problems annehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg52">Eine Zusatzfrage, Frau Geisendörfer.</seg>
+        </u>
+        <note type="speaker">Frau Geisendörfer (CDU/CSU) :</note>
+        <u who="#Q112234" xml:id="ParlaMint-DE_1967-02-15-05-093.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg53">Herr Staatssekretär, sieht die Bundesregierung die Lösung dieser Fragen nicht nur unter wirtschaftspolitischen und verteidigungspolitischen Aspekten, sondern auch vom Standpunkt der Interessen unserer Wissenschaft und Forschung her? Mit anderen Worten: befaßt sich nicht nur das Wirtschaftskabinett, sondern auch das Wissenschaftskabinett mit diesen Fragen?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg54">Frau Abgeordnete, bei diesem Problem lassen sich die einzelnen Motive nicht voneinander trennen. Durch die Tatsache, daß ich die Beantwortung der Fragen übernommen habe, ist keineswegs dargetan, daß es sich hier nur um ein wirtschaftliches Problem handelt, und genausowenig kann aus der Beteiligung des Bundesministers der Verteidigung geschlossen werden, daß es sich nur um ein wehrtechnisches Problem handelt. Gerade bei den gestrigen Erörterungen ist der Gesichtspunkt der Wissenschafts- und Forschungsförderung mindestens gleichgewichtig zur Sprache und zur Geltung gekommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg55">Eine weitere Zusatzfrage, Frau Geisendörfer.</seg>
+        </u>
+        <note type="speaker">Frau Geisendörfer (CDU/CSU) :</note>
+        <u who="#Q112234" xml:id="ParlaMint-DE_1967-02-15-05-093.u30" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg56">Ich danke Ihnen für die letzte Feststellung, möchte aber ganz konkret fragen, ob Gemeinschaftsprojekte, die helfen können, diese Probleme zu lösen, auch bei Aufträgen in Frage kommen, die etwa vom Wissenschaftsministerium in internationalen Organisationen vergeben werden; ich denke da z. B. an die ELDO und ähnliche Organisationen.</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg57">Ich glaube, daß gerade bei den Gemeinschaftsprojekten ein ständiger Austausch von Leistungen, von Erfahrungen und auch von Mitteln stattfindet, wenn auch nicht immer in genau verfolgbaren Wegen.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Frau Geisendörfer: Das sollte aber sein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg58">Aber es ist der Sinn von Gemeinschaftsprojekten, daß die Beteiligung an der Forschung und die Nutzung allen an dem Projekt interessierten und tätigen Staaten zugute kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u32" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg59">Eine Zusatzfrage, Herr Wörner.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU) :</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1967-02-15-05-093.u33" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg60">Herr Staatssekretär, nach welchen Gesichtspunkten sind die Entlassungen empfohlen und vorgenommen worden? Gehen diese Entlassungen gleichmäßig quer durch alle Projekte und Firmen, oder sind hier bestimmte Schwerpunkte vorgesehen?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u34" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg61">Herr Abgeordneter, ich bin an den Besprechungen mit der Luftfahrtindustrie nicht beteiligt gewesen. Nur sind die allgemeinen Gesichtspunkte, nach denen im einzelnen Bereich, im einzelnen Betrieb, an welcher Stelle im einzelnen und nach welcher Größenordnung diese Entlassungen notwendig sind, von der Bundesregierung aus nicht genau festzustellen. Es handelt sich hier um eine Frage, die in erster Linie in der Zuständigkeit und auch im Entscheidungsbereich der betroffenen Industriefirmen belassen werden sollte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u35" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg62">Eine weitere Zusatzfrage, Herr Abgeordneter Wörner.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU) :</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1967-02-15-05-093.u36" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg63">Herr Staatssekretär, ist der Bundesregierung bekannt, daß allein durch die Ankündigung der Entlassung an einigen Technischen Hochschulen der Bundesrepublik Studenten, die sich für Raumfahrt und Luftfahrt eingetragen hatten, begonnen haben, sich umzuschreiben, da sie eine weitere Fortsetzung ihres Studiums in diesem Bereich für aussichtslos halten?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg64">Herr Abgeordneter, ich habe von solchen möglichen Reaktionen gehört. Diese Reaktionen im Hinblick auf eine Beeinträchtigung des Vertrauens junger Wissenschaftler und Techniker in ihre beruflichen Chancen auf lange Sicht haben bei den ganzen Erörterungen eine sehr wichtige Rolle gespielt. Ich wäre froh, wenn ich Ihnen heute schon Zahlen und den gesamten Umfang der möglichen Hilfe nennen könnte, der in Kürze sicher dazu beitragen wird, kundzutun, wie ernst der Bundesregierung die Lösung dieses sehr schwierigen Problems ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg65">Noch eine Zusatzfrage, Herr Wörner.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU) :</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1967-02-15-05-093.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg66">Herr Staatssekretär, können Sie uns Aufschluß darüber geben, welche Projekte eingestellt werden müßten, wenn es nicht gelänge, die Finanzierung sicherzustellen?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg67">Herr Abgeordneter, ich bin im Augenblick nicht in der Lage, die einzelnen Projekte zu nennen. Ich werde mich darum bemühen, sofort die nötige Auskunft zu erhalten und sie Ihnen zur Verfügung zu stellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u41" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg68">Eine Zusatzfrage, Herr Abgeordneter Schultz (Gau-Bischofsheim).</seg>
+        </u>
+        <note type="speaker">Schultz (Gau-Bischofsheim) (FDP) :</note>
+        <u who="#Q122071" xml:id="ParlaMint-DE_1967-02-15-05-093.u42" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg69">Herr Staatssekretär, teilt die Bundesregierung meine Auffassung, daß der Wert der Bundesrepublik als Partner in internationalen Beziehungen vor allem von ihrer technologischen Fähigkeit abhängt, und teilen Sie die Auffassung, daß deshalb Kürzungen im Bereich dieser Minimalindustrie, wenn man sie mit den Industrien uns befreundeter Staaten vergleicht, außerordentlich gefährlich sind?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u43" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg70">Herr Abgeordneter, es handelt sich nicht so sehr um ein Problem von Haushaltskürzungen, sondern einfach um ein Auseinanderklaffen zwischen den von der Industrie in Angriff genommenen und erweiterten Kapazitäten und den zur Verfügung stehenden Möglichkeiten. Es ist jedenfalls nicht so, daß eine bestimmte Politik gerade auf diesem Gebiet zu Kürzungen geführt hätte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u44" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg71">Noch eine Zusatzfrage, Herr Schultz.</seg>
+        </u>
+        <note type="speaker">Schultz (Gau-Bischofsheim) (FDP):</note>
+        <u who="#Q122071" xml:id="ParlaMint-DE_1967-02-15-05-093.u45" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg72">Herr Staatssekretär, teilen Sie meine Auffassung, daß die Finanzierung der Luft- und Raumfahrtindustrie auch in anderen uns befreundeten Staaten in der Vergangenheit im wesentlichen vom Staat übernommen worden ist und daß wir deswegen ähnliches auch hier tun müßten?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg73">Mir ist diese Tatsache durchaus bekannt. Die Bundesregierung steht einfach vor der nüchternen Feststellung, daß die Entwicklung in diesem Bereich in der Bundesrepublik noch relativ jung ist. Daraus erklärt sich zum Teil auch, daß bisher die notwendigen und vielleicht auf lange Sicht auch erwünschten finanziellen Beiträge noch nicht bereitgestellt werden konnten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg74">Eine Zusatzfrage, Herr Ollesch.</seg>
+        </u>
+        <note type="speaker">Ollesch (FDP) :</note>
+        <u who="#Q2645612" xml:id="ParlaMint-DE_1967-02-15-05-093.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg75">Herr Staatssekretär, es wird immer wieder das ungesunde Verhältnis in der Beschäftigtenzahl zwischen der Produktion und der Entwicklung und Forschung beklagt. Sind Sie nicht der Meinung, daß durch die Kürzung der Mittel für Entwicklung und Forschung das Verhältnis auf die Dauer noch immer ungünstiger werden und die angestrebte Verstärkung der Produktion leiden muß, wenn wir an Entwicklungskosten sparen?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg76">Sicher sind die Entwicklungskosten und die Kapazitäten in diesem Bereich von ganz entscheidender Bedeutung, und eine Stärkung der Industrie wird in erster Linie auf dem Gebiet zu erfolgen haben, auf dem Mittel gerade für diesen Zweck möglichst weitgehend erhalten werden konnten. Ich sagte aber bereits vorhin, daß nicht die Absicht bestanden habe, die Mittel gerade für dieses Gebiet zu kürzen. Vielmehr hat wegen der finanziellen Enge die Haushaltsentwicklung nicht mit dem Ausbau der Kapazitäten Schritt gehalten, deren Entwicklung insbesondere von 1965 auf 1966 in bezug auf die Beschäftigtenzahl einen sehr deutlichen Sprung gemacht hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u50" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg77">Noch eine Zusatzfrage, Herr Ollesch.</seg>
+        </u>
+        <note type="speaker">Ollesch (FDP) :</note>
+        <u who="#Q2645612" xml:id="ParlaMint-DE_1967-02-15-05-093.u51" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg78">Herr Staatssekretär, ist der Bundesregierung die besonders kritische Lage beim Entwicklungsring Süd bekannt, der für das Jahr 1967 50 Millionen DM für Entwicklungskosten angefordert hatte, für den jedoch von seiten des Verteidigungsministeriums ohnehin nur 31 Millionen DM bereitgestellt wurden, von denen für das erste Halbjahr 1967 nur 12 Millionen DM zur Verfügung gestellt werden sollen?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u52" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg79">Diese Tatsache ist bekannt. Gerade bei dieser Firma zeigt sich das Auseinanderklaffen zwischen den Wünschen und Absichten auf seiten der Industrie und den finanziellen Mitteln, die zur Verfügung stehen. Vielleicht darf ich mir hier die allgemeine Bemerkung erlauben, daß natürlich die Begrenzung des Bundeshaushalts, die notwendigen Streichungen nicht ohne Folge bei einer ganzen Reihe von Gebieten bleiben konnten. Aber diese nüchterne Feststellung und dieser Druck präjudizieren nicht eine vernünftige Politik auf diesem Gebiet auf mittlere Sicht, insbesondere im Rahmen der mehrjährigen Finanzplanung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u53" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg80">Eine Zusatzfrage, Herr Abgeordneter Berkhan.</seg>
+        </u>
+        <note type="speaker">Berkhan (SPD) :</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1967-02-15-05-093.u54" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg81">Herr Staatssekretär, sieht die Bundesregierung Möglichkeiten, durch Umschichtung in den entsprechenden Haushalten etwas mehr Geld für Forschung und Entwicklung frei zu machen, für das Gebiet, das wir hier heute in der Fragestunde behandeln?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u55" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg82">Herr Abgeordneter, diese Frage wird bereits erörtert. Es ist insbesondere an folgende Möglichkeiten gedacht — ohne daß ich schon in der Lage wäre, Ihnen konkrete Zahlen zu nennen —: Zur Erörterung steht die Umsetzung von Mitteln im Haushalt des Bundesministers der Verteidigung und die Inanspruchnahme von Mitteln der im Ergänzungshaushalt für den deutsch-amerikanischen Devisenausgleich angesetzten Beträge für deutsch-amerikanische wehrtechnische Gemeinschaftsprojekte, was entsprechenden Spielraum für den Einsatz von Mitteln im eigenen Bereich möglich machen würde. In der Erörterung spielen diese beiden Möglichkeiten neben den Hilfen, die der Eventualhaushalt geben kann, eine entscheidende Rolle.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u56" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg83">Eine zweite Zusatzfrage, Herr Abgeordneter Berkhan.</seg>
+        </u>
+        <note type="speaker">Berkhan (SPD) :</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1967-02-15-05-093.u57" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg84">Herr Staatssekretär, sehen Sie bei dem von Ihnen angesprochenen Airbus die Möglichkeit, daß auch deutsche Forschungs- und Entwicklungsgruppen — sowohl Wissenschaftler als auch Forschungs- und Entwicklungsingenieure — mit in Tätigkeit gesetzt werden können?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u58" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg85">Ich bin überzeugt, ,daß diese Möglichkeit im Rahmen der deutschen Gesamtbeteiligung auf all den Gebieten, die Sie genannt haben, erfolgversprechend gegeben ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u59" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg86">Eine Zusatzfrage, Herr Rinderspacher.</seg>
+        </u>
+        <note type="speaker">Dr. Rinderspacher (SPD) :</note>
+        <u who="#Q1468009" xml:id="ParlaMint-DE_1967-02-15-05-093.u60" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg87">Herr Staatssekretär, habe ich Sie richtig verstanden, wenn ich aus Ihren ersten Antworten entnommen habe, daß .die Bundesregierung den Konzentrationsprozeß in der Luftfahrtindustrie als notwendig vorausgesehen und die fraglichen Firmen vor einer zu starken Ausweitung der Kapazitäten gewarnt hat?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u61" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg88">Aus meiner Antwort ging in der Tat hervor, daß das Bundesministerium der Verteidigung mit der Industrie seit langer Zeit solche Gespräche geführt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u62" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg89">Noch eine Zusatzfrage, Herr Rinderspacher.</seg>
+        </u>
+        <note type="speaker">Dr. Rinderspacher (SPD) :</note>
+        <u who="#Q1468009" xml:id="ParlaMint-DE_1967-02-15-05-093.u63" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg90">Ist daraus zu entnehmen, daß die wirtschaftliche Situation, wie sie sich jetzt darstellt, keineswegs überraschend gekommen ist, weder für die Industrien noch für die darin Beschäftigten?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u64" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg91">Ich glaube, Herr Abgeordneter, ,daß man diese Frage wohl bejahen kann, wenn vielleicht auch nicht für den einzelnen Beteiligten das Ausmaß der Schwierigkeiten, wie es sich heute, im Februar 1967, darstellt, schon in vollem Umfang sichtbar gewesen ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u65" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg92">Ich rufe die dritte Frage des Herrn Abgeordneten Genscher auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg93">Ist die Bundesregierung bereit, angesichts der noch in dieser Woche notwendig werdenden Kündigungen in der Luft- und Raumfahrtindustrie durch die Einsetzung eines interministeriellen Arbeitsstabes und durch die Vorlage eines Sofortprogramms alle innen- und außenpolitischen Möglichkeiten zu erschöpfen, um die Abwanderung der Techniker und Ingenieure aus der Luft- und Raumfahrtindustrie ins Ausland zu verhindern? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u66" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg94">Die Bundesregierung hat bereits einen interministeriellen Ausschuß auf Staatssekretärebene damit betraut, Maßnahmen zur Lösung der gegenwärtigen Schwierigkeiten vorzubereiten. Zur Unterstützung der Staatssekretäre steht ein aus Abteilungsleitern der beteiligten Ressorts gebildeter Ausschuß bereit, den das Bundeskabinett durch Beschluß vom 22. September 1966 als ständiges Koordinierungsgremium für Fragen der Luft- und Raumfahrtindustrie eingerichtet hat. Entscheidungen sind bisher noch nicht getroffen worden. Ein Sofortprogramm ist davon abhängig, daß es gelingt, die erforderlichen Mittel für die Weiterbeschäftigung der reduzierten Entwicklungsgruppen bereitzustellen. Hierin liegt auch nach Ansicht der Bundesregierung der einzige Weg, die Abwanderung von hochqualifizierten Technikern und Ingenieuren ins Ausland zu verhindern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u67" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg95">Zusatzfrage, Herr Genscher.</seg>
+        </u>
+        <note type="speaker">Genscher (FDP) :</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1967-02-15-05-093.u68" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg96">Herr Staatssekretär, würden Sie dem Hohen Hause sagen, welche zeitlichen und quantitativen Ziele sich die Bundesregierung für die Erhaltung dieser wertvollen technischen und wissenschaftlichen Kräfte gesetzt hat.</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u69" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg97">Ich bin im Augenblick nicht in der Lage, die gesamten Zielsetzungen, die bisher in diesen Ausschüssen erst diskutiert worden sind, zu quantifizieren. Nur kann ich sagen, hier ist eine doppelte Aufgabe gegeben. Einmal geht es darum, die Möglichkeiten, die die schon vorbereiteten Programme bieten, für die nächsten ein bis zwei Jahre sinnvoll zu nutzen. Zu diesen Programmen gehören verschiedene Projekte, einmal das Kurzstreckenverkehrsflugzeug „VFW 614" und dann insbesondere das in internationaler Gemeinschaftsarbeit zu entwickelnde Airbus-Projekt. Die zweite Aufgabe ist die Entwicklung eines langfristigen Programms. Selbstverständlich sind hier die Schwierigkeiten entsprechend größer, zumal die konkreten Kenntnisse und Erkenntnisse hier heute noch gering sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg98">Letzte Frage, Herr Genscher.</seg>
+        </u>
+        <note type="speaker">Genscher (FDP) :</note>
+        <u who="#Q106235" xml:id="ParlaMint-DE_1967-02-15-05-093.u71" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg99">Darf ich, Herr Staatssekretär, aus der Tatsache, daß die Staatssekretär zweier unmittelbar beteiligter Häuser hier in wesentlichen Fragen noch nicht unterrichtet sind — z. B. über die Ergebnisse der Verhandlungen in den USA, aber auch über die Möglichkeiten von Kürzungen im Verteidigungshaushalt —, entnehmen, daß nicht nur die Luftfahrtindustrie, sondern auch die Bundesregierung und der von ihr eingesetzte Ausschuß von der Entwicklung überrascht worden sind?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u72" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg100">Ich sagte vorhin, daß die Entwicklungen sich in der Tendenz seit längerer Zeit anbahnten, daß aber das ganze Ausmaß der Schwierigkeiten in der Tat erst in jüngster Zeit voll sichtbar geworden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u73" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg101">Eine Zusatzfrage, Herr Wörner.</seg>
+        </u>
+        <note type="speaker">Dr. Wörner (CDU/CSU) :</note>
+        <u who="#Q60777" xml:id="ParlaMint-DE_1967-02-15-05-093.u74" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg102">Herr Staatssekretär, ist die Bundesregierung bereit, der deutschen Luftfahrtindustrie für die Zukunft eine klare Aufgabenstellung zuzuweisen, so daß in der Zukunft, und zwar auf lange Sicht gesehen, solche Vorkommnisse wie jetzt vermieden werden?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg103">Herr Abgeordneter, ich bin überzeugt, daß hierzu nicht nur die Bereitschaft besteht, sondern daß man sich darum auch ernsthaft bemühen wird. Nur muß ich hinzufügen, daß die Möglichkeiten, die natürlich insbesondere von den verfügbaren finanziellen Mitteln abhängen, nur umrissen und auch zur Information der Industrie nur dargelegt werden können, wenn Klarheit besteht über die Prioritäten, über die Gesamtmöglichkeiten und die Aufteilung unserer finanziellen Engagements auf allen Gebieten im Rahmen einer mittelfristigen Finanzplanung. Die Dringlichkeit der mittelfristigen Finanzplanung wird gerade auch durch diese Fragestellung und diese Problematik besonders unterstrichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg104">Eine Zusatzfrage, Frau Geisendörfer.</seg>
+        </u>
+        <note type="speaker">Frau Geisendörfer (CDU/CSU) :</note>
+        <u who="#Q112234" xml:id="ParlaMint-DE_1967-02-15-05-093.u77" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg105">Herr Staatssekretär, Sie sprachen in Ihrer Antwort immer nur von der Luftfahrtindustrie. in der krage ist aber auch von der Raumfahrtindustrie die Rede. Spiegelt sich die Tatsache, daß diese beiden Zweige der Industrie in einem Zusammenhang miteinander stehen, auch in der Zusammensetzung des interministeriellen Arbeitsstabes wider? Mit anderen Worten: Welche Staatssekretäre oder welche Ressorts sind daran beteiligt?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg106">Frau Abgeordnete, die Frage ist zu bejahen. In diesem Ausschuß sind die mit Wissenschaft und Forschung, insbesondere auch auf dem Gebiet der Raumfahrt, befaßten Ressorts vertreten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg107">Noch eine Zusatzfrage, Frau Geisendörfer.</seg>
+        </u>
+        <note type="speaker">Frau Geisendörfer (CDU/CSU) :</note>
+        <u who="#Q112234" xml:id="ParlaMint-DE_1967-02-15-05-093.u80" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg108">Herr Staatssekretär, sieht sich die Bundesregierung in der Lage, irgendeine Antwort zu geben, mit der die Techniker und Ingenieure, die im Begriff sind, abzuwandern, praktisch etwas anfangen können? Mit anderen Worten: Ist Ihre Auskunft geeignet, die betreffenden Leute so zu beruhigen, daß sie noch für eine Weile, bis sie eine endgültige Antwort erhalten haben, an ihren Arbeitsplätzen bleiben werden?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg109">Frau Abgeordnete, die Antwort muß wohl dann gegeben werden, und sie kann dann auch mit festen Zahlen und konkreten Aussagen gegeben werden, wenn die unmittelbar zur Lösung anstehenden finanziellen Probleme — bezüglich der Möglichkeiten im Verteidigungshaushalt, vor allem der Möglichkeiten der Umschichtung, sowie auch im Eventualhaushalt — vom Kabinett entschieden sind. Natürlich unterliegen diese Dinge dann der Beschlußfassung im weiteren Gesetzgebungsgang. Dann kann diese Antwort so konkret gegeben werden, daß eine vernünftige Vertrauensbasis hergestellt ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg110">Zusatzfrage des Herrn Abgeordneten Berkhan.</seg>
+        </u>
+        <note type="speaker">Berkhan (SPD) :</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1967-02-15-05-093.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg111">Herr Staatssekretär, ist die Bundesregierung bereit, durch Vorbescheide für die Aufträge, die weiterlaufen sollen, die Firmen in den Stand zu versetzen, bei ihren Banken Kredite aufzunehmen, um ihren finanziellen Verpflichtungen nachkommen zu können?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg112">Die Herausgabe von Vorbescheiden hängt natürlich auch damit zusammen, daß einigermaßen Sicherheit über die Bewilligung der angestrebten Mittel gegeben sein muß; denn sonst würde sich die Bundesregierung, wenn diese Mittel nicht in der vollen Höhe oder wenn sie in anderer Zusammensetzung gegeben werden, sicherlich dem Vorwurf aussetzen, daß sie die Firmen zu einem Kreditengagement veranlaßt hätte, das nicht in voller Höhe und nicht in dieser Zusammensetzung zu verantworten ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg113">Zusatzfrage, Herr Abgeordneter Berkhan.</seg>
+        </u>
+        <note type="speaker">Berkhan (SPD) :</note>
+        <u who="#Q115395" xml:id="ParlaMint-DE_1967-02-15-05-093.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg114">Herr Staatssekretär, ist die Bundesregierung bereit, von Fall zu Fall, wenn es notwendig und nützlich erscheint, vor 'dem Arbeitsstab die Interessenvertretungen der Industrie und auch die Interessenvertretungen der Arbeitnehmer, d. h. die Gewerkschaften, zu dieser Frage zu hören?</seg>
+        </u>
+        <note type="speaker">Dr. Schöllhorn, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1692591" xml:id="ParlaMint-DE_1967-02-15-05-093.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg115">Herr Abgeordneter, diese Bereitschaft ist zweifellos vorhanden, nur waren in den letzten Wochen und Tagen so dringende Probleme auf allen Gebieten, die hiermit zusammenhängen, zu diskutieren und zu lösen, daß die volle Beteiligung jeder einzelnen Gruppe vielleicht noch nicht in befriedigendem Umfange sichergestellt werden konnte. Ich teile aber Ihre Auffassung ganz, daß es sich nicht nur um ein Problem der Unternehmen, sondern auch um ein Problem der Arbeitnehmer handelt, welcher Qualifikation sie auch immer sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg116">Damit sind die Dringlichen Anfragen erledigt. Die Frage IX/4 des Herrn Abgeordneten KahnAckermann ist zurückgezogen. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit. Da liegen drei Fragen des Herrn Abgeordneten Dr. Jahn vor. Werden sie zusammen beantwortet?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1967-02-15-05-093.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg117">Nein, sie werden getrennt beantwortet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg118">Ich rufe die Frage IX/1 des Abgeordneten Dr. Jahn (Braunschweig)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg119">auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg120">Ist die Bundesregierung bereit, in der Zukunft die deutsche Kapitalhilfe für Entwicklungsländer nur noch liefergebundenen Ländern zu gewähren? Bitte sehr, Herr Bundesminister!</seg>
+        </u>
+        <note type="speaker">Wischnewski, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1967-02-15-05-093.u91" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg121">Die Bundesregierung ist bisher bei der Vergabe der bilateralen Kapitalhilfe vom Grundsatz der Lieferungebundenheit ausgegangen. Dies entspricht ihrer Auffassung, daß ein weltweiter Abbau der Lieferbindung sowohl im Interesse der Entwicklungsländer als auch der deutschen Wirtschaft liegt. Die Lieferungebundenheit kann jedoch auf die Dauer nur aufrechterhalten werden, wenn sich die übrigen Geberländer ebenfalls zu diesem Grundsatz bekennen. Es wurde daher schon bisher in jedem Einzelfall sorgfältig geprüft, ob eine Bindung an deutsche Lieferungen aus politischen oder handelspolitischen Gründen zweckmäßig war. Im übrigen haben die Empfängerländer deutscher Kapitalhilfe in ,vielen Fällen deutsche Lieferungen auch dann bevorzugt, wenn keine Lieferbindung vereinbart war. In den beiden letzten Jahren entfielen nicht weniger als 83 % der feststellbaren Lieferungen aus der Kapitalhilfe auf deutsche Unternehmen. Im Hinblick auf die gegenwärtige Wirtschaftslage in Deutschland wird die Bundesregierung ihre Bemühungen um die Einschaltung der deutschen Wirtschaft im Rahmen der bilateralen Kapitalhilfe verstärken. Dies gilt insbesondere bei anerkannten Schwierigkeiten deutscher Wirtschaftszweige und bei ungerechtfertigten Wettbewerbsnachteilen deutscher Unternehmen im Empfängerland. Die Bundesregierung ist überzeugt, daß durch pragmatisches Vorgehen auf dieser Basis den Belangen der deutschen Wirtschaft auf die Dauer am besten Rechnung getragen werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u92" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg122">Eine Zusatzfrage, Herr Dr. Jahn.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn (Braunschweig) (CDU/CSU) :</note>
+        <u who="#Q1579275" xml:id="ParlaMint-DE_1967-02-15-05-093.u93" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg123">Herr Bundesminister, liegen Erfahrungen über den Grundsatz der Liefergebundenheit der Kapitalhilfe bei anderen Industrienationen vor?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1967-02-15-05-093.u94" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg124">Der Anteil der liefergebundenen Kredite ist bei den einzelnen Industrienationen selbstverständlich sehr unterschiedlich. Nach den mir zur Verfügung stehenden Unterlagen haben zum Beispiel die Vereinigten Staaten 88 % ihrer Kredite liefergebunden gewährt. Die Anteile Großbritanniens und Frankreichs belaufen sich auf 38 % bzw. 24 %. Diese Zahlen geben jedoch kein vollständiges Bild über den Anteil der effektiven Lieferungen des jeweiligen Geberlandes. Ein großer Teil der Kredite fließt auch ohne formelle Lieferbindung in Form von Aufträgen an das Geberland zurück. Ich möchte jedoch nicht verschweigen, daß aus der Sicht des Empfängerlandes jede Lieferbindung eine beachtliche Einschränkung in der Verwendung der empfangenen Kredite darstellt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u95" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg125">Ich rufe die Frage IX/2 des Herrn Abgeordneten Dr. Jahn (Braunschweig)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg126">auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg127">Wie hoch ist der Anteil der deutschen Industrie bei der Projektdurchführung am EWG-Assoziierungsfonds?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1967-02-15-05-093.u96" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg128">Der EWG-Assoziierungsfonds — oder Europäischer Entwicklungsfonds — setzt sich, genaugenommen, aus zwei verschiedenen Fonds zusammen. Der erste Fonds wurde 1958 zugunsten der damals noch von Belgien, Frankreich, Italien und den Niederlanden abhängigen überseeischen Länder und Hoheitsgebiete geschaffen. Sein Volumen beträgt 2325 Millionen DM. Der zweite Fonds entstand 1964 im Zusammenhang mit dem JaundeAbkommen, d. h. mit der Neuregelung des Assoziationsverhältnisses mit den inzwischen staatsrechtlich selbständig gewordenen Ländern und Hoheitsgebieten. Er wurde mit 2920 Millionen DM ausgestattet. Das gesamte Fondsvermögen beträgt also 5245 Millionen DM. Hiervon wurden bisher Aufträge in Höhe von 1858,57 Millionen DM vergeben. Davon erhielt die deutsche Wirtschaft Aufträge in Höhe von 169,9 Millionen DM. Dies entspricht einem Anteil von 9,14 %. Bei den einzelnen Auftragsgruppen waren deutsche Firmen wie folgt beteiligt: bei den Bauleistungen, die in einem erheblichen Umfang eine Rolle spielen, mit 4,29 %, bei den Lieferungen mit 20,9 % und bei den intellektuellen Leistungen — das sind Studien, technische Beratung usw. — mit 22,41 %.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u97" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg129">Zu einer Zusatzfrage Herr Dr. Jahn.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn (Braunschweig) (CDU/CSU) :</note>
+        <u who="#Q1579275" xml:id="ParlaMint-DE_1967-02-15-05-093.u98" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg130">Herr Minister, welche Gründe gibt es für den geringen Anteil deutscher Aufträge am EWG-Entwicklungsfonds?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1967-02-15-05-093.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg131">Herr Kollege Dr. Jahn, ich sehe die Gründe in erster Linie darin, ,daß die alteingesessenen Firmen in der Europäischen Wirtschaftsgemeinschaft und in den assoziierten afrikanischen Ländern und Madagaskar gegenüber der deutschen Wirtschaft einen natürlichen Wettbewerbsvorsprung haben. Das gilt insbesondere für den Bausektor, der immer noch rund 70 % aller Aufträge des Fonds ausmacht. Andererseits darf aber auch nicht übersehen werden, daß sich die deutsche Wirtschaft angesichts der vielfältigen Wettbewerbsschwierigkeiten, denen sie sich in diesen Ländern gegenübersieht, noch mehr engagieren muß als bisher.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg132">Noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn (Braunschweig) (CDU/CSU) :</note>
+        <u who="#Q1579275" xml:id="ParlaMint-DE_1967-02-15-05-093.u101" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg133">Herr Bundesminister, was gedenkt die Bundesregierung zu unternehmen, um ein besseres Verhältnis zwischen deutschen Beitragsleistungen zum Fonds und Aufträgen zugunsten der deutschen Wirtschaft zu erreichen?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1967-02-15-05-093.u102" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg134">Das von Ihnen angesprochene Thema, Herr Kollege Dr. Jahn, wird den Ministerrat der Europäischen Wirtschaftsgemeinschaft in einer seiner nächsten Sitzungen beschäftigen. Die Bundesregierung wird dazu einen Entschließungsantrag einbringen. Die deutschen Vorschläge liegen insbesondere auf dem Gebiet der Vereinfachung und Vereinheitlichung der Ausschreibungsunterlagen, der Verbesserung der Zahlungs- und Vorschußmodalitäten, der Förderung von Arbeitsgemeinschaften von Unternehmen aus mehreren Mitgliedstaaten sowie der verstärkten Finanzierung solcher Projekte, die auch nichtortsansässigen Unternehmen vermehrte Aussichten auf Erfolg bei der Ausschreibung bieten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u103" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg135">Ich rufe die Frage IX/3 des Herrn Abgeordneten Dr. Jahn (Braunschweig)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg136">auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg137">Wie hoch sind die Beiträge, die die Bundesrepublik an die Weltbank und andere Institutionen der Entwicklungshilfsorganisation leistet? Bitte, Herr Bundesminister!</seg>
+        </u>
+        <note type="speaker">Wischnewski, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1967-02-15-05-093.u104" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg138">Der deutsche Kapitalanteil an der Weltbank beträgt 1280 Millionen Dollar. Das sind 5,7 % des Gesamtkapitals der Bank. Hiervon wurden bis jetzt 107,3 Millionen Dollar gezahlt. 20,7 Millionen Dollar sind noch zu leisten. Bei der Internationalen Entwicklungshilfeorganisation — abgekürzt IDA genannt — beläuft sich der deutsche Gesamtbeitrag auf 125,6 Millionen Dollar. Das sind 8,1 % des Gesamtkapitals. Davon wurden bisher 101,4 Millionen Dollar eingezahlt. 24,2 Millionen Dollar sind noch zu leisten. An der zweiten Schwesterorganisation der Weltbank, der Internationalen Finanz-Corporation, IFC genannt, ist die Bundesrepublik mit 3,7 Millionen Dollar beteiligt. Das entspricht 3,7 % des Gesamtkapitals. Im vergangenen Jahr ist die Bundesrepublik der Asiatischen Entwicklungsbank beigetreten. Der deutsche Anteil beträgt hier 34 Millionen Dollar oder 3,4 %. Schließlich möchte ich noch unsere Leistungen im Rahmen der Entwicklungsprogramme der Vereinten Nationen erwähnen. Sie betragen insgesamt rund 15 Millionen Dollar.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u105" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg139">Eine Zusatzfrage, Herr Dr. Jahn.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn (Braunschweig) (CDU/CSU) :</note>
+        <u who="#Q1579275" xml:id="ParlaMint-DE_1967-02-15-05-093.u106" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg140">Herr Bundesminister, wie hoch ist der Anteil der Beteiligung der deutschen Wirtschaft an den durch die Entwicklungshilfeorganisation multilateral vergebenen Projekten?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1967-02-15-05-093.u107" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg141">Auf diesem Sektor ist die Situation recht zufriedenstellend. Ich darf folgende Zahlen bekanntgeben:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg142">Von den Auszahlungen der Weltbank haben bis zum 30. Juni 1966 deutsche Lieferfirmen Aufträge im Werte von 606 Millionen Dollar, das sind 11,5 %, erhalten. Bei der IDA waren es 73,1 Millionen Dollar oder 13,8 %. Der deutsche Lieferanteil bei der IFC ist nicht feststellbar, da diese Institution nicht nur Kredite, sondern auch Beteiligungen gewährt bzw. eingeht. Die Asiatische Entwicklungsbank hat erst zu Beginn dieses Jahres ihre Tätigkeit begonnen. Bei den Vereinten Nationen entspricht der Lieferanteil etwa der Höhe der deutschen Leistungen. I Insgesamt haben also die deutschen Firmen im Bereich der Weltbankgruppe und der Vereinten Nationen gut abgeschnitten, im Gegensatz zum EWG-Fonds.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u108" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg143">Eine Zusatzfrage, Herr Abgeordneter Schmidhuber.</seg>
+        </u>
+        <note type="speaker">Schmidhuber (CDU/CSU) :</note>
+        <u who="#Q67956" xml:id="ParlaMint-DE_1967-02-15-05-093.u109" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg144">Herr Bundesminister, in welcher Weise ist die Bundesrepublik personell in den Organen der von Ihnen genannten Institutionen beteiligt?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1967-02-15-05-093.u110" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg145">Die Situation ist von Institution zu Institution sehr unterschiedlich. Ich glaube, daß wir bei einer Reihe von Institutionen noch nicht in dem notwendigen Maße personell beteiligt sind. Die Bundesregierung ist an einem stärkeren personellen Engagement interessiert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg146">Eine Zusatzfrage, Herr Kiep.</seg>
+        </u>
+        <note type="speaker">Kiep (CDU/CSU) :</note>
+        <u who="#Q2547309" xml:id="ParlaMint-DE_1967-02-15-05-093.u112" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg147">Herr Minister, sehen Sie im Zusammenhang mit den Weltbank-Projekten die Möglichkeit einer verstärkten Einschaltung deutscher technischer Beratungsfirmen, sogenannter Consulting-Firmen?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1967-02-15-05-093.u113" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg148">Über diese Angelegenheit wird seit längerer Zeit gesprochen. Ich glaube, daß es in noch stärkerem Maße als bisher die Möglichkeit gibt, deutsche Consulting-Firmen zu berücksichtigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u114" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg149">Noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Kiep (CDU/CSU) :</note>
+        <u who="#Q2547309" xml:id="ParlaMint-DE_1967-02-15-05-093.u115" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg150">Herr Minister, glauben Sie, daß dasselbe auch für Projekte aus dem EWG-Fonds gelten kann?</seg>
+        </u>
+        <note type="speaker">Wischnewski, Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q67517" xml:id="ParlaMint-DE_1967-02-15-05-093.u116" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg151">Hier muß ein Unterschied gemacht werden. Ich glaube, daß im Rahmen dieses europäischen Fonds deutsche Firmen noch stärker berücksichtigt sind. Der Prozentsatz liegt hier erfreulicherweise erheblich über 20 %. Das ist also besser, aber noch nicht voll befriedigend.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u117" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg152">Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers der Verteidigung. Frage XII/1 des Herrn Abgeordneten Kiep:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg153">Trifft es zu, daß das Bundesamt für Wehrtechnik und Beschaffung im Zusammenhang mit dem Bau der Lenkwaffenzerstörer die französische Regierung aufgefordert hat, ein Angebot über die Lieferung von Salutgeschützen für die drei Zerstörer abzugeben? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg154">Die Antwort auf Ihre Frage, Herr Abgeordneter, lautet: Nein. Im Zusammenhang mit dem Bau von Lenkwaffenzerstörern sind bei der französischen Regierung keine Angebote über Lieferung von Salutgeschützen angefordert worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg155">Keine Zusatzfrage. Dann die Frage XII/2 des Herrn Abgeordneten Kahn-Ackermann:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg156">Hält das Bundesverteidigungsministerium die von ihm geplante Errichtung eines großen Lazaretts im sogenannten Pentenrieder Schlag bei Gauting mit den Bestimmungen der Genfer Konvention für vereinbar? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministerium der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg157">Die Antwort auf Ihre Frage, Herr Abgeordneter, lautet: Zweifelsfrei ja. Das Bundesministerium der Verteidigung prüft jeweils vor der Anlage von Lazaretten, ob die notwendigen Sicherheitsabstände der Lazarette zu militärischen Zielen eingehalten werden können. Mit dieser Prüfung wird der Bestimmung des Art. 19 des I. Genfer Abkommens von 1949 Rechnung getragen, nach der ortsfeste Einrichtungen des Sanitätsdienstes nach Möglichkeit so angelegt werden sollen, daß sie durch Angriffe auf militärische Ziele nicht gefährdet werden können. Die entsprechende Prüfung hat bei der Planung des Bundeswehrlazarettes im Pentenrieder Schlag auf der Gemarkung Krailling bei Gauting ergeben, daß völkerechtliche Einwendungen gegen den Standort nicht erhoben werden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg158">Eine Zusatzfrage, Herr Kahn-Ackermann.</seg>
+        </u>
+        <note type="speaker">Kahn-Ackermann (SPD) :</note>
+        <u who="#Q105732" xml:id="ParlaMint-DE_1967-02-15-05-093.u122" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg159">Herr Staatssekretär, wie bringen Sie Ihre Erklärung mit der Tatsache in Übereinstimmung, daß sich in 1500 m Entfernung von dem geplanten Lazarett eines der größten militärischen Tanklager in Süddeutschland befindet und daß sich in 4000 m Entfernung eine Flugzeugfirma befindet, die überwiegend für die Bundeswehr arbeit und überwiegend militärische Flugzeuge und Träger herstellt?</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u123" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg160">Herr Abgeordneter, diese Feststellungen stehen mit meinen Ausführungen im Einklang. Es gibt keine absoluten Bestimmungen und keine absoluten Entfernungsgrenzen, die das Genfer Abkommen in diesem Zusammenhang vorschreiben würde. Bei der Bewertung und Beurteilung dieser Frage muß die Bedeutung der militärischen Objekte, die in einer gewissen Entfernung zu Lazaretten liegen, in Betracht gezogen werden, und es muß in Betracht gezogen werden, mit welcher Art von Waffen solche militärischen Objekte voraussichtlich angegriffen würden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u124" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg161">Zweite Zusatzfrage, Herr Kahn-Ackermann.</seg>
+        </u>
+        <note type="speaker">Kahn-Ackermann (SPD) :</note>
+        <u who="#Q105732" xml:id="ParlaMint-DE_1967-02-15-05-093.u125" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg162">Herr Staatssekretär, sagt nicht auch nach Ihrer Meinung der gesunde Menschenverstand, daß ein unterirdisch angelegtes Großtanklager in so geringer Entfernung eine ernsthafte Gefährdung für ein solches Lazarett darstellt, da es mit sehr tief durchschlagenden Sprengkörpern angegriffen werden muß, die auch in einem großen Radius eine Zerstörungswirkung haben?</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u126" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg163">Herr Abgeordneter, das Ergebnis der Prüfung, die mit Bezug auf diese Frage angestellt worden ist, ist, daß von einer solchen außergewöhnlichen Gefährdung nicht gesprochen werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u127" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg164">Wir kommen zu der Frage XII/3 des Herrn Abgeordneten Josten:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg165">In welcher Form werden Wehrpflichtige aufgeklärt, daß sie in dem Jahr der Einberufung einen Erstattungsantrag auf Lohnsteuer-Jahresausgleich beantragen können? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u128" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg166">Jeweils zwei Monate vor Schluß eines Kalenderjahres wird allen Soldaten bei den Truppenteilen und Dienststellen bekanntgegeben, daß für Wehrsoldempfänger, deren Wehrdienst am 31. Dezember noch besteht und die im Laufe des Kalenderjahres in einem Dienst- oder Beschäftigungsverhältnis gestanden haben oder während des Wehrdienstverhältnisses steuerpflichtige Einkünfte hatten, ein Lohnsteuer-Jahresausgleich von Dienststellen der Bundeswehr nicht durchgeführt wird. Die Wehrpflichtigen werden auch darüber belehrt, daß, wenn die Voraussetzungen gegeben sind, der Antrag bei dem für den Wohnsitz des Wehrpflichtigen zuständigen Finanzamt zu stellen ist. Auf die Notwendigkeit dieser Belehrung ist zuletzt mit einem Erlaß vom 1. Dezember 'des vergangenen Jahres hingewiesen worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u129" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg167">Eine Zusatzfrage, Herr Abgeordneter Josten.</seg>
+        </u>
+        <note type="speaker">Josten (CDU/CSU) :</note>
+        <u who="#Q1695791" xml:id="ParlaMint-DE_1967-02-15-05-093.u130" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg168">Herr Staatssekretär, wie erklären Sie sich die große Zahl von Wehrpflichtigen, die von ihrem Antragsrecht keinen Gebrauch machen, nachdem nach Ihrer Information doch eine hinreichende Bekanntgabe bei der Truppe erfolgt?</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u131" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg169">Herr Abgeordneter, ich kann nicht bestätigen, daß eine große Anzahl von Angehörigen der Bundeswehr von diesem Recht keinen Gebrauch macht. Aber diese Belehrungen werden in regelmäßigen Zeitabständen wiederholt werden. Ich glaube, das ist die einzige Möglichkeit, für ihre Bekanntmachung zu sorgen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u132" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg170">Zweite Zusatzfrage, Herr Abgeordneter Josten.</seg>
+        </u>
+        <note type="speaker">Josten (CDU/CSU) :</note>
+        <u who="#Q1695791" xml:id="ParlaMint-DE_1967-02-15-05-093.u133" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg171">Herr Staatssekretär, wären Sie bereit, nachdem mir diese Mitteilung von Soldaten zugegangen ist, diese Frage in Ihrem Haus noch einmal überprüfen zu lassen?</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg172">Da Ihnen konkrete Hinweise vorgelegt worden sind, Herr Abgeordneter, wäre ich Ihnen dankbar, wenn Sie sie mir zugänglich machten. Ich werde sie dann gerne überprüfen lassen.</seg>
+        </u>
+        <note type="speaker">Josten (CDU/CSU) :</note>
+        <u who="#Q1695791" xml:id="ParlaMint-DE_1967-02-15-05-093.u135" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg173">Das werde ich gern tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u136" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg174">Wir gehen weiter zu der Frage XII/4 des Herrn Abgeordneten Wilhelm:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg175">Ist die Bundesregierung bereit, künftig die Einberufung von wehrdienstpflichtigen Abiturienten zum Grundwehrdienst in der Weise vornehmen zu lassen, daß nicht der Geburtsjahrgang, sondern der Zeitpunkt der Ablegung der Reifeprüfung für die Einberufung bestimmend ist? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u137" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg176">Für die Einberufung von Abiturienten zum Grundwehrdienst ist grundsätzlich der Zeitpunkt des Bestehens der Reifeprüfung ausschlaggebend. Der Geburtsjahrgang der Abiturienten hat im Regelfall keinen Einfluß auf den Zeitpunkt der Einberufung. Bei der gegenwärtig durchgeführten Schuljahrumstellung kann es allerdings vorkommen, daß eine verschwindend geringe Anzahl von Oberschülern bereits vor Vollendung des 18. Lebensjahres ihre Reifeprüfung ablegen. Diese wenigen Abiturienten sind demnach beim Bestehen der Reifeprüfung kraft Gesetzes noch nicht wehrpflichtig und deshalb weder erfaßt noch gemustert. Auch sie können dann sofort einberufen werden, wenn sie selbst ihre vorzeitige Einberufung rechtzeitig beantragen. Im übrigen wird bei der Einberufung von Abiturienten nach den Grundsätzen, die auch vor diesem Hohen Hause am 4. März vorigen Jahres dargelegt worden sind, verfahren. Danach bemüht sich die Bundeswehr, die Abiturienten zum frühestmöglichen Zeitpunkt nach dem Bestehen der Reifeprülung, d. h. stets zum nächsten regulären Einberufungstermin, einzuberufen. Auf diese Weise wird jeder vermeidbare Zeitverlust für diesen Personenkreis vermieden. Eine völlige Angleichung der Einberufungstermine an die zur Zeit sehr unterschiedlichen Reifeprüfungstermine der einzelnen Bundesländer ist jedoch aus organisatorischen Gründen nicht möglich. Der auf den jeweiligen Quartalsbeginn festgelegte Einberufungstermin wurde deshalb beibehalten, jedoch wurde abweichend von der früher üblichen Regelung, wonach nur zwei Einstellungstermine für Abiturienten im Jahr bestanden, die Einberufung von Abiturienten für alle vier Quartale angeordnet. Darüber hinaus wurde den Abiturienten des ersten Kurzschuljahres, die im Oktober und November vorigen Jahres ihre Reifeprüfung abgelegt haben, die Wahlmöglichkeit eingeräumt, entweder im Januar oder im April ihren Grundwehrdienst zu beginnen, um den vermeidbaren Verlust eines Semesters zu ersparen. Von insgesamt etwa 11 000 Abiturienten haben sich nur 822 für eine Einberufung im April entschieden; alle anderen wurden für Januar 1967 einberufen. Für die im April, Juli und Oktober 1967 aufkommenden Abiturienten wird auch weiterhin die Einberufung im unmittelbaren Anschluß an die Reifeprüfung die Regel bleiben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u138" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg177">Zu einer Zusatzfrage Herr Wilhelm.</seg>
+        </u>
+        <note type="speaker">Wilhelm (SPD) :</note>
+        <u who="#Q2562895" xml:id="ParlaMint-DE_1967-02-15-05-093.u139" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg178">Herr Staatssekretär, ist die Bundesregierung bereit, künftig dafür Sorge zu tragen, daß die Abiturienten unmittelbar, also innerhalb von drei Monaten, einberufen werden — d. h. daß man als „unmittelbar" nicht, wie das in der Vergangenheit oft geschehen ist, auch noch Zeiten von sechs, sieben oder acht Monaten danach gelten läßt —, um zu verhindern, daß unnötigerweise ein Semester an der Universität absolviert wird?</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u140" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg179">Ich kann das in vollem Umfang bestätigen, Herr Abgeordneter. Gerade das ist das Ziel der Bundesregierung auf diesem Gebiet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u141" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg180">Zu einer zweiten Zusatzfrage Herr Wilhelm.</seg>
+        </u>
+        <note type="speaker">Wilhelm (SPD) :</note>
+        <u who="#Q2562895" xml:id="ParlaMint-DE_1967-02-15-05-093.u142" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg181">Teilt die Bundesregierung die Auffassung, daß bei Einberufung von Abiturienten nach Absolvierung eines Semesters an einer Universität dieses Semester nicht nur für diese Abiturienten praktisch verloren ist, sondern dadurch auch eine zusätzliche und vermeidbare Belastung der Universitäten entsteht?</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u143" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg182">Es ist gar keine Frage, daß durch die Unterbrechung des Studiums nach einem Semester eine zusätzliche Belastung für den Abiturienten entsteht. Ich muß allerdings darauf hinweisen, daß es viele Abiturienten gibt — auch solche, die ein Studium ergreifen wollen —, die während der ersten sechs Monate nach der Reifeprüfung entweder ein Praktikum ablegen oder ins Ausland gehen und Sprachkurse belegen, so daß in vielen Fällen von den Abiturienten selbst der Wunsch geäußert wird, erst nach einem halben Jahr einberufen zu werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u144" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg183">Zu einer Zusatzfrage Herr Schulze-Vorberg.</seg>
+        </u>
+        <note type="speaker">Dr. Schulze-Vorberg (CDU/CSU) :</note>
+        <u who="#Q1593650" xml:id="ParlaMint-DE_1967-02-15-05-093.u145" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg184">Herr Staatssekretär, darf ich Ihre Antwort so auslegen, daß Sie bemüht sind, den Abiturienten zeitliche und sonstige Nachteile, die offensichtlich vermeidbar sind, zu ersparen, und daß dieser Grundsatz auch für andere junge Menschen gilt, die sich in einer Spezialausbildung befinden?</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u146" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg185">Genau das sind die Grundsätze, von denen sich die Bundesregierung leiten läßt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u147" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg186">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Schulze-Vorberg (CDU/CSU) :</note>
+        <u who="#Q1593650" xml:id="ParlaMint-DE_1967-02-15-05-093.u148" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg187">Herr Staatssekretär, darf ich Sie dann herzlich bitten, den Ihrem Ministerbüro vorliegenden speziellen Fall noch einmal besonders zu prüfen.</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u149" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg188">Ich werde mir den speziellen Fall vortragen lassen und werde ihn prüfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u150" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg189">Zu einer Zusatzfrage Herr Brück.</seg>
+        </u>
+        <note type="speaker">Drück (Holz) (SPD) :</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1967-02-15-05-093.u151" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg190">Herr Staatssekretär, darf ich Ihre Antwort so auslegen, daß beispielsweise Oberschüler, die im Juli ihr Abitur machen, spätestens zum 1. Oktober eingezogen werden?</seg>
+        </u>
+        <note type="speaker">Dr. Carstens, Staatssekretär des Bundesministeriums der Verteidigung:</note>
+        <u who="#Q2569" xml:id="ParlaMint-DE_1967-02-15-05-093.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg191">Das wird sicherlich das Ziel aller Bemühungen sein, die im Verteidigungsministerium und in der Bundeswehr unternommen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg192">Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers des Innern, zunächst zu den drei Fragen des Herrn Abgeordneten Geldner. Ist der Herr Fragesteller mit gemeinsamer Beantwortung einverstanden? — Das ist der Fall. Dann rufe ich die Fragen VII/1 bis VII/3 zusammen auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg193">Welche Gründe sind nach Auffassung der Bundesregierung dafür maßgebend, daß die Arbeitslosenquote mit 5,4 % bzw. 3,9 % Mitte Januar in Bayern an der Spitze aller Bundesländer lag? In welchen wesentlichen Punkten stimmen die Vorstellungen der Bundesregierung hinsichtlich der Raumordnung und der Strukturpolitik mit denen der bayerischen Staatsregierung überein? Sind Zusammenhänge zwischen einer mangelhaften Raumordnung und Agrarstrukturpolitik und der Zahl der Arbeitslosen in Nord- und Südbayern zu erkennen? Bitte, Herr Bundesminister!</seg>
+        </u>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1967-02-15-05-093.u154" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg194">Die strukturschwachen Gebiete Bayerns haben in den Wintermonaten traditionell eine überdurchschnittliche Arbeitslosenzahl. In den Wintermonaten kehren vor allem die Saisonarbeiter, die während der übrigen Jahreszeit anderweitig arbeiten, in ihre Heimatorte zurück. Die hohe Arbeitslosenzahl in Bayern hängt außerdem mit der gegenwärtigen konjunkturellen Situation in der Bundesrepublik zusammen. In strukturschwachen Gebieten wirkt, sich ein konjunktureller Rückgang naturgemäß stärker aus als in wirtschaftstärkeren Gebieten. Schließlich hat sich im Winter 1966/67 der plötzliche Wintereinbruch in Bayern zusätzlich auf das Ansteigen der Arbeitslosenzahl ausgewirkt. Zur Frage 2: Die Auffassungen der Bundesregierung und der Bayerischen Staatsregierung stimmen in allen wesentlichen Fragen der Raumordnungs- und Strukturpolitik überein. Die Bundesregierung und die Bayerische Staatsregierung richten sich nach den Raumordnungsgrundsätzen des § 2 des Bundesraumordnungsgesetzes vom 8. April 1965. Die zwischen Bund und Land bestehende Übereinstimmung drückt sich auch darin aus, daß die Bayerische Staatsregierung beabsichtigt, das aus dem Jahre 1957 stammende Bayerische Landesplanungsgesetz zu novellieren, um es auch formell dem Bundesraumordnungsgesetz anzupassen. In der Raumordnungspraxis besteht zwischen der Bundesregierung und der Bayerischen Staatsregierung Übereinstimmung, insbesondere auch darüber, daß das Zonenrandgebiet und die übrigen hinter der allgemeinen Entwicklung zurückgebliebenen bayerischen Gebiete auch weiterhin besonders gefördert werden, vor allem, um ihre Wirtschaftskraft anzuheben. Dies geschieht insbesondere im Bereich der regionalen Wirtschaftspolitik durch Bereitstellung verstärkter Förderungsmittel des Bundes und des Landes Bayern für diese Gebiete. Schließlich zur Frage 3: Durch Maßnahmen zur Verbesserung der Agrarstruktur werden in der Landwirtschaft Arbeitskräfte frei. So kann in einzelnen Räumen vorübergehend ein gewisser Druck auf den Arbeitsmarkt entstehen. Nur hat das nichts mit mangelhafter Raumordnung zu tun. Die Raumordnungspolitik bemüht sich im Gegenteil darum, in Verbindung mit den anderen Fachplanungen und -maßnahmen für die aus der Landwirtschaft ausscheidenden Arbeitskräfte gewerbliche Arbeitsplätze in zumutbarer Entfernung von ihrem Wohnort zu fördern. Dies setzt eine langfristige Planung voraus, deren positive Auswirkungen in den Teilräumen sich naturgemäß erst nach und nach in vollem Umfange zeigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u155" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg195">Zusatzfrage, Herr Abgeordneter Geldner.</seg>
+        </u>
+        <note type="speaker">Geldner (FDP) :</note>
+        <u who="#Q1731213" xml:id="ParlaMint-DE_1967-02-15-05-093.u156" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg196">Herr Bundesminister, bis wann glaubt die Bundesregierung Vorschläge zur Behebung spezieller struktureller Arbeitslosigkeit vorlegen zu können, nachdem im Moment nur vorwiegend pauschale Leistungsverbesserungen geplant sind?</seg>
+        </u>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1967-02-15-05-093.u157" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg197">Ich werde diese Frage wegen ihrer Bedeutung nach Rücksprache mit dem Kollegen Katzer schriftlich beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u158" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg198">Eine Zusatzfrage, Herr Abgeordneter Fritsch.</seg>
+        </u>
+        <note type="speaker">Fritsch (Deggendorf) (SPD) :</note>
+        <u who="#Q2544321" xml:id="ParlaMint-DE_1967-02-15-05-093.u159" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg199">Herr Minister, würden Sie in raumordnerischer Hinsicht einen Zusammenhang darin sehen, daß z. B. für die Gebiete des Bayerischen Waldes, in denen die Arbeitslosigkeit besonders hoch ist — nämlich bis zu 42 % der unselbständigen Erwerbsbevölkerung —, noch kein Raumordnungsplan besteht, der die Strukturen dieses mittelbayerischen Waldes erfaßt und vorausschauend einplant?</seg>
+        </u>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1967-02-15-05-093.u160" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg200">Ich glaube, so kann man das nicht sagen.</seg>
+        </u>
+        <note type="speaker">Fritsch (Deggendorf) (SPD) :</note>
+        <u who="#Q2544321" xml:id="ParlaMint-DE_1967-02-15-05-093.u161" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg201">Herr Minister, gibt es — in Übereinstimmung mit dem Land Bayern — besondere raumordnerische Zielsetzungen für dieses Gebiet, um zu vermeiden, daß künftig diese über das normale Maß hinausgehenden Arbeitslosenziffern entstehen?</seg>
+        </u>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1967-02-15-05-093.u162" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg202">Ich glaubte diese Frage beantwortet zu haben. Das geschieht im Rahmen der gemeinsamen Planungen, die das Bundesraumordnungsgesetz vorschreibt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u163" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg203">Eine Zusatzfrage, Herr Abgeordneter Schlager.</seg>
+        </u>
+        <note type="speaker">Schlager (CDU/CSU) :</note>
+        <u who="#Q1889887" xml:id="ParlaMint-DE_1967-02-15-05-093.u164" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg204">Herr Bundesminister, da ,in den Fragestellungen deis verehrten Kollegen Geldner so etwas wie eine Kritik an der bayerischen Wirtschafts- und Strukturpolitik anklingt, darf ich mir die Frage erlauben, ob Sie beispielsweise die Anerkennung teilen, die kürzlich den von Bayern fertiggestellten Raumordnungsplänen „Östliche Oberpfalz" und „Bayerische Rhön" allgemein zuteil wurde, und ob Ihnen insbesondere bekannt ist, wie z. B. die Gesellschaft für regionale Strukturentwicklung e. V. in Bonn beide Pläne in einem Schreiben an den Bayerischen Wirtschaftsminister Dr. Otto Schedel beurteilt, in dem diese Gesellschaft u. a. feststellt, daß sie noch in keinem anderen der ihr bekanntgewordenen Raumordnungspläne einen derart umfassenden Überblick über die wirtschaftlichen Zusammenhänge und Möglichkeiten gefunden habe wie in diesen beiden Plänen und daß es wünschenswert wäre, wenn nicht nur in Bayern, sondern auch in anderen Bundesländern solche Voraussetzungen, wie sie diese Pläne darstellen, zur Verwirklichung der Regionalpolitik geschaffen würde".</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Olleisch: Hoch lebe Bayern!</desc>
+        </vocal>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1967-02-15-05-093.u165" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg205">Ich bewerte die Arbeit positiv.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u166" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg206">Eine Zusatzfrage, Herr Abgeordneter Ertl.</seg>
+        </u>
+        <note type="speaker">Ertl (FDP) :</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1967-02-15-05-093.u167" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg207">Herr Bundesminister, stimmen Sie mir zu, wenn ich sage, daß zur Zeit im Bayerischen Wald die stärkste Arbeitslosigkeit vorhanden ist und 'daß dieses Gebiet noch nicht in dem notwendigen Umfange von der Raumordnung erfaßt worden ist, wie offensichtlich aus der Erklärung des Kollegen Schlager hervorgeht?</seg>
+        </u>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1967-02-15-05-093.u168" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg208">Ich vermag Ihnen nicht zuzustimmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u169" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg209">Eine zweite Zusatzfrage, Herr Abgeordneter Ertl.</seg>
+        </u>
+        <note type="speaker">Ertl (FDP) :</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1967-02-15-05-093.u170" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg210">Herr Bundesminister, sind Sie in der Lage, zu sagen, in welcher Form Sie Dauerarbeitsplätze für dieses Gebiet schaffen können, damit diese Saisonarbeitslosigkeit auf ein Minimum reduziert wird?</seg>
+        </u>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1967-02-15-05-093.u171" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg211">In meiner Antwort auf die Frage des verehrten Kollegen Geldner habe ich die Frage behandelt.</seg>
+        </u>
+        <vocal type="question">
+          <desc>Abg. Ertl meldet sich zu einer Zusatzfrage.</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u172" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg212">Sie haben keine Zusatzfrage mehr, Herr Ertl. Herr Sanger!</seg>
+        </u>
+        <note type="speaker">Sänger (SPD) :</note>
+        <u who="#Q1468600" xml:id="ParlaMint-DE_1967-02-15-05-093.u173" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg213">Herr Bundesminister, würden Sie die von Ihnen dargelegten grundsätzlichen Auffassungen über die Notwendigkeit, in schlecht strukturierten Gebieten besondere Hilfe zu leisten, grundsätzlich auch für alle anderen Gebiete — also auch für Norddeutschland, und ich meine hier natürlich insbesondere Schleswig-Holstein — in der Regierung durchzusetzen versuchen?</seg>
+        </u>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1967-02-15-05-093.u174" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg214">Es ist kein typisch bayerisches Problem, — bei aller Sympathie für Bayern. Es ist vor allem ein Problem des Zonenrandgebiets, das entlang des gesamten Zonenrandes Gültigkeit hat und dort in gleicher Schärfe besteht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u175" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg215">Eine zweite Zusatzfrage, Herr Sanger.</seg>
+        </u>
+        <note type="speaker">Sänger (SPD) :</note>
+        <u who="#Q1468600" xml:id="ParlaMint-DE_1967-02-15-05-093.u176" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg216">Sehen Sie eine Möglichkeit, Herr Bundesminister des Innern — Sie sind nicht Bundesfinanzminister, und ich verstehe deshalb, daß meine Frage etwas danebengeht; aber es ist gleichzeitig eine Frage an die Bundesregierung —, daß jetzt möglicherweise aus dem Eventualhaushalt in diesem Zusammenhang nachdrückliche Hilfen gewährt werden?</seg>
+        </u>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1967-02-15-05-093.u177" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg217">Wir sind in dieser Hinsicht bemüht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u178" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg218">Keine weiteren Zusatzfragen. Dann rufe ich die Frage VII/4 des Herrn Abgeordneten Picard auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg219">Welche Auffassung vertritt die Bundesregierung zu den Fragen der Raumordnung im Großraum Bonn?</seg>
+        </u>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1967-02-15-05-093.u179" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg220">Eine Verbesserung der räumlichen Ordnung im Großraum Bonn hält die Bundesregierung für dringend erforderlich. Es geht dabei darum, daß im Interesse der Bevölkerung und auch der Arbeit der obersten Bundesbehörden sowie der zahlreichen Verbände und Organisationen eine optimale Siedlungsstruktur und eine angemessene Ausstattung mit Einrichtungen auf dem Gebiete des Bildungswesens, der Versorgung — Krankenhäuser, Nahverkehr, Wasser usw. — erreicht wird. Die Lösung dieser Aufgaben setzt eine Zusammenarbeit der hier beteiligten Gemeinden über die Verwaltungsgrenzen hinweg voraus. Für die somit erforderliche kommunale Ordnung im Bonner Raum ist aber nach der grundsetzlichen Verteilung der Aufgaben zwischen Bund und Ländern das Land Nordrhein-Westfalen zuständig. Die Bundesregierung begrüßt die bei der Landesregierung von Nordrhein-Westfalen bestehende Absicht, die Probleme des Großraums Bonn alsbald zu lösen. Sie ist bereit, wie schon in der Vergangenheit ihren Anteil dazu beizutragen. Das geschieht insbesondere durch eine Zusammenarbeit mit der Landesplanung zur Erarbeitung einer raumordnerischen Gesamtkonzeption. Dabei ist vor allem auf die Möglichkeiten der Abstimmung der Auffassungen von Bund und Land nach dem Raumordnungsgesetz hinzuweisen. Außerdem trägt die Bundesregierung dazu bei, den Raum Bonn zu gestalten, indem sie Einzelvorhaben mitfinanziert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u180" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg221">Eine Zusatzfrage, Herr Abgeordneter Picard.</seg>
+        </u>
+        <note type="speaker">Picard (CDU/CSU) :</note>
+        <u who="#Q2545777" xml:id="ParlaMint-DE_1967-02-15-05-093.u181" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg222">Herr Minister, erlauben Sie mir — auch im Nachtrag zu den vorher behandelten Fragen — eine allgemeine Frage: Welche Möglichkeiten sieht die Bundesregierung, ihre raumordnerischen Vorstellungen, deren Ziel, auf das Bundesgebiet ausgedehnt, ja wohl darin besteht, allgemein etwa gleiche Lebensverhältnisse zu erreichen, durchzusetzen?</seg>
+        </u>
+        <note type="speaker">Lücke, Bundesminister des Innern:</note>
+        <u who="#Q69098" xml:id="ParlaMint-DE_1967-02-15-05-093.u182" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg223">Zunächst durch das in Arbeit befindliche und vor der Verabschiedung stehende Verwaltungsabkommen zwischen Bund und Ländern, das eine Ministerkonferenz der beteiligten Länder und des Bundes zur Folge haben wird, in der diese Dinge miteinander abgestimmt werden. Außerdem verweise ich auf die Antwort, die ich auf die Frage des Herrn Kollegen Geldner gegeben habe.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="12" ana="#DE-consultation #DE-election #DE-report #DE-rules_of_procedure">
+        <head>Beratung des Mündlichen Berichts des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung (1. Ausschuß) — Immunitätsangelegenheiten — betr. Genehmigung zur Durchführung eines Strafverfahrens gegen den Abgeordneten Mattick gemäß Schreiben des Bundesministers 'der Justiz vom 10. Dezember 1965 — Drucksache V/1387 —</head>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u183" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg224">Keine weiteren Zusatzfragen. Damit ist die Fragestunde beendet. Ich rufe Punkt 2 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg225">Beratung der Sammelübersicht 14 des Petitionsausschusses (2. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg226">über Anträge von Ausschüssen des Deutschen Bundestages zu Petitionen — Drucksache V/1357 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg227">Der Petitionsausschuß bittet, seinen Anträgen zuzustimmen. Erhebt sich Widerspruch? — Kein Widerspruch; es ist so beschlossen. Die Punkte 3 und 4 der Tagesordnung werden am Freitag aufgerufen. Wir kommen dann zu dem Punkt 5 der Tagesordnung:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg228">Zweite und dritte Beratung des von den Abgeordneten Frau Berger-Heise, Borm und Genossen eingebrachten Entwurfs eines Gesetzes zur Änderung des Gesetzes zur Änderung des Schlußtermins für den Abbau der Wohnungszwangswirtschaft und über weitere Maßnahmen auf dem Gebiete des Mietpreisrechts — Drucksache V/1097 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg229">Schriftlicher Bericht des Ausschusses für Kommunalpolitik, Raumordnung, Städtebau und Wohnungswesen (9. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg230">— Drucksachen V/1393, zu V/1393 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg231">Berichtererstatter: Abgeordneter Orgaß (Erste Beratung 74. Sitzung)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg232">Wünscht der Herr Berichterstatter das Wort? — Das ist nicht der Fall. Er bezieht sich auf den Schriftlichen Bericht. Das Haus ist einverstanden. Es liegen keine Änderungsanträge vor. Es liegen keine Wortmeldungen vor. Ich rufe die §§ 1, — 2, —3,-4,-5,-6,-7,-8,-9,—Einleitung und Überschrift auf. — Wer zuzustimmen wünscht, gebe das Handzeichen. — Gegenprobe! — Eine Gegenstimme. Enthaltungen? — Bei einigen Enthaltungen und einer Gegenstimme angenommen. Ich rufe auf zur dritten Beratung.</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg233">Es liegen keine Wortmeldungen vor. Wir kommen zur Abstimmung. Wer dem Gesetz im Ganzen zuzustimmen wünscht, möge sich erheben. — Gegenprobe! — Eine Gegenstimme. Enthaltungen? — Einige Enthaltungen. Bei einer Gegenstimme und einigen Enthaltungen angenommen. Ich rufe dann den Punkt 6 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg234">Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über steuerliche Maßnahmen bei der Stillegung von Steinkohlenbergwerken — Drucksache V/1080 — a)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg235">Bericht des Haushaltsausschusses (13. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg236">gemäß § 96 der Geschäftsordnung — Drucksache V/1347 Berichterstatter: Abgeordneter Westphal b)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg237">Schriftlicher Bericht des Finanzausschusses (14. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg238">— Drucksache V/1340 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg239">Berichterstatter: Abgeordneter Dr. Dr. h. c. Toussaint (Erste Beratung 74. Sitzung)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg240">Die Herren Berichterstatter wünschen keine mündlichen Ergänzungen zu den Ausschußberichten zu machen. Es liegen keine Änderungsanträge vor. Wortmeldungen liegen nicht vor. Wir kommen zur Abstimmung. Ich rufe die §§ 1 bis 14 des Entwurfs einschließlich Einleitung und Überschrift auf. Wer zuzustimmen wünscht, gebe bitte das Handzeichen. — Gegenprobe! — Enthaltungen? — In zweiter Lesung einstimmig angenommen. Ich rufe auf zur dritten Beratung.</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg241">Es liegen keine Wortmeldungen vor. Wir kommen zur Abstimmung. Wer dem Gesetzentwurf in dritter Lesung insgesamt zuzustimmen wünscht, möge sich erheben. — Gegenprobe! — Enthaltungen? — Ich stelle fest, daß das Gesetz einstimmig angenommen ist. Ich rufe auf Punkt 7 der Tagesordnung:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg242">Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Vorbereitung der Volkszählung 1970 — Drucksache V/1220 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg243">a)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg244">Bericht des Haushaltsausschusses (13. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg245">gemäß § 96 der Geschäftsordnung — Drucksache V/1378 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg246">Berichterstatter: Abgeordneter Gierenstein b)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg247">Schriftlicher Bericht des Innenausschusses (6. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg248">— Drucksache V/1354 — Berichterstatter: Abgeordneter Picard (Erste Beratung 84. Sitzung)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg249">Die Herren Berichterstatter wünschen ihren Schriftlichen Bericht nicht zu ergänzen. Es liegen keine Wortmeldungen vor. Es liegen keine Änderungsanträge vor. Wir kommen zur Abstimmung. Ich rufe die §§ 1 bis 6 des Gesetzentwurfs einschließlich Einleitung und Überschrift auf. Wer zuzustimmen wünscht, gebe das Handzeichen. — Gegenprobe! — Enthaltungen? — Einstimmig angenommen. Ich rufe auf zur dritten Beratung.</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg250">Es liegen keine Wortmeldungen vor. Wir kommen zur Abstimmung. Wer dem Gesetz im Ganzen zuzustimmen wünscht, möge sich vom Platz erheben. — Gegenprobe! — Enthaltungen? — Das Gesetz ist einstimmig angenommen. Ich rufe Punkt 8 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg251">Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über das am 22. Januar 1965 in Straßburg unterzeichnete Protokoll zu dem Europäischen Abkommen vom 22. Juni 1960 zum Schutz von Fernsehsendungen Drucksache V/1016 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg252">Schriftlicher Bericht des Rechtsausschusses (12. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg253">— Drucksache V/ 1385 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg254">Berichterstatter: Abgeordneter Dr. Reischl (Erste Beratung 67. Sitzung)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg255">Wünscht der Herr Berichterstatter das Wort? — Das ist nicht der Fall. Änderungsanträge liegen nicht vor. Wir kommen zur Abstimmung. Wer dem Gesetz in allen Paragraphen einschließlich der Einleitung und der Überschrift zuzustimmen wünscht, den bitte ich um das Handzeichen. — Gegenprobe! — Enthaltungen? — Ich stelle einstimmige Annahme fest. Wir kommen zur dritten Beratung.</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg256">Wortmeldungen liegen nicht vor. Wer dem Gesetz insgesamt zuzustimmen wünscht, möge sich erheben. — Gegenprobe! — Enthaltungen? — Das Gesetz ist einstimmig angenommen. Ich rufe Punkt 9 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg257">Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu der Konvention vom 14. Mai 1954 zum Schutz von Kulturgut bei bewaffneten Konflikten — Drucksache V/979 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg258">Schriftlicher Bericht des Innenausschusses (6. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg259">— Drucksache V/1363 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg260">Berichterstatter: Abgeordneter Dorn (Erste Beratung 67. Sitzung)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg261">Der Herr Berichterstatter bezieht sich auf seinen Schriftlichen Bericht. Wortmeldungen liegen nicht vor. Wir kommen zur Abstimmung. Wer dem Gesetz in zweiter Beratung zuzustimmen wünscht, den bitte ich um das Handzeichen. — Gegenprobe! — Enthaltungen? — Einstimmig angenommen. Ich rufe auf zur dritten Beratung.</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg262">Keine Wortmeldungen. Wer dem Gesetz in dritter Beratung zuzustimmen wünscht, möge sich erheben — Gegenprobe! — Enthaltungen? — Das Gesetz ist einstimmig angenommen. Ich rufe Punkt 10 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg263">Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Arbeitsplatzschutzgesetzes — Drucksache V/1397 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg264">Das Wort wird nicht gewünscht. Der Ältestenrat schlägt vor, das Gesetz dem Verteidigungsausschuß — federführend —, dem Ausschuß für Arbeit — mitberatend — und dem Haushaltsausschuß gemäß § 96 der Geschäftsordnung zu überweisen. — Ich höre keinen Widerspruch; die Überweisung ist beschlossen. Ich rufe Punkt 11 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg265">Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Protokoll vom 4. April 1966 zur erneuten Verlängerung des Internationalen Weizenübereinkommens 1962 — Drucksache V/1401 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg266">Keine Wortmeldungen. Überweisungsvorschlag des Ältestenrates: Ausschuß für Ernährung, Landwirtschaft und Forsten — federführend — und Haushaltsausschuß gemäß § 96 der Geschäftsordnung. — Ich höre keinen Widerspruch; es ist so beschlossen. Ich rufe Punkt 12 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg267">Beratung des Mündlichen Berichts des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung (1. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg268">— Immunitätsangelegenheiten —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg269">betr. Genehmigung zur Durchführung eines Strafverfahrens gegen den Abgeordneten Mattick gemäß Schreiben des Bundesministers 'der Justiz vom 10. Dezember 1965 — Drucksache V/1387 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg270">Berichterstatter: Abgeordneter Dr. h. c. Güde Das Wort hat der Berichterstatter, Herr Dr. h. c. Güde.</seg>
+        </u>
+        <note type="speaker">Dr. h. c. Güde (CDU/CSU) :</note>
+        <u who="#Q1912620" xml:id="ParlaMint-DE_1967-02-15-05-093.u184" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg271">Herr Präsident! Meine sehr verehrten Damen und Herren! Diesem Antrag des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung, Drucksache V/1387, liegt ein Ersuchen des Bundesministers der Justiz zugrunde, eine Entscheidung dieses Hohen Hauses darüber herbeizuführen, ob die Genehmigung zur Durchführung eines Strafverfahrens gegen den Abgeordneten Mattick erteilt werde. Dieses Strafverfahren hat folgende Vorgeschichte. Der Anzeiger Lothar Brenner, Chefredakteur der Zeitung „7-Uhr-Blatt" in Berlin, hatte in mehreren Nummern seiner Zeitung Angriffe gegen den damaligen Regierenden Bürgermeister in Berlin, Brandt, wegen dessen politischer Vergangenheit erhoben. Auf diese Angriffe des Anzeigers hatte der Abgeordnete Mattick als Landesvorsitzender der SPD in Berlin auf dem Landesparteitag der SPD in Berlin am 9. Oktober 1964 erwidert und dabei den Anzeiger Brenner in scharfen Äußerungen gekennzeichnet. Wegen dieser Äußerungen des Abgeordneten Mattick hat Brenner den Vorwurf der Verleumdung, der üblen Nachrede und der Beleidigung erhoben. Der Ausschuß ist bei seiner Prüfung davon ausgegangen, daß 'der Fall der Verleumdung nicht vorliegt, weil die Äußerungen im ganzen als ein Unwerturteil anzusehen sind, das durch die hinzugefügten tatsächlichen Elemente nur erläutert wird. Die demnach allenfalls vorliegende Beleidigung im Sinne des § 185 des Strafgesetzbuchs — dabei läßt der Ausschuß die Frage, ob Wahrnehmung berechtigter Interessen vorlag, offen — wäre eine politische Beleidigung, begangen in der politischen Auseinandersetzung zur Abwehr politischer Angriffe und zur Wahrung politischer Interessen. Es entspricht der ständigen Übung des Ausschusses und dieses Hauses bei Vorliegen einer in der politischen Auseinandersetzung begangenen Beleidigung, die Genehmigung zur Durchführung eines Strafverfahrens nicht zu erteilen. Der Ausschuß empfiehlt Ihnen, demgemäß zu verfahren und die Genehmigung zur Durchführung eines Strafverfahrens nicht zu erteilen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall.</desc>
+        </kinesic>
+      </div>
+      <div type="debateSection" n="21" ana="#DE-consultation #DE-motion #DE-report">
+        <head>Beratung des Mündlichen Berichts des Haushaltsausschusses (13. Ausschuß) über den Antrag des Bundesministers der Finanzen betr. Bundeshaushaltsrechnung für das Rechnungsjahr 1963 hier:  Nachträgliche Genehmigung der über- und außerplanmäßigen Ausgaben — Drucksachen V/34, V/1382 —</head>
+        <note type="speaker">Vizepräsident Dr. Mommer:</note>
+        <u who="#Q1560014" xml:id="ParlaMint-DE_1967-02-15-05-093.u185" ana="#chair">
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg272">Ich danke dem Herrn Berichterstatter. — Sie haben den Bericht gehört. Wer dem Bericht des Ausschusses zuzustimmen wünscht, gebe bitte das Handzeichen. — Gegenprobe! — Enthaltungen? — Ich stelle einstimmige Annahme fest. Ich rufe jetzt die Punkte 13 bis 15 der Tagesordnung auf: 13. Beratung des Schriftlichen Berichts des Ausschusses für Ernährung, Landwirtschaft und Forsten (17. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg273">über den von der Bundesregierung zur Unterrichtung vorgelegten Vorschlag der Kommission der EWG für eine Verordnung des Rats betr. Verlängerung der in Artikel 20 Absatz 1 der Verordnung Nr. 17/64/EWG über den Europäischen Ausrichtungs- und Garantiefonds für die Landwirtschaft festgesetzten Frist — Drucksachen V/1259, V/1374 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg274">Berichterstatter: Abgeordneter Dr. Ritz 14. Beratung des Mündlichen Berichts des Innenausschusses (6. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg275">über den von der Bundesregierung zur Unterrichtung vorgelegten Entwurf der Kommission der EAG für eine Verordnung des Rats der EAG zur Änderung der Regelung der Bezüge und der sozialen Sicherheit der Atomanlagebediensteten der Gemeinsamen Kernforschungsstelle, die in den Niederlanden dienstlich verwendet werden — Drucksachen V/1263, V/1391 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg276">Berichterstatter: Abgeordneter Schmitt-Vokkenhausen 15. Beratung des Mündlichen Berichts des Innenausschusses (6. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg277">über die von der Bundesregierung zur Unterrichtung vorgelegten Entwürfe der Kommission der EAG/EWG für eine Verordnung der Räte der EAG/EWG zur Änderung des Statuts der Beamten und der Beschäftigungsbedingungen für die sonstigen Bediensteten der Europäischen Atomgemeinschaft und der Europäischen Wirtschaftsgemeinschaft eine Verordnung der Räte der EAG/EWG zur Änderung der Berichtigungskoeffizienten für die Dienst- und Versorgungsbezüge der Beamten — Drucksachen V/1003, V/1392 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg278">Berichterstatter: Abgeordneter Schmitt-Vokkenhausen Wünscht einer der Berichterstatter das Wort? — Das ist nicht der Fall. Das Haus ist damit einverstanden, daß wir der Einfachheit halber über die Punkte gemeinsam abstimmen. Wir kommen zur Abstimmung über die Ausschußanträge auf den Drucksachen V/1374, V/1391 und V/1392. Wer zustimmen will, gebe bitte das Handzeichen. — Gegenprobe! — Enthaltungen? — Ich stelle einstimmige Annahme fest. Ich rufe nunmehr die Punkte 16 bis 20 der Tagesordnung auf: 16. Beratung des Berichts des Ausschusses für Wirtschaft und Mittelstandsfragen (15. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg279">über die von der Bundesregierung verkündete Neunundsechzigste Verordnung zur Änderung des Deutschen Zolltarifs 1966 (FettMarktordnung)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg280">— Drucksachen V/1260, V/1367 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg281">Berichterstatter: Abgeordneter Dr. Staratzke 17. Beratung des Berichts des Ausschusses für Wirtschaft und Mittelstandsfragen (15. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg282">über die von der Bundesregierung verkündete Vierundsiebzigste Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Rohtabak und Tabakabfälle — 1967)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg283">— Drucksachen V/1261, V/1368 — Berichterstatter: Abgeordneter Dr. Serres 18. Beratung des Berichts des Ausschusses für Wirtschaft und Mittelstandsfragen (15. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg284">über die von der Bundesregierung verkündete Achtzigste Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Gießereiroheisen)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg285">— Drucksachen V/1262, V/1369 -</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg286">Berichterstatterin: Abgeordnete Frau Dr. Krips 19. Beratung des Berichts des Ausschusses für Wirtschaft und Mittelstandsfragen (15. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg287">über die von der Bundesregierung verkündete Achtundsiebzigste Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Erhöhung der Türkei-Zollkontingente 1967) — Drucksachen V/1322, V/1370 — Berichterstatter: Abgeordneter Lange 20. Beratung des Berichts des Ausschusses für Wirtschaft und Mittelstandsfragen (15. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg288">über die von der Bundesregierung verkündete Einundachtzigste Verordnung zur Änderung des Deutschen Zolltarifs 1966 (2. Erhöhung des Zollkontingents für Bananen) über die von der Bundesregierung verkündete Zweiundachtzigste Verordnung zur Änderung des Deutschen Zolltarifs 1966 (Zollkontingent für Bananen — 1967)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg289">— Drucksachen V/1323, V/1324, V/1371 —</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg290">Berichterstatter: Abgeordneter Dr. Preiß In allen Fällen hat das Haus nur von den Berichten des Ausschusses für Wirtschaft und Mittelstandsfragen Kenntnis zu nehmen. Wünscht einer der Berichterstatter das Wort? — Das ist nicht der Fall. Anträge zu den Berichten liegen nicht vor. — Das Haus hat Kenntnis genommen. Ich rufe Punkt 21 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg291">Beratung des Mündlichen Berichts des Haushaltsausschusses (13. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1967-02-15-05-093.seg292">über den Antrag des Bundesministers der Finanzen betr. Bundeshaushaltsrechnung für das Rechnungsjahr 1963 hier: Nachträgliche Genehmigung der über- und außerplanmäßigen Ausgaben — Drucksachen V/34, V/1382 — Berichterstatter: Abgeordneter Windelen Berichterstatter ist Herr Abgeordneter Windelen; er verzichtet auf Ergänzung des Berichts. Keine Wortmeldungen. — Wer dem Ausschußantrag zuzustimmen wünscht, gebe das Handzeichen. — Gegenprobe! — Enthaltungen? — Ich stelle einstimmige Annahme fest. Meine Damen und Herren, damit sind wir am Ende der heutigen Tagesordnung. Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 16. Februar, 14.30 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 15.50 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

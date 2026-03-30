@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1968-01-23-05-149">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 5. Wahlperiode, 149. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 23.01.1968 (149. Sitzung der 5. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 5, Session 149 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1968-01-23 (Session 149 in Legislative Period 5)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="149">149. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.05" n="5">5. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="149">Session 149</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.05" n="5">Legislative Period 5</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 23.01.1968</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1968-01-23</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488218/bfba1a02d1090efc873f9a60f318a162/pp05-data.zip</idno>
+          <date when="1968-01-23">1968-01-23</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1968-01-23">1968-01-23</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="U1">
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg1">Die Sitzung ist eröffnet. Vor Eintritt in die Tagesordnung gratuliere ich dem Herrn Abgeordneten Hansing zum 60. Geburtstag am 20. Januar.</seg>
+          <kinesic type="applause">
+            <desc>Beifall.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg2">Die Fraktion der FDP hat am 9. Januar 1968 an Stelle des Abgeordneten Dr. Hellige, der sein Mandat als stellvertretendes Mitglied in der Beratenden Versammlung des Europarates niedergelegt hat, den Abgeordneten Sander zur Wahl vorgeschlagen. Ist das Haus damit einverstanden? — Widerspruch erfolgt nicht; damit ist der Herr Abgeordnete Sander als Stellvertreter in der Beratenden Versammlung des Europarates gewählt. Gemäß § 76 Abs. 2 der Geschäftsordnung soll die Vorlage des Bundeskanzlers Zweiter Bericht über die Lage der Jugend und die Bestrebungen auf dem Gebiet der Jugendhilfe (Jugendbericht)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg3">— Drucksache V/2453 —</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg4">an den Ausschuß für Familien- und Jugendfragen -federführend — und an den Ausschuß für Gesundheitswesen — mitberatend — überwiesen werden. — Kein Widerspruch; die Überweisung ist beschlossen. Nach einer interfraktionellen Vereinbarung soll Punkt 3 der Tagesordnung abgesetzt werden. — Das Haus ist damit einverstanden; es ist so beschlossen. Folgende amtliche Mitteilungen werden ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg5">Der Bundesminister für Wohnungswesen und Städtebau hat am 15. Januar 1968 die Kleine Anfrage der Fraktion der FDP betr. Staatliche Förderung von Eigentumswohnungen und Eigenheimen — Drucksache V/2426 — beantwortet. Sein Schreiben ist als Drucksache V/2490 verteilt. Der Bundesminister für Ernährung, Landwirtschaft und Forsten hat am 18. Januar 1968 die Kleine Anfrage der Abgeordneten Peters (Poppenbüll)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg6">, Ertl, Logemann, Mauk und der Fraktion der FDP betr. Auswirkungen der Mehrwertsteuer auf die Erzeuger- und Betriebsmittelpreise in der Landwirtschaft — Ducksache V/2390 — beantwortet. Sein Schreiben wird als Drucksache V/2497 verteilt. Der Bundesminister für Arbeit und Sozialordnung hat am 19. Januar 1968 die Kleine Anfrage der Fraktion der FDP betr. Lohn- und Gehaltserhöhungen im Jahre 1968 und Finanzplanung — Drucksache V/2448 — beantwortet. Sein Schreiben wird als Drucksache V/2498 verteilt. Der Präsident des Bundestages hat entsprechend dem Beschluß des Bundestages vom 23. Februar 1962 die nachstehenden Vorlagen überwiesen:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg7">Siebenundzwanzigste Verordnung zur Änderung des Deutschen Zolltarifs 1967 (Zollkontingent für Bananen — 1968)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg8">— Drucksache V/2475 —</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg9">an den Ausschuß für Wirtschaft und Mittelstandsfragen mit der Bitte um Vorlage des Berichts rechtzeitig dem Plenum am 3. April 1968.</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg10">Ich rufe Punkt 1 der Tagesordnung auf: Fragestunde = Drucksache V/2492 —</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg11">Wir kommen zunächst zu der Frage aus dem Geschäftsbereich des Bundesministers für das Post- und Fernmeldewesen. Ist der Herr Abgeordnete Dr. Schmidt (Wuppertal)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg12">im Saal? — Er ist nicht im Saal. Dann wird die Frage schriftlich beantwortet. Wir kommen damit zu den Fragen aus dem Geschäftsbereich des Bundesministers für Wohnungswesen und Städtebau, zunächst zur Frage 2 des Abgeordneten Jung:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg13">Hält die Bundesregierung die Bestimmungen des § 72 Abs. 5 des Zweiten Wohnungsbaugesetzes für bewährt und bewahrenswert, wonach die Kostenmiete vom Bauherrn beispielsweise bei Erhöhung der Zinssätze für die Sparkassenhypotheken entsprechend angehoben werden kann, ohne daß sich die einmal erhöhte Kostenmiete wieder vermindert, wenn sich die laufenden Aufwendungen ermäßigen? Zur Beantwortung der Herr Minister.</seg>
+        </u>
+        <note type="speaker">Dr. Lauritzen, Bundesminister für Wohnungswesen und Städtebau:</note>
+        <u who="#Q71369" xml:id="ParlaMint-DE_1968-01-23-05-149.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg14">Die in Ihrer Frage, Herr Abgeordneter, genannte gesetzliche Regelung ist änderungsbedürftig. Eine Änderung ist auch bereits vorgesehen, und zwar in dem Entwurf eines Zweiten Gesetzes zur Änderung wohnungsbaurechtlicher Vorschriften, dem sogenannten Zinserhöhungsgesetz. Dieser dem Hohen Hause von der Bundesregierung in der Drucksache V/2063 vorgelegte Gesetzentwurf wird zur Zeit im Ausschuß für Kommunalpolitik, Raumordnung, Städtebau und Wohnungswesen beraten. Der Gesetzentwurf der Bundesregierung sieht vor, daß sich künftig die Kostenmiete auch verringert, wenn die laufenden Aufwendungen sich ermäßigen.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg15">Ich rufe die Frage 3 des Herrn Abgeordneten Jung auf:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg16">Ist die Bundesregierung bereit, eine fördernde gesetzliche Regelung (z. B. Steuervergünstigungen, Zuschüsse) beim Tiefgaragenbau in neuen Siedlungen in Erwägung zu ziehen, damit die Planung und Errichtung solcher in den Generalverkehrsplänen vielfach vorgesehenen unterirdischen Einstellplätze anstelle der bisherigen platzraubenden Garagenbauten künftig nicht mehr in dem Maße wie bisher an der Kostenfrage scheitert?</seg>
+        </u>
+        <note type="speaker">Dr. Lauritzen, Bundesminister für Wohnungswesen und Städtebau:</note>
+        <u who="#Q71369" xml:id="ParlaMint-DE_1968-01-23-05-149.u4" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg17">Nach geltendem Recht gibt es bei öffentlich geförderten oder als steuerbegünstigt anerkannten Wohnungen unter bestimmten Voraussetzungen für Tiefgaragen Vergünstigungen bei der Grundsteuer. Ob das ausreicht und ob eine weitergehende Förderung möglich ist, will ich prüfen, und zwar, da es sich um finanzielle Fragen handelt, gemeinsam mit dem Herrn Bundesminister der Finanzen. Ich habe allerdings Zweifel, Herr Abgeordneter, ob bei der derzeitigen Finanzlage des Bundes mehr geschehen kann als bisher.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg18">Keine Zusatzfrage. Wir kommen damit zu den Fragen aus dem Geschäftsbereich des Bundesministers des Innern. Ich rufe die Frage 4 des Herrn Abgeordneten Wilhelm auf:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg19">Was gedenkt die Bundesregierung zu tun, um die Gleichbehandlung aller Bundesbeamten sicherzustellen, die Dienst zu ungünstigen Zeiten leisten müssen? Zur Beantwortung der Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u6" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg20">Zulagen für Dienst zu ungünstigen Zeiten werden zur Zeit nur den Beamten der Bundesbahn und der Bundespost auf Grund besonderer Vorschriften gezahlt. § 22 des Bundesbesoldungsgesetzes enthält jedoch nunmehr die gesetzliche Ermächtigung, auch den übrigen Bundesbeamten derartige Zulagen zu gewähren, wenn der Haushaltsausschuß des Bundestages und das Hohe Haus die erforderlichen Mehrausgaben bewilligen. Die Bundesregierung ist bestrebt, die Einführung der Zulage für alle Beamten zu erreichen. Dies war bisher jedoch nicht möglich, weil der Haushaltsausschuß des Bundestages die für die Gewährung der Zulage erforderlichen Haushaltsmittel für 1967 noch nicht bewilligt hat. Inzwischen ist der Fragenkomplex noch einmal überprüft worden. Eine erneute' Vorlage kann dem Haushaltsausschuß in Kürze zugeleitet werden. Die Mehraufwendungen hierfür sind in den Haushaltsentwurf 1968 eingeplant. Es bleibt zu hoffen, daß der Haushaltsausschuß für das Jahr 1968 die Bereitstellung der erforderlichen Mittel genehmigen wird.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u7" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg21">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Wilhelm (SPD) :</note>
+        <u who="#Q2562895" xml:id="ParlaMint-DE_1968-01-23-05-149.u8" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg22">Herr Staatssekretär, wird sich die Bundesregierung bemühen, den Haushaltsausschuß von der Notwendigkeit der Bereitstellung von entsprechenden Mitteln zu überzeugen, damit in Zukunft alle Beamten im Bundesdienst gleichbehandelt werden?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u9" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg23">Selbstverständlich, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u10" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg24">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Wilhelm (SPD) :</note>
+        <u who="#Q2562895" xml:id="ParlaMint-DE_1968-01-23-05-149.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg25">Wird sich die Bundesregierung beschleunigt bemühen, die seit Monaten, soviel ich weiß, in Ausarbeitung befindlichen Richtlinien zu diesen Zulagen, die insbesondere die Abgrenzung des betreffenden Personenkreises betreffen, fort- und zu Ende zu führen?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg26">Jawohl, diese Ausführungsvorschriften sind den Gewerkschaften und Berufsverbänden vor einiger Zeit zugeleitet worden, und sobald die Stellungnahmen der Gewerkschaften und Berufsverbände vorliegen, kann die Vorlage dem Haushaltsausschuß zur Verfügung gestellt werden.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg27">Die Fragen 5 und 6 des Herrn Abgeordneten Picard:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg28">Trifft es zu, daß AStA und SDS an der Mainzer Universität eine Ausstellung von Material des „Friedensrates" in Ost-Berlin veranstaltet haben, in dem der Bundespräsident dadurch verunglimpft wird, daß seine angebliche politische Vergangenheit behandelt wird? Auf welche Weise wird die Bundesregierung — falls die Frage 5 bejaht wird — gegen diese und vielleicht auch zukünftig zu erwartende Verunglimpfungen des Bundespräsidenten einschreiten?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u14" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg29">Wenn der Herr Fragesteller einverstanden ist, Herr Präsident, würde ich gern beide Fragen zusammen beantworten.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u15" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg30">Bitte sehr!</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg31">Nach meinen Informationen veranstaltete der Sozialistische Deutsche Studentenbund am 12. und 15. Januar 1968 in der Mainzer Hochschule eine Ausstellung, die den Herrn Bundespräsidenten verunglimpfen sollte. Da der Rektor der Universität die Benutzung von Universitätsräumen zu solchen Zwecken untersagt hatte, führte der SDS die Ausstellung gegen den Willen des Rektors im Klubraum des Allgemeinen Studentenausschusses der Universität durch. Das ausgestellte Material stammte nach den eigenen Angaben des SDS vom sowjetzonalen Friedensrat in Ostberlin. Es soll sich dabei um Fotokopien handeln, die von der SED verbreitet wurden. Das Bundesinnenministerium hat zu Unterlagen dieser Art unter Verwendung eines Gutachtens des Bundeskriminalamtes bereits am 28. Oktober 1966 Stellung genommen. Die Bundesregierung und alle im Bundestag vertretenen Parteien haben sich am 29. September 1966 durch eine gemeinsame Erklärung hinter den Herrn Bundespräsidenten gestellt. Sie haben dabei gleichzeitig dem Herrn Bundespräsidenten empfohlen, gegen Verleumdungen dieser Art gerichtlich nicht vorzugehen. Der Herr Bundespräsident hat dieser Anregung entsprochen und keine Ermächtigung zu einem strafrechtlichen Vorgehen gegen seine Verleumder erteilt. Ob im übrigen gegen die Ausstellung solcher Pamphlete auf anderer Rechtsgrundlage, etwa mit Hilfe des Polizeirechts, eingeschritten werden kann, hängt von den Gegebenheiten des Einzelfalles ab. Die Zuständigkeit hierfür liegt bei den Ländern. Hinsichtlich der Vorkommnisse in Mainz hat sich im übrigen — unter diesem Gesichtspunkt jedenfalls — ein Eingreifen erübrigt. Das Ausstellungsmaterial wurde in der Nacht vom 15. auf den 16. Januar 1968 von Kräften, die sich offensichtlich nicht in dieser Weise mit der Fälschungs- und Zersetzungspropaganda der SED identifizieren lassen wollen, beseitigt.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg32">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Picard (CDU/CSU) :</note>
+        <u who="#Q2545777" xml:id="ParlaMint-DE_1968-01-23-05-149.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg33">Herr Staatssekretär, darf ich annehmen, daß die Bundesregierung es politisch unerträglich findet, daß das Staatsoberhaupt in einer solchen Weise immer wieder in der Öffentlichkeit angegriffen wird und sein Verhalten trotz entsprechender Klarstellung Gegenstand bösartiger Kritik ist?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg34">Das ist der Fall, Herr Kollege Picard. Ich hatte in einer Fragestunde vor einigen Monaten Gelegenheit, diese Auffassung der Bundesregierung aus einem damals aktuellen Anlaß hier bekanntzugeben.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg35">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Picard (CDU/CSU) :</note>
+        <u who="#Q2545777" xml:id="ParlaMint-DE_1968-01-23-05-149.u21" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg36">Herr Staatssekretär, ist die Bundesregierung nach dem seitherigen Verhalten der Länder der Auffassung, daß das Polizeirecht und die in ihm liegenden Möglichkeiten immer in der rechten Weise und rasch genug angewendet werden?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg37">Ich hatte bei der Gelegenheit, die ich soeben erwähnt habe, Herr Kollege Picard, auch Gelegenheit gehabt, hier mitzuteilen, daß die Bundesregierung die damaligen Vorgänge zum Anlaß einer grundsätzlichen Erörterung des Problems benutzen wollte. Diese Behandlun ist im Bundeskabinett noch nicht vorgenommen worden, weil zunächst eine Reihe von Einzelgesprächen in dieser Angelegenheit zu Anfang dieses Jahres geführt werden sollte. Ich nehme an, daß diese Gespräche inzwischen geführt werden konnten und daß die Bundesregierung in absehbarer Zeit sich dann mit diesem Fragenkomplex beschäftigen wird.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg38">Fragen der Abgeordneten Frau Meermann Nrn. 7, 8 und 9:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg39">Trifft es zu, daß bei gleicher Ausgangsbasis männliche Angestellte bei den Bundesbehörden schneller aufsteigen als weibliche? Welche Möglichkeit sieht die Bundesregierung, zu erreichen, daß die künftige Besetzung von Aufstiegsstellen besser dein Verhältnis der beschäftigten Frauen und Männer entspricht? Wird bei den Bundesbehörden darauf hingewirkt, daß männliche Angestellte ihre Schreibarbeiten selbst erledigen?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u24" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg40">Auch hier darf ich, Frau Kollegin Meermann, bitten, damit einverstanden zu sein, daß ich die Fragen zusammen behandle. Zunächst zu Ihrer ersten Frage: Die Eingruppierung der Angestellten in die Vergütungsgruppen X bis I a des Bundesangestelltentarifvertrags richtet sich ausschließlich nach Tätigkeitsmerkmalen, bei deren Erfüllung die Angestellten in die betreffende Vergütungsgruppe eingruppiert bzw. höhergruppiert werden. Da die Tätigkeitsmerkmale zwischen männlichen und weiblichen Angestellten nicht unterscheiden, ist es nicht möglich, daß bei der Anwendung der Tarifvorschriften männliche Angestellte bei den Bundesbehörden bei gleichen Voraussetzungen schneller aufsteigen als weibliche. Zur zweiten Frage: Das Verhältnis der Zahl der bei den Bundesbehörden im Angestelltenverhältnis beschäftigten Frauen und Männer ist je nach Aufgabenbereich unterschiedlich. Es ist hauptsächlich dadurch bedingt, daß — wie auch im sonstigen öffentlichen Dienst und in der Privatwirtschaft — bestimmte Tätigkeiten fast ausschließlich von weiblichen Angestellten wahrgenommen werden, etwa im Schreibdienst, und daß für andere Aufgaben außer männlichen Fachkräften kaum entsprechende weibliche Kräfte zur Verfügung stehen. Unter Berücksichtigung dieser Tatsachen ist die Bundesregierung selbstverständlich bestrebt, bei der Zuweisung von Aufgaben, die eine höhere Eingruppierung rechtfertigen, weder männliche noch weibliche Angestellte zu bevorzugen oder zu benachteiligen. Hierüber wachen im übrigen gemäß § 56 Abs. 1 des Personalvertretungsgesetzes gemeinsam mit den Dienststellen auch die Personalräte. Aus der Personalstandserhebung des Statistischen Bundesamtes nach dem Stand vom 2. Oktober 1966 — eine neuere Erhebung liegt noch nicht vor — ergibt sich, daß der Anteil der bei Bundesbehörden beschäftigten weiblichen Angestellten seit der vorangegangenen Erhebung im Jahre 1963 im höheren Dienst gleichgeblieben und im gehobenen Dienst erheblich gestiegen ist. Im mittleren und im einfachen Dienst ist dagegen ein Rückgang zu verzeichnen. Ihre Frage 3 beantworte ich mit Nein.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u25" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg41">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Meermann (SPD) :</note>
+        <u who="#Q1593382" xml:id="ParlaMint-DE_1968-01-23-05-149.u26" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg42">Herr Staatssekretär, habe ich Sie recht verstanden, daß die Personalpolitik entscheidend dafür ist, welche Aufstiegsmöglichkeiten der einzelne hat, daß der einzelne selber sehr wenig dazu beitragen kann? Wenn aber Tätigkeitsmerkmale und Leistung entscheiden, Herr Staatssekretär, wie erklären Sie sich dann z. B., daß bei den Vorzimmerdamen die Eingruppierung an den Dienstrang des Vorgesetzten geknüpft ist und daß bei Entfallen dieser Voraussetzung eine Rückstufung vorbehalten bleibt, so daß die Zukunft der betreffenden Angestellten von ihrer eigenen Leistung sehr viel weniger abhängig ist als von personellen Umgruppierungen innerhalb des betreffenden Ministeriums oder der betreffenden sonstigen Bundesbehörde?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg43">Frau Kollegin Meermann, der BAT ist, wie sein Name schon sagt, ein Tarifvertrag. Er beruht also auf Abreden der Tarifpartner, und nur auf dieser Ebene könnten gegebenenfalls Änderungen sowohl im Grundsätzlichen als auch etwa bei Einzeleingruppierungen, auf die Sie möglicherweise anspielen wollen, vorgenommen werden.</seg>
+        </u>
+        <note type="speaker">Frau Meermann (SPD) :</note>
+        <u who="#Q1593382" xml:id="ParlaMint-DE_1968-01-23-05-149.u28" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg44">Darf ich fragen, Herr Staatssekretär, ob die Veränderungen, die durch fortschreitende Automation ja auch in den Bundesbehörden Platz greifen werden, auch schon unter dem Gesichtspunkt überprüft worden sind, wie dann weiblichen Angestellten noch Aufstiegsmöglichkeiten vorbehalten bleiben können.</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u29" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg45">Es gibt natürlich technische Veränderungen, die sich auf die Struktur der einzelnen Verwaltungen auswirken, auch in bezug auf die von Ihnen gestellte Spezialfrage und diese Überlegungen müssen selbstverständlich angestellt werden und werden auch angestellt.</seg>
+        </u>
+        <note type="speaker">Frau Meermann (SPD) :</note>
+        <u who="#Q1593382" xml:id="ParlaMint-DE_1968-01-23-05-149.u30" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg46">Eine Zusatzfrage zu 2: Herr Staatssekretär, glauben Sie nicht, daß den Frauen in den Bundesbehörden z. B. mehr Chancen offenständen, wenn in den Dienstnachrichten der betreffenden Bundesbehörden die freien Stellen oder Aufstiegsstellen ausgeschrieben würden, so daß alle Interessienten rechtzeitig die Möglichkeit hätten, sich zu bewerben, bevor vielleicht schon Vorentscheidungen getroffen werden?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg47">Ich sagte schon, Frau Kollegin Meermann, daß die Stellen besetzt werden nach dem einzigen Gesichtspunkt, wer für diese Stelle am besten geeignet ist. Zu diesem Zweck ist eine Ausschreibung hilfreich, auch notwendig und wird auch vorgenommen. Wenn sich die Bewerber melden, erfolgt weder eine Benachteiligung noch eine Bevorzugung der weiblichen oder der männlichen Bewerber, sondern es wird allein nach dem hierfür erforderlichen sachlichen Merkmal entschieden. Ich glaube nicht, daß man es anders machen kann.</seg>
+        </u>
+        <note type="speaker">Frau Meermann (SPD) :</note>
+        <u who="#Q1593382" xml:id="ParlaMint-DE_1968-01-23-05-149.u32" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg48">Mir geht es urn die Publizität innerhalb der betreffenden Behörde, Herr Staatssekretär. Aber dazu noch eine weitere Frage: Haben Sie nicht festgestellt, daß weibliche Angestellte in ihrer Abteilung oft sozusagen festgenagelt sind und daß sie weiterkommen könnten, wenn man sie in möglichst vielen Abteilungen beschäftigte, damit sie auch einen Einblick in die Arbeit der Behörde bekommen und dadurch die Möglichkeit haben, zielstrebig bestimmte Positionen anzusteuern?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg49">Das ist ein Punkt, über den man sich einmal vielleicht im dafür in diesem Hohen Hause zuständigen Innenausschuß Gedanken machen sollte. Wenn es noch konkretere Anregungen gibt, Frau Kollegin Meermann, werden wir gerne bereit sein, diesen nachzugehen.</seg>
+        </u>
+        <note type="speaker">Frau Meermann (SPD) :</note>
+        <u who="#Q1593382" xml:id="ParlaMint-DE_1968-01-23-05-149.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg50">Zu der letzten Frage, Herr Staatssekretär, die ich nicht nur auf die Angestellten, sondern auch auf die Beamten erstrecken möchte: Wären Sie bereit, sich einmal die Ausbildungsvorschriften des Landes Bayern anzusehen, nach denen auch für den gehobenen Dienst, für Männer wie Frauen, Maschineschreiben Ausbildungsfach ist, und meinen Sie nicht, daß es sehr arbeitskräftesparend sein könnte, daß man mit weniger weiblichen Schreibkräften auskommen könnte, wenn mehr Männer etwa so gewandt mit Stenostift und Maschine umgehen könnten, wie das die Journalisten so hervorragend tun, die ja auch geistige Arbeit zu bewältigen haben?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg51">Frau Kollegin Meermann, aus den eigenen Eindrücken in dem Ministerium, in dem tätig zu sein ich die Ehre habe, darf ich Ihnen sagen: Die Zahl der Männer, die in der Lage sind, das zu tun, was Sie als wünschenswert hinstellen, ist wahrscheinlich größer, als Sie annehmen. Ich darf mich selber zu dem Kreis der glücklicherweise sowohl in Stenographie als auch in Schreibmaschine hinreichend Gewandten zählen. Es gibt in der Tat Situationen, in denen man im eigenen Interesse, wenn man nämlich schwierige Dinge formulieren will, nicht diktiert, sondern selber schreibt. Das geschieht aber aus einem etwas anderen Motiv als dem, das Sie nennen. Wenn man Ihrem Vorschlag folgen wollte, würde das naturgemäß bedeuten, daß die Herren, die für eine andere Tätigkeit als das Maschineschreiben bezahlt werden, für ihre eigentliche Tätigkeit weniger Zeit hätten, so daß man früher oder später zu Stellenvermehrungen in diesem Bereich und auf der anderen Seite zu einer Verringerung der Schreibkräfte kommen müßte. Per Saldo würde das für die Öffentlichkeit und den Steuerzahler teurer sein.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg52">Letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Meermann (SPD) :</note>
+        <u who="#Q1593382" xml:id="ParlaMint-DE_1968-01-23-05-149.u37" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg53">Herr Staatssekretär, darf ich dann annehmen, daß Sie in Ihrem Ministerium keine Männer haben, die sehr mühsam erst dreimal alles mit der Hand aufschreiben und das dann noch diktieren, obwohl es sehr viel schneller ginge, wenn sie sich einmal selbst in der gleichen Zeit an die Maschine setzten?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg54">Hier und da gibt es Leute, die einen eigenen Arbeitsstil haben. Ich möchte auch insoweit eine gewisse Individualität erhalten wissen.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u39" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg55">Zusatzfrage des Herrn Abgeordneten Dr. Müller (München)!</seg>
+        </u>
+        <note type="speaker">Dr. Müller (München) (SPD) :</note>
+        <u who="#Q1561675" xml:id="ParlaMint-DE_1968-01-23-05-149.u40" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg56">Herr Staatssekretär, nachdem Sie die dritte Frage der Frau Kollegin Meermann negativ dahin beantwortet haben, daß männliche Angestellte nicht angewiesen werden, ihre Schreibarbeiten selbst zu erledigen, würden Sie mir zustimmen, daß damit Bundestagsabgeordnete etwas schlechtergestellt sind als männliche Angestellte in den Bundesbehörden?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg57">Ich möchte Ihnen natürlich höchst ungern widersprechen, Herr Kollege Müller. Ich meine allerdings, daß es auch den Damen und Herren Kollegen in diesem Hohen Hause ganz nützlich sein könnte, wenn sie die Fähigkeit des Schreibmaschineschreibens, soweit sie sie noch nicht haben, erwerben. Das sagt nichts gegen die von Ihnen vertretene Auffassung.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u42" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg58">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Müller (München) (SPD) :</note>
+        <u who="#Q1561675" xml:id="ParlaMint-DE_1968-01-23-05-149.u43" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg59">Herr Staatssekretär, nachdem Sie gerade vorhin davon gesprochen haben, daß Aufwendungen für Angestellte gelegentlich besser angelegt sind, als wenn sie sich nur mit diesen Kleinarbeiten beschäftigen würden, sind Sie nicht auch der Meinung, daß die Aufwendungen für die Abgeordneten gut angelegt wären, wenn sie von diesen Hilfsarbeiten befreit wären?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall.</desc>
+        </kinesic>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u44" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg60">Es steht mir gar nicht oder kaum zu, dazu von hier aus eine Meinung zu sagen. Aber keinesfalls möchte ich Ihnen widersprechen; denn Sie haben recht, Herr Kollege Müller.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u45" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg61">Zusatzfrage des Herrn Abgeordneten Gscheidle.</seg>
+        </u>
+        <note type="speaker">Gscheidle (SPD) :</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1968-01-23-05-149.u46" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg62">Herr Staatssekretär, unter Bezug auf Ihre vorherigen Antworten frage ich Sie: Stimmen Sie mir darin zu, daß für die Frage des Aufstiegs eines Angestellten generell, weiblich oder männlich, entscheidend ist, ob er die Eignung für einen höher bewerteten Arbeitsplatz hat?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u47" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg63">Sicher.</seg>
+        </u>
+        <note type="speaker">Gscheidle (SPD) :</note>
+        <u who="#Q69145" xml:id="ParlaMint-DE_1968-01-23-05-149.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg64">Ist es dann nicht als Folgerung richtig, Herr Staatssekretär, daß diese Frage nicht im BAT geregelt werden kann, sondern daß dies ausschließlich eine Sache der Personalpolitik ist?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg65">Natürlich ist der BAT nur die Rechtsgrundlage, auf der die entsprechenden Regelungen stattzufinden haben. Daß dabei die Personalpolitik eine nicht unwesentliche Rolle spielt, ist mir durchaus bekannt.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u50" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg66">Zusatzfrage, Frau Abgeordnete Freyh!</seg>
+        </u>
+        <note type="speaker">Frau Freyh (SPD) :</note>
+        <u who="#Q916269" xml:id="ParlaMint-DE_1968-01-23-05-149.u51" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg67">Herr Staatssekretär, hat Ihr Haus in seine Überlegungen einmal die Beispiele einbezogen, die sich aus dem Verfahren amerikanischer Bundesbehörden ergeben, Stellenbewerbungen ohne Angabe, ob es sich um einen weiblichen oder männlichen Bewerber handelt, abgeben zu lassen?</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u52" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg68">Mir ist nicht bekannt, Frau Kollegin, ob das einmal untersucht worden ist. Ich bin gerne bereit, mich danach zu erkundigen und Ihnen dann mitzuteilen, ob das jemals, und gegebenenfalls mit welchem Ergebnis, geschehen ist.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u53" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg69">Eine Zusatzfrage des Herrn Abgeordneten Saam.</seg>
+        </u>
+        <note type="speaker">Saam (FDP) :</note>
+        <u who="#Q1481948" xml:id="ParlaMint-DE_1968-01-23-05-149.u54" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg70">Herr Staatssekretär, Ihre vorherige Empfehlung an die Mitglieder dieses Hauses, Schreibmaschinenschreiben und Stenographieren zu lernen, brauche ich aber wohl nicht so aufzufassen, daß Sie das als Voraussetzung für die Wählbarkeit der Mitglieder dieses Hauses betrachten?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der CDU/CSU: Das hat er auch nicht gesagt!</desc>
+        </vocal>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u55" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg71">Ich glaube, daß ich schon jetzt den Rahmen meiner Zuständigkeit von hier aus überschritten habe, und ich möchte ungern noch weiter zu diesem Thema etwas sagen.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u56" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg72">Ich muß dem Herrn Staatssekretär zustimmen; denn die Fragen, die hier behandelt werden, muß das Haus in eigener Kompetenz entscheiden und darf sich nicht wehklagend an die Regierung wenden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg73">Fragen 10 und 11 des Abgeordneten Dr. Schmidt (Wuppertal):</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg74">Welche Vorkehrungen sind getroffen, daß die Bundesbehörden während der Wochenenden bei starken Schneefällen und Vereisungen ihrer Streu- und Räumpflicht ebenso nachkommen, wie es für jeden Bundesbürger hinsichtlich seines Privatbesitzes Pflicht ist? Ist sichergestellt, daß an Wochenenden im Falle des Eintretens von Naturkatastrophen bei den zuständigen Bundesbehörden ein Notdienst sofort einsatzbereit ist? Sie werden vom Abgeordneten Brück (Köln)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg75">übernommen.</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg76">Von allen obersten Bundesbehörden ist für die eigenen Dienststellen sowie für die Dienststellen des nachgeordneten Geschäftsbereichs Vorsorge getroffen, daß den ortsbehördlichen Vorschriften über die Räum- und Streupflicht Genüge geleistet wird, und zwar auch während der Wochenenden. Dies geschieht bei bundeseigenen Grundstücken regelmäßig durch den Hausmeister oder durch sonstige Bundesbedienstete. In einzelnen Fällen ist die Aufgabe vertraglich Reinigungsfirmen übertragen. Bei angemieteten Dienstgebäuden ist die Streu- und Räumpflicht regelmäßig dem Vermieter vertraglich auferlegt. Im Bereich der Bundeswehr obliegt die Aufgabe den Standortverwaltungen, beim Bundesgrenzschutz den zuständigen Standortältesten, denen in Notfällen die Truppe zu Hilfe kommt.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u58" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg77">Eine Zusatzfrage des Abgeordneten Brück.</seg>
+        </u>
+        <note type="speaker">Brück (Köln) (CDU/CSU):</note>
+        <u who="#Q2508254" xml:id="ParlaMint-DE_1968-01-23-05-149.u59" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg78">Darf ich, Herr Staatssekretär, fragen, ob, wenn der Begriff Wochenende angesprochen ist, von Ihnen gegebenenfalls auch der Sonntag mit einbezogen ist.</seg>
+        </u>
+        <note type="speaker">Benda, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q494994" xml:id="ParlaMint-DE_1968-01-23-05-149.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg79">Ja, selbstverständlich. Nun zur zweiten Frage. Bei allen in Frage kommenden Bundesbehörden ist auch an Wochenenden ein Notdienst sichergestellt, durch den im Falle von Naturkatastrophen die notwendigen Maßnahmen eingeleitet werden können. Für die Bundesbehörden stehen vollmotorisierte, mit entsprechendem technischem Gerät ausgerüstete und sofort einsatzbereite Alarmzüge des Bundesgrenzschutzes zur Verfügung. Für den Raum Bonn liegt dieser Zug bei der technischen Einheit des Bundesgrenzschutzes in Hangelar. Nach der Zuständigkeitsverteilung des Grundgesetzes gehört die Katastrophenabwehr zu den Aufgaben der Länder. Einsatzverbände des Bundes zur Bekämpfung von Katastrophen, wie das Technische Hilfswerk und der Bundesgrenzschutz, sind aber in die Katastrophenschutzpläne der Landesbehörden einbezogen. Sie werden von dort aus alarmiert und eingesetzt. Die Wahrung der Bundesaufgaben bei Katastrophen, die über den Bereich eines Landes hinausgehen, oder bei Katastrophen im Ausland ist durch den bei allen in Frage kommenden Bundesbehörden auch an Wochenenden eingerichteten Notdienst sichergestellt.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u61" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg80">Keine Zusatzfragen. Fragen aus dem Geschäftsbereich des Bundesministers der Finanzen. Die Fragen des Herrn Abgeordneten Dr. Imle:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg81">Wie hoch ist nach Auffassung der Bundesregierung der Unterschied der von den internationalen Mineralölgesellschaften den deutschen Tochtergesellschaften für geliefertes Rohöl in Rechnung gestellten Preise gegenüber den Preisen für frei gekauftes Rohöl — bezogen auf gleichartige Qualität? Wie hoch würden sich schätzungsweise die Gewinne der deutschen Mineralölgesellschaften bei normalen Frachten belaufen, wenn unter Zugrundelegung des auf Grund der Frage 12 sich ergebenden Unterschiedsbetrags die Gewinne in der Bundesrepublik Deutschland anfallen würden? werden mit seinem Einverständnis schriftlich beantwortet. Die Antwort liegt noch nicht vor. Sie wird nach Eingang im Sitzungsbericht abgedruckt. Frage 14 des Herrn Abgeordneten Dr. Müller (München):</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg82">Ist der Bundesregierung bekannt, daß die Mehrwertsteuer bei Sozialrentnern, die in privaten Altersheimen wohnen, unzumutbare Mehrbelastungen gebracht hat? Zur Beantwortung der Herr Staatssekretär des Bundesfinanzministeriums.</seg>
+        </u>
+        <note type="speaker">Leicht, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1968-01-23-05-149.u62" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg83">Außer den von der öffentlichen Hand betriebenen Altersheimen sind diejenigen privaten Altersheime von der Umsatzsteuer befreit, die in besonderem Maße der minderbemittelten Bevölkerung dienen, d. h. die zu mehr als zwei Dritteln minderbemittelte Personen aufnehmen. Minderbemittelte Personen sind solche, deren Einkommen das Dreifache des — örtlich schwankenden — Fürsorgerichtsatzes nicht übersteigt. Hierunter fallen z. B. in Hamburg Personen mit einem monatlichen Einkommen bis zu etwa 600 DM. Die übrigen privaten Altersheime sind entsprechend der bisherigen Rechtslage bewußt von der Steuerbefreiung ausgenommen worden. Maßgebend hierfür war die Überlegung, daß es sich bei diesen Altersheimen um reine Erwerbsunternehmen handelt, die ihre Pensionspreise frei kalkulieren und in einem gewissen Wettbewerb zu Hotels und Pensionen stehen, deren Leistungen dem allgemeinen Steuersatz unterliegen. Ich darf daran erinnern, daß das Hohe Haus aus diesem Grunde bei der zweiten Lesung des Mehrwertsteuergesetzes auch einen Antrag abgelehnt hat, für die nichtsteuerbefreiten Krankenanstalten und Altersheime den ermäßigten Steuersatz von 5 v. H. vorzusehen.</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg84">Die Bundesregierung weiß, Herr Kollege Müller, daß die Mehrwertsteuer bei den nicht steuerbefreiten Altersheimen zu einer höheren Steuerbelastung führt als bisher. Die Mehrbelastung, deren Höhe von den Verhältnissen des Einzelfalles abhängt, dürfte äußerstenfalls 4 bis 5% betragen. Sie ist systembedingt und aus den erwähnten Wettbewerbsgründen kaum zu vermeiden. Es ist nicht auszuschließen, daß infolge der Überwälzung der Mehrbelastung auf die Heiminsassen gelegentlich auch ein Sozialrentner betroffen wird, der in einem nicht steuerbefreiten Altersheim Unterkunft gefunden hat. Ich glaube jedoch nicht, daß man in diesen Fällen angesichts der klaren Entscheidung des Gesetzgebers generell von einer unzumutbaren Mehrbelastung sprechen kann.</seg>
+        </u>
+        <note type="speaker">Dr. Müller (München) (SPD) :</note>
+        <u who="#Q1561675" xml:id="ParlaMint-DE_1968-01-23-05-149.u63" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg85">Herr Staatssekretär, ist Ihnen bekannt, daß die meisten dieser privaten Altersheime Preiserhöhungen um mindestens 6 % vorgenommen haben, daß die Zahl der privaten Altersheime durch die mangelnde Möglichkeit, genügend karitative Altersheime zu errichten, zugleich ständig im Abnehmen begriffen ist und daß viele Sozialrentner auch in solchen Altersheimen wohnen?</seg>
+        </u>
+        <note type="speaker">Leicht, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1968-01-23-05-149.u64" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg86">Mir ist nicht bekannt, daß im Durchschnitt Erhöhungen in Höhe von 6 % erfolgt sind. Ich habe gesagt, Herr Kollege Müller, daß wir es für gerechtfertigt hielten, um 4 bis 5 % im Höchstfall zu erhöhen. Man müßte also untersuchen, inwieweit hier gegen diese Grundsätze verstoßen worden ist. Im übrigen ist mir bekannt, daß gerade die Zahl der karitativen Altersheime noch zu gering ist, um die genannte Aufgabe voll zu bewältigen. Wir sind ja, wie Sie wissen, dabei, auch von uns aus das eine oder andere zu tun. Wir werden im Zusammenwirken mit den Ländern zu erreichen versuchen, daß die Kapazität der von Ihnen angesprochenen karitativen Altersheime erhöht wird.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u65" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg87">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Müller (München) (SPD) :</note>
+        <u who="#Q1561675" xml:id="ParlaMint-DE_1968-01-23-05-149.u66" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg88">Herr Staatssekretär, ist die Bundesregierung bzw. Ihr Haus darüber hinaus bereit, im Zusammenhang mit den Überlegungen zur Mehrwertsteuer die Äußerung, daß man die Auswirkungen genau überprüfen wolle, auch auf diesen speziellen Fall der Belastung von Sozialrentnern zu beziehen?</seg>
+        </u>
+        <note type="speaker">Leicht, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1968-01-23-05-149.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg89">Das kann ich zusagen, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg90">Frage 15 des Herrn Abgeordneten Fritsch (Deggendorf):</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg91">Welches ist der gegenwärtige Stand der geplanten Errichtung eines deutsch- österreichischen Gemeinschaftszollamtes an der vorgesehenen Innbrücke bei Neuhaus- Schärding?</seg>
+        </u>
+        <note type="speaker">Leicht, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1968-01-23-05-149.u69" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg92">Ich beantworte die Frage des Herrn Kollegen Fritsch wie folgt. Die Angelegenheit ist bisher lediglich zwischen der Oberfinanzdirektion München und der Finanzlandesdirektion Linz erörtert worden. Diese Stellen haben Planskizzen und Kostenschätzungen ausgearbeitet. Danach stellt der Bau auf deutscher Seite die billigere Lösung dar. Die Stellungnahme der österreichischen Seite ist noch nicht eingegangen. Es kann deshalb noch nicht gesagt werden, wie die endgültige Entscheidung lauten wird.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg93">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Fritsch (Deggendorf) (SPD) :</note>
+        <u who="#Q2544321" xml:id="ParlaMint-DE_1968-01-23-05-149.u71" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg94">Herr Staatssekretär, glauben Sie, daß die nunmehr getätigten Kostenermittlungen den Ausschlag dafür geben werden, daß die Errichtung auf deutscher Seite möglich sein wird, da auch zolltechnische Überlegungen in diese Richtung gehen?</seg>
+        </u>
+        <note type="speaker">Leicht, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1968-01-23-05-149.u72" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg95">Ich glaube, Herr Kollege, daß man im Augenblick noch nicht sagen kann, ob nun die Errichtung auf deutscher Seite erfolgen wird. Wir hoffen, daß die Unterlagen, die wir eingereicht haben, dazu führen werden, daß sie hier erfolgt.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u73" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg96">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Fritsch (Deggendorf) (SPD) :</note>
+        <u who="#Q2544321" xml:id="ParlaMint-DE_1968-01-23-05-149.u74" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg97">Herr Staatssekretär, würden Sie dabei auch die Überlegungen mit einbeziehen, die bei meiner Frage am 11. Mai vergangenen Jahres in gleicher Sache bereits eine Rolle gespielt haben und von denen Sie gesagt haben, daß Sie sie geltend machen würden, nämlich die Frage der Parität in der Errichtung der Zollämter zwischen der Bundesrepublik Deutschland und Österreich; denn es sind bereits fünf auf österreichischer Seite errichtet worden, deutscherseits aber erst vier, so daß durch die Errichtung dieses Gemeinschaftszollamts auf deutscher Seite die Parität hergestellt wäre?</seg>
+        </u>
+        <note type="speaker">Leicht, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1968-01-23-05-149.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg98">Das wird immer berücksichtigt, Herr Kollege. Aber ich habe damals auch ausgeführt, daß es nun nicht in jedem Einzelfall der ausschlaggebende Faktor sein kann, und das werden Sie mir auch zugestehen. Auf der anderen Seite werden wir uns besonders dafür einsetzen — ich betone dieses „besonders" —, weil in den Zonengebieten, den Grenzgebieten allgemein von uns vorgesehen ist, auch wegen allgemeiner konjunktureller Auswirkungen dafür zu sorgen, daß solche Bauwerke errichtet werden.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg99">Zusatzfrage des Herrn Abgeordneten Unertl.</seg>
+        </u>
+        <note type="speaker">Unertl (CDU/CSU) :</note>
+        <u who="#Q1449743" xml:id="ParlaMint-DE_1968-01-23-05-149.u77" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg100">Herr Staatssekretär, können Sie ungefähr die Zeit angeben, wie lange es noch dauern wird, bis in den langwierigen .Verhandlungen mit Österreich endgültig Klarheit besteht, auf welcher Seite gebaut wird und wann mit einem Bau überhaupt zu rechnen ist?</seg>
+        </u>
+        <note type="speaker">Leicht, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1968-01-23-05-149.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg101">Leider, Herr Kollege, kann ich diese Frage nicht mit Ja beantworten. Wir haben keine Möglichkeiten zur Einwirkung auf den Fortgang der Geschäfte drüben in Österreich. Wir sind darauf angewiesen zu warten.</seg>
+        </u>
+        <note type="speaker">Unertl (CDU/CSU) :</note>
+        <u who="#Q1449743" xml:id="ParlaMint-DE_1968-01-23-05-149.u79" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg102">Herr Staatssekretär, liegt ,die Vermutung nahe, daß die Verzögerung durch die österreichischen Behörden auch mit der noch ausstehenden Entscheidung über den genauen Autobahnübergang in der gleichen Ecke in Zusammenhang gebracht werden kann?</seg>
+        </u>
+        <note type="speaker">Leicht, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1968-01-23-05-149.u80" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg103">Ich kann das im Augenblick nicht mit Sicherheit beurteilen; ich glaube aber nicht.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u81" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg104">Nun zu den Fragen 16 und 17 des Herrn Abgeordneten Dr. Schober:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg105">Ist dem Bundesfinanzminister bekannt, daß trotz wiederholter Beanstandungen seitens der interessierten Öffentlichkeit immer noch ein recht langer Zeitraum zwischen der Verkündung und der Veröffentlichung von Urteilen des Bundesfinanzhofes verstreicht? Sieht der Bundesfinanzminister eine Möglichkeit, den in Frage 16 erwähnten Zeitraum abzukürzen?</seg>
+        </u>
+        <note type="speaker">Leicht, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1968-01-23-05-149.u82" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg106">Ich darf die beiden Fragen wegen des sachlichen Zusammenhangs gemeinsam beantworten. Die Urteile des Bundesfinanzhofs werden im allgemeinen nicht — wie es in der Anfrage heißt — verkündet, sondern den Beteiligten lediglich zugestellt. Das in dem Urteil angegebene Datum gibt den Tag an, an dem der erkennende Senat seine Entscheidung getroffen hat. Im Anschluß daran wird das ,Urteil vom Berichterstatter endgültig abgesetzt und darauf den anderen Mitgliedern des Senats, zuletzt dem Vorsitzenden, im Umlaufverfahren zur Mitzeichnung zugeleitet. Der Mitzeichnung gehen oft Fühlungnahmen unter den Senatsmitgliedern über die Fassung des Urteils voraus. In schwierigen Fallen wird eine nochmalige Beratung des Senats erforderlich. Die Ausfertigung der Reimschriften verzögert sich seit geraumer Zeit infolge Überlastung des Personals. Die zur Veröffentlichung bestimmten Urteile müssen zudem mit Rücksicht auf das Steuergeheimnis neutralisiert, d. h. von allen eine Identifizierung des Falles ermöglichenden Stellen befreit werden. Die Zeitspanne zwischen dem Eingang der Urteile im Bundesfinanzministerium, das für die Redaktion dies Bundessteuerblatts zuständig ist, und der Veröffentlichung im Bundessteuerblatt selbst beträgt infolge der rationellen Zusammenarbeit der beteiligten Stellen etwa drei bis vier Wochen. Der lange Zeitraum zwischen der Beschlußfassung des Senats über die Entscheidung und deren Zuleitung an das Bundesfinanzministerium von im Augenblick noch etwa zwei bis sechs Monaten bis zur Veröffentlichung beruht auf einem Zusammenwirken mehrerer Umstände.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u83" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg107">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Schober (CDU/CSU) :</note>
+        <u who="#Q1794070" xml:id="ParlaMint-DE_1968-01-23-05-149.u84" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg108">Herr Staatssekretär, darf ich fragen, ob Sie damit auch bereits meine zweite Frage als beantwortet erachten, die Frage nämlich, .ob eine Verkürzung dieses Zeitraums möglich erscheint.</seg>
+        </u>
+        <note type="speaker">Leicht, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1968-01-23-05-149.u85" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg109">Herr Kollege, eine Beschleunigung der Veröffentlichungen wird von einer auf Entlastung des Bundesfinanzhofs abzielenden Novelle zur Finanzgerichtsordnung erwartet werden können, deren Entwurf die Bundesregierung in den nächsten Monaten vorlegen wird. Außerdem wird geprüft werden, ob der kanzleimäßige Geschäftsablauf im Bundesfinanzhof durch personelle und technische Maßnahmen beschleunigt werden kann.</seg>
+        </u>
+        <note type="speaker">Dr. Schober (CDU/CSU) :</note>
+        <u who="#Q1794070" xml:id="ParlaMint-DE_1968-01-23-05-149.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg110">Sind Sie mit mir der Auffassung, daß die Verkürzung der Zeit, nach der ich gefragt habe, nur durch eine Erweiterung des Stellenplans möglich wäre?</seg>
+        </u>
+        <note type="speaker">Leicht, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1968-01-23-05-149.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg111">Dieser Meinung bin ich nicht so absolut.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg112">Keine weitere Zusatzfrage. Die Frage 18 des Herrn Abgeordneten Schmidt (Kempten)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg113">wird vom Herrn Bundesminister für Verkehr beantwortet. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Wirtschaft. Zunächst die Frage 19 des Herrn Abgeordneten Dr. Müller (München):</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg114">Beabsichtigt die Bundesregierung — ähnlich wie die Regierung der USA — eine Untersuchung über unverantwortliche Gewinnspannen bei der Arzneimittelproduktion und dem Arzneimittelverkauf durchzuführen?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg115">Zunächst nicht, Herr Kollege Dr. Müller. Die Preisbehörden der Länder sind gebeten worden, den Arzneimittelmarkt in ihre monatliche Berichterstattung an das Bundeswirtschaftsministerium über wichtige und neuralgische Märkte aufzunehmen und zu berichten, wenn besondere Entwicklungen festzustellen sind. Das Wirtschaftsministerium prüft darüber hinaus zur Zeit gemeinsam mit den beteiligten Ressorts, ob die Preisgestaltung auf dem Arzneimittelmarkt in der Bundesrepublik den wirtschafts-, gesundheits- und sozialpolitischen Anforderungen entspricht. Bis dahin ist nicht beabsichtigt, ähnlich wie in den USA die Kosten und Gewinne bei der Herstellung und beim Vertrieb von Arzneimitteln zu untersuchen.</seg>
+        </u>
+        <note type="speaker">Dr. Müller (München) (SPD) :</note>
+        <u who="#Q1561675" xml:id="ParlaMint-DE_1968-01-23-05-149.u90" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg116">Herr Staatssekretär, wie lange wird die von Ihnen gerade angekündigte Prüfung dauern?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u91" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg117">Sie wird so schnell wie möglich durchgeführt werden. Ich kann noch nicht sagen, wie viele Wochen das in Anspruch nehmen wird.</seg>
+        </u>
+        <note type="speaker">Dr. Müller (München) (SPD) :</note>
+        <u who="#Q1561675" xml:id="ParlaMint-DE_1968-01-23-05-149.u92" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg118">Würde sich das Bundeswirtschaftsministerium, falls diese Prüfung Ansatzpunkte dafür ergeben sollte, daß ähnlich wie in den Vereinigten Staaten erhöhte Gewinnspannen vorliegen, zu einem raschen Eingreifen veranlaßt sehen?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg119">Selbstverständlich wird die Bundesregierung eingreifen, wenn wir entsprechende Tatbestände feststellen.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u94" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg120">Eine Zusatzfrage des Herrn Abgeordneten Schmidhuber.</seg>
+        </u>
+        <note type="speaker">Schmidhuber (CDU/CSU) :</note>
+        <u who="#Q67956" xml:id="ParlaMint-DE_1968-01-23-05-149.u95" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg121">Herr Staatssekretär, trifft es zu, daß die Handelsspanne für Arzneimittel gesetzlich festgelegt ist?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u96" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg122">Ja, soweit es Apotheken anbelangt und soweit es sich um preisgebundene Produkte handelt.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u97" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg123">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schmidhuber (CDU/CSU) :</note>
+        <u who="#Q67956" xml:id="ParlaMint-DE_1968-01-23-05-149.u98" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg124">Ist die sogenannte Arzneimitteltaxe aus Anlaß der Einführung der Mehrwertsteuer erhöht worden?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg125">Das ist mir nicht bekannt, Herr Kollege Schmidhuber. Aber ich glaube, das sind Fragen, die mehr den Arzneimittelhandel als die Fabrikation berühren, und danach fragte Herr Dr. Müller.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg126">Die Fragen des Herrn Abgeordneten Geldner Nrn. 20 und 21 werden übernommen?</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Imle: Ja!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg127">— Ich rufe die Fragen hiermit auf:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg128">Teilt die Bundesregierung die Sorge, daß die Pfundabwertung und die gleichzeitige Einführung der Mehrwertsteuer auf der anderen Seite für das deutsche Fremdenverkehrsgewerbe insofern Schwierigkeiten bereiten kann, als dadurch z. B. Dänemark und Spanien zu Lasten der deutschen Erholungsgebiete als Reiseländer einen neuen Auftrieb erhalten? Wie beurteilt die Bundesregierung für ihre eigenen Erwägungen über den Fremdenverkehr auch als Devisenbringer die Vorschläge des italienischen Fremdenverkehrsministeriums, das touristische Dienstleistungsgewerbe fiskalisch mit der Exportwirtschaft gleichzustellen? Bitte sehr!</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u101" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg129">Herr Kollege Imle, die Bundesregierung teilt die Sorge. Doch ist zunächst völlig offen, inwieweit dänische und spanische Erholungsgebiete mit deutschen Erholungsgebieten konkurrieren oder inwieweit sie mit anderen skandinavischen und mediterranen Erholungsgebieten konkurrieren. Es kommt hinzu, daß die Lebenshaltungskosten und damit der Preisindex, dem sich auch der Tourist im wesentlichen gegenübersieht, in der Bundesrepublik Deutschland im Jahre 1967 so gut wie nicht, in Spanien und Dänemark dagegen um zirka 6 % gestiegen ist. Das entspricht in etwa dem dänischen Abwertungssatz. Was die Folgen der Mehrwertsteuer für das Fremdenverkehrsgewerbe anbelangt, so ist hier auch wiederholt berichtet worden, daß für das Hotel- und Gaststättengewerbe eine steuerlich bedingte Kostenerhöhung eingetreten ist. Sie ist maximal auf etwa 5% zu veranschlagen, wird aber keineswegs für jedes Unternehmen so hoch sein. Mir ist ein Fall bekannt, wo ein Hotelbetrieb trotz einer Mehrbelastung von 3 % im Restaurationswesen und von 4 1/2 % bei der Übernachtung keine Preiserhöhungen vorgenommen hat.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u102" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg130">Zusatzfrage des Herrn Abgeordneten Kubitza.</seg>
+        </u>
+        <note type="speaker">Kubitza (FDP) :</note>
+        <u who="#Q2561843" xml:id="ParlaMint-DE_1968-01-23-05-149.u103" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg131">Herr Staatssekretär, ist Ihnen bekannt, daß bereits im vergangenen Jahre eine Stagnation im deutschen Fremdenverkehrsgewerbe feshustellen war, und meinen nicht, daß das Fremdenverkehrsgewerbe durch diese Maßnahmen weitere Einbußen hinzunehmen hätte?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u104" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg132">Herr Kollege, ich sagte zu Eingang, daß die Bundesregierung die Sorge teilt, weil ja nicht allein die Sorgen auf Grund der Mehrwertsteuer und auf Grund der dänischen und spanischen Abwertung auf das deutsche Fremdenverkehrsgewerbe zugekommen sind, sondern auch die Probleme der Rezession mit entsprechendem Einkommensausfall bei den Reisenden und schließlich die Sparmaßnahmen der amerikanischen Regierung, die ja bereits in der Fragestunde in der letzten Woche behandelt worden sind.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u105" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg133">Zusatzfrage des Herrn Abgeordneten Müller (Berlin).</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1968-01-23-05-149.u106" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg134">Herr Staatssekretär, inwieweit wird sich — nach Ihrer Schätzung -- die Pfundabwertung und die gleichzeitige Einführung der Mehrwertsteuer auch auf Berlin — nicht als Erholungsgebiet, aber als Reiseland — ungünstig auswirken?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u107" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg135">Herr Kollege Müller, die Überlegungen des Bundeswirtschaftsministeriums und — so nehme ich an — auch des Berliner Senats werden sich da in 'erster Linie auf die Einsparung im Dollarraum und weniger auf die Einsparung im Pfundgebiet richten.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u108" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg136">Zweite Zusatzfrage, Herr Abgeordneter Müller.</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1968-01-23-05-149.u109" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg137">Wird die Bundesregierung im Einvernehmen mit dem Senat nach dieser von Ihnen jetzt angekündigten Überprüfung entsprechende Maßnahmen treffen, damit das Berliner Verkehrs- bzw. Hotelgewerbe nicht so großen Schaden leidet?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u110" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg138">Herr Kollege Müller, eines der Dinge, die in der Diskussion stehen und anläßlich der Haushaltsberatungen 1968 entschieden werden müssen, ist der Zuschuß zu den Flugpreisen nach Berlin. Das wäre eine Maßnahme, an die man denken könnte.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg139">Zur Beantwortung der zweiten Frage, Frage 21, bitte sehr Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg140">Die Warenexporte werden von der eigenen Umsatzsteuer entlastet, weil sie ja im Empfängerland, in das geliefert wird, mit Umsatzsteuer belastet werden. Um eine Doppelbesteuerung zu vermeiden, sind also Warenexporte steuerfrei. Das trifft bei Dienstleistungen nicht zu. Insofern beabsichtigt die deutsche Bundesregierung ein möglicherweise adäquates Verfahren zu den italienischen Vorschlägen nicht zu erwägen. Außerdem ist völlig offen, ob die Überlegungen des italienischen Fremdenverkehrsministeriums im Zusammenhang mit dem Übergang zur Mehrwertsteuer Beschluß der italienischen Regierung und des italienischen Parlaments werden und ob sie nach dem Jahre 1970 innerhalb der EWG überhaupt noch zulässig sein werden.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg141">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Imle (FDP) :</note>
+        <u who="#Q2590080" xml:id="ParlaMint-DE_1968-01-23-05-149.u114" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg142">Herr Staatssekretär, sind Sie nicht mit mir der Meinung, daß, wenn man dem Fremdenverkehrsgewerbe insbesondere für die Übernachtung von Ausländern bei uns auch hinsichtlich der Besteuerung entgegenkäme, die Touristik bei uns einen Auftrieb erhalten würde?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg143">Selbstverständlich würde das eine Auswirkung auf die Touristik haben. Ich glaube nicht — ich möchte aber dem Herrn Bundesfinanzminister in diesen Fragen nicht vorgreifen —, daß die Bundesregierung sich zu einer derartigen Initiative befürwortend verhalten könnte.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg144">Zusatzfrage des Herrn Abgeordneten Kubitza.</seg>
+        </u>
+        <note type="speaker">Kubitza (FDP) :</note>
+        <u who="#Q2561843" xml:id="ParlaMint-DE_1968-01-23-05-149.u117" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg145">Herr Staatssekretär, sehen Sie in dem Durchkommen der italienischen Vorschläge Nachteile für unser Fremdenverkehrsgewerbe?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg146">Nur insoweit, als italienische Erholungsgebiete mit deutschen Erholungsgebieten konkurrieren würden; das ist immer sehr schwer festzustellen, Herr Kollege. Das Hauptproblem ist aber, daß wir das Mehrwertsteuersystem durch Beschluß dieses Hauses und auf Initiative dieses Hauses eingeführt haben, um der vielen Ausnahmebestimmungen des alten Bruttoumsatzsteuersystems ledig zu werden. Das war einer der Gründe. Ich kann mir nicht vorstellen, daß gleich im ersten oder zweiten Jahr des neuen Systems mit Ausnahmen begonnen werden sollte.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg147">Fragen 22 und 23 des Herrn Abgeordneten Dr. Pohle — sie werden von Herrn Abgeordneten Schmidhuber übernommen —:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg148">Hat die Bundesregierung inzwischen ein klares Bild darüber gewonnen, in welchem Umfange die Einführung der Mehrwertsteuer von Betrieben der verschiedenen Branchen, vor allem auch des Einzelhandels und des Dienstleistungsgewerbes einschließlich der öffentlichen Verkehrsbetriebe, zu Preistreibereien mißbraucht wird? Welche Möglichkeiten der Abhilfe von ungerechtfertigten Preiserhöhungen sieht die Bundesregierung im Rahmen der Sozialen Marktwirtschaft für gegeben an, wenn sich die bisherigen Appelle an die Preisdisziplin bei den beteiligten Branchen oder einem Teil dieser Branchen als unwirksam erweisen sollten?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg149">Eine abschließende Beurteilung der Preiswirkungen der Umsatzsteuerreform, Herr Kollege Schmidhuber, ist noch nicht möglich. Das überkommene Preisbild ist durch die Einführung der Mehrwertsteuer in Bewegung geraten und mußte durch sie in Bewegung geraten. Dieser Umschichtungsprozeß ist noch nicht abgeschlossen, weil es zum Teil auch ein Lern- und Erfahrungsprozeß bei den betreffenden Kaufleuten ist. Soweit man die bisherige Preisentwicklung im neuen Jahr überblicken kann, ist das Urteil „im allgemeinen zufriedenstellend" zu rechtfertigen. Die Verbraucher können einen großen Teil der Lebensmittel und einen großen Teil der gewerblichen Konsumgüter so günstig kaufen wie seit langem nicht mehr. Es ist ein Bereich, der etwa 70 % der Ausgaben einer Arbeitnehmerfamilie mit durchschnittlichem Einkommen ausmacht. Wir wissen aber, daß in einigen Teilbereichen die Preisentwicklung nicht befriedigt. Das gilt für einige handwerkliche Dienstleistungen, und das gilt für das Hotel- und Gaststättengewerbe. Dort sind die Preise zum Teil stärker erhöht worden, als es der umsatzsteuerlichen Mehrbelastung entspricht. Auch öffentliche Verkehrsbetriebe, Gas- und Wasserversorgungsunternehmen haben zum Teil ihre Preise über das umsatzsteuerlich bedingte Maß erhöht.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg150">Zusatzfrage des Herrn Abgeordneten Ott.</seg>
+        </u>
+        <note type="speaker">Ott (CDU/CSU) :</note>
+        <u who="#Q592320" xml:id="ParlaMint-DE_1968-01-23-05-149.u122" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg151">Herr Staatssekretär, sind Sie mit mir der Meinung, daß vor allem das Gebühren- und Preisgebaren der öffentlichen Hand, besonders auf dem Verkehrssektor, eine ganz schlechte Einführung in die Mehrwertsteuer gewesen ist?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u123" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg152">Insoweit die Gebührenerhöhungen nur mit der Einführung der Mehrwertsteuer begründet worden sind, stimme ich Ihnen zu. Selbstverständlich hat es auch andere Kostenerhöhungen in dieser oder jener Gemeinde gegeben. Wären diese mitangeführt worden, wäre gegen eine derartige Preiserhöhung, soweit sie als Nachholbedarf — wenn ich es einmal so sagen darf — notwendig war, wohl nichts einzuwenden gewesen.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u124" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg153">Eine Zusatzfrage des Abgeordneten Unertl. Unertl (CDU/CSU)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg154">Herr Staatssekretär, ich beziehe mich auf Ihre Äußerungen über die unerfreulichen Entwicklungen der Preise auch im Gaststättengewerbe und darf Sie fragen: Sind Sie nicht der Meinung, daß es besser gewesen wäre, wenn der Deutsche Bundestag seinerzeit den Antrag, der mehrmals gestellt wurde, bei der 5 %igen Mehrwertsteuer für das Gaststättengewerbe zu bleiben, angenommen und nicht abgelehnt hätte?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg155">Herr Kollege Unertl, ich glaube, daß sich die Bundesregierung, und insbesondere der Bundesfinanzminister, nach einigen Monaten Geltung des neuen Mehrwertsteuersystems den ganzen Komplex von neuem überlegen und ihn von neuem prüfen werden. Im Augenblick ist noch zuviel im Fluß, um ein derart hartes Urteil zu rechtfertigen.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u126" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg156">Eine Zusatzfrage des Abgeordneten Schmidhuber.</seg>
+        </u>
+        <note type="speaker">Schmidhuber (CDU/CSU) :</note>
+        <u who="#Q67956" xml:id="ParlaMint-DE_1968-01-23-05-149.u127" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg157">Herr Staatssekretär, sind Sie der Meinung, daß die Preise im Gaststättengewerbe zurückgehen würden, wenn die Mehrwertsteuer nach Ablauf einiger Monate auf den ermäßigten Satz von 5 % für diese Leistungen gesenkt würde?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u128" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg158">Das kann man im vorhinein niemals sagen. Es hängt von der allgemeinen Wirtschaftslage und es hängt natürlich von der Höhe der Ermäßigung ab. Ich kann mir aber nicht vorstellen, daß ein Maximum einer denkbaren und damals geforderten Reduzierung von 5 % ohne Auswirkungen auf die Preise bleiben würde.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u129" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg159">Eine Zusatzfrage des Abgeordneten Schmidt (Kempten).</seg>
+        </u>
+        <note type="speaker">Schmidt (Kempten) (FDP) :</note>
+        <u who="#Q1583800" xml:id="ParlaMint-DE_1968-01-23-05-149.u130" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg160">Herr Staatssekretär, darf ich aus Ihren Antworten entnehmen, daß sich die Bundesregierung in ihren Erkenntnissen in dieser Frage inzwischen den Überlegungen zuneigt, die die FDP damals angestellt hat?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u131" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg161">Das dürfen Sie daraus keineswegs schließen. Das habe ich auch gar nicht gesagt. Ich habe nur gesagt, daß nach einigen Monaten Geltung des neuen Steuersystems selbstverständlich geprüft werden wird, wie es sich ausgewirkt hat, und daß dann möglicherweise Konsequenzen gezogen werden. Das ist eine ganz selbstverständliche Verfahrensweise.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u132" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg162">Dann die zweite Frage des Abgeordneten Dr. Pohle, übernommen von Herrn Abgeordneten Schmidthuber. Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg163">Überhöhte Preise werden sich im allgemeinen nur kurze Zeit halten können. Das gilt besonders dann, wenn sich die Käufer so preisbewußt verhalten wie in den letzten Wochen und Monaten. Die Bundesregierung wird versuchen, dazu beizutragen, dieses Preisbewußtsein der Verbraucher durch gezielte Unterrichtung wachzuhalten. Sie überläßt diese Stabilisierungsaufgabe aber nicht dem Verbraucher allein. Die Kartellbehörden werden gegen organisierte Preisüberhöhungen sowie gegen die Ausnutzung von Marktmacht einschreiten. Entsprechende Schritte sind eingeleitet. Die Preisbehörden werden darauf achten, daß die Verbraucher ein klares Preisbild — also Preisauszeichnung einschließlich der Mehrwertsteuer — erhalten. Soweit es sich als notwendig erweist, wird die Bundesregierung auch weiterhin Unternehmer über die Wirkungsweise der Mehrwertsteuer unterrichten.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg164">Keine Zusatzfragen. Wir kommen zur Frage 24 des Abgeordneten Dr. Staratzke:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg165">Ist es die Auffassung der Bundesregierung, daß trotz der staatlichen Investitionsprogramme die private Investitionstätigkeit noch nicht so angeregt worden ist, daß bereits von einem Konjunkturaufschwung auf breiter Basis gesprochen werden kann? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u135" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg166">Herr Kollege Staratzke, ich darf Ihre Frage wie folgt beantworten. Wir können in der Tat von einem Konjunkturaufschwung auf breiter Basis sprechen, können aber noch nicht von einem Konjunkturaufschwung auf sicherer Basis sprechen. Verschiedene Indikatoren zeigen uns ein erfreuliches Erstarken der privaten Investitionsneigung. Insbesondere die Auftragseingänge von Oktober und November bei der deutschen Investitionsgüterindustrie lassen diesen Schluß zu. Allerdings ist diese Massierung der Auftragsvergaben durch einige Sonderfaktoren veranlaßt worden, nämlich das Auslaufen der steuerlichen Begünstigung von Anlageinvestitionen und die befürchtete Verteuerung von Neuinvestitionen beim Übergang zur Mehrwertsteuer.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u136" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg167">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Staratzke (FDP) :</note>
+        <u who="#Q1578351" xml:id="ParlaMint-DE_1968-01-23-05-149.u137" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg168">Herr Staatssekretär, Sie sind also der Meinung, daß die Konjunktur auf breiter Basis, aber noch nicht auf sicherer Basis angesetzt hat. Meinen Sie nicht auch, daß man diese sichere Basis besser finden würde, wenn man endlich einmal die Privatinvestitionen direkt anreizte?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u138" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg169">Herr Kollege Staratzke, einige dieser Anreize sind natürlich mit den Investitionsprämien, die im Kohlegesundungs-, Parlamentarischer Staatssekretär Dr. Arndt Besetz für die Steinkohlenreviere für einen begrenzten Zeitraum vorgesehen sind, gegeben. Im übrigen hat das Bundeskabinett über den Jahreswirtschaftsbericht der Bundesregierung noch nicht entschieden. Das wird morgen der Fall sein. Er wird noch in diesem Monat, wie es die Pflicht der Regierung ist, dem Parlament zugeleitet werden. Dann wird zu dieser Frage eindeutig Stellung genommen.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg170">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Staratzke (FDP):</note>
+        <u who="#Q1578351" xml:id="ParlaMint-DE_1968-01-23-05-149.u140" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg171">Herr Staatssekretär, sind Sie nicht mit mir der Meinung, daß diese sichere Basis und der Anreiz zu privaten Investitionen am besten dadurch geschaffen werden könnten, daß man die im Rahmen der Mehrwertsteuer entstandene Investitionssteuer senkt?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg172">Das ist eine der Hypothesen, die sicherlich in der Beratung verfolgt worden sind, Herr Kollege Staratzke.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg173">Eine Zusatzfrage des Herrn Abgeordneten Moersch.</seg>
+        </u>
+        <note type="speaker">Moersch (FDP) :</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1968-01-23-05-149.u143" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg174">Herr Staatssekretär, ist es nicht vielleicht so, daß diese sichere Basis auch deswegen fehlt, weil man sich nicht klar für den Vorrang der privaten Investitionstätigkeit entschieden, sondern versucht hat, über staatliche Investitionen dann in zweiter Linie die privaten anzuregen, anstatt umgekehrt vorzugehen?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u144" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg175">Nein, Herr Kollege Moersch, diese Deutung bitte ich meinen Worten von vorhin nicht zu geben. Ich meine, daß der gegenwärtige Aufschwung — wenn wir den Auftragseingang der Investitionsgüterindustrie und der Konsumgüterindustrie sehen — natürlich durch die staatlichen Maßnahmen des Jahres 1967 gestützt, wenn nicht gar herbeigeführt wurde. Ich verweise dabei vor allem auf die stärkere Entlastung der Altvorräte, die Investitionshaushalte und die Sonderabschreibungen, die im Oktober 1967 ausliefen. Es wird noch einige Zeit dauern, bevor wir sagen können, daß dieser Aufschwung auf einer breiten und sicheren Basis beruht, nämlich auf den Entschlüssen der privaten Konsumenten und der privaten Investoren.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u145" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg176">Eine zweite Zusatzfrage dies Herrn Abgeordneten Moersch.</seg>
+        </u>
+        <note type="speaker">Moersch (FDP) :</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1968-01-23-05-149.u146" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg177">Herr Staatssekretär, können Sie mir darin zustimmen, daß les offensichtlich ein schwerer Fehler war und sich jetzt als ein solcher herausstellt, nicht die strukturelle Bereinigung des Haushalts an die erste Stelle zu setzen, um auf diese Weise zu der gewünschten privaten Investitionstätigkeit und damit zu der sicheren Basis des Konjunkturaufschwungs zu kommen?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg178">Es hat in den letzten zwei Jahren mehrere strukturelle Bereinigungen des Bundeshaushalts gegeben, Herr Kollege Moersch.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg179">Eine Zusatzfrage des Herrn Abgeordneten Ott.</seg>
+        </u>
+        <note type="speaker">Ott (CDU/CSU) :</note>
+        <u who="#Q592320" xml:id="ParlaMint-DE_1968-01-23-05-149.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg180">Herr Staatssekretär, sind Sie mit mir der Meinung, daß jedes Neu- ins-Gespräch-Bringen einer Beseitigung der Ergänzungsabgabe, der Neueinführung von Sonderabschreibungen oder sonstiger Dinge die im Augenblick notwendige Investitionsbereitschaft und Investitionsfreude hemmen wird und damit genau das Gegenteil von dem erreicht wird, was wir brauchen, nämlich Ruhe in der investierenden Wirtschaft?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zustimmung in der Mitte.</desc>
+        </vocal>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u150" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg181">Nur insoweit, als bei derartigen Diskussionen nicht von vornherein sicher ist, daß die vorgesehenen Maßnahmen auch rückwirkend in Kraft gesetzt werden müssen. Diese Vorschläge sind durch das Gutachten des Sachverständigenrats ins Gespräch gebracht worden, und sie wären sicherlich auch ins Gespräch gebracht worden, wenn es dieses Gutachten nicht gegeben hätte, da wir ja in der Bundesrepublik Deutschland frei unsere Meinung äußern können. _Präsident D. Dr. Gerstenmaier: Fine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Ott (CDU/CSU) :</note>
+        <u who="#Q592320" xml:id="ParlaMint-DE_1968-01-23-05-149.u151" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg182">Herr Staatssekretär, sind Sie mit mir der Meinung, daß diese Diskussion dann konjunkturhemmend und -schädigend wirkt, wenn sich daran offizielle Persönlichkeiten beteiligen, und daß das Gutachten des Wissenschaftsrats im Sommer vergangenen Jahres außerordentlich unglaubwürdig gewesen ist dadurch, daß es wenige Monate später genau das wenige Monate vorher Verkündete in Zweifel gezogen hat?</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u152" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg183">Einen Augenblick! Herr Staatssekretär, Sie brauchen auf diese Frage nicht zu antworten, weil sie eine von der Geschäftsordnung ausgeschlossene Wertung enthält. Ich bedaure, darauf aufmerksam machen zu müssen. Wenn Sie antworten wollen, so ist Ihnen das unbenommen.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u153" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg184">Die Bundesregierung war in ihrer Konjunkturpolitik, die hier vom Hohen Haus akzeptiert worden ist, dem zweiten Gutachten des Sachverständigenrats vom Frühjahr 1966 bei weitem voraus. Insofern war dieser Zeitverzug der Korrektur nicht schädlich.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u154" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg185">Zusatzfrage, Herr Abgeordneter Schmidhuber.</seg>
+        </u>
+        <note type="speaker">Schmidhuber (CDU/CSU) :</note>
+        <u who="#Q67956" xml:id="ParlaMint-DE_1968-01-23-05-149.u155" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg186">Herr Staatssekretär, stimmen Sie der Feststellung zu, daß eine nachhaltige Belebung der privaten Investitionen erstens von der Auslastung der Kapazität und zweitens von der Einschätzung der Unternehmer bezüglich der künftigen Nachfrage abhängt?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-01-23-05-149.u156" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg187">Selbstverständlich stimme ich dem zu.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u157" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg188">Meine Damen und Herren, die Fragen aus dem Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten sind von allen Fragestellern merkwürdigerweise zurückgezogen worden.</seg>
+          <kinesic type="applause">
+            <desc>Widerspruch bei der FDP.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg189">— Doch, nach meiner Vorlage sind alle angemeldeten Fragen zurückgezogen worden, das ist ja keine Schande.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Peters [Poppenbüll] : Uns ist gesagt worden, daß sie in dieser Woche nicht beantwortet werden können!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg190">— Dann liegt vielleicht ein Mißverständnis vor. Nach meiner Vorlage sind die Fragen von den Fragestellern zurückgezogen worden. Ich bin aber gern bereit, festzustellen — — Wollen Sie jetzt fragen? Der Herr Vertreter des Bundesernährungsministeriums ist nicht da; in diesem Fall ist der Herr Bundesminister für Ernährung, Landwirtschaft und Forsten von jedem Vorwurf freigestellt; denn auch in meiner Vorlage heißt es: Von den Fragestellern zurückgezogen. Aber ich werde Ihnen zu Ihrem Fragerecht dennoch verhelfen; ich bin gerne dazu bereit. Fragen aus dem Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung. Frage Nr. 34 — des Herrn Abgeordneten Picard —:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg191">Wie steht die Bundesregierung zu der von verschiedenen Seiten, besonders von Verbrauchern, immer wieder erhobenen Forderung, wenigstens an einigen Tagen in der Woche den Abendeinkauf zu ermöglichen?</seg>
+        </u>
+        <note type="speaker">Katzer, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q97610" xml:id="ParlaMint-DE_1968-01-23-05-149.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg192">Der von Ihnen, Herr Kollege Picard, zitierten Forderung, wenigstens an einigen Tagen der Woche einen Abendeinkauf zu ermöglichen, könnte nur durch eine Änderung des Ladenschlußgesetzes entsprochen werden. Dieses Gesetz wurde — das werden Sie wie ich in Erinnerung haben — seinerzeit auf Grund einer Initiative aus dem Deutschen Bundestag beschlossen. Es stellt einen damals in mühsamer Arbeit erreichten Kompromiß dar zwischen den unterschiedlichen Interessen des Einzelhandels, der dort beschäftigten Arbeitnehmer und der Verbraucher. Die Stellungnahmen dieser Gruppen sind nach meinen Informationen in ihrem grundlegenden Gehalt seither unverändert. So haben einerseits die Gewerkschaft Handel, Banken und Versicherungen, die Deutsche Angestelltengewerkschaft und die Hauptgemeinschaft des Deutschen Einzelhandels bis jetzt keine Einwendungen erhoben, während andererseits die Verbraucherverbände und bestimmte Kreise der Wirtschaft die Aufhebung oder zumindest eine Auflockerung des Ladenschlußgesetzes erstreben. Dabei wird auch auf die in anderen EWG-Ländern bestehenden Regelungen Bezug genommen. Im Hinblick darauf, daß offenbar die Einstellung der Hauptbeteiligten zum Problem des Ladenschlusses noch dieselbe ist, die seinerzeit im Deutschen Bundestag zu dem Kompromiß des geltenden Gesetzes geführt hat, schlägt die Bundesregierung zur Zeit von sich aus eine Änderung des Ladenschlußgesetzes nicht vor.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg193">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Picard (CDU/CSU) :</note>
+        <u who="#Q2545777" xml:id="ParlaMint-DE_1968-01-23-05-149.u160" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg194">Herr Bundesminister, sind Sie mit mir der Auffassung, daß das Ladenschlußgesetz — weil Sie eben von Hauptbeteiligten sprachen — im wesentlichen doch den Verbraucher betrifft und, wenn wir von der Zahl der Betroffenen ausgehen, nur zu einem Bruchteil der Zahl der Verbraucher die durch eine Gewerkschaft vertretenen Angestellten?</seg>
+        </u>
+        <note type="speaker">Katzer, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q97610" xml:id="ParlaMint-DE_1968-01-23-05-149.u161" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg195">Ich glaube, Herr Kollege, man muß davon ausgehen, daß in der Tat die Verbraucher die Hauptinteressierten sind. Aber man kann wohl nicht über die berechtigten Bedenken der Betroffenen einfach hinweggehen.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u162" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg196">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Picard (CDU/CSU) :</note>
+        <u who="#Q2545777" xml:id="ParlaMint-DE_1968-01-23-05-149.u163" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg197">Herr Bundesminister, ist Ihnen bekannt, daß die Frage eines Abendeinkaufs an ein oder zwei Tagen bis 21 Uhr Gegenstand von Befragungen sowohl unter Verbrauchern wie unter Angestellten, also dem Personal, wie unter Unternehmern war und als Antwort auf solche Befragungen festgestellt werden konnte, daß die Verbraucher mit erheblicher Mehrheit, soweit sie berufstätig waren, einem Abendeinkauf zustimmen, ihn sogar fordern, daß aber auch das Personal zu einer Dienstzeit bis in die Abendstunden hinein bereit ist, wenn auf geeignete Weise, z. B. durch ein verlängertes Wochenende bis einschließlich Montag, ein Äquivalent geschaffen wird.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg198">Ich bin großzügig, aber das war ein ausgewachsener Diskussionsbeitrag. Mir ist er sympathisch. Das ändert aber nichts daran, daß die Geschäftsordnung das nicht zuläßt.</seg>
+        </u>
+        <note type="speaker">Picard (CDU/CSU) :</note>
+        <u who="#Q2545777" xml:id="ParlaMint-DE_1968-01-23-05-149.u165" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg199">Herr Präsident, ich bitte um Entschuldigung, aber das liegt in der Thematik.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u166" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg200">Das ist sehr gut, daß Sie sich entschuldigen, denn es ist ein Verstoß gegen die Geschäftsordnung. Aber jetzt zur Beantwortung!</seg>
+        </u>
+        <note type="speaker">Katzer, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q97610" xml:id="ParlaMint-DE_1968-01-23-05-149.u167" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg201">Herr Kollege Picard, mir sind solche Untersuchungen bekannt, insbesondere die Erklärung des Vorstandes eines Filialbetriebs, der auch die Beschäftigten des Unternehmens angesprochen hat. Allerdings glaube ich nicht, daß diese Untersuchungen repräsentativ sind.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u168" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg202">Keine Zusatzfrage?</seg>
+        </u>
+        <note type="speaker">Picard (CDU/CSU) :</note>
+        <u who="#Q2545777" xml:id="ParlaMint-DE_1968-01-23-05-149.u169" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg203">Nein, nicht mehr!</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u170" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg204">Das ist ein Akt der „Wiedergutmachung". Ich rufe auf die Frage Nr. 35 des Herrn Abgeordneten Riegel (Göppingen)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg205">. — Er ist nicht im Saal. Die Frage wird schriftlich beantwortet. Ich rufe auf die Frage Nr. 36 des Herrn Abgeordneten Geldner:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg206">Ist die Bundesregierung der Auffassung, daß Cash-. und CarryLäden Verkaufsstellen im Sinne des Ladenschlußgesetzes sind? Die Frage wird von Herrn Abgeordneten Kubitza übernommen. Zur Beantwortung, Herr Minister, bitte sehr!</seg>
+        </u>
+        <note type="speaker">Katzer, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q97610" xml:id="ParlaMint-DE_1968-01-23-05-149.u171" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg207">Verkaufsstellen im Sinne des Ladenschlußgesetzes sind Ladengeschäfte und sonstige Verkaufseinrichtungen, die von einer festen Stelle aus ständig Waren an jedermann feilhalten. Ob die sogenannten Cash- and Carry- Läden, das heißt Selbstbedienungsläden auf der Großhandelsebene, zu dieser Kategorie gehören, hängt also davon ab, ob sie Waren an jedermann — in der Regel also auch an den Endverbraucher — verkaufen. Tun sie das, dann finden auf sie die Vorschriften des Ladenschlußgesetzes Anwendung. Beschränken solche Läden dagegen ihre Geschäftstätigkeit auf den Verkauf von Waren an Wiederverkäufer, dann fallen sie nicht unter das Ladenschlußgesetz. Ob Cash- and Carry-Läden Verkaufsstellen im Sinne des Ladenschlußgesetzes sind, kann also nur für den Einzelfall je nach Art ihrer Geschäftstätigkeit festgestellt werden.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u172" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg208">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Kubitza (FDP) :</note>
+        <u who="#Q2561843" xml:id="ParlaMint-DE_1968-01-23-05-149.u173" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg209">Herr Minister, können Sie die Information bestätigen, wonach in Cash- and CarryLäden auch nach Ladenschluß noch ein Verkauf an Endverbraucher stattfindet?</seg>
+        </u>
+        <note type="speaker">Katzer, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q97610" xml:id="ParlaMint-DE_1968-01-23-05-149.u174" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg210">Nein, das kann ich von mir aus nicht bestätigen. Ich bin auch nicht dazu da, das zu überprüfen. Das ist Aufgabe der Landesbehörden.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u175" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg211">Ich rufe auf die Frage Nr. 37 des Herrn Abgeordneten Schmidt (Kempten):</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg212">Kann die Bundesregierung eine Erklärung für die vom Chefpräsidenten des Bundesarbeitsgerichtes, Professor Gerhard Müller, vor wenigen Tagen geäußerte Meinung abgeben, daß durch die im Zusammenhang mit der Verabschiedung des Finanzänderungsgesetzes zum 1. Januar 1968 beschlossene Aufhebung der Versicherungspflichtgrenze in der Angestelltenversicherung bereits 1967 eine Prozeßwelle zu befürchten sei?</seg>
+        </u>
+        <note type="speaker">Katzer, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q97610" xml:id="ParlaMint-DE_1968-01-23-05-149.u176" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg213">In der von Ihnen, Herr Kollege Schmidt, angeführten Äußerung ,auf einer Pressekonferenz hat der Herr Präsident des Bundesarbeitsgerichts seiner Befürchtung Ausdruck gegeben, daß durch den Wegfall der Versicherungspflichtgrenze in der Angestelltenversicherung mit einer Fülle neuer Klagen und Revisionen zu rechnen sei. Er bezog sich dabei auf solche Rechtsstreitigkeiten, die im Zusammenhang mit Vereinbarungen auf dem Gebiete der betrieblichen Altersversorgung entstehen könnten. Ob in diesem Bereich eine große Zahl von Prozessen zu befürchten ist, vermag die Bundesregierung bei der hier besonders unterschiedlichen Vertragsgestaltung nicht vorauszusagen, zumal da sie bislang jedenfalls keine Anzeichen sieht, die eine heraufkommende Prozeßwelle erkennen ließen.</seg>
+        </u>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u177" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg214">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schmidt (Kempten) (FDP):</note>
+        <u who="#Q1583800" xml:id="ParlaMint-DE_1968-01-23-05-149.u178" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg215">Herr Minister, sind Sie bereit, mir oder dem Hohen Hause die ausführlichen Darlegungen des Herrn Chefpräsidenten mitzuteilen, um. die genauen Gründe für seine Behauptung zu erfahren?</seg>
+        </u>
+        <note type="speaker">Katzer, Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q97610" xml:id="ParlaMint-DE_1968-01-23-05-149.u179" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg216">Ja, Herr Kollege Schmidt, dazu bin ich selbstverständlich gerne bereit.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="12" ana="#DE-consultation #DE-report">
+        <head>Beratung des Mündlichen Berichts des Rechtsausschusses (12. Ausschuß) über die Streitsache vor dem Bundesverfassungsgericht betr. Aussetzungs- .und Vorlagebeschluß des Landgerichts Dortmund vom 10. August 1967 — 8 Akt E 1/67 — wegen Prüfung der Verfassungsmäßigkeit des Artikels 3 Abs. 2 in Verbindung mit Artikel 1 des Gesetzes zur Änderung des Gesetzes zur Ergänzung des Gesetzes über die Mitbestimmung der Arbeitnehmer in den Aufsichtsräten und Vorständen der Unternehmen des Bergbaus und der Eisen und Stahl erzeugenden Industrie vom 27. April 1967 (BGBl. I S. 505) — Drucksache V/2493 —</head>
+        <note type="speaker">Präsident D. Dr. Gerstenmaier:</note>
+        <u who="#Q66447" xml:id="ParlaMint-DE_1968-01-23-05-149.u180" ana="#chair">
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg217">Keine Zusatzfrage. Die Fragestunde ist geschlossen. Punkt 2 der Tagesordnung:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg218">Beratung ,der Sammelübersicht 26 des Petitionsausschusses (2. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg219">über Anträge von Ausschüssen des Deutschen Bundestages zu Petitionen und systematische Übersicht über die beim .Deutschen Bundestag in der Zeit vom 18. Oktober 1965 bis 31. Dezember 1967 eingegangenen Petitionen — Drucksache V/2468 —</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg220">Ich frage die Vorsitzende 'des Petitionsausschusses, ob sie das Wort wünscht. — Das Wort wird nicht gewünscht. Ich eröffne die Aussprache. Wird das Wort gewünscht? — Das ist nicht der Fall. Wer dem Antrag des Ausschusses zustimmen will, den bitte ich um ein Handzeichen. — Gegenprobe! — Enthaltungen? — Der Antrag des Ausschusses ist angenommen. Der Punkt 3 ist im Einvernehmen mit dem Haus abgesetzt. Präsident D. Dr. Gerstenmaier Punkt 4:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg221">Erste Beratung des von den Abgeordneten Frau Dr. Diemer-Nicolaus, Busse (Herford)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg222">, Dorn und der Fraktion der FDP eingebrachten Entwurfs eines Strafgesetzbuches (Allgemeiner Teil)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg223">— Drucksache V/2285 —</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg224">Ich frage, ob zur Begründung bzw. Einbringung dieser Vorlage das Wort gewünscht wird. — Das Wort wird nicht gewünscht. Ich eröffne die Aussprache in erster Lesung. Wird das Wort gewünscht? — Keine Wortmeldung. Die Aussprache ist geschlossen. Die Vorlage soll an den Sonderausschuß für die Strafrechtsreform überwiesen werden. — Kein Widerspruch. Das Haus ist einverstanden. Die Überweisung ist dementsprechend beschlossen. Ich rufe Punkt 5 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg225">Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Durchführungsgesetzes EWG-Richtlinie Frisches Fleisch und des Fleischbeschaugesetzes — Drucksache V/1795 —</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg226">Schriftlicher Bericht des Ausschusses für Gesundheitswesen (11. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg227">— Drucksache V/2477 —</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg228">Berichterstatter: Abgeordneter Dr. Bardens (Erste Beratung 116. Sitzung)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg229">Ich eröffne die zweite Beratung. Ich rufe auf Art. 1, 2, 3, 4, 5, Einleitung und Überschrift. Wird das Wort gewünscht? — Das ist nicht der Fall. Wer zuzustimmen wünscht, den bitte ich um ein Handzeichen. — Gegenprobe! — Enthaltungen? — In zweiter Beratung einstimmig beschlossen. Wir kommen zur dritten Beratung.</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg230">Ich eröffne die allgemeine Aussprache. Wird das Wort gewünscht? — Das ist nicht der Fall. Wer dieser Vorlage in der dritten Beratung zuzustimmen wünscht, den bitte ich, sich zu erheben. — Gegenprobe! — Keine Gegenstimmen. Enthaltungen? — Auch in dritter Beratung einstimmig angenommen. Ich rufe Punkt 6 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg231">Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Biersteuergesetzes — Drucksache V/2413 --</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg232">Ich frage, ob das Wort zur Einbringung gewünscht wird. — Das Wort wird nicht gewünscht. Ich eröffne die Aussprache in erster Lesung. Wird das Wort gewünscht? — Keine Wortmeldung. Die Aussprache ist geschlossen. Der Gesetzentwurf soll an den Finanzausschuß überwiesen werden. Ist das Haus damit einverstanden? — Kein Widerspruch; ¡es ist so beschlossen. Ich rufe Punkt 7 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg233">Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des EntwicklungshilfeSteuergesetzes — Drucksache V/2197 — -</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg234">a)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg235">Bericht des Haushaltsausschusses (13. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg236">gemäß § 96 der Geschäftsordnung — Drucksache V/2491 —Berichterstatter: Abgeordneter Gewandt b)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg237">Schriftlicher Bericht des Finanzausschusses (14. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg238">— Drucksache V/2483 —Berichterstatterin: Abgeordnete Frau Funcke (Erste Beratung 133. Sitzung)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg239">Dazu liegt zunächst der Bericht des Haushaltsausschusses vor. Ich frage den Berichterstatter, Herrn Abgeordneten Gewandt, ob er das Wort wünscht. -Der Berichterstatter verzichtet. Ich frage die Berichterstatterin zu der Drucksache V/2483, Frau Funcke, ob sie das Wort wünscht. — Sie verzichtet. Ich rufe in zweiter Beratung auf Art. 1, 2, 3, 4, Einleitung und Überschrift. Wird das Wort gewünscht? — Das ist nicht der Fall. Wer zuzustimmen wünscht, den bitte ich um ein Handzeichen. — Gegenprobe! — Enthaltungen? — In zweiter Beratung einstimmig angenommen. Wir kommen zur dritten Beratung.</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg240">Ich eröffne die allgemeine Aussprache. Wird das Wort gewünscht? — Das ist nicht der Fall. Wer in dritter Beratung zuzustimmen wünscht, den bitte ich, sich zu erheben. — Gegenprobe! — Enthaltungen? — Auch in dritter Beratung einstimmig angenommen. Ich rufe Punkt 8 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg241">Beratung des Schriftlichen Berichts des Finanzausschusses (14. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg242">über den Bericht der Bundesregierung über die Änderungen der Steuerbelastung, die die Einbeziehung der speziellen Verbrauchsteuern in die Besteuerungsgrundlage der Mehrwertsteuer bei verbrauchsteuerpflichtigen Waren zur Folge hat — Drucksache V/2250, V/2484 —Berichterstatterin: Abgeordnete Frau Kurlbaum-Beyer Ich frage zunächst die Berichterstatterin, ob sie das Wort wünscht. — Sie verzichtet. Ich eröffne die Aussprache zu diesem Bericht. — Keine Wortmeldungen. Wer dem Antrag des Ausschusses zuzustimmen wünscht, den bitte ich um ein Handzeichen. — Gegenprobe! — Enthaltungen? — Ebenfalls einstimmig angenommen. Ich rufe Punkt 9 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg243">Beratung des Mündlichen Berichts des Haushaltsausschusses (13. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg244">über die von der Bundesregierung vorgelegte Finanzplanung des Bundes 1967 bis 1971 — Drucksachen V/2065, V/2084, V/2478 —</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg245">Berichterstatter: Abgeordneter Schoettle Ich frage den Berichterstatter, ob er das Wort zu nehmen wünscht. — Der Herr Berichterstatter verzichtet. Ich eröffne die allgemeine Aussprache. Wird das Wort gewünscht? — Das ist nicht der Fall. Wer diesem Antrag des Ausschusses zuzustimmen wünscht, den bitte ich um ein Handzeichen. -Gegenprobe! — Enthaltungen? -- Einstimmig angenommen. Ich rufe Punkt 10 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg246">Beratung der von der Bundesregierung beschlossenen Verordnung zur Einschränkung der Begünstigung des § 27 des Zollgesetzes für den Luftfahrzeugbau — Drucksache V/2474 —</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg247">Ich frage, ob dazu das Wort gewünscht wird. — Das ist nicht der Fall. Wer dem Vorschlag des Altestenrates, die Vorlage an den Finanzausschuß — federführend — und an den Ausschuß für Wirtschaft und Mittelstandsfragen zu überweisen, zuzustimmen wünscht, den bitte ich um ein Handzeichen. — Gegenprobe! — Keine Gegenstimmen. Die Überweisung ist entsprechend erfolgt. Wir kommen zu Punkt 11 des Tagesordnung:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg248">Beratung der Übersicht 17 des Rechtsausschusses (12. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg249">über die dem Deutschen Bundestag zugeleiteten Streitsachen vor dem Bundesverfassungsgericht — Drucksache V/2372 (neu)—</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg250">Berichterstatter: Abgeordneter Dr. Wilhelmi Ich frage den Herrn Berichterstatter, ob er das Wort zu nehmen wünscht. — Der Herr Berichterstatter verzichtet. Ich eröffne die Aussprache. — Keine Wortmeldung. Wer dem Antrag des Ausschusses zuzustimmen wünscht, den bitte ich um ein Handzeichen. —Gegenprobe! — Enthaltungen? — Das ist einstimmig angenommen. Punkt 12 der Tagesordnung:</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg251">Beratung des Mündlichen Berichts des Rechtsausschusses (12. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg252">über die Streitsache vor dem Bundesverfassungsgericht betr. Aussetzungs- .und Vorlagebeschluß des Landgerichts Dortmund vom 10. August 1967 — 8 Akt E 1/67 — wegen Prüfung der Verfassungsmäßigkeit des Artikels 3 Abs. 2 in Verbindung mit Artikel 1 des Gesetzes zur Änderung des Gesetzes zur Ergänzung des Gesetzes über die Mitbestimmung der Arbeitnehmer in den Aufsichtsräten und Vorständen der Unternehmen des Bergbaus und der Eisen und Stahl erzeugenden Industrie vom 27. April 1967 (BGBl. I S. 505)</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg253">— Drucksache V/2493 —</seg>
+          <seg id="ParlaMint-DE_1968-01-23-05-149.seg254">Berichterstatter ist der Herr Abgeordnete Hirsch. Ich frage, ob der Herr Berichterstatter das Wort zu nehmen wünscht. — Der Herr Berichterstatter verzichtet. Ich eröffne die Aussprache. Wird das Wort gewünscht? — Keine Wortmeldungen. Wer dem Antrag des Ausschusses zuzustimmen wünscht, gebe bitte ein Handzeichen. — Gegenprobe! — Enthaltungen? — Bei zwei Enthaltungen ist auch dieser Antrag angenommen. Meine Damen und Herren, die Punkte 13 und 14 sollen vereinbarungsgemäß am Freitag verhandelt werden. Wir werden morgen, Mittwoch, um 14 Uhr eine Fragestunde haben. Wir beginnen am Freitagvormittag um 9 Uhr mit der Fragestunde. Es schließen sich an die Punkte 13 und 14 der Tagesordnung. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 16.43 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

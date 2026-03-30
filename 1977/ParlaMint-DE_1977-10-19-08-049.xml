@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1977-10-19-08-049">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 8. Wahlperiode, 49. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 19.10.1977 (49. Sitzung der 8. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 8, Session 49 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1977-10-19 (Session 49 in Legislative Period 8)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="49">49. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.08" n="8">8. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="49">Session 49</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.08" n="8">Legislative Period 8</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 19.10.1977</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1977-10-19</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490390/dfcac024ce8e548774e16f03c36293e2/pp08-data.zip</idno>
+          <date when="1977-10-19">1977-10-19</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1977-10-19">1977-10-19</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksache 8/1015 —</head>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg1">Meine Damen und Herren, die Sitzung ist eröffnet. Ich habe die große Freude, dem Kollegen Sieglerschmidt nachträglich zu seinem 60. Geburtstag gratulieren zu können. Alles Gute!</seg>
+          <kinesic type="applause">
+            <desc>Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg2">Nach einer interfraktionellen Vereinbarung soll die Tagesordnung um die folgenden Ihnen in einer Liste vorliegenden Zusatzpunkte ergänzt werden: 1. a)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg3">Erste Beratung des von der Fraktion der CDU/CSU eingebrachten Entwurfs eines Besoldungsänderungsgesetzes — Drucksache 8/771 — Überweisungsvorschlag:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg4">Innenausschuß (federführend)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg5">Verteidigungsausschuß Haushaltsausschuß mitberatend und gemäß § 96 GO b)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg6">Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Bundesbesoldungsgesetzes — Drucksache 8/1027 Überweisungsvorschlag:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg7">Innenausschuß (federführend)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg8">Verteidigungsausschuß Haushaltsausschuß mitberatend und gemäß § 96 GO 2. Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Graduiertenförderungsgesetzes (2. GFÄndG)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg9">— Drucksache 8/1026 —</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg10">Überweisungsvorschlag :</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg11">Ausschuß für Bildung und Wissenschaft Haushaltsausschuß gemäß § 96 GO 3. Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung energierechtlicher Vorschriften — Drucksache 8/1030 —Überweisungsvorschlag :</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg12">Ausschuß für Wirtschaft (federführend)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg13">Finanzausschuß Haushaltsausschuß gemäß § 96 GO Amtliche Mitteilungen ohne Verlesung Der Bundesrat hat in seiner Sitzung am 14. Oktober 1977 dem Sechsten Gesetz über die Erhöhung von Dienst- und Versorgungsbezügen in Bund und Ländern (Sechstes Bundesbesoldungserhöhungsgesetz) zugestimmt.</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg14">In der gleichen Sitzung hat der Bundesrat beschlossen, hinsichtlich des Gesetzes zur Steuerentlastung und Investitionsförderung zu verlangen, daß der Vermittlungsausschuß einberufen wird und ferner eine Entschließung angenommen. Sein Schreiben wird als Drucksache 8/1029 verteilt. Teil III der Mündlichen Anfragen für August mit den dazu erteilten schriftlichen Antworten wird als Drucksache 8/1014 verteilt. Die mit Rücksicht auf die Haushaltsberatungen schriftlich erteilten Antworten zu den Fragen in Drucksache 8/963 sind als Anlagen im Stenographischen Bericht der 48. Sitzung abgedruckt. Der Vorsitzende des Ausschusses für Ernährung, Landwirtschaft und Forsten hat mit Schreiben vom 6. Oktober 1977 mitgeteilt, daß die nachstehende Vorlage in die interne EG-Fischereipolitik einbezogen worden ist und sich daher eine Beratung erübrigt:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg15">Verordnung (EWG)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg16">des Rates zur Festsetzung von Fangquoten für bestimmte Zonen sowie der Bedingungen für die Ausübung des Fischfangs in diesen Zonen — Drucksache 8/243 —</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg17">Der Bundesminister für Verkehr und für das Post- und Fernmeldewesen hat mit Schreiben vom 7. Oktober 1977 unter Bezugnahme auf § 17 Abs. 5 Postverwaltungsgesetz den Nachtrag zum Voranschlag der Deutschen Bundespost für das Rechnungsjahr 1977 übersandt. Der Nachtrag liegt im Archiv zur Einsichtnahme aus. Der Bundeskanzler hat mit Schreiben vom 14. Oktober 1977 gemäß § 30 Abs. 4 des Bundesbahngesetzes vom 13. Dezember 1951 den Wirtschaftsplan der Deutschen Bundesbahn für das Geschäftsjahr 1977 und den Nachtrag hierzu mit 15 Anlagen sowie den Stellenplan der Deutschen Bundesbahn mit der Bitte um Kenntnisnahme übersandt. Wirtschafts- und Stellenplan liegen im Archiv zur Einsicht aus. — Ich sehe und hören keinen Widerspruch. Die Erweiterung der Tagesordnung ist damit beschlossen. Entsprechend einer interfraktionellen Vereinbarung sollen die Punkte 3 bis 7 — betreffend Entwurf eines Strafverfahrensänderungsgesetzes, Entwurf eines zweiten Gesetzes zur Bekämpfung von Terrorismus und Gewaltkriminalität sowie zum Schutz des inneren Friedens, Änderung des Gesetzes zur Beschränkung des Brief-, Post- und Fernmeldegeheimnisses, Änderung von Strafvorschriften des Waffenrechts sowie Entwurf eines Gesetzes über die Aufgaben und Befugnisse der für die Wahrung von öffentlicher Sicherheit und Ordnung zuständigen Behörden des Bundes — von der Tagesordnung abgesetzt werden. — Ich sehe und höre auch hier keinen Widerspruch. Das Haus ist damit einverstanden. Meine Damen und Herren, ich rufe Punkt 1 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg18">Fragestunde — Drucksache 8/1015 —</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg19">Wir kommen zunächst zum Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen. Der Herr Abgeordnete Graf Stauffenberg hat um schriftliche Beantwortung der beiden von ihm eingereichten Fragen gebeten. Die Antworten werden als Anlagen abgedruckt. Wir kommen dann zum Geschäftsbereich des Bundesministers für Bildung und Wissenschaft. Der Herr Abgeordnete Jahn (Marburg)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg20">hat ebenfalls um schriftliche Beantwortung der beiden von ihm eingebrachten Fragen gebeten. Die Antworten werden als Anlagen abgedruckt. Wir kommen nunmehr zum Geschäftsbereich des Bundesministers für Raumordnung, Bauwesen und Städtebau. Zur Beantwortung der Fragen steht uns der Parlamentarische Staatssekretär Dr. Haack zur Verfügung. Ich rufe die Frage 6 des Abgeordneten Dr. Jahn (Münster)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg21">auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg22">Trifft es zu, daß das Bundesministerium für Raumordnung, Bauwesen und Städtebau ein Gutachten zur Frage des Verfügungseigentums und Nutzungseigentums in Auftrag gegeben hat, wenn ja, ist das Gutachten zwischenzeitlich erstellt, und zu welchen Ergebnissen hat die Untersuchung geführt? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Haack, Parl. Staatssekretär beim Bundesminister für Raumordnung, Bauwesen und Städtebau:</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1977-10-19-08-049.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg23">In der vergangenen Legislaturperiode ist beim Bundesminister für Raumordnung, Bauwesen und Städtebau eine unabhängige Sachverständigenkommission gebildet worden, die aus fachlicher Sicht die in der Offentlichkeit diskutierten neuen und modifizierten Rechtsformen der Bodennutzung untersuchen sollte. Die Sachverständigen haben ihre Arbeit inzwischen beendet und eine gutachtliche Stellungnahme erarbeitet. Das Gutachten wird in Kürze veröffentlicht und damit auch Ihnen, Herr Kollege Jahn, zugänglich gemacht werden. Zum Inhalt einige kurze Bemerkungen: Die Sachverständigen haben zu den Reformvorschlägen Stellung genommen, sie in verfassungsrechtlicher und rechtssystematischer Hinsicht beurteilt sowie ihre Leistungsfähigkeit für die ihnen zugedachte städtebauliche Funktion untersucht. Dabei kamen sie zu dem Ergebnis, daß die städtebauliche Ordnung und Entwicklung der Bodennutzung in städtebaulichen Problemgebieten — im wesentlichen Kerngebiete der städtischen Verdichtungsräume mit hoher Nutzungskonkurrenz oder raschem Nutzungswandel sowie Flächen mit unausgewogener Nutzungsstruktur, in denen Defizite in der Steuerungsmöglichkeit der Bodennutzung bestehen — durch öffentlich-rechtliche Gestaltungen und durch Fortentwicklung des Instituts des Erbbaurechts zu einem städtebaulichen Erbbaurecht in Form einer privatrechtlichen Lösung gefördert werden können. Hinsichtlich der möglichen Ausgestaltung, insbesondere der öffentlich-rechtlichen Lösung und der verfassungsrechtlichen Bewertung, werden unterschiedliche Meinungen vertreten. Insgesamt stellt die gutachtliche Stellungnahme der Sachverständigen einen wertvollen Beitrag zu Grundfragen der Diskussion über neue bzw. modifizierte Rechtsformen der Bodennutzung dar. Ich darf hier vorschlagen, daß wir diese Fragen nach Veröffentlichung des Gutachtens auch im zuständigen Fachausschuß des Bundestages intensiv erörtern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg24">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn (Münster) (CDU/CSU) :</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1977-10-19-08-049.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg25">Herr Staatssekretär, da Sie das Gutachten offensichtlich kennen, habe ich auch hier in diesem Hohen Hause zwei Fragen: Die erste:</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg26">Herr Kollege, zunächst eine Frage!</seg>
+        </u>
+        <note type="speaker">Dr. Jahn (Münster) (CDU/CSU) :</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1977-10-19-08-049.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg27">Ist Nutzungseigentum im Sinne des Gutachtens, das Ihnen bekannt ist, Nutzung eigenen oder Nutzung fremden Eigentums im Sinne unserer geltenden Rechtsordnung?</seg>
+        </u>
+        <note type="speaker">Dr. Haack, Parl. Staatssekretär:</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1977-10-19-08-049.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg28">Ich darf dazu, Herr Kollege Jahn, folgendes sagen: Zunächst ist es selbstverständlich, daß mir das Gutachten bekannt ist. Wenn unser Ministerium ein Gutachten in Auftrag gibt und dieses dann bei uns abgeliefert wird, muß es uns selbstverständlich bekannt sein. Zur Sache selbst: Natürlich ist gerade die Frage des Nutzungseigentums, die etwa auch im Rahmen von Vorstellungen innerhalb der SPD erörtert worden ist, in diesem Gutachten geprüft. Es ist dort festgestellt worden, daß solche neuen Möglichkeiten auch aus verfassungsrechtlichen Gründen unter Umständen denkbar wären. Die Gutachter kommen aber im wesentlichen zu dem Ergebnis, daß durch ein erweitertes Erbbaurecht in der Form einer privatrechtlichen Lösung oder durch eine öffentlich-rechtliche Lösung die Probleme durchaus gelöst werden können, so daß von diesem Ihnen ja bekannten Modell Nutzungseigentum nicht weiter ausgegangen werden muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg29">Sie haben noch eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn (Münster) (CDU/CSU) :</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1977-10-19-08-049.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg30">Herr Staatssekretär, da Sie der Fragestellung ausgewichen sind, bitte</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u10" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg31">Herr Kollege, keine Bewertungen, sondern Zusatzfragen, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Jahn (Münster) (CDU/CSU) :</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1977-10-19-08-049.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg32">Die zweite Zusatzfrage: Herr Staatssekretär, können Sie mir den Unterschied zwischen dem in diesem Gutachaten angesprochenen Modell Verfügungs-/Nutzungseigentum einerseits und dem neuerdings in der Diskussion befindlichen städtebaulichen Erbbaurecht andererseits darlegen?</seg>
+        </u>
+        <note type="speaker">Dr. Haack, Parl. Staatssekretär:</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1977-10-19-08-049.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg33">Das kann ich im einzelnen wegen der Kürze der Zeit nicht tun; ich erhalte aber mein Angebot aufrecht, daß wir das Gutachten zunächst veröffentlichen und es Ihnen zugänglich machen. Das Gutachten ist — das ist bei Gutachten meistens der Fall — sehr umfangreich. Anschließend können wir in eine Detailberatung eintreten. Sie meinten, ich sei Ihrer Frage ausgewichen. Hinsichtlich Ihrer Frage, ob es sich um privates oder um öffentliches Eigentum handelt, gehen die Gutachter beim städtebaulichen Erbbaurecht davon aus, daß Flächen, die zunächst im Privateigentum stehen, in öffentliches Eigentum überführt werden müssen. Erst dann stellt sich die Frage der Vergabe eines Nutzungsrechtes. Diese Fragen sind aber so diffizil, daß sie, da das Gutachten noch nicht vorliegt, hier nicht erörtert werden können. Mit der Veröffentlichung ist bald zu rechnen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg34">ich rufe die Frage 7 des Herrn Abgeordneten Dr. Jahn (Münster)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg35">auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg36">Welche Folgerungen zieht die Bundesregierung aus der Kritik des Bundeskanzlers (vgl. .Die Welt' am 4. Oktober 1977)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg37">an einer zu komplizierten Gesetzgebung, durch die z. B. Investitionen im privaten Wohnungsbau ungebührlich verzögert würden?</seg>
+        </u>
+        <note type="speaker">Dr. Haack, Parl. Staatssekretär:</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1977-10-19-08-049.u14" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg38">Herr Kollege Jahn, wie Sie wissen, hat die Bundesregierung zu diesem Thema erst vor kurzem in ihrer Antwort auf eine Kleine Anfrage von Koalitionsabgeordneten Stellung genommen. Dabei hat die Bundesregierung auf die insoweit allein den Ländern obliegende Gesetzgebungs- und Durchführungskompetenz, auf die seitherigen Bemühungen der Bundesregierung sowie die auf fachlicher Ebene laufenden gemeinsamen Untersuchungen von Bund und Ländern in einer entsprechenden Arbeitsgruppe der ARGEBAU hingewiesen. Zusätzlich wurde angekündigt, daß die Bundesregierung, unbeschadet der bestehenden Verteilung der Gesetzgebungsbefugnis, zur Unterstützung der bisherigen Arbeiten eine Arbeitsgruppe einberufen wird, an der die Länder, die kommunalen Spitzenverbände, die Bauwirtschaft, die Industriegewerkschaft Bau, die Architektenverbände und selbstverständlich auch die drei Fraktionen des Bundestages beteiligt werden sollen. Ihnen ist als Obmann der CDU/CSU-Fraktion vor wenigen Tagen eine Einladung zu einer ersten Sitzung dieser Arbeitsgruppe zugegangen. Diese Arbeitsgruppe soll sich umfassend mit der Kritik an den baubehördlichen Verfahren einschließlich der Verfahren bei der Bewilligung öffentlicher Mittel für öffentliche und private Bauvorhaben beschäftigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u15" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg39">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn (Münster) (CDU/CSU) :</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1977-10-19-08-049.u16" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg40">Herr Staatssekretär, ist Ihnen entgangen, daß der Bundeskanzler nicht den Gesetzesvollzug, sondern die Gesetzgebung selbst kritisiert hat, und welche Folgerungen wird die Bundesregierung hieraus ziehen?</seg>
+        </u>
+        <note type="speaker">Dr. Haack, Parl. Staatssekretär:</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1977-10-19-08-049.u17" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg41">Das ist mir überhaupt nicht entgangen. Ganz im Gegenteil: Diese Arbeitsgruppe wird den Auftrag haben, auch nachzuprüfen, ob es Bundes- und Landesgesetze auch neueren Datums gibt, die gerade die Investitionen im Baubereich erschweren. Die ganze Palette dieser Fragen, um die es hier geht, soll in dieser Arbeitsgruppe untersucht werden. Das betrifft sowohl bestehende Gesetze, die Durchführung von Gesetzen und auch die Frage, wie der Abfluß öffentlicher Mittel erfolgt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u18" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg42">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn (Münster) (CDU/CSU) :</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1977-10-19-08-049.u19" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg43">Wann sollen nach Auffassung der Bundesregierung die ersten Ergebnisse vorliegen?</seg>
+        </u>
+        <note type="speaker">Dr. Haack, Parl.. Staatssekretär:</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1977-10-19-08-049.u20" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg44">Das wird ganz entscheidend von denjenigen abhängig sein, die an dieser Arbeitsgruppe mitwirken. Wie Sie wissen, haben wir bei der ersten Einladung zu der Arbeitsgruppe darum gebeten, daß uns die Beteiligten erste Arbeitsergebnisse, die sie bereits erarbeitet haben, zusenden, damit wir schon bei der ersten Sitzung zügig arbeiten können. Daneben gibt es, wie Sie wissen, diese Arbeitsgruppe innerhalb .der sogenannten ARGEBAU, also bei den Länderbauministern, die bis zum Februar nächsten Jahres, wie sie angekündigt hat, ein Arbeitsergebnis vorlegen will. Wir wollen beide Arbeitsgruppen entsprechend koordinieren, um nach Möglichkeit zu Beginn des Jahres 1978 ein vernünftiges, brauchbares und praktikables Ergebnis vorlegen zu können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg45">Eine Zusatzfrage des Herrn Abgeordneten Möller.</seg>
+        </u>
+        <note type="speaker">Dr. Möller (CDU/CSU) :</note>
+        <u who="#Q1448342" xml:id="ParlaMint-DE_1977-10-19-08-049.u22" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg46">Herr Staatssekretär, teilt die Bundesregierung die Kritik des Herrn Bundeskanzlers, daß im privaten Wohnungsbau Investitionen ungebührlich verzögert worden sind?</seg>
+        </u>
+        <note type="speaker">Dr. Haack, Parl. Staatssekretär:</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1977-10-19-08-049.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg47">Es ist selbstverständlich, daß die Bundesregierung eine Kritik des Bundeskanzlers teilt.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg48">Die Frage des Herrn Abgeordneten Dr. Schneider wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. . Ich rufe die Frage-9 des Herrn Abgeordneten Sick auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg49">Ist der Bau und Verkauf von Luxus-Eigentumsappartements in größerem Umfang durch gemeinnützige Wohnungsbaugesellschaften zulässig, und, wenn ja, soll diese Rechtslage nach der bei der Bundesregierung stattfindenden Überprüfung des Wohnungsgemeinnützigkeitsrechts bestehen bleiben?</seg>
+        </u>
+        <note type="speaker">Dr. Haack, Parl. Staatssekretär:</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1977-10-19-08-049.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg50">Herr Kollege Sick, gemeinnützige Wohnungsunternehmen dürfen keine Luxuswohnungen und auch keine Wohnungen errichten, die nach ihrer Art und Ausstattung als Luxuswohnungen anzusehen sind. Das ist bereits in § 11 Abs. 4 der Durchführungsverordnung zum Wohnungsgemeinnützigkeitsgesetz geregelt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg51">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Sick (CDU/CSU) :</note>
+        <u who="#Q2576900" xml:id="ParlaMint-DE_1977-10-19-08-049.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg52">Herr Staatssekretär, wäre die Bundesregierung bereit, das an Hand einer Tatsache, die ich beispielsweise für das Nordseebad Westerland behaupte, nachzuprüfen und das Gegebene zu tun, wenn sich herausstellt, daß dies doch geschieht?</seg>
+        </u>
+        <note type="speaker">Dr. Haack, Parl. Staatssekretär:</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1977-10-19-08-049.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg53">Wir sind selbstverständlich gern bereit, das nachzuprüfen. Ich bitte, mir entsprechende Unterlagen zuzuleiten, wenn Sie solche konkreten Tatsachen darlegen können, die dem widersprechen, was ich soeben an Hand der Gesetzeslage ausgeführt habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg54">Ich rufe Frage 10, die nächste Frage des Abgeordneten Sick, auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg55">Welche Vergünstigungen, insbesondere steuerlicher Art, stehen den gemeinnützigen Wohnungsbaugesellschaften im Vergleich zu den freien Wohnungsbaugesellschaften im einzelnen zur Verfügung, und ist die Bundesregierung bereit, das Wohnungsgemeinnützigkeitsrecht dahin gehend zu ändern, daß die sich aus diesen Vergünstigungen ergebenden Wettbewerbsverzerrungen auf die wirklich gemeinnützige Geschäftstätigkeit beschränkt bleiben? Herr Staatssekretär, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Haack, Parl. Staatssekretär:</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1977-10-19-08-049.u30" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg56">Gemeinnützige Wohnungsunternehmen sind unter anderem von der Körperschaftsteuer, der Gewerbesteuer und der Vermögensteuer befreit. Die Bundesregierung ist der Auffassung, daß diese Steuerbefreiung nicht zu einer Wettbewerbsverzerrung führt, weil ihr auf der anderen Seite entsprechende Bindungen gegenüberstehen. Dessenungeachtet prüft die Bundesregierung, ob eine Anpassung des Wohnungsgemeinnützigkeitsrechtes an die gewandelten wirtschaftlichen Verhältnisse erforderlich wird. Dies habe ich erst vor einigen Wochen auch auf eine entsprechende Anfrage von Herrn Kollegen Dr. Schneider in der Fragestunde gesagt. Im übrigen gibt es auch entsprechende Initiativen auf Länderseite.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u31" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg57">Sie haben eine Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Sick (CDU/CSU) :</note>
+        <u who="#Q2576900" xml:id="ParlaMint-DE_1977-10-19-08-049.u32" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg58">Deswegen die Frage, Herr Staatssekretär: Wann kann mit einer entsprechenden Änderungsvorlage gerechnet werden?</seg>
+        </u>
+        <note type="speaker">Dr. Haack, Parl. Staatssekretär:</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1977-10-19-08-049.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg59">Ich kann hier keinen genauen Zeitpunkt nennen, allein deshalb nicht, weil noch nicht einmal klar ist, daß es entscheidende Änderungen des Wohnungsgemeinnützigkeitsrechts geben muß. Wir müssen hier sehr behutsam vorgehen, auch auf Grund der nicht ganz einfachen Situation auf dem Wohnungsmarkt. Wir wissen alle, daß wir gerade im Bereich des sozialen Wohnungsbaus auf die Tätigkeit der gemeinnützigen Wohnungsunternehmen sehr angewiesen sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u34" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg60">Herr Kollege Dr. Jahn zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn (Münster) (CDU/CSU) :</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1977-10-19-08-049.u35" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg61">Herr Staatssekretär, sieht die Bundesregierung denn die Dringlichkeit der Überprüfung, was am Engagement von „gemeinnützigen Baugesellschaften" eben nicht mehr gemeinnützig ist?</seg>
+        </u>
+        <note type="speaker">Dr. Haack, Parl. Staatssekretär:</note>
+        <u who="#Q85786" xml:id="ParlaMint-DE_1977-10-19-08-049.u36" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg62">Ich bestreite nicht, daß das eine oder andere tatsächlich zu überprüfen ist. Aber ich sehe die Frage nicht als so dringlich an. Wir sind unter keinem Zeitdruck. Wir warten auf entsprechende Initiativen der Bundesländer, die das sozusagen an Ort und Stelle besser beurteilen könnten, wenn es wirklich so schlimme Probleme geben sollte. Es gibt etwa aus der Sicht des Landes Bayern entsprechende Vorschläge, denen wir allerdings ziemlich kritisch gegenüberstehen. Ich möchte noch einmal zusammenfassen: es ist nicht auszuschließen, daß das eine oder andere geändert werden muß; wir sehen aber keine Dringlichkeit.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u37" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg63">Die Frage des Herrn Abgeordneten Dr. van Aerssen — Frage 11 — wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Herr Staatssekretär, ich danke Ihnen. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Raumordnung, Bauwesen und Städtebau beantwortet. Ich rufe den Geschäftsbereich des Bundesministers für Forschung und Technologie auf. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Dr. Hauff zur Verfügung. Die erste Frage — Frage 12 — ist vom Herrn Abgeordneten Ueberhorst eingereicht worden:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg64">Wird die Bundesregierung die im Nachrichtenmagazin „Der Spiegel" Nr. 40/1977 dem amerikanischen. Energieminister Schlesinger unterstellte Aussage daß Großbritannien und Westdeutschland bald ihre Brüter-Programme aufgeben werden" aufgreifen und dazu Stellung nehmen? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1977-10-19-08-049.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg65">Herr Kollege Ueberhorst, der Bundesregierung ist eine Äußerung des amerikanischen Energieministers Dr. Schlesinger, daß die Bundesrepublik und Großbritannien bald ihre Brüter-Programme aufgeben werden, nicht bekannt. Der Bundesminister für Forschung und Technologie hat erst kürzlich in einem ausführlichen Bericht an den Ausschuß für Forschung und Technologie und den Haushaltsausschuß des Deutschen Bundestages dargelegt, warum sie für die weitere Entwicklung des Schnellbrutreaktors eintritt. Im übrigen hält auch die amerikanische Regierung an einem großen Teil des bisherigen amerikanischen Schnellbrutreaktorprogramms fest. Die amerikanische Regierung hat deshalb betont, daß sie großen Wert auf eine Fortsetzung der deutsch-amerikanischen Zusammenarbeit auf dem Schnellbrütergebiet legt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u39" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg66">Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Ueberhorst (SPD) :</note>
+        <u who="#Q2141058" xml:id="ParlaMint-DE_1977-10-19-08-049.u40" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg67">Vielen Dank für diese Antwort, Herr Staatssekretär. Darf ich nur der Sicherheit halber noch einmal dezidiert nachfragen, ob die Bundesregierung im Gespräch mit Herrn Schlesinger auch festgestellt hat, daß dieses Zitat des „Spiegels" als Falschzitat bezeichnet werden kann?</seg>
+        </u>
+        <note type="speaker">Dr. Hauff, Parl. Staatssekretär:</note>
+        <u who="#Q96981" xml:id="ParlaMint-DE_1977-10-19-08-049.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg68">Herr Kollege Ueberhorst, ich kann dies insofern doppelt bestätigen, als es sowohl auf der Arbeitsebene durch Kontakte in der Form, wie Sie es hier zitieren, festgestellt wurde, als auch im direkten Gespräch zwischen Bundesminister Matthöfer und dem amerikanischen Energieminister Dr. Schlesinger.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u42" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg69">Keine weitere Zusatzfrage.</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg70">Ich rufe die Frage 13 auf. Sie ist von Herrn Abgeordneten Dr. Vohrer gestellt. — Ich sehe den Kollegen nicht im Saal. Die Frage wird daher schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Gleiches gilt für Frage 14. Der Herr Abgeordnete Dr. Riesenhuber hat um schriftliche Beantwortung der von ihm eingereichten Fragen 20 und 21 gebeten. Dem wird entsprochen. Die Antworten werden als Anlagen abgedruckt. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Forschung und Technologie behandelt worden. Ich rufe den Geschäftsbereich des Bundesministers des Innern auf. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Baum zur Verfügung. Die erste Frage — Frage 15 — ist von dem Herrn Abgeordneten Pfeifer eingebracht worden:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg71">Wird die Bundesregierung an ihrer bisherigen Ansicht festhalten, daß die Voraussetzungen für die Errichtungsgenehmigung neuer Kernkraftwerke darin bestehen, daß für das deutsche Entsorgungszentrum (DEZ)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg72">eine Standortvorauswahl getroffen ist, das Genehmigungsverfahren eingeleitet ist und seitens der Reaktorsicherheitskommission und Strahlenschutzkommission ein positives Gutachten hinsichtlich der sicherheitstechnischen Realisierbarkeit vorliegt? Bitte.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u43" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg73">Herr Kollege Pfeifer, ich möchte Ihre Frage mit Ja beantworten. Die Bundesregierung hält in Beachtung der von Bund und Ländern beschlossenen Grundsätze zur Entsorgungsvorsorge daran fest, daß die genannten Bedingungen als Voraussetzungen für ihre Zustimmung zu ersten Teilerrichtungsgenehmigungen neuer Kernkraftwerke erfüllt sein müssen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u44" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg74">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Pfeifer (CDU/CSU) :</note>
+        <u who="#Q592668" xml:id="ParlaMint-DE_1977-10-19-08-049.u45" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg75">Herr Staatssekretär, bedeutet das, was Sie eben ausgeführt haben, daß die Bundesregierung bei der Fortschreibung des Energieprogramms an der Position festhalten wird, die in bezug auf die Genehmigung der Neuerrichtung von Kernkraftwerken mit den sogenannten Eckwerten zur Fortschreibung des Energieprogramms vom März dieses Jahres beschlossen worden ist?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg76">Herr Kollege, ich habe mich hier nicht zur Fortschreibung des Energieprogramms geäußert — das ist auch nicht meine Aufgabe —, sondern ich habe mich präzise zu Ihrer Frage geäußert, ob die Bundesregierung an den Entsorgungsrichtlinien festhält, ein Element — das gebe ich zu — der Fortschreibung des Energieprogramms. Darauf habe ich eindeutig mit Ja geantwortet. Fragen, die sich dezidiert auf die Fortschreibung des Energieprogramms erstrecken, kann ich hier nicht beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg77">Sie haben noch eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Pfeifer (CDU/CSU) :</note>
+        <u who="#Q592668" xml:id="ParlaMint-DE_1977-10-19-08-049.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg78">Wann rechnet die Bundesregierung damit, daß neue Errichtungsgenehmigungen für Kernkraftwerke erteilt werden können?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg79">Das hängt davon ab, wann Anträge eingehen, Herr Kollege. Ich rechne damit, daß Anträge im Laufe des nächsten Jahres eingehen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u50" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg80">Ich rufe die Frage 18 des Herrn Abgeordneten Lenzer auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg81">Welches Konzept hat die Bundesregierung für die Entsorgung der deutschen Kernkraftwerke, und wie ist zur Zeit der Stand der Entwicklung bei der Realisierung dieses Konzepts? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg82">Herr Kollege Lenzer, die Bundesregierung hat zur Entsorgung von Leichtwasserreaktoren und Schließung des nuklearen Brennstoffkreislaufs ein Konzept entwickelt, bei dem Brennelementlagerung, Wiederaufarbeitung, Spaltstoffrückführung, Abfallbehandlung und Abfalllagerung an einem Standort zusammengefaßt werden. Dieses Konzept soll mit der Errichtung eines Entsorgungszentrums verwirklicht werden. Sie hat diese Konzeption in der Vergangenheit wiederholt dargelegt und erläutert. Ich darf Sie hierzu auf die Antworten auf die Großen Anfragen — Drucksachen 7/3871 und 8/570 — verweisen. An der Realisierung des Konzepts sind die Privatwirtschaft und der Bund beteiligt. Die Deutsche Gesellschaft für Wiederaufarbeitung von Kernbrennstoffen mbH (DWK)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg83">hat am 31. März 1977 den Antrag auf Errichtung des Entsorgungszentrums — ohne Endlager — beim niedersächsischen Sozialminister gestellt und gleichzeitig den Sicherheitsbericht vorgelegt. Die Genehmigungsbehörde prüft zur Zeit den vorgelegten Antrag. Eine erste Teilgenehmigung ist vor Ablauf von zwei bis drei Jahren nicht zu erwarten. Im Auftrag des Bundes hat die Physikalisch-Technische Bundesanstalt (PTB)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg84">Braunschweig am 28. Juli dieses Jahres den Antrag auf Einleitung eines Planfeststellungsverfahrens für das Endlager der radioaktiven Abfälle beim niedersächsischen Sozialminister gestellt. Die am Standort noch erforderlichen Probebohrungen werden vorbereitet. Die PTB wird den Antrag hierzu unverzüglich stellen. Die Bundesregierung erwartet am 20. Oktober 1977, also morgen, das von Reaktorsicherheitskommission und Strahlenschutzkommission erarbeitete Urteil über die grundsätzliche sicherheitstechnische Realisierbarkeit des Entsorgungszentrums.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg85">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lenzer (CDU/CSU) :</note>
+        <u who="#Q1080811" xml:id="ParlaMint-DE_1977-10-19-08-049.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg86">Herr Staatssekretär, können Sie in diesem Zusammenhang ein Urteil über die Rolle abgeben, die das Endlager in der Gesamtkonzeption für die Bundesregierung hier spielt?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg87">Herr Kollege, ich habe schon auf die sehr ausführliche Beantwortung der Großen Anfragen zu diesem Thema verwiesen. Ich möchte mich im Rahmen dieser Fragestunde darauf beschränken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg88">Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lenzer (CDU/CSU) :</note>
+        <u who="#Q1080811" xml:id="ParlaMint-DE_1977-10-19-08-049.u56" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg89">Herr Staatssekretär, darf ich fragen, ob mit dem Vorliegen des Sicherheitsberichts und der Überprüfung eine der wichtigen Vorbedingungen erfüllt ist, die auch in den sogenannten Grundlinien und Eckwerten vom 23. März formuliert worden sind?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg90">Eine der Voraussetzungen ist damit sicher erfüllt. Ich habe schon darauf hingewiesen, daß das Urteil oder die Stellungnahme der beiden Kommissionen morgen erwartet wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u58" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg91">Zusatzfrage des Abgeordneten Pfeifer.</seg>
+        </u>
+        <note type="speaker">Pfeifer (CDU/CSU) :</note>
+        <u who="#Q592668" xml:id="ParlaMint-DE_1977-10-19-08-049.u59" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg92">Herr Staatssekretär, kann man davon ausgehen, daß mit der Vorlage des Berichts der Reaktorsicherheitskommission morgen die drei Kriterien erfüllt sind, welche die Bundesregierung in ihren Eckwerten zum Energieprogramm für die Errichtung neuer Kernkraftwerke genannt hat, soweit dies die sogenannte Koppelung mit der Entsorgungsfrage betrifft?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg93">Herr Kollege, falls das Gutachten positiv ist, sind in der Tat alle drei Voraussetzungen erfüllt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u61" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg94">Eine Zusatzfrage des Herrn Abgeordneten Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD) :</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1977-10-19-08-049.u62" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg95">Herr Staatssekretär, Fachleute führen zu dem Punkt Entsorgungszentrum aus, daß es notwendig gewesen wäre, auch das Zwischenlagerbecken am selben Ort zu erstellen. Glauben Sie, daß es eine Möglichkeit gibt, dies insgesamt noch zu realisieren, d. h. auch die Zwischenlagerbecken, die gebaut werden müssen, am selben Standort wie die Entsorgungsanlage zu bauen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg96">Herr Kollege, die Meinungen der Fachleute sind darüber geteilt. Im übrigen sehe ich keine Möglichkeit, ein Zwischenlager an dem endgültigen Standort zu errichten. Ich werde gleich bei einer anderen Frage Gelegenheit haben, auf diese Problematik einzugehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u64" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg97">Zu einer letzten Zusatzfrage, der Herr Abgeordnete Ueberhorst.</seg>
+        </u>
+        <note type="speaker">Ueberhorst (SPD) :</note>
+        <u who="#Q2141058" xml:id="ParlaMint-DE_1977-10-19-08-049.u65" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg98">Ich möchte im Anschluß an die drei von Ihnen als erfüllbar genannten Voraussetzungen fragen, Herr Staatssekretär, ob die in den Eckwerten vom März dieses Jahres bei der Beantwortung der Großen Anfragen genannte vierte Bedingung für die Bundesregierung noch Aktualität besitzt, nämlich die Ankündigung, mit den Ländern und der Wirtschaft zu erörtern, mit welcher inhaltlichen Beschränkung neue erste Teilerrichtungsgenehmigungen für Kernkraftwerke versehen werden könnten, um Betriebsgenehmigungen für diese neuen Kernkraftwerke mit der Erteilung der ersten Teilerrichtungsgenehmigung für das Entsorgungszentrum zu verknüpfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg99">Herr Kollege, wenn Sie das noch in den Rahmen des Konzepts einpassen können, lasse ich die Frage zu. Ich würde sie mehr der nächsten Frage zurechnen.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg100">Herr Präsident, das ist die Beantwortung der nächsten Frage des Kollegen Lenzer. Wenn der Kollege einverstanden ist, würde ich diese Frage jetzt beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg101">Ich rufe die Frage 19 des Abgeordneten Lenzer auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg102">Wie beurteilt die Bundesregierung die Auflagen für die Betriebsgenehmigung der neu zu errichtenden Kernkraftwerke, und hat sie ihre Auffassung in Verhandlungen mit den Ländern durchsetzen können, daß für die Erteilung der Betriebsgenehmigungen die erste Teilerrichtungsgenehmigung für das deutsche Entsorgungszentrum zur Voraussetzung gemacht wird? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u69" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg103">Die Bundesregierung beabsichtigt, mit den Ländern zu erörtern, mit welcher inhaltlichen Beschränkung neue erste Teilerrichtungsgenehmigungen für Kernkraftwerke versehen werden, um Betriebsgenehmigungen für diese neuen Kernkraftwerke mit der Erteilung der ersten Teilerrichtungsgenehmigung für das Entsorgungszentrum zu verknüpfen. Dies hatte sie in ihrer Antwort vom ß. Juni 1977 auf die Große Anfrage der Fraktionen der SPD und der FDP bereits angekündigt. Diese Erörterungen haben noch nicht begonnen, werden jedoch nach Vorliegen des RSK-SSKUrteils zur grundsätzlichen sicherheitstechnischen Realisierbarkeit des Entsorgungszentrums als weiterer Folgeschritt in der Verwirklichung der Entsorgungspolitik der Bundesregierung sogleich eingeleitet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg104">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lenzer (CDU/CSU) :</note>
+        <u who="#Q1080811" xml:id="ParlaMint-DE_1977-10-19-08-049.u71" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg105">Herr Staatssekretär, wann ist es nach Ihrer Auffassung für die entsprechenden Behörden möglich, weitere Teilerrichtungsgenehmigungen für Kernkraftwerke auf diesem Hintergrund zu erteilen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u72" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg106">Herr Kollege, das hängt natürlich von einer Vielzahl von Voraussetzungen ab, die erfüllt sein müssen, bis eine Teilerrichtungsgenehmigung für ein konkretes Projekt erteilt werden kann. Ich könnte Ihre Frage nur an Hand jeweiliger Anträge beantworten. Ich kann sie abstrakt beim besten Willen nicht beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u73" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg107">Sie haben noch eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lenzer (CDU/CSU) :</note>
+        <u who="#Q1080811" xml:id="ParlaMint-DE_1977-10-19-08-049.u74" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg108">Vielen Dank, Herr Präsident. — Herr Staatssekretär, ist die Bundesregierung bereit, die Länder bei der sofortigen Vollziehbarkeit in Verfolgung des atomrechtlichen Genehmigungsverfahrens zu unterstützen, wenn dies notwendig sein sollte?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg109">Herr Kollege, auch das hängt vom Einzelfall ab.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg110">Keine weitere Zusatzfrage.</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg111">Ich rufe die Frage 24 des Herrn Abgeordneten Benz auf. — Ich sehe den Kollegen nicht im Saal; dann werden diese und die ebenfalls von ihm eingereichte Frage 25 schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Der Herr Abgeordnete Berger ist jedoch im Saal. Ich rufe seine Frage 26 auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg112">Ist der Bundesregierung bekannt, daß Empfänger beamtenrechtlicher Versorgungsbezüge für eine beihilfenkonforme (restkostendeckende)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg113">Krankenversicherung ungeachtet langer Vorversicherungszeiten wesentlich höhere Beiträge zahlen müssen als jüngere aktive Beamte im gleichen Tarif, und wie groß sind diese Unterschiede zum Beispiel im Durchschnitt zwischen einem 40jährigen aktiven Beamten und einem 75jährigen Ruhestandsbeamten, und worauf ist die zusätzliche Belastung der Versorgungsempfänger zurückzuführen? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg114">Wenn der Kollege einverstanden ist, würde ich gerne beide Fragen zusammen beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u78" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg115">Der Herr Abgeordneter Berger ist einverstanden. Ich rufe auch noch seine Frage 27 auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg116">Welche Maßnahmen sind beabsichtigt, um dieser im geltenden Beihilferecht nicht berücksichtigten zusätzlichen Belastung der Versorgungsempfänger, deren Einkommen stark reduziert ist, mit Beiträgen für eine restkostendeckende Krankenversicherung im Rahmen der bei aktiven Beamten üblichen prozentualen Belastung zu halten?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u79" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg117">Das System der Fürsorge des Dienstherrn für die Krankheitsvorsorge geht davon aus, daß mit den Bezügen ein Durchschnittssatz zur Verfügung gestellt wird, der für alle Beamten bzw. für alle Versorgungsempfänger mit gleichem Familienstand einheitlich ist. Dieser Grundsatz entspricht ständiger Rechtsprechung des Bundesverwaltungsgerichts. Der Durchschnittssatz kann betragsmäßig wegen der ständigen Veränderung der Einkommen und der Kosten der Krankheitsvorsorge nicht bestimmt werden. Er reicht aus, insbesondere unter Einschluß des 10 °/oigen Zuschlages für Versorgungsempfänger, eine beihilfekonforme restkostendeckende Krankenversicherung abzuschließen. Das sind versicherungsmathematische Vorgänge, die sich je nach der Geschäftspolitik und nach dem grundsätzlich durch Altersrückstellungen aus den Beiträgen aller Versicherten aufgefangen. Allerdings können Beitragserhöhungen der Krankenversicherungen, die diese auf Grund der steigenden Kosten im Gesundheitswesen für alle Versicherten durchführen müssen, das Verhältnis zwischen Altersrückstellungen und allgemeiner Beitragssteigerung zuungunsten der Altersrückstellungen mit der Folge verschoben haben oder künftig verschieben, daß die beitragsmäßigen Belastungen bei älteren Beihilfeberechtigten höher sind als bei jüngeren. Das sind versicherungsthematische Vorgänge, die sich je nach der Geschäftspolitik und nach dem Versichertenbestand der einzelnen Versicherungsunternehmen unterschiedlich auswirken. Zur Ermittlung des betragsmäßigen Unterschiedes reicht es daher nicht aus, nur von den Verhältnissen einer einzelnen Versicherung auszugehen. Bei der Vielzahl der Krankenversicherungen und der unterschiedlichen persönlichen Verhältnisse der Beihilfeberechtigten kann eine allen Fallgestaltungen im einzelnen gerecht werdende Aussage, Herr Kollege, nicht getroffen werden. Auf Grund eines Beschlusses des Bundeskabinetts befaßt sich eine Arbeitsgruppe des Innenministerium zur Zeit mit der Frage der Einebnung vermuteter Disparitäten in den Versorgungssystemen des öffentlichen Dienstes. In diesem Zusammenhang wird auch die Frage untersucht, ob Disparitäten in der Belastung durch die Krankheitsvorsorge bestehen. Das Ergebnis der Untersuchungen, das der Abstimmung mit den hauptbeteiligten Bundesressorts noch bedarf, liegt noch nicht vor. Ich rechne damit für die ersten Monate des nächsten Jahres. Die die Krankheitsvorsorge betreffenden Untersuchungen werden weitergeführt, obwohl das Bundesverfassungsgericht in seinem Beschluß vom 12. August dieses Jahres eine einschlägige Verfassungsbeschwerde nicht zur Entscheidung angenommen hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u80" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg118">Herr Kollege Berger.</seg>
+        </u>
+        <note type="speaker">Berger (CDU/CSU) :</note>
+        <u who="#Q1303710" xml:id="ParlaMint-DE_1977-10-19-08-049.u81" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg119">Wird bei dieser Untersuchung auch eine Angleichung an den sozialen Fortschritt außerhalb des Beamtenrechts mit in Erwägung gezogen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u82" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg120">Herr Kollege, das wird sicher in die Betrachtungen einbezogen werden. Aber ich kann dem Ergebnis dieser Überlegungen heute nicht vorgreifen, wie Sie verstehen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u83" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg121">Ich rufe die Frage 28 des Herrn Abgeordneten Gansel auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg122">Wieweit haben sich nach Erkenntnissen der Bundesregierung terroristische Vereinigungen in den letzten Jahren durch Banküberfälle finanziert, und von welcher Seite sind welche verfassungsrechtlichen Bedenken gegen eine Gesetzesinitiative der Bundesregierung zur besseren Bankensicherung vorgebracht worden?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg123">Herr Kollege Gansel, nach den Erkenntnissen der Sicherheitsbehörden sind in der Zeit vom 1. Januar 1971 bis 17. Oktober 1977 bei mit Sicherheit oder aber mit hoher Wahrscheinlichkeit von terroristischen Gewalttätern verübten insgesamt 40 Überfällen auf Banken und Sparkassen insgesamt 5 371 680 DM erbeutet worden. Bei weiteren 21 Überfällen in diesem Zeitraum mit einer Beute von insgesamt 1 602 436 DM kann eine Tatbegehung durch terroristische Gewalttäter nicht ausgeschlossen werden. Hinzu kommen 4 648 618 DM, die nicht bei Banküberfällen, sondern bei Überfällen auf Geldtransporte und Geldboten erbeutet wurden und bei denen eine Tatbegehung durch terroristische Gewalttäter nicht ausgeschlossen werden kann. Vom 1. Januar 1971 bis 17. Oktober 1977 ist daher eine Gesamtbeute von 11 622 734 DM bei Raubüberfällen auf Geldinstitute, Geldtransporte und Geldboten erzielt worden, bei denen eine Tatbegehung durch terroristische Gewalttäter zumindest nicht ausgeschlossen werden kann. Verfassungsrechtliche Bedenken grundsätzlicher Art gegen eine Gesetzesinitiative der Bundesregierung sind, soweit mir bekannt, bisher nicht erhoben worden. Allerdings ist bei diesem Fragenkomplex zu berücksichtigen, daß dem Bund eine Gesetzgebungskompetenz dann nicht zusteht, wenn die Aufrechterhaltung der öffentlichen Sicherheit und Ordnung der alleinige und unmittelbare Gesetzeszweck ist. Solche Regelungen fallen in die ausschließliche Kompetenz der Länder. Für die derzeit in der öffentlichen Diskussion angesprochenen Schutzvorkehrungen — wie z. B. optische Raumüberwachungsanlagen und Reduzierung des im unmittelbaren Zugriff befindlichen Kassenbestandes — hat die verfassungsrechtliche Prüfung ergeben, daß hierfür eine Gesetzgebungskompetenz des Bundes gegeben ist. Im übrigen besteht -für die Bundesregierung zur Zeit keine Veranlassung für eine derartige Gesetzesinitiative. Die Spitzenverbände des Kreditgewerbes haben verbindlich zugesagt, den weiteren Ausbau der Schalterhallen mit optischen Überwachungsanlagen kurzfristig und energisch voranzutreiben sowie kurzfristig einheitliche Richtlinien zu erlassen, die eine erhebliche Reduzierung des im unmittelbaren Zugriff befindlichen Kassenbestandes sicherstellen. Sollte allerdings, Herr Kollege, das Kreditgewerbe diese Zusage nicht oder nur verzögerlich einhalten, sähe sich die Bundesregierung veranlaßt, eine gesetzgeberische Lösung ohne Verzug zu betreiben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg124">Eine Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1977-10-19-08-049.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg125">Herr Staatssekretär, stimmen Sie mit mir darin überein, daß es ein schwer verständlicher Widerspruch ist, wenn ein Gesetz, das Grundrechte tangiert, in diesem Parlament innerhalb von drei Tagen verabschiedet werden konnte, die Vorschläge der Arbeitsgruppe im Innenministerium zur Bankensicherung — um die Infrastruktur des Terrorismus zu treffen — aber seit 1972 schmoren und auch jetzt nur Lösungen für die Zukunft in Aussicht gestellt werden können?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg126">Herr Kollege, ich bitte, von Bewertungen bei Zusatzfragen abzusehen.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u88" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg127">Herr Kollege, Sie vergleichen etwas, was nicht vergleichbar ist. Im übrigen hat das Bundesinnenministerium niemals, auch in den letzten Jahren nicht, einen Zweifel daran gelassen, daß eine solche Regelung für notwendig gehalten wird. Eine solche Regelung ist nicht zustande gekommen. Sie kommt erst jetzt auf Grund der bekannten Vorfälle zustande, wieanzunehmen ist. Die Zusagen, die uns gemacht worden sind, sind so eindeutig, daß ich zunächst jedenfalls an dieser Antwort festhalte, die ich Ihnen gegeben habe. Ich wiederhole: Sollten sich diese Zusagen nicht unverzüglich realisieren, werden wir nicht zögern, gesetzgeberische Schritte einzuleiten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u89" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg128">Herr Kollege, Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1977-10-19-08-049.u90" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg129">Herr Staatssekretär, bis zu welchem Zeitpunkt sollen diese Sicherungen auf Grund von Eigeninitiative der Bankenwirtschaft realisiert sein, wie werden sie kontrolliert, und ist die Bundesregierung auf eine ersatzweise gesetzliche Initiative vorbereitet?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u91" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg130">Das letztere ist der Fall. Die Bundesregierung ist auf eine solche Initiative vorbereitet. Die zuständigen Verbände haben uns mitgeteilt, daß die Realisierung sogleich beginnen soll. Wir werden das kontrollieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u92" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg131">Herr Kollege Ey.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1977-10-19-08-049.u93" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg132">Herr Staatssekretär, ist die Bundesregierung mit mir der Meinung, daß eine Erhöhung der Bankensicherheit etwa durch Bewaffnung des Bankenpersonals auf keinen Fall in Frage kommen kann?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u94" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg133">Herr Kollege, ich habe hier über zwei Sicherungsmaßnahmen berichtet, die für sinnvoll angesehen worden sind. Ich habe keine Stellung zu der von Ihnen angesprochenen Maßnahme genommen, weil sie nicht als geeignet zur Erhöhung der Sicherheit angesehen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u95" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg134">Bitte, Herr Sieglerschmidt.</seg>
+        </u>
+        <note type="speaker">Sieglerschmidt (SPD) :</note>
+        <u who="#Q1441696" xml:id="ParlaMint-DE_1977-10-19-08-049.u96" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg135">Herr Staatssekretär, ist es richtig, daß die Erfahrungen in den Vereinigten Staaten mit technischen Sicherungen — die Amerikaner sind dabei ja schon erheblich weiter, als es bei uns der Fall ist — mindestens zeigen, daß diese Sicherungen nur von begrenztem Wert sind, und könnte die Bundesregierung bei einem etwaigen Gesetzesvorhaben zusätzliche technische Sicherungen vorschlagen, die über die amerikanischen hinausgehen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u97" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg136">Herr Kollege, das vermag ich jetzt nicht zu sagen. Man wird bei einer Gesetzesvorlage so etwas prüfen können. Der Wert der Maßnahme ist umstritten. Wir sind der Meinung, daß diese Maßnahmen doch erfolgversprechend sind. Deshalb halten wir sie für notwendig.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u98" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg137">Herr Abgeordneter Schäfer, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schäfer (Offenburg) (SPD) :</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1977-10-19-08-049.u99" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg138">Herr Staatssekretär, gab es bis in die letzten Monate hinein von seiten der Banken Vorbehalte, die entsprechenden Sicherungsmaßnahmen durchzuführen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg139">Herr Kollege, ich hatte schon bei einer der vorhergehenden Zusatzfragen Gelegenheit, dazu ganz deutlich Stellung zu nehmen: Ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg140">Der Herr Abgeordnete Dr. Schneider hat um schriftliche Beantwortung der von ihm eingereichten Frage 29 gebeten. Die Antwort wird als Anlage abgedruckt. Die Frage 30 ist von dem Herrn Abgeordneten Spranger eingebracht. Der Herr Abgeordnete ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Die Frage 31 ist von der Abgeordneten Frau Dr. Martiny-Glotz eingebracht worden. Die Frau Abgeordnete ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 32 des Herrn Abgeordneten Meinike (Oberhausen)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg141">auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg142">Hält die Bundesregierung auch heute noch an ihrem bisherigen Standpunkt (siehe u. a. Beantwortung meiner schriftlichen Anfrage vom 5. Juli 1977) fest, daß hinsichtlich der Errichtung von Kohlekraftwerken durch die Bestimmungen des Bundes-Immissionsschutzgesetzes und der TA-Luft keinerlei Rechtsunsicherheit gegeben ist, und wenn nein, wo liegen nach ihrer Auffassung die Gründe und Schwierigkeiten, daß weitere Kohlekraftwerke nicht bzw. angeblich nicht gebaut werden können, und was gedenkt sie dagegen zu unternehmen? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u102" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg143">Herr Kollege Meinike, keinerlei - Rechtsunsicherheit bedeutet absolute Rechtssicherheit. Dies ist aber in unserem Rechtsstaat, in dem wir unseren Bürgern ausreichenden Rechtsschutz gewähren, nicht erreichbar. Bei dem von Ihnen angesprochenen Problem geht es vielmehr darum, die nach den geltenden Vorschriften weitgehend vorhandene Rechtssicherheit zu verstärken. Dies und nichts anderes ist das Ziel der Bemühungen der Bundesregierung. Seitdem erstmalig 1964 in der TA-Luft Immissionswerte für Luftschadstoffe festgelegt wurden, sind diese Werte von der Rechtsprechung den Entscheidungen ausnahmslos zugrunde gelegt worden. Hiervon sind die Gerichte auch in den letzten Entscheidungen nicht abgewichen. Zu dem zweiten Teil Ihrer Frage nach den Gründen der Schwierigkeiten weiterer Investitionen im Kohlekraftwerksbau verweise ich auf die Darlegungen, die die Bundesregierung auf mündliche Anfragen der Kollegen Dr. Hubrig und Dr. Probst am 29. September 1977 gemacht hat. Bei Beantwortung dieser Anfragen hat der Herr Kollege Grüner mitgeteilt, daß die Bundesregierung gegenwärtig prüft — ich zitiere wörtlich —, „ob und inwieweit die Planung und Festlegung von Kraftwerkstandorten und auch die sonstigen energiepolitischen Entscheidungen parlamentarisch abgesichert werden können". Die Bundesregierung prüft auch, durch welche geeigneten Maßnahmen in Verdichtungsgebieten die Sicherheit bei der Planung von Kohlekraftwerken und anderen industriellen Großanlagen weiter verstärkt werden kann. Im übrigen darf ich darauf hinweisen, daß die Bundesregierung im Zusammenhang mit der bereits zitierten Frage des Herrn Abgeordneten Dr. Hubrig auf das blockierte Auftragsvolumen für Kohlekraftwerke aufmerksam gemacht hat. Ich möchte heute hinzufügen, daß diesem blockierten Auftragsvolumen Projekte gegenüberstehen, die auf Grund von Genehmigungen und Vorbescheiden von der Wirtschaft in Angriff genommen werden könnten, aber bisher nicht in Angriff genommen worden sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u103" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg144">Herr Abgeordneter, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Meinike (Oberhausen) (SPD) :</note>
+        <u who="#Q1253679" xml:id="ParlaMint-DE_1977-10-19-08-049.u104" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg145">Herr Staatssekretär, darf ich aus Ihrer Antwort schließen, daß z. B. das Anliegen nach einer Verrechtlichung der TA-Luft keine neuen Grundlagen für die Betreiber von Kohlekraftwerken ergeben wird und daß solche Hinweise — z. B. der EVUs — eigentlich nur vorgeschobene Gründe sind, um andere Anliegen — z. B. das Anliegen, Kernkraftwerke statt Kohlekraftwerke zu bauen — vorzutäuschen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg146">Herr Kollege, es handelt sich hier um ein außerordentlich komplexes Gebiet, auf dem es um eine ganze Reihe von Interessen geht, wie sich auch schon aus der Beantwortung Ihrer Frage ergeben hat. Die Bundesregierung prüft zur Zeit, welche Konsequenzen sie aus der eingetretenen Lage ziehen soll. Das Bundeskabinett wird sich am 11. November mit der Frage einer möglichen Verrechtlichung der TA-Luft befassen. Eine Entscheidung ist noch nicht getroffen worden, auch nicht über die Werte, die in einer solchen verrechtlichten Fassung enthalten sein könnten. Ich möchte deshalb heute nichts weiter dazu sagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u106" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg147">Herr Kollege, Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Meinike (Oberhausen) (SPD) :</note>
+        <u who="#Q1253679" xml:id="ParlaMint-DE_1977-10-19-08-049.u107" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg148">Herr Staatssekretär, stimmen Sie meiner Bewertung zu, daß die technischen Möglichkeiten durchaus gegeben sind, bei der Errichtung von Kohlekraftwerken die gegenwärtigen Umweltauflagen zu erfüllen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u108" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg149">Für die Bundesregierung schätze ich den Stand der Technik in einer Reihe von Fällen höher ein, als die Betreiber dies offenbar tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u109" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg150">Ich rufe die Frage 33 der Abgeordneten Frau Dr. DäublerGmelin auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg151">Trifft es zu, daß die Bundesbediensteten unter den Mitgliedern des „Deutsch-Chilenischen Freundeskreises", die zur 125-JahrFeier nach Chile fliegen, dafür Dienstbefreiung erhalten? Ich frage den Herrn Staatssekretär, ob er gegebenenfalls die beiden von der Abgeordneten Frau Dr. Däubler-Gmelin gestellten Fragen gemeinsam beantworten möchte. Ich nehme an, die Fragestellerin ist auch einverstanden. Dann rufe ich noch die Frage 34 der Abgeordneten Frau Dr. Däubler-Gmelin auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg152">Ist die Bundesregierung bereit, auf Bundesbedienstete in der Richtung Einfluß zu nehmen, daß sie im Interesse des demokratischen Ansehens der Bundesrepublik Deutschland von der Teilnahme an der 125-Jahr-Feier in Chile absehen? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u110" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg153">Frau Kollegin, in der Verordnung über Sonderurlaub für Bundesbeamte und Richter im Bundesdienst sind die Gründe für die Gewährung einer Dienstbefreiung abschließend genannt. Danach könnte Sonderurlaub zu dem ausdrücklichen Zwecke der Teilnahme an der 125-JahrFeier des „Deutsch-Chilenischen Freundeskreises" nur bewilligt werden, wenn diese Veranstaltung zuvor von der hierfür zuständigen Bundeszentrale für politische Bildung auf Antrag des Veranstaltungsträgers als förderungswürdig anerkannt worden wäre. Da es sich aber offensichtlich nicht um eine staatspolitische Bildungsveranstaltung handelt, könnte eine solche Anerkennung, wenn sie begehrt werden würde, auch nicht erfolgen. Was Ihre zweite Frage betrifft, Frau Kollegin, so sehe ich keine Veranlassung für ein Tätigwerden der Bundesregierung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg154">Bitte, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Däubler-Gmelin (SPD) :</note>
+        <u who="#Q65394" xml:id="ParlaMint-DE_1977-10-19-08-049.u112" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg155">Ich danke Ihnen sehr, Herr Staatssekretär — das möchte ich vorausschicken —, für die freundliche Belehrung über die Sonderurlaubsverordnung. Darf ich die Frage anschließen — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg156">Frau Kollegin, nur Zusatzfragen, bitte!</seg>
+        </u>
+        <note type="speaker">Frau Dr. Däubler-Gmelin (SPD) :</note>
+        <u who="#Q65394" xml:id="ParlaMint-DE_1977-10-19-08-049.u114" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg157">Herzlichen Dank. Ich habe eigentlich noch nie erlebt, Herr Präsident, daß der Austausch von Höflichkeiten in diesem Hause nicht willkommen gewesen wäre.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg158">Frau Kollegin, herzliche Höflichkeit ist im Rahmen der Geschäftsordnung immer willkommen.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Däubler-Gmelin (SPD) :</note>
+        <u who="#Q65394" xml:id="ParlaMint-DE_1977-10-19-08-049.u116" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg159">Jawohl, Herr Präsident! Ich möchte jetzt meine Frage stellen, Herr Staatssekretär: Bezieht „Dienstbefreiung" in Ihrer Antwort umfassend ein, daß keinem Bundesbediensteten in irgendeiner Form bezahlter Urlaub oder unbezahlter Urlaub gewährt wird, und wenn doch, in welchen Fällen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg160">Frau Kollegin, zunächst möchte ich mich für Ihre freundliche Zusatzfrage bedanken.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit und Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg161">Ich habe, was die Dienstbefreiung angeht, hier abschließend Ausführungen ' gemacht. Was ein Beamter außerhalb dieser Dienstbefreiung — also etwa in seinem Urlaub — macht, war nicht Gegenstand meiner Antwort. Hier ist er selbstverständlich wie jeder andere Staatsbürger in gewissen Grenzen, die das öffentliche Dienstrecht vorschreibt, frei.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg162">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Däubler-Gmelin (SPD) :</note>
+        <u who="#Q65394" xml:id="ParlaMint-DE_1977-10-19-08-049.u119" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg163">Herzlichen Dank, Herr Präsident! Darf ich Ihre Antwort, Herr Staatssekretär, so verstehen, daß sich Ihre Äußerung auch auf Personen bezieht, die — lassen Sie es mich etwas untechnisch ausdrücken — im mittelbaren Bundesdienst stehen, beispielsweise Generalagenten der Deutschen Bundesbahn?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg164">Frau Kollegin, so weit möchte ich nicht gehen. Meine Antwort hat den _Personenkreis umfaßt, nach dem Sie gefragt haben, aber keinen weiteren Personenkreis. Das müßte ich Ihnen gesondert beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg165">Sie haben noch zwei Zusatzfragen, Frau Kollegin, um sich weiter bedanken zu können.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Däubler-Gmelin (SPD) :</note>
+        <u who="#Q65394" xml:id="ParlaMint-DE_1977-10-19-08-049.u122" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg166">Herzlichen Dank! Herr Präsident, ich werde die Fragen gesondert einreichen. Das ist im Interesse einer Klärung der Angelegenheit sinnvoller.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg167">Bitte, Frau Kollegin. Ich rufe die Frage 35 des Abgeordneten Schäfer (Offenburg)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg168">auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg169">Mit welchem Bedarf an Zwischenlagerkapazität für Brennelemente aus Leichtwasserreaktoren rechnet die Bundesregierung für die Jahre bis 1983, und welche Zwischenlagermöglichkeiten — an welchen Standorten — stehen für diesen Zeitraum zur Verfügung?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u124" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg170">Herr Kollege Schäfer, die Vorsorge für die Entsorgung der Kernkraftwerke ist Angelegenheit der Anlagenbetreiber und wird daher von der Elektrizitätswirtschaft getroffen. Sie orientiert sich an einer im Jahre 1983 voraussichtlich installierten Kernkraftwerksleistung von — geschätzt — 19 000 MW. Bis zu diesem Zeitpunkt werden etwa 3 000 t abgebrannter Brennstoff angefallen sein. Es ist vorgesehen, hierfür einerseits Lager- und Wiederaufarbeitungskapazität der französischen Wiederaufarbeitungsanlage in La Hague in Anspruch zu nehmen als auch neue Zwischenlager in der Bundesrepublik zu errichten. In diesem Zusammenhang ist die Bundesregierung dem Land Nordrhein-Westfalen dankbar, daß es sich grundsätzlich bereit erklärt hat, eines der geplanten Zwischenlager im Land Nordrhein-Westfalen errichten zu lassen. Die Eignung des von der Deutschen Gesellschaft für Wiederaufarbeitung von Kernbrennstoffen mbH — DWK — in diesem Land vorgeschlagenen Standorts Ahaus muß allerdings in dem noch einzuleitenden Genehmigungsverfahren geprüft werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u125" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg171">Zu einer Zusatzfrage, Herr Kollege Schäfer.</seg>
+        </u>
+        <note type="speaker">Schäfer (Offenburg) (SPD) :</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1977-10-19-08-049.u126" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg172">Herr Staatssekretär, könnten Sie so freundlich sein, genauer zu spezifizieren, welche tonnenmäßigen Anteile bis 1983 in La Hague zwischengelagert werden sollen und welche in der Bundesrepublik?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg173">Herr Kollege, genau diese Frage habe ich bei der Vorbereitung dieser Fragestunde den Sachverständigen gestellt. Sie läßt sich heute noch nicht abschließend beantworten. Sie müssen berücksichtigen, daß ein Teil der Zwischenlagerung bei den Kernkraftwerken selbst erfolgt. Die Frage, die Sie jetzt gestellt haben, läßt sich heute also nicht abschließend beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg174">Herr Kollege, eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schäfer (Offenburg) (SPD) :</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1977-10-19-08-049.u129" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg175">Könnten Sie dann gegebenenfalls schriftlich nachreichen, wie hoch bis 1983 die Zwischenlagerkapazität innerhalb der Kernkraftwerke ist, welcher Spielraum hier durch bauliche Veränderungen gegebenenfalls noch zu schaffen wäre und wie die Restmenge zwischengelagert werden soll und — Herr Präsident, mit Ihrer freundlichen Genehmigung — ob die Wiederaufarbeitungsanlage in La Hague bis 1983 tatsächlich über die angenommene Kapazität verfügen kann?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg176">Ich bin sehr gern bereit, Ihnen, sobald es möglich ist, diese Informationen zu geben, auch dem zuständigen Arbeitskreis des Innenausschusses und dem Innenausschuß selbst. Ich habe mich, was die Kapazität, die Ernsthaftigkeit der Zusagen und die Zuverlässigkeit der Anlage in La Hague angeht, sachkundig gemacht. Ich bin eigentlich beruhigter als Sie, der Sie ja in der Öffentlichkeit Erklärungen abgegeben haben, die zu einiger Beunruhigung Anlaß geben konnten.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Schäfer [Offenburg] [SPD] : Ich habe keine Frage mehr?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg177">Herr Kollege, auch mit Freundlichkeiten läßt sich das geschäftsordnungsmäßige Recht auf Zusatzfragen nicht ausdehnen. Zu einer Zusatzfrage, Herr Kollege Reuschenbach.</seg>
+        </u>
+        <note type="speaker">Reuschenbach (SPD) :</note>
+        <u who="#Q2077829" xml:id="ParlaMint-DE_1977-10-19-08-049.u132" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg178">Herr Staatssekretär, ist Ihnen eine Intervention französischer Dienststellen gegenüber unzutreffenden Bewertungen dieser Entsorgungsanlage in Frankreich bekannt?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg179">Das ist mir bekannt, Herr Kollege. Das Bundesinnenministerium bereitet zur Zeit einen Bericht vor. Dieser Bericht geht auf eine Reise zurück, die hohe Beamte der Bundesregierung nach La Hague gemacht haben. Die Bundesregierung wird in dem zuständigen Ausschuß des Deutschen Bundestages anregen, daß sich die zuständigen Kolleginnen und Kollegen an Ort und Stelle selber davon überzeugen, daß das Angebot der Franzosen ernsthaft und zuverlässig ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg180">Zu einer Zusatzfrage, Herr Abgeordneter Dr. Laufs.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU) :</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1977-10-19-08-049.u135" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg181">Herr Staatssekretär, wann rechnet die Bundesregierung mit der Entscheidung über ein Zwischenlager in der Bundesrepublik Deutschland?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u136" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg182">Ich möchte mich darauf nicht festlegen, Herr Kollege. Eine Vorentscheidung ist ja getroffen; ich habe sie Ihnen eben mitgeteilt. Aber wann eine endgültige Entscheidung getroffen wird, kann ich Ihnen heute nicht sagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg183">Herr Kollege Ueberhorst, Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Ueberhorst (SPD) :</note>
+        <u who="#Q2141058" xml:id="ParlaMint-DE_1977-10-19-08-049.u138" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg184">Herr Staatssekretär, darf ich Sie angesichts der Beruhigung, die Sie in 'bezug auf die Entwicklung im Ausbau ,der französischen Wiederaufbereitungsanlage hier bekundet haben, fragen, ob es Sie überhaupt nicht beunruhigt, welche Stellungnahmen zu diesem Problem von den dort Beschäftigten, ihrem Betriebsrat und auch ihrer Gewerkschaft abgegeben werden?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg185">Ich bin sehr wohl der Meinung, daß man allen aufgeworfenen Fragen im Zusammenhang mit La Hague ,sehr aufmerksam nachgehen soll. Das wird man auch noch diskutieren. Ich bin aber auf der anderen Seite unterrichtet, daß von seiten der Beschäftigten und auch von seiten der beteiligten Gewerkschaften einige Erklärungen, die zur Beunruhigung hätten Anlaß geben können, inzwischen revidiert worden sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg186">Herr Abgeordneter Stahl, Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD) :</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1977-10-19-08-049.u141" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg187">Herr Staatssekretär, würden Sie mir zustimmen, daß in Frankreich die Gesellschaften einer Nutzung der Kernenergie positiv gegenüberstehen und daß in Gesprächen selbst mit den Gewerkschaften, .die kritische Stellungnahmen abgegeben haben, eine Abklärung dahin gehend stattgefunden hat, daß man eventuelle Mängel, die vorhanden waren, in absehbarer Zeit abstellen will?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg188">Herr Kollege, mir ist die Haltung der französischen Gewerkschaften insgesamt zu diesem Problem nicht bekannt. Ich weiß nur, daß die hier beteiligte Gewerkschaft CFDT, die auch zitiert worden ist, gewisse Erklärungen abgeschwächt oder geändert hat, soweit mir gesagt worden ist, Herr Kollege Stahl.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg189">Meine Damen und Herren, wir haben uns schon etwas vom Thema entfernt. Aber eineletzte Zusatzfrage des Kollegen Weißkirchen.</seg>
+        </u>
+        <note type="speaker">Weißkirchen (Wiesloch) (SPD) :</note>
+        <u who="#Q107636" xml:id="ParlaMint-DE_1977-10-19-08-049.u144" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg190">Herr Staatssekretär, können Sie präzise sagen, welche Behauptungen von den Gewerkschaften zurückgenommen worden sind?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg191">Nein, das kann ich hier jetzt nicht. Ich möchte dem Bericht nicht vorgreifen, den der Innenminister dem Innenausschuß und dem zuständigen Arbeitskreis geben wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg192">Ich rufe nunmehr die Frage 36 des Herrn Abgeordneten Höpfinger auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg193">Welche Konsequenzen beim Bau von Kernkraftwerken will die Bundesregierung auf Grund der Ergebnisse der Mannheimer Reaktor-Tagung ziehen, bei der Experten zu dem Ergebnis gekommen sind, daß beim Bau von Kernkraftwerken eine bodeneingebettete Bauweise den Sicherheitsfaktor wesentlich erhöht? Bitte.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg194">Herr Kollege, auf der Reaktortagung des Deutschen Atomforums im April 1977 in Mannheim wurden Teilergebnisse einer Studie durch die Kernforschungsanlage Jülich vorgetragen, die der Bundesminister des Innern im Rahmen eines Studienprojekts zur unterirdischen Bauweise von Kernkraftwerken durchführen ließ. Der Bundesminister des Innern prüft zur Zeit zusammen mit Experten verschiedener Fachrichtungen die Ergebnisse dieser Studie und weiterer Studien. Eine vorläufige Wertung des nach den Studienergebnissen sich ergebenden Sicherheitsgewinns durch die unterirdische Bauweise und der sich daraus ergebenden Konsequenzen bereitet der Bundesminister des Innern zur Zeit für den Innenausschuß des Deutschen Bundestages vor. Der entsprechende Bericht wird dem Bundestag noch im Laufe dieses Jahres vorgelegt. Herr Präsident, ich wäre dankbar, wenn ich gleich die nächste Frage mit beantworten könnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg195">Da der Fragesteller damit einverstanden ist, rufe ich auch die Frage 37 des Herrn Abgeordneten Höpfinger auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg196">Ist die Bunderegierung bereit, dafür zu sorgen, daß bei dem in Planung befindlichen Kernkraftwerk Rehling (Landkreis AichachFriedberg)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg197">— 10 km von der Stadt Augsburg entfernt — eine Halb- oder Ganzabsenkung in die Planung einbezogen wird?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u149" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg198">Selbst bei einer positiven Bewertung der Ergebnisse der Studie über die unterirdische Bauweise müssen diese Ergebnisse noch detaillierter auf ihre sicherheitstechnischen und technisch-wirtschaftlichen Vor- und Nachteile an Hand von konkreten, noch auszuarbeitenden Detailplanungen geprüft werden. Sie können noch nicht als Stand von Wissenschaft und Technik betrachtet werden und sind daher für Entscheidungen im atomrechtlichen Genehmigungsverfahren zur Zeit ohne Bedeutung. Der Bundesminister des Innern wird allen Landesregierungen, Planungsbehörden und Elektrizitätsversorgungsunternehmen die Studienergebnisse auf Anforderung zu gegebener Zeit zur Verfügung stellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u150" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg199">Zusatzfrage, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Höpfinger (CDU/CSU) :</note>
+        <u who="#Q1613586" xml:id="ParlaMint-DE_1977-10-19-08-049.u151" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg200">Herr Staatssekretär, treffen dann Pressemeldungen nicht zu, die bereits konkret sagen, daß der Sicherheitsfaktor durch diese Ganz-oder Halbabsenkung um 30 bis 60 % erhöht werden könnte?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg201">In dieser Form sicher nicht, Herr Kollege. Ich habe Ihnen ja gesagt, mit welcher Vorsicht wir diese Frage behandeln. Wir sind noch nicht soweit, diese Frage eindeutig beantworten zu können. Ich habe ausgeführt, wann und wie das geschehen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg202">Bitte, Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Höpfinger (CDU/CSU) :</note>
+        <u who="#Q1613586" xml:id="ParlaMint-DE_1977-10-19-08-049.u154" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg203">Herr Staatssekretär, kann man einen Zeitraum angeben, in dem diese Prüfungen in etwa abgeschlossen sein könnten?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg204">Wir werden noch in diesem Jahr dem Innenausschuß des Bundestags einen Bericht auch über diese Frage geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u156" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg205">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Höpfinger (CDU/CSU) :</note>
+        <u who="#Q1613586" xml:id="ParlaMint-DE_1977-10-19-08-049.u157" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg206">Herr Staatssekretär, dann müßte es aber doch möglich sein, in Planungen, die ohnehin erst in einigen Jahren akut werden, diese Ergebnisse mit einzubringen.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg207">Für Planungen, die erst in einigen Jahren akut werden, ist das sicher möglich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg208">Sie wollten noch eine Zusatzfrage stellen? — Bitte.</seg>
+        </u>
+        <note type="speaker">Schäfer (Offenburg) (SPD) :</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1977-10-19-08-049.u160" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg209">Herr Staatssekretär, bis wann, meinen Sie, könnte bei uns ein atomrechtliches Genehmigungsverfahren für ein Projekt in unterirdischer Bauweise in Gang gesetzt werden? Mir geht es um den ungefähren Zeitraum: zwei Jahre, drei Jahre?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u161" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg210">Herr Kollege, das hängt von der Würdigung dieser Studien und von den Beratungen, die sich daran unter anderem auch in diesem Hause anschließen, ab. Erst dann wird man sehen können, ob eine solche Bauweise diese Vorteile verspricht, die manche vermuten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u162" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg211">Ich rufe die Frage 38 des Abgeordneten Dr. Jentsch auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg212">Ist der Bundesregierung die Werbung für „Präzisions-Gummischleudern" bekannt, die nach bekanntgewordenen Versuchsergebnissen geeignet sind, Stahlkugeln mit solcher Wucht zu verschießen, daß dadurch erhebliche Verletzungen von Menschen verursacht werden können, gibt es Informationen über die Verwendung solcher Schleudern bei gewalttätigen Demonstrationen oder ähnlichen Ereignissen, und wenn ja, welche Folgerungen zieht die Bundesregierung daraus?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg213">Ich wäre dankbar, wenn ich die beiden gestellten Fragengemeinsam beantworten könnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg214">Wenn der Herr Fragesteller einverstanden ist, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Jentsch (Wiesbaden) (CDU/CSU) :</note>
+        <u who="#Q1577349" xml:id="ParlaMint-DE_1977-10-19-08-049.u165" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg215">Gerne.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u166" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg216">Dann rufe ich auch die Frage 39 des Herrn Abgeordneten Dr. Jentsch (Wiesbaden)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg217">auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg218">Bietet das Waffengesetz ausreichende Möglichkeiten, den Erwerb solcher Schleudern auszuschließen, und bis wann wird die Bundesregierung den Innenausschuß des Deutschen Bundestages über die von ihr gegebenenfalls zu unternehmenden Schritte unterrichten?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u167" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg219">Der Bundesregierung ist bekannt, daß von einigen Firmen PräzisionsGummischleudern, mit denen Blei- oder Stahlkugeln verschossen werden können, zum freien Verkauf angeboten werden. Nach den vorliegenden Informationen sind Präzisions-Gummischleudern bei polizeilichen Kontrollen auf ,den Anmarschwegen zur Demonstration am Kraftwerk Kalkar sichergestellt worden. Dagegen sind Schleudern dieser Art bei den Gewaltdemonstrationen in Brokdorf und Grohnde — soweit uns bekannt — nicht in Erscheinung getreten. Das Waffengesetz enthält in § 6 Abs. 4 Nr. 2 eine Ermächtigung für den Bundesminister des Innern, durch Rechtsverordnung u. a. die Herstellung, den Vertrieb, den- Erwerb, die Einfuhr und den Besitz von Waffen zu verbieten, die den in § 37 des Waffengesetzes bezeichneten Gegenständen in ihrer Gefährlichkeit vergleichbar sind, sofern diese Gegenstände wegen ihrer Beschaffenheit oder Wirkungsweise zur Begehung von Straftaten besonders geeignet sind. Ob diese Ermächtigungsgrundlage für ein Verbot von Präzisions-Gummischleudern ausreicht, sollte nach Auffassung der Bundesregierung anläßlich der Beratungen des Entwurfs eines Gesetzes zur Änderung von Strafvorschriften des Waffenrechts geprüft werden. Sollte sie nicht ausreichen, müßte in den Beratungen eine entsprechende Erweiterung der Ermächtigung in Erwägung gezogen werden. Schon jetzt bietet jedenfalls das Versammlungsgesetz eine Handhabe, gegen das Mitführen solcher Gummischleudern bei Demonstrationen vorzugehen. Waffen im Sinne dieser Bestimmungen sind alle Gegenstände, die geeignet sind, Verletzungen zuzufügen. Entgegen diesem Verbot mitgeführte Schleudern können sichergestellt werden. Wer derartige Waffen bei Versammlungen und Aufzügen bei sich führt, wird nach § 27 des Versammlungsgesetzes mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u168" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg220">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jentsch (Wiesbaden) (CDU/CSU) :</note>
+        <u who="#Q1577349" xml:id="ParlaMint-DE_1977-10-19-08-049.u169" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg221">Herr Staatssekretär, muß ich Ihre Antwort so werten, daß Sie die derzeitige Gesetzeslage für ausreichend halten, um die Gefahr, die von diesen Geräten ausgeht, zu beherrschen?</seg>
+        </u>
+        <note type="speaker">Baum, Pari. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u170" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg222">Im Moment ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u171" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg223">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jentsch (Wiesbaden) (CDU/CSU) :</note>
+        <u who="#Q1577349" xml:id="ParlaMint-DE_1977-10-19-08-049.u172" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg224">Darf ich weiterhin fragen, was der Klärung der rechtlich sicherlich problematischen Frage entgegensteht, ob eine Novellierung des Waffengesetzes notwendig ist oder ob auf der Grundlage der Ermächtigungsnorm des § 6 des Waffengesetzes vorgegangen werden könnte?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u173" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg225">Herr Kollege, wenn man Herstellung, Vertrieb, Einfuhr, Erwerb und Besitz dieser Waffen unterbinden will, wird man zunächst versuchen, auf der gegebenen gesetzlichen Grundlage vorzugehen. Ich meine, das könnte man. Wenn sich im Laufe der Beratungen herausstellt, daß das nicht der Fall ist, wird man überlegen müssen, ob man die gesetzliche Grundlage erweitern oder ergänzen muß. Dann stellt sich allerdings die Frage, ob man bei der von mir dargestellten Rechtslage überhaupt ein Verbot braucht. Ich möchte nicht verschweigen, daß hier definitorische Schwierigkeiten zu erwarten sind, d. h. eine Definition dessen, was eine Gummischleuder oder eine PräzisionsGummischleuder ist, wird nicht einfach sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u174" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg226">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jentsch (Wiesbaden) (CDU/CSU) :</note>
+        <u who="#Q1577349" xml:id="ParlaMint-DE_1977-10-19-08-049.u175" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg227">Herr Staatssekretär, geben Sie Ihre Antworten in Kenntnis der Tatsache, daß Polizeiorganisationen wie z. B. die GdP die derzeitige Rechtslage nicht für ausreichend ansehen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u176" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg228">Mir sind solche Äußerungen nicht bekannt, Herr Kollege. Ich habe schon deutlich gemacht, daß dafür auch keine Grundlage bestehen würde; denn die von mir genannten Vorschriften lassen es immerhin zu, daß solche Waffen aus dem Verkehr entfernt werden und daß derjenige, der sie mit sich führt, auch bestraft wird. Allerdings sind davon — das gebe ich Ihnen zu — Herstellung und Vertrieb nicht erfaßt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u177" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg229">Sie haben eine letzte Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Dr. Jentsch (Wiesbaden) (CDU/CSU) :</note>
+        <u who="#Q1577349" xml:id="ParlaMint-DE_1977-10-19-08-049.u178" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg230">Um mich dem höflichen Stil des Hauses heute anzuschließen: Darf ich mir erlauben, Herr Staatssekretär, Sie auf die Zeitschrift „Deutsche Polizei", Nr. 10 dieses Jahres, hinzuweisen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u179" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg231">Ich danke Ihnen für den freundlichen Hinweis.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u180" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg232">Herr Kollege Ey, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1977-10-19-08-049.u181" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg233">Herr Staatssekretär, ist die Bundesregierung bereit, diese Präzisionsschleudern, die ja nicht nur präzise sind, sondern auch mit einer sehr hohen Vo-Geschwindigkeit ausgestattet sind, unverzüglich zu überprüfen und dem Innenausschuß das Ausmaß der von dieser Waffe ausgehenden Gemeingefahr mitzuteilen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u182" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg234">Herr Kollege, ich habe schon ausgeführt, daß wir anläßlich der Beratung des Entwurfs eines Gesetzes zur Änderung von Strafvorschriften des Waffenrechts in den zuständigen Ausschüssen auf die Frage zurückkommen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u183" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg235">Herr Kollege Gansel.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1977-10-19-08-049.u184" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg236">Herr Staatssekretär, da sich Kinder ihre Katapulte im allgemeinen noch selber basteln, würde mich interessieren: An welchen Käuferkreis wendet sich die Werbung überhaupt, und worin liegt das kommerzielle Interesse, diese Instrumente herzustellen, dafür zu werben und sie zu vertreiben?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u185" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg237">Herr Kollege, die Werbung richtet sich in der Regel nicht an Kinder, obwohl nicht zu bestreiten ist, daß auch Schleudern, die nicht in dieser Perfektion hergestellt werden, die also gewähnlich auch von Kindern benutzt werden, je nachdem, mit welcher körperlichen Kraft sie gespannt werden, schon Verletzungen zufügen und Schäden anrichten können. Hier handelt es sich um einen Käuferkreis, der diese Gegenstände nicht mehr spielerisch handhabt, sondern auch zu sportlichen Zwecken benutzt, und zu anderen bestimmten Zwekken, wie ichausgeführt habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u186" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg238">Herr Kollege, ich gebe Ihnen eine weitere Zusatzfrage; es waren zwei Fragen, die verbunden waren.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1977-10-19-08-049.u187" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg239">Wenn Sie einen solchen bestimmten Zweck vermuten, ist dann nicht Veranlassung gegeben, überhaupt die Herstellung, die Werbung und den Verkauf dieser Gegenstände zu verbieten?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u188" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg240">Herr Kollege, ich habe in der Antwort ausgeführt, wie wir dazu stehen. Die Überlegungen sind nicht abgeschlossen. Sie werden in den Ausschüssen fortgeführt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u189" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg241">Ich rufe die Frage 40 des Herrn Abgeordneten Dr. Laufs auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg242">Wie beurteilt die Bundesregierung die Vorstellung, die Erteilung von Neubaugenehmigungen für Kernkraftwerke an die Erfüllung dreier Entsorgungbedingungen zu knüpfen, nämlich, die sicher beherrschbare Endlagerung hochradioaktiven Mülls, die Sicherung technisch bedenkenloser Zwischenlagerung abgebrannter Brennelemente und die erste Teilerrichtungsgenehmigung eines Standortes zur Endlagerung, wie dies der Bundeshauptausschuß der FDP am 26. Juni 1977 gefordert hat, und welche Konsequenzen hat eine derartige Forderung auf den Bau von Kernkraftwerken in der Bundesrepublik Deutschland? Auch hier steht die nächste Frage in einem gewissen Zusammenhang mit der aufgerufenen Frage. Ich weiß nicht, Herr Staatssekretär, ob Sie an eine gemeinsame Beantwortung gedacht haben. — Herr Abgeordneter Dr. Laufs ist einverstanden. Dann rufe ich auch seine Frage 41 auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg243">Wie beurteilt die Bundesregierung die Kopplung für die Errichtung neuer Kernkraftwerke an die erste Teilerrichtungsgenehmigung für das deutsche Entsorgungszentrum, wie dies vom SPD-Parteivorstand vorgeschlagen wird, im Hinblick auf die notwendige Kernkraftwerkskapazität in der Bundesrepublik Deutschland?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u190" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg244">Die Bundesregierung hat ihre Auffassung zur Kopplung der Genehmigung weiterer Kernkraftwerke an eine hinreichend sichergestellte Entsorgung detailliert dargelegt; ich habe das auch im Laufe dieser Fragestunde noch einmal getan. Sie ergibt sich aus den zwischen Bund und Ländern vereinbarten Grundsätzen zur Entsorgungsvorsorge für Kernkraftwerke. Es kann andererseits nicht Aufgabe der Bundesregierung sein, auf einen laufenden Meinungsbildungsprozeß in demokratischen Parteien von außen durch Erklärungen Einfluß zu nehmen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Schäfer [Tübingen] [SPD] : Sehr gut!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u191" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg245">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU) :</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1977-10-19-08-049.u192" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg246">Herr Staatssekretär, in welchem Umfang wird die Bundesregierung ihre Auffassung, die in den Grundlinien und Eckwerten vom 23. März 1977 zum Ausdruck gebracht ist, auf den anstehenden Parteitagen von FDP und SPD zur Disposition stellen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u193" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg247">Herr Kollege, die Bundesregierung tritt auf diesen Parteitagen überhaupt nicht auf, sondern es treten Mitglieder der jeweiligen Parteien auf, die dort ihre Meinung vertreten. Ich habe hohen Respekt vor Leuten, die eine andere Meinung haben als die, die ich vorgetragen habe, und ich habe auch Verständnis dafür, daß in zwei Parteien dieses Hauses diese Frage sehr gründlich und auch mit vielen Fragezeichen diskutiert wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u194" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg248">Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU) :</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1977-10-19-08-049.u195" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg249">Herr Staatssekretär, wird die Bundesregierung an ihrer Haltung zur Frage der Neuerrichtung von Kernkraftwerken auch dann festhalten, wenn die Parteitage von SPD und FDP eine andere Auffassung vertreten?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u196" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg250">Diese Frage stellt sich heute nicht, Herr Kollege. Ich habe die Meinung der Bundesregierung klar dargelegt. Es ist nicht meine Aufgabe, Entscheidungen von Parteitagen vorwegnehmend in eine Betrachtung einzubeziehen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei Abgeordneten der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u197" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg251">Herr Abgeordneter Steger zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Steger (SPD) :</note>
+        <u who="#Q1683508" xml:id="ParlaMint-DE_1977-10-19-08-049.u198" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg252">Herr Staatssekretär, wie wird sich die Bundesregierung bei weiteren Meinungswechseln des niedersächsischen Ministerpräsidenten Albrecht verhalten? Ich erinnere an seinen Brief vom 29. Juli und an seine letzte Erklärung auf dem CDU-Energiekongreß, und es könnte ja sein, daß er außer Grönland noch ein anderes Land für das Deponieren von radioaktivem Müll vorschlägt. Ist die Bundesregierung bereit, trotz dieser Schlangenlinien, die dort gefahren werden, in ihrem Kurs unbeirrt fortzufahren?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u199" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg253">Herr Kollege Dr. Steger, Sie gehen davon aus, daß ich diese Zusatzfrage nicht zulasse.</seg>
+          <vocal type="exclamat">
+            <desc>Schäfer [Offenburg] [SPD]: Dann steht die Frage wenigstens im Protokoll!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg254">Herr Abgeordneter Schäfer, Sie haben eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Schäfer (Tübingen) (SPD) :</note>
+        <u who="#Q1462129" xml:id="ParlaMint-DE_1977-10-19-08-049.u200" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg255">Herr Staatssekretär, sind Sie mit mir der Auffassung, daß sich aus den Ausführungen des Herrn Kollegen Dr. Laufs eine Schlußfolgerung aufdrängt, die wir, Sie und ich, so nicht stehenlassen dürfen: daß die Regierung auf Parteitagen auftritt</seg>
+          <vocal type="question">
+            <desc>Zurufe von der CDU/CSU: Frage!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg256">— ob er der Meinung ist wie ich —, daß die Regierung ohne Rücksicht auf den Meinungs- und Willensbildungsprozeß, der sich in der Bevölkerung vollzieht und der auf den Parteitagen zum Ausdruck kommt, bestimmt?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u201" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg257">Herr Kollege, ich habe soeben schon dem Herrn Kollegen Laufs im Grunde in dem Sinne geantwortet, den Sie in Ihrer Zusatzfrage gerade angesprochen haben. Ich habe darauf hingewiesen, daß der Meinungsbildungsprozeß in zwei Parteien zumindest noch nicht abgeschlossen ist. Herr Kollege, ich verkenne nicht, daß ein Meinungsbildungsprozeß selbstverständlich auch in der Opposition stattgefunden hat, wenngleich dieser Meinungsbildungsprozeß der Opposition nicht mit solchen Fragezeichen versehen ist wie in den beiden anderen Parteien. Ich habe dargelegt, daß die Regierung eine Position bezogen hat. Ich habe diese Haltung heute noch einmal bekräftigt. Ich habe keine Antwort auf die Frage geben können und wollen, was nach den Parteitagen, nach den dort eventuell gefaßten Beschlüssen der beiden Parteien SPD und FDP geschieht. Ich habe dieser Darstellung nichts hinzuzufügen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u202" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg258">Herr Kollege Jäger, letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1977-10-19-08-049.u203" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg259">Herr Staatssekretär, bedeuten die Antwort an den Kollegen Laufs und die Antwort, die Sie dem Kollegen Schäfer soeben gegeben haben, daß die Bundesregierung von dem Standpunkt des Bundeskanzlers abrückt, der doch vor einigen Wochen bekanntlich erklärt hat, er lasse sich in dieser Frage von Parteitagen nichts vorschreiben?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u204" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg260">Herr Kollege, ich habe Ihnen die Meinung der Bundesregierung so klar dargelegt, und zwar mehrfach, daß ich dem wirklich nichts hinzuzufügen habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u205" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg261">Ich rufe die Frage 42 des Herrn Abgeordneten Dr. Kunz (Weiden)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg262">auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg263">Ist die Bundesregierung bereit, die Bundesbediensteten ausdrücklich zu verpflichten, den zuständigen Sicherheitsorganen darüber zu berichten, wenn sie Beobachtungen im Zusammenhang mit dem Terrorismus machen oder Erkenntnisse in dieser Hinsicht gewinnen? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u206" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg264">Herr Kollege Kunz, die Bundesregierung geht davon aus, daß die Angehörigen des öffentlichen Dienstes als loyale Staatsbürger im Rahmen des ihnen Möglichen die Sicherheitslbehörden unseres Landes im Kampf gegen den Terrorismus durch sachdienliche Hinweise unterstützen. Eine verbindliche Weisung im 'Sinne Ihrer Frage erscheint daher nicht notwendig. Sie wäre auch rechtlich generell gar nicht möglich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u207" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg265">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1977-10-19-08-049.u208" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg266">Herr Staatssekretär, ich möchte vorausschicken, daß ich die in Ihrer Antwort enthaltene Auffassung teile. Aber: Wie beurteilt ,die Bundesregierung die Aussage des Vorsitzenden der Postgewerkschaft, der nach Pressemeldungen eine solche Notwendigkeit, die Kollege Regenspurger öffentlich vertrat, auf das schärfste zurückweist?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u209" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg267">Herr Abgeordneter, bei den ersten Zusatzfragen eines Kollegen zu einer Frage lasse ich meist auch Zusatzfragen zu, die nicht ganz in einem unmittelbaren Zusammenhang mit der schriftlich eingereichten Frage stehen. Ich muß den Herrn Staatssekretär hier allerdings, wenn er in eine Beantwortung eintritt, darauf aufmerksam machen, das dieser uhmittelbare Zusammenhang, den die Geschäftsordnung erfordert, hier sicherlich nicht 'gegeben ist.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u210" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg268">Dem kann ich nur zustimmen, Herr Präsident. — Ich habe eine generelle Äußerung gemacht, die nicht auf den Komplex abgestellt war, den Sie hier jetzt ansprechen. Der Sachverhalt war auch anders. Deshalb würde ich Ihnen, wenn Sie wollen, diese Frage gesondert beantworten. Wir können sie auch auf die nächste Fragestunde verschieben. Das ist ein anderer Komplex.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u211" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg269">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1977-10-19-08-049.u212" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg270">Herr Staatssekretär, halten Sie es nicht doch für notwendig, daß beispielsweise den Postzustellern gegenüber, die ja unter Umständen in besonderem Maße z. B. Kenntnisse von konspirativen Wohnungen gewinnen können, eine besondere Aufforderung ergeht?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u213" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg271">Herr Kollege, ich würde die weitere Erörterung dieses Sachverhalts in der Offentlichkeit zum gegenwärtigen Zeitpunkt nicht für besonders nützlich ansehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u214" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg272">Ich rufe die Frage 43 des Herrn Abgeordneten Reddemann auf. — Der Herr Abgeordnete ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 44 des Herrn Abgeordneten Steger auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg273">Auf Grund welcher Fakten hält die Bundesregierung eine noch über die vom nordrhein-westfälischen Landesminister für Arbeit, Gesundheit und Sozialordnung hinausgehende Verschärfung bei Schwefeldioxyd-Emissionen für möglich, und wie beurteilt sie die Auswirkungen auf die geplanten Kohlekraftwerke, insbesondere im Ruhrgebiet?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u215" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg274">Herr Kollege, der Bundesinnenminister will die bestehende Rechtslage keineswegs verändern. Es ist weder eine Abschwächung noch eine Verschärfung vorgesehen. Es soll für neue Kraftwerke — nur um diese geht es — lediglich der Auftrag erfüllt werden, der vom Parlament 1974 mit dem Bundesimmissionsschutzgesetz erteilt wurde. Die Entschwefelung der Abgase muß nach dem Stand der Technik erfolgen. Bei Großkraftwerken mit Leistungen über 400 Megawatt entspricht es dem Stand der Technik, die gesamten Abgase zu entschwefeln. Bei Einsatz von Vollwertkohle mit einem Schwefelgehalt von 1 % entspricht dies dem Grenzwert von 1,25 kg Schwefeldioxyd pro Megawatt-stunde. Bei Einsatz von Ballastkohle mit ihrem höheren Schwefelgehalt waren und werden auch künftig höhere Immissionswerte zulässig sein. In zwei Bundesländern war es bis vor kurzem Genehmigungspraxis, nur die Hälfte der Abgasmenge entschwefeln zu lassen, wenn schwefelarme Kohle eingesetzt wurde. Das entspricht für den gereinigten Teil des Abgases ebenfalls dem Grenzwert von 1,25 kg Schwefeldioxyd pro Megawattstunde. Der bisher praktizierte Wert von 3,75 kg Schwefeldioxyd pro Megawattstunde ergab sich einfach als Mittelwert, wenn die gereinigten und die ungereinigten Abgase vermischt wurden. Nach dem Verstromungsgesetz werden für die zusätzlichen Investitionen staatliche Zuschüsse geleistet. Bei den laufenden Kosten der neuen Kraftwerke ergeben sich Rationalisierungsvorteile, so daß „sauberer" Kohlestrom, wie wir meinen, nicht teurer sein muß. Mit diesen Maßnahmen, Herr Kollege, soll die Möglichkeit geschaffen werden, in belasteten Gebieten auch neue Standorte für Kraftwerke zu erschließen. Gerade der Gesichtspunkt der Sicherung bestehender Arbeitsplätze wie auch der Schaffung neuer Arbeitsplätze ist ein wichtiges Motiv des Innenministers. Er wird überdies in Kürze mit Vertretern der Wirtschaft und der Gewerkschaften über diese Aspekte Gespräche führen, auch mit dem Ziel, offenbar entstandene Mißverständnisse auszuräumen. Um es ganz deutlich zu sagen: Die Sicherung der Arbeitsplätze wird bei diesen Gesprächen ein wichtiger Gesichtspunkt sein. Im übrigen wird sich das Bundeskabinett am 11. November mit diesem Fragenkomplex befassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u216" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg275">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Steger (SPD) :</note>
+        <u who="#Q1683508" xml:id="ParlaMint-DE_1977-10-19-08-049.u217" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg276">Herr Staatssekretär, da mir keine Anlage bekannt ist, in der nach diesem Stand der Technik eine hundertprozentige Rauchgasentschwefelung stattfindet, frage ich Sie: Können Sie mir da vielleicht Nachhilfeunterricht erteilen und mir derartige Anlagen benennen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u218" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg277">Herr Kollege, mit Hilfe staatlicher Zuschüsse sind die Forschungen so weit getrieben worden,</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Steger [SPD] : Forschungen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg278">daß nach den Informationen, die ich habe, heute auch von deutschen Herstellern entsprechende Anlagen gebaut werden können, wie sie bereits in den USA und Japan in Betrieb sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u219" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg279">Lassen Sie mich bitte noch eine allgemeine Bemerkung machen: Kein Mitglied dieses Hauses sollte sich aus „herzlicher Höflichkeit" als Schüler im Hinblick auf die Antworten der Bundesregierung betrachten, und dies zum Ausdruck bringen. Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Steger (SPD) :</note>
+        <u who="#Q1683508" xml:id="ParlaMint-DE_1977-10-19-08-049.u220" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg280">Herr Staatssekretär, ist Ihnen bekannt, daß die Bundesregierung im Rahmen des 350-Millionen-Projektes für umweltfreundliche Steinkohlenkraftwerke, das im Zukunftsinvestitionsprogramm enthalten ist, eine Anlage fördert, deren technische Leistung nur eine Reduzierung auf maximal 2,75 Milligramm Schwefeldioxyd pro Kubikmeter zuläßt, und wie erklärt es sich, daß Ihr zuständiger Beamter trotzdem 1,25 kg fordern kann?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u221" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg281">Herr Kollege, ich glaube, wir sollten im Interesse der Gesundheit der Menschen 'und der Rechtssicherheit alle befriedigt sein, wenn der Stand der Technik hinsichtlich der Standortvorsorge für neue Kraftwerke fortschreitet. Wir haben Anlaß für die Annahme, daß er fortgeschritten ist, und wir erfüllen. als Regierung den Auftrag den Sie uns mit Gesetzen dieses Hauses gegeben haben. Nichts anderes habe ich zum Ausdruck gebracht. Ich habe hinzugefügt — ich sage das noch einmal mit anderen Worten —: Falls sich Schwierigkeiten für die Sicherung der Arbeitsplätze ergeben sollten was ich nicht annehme —, sind wir zu Gesprächen bereit, und das Bundeskabinett wird sich erneut mit der Sache befassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u222" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg282">Ich rufe die Frage 164 des Abgeordneten Graf Huyn auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg283">Wie viele Flüchtlinge aus Chile sind seit Sturz des chilenischen Diktators Allende in der Bundesrepublik Deutschland aufgenommen worden, und bei wie vielen darunter liegen Hinweise darüber vor, daß sie dringend des Terrorismus oder der Zusammenarbeit mit Terroristen und kommunistischen Parteien oder Organisationen vedächtig sind?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u223" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg284">Herr Kollege Graf Huyn, seit Beginn der Aufnahmeaktion für politisch verfolgte Personen aus Chile sind rund 2 500 Personen in die Bundesrepublik Deutschland eingereist. Es handelt sich hierbei überwiegend um Personen, die den Gruppierungen der ehemaligen Volksfront, darunter auch der kommunistischen Partei Chiles, angehören oder ihnen nahestehen. Vor der Einbeziehung in die Aufnahmeaktion wird in jedem Einzelfall — das ist in diesem Hause wiederholt dargelegt worden — eine eingehende Sicherheitsüberprülung durchgeführt. Soweit hierbei sicherheitsrelevante Informationen gewonnen werden, werden diese besonders sorgfältig gegen die humanitären Aspekte des jeweiligen Falles abgewogen. Des Ter-, rorismus verdächtigte Personen oder politische Gewalttäter, insbesondere Angehörige der chilenischen Organisation „MIR" sind von der Aufnahme grundsätzlich ausgeschlossen, auch wenn es dort in wenigen Einzelfällen unter besonderen Voraussetzungen Ausnahmen gegeben hat. Der Bundesregierung liegen keine Hinweise darauf vor, daß in der Bundesrepublik Deutschland aufgenommene Chilenen Verbindungen zu Kreisen deutscher Terroristen unterhalten oder mit diesen zusammenarbeiten. Allerdings ist festgestellt worden, daß in Veröffentlichungen, die deutsche Terroristen unterstützen oder mit ihnen sympathisieren, z. B. im „Informationsdienst zur Verbreitung unter- bliebener Nachrichten", Aufrufe des „MIR" .veröffentlicht worden sind. Bei dem „MIR" handelt es sich um eine militante sozialrevolutionäre Organisation, die sich ausdrücklich zur Gewaltanwendung bekennt. Ob die erwähnten Aufrufe von Chilenen initiiert . oder unterstützt worden sind, die in der Bundesrepublik Deutschland Aufnahme gefunden haben, hat sich bisher nicht mit Sicherheit feststellen lassen. Die Mitglieder und Anhänger der kommunistischen Partei Chiles entfalten im Bundesgebiet keine nennenswerten politischen Aktivitäten. Es ist jedoch bekannt, daß Angehörige der kommunistischen Partei Chiles, die im Bundesgebiet bisher noch keine konsolidierte Organisation aufweist, Kontakte zur DKP und von ihr abhängigen Organisationen suchen und unterhalten. Bestrebungen, die die innere Sicherheit in der Bunderepublik Deutschland gefährden könnten, gehen von ihnen nach den vorliegenden Erkentnissen nicht aus. Die Bundesregierung wird aber die Entwicklung auch auf diesem Gebiet weiter sorgfältig beobachten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u224" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg285">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Graf Huyn (CDU/CSU) :</note>
+        <u who="#Q216652" xml:id="ParlaMint-DE_1977-10-19-08-049.u225" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg286">Herr Staatssekretär, Sie hatten am Anfang Ihrer Erklärung die Formulierung gebraucht, daß bei der Abwägung zwischen humanitären und sicherheitspolitischen Gesichtspunkten die sicherheitspolitischen „grundsätzlich" Vorrang hätten. Ich glaube, so war es; ich bitte mich zu korrigieren, falls ich das jetzt falsch interpretiere, weil ich den Text nicht vor mir habe und er sehr ausführlich war. „Grundsätzlich" heißt im juristischen Sinne, daß hier auch Ausnahmen gemacht werden. Ich möchte wissen, in wieviel Fällen trotz sicherheitspolitischer Bedenken die humanitären Grundsätze bei der endgültigen Entscheidung der Bundesregierung Vor- rang gehabt haben.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u226" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg287">Herr Kollege, wir haben das Thema in diesem Hause wiederholt behandelt. Wir haben auch Einzelfälle behandelt. Ich sage Ihnen noch einmal, wie die Formulierung gelautet hat:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg288">Soweit hierbei sicherheitsrelevante Informationen gewonnen werden, werden diese besonders sorgfältig gegen die humanitären Aspekte des jeweiligen Falles abgewogen. Also in den wenigen Einzelfällen, in denen dieser Konflikt aufgetreten ist, hat diese Abwägung stattgefunden, einmal zugunsten der einen Seite, das andere Mal zugunsten der anderen, der humanitären Seite. Ich kann Ihnen genaue Zahlen jetzt aus dem Kopf nicht sagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u227" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg289">Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Graf Huyn (CDU/CSU) :</note>
+        <u who="#Q216652" xml:id="ParlaMint-DE_1977-10-19-08-049.u228" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg290">Ist Ihnen ebenso wie mir bekannt, daß bei einer klar definierbaren Anzahl solcher aufgenommener Flüchtlinge die Aufnahme trotz ausdrücklich geäußerter Bedenken der Sicherheitsbehörden, insbesondere des Bundeskriminalamtes, erfolgt ist?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u229" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg291">Es hat immer wieder die Abwägung in diesen Fällen gegeben, Herr Kollege. Wenn eine Ausnahme erfolgt ist, ist sie unter besonderen Voraussetzungen und auch unter besonderen Vorkehrungen erfolgt. In einigen Fällen ist z. B. von angesehenen Bürgern diese Landes eine Bürgschaft übernommen worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u230" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg292">Herr Abgeordneter Schäfer, Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schäfer (Offenburg) (SPD) :</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1977-10-19-08-049.u231" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg293">Herr Staatssekretär, teilt die Bundesregierung meine Auffassung, daß die in der Frage des Kollegen Huyn ausgesprochene Diskriminierung von Herrn Allende als „chilenischer Diktator" weder der Person des Genannten noch seiner Leistung noch diesem Hause angemessen ist?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u232" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg294">Herr Kollege, es war nicht meine Aufgabe, auf diesen Aspekt der Fragestellung einzugehen. Aber ich hätte, wenn ich die Frage gestellt hätte, nicht so formuliert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u233" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg295">Herr Abgeordneter Sieglerschmidt.</seg>
+        </u>
+        <note type="speaker">Sieglerschmidt (SPD) :</note>
+        <u who="#Q1441696" xml:id="ParlaMint-DE_1977-10-19-08-049.u234" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg296">Herr Staatssekretär, müssen diese Entscheidungen, obwohl es sich dabei, wie ich wohl weiß, formell nicht um Asylverfahren handelt, sondern dafür § 22 des Ausländergesetzes maßgeblich ist, nicht im Lichte des Grundrechts des Art. 16 betrachtet werden, der besagt, daß politisch Verfolgten Asyl zu gewähren ist, nicht nur solchen politisch Verfolgten, die auf dem Boden der freiheitlichen demokratischen Grundordnung der Bundesrepublik stehen?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1977-10-19-08-049.u235" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg297">Herr Kollege, Sie haben völlig recht. Die Aufnahmeaktion wird in der Tat im Lichte des Asylrechts, eines wichtigen Verfassungsgrundsatzes unseres Grundgesetzes, gesehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u236" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg298">Letzte Zusatzfrage des Abgeordneten Gansel.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1977-10-19-08-049.u237" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg299">Da die Fragen in der Fragestunde keine subjektive Wertung enthalten sollen, möchte ich Sie, Herr Präsident, fragen, ob Sie dafür Sorge tragen werden, daß das Protokoll, das eine Beleidigung eines demokratisch gewählten Regierungschefs enthält, entsprechend korrigiert wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u238" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg300">Herr Kollege, das war keine Frage an die Bundesregierung. Sie können aber davon ausgehen, daß es für mich keiner Frage bedurft hätte und ich prüfen lasse, ob bei der Zulassing der Frage die Richtlinien beachtet worden sind. Damit, meine Damen und Herren, sind die Fragen aus dem Geschäftsbereich des Bundesministers des Innern beantwortet. Ich danke Ihnen, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers der Justiz auf. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär Dr. de With zur Verfügung. Die Frage 45 ist von dem Herrn Abgeordneten Schäfer (Offenburg)</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg301">eingebracht worden:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg302">Beabsichtigt die Bundesregierung, einen Gesetzentwurf vorzulegen, wonach bei allen Todesfällen, die binnen 36 Stunden nach einer Operation eintreten, eine Obduktion umgehend vorzunehmen ist, bzw. beabsichtigt die Bundesregierung, die heute geltenden restriktiven Bestimmungen für Obduktionen unter dem Gesichtspunkt zusätzlicher medizinischer Erkenntnisse zu erleichtern?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-10-19-08-049.u239" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg303">Auf Beschluß 'der 44. Konferenz der Justizminister und -senatoren vom November 1974 wurde der „Bund-Länder-Arbeitsgruppe zur Vorbereitung einer 'gesetzlichen Regelung der Transplantation" zusätzlich 'die Prüfung der Sektionsproblematik übertragen. Ihren Abschluß fanden die Bemühungen der Kommission mit der Vorlage eines Berichtes, den 'die 47. Konferenz 'der Justizminister und -senatoren im Juni 1976 zur Kenntnis genommen hat, ohne Sich 'allerdings aufeines der vorgeschlagenen Lösungsmodelle festzulegen. Die Konferenz hat den Bundesminister der Justiz gebeten, alsbald einen Gesetzentwurf vorzubereiten, der in umfassender Weise Eingriffe an Leichen unter Berücksichtigung aller, namentlich auch strafrechtlicher Gesichtspunkte regelt. Die Vorschläge werden sich 'nicht darauf beschränken können, Lösungen für das von Ihnen angesprochene Teilproblem der inneren Leichenschau zu unterbreiten, sondern sich wegen des inneren Zusammenhangs auch mit der anatomischen Sektion und den Versuchen an Leichen zu 'befassen haben. Dabei ist zu bemerken, daß der Kommissionsbericht in seinen Anlagen zwar zwei Entwürfe eines Strafrechtsänderungsgesetzes enthält; zu der vielschichtigen Sektionsproblematik war es der Kommission jedoch nur möglich, den Minderheitsvorschlag auszuformulieren. Bei den Schwierigkeiten, die eine abgewogene gesetzliche Regelung der vielschichtigen Problematik bereitet, erscheint es verfrüht, sich heute schon im Detail 'auf bestimmte Formulierungen festzulegen. Auf Ihre Frage darf ich bemerken, daß keines der von der Arbeitsgruppe vorgeschlagenen Lösungsmodelte eine innere Leichenschau gegen den noch zu Lebzeiten ausdrücklich erklärten Widerspruch des Verstorbenen zulassen will. Ich bin gerne bereit, Ihnen den von mir genannten Bericht der BundLänder-Arbeitsgruppe zuzuleiten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u240" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg304">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schäfer (Offenburg) (SPD) :</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1977-10-19-08-049.u241" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg305">Herr Staatssekretär, teilen Sie die von vielen Ärzten vertretene Auffassung, daß durch eine Erleichterung der inneren Leichenschau zusätzliche medizinische Kenntnisse für die Behandlung zukünftiger Kranker gewonnen werden könnten?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-10-19-08-049.u242" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg306">Das bedarf keiner Frage.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u243" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg307">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schäfer (Offenburg) (SPD) :</note>
+        <u who="#Q1584397" xml:id="ParlaMint-DE_1977-10-19-08-049.u244" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg308">Darf ich fragen, bis wann bzw. ob — vielleicht habe ich es überhört — von der Bundesregierung ein umfassender Gesetzentwurf vorgelegt wird.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-10-19-08-049.u245" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg309">Ich denke, ich habe in der ersten Antwort auf Ihre Frage ausgeführt, daß es verfrüht wäre, jetzt schon konkrete Einzelheiten darzulegen. Es wird daran gearbeitet. Ein genauer Zeitpunkt kann bisher nicht festgelegt werden. Ich bitte dabei zu berücksichtigen, daß diese sehr schwierige Frage eine Nahtstelle zwischen bürgerlichem Recht, Strafrecht und anderen Rechtsgebieten umfaßt. Sie dürfen versichert sein, daß das Bundesjustizministerium alles tut, um diese Vorschläge voranzutreiben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u246" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg310">Ich rufe Frage 46 des Herrn Abgeordneten Gansel auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg311">Wie viele Ermittlungsverfahren wegen Verstöße gegen § 88 a Strafgesetzbuch sind seit Inkrafttreten der Vorschrift eingeleitet worden, und zu welchem Ergebnis haben sie geführt? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-10-19-08-049.u247" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg312">Die genaue Zahl der wegen des Verdachts eines Vergehens nach § 88 a StGB eingeleiteten Vermittlungsverfahren ist der Bundesregierung nicht bekannt. Nach den Beobachtungen des Bundesministeriums der Justiz sind bisher jedoch nur vereinzelt Verfahren wegen des Verdachts eines Vergehens der verfassungsfeindlichen Befürwortung von Straftaten eingeleitet worden. In den meisten dieser Fälle wird von den Strafverfolgungsbehörden auch wegen des Verdachts anderer Straftaten, z. B. Unterstützung von kriminellen Vereinigungen, Landfriedensbruch oder Störung des öffentlichen Friedens durch Androhung von Straftaten, ermittelt. Urteile von Gerichten wegen eines Vergehens nach § 88 a StGB liegen dem Bundesministerium der Justiz noch nicht vor.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u248" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg313">Weitere Zusatzfragen? — Bitte.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1977-10-19-08-049.u249" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg314">Herr Staatssekretär, wenn es so wenige Verfahren und noch kein Urteil auf Grund des § 88 a gegeben hat, liegt das dann daran, daß die verfassungsfeindliche Befürwortung von Straftaten so sehr abgenommen hat, oder daran, daß sich dieser Paragraph als überflüssig erwiesen hat?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-10-19-08-049.u250" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg315">Die Vorschrift, von der die Rede ist, schließt eine Lücke. Es war aber von vornherein klar, daß darunter mit Sicherheit nur sehr wenige Straftaten fallen würden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u251" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg316">Sie haben eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1977-10-19-08-049.u252" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg317">Herr Staatssekretär, da nach Ihren statistischen Angaben diese Lücke offenbar empirisch nicht nachweisbar ist, frage ich Sie: Überwiegen in Anbetracht dieses Umstandes nicht die klimatischen, negativen Auswirkungen auf die Meinungs- und Geistesfreiheit in der Bundesrepublik Deutschland gegenüber etwaigen kriminologischen Nutzen?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1977-10-19-08-049.u253" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg318">Erstens ist wohl der Zeitraum, seitdem dieses Gesetz in Kraft ist — etwas mehr als ein Jahr —, nicht ausreichend, um zu einer einigermaßen ausgewogenen Antwort in bezug auf den Nutzen der Vorschrift zu kommen. Zum zweiten kann nach dem, was wir bisher wissen, nicht festgestellt werden, daß es die von Ihnen angesprochene klimatische Veränderung gebe. Es muß mit Sorgfalt bedacht werden, daß jeder Fall anders gelagert ist und daß es hier in öffentlichen Berichterstattungen sicherlich Übertreibungen gab, die eine negative Beurteilung des § 88 a zum Gegenstand haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u254" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg319">Der Herr Abgeordnete Dr. Wernitz hat um schriftliche Beantwortung der von ihm eingereichten Frage 47 gebeten. Die Antwort wird als Anlage abgedruckt. Herr Staatssekretär, ich danke Ihnen für die Beantwortung der Fragen aus dem Geschäftsbereich des Bundesministers der Justiz. Ich rufe den Geschäftsbereich des Bundesministers der Finanzen auf. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär Haehser zur Verfügung. Die erste Frage, Frage 48, ist von dem Herrn Abgeordneten Dr. Luda eingebracht:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg320">Teilt die Bundesregierung die Auffassung, daß die bisherige Sparförderung — außer Bausparförderung — abgebaut werden sollte zugunsten der Förderung der Beteiligung breiter Bevölkerungsschichten am Produktivkapital, weil diese — bei ohnehin ausreichender gesamtwirtschaftlicher Sparquote — vordringlich ist, da sie zur Finanzierung eines stärkeren Wirtschaftswachstums und damit zum Abbau der Arbeitslosigkeit beiträgt, und wenn ja, wird sie eine entsprechende Initiative ergreifen? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1977-10-19-08-049.u255" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg321">Herr Kollege, die Bundesregierung teilt Ihre Auffassung nicht, daß die bisherige Sparförderung bei Aufrechterhaltung der Bausparförderung abgebaut werden kann. Die Sparförderung nach dem Sparprämiengesetz ist in den letzten Jahren mehrfach beschnitten worden: Die Prämien wurden zweimal gesenkt, und zur Konzentration dieser Förderung auf die Bezieher kleiner und mittlerer Einkommen sind Einkommensgrenzen eingezogen worden. Die Sparförderung bleibt aber weiter ein wichtiges Instrument zur Verstetigung des Sparprozesses und zum Heranführen neuer Bevölkerungsschichten an das Sparen. Ein weiterer Abbau der Sparförderung erscheint daher nicht wünschenswert, zumal wenn Beteiligungen am Produktivvermögen in den Anlagekatalog des Sparprämiengesetzes aufgenommen werden sollen. Die Bundesregierung hat in ihrer Regierungserklärung vom Dezember 1976 deutlich gemacht, daß sie den Anlagekatalog des Sparprämiengesetzes bzw. des Dritten Vermögensbildungsgesetzes erweitern wird, um verstärkt auch Beteiligungen in Unternehmen zu ermöglichen. Die der Anwendung dieser Gesetze auf Beteiligungsformen entgegenstehenden steuerlichen Hemmnisse sollen beseitigt werden. Die Regierung teilt insoweit, Herr Kollege Luda, das von Ihnen vorgetragene Anliegen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u256" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg322">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Luda (CDU/CSU) :</note>
+        <u who="#Q1889678" xml:id="ParlaMint-DE_1977-10-19-08-049.u257" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg323">Herr Staatssekretär, sehen Sie nicht den eklatanten Widerspruch, der zwischen dieser Ihrer Antwort einerseits und der harten Kritik des Bundeskanzlers am Sparverhalten der Bevölkerung andererseits besteht?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1977-10-19-08-049.u258" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg324">Herr Kollege Luda, die Ermunterung, gerichtet an die Bevölkerung, mehr zu konsumieren, bedeutet natürlich keine Absage an die Tugenden des Sparens.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u259" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg325">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Luda (CDU/CSU) :</note>
+        <u who="#Q1889678" xml:id="ParlaMint-DE_1977-10-19-08-049.u260" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg326">Herr Staatssekretär, wären Sie bereit, das nachzulesen, was Bundeskanzler Schmidt in diesem Zusammenhang gesagt hat — insofern kann Ihre jetzige Antwort zweifellos nicht befriedigen —, und sind Sie nicht bereit, mir zu bestätigen, daß eine solche Kritik an der Sparquote, die der Bundeskanzler geäußert hat, im Widerspruch zu der politischen Absicht steht, das Sparen in dieser Weise weiter zu subventionieren?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1977-10-19-08-049.u261" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg327">Herr Kollege, ich bin gerne bereit, noch einmal nachzulesen, was der Herr Bundeskanzler gesagt hat, obwohl ich seine Einlassungen, dieses Gebiet betreffend, durchaus kenne. Den von Ihnen vermuteten Widerspruch indessen vermag ich nicht zu sehen.</seg>
+        </u>
+        <vocal type="question">
+          <desc>Dr. Luda [CDU/CSU] : Frage der Logik 1</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u262" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg328">Ich rufe die Frage 49 des Abgeordneten Dr. Spöri auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg329">Kann die Bundesregierung bestätigen, daß, wie in einer Annonce des Wirtschaftsinstituts für Innovation und Marketing angekündigt, den Geldgebern eines neuen Hitler-Films umfangreiche Steuervorteile gewährt werden, und ist die Bundesregierung angesichts der die Bundesrepublik Deutschland gegenwärtig überschwappenden Kommerzialisierung des Dritten Reichs bereit, eine derartige steuerpolitische Subventionierung eines neuen Hitler-Films zu unterbinden?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1977-10-19-08-049.u263" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg330">Der Bundesregierung ist bekannt, daß in jüngster Zeit in verstärktem Umfang für die Beteiligung an Filmproduktionsgesellschaften geworben wird, die als Verlustzuweisungsgesellschaften konzipiert sind und den Anlegern außergewöhnlich hohe Verlustzuweisungen und damit verbundene Steuerersparnisse in Aussicht stellen. Das von Ihnen angesprochene Projekt, Herr Kollege, gehört in diesen Rahmen. Die steuerliche Konzeption der Produktionsgesellschaften beruht u. a. auf der Annahme, daß die Verluste, die in der Anlaufphase durch die Herstellung des Films entstehen, ausschließlich den Anlegern zugerechnet und von diesen steuermindernd geltend gemacht werden können. Ob diese steuerliche Beurteilung zutrifft, ist jedoch nicht zweifelsfrei. Eine genaue Prüfung durch die Finanzbehörde könnte dazu führen, daß in Aussicht gestellte Verlustzuweisungen nicht oder nur in weit geringerem Umfang steuerlich anerkannt werden. Wegen der allgemeinen Bedeutung der Angelegenheit wird das Bundesministerium der Finanzen diese Rechtsfrage in Kürze mit den Obersten Finanzbehörden der Länder erörtern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u264" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg331">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Spöri (SPD) :</note>
+        <u who="#Q92536" xml:id="ParlaMint-DE_1977-10-19-08-049.u265" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg332">Herr Staatssekretär, Sie haben von eventuellen Beschränkungen dieser Verlustzuweisungen im Falle einer genauen Überprüfung durch die Finanzbehörden gesprochen. Können Sie dem Hause etwas Konkreteres darüber sagen, wie solche Beschränkungen aussehen könnten?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1977-10-19-08-049.u266" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg333">Ich bin gerne bereit, Herr Kollege Spöri, Ihnen darüber umfangreichere Auskünfte zu geben, auch über das hinaus, was in den „Finanznachrichten" vor einiger Zeit abgedruckt worden ist. Kriterien aber, die etwa den Inhalt der Machwerke oder Produkte oder Filme, um die es hier geht, betreffen, würden bei dieser Sache keine Rolle spielen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u267" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg334">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Spöri (SPD) :</note>
+        <u who="#Q92536" xml:id="ParlaMint-DE_1977-10-19-08-049.u268" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg335">Herr Staatssekretär, wie bewertet die Bundesregierung unabhängig von der Möglichkeit, solche Einschränkungen von Verlustzuweisungen zu regulieren, die politische Auswirkung derart subventionierter Filme auf die Resonanz im befreundeten Ausland?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1977-10-19-08-049.u269" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg336">Herr Kollege Spöri, Sie wissen, daß die Filme selber sehr unterschiedlich beurteilt werden. Insofern vermag ich die Auswirkungen der Vorgänge auf das Ausland, nach denen Sie gefragt haben, nicht zu beurteilen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u270" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg337">Ich rufe die Frage 50 des Herrn Abgeordneten Dr. Jens auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg338">Wie haben sich in den Jahren 1975/76 die Gebühren für Lohn- und Gehaltskonten bei allen Banken geändert, und ist die Bundesregierung bereit, gegen ungerechtfertigte Gebührenerhöhungen der Kreditinstitute für Lohn- und Gehaltskonten — möglicherweise durch schärfere Mißbrauchsaufsicht durch das Kartellamt — etwas zu unternehmen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1977-10-19-08-049.u271" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg339">Herr Kollege Dr. Jens, eine amtliche Statistik über die Preise für Dienstleistungen der Kreditinstitute wird nicht geführt. Die Ihnen sicherlich bekannten Veröffentlichungen der Presse und einiger Verbraucherverbände sind nicht so umfassend, daß man danach die Entwicklung der Gebühren für Lohn- und Gehaltskonten in den Jahren 1975 und 1976 bei allen Banken beurteilen könnte. Ein Einschreiten des Bundeskartellamtes im Wege der Mißbrauchsaufsicht nach § 22 des Gesetzes gegen Wettbewerbsbeschränkungen kommt schon deshalb nicht in Betracht, da eine marktbeherrschende Stellung eines Kreditinstituts, das Lohn- und Gehaltskonten führt, bisher nicht festgestellt werden konnte. Im übrigen bestehen für die Bankkunden hinsichtlich der Lohn- und Gehaltskonten regelmäßig ausreichende und zumutbare Möglichkeiten, auf andere Institute auszuweichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u272" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg340">Herr Kollege Jens, Sie stehen jetzt vor der Frage, ob Sie noch Zusatzfragen stellen wollen oder ob Sie Ihre weitere Frage beantwortet haben wollen. Das müssen Sie selbst entscheiden. Die Fragestunde geht umgehend zu Ende.</seg>
+        </u>
+        <note type="speaker">Dr. Jens (SPD) :</note>
+        <u who="#Q1168733" xml:id="ParlaMint-DE_1977-10-19-08-049.u273" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg341">Dann lasse ich die andere Frage erst einmal beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u274" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg342">Dann rufe ich die Frage 51 des Herrn Abgeordneten Dr. Jens auf:</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg343">Kann die Bundesregierung bestätigen, daß die Verordnung über die Preisangaben in den Geschäftsräumen der Kreditinstitute nicht immer im gewünschten Sinn praktiziert wird, und ist sie bereit, verschärfte Bestimmungen zu erlassen, um die Preistransparenz für die Kunden spürbar zu verbessern? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1977-10-19-08-049.u275" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg344">Der Bundesregierung ist nicht bekannt, daß Kreditinstitute den nach der Preisangabenverordnung vorgeschriebenen Aushang ihrer Gebühren nicht korrekt vornehmen. Sollte Ihnen, Herr Kollege Dr. Jens, ein solcher Fall bekannt sein, so darf ich Sie bitten, mir einen Brief zu schreiben. Ich habe mich gestern für einen Brief von Ihnen bedanken können. Die Bundesregierung wird dann prüfen, ob etwa die staatliche Bankenaufsicht eingeschaltet werden sollte, um Abhilfe zu schaffen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident. Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u276" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg345">Sie haben jetzt eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jens (SPD) :</note>
+        <u who="#Q1168733" xml:id="ParlaMint-DE_1977-10-19-08-049.u277" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg346">Herr Staatssekretär, um auf meine erste Frage zurückzukommen: Meinen Sie nicht auch, daß es nahezu gegen die guten Sitten verstößt, wenn die Banken zunächst dafür sorgen, daß möglichst viele Arbeitnehmer bei ihnen ein Konto einrichten, und dann hinterher hingehen und diese Gebühren kräftig erhöhen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1977-10-19-08-049.u278" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg347">Herr Kollege Dr. Jens, ich denke, die Arbeitnehmer gehören zu dem Personenkreis, die das, was Banken ihnen an Vergünstigungen oder Belastungen anbieten, mehr und mehr selbständig beurteilen können. Die Banken werben im Augenblick durchweg in großen Annoncen mit den Konditionen, die sie anbieten. Ich weiß aus eigenem Erleben, daß sich potentielle Kunden sehr nach den Konditionen erkundigen, ehe sie mit einer Bank ins Geschäft treten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u279" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg348">Ich lasse noch eine Zusatzfrage zu.</seg>
+        </u>
+        <note type="speaker">Dr. Jens (SPD) :</note>
+        <u who="#Q1168733" xml:id="ParlaMint-DE_1977-10-19-08-049.u280" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg349">Danke schön, Herr Präsident. — Herr Staatssekretär, wissen Sie genau, welche Gebühren Sie für einzelne Leistungen Ihrer Bank zu entrichten haben, und können Sie mir vielleicht sagen, welche Bank „am billigsten" ist?</seg>
+        </u>
+        <note type="speaker">Haehser, .Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1977-10-19-08-049.u281" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg350">Ich weiß es selbstverständlich nicht genau; aber ich würde meine Frau fragen, die für mich einiges auf diesem Gebiet erledigt, Herr Kollege.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1977-10-19-08-049.u282" ana="#chair">
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg351">Meine Damen und Herren, mit dieser für viele von uns gültigen Auskunft kann ich die heutige Fragestunde schließen.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg352">Ich danke Ihnen.</seg>
+          <seg id="ParlaMint-DE_1977-10-19-08-049.seg353">Ich berufe die nächste Sitzung des Deutschen Bundestages, auf Donnerstag, den 20. Oktober, 9 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.32 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1976-01-28-07-217">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 7. Wahlperiode, 217. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 28.01.1976 (217. Sitzung der 7. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 7, Session 217 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1976-01-28 (Session 217 in Legislative Period 7)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="217">217. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">7. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="217">Session 217</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">Legislative Period 7</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 28.01.1976</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1976-01-28</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488222/b10bae395e887aac9ac08afbd1da62fc/pp07-data.zip</idno>
+          <date when="1976-01-28">1976-01-28</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1976-01-28">1976-01-28</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksache 7/4632 —</head>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg1">Meine Damen und Herren, die Sitzung ist eröffnet. Es liegt eine Liste von Vorlagen vor, die keiner Beschlußfassung bedürfen und nach § 76 Abs. 2 unserer Geschäftsordnung den zuständigen Ausschüssen überwiesen werden sollen:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg2">Betr.: Bericht der Bundesregierung über a)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg3">gesetzliche Initiativen zur Verbesserung der Leistungen an Behinderte und die Errichtung von Rehabilitationsstätten b)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg4">die Möglichkeit einer Einbeziehung von Leistungen nach dem Bundessozialhilfegesetz in das Rehabilitationsangleichungsgesetz c)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg5">weitere Fragen im Zusammenhang mit dem nach § 2 Abs. 3 des Gesetzes über die Angleichung der Leistungen zur Rehabilitation erteilten Berichtsauftrag, insbesondere zur wirksamen Koordinierung im institutionellen Bereich der Rehabilitation (Drucksache 7/4535)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg6">zuständig: Ausschuß für Arbeit und Sozialordnung (federführend)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg7">, Ausschuß für Jugend, Familie und Gesundheit Betr.: Leistungen an die Europäische Organisation für Kernforschung (CERN)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg8">in Genf (Drucksache 7/4598)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg9">zuständig: Haushaltsausschuß Ich frage, ob sich gegen die vorgeschlagenen Überweisungen Widerspruch erhebt. — Ich stelle fest, daß dies nicht der Fall ist. Nach einer interfraktionellen Vereinbarung soll Punkt 25 der Tagesordnung betr. Änderung des Gesetzes zur Neuregelung des Rechts der Rentenversicherung abgesetzt werden. Ich frage, ob das Haus damit einverstanden ist. — Ich sehe und höre keinen Widerspruch; es ist so beschlossen. Folgende amtliche Mitteilung wird ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg10">Der Bundesminister für Forschung und Technologie hat mit Schreiben vom 22. Januar 1976 die Kleine Anfrage der Abgeordneten Lenzer, Pfeffermann, Benz, Engelsberger, Dr. Franz, Roser, Dr. Freiherr Spies von Büllesheim, Dr. Stavenhagen, Frau Dr. Walz, Dr. Probst und der Fraktion der CDU/CSU betr. direkte und indirekte Forschungsförderung — Drucksache 7/4477 — beantwortet. Sein Schreiben wird als Drucksache 7/4651 verteilt. Wir kommen zu Punkt 1 der Tagesordnung: Fragestunde — Drucksache 7/4632 —</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg11">Wir beginnen mit dem Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit. Zur Beantwortung der Fragen steht Herr Parlamentarischer Staatssekretär Zander zur Verfügung. Ich rufe die Frage 1 des Herrn Abgeordneten Braun auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg12">Teilt die Bundesregierung die Auffassung, daß es brauchbare Kriterien für die Festsetzung der Wirtschaftlichkeit eines Krankenhauses nicht gibt, und ist sie u. a. aus diesem Grund bereit, eine Änderung der Bundespflegesatzverordnung vorzuschlagen? Der Herr Abgeordnete Braun hat eine weitere Frage eingebracht. Ich gehe davon aus, daß die beiden Fragen gesondert beantwortet werden. Herr Parlamentarischer Staatssekretär, bitte, zur Beantwortung der ersten Frage!</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1976-01-28-07-217.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg13">Herr Kollege Braun, die Bundesregierung geht davon aus, daß die Krankenhausträger den ihnen im Krankenhausfinanzierungsgesetz und der Bundespflegesatzverordnung eingeräumten Spielraum in eigener Verantwortung und Sachkenntnis unter Anwendung strenger Maßstäbe ausfüllen werden. Im Pflegesatzbereich haben sich inzwischen bereits Ansätze zu einer Kostendämpfung ergeben. Gleichwohl erscheint es notwendig, darüber hinaus Maßstäbe für das wirtschaftliche Verhalten im Krankenhausbereich zu entwickeln. Die Bundesregierung hat in dem Bericht vom 30. Dezember 1975 über die Auswirkungen des Krankenhausfinanzierungsgesetzes auf den Seiten 9, 10, 11 und 34 im einzelnen dargelegt, welche Maßnahmen von ihr eingeleitet worden sind oder erwogen werden. Der Bericht liegt als Drucksache 7/4530 dem Deutschen Bundestag vor. Dabei wird auch geprüft, ob und in welchem Umfang Änderungen der Bundespflegesatzverordnung notwendig sind. Wegen der Einzelheiten darf ich auf diesen Bericht verweisen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg14">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Braun (CDU/CSU) :</note>
+        <u who="#Q1147115" xml:id="ParlaMint-DE_1976-01-28-07-217.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg15">Herr Staatssekretär, sind Sie mit mir der Meinung, daß mit dieser Bundespflegesatzverordnung ein System in Kraft gesetzt worden ist, dem praktisch von vornherein ein wirksames Regulativ fehlte?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1976-01-28-07-217.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg16">Ich würde nicht so weit gehen. Man muß sehen, daß diese Gesetzgebung — Bundespflegesatzverordnung und Krankenhausfinanzierungsgesetz — erst verhältnismäßig kurze Zeit in Anwendung ist, daß hier also erst Erfahrungen gesammelt worden sind, die sich auch im vorgelegten Krankenhausfinanzierungsbericht niedergeschlagen haben. Daraus ergibt sich die Notwendigkeit, an einigen Punkten Änderungen vorzunehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg17">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Braun (CDU/CSU) :</note>
+        <u who="#Q1147115" xml:id="ParlaMint-DE_1976-01-28-07-217.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg18">Herr Staatssekretär, Sie haben selbst auf diesen Bericht in Drucksache 7/4530 hingewiesen. Dort wurde gerade darauf aufmerksam gemacht, daß es notwendig ist, für die Ermittlung objektiver Kriterien — das war meine Frage — eine Reihe von Forschungsmaßnahmen einzuleiten. Wenn ich es richtig überblicke, sind rund zehn Forschungsmaßnahmen eingeleitet worden. Meine Frage lautet: Wäre es nicht notwendig und besser gewesen, diese Forschungsvorhaben und sonstigen Maßnahmen einzuleiten, bevor die Bundespflegesatzverordnung in Kraft gesetzt wurde?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1976-01-28-07-217.u8" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg19">Herr Kollege Braun, darüber möchte ich mich nicht äußern. Es ist aber so, daß auf der Grundlage der Erfahrungen mit der Bundespflegesatzverordnung und dem Krankenhausfinanzierungsgesetz zwischen dem Bundesministerium für Jugend, Familie und Gesundheit und den zuständigen Landesbehörden, die ja für die Festsetzung der Pflegesätze zuständig sind, Erfahrungen diskutiert wurden. Aus diesen Erfahrungen heraus hat sich gemeinsam für Bund und Länder die Notwendigkeit ergeben, bestimmte Dinge — ich nenne das Stichwort „degressiver Pflegesatz" — zu erproben, um festzustellen, wie man zu Kriterien kommen kann, um in diesem Bereich auf die Kostenentwicklung dämpfend einzuwirken. Das ist alles mit den Ländern abgesprochen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u9" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg20">Ich rufe die Frage 2 des Herrn Abgeordneten Braun auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg21">In welchem Umfang sind bisher Änderungswünsche bezüglich der Bundespflegesatzverordnung an die Bundesregierung herangetragen worden?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1976-01-28-07-217.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg22">Herr Kollege Braun, dem Bundesministerium für Jugend, Familie und Gesundheit sind von verschiedenen Seiten zum Teil sehr gegensätzliche Vorschläge zur Änderung der Bundespflegesatzverordnung zugegangen. Sie reichen von der Forderung nach einer Wiedereinführung früherer Regelungen — wie z. B. der gesonderten Berechnung von Nebenkosten — bis zu der Forderung nach einem stärkeren Einfluß von Krankenkassen und Krankenhausträgern bei der Festsetzung der Pflegesätze und der Schaffung wirtschaftlicher Anreize für den Krankenhausträger. Auch insoweit enthält bereits der Bericht über die Auswirkungen des Krankenhausfinanzierungsgesetzes ins einzelne gehende Feststellungen. Hier verweise ich insbesondere auf die Seiten 10 und 34 des Berichts.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg23">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Braun (CDU/CSU) :</note>
+        <u who="#Q1147115" xml:id="ParlaMint-DE_1976-01-28-07-217.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg24">Herr Staatssekretär, bis wann, glauben Sie, werden die Ergebnisse aus den auf Seite 10 des Berichts genannten Maßnahmen vorliegen, so daß Konsequenzen gezogen werden können?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1976-01-28-07-217.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg25">Es sind noch innerhalb der Bundesregierung, mit den Ländern und mit den Trägern der Krankenhäuser, mit den Kassen und vielen anderen Institutionen, Abstimmungsgespräche erforderlich, deren Urteile für unsere Maßnahmen sehr wichtig sind. Wir wünschen einen schnellen Abschluß. Die Entwicklung der Kosten auch in diesem Bereich des Gesundheitswesens, also im Krankenhaus, zwingt die Bundesregierung dazu, gemeinsam mit den Ländern so schnell wie möglich alles zu tun, um die Entwicklung in günstigere Bahnen zu lenken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg26">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Braun (CDU/CSU) :</note>
+        <u who="#Q1147115" xml:id="ParlaMint-DE_1976-01-28-07-217.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg27">Können Sie dafür ungefähr einen Zeitraum oder einen Zeitpunkt nennen?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1976-01-28-07-217.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg28">Das ist nicht möglich, weil eine Reihe verschiedener Maßnahmen ins Auge gefaßt wird. Darunter könnten Maßnahmen sein, die in einem relativ kurzen Zeitraum zu verwirklichen wären und dann auch Ergebnisse brächten. Wenn ich den spätesten Zeitpunkt für die möglicherweise komplizierteste Maßnahme hier nennen würde, würde der Eindruck enstehen, daß sich bis dahin nichts täte, und ich glaube, diesen Eindruck wollen wir beide nicht hervorrufen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg29">Ich danke Ihnen, Herr Staatssekretär. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit beantwortet. Die beiden Fragen aus dem Geschäftsbereich des Bundesministers für Forschung und Technologie, die Fragen 3 und 4 des Abgeordneten Dr.-Ing. Laermann, werden auf Wunsch des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe den Geschäftsbereich des Bundesministers für Bildung und Wissenschaft auf. Zur Beantwortung der eingereichten Fragen steht der Herr Parlamentarische Staatssekretär Professor Glotz zur Vefügung. Die Fragen 86 und 87 wurden von dem Herrn Abgeordneten Immer eingereicht. Herr Staatssekretär, sollen die Fragen eventuell gemeinsam beantwortet werden, oder wollen Sie sie gesondert beantworten?</seg>
+        </u>
+        <note type="speaker">Dr. Glotz, Parl. Staatssekretär beim Bundesminister für Bildung und Wissenschaft:</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1976-01-28-07-217.u18" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg30">Ich kann die Fragen gesondert beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u19" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg31">Gesondert. Dann rufe ich die Frage 86 auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg32">Nach welchen Kriterien und in welcher Größenordnung werden Schulversuche des Landes Rheinland-Pfalz durch die Bundesregierung finanziell gefördert?</seg>
+        </u>
+        <note type="speaker">Dr. Glotz, Parl. Staatssekretär:</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1976-01-28-07-217.u20" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg33">Herr Kollege, beantragte Schulversuche des Landes Rheinland-Pfalz werden wie die Schulversuche aller Bundesländer nach den in der Bund-Länder-Kommission für Bildungsplanung vereinbarten Kriterien beraten und dann gegebenenfalls auch gefördert. Als Kriterien benutzt diese Bund-Länder-Kommission für inhaltliche Fragen zur Zeit hauptsächlich den 1974 in Kraft gesetzten umfangreichen „Schwerpunktkatalog", der für 1976 und 1977 durch die Bezeichnung der jeweiligen Förderungsschwerpunkte ergänzt oder dann akzentuiert wird. Als formale Kriterien dienen darüber hinaus einige strukturierende Beschlüsse der Bund-Länder-Kommission aus dem Jahre 1974 und 1975, so insbesondere die „Grundsätze für eine koordinierte Entwicklung und für die überregionale Auswertung der Modellversuche bis zum Abschluß des Sekundarbereichs II". Damit, Herr Kollege Immer, steht ein umfangreiches Bündel jeweils zu kombinierender Kriterien der Beurteilung zur Verfügung. Jetzt zum konkreten Teil Ihrer Frage: Im Kindergarten- und Schulbereich — Schulbereich inklusive beruflicher Bildung — sind 1974 10,1 Millionen DM und 1975 11,9 Millionen DM durch die Bund-LänderKommission zur Förderung von Modellversuchen in Rheinland-Pfalz durch die Bundesregierung empfohlen worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg34">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Immer (Altenkirchen) (SPD) :</note>
+        <u who="#Q1407193" xml:id="ParlaMint-DE_1976-01-28-07-217.u22" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg35">Herr Staatssekretär, inwieweit kann Ihr Haus jeweils im Verlauf eines Schulversuchs Einfluß nehmen und sozusagen kritisch oder helfend eingreifen?</seg>
+        </u>
+        <note type="speaker">Dr. Glotz, Parl. Staatssekretär:</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1976-01-28-07-217.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg36">Sie wissen ja, daß die Zuständigkeiten auf Bund und Länder verteilt sind. Wegen dieser Aufteilung der Zuständigkeiten hat der Bund nur die Möglichkeit, sozusagen durch frühzeitige Mitbestimmung der Schwerpunkte der Förderung insgesamt in der Bund-Länder-Kommission Anreize für Anträge der Länder in bestimmten Bereichen zu geben, ohne aber anschließend über Inhalt, Anlage und Organisation und Ausstattung bei der Antragsberatung mitzustimmen. Eine Prüfung der Bereitschaft des Landes, Ergebnisse aus Schulversuchen in das Regelschulwesen zu übernehmen, kann nicht erfolgen, wird jedoch von Bundesseite angenommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg37">Sie haben noch eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Immer (Altenkirchen) (SPD) :</note>
+        <u who="#Q1407193" xml:id="ParlaMint-DE_1976-01-28-07-217.u25" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg38">Herr Staatssekretär, haben Sie nicht den Eindruck, daß gewisse Schulversuche, jetzt auch auf Rheinland-Pfalz bezogen, die sich auf integrierte Gesamtschulen beziehen, mehr pro forma gehandhabt werden und die wissenschaftliche Begleitung darauf ausgerichtet ist, möglichst zu einem negativen Ergebnis zu kommen?</seg>
+        </u>
+        <note type="speaker">Dr. Glotz, Parl. Staatssekretär:</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1976-01-28-07-217.u26" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg39">Herr Kollege Immer, selbstverständlich gibt es in allen Bundesländern politische Wertungen beispielsweise zur integrierten Gesamtschule. Man kann nie ganz ausschließen, daß diese politischen Wertungen dann in das objektische Versuchsgeschehen einfließen. Sie müssen ja sehen, daß das keine naturwissenschaftlichen Experimente sind, sondern Versuche, die mit Menschen gemacht werden, für die auch Geld ausgegeben wird und für die so oder so viel Mühe investiert wird. Einen pauschalen Verdacht gegen das Land Rheinland-Pfalz möchte ich hier aber nicht aussprechen. Wenn man anfangen wollte, solche Verdächtigungen auszusprechen, würde das ganze Förderungssystem in große Schwierigkeiten geraten. Und ich bin auch nicht sicher, ob dann nicht ganz andere Verdachtsmomente noch sehr viel näherlägen als solche bezüglich des Landes Rheinland-Pfalz.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u27" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg40">Ich rufe die Frage 87 des Abgeordneten Immer (Altenkirchen)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg41">auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg42">Worauf erstreckt sich die Förderung von Schulversuchen (Neubau, Personalkosten, Lehr- und Lernmittel) , und inwieweit ist diese Förderung begrenzt bzw. befristet?</seg>
+        </u>
+        <note type="speaker">Dr. Glotz, Parl. Staatssekretär:</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1976-01-28-07-217.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg43">Herr Kollege, die Förderung von Schulversuchen erstreckt sich auf die versuchsbedingten Mehrkosten, von denen der Bund nach Empfehlung durch die Bund-Länder-Kommission in der Regel 50 % trägt; auf Vereinbarung kann das in bestimmten Bereichen auch einmal mehr sein. Diese Mehrkosten können je nach dem Versuchsziel — Personal-, Sachmittel- oder Investitionskosten enthalten. Die Förderung ist der Höhe nach durch Pauschalen und ähnliche Absprachen in der Bund-Länder-Kommission sowie natürlich durch die Ansätze im Bundeshaushalt begrenzt. Eine zeitliche Befristung der Förderung erfolgt ebenfalls in der Bund-LänderKommission. Die Frist berücksichtigt die für die Bedürfnisse der überregionalen Bildungsplanung angemessene Versuchslaufzeit, um frühzeitig zu besseren Ergebnissen zu kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg44">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Immer (Altenkirchen) (SPD) :</note>
+        <u who="#Q1407193" xml:id="ParlaMint-DE_1976-01-28-07-217.u30" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg45">Ich möchte eine letzte Frage stellen: Sind Sie in der Lage, die jeweils fixierten Ergebnisse solcher Schulversuche vergleichend zu analysieren, und können Sie auf dieser Grundlage — natürlich gemeinsam in der Bund-Länder-Kommission — zu Konsequenzen kommen, die auf finanzielle und inhaltliche Zielsetzungen hinzielen?</seg>
+        </u>
+        <note type="speaker">Dr. Glotz, Parl. Staatssekretär:</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1976-01-28-07-217.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg46">Herr Kollege Immer, genau das wäre wünschenswert. Es ist so etwas gerade jetzt bei einem Bereich, nämlich bei Modellversuchen, die sich auf den Primarbereich, auf den Kindergartenbereich beziehen, gelungen. Ich hoffe sehr, daß dies künftig auch in anderen Bereichen gelingen wird, mache aber kein Hehl daraus, daß es — wie zuweilen in der Föderalismusdebatte —das eine oder das andere Land gibt — das eine mehr als das andere; ich will keines ansprechen —, das verfassungsrechtliche Bedenken gegen eine gemeinsame Auswertung dieser Modellversuche ins Feld führt. Die Bundesregierung teilt diese verfassungsrechtlichen Bedenken nicht. Sie weist vielmehr mit Nachdruck darauf hin, daß dann, wenn nur noch das Land selbst, in dem ein Versuch gemacht wird, diesen Versuch auswertet, mit Sicherheit die Gefahr besteht, daß das herauskommt, was dieses Land sowieso politisch von vornherein schon meint. Dies gilt, wenn Sie so wollen, nach links und nach rechts. Es ist deshalb notwendig, daß gemeinsam ausgewertet wird. Diese Versuche und auch das dafür vom Steuerzahler aufgewandte Geld haben nur dann Sinn, wenn gemeinsam ausgewertet wird. Dies ist die Auffassung der Bundesregierung, und ich hoffe, daß dieses Haus auf allen seinen Seiten das nachdrücklich gegenüber einzelnen Ländern, die anderer Auffassung sind, unterstützt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u32" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg47">Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Bildung und Wissenschaft beantwortet. Herr Staatssekretär, ich danke Ihnen. Wir kommen zum Geschäftsbereich des Bundesministers des Innern. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Baum zur Verfügung. Ich rufe Frage 5 des Abgeordneten Berger auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg48">Teilt die Bundesregierung die Ansicht, daß die in Artikel 1 § 2 Abs. 2 des Haushaltsstrukturgesetzes vorgesehene Rechtsstandswahrung hinsichtlich des Ortszuschlags für über 40jährige ledige Beschäftigte des öffentlichen Dienstes auf Geschiedene entsprechend angewandt werden muß, weil eine Schlechterstellung von Geschiedenen gegenüber Ledigen dem Besoldungsrecht bisher völlig fremd ist, ein stichhaltiger Grund für eine Schlechterstellung unter dem Gesichtspunkt des Gleichheitssatzes nicht ersichtlich ist und der Gesetzgeber eine solche Schlechterstellung offensichtlich auch nicht beabsichtigt haben kann? Herr Staatssekretär, ich gehe — sicherlich auch im Einvernehmen mit dem Fragesteller — davon aus, daß die beiden Fragen des Kollegen Berger gemeinsam beantwortet werden, und rufe daher zusätzlich Frage 6 auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg49">Wird der Bundesinnenminister sein Rundschreiben vom 18. Dezember 1975, abgedruckt im Gemeinsamen Ministerialblatt Nr. 2 vom 15. Januar 1976, entsprechend ändern? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg50">Herr Kollege Berger, die in Art. 1 § 2 Abs. 2 des Haushaltsstrukturgesetzes vorgesehene Rechtsstandswahrung hinsichtlich des Ortszuschlages für über 40jährige ledige Beschäftigte des öffentlichen Dienstes ist nach der Entstehungsgeschichte und dem klaren Wortlaut der Vorschrift auf geschiedene Bedienstete ohne Unterhaltsverpflichtung aus der Ehe nicht entsprechend anzuwenden. Die geschiedenen Bediensteten sind vom Gesetzgeber in diese Regelung nicht einbezogen worden. Die Rechtsstandswahrung für Ledige über 40 Jahre war, wie Sie wissen, Herr Kollege, in der Regierungsvorlage nicht enthalten und ist erst im Laufe des Gesetzgebungsverfahrens zur Diskussion gestellt und vom Innenausschuß des Deutschen Bundestages vorgeschlagen worden. Der Haushaltsausschuß ist diesem Vorschlag gefolgt. Zur Begründung wird im Bericht dieses Ausschusses vom 4. November 1975 ausgeführt — ich zitiere :</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg51">Die Einfügung des Absatzes 2 erfolgte zum Zwecke der Besitzstandswahrung unter Rücksichtnahme darauf, daß 85 v. H. der Betroffenen Frauen sind. Außerdem soll dem Umstand Rechnung getragen werden, daß es sich hier um die Kriegsgeneration handelt. Der Haushaltsausschuß folgte insoweit einem Beschluß des Innenausschusses. Herr Kollege, ohne eine gesetzliche Änderung der Rechtslage kann der Bundesminister des Innern daher sein Rundschreiben vom 18. Dezember 1975 nicht ändern. Käme es zu einer solchen Rechtsstandswahrung, könnte sie kaum auf Geschiedene über 40 Jahre beschränkt werden. Sie könnte schließlich, wenn beide Geschiedenen im öffentlichen Dienst beschäftigt sind, nicht zu besseren Ergebnissen als bei Ehegatten führen, für die eine Konkurrenzregelung gilt; sonst würden insoweit Geschiedene vom Gesetzgeber besser behandelt als Verheiratete. Es wäre daher auch noch eine Konkurrenzregelung erforderlich, die die Durchführung des Haushaltsstrukturgesetzes zusätzlich erschweren würde.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u34" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg52">Eine Zusatzfrage, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Berger (CDU/CSU) :</note>
+        <u who="#Q1303710" xml:id="ParlaMint-DE_1976-01-28-07-217.u35" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg53">Können Sie mir denn, Herr Staatssekretär, bestätigen, daß die Regelung der verschiedenen Fälle im Haushaltsstrukturgesetz, in dem der höhere Ortszuschlag teils abgeschafft, teils beibehalten wird, ziemlich kompliziert und unübersichtlich ist, und können Sie mir weiter bestätigen — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg54">Fragezeichen, Herr Kollege!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg55">Ich kann Ihnen ohne weiteres bestätigen, Herr Kollege, daß diese Regelung ziemlich kompliziert ist, so wie das ganze Besoldungsrecht ja eine außerordentlich komplizierte Materie ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg56">Sie haben weitere Zusatzfragen.</seg>
+        </u>
+        <note type="speaker">Berger (CDU/CSU) :</note>
+        <u who="#Q1303710" xml:id="ParlaMint-DE_1976-01-28-07-217.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg57">Können Sie mir denn weiter bestätigen, daß bei den Ausschußberatungen, die ja immer in Anwesenheit von Regierungsvertretern stattfanden, der spezielle Fall der über 40jährigen Geschiedenen niemals angesprochen wurde und von seiten der Regierung niemals auf die unterschiedliche Behandlung von über 40jährigen Ledigen und Geschiedenen hingewiesen wurde?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg58">Das kann ich jetzt aus der Hand nicht bestätigen, Herr Kollege. Aber selbst wenn es so sein sollte, ist die Bundesregierung nicht der Ansicht, daß hier etwa der Gleichheitsgrundsatz verletzt worden wäre. Das wäre ein Motiv für ein Eingreifen der Regierung gewesen. Im übrigen war die Opposition auch anwesend und hat sich, soweit ich weiß, bei dieser Regelung der Stimme enthalten. Sie hat von sich aus keine Initiative unternommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u41" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg59">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Berger (CDU/CSU):</note>
+        <u who="#Q1303710" xml:id="ParlaMint-DE_1976-01-28-07-217.u42" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg60">Würden Sie mir, Herr Staatssekretär, darin zustimmen, daß eine entsprechende, analoge Anwendung von Gesetzesvorschriften sozusagen definitionsgemäß immer über den Wortlaut hinausgeht, daß sie aber trotzdem seit Jahrzehnten, wenn nicht seit Jahrhunderten, im deutschen Recht anerkannt ist und daß ferner die Pflicht .. .</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u43" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg61">Fragezeichen, Herr Kollege!</seg>
+        </u>
+        <note type="speaker">Berger (CDU/CSU) :</note>
+        <u who="#Q1303710" xml:id="ParlaMint-DE_1976-01-28-07-217.u44" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg62">... — das gehört aber unmittelbar dazu, Herr Präsident . — zur verfassungskonformen Auslegung, z. B. unter dem Gesichtspunkt des Gleichsgrundsatzes, auch die Prüfung einer möglichst analogen Anwendung einschließt?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u45" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg63">Herr Kollege, das kann ich Ihnen abstrakt durchaus bestätigen. Das ist alles richtig. Nur trifft es in diesem Fall, wie ich ausgeführt habe, nicht zu.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u46" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg64">Sie haben noch eine letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Berger (CDU/CSU) :</note>
+        <u who="#Q1303710" xml:id="ParlaMint-DE_1976-01-28-07-217.u47" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg65">Können Sie aus dem gesamten öffentlichen Dienstrecht oder aus anderen Rechtsgebieten, z. B. Steuerrecht, irgendwelche Fälle nennen, in denen es auf den Familienstand ankommt und in denen Geschiedene ungünstiger behandelt werden als Ledige?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u48" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg66">Das kann ich aus dem Handgelenk hier nicht, Herr Kollege. Im übrigen habe ich meine Worte bei der Beantwortung Ihrer Fragen so sorgfältig gewogen, daß Sie wohl den Eindruck gewonnen haben, daß meiner Meinung nach die Sache vom Gesetzgeber durchaus noch einmal geprüft werden kann.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Berger [CDU/CSU] : Das wäre gut!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg67">Ich rufe die Frage 7 des Herrn Abgeordneten Gansel auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg68">Ist die Bundesregierung bereit, für ihren Zuständigkeitsbereich eine Reisekostenregelung zu treffen, durch die die durch Einführung der ersten Klasse im innerdeutschen Flugverkehr bei der Lufthansa für manchmal nur halbstündige Flüge entstehenden Mehrkosten verhindert werden können? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u50" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg69">Herr Kollege Gansel, die Frage läßt sich kurz beantworten. Die Einführung der 1. Klasse im innerdeutschen Flugverkehr bei der Deutschen Lufthansa wirkt sich auf die Reisekostenerstattung bei Dienstreisen nicht aus, weil nach dem Bundesreisekostengesetz für die in Betracht kommenden Flüge für alle Dienstreisenden bis B 11 einheitlich schon jetzt nur die Kosten der niedrigsten Flugklasse — das sind die Kosten der Touristenklasse — erstattet werden. Eine Ausnahme besteht für Dienstreisende mit einer Erwerbsminderung von mindestens 50 v. H. . . .</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Riedl [München] [CDU/CSU] : Frau Wieczorek-Zeul verkehrt auch in FirstClass-Restaurants!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u51" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg70">Herr Kollege Riedl, ich bitte um Verständnis. Der Herr Kollege Gansel möchte natürlich den Gesamtzusammenhang der Antwort erfassen. Wenn Sie so laut rufen, kann er das nicht.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf der Abg. Frau Berger [Berlin] [CDU/CSU]</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg71">— Frau Kollegin Berger, dasselbe gilt für Ihre Zwischenrufe. Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u52" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg72">denen allgemein die Benutzung der 1. Klasse zugebilligt wird. Ich gehe nicht davon aus, daß die Absicht besteht, das zu ändern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u53" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg73">Herr Kollege Gansel!</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1976-01-28-07-217.u54" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg74">Herr Staatssekretär, ist es dann so, daß die einzige Gruppe, für die durch die Einführung der 1. Klasse für Inlandsflüge bei der Lufthansa Mehrkosten beim Bund entstehen, die Abgeordneten sind?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der CDU/CSU: Nein!</desc>
+        </vocal>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u55" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg75">Nein. Die Bundesminister und die Parlamentarischen Staatssekretäre fallen auch darunter.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Und die Staatssekretäre?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg76">— Die Staatssekretäre nicht, Herr Kollege. Dienstreisende bis B 11 fliegen in der Touristenklasse.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u56" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg77">Herr Kollege Gansel, Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1976-01-28-07-217.u57" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg78">Auf Grund Ihres Hinweises auf B 11 möchte ich Sie fragen: Wenn Sie zusammen mit Ihrem beamteten Kollegen, dem Staatssekretär im Innenministerium, eine Dienstreise machen, fliegt dieser dann in der Touristenklasse und Sie, weil Sie auch noch Abgeordneter und Parlamentarischer Staatssekretär sind, 1. Klasse, und ist das eine sinnvolle Regelung?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u58" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg79">Bei dem Verhältnis, das ich zu meinen Kollegen habe, würde ich mich zu ihnen setzen und auch keinen höheren Flugpreis beanspruchen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit und Beifall bei der SPD — Zurufe von der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u59" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg80">Meine Damen und Herren, nach dieser sicher erheiternden Angelegenheit rufe ich die Frage 8 des Herrn Abgeordneten Hoffie auf, der aus ganz anderer Sicht vielleicht gern einen Beitrag dazu geleistet hätte, aber darauf verzichtet hat:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg81">Will die Bundesregierung den Versuch von Namensverstümmelungen auf Grund der Verwendung von sogenannten „Match Codes" — wie z. B. neuerdings bei der Gebühreneinzugs-zentrale (GEZ)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg82">— in ihrem eigenen Organisationsbereich als einer unzulässigen Namensverletzung entgegentreten, um nicht zuletzt auch ein Präjudiz für ähnliche Verfahrensweisen bei Behörden von Anfang an auszuschließen? Bitte!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg83">Herr Kollege Hoffie, die Bundesregierung teilt die Auffassung von Bundesverfassungsgericht und Bundesverwaltungsgericht, daß der Name Bestandteil eines in Art. 1 des Grundgesetzes anerkannten Persönlichkeitsrechts ist, so daß ein Angriff auf das Namensrecht des einzelnen Bürgers eine Verletzung der Menschenwürde darstellen kann. Das schließt nach der Rechtsprechung nicht aus, daß in beschränktem Umfang bei der Wiedergabe des Namens eine technisch bedingte Änderung der Schreibweise, wie z. B. die Schreibung des Umlauts ö mit oe, erfolgt. Nach der Rechtsprechung des Bundesverwaltungsgerichts stellt dieses keinen Eingriff in das Namensrecht und keine Verletzung des Grundrechts auf Achtung und Schutz der Menschenwürde dar. Dennoch hat der Bundesminister des Innern, um die unveränderte Wiedergabe der Umlaute und des Zeichens „ß" zu fördern, für den Datenaustausch die Verwendung des Normcode (DIN)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg84">empfohlen, der Umlaute und das Zeichen „ß" enthält. Hinsichtlich des von Ihnen angeführten von der Gebühreneinzugszentrale (GEZ)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg85">der Rundfunkanstalten verwendeten sogenannten „Match Code" ist uns von dort folgende Antwort gegeben worden: Es handelt sich um einen Suchbegriff, der nur in besonderen Fällen zu internen Zwecken gebildet wird. Wenn die Angabe der Teilnehmernummer — z. B. bei Zahlung oder Rückfragen — fehlt, so wird im Interesse des jeweiligen Teilnehmers hilfsweise ein solcher Suchbegriff zum Auffinden des betreffenden Datensatzes in der Datenbank verwendet. Bei der GEZ enthält dieser Suchbegriff neben Postleitzahl und verkürzten Adressenbestandteilen auch verkürzte Namensbestandteile. Im Verkehr mit den Teilnehmern tritt aber dieser interne Suchbegriff nicht in Erscheinung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u61" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg86">Keine Zusatzfrage? — Dann rufe ich die Frage 9 des Abgeordneten Dr. Wittmann (München)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg87">auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg88">Hat die Bundesregierung die Absicht, eine Gesetzesvorlage einzubringen, wonach die Ausgleichsausschüsse bei den Ausgleichsämtern und der Ständige Beirat beim Bundesausgleichsamt abgeschafft werden sollen? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u62" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg89">Herr Kollege Dr. Wittmann, die Prüfung der Anregungen des Präsidenten des Bundesrechnungshofs als Beauftragten für Wirtschaftlichkeit in der Verwaltung vom Oktober 1975 in seinem Bericht für die Beratungen des Entwurfs des Bundeshaushaltsplanes 1976 ist noch nicht abgeschlossen. Vom Ergebnis der Prüfung wird es abhängen, ob und zu welchem Zeitpunkt gesetzgeberische Maßnahmen erforderlich sind. Ich möchte aber hinzufügen, daß der Ständige Beirat beim Bundesausgleichsamt und die Ausgleichsausschüsse nach unserer Meinung ihren gesetzlichen Auftrag bisher voll erfüllt haben, daß aber, wie gesagt, vor der abschließenden Prüfung dieses Berichts eine weitere Entscheidung nicht getroffen werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u63" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg90">Sie haben eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1976-01-28-07-217.u64" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg91">Herr Staatssekretär, Ihrer Antwort entnehme ich, daß sich diese Ausschüsse nach Auffassung der Bundesregierung als nützlich erwiesen haben.</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg92">Das ist richtig, Herr Kollege. Aber man wird auf die Fragen, die der Beauftragte für die Wirtschaftlichkeit hier aufgeworfen hat, eingehen müssen, so daß ich — um es noch einmal zu betonen — eine abschließende Stellungnahme der Regierung heute nicht vortragen kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg93">Noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1976-01-28-07-217.u67" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg94">Herr Staatssekretär, glauben Sie nicht, daß die Lösung der Probleme, die sich durch die Spätaussiedler ergeben, vermehrte Sachkenntnis erfordert und daß gerade der Beirat und die Ausschüsse diese Sachkenntnis in die Verwaltung mit einbringen, die für die schwierigen Ausgleichsfälle jetzt notwendig ist?</seg>
+        </u>
+        <note type="speaker">Baum, Parl. Staatssekretär:</note>
+        <u who="#Q518517" xml:id="ParlaMint-DE_1976-01-28-07-217.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg95">Das ist richtig, Herr Kollege. Die Motive, die zur Einführung dieser Ausschüsse geführt haben, bestehen, zu einem Teil jedenfalls, noch fort. Sie haben, wie gesagt, ihren Auftrag voll erfüllt. Die Frage ist nur, in welchem Umfang der gesetzliche Auftrag noch besteht und welche Schlußfolgerungen insgesamt daraus zu ziehen sind.</seg>
+        </u>
+        <incident type="action">
+          <desc>Abg. Jäger [Wangen] [CDU/CSU] meldet sich zu einer Zusatzfrage</desc>
+        </incident>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u69" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg96">Ich lasse dazu keine Zusatzfrage mehr zu. Danke schön. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers des Innern abgeschlossen. Ich rufe den Geschäftsbereich des Bundesministers der Justiz auf. Für die Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Dr. de With zur Verfügung. Ich rufe die Frage 10 der Frau Abgeordneten Berger (Berlin)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg97">auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg98">Ist die Bundesregierung nunmehr bereit, eine verbindliche Zusage dahin gehend zu geben, daß der Entwurf eines Gesetzes über die internationale Rechtshilfe in Strafsachen noch in dieser Legislaturperiode den gesetzgebenden Körperschaften vorgelegt wird? Herr Staatssekretär, wollen Sie beide Fragen gemeinsam beantworten, die Frau Abgeordnete Berger gestellt hat?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u70" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg99">Ich kann das gerne tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u71" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg100">Frau Berger, sind Sie damit einverstanden?</seg>
+        </u>
+        <note type="speaker">Frau Berger (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1715592" xml:id="ParlaMint-DE_1976-01-28-07-217.u72" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg101">Ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u73" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg102">Dann rufe ich auch die Frage 11 der Frau Abgeordneten Berger (Berlin)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg103">auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg104">Hält die Bundesregierung angesichts der mehrjährigen Vorarbeiten an dem Entwurf eines Gesetzes über die internationale Rechtshilfe in Strafsachen weiterhin an der Auffassung fest, eine schnellere Erarbeitung sei wegen der Schwierigkeit der Materie nicht möglich gewesen, oder sollte ein als wirklich vorrangig angesehenes Vorhaben nicht trotz aller Schwierigkeiten kurzfristiger abgeschlossen werden können?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u74" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg105">Auf Ihre im Februar 1975 gestellte Frage, die gleichfalls den Entwurf eines Gesetzes über die internationale Rechtshilfe in Strafsachen betraf, habe ich in der Fragestunde am 19. Februar 1975 unter anderem geantwortet, die Bundesregierung sei bemüht, den Gesetzentwurf möglichst bald den gesetzgebenden Körperschaften vorzulegen. Sie beabsichtige, die Kabinettsvorlage noch in dieser Legislaturperiode fertigzustellen. Zugleich habe ich, auch unter Bezugnahme auf Erörterungen dieses Punktes anläßlich früherer Anfragen, auf einige Schwierigkeiten hingewiesen, die sich bei den Arbeiten an dem Entwurf ergeben haben. Diese Schwierigkeiten haben sich nicht verringert. Es sind vielmehr andere hnzugekommen. Nach einer sorgfältigen Bestandsaufnahme und bei realistischer Einschätzung der gegebenen Möglichkeiten kann ich gegenwärtig keine verbindliche Zusage geben, daß die Bundesregierung den Entwurf eines Gesetzes über die internationale Rechtshilfe in Strafsachen noch in dieser Legislaturperiode den gesetzgebenden Körperschaften vorlegen wird. Ich sichere Ihnen aber zu, daß wir alle uns möglichen Bemühungen unternehmen werden, um das Vorhaben zu fördern und den Gesetzentwurf fertigzustellen. Den ersten Teil Ihrer zweiten Frage möchte ich dahin gehend beantworten, daß das in Vorbereitung befindliche Gesetz über die internationale Rechtshilfe in Strafsachen, welche das Deutsche Auslieferungsgesetz aus dem Jahre 1929 ersetzen soll, in der Tat viele schwierige Fragen aufwirft, die sehr spezieller Natur sind und langwierige Vorarbeiten erfordern. Es geht ja nicht nur um die Sie besonders interessierende Abfassung von Bestimmungen, welche die Vollstreckungen ausländischer Strafentscheidungen in der Bundesrepublik Deutschland ermöglichen sollen; vielmehr sollen das gesamte Recht der Aus-, Durch- und Rücklieferung sowie das Recht der sonstigen zwischenstaatlichen Rechtshilfe in Strafsachen neu geregelt werden. Ich habe hierzu bei verschiedenen Gelegenheiten eingehende Ausführungen gemacht und erlaube mir, um Wiederholungen zu vermeiden, auf die Antworten meines Amtsvorgängers, des Kollegen Dr. Bayerl, sowie auf meine Antworten vom 23. Juli 1973 auf die Frage des Herrn Kollegen Dr. Lenz, vom 23. Juli 1974 und vom 19. Februar 1975 auf Ihre Fragen, Frau Kollegin Berger, sowie vom 19. September 1974 auf die Fragen des Herrn Kollegen Lampersbach Bezug zu nehmen. Dort habe ich mich auch ausführlich zur Frage der Dringlichkeit des Gesetzesvorhabens geäußert und die Meinung vertreten, daß eine Priorität nur in dem Teil des Gesetzentwurfes gesehen werden kann, der Regelungen über die Vollstreckung ausländischer Strafentscheidungen im Inland enthalten wird. Gerade dieser Teil bereitet, wie Sie wissen, die meisten Schwierigkeiten. Es ändert allerdings nichts daran, daß damit auch das gesamte Gesetz als wichtig erachtet werden muß. Dagegen stellt es nach Auffassung der Bundesregierung kein Vorhaben dar, das man als wirklich vorrangiges Projekt bezeichnen kann. Das würde man wohl nur dann tun können, wenn die uns alle bewegenden Fälle der Verurteilung junger Deutscher im Ausland zu ungewöhnlich hohen Freiheitsstrafen mit Hilfe dieses Gesetzes einigermaßen befriedigend gelöst werden könnten. Das ist indessen bei realistischer Einschätzung der Situation schwerlich zu erwarten. Auch hierzu möchte ich mich auf meine früheren Stellungnahmen beziehen. Vordringliche Aufgaben auf dem Gebiet des internationalen Terrorismus haben im übrigen die Strafrechtsabteilung des Bundesministeriums der Justiz bisher am Abschluß der Arbeiten gehindert. Wenn Sie, sehr verehrte Frau Kollegin Berger, all das zusammennehmen, erhoffe ich Ihr Verständnis dafür, daß ich hier und jetzt keine Zusagen geben kann, von denen ich nicht sicher weiß, ob wir sie einhalten können. Ich teile aber Ihre Meinung, daß alles versucht werden sollte, damit der Entwurf möglichst bald den gesetzgebenden Körperschaften vorgelegt werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u75" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg106">Frau Kollegin, Sie haben jetzt Zusatzfragen.</seg>
+        </u>
+        <note type="speaker">Frau Berger (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1715592" xml:id="ParlaMint-DE_1976-01-28-07-217.u76" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg107">Herr Staatssekretär, können Sie mir sagen, seit wann sich das Bundesministerium der Justiz mit der Bearbeitung des Gesetzentwurfes bzw. mit der Prüfung der in Frage stehenden Rechtsmaterie befaßt?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg108">Ich sage das etwas unter Vorbehalt: Eine Bund-Länder-Kommission hat, so meine ich, ihre Arbeiten 1969 abgeschlossen und dem Bundesministerium der Justiz überantwortet. Seitdem wird der Versuch unternommen, hier zu einem Referentenentwurf zu kommen, der all den geschilderten, wirklich sehr schwierigen Erfordernissen genügt. Ich möchte nur auf eines hinweisen. Es ist, glaube ich, auch für den Laien deutlich, daß es nicht einfach sein kann, eine gesetzliche Möglichkeit zu schaffen, die es erlaubt, eine Freiheitsstrafe von beispielsweise 30 Jahren, die in einem ausländischen Staat ausgesprochen wird, auf das, was bei uns Recht und Gesetz ist, zu transformieren, und zwar so, daß der andere Staat etwaigen Begehren um Auslieferung zum Zwecke der Vollstreckung auch entsprechen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u78" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg109">Frau Kollegin, Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Berger (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1715592" xml:id="ParlaMint-DE_1976-01-28-07-217.u79" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg110">Herr Staatssekretär, ich greife das Stichwort „Meinungsverschiedenheiten" auf und frage Sie, ob es Meinungsverschiedenheiten mit den Bundesländern oder mit den beteiligten Bundesressorts gab oder gibt, durch die die Bearbeitung verzögert worden ist, und wie Sie gegebenenfalls Ihre Aussichten beurteilen, diese Schwierigkeiten auszuräumen.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u80" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg111">Soweit ich es sehe, sind bisher Schwierigkeiten der einen oder anderen Art, d. h. zwischen Bund und Ländern oder zwischen den Ressorts nicht aufgetreten. Ich meine, die Frage kann erst dann entscheidend beantwortet werden, wenn Antworten auf einen Referentenentwurf eingegangen sein werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u81" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg112">Frau Kollegin, Sie haben noch weitere Zusatzfragen.</seg>
+        </u>
+        <note type="speaker">Frau Berger (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1715592" xml:id="ParlaMint-DE_1976-01-28-07-217.u82" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg113">Herr Staatssekretär, zum Stichwort „1969": Hält die Bundesregierung die Verzögerung der Vorlage des auch von Ihnen als vordringlich bezeichneten Entwurfs tatsächlich für vertretbar, obwohl nach Ihrer Auskunft in der Fragestunde vom 26. April 1972 damals bereits ein einschlägiger Kommissionsentwurf vorlag und nur noch einzelne, wenn auch vielleicht schwierige Fragen zu klären waren?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u83" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg114">Ich wiederhole, daß diese Vorlage für dringlich gehalten wird. Ich beziehe mich auf meine vorherigen Ausführungen, aus denen ersichtlich war, daß andere dringliche Aufgaben hinzukommen können und in einem Falle auch hinzugekommen sind, nämlich die Ausarbeitung einer europäischen beziehungsweise internationalen Konvention zur Bekämpfung des Terrorismus. Ich glaube, es erhellt, daß dieser Frage Vorrang eingeräumt werden muß. Zweitens kommt hinzu, daß diese Abteilung außerordentlich belastet ist, denn die internationalen Verträge nehmen zu und machen es erforderlich, daß aus dieser Abteilung und aus diesen Referaten Leute zu internationalen Verhandlungen abgestellt werden. Drittens gestatten Sie mir den Hinweis, daß das Bundesministerium — gemessen an den Aufgaben, die es wahrzunehmen hat — bestimmt nicht übermäßig gut besetzt ist. Es mußte auch bei den Haushaltskürzungen — gestatten Sie mir diesen saloppen Ausdruck — „Haare lassen". Das Referat selbst ist, was die Mitarbeiter angeht, ganz sicher nicht schlecht besetzt. Insoweit ist nach meiner Meinung dieser Priorität Rechnung getragen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u84" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg115">Die nächste Frage — Nr. 12 — ist von dem Herrn Abgeordneten Spranger eingereicht worden:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg116">Wann wird der Generalbundesanwalt vor dem Kammergericht Anklage gegen die Angehörigen der kriminellen Vereinigung erheben, die für die Ermordung des Berliner Kammergerichtspräsidenten und die Entführung des Berliner CDU-Vorsitzenden verantwortlich ist, oder vertritt die Bundesregierung etwa die Auffassung, es handele sich nicht um Fälle von besonderer Bedeutung? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u85" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg117">Dem Generalbundesanwalt beim Bundesgerichtshof sind vor einigen Tagen die umfangreichen Ermittlungsvorgänge vorgelegt worden, die er zur Zeit — mit der in einer Haftsache gebotenen Beschleunigung — prüft. Unter diesem Umständen ist eine verbindliche Aussage über Ort und Zeit der Anklageerhebung verständlicherweise noch nicht möglich. Im übrigen steht hier nicht nur der Vorwurf einer Beteiligung an einer kriminellen Vereinigung — § 129 StGB — zur Debatte, sondern auch eine Nötigung von Verfassungsorganen — § 105 StGB —, für die die primäre Zuständigkeit des Generalbundesanwalts gemäß § 142 a Abs. 1 in Verbindung mit § 120 Abs. 1 Nr. 5 des Gerichtsverfassungsgesetzes gegeben ist. Schließlich möchte ich darauf hinweisen, daß die Bundesregierung niemals einen Zweifel daran gelassen hat, daß sie die angesprochenen Straftaten für außerordentlich schwerwiegend hält.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u86" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg118">Zu einer Zusatzfrage Herr Abgeordneter Spranger.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1976-01-28-07-217.u87" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg119">Herr Staatssekretär, teilt die Bundesregierung dann die Auffassung, daß ein Tätigwerden des Generalbundesanwalts in dieser Sache auch in Westberlin rechtlich zulässig und auch geboten erscheint?</seg>
+        </u>
+        <note type="speaker">Dr de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u88" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg120">Die Strafprozeßordnung und das Gerichtsverfassungsgesetz gelten auch in Berlin. Der Generalbundesanwalt hat in einem entsprechenden Fall — darauf darf ich verweisen —, nämlich in dem Fall Mahler, in Berlin Anklage erhoben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u89" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg121">Sie haben eine weitere Zusatzfrage, Herr Abgeordneter Spranger.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU):</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1976-01-28-07-217.u90" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg122">Darf ich daraus folgern, Herr Staatssekretär, daß nach Auffassung der Bundesregierung eventuelle Proteste der DDR oder der Sowjetunion bei einem Tätigwerden des Generalbundesanwalts in dieser Sache rechtlich unbegründet sind?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u91" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg123">Ich bin nicht sicher, ob es klug ist, durch entsprechende Fragen auch nur den Anschein eines Präjudiz zu erwecken. Ich darf jedenfalls mit allem gebotenen Nachdruck darauf hinweisen, daß die Bundesregierung den Erfordernissen entsprechen wird, wie sie es auch in früheren Fällen getan hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u92" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg124">Eine Zusatzfrage des Herrn Abgeordneten Dr. Freiherr Spies von Büllesheim.</seg>
+        </u>
+        <note type="speaker">Dr. Freiherr Spies von Büllesheim (CDU/CSU) :</note>
+        <u who="#Q361600" xml:id="ParlaMint-DE_1976-01-28-07-217.u93" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg125">Herr Staatssekretär, schließen Sie aus, daß die späte Übersendung der Akten die angedeuteten politischen Schwierigkeiten als Ursache gehabt haben könnten?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u94" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg126">Ich habe überhaupt keinen Grund anzunehmen, daß Ihre Wertung, es handele sich hierbei um eine späte Übersendung der Akten, zutreffend ist. Ich gehe davon aus, daß die Übersendung der Akten zu diesem Zeitpunkt auf Grund der Ermittlungen geboten war.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u95" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg127">Sie haben keine Zusatzfrage mehr, Herr Abgeordneter Spranger. — Es liegen keine weiteren Zusatzfragen vor.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg128">- Herr Abgeordneter, Sie waren leider nicht an das Mikrophon getreten; ich rufe deshalb die nächste Frage des Herrn Abgeordneter Spranger auf. Nach den Richtlinien sollen die Fragesteller an das Mikrophon treten, da nur so zu erkennen ist, ob sie wirklich eine Zusatzfrage stellen wollen.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der SPD: Da haben die Schriftführer nicht aufgepaßt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg129">Ich rufe also die nächste Frage des Herrn Abgeordneten Spranger auf. Stimmt es, daß — wie von der Frankfurter Allgemeinen Zeitung vom 21. Januar 1976 gemeldet —, Ost-Berlin seinen Wunsch, den wegen schweren Landesverrats verurteilten ehemaligen Kanzlerreferenten im Wege des Austausches frei zu bekommen, verstärkt zur Geltung gebracht hat und in der Bundesregierung dies für die Zeit nach der Bundestagswahl erwogen wird, und wie ist dies — bejahendenfalls — mit den bisherigen Versicherungen der Bundesregierung zu vereinbaren, eine vorzeitige Freilassung komme nicht in Frage? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u96" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg130">Nein, Herr Kollege Spranger.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u97" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg131">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1976-01-28-07-217.u98" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg132">Herr Staatssekretär, darf ich Ihrer kurzen Antwort entnehmen, daß die Bundesregierung nach wie vor der Meinung ist, daß der Nachrichtenwert des Spions für die DDR über die Aburteilung hinaus außerordentlich hoch ist und daß diese Tatsache auch bei zukünftigen Entscheidungen eine maßgebliche Rolle spielen wird?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg133">Ich habe meiner jetzigen Antwort und den früher gegebenen Antworten nichts hinzuzufügen. Ich denke auch, daß die bisherige Handlungsweise der Bundesregierung dies mit Nachdruck unterstreicht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg134">Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1976-01-28-07-217.u101" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg135">Darf ich Ihrer „umfassenden" Auskunft entnehmen, daß die DDR in der letzten Zeit tatsächlich verstärkt an die Bundesregierung — sei es direkt oder über Mittelspersonen — herangetreten ist, um die Auslieferung oder eventuelle Begnadigung des Spions zu erreichen, wie es in Zeitungsmeldungen heißt?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u102" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg136">Eine umfangreiche und oft gestellte Frage erfordert keineswegs eine umfangreiche Antwort. Unter den gegebenen Umständen war es richtig, mit Nein zu antworten. Das ist, meine ich, auch die korrekte Antwort auf ihre wiederholte Frage, die schon früher beantwortet wurde.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u103" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg137">Eine Zusatzfrage des Herrn Abgeordneten Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD) :</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1976-01-28-07-217.u104" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg138">Herr Staatssekretär, können Sie mir einmal darstellen, warum die Opposition dieses Thema in der Öffentlichkeit und nun inzwischen auch im Parlament laufend kocht, obwohl sie genau weiß, daß die Erklärung der Bundesregierung ganz klar eine Verneinung beinhaltet?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u105" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg139">Herr Kollege, zu meinem großen Bedauern muß ich feststellen, daß die von Ihnen in dieser Form gestellte Zusatzfrage so nicht zugelassen werden kann. Eine Zusatzfrage des Herrn Abgeordneten Engelsberger.</seg>
+        </u>
+        <note type="speaker">Engelsberger (CDU/CSU):</note>
+        <u who="#Q122647" xml:id="ParlaMint-DE_1976-01-28-07-217.u106" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg140">Herr Staatssekretär, hat die DDR den Versuch unternommen, den Spion Guillaume auszutauschen.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u107" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg141">Ich habe darauf, glaube ich, heute zweimal mit Nachdruck mit Nein geantwortet. Ich wiederhole dieses Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u108" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg142">Eine Zusatzfrage des Herrn Abgeordneten Weber.</seg>
+        </u>
+        <note type="speaker">Dr. Weber (Köln) (SPD) :</note>
+        <u who="#Q1498945" xml:id="ParlaMint-DE_1976-01-28-07-217.u109" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg143">Herr Parlamentarischer Staatssekretär, sind Sie mit mir der Auffassung, daß solche ohne realen Hintergrund gestellten Anfragen der Opposition bei der Bevölkerung nur den Eindruck der Verunsicherung und den Eindruck der ungleichmäßigen Behandlung von Strafgefangenen erwecken sollen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u110" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg144">Herr Kollege, zu meinem großen Bedauern muß ich bei Ihrer Frage ebenso verfahren wie bei der Zusatzfrage des Herrn Abgeordneten Stahl. Eine Zusatzfrage des Herrn Abgeordneten Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1976-01-28-07-217.u111" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg145">Herr Staatssekretär, sind denn tatsächlich überhaupt keinerlei Personen, die unmittelbar oder mittelbar im Auftrag der DDR handelten, an die Bundesregierung herangetreten?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg146">Ich möchte sagen, Ihre Fragen beinhalten Jägerlatein.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit und Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg147">Eine Zusatzfrage des Herrn Abgeordneten Tietjen.</seg>
+        </u>
+        <note type="speaker">Tietjen (SPD) :</note>
+        <u who="#Q1561881" xml:id="ParlaMint-DE_1976-01-28-07-217.u114" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg148">Herr Staatssekretär, schließen Sie aus, daß diese Frage trotz Ihrer Antwort und der vielen Dementis in der Fragestunde der nächsten Sitzungswoche von der Opposition genauso wieder gestellt werden wird?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg149">Herr Kollege, auch für diese Zusatzfrage gilt das, was ich eben gesagt habe. Ich lasse jetzt noch zwei Zusatzfragen zu. Zunächst eine Zusatzfrage des Herrn Abgeordneten Spies von Büllesheim.</seg>
+        </u>
+        <note type="speaker">Dr. Freiherr Spies von Büllesheim (CDU/CSU) :</note>
+        <u who="#Q361600" xml:id="ParlaMint-DE_1976-01-28-07-217.u116" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg150">Herr Staatssekretär, glauben Sie, daß Ihre Antwort — das sei Jägerlatein — eine Antwort auf die gestellte Frage war?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg151">Ich glaube, die Antwort ist richtig verstanden worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg152">Herr Kollege, auch für Ihre Zusatzfrage gilt das, was ich zu den Zusatzfragen allgemein gesagt habe. Zur letzten Zusatzfrage hat das Wort Herr Abgeordneter Tillmann.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU) :</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1976-01-28-07-217.u119" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg153">Herr Staatssekretär, würden Sie Meldungen der „Frankfurter Allgemeinen Zeitung" als Jägerlatein bezeichnen?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg154">Ich habe auf die Frage des Herrn Kollegen Spranger ganz deutlich mit einem klaren Nein geantwortet. Das sollte genügen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg155">Meine Damen und Herren, so sehr ich Verständnis für das Bedürfnis habe, Zusatzfragen zu stellen: Ich wäre Ihnen nur dankbar, wenn Sie diese Zusatzfragen gemäß der Geschäftsordnung so stellen, daß sie — wenn auch unter Zuhilfenahme von Brücken — mit der eingereichten Frage in Verbindung stehen. Die Frage 14 des Herrn Abgeordneten Schmidhuber wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 15 des Herrn Abgeordneten Engelsberger auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg156">Wie ist die Erklärung von Bundeskanzler Brandt am 26. April 1974 im Deutschen Bundestag, „Der Agent war von mir nicht mit Geheimakten befaßt, weil dies nicht zu seinen Aufgaben gehörte" zu vereinbaren mit der Begründung des Gerichts im Urteil gegen den „DDR"-Spion Guillaume, „eine ungenügend angesetzte und dann zu spät einsetzende Kontrolle hat dem Agenten das Tun erleichtert", sowie der Aussage von Angestellten des Bundesnachrichtendienstes vor Gericht, Guillaume habe 1973 während des Norwegen-Urlaubs mit Brandt insgesamt 12 geheime und 4 vertrauliche Fernschreiben in Empfang genommen und zweimal geheime Fernschreiben zur Weitergabe nach Bonn abgeliefert? Bitte!</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u122" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg157">Herr Kollege Engelsberger, die schriftliche Begründung des vom Oberlandesgericht Düsseldorf gesprochenen Urteils in dem Strafverfahren gegen Guillaume liegt noch nicht vor. Das Urteil ist überdies, weil die Angeklagten Revision eingelegt haben, auch noch nicht rechtskräftig. Es entspricht der Übung der Bundesregierung, während eines schwebenden Verfahrens keine Stellungnahme abzugeben. Den Gegenstand des zweiten Teils Ihrer Frage hat der frühere Bundeskanzler bereits in seiner Aussage vor dem Untersuchungsausschuß des Deutschen Bundestages am 20. September 1974 ausführlich behandelt und klargestellt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg158">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Engelsberger (CDU/CSU) :</note>
+        <u who="#Q122647" xml:id="ParlaMint-DE_1976-01-28-07-217.u124" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg159">Herr Staatssekretär, können Sie der Feststellung zustimmen, daß aus der Erklärung des damaligen Bundeskanzlers Brandt am 26. April 1974 vor dem Deutschen Bundestag und den Aussagen der Angestellten des Bundesnachrichtendienstes vor Gericht nur der Schluß gezogen werden kann, daß der damalige Bundeskanzler Brandt die Unwahrheit gesagt hat?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg160">Ich denke, meine Antwort war klar, und ich darf diese wiederholen: Den Gegenstand des zweiten Teils Ihrer Frage hat der frühere Bundeskanzler bereits in seiner Aussage vor dem Untersuchungsausschuß des Deutschen Bundestages am 20. September 1974 ausführlich behandelt und klargestellt. Ich darf auf die Protokolle verweisen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u126" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg161">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Engelsberger (CDU/CSU) :</note>
+        <u who="#Q122647" xml:id="ParlaMint-DE_1976-01-28-07-217.u127" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg162">Herr Staatssekretär, nachdem Sie sich in dieser Angelegenheit schon wiederholt auf schwebende Verfahren zurückgezogen haben, muß sich die Frage stellen, ob es dem Informationsbedürfnis des Deutschen Bundestages und der Bürger entspricht, wenn Sie jeweils von Protokollen oder von schwebenden Verfahren sprechen, um die Antwort zu verschleiern oder zu verhindern.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der SPD: Unerhört!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg163">Herr Kollege, die Wertung im letzten Halbsatz kann ich in diesem Zusammenhang nicht zulassen. Ich lasse aber die Frage unter Ausklammerung der Wertung zu.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u129" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg164">Weder die Bundesregierung noch ich versuchen, eine ausweichende Antwort zu geben oder uns irgendwie zurückzuziehen. Ich meine, es entspricht normalerweise der noblen Pflicht des Bürgers in einer Demokratie, daß er, bevor die Gerichte oder die zuständigen Strafverfolgungsbehörden gesprochen haben, nicht den Versuch unternimmt, eine Wertung abzugeben. Daran halten wir uns. Es ist normal, meine ich, daß dieser Gepflogenheit auch gegenüber den Mitgliedern dieses Hauses entsprochen wird.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Zustimmung bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u130" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg165">Frau Abgeordnete Berger.</seg>
+        </u>
+        <note type="speaker">Frau Berger (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1715592" xml:id="ParlaMint-DE_1976-01-28-07-217.u131" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg166">Herr Staatssekretär, in welcher Form hat die Bundesregierung ihr in der gleichen Sitzung des Deutschen Bundestages, also am 26. April 1974 angekündigtes Vorhaben verwirklicht, die Öffentlichkeit über die permanente Spionagegefahr in unserem Land aufzuklären?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u132" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg167">Frau Kollegin Berger, ich bedaure, daß ich hier den unmittelbaren Zusammenhang mit der Frage, wie ihn die Geschäftsordnung verlangt, nicht feststellen kann. Ich lasse daher die Zusatzfrage nicht zu. Eine Zusatzfrage des Herrn Abgeordneten Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD) :</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1976-01-28-07-217.u133" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg168">Herr Staatssekretär, trifft es zu, daß der Vorsitzende des Untersuchungsausschusses der Opposition angehört und daß die Opposition weitestgehend die Möglichkeit hatte, sich entsprechend zu informieren?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg169">Diese Frage kann ich nur mit Ja beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u135" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg170">Die letzte Zusatzfrage stellt der Herr Abgeordnete Spranger.</seg>
+        </u>
+        <note type="speaker">Spranger (CDU/CSU) :</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1976-01-28-07-217.u136" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg171">Herr Staatssekretär, haben I Sie irgendeinen Anlaß, an der Richtigkeit der Zitate in der Frage des Herrn Fragestellers zu zweifeln, und warum ist die Bundesregierung nicht in der Lage, angesichts dieser Zitate die logischen Schlußfolgerungen zu ziehen?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1976-01-28-07-217.u137" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg172">Ich habe meine Antwort gegeben und dieser nichts hinzuzufügen. Ich wiederhole die Antwort nochmals: Der Gegenstand des zweiten Teils Ihrer Frage hat der frühere Bundeskanzler bereits in seiner Aussage vor dem Untersuchungsausschuß des Deutschen Bundestages am 20. September 1974 ausführlich behandelt und klargestellt. — Ich glaube, dies ist eine präzise und deutliche Antwort. Jeder kann, wenn er Zweifel hat, nachlesen, was von dem früheren Bundeskanzler damals gesagt wurde.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u138" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg173">Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers der Justiz beantwortet. Ich danke Ihnen, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers der Finanzen auf. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär Haehser zur Verfügung. Die Frage 16 ist von dem Herrn Abgeordneten Althammer eingebracht:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg174">Was kann die Bundesregierung unternehmen, um die Bankaufsicht so wirksam zu gestalten, daß arbeitsplatzgefährdende Spekulationen mit Hilfe von Kreditinstituten, die einen Gewährsträger der öffentlichen Hand haben (Landesbanken und Sparkassen oder gewerkschaftseigene Kreditinstitute) unmöglich werden?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1976-01-28-07-217.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg175">Herr Kollege Dr. Althammer, nach dem marktwirtschaftlichen Verständnis unserer Wirtschaftsordnung kann die staatliche Bankenaufsicht nur in engen Grenzen auf Kreditgeschäfte Einfluß nehmen. Die Verantwortung für die Führung von Wirtschaftsunternehmen, also auch für — wie Sie in Ihrer Frage formuliert haben — arbeitsplatzgefährdende Spekulationen, trägt die Geschäftsleitung des Unternehmens. Die Bundesregierung beabsichtigt nicht, daran etwas zu ändern. Die Bankenaufsicht kann nur da eingreifen, wo die Gefahr besteht, daß Kreditinstitute zu große finanzielle Verluste erleiden. Das Gesetz über das Kreditwesen enthält hierfür entsprechende Bestimmungen. Das Bundesaufsichtsamt für das Kreditwesen wendet die Bestimmungen bei allen Kreditinstituten an, gleich, ob es sich um die in Ihrer Frage erwähnten Institute mit Gewährträgerhaftung der öffentlichen Hand oder um andere Institute handelt. Wie Sie wissen, befindet sich zur Zeit eine Novelle zum Kreditwesengesetz in der parlamentarischen Beratung. Sie soll das bestehende Bankenaufsichtsrecht verbessern, insbesondere unter dem Gesichtspunkt, zu risikoreiche Geschäfte der Kreditinstitute zu verhindern. So werden z. B. die Grenzen für die Großkredite, die ein Kreditinstitut gewährt, verschärft. Die Regelung über die Vorlage der Kreditunterlagen wird verbessert. Den Wirtschaftsprüfern wird bei der Prüfung von Kreditinstituten eine größere Verantwortung auferlegt. Das Bundesaufsichtsamt für das Kreditwesen wird das Recht erhalten, jederzeit Sonderprüfungen bei Kreditinstituten durchzuführen. Die Novelle ist am 15. Januar 1976 vom federführenden Finanzausschuß des Deutschen Bundestages einstimmig gebilligt worden. Sie steht in dieser Woche zur Verabschiedung an. Die Bundesregierung beabsichtigt nicht, darüber hinausgehende Kontrollmaßnahmen im Sinne Ihrer Frage vorzuschlagen. Nach Auffassung der Bundesregierung kann es nicht Aufgabe der staatlichen Bankenaufsicht sein, Kreditlenkung und damit Investitionslenkung zu betreiben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg176">Herr Kollege Althammer zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Althammer (CDU/CSU) :</note>
+        <u who="#Q103721" xml:id="ParlaMint-DE_1976-01-28-07-217.u141" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg177">Herr Staatssekretär, so erfreulich die letzte Feststellung in Ihrer Antwort war, möchte ich Sie, nachdem Sie vorher erklärt haben, daß die Bankenaufsicht auch dann eingreift, wenn sich die Verluste bei einem Bankinstitut häufen — so war Ihre Antwort —, doch fragen, ob nicht gerade eines der beiden Kreditinstitute, die ich genannt habe, nämlich die Hessische Landesbank, genau zu den Bankinstituten gehört, bei denen sich die Verluste so gehäuft haben, daß ein Einschreiten notwendig gewesen oder jedenfalls jetzt notwendig wäre.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1976-01-28-07-217.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg178">Im Zusammenhang mit der von Ihnen gestellten Frage, Herr Kollege Althammer, muß ich sagen: Offensichtlich hat das Aufsichtsamt eine solche Notwendigkeit nicht gesehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg179">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Althammer (CDU/CSU) :</note>
+        <u who="#Q103721" xml:id="ParlaMint-DE_1976-01-28-07-217.u144" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg180">Herr Staatssekretär, nachdem Sie eben in Ihrer ersten Antwort festgestellt haben, daß die Bundesregierung nicht daran denke, eine weitere Verschärfung der Bankenaufsicht zu überlegen, muß ich Sie fragen, weshalb dann Ihr Haus einen Auftrag für ein Gutachten genau in dieser Richtung gegeben hat, nämlich die Möglichkeiten zur Verschärfung der Bankenaufsicht zu prüfen.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1976-01-28-07-217.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg181">Herr Kollege Althammer, im Zusammenhang mit der Novellierung des Kreditwesengesetzes hat natürlich auch die Frage eine Rolle gespielt, was alles gesetzlich geregelt werden muß. Nachdem es in bestimmten Fragen Übereinkünfte freiwilliger Art zwischen Banken gegeben hat, ist insoweit die Notwendigkeit gesetzlicher Regelung entfallen. Was jetzt noch, und ich hoffe, einvernehmlich geregelt wird, entspricht den Wünschen der Bundesregierung und wohl auch den Wünschen des gesamten Hohen Hauses.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg182">Zu einer Zusatzfrage Herr Abgeordneter Weber.</seg>
+        </u>
+        <note type="speaker">Dr. Weber (Köln) (SPD) :</note>
+        <u who="#Q1498945" xml:id="ParlaMint-DE_1976-01-28-07-217.u147" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg183">Können Sie bestätigen, daß erstmals durch diese Novelle zum Kreditwesengesetz dem Bundesaufsichtsamt erweiterte Erkenntnis- und Eingriffsmöglichkeiten überhaupt gewährt werden und daß zweitens — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg184">Herr Kollege, ich bitte um Verständnis: Sie dürfen nur eine Zusatzfrage stellen.</seg>
+        </u>
+        <note type="speaker">Dr. Weber (Köln) (SPD) :</note>
+        <u who="#Q1498945" xml:id="ParlaMint-DE_1976-01-28-07-217.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg185">Ich lasse das zweite weg, Herr Präsident. — Können Sie bestätigen, daß während der Beratungen dieses Gesetzes von der Opposition keinerlei Anträge im Hinblick auf eine schärfere Überwachung gestellt worden sind?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u150" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg186">Herr Kollege, die Fragen müssen knapp und klar sein. Die Verwaltung hat uns ohnehin schon darauf hingewiesen, daß diese Frage, weil das Gesetz in dieser Woche auf der Tagesordnung steht, gar nicht hätte zugelassen werden dürfen. Wenn Sie nun auch noch den in dieser Woche zur Beratung anstehenden Gesetzentwurf einführen — ich habe geahnt, was auch kam —, kann ich auch diesen Teil der Zusatzfrage nicht mehr zulassen. Ich bitte dafür um Verständnis, daß ich mich an die Geschäftsordnung halten muß. Ich hoffe, daß Sie das Verständnis dafür haben.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1976-01-28-07-217.u151" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg187">Die erste Zusatzfrage war ja zugelassen, Herr Präsident; oder habe ich da etwas überhört?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u152" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg188">Die erste Frage habe ich noch zugelassen. Aber dann habe ich gebremst.</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1976-01-28-07-217.u153" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg189">Ihre erste Frage, Herr Kollege Weber, beantworte ich damit, daß es nachgerade der Sinn der Neuregelung ist, erweiterte Möglichkeiten entsprechend der von Ihnen gestellten Frage herbeizuführen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u154" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg190">Ich rufe die Frage 18 des Abgeordneten Horstmeier auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg191">Wie gedenkt die Bundesregierung sicherzustellen, daß die im Rentenalter stehenden Bürger die nach der Sperrguthabenvereinbarung mit der DDR möglichen 200 DM monatlich in Zukunft regelmäßig erhalten?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1976-01-28-07-217.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg192">Herr Kollege Horstmeier, die Bundesregierung beabsichtigt, die Verhandlungen mit der Deutschen Demokratischen Republik über die Regelung des nichtkommerziellen Zahlungs- und Verrechnungsverkehrs fortzusetzen. Dabei wird sie sich für eine Erweiterung und eine Verbesserung der Sperrguthabenvereinbarung einsetzen. Die Sicherstellung einer kontinuierlichen Abwicklung der Transferaufträge von Kontoinhabern aus der Bundesrepublik Deutschland wird ein vordringliches Thema dieser Erörterungen bilden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u156" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg193">Herr Kollege Horstmeier.</seg>
+        </u>
+        <note type="speaker">Horstmeier (CDU CSU) :</note>
+        <u who="#Q1904092" xml:id="ParlaMint-DE_1976-01-28-07-217.u157" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg194">Herr Staatssekretär, sind die Verzögerungen von teilweise sechs Monaten darauf zurückzuführen, daß von der Bundesrepublik mehr Transferaufträge gegeben worden sind als von der DDR und es das sogenannte Verrechnungskonto eben nicht zuläßt, mehr auszuzahlen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1976-01-28-07-217.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg195">Die Vereinbarungen besagen, daß eine gleichmäßige Verrechnung erfolgt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg196">Noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Horstmeier (CDU/CSU) :</note>
+        <u who="#Q1904092" xml:id="ParlaMint-DE_1976-01-28-07-217.u160" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg197">Sehen Sie eine Möglichkeit, eine Verrechnung der Beträge aus dem sogenannten Sperrguthaben mit anderen Geldforderungen der DDR zu ermöglichen?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1976-01-28-07-217.u161" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg198">Herr Kollege, ich habe Ihre Frage beantwortet, und zwar dahin, daß die Bundesregierung beabsichtigt, die Verhandlungen mit der DDR über die Regelung des nichtkommerziellen Zahlungs- und Verrechnungsverkehrs — darauf zielt Ihre Frage ab — fortzuführen. Das ist unsere Absicht, und dabei bleibt es. Bei dieser Gelegenheit möchte ich erwähnen, daß die Sperrguthabenvereinbarung als erster Schritt zur Normalisierung des Zahlungsverkehrs im nichtkommerziellen Bereich zwischen beiden deutschen Staaten positiv zu beurteilen ist. Bisher ist ein Transfervolumen von rund 16,5 Millionen DM abgewickelt worden. Dies ist sicherlich ein Erfolg, zumal seit der Währungsreform bis zum Abschluß der Vereinbarung im Jahre 1974 überhaupt keine Überweisungen aus der DDR möglich waren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u162" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg199">Eine Zusatzfrage, Frau Abgeordnete Berger.</seg>
+        </u>
+        <note type="speaker">Frau Berger (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1715592" xml:id="ParlaMint-DE_1976-01-28-07-217.u163" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg200">Herr Kollege Haehser, zu Ihrem Stichwort der angestrebten Erweiterung der Sperrguthabenvereinbarung: Wie beurteilen Sie beispielsweise die Hineinnahme des Kreises der Altsparer 'in diese Vereinbarung?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1976-01-28-07-217.u164" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg201">Nun, ich habe mit meiner Antwort andeuten wollen, daß der gesamte Komplex zur Erörterung mit der DDR ansteht und die Erörterungen fortgesetzt werden. Ich möchte mich auf diese Antwort beschränken, Frau Abgeordnete Berger.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u165" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg202">Herr Abgeordneter Jäger (Wangen)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg203">, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1976-01-28-07-217.u166" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg204">Herr Staatssekretär, da uns die Bundesregierung schon damals unmittelbar nach dieser Vereinbarung erklärt hat, die Verhandlungen über die übrigen Komplexe des nichtkommerziellen Zahlungsverkehrs würden selbstverständlich weitergeführt, möchte ich Sie fragen: Warum können Sie uns erst heute erklären, daß die Verhandlungen fortgesetzt werden?</seg>
+        </u>
+        <note type="speaker">Haehser, Parl. Staatssekretär:</note>
+        <u who="#Q1731391" xml:id="ParlaMint-DE_1976-01-28-07-217.u167" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg205">Nun, die Bundesregierung hat damals die Wahrheit gesagt, hat sie heute gesagt und wird sie auch zukünftig sagen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u168" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg206">Die Herren Abgeordneten Dr. Zeitel und Pfeffermann haben um schriftliche Beantwortung der von ihnen eingereichten Fragen, der Fragen 19 bis 22, gebeten. Dem wird entsprochen. Die Antworten werden als Anlage abgedruckt. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers der Finanzen beantwortet. Herr Staatssekretär Haehser, ich danke Ihnen. Ich komme nunmehr zum Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten. Zur Beantwortung der Fragen steht Herr Staatssekretär Rohr zur Verfügung. Ich rufe die Frage 23 des Herrn Abgeordneten Wittmann (Straubing)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg207">auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg208">Ist der Bundesregierung bekannt, daß die Preise für Kartoffeln in diesem Winter um über 100 Prozent teurer sind als im Vorjahr, und was gedenkt die Bundesregierung zu tun, um auch dem Normalverbraucher den weiteren verzehr dieses Grundnahrungsmittels zu ermöglichen? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär im Bundesministerium für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u169" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg209">Herr Präsident, dürfte ich die Fragen 23 und 24 zusammen beantworten?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u170" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg210">Wenn der Herr Fragesteller einverstanden ist, ja. Der Zusammenhang ist ja gegeben. Ich rufe also auch die Frage 24 des Herrn Abgeordneten Wittmann (Straubing)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg211">auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg212">Wird die Bundesregierung im Rahmen ihrer Möglichkeiten darauf hinwirken, daß die Anbauflächen für Kartoffeln in der Bundesrepublik Deutschland erweitert werden müssen, um schlimmere Folgen des Kartoffelmangels abzuwenden? Bitte.</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u171" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg213">Herr Abgeordneter, der Bundesregierung ist die erhebliche Preissteigerung bei Speisekartoffeln gegenüber dem Vorjahr bekannt. Der Kartoffelpreis wird bestimmt durch Angebot und Nachfrage. Wesentliche Ursache für die Marktentwicklung sind die witterungsbedingten erheblichen Ernteausfälle in ganz Europa. Deshalb sind in allen europäischen Ländern die Kartoffelpreise stark angestiegen. Die Bundesregierung hat im Rahmen ihrer Möglichkeiten mehrere Maßnahmen ergriffen. Im November 1975 sind die Einfuhrmöglichkeiten für Speisekartoffeln auf Herkünfte aus Drittländern erweitert worden. Einem Kommissionsvorschlag auf Aussetzung des Gemeinsamen Zolltarifs von 18 % für Speisekartoffeln bis zum 28. März 1975 ist zugestimmt worden. Schließlich sind die Ausschreibungen für Speisekartoffeln früher als sonst veröffentlicht worden, um ein möglichst frühes Einsetzen der Importe aus den Mittelmeerländern zu ermöglichen. Die Bundesregierung erwartet, daß mit Hilfe der genannten Maßnahmen die Mindestversorgung bis zum Anschluß an die neue Ernte gesichert werden kann. Ein Rückgang der Preise kann erst mit Eintreffen größerer Importmengen im Monat März erwartet werden. Die Bundesregierung ist der Auffassung, daß die zuletzt vorhandene Anbaufläche für Kartoffeln bei normalen Ernteerträgen zur Versorgung ausreicht. Zu einer direkten Einflußnahme auf die Nutzung der landwirtschaftlichen Anbauflächen mit bestimmten Kulturen hat die Bundesregierung keine Möglichkeiten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u172" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg214">Eine Zusatzfrage, Herr Abgeordneter Wittmann.</seg>
+        </u>
+        <note type="speaker">Wittmann (Straubing) (SPD) :</note>
+        <u who="#Q2041034" xml:id="ParlaMint-DE_1976-01-28-07-217.u173" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg215">Herr Staatssekretär, wenn ich Sie richtig verstanden habe, haben Sie gesagt, die Zollvergünstigungen seien bis Ende März ausgesetzt. Das heißt also, bei der Frühkartoffelversorgung wird das nicht mehr der Fall sein?</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u174" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg216">Das ist richtig, Herr Abgeordneter. Wir hatten uns dafür eingesetzt, daß auch die Frühkartoffeln in die Zollaussetzung mit einbezogen werden. Dieses ist im Ministerrat nicht durchzusetzen gewesen, da es am Widerstand Italiens scheiterte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u175" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg217">Herr Abgeordneter Wittmann, Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Wittmann (Straubing) (SPD) :</note>
+        <u who="#Q2041034" xml:id="ParlaMint-DE_1976-01-28-07-217.u176" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg218">Herr Staatssekretär: welche Möglichkeit sehen Sie, daß man zu einer Anbauflächenerweiterung kommt? Ich glaube, wenn wir sagen, das interessiert uns nicht, werden die Bauern — ich denke da z. B. an meine Heimat, in der die Zuckerrübenflächen höhere Erträge erbringen als die Kartoffelflächen — auch nichts tun. Die Zuckerrübenanbauer haben ihren Anbau koordiniert und regeln ihr Kontingent, um den Preis zu gestalten. Warum geht das beim Kartoffelanbau nicht?</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u177" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg219">Herr Abgeordneter, ich hatte ja betont, daß für Kartoffeln keine Marktregelung besteht. Der Preis bestimmt sich also ohne Beeinflussung durch staatliche Maßnahmen nach Angebot und Nachfrage. Ich gehe davon aus, daß ebenso wie im vorigen Jahr der niedrige Preis zu einem weiteren Rückgang der Anbaufläche geführt hat, auch jetzt wiederum die Höhe des Preises nicht ohne Auswirkungen auf die Entscheidung der Landwirte bleiben wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u178" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg220">Zu einer Zusatzfrage Herr Abgeordneter Immer.</seg>
+        </u>
+        <note type="speaker">Immer (Altenkirchen) (SPD):</note>
+        <u who="#Q1407193" xml:id="ParlaMint-DE_1976-01-28-07-217.u179" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg221">Herr Staatssekretär: ist die Verknappung und Verteuerung der Kartoffeln in diesem Winter nicht auch darauf zurückzuführen, daß die Landwirte im Herbst vom Handel zum Teil nur ruinöse Preise bekommen haben, daraufhin ihre Kartoffeln gehortet haben und erst sehr zaghaft und allmählich ihre Vorräte zum Verkauf stellen?</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u180" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg222">Herr Abgeordneter, mir ist nichts davon bekannt, daß Kartoffeln gehortet worden sind. Richtig ist, daß in einigen Bereichen die Kartoffeln noch in Mieten sind. Die Freilegung dieser Mieten ist im Augenblick wegen der Witterungsverhältnisse nicht möglich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u181" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg223">Zu einer Zusatzfrage Herr Abgeordneter Gansel.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1976-01-28-07-217.u182" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg224">Ich habe zwei Zusatzfragen. Die erste: Wie hoch waren die Erzeugerpreise nach der Herbsternte?</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u183" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg225">Herr Abgeordneter, die Erzeugerpreise betragen gegenwärtig, also in der vierten Januarwoche — —</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1976-01-28-07-217.u184" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg226">Das ist nicht meine Frage, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u185" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg227">Da es in der ursprünglichen Frage „um über 100 % teurer" heißt, dürfte die Regierung die Zahlen hier zur Hand haben.</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u186" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg228">Herr Abgeordneter, in der letzten Januarwoche liegen die Erzeugerpreise bei 50,90 DM je 100 kg. Im August 1975 lagen sie bei 27,75 DM.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u187" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg229">Herr Abgeordneter Gansel, ich schlage vor, daß, bevor ich Ihnen das Wort zu Ihrer zweiten Frage gebe, zunächst Herr Abgeordneter Kiechle mit seiner Zusatzfrage zum Zuge kommt. Vielleicht belebt das auch die Debatte.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1976-01-28-07-217.u188" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg230">Herr Staatssekretär, vielleicht könnten Sie die Fragesteller dahin gehend aufklären, daß sich an dem hier diskutierten Beispiel der Kartoffelpreise zeigt, wie die sonst so sehr beschimpften Marktordnungen für die Verbraucher durchaus auch Vorteile haben, indem sie nämlich nicht nur den Erzeugern Mindestpreise sichern, sondern auch den Verbrauchern durch Mangelerscheinungen hervorgerufene Höchstpreise ersparen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u189" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg231">Herr Kollege, es gibt in der Literatur umfangreiche Betrachtungen über Dreiecksverhältnisse, aber nicht über Dreiecksfragen, wie sie heute ständig vorgetragen werden. Wir brauchen demnächst wohl auch darüber Literatur. Ich bitte um Verständnis für meine Bitte, sich bei der Beantwortung auf den sachlichen Kern der Frage — nämlich inwieweit die Marktordnungen Vorteile und Nachteile für den Verbraucher haben — zu konzentrieren und nicht auf die Aufklärung der Kollegen abzustellen.</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u190" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg232">Herr Abgeordneter, ich würde es nicht für richtig halten, wenn man aus der augenblicklichen Marktsituation den Schluß zöge, daß bei Vorhandensein einer Marktregelung die Dinge besser oder anders gelaufen wären.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u191" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg233">Herr Abgeordneter Gansel.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD) :</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1976-01-28-07-217.u192" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg234">Herr Staatssekretär, ist die Kartoffelkrise, die in einem sehr geringen Angebot und extrem hohen Preisen besteht, nicht auch darauf zurückzuführen, daß dem Erzeuger in der Vergangenheit ein minimaler Preis gezahlt worden ist, wohingegen durch die Vermarktung der Kartoffel und extrem hohe Handelsspannen eine Verteuerung herbeigeführt wurde, die diese Krise zu einer doppelten hat werden lassen?</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u193" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg235">Herr Abgeordneter, ich hatte darauf hingewiesen, daß im vorigen Jahr die Kartoffelpreise außerordentlich niedrig waren und daß das natürlich Auswirkungen auf die Aussaatentscheidungen der Landwirtschaft hatte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u194" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg236">Ich lasse eine letzte Zusatzfrage zu, und zwar des Herrn Kollegen Dr. Arndt (Hamburg).</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Hamburg) (SPD) :</note>
+        <u who="#Q1098411" xml:id="ParlaMint-DE_1976-01-28-07-217.u195" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg237">Herr Staatssekretär, halten Sie es für eine richtige Verbraucherreaktion auf diese Kartoffelpreisentwicklung, daß ich als Vater einer fünfköpfigen Familie, der jede Woche für die gesamte Familie allein einkauft, seit Oktober keine Kartoffeln mehr gekauft habe, sondern auf andere stärkehaltige Nahrungsmittel ausgewichen bin?</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit</desc>
+        </kinesic>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u196" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg238">Herr Abgeordneter, ich darf Sie meinerseits darauf hinweisen, daß für die Verbraucher die Möglichkeit besteht, sich im Herbst zu bevorraten, und daß viele Familien von dieser Möglichkeit Gebrauch machen. Damals war der Preis noch etwas günstiger. Im übrigen halte ich es aber nicht für schädlich, wenn bei einer Marktenge, wie sie im Augenblick gegeben ist, auf andere Nahrungsmittel ausgewichen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u197" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg239">Wir kommen zur Frage 25 des Herrn Abgeordneten Eigen. — Der Herr Abgeordnete ist nicht im Saal, so daß die Frage schriftlich beantwortet wird. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 26 des Herrn Abgeordneten Kiechle auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg240">Ist die Bundesregierung bereit, dafür Sorge zu tragen, daß die Verbilligung von Butterschmalz für die Verbraucher fortgeführt und auch für die kommende Zeit gesichert wird? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u198" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg241">Herr Abgeordneter, die Bundesregierung hält die verbilligte Abgabe von Butterreinfett (Butterschmalz)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg242">für eine zweckmäßige Maßnahme zur Belebung des Butterabsatzes. Sie hat sich in diesem Sinne wiederholt in den zuständigen Gemeinschaftsgremien eingesetzt und wird dies auch weiterhin tun. Gegenwärtig liegt der Kommission wieder ein entsprechender deutscher Antrag vor. Ich bemerke aber in diesem Zusammenhang, daß über die Entscheidung jeweils Einverständnis mit der Kommission und unseren Partnerstaaten erzielt werden muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u199" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg243">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1976-01-28-07-217.u200" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg244">Herr Staatssekretär, da Sie die Sache an sich sehr positiv bewerten, frage ich Sie, ob die Bundesregierung bereit ist, diesen ihren Antrag in das Gesamtpaket einzubinden, um ihm damit Nachdruck zu verleihen.</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u201" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg245">Herr Abgeordneter, bei den Preisverhandlungen werden wir uns so verhalten, wie die Gesamtsituation es erforderlich macht. Falls es richtig ist, diesen Antrag dort einzubinden, und falls das Gesamtgewicht des Pakets es zuläßt, werden wir natürlich Entsprechendes überlegen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u202" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg246">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1976-01-28-07-217.u203" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg247">Herr Staatssekretär, teilen Sie meine Auffassung, daß diese Maßnahme neben vielen anderen kritisierten Maßnahmen deswegen nicht zu kritisieren wäre, weil sie ausschließlich dem Verbraucher nutzt?</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u204" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg248">Ja, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u205" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg249">Der Herr Abgeordnete Dr. Kunz (Weiden)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg250">hat seine Frage 27 zurückgezogen.</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg251">Ich rufe nunmehr die Frage 88 des Herrn Abgeordneten Horstmeier auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg252">Ist der Bundesregierung bekannt, daß viele Hauswirtschaftsmeisterinnen sich nicht in der Lage sehen, weiterhin Jugendliche auszubilden, weil die finanziellen Belastungen für Steuern und Sozialabgaben den Privathaushalt überfordern, und wenn ja, welche Schritte gedenkt die Bundesregierung einzuleiten, um besonders im Hinblick auf die Jugendarbeitslosigkeit auch diese Ausbildungsplätze neu zu erschließen? Bitte, Herr Staatssekretär Rohr!</seg>
+        </u>
+        <note type="speaker">Rohr, Staatssekretär:</note>
+        <u who="#Q1577804" xml:id="ParlaMint-DE_1976-01-28-07-217.u206" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg253">Herr Abgeordneter, auf Grund der strukturellen Unterschiede in der ländlichen und der städtischen Hauswirtschaft müssen die aufgeworfenen Probleme differenziert gesehen werden. Für den Bereich der städtischen Hauswirtschaft ist ein Rückgang der Ausbildungsverhältnisse insgesamt nicht festzustellen. Seit 1972 erhöhten sich diese von 6 436 auf 7 110 im Jahre 1974. Dabei ist die Zahl der Ausbildungsverhältnisse in privaten Haushalten tendenziell rückläufig, die in Anstaltshaushalten jedoch steigend. Eine zusätzliche finanzielle Belastung der privaten Haushalte gegenüber Ausbildungsverhältnissen in gewerblichen und sonstigen Bereichen ist nur insofern vorhanden, als private Haushalte Ausbildungsvergütungen und Sozialabgaben nicht als Betriebsausgaben absetzen können. Schwierigkeiten bereiten aber andere Faktoren wie z. B. die Wohnungsgröße oder die Zahl der Familienangehörigen. In der ländlichen Hauswirtschaft ist die Zahl der Ausbildungsverhältnisse seit mehreren Jahren rückläufig. Nach der Verkürzung der Ausbildungsdauer von drei auf zwei Jahre, die 1972 bei der Neuordnung der Berufsausbildung vorgenommen wurde, veränderten sich die Lehrlingszahlen von rund 3 850 im Jahre 1973 auf rund 3 650 im Jahre 1974. Für 1975 liegen noch keine Zahlen vor, doch machen die zuständigen Stellen auf einen weiteren Rückgang aufmerksam. Finanzielle Belastungen werden allerdings nicht als Grund angegeben, denn die Aufwendungen für die Auszubildenden in der ländlichen Hauswirtschaft können teilweise als Betriebsausgaben des landwirtschaftlichen Betriebes steuerlich angerechnet werden. Die Landfrauen nennen als Ursache für den Rückgang der Ausbildungsbereitschaft vielmehr die verkürzte Ausbildungsdauer und sehen sich außerstande, die nach der Ausbildungsordnung geforderten Fertigkeiten und Kenntnisse in zwei Jahren zu vermitteln. Die Bundesregierung hat hierzu beim Bundesinstitut für Berufsbildungsforschung eine Untersuchung eingeleitet mit dem Ziel, die hauswirtschaftliche Berufsbildung zu analysieren und Grundlagen für die Festsetzung der Ausbildungsinhalte und der Ausbildungsdauer zu erarbeiten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u207" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg254">Keine weiteren Zusatzfragen. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten beantwortet. Ich danke Ihnen, Herr Staatssekretär. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Verkehr und für das Post- und Fernmeldewesen. Zur Beantwortung der Fragen steht Herr Parlamentarischer Staatssekretär Jung zur Verfügung. Ich rufe die Frage 28 des Herrn Abgeordneten Tillmann auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg255">Welches sind die Gründe dafür, daß die Bundesregierung den Entwurf einer Verordnung nach § 43 des Bundesimmissionsschutzgesetzes (BImSchG)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg256">vom 15. März 1974 über Grenzwerte von Verkehrsgeräuschen noch nicht vorgelegt hat, und wann gedenkt die Bundesregierung eine entsprechende Verordnung vorzulegen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär beim Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u208" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg257">Herr Kollege Tillmann, die Bundesregierung hat es für richtig und notwendig gehalten, insbesondere die finanziellen Auswirkungen der Schallschutzverordnungen für Schiene und Straße sehr genau zu prüfen. Die Bundesregierung wird den Entwurf der Verordnungen vorlegen, wenn die nach § 51 des Bundesimmissionsschutzgesetzes vorgesehene Anhörung der beteiligten Kreise stattgefunden hat. Diese Anhörung ist für die Straßenschallschutzverordnung am 10. März 1976 vorgesehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u209" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg258">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU):</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1976-01-28-07-217.u210" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg259">Herr Staatssekretär, läßt die Tatsache, daß fast zwei Jahre nach Verabschiedung des Gesetzes die notwendigen Rechtsverordnungen immer noch nicht vorgelegt worden sind, nicht darauf schließen, daß die Gesetzgebungsarbeit des Parlaments von der Bundesregierung nicht so ernst genommen wird, wie es eigentlich notwendig wäre?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u211" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg260">Nein, Herr Kollege Tillmann, dies ist nicht der Fall. Ich habe eben in meiner Antwort bereits darauf hingewiesen, daß sehr eingehende Untersuchungen notwendig waren und noch sind und daß entsprechende Anhörungen vorgesehen sind, die im März durchgeführt werden, so daß dieser Vorwurf, der in Ihrer Frage steckt, nicht bestätigt werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmit-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u212" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg261">Sie haben noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU):</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1976-01-28-07-217.u213" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg262">Herr Staatssekretär, fürchtet die Bundesregierung nicht, daß durch die Verzögerung, die hinsichtlich der Vorlage der Rechtsverordnungen eingetreten ist, wesentliche Behinderungen beim Bau und bei der Planung dringend notwendiger Verkehrswege eintreten können?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u214" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg263">Herr Kollege Tillmann, natürlich ist dadurch, daß noch keine dB(A)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg264">-Zahl festgelegt ist, bei der Durchführung der Planung eine gewisse Schwierigkeit vorhanden. Das ist nicht zu bestreiten. Damit sind aber, wie ich meine, keine Verzögerungen verbunden. In der Antwort auf Ihre nächste Frage ist davon die Rede, von welchen Zahlen die Bundesregierung zunächst ausgeht. Die Bundesregierung ist, wie gesagt, bemüht, die Schallschutzverordnungen nach dem Anhörungsverfahren zu erlassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u215" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg265">Bitte, Frau Abgeordnete.</seg>
+        </u>
+        <note type="speaker">Frau Pieser (CDU/CSU):</note>
+        <u who="#Q1827949" xml:id="ParlaMint-DE_1976-01-28-07-217.u216" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg266">Herr Staatssekretär, sieht die Bundesregierung eine Möglichkeit, das anstehende Verfahren nicht zuletzt deshalb zu beschleunigen, weil es bereits Anträge von Ressorts gibt, in von ihnen genutzten Gebäuden schallschluckende Fenster einzubauen, um die Gewähr dafür zu geben, daß die Verwaltung nicht, durch Geräusche abgelenkt, unrationell arbeitet?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u217" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg267">Frau Kollegin, ich habe eben schon darauf verwiesen, daß die Bundesregierung diese Verordnungen erarbeiten und vorlegen wird, nachdem die Anhörungen durchgeführt sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u218" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg268">Die Frage 29 des Herrn Abgeordneten Tillmann, bitte:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg269">An welchen Grenzwerten hat sich bis zum Erlaß einer Verordnung nach j 43 BImSchG die Straßenbauplanung zu orientieren, und welche Grenzwerte sollten die noch zu erlassenden Vorschriften nach Meinung der Bundesregierung fordern?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u219" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg270">Herr Kollege Tillmann, die Straßenbauplanung für Bundesfernstraßen geht bis zum Erlaß der Verordnung von einem Immissionsgrenzwert um 70 dB (A)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg271">aus. Die Erkenntnisse aus der Anhörung der beteiligten Kreise sollen für die Festlegung eines Grenzwertes in der Verordnung verwertet werden. Die Bundesregierung wird erst nach der Anhörung über den Immissionsgrenzwert entscheiden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u220" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg272">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU) :</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1976-01-28-07-217.u221" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg273">Herr Staatssekretär, können Sie heute schon sagen, ob die Rechtsverordnung gegebenenfalls so aussehen wird, daß sie sich im wesentlichen an DIN 18005 ausrichtet?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u222" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg274">Herr Kollege Tillmann, ich kann — das werden Sie mir zugestehen — nicht im Vorgriff auf die ausstehenden Anhörungsverfahren und die daraus zu ziehenden Schlußfolgerungen hier eine präzise Antwort geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u223" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg275">Sie haben noch eine letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Tillmann (CDU/CSU) :</note>
+        <u who="#Q1405846" xml:id="ParlaMint-DE_1976-01-28-07-217.u224" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg276">Herr Staatssekretär, darf ich fragen, ob Sie nicht doch in etwa präzisieren können, wann mit den Rechtsverordnungen endgültig zu rechnen sein wird?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u225" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg277">Herr Kollege, ich habe eben gesagt, die Bundesregierung wird diese Rechtsverordnungen, die von den betroffenen Häusern bereits vorbereitet werden, nach den Anhörungsverfahren erlassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u226" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg278">Herr Abgeordneter Jobst hat die Frage 30 eingereicht:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg279">Bis wann ist mit der Fertigstellung des Rhein-Main-Donau-Kanals zu rechnen? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Jung, Pari. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u227" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg280">Herr Kollege Jobst, der im sogenannten Duisburger Vertrag vom 16. September 1966 erwähnte Termin, nämlich 1981, für die Fertigstellung des Rhein-Main-Donau-Kanals kann unter Berücksichtigung der Ansätze in der mehrjährigen Finanzplanung und des Haushaltes 1976 nicht eingehalten werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u228" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg281">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1976-01-28-07-217.u229" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg282">Herr Staatssekretär, trifft es zu, daß die Bundesleistungen für diese Schiffahrtsstraße gegenüber dem bisher für erforderlich gehaltenen Mittelbedarf um mehr als ein Viertel gekürzt werden sollen?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u230" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg283">Herr Kollege Dr. Jobst, ich kann die Frage so nicht beantworten, weil sie hypothetisch ist. Ich kann nur feststellen, daß mit der Südstrecke, also der Strecke von Nürnberg nach Regensburg, im September 1972 begonnen wurde. Von den 1,8 Milliarden DM Gesamtkosten sind noch 1,43 Milliarden DM aufzuwenden. Die Rhein-MainDonau AG hat bisher sowohl vom Bund wie vom Land Leistungen in der Form zinsloser Darlehen mit der Maßgabe bekommen, den Bau auch aus den Erträgen zu finanzieren, die im Zusammenhang mit diesen Leistungen stehen. Der Bund hat seine Beiträge für die Wasserstraße in den letzten Jahren erheblich erhöht; Sie wissen, daß z. B. im Haushaltsjahr 1970 24 Millionen DM zur Verfügung standen, daß im Jahre 1975 demgegenüber rund 83 Millionen DM zur Verfügung stehen und daß für 1976 im Haushalt ein Betrag von 101 Millionen DM enthalten ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u231" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg284">Eine letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1976-01-28-07-217.u232" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg285">Herr Staatssekretär, sind im Zusammenhang mit dem mittelfristigen Investitionsprogramm für den Bereich der Wasserstraßen Verschiebungen in der jetzigen Rangfolge der einzelnen Bauvorhaben vorgesehen, und trifft es zu, daß aus Kostengründen beabsichtigt ist, den Rhein-Main-Donau-Kanal nicht in dem vorgesehenen Umfang zu bauen, sondern die Schleusen zu verkleinern und die Kronenbreite enger zu gestalten?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u233" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg286">Herr Kollege, ich bitte um Verständnis. Bei den Zusatzfragen des Fragestellers gehe ich weiter in der Verbindung mit der Ausgangsfrage als bei anderen Zusatzfragen, aber ich könnte mir vorstellen, daß der Herr Staatssekretär das nicht alles beantworten kann, weil diese Verbindung hier wirklich nicht gegeben ist. Die eingereichte Frage bot nicht ohne weiteres die Möglichkeit zu einer solchen Zusatzfrage. Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u234" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg287">Herr Kollege Dr. Jobst, ich will nicht ausschließen, daß es Verschiebungen geben kann. Ich habe ja in der Beantwortung Ihrer Frage darauf hingewiesen, daß der ursprünglich vorgesehene Termin nicht eingehalten werden kann. Es wäre aber verfrüht, heute schon von Verschiebungen zu reden, weil ja, wie Sie wissen, auch Finanzverhandlungen mit Bayern notwendig sind und die Ansätze bis 1978 zwischen den Vertragspartnern ja bereits abgestimmt sind. Ich kann also im Augenblick noch nicht sagen, inwieweit sich hier Veränderungen ergeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u235" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg288">Herr Kollege Dr. Riedl, bei Ihrer Zusatzfrage muß ich nun natürlich einen etwas schärferen Maßstab anlegen, weil Sie nicht der ursprüngliche Fragesteller sind.</seg>
+        </u>
+        <note type="speaker">Dr. Riedl (München) (CDU/CSU) :</note>
+        <u who="#Q1353062" xml:id="ParlaMint-DE_1976-01-28-07-217.u236" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg289">Herr Präsident, ich will es ganz einfach machen und die Frage 30 wiederholen: Herr Staatssekretär, bis wann ist mit der Fertigstellung des Rhein-Main-Donau-Kanals zu rechnen?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u237" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg290">Herr Kollege Dr. Riedl, ich habe darauf geantwortet, daß mit der Fertigstellung bis zu dem ursprünglichen Termin — 1981 — nicht gerechnet werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u238" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg291">Meine Damen und Herren, der Herr Abgeordnete Niegel ist nicht im Saal, so daß Frage 31 schriftlich beantwortet wird. Die Antwort wird als Anlage abgedruckt. Ich rufe Frage 32 des Abgeordneten Dr. Wittmann (München)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg292">auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg293">Warum führt die Deutsche Lufthansa ihre in Deutschland gelegenen Büros nicht mit der einheitlichen Bezeichnung „Deutschland" auf, sondern bezeichnet ihr Büro im Land Berlin ohne Angabe der staatlichen Zugehörigkeit mit „Berlin-West" und die Büros im übrigen Bundesgebiet mit ,,B.R." Deutschland"? Bitte sehr, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u239" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg294">Herr Kollege Dr. Wittmann, die Deutsche Lufthansa AG verwendet in ihren Flugplänen die von Ihnen genannte Bezeichnung für diejenigen Orte, an denen sie Stadtbüros unterhält, da diese Flugpläne zur Orientierung ihrer Kunden weltweit verteilt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u240" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg295">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1976-01-28-07-217.u241" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg296">Herr Staatssekretär, glauben Sie nicht auch, daß die Lufthansa weiß, daß West-Berlin auch im Sinne des internationalen Luftverkehrs kein eigener Staat ist, sondern in die Verträge der Bundesrepublik Deutschland einbezogen ist und daher nach den internationalen Bestimmungen unter „Bundesrepublik Deutschland" aufzuführen wäre?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u242" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg297">Ja, Herr Kollege, aber die Deutsche Lufthansa hat diese Bezeichnung eben nach den internationalen Übereinkommen so gewählt, und die Bundesregierung hat gegen diese gewählte Bezeichnung keine Bedenken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u243" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg298">Keine weitere Zusatzfrage. Meine Damen und Herren, der Herr Abgeordnete Milz hat um schriftliche Beantwortung der von ihm eingereichten Fragen 33 und 34 gebeten. Dem wird entsprochen; die Antworten werden als Anlage abgedruckt. Auch die von Herrn Abgeordneten Schirmer eingereichte Frage 35 wird auf Wunsch des Fragestellers schriftlich beantwortet. Auch hier wird die Antwort als Anlage abgedruckt. Ich rufe daher nunmehr Frage 36 des Herrn Abgeordneten Dr. Riedl (München)</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg299">auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg300">Ist die Bundesregierung angesichts der derzeitigen Protestwelle in verschiedenen Großstädten gegen die geplante Beschränkung der Sprechzeit im Fernsprechortsverkehr auf vier Minuten bereit, die dort vorgetragenen Gründe zu prüfen, und ist gegebenenfalls damit zu rechnen, daß die Deutsche Bundespost bzw. der Postverwaltungsrat ihre Entscheidung ganz oder zum Teil wiederaufheben?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u244" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg301">Herr Kollege Dr. Riedl, Ihre Frage kann ich mit Ja beantworten. Die Bundesregierung hat diese Prüfung bereits vorgenommen, bzw. die Deutsche Bundespost hatte natürlich schon zuvor Prüfungen durchgeführt, und auch das Bundeskabinett hat sich in der heutigen Sitzung damit beschäftigt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u245" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg302">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Riedl (München) (CDU/CSU) :</note>
+        <u who="#Q1353062" xml:id="ParlaMint-DE_1976-01-28-07-217.u246" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg303">Herr Staatssekretär, darf ich Sie fragen, zu welchem Ergebnis diese Prüfungen geführt haben.</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u247" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg304">Herr Kollege Dr. Riedl, ich wollte das an sich gerne der Bundespressekonferenz überlassen. Aber ich bin bereit, Ihnen in groben Zügen zu sagen, daß Anfang 1977 ein Versuch im Bereich von sechs Knotenvermittlungsstellen durchgeführt werden soll, der mit einem Zeittakt von acht Minuten laufen wird und dessen Ergebnisse hinsichtlich des Teilnehmerverhaltens, des Investitionsaufwandes für die Erweiterung der Netze, der Gebührenausfälle usw. dann zu weiteren, endgültigen Festlegungen ab 1978 führen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u248" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg305">Herr Abgeordneter Riedl, Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Riedl (München) (CDU/CSU) :</note>
+        <u who="#Q1353062" xml:id="ParlaMint-DE_1976-01-28-07-217.u249" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg306">Herr Staatssekretär, können Sie mir erklären, warum sich die Bundesregierung scheut, das Parlament bei klar gestellten Fragen über eine Sache zu informieren, die unser ganzes Volk interessiert, und warum eine umfassende Antwort unter Hinweis auf eine vielleicht heute — ich weiß es nicht — stattfindende Pressekonferenz nicht erfolgt?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u250" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg307">Herr Kollege, ich bitte um Verständnis: die Frage enthält eine Wertung, die nicht zulässig ist. Ich bitte aber den Herrn Staatssekretär, den sachlichen Teil zu beantworten.</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u251" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg308">Herr Kollege Dr. Riedl, ich habe Sie über die derzeitige Situation umfassend informiert. Ich habe Ihre Frage — wenn ich das einmal feststellen darf — präzise beantwortet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u252" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg309">Ich sehe jetzt mehrere Zusatzfragesteller. Die erste Frage stellt der Herr Abgeordnete Schwabe.</seg>
+        </u>
+        <note type="speaker">Schwabe (SPD) :</note>
+        <u who="#Q2591337" xml:id="ParlaMint-DE_1976-01-28-07-217.u253" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg310">Herr Staatssekretär, ist Ihrem Hause neben dem Inhalt der soeben gestellten Frage auch bekanntgeworden, daß sich breiteste Kreise der Bevölkerung darüber freuen, daß — um ein heimatliches Beispiel zu nennen — von 106 Gemeinden in Zukunft 80 Gemeinden ihr Landratsamt im Nahgespräch zum Ortstarif erreichen können, daß das also eine Vereinfachung ist, die begrüßt wird?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u254" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg311">Ja, Herr Kollege Schwabe, nicht nur unserem Hause, dem Bundespostministerium, sondern natürlich auch den Abgeordneten, die draußen die Frage des Nahbereichs erläutern müssen, ist wiederholt bekundet worden, daß sich breite Bevölkerungskreise insbesondere auf dem flachen Land darüber freuen, daß die Bundespost ihren Teil zu der Gebietsreform im gesamten Bundesgebiet durch die Einführung dieses Nahbereichs beiträgt. Ich muß darüber hinaus mitteilen, daß die künftige Regelung für die Deutsche Bundespost einen Minderertrag von 500 Millionen DM — das ist ihr Beitrag zu dieser Gebietsreform — bedeutet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u255" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg312">Zunächst Herr Abgeordneter Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1976-01-28-07-217.u256" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg313">Herr Staatssekretär, es ist erfreulich, daß die Bundesregierung den Bedenken der Opposition in etwa Rechnung getragen hat. Darf ich Sie aber fragen, ob die Bundesregierung bereit ist, bei der Neueinteilung der Ortsnetze den Interessen der Grenzgebiete Rechnung zu tragen und den Radius dort zu verdoppeln?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u257" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg314">Herr Kollege Dr. Jobst, auch hier rennen Sie offene Türen ein. Es muß Ihnen bekannt sein, daß die Bundesregierung, in diesem Fall die Deutsche Bundespost, natürlich Lösungsmöglichkeiten für die Grenzgebiete — ich nehme an, Sie meinen das Zonenrandgebiet — vorsieht. Das gilt aber auch für andere Grenzgebiete, z. B. das Küstengebiet, wo auch die Frage der Einbeziehung der Inseln einer besonderen Regelung bedarf.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u258" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg315">Zunächst der Herr Abgeordnete Dr. Wittmann, dann der Herr Abgeordnete Stahl.</seg>
+        </u>
+        <note type="speaker">Dr. Wittmann (München) (CDU/CSU) :</note>
+        <u who="#Q107648" xml:id="ParlaMint-DE_1976-01-28-07-217.u259" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg316">Herr Staatssekretär, wann wird sich der Postverwaltungsrat mit den von Ihnen nur undeutlich angedeuteten Vorschlägen, die Sie aber einem anderem Forum bekanntgeben wollen, befassen?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u260" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg317">Zunächst, Herr Kollege Dr. Wittmann, möchte ich die Formulierung „die von Ihnen nur undeutlich angedeuteten Vorschläge" zurückweisen. Wenn Sie es in der Eile nicht erfassen konnten, bin ich gerne bereit, das noch einmal darzulegen. Der Postverwaltungsrat wird sich vermutlich bereits am kommenden Freitag mit dieser Frage beschäftigen, obwohl sie nicht auf der Tagesordnung steht, nachdem sich das Kabinett heute damit befaßt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u261" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg318">Zusatzfrage, Herr Abgeordneter Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD) :</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1976-01-28-07-217.u262" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg319">Herr Staatssekretär, wäre es nicht zweckmäßig, diese gute Regelung, die hier angestrebt wird und die für das flache Land besondere Vorteile bringt, in der Öffentlichkeit etwas verstärkt ins positive Licht zu rücken, damit die Bundespost nun endlich einmal auch beim Verbraucher ein besseres Image erhalten kann?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u263" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg320">Herr Kollege, ich muß dazu sagen — und ich habe das bereits auf die Frage des Kollegen Schwabe verdeutlicht —, daß draußen auf dem flachen Land — und hier insbesondere in den Flächenstaaten — dieser Beitrag der Deutschen Bundespost von der Bevölkerung positiv aufgegriffen wurde. Daß natürlich in den Ballungszentren — das war schon wiederholt Gegenstand der Fragestunde hier — die Einführung eines Zeittaktes auf Widerstand stoßen würde, war vorauszusehen. Aber die Fortentwicklung unseres Telekommunikationssystems wird ohnehin die Einführung eines Zeittaktes notwendig machen. Die ab 1977 in sechs Knotenpunktsbereichen einzuführenden Versuche werden dann endgültige Hinweise geben, in welcher Form künftig dieser Zeittakt eingeführt werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u264" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg321">Frau Abgeordnete Pieser.</seg>
+        </u>
+        <note type="speaker">Frau Pieser (CDU/CSU) :</note>
+        <u who="#Q1827949" xml:id="ParlaMint-DE_1976-01-28-07-217.u265" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg322">Herr Staatssekretär, können Sie mir sagen, ob im Bereich der nun offensichtlich neuen Erwägungen der Bundesregierung auch der Tatsache Rechnung getragen werden konnte, daß für das Land Berlin die vorgesehene Neuregelung keinerlei Vorteile, wohl aber den Nachteil der Zäsur des Zeittaktes bringen würde? Das bedeutet im Klartext: Ist die Möglichkeit gegeben, im Land Berlin den jetzigen Zustand zu belassen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u266" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg323">Meine Damen und Herren, Herr Staatssekretär, ich war bei der Gewährung von Zusatzfragen verhältnismäßig großzügig, weil es sich um einen Gesamtkomplex handelt. Ich wäre sehr dankbar, wenn Sie, Herr Staatssekretär, jetzt verhältnismäßig knapp antworteten. Wir könnten dann die Fragestunde mit den noch verbliebenen Fragen Ihres Ressorts abschließen.</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u267" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg324">Frau Kollegin, wenn ich es recht sehe, ist auch von politischer Seite in Berlin die Forderung erhoben worden, für Berlin keine Sonderregelung einzuführen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u268" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg325">Herr Abgeordneter Burger.</seg>
+        </u>
+        <note type="speaker">Burger (CDU/CSU) :</note>
+        <u who="#Q1372487" xml:id="ParlaMint-DE_1976-01-28-07-217.u269" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg326">Herr Staatssekretär, sieht die Bundesregierung eine Möglichkeit, den durch den neuen Zeittakt besonders betroffenen Kranken, älteren Menschen und Behinderten zu helfen?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u270" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg327">Herr Kollege Burger., ich glaube, Sie sprechen hier ein Thema an, das in der Frage des Herrn Dr. Riedl nicht unbedingt drinsteckt. Ich will Ihnen aber gern antworten, daß die Deutsche Bundespost in Gesprächen mit karitativen Vereinigungen, mit den Kirchen insbesondere, bereits Lösungen vorbereitet hat, um dem betroffenen Personenkreis, den Sie erwähnten, zu helfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u271" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg328">Meine Damen und Herren, Herr Staatssekretär, ich habe Verständnis, daß Antworten in vielen Punkten vorbereitet werden. Wenn aber in einer solchen Sache eine Pressekonferenz mit ausführlichen Antworten stattfindet, wären wir natürlich sehr dankbar, wenn die Bundesregierung in ihren Antworten auch die Ergebnisse von Kabinettsitzungen — wenn diese am Vormittag stattgefunden haben — mit einbeziehen würde. Ich rufe die Frage 37 des Herrn Abgeordneten Kiechle auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg329">Trifft es zu, daß die Deutsche Bundespost sich weigert, Campingplätze in Zukunft unter dem Buchstaben „C" in die Fernsprechbücher aufzunehmen, und Wünsche von Fernsprechteilnehmern auf Nichtveröffentlichung ihres Anschlusses im Fernsprechbuch grundsätzlich ablehnt, und — bejahendenfalls — teilt die Bundesregierung die Auffassung, daß das Verhalten der Deutschen Bundespost sich nicht mit dem Werbebegriff „Postkunde" und „Kundendienst" verträgt, und was gedenkt die Bundesregierung gegebenenfalls zu tun, um der Idee des „Kundendienstes" bei der Deutschen Bundespost realitätsbezogen zum Durchbruch zu verhelfen?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u272" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg330">Herr Kollege Kiechle, es trifft nicht zu, daß sich die Deutsche Bundespost weigert, Campingplätze unter dem Buchstaben „C" in die Fernsprechbücher aufzunehmen. In den amtlichen Fernsprechbüchern ist der Eintrag unter „Campingplatz" möglich, wenn der Name des Teilnehmers mit dem Wort „Campingplatz" beginnt. Andernfalls findet man die Fernsprechnummer des Campingplatzes unter dem Namen des Teilnehmers. In den Branchenfernsprechbüchern, die zu den amtlichen Fernsprechbüchern gehören, ist eine besondere Rubrik „Camping" vorhanden, unter der auch die Campingplätze aufgeführt werden. Darüber hinaus können die Campingplätze in den örtlichen Fernsprechbüchern eingetragen werden. Kostenaufwendige Sucharbeit bei den Fernsprechauskunftsstellen muß aus wirtschaftlichen Gründen vermieden werden. Deshalb kann Wünschen von Fernsprechkunden, ihre Fernsprechnummern nicht zu veröffentlichen, nach den Bestimmungen der Fernmeldeordnung nur in begründeten Ausnahmen entsprochen werden. Kostengründe zwingen die Deutsche Bundespost also, einerseits im amtlichen Fernsprechbuch zusätzliche Eintragungen bereits an anderer Stelle aufgeführter Nummern zu vermeiden, andererseits jedoch den Kunden ein vollständiges Verzeichnis der Teilnehmer zur Verfügung zu stellen. Wirtschaftlich sinnvolles Handeln ist jedoch der beste Kundendienst der Deutschen Bundespost.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u273" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg331">Herr Kiechle, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1976-01-28-07-217.u274" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg332">Herr Staatssekretär, wäre es nicht sinnvoll, zweckmäßig, billig, einfach und außerdem für den Postkunden überschaubar, wenn grundsätzlich, ähnlich wie bei der Regelung für Gasthöfe, Restaurants u. a., alle Campingplätze unter C zu finden wären, nicht nur die, deren Name mit „Camping" beginnt?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u275" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg333">Ich müßte die Frage zurückgeben, Herr Kollege Kiechle: Was hindert denn die Campingplatzinhaber, das Wort „Campingplatz" mit dem Namen zu verbinden, um damit den Voraussetzungen, die ich hier genannt habe, Rechnung zu tragen, so daß, wie gesagt, alle Campingplätze dann unter dem Namen „Camping" für die Fernsprechteilnehmer zu finden sind?</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1976-01-28-07-217.u276" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg334">Herr Präsident, darf ich hierzu Stellung nehmen? Ich bin gefragt worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u277" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg335">Herr Kollege, ich habe vorhin schon gesagt, daß wir kaum so verfahren können. Ich gebe Ihnen aber die Möglichkeit, noch eine weitere Zusatzfrage zu stellen; denn in der Fragestunde ist ja der Adressat für Fragen die Regierung und nicht die Mitglieder des Plenums.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1976-01-28-07-217.u278" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg336">Ich werde mich sehr kurz fassen und den Versuch machen, beides miteinander zu verbinden. Herr Staatssekretär, es wäre trotzdem die einfachste, billigste und für den Postkunden — darauf will ich ja hinaus — wohl auch die übersichtlichste Regelung, wenn man bei Campingplätzen genau so verführe wie bei Gasthöfen oder Restaurants, die auch unter diesen Stichworten unabhängig von ihrer Namensgebung zu finden sind. Letztlich bin ich der Auffassung, daß die Bundespost schließlich und endlich den Postkunden, auch was ihre Werbung anbetrifft, gerechter würde.</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u279" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg337">Herr Kollege Kiechle, ich will diese Anregung gern nochmals prüfen und werde Ihnen dann die Stellungnahme der Deutschen Bundespost schriftlich übermitteln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u280" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg338">Ich rufe jetzt noch die Frage 39 des Herrn Abgeordneten Wuttke auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg339">Trifft es zu, daß das Ermittlungsverfahren in der Abhöraffäre Kohl/Biedenkopf von der zuständigen Justizbehörde des Landes Rheinland-Pfalz eingestellt worden ist, nachdem festgestellt wurde, daß die Deutsche Bundespost ihre Sorgfaltspflicht zum Schutz von Fernmeldeanlagen voll erfüllt hat? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u281" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg340">Herr Präsident, gestatten Sie bitte, daß ich die beiden Frage des Kollegen Wuttke zusammen beantworte?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u282" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg341">Ja, bitte! Ich rufe also auch die Frage 40 des Herrn Abgeordneten Wuttke auf:</seg>
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg342">Was hat die Bundesregierung getan, um dem unmittelbar nach Bekanntwerden der Angelegenheit in verschiedenen Veröffentlichungen erhobenen Vorwurf entgegenzutreten, daß amtliche Dienststellen das Abhören begünstigt hätten, nachdem die Ergebnisse durchgeführter Untersuchungen die Vermutung begründet haben, daß dieses Anzapfen der Fernsprechleitungen nicht im öffentlichen Netz erfolgt ist?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u283" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg343">Herr Kollege Wuttke, nach Auskunft der Landesjustizverwaltung Rheinland-Pfalz ist das Ermittlungsverfahren in der Abhöraffäre Kohl/Biedenkopf von der zuständigen Staatsanwaltschaft des Landes Rheinland-Pfalz bisher nicht eingestellt worden. Es werden noch weitere Ermittlungen geführt. Die bisherigen sehr umfangreichen Ermittlungen, soweit sie von der Deutschen Bundespost angestellt wurden, haben keinen Anhaltspunkt dafür gegeben, daß im öffentlichen Netz der Deutschen Bundespost abgehört worden ist. Die Bundesregierung wird nach Vorliegen der vollständigen Ermittlungsergebnisse auch zu den Vorwürfen gegen amtliche Dienststellen Stellung nehmen. Sie würde es daher begrüßen, wenn das Ermittlungsverfahren bald abgeschlossen werden könnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u284" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg344">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Wuttke (SPD) :</note>
+        <u who="#Q1561937" xml:id="ParlaMint-DE_1976-01-28-07-217.u285" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg345">Herr Staatssekretär, kann die Bundesregierung also nach ihren Feststellungen ausschließen, daß es sich bei dieser Abhöraffäre um einen Übergriff staatlicher Organe gehandelt haben kann, wie der sicherheitspolitische Sprecher der Unionsfraktion, Herr Miltner, am 12. Juni 1975 gegenüber dem Deutschen Depeschendienst geäußert hat?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u286" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg346">Herr Kollege Wuttke, ich habe das eben schon insoweit beantwortet, als ich gesagt habe, daß, soweit es die Ermittlungen der Deutschen Bundespost angeht, diese Feststellung nicht getroffen werden kann. Die Ermittlungen laufen aber noch, und ich möchte nicht in ein laufendes Ermittlungsverfahren eingreifen. Grundsätzlich könnte ich Ihre Frage, soweit es die Sicht der Deutschen Bundespost betrifft, mit Ja beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u287" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg347">Herr Abgeordneter Wuttke, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Wuttke (SPD) :</note>
+        <u who="#Q1561937" xml:id="ParlaMint-DE_1976-01-28-07-217.u288" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg348">Herr Staatssekretär, ist die Bundesregierung bereit, die Forderung des CDU-Vorsitzenden Kohl vom 14. Juni 1975 zu erfüllen, die Öffentlichkeit schonungslos über die Hintergründe des Skandals aufzuklären?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u289" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg349">Ja, natürlich, Herr Kollege. Ich habe das in dem Schlußsatz meiner vorangegangenen Antwort bereits betont.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u290" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg350">Herr Abgeordneter Dr. Arndt, eine letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Hamburg) (SPD) :</note>
+        <u who="#Q1098411" xml:id="ParlaMint-DE_1976-01-28-07-217.u291" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg351">Herr Staatssekretär, kann die Bundesregierung auf Grund der von Ihnen erwähnten eigenen Ermittlungen — also nicht des staatsanwaltschaftlichen Ermittlungsverfahrens — damit die Bekanntmachung vom 18. Juni 1975 der unabhängigen Kommission nach dem Gesetz zur Beschränkung des Post- und Fernmeldegeheimnisses bestätigen, nach der das Grundrecht der Herren Kohl und Biedenkopf aus Artikel 10 des Grundgesetzes durch amtliche Stellen des Bundes nicht verletzt worden ist, so daß die Behauptung des Abgeordneten Reddemann vom 17. Juni von einem „Komplott regierungsnaher Kreise" als unrichtig erwiesen ist?</seg>
+        </u>
+        <note type="speaker">Jung, Parl. Staatssekretär:</note>
+        <u who="#Q1793703" xml:id="ParlaMint-DE_1976-01-28-07-217.u292" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg352">Soweit es die eigenen Ermittlungen der Deutschen Bundespost angeht, kann ich auch diese Frage mit Ja beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1976-01-28-07-217.u293" ana="#chair">
+          <seg id="ParlaMint-DE_1976-01-28-07-217.seg353">Meine Damen und Herren, wir sind damit am Ende der Fragestunde. Ich danke Ihnen, Herr Staatssekretär. Die Fragen aus dem Geschäftsbereich Ihres Hauses sind damit beantwortet. Ich schließe die heutige Sitzung und berufe die nächste Sitzung des Deutschen Bundestages für Donnerstag, den 29. Januar, 9 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.32 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

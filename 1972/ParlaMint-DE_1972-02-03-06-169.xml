@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1972-02-03-06-169">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 6. Wahlperiode, 169. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 03.02.1972 (169. Sitzung der 6. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 6, Session 169 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1972-02-03 (Session 169 in Legislative Period 6)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="169">169. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.06" n="6">6. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="169">Session 169</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.06" n="6">Legislative Period 6</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 03.02.1972</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1972-02-03</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488220/b2b4d0d49600ef852d15e4052fabce1e/pp06-data.zip</idno>
+          <date when="1972-02-03">1972-02-03</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1972-02-03">1972-02-03</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="U1" ana="#DE-question_time">
+        <head>Fragestunde Drucksache VI/3075 —</head>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg1">Die Sitzung ist eröffnet. Ich rufe den einzigen Punkt der Tagesordnung auf: Fragestunde Drucksache VI/3075 —</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg2">Wir fahren mit den Fragen aus dem Geschäftsbereich des Bundesministers für Verkehr und für das Post- und Fernmeldewesen fort. Zur Beantwortung steht Herr Bundesminister Leber zur Verfügung. Ich rufe die Frage 96 des Abgeordneten Niegel auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg3">Teilt die Bundesregierung die Auffassung, daß sie die Situation bei der Deutschen Bundesbahn und der Deutschen Bundespost bereits seit Anfang 1970 falsch eingeschätzt hat?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg4">Herr Präsident, die Bundesregierung teilt diese Auffassung nicht. Sie hat die Finanzlage von Bahn und Post nicht falsch eingeschätzt, und sie hat rechtzeitig entsprechende Schritte eingeleitet. Bereits Anfang 1970 wurden Tarifmaßnahmen bei der Bahn genehmigt. Im Verkehrsbericht 1970 hat die Bundesregierung darauf hingewiesen, daß auch „bei voller Ausnutzung der Eisenbahnkapazitäten die Möglichkeit eingeschränkt ist, durch entsprechende Mehrerträge weitere unabweisbare, vor allem personalbedingte Aufwandssteigerungen aufzufangen". Die Prüfung der mittelfristigen Finanzplanung der Deutschen Bundespost führte schon im März 1970 zu der Feststellung, daß Gebührenerhöhungen im Post- und Fernmeldewesen unumgänglich sein werden. Die daraufhin eingeleiteten Schritte führten zu entsprechenden Vorlagen an den Verwaltungsrat der Bundespost. Die Gebührenerhöhungen traten 1971 in Kraft.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg5">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1972-02-03-06-169.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg6">Herr Bundesminister, kann man aus der Tatsache, daß die Bundesregierung im Verkehrsbericht 1970 gesagt hat: „Eine besorgniserregende Entwicklung in der Verkehrswirtschaft konnte aufgehalten werden", nicht schließen, daß man hier zu einer Falscheinschätzung gekommen ist, und kann man als einfacher Bürger eine „besorgniserregende Entwicklung" bei der Bahn vermuten, wenn der Bundesminister für Verkehr vom „Gang zum Konkursrichter" spricht?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg7">Herr Kollege, ich komme auf dieses Thema gleich noch zu sprechen. Sie haben sich das ja in viele Detailfragen aufgeteilt. Wenn ich von einer besorgniserregenden Entwicklung bei der Eisenbahn gesprochen habe, dann habe ich die Kostenseite gemeint; wenn ich von einer guten Entwicklung bei der Eisenbahn gesprochen habe, habe ich die Ausnutzung der Kapazitäten der Deutschen Bundesbahn gemeint. Das sind zwei Dinge, die man völlig getrennt voneinander sehen und behandeln muß. Die volle Ausnutzung leerstehender Kapazitäten der Eisenbahn war die Aufgabe, an deren Lösung wir uns vor mehr als vier Jahren begeben haben. Dies ist in der Bundesrepublik Deutschland in einem Maße gelungen wie fast in keinem anderen Land der Welt. Als es gelungen war, die Kapazitäten der Deutschen Bundesbahn voll auszunutzen, kam eine neue Erschwernis, eine neue besorgniserregende Entwicklung auf sie zu — und das ist das, was ich hier gemeint habe —, nämlich Kostensteigerungen in einem Ausmaß — Sie wissen das selbst —, die man 1967 nicht vermuten konnte. Ich gehe davon aus, daß die Große Koalition, wenn sie das Ausmaß der dann eingetretenen Kostensteigerungen übersehen hätte, sie auch in der mittelfristigen Finanzplanung veranschlagt hätte. Das hat sie jedoch nicht getan.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg8">Eine weitere Zusatzfrage des Herrn Abgeordneten Niegel.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1972-02-03-06-169.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg9">Trifft es zu, Herr Bundesminister, daß die Bundesregierung, nachdem noch in der Regierungserklärung vom Oktober 1969 eine kaufmännische Unternehmensführung bei der Bahn hervorgehoben wurde, nunmehr bei steigenden Defiziten der Bahn und steigenden Bundesleistungen an die Bahn mehr und mehr die gemeinwirtschaftlichen Zielsetzungen im Sinne der Daseinsvorsorge in den Vordergrund treten läßt?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg10">Herr Kollege, hier kann ich den unmittelbaren Sachzusammenhang mit der ursprünglichen Frage, der nach den Richtlinien für die Fragestunde gegeben sein muß, nicht erkennen. Ich gebe Ihnen aber die Möglichkeit, die Frage so zu formulieren, daß dieser Zusammenhang erkennbar wird.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1972-02-03-06-169.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg11">Herr Bundesminister, ich darf es dann mit einfachen Worten konkret sagen. Es geht mir um die Aufklärung des Widerspruchs, daß man in der Regierungserklärung vom Oktober 1969 von einer kaufmännischen Unternehmensführung bei der Bahn und der Post sprach, während man sich nunmehr offenbar an einer gemeinwirtschaftlichen Zielsetzung im Sinne der Daseinsvorsorge orientiert.</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg12">Die Deutsche Bundesbahn hat nach den ihr gemachten Auflagen permanent beides zu erfüllen, nämlich sowohl eine optimale kaufmännische Betriebsführung zu betreiben als auch gemeinwirtschaftliche Aufgaben zu erfüllen, die ihr kraft Gesetzes bzw. kraft politischer Beschlüsse gestellt sind. Hier kann es jedoch zu einem Zielkonflikt kommen, nämlich dann, wenn die gemeinwirtschaftlichen Auflagen bei der Eisenbahn zu einer Kostenunterdeckung führen. In einem solchen Falle muß derjenige, der die Auflage macht, nach § 28 a dafür finanziell geradestehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg13">Eine Zusatzfrage des Herrn Abgeordneten Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1972-02-03-06-169.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg14">Herr Bundesminister, wie stehen Sie heute zu Ihrer Behauptung aus dem Jahre 1967, daß, falls Ihrem Plan, dem Leber-Plan, nicht zugestimmt werde, die Leistungen des Bundes an die Bundesbahn in fünf Jahren das erschreckende Ausmaß von 5 Milliarden DM jährlich erreichen würden, nachdem heute aus dem Haushalt zu ersehen ist, daß 1972 die Bundesleistungen an die Bundesbahn das erschreckende Ausmaß von 6 Milliarden DM erreichen werden?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg15">Herr Kollege Dr. Jobst, das ist eine mir sehr willkommene Frage, die ich gern beantworte. Wenn die Lohn- und Gehaltssteigerungen in dem Rahmen geblieben wären, den wir 1967 vorgesehen hatten — 4,5 % jährlich —, hätte nach der inzwischen eingetretenen Erreichung der betriebswirtschaftlichen Ziele die Deutsche Bundesbahn im Jahre 1970 nach unseren Berechnungen einen Gewinn von mehr als 400 Millionen DM ausgewiesen. So hätten sich die von uns durchgeführten verkehrspolitischen Maßnahmen bei der Eisenbahn ausgewirkt, wenn die in der mittelfristigen Finanzplanung veranschlagte Personalkostensteigerung von 4,5 % jährlich durchgehalten worden wäre. Zweitens. Wenn diese verkehrspolitischen Maßnahmen, die das verkehrspolitische Programm vorgesehen hat, nicht durchgeführt worden wären, wäre der Bedarf der Bundesleistungen an die Deutsche Bundesbahn auch ohne Personalkostensteigerungen, die über 4,5 % hinausgehen, auf die 5-MilliardenDM-Grenze geschwommen. Wenn beides zusammen eingetreten wäre, wenn also die Wirkungen des verkehrspolitischen Programms nicht zum Ziel gelangt und die Personalkostensteigerungen trotzdem eingetreten wären, dann würde der Bedarf der Bundesleistungen an die Deutsche Bundesbahn 1972 nicht 6, sondern wahrscheinlich 8 bis 9 Milliarden DM betragen. Daß dies nicht eingetreten ist, mag Ihnen nicht gefallen. Aber ich habe die Frage bei Ihnen ja nicht bestellt; wenn Sie fragen, müssen Sie sich schon gefallen lassen, daß Sie eine Antwort kriegen. Daß der Bedarf der Bundesbahn nicht auf 8 bis 9 Milliarden DM angestiegen ist, ist das Ergebnis dieser Verkehrspolitik. Sonst würde die Deutsche Bundesbahn da stehen, wo sich andere Eisenbahnen im Ausland heute finanziell befinden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg16">Die Tatsache, meine Damen und Herren, daß sich die Eisenbahn in guten Sommermonaten in Frankreich Tausende von Waggons leihen kann, ist doch wohl ein Beweis dafür, daß wir es dort mit unausgelasteten Kapazitäten zu tun haben, während unsere Kapazitäten hier so voll ausgelastet waren, daß wir die Eisenbahnen mit „Überstunden" fahren lassen mußten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg17">Zu einer Zusatzfrage Herr Abgeordneter Dr. MüllerHermann.</seg>
+        </u>
+        <note type="speaker">Dr. Müller-Hermann (CDU/CSU) :</note>
+        <u who="#Q1359569" xml:id="ParlaMint-DE_1972-02-03-06-169.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg18">Herr Bundesverkehrsminister, nachdem Sie und die Bundesregierung als Ihr Ziel für diese Legislaturperiode doch angekündigt haben, das Defizit der Bundesbahn einzudämmen und die Bundeszuwendungen nicht ausufern zu lassen, müssen Sie sich doch wohl die Frage gefallen lassen, ob Ihre eben gegebene Replik eine Anklage gegenüber Bundeskanzler Brandt oder Bundeswirtschaftsminister Schiller darstellt, die Sie für die an und für sich gute Politik verantwortlich machen, die von den anderen durchkreuzt worden ist.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg19">Verehrter Herr Kollege Müller-Hermann, Sie wollen hier doch wohl nicht die Auffassung vertreten, daß der Herr Bundeskanzler oder der Herr Bundeswirtschaftsminister fahrlässig Tarifentwicklungen oder Lohnbewegungen am Verhandlungstisch initiiert hätte, auf die die Bundesregierung, wenn sie die Tarifhoheit der Tarifpartner achtet, überhaupt keinen Einfluß hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg20">Zu einer Zusatzfrage Herr Abgeordneter Apel.</seg>
+        </u>
+        <note type="speaker">Dr. Apel (SPD) :</note>
+        <u who="#Q65561" xml:id="ParlaMint-DE_1972-02-03-06-169.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg21">Herr Bundesverkehrsminister, können Sie die Kollegen der Opposition erneut daran erinnern, daß in diesem Hause von allen Fraktionen einstimmig Besoldungsentscheidungen getroffen worden sind — vorbereitet in einer interfraktionellen Arbeitsgruppe , die bei Bahn und Post im letzten Jahr, aber auch noch in diesem Jahr das schwere Defizit gebracht haben?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg22">Ich kann das nicht nur bestätigen, Herr Kollege Apel, sondern muß, um ganz präzise zu sein, sagen, daß sich nach meinem Erinnerungsvermögen die Lage damals so dargestellt hat, daß alle Fraktionen darüber zwar einer Meinung waren, die Opposition aber sogar noch ein bißchen mehr machen wollte, als damals beschlossen worden ist.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg23">Zu einer letzten Zusatzfrage Herr Abgeordneter Schmitt (Lockweiler).</seg>
+        </u>
+        <note type="speaker">Schmitt (Lockweiler) (CDU/CSU):</note>
+        <u who="#Q1705672" xml:id="ParlaMint-DE_1972-02-03-06-169.u21" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg24">Herr Bundesminister, ist Ihnen bekannt — Sie haben soeben auf die Vollauslastung bei der Deutschen Bundesbahn hingewiesen —, daß zur Zeit im Durchschnitt 45 000 Waggons bei der Bundesbahn nicht benutzt werden? Sie haben auch von der Nichtauslastung der Kapazität in Frankreich gesprochen. In diesem Zusammenhang darf ich Sie fragen, ob der Bundesregierung bekannt ist, daß durch die neuesten Vereinbarungen zwischen der französischen Regierung und der Société Nationale des Chemins de Fer Français erreicht worden ist, daß im Jahre 1970 die SNCF einen Gewinn ausweisen konnte.</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg25">Verehrter Herr Kollege, ich wünschte der SNCF, sie hätte einen Gewinn. Auch die Deutsche Bundesbahn kann einen Gewinn ausweisen, wenn ihr die übrigen Belastungen vom Finanzminister alle abgenommen werden. Dann bleibt es für die Eisenbahn leicht, trotz eines realen Defizits einen Gewinn auszuweisen. Im übrigen ist die Behauptung nicht richtig, die Deutsche Bundesbahn habe leerstehende Waggons, jedenfalls gar nicht in dieser Größenordnung. Es kann mal vorkommen, daß irgendwo vorübergehend ein paar Waggons nicht ausgelastet werden. Das kann sich besonders um die Feiertage herum ereignen.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Müller-Hermann: Dann sind Sie aber falsch unterrichtet!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg26">— Ich bin richtig unterrichtet!</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg27">Ich rufe die Frage 97 des Abgeordneten Schulte (Schwäbisch Gmünd)</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg28">auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg29">Teilt die Bundesregierung die Auffassung, daß die Kontroversen um die Preispolitik bei der Deutschen Bundesbahn und der Deutschen Bundespost zwischen dem Bundesminister für Verkehr und für das Post- und Fernmeldewesen und dem Bundesminister für Wirtschaft und Finanzen seit Anfang 1970 die derzeitige Situation bei der Deutschen Bundesbahn und der Deutschen Bundespost wesentlich mitverschuldet hat? Herr Minister!</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u24" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg30">Die Bundesregierung teilt diese Auffassung nicht. Es ist völlig natürlich, daß sich im Verlauf der Meinungsbildung zu einzelnen preispolitischen Fragen unter Wahrung der verschiedenen Ressortstandpunkte zunächst auch unterschiedliche Auffassungen entwickeln. Die Bundesregierung hat in allen Fragen, die sie bisher beschäftigt haben und mit denen auch ich befaßt war, immer einen Standpunkt gefunden, der zu einem völligen Einvernehmen zwischen den einzelnen Ressorts geführt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u25" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg31">Zu einer Zusatzfrage Herr Abgeordneter Schulte.</seg>
+        </u>
+        <note type="speaker">Schulte (Schwäbisch Gmünd) (CDU/CSU):</note>
+        <u who="#Q1222818" xml:id="ParlaMint-DE_1972-02-03-06-169.u26" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg32">Herr Minister Leber, wollen Sie damit zum Ausdruck bringen, daß diese in der Tarifpolitik genauso gelaufen sind, wie Sie es sich gewünscht haben?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg33">Das haben Sie ja gar nicht gefragt, Herr Kollege. Sie haben nur gefragt bzw. wollten von mir eigentlich nur hören, ob zwischen Herrn Kollegen Schiller und mir Streit gewesen sei. Die Frage habe ich Ihnen mit Nein beantwortet.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der CDU/CSU: Aber jetzt ist es eine andere Frage!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg34">Zu einer Zusatzfrage Herr Abgeordneter Dr. Müller-Hermann.</seg>
+        </u>
+        <note type="speaker">Dr. Müller-Hermann (CDU/CSU) :</note>
+        <u who="#Q1359569" xml:id="ParlaMint-DE_1972-02-03-06-169.u29" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg35">Herr Minister, darf ich Sie noch einmal bitten, um der richtigen Information dieses Hohen Hauses willen bei der Bundesbahn Rückfrage zu halten, wie es sich tatsächlich mit dem Leerstehen von Waggons im Augenblick verhält?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u30" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg36">Herr Kollege Müller-Hermann, ich lasse diese Zusatzfrage zu diesem Punkt nicht zu.</seg>
+          <vocal type="exclamat">
+            <desc>Abg, Dr. Apel: Das finde ich aber auch! Wo kommen wir denn da hin?! — Abg. Dr. Müller-Hermann: Das wird der Minister aber noch einmal sehr bedauern!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg37">— Entschuldigen Sie, Herr Kollege! Sie haben so viele parlamentarische Möglichkeiten, diese Frage zu klären, daß Sie sie nicht an die Frage des Kollegen Schulte anhängen müssen. Das müssen Sie verstehen, Sie sind doch lange genug in diesem, Hause. Eine weitere Zusatzfrage, Herr Abgeordneter Leicht.</seg>
+        </u>
+        <note type="speaker">Leicht (CDU/CSU) :</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1972-02-03-06-169.u31" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg38">Herr Minister, würden Sie zugestehen, daß bei den Beratungen über die Gebührenerhöhungen bereits Ende des Jahres 1970 zumindest bei der Deutschen Bundespost festgestellt worden ist, daß diese Erhöhungen nicht ausreichen werden, um bei der Deutschen Bundespost unter den damals erkennbaren Verhältnissen auf längere Sicht die Konten einigermaßen auszugleichen?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg39">Herr Kollege Leicht, ich kann Ihnen bestätigen, daß diese Auffassung im Verwaltungsrat geherrscht hat und daß ich, als wir über die Gebührenerhöhung sprachen, auch nicht sicher war, ob das ausreichen würde, weil ich nicht einschätzen konnte, wie die Kostenentwicklung in den Jahren 1971/72 sein würde. Ich habe dahinter meine Fragezeichen gemacht. Dies ist wohl auch, wie ich glaube, zu verantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg40">Eine Zusatzfrage des Herrn Abgeordneten Wende.</seg>
+        </u>
+        <note type="speaker">Wende (SPD) :</note>
+        <u who="#Q1303910" xml:id="ParlaMint-DE_1972-02-03-06-169.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg41">Herr Minister, können Sie der Opposition erneut bestätigen, daß es das Versäumnis Ihres Herrn Vorgängers war, rechtzeitig Gebührenerhöhungen bei der Post vorzubereiten, weil ein solches Defizit schon 1969 vorauszusehen war?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg42">Herr Kollege, ,dies steht eigentlich in Sachzusammenhang mit den Fragen, die wir gestern behandelt haben. Ich bin aber gerne bereit, noch einmal auf meine Antwort von gestern zu verweisen. Die Gebührenerhöhung wäre an sich 1969 fällig gewesen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg43">Eine Zusatzfrage des Herrn Abgeordneten Dr. Schulze-Vorberg.</seg>
+        </u>
+        <note type="speaker">Dr. Schulze-Vorberg (CDU/CSU) :</note>
+        <u who="#Q1593650" xml:id="ParlaMint-DE_1972-02-03-06-169.u37" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg44">Herr Bundesminister, im Zusammenhang mit Ihrer letzten Antwort: Trifft es zu, daß das letzte Amtsjahr Ihres Vorgängers eines der besten in der Geschichte der Bundespost, was den Gewinnüberhang betrifft, gewesen ist?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg45">Nein, das kann ich nicht bestätigen. Der Gewinn betrug nur 300 Millionen DM. Das war eine der geringsten Gewinnmargen, die die Post, wenn ich ihren ganzen Rhythmus betrachte, zu verzeichnen hatte.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Schulze-Vorberg: Das drittbeste Jahr!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg46">Es kommt darauf an, welche Spanne Sie herausnehmen. Wenn Sie drei nehmen, war es sicher so.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u39" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg47">Hatten Sie noch eine Zusatzfrage?</seg>
+        </u>
+        <note type="speaker">Lemmrich (CDU/CSU) :</note>
+        <u who="#Q1731553" xml:id="ParlaMint-DE_1972-02-03-06-169.u40" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg48">Herr Minister, Sie haben doch damit sicherlich dem Kollegen Wende nicht bestätigen wollen, 1969 habe bereits ein Defizit bestanden, wie seiner Frage zu entnehmen war?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg49">Nein, ich habe gesagt, Herr Kollege Lemmrich — ich gehe doch davon aus, daß Sie von wirtschaftlichen Zusammenhängen viel verstehen --, daß, wenn man im Jahre 1969 mit Sicherheit erkannt hat — und zwar durch alle Ansätze, die deutlich sind, die nicht in den Bereich der Utopie gehören —, daß die Post 1970 in eine defizitäre Situation kommen würde, eine vorausschauende Politik ohne Rücksicht auf Bundestagswahlen im Jahre 1969 schon das hätte tun müssen, was wir im Jahre 1970 nachvollzogen haben. Das ist aber nicht geschehen.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Schulze-Vorberg: Das drittbeste Jahr! - Weiterer Zuruf von der CDU/CSU: Warum haben Sie es dann nicht gemacht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg50">- Ich war 1969 noch nicht da!</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u42" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg51">Eine Zusatzfrage des Herrn Abgeordneten Schmidt (Braunschweig).</seg>
+        </u>
+        <note type="speaker">Schmidt (Braunschweig) (SPD) :</note>
+        <u who="#Q2546152" xml:id="ParlaMint-DE_1972-02-03-06-169.u43" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg52">Herr Minister, würden Sie bestätigen, daß auch zu Zeiten Ihres Amtsvorgängers Gebührenerhöhungen bei der Post und bei der Bahn erfolgt sind?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u44" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg53">Ich weiß, daß die Verwaltung des Postministeriums — jetzt rede ich einmal noch offener; ich kann das nachher noch offener tun, wenn Sie wollen — dem amtierenden Minister Anfang 1969 dringend nahegelegt hat, Postgebührenerhöhungen einzuleiten, und daß das nicht geschehen ist, unausgesprochen deswegen, weil Bundestagswahlen vor der Tür standen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dr. Müller-Hermann: Weil eine Große Koalition bestand!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u45" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg54">Nach dieser Antwort noch eine Zusatzfrage des Herrn Abgeordneten Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1972-02-03-06-169.u46" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg55">Herr Bundesminister, wollen Sie bestreiten, daß 1970 bei Ihnen eine ähnliche Situation gegeben war und daß die Bundesregierung deshalb keine Erhöhungen vorgenommen und den Antrag der Bundesbahn abgelehnt hat, weil fünf Landtagswahlen vor der Türe standen?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u47" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg56">Nein, dies war nie die Haltung der Bundesregierung. Die Bundesregierung hat im März 1970 kein Hehl daraus gemacht, daß sie Tariferhöhungen und Gebührenerhöhungen für notwendig hält, und sie hat die Erhöhungen tatsächlich auch vorgenommen. Sie muß sich natürlich auch an die Zuständigkeiten halten. Sie kann das nicht allein in eigener Zuständigkeit entscheiden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u48" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg57">Ich rufe die Frage 77 des Herrn Abgeordneten Weber (Heidelberg)</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg58">auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg59">Teilt die Bundesregierung die von Bundesverkehrsminister Leber im Mai 1968 bei jährlichen Bundesleistungen an die Deutsche Bundesbahn in Höhe von rund 3 Milliarden DM getroffene Feststellung, daß es bei der Deutschen Bundesbahn vor allem wichtig sei, dem rapiden Anstieg der Bundesleistungen sofort Einhalt zu gebieten, weil sonst jede zukünftige Finanzplanung gesprengt würde, und gilt diese Feststellung nunmehr auch für die Deutsche Bundespost?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg60">Selbstverständlich ist und bleibt es Absicht der Bundesregierung, daß ein rapider Anstieg der Bundesleistungen an die Deutsche Bundesbahn verhindert werden muß. Auch zum Ausgleich der erheblichen Kostensteigerungen der letzten beiden Jahre sind erhöhte Einnahmen aus Verkehrsleistungen der Steigerung der Bundeszuschüsse vorzuziehen. Es darf aber kein Zweifel daran gelassen werden, daß die zunehmenden gesellschaftspolitischen Aufgaben der Deutschen Bundesbahn auch ihren entsprechenden fiskalpolitischen Preis fordern. Hinsichtlich der Deutschen Bundespost kann von einem rapiden Ansteigen der Bundesleistungen schon allein deswegen nicht gesprochen werden, weil die Post aus dem Bundeshaushalt keine Leistungen erhält, sondern, wie Sie hoffentlich wissen, nicht unerhebliche Ablieferungen an den Bund leistet. Im übrigen ist es ein Ziel der Bundesregierung, die Finanzkraft der Bundespost zu stärken und ihre Unabhängigkeit vom Bundeshaushalt zu sichern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u50" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg61">Zusatzfrage des Herrn Abgeordneten Weber.</seg>
+        </u>
+        <note type="speaker">Weber (Heidelberg) (CDU/CSU) :</note>
+        <u who="#Q1733307" xml:id="ParlaMint-DE_1972-02-03-06-169.u51" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg62">Herr Minister Leber, trifft es zu, daß es ein fundamentales Ziel des sogenannten Leber-Planes war, die Leistungen des Bundes an die Bahn in einem Zeitraum von fünf Jahren zumindest zu stabilisieren?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u52" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg63">Jawohl, das ist das Ziel gewesen. Das hat er, soweit es verkehrspolitisch machbar war, auch voll erreicht. Nur kann die Verkehrspolitik weder die Kostengrößen, die vor allen Dingen durch das Zinsniveau bei Inanspruchnahme des Kapitalmarktes auf sie zukommen, noch die Lohnkosten korrigieren. Dies kommt von außen auf Post und Bahn zu. Das ist auch vom Verkehrsministerium her nicht steuerbar.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u53" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg64">Eine Zusatzfrage des Herrn Abgeordneten MüllerHermann.</seg>
+        </u>
+        <note type="speaker">Dr. Müller-Hermann (CDU/CSU) :</note>
+        <u who="#Q1359569" xml:id="ParlaMint-DE_1972-02-03-06-169.u54" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg65">Herr Minister Leber, wäre es nicht gut, wenn wir uns alle einmal daran gewöhnten, die Verkehrspolitik nicht als ein separates Stück, das im luftleeren Raum steht, anzusehen, sondern als ein Teilstück der Gesamtpolitik? Eine schöne Verkehrspolitik nützt nichts, wenn die Gesamtpolitik sie konterkariert.</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u55" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg66">Herr Kollege MüllerHermann, dies ist ein Ideal, dem man ständig nachstreben muß. Nur zerfällt eben unser gesellschaftliches und wirschaftliches Leben in verschiedene Sachgebiete, die manchmal in einem Spannungsverhältnis zueinander stehen. Ich kann sehr wohl die Auffassung eines Wirtschaftsministers begreifen, der sagt: Mir paßt es jetzt in meine Bemühungen um Preisstabilität gar nicht hinein, wenn sich Tarife und Gebühren von öffentlichen Unternehmen steigern. Die Position der Opposition ist in einem solchen Fall eine andere. Sie kann, wenn sie nur parteitaktisch denkt, eine Freude daran haben, daß das geschieht.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dr. Müller-Hermann: Leider habe ich keine Zusatzfrage mehr!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u56" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg67">Eine Zusatzfrage des Herrn Abgeordneten Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1972-02-03-06-169.u57" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg68">Herr Bundesverkehrsminister, nachdem in der Regierungserklärung vom Oktober 1969 eine umfassende Planung in der Verkehrspolitik versprochen wurde, müßte die Bundesregierung jetzt doch wohl die Frage beantworten können, welches Endniveau die Bundesregierung bei den in ihrer mittelfristigen Finanzplanung angesetzten fallenden Bundesleistungen an die Bahn vorsieht und für welchen Zeitpunkt sie das anstrebt.</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u58" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg69">Herr Kollege Jobst, nachdem die Anzeichen gerade im Bereich der Personalkosten darauf hindeuten, daß wir es mit einem Normalisierungsprozeß zu tun haben — wir haben es ja nicht mehr mit Personalkostensteigerungen zu tun, die das gleiche Niveau haben wie in den Jahren vorher; dies ist die wichtigste Voraussetzung, die es überhaupt gibt —, habe ich die Hoffnung, daß wir jetzt die Voraussetzungen für eine Entwicklung haben, die wieder Aussichten für vernünftige Dispositionen eröffnet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u59" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg70">Eine Zusatzfrage des Herrn Abgeordneten Leicht.</seg>
+        </u>
+        <note type="speaker">Leicht (CDU/CSU) :</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1972-02-03-06-169.u60" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg71">Herr Minister, Sie haben auf die Frage des Herrn Kollegen Weber die Stärkung der Wirtschaftskraft der Deutschen Bundespost betont. An Ihre Antwort zu Fragen vorhin anknüpfend, möchte ich fragen, ob Sie dann auch im Jahre 1973 und im Jahre 1974 für die Bundespost Gebührenerhöhungen vorschlagen werden, nachdem selbst nach den Gebührenerhöhungen, wenn sie jetzt kommen, bereits eingeplante Defizite für 1973 und 1974 zu erwarten sind.</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u61" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg72">Soweit das Jahr 1973 in Betracht kommt, Herr Kollege Leicht, kann ich Ihnen verbindlich zusagen, daß ich keine Anträge auf Gebührenerhöhungen stelle. Da Sie davon ausgehen, daß ich auch im Jahre 1974 darüber zu befinden habe, ich aber noch nicht sicher bin, welches Ressort der Bundeskanzler dann für mich vorsehen wird, möchte ich mich in bezug auf meine Haltung für 1974 hier jeder Aussage enthalten.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit und Beifall bei der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u62" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg73">Eine Zusatzfrage des Herrn Abgeordneten Schulte.</seg>
+        </u>
+        <note type="speaker">Schulte (Schwäbisch Gmünd) (CDU/CSU) :</note>
+        <u who="#Q1222818" xml:id="ParlaMint-DE_1972-02-03-06-169.u63" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg74">Herr Bundesminister, wie stehen Sie zu der Aussage des Wirtschaftsjournalisten Peter Gillis, daß unter dem Diktat der knappen Bundeskasse der Bahn nicht nur die Vorfinanzierung der heute schon absehbaren Verluste überlassen wird, sondern auch wirklichkeitsfremde Ansätze in die mittelfristige Finanzplanung eingestellt werden und sich so jeder etwas — das gehört immer noch zu dem Zitat — in die Tasche lügt?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u64" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg75">Ich würde Herrn Gillis gern eine etwas sachdienlichere Aufklärung geben, damit er in der Lage wäre, eine etwas bessere Formulierung für das zu finden, was er vielleicht meint.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u65" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg76">Eine letzte Zusatzfrage des Herrn Abgeordneten Lemmrich.</seg>
+        </u>
+        <note type="speaker">Lemmrich (CDU/CSU) :</note>
+        <u who="#Q1731553" xml:id="ParlaMint-DE_1972-02-03-06-169.u66" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg77">Herr Bundesminister, Sie haben in Ihrer Antwort auf die hohen Zinskosten hingewiesen. Wenn die Zinskosten zu hoch sind — in der Tat gab es die höchsten Zinsen, die es je in der Bundesrepublik gab, unter der SPD-geführten Bundesregierung , warum überläßt dann die Bundesregierung der Deutschen Bundesbahn die Finanzierung der Defizite, die zu weiteren beträchtlichen Belastungen der Deutschen Bundesbahn führt?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg78">Dies ist keine Erfindung dieser Bundesregierung, Herr Kollege Lemmrich. Da hier gestern und heute viel Geschichtsstudium getrieben worden ist, würde ich Ihnen anraten, mal zu verfolgen, seit wann die Bundesbahn von jeder Bundesregierung gehalten worden ist, ihren Haushalt auf diese Weise auszugleichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg79">Ich rufe die nächste Frage auf, die Frage 78 des Herrn Abgeordneten Dr. Jobst:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg80">Wann wird die Bundesregierung die in der Regierungserklärung vom Oktober 1969 für diese Legislaturperiode versprochene Abnahme der Schuldenlast bei der Deutschen Bundesbahn realisieren? Herr Minister.</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u69" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg81">Die Übernahme der Schuldenlast wird im Rahmen der mehrjährigen Finanzplanung des Bundes durchgeführt, sobald die Verhandlungen zwischen den Ressorts abgeschlossen sind. Im übrigen wird die Bundesregierung zu dieser Frage im Rahmen des vom Bundestag zum 30. Juni 1972 einstimmig angeforderten Berichts Stellung nehmen. Die Bundesregierung hat sich verpflichtet, in dieser Legislaturperiode dieses Problem zu lösen. Sie hat sich nicht festgelegt, in welchem Jahr dieser Legislaturperiode sie diese Maßnahme durchführen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg82">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1972-02-03-06-169.u71" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg83">Herr Bundesminister, würden Sie uns die Gründe nennen, die der Ankündigung der Bundesregierung im Verkehrsbericht, für diese Legislaturperiode eine Änderung des Bundesbahngesetzes zu realisieren, hinderlich sind.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dr. Apel: Das hängt doch wieder nicht mit der Frage zusammen!</desc>
+        </vocal>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u72" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg84">Ich verstehe Ihre Frage nicht; die Bundesregierung ist doch nicht daran gehindert, dies zu tun.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1972-02-03-06-169.u73" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg85">Welches sind die Gründe dafür, daß die Bundesregierung die im Verkehrsbericht 1970 für diese Legislaturperiode angekündigte Änderung des Bundesbahngesetzes nicht mehr zu realisieren vermag?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u74" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg86">Herr Kollege, diese Frage steht nicht in dem geforderten unmittelbaren Sachzusammenhang mit Ihrer ursprünglichen Frage. Sie haben eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1972-02-03-06-169.u75" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg87">Herr Bundesminister, wann wird die Ende 1969 vom Bundesminister für Verkehr eingesetzte Arbeitsgruppe „Eisenbahn der Zukunft" ihre Arbeiten voraussichtlich abschließen können?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u76" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg88">Herr Kollege, Sie haben nach der Umschuldung der Bundesbahn gefragt. Ich bin gern bereit, auch diese Frage zu beantworten. Aber vielleicht ist es doch ratsam, einmal eine allgemeine „Eisenbahn-Debatte" durchzuführen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dr. Apel: Eben!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u77" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg89">Meine Damen und Herren, die Geschäftsordnung sieht das Instrument einer Aktuellen Stunde vor, um Debatten über solche Fragen zu ermöglichen. Ich wäre Ihnen sehr dankbar, wenn Sie bei Ihren Zusatzfragen diese Fragen in dem Rahmen, den die Geschäftsordnung für die Fragestunde vorsieht, vorbringen würden. Herr Kollege Jobst, ich bedaure sehr, auch hier den geforderten unmittelbaren Sachzusammenhang nicht sehen zu können. Ich gebe Ihnen noch die Möglichkeit, eine Frage zu stellen, die in dem geforderten Sachzusammenhang steht.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU):</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1972-02-03-06-169.u78" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg90">Herr Bundesverkehrsminnister, Sie haben mehrfach darauf hingewiesen, daß die hohe Schuldenlast und die Fremdfinanzierung der Bundesbahn ein mit entscheidender Grund für das Defizit der Bahn sind. Warum hat die Bundesregierung bisher ihre Versprechungen hier nicht eingehalten, der Bundesbahn diese Schuldenlast abzunehmen?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u79" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg91">Verehrter Herr Kollege Jobst, keine frühere Bundesregierung hat der Bundesbahn Schulden abgenommen. Diese Bundesregierung hat sich vorgenommen, der Deutschen Bundesbahn einen wesentlichen Teil ihrer Schulden abzunehmen, und sie wird das bis zum Ende der Legislaturperiode auch tun. Sie können diese Bundesregierung nur nicht dazu verpflichten, dies im ersten, zweiten, dritten oder vierten Jahr zu tun. Dies bleibt ihrer freien Entscheidung vorbehalten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u80" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg92">Eine Zusatzfrage des Herrn Abgeordneten Schmitt (Lockweiler).</seg>
+        </u>
+        <note type="speaker">Schmitt (Lockweiler) (CDU/CSU) :</note>
+        <u who="#Q1705672" xml:id="ParlaMint-DE_1972-02-03-06-169.u81" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg93">Herr Bundesminister, trifft es zu, daß die im Haushalt 1972 an Liquiditätszuwendungen für den Verlustausgleich bei der Bahn eingesetzten 2,57 Milliarden DM in voller Höhe aufgewendet werden müssen, um den in den vergangenen Jahren von der Bahn durch Kredite vorfinanzierten Verlustausgleich abzudecken?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u82" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg94">Ich habe das exakte Zahlenmaterial im Augenblick nicht im Kopf. Aber ich schließe nicht aus, daß die Zahlen, die Sie eben genannt haben, richtig sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u83" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg95">Eine Zusatzfrage des Herrn Abgeordneten Leicht.</seg>
+        </u>
+        <note type="speaker">Leicht (CDU/CSU) :</note>
+        <u who="#Q1584525" xml:id="ParlaMint-DE_1972-02-03-06-169.u84" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg96">Wie deckt sich Ihre Aussage, Herr Minister, über die Abnahme der Schuldenlast der Deutschen Bundesbahn — während der mittelfristigen Finanzplanung, wohl bis 1975 — mit der Tatsache, daß in diesem Zeitraum nach den Plänen der Regierung die Leistungen des Bundes an die Bundesbahn vom Jahre 1973 an wieder rückläufig werden.</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u85" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg97">Herr Kollege Leicht, das hat mit den Leistungen des Bundes direkt nichts zu tun; denn wenn der Bund der Bundesbahn Schuldenlast abnimmt, dann nimmt er ihr auch den Zinsendienst dafür ab. Dies ist eine Frage, über die wir verhandeln. Im übrigen ist das nicht eine Mehraufwendung für den Bund; denn wenn er der Bundesbahn die Schuldenlast nicht abnimmt, bleibt sie im Schuldbuch der Bundesbahn stehen, wie das bisher alle 25 Jahre der Fall war. Die Bahn trägt die Zinsen dafür und bekommt, da sie diese nicht selbst erwirtschaften kann, im Zuge der Liquiditätshilfe diese Zinsen vom Bund zur Verfügung gestellt. Das ist in Wirklichkeit nichts anderes — das wissen Sie aber sehr genau — als ein Umbuchungsvorgang: das Schuldbuch des Bundes erhöht sich um diese Summe, und der Bund zahlt die Zinsen direkt und erstattet diesen Betrag nicht im Zuge des Liquiditätsausgleichs an die Eisenbahn.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u86" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg98">Eine Zusatzfrage des Herrn Abgeordneten Lemmrich.</seg>
+        </u>
+        <note type="speaker">Lemmrich (CDU/CSU):</note>
+        <u who="#Q1731553" xml:id="ParlaMint-DE_1972-02-03-06-169.u87" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg99">Nachdem Sie jetzt wieder, wie schon bei der Beratung des Bundeshaushaltes 1971, vom Umbuchungsvorgang gesprochen haben, möchte ich Sie fragen, wo denn die Schwierigkeiten liegen, wenn es wirklich nur ein Umbuchungsvorgang ist, und warum Sie diesen Umbuchungsvorgang jetzt nicht unmittelbar realisieren?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u88" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg100">Das sind die gleichen Schwierigkeiten, Herr Kollege Lemmrich, die alle früheren Bundesregierungen daran gehindert haben, sich auch nur vorzunehmen, ,dies zu tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u89" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg101">Ich rufe die Frage 79 des Herrn Abgeordneten Dr. Jenninger auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg102">Stimmt die Bundesregierung mit der Auffassung des Bundesverkehrsministers überein, daß die Deutsche Bundesbahn, wenn sie ein Privatunternehmen wäre, den Gang zum Konkursrichter antreten müßte?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u90" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg103">Die Frage wurde bereits in der Fragestunde am 1. Dezember 1971 im Rahmen verschiedener Fragen des Herrn Kollegen Lemmrich ausführlich behandelt. Ich kann deshalb dem Herrn Kollegen Dr. Jenninger nur wiederholen, was seinerzeit gesagt wurde. Ich zitiere:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg104">Die Frage beruht auf einer beträchtlichen Verkennung des Sinnes ,der aufgegriffenen Äußerung. Mir kam es nämlich mit der erwähnten Äußerung nur darauf an, die außerordentlich schwierige finanzielle Situation der Bundesbahn, die von ihr nicht zu vertreten ist, bildhaft darzustellen. Deshalb habe ich ,das damals gesagt. Um es noch einmal zu wiederholen: mit dem Gang zum Konkursrichter. Ich füge jetzt hinzu: Ich habe das damals so bildhaft gesagt, damit jeder, auch der letzte, der sich über diese Dinge Gedanken macht, aber keinen Durchblick durch ,die Probleme hat, in der Lage ist, bildhaft zu begreifen, wie ernst die Situation der Eisenbahn war. Ich habe das in der damaligen Situation — es war Ende des vergangenen Jahres — auch auf Grund einer sehr politischen Überlegung gesagt, denn das war die Zeit, als sich neue Kostensteigerungen an Verhandlungstischen anbahnten. Ich wollte darauf hinweisen, daß die Deutsche Bundesbahn in einer Situation ist, in der sie nicht alles, was man sich dort überlegt, verkraften kann, ohne für sich selbst neue große Belastungen zu schaffen. Dies ist übrigens so neu nicht. Ich habe ja früher, ehe ich der Bundesregierung angehört habe, an Verhandlungstischen dieser Art gesessen, wie Sie wissen, und habe dabei keinen Tag erlebt, an dem mir nicht gesagt wurde: Wenn Sie das durchsetzen, gehen wir alle bankrott. Dabei war das oft viel mäßiger als das, was wir hinter uns hatten. Wir haben uns das damals gegenseitig nicht weiter nachgetragen; es ist unter gesitteten Leuten so, daß man das wieder vergißt. Aber hier wird das ja ständig aufgewärmt. Für den Fall, daß hier jemand der Auffassung sein sollte, ich würde die Eisenbahn für bankrott halten, muß ich Ihnen sagen, dies wäre eine völlig falsche Vermutung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u91" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg105">Eine Zusatzfrage des Fragestellers.</seg>
+        </u>
+        <note type="speaker">Dr. Jenninger (CDU/CSU) :</note>
+        <u who="#Q214060" xml:id="ParlaMint-DE_1972-02-03-06-169.u92" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg106">Herr Bundesminister, ich habe die Frage nicht gestellt, um Sie zu ärgern, sondern weil ich Ihren Artikel vom 14. Januar 1972 gelesen habe, in dem Sie von einer neuen, aussichtsreichen und in die Zukunft weisenden Position der Bundesbahn auf dem Verkehrsmarkt sprechen. Und ich fand nun wirklich eine Diskrepanz zwischen der Aussage, die Sie einen Monat zuvor gemacht hatten, und dem, was ich eben erwähnt habe. Das scheint mir irgendwie nicht im Einklang miteinander zu stehen.</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg107">Das war ja auch eine ganz andere Zeit. Im Januar 1972 wußte ich ungefähr schon, daß die Belastungen, die auf die Eisenbahn zukommen, nicht jenes Ausmaß erreichen würden, das ich im November 1971 noch mit Fug und Recht befürchten mußte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u94" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg108">Keine weitere Zusatzfrage, Herr Kollege Jenninger? — Dann komme ich zu Frage 80 des Herrn Abgeordneten Rawe. — Herr Abgeordneter Rawe ist nicht im Saal. Die Frage wird schriftlich beantwortet, und die Antwort wird als Anlage abgedruckt. Meine Damen und Herren, ich komme zu den Fragen 71 und 72 des Abgeordneten Dr. Schmitt-Vockenhausen, 73 und 74 des Kollegen Dr. Jahn (Braunschweig)</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg109">sowie 75 und 76 des Herrn Abgeordneten Seefeld. Bei all diesen Fragen haben die Fragesteller um schriftliche Beantwortung gebeten; die Antworten werden also als Anlage abgedruckt. Ich rufe Frage 81 des Herrn Abgeordneten Dr. Müller-Hermann auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg110">Ist die Bundesregierung bereit, die Deutsche Bundesbahn zu einer Überprüfung der geplanten Intercity-B-Linie DortmundPaderborn—Kassel dahin gehend zu veranlassen, daß eine Anbindung an das Intercity-A-Netz in Kassel im Nord-Süd-Verkehr mit höchstens einmaligem Umsteigen ermöglicht wird? Herr Minister!</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg111">Dieser Überprüfung bedarf es zur Zeit nicht, da die Planungen für Kassel durchaus befriedigend erscheinen. Bei den Planungen für ein Ergänzungsnetz zum Intercity-Verkehr strebt die Deutsche Bundesbahn an, Kassel mit den Linien Dortmund—Paderborn Kassel, Köln—Siegen—Kassel und Stuttgart—Mannheim—Kassel zu bedienen und durch Weiterführung dieser Linien in Göttingen/Bebra im Osten und in Dortmund im Westen an das Intercity-Netz anzuschließen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg112">Herr Kollege Müller-Hermann, weitere Zusatzfrage?</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Müller-Hermann: Jetzt nicht, nein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg113">— Gut.</seg>
+          <vocal type="question">
+            <desc>Abg. Dr. Müller-Hermann: Als ich fragen wollte, haben Sie es nicht zugelassen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg114">Ich rufe Frage 82 des Herrn Abgeordneten Lemmrich auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg115">Ist es richtig, daß das von Bundesverkehrsminister Leber dem Deutschen Bundestag zunächst für Mitte vorigen Jahres versprochene „Gesamtkonzept zur Verbesserung des öffentlichen Personennahverkehrs" bereits vor Monaten fertiggestellt worden ist und daß schwerwiegende Meinungsverschiedenheiten zwischen den Bundesressorts dessen Vorlage an den Deutschen Bundestag bisher verzögert haben?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u97" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg116">Die schwierige Materie erfordert Zeit zur Vorbereitung der Vorlage. Der Entwurf eines Konzepts zur Verbesserung des öffentlichen Personennahverkehrs wurde erstmals am 24. November 1971 mit den Bundesressorts beraten. Er geht jetzt den Ländern und den Verbänden zu. Erste Gespräche mit Vertretern der Länder haben bereits stattgefunden; weitere Gespräche sollen folgen. Der Fortgang der Arbeiten an diesem Konzept wurde eher durch die Beratungen des neuen Verkehrsfinanzgesetzes, das die finanzielle Grundlage für wesentliche im Konzept vorgesehene Maßnahmen ist, als durch Meinungsverschiedenheiten zwischen den Ressorts beeinflußt. Außerdem erfordern die komplexen Fragen vor allem über den Ausgleich gemeinwirtschaftlicher Lasten im öffentlichen Personennahverkehr und auch die Gedanken darüber, wie man finanziell langfristig und konstruktiv mit dem Konzept fertig werden kann, einen eingehenden Gedankenaustausch mit den Ländern. Das ganze Problem ist bis zu einem gewissen Grade nicht nur ein verkehrsorganisatorisches und technisches, sondern vor allen Dingen ein Problem der Finanzierbarkeit, ein Problem der Finanzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u98" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg117">Eine Zusatzfrage des Herrn Abgeordneten Lemmrich.</seg>
+        </u>
+        <note type="speaker">Lemmrich (CDU/CSU) :</note>
+        <u who="#Q1731553" xml:id="ParlaMint-DE_1972-02-03-06-169.u99" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg118">Herr Bundesminister, muß aus der Verzögerung der Vorlage, die ja im Herbst angekündigt war, geschlossen werden, daß die Bundesregierung — wie bei vielen anderen Reformplänen — nicht mehr ganz zu ihrem Wort steht? Bis wann können wir nun mit der Vorlage dieses Gesamtkonzepts rechnen?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg119">Herr Kollege Lemmrich, die Bundesregierung wird das Konzept vorlegen, wenn es fertig ist. Sie werden mir aber zugestehen, daß die Bundesregierung nicht voraussehen konnte, daß beispielsweise das Gemeindeverkehrsfinanzgesetz, das eine wesentliche Grundlage für all diese Überlegungen ist, wegen des Verhaltens des Bundesrates, der Einschaltung des Vermittlungsausschusses usw. eine so langfristige parlamentarische Behandlung erfahren würde. Sie wissen, daß das Zeit gebraucht hat. Und diese Basis mußten wir haben, ehe wir weiter disponieren konnten, wie nun die Absprachen zur Verständigung mit Ländern und Gemeinden geführt werden konnten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg120">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lemmrich (CDU/CSU) :</note>
+        <u who="#Q1731553" xml:id="ParlaMint-DE_1972-02-03-06-169.u102" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg121">Herr Bundesminister, Sie ziehen in diesem Zusammenhang das Gemeindeverkehrsfinanzgesetz heran. Sind Sie nicht der Meinung, daß die Bundesregierung die Verzögerung der Vorlage in diesem Bereich wie auch in puncto Erhöhung der Mineralölsteuer und der Kfz-Steuer, wo ja die Gemeindeverkehrsfinanzgesetz-Novellierung in der Regierungsvorlage nicht zur Debatte stand, im Grunde selbst zu vertreten hat?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg122">Nein, die hat sie nicht zu vertreten. Die Vorlage der Bundesregierung war ja noch kein beschlossenes Gesetz. Disponieren und Geld ausgeben kann man erst dann, wenn die gesetzgeberischen Arbeiten abgeschlossen sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u104" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg123">Eine Zusatzfrage des Herrn Abgeordneten Dr. Apel.</seg>
+        </u>
+        <note type="speaker">Dr. Apel (SPD) :</note>
+        <u who="#Q65561" xml:id="ParlaMint-DE_1972-02-03-06-169.u105" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg124">Herr Bundesminister, können Sie den Abgeordneten Lemmrich auf eine Diskrepanz in seiner Ansicht hinweisen, nämlich auf die, daß seine Fraktion nicht zuletzt auf Grund seiner Meinungsäußerung zwar dadurch, daß sie gegen die Mineralölsteuererhöhung gestimmt hat, dem Nahverkehrskonzept die Beine wegschlagen wollte, nun aber gegen die Tatsache, daß dieses Konzept nicht schnell genug zustande kommt, Sturm läuft?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u106" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg125">Das ist richtig. Die Opposition hat sich gegen die Erhöhung ausgesprochen und keine Mittel bewilligt. Sie wird wahrscheinlich bald Kritik daran üben, daß die Bundesregierung nicht noch mehr ausgibt, als sie von den Regierungsparteien bewilligt bekommen hat. Das liegt in der Natur der Sache.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u107" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg126">Eine Zusatzfrage des Herrn Abgeordneten MüllerHermann.</seg>
+        </u>
+        <note type="speaker">Dr. Müller-Hermann (CDU/CSU):</note>
+        <u who="#Q1359569" xml:id="ParlaMint-DE_1972-02-03-06-169.u108" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg127">Dies ist ja wohl nicht der Zeitpunkt, diese Frage zu diskutieren. Sie ist ja hinreichend diskutiert. Aber ich frage die Bundesregierung, ob das Gesamtkonzept für den Nahverkehr noch in dieser Legislaturperiode verabschiedet werden kann. Oder ist das auch ein Punkt, wo wir die Regierungserklärung leider nicht abhaken können?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u109" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg128">Herr Kollege MüllerHermann, die Bundesregierung wird das Konzept vorlegen, sobald es vorlagereif ist, d. h. sobald die gehörige und ordentliche Abstimmung mit den Ländern und den im Gesetz vorgeschriebenen Verbänden erfolgt ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u110" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg129">Ich rufe die Frage 83 des Herrn Abgeordneten Lemmrich auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg130">Welche Gesetze müssen in Durchführung dieses Gesamtkonzepts geändert werden, und welche Materien werden im einzelnen betroffen? Herr Minister!</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u111" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg131">Zu ändern wären vor allem das Personenbeförderungsgesetz und das Allgemeine Eisenbahngesetz. Entwürfe hierfür sowie eine Durchführungsverordnung zur Personenbeförderungsgesetz-Novelle sind ausgearbeitet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u112" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg132">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lemmrich (CDU/CSU) :</note>
+        <u who="#Q1731553" xml:id="ParlaMint-DE_1972-02-03-06-169.u113" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg133">Herr Minister, wären Sie bereit, den Verkehrsausschuß wenigstens über die Grundzüge der beabsichtigten Änderungen umgehend zu unterrichten?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u114" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg134">Ich bin dazu bereit, wie der Verkehrsausschuß bisher pflicht- und wunschgemäß immer über alles unterrichtet worden ist, worüber er Unterrichtung erbeten hat.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg135">Keine weitere Zusatzfrage. Ich rufe die Frage 84 des Herrn Abgeordneten Hofmann auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg136">Wer wird die Betriebsführung und Unterhaltung der künftigen Hochleistungsschnellbahn wahrnehmen? Herr Minister!</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u116" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg137">Über ,die Organisation und die Technik einer zukünftigen Hochleistungsschnellbahn wird erst entschieden werden können, wenn die Versuche abgeschlossen worden sind. Demnach können die Modalitäten 'der Betriebsführung und ,der Unterhaltung erst festgelegt werden, wenn über den Bau einer Hochleistungsschnellbahn Klarheit besteht. Wir können den siebten Schritt nicht vor dem ersten tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u117" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg138">Keine Zusatzfrage. Dann rufe ich die Frage 85 des Herrn Abgeordneten Hofmann auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg139">Trifft es zu, daß die Hochleistungsschnellbahn-Studiengruppe der Deutschen Bundesbahn abgebaut werden soll?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg140">Über die Existenz einer Hochleistungsschnellbahn-Studiengruppe der Deutschen Bundesbahn ist mir nichts bekannt. Die systemanalytische Studie wurde in meinem Auftrag von der Hochleistungsschnellbahn-Studiengesellschaft mbH mit den Gesellschaftern Deutsche Bundesbahn, Strabag und Messerschmitt-Bölkow-Blohm durchgeführt, nicht von der Bundesbahn allein. Diese Studiengesellschaft wurde ausschließlich für die Erarbeitung dieser Studie gegründet. Gemäß Gesellschaftsvertrag wird die Studiengesellschaft nach Erledigung der Abschlußarbeiten aufgelöst werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg141">Keine Zusatzfrage. Dann rufe ich die Frage 86 des Herrn Abgeordneten Büchner auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg142">Kann die Bundesregierung mitteilen, ob und gegebenenfalls welche rechtlichen Vorschriften bestehen, die die Inanspruchnahme von verbilligten Übersee-Sonderflügen an die Mitgliedschaft in besonderen Vereinen binden? Herr Minister!</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg143">Herr Präsident, es gibt Richtlinien, die von der Bundesregierung auf Grund von Vereinbarungen mit allen in ,der Europäischen Zivilluftfahrtkonferenz zusammengeschlossenen Staaten über die Durchführung von sogenannten Affinitätsgruppencharterflügen erlassen worden sind. Wesentliche Voraussetzungen für die Teilnahme an derartigen Charterflügen sind eine sechsmonatige Mitgliedschaft in einer Vereinigung und das Verbot jeglicher Werbung für diese Flüge außerhalb des Mitgliederkreises. Gegenwärtig beschäftigt sich die Europäische Zivilluftfahrtkonferenz mit ,der Frage, ob die Charterflüge weiterhin nur Mitgliedern von Vereinigungen offenstehen sollen. Bei diesen Überlegungen ist jedoch zu beachten, daß eine nachhaltige Beeinträchtigung des Fluglinienverkehrs nicht eintritt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg144">Keine Zusatzfrage. Dann rufe ich Ihre Frage 87, Herr Abgeordneter Büchner, auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg145">Kennt die Bundesregierung die Anzahl solcher Vereinigungen, und wie beurteilt sie deren Zielsetzung und Geschäftsgebaren? Herr Minister!</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u122" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg146">Die Anzahl solcher Vereinigungen ist nicht bekannt. Praktisch kann jeder Verein in Deutschland Affinitätscharterflüge veranstalten, sofern sich eine ausreichende Anzahl seiner Mitglieder zu einer Teilnahme bereit findet. Einige Vereinigungen haben in der Vergangenheit gegen die Richtlinien über die Durchführung von Affinitätscharterflügen verstoßen. Dies war Anlaß, solchen Vereinigungen keine Charterflüge mehr zu genehmigen. In solchen Fällen werden gemäß einer Absprache innerhalb der Europäischen Zivilluftfahrtkonferenz alle Mitgliedstaaten von der Ablehnung unterrichtet, um Abflüge aus dem europäischen Ausland zu verhindern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg147">Keine Zusatzfrage, Herr Abgeordneter Büchner? — Herr Abgeordneter Sperling zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD) :</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1972-02-03-06-169.u124" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg148">Herr Minister, ist Ihnen bekannt, daß man solchen Vereinigungen ohne Schwierigkeiten unter Rückdatierung des Eintrittsdatums beitreten kann?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg149">Das würde ich für einen Verstoß gegen Treu und Glauben und gegen die Richtlinien halten. Aber solche Machenschaften sind natürlich, wenn sie bekannt werden, Anlaß, gegen solche Vereinigungen vorzugehen, wie es geschehen ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u126" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg150">Ich rufe die Frage 88 des Herrn Abgeordneten Lenzer auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg151">Wie beurteilt die Bundesregierung die Möglichkeit, einer erhöhten Gefährdung der Benutzer von Schulbussen dadurch zu begegnen, daß durch entsprechende Änderungen der StVZO bzw. StVO Schulbusse eine einheitliche, nur diesen Fahrzeugen vorbehaltene Kennzeichnung erhalten und daß ein Vorbeifahren an haltenden Schulbussen bei Betätigung der Blinkanlage generell untersagt wird?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg152">Der Bundesminister für Verkehr hat mit Verlautbarung im Verkehrsblatt vom 2. Dezember 1969 eine einheitliche Kennzeichnung der Schulbusse empfohlen. Dieser Empfehlung ist gefolgt worden. Die am 1. März 1971 in Kraft getretene Straßenverkehrs-Ordnung läßt zu, daß der Führer eines Schulbusses das Warnblinklicht beim Halten einschaltet, solange Kinder ein- oder aussteigen. Diese Regelungen stellen einen Versuch dar, die Sicherheit der Kinder zu erhöhen. Bisher hat sich diese Maßnahme bewährt, weil sich die Kraftfahrer beim Blinken eines gekennzeichneten Schulbusses in der Regel vorsichtig verhalten. Sollten sich die bisherigen Maßnahmen nicht als ausreichend erweisen, wird zu prüfen sein, ob das von Ihnen erwähnte Verbot des Vorbeifahrens eingeführt werden muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg153">Eine Zusatzfrage, Herr Abgeordneter Lenzer.</seg>
+        </u>
+        <note type="speaker">Lenzer (CDU/CSU) :</note>
+        <u who="#Q1080811" xml:id="ParlaMint-DE_1972-02-03-06-169.u129" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg154">Herr Minister, Sie haben soeben darauf hingewiesen, daß einer von Ihnen ausgesprochenen Empfehlung gefolgt worden sei. Meinen Sie damit beispielsweise das Anbringen von Schildern mit der Aufschrift „Schulbus" am Fenster? Ich hatte mehr eine einheitliche farbliche Kennzeichnung der Schulbusse gemeint. Halten Sie diese für möglich?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg155">Auch dies schließe ich bei den Überlegungen nicht aus, wie wir überhaupt allen Überlegungen zugänglich sind, die uns dort in größere Sicherheitsbereiche bringen. Ich bitte nur um Verständnis dafür, daß wir ein Jahr nach Inkrafttreten der neuen Straßenverkehrs-Ordnung Hemmungen haben, an diesem Volksgesetz schon wieder Korrekturen vorzunehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg156">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lenzer (CDU;</note>
+        <u who="#Q1080811" xml:id="ParlaMint-DE_1972-02-03-06-169.u132" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg157">CSU) : Herr Minister, wären Sie bereit, dem Hause in geeigneter Form — möglicherweise vor dem Verkehrsausschuß — nach angemessener Zeit Bericht darüber zu erstatten, welche Erfahrungen Sie auf diesem Gebiet damit gemacht haben?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg158">Dazu bin ich gerne bereit, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg159">Der Herr Abgeordnete Dr. Kempfler ist nicht im Saal. Seine Fragen 89 und 90 werden schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Der Herr Abgeordnete Dr. Dübber hat gebeten, seine Fragen 91 und 92 schriftlich zu beantworten, weil er den Saal verlassen mußte. Die Antworten werden als Anlage abgedruckt. Auch die Fragen 93 und 94 des Herrn Abgeordneten Orgaß werden schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 98 des Herrn Abgeordneten Konrad auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg160">Ist der Bundesregierung bekannt, daß im Jahr 1971 die am 24. Dezember zur Beförderung eingelieferten Eilbriefe erst im Laufe des 27. Dezember zugestellt wurden, und wie können im laufenden Jahr 1972 bei Feiertagen solche Verzögerungen vermieden werden, insbesondere im Hinblick darauf, daß zum Weihnachtsfest 1972 eine 5tägige Beförderungsdauer droht?</seg>
+        </u>
+        <note type="speaker">Leber, Bundesminister für Verkehr und für das Post- und Fernmeldewesen:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1972-02-03-06-169.u135" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg161">Die Frage beantworte ich mit Ja. In einer Reihe von Fällen sind leider Verzögerungen im Weihnachtsverkehr zwischen dem 24. und 27. Dezember 1971 eingetreten. Es wird versucht, mit allen Möglichkeiten, die wir haben, sicherzustellen, daß an den Feiertagen und im Weihnachtsverkehr 1972 nicht mit einer fünftägigen oder überhaupt mit einer langen Beförderungsdauer gerechnet werden muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u136" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg162">Keine Zusatzfrage. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Verkehr und für das Post- und Fernmeldewesen beantwortet. Herr Minister, ich danke Ihnen. Ich rufe die Fragen aus dem Geschäftsbereich des Bundesministers des Innern auf. Zur Beantwortung der Fragen steht Herr Staatssekretär Dr. Hartkopf zur Verfügung. Die erste Frage — die Frage Nr. 7 - ist von dem Abgeordneten Jung eingereicht. Der Herr Abgeordnete ist nicht im Saal. Die Frage wird daher schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Auch der Herr Abgeordnete Wrede ist nicht da, so daß die von ihm eingebrachten Fragen 8 und 9 ebenfalls schriftlich beantwortet werden. Die Antworten werden als Anlage abgedruckt. Der Herr Abgeordnete Dr. Schneider (Nürnberg)</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg163">hat die von ihm eingereichte Frage 10 zurückgezogen. Ich rufe die Frage 11 auf, die der Abgeordnete Dr. Riedl (München)</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg164">gestellt hat. Der Herr Abgeordnete, den ich eben noch gesehen hatte, ist nicht mehr im Saal, so daß auch diese Frage schriftlich beantwortet wird. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 12 des Herrn Abgeordneten Schulte (Schwäbisch Gmünd)</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg165">auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg166">Ist damit zu rechnen, daß alsbald eine Aufstellungsweisung des Bundes für die Einordnung der LSHD-Einheiten in die Basisorganisation des Zivilschutzes ergeht? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u137" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg167">Das Bundesministerium des Innern hatte bereits Ende 1969 den Entwurf einer Einordnungsweisung für den LSHD nach § 13 des Katastrophenschutzgesetzes mit den Ländern abgestimmt. Dabei haben die Länder jedoch dringend gebeten, die Einordnungsweisung nicht vor den Verwaltungsvorschriften in Kraft treten zu lassen. Der Bundesrat hat nunmehr am 12. November vergangenen Jahres den vier Verwaltungsvorschriften zum Katastrophenschutzgesetz zugestimmt; der Haushaltsausschuß des Hohen Hauses hat am 26. Januar dieses Jahres zustimmend Kenntnis genommen. Das Bundesministerium des Innern wird die Verwaltungsvorschriften nun sofort erlassen. Gleichzeitig mit ihnen wird die Einordnungsweisung in Kraft treten. Die Texte der Verwaltungsvorschriften und der Einordnungsweisung sind bereits der Schriftleitung des Bundesanzeigers zur Veröffentlichung übersandt worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u138" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg168">Keine Zusatzfrage? — Danke. Dann rufe ich die Frage 13 des Herrn Abgeordneten Heyen auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg169">Wieviel und welche wissenschaftlichen Einrichtungen bestehen an Universitäten und sonstigen wissenschaftlichen Institutionen in der Bundesrepublik Deutschland und West-Berlin zur Erforschung der Probleme des Umweltschutzes, insbesondere der Abfallbeseitigung? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg170">Auf dem Gebiet des Umweltschutzes bestehen zahlreiche Forschungseinrichtungen des Bundes und der Länder, hier insbesondere an den Universitäten und Hochschulen. Das Umweltprogramm der Bundesregierung gibt einen Überblick über die Behörden und Anstalten des Bundes auf dem Gebiet des Umweltschutzes sowie über solche Forschungseinrichtungen, die der Bund voll finanziert. Einzelne Länder verfügen über Forschungseinrichtungen auf Teilbereichen des Umweltschutzes, z. B. das Land NordrheinWestfalen über die Landesanstalt für Imissions- und Bodennutzungsschutz. Nach dem Ergebnis einer vom Bundesministerium für Bildung und Wissenschaft vor mehreren Monaten durchgeführten Umfrage bestehen an zehn Universitäten Forschungsschwerpunkte auf dem Gebiet der Umweltwissenschaften. Neue Einrichtungen auf diesem Gebiet werden an sieben Universitäten geplant. Auf Teilgebieten der Abfallbeseitigung werden verschiedene Behörden und Anstalten des Bundes sowie vom Bund finanzierte Forschungseinrichtungen tätig. In der Bundesrepublik gibt es jedoch bisher weder Lehrstühle für Siedlungsabfallwirtschaft noch spezielle Forschungsinstitute. An den Universitäten Aachen, Berlin, Braunschweig, Gießen, Hannover und Stuttgart werden jedoch Teilgebiete der Abfallbeseitigungen bearbeitet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg171">Keine Zusatzfrage? — Dann rufe ich die Frage 14 des Herrn Abgeordneten Heyen auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg172">Hält die Bundesregierung eine stärkere Kooperation zwischen diesen wissenschaftlichen Institutionen für erforderlich, und gedenkt sie, diese gegebenenfalls durch eigene Maßnahmen zu fördern? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg173">Die Bundesregierung hält die stärkere Kooperation und Kommunikation zwischen allen wissenschaftlichen Institutionen auf allen Gebieten der Umweltwissenschaften für dringend erforderlich. Sie hat daher im Umweltprogramm die Koordinierung bestehender Anstalten und Einrichtungen auf dem Gebiet der verwaltungsbezogenen Umweltforschung durch ein Bundesamt für Umweltschutz vorgesehen. Der Bundesbeauftragte für Wirtschaftlichkeit in der Verwaltung soll der Bundesregierung in Kürze einen entsprechenden Vorschlag zuleiten. Im Bereich mehrerer Bundesministerien werden derzeit bereits die Aufgaben der nachgeordneten Anstalten, Einrichtungen bzw. Zentren für Arbeiten auf dem Gebiet des Umweltschutzes erfaßt und koordiniert. Priorität der Förderung der Umweltwissenschaften haben im Umweltprogramm interdisziplinäre — d. h. Kooperation verlangende — Vorhaben besonders auf folgenden Gebieten: Humanökologie, Toxikologie, Meß- und Verfahrenstechnik, umweltfreundliche Technik, wirtschaftliche Auswirkungen und internationale Probleme der Umweltpolitik und Landschaftsökologie. Darüber hinaus fördern Projektgruppen, die Beiträge zur Fortschreibung des Umweltprogramms leisten, eine Koordinierung der Vorhaben der öffentlichen Hand, Wissenschaft und Wirtschaft. Ich darf noch hinzufügen, daß das von der Bundesregierung vorbereitete Planungsinformationssystem „Umwelt" Informations- und Dokumentationssysteme und Verfahren schafft, die nach einheitlichen Grundsätzen eine systematische Ausschöpfung und gegenseitige Kommunikation der Forschungskapazitäten der öffentlichen Hand, der Universitäten und der Industrie ermöglichen werden. Zu den in Angriff genommenen Projekten gehören u. a. eine auf EDV-Grundlage beruhende Ubersicht aller Experten im Umweltschutz, eine zentrale Auskunftsstelle über vorhandene Umweltdokumentations- und Informationsstellen, Datenzentralen für spezifische Umweltbelastungen und weitere Einrichtungen. Damit stellt die Bundesregierung Planungs- und Informationsinstrumente allen Stellen in der Bundesrepublik Deutschland zur Verfügung, die wissenschaftliche Beratung bei der Erfüllung von Umweltschutzaufgaben brauchen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg174">Zusatzfrage, Herr Abgeordneter?</seg>
+        </u>
+        <note type="speaker">Heyen (SPD) :</note>
+        <u who="#Q1464193" xml:id="ParlaMint-DE_1972-02-03-06-169.u143" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg175">Herr Staatssekretär, welche Bedeutung kommt nach Ansicht Ihres Hauses im Zusammenhang mit der Koordinierung der Umweltschutzforschung auch auf internationaler Ebene dem geplanten Institut für Umweltschutz in Berlin zu?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u144" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg176">Herr Abgeordneter, viele Probleme der Umweltpolitik können nur durch internationale Zusammenarbeit gelöst werden. Bei der Behandlung solcher Probleme, die wegen der Natur ihrer Zusammenhänge national nicht geklärt werden können, wird dem im Rahmen des Wissenschaftszentrums Berlin zu errichtenden „Internationalen Forschungsinstitut für Umweltfragen" eine hervorragende Bedeutung beigemessen werden. Sie wissen, daß in der Zwischenzeit dem Wissenschaftsrat ein mit allen Beteiligten abgestimmter Gründungsplan vorliegt, der auch von der Bundesregierung begrüßt worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u145" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg177">Ich rufe die Frage 15 des Herrn Abgeordneten Freiherr von Fircks auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg178">Kann die Bundesregierung mitteilen, wann mit der Zuleitung des Entwurfs des Vierten Unterhaltshilfeanpassungsgesetzes an den Bundestag gerechnet werden kann, nachdem der Bundesrat bereits in seiner Sitzung vom 3. Dezember 1971 zu dem Gesetzentwurf Stellung genommen hat?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u146" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg179">Herr Präsident, ich bitte, wegen des Sachzusammenhangs beide Fragen gemeinsam beantworten zu dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u147" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg180">Der Herr Fragesteller ist einverstanden. Frage 16 des Herrn Abgeordneten Freiherr von Fircks:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg181">Teilt die Bundesregierung die Auffassung, daß den in der Rentenskala ohnehin an letzter Stelle stehenden und durch die überdurchschnittliche Teuerung daher am härtesten betroffenen Empfängern von Kriegsschadenrente nach dem Lastenausgleich als einziger Rentnergruppe die ab 1. Januar 1972 zu erhöhende Rente nicht länger vorenthalten werden sollte?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u148" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg182">Der Regierungsentwurf eines Vierten Unterhaltshilfe-Anpassungsgesetzes nebst Stellungnahme des Bundesrates vom 3. Dezember vergangenen Jahres und die Gegenäußerung der Bundesregierung hierzu werden dem Deutschen Bundestag noch im Laufe dieses Monats zugeleitet werden. Auch die Bundesregierung, Herr Abgeordneter, bedauert, daß die erhöhten Sätze der Unterhaltshilfe nicht bereits ab 1. Januar 1972 an die Berechtigten gezahlt werden können. Durch eine Übergangsregelung des Präsidenten des Bundesausgleichsamtes ist indessen sichergestellt, daß die auf Grund des Vierzehnten Rentenanpassungsgesetzes und des Dritten Gesetzes über die Anpassung von Leistungen nach dem Bundesversorgungsgesetz ab 1. Januar dieses Jahres sich ergebenden Erhöhungsbeträge nicht vor Umstellung der Unterhaltshilfe auf das Vierte Unterhaltshilfe-Anpassungsgesetz durch Anrechnung auf die Unterhaltshilfe berücksichtigt werden. Somit werden etwa 80 % der Unterhaltshilfeempfänger schon vom 1. Januar dieses Jahres an zunächst einmal in den vollen Genuß der Erhöhungsbeträge kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u149" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg183">Zusatzfrage, Herr Abgeordneter? — Danke. Ich rufe die Frage 18 des Herrn Abgeordneten Dr. Sperling auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg184">Trifft es zu, daß die Laufbahnverordnung für Bundesbeamte noch immer den Ausdruck „Hilfsschüler" kennt, obwohl nach den Schulgesetzen der Länder ein solcher Schultyp unbekannt ist? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u150" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg185">Herr Abgeordneter, der Ausdruck „Hilfsschüler" ist in der Bundeslaufbahnverordnung — insbesondere in § 14 — nicht enthalten. Er wird auch anderweitig im Laufbahnrecht des Bundes nicht verwandt. Als Mindestschulbildung für die Einstellung in den Beamtendienst wird nach den geltenden laufbahnrechtlichen Bestimmungen der erfolgreiche Besuch einer Hauptschule vorausgesetzt. Wer diese Vorbildungsvoraussetzungen nicht erfüllt, kann im Einzelfall als sogenannter anderer als Laufbahnbewerber in das Beamtenverhältnis berufen werden. Zur Zeit wird darüber hinaus geprüft, inwieweit auch Sonderschülern der Eintritt in eine Beamtenlaufbahn ermöglicht werden kann. Inzwischen liegt auf unsere Anforderung eine gutachtliche Äußerung des Sekretariats der Kultusministerkonferenz vor. Auf der Grundlage dieses Ergebnisses werden wir ergänzende Regelungen gemeinsam mit den Ländern erarbeiten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u151" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg186">Keine Zusatzfrage. Ich rufe die Frage 19 des Herrn Abgeordneten Dr. Sperling auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg187">Mit welchen öffentlichen Mitteln wird die im Berufsförderungswerk Heidelberg (Stiftung Rehabilitation)</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg188">für den August 1972 geplante „Olympiade der Behinderten" unterstützt, und welches Interesse hat dieses Vorhaben bisher bei der Bundesregierung und bei Sportverbänden gefunden?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg189">Die Bundesregierung unterstützt im Rahmen ihrer Sportförderungsmaßnahmen besondere Veranstaltungen der Bundessportfachverbände. Der Deutsche Versehrten-Sportverband e. V. hat eine Zuwendung aus Bundesmitteln für die Durchführung der Weltspiele der Gelähmten in Heidelberg beantragt. Die Bundesregierung hat sich bisher bereit erklärt, aus Mitteln des Bundesministeriums des Innern 900 000 DM und aus Mitteln des Auswärtigen Amtes 40 000 DM zur Verfügung zu stellen. Zur Zeit wird geprüft, ob darüber hinaus auch Zuwendungen durch das Bundesarbeitsministerium und das Bundesministerium für Jugend, Familie und Gesundheit gewährt werden können. In einer abschließenden Besprechung in der nächsten Woche sollen endgültig die Höhe der Gesamtkosten der Spiele und die Finanzierung festgelegt werden. Dabei soll auch die Frage einer angemessenen finanziellen Beteiligung des Landes Baden-Württemberg und der Stadt Heidelberg geklärt werden. Die Bundesregierung geht zuversichtlich davon aus, daß hierüber eine Einigung erzielt werden kann, die die Finanzierung der Spiele sicherstellt. Die Bundesregierung mißt dieser internationalen Veranstaltung große Bedeutung zu. Das ergibt sich schon aus der Übernahme der Schirmherrschaft für diese Spiele durch den Herrn Bundespräsidenten und auch aus der hohen finanziellen Beteiligung der Bundesregierung. Außerdem wird der Herr Bundesminister für das Post- und Fernmeldewesen aus diesem Anlaß eine Sonderbriefmarke herausgeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg190">Bitte, eine Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD) :</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1972-02-03-06-169.u154" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg191">Herr Staatssekretär, wird die Bundesregierung alles ihr nur Mögliche tun, um über diese „Olympiade der Behinderten" oder Versehrten jenes Bewußtsein in der Bevölkerung ein bißchen abzubauen, dessentwegen diese recht große Bevölkerungsgruppe von rund 4 Millionen bisher immer wieder aus der Öffentlichkeit verbannt worden ist?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg192">Die Bundesregierung, Herr Abgeordneter, wird alles daransetzen, in diesem Sinne tätig zu werden und die Spiele zu sichern, um das Bewußtwerden dieses Problems deutlich zu machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u156" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg193">Eine Zusatzfrage des Herrn Abgeordneten Riedl.</seg>
+        </u>
+        <note type="speaker">Dr. Riedl (München) (CDU/CSU) :</note>
+        <u who="#Q1353062" xml:id="ParlaMint-DE_1972-02-03-06-169.u157" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg194">Herr Staatssekretär, ist die Bundesregierung bereit, die von Ihnen soeben erwähnte Sonderbriefmarke als Zuschlagbriefmarke herauszubringen, um damit eine zusätzliche Unterstützung für diese Olympiade zu gewährleisten?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg195">Herr Abgeordneter Riedl, die Bundesregierung wird diese Olympiade nicht an den Kosten scheitern lassen. Ich würde im Sinne des vorigen Fragestellers ein stärkeres Bewußtmachen durch die Briefmarke einem Zuschlag, der zu einer Verkleinerung des Absatzkreises führen würde, vorziehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg196">Eine Zusatzfrage des Herrn Abgeordneten Schirmer.</seg>
+        </u>
+        <note type="speaker">Schirmer (SPD) :</note>
+        <u who="#Q1456516" xml:id="ParlaMint-DE_1972-02-03-06-169.u160" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg197">Herr Staatssekretär, ist es richtig, anzunehmen, daß Sie den Veranstalter zu den Verhandlungen in der kommenden Woche hinzuziehen wollen, nachdem bekanntgeworden ist, daß einige Schwierigkeiten sachlicher und finanzieller Art aufgetreten sind?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u161" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg198">Wir werden mit dem Veranstalter über die Gesamtkosten und über den Rahmenplan sprechen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u162" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg199">Ich rufe die Frage 20 des Herrn Abgeordneten Fiebig auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg200">Ist die Bundesregierung der Auffassung, daß Schutzräume, die in der Zeit des zweiten Weltkriegs errichtet wurden, weiter zu erhalten sind? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg201">Die Bundesregierung ist der Auffassung, daß Schutzräume, die in der Zeit des zweiten Weltkrieges errichtet wurden, weiter zu erhalten sind. Dies ergibt sich aus § 19 Abs. 2 des Schutzbaugesetzes vom 9. September 1965. Voraussetzung ist allerdings in jedem Fall, daß das ehemalige Schutzbauwerk instandsetzungswürdig ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg202">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Fiebig (SPD) :</note>
+        <u who="#Q1694096" xml:id="ParlaMint-DE_1972-02-03-06-169.u165" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg203">Ist Ihnen bekannt, daß sich die meisten Schutzbauten aus dem zweiten Weltkrieg in einem völlig desolaten Zustand befinden?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u166" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg204">Ihr Zustand ist differenziert. Soweit sie nicht mehr instandsetzungswürdig sind, entfällt natürlich die Vorschrift des § 19 Abs. 2. Insoweit tritt auch keine Erhaltungspflicht ein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u167" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg205">Keine weitere Zusatzfrage. Betrachten Sie Ihre zweite Frage, Herr Abgeordneter, mit dieser Antwort als erledigt? — Dann rufe ich noch die Frage 21 des Herrn Abgeordneten Fiebig, die ich eigentlich involviert hatte, auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg206">Hält die Bundesregierung weiterhin an der Vorschrift fest, daß im Fall des Abbruchs von Schutzräumen und Luftschutzbunkern aus dem zweiten Weltkrieg durch die Kommunen Ersatzbauten geschaffen werden mussen? Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u168" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg207">Ich darf meine Antwort vielleicht noch in einem Punkt ergänzen. Wer ein instandsetzungswürdiges Schutzbauwerk beseitigen will, erhält die hierfür erforderliche Genehmigung nur dann, wenn er im Rahmen seines Neubaus für verlorengegangene Schutzplätze Ersatz schafft. Der Bund beteiligt sich aber finanziell an dem Ersatzbau, unter Umständen sogar bis zur Höhe der Kosten, die er andernfalls selbst für die Instandsetzung und Modernisierung des bisherigen Schutzbauwerks aufbringen müßte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u169" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg208">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Fiebig (SPD) :</note>
+        <u who="#Q1694096" xml:id="ParlaMint-DE_1972-02-03-06-169.u170" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg209">Herr Staatssekretär, halten Sie es mit mir für paradox, daß Schutzbauten nur für einen ganz geringen Teil der Bevölkerung zur Verfügung stehen, obwohl der Bund, wie Sie sagen, finanzielle Leistungen dafür aufbringt?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u171" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg210">Herr Abgeordneter, ich glaube, wir alle sind uns darüber im klaren, daß darin nur ein erster Schritt zu sehen ist und daß die Gesamtregelung durch den bisher noch nicht in Kraft gesetzten § 15 des Schutzbaugesetzes erfolgen muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u172" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg211">Herr Abgeordneter Bäuerle hat um schriftliche Beantwortung seiner Fragen gebeten. Die Antworten werden als Anlage abgedruckt. Ich rufe die Frage des Herrn Abgeordneten Dr. Enders auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg212">Wie wirkt sich § 4 der Verordnung zu § 137 des Bundesbeamtengesetzes aus, wonach für Bundesbeamte bei stationärer Behandlung nach einem Dienstunfall bis einschließlich der Besoldungsgruppe A 7 die Kosten für die III. Pflegeklasse, ab Besoldungsgruppe A 8 die Kosten für die II. Pflegeklasse und ab Besoldungsgruppe B 2 die Kosten für die I. Pflegeklasse übernommen werden und nur auf ärztliche Anordnung die Erstattung der Kosten für die nächsthöhere Pflegeklasse erfolgen kann?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u173" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg213">Herr Präsident, ich bitte, mir zu gestatten, auch diese beiden Fragen im Zusammenhang zu beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u174" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg214">Der Fragesteller ist sicherlich schon im Hinblick auf die gleich abgelaufene Zeit damit einverstanden. Ich verbinde also die Beantwortung der beiden Fragen und rufe noch die Frage 25 des Herrn Abgeordneten Dr. Enders auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg215">Hält die Bundesregierung aus gesundheits- und sozialpolitischen Gründen eine Änderung der Eingruppierung für notwendig?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u175" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg216">Negative Auswirkungen der von Ihnen, Herr Abgeordneter, angesprochenen Regelung haben sich bisher nicht feststellen lassen, da sichergestellt ist, daß die Kosten einer Unterbringung auch in der 2. oder in der 1. Pflegeklasse für jeden Beamten unabhängig von seiner Besoldungsgruppe erstattet werden, wenn diese Unterbringung ärztlicherseits für notwendig gehalten wird. Weder gesundheitspolitische noch sozialpolitische Gründe nötigen meines Erachtens dazu, im Rahmen der beamtenrechtlichen Dienstunfallfürsorge in jedem Fall die Kostenerstattung einer Unterbringung mindestens in der 2. Pflegeklasse vorzusehen. Die erforderliche ärztliche Versorgung ist auch in der 3. Pflegeklasse voll gewährleistet. Schließlich darf nicht außer acht gelassen werden, daß die weitaus überwiegende Mehrzahl derangebotenen Krankenhausbetten in der 3. Pflegeklasse liegt. In der gesetzlichen Kranken- und Unfallversicherung sowie bei der Heilbehandlung in der Kriegsopferversorgung werden in der Regel nur die Unterbringungskosten der 3. Pflegeklasse übernommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u176" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg217">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Enders (SPD) :</note>
+        <u who="#Q2558966" xml:id="ParlaMint-DE_1972-02-03-06-169.u177" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg218">Herr Staatssekretär, halten Sie es für gerechtfertigt, daß Bundesbeamte mit kleinerem Einkommen bei stationärer Behandlung nach einem Dienstunfall nur auf ärztliche Anordnung in eine bessere Pflegeklasse eingewiesen werden können, während höheren Einkommensbeziehern dieser Vorzug ohne Anordnung zusteht?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u178" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg219">Herr Abgeordneter, grundsätzlich sollen einem Beamten im Rahmen der Dienstunfallfürsorge nur diejenigen Kosten erstattet werden, die er in der Regel selbst für seine Heilung aufwenden würde, wenn nicht der Dienstherr die Kosten zu tragen hätte. Der Lebenszuschnitt eines Beamten läßt sich aber im Rahmen einer pauschalierenden Regelung tatsächlich nur an seinem Amt messen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u179" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg220">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Enders (SPD) :</note>
+        <u who="#Q2558966" xml:id="ParlaMint-DE_1972-02-03-06-169.u180" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg221">Herr Staatssekretär, ist Ihnen auch bekannt, daß es viele Bundesbeamte als diskriminierend ansehen, daß ihnen die Pflegekosten nach dieser Eingruppierung erstattet werden?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u181" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg222">Herr Abgeordneter, der öffentliche Dienstherr zeigt sich nicht kleinlich, wenn es gilt, duf ärztlichen Vorschlag die höheren Krankenhauskosten zu übernehmen. Im übrigen weiß die Bundesregierung, daß einige Bundesländer hier abweichende Regelungen getroffen haben. Wir sind mit den Bundesländern im Gespräch über die Frage, ob eine entsprechende Regelung auch für den Bundesbereich möglich ist.</seg>
+        </u>
+        <note type="speaker">Dr. Enders (SPD) :</note>
+        <u who="#Q2558966" xml:id="ParlaMint-DE_1972-02-03-06-169.u182" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg223">Hat die Bundesregierung Unterlagen über die Zahl der Dienstunfälle von Beamten, und wie stark sind Beamte in den Besoldungsgruppen unter A 7 und über A 7 beteiligt?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u183" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg224">Herr Abgeordneter, ich werde diese Frage überprüfen lassen und werde Ihnen nach Abschluß der Überprüfung eine entsprechende Aufstellung gern schriftlich zukommen lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u184" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg225">Als letzte Fragen rufe ich die von dem Abgeordneten Zebisch gestellten Fragen 26 und 27 auf:</seg>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg226">Ist der Bundesregierung bekannt, ob die neofaschistische Organisation „NPD-Aktion W" gemeinsam mit den neonazistischen Jugendorganisationen „Wiking-Jugend", „Bund heimattreuer Jugend" und „Jugendbund Adler„ für die Zeit der Olympischen Spiele in München Störungsaktionen planen und eine „GegenOlympiade" vorbereiten? Was will die Bundesregierung unternehmen, um solche oder ähnliche Störungen zu verhindern?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u185" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg227">Alle Informationen über beabsichtigte Störungen der Olympischen Spiele werden von zuständigen Stellen gesammelt und eingehend überprüft. Auf Bundes- und Landesebene sind die notwendigen Maßnahmen getroffen worden, um beabsichtigte Störmaßnahmen möglichst frühzeitig in Erfahrung zu bringen und ihre Durchführung zu verhindern. Herr Abgeordneter, Sie werden Verständnis idafür haben, daß ich nähere Einzelheiten hierzu nicht mitteilen möchte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u186" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg228">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Zebisch (SPD) :</note>
+        <u who="#Q1251027" xml:id="ParlaMint-DE_1972-02-03-06-169.u187" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg229">Herr Staatssekretär, stimmt es, daß die Bundesregierung — und zwar auf ausdrücklichen Wunsch des Organisationskomitees — bereits im Dezember 1970/Januar 1971 einen Gesetzentwurf zum Schutz der Olympischen Spiele den Fraktionen zugeleitet hat, die Koalitionsfraktionen bereits ihre Zusage gegeben haben, die CDU/CSU-Fraktion dies aber erst am vergangenen Dienstag getan hat, und zwar nach der Ankündigung, daß das bayerische Innenministerium einen Gesetzentwurf zum Schutze ides olympischen Friedens idem Minister zugeleitet hat?</seg>
+        </u>
+        <note type="speaker">Dr. Hartkopf, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1560545" xml:id="ParlaMint-DE_1972-02-03-06-169.u188" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg230">Herr Abgeordneter, auf Grund der Vorstellungen des Sicherheitsbeauftragten für die Olympischen Spiele haben bereits zu einem sehr frühen Zeitpunkt Kontakte mit den Bundesländern und den Fraktionen stattgefunden. Wir müssen davon ausgehen, daß in unserem Staatsaufbau in erster Linie die Bundesländer dafür zuständig sind, Sicherheit und Ordnung aufrechtzuerhalten. Die Bundesregierung hat nach Absprache mit den Bundesländern Kontakt mit allen Fraktionen des Deutschen Bundestages aufgenommen, weil sie der Ansicht ist, daß ein Gesetz zum Schutz des olympischen Friedens — ob es ein Rahmengesetz oder eine Vollregelung wird — von allen Fraktionen dieses Hohen Hauses getragen werden sollte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u189" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg231">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Zebisch (SPD) :</note>
+        <u who="#Q1251027" xml:id="ParlaMint-DE_1972-02-03-06-169.u190" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg232">Herr Staatssekretär, Sie haben meine Frage nicht beantwortet. Ich habe gefragt, ob die CDU/CSU-Bundestagsfraktion erst am vergangenen Dienstag ihre Zustimmung erteilt hat, nämlich nachdem sie erfahren hatte, daß das bayerische Innenministerium tätig geworden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u191" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg233">Herr Kollege, eben haben Sie die Frage in den notwendigen Sachzusammenhang mit der ursprünglichen Frage gebracht. Jetzt kann ich diesen unmittelbaren Sachzusammenhang leider nicht mehr feststellen. Ich gebe jetzt noch dem Herrn Abgeordneten Dr. Riedl die Möglichkeit zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Riedl (München) (CDU/CSU) :</note>
+        <u who="#Q1353062" xml:id="ParlaMint-DE_1972-02-03-06-169.u192" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg234">Herr Staatssekretär, sind Sie bereit, dem. Herrn Kollegen Zebisch mitzuteilen, daß die CDU/CSU-Bundestagsfraktion bereits im Juni des Jahres 1971 der Bundesregierung ihre grundsätzliche Bereitschaft für eine solche gesetzliche Regelung zu erkennen gegeben hat?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmitt-Vockenhausen:</note>
+        <u who="#Q1565855" xml:id="ParlaMint-DE_1972-02-03-06-169.u193" ana="#chair">
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg235">Herr Kollege Dr. Riedl, auch für Sie gilt natürlich, daß die Zusatzfrage in sachlichem Zusammenhang mit der Hauptfrage zu stehen hat.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Riedl [München]: Sie sind jetzt natürlich der Stärkere!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1972-02-03-06-169.seg236">Aber ich glaube, Ihre Frage hat den Sachverhalt wohl hinreichend geklärt. Meine Damen und Herren, wir haben den zeitlichen Rahmen der Fragestunde bereits überschritten. Ich danke dem Herrn Staatssekretär. Ich berufe die nächste Sitzung des Deutschen Bundestages auf Freitag, den 4. Februar 1972, 9 Uhr, ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Schluß ,der Sitzung: 14.04 Uhr.</desc>
+        </vocal>
+      </div>
+    </body>
+  </text>
+</TEI>

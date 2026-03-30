@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1951-05-30-01-144">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 1. Wahlperiode, 144. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 30.05.1951 (144. Sitzung der 1. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 1, Session 144 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1951-05-30 (Session 144 in Legislative Period 1)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="144">144. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.01" n="1">1. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="144">Session 144</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.01" n="1">Legislative Period 1</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 30.05.1951</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1951-05-30</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/487966/4078f01fb3198dc3cee8945d6db3b231/pp01-data.zip</idno>
+          <date when="1951-05-30">1951-05-30</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1951-05-30">1951-05-30</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="U1">
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1951-05-30-01-144.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg1">Meine Damen und Herren, ich nehme die unterbrochene Sitzung wieder auf. Damit Klarheit über die zur Abstimmung stehenden Anträge besteht, gebe ich bekannt. Es liegen vor der Antrag der Fraktion der SPD Drucksache Nr. 2114, der Antrag der Fraktion des Zentrums Drucksache Nr. 2283, der Antrag der Fraktionen der CDU/CSU, FDP, DP und BP — so bin ich unterrichtet — auf Annahme einer Entschließung, die von Herrn Abgeordneten Dr. WUermeling bekanntgegeben worden ist. Darf ich fragen, ob gewünscht wird, zu diesen Anträgen oder zur Abstimmung noch Erklärungen abzugeben? — Herr Abgeordneter, Ollenhauer, bitte!</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dr. Schumacher: Wo ist der Kanzler?</desc>
+        </vocal>
+        <note type="speaker">Ollenhauer (SPD):</note>
+        <u who="#Q62185" xml:id="ParlaMint-DE_1951-05-30-01-144.u2" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg2">Herr Präsident! Meine Damen und Herren! Ich möchte im Namen der sozialdemokratischen Fraktion folgende Erklärung zur Abstimmung über die Entschließung der Regierungsparteien abgeben. Die sozialdemokratische Fraktion sieht sich aus folgenden Gründen außerstande, der vorgelegten Entschließung der Regierungsparteien zuzustimmen. 1. Die Bundesregierung hat nicht zu erkennen gegeben, daß sie gewillt ist, sich von ihrer bisherigen passiven Haltung in der Saarfrage abzuwenden und sich in Zukunft entschieden und aktiv gegen die französische Politik der Herauslösung des Saargebietes aus dem deutschen Staatsverband zu wenden. 2. Die Bundesregierung hat nicht erkennen lassen, durch welche politischen Maßnahmen über die gestrige Note an die Alliierte Hohe Kommission hinaus sie die Lage im Saargebiet zu einem deutschfranzösischen Freundschaftsverhältnis im Sinne der Gleichberechtigung zu wenden gedenkt. 3. Insbesondere hat die Bundesregierung nicht erklärt, welche Schritte sie angesichts der undemokratischen Verhältnisse im Saargebiet im Europarat zu unternehmen gedenkt. 4. Endlich hat die Bundesregierung unterlassen zu erklären, daß sie bis zur Herstellung demokratischer Zustände im Saargebiet alle weiteren vorbereitenden Maßnahmen hinsichtlich des Vertrages über eine Europäische Gemeinschaft für Kohle und Stahl unterlassen werde, insbesondere auch alle Schritte zur Herbeiführung der Zustimmung der deutschen gesetzgebenden Körperschaften zu diesem Vertrag. Die sozialdemokratische Fraktion wird sich aus den genannten Gründen bei der Abstimmung über diese Entschließung der Stimme enthalten.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1951-05-30-01-144.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg3">Eine weitere Erklärung zur Abstimmung wünscht der Abgeordnete Dr. von Merkatz abzugeben.</seg>
+        </u>
+        <note type="speaker">Dr. von Merkatz (DP):</note>
+        <u who="#Q566322" xml:id="ParlaMint-DE_1951-05-30-01-144.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg4">Herr Präsident! Meine Damen und Herren! Es liegt der Antrag der Zentrumspartei auf Drucksache Nr. 2283 vor. Dieser Antrag hat den Zweck, das Recht der Saarbevölkerung auf Selbstbestimmung effektiv zu machen. Dieser Tendenz des Antrags darf ich in jeder Hinsicht zustimmen. Andererseits bedarf aber diese Frage — die Redaktion des Antrags ist offenbar durch den Artikel des Prinzen Löwenstein in der „Zeit" inspiriert — doch noch einer gewissen Überprüfung. Ich möchte daher beantragen, diesen Antrag dem Auswärtigen Ausschuß zur Prüfung vorzulegen und einen Bericht dieses Ausschusses einzufordern. Der Antrag enthält einige Unrichtigkeiten. Zum Beispiel wird erklärt, daß die Vereinten Nationen als Rechtsnachfolger des Völkerbundes zu betrachten sind. Diese Feststellung ist unrichtig. Zweitens wird hier auf eine Abstimmung vom 6. Dezember 1934 Bezug genommen, die seinerzeit vom Völkerbund zugesagt und von Frankreich zugestanden worden sei. Diese Frage bedarf eingehender Prüfung; denn für mich kann kein Zweifel daran bestehen, daß das Abstimmungsergebnis von 1935 seine Gültigkeit hat und die Grundlage unserer Auffassung darstellt. Das Saargebiet ist ein Bestandteil des Deutschen Reiches, und wenn eine Abstimmung in Erwägung gezogen werden kann, so könnte sie doch nur im Hinblick auf eine Änderung des Ergebnisses von 1935 in. Erwägung gezogen werden. Alle diese Fragen bedürfen einer sehr eingehenden Prüfung, und ich halte es deshalb für richtig, den Antrag dem Auswärtigen Ausschuß zu überweisen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Sehr richtig! bei der DP und in der Mitte.</desc>
+        </vocal>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1951-05-30-01-144.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg5">Eine weitere Erklärung zur Abstimmung wünscht der Abgeordnete Renner abzugeben.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Strauß: Muß das sein?</desc>
+        </vocal>
+        <note type="speaker">Renner (KPD):</note>
+        <u who="#Q1600804" xml:id="ParlaMint-DE_1951-05-30-01-144.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg6">Herr Präsident! Meine Damen Herren! Zu den beiden hier vorliegenden Entschließungsentwürfen habe ich im Namen meiner Fraktion folgendes zu erklären. Wir sind der Auffassung, daß das Anrufen der Hohen Kommission vollkommen falsch ist. Die Hohe Kommission ist unserer Auffassung nach nichts anderes als ein Exponent der Westmächte, die mittels der Saarkonventionen den im Saargebiet bestehenden völkerrechtswidrigen und die deutsche staatliche Hoheit beseitigenden Zustand geschaffen haben. Wir sehen in der Saarfrage eine gesamtdéutsche Frage. Wir sind der Auffassung, daß die Volksabstimmung vom Jahre 1935, die mit dem Bekenntnis zu Deutschland geendet hat, einen Rechtszustand geschaffen hat, der nach wie vor besteht. Wir sind nicht in der Lage, die Bundesregierung als Rechtsnachfolgerin des Deutschen Reiches anzuerkennen.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen in der Mitte und rechts. — Zuruf in der Mitte: Stalin!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg7">Hinzu kommt, daß wir der Bundesregierung auch nicht zutrauen, daß sie deutsche Interessen an der Saar vertritt.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen und Zurufe: Aber Ihr!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg8">Wir halten also die Bundesregierung nicht für zuständig,</seg>
+          <kinesic type="laughter">
+            <desc>Abg. Strauß: Da lacht ja ein Pferd vor der Apotheke!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg9">diese Verhandlungen zur Klärung dieser deutschen Frage durchzuführen.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe in der Mitte und rechts.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg10">Wir sind der Auffassung, daß die Bundesregierung bestenfalls gemeinsam mit der Regierung der DDR diese gesamtdeutsche Frage aufgreifen sollte.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Strauß: Das Grammophon Grotewohls!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg11">Wir sind der Meinung, daß der von der Regierung der DDR vorgeschlagene Konstituierende Rat, dessen Aufgabe ja die Vorbereitung einer gesamtdeutschen Regierung sein soll,</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Strauß: Hau doch ab mit dem Unsinh!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg12">die Körperschaft sein sollte und ist, der auch die Klärung des deutschen Standpunktes bezüglich der Saar anvertraut werden sollte,</seg>
+          <vocal type="murmuring">
+            <desc>Abg. Strauß: Die sollen sich um die OderNeiße-Grenze kümmern; mit der Saar werden wir allein fertig! — weitere Zurufe und anhaltende Unruhe</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg13">und zwar im Sinne der Wiederherstellung eines für uns ganz selbstverständlichen Zustandes, nämlich der Wiederherstellung der uneingeschränkten deutschen staatlichen Hoheit an der Saar.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Wuermeling: An der Grenze von 1937! — Weitere Zurufe.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg14">Wir sind darüber hinaus der Meinung, — —</seg>
+          <vocal type="exclamat">
+            <desc>Anhaltende Zurufe. — Große Unruhe.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg15">— Herr Präsident, darf ich nicht um etwas Ruhe bitten?</seg>
+        </u>
+        <kinesic type="signal">
+          <desc>Große Heiterkeit und erneute Zurufe. — Glocke des Präsidenten.</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1951-05-30-01-144.u7" ana="#chair">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg16">Meine Damen und Herren!</seg>
+          <vocal type="exclamat">
+            <desc>Fortgesetzte Zurufe.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg17">-- Meine Damen und Herren, wir haben doch die Erfahrung gemacht, daß es am schnellsten geht, wenn weniger Zurufe gemacht werden.</seg>
+        </u>
+        <note type="speaker">Renner (KPD):</note>
+        <u who="#Q1600804" xml:id="ParlaMint-DE_1951-05-30-01-144.u8" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg18">Herr Strauß, — —</seg>
+          <vocal type="exclamat">
+            <desc>Erneute Zurufe. — Abg. Strauß: Nehmen Sie meinen Namen nicht in Ihren Mund, Herr Renner; sonst sage ich Ihnen etwas anderes!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg19">— Brüllen, Herr Strauß', können auch Rinder!</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Strauß: Das haben heute nachmittag die Oberrindviecher bewiesen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg20">Wir sind der Auffassung, daß die Durchführung einer Volksabstimmung an der Saar vollkommen überflüssig ist. Das Bekenntnis der deutschen Bevölkerung an der Saar zu Deutschland ist so klar und eindeutig, daß es keiner Unterstreichung durch eine neue Volksabstimmung bedarf. Weiter sind wir — das sage ich abschließend — der Auffassung, daß, falls überhaupt irgendeine außerdeutsche Instanz in Frage kommen sollte, um diese unserer Meinung nach geklärte deutsche Frage abzuschließen,</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Wuermeling: Moskau?!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg21">dann höchstens ein Appell an den Außenministerrat in Betracht kommt. Aber auch dieser Appell kann nicht Sache der Adenauer-Regierung allein sein, sondern muß Sache einer deutschen, einer gesamtdeutschen, also einer Regierung sein, die im Namen des gesamten deutschen Volkes zu handeln berufen ist. Die Adenauer-Regierung ist das nicht.</seg>
+          <kinesic type="laughter">
+            <desc>Gelächter und Zurufe in der Mitte und rechts.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg22">Unter diesen Umständen, die ich zum Ausdruck gebracht habe, sind wir nicht in der Lage, den beiden Entschließungen zuzustimmen.</seg>
+          <vocal type="exclamat">
+            <desc>Ironische Bravo-Rufe in der Mitte.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg23">Aber Ihr Gegröle ändert ja nichts an dem Tatbestand, daß Sie selber gegen die verfassungswidrigen Zustände. an der Saar gar nichts. Ernstliches zu tun gedenken,</seg>
+          <kinesic type="kinesic">
+            <desc>stürmische Zurufe in der Mitte und rechts</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg24">und es steht Ihnen schlecht an, von Demokratie zu reden, die Sie hier in unserem eigenen Land , die Demokratie dauernd mit Füßen treten.</seg>
+          <vocal type="exclamat">
+            <desc>Anhaltende stürmische Zurufe.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg25">Sie sind faule Vertreter der Demokratie!</seg>
+          <kinesic type="signal">
+            <desc>Glocke des Präsidenten. — Abg. Strauß: Exilregierung in Tibet! -- Weitere Zurufe.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg26">— Herr Strauß, müssen Sie denn immer beweisen, daß Sie einer der ungebildeten Urbayern sind?</seg>
+        </u>
+        <kinesic type="signal">
+          <desc>Abg. Strauß: Hau ab! — Glocke des Präsidenten.</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1951-05-30-01-144.u9" ana="#chair">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg27">Meine Damen und Herren, ich habe den Eindruck, als ob diese Diskussion das Bestreben hat, sich auszuweiten. Ich wäre dankbar, wenn wir uns auf Erklärungen zur Abstimmung beschränken könnten. Frau Abgeordnete Wessel wünscht das zu tun.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Frau Wessel (Z):</note>
+        <u who="#Q70081" xml:id="ParlaMint-DE_1951-05-30-01-144.u10" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg28">Meine Herren und Damen! Die Zentrumsfraktion ist damit einverstanden, daß ihr Antrag dem Auswärtigen Ausschuß überwiesen wird.</seg>
+          <vocal type="exclamat">
+            <desc>Bravo! in der Mitte.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg29">Uns kam es nur darauf an, mit unserem Antrag auch -der Regierung die Möglichkeit zu geben, die Frage der Volksabstimmung erneut in den Auseinandersetzungen um das Saargebiet aufzuwerfen.</seg>
+          <vocal type="exclamat">
+            <desc>Sehr gut! in der Mitte.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg30">Wir werden uns bemühen gerade bei den Beratungen im Auswärtigen Ausschuß in unserer positiven Haltung zur Saarfrage ,weiter mitzuarbeiten.</seg>
+          <vocal type="exclamat">
+            <desc>Erneute Bravorufe in der Mitte.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg31">Aus den Ausführungen des Herrn von Merkatz haben wir entnommen, daß man dem Antrag des Zentrums mit dem Ernst und der positiven Haltung gegenübersteht, die dieser Antrag wohl verdient. Aus diesen Gründen sind wir auch durchaus bereit, uns der Regierungserklärung des Herrn Bundeskanzlers und der Erklärung, die von den Regierungsparteien abgegeben worden ist, anzuschließen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall beim Zentrum, in der Mitte und rechts.</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1951-05-30-01-144.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg32">Als letzter hat das Wort zur Abstimmung Herr Abgeordneter von Thadden.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe.</desc>
+        </vocal>
+        <note type="speaker">von Thadden (DRP):</note>
+        <u who="#Q88729" xml:id="ParlaMint-DE_1951-05-30-01-144.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg33">Ich freue mich natürlich, daß wir uns immer miteinander freuen, wenn wir uns hier sehen.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg34">Meine Damen und Herren! Ich möchte hier folgendes erklären. Mit Bedenken stimmen wir der Regierungserklärung zu.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe in der Mitte: Oho!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg35">Der Antrag der CDU ist, so wie das meiste, was uns von dieser Partei bisher geliefert wurde, nämlich weich. Der Antrag der SPD wird in Punkt 2 meines Erachtens konkretisiert durch den Antrag des Zentrums, der von allen hier eingebrachten Anträgen unseres Erachtens der beste ist.</seg>
+          <vocal type="exclamat">
+            <desc>Wiederholte Zurufe in der Mitte.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg36">Die Bedenken, die Herr von Merkatz vorgetragen hat, mögen richtig sein. Auch wir sind der Auffassung, daß die Volksabstimmung von 1935 ein Definitivum ist. Wenn aber seinerzeit die Franzosen die Möglichkeit gewollt haben, diese Abstimmung noch einmal zu wiederholen, weil sich die Dinge vielleicht einmal wandeln könnten, dann sollten wir dankbar diese Möglichkeit, die der Völkerbund damals geschaffen hat, für unsere Zwecke ausnutzen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf links: Geschichte mangelhaft!</desc>
+        </vocal>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1951-05-30-01-144.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg37">Das sind schon sechs Sätze, Herr von Thadden!</seg>
+        </u>
+        <note type="speaker">von Thadden (DRP):</note>
+        <u who="#Q88729" xml:id="ParlaMint-DE_1951-05-30-01-144.u14" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg38">Der Herr Präsident macht mich darauf aufmerksam, daß es bereits sechs Sätze sind. — Meine Damen und Herren, wir werden dem Zentrumsantrag zustimmen. Unsere Meinung zur Regierungserklärung habe ich Ihnen gesagt.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="7" ana="#DE-consultation">
+        <head>Zweite und dritte Beratung des Entwurfs eines Gesetzes betreffend die Aufhebung von Kriegsvorschriften (Nr. 2093 der Drucksachen)</head>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1951-05-30-01-144.u15" ana="#chair">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg39">Weitere Wortmeldungen liegen nicht vor. Ich darf dann also, auch formell die Besprechung schließen. Ich bitte die Damen und Herren, die der Entschließung zur Erklärung der Bundesregierung zuzustimmen wünschen, eine Hand zu erheben. — Ich bitte um die Gegenprobe. —</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf rechts: Aha!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg40">Enthaltungen? — Gegen die Stimmen der Vertreter der kommunistischen Fraktion bei zahlreichen Enthaltungen angenommen. Der Antrag der Fraktion der SPD Drucksache Nr. 2114! Ich bitte die Damen und Herren, die diesem Antrag zuzustimmen wünschen, eine Hand zu erheben. —</seg>
+          <kinesic type="kinesic">
+            <desc>Zuruf in der Mitte: Ist doch erledigt!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg41">— Die Fraktion der SPD ist der Auffassung, daß der Antrag nicht erledigt ist. Ich habe über den Antrag abstimmen zu lassen. Ich bitte um die Gegenprobe. —</seg>
+          <vocal type="exclamat">
+            <desc>Erneute Zurufe.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg42">— Meine Damen und Herren, zur Klärung: Ich vertrete den Standpunkt, daß auch dann, wenn ein Antrag nach der Auffassung eines Teils des Hauses sachlich erledigt ist und gegenstandslos sein mag, eine Abstimmung nicht ohne weiteres Überflüssig zu sein braucht.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Strauß: Darf ich um Verlesung bitten!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg43">— Der Antrag der Fraktion der SPD — Drucksache Nr. 2114 — liegt Ihnen allen vor!</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf: Ach so, der alte!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg44">— Der alte Antrag der Fraktion der SPD! Also ich darf, nachdem die Unklarheit beseitigt ist, noch einmal abstimmen lassen. Ich bitte die Damen und Herren, die zuzustimmen wünschen, eine Hand zu erhaben. — Ich bitte um die Gegenprobe. — Enthaltungen? — Bei wenigen Enthaltungen abgelehnt. Weiterhin ist beantragt worden, den Antrag der Fraktion des Zentrums — Drucksache Nr. 2283 — dem Ausschuß für das Besatzungsstatut und auswärtige Angelegenheiten zu überweisen. Ich bitte die Damen und Herren, die dieser Oberweisung zuzustimmen wünschen, eine Hand zu erheben. — Das ist die ganz überwiegende Mehrheit; die Überweisung ist erfolgt. Damit ist der Punkt 1 der Tagesordnung erledigt. Ich bin gebeten worden, Ihnen vorzuschlagen, Punkt 7 der Tagesordnung, zweite und dritte Beratung des Entwurfs eines Gesetzes betreffend die Aufhebung von Kriegsvorschriften — Drucksachen Nrn. 2093 und 2236 (neu)</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg45">— jetzt aufzurufen, da es aus internationalen Gründen zweckmäßig erscheint, dieses Gesetz möglichst bald zu beschließen. Ich nehme an, daß das Haus damit einverstanden ist. Bevor ich Punkt 7 der Tagesordnung aufrufe, möchte ich darauf hinweisen, daß die Wahlmänner für das Bundesverfassungsgericht gebeten werden, sich morgen, Donnerstag, um 10 Uhr, im Ruheraum neben dem Plenarsaal zu einer Besprechung einzufinden. Nunmehr rufe ich auf Punkt 7 der Tagesordnung: Zweite und dritte Beratung des Entwurfs eines Gesetzes betreffend die Aufhebung von Kriegsvorschriften (Nr. 2093 der Drucksachen)</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg46">; Mündlicher Bericht des Ausschusses für Rechtswesen und Verfassungsrecht (23. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg47">Nr. 2236 [neu] der Drucksachen).</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg48">(Erste Beratung: 133. Sitzung.)</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg49">Der Ältestenrat hat einen besonderen Vorschlag über die Aussprachezeit nicht gemacht. Ich darf annehmen, daß auf eine Aussprache verzichtet werden kann. — Das ist offenbar der Fall. Berichterstatter ist Herr Abgeordneter Dr. Wahl, Ich darf ihn bitten, das Wort zu nehmen..</seg>
+        </u>
+        <note type="speaker">Dr. Wahl (CDU) , Berichterstatter:</note>
+        <u who="#Q1290290" xml:id="ParlaMint-DE_1951-05-30-01-144.u16" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg50">Herr Präsident! Meine Damen und Herren! Die Vorlage der Drucksache Nr. 2236 (neu)</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg51">, über die ich die Ehre habe dem Hohen Hause namens des Rechtsausschusses zu berichten, betrifft ein Gesetz, durch das nunmehr auch durch die deutschen Gesetzgebungsinstanzen die diskriminierende Behandlung der kriegführenden Staaten und ihrer Staatsangehörigen aufgehoben wird. Natürlich hatten die Besatzungsmächte alsbald nach der Besetzung die Maßnahmen außer Kraft gesetzt, die von deutscher Seite während des Krieges gegen die Alliierten und ihre Verbündeten ergriffen worden waren. Aber es ist wichtig, daß nun auch die deutsche Gesetzgebung formell die Kriegsgesetze außer Kraft setzt, weil nach dem Stand der Verhandlungen zwischen der Bundesregierung und den Alliierten ein solcher Gesetzgebungsakt die Voraussetzung dafür bildet, daß entsprechende Gesetze in den alliierten Staaten zur Aufhebung der Beschränkungen für die deutsehen Staatsangehörigen ergehen. Der Rechtsausschuß war nicht in der Lage, im einzelnen nachzuprüfen, ob der Katalog der fn der Regierungsvorlage enthaltenen Gesetze vollständig ist. Insoweit muß er sich auf die Vorarbeiten des Bundesjustizministeriums verlassen, das auch die aus der Drucksache ersichtliche Einfügung der Verordnung vom 13. Juli 1943 angeregt hat. Der Rechtsausschuß hat das von der Bundesregierung vorgeschlagene Datum, auf das die Aufhebung der Kriegsvorschriften zurückbezogen wird, nämlich das Datum des 8. Mai 1945, in seiner Berechtigung geprüft und schließlich gutgeheißen. Nach unserer Auffassung ist der sogenannte Wirtschaftskrieg, der mit Hilfe dieser diskriminierenden Vorschriften geführt wird, mit der Kriegführung selbst, den sogenannten Feindseligkeiten, den Kriegshandlungen aufs engste verbunden, und es schien richtig, die Maßnahmen des Wirtschaftskrieges mit der Einstellung der Feindseligkeiten aufzuheben. Wie aus der Begründung der Regierungsvorlage hervorgeht, hat die Regierung nur einem Verlangen der drei westlichen Besatzungsmächte entsprochen, als sie dem Entwurf folgende Präambel voranstellte:</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg52">Um der Beendigung des Kriegszustandes zwischen Deutschland und den alliierten Staaten im innerstaatlichen Recht der Bundesrepublik Ausdruck zu geben, hat der Bundestag das folgende Gesetz beschlossen:</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg53">Gegen diese Fassung der Präambel waren schon im Bundesrat von dem Herrn Ministerpräsidenten Zinn erhebliche Bedenken angemeldet worden, weil sie der Auslegung Raum geben könnte, als ob der völkerrechtliche Kriegszustand zwischen Deutschland und den Alliierten schon zu Ende sei, "was mangels eines Friedensvertrages und mangels der Wiederaufnahme, normaler diplomatischer Beziehungen nur dann der Fall sein könnte, wenn das Deutsche Reich im Jahre 1945 untergegangen wäre Diese Bedenken erschienen dem Rechtsausschuß äußerst schwerwiegend. Er schlug deshalb in der Drucksache Nr. 2236 alter Ausgabe eine Fassung vor, die zu einer solchen Auslegung keine Handhabe geboten hätte. Da unser Land das größte Interesse daran hat, eines Tages als Partner für den Friedensvertrag über alle deutschen Probleme anerkannt zu werden, hätte der Bundestag nie sein Einverständnis mit einer Präambel erklären können, durch die der Anschein erweckt worden wäre, als ob der Kriegszustand durch den Untergang des Deutschen Reiches aufgehört habe und die deutsche Bundesrepublik einer der Nachfolgestaaten sei, der das Aufhören des Deutschen Reiches als These hingenommen hätte. Mittlerweile haben die Alliierten den Rechtsausschuß wissen lassen, daß sie angesichts der entstndenen Differenzen über die Wortfassung der Präambel den ursprünglichen Vorschlag der Bundesregierung, das Gesetz ohne Präambel zu erlassen, anzunehmen bereit sind. Zumal von der Verabschiedung des Gesetzes die Aufhebung der Beschränkungen der Deutschen in den kriegführenden Staaten abhängt und deshalb Eile geboten ist — man denke bloß an die bisherige Ausschließung der Deutschen von der Anrufung der amerikanischen Gerichte —, glaubte der Rechtsausschuß auf der von ihm neugefaßten Präambel nicht bestehen zu sollen und schlägt Ihnen das Gesetz nunmehr ohne Präambel zur Annahme vor, nachdem der deutsche Rechtsstandpunkt in meinem Referat nochmals klargestellt worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1951-05-30-01-144.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg54">Ich danke dem Herrn Berichterstatter. Ich rufe auf § 1, — § 2, — § 3, —§ 4, — § 5, — § 6. Wer für diese Bestimmungen ist, den bitte -ich, die Hand zu erheben. — Gegenprobe! — Angenommen. Einleitung und Überschrift. Wer dafür ist, den bitte ich, die Hand zu erheben. — Gegenprobe! — Angenommen. Ich habe noch über die Anlage abstimmen zu lassen. Wer für die Annahme der Anlage mit der vom Ausschuß vorgeschlagenen Einfügung ist, den bitte ich, die Hand zu erheben. — Gegenprobe! — Angenommen. Damit ist die zweite Beratung abgeschlossen. Ich rufe zur dritten Beratung auf. Ich eröffne die allgemeine Aussprache. — Das Wort wird nicht gewünscht. Ich schließe die allgemeine Aussprache. Ich rufe zur Einzelberatung auf: §§ 1 bis 6, Einleitung, Überschrift und Anlage. Wer dafür ist, den bitte ich, die Hand zu erheben. — Gegenprobe! — Angenommen. Gesamtabstimmung: Wer für die Annahme des Gesetzes im ganzen ist, den bitte ich, die Hand zu erheben. — Gegenprobe! — Angenommen. Meine Damen und Herren, nun habe ich bekanntzugeben, daß auf Grund interfraktioneller Vereinbarung die Punkte 2 und 3 von der Tagesordnung abgesetzt werden sollen.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Schröter: Ich bitte ums Wort zur Geschäftsordnung!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg55">Das Wort hat der Abgeordnete Schröter.</seg>
+        </u>
+        <note type="speaker">Schröter (CDU):</note>
+        <u who="#Q110903" xml:id="ParlaMint-DE_1951-05-30-01-144.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg56">Meine sehr verehrten Damen und Herren! Es war vorgesehen, daß morgen die Sitzung um 14 Uhr beginnt. Die Fraktion der CDU/ CSU bittet Sie, die Plenarsitzung morgen bereits auf 13 Uhr anzusetzen. Einige unserer Freunde müssen nach Berlin; sie müssen an der Sitzung teilnehmen. Infolgedessen bitten wir Sie, zu beschließen, daß morgen die Sitzung schon um 13 Uhr beginnt.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="5" ana="#DE-consultation #DE-report">
+        <head>Erste Beratung des Entwurfs eines Gesetzes über die Verteilung des im Geschäftsjahr 1950 erzielten Reingewinns der Bank deutscher Länder (Nr. 2244 der Drucksachen). Hier mag es eine Schwierigkeit geben, weil an diesen Tagesordnungspunkt 5 nachträglich der Mündliche Bericht des Ausschusses für Geld und Kredit betreffend Einsparung von 150 Millionen Zinsen — Drucksache Nr. 2101 —</head>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1951-05-30-01-144.u19" ana="#chair">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg57">Kein Widerspruch? — Dann wird der Präsident die Sitzung auf 13 Uhr einberufen. Ich muß noch fragen, ob das Haus mit der Absetzung der Tagesordnungspunkte 2 und 3 einverstanden ist. — Ich höre keinen Widerspruch. Ich schlage Ihnen vor, daß wir heute abend nur diejenigen Tagesordnungspunkte behandeln, bei denen auf eine Aussprache verzichtet wird. Ich glaube kaum, daß es dem Ernst der Sache dienlich wäre, wenn wir hier noch Aussprachen versuchen wollten. ,</seg>
+          <kinesic type="kinesic">
+            <desc>Zustimmung.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg58">Ich rufe Punkt 4 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg59">Erste Beratung des Entwurfs eines Zweiten Gesetzes zur Änderung des Gesetzes über die Kreditanstalt für Wiederaufbau (Nr. 2233 der Drucksachen).</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg60">Der Ältestenrat war der Meinung, daß es hier nicht zur Aussprache kommen werde. Wird es etwa doch zur Aussprache kommen?</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe: Nein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg61">— Nein! Dann eröffne ich die allgemeine Aussprache. — Wortmeldungen liegen nicht vor. Die Vorlage muß wohl an den Ausschuß für Geld und Kredit überwiesen werden. Ist das Haus damit einverstanden? — Kein zusätzlicher Antrag? — Dann ist so beschlossen. Ich rufe Punkt 5 der Tagesordnung auf: Erste Beratung des Entwurfs eines Gesetzes über die Verteilung des im Geschäftsjahr 1950 erzielten Reingewinns der Bank deutscher Länder (Nr. 2244 der Drucksachen).</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg62">Hier mag es eine Schwierigkeit geben, weil an diesen Tagesordnungspunkt 5 nachträglich der Mündliche Bericht des Ausschusses für Geld und Kredit betreffend Einsparung von 150 Millionen Zinsen — Drucksache Nr. 2101 — angehängt worden ist, dessen Behandlung, wie man mir sagte, erst für morgen vorgesehen gewesen ist. Das Wort hat der Abgeordnete Scharnberg.</seg>
+        </u>
+        <note type="speaker">Scharnberg (CDU) , Berichterstatter:</note>
+        <u who="#Q1635648" xml:id="ParlaMint-DE_1951-05-30-01-144.u20" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg63">In der Annahme, daß der von der Regierung vorgelegte Gesetzentwurf dem Ausschuß für Geld und Kredit überwiesen wird, verzichte ich auf die Berichterstattung über den Antrag der Abgeordneten Dr. Dr. Nöll von der Nahmer und Genossen, dessen Behandlung für die morgige Tagesordnung vorgesehen war und nun `auf die heutige Sitzung verlegt worden ist, damit wir den Gesetzentwurf der Regierung heute in erster Lesung verabschieden können. - Vizepräsident Dr. Schmid: Dann eröffne ich die allgemeine Aussprache. — Keine Wortmeldung. Ich schieße die Aussprache. Die Vorlage ist wohl an den Ausschuß für Geld. und Kredit zu überweisen. — Das' Haus ist damit einverstanden. Es- ist so beschlossen. Also der Mündliche Bericht auf Drucksache Nr. 2101 ist zurückgezogen, Herr Kollege Scharnberg?</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Scharnberg: Jawohl!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg64">— Dann ist das erledigt.</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg65">Ich rufe Ziffer 6 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg66">Erste Beratung des von den Fraktionen der CDU/CSU, FDP, DP und Z eingebrachten Entwurfs eines Gesetzes zur Anpassung der Facharztordnung für die deutschen Ärzte an die Fortschritte der medizinischen Wissenschaft und Praxis (Nr. 2255 der Drucksachen).</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg67">Ich eröffne die allgemeine Aussprache. — Keine Wortmeldung. Ich schließe die allgemeine Aussprache. Die Überweisung erfolgt an den Ausschuß für Fragen des Gesundheitswesens. — Das Haus ist einverstanden.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf der Abg. Frau Dr. Brökelschen.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg68">— Ich hatte die Frage an das Haus gestellt. Das Haus hat auf eine Aussprache verzichtet. Punkt '8 der Tagesordnung:</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg69">Antrag des Bundesministers der Finanzen vom 4. Mai 1951 auf Zustimmung des Bundestages zur Veräußerung eines bundeseigenen Grundstücks gemäß § 47 Absatz 3 der Reichshaushaltsordnung (Nr. 2246 der Drucksachen).</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg70">Die allgemeine Aussprache ist eröffnet. — Keine Wortmeldung. Ich schließe die Aussprache. Der Antrag ist wohl an den Haushaltsausschuß zu überweisen. Ist das Haus damit einverstanden?</seg>
+          <kinesic type="kinesic">
+            <desc>Zustimmung.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg71">— Dann ist so beschlossen.</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg72">Ich rufe Punkt 9 auf:</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg73">Beratung des Mündlichen Berichts des Ausschusses für Heimatvertriebene (22. Ausschuß)</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg74">über den Antrag der Fraktion der KPD betreffend Wahrung der Interessen der aus dem westlichen Ausland ausgewiesenen Deutschen (Nrn. 2227, 1826 der Drucksachen).</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg75">Hierzu hat der Ältestenrat eine Aussprachezeit von 40 Minuten vorgesehen. Will das Haus nicht auf eine Aussprache verzichten?</seg>
+          <vocal type="exclamat">
+            <desc>Zustimmung in der Mitte.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg76">— Herr Müller, verzichten Sie?</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Müller [Frankfurt] : Nein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg77">— Sie wollen nicht verzichten. Dann schlage ich vor, die Sache heute nicht zu behandeln, sondern die Behandlung auf die Tagesordnung der morgigen Sitzung zu setzen.</seg>
+          <kinesic type="kinesic">
+            <desc>Zustimmung.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg78">— Das Haus ist damit einverstanden.</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg79">Zu Punkt 10 der Tagesordnung betreffend einheitliche Regelung der Niederlassung und über die Zulassung von Ärzten zur Tätigkeit bei den Krankenkassen ist, wie ich höre, der Herr Präsident um Absetzung gebeten worden. Das Haus ist damit einverstanden?</seg>
+          <kinesic type="kinesic">
+            <desc>Zustimmung.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg80">— Es ist so beschlossen. Dann kommen wir zu Punkt 11:</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg81">Beratung des interfraktionellen Antrags betreffend Überweisung von Anträgen an die Ausschüsse (Umdruck Nr. 184 und zu Nr. 184).</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Krone: Herr Präsident! Ich bitte, von dem Sammelantrag Umdruck Nr. 184 die Ziffer 1 betreffend Nr. 2222 der Drucksachen ausnehmen zu wollen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg82">— Diese Ziffer 1 betrifft den Antrag auf Einsetzung einer Sachverständigenkommission zur Vorbereitung der Neugliederung des Bundesgebiets. Das Haus wird damit einverstanden sein. -- Dann nehmen wir die Ziffer 1 heraus, und es bleiben nur die Ziffern 2 und 3 und Ziffer 4 gemäß Umdruck zu Nr. 184. Wer für die Überweisung der Anträge an die in dem Umdruck Nr. 184 und zu Nr. 184 angegebenen Ausschüsse ist, den bitte ich, die Hand zu erheben. — Gegenprobe! — Es ist so beschlossen. Nunmehr rufe ich Punkt 12 der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg83">Beratung der Übersicht Nr. 28 über Anträge von Ausschüssen des Deutschen Bundestages über Petitionen (Umdruck Nr. 165).</seg>
+          <seg id="ParlaMint-DE_1951-05-30-01-144.seg84">Ich eröffne die Aussprache. — Wortmeldungen liegen nicht vor. Wer für die Annahme des Ausschußvorschlages ist, den bitte ich, die Hand zu erheben. — Gegenprobe! — Es ist so beschlossen. Damit, meine Damen und Herren, ist die Behandlung der Tagesordnungspunkte abgeschlossen. Ich berufe die nächste, die 145. Sitzung auf morgen, Donnerstag, den 31. Mai 1951, 13 Uhr, ein und schließe die heutige, die 144. Sitzung des Deutschen Bundestags.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 20 Uhr 45 Minuten.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

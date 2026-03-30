@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1971-01-21-06-091">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 6. Wahlperiode, 91. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 21.01.1971 (91. Sitzung der 6. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 6, Session 91 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1971-01-21 (Session 91 in Legislative Period 6)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="91">91. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.06" n="6">6. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="91">Session 91</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.06" n="6">Legislative Period 6</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 21.01.1971</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1971-01-21</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488220/b2b4d0d49600ef852d15e4052fabce1e/pp06-data.zip</idno>
+          <date when="1971-01-21">1971-01-21</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1971-01-21">1971-01-21</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection">
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg1">Die Sitzung ist eröffnet. Seinen 65. Geburtstag feiert heute der Herr Abgeordnete Seidel. Ich gratuliere im Namen des Hauses.</seg>
+          <kinesic type="applause">
+            <desc>Beifall.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg2">Folgende amtliche Mitteilung wird ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg3">Der Bundesminister der Finanzen hat am 18. Januar 1971 die Kleine Anfrage der Abgeordneten Frau Dr. Walz, Dr. Martin, Pfeifer, Dr. Gölter und Genossen betr. Information der Parlamente über die Arbeit der Planungsausschüsse für die Gemeinschaftsaufgaben Ausbau und Neubau von Hochschulen, Verbesserung der regionalen Wirtschaftsstruktur und Verbesserung der Agrarstruktur und des Küstenschutzes sowie der BundLänder-Kommission für Bildungsplanung — Drucksache VI/1651 — beantwortet. Sein Schreiben ist als Drucksache VI/1705 verteilt. Einziger Punkt der Tagesordnung: Fragestunde — Drucksachen VI/1696, VI/1709 —</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg4">Wir beginnen mit den Dringlichkeitsfragen aus dem Geschäftsbereich des Auswärtigen Amts. Ich rufe die Frage 1 des Herrn Abgeordneten Niegel auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg5">Kann die Bundesregierung nähere Einzelheiten mitteilen, wie der deutsche Entwicklungshelfer Hermann Seibold in Guinea ums Leben kam? Zur Beantwortung Herr Bundesminister Scheel.</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg6">Herr Kollege, auf die Frage, ob die Bundesregierung Einzelheiten mitteilen kann, wie Herr Seibold in Guinea ums Leben gekommen ist, muß ich mit Nein antworten. Der Bundesregierung sind bisher keine Einzelheiten bekannt. Die deutsche Botschaft in Conakry wurde aber noch am Abend des 19. Januar angewiesen, von der guineischen Regierung die volle Aufklärung der Umstände des angeblichen Selbstmords zu fordern, nochmals dagegen zu protestieren, daß trotz ständiger Vorstellungen seit der Inhaftierung Seibolds am 18. Dezember der Botschaft verwehrt wurde, Verbindung mit den beiden inhaftierten deutschen Experten aufzunehmen, sowie die Freigabe der Leiche Seibolds zur Überführung nach Deutschland zu verlangen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg7">Eine Zusatzfrage des Herrn Abgeordneten Niegel.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1971-01-21-06-091.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg8">Herr Bundesminister, Sie sagten soeben, es sei protestiert worden. Glauben Sie nicht, daß Proteste allein des Botschafters während der Gefangenschaft der beiden deutschen Staatsangehörigen — ich meine auch Herrn Marx — zu wenig sind? Hätte hier nicht die Bundesregierung ihr Gewicht als Vertreterin eines Volkes von 60 Millionen Einwohnern stärker geltend machen müssen?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg9">Herr Abgeordneter, wir haben es natürlich nicht bei den Protesten des Botschafters bewenden lassen, sondern alle Möglichkeiten auszuschöpfen versucht, im Interesse der inhaftierten Deutschen tätig zu werden. Ich darf sagen, daß dabei vor allem afrikanische Regierungen besonders behilflich gewesen sind, welche die Entwicklung der Lage in Guinea ähnlich beurteilt haben wie wir. Sie haben ihre Hilfe angeboten und auch Kontakt mit der guineischen Regierung gehabt, ohne daß das zum gewünschten Erfolg geführt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg10">Eine zweite Zusatzfrage des Herrn Abgeordneten Niegel.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1971-01-21-06-091.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg11">Wie hat die Bundesregierung darauf reagiert, als z. B. in der „Welt" am 18. Januar bekanntwurde, daß mehr oder weniger Attentatsdrohungen gegen die beiden Deutschen in Conakry verkündet wurden?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u8" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg12">Wann ist das gewesen?</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1971-01-21-06-091.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg13">Am 18. Januar.</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg14">Das war ja zu einem Zeitpunkt, als die beiden Deutschen schon inhaftiert waren. Gegen wen richteten sich die Attentatsdrohungen? Ich verstehe das nicht.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1971-01-21-06-091.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg15">Attentatsdrohungen gegen die Inhaftierten wurden mehr oder weniger in diesem Artikel am 18. Januar bekanntgemacht.</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg16">Ich glaube, Sie verwechseln das mit der Aktivität der sogenannten „Verbände der Einheitspartei" in Guinea und mit deren Forderungen, Inhaftierte schwer zu bestrafen. Manche dieser Gruppen haben sogar die Todesstrafe gefordert. Das ist uns bekannt. Wir haben im gleichen Augenblick unsere Vorstellungen gegenüber der guineischen Regierung verstärkt. Wir haben vor allem auf allen Wegen den Versuch unternommen, die Regierung zur Mäßigung anzuhalten. Wir haben den Versuch unternommen, vor allen Dingen im Interesse der inhaftierten Deutschen etwas zu tun. Es sind ja nicht nur Deutsche inhaftiert worden, sondern auch Angehörige anderer Völker, auch Angehörige europäischer Völker.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg17">Eine Zusatzfrage des Herrn Abgeordneten Brück.</seg>
+        </u>
+        <note type="speaker">Brück (Holz) (SPD) :</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1971-01-21-06-091.u14" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg18">Herr Bundesminister, sind Sie mit mir der Auffassung, daß es der Sache dienlicher und für den vor Gericht stehenden Deutschen nützlicher wäre, wenn in der Öffentlichkeit nicht soviel über die Sache gesprochen würde, vor allem angesichts der Tatsache, daß die Bundesregierung heute vormittag im Ausschuß für wirtschaftliche Zusammenarbeit berichtet hat und heute nachmittag im Auswärtigen Ausschuß berichten wird?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u15" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg19">Es hat sich herausgestellt, daß in so schwierigen Fragen, da Menschen in Gefahr sind, eine zurückhaltende Behandlung des Falles von allen Seiten förderlich ist. Wir haben uns auch so verhalten, und ich muß sagen, daß die Behandlung dieses Falles in der deutschen Öffentlichkeit, d. h. in der deutschen Presse, mit sehr viel Sorgfalt und Zurückhaltung erfolgt ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u16" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg20">Eine Zusatzfrage des Herrn Abgeordneten Becher.</seg>
+        </u>
+        <note type="speaker">Dr. Becher (Pullach) (CDU/CSU) :</note>
+        <u who="#Q110156" xml:id="ParlaMint-DE_1971-01-21-06-091.u17" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg21">Sind Sie nicht andererseits der Meinung, daß, ähnlich wie in den Fällen der verschleppten Botschafter, die Alarmierung der öffentlichen Meinungen gleichwohl eine Hilfe für die Opfer bedeutet? Warum ist es der Bundesregierung in diesem Fall nicht gelungen, über die UNO und andere Institutionen eine solche Alarmierung in die Wege zu leiten?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u18" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg22">Ich teile Ihre Meinung nicht, daß eine Alarmierung der öffentlichen Meinung den Betroffenen hilft; im Gegenteil, ich bin anderer Auffassung. Eine zu hochgespielte öffentliche Meinung gefährdet möglicherweise Inhaftierte. Natürlich haben wir die UNO eingeschaltet, und zwar den UNO-Generalsekretär persönlich. Er hat es für angemessen gehalten, seine Mitwirkung — ebenfalls ohne die Alarmierung der Weltöffentlichkeit — anzubieten, und er hat das auch getan.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u19" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg23">Eine Zusatzfrage des Herrn Abgeordneten Josten.</seg>
+        </u>
+        <note type="speaker">Josten (CDU/CSU) :</note>
+        <u who="#Q1695791" xml:id="ParlaMint-DE_1971-01-21-06-091.u20" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg24">Herr Minister, ist Ihnen bekannt, daß am heutigen Vormittag im Ausschuß für wirtschaftliche Zusammenarbeit ein Bericht der Bundesregierung gegeben wurde, worauf soeben der Kollege Brück hingewiesen hat, und daß die Mitglieder dieses Ausschusses dabei eine einstimmige Entschließung gefaßt haben, und wären Sie bereit, bei Ihren weiteren Beratungen und Überlegungen auch diese Entschließung zur Auswertung mit zur Kenntnis zu nehmen?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg25">Es ist ganz selbstverständlich, daß die Entschließung eines Ausschusses des Deutschen Bundestages Grundlage des Handelns der Bundesregierung wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u22" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg26">Ich rufe die Dringende Mündliche Frage 2 des Herrn Abgeordneten Niegel auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg27">Welche Konsequenzen zieht die Bundesregierung aus der mutmaßlichen Ermordung des deutschen Entwicklungshelfers Hermann Seibold in Guinea?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg28">Herr Kollege, die Bundesregierung kann sich zur Ursache des Todes von Herrn Seibold, an dem leider nicht zu zweifeln ist, erst äußern, wenn die näheren Umstände geklärt sind. Dafür hat die Bundesregierung unter anderem die Beteiligung der Organisation für Afrikanische Einheit erbeten. Sie hat ferner die Freigabe der Leiche verlangt. Erst danach können wir über Konsequenzen, wie Sie es in Ihrer Anfrage nennen, diskutieren. Schon die Ausweisung der Deutschen aus Guinea und die Inhaftierung der beiden Deutschen Seibold und Marx hat die Bundesregierung aber zu folgenden Maßnahmen veranlaßt. Die deutsche Entwicklungshilfe an Guinea, der durch das Verhalten der guineischen Regierung der Boden entzogen wurde, ist eingestellt worden. Die Bundesregierung hat sich wiederholt um den Schutz und die Freilassung der Inhaftierten bemüht, und zwar sowohl auf direktem Wege wie durch Vermittlung anderer, insbesondere afrikanischer Regierungen und von internationalen Organisationen. Ferner sind die deutschen Botschaften in Afrika angewiesen worden, gegenüber den Regierungen und der Öffentlichkeit ihrer Gastländer auf die Unhaltbarkeit der guineischen Behauptungen hinzuweisen und bei dieser Gelegenheit die Ziele unserer Afrika-Politik nochmals zu erläutern. Hierbei ist auch auf die Gefahr hingewiesen worden, daß das Verhalten der guineischen Regierung die wirtschaftliche Zusammenarbeit mit den afrikanischen Entwicklungsländern beeinträchtigen könnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg29">Eine Zusatzfrage des Herrn Abgeordneten Niegel.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1971-01-21-06-091.u25" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg30">Herr Bundesminister, hat man, als die Verhaftung der Deutschen bekanntwurde und sich die Situation des gespannten Verhältnisses anbahnte — es waren ja nicht nur die Verhaftungen —, den Staatspräsidenten durch das Auswärtige Amt wissen lassen, daß die diplomatischen Beziehungen in Frage gestellt werden könnten?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u26" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg31">Herr Kollege, es muß dem Präsidenten ohnehin klar gewesen sein, daß die Beziehungen zwischen unseren beiden Ländern aufs schwerste belastet sind. Aber es ist uns in diesen Wochen, die hinter uns liegen, darauf angekommen, am Orte selbst präsent zu sein. Wir müssen am Ort sein, damit wir uns für unsere inhaftierten Deutschen einsetzen können, wie es durch den Geschäftsträger in der Botschaft in Conakry geschehen ist, unter allem Einsatz — so meine ich --, der überhaupt möglich ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u27" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg32">Eine zweite Zusatzfrage des Herrn Abgeordneten Niegel.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1971-01-21-06-091.u28" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg33">Herr Bundesminister, im politischen Raum besteht der Verdacht, daß im Hintergrund die „DDR" das gespannte Verhältnis mehr oder weniger ausgelöst hat. Könnten Sie meine Meinung hier bestätigen?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u29" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg34">Ich teile diesen Verdacht, vor allen Dingen in Kenntnis der Beschuldigungen, die von einer Kommission in Guinea gegen die Bundesrepublik erhoben werden. Aus diesen Beschuldigungen und einzelnen Formulierungen, auch aus der Art der Beschuldigung, ist der Einfluß der Propaganda der Botschaft der DDR in Guinea zu vermuten. Darüber hinaus haben wir den berechtigten Verdacht, daß auch Dokumente gefälscht worden sind, die man der guineischen Regierung untergeschoben hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u30" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg35">Eine Zusatzfrage des Herrn Abgeordneten Kliesing.</seg>
+        </u>
+        <note type="speaker">Dr. Kliesing (Honnef) (CDU/CSU) :</note>
+        <u who="#Q1505009" xml:id="ParlaMint-DE_1971-01-21-06-091.u31" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg36">Herr Minister, treffen Informationen zu, nach denen die Regierung von Guinea ihre Maßnahmen gegen Bürger der Bundesrepublik erst dann getroffen hat, nachdem sie seitens Ost-Berlins die Zusicherung hatte, daß die DDR in alle Entwicklungsprojekte der Bundesrepublik einsteigen würde?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg37">Eine solche Information ist der Bundesregierung nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg38">Eine Zusatzfrage des Herrn Abgeordneten Werner.</seg>
+        </u>
+        <note type="speaker">Werner (CDU/CSU) :</note>
+        <u who="#Q2174091" xml:id="ParlaMint-DE_1971-01-21-06-091.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg39">Herr Minister, seit wann war Ihr Haus über die bedrohliche Entwicklung, die sich da anbahnte, orientiert?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1971-01-21-06-091.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg40">Wirklich bedrohlich wurde es seit der Verhaftung der beiden Deutschen und seit der gesteigerten Propagandakampagne, die sich damit verband.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg41">Keine weitere Zusatzfrage. Damit sind die Dringlichen Fragen beantwortet. Ich danke dem Herrn Bundesminister. Die weiteren Fragen aus dem Bereich des Auswärtigen Amtes werden, wie üblich, am Freitag, d. h. morgen, beantwortet. Ich rufe den Geschäftsbereich des Bundeskanzlers und des Bundeskanzleramtes auf. Zur Beantwortung ist Herr Staatssekretär Ahlers hier. Zunächst die Frage 90 des Herrn Abgeordneten Lampersbach:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg42">Warum hat die Bundesregierung in ihrer am 2./3. Januar 1971 in deutschen Tageszeitungen veröffentlichten Anzeige „Jetzt stehen Sie sich besser" in der Rubrik „Krankenversicherung" nicht auch ausdrücklich auf die Möglichkeit hingewiesen, daß Angestellte, die nicht versicherungspflichtig sind, ihre private Krankenversicherung fortsetzen können? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Ahlers, Staatssekretär, Chef des Presse- und Informationsamtes der Bundesregierung:</note>
+        <u who="#Q72593" xml:id="ParlaMint-DE_1971-01-21-06-091.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg43">Herr Abgeordneter, in der Einleitung der Anzeige ist zunächst deutlich gesagt, daß darin über diejenigen gesetzlichen Bestimmungen informiert wird, die am 1. Januar gegenüber den bisherigen Regelungen neu in Kraft getreten sind. Daß nichtversicherungspflichtige Angestellte ihre private Krankenversicherung fortsetzen können, ist keine neue Bestimmung. Neu ist nur, daß diese Angestellten der gesetzlichen Krankenversicherung fakultativ bis zum 31. März beitreten können. Auf diese Information kam es uns an, ebenso wie auf die Mitteilung, daß alle Angestellten, auch die privatversicherten, in Zukunft einen Arbeitgeberzuschuß erhalten. Ein besonderer Hinweis auf die Möglichkeit, daß nichtpflichtversicherte Angestellte ihre private Krankenversicherung fortsetzen können, erschien deshalb nicht erforderlich, weil unter Punkt 1 die Privatversicherten direkt angesprochen waren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg44">Eine Zusatzfrage, Herr Lampersbach.</seg>
+        </u>
+        <note type="speaker">Lampersbach (CDU/CSU) :</note>
+        <u who="#Q1298751" xml:id="ParlaMint-DE_1971-01-21-06-091.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg45">Herr Staatssekretär, sind Sie nicht auch der Auffassung, daß zumindest unterschwellig den Versicherten suggeriert werden sollte, es sei für sie zweckmäßiger, nunmehr aus der privaten in die gesetzliche Krankenversicherung überzuwechseln?</seg>
+        </u>
+        <note type="speaker">Ahlers, Staatssekretär, Chef des Presse- und Informationsamtes der Bundesregierung:</note>
+        <u who="#Q72593" xml:id="ParlaMint-DE_1971-01-21-06-091.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg46">Nein, Herr Abgeordneter. Ich kann Ihnen versichern, daß das nicht die Absicht war, und ich glaube, aus dem Text der Anzeige kann man eine solche Suggestivwirkung auch nicht ablesen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u41" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg47">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lampersbach (CDU/CSU) :</note>
+        <u who="#Q1298751" xml:id="ParlaMint-DE_1971-01-21-06-091.u42" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg48">Man kann natürlich, Herr Staatssekretär! Sonst wäre ich nicht zu dieser Fragestellung gekommen. Sie sehen also, daß hier unterschiedliche Auffassungen hinsichtlich der Wirkung vorhanden sind. Ich habe aber darüber hinaus festgestellt — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u43" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg49">Keine Feststellungen! Bitte, versuchen Sie, das in eine Frage zu kleiden.</seg>
+        </u>
+        <note type="speaker">Lampersbach (CDU/CSU):</note>
+        <u who="#Q1298751" xml:id="ParlaMint-DE_1971-01-21-06-091.u44" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg50">Darf ich fragen, Herr Staatssekretär, ob damit bereits auch die zweite Frage beantwortet ist.</seg>
+        </u>
+        <note type="speaker">Ahlers, Staatssekretär, Chef des Presse- und Informationsamtes der Bundesregierung:</note>
+        <u who="#Q72593" xml:id="ParlaMint-DE_1971-01-21-06-091.u45" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg51">Nein, Herr Abgeordneter, die ist formal noch nicht beantwortet. Als Antwort auf die zweite Frage würde ich sagen: Aus den von mir angegebenen Gründen hält die Bundesregierung diese Anzeige für vertretbar.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u46" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg52">Keine Zusatzfrage? — Damit sind die Fragen — —</seg>
+        </u>
+        <note type="speaker">Lampersbach (CDU/CSU) :</note>
+        <u who="#Q1298751" xml:id="ParlaMint-DE_1971-01-21-06-091.u47" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg53">Nein, Frau Präsidentin, es kommt noch Frage 91.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u48" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg54">Gut, dann rufe ich auch die Frage 91 noch formell auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg55">Ist die Bundesregierung der Auffassung, daß solche Information in einer aus öffentlichen Haushaltsmitteln finanzierten Anzeige vertretbar Ist?</seg>
+        </u>
+        <note type="speaker">Ahlers, Staatssekretär, Chef des Presse- und Informationsamtes der Bundesregierung:</note>
+        <u who="#Q72593" xml:id="ParlaMint-DE_1971-01-21-06-091.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg56">Herr Abgeordneter, was ich soeben gesagt habe, war die Antwort auf die Frage 91: Aus den angegebenen Gründen hält die Bundesregierung die Anzeige für vertretbar.</seg>
+        </u>
+        <note type="speaker">Lampersbach (CDU/CSU) :</note>
+        <u who="#Q1298751" xml:id="ParlaMint-DE_1971-01-21-06-091.u50" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg57">Danke, keine Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u51" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg58">Damit sind wir mit diesem Geschäftsbereich am Ende. Ich danke dem Herrn Staatssekretär. Wir kommen nunmehr zu den Fragen aus dem Geschäftsbereich des Bundesministers des Innern. Zur Beantwortung ist Herr Parlamentarischer Staatssekretär Dorn hier. Wir kämen zunächst zu den Fragen 17 und 18 des Herrn Abgeordneten Pensky. — Der Herr Fragesteller ist nicht im Saal. Die Fragen werden schriftlich beantwortet. Ich rufe die Frage 19 des Herrn Abgeordneten Dr. Arndt (Hamburg)</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg59">auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg60">Hält die Bundesregierung es mit dem Gleichheitsgrundsatz (Artikel 3 GG)</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg61">für vereinbar, daß nur das eheliche Kind eines deutschen Vaters, nicht aber das eheliche Kind einer deutschen Mutter, deren Ehemann Ausländer ist, die deutsche Staatsangehörigkeit durch Geburt erwirbt (I 4 Abs. 1 des Staatszugehörigkeitsgesetzes)? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u52" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg62">Herr Dr. Arndt, wenn Sie damit einverstanden sind, würde ich Ihre beiden Fragen gerne zusammen beantworten.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dr. Arndt [Hamburg] : Einverstanden!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u53" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg63">Dann rufe ich auch die Frage 20 mit auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg64">Ist die Bundesregierung bereit, eine entsprechende Novelle zum Reichs- und Staatsangehörigkeitsgesetz vorzulegen?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg65">Die Beantwortung der Fragen erfolgt im Einvernehmen mit dem Bundesminister der Justiz. Bedenken gegen die Vereinbarkeit des § 4 Abs. 1 des Reichs- und Staatsangehörigkeitsgesetzes mit Art. 3 des Grundgesetzes sind nicht neu. Sie wurden vereinzelt bereits vor 20 Jahren erhoben, haben sich aber in der Rechtsprechung und dem Schrifttum bisher nicht durchgesetzt. Die Bundesregierung ist sich der in § 4 Abs. 1 des Reichs- und Staatsangehörigkeitsgesetzes liegenden Problematik bewußt und verfolgt die Entwicklung mit Aufmerksamkeit. Es ist bekannt, daß die früheren Bundesregierungen keine ausreichenden Gründe gesehen haben, die Verfassungsmäßigkeit des § 4 Abs. 1 ernsthaft in Zweifel zu ziehen. Auch in den Gesetzgebungskörperschaften, denen § 4 Abs. 1 letztmals 1963 vorgelegen hatte, waren Bedenken nicht erhoben worden. Diese Regierung hat sich im vergangenen Jahr auf Grund einer aus ihrer Mitte kommenden Initiative erneut mit der Frage befaßt. Die Erörterungen über dieses Problem, das in rechtlicher und tatsächlicher Hinsicht sehr kompliziert ist, sind jedoch noch nicht zum Abschluß gekommen. Erst wenn dies der Fall ist, wird sich die Bundesregierung eine alle Umstände würdigende Meinung über etwaige gesetzgeberische Schritte bilden können. In diesem Zusammenhang spielt auch eine Rolle, daß die Frage der Verfassungsmäßigkeit des § 4 Abs. 1 des Reichs- und Staatsangehörigkeitsgesetzes derzeit Gegenstand eines Revisionsverfahrens beim Bundesverwaltungsgericht ist. Ohne die Meinungsbildung vorwegnehmen zu wollen, möchte ich nicht verschweigen, daß ich die gegenwärtige gesetzliche Regelung auch nicht für voll befriedigend halte. Im übrigen darf ich Ihnen als Ergebnis einer erst in der vergangenen Woche geführten Verhandlung mitteilen, daß Bund und Länder übereingekommen sind, die Einbürgerung im Inland lebender Kinder eines Ausländers und einer Deutschen in weiterem Umfang als bisher zu ermöglichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg66">Eine Zusatzfrage des Abgeordneten Dr. Arndt.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Hamburg) (SPD) :</note>
+        <u who="#Q1098411" xml:id="ParlaMint-DE_1971-01-21-06-091.u56" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg67">Herr Staatssekretär, darf ich aus Ihrer Antwort den Schluß ziehen, daß die Gegensätze, die sich einerseits in Schreiben des Bundesinnenministeriums, andererseits in Schreiben des Bundesjustizministeriums an einzelne Bürger dieses Landes niederschlagen, nunmehr im Wege der von Ihnen zitierten Verhandlungen beseitigt werden?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg68">Ich glaube ja, Herr Kollege Dr. Arndt; denn der Bundesjustizminister und der Bundesinnenminister verhandeln jetzt über diese Frage.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u58" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg69">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Hamburg) (SPD) :</note>
+        <u who="#Q1098411" xml:id="ParlaMint-DE_1971-01-21-06-091.u59" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg70">Herr Staatssekretär, teilen Sie die Meinung, daß, selbst die verfassungsrechtlichen Bedenken einmal zur Seite gestellt, die hier angezogene Regelung ganz erhebliche Nachteile für Kinder mit sich bringt, die in Deutschland von einer deutschen Mutter geboren sind und bei Ausweisung des nichtdeutschen Vaters möglicherweise in eine unvollständige Familie hineingerissen oder aber gezwungen werden, in Länder auch sehr weit entfernter Weltgegenden zu gehen?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg71">Ich teile die dagegen vorgebrachten Bedenken in vollem Umfang. Das ist ja der Anlaß für die Bemühung, daß auch mit den Länderministerien eine entsprechende Vereinbarung zustande kommen soll, um für die Zukunft etwas Derartiges unmöglich zu machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u61" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg72">Noch eine Zusatzfrage?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Hamburg) (SPD) :</note>
+        <u who="#Q1098411" xml:id="ParlaMint-DE_1971-01-21-06-091.u62" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg73">Ja; aber vielleicht darf ich den Herrn Kollegen mit seiner Zusatzfrage vorlassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u63" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg74">Bitte, Herr Abgeordneter Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD) :</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1971-01-21-06-091.u64" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg75">Herr Staatssekretär, darf ich Sie ganz naiv bitten, mir die wesentlichen Unterschiede zwischen einem ehelichen Kind eines deutschen Vaters und einem ehelichen Kind einer deutschen Mutter klarzumachen, die es rechtfertigen würden, hier eine ungleiche Behandlung vorzunehmen.</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg76">Herr Kollege, es würde mit Sicherheit zu weit führen, diese Frage hier ausführlich verfassungsrechtlich zu erörtern. Ich möchte Sie aber bitten, daraus, daß die Verhandlungen auf der Bundesebene und mit den Länderregierungen angelaufen sind, um zu einer vernünftigen Lösung zu kommen, dem Willen der Bundesregierung zu entnehmen, diese Frage endlich in einem anderen Sinne zu lösen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg77">Eine Zusatzfrage des Herrn Dr. Arndt.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (Hamburg) (SPD) :</note>
+        <u who="#Q1098411" xml:id="ParlaMint-DE_1971-01-21-06-091.u67" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg78">Herr Staatssekretär, können Sie Ihre Bereitschaft erklären, mir das Ergebnis der jetzt gepflogenen Besprechungen von sich aus schriftlich mitzuteilen, damit ich den etwa 20 Familien, die sich an mich gewandt haben, Hilfe leisten kann?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg79">Ich bin dazu gerne bereit, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u69" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg80">Keine weitere Zusatzfrage. Die Fragen 21 und 22 werden auf Antrag der Fragesteller schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 23 des Herrn Abgeordneten Mursch auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg81">Wann ist mit der Vorlage des sogenannten Härteberichts zu Artikel 131 GG zu rechnen, dessen Vorlage vom Innenausschuß des Deutschen Bundestages bis spätestens 31. Dezember 1970 erbeten wurde?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u70" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg82">Herr Kollege Mursch, den Bericht zum Gesetz zu Art. 131 GG hat der Herr Bundesminister des Innern am 18. Januar 1971 dem Herrn Chef des Bundeskanzleramtes mit der Bitte zugeleitet, die Beschlußfassung durch das Kabinett herbeizuführen. Sobald die Zustimmung des Kabinetts vorliegt, wird der Bericht unverzüglich dem Deutschen Bundestag vorgelegt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u71" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg83">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Mursch (Soltau-Harburg) (CDU/CSU) :</note>
+        <u who="#Q1379561" xml:id="ParlaMint-DE_1971-01-21-06-091.u72" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg84">Herr Staatssekretär Dorn, worauf ist es zurückzuführen, daß der von Ihnen zugesagte Termin des 31. Dezember 1970 nicht eingehalten worden ist? Welche gravierenden Ereignisse sind eingetreten, die es Ihnen nicht ermöglicht haben, diesen Termin einzuhalten?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u73" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg85">Herr Kollege, das lag daran, daß in dieser Frage bis zu dieser Zeit noch keine volle Übereinstimmung zwischen unserem Hause und dem Bundesfinanzministerium erzielt werden konnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u74" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg86">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Mursch (Soltau-Harburg) (CDU/CSU) :</note>
+        <u who="#Q1379561" xml:id="ParlaMint-DE_1971-01-21-06-091.u75" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg87">Herr Staatssekretär, würden Sie mir darin beipflichten, daß die Probleme einer Abschlußregelung zur Gesetzgebung nach Art. 131 GG bereits so viele Jahre, ja, Jahrzehnte zurückliegen und daher so alt sind, daß diese Differenzen doch rechtzeitig hätten beseitigt werden können?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u76" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg88">Herr Kollege, diese Probleme sind zwar alt, aber Sie wissen, daß in den letzten Legislaturperioden eine Reihe von Novellen zu diesem Thema dieses Haus passiert hat.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe: Vier!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg89">Wie weit der Härtebericht in der Darstellung der Härten gehen soll, ob eine Abgrenzung der Härten schon im vorhinein im Rahmen des Härteberichts erfolgen soll, das ist die Frage, die ohne Zweifel schon einer längeren Beratung bedarf. Ich hoffe zuversichtlich, daß es sehr bald gelingen wird, dem Parlament eine abschließende Regelung vorzulegen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u77" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg90">Keine weitere Zusatzfrage. Ich rufe die Frage 24 des Herrn Abgeordneten Hansen auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg91">Ist die Bundesregierung bereit, die anwachsende Produktion von Einwegflaschen, Wegwerfbehältern aus Kunststoff usw. zur Verminderung der die öffentliche Hand belastenden Kosten für die Müllbeseitigung gesetzlich zu unterbinden?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg92">Herr Kollege Hansen, die Bundesregierung prüft in Verhandlungen mit führenden Vertretern auf dem Gebiete der Abfallbeseitigung, der einschlägigen Industrie und ihrer Verbände unter Beteiligung der Länder, wieweit in Zukunft die zunehmende Verwendung von Kunststoffen für Verpackungszwecke die Beseitigung der Siedlungsabfälle erschwert. Hierbei werden sowohl gesetzliche Maßnahmen als auch solche auf freiwilliger Basis in die Überlegungen einbezogen werden. Nach den bisherigen Ermittlungen erscheinen die sich hier abzeichnenden Schwierigkeiten überwindbar, wenn die Umstellung auf diesem Gebiet allmählich und nicht überstürzt erfolgt. Ich darf in diesem Zusammenhang auf eine schriftliche Antwort an den Herrn Abgeordneten Dröscher in der 69. Sitzung vom 7. Oktober 1970 hinweisen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg93">Zu einer Zusatzfrage Herr Abgeordneter Hansen.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1971-01-21-06-091.u80" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg94">Herr Staatssekretär, stimmen Sie mit mir darin überein, daß die Beseitigung gerade dieses Mülls wegen der Schwierigkeiten sowohl bei Deponie wie bei Verbrennung sehr hohe Kosten mit sich bringt und deshalb ein exemplarischer Fall für die Subventionierung privater Gewinne auf Kosten der Steuerzahler ist?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg95">Ich bin mit Ihnen der Meinung, daß diese Frage sehr schwierig ist. Aber sie muß geregelt werden, und sie wird, so wie die Dinge liegen, wahrscheinlich in sehr kurzer Zeit auf gesetzlichem Wege geregelt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg96">Zweite Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1971-01-21-06-091.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg97">Herr Staatssekretär, denkt die Bundesregierung bei der in Aussicht genommenen gesetzlichen Regelung daran, dem Beispiel anderer Länder — hier besonders der skandinavischen — zu folgen, die durch Verbot oder Sondersteuern die Produktion von Einwegflaschen und -behältern aus den besonders problembelasteten PVC-Kunstoffen einschränken oder unterbinden?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg98">Herr Kollege Hansen, solange die Regierungsvorlage noch nicht erstellt und mit den anderen Ressorts abgestimmt worden ist, kann ich, wie Sie verstehen werden, zu Einzelheiten einer beabsichtigten gesetzlichen Regelung hier noch nichts sagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg99">Zu einer Zusatzfrage Herr Abgeordneter Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD) :</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1971-01-21-06-091.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg100">Herr Staatssekretär, auch wenn Sie zu Einzelheiten noch nichts sagen möchten, würde ich doch gern wissen, ob Sie sich für eine Regelung einsetzen können, die die Gemeinden ermächtigt, die durch den genannten Müll entstehenden Mehrkosten durch eine Sondersteuer den Verbrauchern und nicht der Steuerbürgerschaft allgemein aufzuerlegen.</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg101">Herr Kollege Sperling, auch diese Frage kann ich nicht beantworten; denn ich stehe hier nicht als Vertreter meiner persönlichen Meinung, sondern habe hier die Auffassung der Bundesregierung zu vertreten. Die Bundesregierung hat in dieser Frage noch keine Entscheidung gefällt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg102">Keine weitere Zusatzfrage. Ich rufe die Frage 25 des Herrn Abgeordneten Dr. Jobst auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg103">Hält die Bundesregierung die Sicherungsvorkehrungen an der Grenze zur CSSR für ausreichend?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg104">Herr Kollege Jobst, die Bundesregierung hält die Sicherheitsvorkehrungen, die zur Überwachung der 356 km langen deutschtschechoslowakischen Grenze getroffen worden sind, im Grundsatz für ausreichend.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg105">Zu einer Zusatzfrage Herr Abgeordneter Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1971-01-21-06-091.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg106">Herr Staatssekretär, wie kann es dann passieren, daß solche Grenzverletzungen eintreten?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg107">Solche Grenzverletzungen lassen sich auch unter normalen Umständen manchmal nicht ganz vermeiden. Die Frage ist eben nur, welche Konsequenzen man daraus zieht, um die Sicherung noch zu verstärken, oder in welchem Umfang solche Vorkommnisse auch in Zusammenarbeit mit den betreffenden Ländern selbst und ihren Regierungen für die Zukunft nach Möglichkeit ausgeschlossen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u93" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg108">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1971-01-21-06-091.u94" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg109">Ist Ihnen, Herr Staatssekretär bekannt, daß das Eindringen tschechischer Grenzsoldaten auf bayerisches Gebiet Anfang dieses Jahres unter der dortigen Bevölkerung ein erhebliches Unbehagen ausgelöst hat?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg110">Ja, das ist der Bundesregierung bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg111">Zu einer Zusatzfrage Herr Abgeordneter Hansen.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1971-01-21-06-091.u97" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg112">Herr Staatssekretär, hält die Bundesregierung im Hinblick auf eine wirksame Grenzüberwachung das Nebeneinander von Zoll, Bundesgrenzschutz und bayerischer Grenzpolizei — sämtlich mit gleicher Aufgabenstellung — für eine vertretbare Lösung? Dies ist ein Problem, das sich nur an der tschechoslowakischen Grenze und auf bayerischem Gebiet stellt.</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u98" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg113">Herr Kollege Hansen, ich glaube nicht, daß man davon ausgehen kann, daß die Aufgabenstellung aller drei Sicherheitsorgane als voll identisch angesehen werden kann. Für die drei verschiedenen Organisationen bestehen bestimmte Aufgaben, die in vielen Bereichen nicht deckungsgleich sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u99" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg114">Keine weitere Zusatzfrage. Ich rufe die Frage 26 des Herrn Abgeordneten Dr. Jobst auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg115">Wird die Bundesregierung Vorkehrungen treffen, die das Eindringen tschechischer Grenzsoldaten auf bayerisches Gebiet, wie es sich zu Beginn dieses Jahres bei der Verfolgung eines Flüchtlings aus der CSSR zugetragen hat, verhindern?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg116">Herr Kollege, die Bundesregierung wird dafür Sorge tragen, daß die deutschtschechoslowakische Grenze in Zusammenarbeit aller beteiligten Grenzsicherungsorgane sorgfältig und entsprechend den Erfordernissen der Sicherheit überwacht wird. Sie wird insbesondere bemüht sein, die technische Ausstattung der eigenen Grenzsicherungsorgane noch weiter zu verbessern. Zur Zeit befinden sich sogenannte Schneemobile in der Erprobung, die die Grenzstreifen im Winter beweglicher machen sollen, um ihnen bei Zwischenfällen ein schnelleres Eingreifen zu ermöglichen. Das Grenzschutzkommando Süd hat in meinem Auftrag noch am Tag des Zwischenfalls fernschriftlich beim tschechoslowakischen Innenministerium protestiert. Auch das Auswärtige Amt hat am 6. Januar 1971 den stellvertretenden Leiter der tschechoslowakischen Handelsvertretung in der Bundesrepublik Deutschland zu sich gebeten und wegen des Zwischenfalls mündlich Protest eingelegt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg117">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1971-01-21-06-091.u102" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg118">Herr Staatssekretär, stimmen Sie mir zu, daß die Grenzsicherung leichter zu bewältigen wäre, wenn in der Hauptsache ein Organ dafür zuständig wäre und wenn beispielsweise der Zollgrenzdienst dem Bundesgrenzschutz übertragen würde oder wenn andererseits der Bundesgrenzschutz in bestimmten Fällen gegenüber dem Zoll weisungsberechtigt wäre?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg119">Herr Kollege, dieses Problem ist so alt, wie beide Behörden bestehen, und ich habe bereits Abgeordnete aller Fraktionen bei Podiumsdiskussionen beider Verbände erlebt, wo jeweils die Meinung für den einen oder für den anderen Fall vorgetragen worden ist. Ich bin nicht sicher, daß wir das Problem allein auf diese Weise lösen können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u104" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg120">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1971-01-21-06-091.u105" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg121">Herr Staatssekretär, sollte der Fall, den ich hier angeführt habe, nicht Anlaß sein, das Problem erneut in dieser Richtung zu überprüfen?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u106" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg122">Man kann das erneut überprüfen. Aber auch durch die Übertragung der Zuständigkeit für Teilaufgaben oder Teilbereiche auf eine andere Dienststelle wird die Möglichkeit von Grenzverletzungen, die sich überall anbieten, für die Zukunft nicht ausgeschlossen werden können. Das ist kein Organisationsproblem, sondern es sind andere Fragen, die im Mittelpunkt solcher Überlegungen stehen müssen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u107" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg123">Keine weitere Frage. Ich rufe die Frage 27 des Herrn Abgeordneten Schröder (Wilhelminenhof)</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg124">auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg125">Ist in der Frage der Einleitung ungereinigter Abwässer aus der Provinz Groningen in das Erns-Ästuar inzwischen eine Demarche an die Niederländische Regierung erfolgt und mit welchem Ergebnis?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u108" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg126">Herr Kollege Schröder, die Bundesregierung hält es für notwendig, daß das Abwasser, das aus den drei niederländischen Provinzen in das Ems-Ästuar eingeleitet werden soll, vorher gereinigt wird; andernfalls wären Schäden und wesentliche Nachteile im Mündungsgebiet der Ems und in den deutschen Insel- und Küstengebieten zu erwarten. Diese Auffassung ist der Regierung des Königreichs der Niederlande am 17. November 1970 in einer Demarche durch den deutschen Botschafter bekanntgegeben worden. Dabei ist die Erwartung ausgesprochen worden, daß die niederländische Regierung den Bau des Projektes erst zuläßt, wenn sichergestellt ist, daß auch schon nach Fertigstellung des ersten Bauabschnitts dieses Vorhabens nur gereinigte Abwässer in die Ems-Mündung eingeleitet werden. Die niederländische Regierung hat am 30. Dezember 1970 dem deutschen Botschafter mit einem Aide-mémoire ihre Antwort überreicht. Sie enthält außer den bereits bekannten Auffassungen der niederländischen Regierung keine neuen Gesichtspunkte und entspricht damit nicht den in der deutschen Demarche ausgesprochenen Erwartungen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u109" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg127">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schröder (Wilhelminenhof) (CDU/CSU) :</note>
+        <u who="#Q1220307" xml:id="ParlaMint-DE_1971-01-21-06-091.u110" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg128">Sind der Bundesregierung Pressemeldungen bekannt, nach denen die niederländische Regierung etwa 11 Millionen Gulden bereitstellen will, um eine Vorklärung zu schaffen? Ist Ihnen das bekannt, und sind das konkrete Dinge?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u111" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg129">Mir ist es im Moment nicht konkret bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u112" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg130">Keine Zusatzfrage. Ich rufe die Frage 28 des Herrn Abgeordneten Schröder (Wilhelminenhof)</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg131">auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg132">Sieht die Bundesregierung darüber hinaus in dieser Frage in dem Ems-Dollart-Vertrag von 1954 und dem EWG-Vertrag eine Grundlage, um notfalls gegen den Bau dieser Abwasserleitung rechtliche Schritte einzuleiten?</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u113" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg133">Herr Kollege Schröder, die Bundesregierung ist bemüht, die niederländische Regierung auf dem Verhandlungswege mit Argumenten von der Notwendigkeit zu überzeugen, daß die Reinigung der Abwässer unumgänglich ist. Sie sieht es als ihre selbstverständliche Pflicht an, vorsorglich auch die Möglichkeiten zu rechtlichen Schritten gegenüber der niederländischen Regierung zu prüfen. Ob dabei dem Ems-Dollart-Vertrag und dem EWG-Vertrag oder vielleicht anderen zweiseitigen oder internationalen Abkommen das Hauptgewicht zukommt, braucht nach Auffassung der Bundesregierung jetzt noch nicht abschließend entschieden zu werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u114" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg134">Keine Zusatzfrage. Die Frage 72 des Herrn Abgeordneten Bäuerle, die beim Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit abgedruckt ist, rufe ich zuständigkeitshalber jetzt auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg135">Ist die Bundesregierung bereit, zur Sicherstellung der Krankenversorgung an Empfänger von Unterhaltshilfe, die sich vorübergehend im Ausland aufhalten (Urlaub)</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg136">, Maßnahmen zu ergreifen?</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg137">Bitte schön, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dorn, Parlamentarischer Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q1638766" xml:id="ParlaMint-DE_1971-01-21-06-091.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg138">Herr Kollege Bäuerle, nach § 276 des Lastenausgleichsgesetzes erhalten Empfänger von Unterhaltshilfe Krankenversorgung und Krankenhausbehandlung nach Art, Form und Maß der Leistungen des Bundessozialhilfegesetzes. Für Unterhaltshilfeempfänger, die bei vorübergehendem Aufenthalt im Ausland, z. B. während des Urlaubs, erkranken, gilt daher die gleiche Regelung wie für Empfänger von Leistungen nach dem Bundessozialhilfegesetz. Wird der Ausgleichsverwaltung bekannt, daß ein Unterhaltshilfeempfänger vorübergehend zu besuchsweisem Aufenthalt in das Ausland reisen will, so wird er vor Antritt der Reise in geeigneter Weise hierüber unterrichtet und auf die Möglichkeit hingewiesen, eine Krankenversicherung abzuschließen. In Notfällen, z. B. bei schwerer Erkrankung oder Unfall während des besuchsweisen Aufenthalts im Ausland, können vom zuständigen Konsulat der Bundesrepublik nach § 26 des Konsulargesetzes Mittel zur Verfügung gestellt werden, die nach den Grundsätzen des Bundessozialhilfegesetzes unter Umständen zurückzuzahlen sind. Ob etwa eine bessere Regelung für Unterhaltshilfeempfänger als für Sozialhilfeempfänger möglich ist, obwohl beide Personengruppen auch im übrigen in der Krankenversorgung gleichgestellt sind, wird die Bundesregierung bei der weiteren Ausgestaltung der Vorschriften des Lastenausgleichsgesetzes prüfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg139">Keine Zusatzfrage. Damit sind die Fragen dieses Geschäftsbereichs beantwortet. Ich danke dem Herrn Parlamentarischen Staatssekretär Dorn. Wir kommen zum Geschäftsbereich des Bundesministers für Wirtschaft. Zur Beantwortung ist Herr Parlamentarischer Staatssekretär Rosenthal anwesend. Ich rufe die Frage 38 des Herrn Abgeordneten Höcherl auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg140">Wann beabsichtigt die Bundesregierung ihre Zusage auf Abschaffung der Couponsteuer einzulösen?</seg>
+        </u>
+        <note type="speaker">Rosenthal, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q108288" xml:id="ParlaMint-DE_1971-01-21-06-091.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg141">Herr Kollege Höcherl, ein Gesetzentwurf der Bundesregierung zur Abschaffung der Couponsteuer liegt dem Hohen Hause vor. Die Bundesregierung wird zu einem geeigneten Zeitpunkt dem Hohen Hause empfehlen, die Diskussion über den Entwurf fortzuführen. Ein geeigneter Zeitpunkt hierfür scheint der Bundesregierung die erste Lesung des Steueroasengesetzes zu sein.</seg>
+        </u>
+        <note type="speaker">Höcherl (CDU/CSU) :</note>
+        <u who="#Q69115" xml:id="ParlaMint-DE_1971-01-21-06-091.u118" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg142">Glauben Sie nicht, Herr Staatssekretär, daß durch die Verzögerung dieser Verabschiedung die Kursentwicklung negativ beeinflußt worden ist?</seg>
+        </u>
+        <note type="speaker">Rosenthal, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q108288" xml:id="ParlaMint-DE_1971-01-21-06-091.u119" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg143">Herr Kollege Höcherl, ich glaube, bei dem derzeitigen Instrumentarium des Stabilitätsgesetzes, das der Bundesregierung zur Verfügung steht, ist die Wirkung des Couponsteuergesetzes — das gilt auch für die Wirkung seiner Abschaffung — nicht mehr so stark, wie das früher der Fall war.</seg>
+        </u>
+        <note type="speaker">Höcherl (CDU/CSU) :</note>
+        <u who="#Q69115" xml:id="ParlaMint-DE_1971-01-21-06-091.u120" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg144">Die Frage wurde zwar nicht beantwortet, aber ich stelle eine weitere Frage. Sind Sie der Meinung, Herr Staatssekretär, daß das einen Einfluß haben wird und daß das Steueroasengesetz und das Couponsteuergesetz in einem unmittelbaren Zusammenhang stehen?</seg>
+        </u>
+        <note type="speaker">Rosenthal, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q108288" xml:id="ParlaMint-DE_1971-01-21-06-091.u121" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg145">Herr Kollege Höcherl, ich habe Ihre erste Frage zwar beantwortet,</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Wohlrabe: Stimmt ja nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg146">Parlamentarischer Staatssekretär Rosenthal aber zur Beantwortung Ihrer jetzigen Frage: ja, ein gewisser Zusammenhang besteht; dann muß man sich auch vergegenwärtigen, daß es sich hier um eine erste Steuersenkung handeln würde, und die müßte ja im Zusammenhang mit Steuersenkungen für die weniger bemittelten Kreise stehen.</seg>
+        </u>
+        <note type="speaker">Höcherl (CDU/CSU) :</note>
+        <u who="#Q69115" xml:id="ParlaMint-DE_1971-01-21-06-091.u122" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg147">Darf ich — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg148">Nein, Sie haben sich selbst schon zwei erteilt; das geht leider nicht, Herr Kollege Höcherl. Ich rufe die Frage 39 des Herrn Abgeordneten Dr. Luda auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg149">Ist der Bundesregierung bekannt, daß sie die vor Inkrafttreten des Auslandsinvestmentgesetzes in der Bundesrepublik Deutschland bereits geschäftstätig gewesenen ausländischen Fonds und ihre Anleger in einer dauernden Ungewißheit läßt hinsichtlich eines evtl. Vertriebsverbots, da das Bundesaufsichtsamt für das Kreditwesen nicht bereit ist, nach durchgeführter Prüfung einen Bescheid zu erteilen, wonach keine Verbotsvoraussetzungen vorliegen?</seg>
+        </u>
+        <note type="speaker">Rosenthal, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q108288" xml:id="ParlaMint-DE_1971-01-21-06-091.u124" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg150">Ich möchte gern die Fragen 39 und 40 im Zusammenhang beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u125" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg151">Der Fragesteller ist einverstanden. Ich rufe ferner die Frage 40 des Herrn Abgeordneten Dr. Luda auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg152">Ist die Bundesregierung bereit, dem Bundesaufsichtsamt für das Kreditwesen entsprechende Weisungen zu erteilen, wonach ein solcher Bescheid herausgegeben wird, wenn die sack- und pflichtgemäße Prüfung ergeben hat, daß ein Verbotsgrund nicht vorgelegen hat und somit die Ungewißheit der Anleger hinsichtlich ihrer eigenen steuerrechtlichen Probleme und der zukünftigen Geschäftstätigkeit beseitigt werden kann?</seg>
+        </u>
+        <note type="speaker">Rosenthal, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q108288" xml:id="ParlaMint-DE_1971-01-21-06-091.u126" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg153">Herr Kollege Luda, die Bundesregierung teilt die von Ihnen in Ihren Fragen ausgesprochene Ansicht völlig. Die vorher tätigen Auslandsinvestmentgesellschaften werden, sobald die Prüfung abgeschlossen ist, unterrichtet. Eine Weisung an das Bundesaufsichtsamt für das Kreditwesen ist nicht erforderlich, weil auch dieses Ihre Meinung teilt. Zu der zweiten Frage darf ich darauf hinweisen, daß dem Anleger, solange kein Verbot besteht, auch keine steuerlichen Nachteile entstehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u127" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg154">Keine Zusatzfrage. Die Frage 41 des Herrn Abgeordneten Dr. Häfele wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 42 des Abgeordneten Wohlrabe auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg155">Welche Gründe führten zum Rücktritt von 4 Mitgliedern des Vorstandes der Stiftung Warentest in Berlin?</seg>
+        </u>
+        <note type="speaker">Rosenthal, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q108288" xml:id="ParlaMint-DE_1971-01-21-06-091.u128" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg156">Herr Kollege Wohlrabe, die vier Vorstandsmitglieder haben mit Brief vom 23. Dezember dem Bundeswirtschaftsminister mitgeteilt, daß sie Ende März ihre Ämter niederlegen wollen. Als Grund haben sie genannt, daß der Bundeswirtschaftsminister in der neuen Satzung ein stärkeres Recht bei der Berufung von Verwaltungsratsmitgliedern verlange und daß damit die Unabhängigkeit der Stiftung angetastet werde. Das Bundeswirtschaftsministerium ist nicht dieser Meinung; denn in § 6 Abs. 3 heißt es lediglich, daß das Bundeswirtschaftsministerium diese Vorschläge zu berücksichtigen hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u129" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg157">Eine Zusatzfrage des Herrn Abgeordneten Wohlrabe.</seg>
+        </u>
+        <note type="speaker">Wohlrabe (CDU/CSU) :</note>
+        <u who="#Q1717846" xml:id="ParlaMint-DE_1971-01-21-06-091.u130" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg158">Herr Staatssekretär, ist Ihnen bekannt, daß der damalige beamtete Staatssekretär Herr von Dohnanyi dem derzeitigen Vorstand der Stiftung Warentest zugesagt und mit ihm in Form der vorzulegenden Satzungsänderung auch abgesprochen hatte, daß die Liste der zur Berufung Anstehenden einzig und allein vom Vorstand der Stiftung Warentest zu erstellen ist? Erst nach dem Abtreten des Herrn Staatssekretärs von Dohnanyi und seinem Überwechseln in ein anderes Ministerium ist in Ihrem Hause eine neue Auffassung entstanden, die diese Frage nunmehr auf Grund der Einwirkung des Bundesministers für Wirtschaft streitig gemacht hat.</seg>
+        </u>
+        <note type="speaker">Rosenthal, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q108288" xml:id="ParlaMint-DE_1971-01-21-06-091.u131" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg159">Herr Kollege Wohlrabe, ich weiß nicht — ich müßte und werde das nachprüfen —, was Sie hier in Ihrer Fragestellung sagen. Aber überlegen Sie sich bitte folgendes. Es ist doch schlecht möglich, daß die öffentliche Hand auf ein Institut, das mit 5 Millionen DM öffentlicher Mittel unterstützt wird, keinerlei Einfluß hat, auch nicht in der Frage, wer die Vorstandsmitglieder sind. Überlegen Sie sich ferner, wohin es führen würde, wenn beispielsweise der Verbraucherausschuß keinerlei Einfluß darauf hätte. Das würde schließlich bedeuten, daß das ein sich selbst ständig fortsetzendes Gremium wäre.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u132" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg160">Eine zweite Zusatzfrage des Herrn Abgeordneten Wohlrabe.</seg>
+        </u>
+        <note type="speaker">Wohlrabe (CDU/CSU) :</note>
+        <u who="#Q1717846" xml:id="ParlaMint-DE_1971-01-21-06-091.u133" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg161">Die hier strittige Frage kann, wie Sie selbst sagten, nicht weiter erörtert werden. Ich möchte Sie deshalb bitten, mitzuteilen, welche Vorstellungen Ihr Haus jetzt hat, um die Frage der Vorstandsbesetzung zu regeln.</seg>
+        </u>
+        <note type="speaker">Rosenthal, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q108288" xml:id="ParlaMint-DE_1971-01-21-06-091.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg162">Meinen Sie personell?</seg>
+        </u>
+        <note type="speaker">Wohlrabe (CDU/CSU) :</note>
+        <u who="#Q1717846" xml:id="ParlaMint-DE_1971-01-21-06-091.u135" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg163">Ja.</seg>
+        </u>
+        <note type="speaker">Rosenthal, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q108288" xml:id="ParlaMint-DE_1971-01-21-06-091.u136" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg164">Wir haben keine spezifischen personellen Vorstellungen. Wir müssen erst einmal sehen. Es gibt eine Vorschlagsliste, bei der, wenn ich richtig informiert bin, der Verbraucherausschuß andere Vorschläge als der Vorstand gemacht hat. Die müssen wir prüfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg165">Eine Zusatzfrage des Herrn Abgeordneten Vogt.</seg>
+        </u>
+        <note type="speaker">Vogt (CDU/CSU) :</note>
+        <u who="#Q2591659" xml:id="ParlaMint-DE_1971-01-21-06-091.u138" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg166">Herr Parlamentarischer Staatssekretär, treffen die Pressemeldungen zu, daß es der Wunsch der Bundesregierung ist, daß zukünftig Frau Kurlbaum-Beyer und Herr Johannes Jaschek dem Vorstand der Stiftung Warentest angehören sollen?</seg>
+        </u>
+        <note type="speaker">Rosenthal, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q108288" xml:id="ParlaMint-DE_1971-01-21-06-091.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg167">Herr Kollege, soweit mir bekannt ist, sind diese Namen im Gespräch, und nach Meinung des Bundeswirtschaftsministeriums sind die Genannten auch durchaus geeignet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg168">Eine Zusatzfrage des Herrn Abgeordneten Frerichs.</seg>
+        </u>
+        <note type="speaker">Dr. Frerichs (CDU/CSU) :</note>
+        <u who="#Q1110481" xml:id="ParlaMint-DE_1971-01-21-06-091.u141" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg169">Herr Staatssekretär, sind Sie nicht auch der Auffassung, daß die Berufung der Mitglieder des Verwaltungsrates der inzwischen hoch anerkannten Stiftung Warentest ausschließlich nach sachlichen Gesichtspunkten des Könnens und der Erfahrung und des Beitrages, den diese Persönlichkeiten für das Gelingen des Zwekkes der Stiftung Warentest zu leisten haben, und nicht nach politischen oder sonstigen Gesichtspunkten erfolgen sollte?</seg>
+        </u>
+        <note type="speaker">Rosenthal, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q108288" xml:id="ParlaMint-DE_1971-01-21-06-091.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg170">Herr Frerichs, ich teile Ihre Meinung voll.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Wohlrabe: Und verfahren anders!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg171">— Nein, Herr Kollege Frerichs hat gefragt, ob ich die Meinung teile, und ich habe geantwortet: ich teile völlig die Meinung, daß diese Stiftung mit den geeigneten Persönlichkeiten auch mit Rücksicht auf ihr Können besetzt werden muß. Gerade Sie, Herr Kollege Frerichs, haben aber in dem einstimmigen Beschluß des Wirtschaftsausschusses ebenfalls dafür plädiert, daß die Bundesregierung bei dieser Besetzung ein Mitspracherecht haben muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg172">Eine Zusatzfrage des Herrn Abgeordneten Dr. Gleissner.</seg>
+        </u>
+        <note type="speaker">Dr. Gleissner (CDU/CSU) :</note>
+        <u who="#Q1446945" xml:id="ParlaMint-DE_1971-01-21-06-091.u144" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg173">Herr Staatssekretär, ist Ihnen bekannt, daß die Stiftung Warentest bisher zunehmend Vertrauen gewinnen konnte und sogar große Erfolge hatte, auf dem Privatwege ihre Zeitschrift zu verkaufen, daß aber jetzt unter Umständen eine Phase eintreten könnte, in der dieses mühsam erworbene Vertrauen wieder abgebaut wird, zumindest beim Verbraucher, auf den es ja ankommt?</seg>
+        </u>
+        <note type="speaker">Rosenthal, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q108288" xml:id="ParlaMint-DE_1971-01-21-06-091.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg174">Herr Kollege, obwohl ihre Frage mit der ursprünglichen Frage nicht mehr viel zu tun hat, will ich versuchen, sie zu beantworten. Ich sehe überhaupt nicht ein, warum die zukünftige Arbeit der Stiftung Warentest, die ich auch sehr bejahe und aus meiner früheren Tätigkeit kenne, in irgendeiner Weise davon abhängt, daß der jetzige Vorstand allein sagen soll, wer zukünftig dem Vorstand angehört.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Wohlrabe: Das trifft doch nicht zu!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg175">Das gibt es nirgends.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg176">Keine weitere Zusatzfrage. Die Fragen 43 und 44 des Abgeordneten Pieroth werden auf Bitten des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Damit ist der Geschäftsbereich des Bundesministers für Wirtschaft erledigt. Ich danke dem Herrn Parlamentarischen Staatssekretär Rosenthal. Wir kommen nunmehr zum Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten. Zur Beantwortung steht Herr Parlamentarischer Staatssekretär Logemann zur Verfügung. Ich rufe die Frage 45 des Herrn Abgeordneten Kiechle auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg177">Ist die Bundesregierung bereit, bei den weiteren Verhandlungen in Brüssel darauf hinzuwirken, daß bei der Einführung einer Prämienregelung für die Nichtvermarktung von Milch und Milcherzeugnissen eine Prämie auch in Betrieben mit einer Kuhbestandsgröße unter 10 Kühen gewährt wird und die Prämie die Umstellung nicht nur auf Rinderhaltung, sondern generell auf Rauhfutterfresser berücksichtigt?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg178">Herr Kollege Kiechle, die Bundesregierung tritt bei den derzeitigen Verhandlungen über die Fortsetzung der Nichtvermarktungsaktion für Milch und Milcherzeugnisse im Jahre 1971 in Brüssel dafür ein, daß auch Betriebe mit einem Bestand von 5 bis 10 Milchkühen in diese Prämienregelung einbezogen werden. Der neue Kommissionsvorschlag sieht bei der Umstellung neben der bisher schon möglichen Rindermast als Alternative die von deutscher Seite bereits im Frühjahr 1970 angeregte Einbeziehung der Schafhaltung vor. Der Umstellung auf andere Rauhfutterfresser kommt keine Bedeutung zu.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg179">Eine Zusatzfrage des Herrn Abgeordneten Kiechle.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1971-01-21-06-091.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg180">Herr Staatssekretär, wären Sie bereit, auch dafür einzutreten, daß bei dieser Umstellung, die ja unter anderem der Extensivierung dienen soll, Pferde mit in Betracht gezogen werden, und sind Sie mit mir der Meinung, daß die ersatzlose Streichung der früheren Maßnahme, Abschaffung plus Nichtvermarktung, eigentlich dazu führen müßte, daß man auch die frühere Regelung ab zwei einbeziehen sollte, nicht erst ab fünf?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u150" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg181">Herr Kollege Kiechle, ich komme bei der Beantwortung Ihrer zweiten Frage zu diesem von Ihnen angeschnittenen Problem. Frau Präsident, darf ich die zweite Frage beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u151" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg182">Ja, bitte schön, dann rufe ich die Frage 46 auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg183">Ist die Bundesregierung außerdem bereit, darauf hinzuwirken, daß die Prämienvergabe nicht von der Aufrechterhaltung eines Rauhfutterfressermindestbestandes abhängig gemacht wird, um eine Verminderung des Viehbesatzes mit einer extensiven Betriebsbewirtschaftung verbinden zu können?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg184">Die neue EWG-Prämienregelung geht davon aus, daß die Zahl der Großvieheinheiten nach der Betriebsumstellung von der Milch- auf die Rindfleisch- bzw. Schaffleischproduktion nicht kleiner sein darf als an einem bestimmten Stichtag vor der Antragstellung. Diese Regelung bezweckt, daß die bei Aufgabe der Milchkuhhaltung in dem prämienbegünstigten Betrieb frei werdenden Grünlandflächen nicht an andere Betriebe abgegeben werden, die weiterhin Milch von diesen Flächen produzieren. Außerdem soll die Rindfleischproduktion forciert werden. Die Bundesregierung hält diese Regelung für sachlich richtig und sieht daher keinen Anlaß, einen Änderungsantrag einzubringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg185">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Kiechle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1971-01-21-06-091.u154" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg186">Herr Staatssekretär, sollte man nicht vielmehr davon ausgehen, daß auch der Extensivierung von Flächen Raum gegeben werden muß, z. B. Rückumwandlung von Grünlandflächen in Ackerflächen oder Aufforstung von Grünlandflächen oder überhaupt extensive Bewirtschaftung von Grünlandflächen in der Form, daß von der intensiven Milchbewirtschaftung auf eine extensive übergegangen werden kann? Bei der jetzigen Vorschrift ist das ja nicht möglich; da muß die gleiche GVE-Zahl gehalten werden, und darin wird kaum ein großer Anreiz zur Umstellung liegen.</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg187">Herr Kollege Kiechle, ich bin mit Ihnen der Meinung, wir sollten uns durchaus bemühen, in diesen Gebieten zu einer gewissen Umstellung zu kommen. Das alles hat aber seine Grenzen. Wir dürfen nicht so weit gehen, Anreiz zu bieten, auf diesen Flächen erneut zu einer Milcherzeugung zu kommen. Ich weiß durchaus, daß gerade auch die Umstellung auf Schafhaltung in Zukunft vielleicht für eine Verbesserung der Landschaftspflege nützlich sein könnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u156" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg188">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">KieChle (CDU/CSU) :</note>
+        <u who="#Q87654" xml:id="ParlaMint-DE_1971-01-21-06-091.u157" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg189">Darf ich aus dieser Antwort entnehmen, Herr Staatssekretär, daß Sie die von mir aufgezeigten Möglichkeiten überprüfen und im Rahmen Ihrer Verhandlung eventuell auch berücksichtigen werden?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg190">Das habe ich ja schon angedeutet. Das werden wir sicherlich tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg191">Keine Zusatzfrage. Ich rufe die Frage 47 des Herrn Abgeordneten Dr. Ritz auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg192">Können landwirtschaftliche Unternehmer, die in der Zeit vom 1. August 1969 bis 31. Dezember 1970 ihr landwirtschaftliches Unternehmen zur Agrarstrukturverbesserung abgegeben hatten und wegen Überschreitens ihres Unternehmens der zweifachen Mindestgröße keinen Anspruch auf Landabgaberente hatten, diese ab 1. Januar 1971 erhalten, wenn alle übrigen Bedingungen erfüllt sind?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u160" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg193">Herr Kollege Dr. Ritz, die Frage kann in vollem Umfang bejaht werden. Durch den in Art. 2 des Gesetzes zur Neuregelung der Altershilfe für Landwirte in der Fassung der Bekanntmachung vom 14. September 1965 (Bundesgesetzblatt I S. 1448)</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg194">eingefügten § 11 a wird darüber hinaus sichergestellt, daß diese Landwirte Landabgaberente auch dann erhalten können, wenn die Abgabe zwar den in der Zeit vom 1. August 1969 bis 31. Dezember 1970 geltenden Abgabebestimmungen, nicht aber den ab 1. Januar 1971 geltenden Vorschriften entsprach. Die Landabgaberente wird jedoch nur auf Grund eines schriftlichen Antrages gewährt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u161" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg195">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Ritz (CDU/CSU) :</note>
+        <u who="#Q1016490" xml:id="ParlaMint-DE_1971-01-21-06-091.u162" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg196">Herr Staatssekretär, würden Sie über diese Fragestunde hinaus noch nach Wegen suchen, um diesen positiven Bescheid entsprechend zu publizieren, damit eine gewisse Unsicherheit, die in einigen Kreisen vorhanden ist, beseitigt wird?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg197">Das ist eine gute Anregung; die werden wir gern aufgreifen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg198">Keine Zusatzfrage. Ich rufe die Frage 48 des Abgeordneten Dr. Ritz auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg199">Können ehemalige landwirtschaftliche Unternehmer, die in der Zeit vom 1. August 1969 bis 31. Dezember 1970 ihr landwirtschaftliches Unternehmen zur Agrarstrukturverbesserung abgegeben hatten und auf Grund dessen Altershilfe erhalten, die Altershilfe ab 1. Januar 1971 in Landabgaberente umwandeln lassen, sofern die sonstigen Bedingungen zum Erhalt der Landabgaberente erfüllt sind?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u165" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg200">Auch diese Frage kann bejaht werden. Eine Umwandlung des Altersgeldes in die Landabgaberente ist zwar nicht möglich, jedoch können Altersgeld und Landabgaberente nebeneinander bezogen werden. Das Altersgeld wird auf die Landabgaberente angerechnet. Auch in diesem Fall muß ein schriftlicher Antrag an die landwirtschaftliche Alterskasse gerichtet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u166" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg201">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Ritz (CDU/CSU):</note>
+        <u who="#Q1016490" xml:id="ParlaMint-DE_1971-01-21-06-091.u167" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg202">Herr Staatssekretär, hier hätte ich dieselbe Bitte wie zu der vorhergehenden Frage: daß wir uns bemühen, für diese positive Feststellung die notwendige Publizität zu erreichen.</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u168" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg203">Das werden wir tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u169" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg204">Keine weitere Zusatzfrage. Ich rufe die Frage 49 des Herrn Abgeordneten Dr. Enders auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg205">Tragen die Stufenzahlen zur Ermittlung des anrechenbaren Einkommens auf die Ausgleichsrente von Land- und Forstwirten (§ 9 der Verordnung zur Durchführung des § 33 BVG) den regional sehr unterschiedlichen Einkommensverhältnissen der Landwirtschaft genügend Rechnung?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u170" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg206">Frau Präsidentin, darf ich die Fragen im Zusammenhang beantworten?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u171" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg207">Gut. Ich rufe also auch die Frage 50 des Abgeordneten Dr. Enders auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg208">Ist die Bundesregierung bereit, die genannten Stufenzahlen stärker zu differenzieren, damit zur Vermeidung von Härten die regionalen Nachteile der Landwirtschaft bei der Festsetzung des anrechenbaren Einkommens besser berücksichtigt werden können?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u172" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg209">Im Einvernehmen mit dem Herrn Bundesminister für Arbeit und Sozialordnung möchte ich Ihnen folgende Antwort geben. Die Stufenzahlen zur Ermittlung des auf die Ausgleichsrente anrechenbaren Einkommens von nicht buchführenden Land- und Forstwirten sind im Herbst 1970 durch den Herrn Bundesminister für Arbeit und Sozialordnung und mein Haus erneut überprüft worden. Hierbei wurden die nach § 9 der Durchführungsverordnung zu § 33 des Bundesversorgungsgesetzes in Verbindung mit den Anrechnungsverordnungen ermittelten fiktiven Einkommenssätzen mit Buchführungsergebnissen vergleichbarer Testbetriebe des Grünen Berichts verglichen. Die Überprüfung ergab, daß auch unter Berücksichtigung der unterschiedlichen Bodennutzungssysteme zur Zeit eine Änderung der Durchführungsverordnung zu § 33 BVG nicht erforderlich ist. Hierbei spielen auch die günstigen Ergebnisse der Wirtschaftsjahre 1968/69 und 1969/70 eine Rolle. Es ist vorgesehen, im Laufe des Jahres 1971 eine erneute Überprüfung vorzunehmen. Die regional unterschiedliche Ertragskraft der Betriebe wird bereits durch die Durchführungsverordnung zu § 33 BVG berücksichtigt: Die Stufenzahlen, die zur Errechnung des fiktiven Einkommens benutzt werden, werden differenziert nach dem Hektarsatz und der Nutzfläche der Betriebe ermittelt. Im Einheitswert selbst kommt die unterschiedliche Ertragskraft der Betriebe zum Ausdruck. Die Möglichkeiten für eine weitergehende Differenzierung werden geprüft.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u173" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg210">Eine Zusatzfrage des Herrn Abgeordneten Dr. Enders.</seg>
+        </u>
+        <note type="speaker">Dr. Enders (SPD) :</note>
+        <u who="#Q2558966" xml:id="ParlaMint-DE_1971-01-21-06-091.u174" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg211">Herr Staatssekretär, haben Sie bei der Überprüfung dieser Zahlen außer den Vertretern der beiden Häuser auch die Betroffenen herangezogen?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u175" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg212">Darauf kann ich Ihnen jetzt keine konkrete Antwort geben; das ist mir nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Dr. Enders (SPD) :</note>
+        <u who="#Q2558966" xml:id="ParlaMint-DE_1971-01-21-06-091.u176" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg213">Herr Staatssekretär, ist Ihnen bekannt, daß bei den gegenwärtigen Stufenzahlen Kriegsbeschädigte in der Landwirtschaft schon bei einem geringen Hektarsatz völlig auf die Ausgleichsrente verzichten müssen?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u177" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg214">Nein, das ist mir nicht bekannt. Ich kann nur wiederholen, daß wir hier ein System vorhaben, nicht buchführungspflichtige landwirtschaftliche Betriebe in der gleichen Art zu testen, wie das bei buchführungspflichtigen Betrieben geschieht.</seg>
+        </u>
+        <note type="speaker">Dr. Enders (SPD):</note>
+        <u who="#Q2558966" xml:id="ParlaMint-DE_1971-01-21-06-091.u178" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg215">Herr Staatssekretär, kann ich dann Ihren Antworten entnehmen, daß Sie gewillt sind, bei der kommenden Überprüfung der Stufenzahlen den regionalen Unterschieden beim landwirtschaftlichen Einkommen Rechnung zu tragen?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1971-01-21-06-091.u179" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg216">Das ist schon bisher geschehen, und das wird auch künftig geschehen. Das kann ich Ihnen hier durchaus zusagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u180" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg217">Keine Zusatzfrage. Die Frage 51 konnte nicht zugelassen werden, weil sie so, wie sie gestellt ist, nicht ganz den Richtlinien für die Fragestunde entspricht. Wir sind damit am Ende Ihres Geschäftsbereichs. Ich danke Ihnen, Herr Parlamentarischer Staatssekretär Logemann. Wir können noch mit dem Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung beginnen. Zur Beantwortung ist Herr Parlamentarischer Staatssekretär Rohde anwesend. Wir kommen zunächst zur Frage 52 der Frau Abgeordneten Dr. Timm. - Die Frau Abgeordnete hat um schriftliche Beantwortung ihrer Frage gebeten. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 53 des Herrn Abgeordneten Storm auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg218">Welche Maßnahmen will die Bundesregierung in Zusammenhang mit den Ländern ergreifen, um die soziale Lage der Gastarbeiter in der Bundesrepublik Deutschland zu verbessern, und welche Bereiche sieht die Bundesregierung als die vordringlichsten an? Bitte schön, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Rohde, Parlamentarischer Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1971-01-21-06-091.u181" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg219">Über den von Ihnen, Herr Kollege Storm, angesprochenen Fragenkomplex hat die Bundesregierung am 3. Dezember 1970 den Ausschuß für Arbeit und Sozialordnung ausführlich unterrichtet. Dabei wurden vor allem die Stellung der ausländischen Arbeitnehmer im Sozial- und Arbeitsrecht, die Verstärkung der Mittel für die Betreuung, die Förderung des Sprachunterrichts und der Information über die Lebensbedingungen in Deutschland sowie die Verbesserung der Wohnverhältnisse und der schulischen Betreuung der Kinder von ausländischen Arbeitnehmern erörtert. Diese Maßnahmen ,gehen von den „Grundsätzen zur Eingliederung ausländischer Arbeitnehmer" aus, deren Wortlaut Sie im Aprilheft des Bundesarbeitsblatts von 1970 finden. Sie werden verstehen, Herr Kollege, daß ich die eingehende Ausschußdiskussion hier nicht im einzelnen darstellen kann. Ich darf mir erlauben, Sie auf die ausführlichen Protokollunterlagen des Ausschusses hinzuweisen. Besonders eingehend wurden aber im Ausschuß für Arbeit und Sozialordnung die Fragen der Wohnungen und der schulischen Betreuung für ausländische Arbeitnehmer und ihre Familien erörtert. So hat der Bundesminister für Arbeit und Sozialordnung zur Förderung des Wohnungsbaus für Ausländer in Gesprächen mit allen Beteiligten das Modell einer Mischfinanzierung aus Mitteln des Bundes, der Bundesanstalt für Arbeit, der Länder und der Arbeitgeber entwickelt. Darüber hinaus wird in meinem Hause eine Revision der „Richtlinien für die Unterbringung der italienischen Arbeitnehmer", die zum Maßstab für die Unterbringung aller ausländischen Arbeitnehmer geworden sind, vorbereitet. Die Mindestwohnflächen sollen erhöht, die Belegung je Raum soll vermindert und die Bestimmungen über die sanitären Einrichtungen sollen verbessert werden. Zur besseren Überwachung der Unterkünfte bemühen wir uns um eine koordinierte Aktion der jeweils örtlich zuständigen Stellen. Zur Verbesserung der Schulausbildung der Kinder ausländischer Arbeitnehmer haben wir uns an die Kultusministerkonferenz gewandt mit dem Ziel, das Angebot an Übergangsklassen und die Zahl der ausländischen Lehrkräfte zu erhöhen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u182" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg220">Eine Zusatzfrage des Herrn Abgeordneten Storm.</seg>
+        </u>
+        <note type="speaker">Storm (CDU/CSU) :</note>
+        <u who="#Q1457780" xml:id="ParlaMint-DE_1971-01-21-06-091.u183" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg221">Herr Staatssekretär, sind Ihnen Berichte aus der englischen Presse über skandalöse Behandlung schottischer Gastarbeiter bekannt, und können Sie dazu etwas sagen?</seg>
+        </u>
+        <note type="speaker">Rohde, Parlamentarischer Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1971-01-21-06-091.u184" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg222">Herr Kollege, ich habe die Berichte gelesen. Es gibt sehr unterschiedliche Meldungen, soweit sie in der deutschen Presse wiedergegeben worden sind. Wir haben die Bundesanstalt für Arbeit gebeten, den Sachverhalt an Ort und Stelle zu überprüfen. Sobald ich eine Nachricht darüber in der Hand habe, werde ich Sie gern unterrichten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u185" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg223">Eine Zusatzfrage des Herrn Abgeordneten Josten.</seg>
+        </u>
+        <note type="speaker">Josten (CDU/CSU) :</note>
+        <u who="#Q1695791" xml:id="ParlaMint-DE_1971-01-21-06-091.u186" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg224">Herr Staatssekretär, wird die Bundesregierung zukünftig mehr als bisher bei Verhandlungen mit den Ländern, aus welchen Gastarbeiter zu uns kommen, darauf hinwirken, daß die Informationen in den Heimatländern zur Vorbereitung auf unsere Verhältnisse in einfacher und gut verständlicher Form verbreitet werden, um dadurch viele Mißverständnisse zeitig auszuräumen?</seg>
+        </u>
+        <note type="speaker">Rohde, Parlamentarischer Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1971-01-21-06-091.u187" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg225">Herr Kollege, das ist ein wesentlicher Punkt unserer Besprechungen mit den Vertretern derjenigen Länder, die Arbeitnehmer zu uns entsenden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u188" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg226">Eine Zusatzfrage des Herrn Abgeordneten Dr. Gleissner.</seg>
+        </u>
+        <note type="speaker">Dr. Gleissner (CDU/CSU) :</note>
+        <u who="#Q1446945" xml:id="ParlaMint-DE_1971-01-21-06-091.u189" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg227">Herr Staatssekretär, wäre es angesichts dieser Meldungen, aber auch anderer Meldungen und verschiedener Berichte von seiten der Kirchen nicht angebracht, bevor Firmen wiederum Gastarbeiter annehmen oder anwerben, zu überprüfen, ob die sozialen und humanen Voraussetzungen, vor allem die Voraussetzungen des Wohnens, gesichert werden können?</seg>
+        </u>
+        <note type="speaker">Rohde, Parlamentarischer Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1971-01-21-06-091.u190" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg228">Es ist Aufgabe der Bundesanstalt für Arbeit, Herr Kollege, bei von ihr vermittelten ausländischen Arbeitnehmern die Wohnverhältnisse, die die Arbeitgeber in Deutschland anzubieten haben, zu überprüfen. Aber ich bin mit Ihnen der Meinung, daß darüber hinaus die Kontrolle verstärkt werden muß. Nach meiner Auffassung wäre es sinnvoll, wenn insbesondere durch Initiative der Bundesanstalt Koordinierungskreise der örtlichen Stellen geschaffen würden, um die Verhältnisse an Ort und Stelle besser zu überprüfen. Ich habe mit dem Herrn Präsidenten der Bundesanstalt darüber gesprochen und Aufgeschlossenheit für diese Vorstellung bei ihm festgestellt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u191" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg229">Keine weitere Zusatzfrage. Die Frage 54 ist zurückgezogen worden.</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg230">Die Fragen 55 bis 57 werden auf Wunsch der Fragesteller schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Ich rufe die Fragen 58 und 59 des Herrn Abgeordneten Varelmann auf:</seg>
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg231">Aus welchen Gründen wurde in der Gesetzesvorlage die Wiedergutmachung nationalsozialistischen Unrechts in der Sozialversicherung für die Bediensteten von unterdrückten Organisationen und Verbänden nicht aufgenommen (z. B. Caritasverbände, Innere Mission, Gemeindeschwestern, Kath. und Evgl. Arbeiterbewegung)? Liegt Material vor über den Umfang dieses Personenkreises und über die geringe Entlohnung, die während des 3. Reiches an diese Bediensteten gezahlt wurde?</seg>
+        </u>
+        <note type="speaker">Rohde, Parlamentarischer Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1971-01-21-06-091.u192" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg232">Herr Kollege Varelmann, die Wiedergutmachung in der Sozialversicherung bezieht sich ebenso wie die Wiedergutmachung in anderen Bereichen auf den Ausgleich von Schäden, die der Geschädigte durch gegen ihn gerichtete Verfolgungsmaßnahmen erlitten hat. Dieses Prinzip besteht seit der Verabschiedung des Bundesentschädigungsgesetzes im Jahre 1952 und wurde auch kürzlich in dem vom Bundestag einstimmig verabschiedeten Gesetz zur Wiedergutmachung in der Sozialversicherung bestätigt. Dieses Gesetz gilt auch für die Bediensteten der von Ihnen genannten Organisationen und Verbände, sofern sie persönlich verfolgt und dadurch in ihren Ansprüchen und Anwartschaften aus der Sozialversicherung geschädigt worden sind. Nachteile, die dadurch entstanden sein können, daß ein Arbeitgeber verfolgt wurde und deshalb seinen Arbeitnehmern nicht die üblichen Löhne zahlen konnte, werden von der Entschädigungsgesetzgebung nicht erfaßt. Deshalb gibt es auch kein statistisches Material über den von Ihnen genannten Personenkreis und seine Entlohnung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u193" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg233">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Varelmann (CDU/CSU) :</note>
+        <u who="#Q1449318" xml:id="ParlaMint-DE_1971-01-21-06-091.u194" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg234">Herr Staatssekretär, steht nicht eindeutig fest, daß alle Bediensteten dieser Organisationen auf Grund ihrer Verbindung zu diesen Verbänden auch politisch verfolgt wurden?</seg>
+        </u>
+        <note type="speaker">Rohde, Parlamentarischer Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1971-01-21-06-091.u195" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg235">Herr Kollege, das ist eine schwierige Frage. Ich bin der Meinung, daß sie bei der Beratung des kürzlich verabschiedeten Gesetzentwurfs hätte erörtert werden können. Wir haben erst vor vier bis sechs Wochen die Novelle zur Widergutmachung von Schäden in der Sozialversicherung angenommen. An keinem Punkt der Beratung ist von Ihnen in dieser Richtung interveniert worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u196" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg236">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Varelmann (CDU/CSU) :</note>
+        <u who="#Q1449318" xml:id="ParlaMint-DE_1971-01-21-06-091.u197" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg237">Herr Staatssekretär, Sie müssen doch anerkennen, daß ich persönlich dieses nicht geltend machen konnte, da ich dem Ausschuß nicht angehöre.</seg>
+        </u>
+        <note type="speaker">Rohde, Parlamentarischer Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1971-01-21-06-091.u198" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg238">Herr Kollege, das will ich gern zur Kenntnis nehmen; aber es hätte auch die Möglichkeit bestanden, durch die Vertreter Ihrer Fraktion einen solch komplizierten und im einzelnen zu behandelnden Sachverhalt in den Ausschußberatungen zu erörtern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u199" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg239">Eine weitere Zusatzfrage des Herrn Abgeordneten Varelmann.</seg>
+        </u>
+        <note type="speaker">Varelmann (CDU/CSU) :</note>
+        <u who="#Q1449318" xml:id="ParlaMint-DE_1971-01-21-06-091.u200" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg240">Herr Staatssekretär, nach dem bisherigen Recht konnten diese Bediensteten in der Regel nur dann Ansprüche geltend machen, wenn sie entweder inhaftiert oder sonstigen Verfolgungen eindeutig ausgesetzt waren. Da sie aber aus diesem bisher keine Ansprüche herleiten konnten, haben viele die Geltendmachung ihrer Verfolgung nicht angestrebt. Erkennen Sie an, daß es heute, nach 30 Jahren, sehr schwierig ist, die Zeugen dafür aufzubieten?</seg>
+        </u>
+        <note type="speaker">Rohde, Parlamentarischer Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q897281" xml:id="ParlaMint-DE_1971-01-21-06-091.u201" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg241">Herr Kaliege, es ist sicherlich anzuerkennen, daß es schwierig ist, das im einzelnen zu belegen. Wenn Sie besondere Einzelfälle im Auge haben, bitte ich Sie, sie mir zur Kenntnis zu bringen, damit ich sie präzise überprüfen lassen kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1971-01-21-06-091.u202" ana="#chair">
+          <seg id="ParlaMint-DE_1971-01-21-06-091.seg242">Keine weitere Zusatzfrage. Damit ist der Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung erledigt. Vielen Dank, Herr Parlamentarischer Staatssekretär Rohde. Wir sind zugleich am Ende der heutigen Fragestunde. Ich berufe das Haus ein auf Freitag, den 22. Januar 1971, 9 Uhr. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 15.04 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

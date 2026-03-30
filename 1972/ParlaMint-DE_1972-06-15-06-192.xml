@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1972-06-15-06-192">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 6. Wahlperiode, 192. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 15.06.1972 (192. Sitzung der 6. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 6, Session 192 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1972-06-15 (Session 192 in Legislative Period 6)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="192">192. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.06" n="6">6. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="192">Session 192</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.06" n="6">Legislative Period 6</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 15.06.1972</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1972-06-15</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488220/b2b4d0d49600ef852d15e4052fabce1e/pp06-data.zip</idno>
+          <date when="1972-06-15">1972-06-15</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1972-06-15">1972-06-15</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection">
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg1">Die Sitzung ist eröffnet. Wir haben heute lediglich die Fragestunde — Drucksache VI/3495 —</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg2">Wir beginnen mit dem Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten. Zur Beantwortung Herr Parlamentarischer Staatssekretär Logemann. Ich rufe die Frage 47 des Herrn Abgeordneten Susset auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg3">Kann die Bundesregierung angeben, in welchem Umfang die deutsche Obst- und Gemüsekonservenindustrie nach der Aufwertung der Deutschen Mark im Jahre 1969 und der Freigabe der Wechselkurse der Deutschen Mark im Mai 1971 Marktanteile in der Bundesrepublik Deutschland und in anderen Ländern verloren hat?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg4">Herr Kollege Susset, die deutsche Obst- und Gemüsekonservenindustrie hat im Jahr 1969 einen Umsatz von 1,998 Milliarden DM und im Jahr 1971 — bei insgesamt stark gestiegenem Verbrauch — einen Umsatz von 2,461 Milliarden DM erreicht. Daraus ergibt sich, daß trotz der Aufwertung der D-Mark im Jahre 1969 und der Freigabe der Wechselkurse der D-Mark im Mai 1971 der Umsatz dieses Wirtschaftszweiges um 23 v. H. gestiegen ist. Dennoch hat der Anteil der deutschen Industrie am Gesamtverbrauch in diesem Zeitraum geringfügig abgenommen. Die Einfuhren an Erzeugnissen der Obst- und Gemüseverarbeitungsindustrie, vor allem aus den Mitgliedstaaten der Gemeinschaft, in die Bundesrepublik sind in diesem Zeitraum stärker gestiegen als der Umsatz der entsprechenden deutschen Industrie. Die besorgniserregende Entwicklung des Marktes bei einigen Arten von Naßkonserven — ich denke an Erbsen- und Bohnenkonserven — ist nicht neu. Besonders niedrige Preise haben hier in der Vergangenheit zur Schließung einiger Produktionsstätten geführt. Diese Entwicklung hat vielfältige Ursachen und kann nur bedingt auf die Folgen der Währungspolitik zurückgeführt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg5">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Susset (CDU/CSU) :</note>
+        <u who="#Q1298928" xml:id="ParlaMint-DE_1972-06-15-06-192.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg6">Herr Staatssekretär, ist die Bundesregierung bereit, zu bestätigen, daß die Konservenbestände der einschlägigen Industrie zu Ende des Wirtschaftsjahres 1971 bei Gemüsekonserven 78,8%, bei Obstkonserven 47,5% und bei Sauerkonserven 50,5 % der Gesamtproduktion des Jahres 1971 ausmachten und daß in früheren Jahren diese Bestände am Jahresende nur etwa 30 % ausmachten? Sie sind doch sicher mit mir der Meinung, daß diese Bestandserhöhung nicht auf die Anbauausweitung in der Bundesrepublik, sondern auf die durch Wechselkursfreigabe und Aufwertung bedingten erhöhten Einfuhren zurückzuführen ist?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg7">Ich sehe für die Vergrößerung der Bestände folgende Ursachen. Sie kommt nicht vom Anbau her. Wir haben nachgeprüft, daß sich die vertragliche Anbaufläche gegenüber dem Vorjahr eigentlich kaum verändert hat. Mit entscheidend ist wahrscheinlich der Preisverfall infolge unterschiedlicher Wettbewerbsbeschränkungen gewesen, die auch zu gewissen Beständen geführt haben. Wir haben Marktanteile verloren, vor allen Dingen im Jahr 1969 und im Jahr 1971. Mit Hauptursache größerer Bestände ist aber wohl auch die Tatsache, daß in den EWG-Nachbarländern zum Teil durch administrative Praktiken — so möchte ich es nennen — die Einfuhr von deutschen Konserven beeinträchtigt wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg8">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Susset (CDU/CSU) :</note>
+        <u who="#Q1298928" xml:id="ParlaMint-DE_1972-06-15-06-192.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg9">Herr Staatssekretär, ist Ihnen bekannt, daß in dem Bericht des Vorstandes der „Unterland Konserven und Tiefkühlkost AG" festgestellt wird, daß der Rohertrag im Jahre 1971 infolge steigenden Importdrucks, der sich durch die Wechselkursfreigabe noch verstärkte, absolut und relativ wesentlich niedriger war als in den Vorjahren, und daß hier in einem Betrieb, an dem produzierende Landwirte als Aktionäre beteiligt sind, ein Bilanzverlust von 1 011 973 DM in einem Jahr festzustellen ist?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u8" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg10">Im einzelnen ist mir dieses Ergebnis des Betriebes, den Sie hier erwähnen, nicht bekannt. Aber uns ist bekannt, was ich eben ausgeführt habe, daß es in einigen Bereichen eine besorgniserregende Situation gibt, besonders bei Naßkonserven. Ich habe schon Erbsen- und Bohnenkonserven erwähnt. Hier ist die Situation sehr schwierig. Aber, Herr Kollege Susset, ich bitte zu bedenken, daß die schwierige Situation nur zum Teil durch Währungsveränderungen bedingt ist. Hier spielen andere Wettbewerbsverzerrungen entscheidend mit hinein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u9" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg11">Eine Frage des Herrn Abgeordneten Früh.</seg>
+        </u>
+        <note type="speaker">Dr. Früh (CDU/CSU) :</note>
+        <u who="#Q1673925" xml:id="ParlaMint-DE_1972-06-15-06-192.u10" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg12">Herr Staatssekretär, Sie haben auf die beträchtliche Umsatzsteigerung hingewiesen. Dabei ist Ihnen doch sicherlich nicht entgangen, daß sich trotz dieser Umsatzsteigerungen die Rohertragslage all dieser Unternehmen maßgeblich verschlechtert hat. In einigen wenigen Zahlen ausgedrückt sieht es doch so aus, daß seit 1969 45 Gemüse- und Obstkonservenfabriken stillgelegt worden sind und nur noch 78 in der Bundesrepublik Deutschland arbeiten, und zwar unter erheblichem Ringen um ihre Existenz.</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u11" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg13">Das ist durchaus bekannt. Ich habe auch gerade auf diese Probleme hingewiesen. Ich habe auf die starke Steigerung des Umsatzes aufmerksam gemacht. Hier ist eine Steigerung in erheblichem Umfang da, gegenüber dem Vorjahr um 463 Millionen DM. Trotzdem — und das ist das Entscheidende — hat sich der Marktanteil im gleichen Zeitraum nicht entsprechend erhöht, sondern ist von 61,9 % auf 59,9 % des inländischen Verbrauchs zurückgegangen. Darin liegt ja das Problem. Aber insgesamt darf ich noch einmal feststellen, daß bezüglich der vertraglichen Anbaufläche in der Bundesrepublik deshalb kaum eine Veränderung zum Nachteil der deutschen Erzeuger eingetreten ist, wenn es auch Verschiebungen in den Anbauflächen zwischen Süd- und Norddeutschland gegeben hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u12" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg14">Zu einer Zusatzfrage Herr Abgeordneter Dr. Ritz.</seg>
+        </u>
+        <note type="speaker">Dr. Ritz (CDU/CSU) :</note>
+        <u who="#Q1016490" xml:id="ParlaMint-DE_1972-06-15-06-192.u13" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg15">Herr Staatssekretär, können Sie bestätigen, daß durch die Abwertung des französischen Franc 1969 und die Aufwertung der D-Mark 1969 und 1971 beispielsweise die französischen Anbieter von Gemüse am deutschen Markt einen nominalen Preisvorteil zwischen 26 und 28 % erzielen konnten, selbst wenn man dabei unterschiedliche Kostenentwicklungen berücksichtigt? Glauben Sie nicht, daß darin eben doch der entscheidende Grund für die schwierige Situation der deutschen Konservenindustrie liegt?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u14" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg16">Herr Kollege Dr. Ritz, wir haben eine Untersuchung durchführen lassen, um die Vorgänge, die Sie ansprechen, zu ergründen. Wir kommen dabei allerdings nicht zu so starken Auswirkungen, wie Sie sie eben dargestellt haben. Sicherlich muß gesehen werden, daß auch Währungsveränderungen eine Wettbewerbsverzerrung herbeigeführt haben. Aber diese Währungsveränderungen sind nicht die alleinige Ursache, sondern es spielen auch andere Maßnahmen hinein, die ich jetzt im einzelnen nicht aufzählen kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u15" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg17">Zu einer Zusatzfrage Herr Abgeordneter Pohlmann.</seg>
+        </u>
+        <note type="speaker">Pohlmann (CDU/CSU) :</note>
+        <u who="#Q1279274" xml:id="ParlaMint-DE_1972-06-15-06-192.u16" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg18">Herr Staatssekretär, ist es richtig, daß in Ihrem Hause vor der Aufwertung 1969 und auch vor der Freigabe der Wechselkurse 1971 Papiere von sachverständigen Mitgliedern Ihres Hauses erarbeitet worden sind, in denen die sich heute abzeichnenden Schwierigkeiten schon klar vorausgesagt worden sind? Und warum ist hierauf von der Bundesregierung keine Rücksicht genommen worden?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u17" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg19">Dazu darf ich sagen, Herr Kollege, daß wir uns in unserem Hause seit langem mit diesem Problem befaßt haben. Wenn die nächste Frage aufgerufen wird, wird sich Ihre Zusatzfrage durch die Antwort mit beantworten. Die Schwierigkeit, die wir vorfanden und die wir jetzt haben, liegt darin, daß die Obst- und Gemüsekonserven innerhalb der EWG schon seit 1968 liberalisiert sind. Daraus hat sich die ganze schwierige Entwicklung ergeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u18" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg20">Zu einer Zusatzfrage Herr Abgeordneter Dr. Ritgen.</seg>
+        </u>
+        <note type="speaker">Dr. Ritgen (CDU/CSU) :</note>
+        <u who="#Q1510763" xml:id="ParlaMint-DE_1972-06-15-06-192.u19" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg21">Herr Staatssekretär, können Sie etwas darüber aussagen, was die Bundesregierung zu tun gedenkt, um diese Wettbewerbsverzerrung auszugleichen, insbesondere im Hinblick auf die Antwort vom 17. März 1972 auf die Kleine Anfrage der CDU/CSU, worin gesagt wurde, daß geprüft werde, welche Möglichkeiten bestünden, um die derzeitigen Schwierigkeiten der Konservenindustrie zu verringern?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwitrschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u20" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg22">Herr Kollege Dr. Ritgen, ich werde in meiner Antwort auf die nächste Frage darauf eingehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg23">Dann rufe ich die Frage 48 des Herrn Abgeordneten Susset auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg24">Was gedenkt die Bundesregierung zu tun, um für die deutsche Obst- und Gemüsekonservenindustrie und damit auch für die Produzenten von Obst und Gemüse verlorene Marktanteile wiederzugewinnen?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft Parlamentarischer Staatssekretär Logemann und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg25">Obst- und Gemüsekonserven sind, wie ich eben schon erwähnte, innerhalb der EWG schon seit 1968 liberalisiert. Gegen Lieferungen aus den Mitgliedstaaten können Maßnahmen nur dann ergriffen werden, wenn gegen die geltenden Wettbewerbsregeln verstoßen wird. Was die Einfuhr aus dritten Ländern anlangt, ist die Bundesregierung in Brüssel seit langem für eine alsbaldige Verabschiedung einer Drittlandsregelung für Verarbeitungserzeugnisse aus Obst und Gemüse eingetreten. Solange eine solche Drittlandregelung nicht besteht, wird die Bundesregierung wie bisher weiter im Rahmen des ihr Möglichen versuchen, Marktstörungen durch eine behutsame Handelspolitik gegenüber Drittländern zu vermeiden. Der von der Kommission angeforderte Prüfungsbericht über die Lage auf dem Obst- und Gemüsekonservenmarkt in der Europäischen Gemeinschaft liegt noch nicht vor. Bereits im vergangenen Jahr — damit komme ich zur Beantwortung Ihrer Zusatzfrage, Herr Dr. Ritgen — hat die Bundesregierung den besonders betroffenen Zweigen der Obst- und Gemüsekonservenindustrie eine wirksame finanzielle Hilfe gewährt. Wie und in welcher Form der Obst- und Gemüsekonservenindustrie in diesem Jahr geholfen werden kann, wird zur Zeit geprüft.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg26">Zu einer Zusatzfrage Herr Abgeordneter Susset.</seg>
+        </u>
+        <note type="speaker">Susset (CDU/CSU) :</note>
+        <u who="#Q1298928" xml:id="ParlaMint-DE_1972-06-15-06-192.u24" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg27">Herr Staatssekretär, ist die Bundesregierung bereit, mit Nachdruck dafür einzutreten, daß alle innergemeinschaftlichen Wettbewerbsverzerrungen abgebaut werden, und dafür zu sorgen, daß der deutschen Konservenindustrie nicht weitere einseitige Lasten auferlegt werden, wie sie beispielsweise durch die Erhöhung der Mineralöl- und der Kraftfahrzeugsteuer selbstverständlich eingetreten sind bzw. eintreten werden?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg28">Dazu kann ich sagen, daß die Vertreter der Bundesregierung in Brüssel bezüglich dieses Problems schon einen sehr harten Standpunkt vertreten haben und immer wieder eine Vorlage über die Entwicklung bei Obst- und Gemüsekonserven verlangt haben. Leider blieb das, wie ich schon angeführt habe, bisher ohne Erfolg. Aber ich kann hier sagen, daß wir uns von deutscher Seite immer wieder mit Nachdruck bemüht haben und weiter bemühen werden, die Wettbewerbsverzerrungen zu beseitigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg29">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Susset (CDU/CSU) :</note>
+        <u who="#Q1298928" xml:id="ParlaMint-DE_1972-06-15-06-192.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg30">Herr Staatssekretär, welche Maßnahmen hat die Bundesregierung im einzelnen vorgesehen, um der Landwirtschaft zu helfen, die immerhin 700 000 t Rohware für die Konservenindustrie produziert. Es handelt sich hier zumeist um Vertragsanbauer, die ihre Betriebe auf die Produktion von Gemüse oder Obst bzw. und Obst ausgerichtet haben und nicht ohne weiteres auf andere Produktionen ausweichen können. Was wird getan, um diesen Betriebsgruppen durch die Erhaltung von Marktanteilen ein Überleben zu ermöglichen?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg31">Herr Kollege Susset, ich bin hier in einer Schwierigkeit. Ich möchte jetzt keine Aussagen machen, die uns bei unseren Bemühungen in Brüssel, Wettbewerbsverzerrungen in der EWG zu beseitigen, stören könnten. Ihnen dürfte bekannt sein, daß im letzten Jahr etwa 10,1 Millionen DM für die Obst- und Gemüsekonservenindustrie ausgegeben worden sind. Ihnen dürfte ferner bekannt sein, daß wir uns auch jetzt wieder bemühen, wirksam zu helfen. Auf Einzelheiten will ich nicht eingehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg32">Eine Frage des Herrn Abgeordneten Dr. Früh.</seg>
+        </u>
+        <note type="speaker">Dr. Früh (CDU/CSU) :</note>
+        <u who="#Q1673925" xml:id="ParlaMint-DE_1972-06-15-06-192.u30" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg33">Herr Staatssekretär, ich möchte bezüglich der Wettbewerbsverzerrungen nicht weiter in Sie dringen, weil Sie angedeutet haben, Sie würden eventuell Schwierigkeiten bekommen. Aber glauben Sie nicht auch, daß gerade diejenigen Landwirte, die teils Verträge eingegangen sind, teils sich in AGs zusammengeschlossen haben — sehr fortschrittliche Landwirte, die durch ( die Beratung in diese Produktionsrichtung gedrängt worden sind —, zunehmend den Mut verlieren oder — was genauso schlimm ist — künftig Ratschlägen der Beratungsstellen wesentlich skeptischer gegenüberstehen werden, wenn nicht gar resignieren?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg34">Gerade aus diesem Grunde haben wir uns ja bemüht, die Situation der Konservenindustrie zu verbessern. Das Ergebnis ist gegenwärtig insofern noch beruhigend, als wir feststellen können, daß die Vertragsanbauflächen für Obst und Gemüse sich gegenüber dem Vorjahr kaum verändert haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u32" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg35">Eine Frage des Herrn Abgeordneten Pohlmann.</seg>
+        </u>
+        <note type="speaker">Pohlmann (CDU/CSU) :</note>
+        <u who="#Q1279274" xml:id="ParlaMint-DE_1972-06-15-06-192.u33" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg36">Herr Staatssekretär, Ihre Antwort auf die Frage von Herrn Susset, daß Sie nach wie vor am Überprüfen sind, veranlaßt mich zu folgender Frage: Sind Sie bereit, zuzugeben, daß die Bundesregierung bereits am 17. Dezember 1971 erklärt hat, sie habe sich mit Nachdruck für die Beseitigung der Wettbewerbsverzerrungen auf dem Sektor der Obst- und Gemüsekonserven eingesetzt, und daß bisher nichts Nennenswertes geschehen ist?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft Parlamentarischer Staatssekretär Logemann und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u34" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg37">Ich habe schon betont, daß ein EWG-Bericht leider noch nicht vorliegt. Die Bundesregierung hat immer wieder auf die Vorlage eines solchen Berichts in Brüssel gedrängt. Wenn Sie die Dinge genau verfolgt haben, dann wissen Sie auch, daß Herr Staatssekretär Griesau im letzten Jahr — ich glaube, im Oktober oder November — mit aller Härte eine Beseitigung der Wettbewerbsverzerrungen in der EWG verlangt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u35" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg38">Eine Frage des Herrn Abgeordneten Dr. Ritgen.</seg>
+        </u>
+        <note type="speaker">Dr. Ritgen (CDU/CSU) :</note>
+        <u who="#Q1510763" xml:id="ParlaMint-DE_1972-06-15-06-192.u36" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg39">Herr Staatssekretär, sind Sie mit mir der Meinung, daß die von der Bundesregierung gewährten Beihilfen für die Obst- und Gemüsekonservenindustrie und damit auch für die Anbauer, gemessen an den Nachteilen, die beiden Gruppen, sowohl der Industrie als auch den Anbauern, entstanden sind, ziemlich unzureichend sind?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg40">Das meine ich nicht. Wir haben hier wirklich getan, was finanziell möglich war. Ich glaube, das ist von der Konservenindustrie auch anerkannt worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg41">Eine Frage des Herrn Abgeordneten Dr. Hauser.</seg>
+        </u>
+        <note type="speaker">Dr. Hauser (Sasbach) (CDU/CSU) :</note>
+        <u who="#Q1293520" xml:id="ParlaMint-DE_1972-06-15-06-192.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg42">Herr Staatssekretär, können Sie denn einen Termin nennen, bis zu dem der auch von Ihnen erwartete EWG-Bericht endlich vorgelegt wird?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg43">Ich kann keinen Termin nennen, weil wir ja nicht die Möglichkeit haben, einen solchen Termin anzuordnen. Wir müssen vielmehr den Vorgang der Kommission dazu abwarten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u41" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg44">Eine Frage des Herrn Abgeordneten Dr. Ritz.</seg>
+        </u>
+        <note type="speaker">Dr. Ritz (CDU/CSU) :</note>
+        <u who="#Q1016490" xml:id="ParlaMint-DE_1972-06-15-06-192.u42" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg45">Herr Staatssekretär, Sie haben konkrete Zahlen über den Umsatz der Konservenindustrie genannt und auch zum Ausdruck gebracht, daß es keinerlei Reduzierung im Vertragsanbau von Gemüse gibt. Können Sie auch Zahlen darüber angeben, wie sich der Ertrag bei der Konservenindustrie und die Erzeugerpreise bei den Anbauern von Gemüse entwickelt haben? Dies scheint mir doch das entscheidende Kriterium zu sein.</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u43" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg46">Herr Kollege Dr. Ritz, auch darauf habe ich eigentlich schon hingewiesen, und zwar mit der Bemerkung, daß wir im letzten Jahr eine sehr schwierige Situation — auch preislich — bei Naßkonserven hatten. Diese schwierige Situation ist durch verstärkte Einfuhren aus den Nachbarländern bedingt, wie ja bekannt ist. Diese Verzerrungen bereiten uns erhebliche Sorge.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u44" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg47">Eine Frage des Herrn Abgeordneten Schmidt (Braunschweig).</seg>
+        </u>
+        <note type="speaker">Schmidt (Braunschweig) (SPD) :</note>
+        <u who="#Q2546152" xml:id="ParlaMint-DE_1972-06-15-06-192.u45" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg48">Herr Staatssekretär, würden Sie mir bestätigen, daß die schwierige Situation der Konservenfabriken nicht erst seit einiger Zeit, sondern mindestens schon seit zehn Jahren zu verzeichnen ist?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg49">Das kann ich durchaus bestätigen. Ich habe auch schon darauf hingewiesen, daß die Liberalisierung nicht durch diese Bundesregierung erfolgt ist, sondern schon 1968 durchgeführt wurde. Seitdem sind die Schwierigkeiten besonders groß geworden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg50">Keine weitere Zusatzfrage. Ich rufe die Frage 49 des Herrn Abgeordneten Niegel auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg51">Welche Vorstellungen hat die Bundesregierung zur Frage des Abbaus des Grenzausgleichs, und wie ist rechtzeitig zu verhindern, daß dadurch der Landwirtschaft und dem Agrarhandel Schaden entsteht?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u48" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg52">Herr Kollege Niegel, in der Entschließung des Rates der Europäischen Gemeinschaften vom 16./24. März 1972 wurde grundsätzlich entschieden, daß die Einkommen der Landwirtschaft von dem stufenweisen Abbau des Grenzausgleichs nicht betroffen werden dürfen. Im Gegensatz zur Landwirtschaft werden hier die Interessen des Agrarhandels nicht unmittelbar berührt. Zwei Aspekte müssen nämlich unterschieden werden:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg53">Einerseits geht es um die Senkung des deutschen Grenzausgleichs auf den Benelux-Aufwertungssatz von 2,76 %. Einkommensverluste der deutschen Landwirtschaft aus dieser Senkung um 1,85 %, die erst zu einem noch festzulegenden Zeitpunkt wirksam werden kann, sollen durch nationale Maßnahmen im Rahmen der Mehrwertsteuer ausgeglichen werden. Einzelheiten der notwendigen steuerlichen Regelung werden in einem Gesetzentwurf der Bundesregierung vorgelegt. — Ich darf einfügen, daß ich auf diesen Entwurf bereits gestern hier in der Fragestunde hingewiesn habe. — Im Zusammenhang mit der Senkung des Grenzausgleichs auf 2,76 % muß das Problem der notwendigen Ausgleichsvergütungen für Altbestände geprüft werden, die von einer Preissenkung betroffen werden. Andererseits geht es um die Frage, wie der Grenzausgleich in Höhe von 2,76 %, der später von der Bundesrepublik Deutschland und den BeneluxStaaten gemeinsam angewendet wird, stufenweise abgebaut werden kann. Parlamentarischer Staatssekretär Logemann Dazu hat die Bundesregierung bereits bei den Verhandlungen im März folgende Auffassung vertreten: Der stufenweise Abbau der Ausgleichsbeträge darf in den betroffenen Ländern entsprechend dem Grundsatzbeschluß nicht zu Preissenkungen führen. Um dieses Ziel zu erreichen, muß der Rat daher entweder eine Anhebung des Wertes der Rechnungseinheit oder zusätzliche Preisanhebungen beschließen. Die Einzelstufen beim Abbau der Ausgleichsbeträge dürfen die jährlichen Preisbeschlüsse nicht belasten. Einzelheiten werden in nächster Zeit im Rat der Europäischen Gemeinschaften zu erörtern sein. Vorschläge der Kommission für die Festlegung von Durchführungsmodalitäten stehen noch aus.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg54">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1972-06-15-06-192.u50" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg55">Herr Staatssekretär, da wir vor einer neuen Ernte stehen, will ja der Landwirt wissen, wie seine Preise sich zusammensetzen. Welche konkreten Vorstellungen haben Sie für diese Ernte bezüglich des Abbaus des Grenzausgleichs, und wie können Sie für den Fall, daß Sie entsprechende Zustimmungen gegeben haben, garantieren, daß die notwendigen gesetzlichen Regelungen noch rechtzeitig in diesem Hause getroffen werden können?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg56">Dazu darf ich folgendes sagen, Herr Kollege Niegel. Die Preise für die diesjährige Getreideernte dürften Ihnen bekannt sein; sie sind durch Beschlüsse vom 16. März dieses Jahres für dieses Getreidewirtschaftsjahr festgelegt worden. Ein zweites ist, daß wir uns bemüht haben, für leere Läger zur Aufnahme der Getreideernte Sorge zu tragen, so daß ich von dieser Seite aus keine Schwierigkeiten sehe. Ich kann Ihnen aber heute keinen Termin für die Festschreibung der Wechselkurse nennen; darauf habe ich hier ja hingewiesen. Hier ist noch alles offen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg57">Die zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1972-06-15-06-192.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg58">Besteht bei der Haltung der Bundesregierung nicht die Gefahr, daß damit eine erneute Unsicherheit in die Landwirtschaft kommt, weil, wie Sie gesagt haben, der Ausgleich noch nicht genau fixiert ist? Wird die Bundesregierung daran festhalten, daß der Grenzausgleich für diese Ernte noch gilt, oder gelten andere Regelungen?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg59">Die Bundesregierung wird bei ihrer Zusage bleiben. Ich sehe die Gefahr, die Sie, Herr Kollege, aufzeigen, nicht. Die Bundesregierung bleibt bei der Zusage, die sie immer wieder gegeben hat, daß der Landwirtschaft keine Einkommenssenkungen durch Währungsveränderungen zugemutet werden sollen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg60">Eine Zusatzfrage des Herrn Abgeordneten Dr. Ritz.</seg>
+        </u>
+        <note type="speaker">Dr. Ritz (CDU/CSU) :</note>
+        <u who="#Q1016490" xml:id="ParlaMint-DE_1972-06-15-06-192.u56" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg61">Herr Staatssekretär, sind Sie, nachdem gestern in verschiedenen Zeitungen davon die Rede war, daß durch die Erhöhung der Mehrwertsteuer im Zuge des Abbaus des Grenzausgleichs den Erzeugern 650 Millionen DM Mehreinnahmen entstehen, bereit, hier deutlich zu sagen, a) daß diese Zahl falsch ist, b)</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg62">daß es nicht darum geht, daß die Erzeuger mehr bekommen, sondern lediglich darum, daß sie einen Ausgleich dafür bekommen, daß der Grenzausgleich in dieser Größenordnung abgebaut wird?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg63">Ich habe hier gestern betont und habe auch eben schon gesagt, daß die Bundesregierung im Wort ist bezüglich ihrer Aussage, daß keine Einkommenssenkungen durch Währungsveränderungen entstehen sollen. Insoweit kann ich also zu dieser Anmerkung von Ihnen durchaus positiv Stellung nehmen: für die Landwirtschaft entstehende Einkommensverluste werden ausgeglichen. Eine weitere Aussage möchte ich zu diesem Punkte nicht machen.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Ritz: Könnten Sie aber die genannte Zahl korrigieren?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg64">— Ich nehme Ihre Anfrage zur Kenntnis. Korrigieren kann ich nichts, denn ich kenne die Zahl nicht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u58" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg65">Eine Zusatzfrage des Herrn Abgeordneten Dr. Früh.</seg>
+        </u>
+        <note type="speaker">Dr. Früh (CDU/CSU) :</note>
+        <u who="#Q1673925" xml:id="ParlaMint-DE_1972-06-15-06-192.u59" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg66">Herr Staatssekretär, nachdem Sie angedeutet haben, daß die übrigbleibenden 2,7 %, die ja dann auch abgebaut werden müssen, der deutschen Landwirtschaft keine Einkommensminderungen bringen dürfen, ließen Sie doch durchblicken, daß dies nur so möglich ist, daß man durch Preisanhebungen in den übrigen Ländern auf einen gleichmäßigen Standard kommen wird. Sind Sie sich nicht darüber im klaren, daß das wiederum z. B. für die französische Landwirtschaft eine erneute Preiserhöhung — wahrscheinlich die vierte oder die fünfte — bedeutet, während die deutsche Landwirtschaft, wenn sie vielleicht an Preissenkungen vorbeikommt, trotz laufend steigender Kosten lediglich den jetzigen Preisstand behält?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg67">Ich sehe diese Entwicklung nicht so. Ich möchte noch einmal auf die drei Lösungsmöglichkeiten, die ich für den Abbau des Grenzausgleichs hier vorhin vorgetragen habe, verweisen. Es sind Lösungen möglich, die an sich für die deutsche Landwirtschaft keine Einkommensbenachteiligungen bringen können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u61" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg68">Eine Zusatzfrage des Herrn Abgeordneten Dr. Ritgen.</seg>
+        </u>
+        <note type="speaker">Dr. Ritgen (CDU/CSU) :</note>
+        <u who="#Q1510763" xml:id="ParlaMint-DE_1972-06-15-06-192.u62" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg69">Herr Staatssekretär, sehen Sie die Gefahr, daß der Ministerrat gegen den Willen der Bundesrepublik über die Festsetzung der Währungsparitäten und den Abbau des Grenzausgleichs entscheidet, ohne daß in der Bundesrepublik bereits die notwendigen gesetzlichen Regelungen geschaffen worden wären?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg70">Herr Kollege Ritgen, diese Gefahr sehe ich nicht. Man wird hier auch auf unsere Situation Rücksicht nehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u64" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg71">Keine weitere Zusatzfrage? — Dann rufe ich Frage 50 des Herrn Abgeordneten Dr. von Nordenskjöld auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg72">Ist der Bundesregierung das Urteil des Oberlandesgerichtes Celle vom 18. Mai 1972 AKZ 7 W 63/71 bekannt, wonach es Mitgliedern der Landesjägerschaft Niedersachsen, die durchaus auch Beamte des Landes Niedersachsen sein können, unter Androhung einer Beugestrafe untersagt ist, bei der vom Land Niedersachsen angeordneten Vergasung von Fuchsbauten zur Bekämpfung der Tollwut weiterhin tätig zu sein, und welche Möglichkeit sieht die Bundesregierung, die zwar von der Jägerschaft nicht geschätzte, aber bei dem Stand der Seuche für den Schutz der Bevölkerung höchst notwendige Bekämpfung der Tollwut durch Begasung der Baue, die in vielen Bundesländern selbstverständlich ist, weiter durchzuführen und die daran beteiligten Personen, soweit sie Mitglieder der Landesjägerschaft Niedersachsen sind, vor persönlichem Schaden zu schützen?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg73">Herr Kollege Dr. von Nordenskjöld, der Bundesregierung ist bekannt, daß das Oberlandesgericht Celle am 18. Mai 1972 eine einstweilige Verfügung erlassen hat, die der Landesjägerschaft Niedersachsen e. V. u. a. zur Auflage macht, vor dem rechtskräftigen Abschluß des Verwaltungsgerichtsverfahrens vor dem Verwaltungsgericht Lüneburg Erklärungen und Handlungen zu unterlassen, welche die Durchführung des § 15 der Verordnung zum Schutz gegen die Tollwut vom 13. März 1970 fördern oder unterstützen. Die Begasung der Fuchsbaue erfolgt bekanntlich nicht auf Grund einer Anordnung des Landes Niedersachsen, sondern auf Grund einer Verordnung des Bundes, der Verordnung zum Schutz gegen die Tollwut vom 13. März 1970. Die Durchführung dieser Verordnung wird durch die einstweilige Verfügung des Oberlandesgerichts Celle nicht berührt; Jagdausübungsberechtigte haben weiterhin insbesondere die Vorschrift des § 15 Abs. 2 der Tollwutverordnung zu beachten. Im übrigen ist in der einstweiligen Verfügung nur die Landesjägerschaft als Institution angesprochen. Ein einzelnes Mitglied der Landesjägerschaft Niedersachsen verstößt daher nicht gegen die einstweilige Verfügung, wenn es als Jagdausübungsberechtigter die Vorschriften des § 15 der Tollwutverordnung befolgt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg74">Eine Zusatzfrage? — Bitte!</seg>
+        </u>
+        <note type="speaker">Dr. von Nordenskjöld (CDU/CSU) :</note>
+        <u who="#Q1561260" xml:id="ParlaMint-DE_1972-06-15-06-192.u67" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg75">Herr Staatssekretär, sind Sie nicht mit mir der Meinung, daß, weil der Ausdruck „Funktionär der Landesjägerschaft" gefallen ist, natürlich auch jeder x-beliebige Hegeringleiter, der ja ein Funktionär der Landesjägerschaft ist, gemeint ist? Und finden Sie es nicht merkwürdig, daß irgendein Hegeringleiter in Niedersachsen so oder so bestraft wird? Begast er die Fuchsbaue, wird er vor Gericht mit einer Beugestrafe bestraft; begast er sie nicht, wird er von der Behörde bestraft, weil er nach § 15 dazu verpflichtet ist.</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg76">Man sollte überhaupt überlegen, ob die Jäger Aufgaben eines Kammerjägers übernehmen sollten.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u69" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg77">Eine Zusatzfrage, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. von Nordenskjöld (CDU/CSU) :</note>
+        <u who="#Q1561260" xml:id="ParlaMint-DE_1972-06-15-06-192.u70" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg78">Herr Staatssekretär, sind Sie nicht mit mir der Meinung, daß der Großteil der Jäger diese Aktion zwar in keinem Fall gern tut und sich lange Zeit dagegen gewehrt hat, daß aber eine derart einschneidende Maßnahme bei dem derzeitigen Seuchenstand zum Schutz der Bevölkerung notwendig ist?</seg>
+        </u>
+        <note type="speaker">Logemann, Parlamentarischer Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1467368" xml:id="ParlaMint-DE_1972-06-15-06-192.u71" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg79">Herr Kollege Dr. von Nordenskjöld, deswegen haben wir seinerzeit die Verordnung erlassen. Aber es braucht nicht vergast zu werden, es kann ja auch geschossen werden. Auch das steht in der Verordnung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u72" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg80">Keine weitere Zusatzfrage. Dann danke ich Ihnen, Herr Parlamentarischer Staatssekretär Logemann. Wir kommen zum Geschäftsbereich des Bundeskanzlers und des Bundeskanzleramtes. Zur Beantwortung der Fragen ist Herr Bundesminister Ehmke anwesend. Ich rufe die Frage 87 des Herrn Abgeordneten Varelmann auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg81">Hält es die Bundesregierung für angebracht, Arbeitnehmerorganisationen, die zu ihren ersten Verpflichtungen zählen, diktatorische Staaten zu propagieren, in gleicher Weise wie Arbeitnehmerorganisationen der Bundesrepublik Deutschland ohne Differenzierung als Gewerkschaften zu bezeichnen, wie z. B. in einer Pressemitteilung des Presse- und Informationsamts vom 12. Mai 1972 über einen Empfang einer Delegation SZOT aus Ungarn, wonach der Bundeskanzler die Bedeutung gewerkschaftlicher Kontakte hervorhob und meinte, „die Regierungen könnten von Gewerkschaften Impulse bekommen"?</seg>
+        </u>
+        <note type="speaker">Dr. Ehmke, Bundesminister für besondere Aufgaben:</note>
+        <u who="#Q71352" xml:id="ParlaMint-DE_1972-06-15-06-192.u73" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg82">Frau Präsidentin, ich würde die Fragen gern zusammen beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u74" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg83">Dann rufe ich auch die Frage 88 des Herrn Abgeordneten Varelmann auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg84">Teilt die Bundesregierung meine Auffassung, daß sie in ihren Verlautbarungen nur dann für Arbeitnehmerorganisationen die Bezeichnung „Gewerkschaften' verwenden sollte, wenn diese das Streikrecht bejahen, handhaben oder dazu in der Lage und vom Staat unabhängig sind?</seg>
+        </u>
+        <note type="speaker">Dr. Ehmke, Bundesminister für besondere Aufgaben:</note>
+        <u who="#Q71352" xml:id="ParlaMint-DE_1972-06-15-06-192.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg85">Herr Abgeordneter, in der von Ihnen zitierten Pressemitteilung des Presse- und Informationsamtes der Bundesregierung Nr. 507 vom 12. Mai zum Empfang einer Delegation des Zentralrates der Ungarischen Gewerkschaften beim Herrn Bundeskanzler wurde das Wort „Gewerkschaften" politisch neutral verwendet, so wie ja auch bei internationalen Begegnungen, an denen dieses Hohe Haus oder Mitglieder dieses Hohen Hauses beteiligt sind, in neutraler Form von „Parlamenten" oder „Parlamentariern" gesprochen wird, ohne daß dadurch die sich aus den unterschiedlichen Gesellschaftssystemen ergebenden Unterschiede verwischt werden sollen. Die Bundesregierung teilt daher Ihre aus der Frage 88 sich ergebende Auffassung nicht. Daß die von Ihnen, Herr Abgeordneter, genannten Kriterien, neben anderen Kriterien, in unserer Rechts- und Gesellschaftsordnung für Gewerkschaften konstitutiv sind, ist im übrigen ganz unbestritten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg86">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Varelmann (CDU/CSU) :</note>
+        <u who="#Q1449318" xml:id="ParlaMint-DE_1972-06-15-06-192.u77" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg87">Herr Minister, ist es nicht verfehlt, in der deutschen Öffentlichkeit den Eindruck auszulösen, als ob es in den Ostblockstaaten auch Gewerkschaften mit westlichem Gepräge gäbe, die sich vollkommen frei für die Arbeitnehmer einsetzen könnten?</seg>
+        </u>
+        <note type="speaker">Dr. Ehmke, Bundesminister für besondere Aufgaben:</note>
+        <u who="#Q71352" xml:id="ParlaMint-DE_1972-06-15-06-192.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg88">Wenn wir das Wort „Gewerkschaften" dort benutzen, wird keiner in diesem Lande daraus schließen, daß das Gewerkschaften sind, wie sie unsere Gesellschafts- und Rechtsordnung vorsieht, da die Unterschiede der beiden Gesellschaftssysteme jedem in diesem Lande klar sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg89">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Varelmann (CDU/CSU) :</note>
+        <u who="#Q1449318" xml:id="ParlaMint-DE_1972-06-15-06-192.u80" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg90">Herr Minister, wäre es nicht trotzdem angebracht, diesen Trennungsstrich auch in der Öffentlichkeit ständig zu ziehen?</seg>
+        </u>
+        <note type="speaker">Dr. Ehmke, Bundesminister für besondere Aufgaben:</note>
+        <u who="#Q71352" xml:id="ParlaMint-DE_1972-06-15-06-192.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg91">Herr Abgeordneter, da, soweit ich sehe, auch in den verbündeten westlichen Staaten diese Begriffe in ihrer allgemeinen, politisch neutralen Form verwendet werden, täte es uns nicht gut, hier den Anschein zu erwecken, als ob wir auf diesem Gebiet besonders engstirnig seien.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg92">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Varelmann (CDU/CSU) :</note>
+        <u who="#Q1449318" xml:id="ParlaMint-DE_1972-06-15-06-192.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg93">Herr Minister, darf man überhaupt von Gewerkschaften sprechen, wenn diese sogenannten Arbeitnehmerorganisationen es sogar positiv beurteilen, wenn der Freiheitsdrang der Arbeiter mit Waffengewalt unterdrückt wird?</seg>
+        </u>
+        <note type="speaker">Dr. Ehmke, Bundesminister für besondere Aufgaben:</note>
+        <u who="#Q71352" xml:id="ParlaMint-DE_1972-06-15-06-192.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg94">Herr Abgeordneter, wir sind uns über die Unterschiede, die bestehen, gar nicht uneinig. Aber ich meine, es würde fast solch ein Krampf werden, wie wir ihn zeitweise gegenüber dem anderen Teil Deutschlands mit den Anführungsstrichen gemacht haben, wenn wir jetzt anfangen wollten, normale, allgemeine Bezeichnungen für Parlamente, Gewerkschaften und andere Einrichtungen jeweils mit Zusätzen zu versehen. Ich glaube nicht, daß das wesentlich zu der Auseinandersetzung der beiden Gesellschaftssysteme beitragen würde.</seg>
+        </u>
+        <note type="speaker">Varelmann (CDU/CSU) :</note>
+        <u who="#Q1449318" xml:id="ParlaMint-DE_1972-06-15-06-192.u85" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg95">Legen die deutschen Gewerkschaften nicht bewußt Gewicht darauf, daß nur die Arbeitnehmerorganisationen sich als Gewerkschaften bezeichnen dürfen, die das Streikrecht handhaben können und handhaben und vollkommen unabhängig sind? Ist das nicht eine bewußte Herausstellung, und sollte man diesen Gedanken nicht pflegen?</seg>
+        </u>
+        <note type="speaker">Dr. Ehmke, Bundesminister für besondere Aufgaben:</note>
+        <u who="#Q71352" xml:id="ParlaMint-DE_1972-06-15-06-192.u86" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg96">Ganz sicher. Aber wir teilen nicht die Befürchtung, die Sie haben, daß irgend jemand meinen könnte, mit dem Begriff „Gewerkschaft" werde behauptet, daß in den Staaten, die ein anderes Gesellschaftssystem haben, die Gewerkschaften gleiche Rechte oder Funktionen hätten wie bei uns. Jeder in diesem Land und auch in anderen Ländern weiß ja, daß das nicht so ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg97">Eine Frage des Herrn Abgeordneten Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD) :</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1972-06-15-06-192.u88" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg98">Herr Minister, ist Ihnen bekannt, daß Kollegen der Opposition die CDU der DDR, um nicht mißverstanden zu werden, als NichtCDU bezeichnen?</seg>
+        </u>
+        <note type="speaker">Dr. Ehmke, Bundesminister für besondere Aufgaben:</note>
+        <u who="#Q71352" xml:id="ParlaMint-DE_1972-06-15-06-192.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg99">Nein, das ist mir nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg100">Eine Frage des Herrn Abgeordneten Niegel.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1972-06-15-06-192.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg101">Herr Bundesminister, da Sie vorhin die bis 1969 geltende Politik gegenüber der „DDR" als „Krampf" bezeichnet haben, möchte ich Sie fragen, ob Sie auch die Politik Ihres seinerzeitigen Vizekanzlers, Herrn Brandt, als „Krampf" bezeichnen, wie Sie die jetzige Politik nennen und ob „Krampf" überhaupt der richtige Ausdruck für eine bestimmte Politik ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u92" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg102">Einen Augenblick, bitte! Die Frage gehört nicht in den Zusammenhang. Ich bitte, sie nicht zu beantworten. Eine Frage des Herrn Abgeordneten Hammans.</seg>
+        </u>
+        <note type="speaker">Dr. Hammans (CDU/CSU) :</note>
+        <u who="#Q1635112" xml:id="ParlaMint-DE_1972-06-15-06-192.u93" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg103">Herr Bundesminister, wollen Sie, wenn Sie die Gänsefüßchen als „Krampf" bezeichnen, damit sagen, daß die DDR eine demokratische Republik sei?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Oh-Rufe bei der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Dr. Ehmke, Bundesminister für besondere Aufgaben:</note>
+        <u who="#Q71352" xml:id="ParlaMint-DE_1972-06-15-06-192.u94" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg104">Das hat damit gar nichts zu tun, sondern Tatsache ist, daß man gemeint hat, Politik durch Gänsefüßchen ersetzen zu können. Die Geschichte hat bewiesen, daß das eine falsche Auffassung war.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u95" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg105">Eine Frage des Herrn Abgeordneten Müller.</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1972-06-15-06-192.u96" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg106">Herr Bundesminister, wären Sie vielleicht so freundlich, dem Herrn Kollegen Sperling zu sagen, daß wir üblicherweise von der Ost-CDU sprechen und damit einen Unterschied herausstellen.</seg>
+        </u>
+        <note type="speaker">Dr. Ehmke, Bundesminister für besondere Aufgaben:</note>
+        <u who="#Q71352" xml:id="ParlaMint-DE_1972-06-15-06-192.u97" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg107">Nachdem Sie es schon gesagt haben, kann ich mir diese Mühe ersparen, Herr Kollege.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u98" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg108">Keine weitere Zusatzfrage. Ich rufe die Frage 89 des Herrn Abgeordneten Dr. Hammans auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg109">Trifft es zu, daß anläßlich eines Mittagessens auf Einladung des Presse- und Informationsamts der Bundesregierung für die „Junge Presse" des Deutschen Bundesjugendrings nach einer Pressekonferenz mit dem Herrn Bundeskanzler am 18. Mai um 13 Uhr im Hotel Tulpenfeld die SPD-Wählerinitiative offiziell bei dem Essen vertreten war, ihre Mitglieder, die gleichmäßig an allen Tischen verteilt waren, vorgestellt und ihre Diskussionsbereitschaft in dieser Runde erklärt hat, und gegebenenfalls ist dies üblich? Zur Beantwortung nunmehr Herr Staatssekretär Ahlers. Ich danke dem Herrn Bundesminister.</seg>
+        </u>
+        <note type="speaker">Ahlers, Staatssekretär, Chef des Presse- und Informationsamtes der Bundesregierung:</note>
+        <u who="#Q72593" xml:id="ParlaMint-DE_1972-06-15-06-192.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg110">Frau Präsidentin, ich möchte die Anfrage wie folgt beantworten. Herr Abgeordneter, es trifft zu, daß die SPD-Wählerinitiative an einem Mittagessen beteiligt war, welches am 18. Mai nach der Pressekonferenz des Bundeskanzlers mit 80 jungen Redakteuren von Schülerzeitungen oder vergleichbaren Blättern im Hotel Tulpenfeld stattfand. Die Wählerinitiative hat im übrigen auch an der Vorbereitung und Durchführung der Pressekonferenz des Bundeskanzlers mitgewirkt. Dies hat sich als ein vernünftiges Verfahren erwiesen, weil gerade Herr Günter Graß ein besonderes Geschick im Umgang mit kritischen jungen Menschen hat. Außerdem, Herr Abgeordneter, fand gleichzeitig ein Mittagessen der Pressevertreter des Deutschen Bundesjugendringes im Restaurant Tulpenfeld statt, zu dem Abgeordnete aller Parteien des Bundestagsausschusses für Jugend, Familie und Gesundheit eingeladen waren, darunter, wie ich gehört habe, auch Sie, Herr Abgeordneter. Ich habe den Eindruck, daß Sie von der kurzfristigen Verlegung dieses Mittagessens vom Hotel ins Restaurant Tulpenfeld keine Kenntnis erhalten und deshalb vielleicht an dem falschen Mittagessen teilgenommen haben.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg111">Ich hoffe sehr, daß es Ihnen trotzdem geschmeckt hat, -Herr Abgeordneter.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Große Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg112">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Hammans (CDU/CSU) :</note>
+        <u who="#Q1635112" xml:id="ParlaMint-DE_1972-06-15-06-192.u101" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg113">Herr Staatssekretär, sind Sie bereit, zur Kenntnis zu nehmen, daß ich durchaus versucht habe, in dem anderen Haus den richtigen Platz zu finden, daß ich aber immer wieder in das Hotel zurückverwiesen wurde und ich schließlich dort den Eindruck hatte, mein Mittagessen am richtigen Platz einzunehmen?</seg>
+        </u>
+        <note type="speaker">Ahlers, Staatssekretär, Chef des Presse- und Informationsamtes der Bundesregierung:</note>
+        <u who="#Q72593" xml:id="ParlaMint-DE_1972-06-15-06-192.u102" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg114">Herr Abgeordneter, ich nehme das gern zur Kenntnis und bedaure, wenn Ihnen daraus irgendwelche Unannehmlichkeiten entstanden sein sollten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u103" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg115">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Hammans (CDU/CSU) :</note>
+        <u who="#Q1635112" xml:id="ParlaMint-DE_1972-06-15-06-192.u104" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg116">Eine ernsthafte Frage, die den Kern der Sache trifft: Finden Sie es richtig, Herr Staatssekretär, daß das Presse- und Informationsamt praktisch eine Wählergruppe einer Partei durch finanzielle Mittel so unterstützt, wie es dort geschehen ist?</seg>
+        </u>
+        <note type="speaker">Ahlers, Staatssekretär, Chef des Presse- und Informationsamtes der Bundesregierung:</note>
+        <u who="#Q72593" xml:id="ParlaMint-DE_1972-06-15-06-192.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg117">Herr Abgeordneter, ich habe mir das lange überlegt und finde es richtig. Nur stimmt der zweite Teil Ihrer Frage nicht: die Wählerinitiative ist auf diese Weise nicht finanziell unterstützt worden. Wir haben diese Veranstaltung finanziert und durchgeführt und die Wählerinitiative nur gebeten, uns bei der Vorbereitung und Durchführung der Pressekonferenz des Bundeskanzlers zu helfen, eben aus dem angeführten Grunde, weil es nicht einfach ist — für keine der Parteien und auch nicht für die Bundesregierung —, mit einer spezifischen, ganz besonders kritisch eingestellten Gruppe junger Menschen gewissermaßen ohne Hilfe auch anderer Personen, wie etwa Günter Graß, in Verbindung zu kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u106" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg118">Eine Frage des Herrn Abgeordneten Müller-Hermann.</seg>
+          <incident type="action">
+            <desc>Abg. Dr. Hammans meldet sich zu einer weiteren Zusatzfrage.</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg119">— Es tut mir leid; ich kann keine Zusatzfrage von Ihnen mehr zulassen, Herr Hammans.</seg>
+        </u>
+        <note type="speaker">Dr. Müller- Hermann (CDU/CSU) :</note>
+        <u who="#Q1359569" xml:id="ParlaMint-DE_1972-06-15-06-192.u107" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg120">Herr Staatssekretär, war die Beteiligung der SPD-Wählerinitiative an einem offiziellen Essen des Presse- und Informationsamtes vielleicht ein Versuch, den Zorn von Herrn Wehner etwas zu beruhigen?</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Lachen und Zurufe bei der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Ahlers, Staatssekretär, Chef des Presse- und Informationsamtes der Bundesregierung:</note>
+        <u who="#Q72593" xml:id="ParlaMint-DE_1972-06-15-06-192.u108" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg121">Da dieser Vorfall vor dem anderen lag, Herr Abgeordneter, muß diese Schlußfolgerung schlechthin falsch sein.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Abg. Dr. Müller-Hermann: Vorbeugend! — Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u109" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg122">Keine weitere Zusatzfrage. Ich danke Ihnen, Herr Staatssekretär Ahlers. Wir kommen zum Geschäftsbereich des Bundesministers für Wirtschaft und Finanzen. Zur Beantwortung der Fragen steht Herr Parlamentarischer Staatssekretär Hermsdorf zur Verfügung. Ich rufe die Frage 19 des Herrn Abgeordneten Frerichs auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg123">Ist die Bundesregierung bereit zu bestätigen, daß zur Verbesserung der Leistungs- und Wettbewerbsfähigkeit der kleinen und mittleren Unternehmen des einzelwirtschaftlichen Handels der Grundsatz der Kooperationsfibel, wonach das Gesetz gegen Wettbewerbsbeschränkungen einer auf Rationalisierung und Leistungswettbewerb gerichteten Zusammenarbeit zwischen Unternehmen nicht entgegensteht, nach wie vor gilt und in der Praxis verstärkt Anwendung finden sollte?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u110" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg124">Herr Abgeordneter, die Bundesregierung bejaht nach wie vor den von Ihnen wiedergegebenen Grundsatz der Kooperationsfibel, daß das Gesetz gegen Wettbewerbsbeschränkungen einer auf Rationalisierung und Leistungswettbewerb gerichteten Zusammenarbeit der Unternehmen nicht entgegensteht. Dies gilt insbesondere auch für die kleinen und mittleren Unternehmen des Handels. Die Bundesregierung hat immer wieder betont — ich darf hier z. B. auf die amtliche Begründung des Regierungsentwurfs der Kartellgesetznovelle hinweisen —, daß sie eine verstärkte Kooperation kleiner und mittlerer Unternehmen für erwünscht hält.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg125">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Frerichs (CDU/CSU) :</note>
+        <u who="#Q1110481" xml:id="ParlaMint-DE_1972-06-15-06-192.u112" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg126">Herr Staatssekretär, ist die Bundesregierung, da die Kooperationsfibel schon sechs Jahre alt ist und viele Erfahrungen damit gesammelt werden konnten, bereit, erneut eine verbesserte, der jetzigen Praxis und den Realitäten des wirtschaftlichen Alltags angemessene, erweiterte Kooperationsfibel aufzulegen?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u113" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg127">Herr Abgeordneter, ich wäre gern bereit, darauf eine Antwort zu geben, wenn ich gleichzeitig Ihre Frage 20 mit einbeziehen könnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u114" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg128">Sind Sie einverstanden, Herr Fragesteller? — Dann rufe ich auch die Frage 20 des Abgeordneten Dr. Frerichs auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg129">Ist die Bundesregierung bereit, über die bisher ergangenen, sich lediglich auf Einzelfälle stützenden kartellrechtlichen Auslegungsgrundsätze hinaus Richtlinien für die allgemeine Anwendung von Mittelstandsempfehlungen zu geben, die zu einer besseren und für die Praxis brauchbareren Anwendung dieses Rechtsinstituts führen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg130">Die Bundesregierung hat bereits in der Kooperationsfibel sowie in ihrer Antwort auf eine Kleine Anfrage vom 12. Februar 1968 Hinweise für die allgemeine Anwendung von sogenannten Mittelstandsempfehlungen nach § 38 Abs. 2 Satz 3 des Gesetzes gegen Wettbewerbsbeschränkungen gegeben. Sie hat sich dabei für eine großzügige Anwendung der Mittelstandsempfehlungen ausgesprochen. Durch den Beschluß des Bundesgerichtshofes vom 3. März 1971, den ich bereits in meiner Antwort auf Ihre zweite Frage in der letzten Fragestunde erwähnt habe, wurden jedoch einer weiten Interpretation der Mittelstandsempfehlungen Grenzen gesetzt. Deshalb muß die Kartellgesetznovelle abgewartet werden, die, wie Sie wissen, einen neuen, großzügigen Kooperationsparagraphen vorsieht. Nun kommt der Punkt, weshalb ich Ihre Frage jetzt beantworte: Diese beiden letzten Punkte müssen natürlich, wenn man Ihre Gedanken aufgreifen will, die Fibel neu aufzulegen, mit berücksichtigt werden. Unter diesen Umständen ist dann zu überlegen, ob man sie neu überarbeitet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg131">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Frerichs (CDU/CSU) :</note>
+        <u who="#Q1110481" xml:id="ParlaMint-DE_1972-06-15-06-192.u117" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg132">Herr Staatssekretär, ich würde mich freuen, wenn Sie mir zustimmen könnten, daß auch die Opposition die Kartellgesetznovelle genauso wünscht und im Herbst dieses Jahres ebenso gern verabschiedet hätte wie die Regierungskoalition. Aber gerade weil das so ist, frage ich — und diese Frage muß ich noch einmal wiederholen —: wäre es nicht besser — um den Unwägbarkeiten aus dem Wege zu gehen —, wenn man auch unter Berücksichtigung der eben zitierten Entscheidung des Bundesgerichtshofes die Richtlinien zu den Mittelstandsempfehlungen, die ja nur ein kleiner Teil sind, erneut auflegte und herausgäbe, und zwar mit den mit der Kooperationsfibel ge. machten neuen Erfahrungen, und nicht wartete, bis die Kartellgesetznovelle, möglicherweise erst viel später, Gesetz wird?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg133">Herr Abgeordneter, ich freue mich zunächst über Ihre Bereitschaft, die Kartellgesetznovelle mit zu verabschieden. Ich kann dazu nur sagen: Also fröhlich ans Werk! Aber ich muß folgendes hinzufügen: Wenn Sie jetzt schon annehmen, daß das noch eine gewisse Zeit dauern wird, weil wir erst noch die Fibel überarbeiten sollen, dann muß ich dazu sagen, daß ich ganz sicher bin, daß wir nach der eventuellen Verabschiedung der Kartellgesetznovelle — und ich hoffe, daß sie noch verabschiedet wird — gleich wieder die Auflage bekämen, die Fibel wieder zu ändern. Aus diesem Grunde bin ich der Meinung, daß man noch ein bißchen warten sollte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg134">Keine weitere Frage. Die Frage 21 soll auf Bitte des Fragestellers schriftlich beantwortet werden. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 22 des Herrn Abgeordneten Geldner auf. — Der Abgeordnete ist nicht im Saal. Dann wird die Frage schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 23 des Herrn Abgeordneten Dr. Müller-Hermann auf.</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg135">Verzeihung, Frau Präsidentin! Der Logik wegen wäre es richtiger, die Fragen 25 und 26 des Kollegen Krammig zuerst zu beantworten und dann die Fragen des Herrn Abgeordneten Dr. Müller-Hermann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg136">Dann können wir vielleicht alle vier Fragen aufrufen und Herrn Abgeordeten Krammig die ersten Zusatzfragen geben.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Krammig: Einverstanden!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg137">— Ich rufe also die Fragen 23 und 24 des Abgeordneten Dr. Müller-Hermann auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg138">Stimmt die Bundesregierung der Auffassung der Arbeitsgemeinschaft „Werftgutachten 1970" zu, daß die deutsche Werftindustrie nicht oder noch nicht in der Lage ist, sich gegenüber den subventionierten ausländischen Wettbewerbern zu behaupten und daß deshalb weiterhin staatliche Hilfen gewährt werden sollen? Kann die Bundesregierung angeben, welche Auswirkungen die DM-Aufwertungen des Jahres 1969 und des Jahres 1971 auf die Ertragssituation und auf die Beschäftigungslage der deutschen Werften hatten? Ferner rufe ich die Fragen 25 und 26 des Abgeordneten Krammig auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg139">Welche Konsequenzen zieht die Bundesregierung aus der Auftrag des Bundesministeriums für Wirtschaft und Finanzen erstellten Untersuchung über die Lage der deutschen Werftindustrie? Wie beurteilt die Bundesregierung die gegenwärtigen Beschäftigungsaussichten der deutschen Werftindustrie? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u122" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg140">Ich beantworte zuerst die Frage 25 des Herrn Abgeordneten Krammig. Die Bundesregierung hat unmittelbar nach Eingang des Gutachtens Gespräche mit den betroffenen Kreisen, nämlich den Küstenländern, der Werftindustrie und der IG Metall geführt. Die notwendigen Abstimmungen mit den Beteiligten über die aus den Gutachten zu ziehenden Schlußfolgerungen konnten jedoch noch nicht herbeigeführt werden. Diese nicht von der Bundesregierung zu vertretende Verzögerung hat es leider unmöglich gemacht, eine in sich geschlossene Konzeption für die künftige deutsche Schiffbaupolitik wie geplant bis zum Mai dieses Jahres zu erarbeiten. Auf jeden Fall kann ich aber soviel sagen, daß die Bundesregierung ihre Anstrengungen verstärkt darauf richten wird, in internationalen Verhandlungen bei der OECD und der EWG einen Abbau der Wettbewerbsverfälschungen in möglichst kurzer Frist zu erreichen. Außerdem prüft die Bundesregierung zur Zeit, ob und in welchem Umfang eine Aufstockung der Werfthilfen notwendig und möglich ist. Die Überlegungen sind noch nicht abgeschlossen, so daß ich Ihnen heute noch keine näheren Angaben machen kann. Dies hängt auch mit der allgemeinen Haushaltssituation und der Lage, in der wir uns hier befinden, zusammen. Zu der Frage 26 des Abgeordneten Krammig. Nach den der Bundesregierung vorliegenden Unterlagen sind die Großwerften mit rund 75 % ihrer Gesamtkapazität im Schiffsneubau noch bis Mitte 1974 und im übrigen bis Mitte 1973 voll beschäftigt. Dagegen können bei mittleren und kleineren Werften bereits ab Anfang 1973 Beschäftigungslücken entstehen, falls keine Anschlußaufträge gebucht werden können. Jetzt darf ich, ehe wir zu Zusatzfragen kommen, die Antwort auf die Frage 23 des Herrn Dr. Müller-Hermann vortragen:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg141">Es trifft zu, daß es im internationalen Schiffbau Wettbewerbsverfälschungen gibt, die auf staatliche Interventionen in fast allen Schiffbauländern zurückzuführen sind. Um die Verfälschungen zumindest teilweise auszugleichen, gewährt die Bundesregierung seit 1962 Werfthilfen. Die Bundesregierung beabsichtigt, die Exportfinanzierungshilfen im Rahmen der finanziellen Möglichkeiten fortzuführen, um die Hereinnahme neuer Aufträge zu ermöglichen. Die bessere Lösung wäre jedoch ohne Zweifel die Beseitigung der Wettbewerbsverfälschungen, die die Bundesregierung laufend anstrebt. Die Bundesregierung bemüht sich hierum insbesondere bei der OECD und bei der EWG. Zu der Frage 24 möchte ich Herrn Abgeordneten Müller-Hermann folgendes sagen: Im Rahmen des Siebenten Werft-Hilfeprogramms für die Jahre 1973 bis 1975 ist eine Zinsverbilligung für 80 % des Schiffspreises um maximal 2 %, bei Vertragsabschluß vor dem 4. März 1971 um maximal 3 %, bei einer Kreditbildung in 16 gleichen Halbjahresraten vorgesehen. Das geförderte Auftragsvolumen beträgt rund 3,9 Milliarden DM. Es wird durch ERP-Kredite in Höhe von 290 Millionen DM und durch Zinszuschüsse aus dem Bundeshaushalt in Höhe von 304 Millionen DM finanziert. Ich hoffe, daß ich jetzt die logisch richtige Reihenfolge bei der Beantwortung der Fragen gefunden habe. Ich bitte um Entschuldigung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg142">Eine Zusatzfrage des Herrn Abgeordneten Krammig.</seg>
+        </u>
+        <note type="speaker">Krammig (CDU/CSU) :</note>
+        <u who="#Q1234608" xml:id="ParlaMint-DE_1972-06-15-06-192.u124" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg143">Herr Staatssekretär, können Sie mir die Frage beantworten, wann die Werften-Enquete Ihrem Hause vorgelegt worden ist?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg144">Wenn ich das recht sehe, Anfang dieses Jahres.</seg>
+        </u>
+        <note type="speaker">Krammig (CDU/CSU) :</note>
+        <u who="#Q1234608" xml:id="ParlaMint-DE_1972-06-15-06-192.u126" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg145">Sie sagten in Ihrer Antwort auf meine Frage, daß konkrete Maßnahmen noch nicht ergriffen worden seien. Ist Ihnen bekannt, daß die deutschen Werften unter Berücksichtigung der international gewährten Konditionen für Schiffsbauten praktisch keine Neuaufträge hereinholen können und daher Eile geboten ist, die Konsequenzen zu ziehen?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg146">Verzeihung, Herr Kollege Krammig, ich hatte bereits darauf aufmerksam gemacht, daß die Verzögerung — wir hatten ja die Absicht, bis Mai dieses Jahres zu einem Abschluß zu kommen nicht auf ein Verschulden der Bundesregierung zurückzuführen ist. Wir haben natürlich sofort nach dem Vorliegen der Enquete versucht, sowohl mit den beteiligten Ländern als auch mit den Werften selbst, mit den Reedern und auch mit den zuständigen Gewerkschaften eine Absprache zu finden. Die einzelnen Stellungnahmen liegen aber eben noch nicht vor. Solange sie noch nicht alle miteinander vorliegen, wäre es sehr schlecht, schon jetzt konkrete Maßnahmen zu treffen. Sie wissen aber, daß in der Beratung des Haushaltsausschusses durchaus versucht worden ist, die Hebel bereits in diese Richtung zu stellen. Es besteht also nicht die Gefahr, daß man bei den Werften glauben muß, wir würden dieses Problem nicht erkennen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg147">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Krammig (CDU/CSU) :</note>
+        <u who="#Q1234608" xml:id="ParlaMint-DE_1972-06-15-06-192.u129" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg148">Herr Staatssekretär, in Ihrer Antwort sprachen Sie über die Beschäftigungslage der Werften. In Anbetracht der langen Vorlaufzeit müßte es doch in Ihrem Hause Bedenken verursachen, daß seit dem Floating im Mai 1971, also seit nunmehr über einem Jahr, nur in ganz geringem Umfange Aufträge hereingenommen werden konnten, woraus sich zwangsläufig ergibt, daß die Beschäftigung, auf weite Sicht gesehen, sehr in Frage gestellt ist.</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg149">Herr Kollege Krammig, es gibt keinen Zweifel — wir sind uns da völlig einig —, daß wir hier Sorgen haben. Aber es ist nicht richtig, die Schwierigkeiten hinsichtlich der Beschäftigungslage ausschließlich auf das Floating zurückzuführen. Sie wissen genau, daß die Wettbewerbsverzerrungen teilweise so kraß sind, daß sie weit über die Wirkungen des Floatings hinausgehen. Darüber hinaus muß auch gesehen werden, daß wir im Grunde genommen eine sehr hohe Frachtkapazität haben. Eine weitere Schwierigkeit ist, daß unsere Verträge nicht in D-Mark abgeschlossen werden können, sondern in ausländischer Währung abgeschlossen werden müssen. Dies alles muß zusammen gesehen werden. Sie werden verstehen, daß ich jetzt hier nicht schlüssig eine Werftpolitik der Bundesregierung für die nächsten fünf Jahre erklären kann. Ich habe auch nicht die Absicht, solange wir nicht zu einer einheitlichen Auffassung oder zumindest zu Mehrheitsauffassungen unter den Beteiligten gekommen sind. Ich kann aber sagen, daß wir die Beschäftigungslage durchaus mit Sorge sehen und versuchen, durch Hilfen, wie sie im Haushalt und im Rahmen des ERP-Programms usw. vorgesehen sind, die Werftindustrie zu stärken und zu stützen. Darüber hinaus hat die Bundesregierung ich denke jetzt an Salzgitter — versucht, in einem eigenen Werftkonzept mit Einfluß zu nehmen, zu koordinieren und gewisse Arbeitsplätze zu sichern, so daß ich eigentlich meine: dieser Zweig der Werftindustrie wird von der Bundesregierung nicht nur beobachtet, sondern es wird alles getan, die Schwierigkeiten, die Sie hier aufzeigen, zu beseitigen oder zu mildern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg150">Letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Krammig (CDU/CSU) :</note>
+        <u who="#Q1234608" xml:id="ParlaMint-DE_1972-06-15-06-192.u132" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg151">Herr Staatssekretär, wird Ihr Haus bei den Überlegungen auch berücksichtigen, daß von deutschen Reedern infolge ihrer schwierigen Wirtschaftslage kaum noch Aufträge an deutsche Werften vergeben werden?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg152">Ich sehe dieses Problem, das im Rahmen unserer Gesamtpolitik auch Beachtung findet. Sie dürfen mir glauben — ich darf jetzt einen Augenblick als Sprecher von der Küste etwas sagen —, daß wir diese Probleme wirklich mit großer Aufmerksamkeit verfolgen und alles versuchen werden, um eine ausreichende Beschäftigungslage — soweit das überhaupt möglich ist — zu garantieren. Aber ich möchte nochmals auf alle die genannten Schwierigkeiten hinweisen, deren Behebung nicht in der Hand der Bundesregierung liegt. Diese Schwierigkeiten kommen auch von draußen auf uns zu. Wir versuchen in der OECD und in der EWG, entsprechende Wettbewerbsverzerrungen zu beseitigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg153">Eine Zusatzfrage des Herrn Abgeordneten Müller-Hermann.</seg>
+        </u>
+        <note type="speaker">Dr. Müller-Hermann (CDU/CSU) :</note>
+        <u who="#Q1359569" xml:id="ParlaMint-DE_1972-06-15-06-192.u135" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg154">Herr Staatssekretär, beobachtet die Bundesregierung die Maßnahmen, mit denen die Japaner den Ausbau der Werftkapazitäten betreiben — die japanischen Werften stellen ja eine besonders starke Konkurrenz für die deutsche Werftindustrie dar —, und ist die Bundesregierung bereit, zumindest die im Rahmen der EWG beschlossenen Beihilferegelungen für den Schiffbau zu übernehmen?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u136" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg155">Die Bundesregierung beobachtet dies mit großer Sorge. Ich möchte aber darauf aufmerksam machen, daß wir durch einen Vorstoß in dieser Richtung hinsichtlich der Politik der Japaner eine zeitliche Beschränkung erreicht haben. Wir werden natür-Parlamentarischer Staatssekretär Hermsdorf lich auch innerhalb der OECD versuchen, wegen dieser Wettbewerbsverzerrung auf die japanische Werftindustrie entsprechend zu drücken, um eine Beseitigung der Wettbewerbsverzerrung zu erreichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg156">Eine weitere Zusatzfrage. -</seg>
+        </u>
+        <note type="speaker">Dr. Müller-Hermann (CDU/CSU) :</note>
+        <u who="#Q1359569" xml:id="ParlaMint-DE_1972-06-15-06-192.u138" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg157">Ist die Bundesregierung bereit, bei der Frage der Wechselkursabsicherung der deutschen Werftindustrie so zu helfen, daß die Belastungen nicht nur kalkulierbar, sondern auch tragbar gemacht werden?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg158">Wir versuchen auch das. Nur würde ich sagen: eine Kalkulierbarkeit zu erreichen, wird hier sehr schwierig sein. Es kann sich sozusagen nur um eine zeitliche Sicherheit handeln. Wir können durch eine Wechselkursversicherung nicht einen absoluten Ausschluß des Kursrisikos für alle Zeit gewährleisten. Aber es ist eine zeitliche Begrenzung des Risikos von etwa zwei Jahren nach Abschluß der Verträge zu erreichen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg159">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Müller-Hermann (CDU/CSU) :</note>
+        <u who="#Q1359569" xml:id="ParlaMint-DE_1972-06-15-06-192.u141" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg160">Herr Staatssekretär, darf ich noch einmal von Ihnen eine Bestätigung dafür erhalten, daß die Bundesregierung die Eilbedürftigkeit dieser Entscheidungen sieht, angesichts der Tatsache, daß die laufende Produktion der Werftindustrie derzeit nur zu einem Drittel durch neue Aufträge gedeckt ist?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg161">Herr Müller-Hermann, es bedurfte zweifellos nicht der Fragestunde, um die Bundesregierung auf dieses Problem aufmerksam zu machen. Ich verstehe Ihre Sorge, aber ich sage Ihnen, daß die Bundesregierung seit langem sich ernsthaft mit diesem Problem beschäftigt und versucht, zu Lösungen zu kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg162">Eine Zusatzfrage des Herrn Abgeordneten Grobecker.</seg>
+        </u>
+        <note type="speaker">Grobecker (SPD) :</note>
+        <u who="#Q1098539" xml:id="ParlaMint-DE_1972-06-15-06-192.u144" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg163">Herr Staatssekretär, zunächst kann ich Ihnen helfen: die Werft-Enquete ist am 8. März vorgelegt worden. Und nun meine Frage: Teilt die Bundesregierung auch die Aussage des Teils der Weft-Enquete, in dem gesagt wird, daß die Werften selber zur Verbesserung ihrer Wettbewerbslage beitragen können, indem sie etwa bessere Kooperationsmöglichkeiten untereinander schaffen?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg164">Die Bundesregierung ist natürlich dem Gedanken der Selbsthilfe jederzeit zugänglich. So, wie ich die Werften kenne, bin ich ganz sicher, daß sie nicht nur nach dem Staat rufen, sondern versuchen werden, aus eigener Kraft ihre Sache voranzubringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg165">Keine weitere Zusatzfrage. Dann rufe ich die Frage 27 des Herrn Abgeordneten Freiherr von Fircks auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg166">Trifft es zu, daß die Bundesregierung mit dem Land Nordrhein-Westfalen eine Vereinbarung dahin gehend getroffen hat, daß die Lastenausgleichsabgabe für den in der Ruhrkohle AG zusammengefaßten Steinkohlenbergbau für die Jahre 1971 und 1972 und — je nach der Lage und Entwicklung dieses Wirtschaftszweiges — auch in den Folgejahren erlassen wird, und wie hoch schätzt die Bundesregierung den hierdurch eintretenden jährlichen Einnahmenausfall für den Lastenausgleichsfonds?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg167">Herr Abgeordneter, es trifft zu, daß die Bundesregierung mit dem Land Nordrhein-Westfalen eine Vereinbarung dahin gehend getroffen hat, daß die Lastenausgleichsabgaben für die Ruhrkohle AG für einen Restbetrag aus dem Jahre 1971 und für das Jahr 1972 erlassen werden sollen. Der Vorstand der Ruhrkohle AG hatte bereits im Mai 1971 unter Hinweis auf die schwierige Lage des Unternehmens — der Ausgleich der Verluste 1969 und 1970 konnte nur durch Verzicht der Eigentümer auf ihre Einbringungsforderungen erreicht werden — bei der zuständigen Finanzbehörde um Erlaß der Vermögensabgabe und der Kreditgewinnabgabe gemäß § 131 der Abgabenordnung über den Erlaß von Abgaben aus Billigkeitsgründen nachgesucht. Im Rahmen des Stabilisierungsprogrammes für die Ruhrkohle AG wurde nun am 30. Mai 1972 mit dem Lande Nordrhein-Westfalen Einvernehmen erzielt, dem Antrag auf Erlaß der Lastenausgleichsabgaben für den Restbetrag von 1971 und für 1972 stattzugeben. Diese Regelung stellt eine für ein einzelnes Unternehmen getroffene, nach den Vorschriften der Abgabenordnung bei gleicher Voraussetzung allgemein zulässige Billigkeitsmaßnahme dar, da wegen des eingetretenen Vermögensverzehrs durch angefallene Verluste die Einziehung der Abgabe eine Härte darstellen würde. Die Bundesregierung schätzt den eintretenden Einnahmeausfall für den Lastenausgleichsfonds für das Jahr 1972 auf rund 68 Millionen DM. Für 1971 ist ein entsprechend niedrigerer Betrag anzunehmen, da das Unternehmen die erste Vierteljahresrate 1971 vor dem Erlaßantrag bereits geleistet hat. Ob und inwieweit auch in den Folgejahren ein Erlaß der Lastenausgleichsabgaben erforderlich wird, hängt von der Entwicklung der Vermögens- und Ertragslage des Unternehmens ab.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg168">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1972-06-15-06-192.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg169">Herr Staatssekretär, sind Sie nicht mit mir der Meinung, daß der Erlaß der Vermögensabgabe im Falle der Ruhrkohle AG nur durch den Buchstaben des Gesetzes abgedeckt ist, aber eindeutig gegen den Willen des Gesetzgebers verstößt, der bei dem Erlaß von Abgaben im Verwaltungswege seinerzeit nur an für den Fonds nicht schädliche Größenordnungen gedacht hat?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u150" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg170">Herr Abgeordneter, gestatten Sie die Bemerkung, daß ich der genau entgegengesetzten Auffassung bin.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u151" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg171">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1972-06-15-06-192.u152" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg172">Herr Staatssekretär, gedenkt die Bundesregierung eine gleiche Haltung auch bei Anträgen von anderen, wirtschaftlich in Not geratenen Wirtschaftszweigen einzunehmen, da die Ruhrkohle AG, wenn man die wirtschaftliche Wirklichkeit sieht, doch keinen Einzelbetrieb, sondern einen Wirtschaftszweig darstellt, und Sie wissen, daß entsprechende Anträge vorliegen?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u153" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg173">Ohne Ihre Auffassung über die Ruhrkohle AG anzunehmen, beantworte ich die Frage mit Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u154" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg174">Keine weitere Frage. Dann rufe ich die Frage 28 des Abgeordneten Freiherr von Fircks auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg175">Durch welche Maßnahmen wird die Bundesregierung gegebenenfalls die hierdurch bedingten Mindereinnahmen ausgleichen?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg176">Der durch den Erlaß der Lastenausgleichsabgaben eintretende Einnahmeausfall wird das jetzt schon erkennbare Defizit des Ausgleichsfonds erhöhen. Da die Lastenausgleichsabgaben und die dem Lastenausgleichsfonds zufließenden Zuschüsse der Länder aus ihrem Aufkommen an Vermögensteuer im Jahre 1979 auslaufen, wird der Bund vom Jahre 1980 an das Defizit auszugleichen haben. Die Zahlungsverpflichtung des Bundes ergibt sich aus § 6 Abs. 3 Satz 4 des Lastenausgleichsgesetzes. Nach dieser Vorschrift hat der Bund die zur Durchführung des Lastenausgleichsgesetzes erforderlichen Mittel, soweit sie nicht mehr aus Einnahmen des Ausgleichsfonds und aus Zuschüssen an ihn gedeckt werden, zur Verfügung zu stellen. Die Lastenausgleichsberechtigten erleiden also durch den Erlaß der Abgaben für die Ruhrkohle AG keinen Nachteil.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u156" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg177">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1972-06-15-06-192.u157" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg178">Herr Staatssekretär, ist das nicht doch eine sehr hypothetische Aussage, wenn Sie daran denken, daß bei den Beratungen in allen Ministerien und in allen Ausschüssen dieses Hauses immer wieder die Frage aufgeworfen wird, welche Reserven der Lastenausgleichsfonds noch hat bzw. inwieweit bereits der Bundeshaushalt zu haften hat und von welchem Jahre an diese Haftungsansprüche gegeben sein werden?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg179">Dies ist keine hypothetische Annahme, sondern diese Auffassung der Regierung entspricht den vorliegenden Fakten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg180">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Freiherr von Fircks (CDU/CSU) :</note>
+        <u who="#Q2041186" xml:id="ParlaMint-DE_1972-06-15-06-192.u160" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg181">Herr Staatssekretär, kann die Bundesregierung darüber Auskunft geben, wie sich die von ihr in dieser Frage eingenommene Haltung mit der Tatsache vereinbaren läßt, daß sich aus der Freistellung der Grünlandbetriebe von den Lastenausgleichsabgaben ergebende Erlaßbeträge dem Ausgleichsfonds im Rahmen der allgemeinen Bewilligungen aus Mitteln des Bundesernährungsministeriums erstattet werden?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u161" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg182">Sicher sind die Frage der schwierigen Lage der Ruhrkohle und die Frage der Grönlandbetriebe nicht miteinander zu vergleichen. Was die schwierige Lage der Ruhrkohle angeht, so mußte diese Regierung und insbesondere auch die vorhergehende Regierung angesichts der 1968 gegebenen Lage Maßnahmen zur Sanierung der Ruhrkohle AG treffen. Den Schwierigkeiten der Grönlandbetriebe — dies gilt für die Agrarpolitik generell — versuchen wir seit mehr als 10, wenn nicht gar seit 20 Jahren mit den verschiedensten Maßnahmen zu begegnen. Ein Vergleich dieser beiden Tatbestände ist angesichts der Struktur und mit Rücksicht auf die Ausgangsposition völlig unmöglich, und er dürfte in diesem Hause eigentlich gar nicht zulässig sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u162" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg183">Keine weitere Zusatzfrage. Dann rufe ich die Frage 29 des Abgeordneten Wagner (Günzburg)</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg184">auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg185">Trifft die Meldung der „Dialog"-Nr. 6/72 zu, das sowjetische Staatskomitee für Wissenschaft und Technik sei ein Instrument bei „der illegalen Beschaffung wissenschaftlich-technischer TopGeheimnisse", und wie beurteilt — bejahendenfalls — angesichts dessen die Bundesregierung die Entsendung des stellvertretenden Vorsitzenden dieses Komitees in die Kommission der Bundesrepublik Deutschland und der UdSSR für wirtschaftliche und wissenschaftlich-technische Zusammenarbeit?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg186">Herr Kollege Wagner, die Meldung trifft nicht zu. Das Staatskomitee für Wissenschaft und Technik beim Ministerrat der UdSSR ist das für die Koordinierung der gesamten wirtschaftlichen und wissenschaftlich-technischen Zusammenarbeit mit dem Ausland zuständige Regierungsorgan.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg187">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Wagner (Günzburg) (CDU/CSU) :</note>
+        <u who="#Q1818771" xml:id="ParlaMint-DE_1972-06-15-06-192.u165" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg188">Herr Staatssekretär, stimmt die Meldung, daß bei einer kürzlich durchgeführten Konferenz von Abwehrexperten der NATO von verbündeter Seite mitgeteilt wurde, daß die Zahl der sowjetischen Spezialagenten zur Ausspähung deutscher Industrieunternehmen auf mindestens 300 bis 500 vorübergehend oder ständig anwesende Personen angewachsen ist?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u166" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg189">Ich kann diese Zahl weder bestätigen noch bestreiten, da ich eine solche Frage nicht ohne Prüfung beantworten kann und auch keine Unterlagen darüber bei mir habe.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Wehner: Das hat auch nichts mit der ursprünglichen Frage zu tun!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg190">Ich bin aber gern bereit, Ihnen schriftlich darauf eine Antwort zu geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u167" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg191">Eine zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Wagner (Günzburg) (CDU/CSU) :</note>
+        <u who="#Q1818771" xml:id="ParlaMint-DE_1972-06-15-06-192.u168" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg192">Herr Staatssekretär, teilt die Bundesregierung die Auffassung, daß die bestehende Zuständigkeitsregelung für wirtschaftlich-technische Geheimschutzangelegenheiten zwischen Wirtschafts-, Verteidigungs- und Innenministerium heute nicht mehr voll geeignet ist, die Industrie wirksam vor Ausspähung zu schützen?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u169" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg193">Das betrifft Ihre Frage 30. Darf ich die Antwort auf diese Frage hier gleich mit einbeziehen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u170" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg194">Gut, dann rufe ich zusätzlich die Frage 30 des Abgeordneten Wagner (Günzburg)</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg195">auf:</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg196">Was hat die Bundesregierung getan bzw. gedenkt sie zu tun, um die deutsche Wirtschaft und Forschung vor der Ausspähung geheimzuhaltender Vorgänge und Erkenntnisse durch die Sowjets wirksam zu schützen?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u171" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg197">Die Bundesregierung tritt für eine Vertiefung der wirtschaftlichen und wissenschaftlich-technischen Zusammenarbeit auch mit der Sowjetunion ein. Sie begrüßt daher, daß deutsche Großunternehmen mit dem Staatskomitee für Wissenschaft und Technik bereits eine Reihe von Abkommen über die wirtschaftliche und wissenschaftlich-technische Zusammenarbeit abgeschlossen haben. Die Bundesregierung ist selbstverständlich bemüht, die deutsche Wirtschaft und Forschung vor der Ausspähung geheimzuhaltender Vorgänge und Erkenntnisse wirksam zu schützen. Sie hat darüber erst kürzlich dem Deutschen Bundestag zweimal ausführlich berichtet. Ich darf hier Bezug nehmen auf die Beantwortung der Kleinen Anfrage der Abgeordneten Dr. Schneider (Nürnberg)</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg198">, Dr. Wittmann (München)</seg>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg199">und Genossen betreffend Schutz der Industrie und Wirtschaft vor Spionage und Sabotage vom 29. Februar 1972, Drucksache VI/3209, sowie die schriftliche Antwort des Parlamentarischen Staatssekretärs Dorn vom 26. April 1972 auf die schriftliche Frage des Abgeordneten Wuwer, die als Anlage 18 zum Stenographischen Bericht über die 184. Sitzung des Deutschen Bundestages am 28. April 1972 abgedruckt worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u172" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg200">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Wagner (Günzburg) (CDU/CSU) :</note>
+        <u who="#Q1818771" xml:id="ParlaMint-DE_1972-06-15-06-192.u173" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg201">Herr Staatssekretär, ist die Bundesregierung bereit, den Schutz von wissenschaftlich-technischen Geheimnissen und insbesondere den präventiven Sabotageschutz unter Einführung entsprechender Straftatbestände auf eine gesetzliche Grundlage zu stellen?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u174" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg202">Ich könnte die Bereitschaft dazu nicht so ohne weiteres bestätigen. Ich gebe aber zu, daß dies eine Frage ist, die von der Bundesregierung geprüft werden sollte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u175" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg203">Eine Frage des Herrn Abgeordneten Hammans.</seg>
+        </u>
+        <note type="speaker">Dr. Hammans (CDU/CSU) :</note>
+        <u who="#Q1635112" xml:id="ParlaMint-DE_1972-06-15-06-192.u176" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg204">Herr Staatssekretär, stimmt die Bundesregierung mit mir darin überein, daß ein entschlossenes Vorgehen gegen Spionage nicht zu einer Gefährdung der Beziehungen mit der Sowjetunion führen muß, wie das Beispiel Großbritannien gezeigt hat, wo 105 sowjetische Agenten, darunter viele Mitglieder der sowjetischen Botschaft in London, ausgewiesen wurden?</seg>
+        </u>
+        <note type="speaker">Hermsdorf, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft und Finanzen:</note>
+        <u who="#Q1580220" xml:id="ParlaMint-DE_1972-06-15-06-192.u177" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg205">Herr Abgeordneter, ich würde, wenn Sie es mir erlauben, die Frage ein bißchen erweitern wollen, und zwar dahin gehend, daß ich mit Ihnen übereinstimme, daß das Vorgehen gegen Spione, gleich welchem Staat sie angehören, keinesfalls zur Verbesserung der Beziehungen zwischen den Ländern beitragen wird; aber es muß nicht unbedingt zu einem Abbruch der Beziehungen führen.</seg>
+        </u>
+        <incident type="action">
+          <desc>Abg. Dr. Hammans meldet sich zu einer zweiten Zusatzfrage.</desc>
+        </incident>
+        <note type="speaker">Vizepräsident Frau Funcke:</note>
+        <u who="#Q1485298" xml:id="ParlaMint-DE_1972-06-15-06-192.u178" ana="#chair">
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg206">Es tut mir leid.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Hammans: Es waren zwei Fragen, gnädige Frau! Ich hatte mich beizeiten gemeldet!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1972-06-15-06-192.seg207">— Die eine Frage war abgeschlossen. Wir verhandelten jetzt die zweite. Ich bitte um Verständnis, daß wir uns an die Regeln halten müssen. Meine Damen und Herren, die Fragestunde ist damit zu Ende. Ich berufe das Haus auf Freitag, den 16. Juni, vormittags 9 Uhr, ebenfalls zu einer Fragestunde, ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 15.02 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

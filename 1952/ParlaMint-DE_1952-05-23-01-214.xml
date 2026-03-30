@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1952-05-23-01-214">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 1. Wahlperiode, 214. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 23.05.1952 (214. Sitzung der 1. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 1, Session 214 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1952-05-23 (Session 214 in Legislative Period 1)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="214">214. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.01" n="1">1. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="214">Session 214</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.01" n="1">Legislative Period 1</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 23.05.1952</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1952-05-23</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/487966/4078f01fb3198dc3cee8945d6db3b231/pp01-data.zip</idno>
+          <date when="1952-05-23">1952-05-23</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1952-05-23">1952-05-23</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection">
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg1">Meine Damen und Herren! Ich eröffne die 214. Sitzung des Deutschen Bundestages. Ich bitte zunächst den Herrn Schriftführer, die Namen der entschuldigten Abgeordneten bekanntzugeben.</seg>
+        </u>
+        <note type="speaker">Matzner, Schriftführer:</note>
+        <u who="#Q2033860" xml:id="ParlaMint-DE_1952-05-23-01-214.u2" ana="#chair #DE-clerk">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg2">Es suchen für längere Zeit um Urlaub nach die Abgeordneten Kurlbaum für acht Wochen wegen dienstlicher Inanspruchnahme, Kalbfell für weitere vier Wochen wegen Krankheit, Dr. Reismann für drei Wochen wegen dienstlicher Inanspruchnahme,</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe: Ist doch da!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg3">Dr. Bergstraeßer für vier Wochen wegen Krankheit, Frau Hütter für vier Wochen wegen Krankheit, Dr. Becker (Hersfeld)</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg4">für drei Wochen wegen dienstlicher Inanspruchnahme, Junglas für zwei Wochen wegen dienstlicher Inanspruchnahme,</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit und Zurufe</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg5">Heiland für zwei Wochen wegen dienstlicher Inanspruchnahme.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg6">Meine Damen und Herren, die Teilung von Körper und Geist scheint sich hier zu vollziehen; denn einige Abgeordnete, die entschuldigt sind, sehe ich, z. B. Herrn Dr. Reismann und Herrn Junglas. Aber das scheint durch die turbulenten Ereignisse der letzten Woche etwas durcheinandergeraten zu sein. Ich darf annehmen, daß Sie mit der Beurlaubung der wirklich nicht anwesenden Abgeordneten einverstanden sind. — Das ist der Fall.</seg>
+        </u>
+        <note type="speaker">Matzner, Schriftführer:</note>
+        <u who="#Q2033860" xml:id="ParlaMint-DE_1952-05-23-01-214.u4" ana="#chair #DE-clerk">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg7">Entschuldigt fehlen die Abgeordneten Margulies, Dr. Reif, Dr. Gerstenmaier, Dr. Tillmanns, Gockeln, Lemmer, Görlinger, Dr. Schröder (Düsseldorf)</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg8">, Kuhlemann, Dr.-Ing. Decker, Jaffé, Graf von Spreti, Dr. Oesterle, Dr. Pferdmenges, Frau Schroeder (Berlin)</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg9">, Eickhoff, Tobaben, Neumann, Dr. Will, Dirscherl, Dr. Dr. Nöll von der Nahmer, Frau Dr. Maxsein, Mensing, Eichner, Rahn, Dr. Veit, Dr. Atzenroth, Blachstein, Wackerzapp, Dr. Hoffmann (Schönau)</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg10">,. Dr. Friedensburg, Frau Thiele, Vesper, Freiherr von Aretin, Altmaier und Mayer (Stuttgart).</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg11">Ich darf die Herren Abgeordneten, die anwesend sind, obwohl sie sich entschuldigt haben, bitten, das dem Herrn Schriftführer zu sagen, damit das Protokoll einen zutreffenden Bericht über die Anwesenheit der Abgeordneten gibt.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Reismann: Die Mitglieder des Europarats sind heute noch hier!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg12">— Also die Mitglieder des Europarats, die entschuldigt waren, sind im wesentlichen heute noch hier. Meine Damen und Herren, bevor wir weiter vorgehen, darf ich zunächst den für den Herrn Abgeordneten Schröter neu hinzugetretenen Abgeordneten Dr. Bartram in unserem Kreise begrüßen, ebenso den für den Herrn Abgeordneten Lohmüller neu eingetretenen Abgeordneten Wehr. Ich darf beide Herren herzlich in unserem Kreise begrüßen und ihnen eine erfolgreiche Arbeit wünschen.</seg>
+          <vocal type="exclamat">
+            <desc>Bravo!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg13">Meine Damen und Herren, ich habe auf Antrag von mehr als einem Drittel der Abgeordneten des Bundestages gemäß Art. 39 Abs. 3 Satz 3 des Grundgesetzes den Bundestag auf heute zu einer Sitzung einberufen. Ich habe mich, wie ich in einem Schreiben an die Fraktionen zur Kenntnis gebracht habe, nicht in der Lage gesehen, die Tagesordnung, die von den Antragstellern vorgeschlagen worden ist, von mir aus auf die Tagesordnung zu setzen, sondern habe es dem Bundestag überlassen, die Tagesordnung selbst festzusetzen. Zur Festsetzung dieser Tagesordnung wünscht im Rahmen der Geschäftsordnung Herr Abgeordneter Dr. Arndt das Wort zu nehmen. Ich bitte ihn, das zu tun.</seg>
+        </u>
+        <note type="speaker">Dr. Arndt (SPD):</note>
+        <u who="#Q90819" xml:id="ParlaMint-DE_1952-05-23-01-214.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg14">Herr Präsident! Meine Damen und Herren! Das Grundgesetz hat durch Art. 39 einem Drittel der Bundestagsmitglieder die Befugnis gewährt, die Einberufung des Bundestages zu verlangen. Dieser Anspruch kann nur den Sinn haben, daß der Bundestag auch mit d e r Tagesordnung einberufen wird, die dem Begehren zugrunde liegt. Nach unserer Überzeugung steht deshalb auf der Tagesordnung die Sache, deretwegen der Bundestag einberufen ist, und Sie sollten nicht glauben, Sie könnten nachher dem Grundgesetz mit irgendwelchen Mitteln der Geschäftsordnung beikommen, indem Sie sich vorstellen, daß fünf Abgeordnete dazu genügen, einer Tagesordnung zu widersprechen.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe rechts.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg15">Die von der Verfassung geschützte Minderheit soll das Recht haben, mit ihrem Anliegen gehört zu werden und es vertreten zu können.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD und FU.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg16">Infolgedessen steht nach unserer Auffassung der Bericht des Auswärtigen Ausschusses über den Antrag der Sozialdemokratischen Partei betreffend Unterrichtung über das Vertragswerk (Drucksache Nr. 3363)</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg17">bereits auf der Tagesordnung, und nach unserer Auffassung gehört auch dazu der Antrag aus der Drucksache Nr. 3392, über den Generalvertrag und den Vertrag über die Europäische Verteidigungsgemeinschaft vor der Unterzeichnung ein. Weißbuch mit den Vertragstexten vorzulegen. Einige Überschlaue allerdings, die immer noch nicht begreifen, was Volksvertretung bedeutet, haben errechnet,</seg>
+          <vocal type="exclamat">
+            <desc>Unruhe und Zurufe rechts</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg18">daß diese Sitzung 35 000 DM Ausgaben verursache. Aber da kosten ja zwei Minuten Verteidigungsbeitrag mehr!</seg>
+          <kinesic type="applause">
+            <desc>Lebhafter Beifall bei der SPD, der KPD, der FU und ganz rechts.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg19">Denn bei 850 Millionen im Monat, die die Bundesregierung bewilligen will, müssen für jede Minute etwa 20 000 DM gezahlt werden.</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg20">Und hat man vergessen, daß 1933 die Abschaffung des Parlaments den Wohlstand der ganzen Nation opferte? Wir sind nicht gewillt, jetzt hier Debatten über die Geschäftsordnung zu führen. Wir behalten uns vor, Ergänzungen zur Geschäftsordnung vorzulegen, um für die Zukunft zu sichern, daß einem Recht aus dem Grundgesetz nicht wieder formalistische Einwände entgegengesetzt werden. Heute sind wir nicht hier, um über Formalien zu streiten. Es geht uns um die Schicksalsfrage der Nation!</seg>
+          <kinesic type="applause">
+            <desc>Lebhafter Beifall bei der SPD und der FU. Zurufe von den Regierungsparteien.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg21">Deshalb ist meine Aufgabe, zu begründen, warum wir die Einberufung des Bundestages gefordert haben und warum nach unserer Überzeugung auf der Tagesordnung steht, daß der Ausschuß für auswärtige Angelegenheiten uns zu berichten hat</seg>
+          <vocal type="exclamat">
+            <desc>fortgesetzte Zurufe von den Regierungsparteien</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg22">und daß die Bundesregierung vor Unterzeichnung der Verträge durch Vorlage eines Weißbuches mit den Texten aller Abkommen die Möglichkeit zur Aussprache zu geben hat. Wir rechtfertigen diese Tagesordnung mit der Art, dem Zeitpunkt und den Wirkungen der geplanten Verträge. Man kann uns nicht einwenden, daß es allein Sache der Regierung sei, zu verhandeln. Denn die Unterzeichnung ist kein Akt des Verhandelns mehr. Ehe sie unterschreibt, kann und muß die Regierung also dem zu ihrer Kontrolle berufenen Parlament Aufschluß geben, was sie als angeblich unterschriftsreif ausgehandelt hat. Der erste Grund hierfür ist: Es handelt sich um Verträge besonderer und außerordentlicher Art, ihrem Wesen nach um ein unwiderrufliches Stück Ersatzfrieden. Immer aber sind solche Vertragsentwürfe erst im Parlament beraten, bevor man sie unterschrieb. Die Weimarer Nationalversammlung hat sich dieses Recht nicht nehmen lassen. In diesen Tagen erst hat das britische Unterhaus über unser Thema debattiert, und soeben haben die außenpolitischen Ausschüsse der französischen Nationalversammlung und des Rates der Republik Frankreich beschlossen, vor der Unterzeichnung diese Entwürfe zu beraten.</seg>
+          <vocal type="exclamat">
+            <desc>Hört! Hört! links und ganz rechts.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg23">Dabei handelt es sich für die anderen Vertragspartner doch nur um einen Vorgang ihrer Außenpolitik, für uns dagegen um ein Stück Verfassung, unter der wir leben sollen, um eine Art Übergrundgesetz. Es wäre wirklich erschütternd, sich heute am dritten Jahrestag des Bonner Grundgesetzes vorstellen zu müssen, daß dieses Grundgesetz schon wieder in den letzten Zügen liege. Will die Bundesregierung diese Unterrichtung des Bundestages verweigern, will sie ihm das Wort abschneiden, so setzt sie sich in Widerspruch zu der einzig möglichen Auffassung von parlamentarischer Demokratie, die in allen anderen Kulturvölkern der Welt lebendig ist.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg24">Unter allen Umständen muß der Bundestag selbst hier und heute beweisen, daß er die Vertretung des Volkes ist. Noch am 3. Mai dieses Jahres hat der Herr Kollege St r a uß als Fraktionsvorsitzender der CSU im „Münchner Merkur" erklärt — ich darf mit Genehmigung des Herrn Präsidenten einige Stellen wörtlich verlesen —:</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg25">Die Fraktion der CDU/CSU ... kann es aber mit ihrem politischen Gewissen und ihrer Verantwortung für das deutsche Volk in der Bundesrepublik und darüber hinaus im gesamten Deutschland nicht vereinbaren, in einer für seine zukünftige Existenz wirklich lebenswichtigen Entscheidung unter Zeitdruck gesetzt zu werden</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg26">und deshalb ohne genaue Prüfung aller Punkte dieses Vertrags Bestimmungen hinzunehmen, die vom deutschen Standpunkt aus und im Sinne der europäischen Schicksalsgemeinschaft als eine große Belastung empfunden werden müssen.</seg>
+          <vocal type="exclamat">
+            <desc>Erneute Zurufe von der SPD: Hört! Hört! — Abg. Strauß: Wir haben geprüft!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg27">Beim Abschluß solcher Vertragswerke — Herr Kollege Strauß, haben Sie gesagt — darf es nicht auf einige Tage oder auch Wochen ankommen.</seg>
+          <vocal type="exclamat">
+            <desc>Hört! Hört! links.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg28">Wenn bis zum 20. Mai die strittigen Punkte nicht geklärt sind, dann darf eben erst zu einem späteren Zeitpunkt unterzeichnet werden. Dann, Herr Kollege Strauß, haben Sie folgenden Satz geprägt:</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg29">Die Fraktion der CDU/CSU hat immer betont, daß sie y o r der Unterzeichnung die Verträge noch kennenlernen und auf ihre abschließende Gestaltung noch Einfluß nehmen wolle. Genau das ist es, was wir hier fordern, nicht wahr? Und wo ist Ihr Mut geblieben?</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD. — Abg. Strauß: Sie sind schlecht orientiert, Herr Arndt!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg30">Der zweite Grund zur Rechtfertigung dieser Tagesordnung ist: Sie können uns nicht mit der Ausrede abspeisen, daß formaljuristisch die Unterschrift noch keine rechtlichen Wirkungen erzeuge. Alle Welt weiß. die Unterschrift ist ein politisches Ereignis, sie hat politisches Gewicht und politische Folgen. Warum soll sie wohl im gleichen Saal geleistet werden, wo das Grundgesetz entstand? Warum soll sie mit einem Fackelzug gefeiert werden,</seg>
+          <vocal type="exclamat">
+            <desc>Hört! Hört! links</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg31">obwohl schon einmal ein Fackelzug damit endete, daß ganz Deutschland brannte?</seg>
+          <kinesic type="applause">
+            <desc>Stürmischer Beifall bei der SPD, KPD, FU und ganz rechts. — Abg. Dr. Wuermeling: Der Vergleich ist unerhört! — Zuruf des Abg. Strauß.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg32">Warum will die Regierungskoalition sich selbst an feierlichen Empfängen beteiligen? Wollen Sie, meine Damen und Herren von der Regierungskoalition, sich als Abgeordnete in die Lage begeben, auf diesen Festlichkeiten über etwas zu jubilieren, was Sie gar nicht kennen und was öffentlich zu beraten Sie abgelehnt haben? Aber noch weiter: der Herr Bundesminister des Innern, Herr Dr. Lehr, hat durch Fernschreiben die Landesregierungen ersucht, am Tag der Unterzeichnung, am kommenden Montag, die Lehrer zu veranlassen, sie sollten die Schulkinder</seg>
+          <vocal type="exclamat">
+            <desc>Rufe von der SPD: Hört! Hört! Pfui! — Weitere Zurufe links und ganz rechts</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg33">auf die Bedeutung dieses Vertragswerkes hinweisen, sie sollten schulfrei geben,</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Loritz: Das haben wir schon einmal erlebt! — Hört! Hört! und weitere Zurufe von der SPD</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg34">die Gebäude sollten beflaggt werden.</seg>
+          <vocal type="exclamat">
+            <desc>Stürmische Zurufe von der SPD, KPD, FU und ganz rechts.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg35">Das ist ein Mißbrauch wehrloser Kinder! Aber vor allen Dingen beweist es doch, daß die Bundesregierung dem Akt der Unterzeichnung eine ganz besondere politische Bedeutung beimißt. Angesichts dieser Vorbereitungen und aller Umstände können Sie doch nicht abstreiten, daß die geplante Unterschrift mehr ist als ein Federzug, der seine Kraft erst von einem späteren Zustimmungsgesetz bekommen soll.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Horlacher: § 25 der Geschäftsordnung?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg36">Die Begründung zur Tagesordnung, warum wir es für wichtig halten, hierüber zu reden: Diese Unterschrift würde ein politisches Eigengewicht von unübersehbarer und verhängnisvoller Tragweite haben. Diese Unterschrift soll absichtlich in einem sachlichen und zeitlichen Zusammenhang mit den gegenwärtig schwebenden Viermächteverhandlungen über die Aufrechterhaltung der deutschen Einheit stehen. Unsere Tagesordnung ist daher durch das Gebot gerechtfertigt: der Bundestag muß wissen und entscheiden, was diese Unterschrift bedeutet, solange noch die Tür of fen ist zu Viermächteverhandlungen über gesamtdeutsche Wahlen und die Einheit der Bundesrepublik Deutschland.</seg>
+          <kinesic type="applause">
+            <desc>Lebhafter Beifall bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg37">Der dritte und letzte Grund, der unsere Tagesordnung rechtfertigt, sind die Wirkungen, die zu behaupten die Bundesregierung sich bemüht. Die Bundesregierung sagt ja selbst gar nicht, daß die geplante Unterschrift ein Nichts sei, solange der Bundestag noch keine Möglichkeit zur Beratung und Entscheidung hatte. Mit einem ungeheuerlichen Propagandaaufwand will die Bundesregierung glauben machen, daß die Unterzeichnung von Verträgen, deren Texte dem Bundestag vorenthalten werden, Souveränität und Sicherheit vollende und Europa begründe. Hierüber zu urteilen und sich selbst anzupreisen, ist allerdings nicht das Amt einer Bundesregierung. Wir bestehen auf dem Recht des Bundestages, darüber zu wachen, daß keine politischen Tatsachen vollendet werden, die er nicht verantworten will. Unsere Pflicht ist es, als die Volksvertretung das Grundgesetz zu wahren, das in seinem Vorspruch das gesamte deutsche Volk auffordert, in freier Selbstbestimmung die Einheit und Freiheit Deutschlands zu vollenden. Ehe daher der Herr Bundeskanzler seinen Namen unter ein Vertragswerk setzt, das im Widerspruch zum Grundgesetz zwischen Deutschland und der Bundesrepublik unterscheidet und die an Saar und Elbe verstümmelte Trizone als angebliche „Bundesrepublik" verselbständigt, muß uns das Wort gegeben werden, um rechtzeitig begründen zu können:</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg38">Diese Vertragsentwürfe bringen keine Freiheit, sondern die Versteinerung der Besatzungsgewalt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg39">Diese Vertragsentwürfe bringen keine Gleichberechtigung, sondern verewigen die Ungleichheit. Diese Vertragsentwürfe bringen keine Einheit Deutschlands, sondern besiegeln die Teilung.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Anhaltender lebhafter Beifall bei der SPD. — Abg. Dr. Wuermeling: Sie sagen doch, Sie kennen sie gar nicht!</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u7" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg40">Ich habe Herrn Abgeordneten Dr. Arndt dahin verstanden, daß er den mir schriftlich zugeleiteten Tagesordnungsvorschlag begründet hat, nämlich auf die Tagesordnung zu setzen erstens den Bericht des Ausschusses für das Besatzungsstatut und auswärtige Angelegenheiten</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf rechts: Gibt es doch gar nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg41">über den Antrag der SPD betreffend Unterrichtung des Ausschusses über die in Drucksache Nr. 3363 genannten Vertragswerke. Diesen Bericht konnte ich schon deswegen nicht auf die Tagesordnung setzen, weil er mir erst vor 25 Minuten im Original zugegangen ist und ich keine Möglichkeit hatte, den Bericht vervielfältigen zu lassen oder ihn auch nur rechtzeitig an die Abgeordneten zu verteilen. Weiter habe ich Herrn Abgeordneten Dr. Arndt dahin verstanden, daß der Antrag der SPD betreffend Generalvertrag und Vertrag über die Europäische Verteidigungsgemeinschaft, Drucksache Nr. 3392, auf die Tagesordnung gesetzt werden soll. Ich habe Sie richtig verstanden, Herr Abgeordneter Dr. Arndt?</seg>
+          <kinesic type="kinesic">
+            <desc>Zustimmung.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg42">Einen weiteren Antrag zur Tagesordnung wünscht Herr Abgeordneter Dr. Reismann für die Fraktion der Föderalistischen Union zu stellen.</seg>
+        </u>
+        <note type="speaker">Dr. Reismann (FU):</note>
+        <u who="#Q825787" xml:id="ParlaMint-DE_1952-05-23-01-214.u8" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg43">Herr Präsident! Meine Damen und Herren! Aus den Gründen, die Herr Dr. Arndt unter Zitierung von Herrn Kollegen Strauß soeben dargelegt hat, beantragt die Föderalistische Union, der Bundestag wolle beschließen, folgenden Antrag auf die Tagesordnung zu nehmen:</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg44">Der Bundestag wolle beschließen:</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg45">Der Bundeskanzler wird ersucht, die Entscheidung -über die Unterzeichnung der Verträge mit den Alliierten (Generalvertrag mit Zusatzverträgen und Vertrag über die Europäische Verteidigungsgemeinschaft) zurückzustellen, bis deren Beratung im Ausschuß für das Besatzungsstatut und auswärtige Angelegenheiten abgeschlossen und darüber Bericht erstattet ist. Wir sind der Ansicht, es wäre des Hohen Hauses unwürdig, über etwas zu beschließen, das wir nicht einmal kennen, über etwas zu beschließen, das wir nicht mehr ändern können. Denn die Genehmigung, die Ratifizierung wäre nichts anderes als der Schlußpunkt. Wir haben mit Ja oder Nein zu stimmen. Wir müssen das vorher durchgesprochen und durchberaten haben, zumal es sich um eine so lebenswichtige Angelegenheit für das ganze deutsche Volk handelt.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u9" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg46">Sie haben den Antrag des Herrn Abgeordneten Dr. Reismann gehört. Dafür, daß dieser Punkt oder ähnliche Punkte auf die Tagesordnung gesetzt werden, wünscht Herr Abgeordneter Rische im Rahmen der Geschäftsordnung zu sprechen.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg47">— Ich bin nicht unterrichtet, welchen Antrag Herr Abgeordneter Rische stellt. Deshalb muß ich das in so unbestimmter Form sagen.</seg>
+        </u>
+        <note type="speaker">Rische (KPD):</note>
+        <u who="#Q1253189" xml:id="ParlaMint-DE_1952-05-23-01-214.u10" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg48">Herr Präsident! Meine Damen und Herren! Im Namen des Volkes</seg>
+          <kinesic type="laughter">
+            <desc>Gelächter in der Mitte und rechts</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg49">— der übergroßen Mehrheit — stelle ich zur heutigen Sitzung des Deutschen Bundestages folgenden Antrag der Fraktion der KPD:</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg50">Der Bundestag wolle beschließen:</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg51">1. Der Bundeskanzler wird aufgefordert, der heutigen Sitzung des Deutschen Bundestages die Texte des Generalvertrages —</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg52">Herr Abgeordneter Rische, darf ich Sie unterbrechen. Ich gebe Ihnen die Möglichkeit, zur Tagesordnung zu sprechen. Haben Sie 15 Unterschriften unter Ihrem Antrag?</seg>
+        </u>
+        <note type="speaker">Rische (KPD):</note>
+        <u who="#Q1253189" xml:id="ParlaMint-DE_1952-05-23-01-214.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg53">Ich möchte dann um die erforderliche Anzahl von Unterschriften ersuchen. Ich bin der Meinung, daß sich in diesem Hause genügend Damen und Herren finden, die diesen Antrag meiner Freunde unterstützen werden.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg54">Sie haben das Wort zur Geschäftsordnung. Die Frage der Antragstellung können wir ja später klären.</seg>
+        </u>
+        <note type="speaker">Rische (KPD):</note>
+        <u who="#Q1253189" xml:id="ParlaMint-DE_1952-05-23-01-214.u14" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg55">Ich möchte zunächst diesen Antrag hier verlesen und ihn dann begründen, weil er zu der Tagesordnung gestellt ist, über die jetzt hier von diesem Hause entschieden werden soll. Ich möchte fortfahren:</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg56">1. Der Bundeskanzler wird aufgefordert, der heutigen Sitzung des Deutschen Bundestages die Texte des Generalvertrages, der Zusatzverträge sowie des sogenannten Vertrages über die „Europäische Verteidigungsgemeinschaft" vorzulegen. 2. Der Bundeskanzler wird aufgefordert, in der heutigen Sitzung des Plenums über seine Verhandlungen mit den Vertretern der Westmächte über die genannten Verträge Bericht zu erstatten. 3. Dem Bundeskanzler wird untersagt, seine Unterschrift unter die genannten Verträge zu setzen, die die Lebensinteressen des deutschen Volkes und den Frieden bedrohen und die Spaltung Deutschlands vertiefen. Unser deutsches Volk befindet sich in einer großen Gefahr. Es steht heute an einem Wendepunkt seiner Geschichte. Das deutsche Volk will keinen Vertrag, der im Auftrage fremder Mächte Deutschland spaltet, das deutsche Volk will in seiner Mehrheit an Stelle eines Kriegsvertrages einen Friedensvertrag.</seg>
+          <vocal type="exclamat">
+            <desc>Sehr wahr! bei der KPD.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg57">Diese Forderung wird von allen Teilen des deutschen Volkes getragen, kommt aus allen Parteien, allen Konfessionen, allen Richtungen, insbesondere aber aus der deutschen Jugend. Es wurde schon darauf hingewiesen, daß heute der dritte Jahrestag der Unterzeichnung des Grundgesetzes ist. An diesem Tage sollen in der Tat durch diesen Schandvertrag die demokratischen Bestimmungen des Grundgesetzes, soweit sie dort vorhanden sind, zu Grabe getragen werden. Ich möchte hier im Namen meiner Freunde erklären: die Unterzeichnung des Generalvertrages bedeutet, die Politik des offenen Staatsstreichs zu betreiben.</seg>
+          <vocal type="exclamat">
+            <desc>Sehr richtig! bei der KPD.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg58">Denn das deutsche Volk will nicht, daß ein Vertrag unterzeichnet wird, der der Mehrheit unseres Volkes nicht bekannt ist. Unser deutsches Volk will gehört werden. Unser deutsches Volk verlangt keinen Generalvertrag, sondern den Friedensvertrag. Heute trägt jeder einzelne die Verantwortung. Diese Verantwortung wird keinem der Herren Abgeordneten in diesem Hause vom deutschen Volke genommen werden. Eine Unterschrift wiegt schwer, und jeder, der unterschreibt, wird zur Rechenschaft gezogen.</seg>
+          <vocal type="exclamat">
+            <desc>Hört! Hört! in der Mitte.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg59">Dr. Adenauer glaubt sich hinter dem Rücken des amerikanischen Außenministers Acheson sicher. Gegen ihn steht aber das ganze deutsche Volk und alle anderen um den Frieden bangenden Völker. Wir sagen ganz klar vor dem ganzen deutschen Volk und insbesondere vor der Arbeiterschaft, ein 1932 und 1933 darf und wird sich nicht wiederholen.</seg>
+          <vocal type="exclamat">
+            <desc>Sehr gut! bei der KPD.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg60">Dafür bürgen schon die Arbeiter, die jetzt in machtvollen Demonstrationen und Streiks gegen den Staatsstreich</seg>
+          <kinesic type="kinesic">
+            <desc>Aha! in der Mitte</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg61">der Reaktionäre und Kriegstreiber ankämpfen. Die Bevölkerung in Westdeutschland ist sich darüber im klaren, daß nicht nur Einzelpersönlichkeiten die Verantwortung tragen, sondern daß die Verantwortung in dieser historischen Stunde besonders bei jenen Parteien liegt, die sich gegen den Generalvertrag erklärt haben. Eine große Verantwortung trägt insbesondere die Sozialdemokratische Partei. Es kommt nicht nur darauf an, von dieser Tribüne aus die Politik des Bundeskanzlers, seinen autoritären Kurs zu beschießen, sondern man muß ein Aktionsprogramm des ganzen Volkes haben,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der KPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg62">um die Unterzeichnung des Generalvertrages zu verhindern, um zu verhindern, daß dieser Vertrag Unglück und Elend über unser deutsches Volk bringt. Das deutsche Volk wird antworten. Es wird sich den Staatsstreich nicht gefallen lassen. Das deutsche Volk wird kämpfen. Die Arbeiter werden mit den Mitteln des Streiks antworten.</seg>
+          <vocal type="exclamat">
+            <desc>Aha! in der Mitte.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg63">Dieser Kampf wird siegreich sein; denn der Staatsstreich der Bundesregierung stößt auf den Widerstand des kämpfenden Volkes.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u15" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg64">Herr Abgeordneter Loritz wünscht, zur Geschäftsordnung das Wort zu nehmen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dr. Mende: Welche Koalition! Eine herrliche Koalition!</desc>
+        </vocal>
+        <note type="speaker">Loritz (Fraktionslos):</note>
+        <u who="#Q101543" xml:id="ParlaMint-DE_1952-05-23-01-214.u16" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg65">Meine Damen und Herren! Ich möchte davor warnen, eine Bestimmung der Verfassung, die dann in § 25 der Geschäftsordnung übernommen wurde, falsch auszulegen. Sie wissen, es ist ein Minderheitsrecht, daß ein Drittel der Abgeordneten des Bundestags jederzeit die Einberufung des Parlaments verlangen und erzwingen kann. Ich mache darauf aufmerksam, daß es unter gar keinen Umständen der Sinn der Verfassung sein kann, in diesem Fall das zuzulassen, was Sie, meine Damen und Herren von den Regierungsparteien, möchten und wahrscheinlich in den nächsten Minuten tun wollen, indem Sie einen Vertagungsantrag oder ähnliches stellen. Denn sonst wäre die Bestimmung des Art. 39 überhaupt nicht in das Grundgesetz aufgenommen worden, wenn sie nur den Zweck haben sollte, daß die Damen und Herren des Bundestags hier zusammenkommen und dann durch einen Vertagungsantrag wieder zur Tür hinausgeschickt werden. Darum warne ich Sie: operieren Sie hier nicht mit diesem Mittel, mit diesem Kniff des Vertagungsantrages! Eines möchte ich Ihnen noch sagen: Bitte begreifen Sie doch den Ernst der Lage, und tragen Sie nicht weiter mit Ihren Kräften dazu bei, daß sogar wohlmeinende Organe des Auslandes schreiben: dieser Deutsche Bundestag habe sich selbst entmannt und ausgeschaltet. So schreibt „Die Tat" in ihrem Artikel vom Samstag vor vierzehn Tagen. Das ist kein kommunistisches Blatt, das ist ein Blatt, das uns wie fast die ganze Schweiz in bezug auf die Führung der deutschen Außenpolitik stets sehr sympathisch gegenübergestanden hat. Solche Artikel aus wohlmeinenden Kreisen des Auslandes müssen wir hier bereits hinnehmen! Ja, schämen wir uns denn nicht, daß solche Zeitungen bereits so schreiben dürfen! Will dieser Bundestag denn weiterhin solchen Zeitungen Gelegenheit geben, mit solchen Artikeln kommen zu können? Wissen Sie, was ausländische Zeitungen weiter schreiben? Ich zitiere nochmals „Die Tat" — und ich würde Ihnen empfehlen, es zu lesen —: Die sogenannte Europa-Armee ist nichts als ein Hokus-Pokus". Das schreibt „Die Tat" in ihrer Nummer vom 10. Mai 1952. Und hier sollen wir nicht einmal über so eine Europa-Armee und den deutschen Beitrag dazu debattieren dürfen?! Hier sollen wieder Fackelzüge veranstaltet werden! Es ist schon genug in Deutschland „gefackelt" worden. Wir wissen, wohin wir mit dieser Fackelei gekommen sind. In Blut und Elend sind wir hineingetrieben worden. Wie war es noch vor sieben Jahren? Ich rufe Ihre Erinnerung herauf: Wir sind damals in den Kellern dringesessen bei den Bombenangriffen und haben uns geschworen: Wir lassen es uns nicht mehr bieten, daß ein einziger Mann oder eine kleine Clique in diesem Land mit dem Volk machen kann, was sie will, ohne das Volk vorher genau zu fragen. Und jetzt nach kaum sieben Jahren ist es wieder so weit, daß deutsche Zeitungen, offenbar um die Gier gewisser Rüstungsindustrieller zu kitzeln schon mit Überschriften herauskommen im Großformat: Rüstungsaufträge für die deutsche Industrie.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg66">Und hier soll nicht debattiert werden über diese Punkte?! Ich fordere Sie alle auf, meine Damen und Herren, hier eine Aussprache durch die gewählten Abgeordneten des Bundestags zu erzwingen , damit Sie sich nicht wiederum mitschuldig machen wie damals die unglückseligen Jasager zum Ermächtigungsgesetz 1933, von denen bei Ihnen leider ein erheblicher Teil heute noch herinnensitzt. Machen Sie sich nicht nochmals mitschuldig an einer neuen und dann endgültigen Katastrophe für unser armes deutsches Vaterland!</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg67">Meine Damen und Herren, ich habe noch zwei Wortmeldungen zur Geschäftsordnung; ich glaube, daß wir dann am Ende der Geschäftsordnungsdebatte sein können. Herr Dr. Keller!</seg>
+        </u>
+        <note type="speaker">Dr. Keller (Fraktionslos):</note>
+        <u who="#Q2571234" xml:id="ParlaMint-DE_1952-05-23-01-214.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg68">Herr Präsident! Meine Damen und Herren! Als einer derer, die mit ihrer Unterschrift für die Einberufung der heutigen Sitzung mit eingetreten sind, möchte ich nur ganz kurz sagen: Ich würde es für gefahrvoll und unerträglich halten, wenn die Kenntnis derart folgenschwerer und unübersichtlicher Vertragswerke vor der Unterzeichnung der obersten Vertretung des deutschen Volkes, dem Deutschen Bundestag, vorenthalten werden würde.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD und bei der KPD.</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u19" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg69">Das Wort hat Herr Abgeordneter Dr. Krone.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Kohl {Stuttgart]: Jetzt kommt der Modelldemokrat!</desc>
+        </vocal>
+        <note type="speaker">Dr. Krone (CDU):</note>
+        <u who="#Q69130" xml:id="ParlaMint-DE_1952-05-23-01-214.u20" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg70">Herr Präsident! Meine Damen und Herren! Im Namen der Fraktionen der CDU/ CSU, der FDP und der DP</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der KPD: Auch der einzelnen Mitglieder der Fraktionen?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg71">habe ich zu den Ausführungen des Herrn Kollegen Arndt folgende Erklärung abzugeben. Niemand in diesem Hause, niemand in Deutschland und niemand in der Welt hat den geringsten Zweifel, daß das deutsche Volk mit dem Deutschlandvertrag und dem gesamten Vertragswerk</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der KPD: Generalsvertrag!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg72">vor eine Frage von schicksalsschwerer Bedeutung gestellt wird. Es geht darum, ob es in der großen Gefahr, in der wir uns befinden, gelingt, wenigstens mit einem Teil der Völker, mit denen wir noch vor wenigen Jahren in einer erbitterten Auseinandersetzung gestanden haben, zu einer dauerhaften Verständigung zu kommen;</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der KPD: Kriegshetzerei!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg73">eine Verständigung, welche Sicherheit, Frieden und Freiheit unserem deutschen Volke garantiert.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Fisch: Warum haben Sie dann solche Angst, die Texte bekanntzugeben?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg74">Das Hohe Haus, das ganze deutsche Volk hat Anspruch darauf, jede Einzelheit des Vertragswerkes kennenzulernen</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der SPD: Darum wollen wir die Aussprache! — Zuruf von KPD: Heute!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg75">und über den Vertrag und jede seiner Bestimmungen in Freiheit und Offenheit zu diskutieren.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der SPD: V o r der Unterschrift! — Weiterer Zuruf links: Nur mit Ja oder Nein stimmen?!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg76">Bevor es zu einer Beratung dieses Vertrages kommt,</seg>
+          <vocal type="exclamat">
+            <desc>Erneute lebhafte Zurufe links: Unterschrift!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg77">wird und muß jeder Deutsche und nicht zuletzt das deutsche Volk jenseits des Eisernen Vorhangs wissen, welche Rechte unser Volk aus dem Vertrag erwirbt und welche Pflichten es übernimmt. Die Unterzeichnung des Vertrages durch die Bundesregierung ist noch kein Akt, welcher das deutsche Volk und sein Parlament bindet.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe links.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg78">Der Vertrag erlangt erst Rechtskraft, nachdem der Deutsche Bundestag und die Parlamente der anderen am Vertrage beteiligten Länder ihre Zustimmung in Gesetzesform erteilt haben.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Rische: Warum kommt denn Acheson?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg79">Bis zu dem Tage, an welchem der Deutsche Bundestag als die vom deutschen Volke berufene Vertretung der Bundesrepublik über die Annahme oder die Ablehnung des Vertrages entscheidet, wird noch längere Zeit vergehen.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Fisch: Kommt denn Acheson zum Skatspielen hierher?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg80">In seinen Grundzügen ist hier in diesem Hohe Hause über das Vertragswerk schon zweimal diskutiert worden.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Rische: Aus der Westentasche Adenauers heraus!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg81">Der Vertragstext wird sofort nach der Unterzeichnung bekanntgegeben werden.</seg>
+          <vocal type="exclamat">
+            <desc>Lebhafte Zurufe links: Vorher!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg82">In den kommenden Wochen hat das deutsche Volk in der Bundesrepublik Gelegenheit,</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der KPD: Heute!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg83">alle Einzelheiten des Vertragswerks kennenzulernen, sich eine Meinung zu bilden und diese Meinung in aller Offenheit und ohne Einschränkung bekanntzugeben.</seg>
+          <vocal type="exclamat">
+            <desc>Erneute lebhafte Zurufe links.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg84">Nach dem Abschluß dieser öffentlichen Diskussion hat der Bundestag als der Vertreter des Volkes das Recht und die Pflicht, zu dem Vertrag ja oder nein zu sagen.</seg>
+          <vocal type="exclamat">
+            <desc>Widerspruch links. — Abg. Loritz: Wenn die Kuh aus, dem Stall ist, dann macht Ihr die Tür zu!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg85">Das Verlangen der Sozialdemokratie, y o r der Unterzeichnung in eine Erörterung einzutreten, ist unmöglich.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Loritz: Oho! Warum denn?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg86">Es entspricht nicht der Verfassung,</seg>
+          <kinesic type="applause">
+            <desc>lebhafter Widerspruch bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg87">nicht der Geschäftsordnung dieses Hohen Hauses und nicht der internationalen Übung,</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Schäfer: Richtig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg88">welche auch in diesem Falle von den Regierungen und den Parlamenten der anderen am Vertragswerk beteiligten Völker innegehalten wird.</seg>
+        </u>
+        <kinesic type="signal">
+          <desc>Abg. Dr. Arndt: Stimmt ja gar nicht! — Weitere lebhafte Zurufe von der SPD. — Glocke des Präsidenten.</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg89">Meine Damen und Herren, die Erklärungen der übrigen Redner sind ruhig angehört worden. Ich bitte doch darum, das auch hier zu tun.</seg>
+        </u>
+        <note type="speaker">Dr. Krone (CDU):</note>
+        <u who="#Q69130" xml:id="ParlaMint-DE_1952-05-23-01-214.u22" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg90">Es ist unmöglich, einen Vertrag, an dem nicht nur das deutsche Volk, sondern auch andere Völker ebenso entscheidend beteiligt sind, unter ständiger Beeinflussung durch die widerstreitenden Meinungen und Interessen der Parlamente der beteiligten Länder auszuhandeln.</seg>
+          <vocal type="exclamat">
+            <desc>Lebhafter Widerspruch links.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg91">Der Akt des Verhandelns muß den Regierungen überlassen werden,</seg>
+          <kinesic type="applause">
+            <desc>Sehr richtig! bei den Regierungsparteien</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg92">den Regierungen, welche die Völker zu ihrer Vertretung bestimmt haben.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. von Brentano: Sehr gut!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg93">Die Freiheit, den Vertrag</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der KPD: Wie in der Krolloper!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg94">anzunehmen oder abzulehnen, bleibt den Völkern und ihren Parlamenten nach der Unterzeichnung unbenommen.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Fisch: Einen Gesangverein wollt ihr machen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg95">Meine Damen und Herren! Denjenigen Mitgliedern dieses Hauses und dem Teil der deutschen Öffentlichkeit, welche von der gestern abend von dem Herrn Vorsitzenden der Sozialdemokratischen Partei gegenüber einer ausländischen Nachrichtenagentur abgegebenen Erklärung noch keine Kenntnis genommen haben,</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf links: Nicht ablenken!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg96">soll sie von der Tribüne dieses Hauses noch einmal ausdrücklich wiederholt werden.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. von Brentano: Sehr gut! — Abg. Erler: Warum nicht auch der Vertragstext?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg97">Herr Dr. Schumacher hat erklärt:</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg98">Die Sozialdemokraten werden ihren Kampf gegen das Vertragswerk auf den Tenor abstimmen: Wer diesem Generalvertrag zustimmt, hört auf, ein Deutscher zu sein.</seg>
+          <kinesic type="kinesic">
+            <desc>Stürmische Pfui-Rufe von den Regierungsparteien. — Händeklatschen bei der KPD. — Unruhe. — Abg. Strauß: Da klatschen sie, die Herren von der KPD! — Abg. Kohl [Stuttgart]: Das ist eine eherne Wahrheit! — Zurufe rechts: Unerhört! — Lumpen! — Abg. Strauß: Der Dank Moskaus ist sicher!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg99">Herr Dr. Schumacher hat ferner erklärt, die Einladung des sozialdemokratischen Ministerpräsidenten Kopf, in seiner Eigenschaft als Präsident des Deutschen Bundesrates an der Unterzeichnung der Verträge teilzunehmen, sei eine Schamlosigkeit.</seg>
+          <vocal type="exclamat">
+            <desc>Lebhafte Rufe von den Regierungsparteien: Hört! Hört!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg100">Mit Empörung und Erschütterung stellen wir fest: Wer andern die Ehre abschneidet, begibt sich selbst der Ehre.</seg>
+          <kinesic type="applause">
+            <desc>Anhaltender lebhafter Beifall bei den Regierungsparteien.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg101">Meine Herren von der Sozialdemokratie, wir lehnen Ihren Antrag ab!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Erneuter lebhafter Beifall bei den Regierungsparteien. — Lebhafte Gegenrufe links.</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg102">Der Herr Abgeordnete Goetzendorff wünscht als letzter, zur Geschäftsordnung zu sprechen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der Mitte: Der fehlt noch!</desc>
+        </vocal>
+        <note type="speaker">Goetzendorff (Fraktionslos):</note>
+        <u who="#Q1560507" xml:id="ParlaMint-DE_1952-05-23-01-214.u24" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg103">Herr Präsident! Meine Damen und Herren! Ich möchte hier Widerspruch einlegen gegen die unerhörte Art und Weise, den Abgeordneten dieses Hohen Hauses zuzumuten, sich nach der Unterzeichnung °des Generalvertrages durch den Herrn Bundeskanzler aus der Zeitung über den Inhalt des Vertrages zu informieren.</seg>
+          <kinesic type="kinesic">
+            <desc>Abg. Dr. Wuermeling: Wer hat denn das gesagt? — Zuruf rechts: Bleiben Sie bei der Wahrheit! — Zuruf von der Mitte: Sie kriegen doch die Drucksachen!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg104">— Der Abgeordnete Krone, Herr Wuermeling, der Sie mit Ihren Zwischenrufen so häufig im Protokoll vertreten sind, hat gesagt, das deutsche Volk und natürlich auch die Abgeordneten würden vor der Ratifizierung noch Zeit genug haben, sich über den Vertragstext zu informieren.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der Mitte: Sehr richtig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg105">Ich möchte hier nicht mitschuldig werden,</seg>
+          <kinesic type="laughter">
+            <desc>Lachen und Zurufe von der Mitte und rechts</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg106">ich möchte nicht schweigen zu den Dingen, für die Sie sich in einigen Jahren vielleicht gegenüber der Geschichte verantworten müssen. Ich halte es für unerhört, von uns zu verlangen, daß wir stillschweigen, während der Bundeskanzler, ohne das Parlament zu hören, einen für das deutsche Volk lebenswichtigen Schritt tut. Ich bitte daher, nicht zuzulassen, daß der Vertrag unterzeichnet wird, ohne daß das Parlament gehört wird.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u25" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg107">Das Wort hat Herr Abgeordneter Ollenhauer.</seg>
+        </u>
+        <note type="speaker">Ollenhauer (SPD):</note>
+        <u who="#Q62185" xml:id="ParlaMint-DE_1952-05-23-01-214.u26" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg108">Herr Präsident! Meine Damen und Herren! Der Schlußteil der Erklärung, die der Herr Abgeordnete Krone im Namen der Regierungskoalition hier abgegeben hat, veranlaßt mich zu einer Erwiderung. Wir haben diese Sitzung beantragt, um über eine der wichtigsten Lebensfragen des deutschen Volkes sachlich zu verhandeln. Sie haben durch die Erklärung des Herrn Abgeordneten Dr. Krone eine solche sachliche Verhandlung rundweg abgelehnt. Das ist der entscheidende Tatbestand. Sie haben sich mit keinem der Argumente auseinandergesetzt, die mein Freund Dr. Arndt für unseren Antrag eingebracht hat.</seg>
+          <kinesic type="applause">
+            <desc>Widerspruch bei den Regierungsparteien.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg109">Sie haben die Ablehnung mit rein geschäftsordnungsmäßigen Hinweisen begründet. Ich stelle das fest.</seg>
+          <kinesic type="applause">
+            <desc>Erneuter Widerspruch bei den Regierungsparteien. — Abg. Strauß: Das sind internationale Gepflogenheiten!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg110">— Aber Herr Abgeordneter Strauß, Sie wissen genau, daß in den anderen Parlamenten, vor allem im englischen Parlament erst vor einer Woche eine ausführliche Debatte über das Deutschland-Problem stattgefunden hat.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Strauß: Aber nicht über den Deutschland-Vertrag!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg111">Wir haben hier nicht die Möglichkeit gehabt, in der Sache zu sprechen und die Bedeutung dieser Verträge zu untersuchen.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf rechts: Aber, Herr Ollenhauer, doch wiederholt schon!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg112">Das zweite aber, was ich hier hinzufügen möchte, ist folgendes. Ich möchte mich im Namen meiner Fraktion in der schärfsten und eindeutigsten Weise dagegen verwahren, daß Sie auf der einen Seite nicht mit uns in der Sache diskutieren wollen, auf der andern Seite aber eine solche Erklärung im Rahmen der Geschäftsordnung zum Anlaß nehmen, den Vorsitzenden unserer Partei durch die Herausnahme von einzelnen Sätzen</seg>
+          <kinesic type="applause">
+            <desc>lebhafter Widerspruch bei den Regierungsparteien</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg113">aus einem langen Interview zu dieser Frage in dieser Form anzugreifen.</seg>
+          <kinesic type="applause">
+            <desc>Händeklatschen bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg114">Meine Damen und Herren, ich möchte Ihnen eins sagen: Wir werden ja die Debatte über diesen Fra-genkomplex haben.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der Mitte: Jawohl!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg115">Dann werden wir uns mit unseren Argumenten hier hinstellen, und Sie werden sich dann mit ihnen auseinanderzusetzen haben, auch mit den Folgen, die Ihre Bereitschaft, die Verträge zu unterzeichnen, für die Zukunft des deutschen Volks haben wird. Jedenfalls: ich bedauere es, daß Sie in diesem Augenblick in dieser Form argumentieren</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. von Brentano: Wir oder Sie?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg116">und den Anschein erwecken, als hätten Sie ein Recht darauf, sich so zu entrüsten, gerade Sie, die Sie seit Wochen und Monaten den Kampf gegen die Sozialdemokratie mit der Behauptung führen, unsere sachliche Stellungnahme sei eine Unterstützung der Sowjetpolitik oder der Kommunisten.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Anhaltender lebhafter Beifall bei der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u27" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg117">Meine Damen und Herren es ist das Recht des Präsidenten, das Wort zur Geschäftsordnung nach seinem Ermessen zu. geben. Darf ich als die Meinung des Hauses unterstellen, daß diese Geschäftsordnungsdebatte abgeschlossen ist?</seg>
+          <kinesic type="kinesic">
+            <desc>Zustimmung.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg118">— Das ist gemeinsame Überzeugung. Dann schließe ich damit die Besprechung. Es liegt vor ein Antrag der sozialdemokratischen Fraktion — —</seg>
+          <kinesic type="signal">
+            <desc>Die Bundesminister begeben sich von der Regierungsbank zur Abstimmung auf ihre Abgeordnetenplätze. — Abg. Rische: Jetzt kommt die Demonstration! — Weiterer Zuruf von der KPD: Der Fackelzug! — Glocke des Präsidenten.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg119">Meine Damen und Herren auch von der kommunistischen Gruppe, ich darf Sie bitten, die Durchführung der Geschäftsordnung nicht durch Zwischenrufe zu stören.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Paul [Düsseldorf]: Soll das auch schon verboten werden?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg120">Es liegt vor der Antrag, den Herr Abgeordneter Dr. Arndt begründet hat, den Bericht des Ausschusses für das Besatzungsstatut und auswärtige Angelegenheiten über die Drucksache Nr. 3363 und den Antrag der SPD betreffend Generalvertrag und Vertrag über die EVG, Drucksache Nr. 3392, auf die Tagesordnung zu setzen. Ich bitte die Damen und Herren, die diesem Antrag der sozialdemokratischen Fraktion zur Tagesordnung zuzustimmen wünschen, eine Hand zu erheben. — Ich bitte um die Gegenprobe. — Das letztere ist die Mehrheit; der Antrag der Fraktion der SPD ist abgelehnt. Es liegt weiter vor der Antrag der Fraktion der Föderalistischen Union, den Herr Abgeordneter Dr. Reismann begründet hat, diesen Punkt auf die Tagesordnung zu setzen. Ich bitte die Damen und Herren, die für diesen Antrag sind, eine Hand zu erheben. — Ich bitte um die Gegenprobe. — Das ist mit der gleichen Mehrheit abgelehnt. I Ich kann den Antrag der Gruppe der Kommunistischen Partei nicht zur Abstimmung stellen, da er keine 15 Unterschriften trägt.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Rische: Ich bitte um die Unterstützung des Hauses!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg121">Für die sozialdemokratische Fraktion wünscht der Herr Abgeordnete Wehner eine tatsächliche Erklärung abzugeben. Darf ich bitten, Herr Abgeordneter!</seg>
+        </u>
+        <note type="speaker">Wehner (SPD):</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1952-05-23-01-214.u28" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg122">Herr Präsident! Meine Damen und Herren! Im Namen der sozialdemokratischen Fraktion habe ich zu erklären:</seg>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg123">Die Fraktion der Sozialdemokratischen Partei Deutschlands stellt mit Bedauern fest, daß die Mehrheit des Bundestages sich geweigert hat, dem vom Volk gewählten Parlament Gelegenheit zu umfassender Information über den Inhalt des Generalvertrages und des Vertrags über die Europäische Verteidigungsgemeinschaft zu geben.</seg>
+          <kinesic type="applause">
+            <desc>Abg. Dr. Wuermeling: Das ist gar nicht wahr! — Rufe und Unruhe bei den Regierungsparteien.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg124">Die Fraktion der Sozialdemokratischen Partei Deutschlands betrachtet dieses Verhalten der Mehrheit des Bundestags einer legitimen Forderung gegenüber als unvereinbar mit den Pflichten des Parlaments.</seg>
+          <kinesic type="applause">
+            <desc>Lebhafter Beifall bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg125">Sie ist der Auffassung, daß dem Ansehen der Demokratie damit schwerer Schaden zugefügt wird.</seg>
+          <kinesic type="applause">
+            <desc>Rufe und Unruhe bei den Regierungsparteien.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg126">Das Parlament darf unter keinen Umständen darauf verzichten, Vertragswerke von so einschneidender Bedeutung vor Unterzeichnung in allen Einzelheiten kennenzulernen und zu ihnen Stellung zu nehmen. Weder Regierung noch Parlamentsmehrheit können es verantworten, sich durch diese Verträge der von den Besatzungsmächten herbeigeführten Teilung Deutschlands auf nicht absehbare Zeit zu unterwerfen.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Dr. Wuermeling: Das stimmt auch nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg127">Es gibt keinerlei sachliche Gründe, durch die die unter Ausschaltung des Parlaments vorgenommene Unterzeichnung der Verträge zu rechtfertigen ist. Mit diesem Akt sollen lediglich vollendete Tatsachen geschaffen werden,</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der Mitte: Ach wo!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg128">unter deren Druck dann das Parlament nur noch ja oder nein sagen kann. Generalvertrag und Verteidigungsabkommen können nicht die Zustimmung des deutschen Volkes finden, weil sie eine Fortsetzung der unter dem Besatzungsregime geschaffenen einseitigen Macht-und Rechtsverhältnisse mit dem Ziel der Ausnützung deutscher Wirtschafts- und Menschenpotentiale für fremde Interessen darstellen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg129">Generalvertrag und Verteidigungsabkommen werden sich als Hindernisse für die notwendige Zusammenarbeit der freien Völker erweisen, weil sie die Diskriminierung Deutschlands fortsetzen.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von den Regierungsparteien.</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg130">Nachdem die Mehrheit des Bundestages selbst darauf verzichtet hat, die Rechte und Pflichten des Parlaments wahrzunehmen, wird das deutsche Volk den Volksvertretern zum Bewußtsein bringen müssen,</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von den Regierungsparteien</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg131">daß die vom Bundeskanzler abgeschlossenen Verträge nicht die Zustimmung des Volkes finden werden.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Stürmischer Beifall bei der SPD. — Erneute Gegenrufe von den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Ehlers:</note>
+        <u who="#Q78425" xml:id="ParlaMint-DE_1952-05-23-01-214.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1952-05-23-01-214.seg132">Meine Damen und Herren, eine weitere Tagesordnung hat die Sitzung nicht. Ich habe bekanntzugeben, daß eine Fraktionssitzung der FDP um 17 Uhr stattfindet. Ich bin ferner gebeten worden, darauf hinzuweisen, daß die heute stattfindende Sitzung des Vermittlungsausschusses um 16 Uhr 20 Minuten be-innen wird. Ich berufe die nächste Sitzung des Deutschen Bundestags auf Mittwoch, den 28. Mai, 13 Uhr 30 Minuten, und schließe die 214. Sitzung.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 15 Uhr 50 Minuten.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

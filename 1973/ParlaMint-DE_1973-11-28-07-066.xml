@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1973-11-28-07-066">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 7. Wahlperiode, 66. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 28.11.1973 (66. Sitzung der 7. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 7, Session 66 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1973-11-28 (Session 66 in Legislative Period 7)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="66">66. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">7. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="66">Session 66</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.07" n="7">Legislative Period 7</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 28.11.1973</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1973-11-28</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488222/b10bae395e887aac9ac08afbd1da62fc/pp07-data.zip</idno>
+          <date when="1973-11-28">1973-11-28</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1973-11-28">1973-11-28</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksachen 7/1277, 7/1282 —</head>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg1">Die Sitzung ist eröffnet. Meine Damen und Herren, Ihnen liegt eine Liste von Vorlagen vor, die keiner Beschlußfassung bedürfen und die nach § 76 Abs. 2 der Geschäftsordnung den zuständigen Ausschüssen überwiesen werden sollen:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg2">Betr.: Bericht der Bundesregierung über die Entwicklung der Finanzhilfen des Bundes und der Steuervergünstigungen für die Jahre 1971 bis 1974 (Vierter Subventionsbericht)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg3">Bezug: § 12 des Gesetzes zur Förderung der Stabilität und des Wachstums der Wirtschaft — Drucksache 7/1144 —zuständig: Haushaltsausschuß (federführend)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg4">, Ausschuß für Wirtschaft, Finanzausschuß Betr.: Entschließungen der IPU auf ihrer erweiterten Ratstagung in Genf am 26. Oktober 1973 — Drucksache 7/1240 —</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg5">zuständig: Auswärtiger Ausschuß Betr.: Entschließung zu dem Bericht der Kommission der Europäischen Gemeinschaften an den Rat über die Umgestaltung des kurzfristigen Währungsbeistands und die Bedingungen einer Vergemeinschaftung der Reserven — Drucksache 7/1234 —zuständig: Finanzausschuß (federführend)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg6">, Ausschuß für Wirtschaft Betr.: Entschließung mit der Stellungnahme des Europäischen Parlaments zu dem Vorschlag der Kommission der Europäischen Gemeinschaften an den Rat für den Jahresbericht über die Wirtschaftslage der Gemeinschaft — Drucksache 7/1241 —</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg7">zuständig: Ausschuß für Wirtschaft (federführend)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg8">, Haushaltsausschuß Betr.: Entschließung mit der Stellungnahme des Europäischen Parlaments zu der Mitteilung der Kommission der Europäischen Gemeinschaften an den Rat über die Verstärkung der Haushaltsbefugnisse des Europäischen Parlaments — Drucksache 7/1262 —zuständig: Haushaltsausschuß (federführend)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg9">, Finanzausschuß Betr.: Halbjahresbericht der Bundesregierung über die Tätigkeit des Europarats und der Westeuropäischen Union — Drucksache 7/1263 —</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg10">zuständig: Auswärtiger Ausschuß Betr.: Bericht der Bundesregierung über die gesetzlichen Rentenversicherungen, insbesondere über deren Finanzlage in den künftigen 15 Kalenderjahren (Rentenanpassungsbericht 1974)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg11">und Gutachten des Sozialbeirats — Drucksache 7/1176 —</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg12">zuständig: Ausschuß für Arbeit und Sozialordnung (federführend)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg13">, Haushaltsausschuß Erhebt sich dagegen Widerspruch? — Das ist nicht der Fall. Folgende amtliche Mitteilungen werden ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg14">Der Bundesrat hat in seiner Sitzung am 9. November 1973 den nachstehenden Gesetzen zugestimmt bzw. einen Antrag gemäß Artikel 77 Abs. 2 GG nicht gestellt:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg15">Viertes Gesetz zur Reform des Strafrechts Gesetz zur Verbesserung von Leistungen in der gesetzlichen Krankenversicherung (Leistungsverbesserungsgesetz — KLVG)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg16">Gesetz über die Rechtsstellung vorgeprüfter Apothekeranwärter Gesetz zur Anderung beamtenrechtlicher Vorschriften Gesetz zur Anderung des Gesetzes über die Haftpflichtversicherung für ausländische Kraftfahrzeuge und Kraftfahrzeuganhänger Gesetz über eine Statistik des grenzüberschreitenden Güterkraftverkehrs Gesetz zu dem Internationalen Pakt vom 19. Dezember 1966 über wirtschaftliche, soziale und kulturelle Rechte Gesetz zu dem Internationalen Pakt vom 19. Dezember 1966 über bürgerliche und politische Rechte Gesetz zu dem Übereinkommen vom 29. Oktober 1971 zum Schutz der Hersteller von Tonträgern gegen die unerlaubte Vervielfältigung ihrer Tonträger Gesetz zu dem Abkommen vom 24. Juli 1968 zwischen der Bundesrepublik Deutschland und der Republik Guatemala über den internationalen Fluglinienverkehr Gesetz zu dem Vertrag vom 19. Dezember 1967 zwischen der Bundesrepublik Deutschland und der Republik Osterreich über Auswirkungen der Anlage und des Betriebes des Flughafens Salzburg auf das Hoheitsgebiet der Bundesrepublik Deutschland Gesetz zur Sicherung der Energieversorgung bei Gefährdung oder Störung der Einfuhren von Mineralöl oder Erdgas (Energiesicherungsgesetz)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg17">Gesetz über die Feststellung der Wirtschaftspläne des ERP-Sondervermögens für das Jahr 1973 (ERP-Wirtschaftsplangesetz 1973)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg18">Zu den beiden letztgenannten Gesetzen hat der Bundesrat ferner Entschließungen gefaßt, die als Anlagen 2 und 3 diesem Protokoll beigefügt sind. Der Bundesrat hat in der gleichen Sitzung beschlossen, hinsichtlich der folgenden Gesetze zu verlangen, daß der Vermittlungsausschuß einberufen wird:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg19">Gesetz über Betriebsärzte, Sicherheitsingenieure und andere Fachkräfte für Arbeitssicherheit Fünftes Gesetz über die Anpassung der Leistungen des Bundesversorgungsgesetzes (Fünftes Anpassungsgesetz — KOV — 5. AnpG-KOV —) Seine Schreiben sind als Drucksachen 7/1238 und 7/1239 verteilt. Der Bundesminister für Jugend, Familie und Gesundheit hat mit Schreiben vom 12. November 1973 die Kleine Anfrage der Abgeordneten Frau Dr. Walz, Dr. Hammans, Frau Dr. Neumeister, Prinz zu Sayn-Wittgenstein-Hohenstein, Frau Stommel, Frau Schleicher, Frau Hürland, Frau Berger (Berlin)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg20">, Müller (Berlin)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg21">und der Fraktion der CDU/CSU betr. Weiterbildung der medizinisch-technischen Assistenten (MTA)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg22">— Drucksache 7/1123 — beantwortet. Sein Schreiben ist als Drucksache 7/1252 verteilt. Der Bundesminister für Forschung und Technologie hat mit Schreiben vom 9. November 1973 im Einvernehmen mit dem Bundesminister des Innern die Kleine Anfrage der Abgeordneten Lenzer, Benz, Engelsberger, Dr. Franz, Hösl, Pfeffermann, Dr. Freiherr Spies von Büllesheim, Dr. Stavenhagen, Weber (Heidelberg)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg23">, Schröder (Lüneburg)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg24">, Frau Dr. Walz und der Fraktion der CDU/CSU betr. Beraterverträge beim Forschungsministerium —Drucksache 7/1076 — beantwortet. Sein Schreiben ist als Drucksache 7/1253 verteilt. Der Bundesminister für Forschung und Technologie hat mit Schreiben vom 8. November 1973 die Kleine Anfrage der Abgeordneten Lenzer, Benz, Engelsberger, Dr. Franz, Hösl, Pfeffermann, Dr. Freiherr Spies von Büllesheim, Dr. Stavenhagen, Weber (Heidelberg)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg25">, Schröder (Lüneburg)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg26">, Frau Dr. Walz und der Fraktion der CDU/CSU betr. Forschungsaufträge durch das Ministerium für Forschung und Technologie und Anwendung der Forschungsergebnisse — Drucksache 7/1077 — beantwortet. Sein Schreiben ist als Drucksache 7/1254 verteilt. Der Parlamentarische Staatssekretär des Bundesministers der Verteidigung hat mit Schreiben vom 14. November 1973 die Kleine Anfrage der Abgeordneten Dr. Wörner, Biehle, Ernesti, Damm, Dr. Kraske, Eilers (Wilhelmshaven)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg27">, Dr. Wallmann, Dr. Klepsch, Dr. Marx und Genossen betr. Schichtdienst in der Bundeswehr — Drucksache 7/1174 — beantwortet. Sein Schreiben ist als Drucksache 7/1255 verteilt. Der Bundesminister für Verkehr hat am 16. November 1973 die Kleine Anfrage der Abgeordneten Sick, Schulte (Schwäbisch Gmünd)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg28">, Dr. Jobst, Straßmeir und der Fraktion der CDU/CSU betr. Einschränkungen im innerdeutschen Luftverkehr — Drucksache 7/1164 — beantwortet. Sein Schreiben ist als Drucksache 7/1264 verteilt. Der Bundesminister des Innern hat mit Schreiben vom 16. November 1973 im Einvernehmen mit den Bundesministern der Justiz, für Arbeit und Sozialordnung, für Jugend, Familie und Gesundheit sowie für Bildung und Wissenschaft die Kleine Anfrage der Abgeordneten Frau Eilers (Bielefeld)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg29">, Frau Renger, Frau Schlei, Frau Dr. Timm, Frau Fundre, Frau Schuchardt und Genossen und der Fraktionen der SPD, FDP betr. Staatsangehörigkeit ehelicher Kinder einer deutschen Mutter und eines ausländischen Vaters sowie Lage deutscher Frauen, die mit Ausländern verheiratet sind — Drucksache 7/1151 — beantwortet. Sein Schreiben ist als Drucksache 7/1267 verteilt. Der Bundesminister der Finanzen hat mit Schreiben vom 20. November 1973 in Ergänzung der Antwort vom 24. April 1973 — Drucksache 7/484 — zur Kleinen Anfrage der Abgeordneten Frau von Bothmer, Mattick, Wischnewski, Brück, Dr. Holtz, Frau Dr. Riedel-Martiny, Lattmann, Dr. Schweitzer, Friedrich, Dr. Bangemann, Hölscher, Frau Schuchardt, von Schoeler, Christ Opitz und Genossen eine weitere Antwort gegeben. Sein Schreiben ist als Drucksache 7/1280 verteilt. Wir kommen zu Punkt 1 der Tagesordnung: Fragestunde — Drucksachen 7/1277, 7/1282 —</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg30">Der Ältestenrat hat vorgeschlagen, daß wir auch in dieser Woche zwei Fragestunden — abweichend von den Richtlinien für die Fragestunde — mit einer jeweiligen Dauer von 90 Minuten durchführen. Gemäß § 127 der Geschäftsordnung muß diese Abweichung von der Geschäftsordnung vom Bundestag beschlossen werden. Erhebt sich dagegen Widerspruch? — Das ist nicht der Fall; dann ist so beschlossen. Damit können wir in die Fragestunde eintreten. Aus dem Geschäftsbereich des Bundesministers der Justiz ist noch niemand da? — Dann rufe ich erst den nächsten Geschäftsbereich, den des Bundesministers für Bildung und Wissenschaft, auf. Ist der Herr Staatssekretär da? — Herr Staatssekretär Zander steht zur Beantwortung der Fragen zur Verfügung. Die Frage 6 des Herrn Abgeordneten Dr. Probst wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Frage 7 des Herrn Abgeordneten Walkhoff:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg31">Trifft es zu, daß Universitäten der Bundesrepublik Deutschland Hochschullehrer beurlauben, die an die Bundeswehrhochschule abgeordnet werden? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Bildung und Wissenschaft:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1973-11-28-07-066.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg32">Herr Kollege Walkhoff, zur Frage der Beurlaubung von Hochschullehrern an öffentlichen Hochschulen, die an eine Hochschule der Bundeswehr berufen sind, habe ich mich in meiner Antwort vom 9. November auf die Frage des Herrn Abgeordneten Hansen ausführlich geäußert. Wie ich im einzelnen ausgeführt habe, hat sich nach Auskunft des Bundesministers der Verteidigung bisher nur in einem Falle die Notwendigkeit ergeben, daß ein bisher an einer Hochschule eines Landes tätiger Hochschullehrer von der zuständigen Landesbehörde ohne Dienstbezüge beurlaubt wurde. Die Beurlaubung ist in Fällen dieser Art von der zuständigen Landesbehörde, also nicht von den Hochschulen selbst, auszusprechen. Man kann davon ausgehen, daß auch künftig derartige Beurlaubungen nur in Fällen ausgesprochen werden, in denen bestehende Zulassungsbeschränkungen dadurch nicht verschärft werden. Im übrigen hat auch die Kultusministerkonferenz hervorgehoben, daß hier immer nur eine Beurlaubung für einen begrenzten Raum in Betracht kommt. In jedem Falle wird die Bundesregierung darauf achten, daß die Interessen der staatlichen öffentlichen Hochschulen bei der Berufung von dort tätigen Hochschullehrern an Hochschulen der Bundeswehr in möglichst weitem Umfang berücksichtigt werden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg33">Eine Zusatzfrage? — Bitte, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Walkhoff (SPD) :</note>
+        <u who="#Q1730013" xml:id="ParlaMint-DE_1973-11-28-07-066.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg34">Herr Staatssekretär, ist auf die Auskunft Ihres Hauses, die Sie gerade wiederholt haben, es würden auch in Zukunft Beurlaubungen nur in solchen Fällen ausgesprochen, in denen die Zulassungsbeschränkungen dadurch nicht verschärft würden, hundertprozentig Verlaß, — obwohl Ihre auch der Presse übergebene Mitteilung, bisher sei eine Beurlaubung in einem Numerus-clausus-Fach nicht vorgenommen worden, unzutreffend ist? Denn der in Essen beurlaubte Professor Emmenbach ist Psychologe.</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär (beim Bundesminister für Bildung und Wissenschaft:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1973-11-28-07-066.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg35">Herr Kollege Walkhoff, mir ist nur ein Fall bekannt, der die Pädagogische Hochschule Ludwigsburg betrifft. Ich kenne den Fall, den Sie angesprochen haben, nicht. Aber ich wäre gern bereit, diesen prüfen zu lassen. Es wäre, wenn es zuträfe, ein zweiter Fall. Im übrigen ist die Antwort, die ich Ihnen gegeben habe, mit dem Bundesminister der Verteidigung abgesprochen worden, so daß ich davon ausgehe, daß darauf Verlaß ist.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg36">Herr Kollege Walkhoff, eine weitere Zusatzfrage?</seg>
+        </u>
+        <note type="speaker">Walkhoff (SPD) :</note>
+        <u who="#Q1730013" xml:id="ParlaMint-DE_1973-11-28-07-066.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg37">Herr Staatssekretär, kann ich Ihren Ausführungen entnehmen, daß Absprachen mit der Kultusministerkonferenz über die Handhabung und über den Umfang von Beurlaubungen zum Zwecke der Lehrtätigkeit an Bundeswehrhochschulen erfolgt sind?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Bildung und Wissenschaft:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1973-11-28-07-066.u8" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg38">Ich habe auf eine Äußerung der Kultusministerkonferenz verwiesen, nicht auf eine Absprache. Aus dieser Äußerung der Kultusministerkonferenz geht hervor, daß in möglichst weitem Umfange Rücksicht genommen werden muß, insbesondere in solchen Fächern, in denen Zulassungsbeschränkungen bestehen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u9" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg39">Eine weitere Zusatzfrage? — Das ist nicht der Fall. Ich rufe den Geschäftsbereich des Bundesministers für besondere Aufgaben auf. Herr Bundesminister Dr. Maihofer steht zur Verfügung. Frage 8 des Herrn Abgeordneten Dr. Dollinger. — Er ist nicht im Saal. Die Frage wird schriftlich beantwortet, ebenso Frage 9. Die Antworten werden als Anlagen abgedruckt. Ich bedanke mich für die Anwesenheit.</seg>
+          <kinesic type="amusement">
+            <desc>Abg. Wehner: „Für besondere Aufgaben"! — Heiterkeit.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg40">Ich komme zum Geschäftsbereich des Bundesministers für innerdeutsche Beziehungen. Herr Parlamentarischer Staatssekretär Herold steht zur Verfügung. Ich rufe die Frage 3 des Herrn Abgeordneten Lemmrich auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg41">Hält es die Bundesregierung für zweckmäßig, daß Westdeutsche bei Reisen in die DDR dort ein Postsparbuch anlegen können, auch um unverbrauchte Mark der Deutschen Notenbank zur Verwendung bei einer späteren Besuchsreise dort einzahlen zu können? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Herold, Parl. Staatssekretär beim Bundesminister für innerdeutsche Beziehungen:</note>
+        <u who="#Q1731612" xml:id="ParlaMint-DE_1973-11-28-07-066.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg42">Frau Präsidentin! Herr Kollege, ich darf die Frage wie folgt beantworten. Nach § 2 der DDR-Anordnung über den Postsparkassendienst vom 8. September 1955 können nur solche Personen am Postsparkassendienst teilnehmen, die ihren Wohnsitz in der DDR oder in Berlin (Ost)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg43">haben. Soweit die entsprechenden Vorschriften der DDR bekannt sind, ist es aber zulässig, daß Einwohner der Bundesrepublik Deutschland und West-Berlins ein Konto bei einem Kreditinstitut in der DDR eröffnen und Einzahlungen vornehmen. Diese Konten unterliegen allerdings nach den Richtlinien zu dem Gesetz zur Regelung des innerdeutschen Zahlungsverkehrs Verfügungsbeschränkungen. Ob es zweckmäßig ist, ,daß Besucher trotz dieser devisenrechtlichen Beschränkungen ein Konto einrichten, um unverbrauchte Mark der DDR zur Verwendung bei einer späteren Besuchsreise dort einzuzahlen, hängt von den Umständen des jeweiligen Einzelfalls ab und läßt sich daher nicht generell beurteilen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg44">Eine Zusatzfrage wird nicht gestellt. Die Frag 4 des Abgeordneten Memmel wird schriftlich beantwortet, da der Fragesteller nicht im Saal ist. Die Antwort wird als Anlage abgedruckt. Die Frage 5 des Abgeordneten Gerlach (Obernau)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg45">wird ebenfalls wegen Abwesenheit des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Damit sind die Fragen aus Ihrem Geschäftsbereich, Herr Staatssekretär, schon erledigt. Ich danke Ihnen. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Wirtschaft. Meine Damen und Herren, ich muß darauf hinweisen, daß die Bundesregierung morgen eine Erklärung zu aktuellen Fragen der Wirtschafts- und Energiepolitik abgeben wird. Zu diesem Tagesordnungspunkt ist auf eine Aussprache nicht verzichtet worden. Gemäß Nr. 2 Abs. 2 der Richtlinien für die Fragestunde sind die eingereichten Fragen 30, 31, 33 bis 36, 43 bis 45, 47 bis 49, 52, 54, 55, 59, 60, 62 bis 68 und 90 bis 96 daher unzulässig. Sie werden nicht aufgerufen. Zur Beantwortung der übrigen Fragen steht der Herr Parlamentarische Staatssekretär Grüner zur Verfügung. Die Fragen 28 und 29 werden auf Wunsch des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe jetzt die Frage 32 des Abgeordneten Franke (Osnabrück)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg46">auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg47">Welche Ursachen haben nach Meinung der Bundesregierung die nachlassenden Beschäftigungsmöglichkeiten in der Baumaschinenindustrie, und ist die Bundesregierung bereit, in den Bereichen, in denen Massenentlassungen der Beschäftigten bevorstehen (z. B. Hanomag Hannover)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg48">, gezielte Hilfen zu gewähren, um diese Entlassungen zu verhindern? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg49">Herr Kollege, ich habe bereits bei der Beantwortung früherer Anfragen erklärt, daß die Bauwirtschaft zu den Bereichen der Wirtschaft zählt, in denen sich deutlich die Auswirkungen der Stabilitätspolitik der Bundesregierung und der Deutschen Bundesbank zeigen. Folgewirkungen dieser Politik sind verständlicherweise auch bei den Zulieferindustrien zu spüren, u. a. auf dem Baumaschinensektor. Die in diesem Bereich seit Juni dieses Jahres rückläufigen Auftragseingänge, insbesondere aus dem Inland, haben zwar in einer Reihe von Betrieben dieser Branche zur Anmeldung von Kurzarbeit geführt, jedoch vermag die Bundesregierung darin keine generelle Gefährdung der Arbeitsplätze im Baumaschinensektor zu sehen. Nach Verhandlungen zwischen der Rheinstahl AG, dem Wirtschaftsministerium des Landes Niedersachsen und dem Bundesministerium für Wirtschaft hat Rheinstahl von der ursprünglich beabsichtigten Entlassung von zirka 1000 Hanomag-Mitarbeitern Abstand genommen und wird versuchen, die bestehenden Schwierigkeiten durch Kurzarbeit zu überbrücken. Die Bundesregierung hat im übrigen am 22. November beschlossen, daß zur Realisierung des Programms zum sozialen Wohnungsbau für 50 000 bereits fertig geplante Wohnungen vorübergehend Finanzierungshilfen gewährt werden. Dies wird sich auch positiv auf die Beschäftigung in der Baumaschinenindustrie auswirken.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg50">Herr Kollege Franke zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Franke (Osnabrück) (CDU/CSU) :</note>
+        <u who="#Q1597247" xml:id="ParlaMint-DE_1973-11-28-07-066.u14" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg51">Herr Kollege Grüner, glauben Sie, daß die Auswirkungen der Ankurbelungsmaßnahmen für das ganze Jahr 1974 ausreichen, und kann so etwas Ähnliches wie eine Beschäftigungsmöglichkeit — z. B. Hanomag in Hannover — von Ihnen auch für 1974 einigermaßen optimistisch angesehen werden?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u15" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg52">Ich bin ,der Meinung, daß die allgemeine -Politik der Bundesregierung, die ja darauf abzielt, einen Beschäftigungseinbruch zu verhindern, eine solche Lage vorfinden wird und daß die Sicherung der Arbeitsplätze, von unvorhergesehenen Entwicklungen, wie sie etwa im Energiesektor denkbar wären, von uns aber nicht erhofft werden, abgesehen, gewährleistet ist. Das kann natürlich keine Aussage für jede einzelne Firma sein. Gerade in dem von Ihnen angesprochenen Bereich ist ja durch eine Umstellung und eine Reduzierung des Sortiments in den letzten Jahren in sehr großem Umfang ein Abbau der Beschäftigung erfolgt, allerdings ohne etwa negative Auswirkungen insgesamt auf die Beschäftigungslage in diesem Raum zu zeitigen. Präsident 'Frau Renger: Noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Franke (Osnabrück) (CDU/CSU) :</note>
+        <u who="#Q1597247" xml:id="ParlaMint-DE_1973-11-28-07-066.u16" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg53">Herr Kollege Grüner, Sie haben von der Umstellung in der von Ihnen und mir bezeichneten Firma gesprochen. Aber die gleichen Schwierigkeiten sind doch in anderen Baumaschinenfirmen, die geographisch ganz woanders angesiedelt sind, ebenfalls zu beobachten. Hier kann es sich 'doch also nicht nur um eine Änderung des Produktionsprogramms einer ganz bestimmten Firma handeln, sondern hier ist ein tiefer Eingriff Ihrer Maßnahmen zu verspüren, die in diesem Bereich sicherlich über das Ziel hinausschießen.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u17" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg54">Die Auswirkungen der Stabilitätspolitik haben natürlich auch Strukturveränderungen rascher und schärfer deutlich werden lassen, als es etwa ohne eine solche Stabilitätspolitik der Fall gewesen wäre, mindestens im zeitlichen Ablauf. Diese Strukturveränderungen sind dadurch gekennnzeichnet, daß zum Teil am Bedarf vorbeigebaut worden ist und daß in einer Zeit der Hochkonjunktur eine Wohnungsnachfrage eingesetzt hatte, die über den tatsächlichen Bedarf hinausging. Es ist nicht auszuschließen, daß die Normalisierung dieser Nachfrage auch auf die Zulieferindustrie, nämlich die Baumaschinenindustrie, Auswirkungen haben wird. Wir sind aber angesichts der Struktur dieser Industrie und ihrer Möglichkeiten zur Kooperation und zur Rationalisierung 'durchaus optimistisch, daß die Baumaschinenindustrie mit diesen Schwierigkeiten fertig werden wird.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u18" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg55">Keine weiteren Zusatzfragen. Ich rufe die Frage 37 des Herrn Abgeordneten Blumenfeld auf. — Der Abgeordnete ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Frage 38 des Herrn Abgeordneten Seiters wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Frage 39 des Herrn Abgeordneten Sieglerschmidt. — Der Abgeordnete ist nicht im Saal. Die Frage 39 wird schriftlich beantwortet, ebenso die Frage 40. Die Antworten werden als Anlage abgedruckt. Frage 41 des Herrn Abgeordneten Dr. Glotz:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg56">Ist der Bundesregierung bekannt, daß die durch ausländische und deutsche Hersteller von Zeitungs- und Zeitschriftenpapier für 1974 angekündigten Preiserhöhungen weitgehend einheitlich sein sollen, und wird dies vom Bundeskartellamt und ihres Wissens auch von der EG-Kommission zum Anlaß für wettbewerbsrechtliche Untersuchungen genommen werden? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg57">Der auffallend starke Preisanstieg für Zeitungsdruckpapier hat das Bundeskartellamt vor kurzem veranlaßt, ein Mißbrauchsverfahren einzuleiten. Dieses Verfahren richtet sich gegen zwei inländische Hersteller und gegen drei in der Bundesrepublik ansässige Niederlassungen bzw. Vertriebsunternehmen skandinavischer Hersteller. Nach Auffassung des Bundeskartellamtes begründen die massiven Preiserhöhungen den Verdacht, daß sie unter Wettbewerbsbedingungen nicht durchsetzbar gewesen wären. Die von dem Verfahren betroffenen fünf Anbieter haben für Zeitungsdruckpapier einen Marktanteil von mehr als zwei Dritteln. In einem solchen Fall wird nach der mit der Kartellgesetznovelle eingeführten Vorschrift Marktbeherrschung vermutet. Das Bundeskartellamt wird bei der Prüfung, ob eine mißbräuchliche Ausnutzung der marktbeherrschenden Stellung vorliegt, in erster Linie untersuchen, inwieweit sich die geforderten Preiserhöhungen auch bei Bestehen wesentlichen Wettbewerbs hätten durchsetzen lassen. Außerdem werden die Paritätsänderungen der D-Mark zu berücksichtigen sein. Den betroffenen Unternehmen ist Gelegenheit gegeben worden, sich bis Mitte Dezember dieses Jahres zur Frage der Marktbeherrschung und zur Frage des Mißbrauchs zu äußern. Die Einheitlichkeit der Preiserhöhungen könnte den Verdacht einer vorherigen Verständigung der Anbieter aufkommen lassen. Bisher gab es dafür jedoch keine Anhaltspunkte. Die in einer Frage des Herrn Abgeordneten Sieglerschmidt — diese Frage wird schriftlich beantwortet werden — angedeutete Möglichkeit wird jedoch vom Bundeskartellamt geprüft werden. Die Kommission der Europäischen Gemeinschaften hat bereits vor einiger Zeit Ermittlungen durchgeführt, die im Zusammenhang mit der Ausschaltung unabhängiger deutscher Importeure von skandinavischem Zeitungsdruckpapier standen. Nach Auskunft aus Brüssel wird die Prüfung nunmehr auch auf die weitgehend einheitliche und starke Preiserhöhung ausgedehnt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg58">Keine Zusatzfrage. — Frage 42 des Herrn Abgeordneten Dr. Glotz:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg59">Sieht die Bundesregierung konkrete Möglichkeiten, durch Papierbezüge aus osteuropäischen Ländern und durch die Förderung der Einrichtung von Anlagen zur Papierherstellung in Entwicklungsländern den Wettbewerb auf dem Markt für Zeitungs- und Zeitschriftenpapier zu beleben? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg60">Die Papierlieferungen aus Staatshandelsländern, Herr Kollege, bewegen sich bislang in einer niedrigen Größenordnung. Auch in diesen Ländern herrscht zur Zeit ein hoher Bedarf, so daß, wie uns aus den Mitteilungen der Botschaften bzw. der Handelsvertretungen der Staatshandelsländer bekannt ist, gegenwärtig und zumindest für das Jahr 1974 zusätzliche Lieferungen nicht zu erwarten sind. Unbeschadet dessen ist die betroffene Wirtschaft bemüht, alle eventuellen Möglichkeiten unmittelbar bei den Außenhandelsorganisationen der Staatshandelsländer zu ermitteln. Die Bundesregierung ist grundsätzlich bereit, im Rahmen ihrer Entwicklungshilfe auch Anlagen zur Papierherstellung zu fördern. Allerdings setzt die Durchführung derartiger Projekte eine Abstimmung mit der Entwicklungsplanung des betreffenden Entwicklungslandes voraus. Mit der Kapitalhilfe der Bundesrepublik ist bisher die Papiererzeugung in Srilanka auf Ceylon und in Bangladesch gefördert worden. Die Anlagen in Srilanka dienen ausschließlich, die in Bangladesch überwiegend der Versorgung des heimischen Marktes. Daneben wird die Bundesregierung im Rahmen ihrer Kooperationspolitik mit der übrigen Welt die Bemühungen der deutschen Zeitungspapierverbraucher unterstützen, im Wege konkreter Kooperationsvorhaben den mittelfristigen Bezug dieses für die Öffentlichkeitsarbeit in der Bundesrepublik Deutschland wichtigen Erzeugnisses zu sichern.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u22" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg61">Eine Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Dr. Glotz (SPD) :</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1973-11-28-07-066.u23" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg62">Herr Staatssekretär, sehen Sie auf Grund der Papierpreiserhöhungen aktuelle Gefahren, daß sich die Pressekonzentration verstärken könnte, und gibt es neben diesen eher mittel- und langfristigen Möglichkeiten, nach denen auch gefragt war, kürzerfristige Überlegungen medienwirtschaftlicher Art in Ihrem Hause, einer solchen möglichen Gefahr zu begegnen.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u24" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg63">Herr Kollege, über die medienpolitischen Diskussionen im Parlament hinaus sind in unserem Hause keine Überlegungen angestellt. Wir sind selbstverständlich der Meinung, daß gerade solche Preiserhöhungen für mittelständische Zeitungsunternehmen Gefahren heraufbeschwören können, die einen Konzentrationsprozeß beschleunigen können. Wir sind aber andererseits der Auffassung, daß es zahlreiche wirtschaftliche Möglichkeiten, Möglichkeiten der Kooperation gibt, einer solchen Entwicklung entgegenzuwirken. Unmittelbare Möglichkeiten, durch handels- und zollpolitische Maßnahmen zur Ausweitung des Importangebots beizutragen, bestehen leider nicht, da wir hier eine volle Liberalisierung haben und die Einfuhren ohne jede Zollbelastung möglich sind.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u25" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg64">Zusatzfrage? — Bitte, Herr Kollege!</seg>
+        </u>
+        <note type="speaker">Dr. Glotz (SPD) :</note>
+        <u who="#Q647924" xml:id="ParlaMint-DE_1973-11-28-07-066.u26" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg65">Die Bundesregierung bleibt also bei ihrer Position, daß vor allem an Steuererleichterungen, etwa bei den Vertriebserlösen von Zeitungen, nicht gedacht ist?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg66">Diese Fragen werden von der Bundesregierung noch geprüft. Wir haben im Rahmen eines Medienkonzeptes selbstverständlich den Gesamtbereich im Auge zu behalten. Ich möchte deshalb zu einzelnen möglichen Maßnahmen nicht Stellung nehmen, solange nicht ein Gesamtkonzept der Medienpolitik in diesem Hause diskutiert wird.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg67">Keine weiteren Zusatzfragen. Ich rufe die Frage 46 des Herrn Abgeordneten Rainer auf. — Er ist nicht im Saal. Die Frage wird schriftlich beantwortet; die Antwort wird als Anlage abgedruckt. Frage 50 des Abgeordneten Dr. Fuchs wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird ebenfalls als Anlage abgedruckt. Frage 51 des Herrn Abgeordneten Ziegler:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg68">Ist die Bundesregierung bereit, die von Mitgliedern der Bundesregierung häufig gebrauchte Formel „Lebensqualität" durch ein unabhängiges, wissenschaftlich qualifiziertes Gremium — bezogen auf die Bundesrepublik Deutschland — in einem allgemein verständlichen Gutachten untersuchen zu lassen und zu veröffentlichen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u29" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg69">Herr Kollege, daß Mitglieder der Bundesregierung nicht nur häufig die Formel „Lebensqualität" gebrauchen, sondern auch Qualität des Lebens als gesellschaftspolitisches Ziel verstehen und ihre Politik nachdrücklich daran orientieren, ergibt sich aus der Regierungserklärung vom Januar 1973. Dort hat der Bundeskanzler ausgeführt, daß Qualität des Lebens zu einem zentralen Begriff unserer politischen Arbeit geworden ist:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg70">Lebensqualität ist mehr als Lebensstandard. Sie ist Bereicherung unseres Lebens über Einkommen und Konsum hinaus. Sie setzt ein neues Verständnis von Allgemeininteresse voraus. Sie hängt immer mehr davon ab, wieviel gute Nachbarschaft es bei uns gibt und was die Gemeinschaftseinrichtungen zu leisten vermögen. In der Regierungserklärung ist dann weiter im einzelnen ausgeführt, was nach Meinung der Bundesregierung zur Qualität des Lebens gehört. Im übrigen stützt sich die Bundesregierung auf den Rat von verschiedenen wissenschaftlichen Gremien und Kommissionen, die sich mit den Problemen der Lebensqualität befassen. Eines dieser Gremien ist die Anfang 1971 von der Bundesregierung berufene Kommission für wirtschaftlichen und sozialen Wandel. Sie hat den Auftrag, umfassend die Probleme des technischen, wirtschaftlichen und sozialen Wandels zu untersuchen. Die Kommission soll in einem Gutachten darlegen, welche wirtschafts-, sozial- und bildungspolitischen Möglichkeiten bestehen, um im Rahmen einer marktwirtschaftlichen Ordnung den technischen und sozialen Wandel zu fördern und im Interesse der Bevölkerung zu gestalten. Alles, was zum komplexen Bereich der Lebensqualität gehört, wird durch die Arbeiten dieser Kommission mit untersucht. Die Kommission ist unabhängig. Ihr gehören Wissenschaftler und Vertreter von Gewerkschaften und Unternehmen an. Die Kommission wird ihr Gutachten Ende 1975 fertigstellen und den Bericht diesem Hohen Hause, der Bundesregierung und der Öffentlichkeit vorlegen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u30" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg71">Zusatzfrage, bitte, Herr Kollege Ziegler!</seg>
+        </u>
+        <note type="speaker">Ziegler (CDU/CSU) :</note>
+        <u who="#Q1353572" xml:id="ParlaMint-DE_1973-11-28-07-066.u31" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg72">Herr Staatssekretär, sind Sie der Meinung, daß diese Kommission überhaupt in der Lage ist, den Begriff „Lebensqualität" allgemeinverbindlich zu definieren?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg73">Sicher wird es eine solche Möglichkeit nicht geben, Herr Kollege, und es ist auch nicht der Sinn dieses Ausdrucks „Lebensqualität", etwa eine allgemeinverbindliche Definition für jede Situation und für jede Lage, in der wir uns befinden, abzugeben.. Die allgemeine politische Zielrichtung, die diesen Begriff auszeichnet, ist aber, wie ich glaube, für die politische Diskusson in unserem Lande außerordentlich wichtig. Das zeigt sich ja auch schon daran, daß dieser Begriff nicht etwa nur von Mitgliedern der Bundesregierung, sondern in ganz großem Umfange neuerdings auch von Mitgliedern der Opposition benutzt wird.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg74">Eine Zusatzfrage, Herr Kollege Ey.</seg>
+        </u>
+        <note type="speaker">Ey (CDU/CSU) :</note>
+        <u who="#Q1777330" xml:id="ParlaMint-DE_1973-11-28-07-066.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg75">Herr Staatssekretär, halten Sie es nicht für eine Vergewaltigung 'unserer Sprache, wenn Sie per definitionem in dieses Wort einen bestimmten Sinn hineinlegen wollen? Sind Sie nicht auch der Meinung, daß das in jedem Falle eine Einengung bedeutet?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg76">Ich bin nicht dieser Meinung, Herr Kollege, denn sonst müßten wir im politischen Leben auf wegweisende allgemeine Begriffe überhaupt verzichten. Die CDU hätte nie die Idee haben dürfen, etwa von der „formierten Gesellschaft" zu sprechen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit und Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg77">Zusatzfrage, Herr Kollege Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1973-11-28-07-066.u37" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg78">Herr Staatssekretär, sind Sie nicht der Auffassung, daß die Kommission, von der Sie eben sprachen und die durch ihre Arbeit zum Verständnis des Begriffs beitragen soll, im Herbst des Jahres 1973 angesichts der inzwischen erheblich gesunkenen Lebensqualität eine ganz neue Aufgabenstellung besitzen müßte?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit und Beifall bei der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg79">Ich glaube, Herr Kollege, es ist aus meiner Antwort schon deutlich geworden, daß Lebensqualität nicht etwa etwas ist, was allein auf den Augenblick bezogen ist, sondern eine ständige Herausforderung, in einer marktwirtschaftlichen Ordnung soziale und wirtschaftliche Wandlungen rechtzeitig in ihrer Bedeutung zu erfassen und auf die Bedürfnisse der Bevölkerung hin zu untersuchen und natürlich auch ständig neu zu definieren. Diese Kommission soll dadurch einen wissenschaftlich fundierten Beitrag leisten. Mehr können wir uns von einer solchen Arbeit nicht erwarten. Damit ist aber gleichzeitig auch eine Antwort auf die von dem Kollegen gestellte Frage gegeben.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u39" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg80">Herr Kollege Mertes, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Mertes (Gerolstein) (CDU/CSU) :</note>
+        <u who="#Q2650355" xml:id="ParlaMint-DE_1973-11-28-07-066.u40" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg81">Herr Staatssekretär, ist es möglich, daß die Kommission angesichts dieser ihrer Aufgabe eine Dauerkommission sein wird?</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg82">Herr Kollege, es ist sicher richttig, daß die Frage nach der Qualität des Lebens eine Daueraufgabe sein wird und daß es von daher gesehen auch noch in zehn Jahren notwendig sein wird, sich mit den Wandlungen unseres gesellschaftlichen Lebens zu befassen. Wir haben für eine nahe Zukunft mit der Einsetzung dieser Kommission, wie ich betonen möchte, den Versuch unternommen, einen Beitrag zur Konkretisierung der sozialen und wirtschaftlichen Tatbestände zu leisten, die den Wandel fördern und zu denen viele Untersuchungen beitragen, die wir außerhalb dieser Kommission in Auftrag gegeben haben; ich nenne etwa die Untersuchung darüber, welche Gründe dazu geführt haben, daß sehr viele Lebensmitteleinzelhändler und andere Einzelhändler aus den ländlichen Gebieten weggezogen sind oder dort ihre Existenz verloren haben. Alle diese Fragen gehören mit in diesen Gesamtbereich. Wir halten es für sinnvoll, nicht nur in der tagespolitischen Auseinandersetzung, sondern auch in grundsätzlichen Überlegungen diesen Wandlungen nachzugehen, um rechtzeitig, vorsorgend Antworten auf künftige Entwicklungen zu finden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u42" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg83">Zusatzfrage, Herr Kollege Wehner!</seg>
+        </u>
+        <note type="speaker">Wehner (SPD) :</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1973-11-28-07-066.u43" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg84">Herr Parlamentarischer Staatssekretär, hält es die Bundesregierung für sinnvoll, sich mit der Opposition im Parlament darüber zu verständigen, was im Laufe der nächsten Zeit noch an Gutachten gefordert werden könnte, damit wir im Zeichen der Energieknappheit nicht auch an Gutachtenknappheit leiden?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Müller-Hermann: Wir leiden an der geringen Qualität der Regierung! — Abg. Wehner: Die strahlen Sie aus!</desc>
+        </vocal>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u44" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg85">Herr Kollege Wehner, Ihre Anmerkung macht deutlich, wie relativ die Hilfestellungen sind, die wir von Gutachten erwarten können. Trotzdem bin ich der Meinung, daß wir darauf nicht ganz verzichten, sondern daß wir die Möglichkeiten, die uns Wissenschaft und Technik heute bieten, nutzen sollten, und zwar mit all den Vorbehalten, die in Ihrer Frage, Herr Kollege Wehner, mit Recht anklangen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u45" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg86">Zusatzfrage, Herr Kollege Hansen!</seg>
+        </u>
+        <note type="speaker">Hansen (SPD) :</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1973-11-28-07-066.u46" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg87">Herr Staatssekretär, teilen Sie meine Meinung, daß konservatives oder restauratives Denken den Prozeßcharakter des Begriffs „Lebensqualität" nicht erkennen kann?</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u47" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg88">Das ist eine mögliche Deutung, Herr Kollege Hansen. Auf der anderen Seite meine ich, daß eine solche Kommission auch Konservative dazu veranlassen kann, bestimmte Grundpositionen neu zu überdenken. Insofern hoffe ich auf eine progressive Wirkung solcher Erkenntnisse.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD.— Abg. Dr. Warnke: Was ist mit den Restaurativen?</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg89">Präsident 'Frau Renger: Eine Zusatzfrage, Herr Kollege Schulze-Vorberg.</seg>
+        </u>
+        <note type="speaker">Dr. Schulze-Vorberg (CDU/CSU) :</note>
+        <u who="#Q1593650" xml:id="ParlaMint-DE_1973-11-28-07-066.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg90">Herr Staatssekretär, könnten Sie dem Herrn Kollegen Hansen und vielleicht auch mir bestätigen, daß es sich bei dem Begriff „Lebensqualität" in der Tat um einen sehr konservativen Begriff handelt,</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Wehner: Hört! Hört!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg91">weil er — vielleicht können Sie mir helfen; ich besitze nur das Kleine Latinum — im klassischen römischen Schrifttum als „qualitas vitae" vorkommt und auch damals oft diskutiert wurde?</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg92">Herr Kollege, leider muß ich bekennen, daß auch ich nur über das Kleine Latinum verfüge, also keinen Informationsstand habe, der über den Ihrigen hinausgeht.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Erneute Heiterkeit.</desc>
+        </kinesic>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u50" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg93">Zusatzfrage, Herr Kollege Müller (Berlin)!</seg>
+        </u>
+        <note type="speaker">Müller (Berlin) (CDU/CSU) :</note>
+        <u who="#Q1254014" xml:id="ParlaMint-DE_1973-11-28-07-066.u51" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg94">Herr Staatssekretär, kann ich Ihre Ausführungen so verstehen, daß der Begriff „Lebensqualität" je nach den veränderten Verhältnissen fortgeschrieben werden soll?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u52" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg95">Das ist ganz selbstverständlich.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u53" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg96">Keine Zusatzfragen. Frage 53 des Herrn Abgeordneten Schedl! — Ist der Herr Abgeordnete im Saal? — Das ist nicht der Fall. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Frage 56 des Herrn Abgeordneten Lenders:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg97">Ist die Bundesregierung der Auffassung, daß die Preisgestaltung auf dem Arzneimittelmarkt dringend einer Korrektur zugunsten der Patienten und Krankenversicherungen bedarf, und wann werden die Vorschläge des interministeriellen Arbeitskreises zur Neuordnung des Arzneimittelmarkts aus preis- und wettbewerbspolitischer Sicht vorgelegt? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg98">Auf Grund der Arbeiten des interministeriellen Arbeitskreises wird sich die Bundesregierung in Kürze mit den Eckwerten einer Neuordnung des Arzneimittelmarktes aus preis- und wettbewerbspolitischer Sicht befassen. Auf dieser Grundlage sollen dann die erforderlichen gesetzlichen Vorschriften im einzelnen ausgearbeitet werden. Kernstück der Überlegungen ist der Aufbau einer pharmakologisch-therapeutischen Transparenz verbunden mit bewertenden therapeutischen Vergleichen. Dabei kommt den bewertenden therapeutischen Vergleichen eine entscheidende Bedeutung zu. Von der Zielsetzung her muß die Transparenz unabhängig von den Interessen der Marktbeteiligten aufgebaut und durchgeführt werden. Die beteiligten Ressorts, das Bundesministerium für Jugend, Familie und Gesundheit, das Bundesministerium für Arbeit und Sozialordnung sowie das Bundesministerium für Wirtschaft, das für die Arbeiten federführend ist, sind sich darüber einig, daß dazu eine unabhängige Kommission „Pharmakologisch-therapeutische Transparenz auf dem Arzneimittelmarkt" von Ärzten, Pharmakologen und Apothekern, unterteilt nach Fachsparten, gebildet werden soll. In diese Kommission sollen anerkannte Wissenschaftler, Kliniker und andere Praktiker berufen werden. Ihre Geschäftsstelle soll nach Auffassung der Ressorts beim Bundesgesundheitsamt gebildet werden. Die therapeutische Bewertung soll im Zuge eines Anhörungsverfahrens erfolgen, so daß insbesondere die Hersteller der in Frage kommenden Arzneimittel die Möglichkeit erhalten, ihren Standpunkt gebührend zu vertreten. Um auf der Grundlage der pharmakologisch-therapeutischen Transparenz Preisvergleiche erstellen zu können, wird von den Ressorts ein Gremium vorgeschlagen, in welchem die Krankenversicherung, und zwar die gesetzliche und die private, die Ärzte und die Apotheker vertreten sind. Das Gremium soll weder mit den Herstellern noch mit dem Industrieverband Preisgespräche im Sinne von Preisverhandlungen führen. Es soll vielmehr Preisvergleiche anstellen und das Erkennen überhöht erscheinender Preise bei therapeutisch vergleichbaren Arzneimitteln fördern. Über Aufgaben und organisatorische Verankerung des Gremiums im einzelnen ist noch ein abschließendes Ressortgespräch erforderlich. Wichtig bei der Neuordnung ist auch, daß die Preisgestaltung auf dem Arzneimittelmarkt — von der Erzeuger- bis zur Verbraucherstufe — künftig preis- und kartellrechtlich einwandfrei erfolgt. Dies ist um so bedeutungsvoller, als aus gesundheitspolitischen Gründen für jedes apothekenpflichtige Arzneimittel ein einheitlicher Apothekenverkaufspreis erhalten bleiben soll. Schließlich sollen die staatlich geregelten Apothekenzuschläge neu festgelegt und dazu eine preisrechtlich klare Bezugsbasis geschaffen werden. Die Gespräche mit den Marktbeteiligten darüber sind noch nicht abgeschlossen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg99">Herr Staatssekretär, erlauben Sie mir die große Bitte, die Fragen in Zukunft vielleicht etwas kürzer zu beantworten. Sie haben eine Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Lenders (SPD) :</note>
+        <u who="#Q1603865" xml:id="ParlaMint-DE_1973-11-28-07-066.u56" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg100">Da die Zustände auf dem Arzneimittelmarkt immer wieder zu Beschwerden und Beanstandungen führen, möchte ich Sie fragen, Herr Staatssekretär, ob Sie mir sagen können, welche Vorstellungen die Bundesregierung darüber hat, wann etwa die neuen Verfahren zur Beobachtung und Beeinflussung der Preisgestaltung zu wirken beginnen werden.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg101">Ich möchte hier eine genaue zeitliche Voraussage nicht machen, weil, wie gesagt, noch nicht einmal die Ressortgespräche abgeschlossen sind. Entscheidend ist, daß wir — über die Grundzüge jedenfalls — Einvernehmen erzielt haben. Es tut mir leid, daß ich hier keine zeitliche Voraussage machen kann.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u58" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg102">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Lenders (SPD) :</note>
+        <u who="#Q1603865" xml:id="ParlaMint-DE_1973-11-28-07-066.u59" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg103">Herr Staatssekretär, kann ich dann aber davon ausgehen, daß die Bundesregierung an diesem Problem mit Vordringlichkeit arbeitet?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Seiters: Wie an allen Problemen, Herr Kollege Lenders!</desc>
+        </vocal>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bunidesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg104">Davon können Sie ausgehen.</seg>
+        </u>
+        <note type="speaker">Lenders (SPD) :</note>
+        <u who="#Q1603865" xml:id="ParlaMint-DE_1973-11-28-07-066.u61" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg105">Danke schön.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u62" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg106">Ich rufe die Frage 57 des Herrn Abgeordneten Lenders auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg107">Wird die Bundesregierung das Tätigwerden des Bundeskartellamts gegenüber der Pharmafirma Merck wegen der Vermutung einer überhöhten Preisfestsetzung für ihre Vitaminpräparate zum Anlaß nehmen, Maßnahmen zu ergreifen, die es der öffentlichen Hand ermöglichen, schneller und schärfer als bisher gegen durch den Mißbrauch von Marktmacht entstandene Gewinne vorzugehen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg108">Herr Kollege, durch die Kartellnovelle sind die Voraussetzungen für eine wirksamere Kontrolle des Mißbrauchs von Marktmacht verbessert worden. Der neue § 22 gibt dem Kartellamt nunmehr hinreichende Handhaben, den Mißbrauch marktbeherrschender Stellungen zu unterbinden. Nach Auffassung der Bundesregierung ist eine erneute Novellierung dieser erst vor kurzem verabschiedeten Kartellgesetznovelle nicht erforderlich; jedenfalls sollten die Vorschriften und die praktischen Erfahrungen mit dem neuen § 22 des Kartellgesetzes abgewartet werden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u64" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg109">Zusatzfragen? — Keine Zusatzfragen; danke. Ich rufe die Frage 58 des Herrn Abgeordneten Hoffie auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg110">Ist die Bundesregierung bereit, darauf hinzuwirken, daß bei der vorübergehenden Stillegung von Kraftfahrzeugen für die Dauer der Energiekrise die bei den Versicherungsgesellschaften erworbenen Schadensfreirabatte nicht verfallen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg111">Herr Kollege, bereits seit dem 1. Juli dieses Jahres können die Versicherungsnehmer ihr Fahrzeug bis zu sechs Monaten im Kalenderjahr stillegen und für diese Zeit bei ihrem Versicherungsunternehmen eine beitragsfreie Unterbrechung des Versicherungsschutzes beantragen, ohne den bisher erworbenen Schadensfreirabatt zu verlieren. Sollte sich herausstellen, daß die Treibstoffverknappung auch über die Mitte des nächsten Jahres hinaus anhalten wird, wird zu prüfen sein, ob eine Verlängerung der Sechs-Monats-Frist möglich ist.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg112">Bitte, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hoffie (FDP) :</note>
+        <u who="#Q1716948" xml:id="ParlaMint-DE_1973-11-28-07-066.u67" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg113">Wird, Herr Staatssekretär, die Bundesregierung darauf hinwirken, daß die Versicherungsgesellschaften die Kraftfahrzeugversicherungsprämien kurzfristig für den Fall senken, daß sich herausstellt, daß z. B. durch die Verdünnung des Verkehrs infolge des Sonntagsfahrverbots die Schadenshäufigkeit und damit auch die Schadensaufwendungen erheblich abnehmen sollten?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg114">Es versteht sich, Herr Kollege, daß sich die tatsächlichen Auswirkungen des Sonntagsfahrverbots und der Geschwindigkeitsbegrenzungen auf die Schadenshäufigkeit und auf die Schadensaufwendungen erst in einiger Zeit werden überblicken lassen. Wir werden diese Entwicklung jedoch sehr sorgfältig beobachten. Im übrigen sind ,die Versicherungsunternehmen bereits nach der geltenden Rechtslage gehalten, technische Überschüsse der Kraftfahrtversicherung den Versicherungsnehmern nach bestimmten Modalitäten auszuschütten.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u69" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg115">Bitte, eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hoffie (FDP) :</note>
+        <u who="#Q1716948" xml:id="ParlaMint-DE_1973-11-28-07-066.u70" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg116">Wie, Herr Staatssekretär, -beurteilt die Bundesregierung die in der Presse bekanntgegebene Absicht der Versicherungsunternehmen, in diesem Zusammenhang auch die Anfängerprämien bei Personen- und Kombinationskraftwagen zum Januar 1974 zu erhöhen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u71" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg117">Die von den Versicherungsunternehmen erstrebte Erhöhung der Anfängerprämien sowie der Pämien für die Malus-Klassen steht im Zusammenhang mit der beabsichtigten Prämienermäßigung für Versicherungsnehmer mit einer Schadensfreiheit von neun und mehr Kalenderjahren. Das Bundeswirtschaftsministerium hat in den letzten Verhandlungen mit der Versicherungswirtschaft die Auffassung vertreten, daß die Erhöhung der Anfängerprämien, obwohl sie vom Schadensbedarf und vom Schadensverlauf her gerechtfertigt ist, unter den augenblicklichen Umständen zurückgestellt werden sollte.</seg>
+        </u>
+        <note type="speaker">Hoffie (FDP) :</note>
+        <u who="#Q1716948" xml:id="ParlaMint-DE_1973-11-28-07-066.u72" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg118">Danke sehr.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u73" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg119">Keine Zusatzfragen? — Die Frage 61 des Herrn Abgeordneten Engelsberger wird auf Wunsch 'des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 69 des Herrn Abgeordneten Böhm (Melsungen)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg120">auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg121">Welche Möglichkeiten einer direkten Förderung der Arbeitnehmer sieht die Bundesregierung im Rahmen der regionalen Strukturpolitik, wie z. B. durch eine differenzierte Kilometerpauschale für Fahrten zwischen Wohnort zur Arbeitsstätte oder die Gewährung besonderer Steuerfreibeträge? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u74" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg122">Die Bundesregierung ist der Auffassung, daß eine direkte Förderung der Arbeitnehmer, insbesondere durch eine differenzierte Kilometerpauschale, keine geeignetes Mittel zur regionalen Wirtschaftsförderung ist. Wie in der Antwort des Herrn Parlamentarischen Staatssekretärs Hermsdorf vom 8. Juni 1973 auf Ihre Frage bereits erklärt wurde, ist es nicht möglich, nach städtischen und ländlichen Gebieten differenzierte Kilometerpauschbeträge einzuführen. Die Bundesregierung ist weiterhin der Auffassung, daß sich durch besondere lohnsteuerliche Vergünstigungen die vorhandenen Standortnachteile nicht wirksam beseitigen lassen. Die regionale Strukturpolitik, wie sie von Bund und Ländern gemeinsam praktiziert wird, hat nachweislich auch vor allem Vorteile für die Arbeitnehmer gebracht, ohne verfassungsrechtliche Bedenken, wie sie bei einer differenzierten Kilometergeldpauschale auftreten würden, auszulösen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u75" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg123">Eine Zusatzfrage, Herr Kollege Böhm.</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1973-11-28-07-066.u76" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg124">Herr Staatssekretär, sind Sie mit mir der Auffassung, daß sich seit dem Sommer dieses Jahres gerade durch die Verteuerung der Treibstoffpreise eine neue zusätzliche Belastung besonders für die Arbeitnehmer im ländlichen Raum bei ihren Fahrten von der Wohnstätte zum Arbeitsplatz ergeben hat und daß es daher unbedingt notwendig ist, diese Frage erneut zu überdenken?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg125">An der grundsätzlichen Einstellung der Bundesregierung zu dieser Frage hat sich nichts geändert, obwohl selbstverständlich klar ist, daß höhere Treibstoffpreise die Arbeitnehmer unterschiedlich betreffen. Das gilt allerdings nicht nur für die Regionen, die etwa wirtschaftlich schwach sind, sondern das ist eine allgemeine Erscheinung.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u78" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg126">Eine Zusatzfrage? — Bitte, Herr Kollege!</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1973-11-28-07-066.u79" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg127">Herr Staatssekretär, ich möchte Sie noch darauf hinweisen, daß Sie die Frage nach den besonderen Steuerfreibeträgen und der Möglichkeit, sie zu schaffen, nicht beantwortet haben und ich um diese Antwort bitte.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u80" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg128">Herr Kollege, das, was ich zur Kilometerpauschale gesagt habe, gilt für alle Möglichkeiten im Rahmen der steuerlichen Maßnahmen. Wir können hier nicht nach Regionen differenzieren.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u81" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg129">Herr Kollege Dr. Warnke, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u82" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg130">Herr Staatssekretär, ist Ihnen bekannt, daß der SPD-Landesverband Bayern, dessen Vorsitzender Bundesminister Dr. Vogel ist, etwa vor einem halben Jahr einen Parteitagsbeschluß gefaßt hat, worin diese differenzierte Kilometerpauschale gefordert wird, und welche Konsequenzen beabsichtigt die Bundesregierung zu ziehen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u83" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg131">Mir ist dieser Beschluß nicht bekannt. Mir ist aber sehr wohl bekannt, daß über die Frage der Regionalisierung der Konjunkturpolitik diskutiert wird und daß auch innerhalb der Fraktionen unterschiedliche Auffassungen dazu bestehen. Ich habe hier den Standpunkt der Bundesregierung dargelegt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u84" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg132">Eine Zusatzfrage, Herr Kollege Jäger (Wangen)!</seg>
+        </u>
+        <note type="speaker">Jänger (Wangen) (CDU/CSU) :</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1973-11-28-07-066.u85" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg133">Herr Staatssekretär,nachdem Sie sich in dieser kritischen Form über die differenzierte Kilometerpauschale geäußert haben, möchte ich Sie fragen: hält die Bundesregierung angesichts der sprunghaft gestiegenen Kostenentwicklung für die im ländlichen Raum lebenden Arbeitnehmer die gegenwärtig geltende allgemeine Kilometerpauschale im Lohnsteuerrecht noch für gerechtfertigt, und bis zu welchem Zeitpunkt gedenkt die Bundesregierung, hier eine den tatsächlichen Kosten gerechter werdende Lösung zu finden?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u86" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg134">Das wird im Rahmen der Steuerreform zum 1. Januar 1975 geschehen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg135">Herr Kollege Ziegler, eine Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Ziegler (CDU/CSU) :</note>
+        <u who="#Q1353572" xml:id="ParlaMint-DE_1973-11-28-07-066.u88" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg136">Herr Staatssekretär, ist Ihnen klar, daß die Auffassung, die Sie als die Auffassung der Bundesregierung vorgetragen haben, in krassem Widersruch zum Ziel der Bundesregierung steht, gleichwertige Lebensbedingungen in allen Landesteilen herbeizuführen? Denn die Situation, wie sie sich jetzt darstellt, führt ganz klar zu einer krassen Benachteiligung der ländlichen Gebiete . . .</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u89" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg137">Bitte stellen Sie eine Frage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Ziegler (CDU/CSU) :</note>
+        <u who="#Q1353572" xml:id="ParlaMint-DE_1973-11-28-07-066.u90" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg138">... und steht auf diese Weise im Widerspruch zu Ihrer Auffassung.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u91" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg139">Herr Kollege, ich kann diese Meinung nicht teilen. Die Aufgabe der Bundesregierung und der Landesregierungen besteht darin, mit dem höchstmöglichen Maß an Gerechtigkeit und mit dem geringstmöglichen Aufwand zu einem Ausgleich der unterschiedlichen Strukturen beizutragen. Das geschieht über die regionale Strukturpolitik, die wir gemeinsam mit den Ländern betreiben. Maßnahmen, wie sie hier gefordert werden, sind nach Auffassung der Bundesregierung nicht geeignet, eine solche Förderung wirksam werden zu lassen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u92" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg140">Keine Zusatzfragen. Ich rufe die Frage 70 des Herrn Abgeordneten Böhm (Melsungen)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg141">auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg142">Teilt die Bundesregierung die Ansicht, daß im Rahmen ihrer regionalen Strukturpolitik Arbeitsplätze im öffentlichen Dienst durch Bund und Länder dadurch geschaffen werden können, daß neu zu schaffende Behörden und andere öffentliche Einrichtungen in strukturschwachen Gebieten errichtet oder bereits vorhandene Behörden und öffentliche Einrichtungen dorthin verlagert werden, und welche Maßnahmen dieser Art hat die Bundesregierung bisher ergriffen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg143">Die Bundesregierung ist der Auffassung, daß durch die Errichtung von staatlichen Institutionen in Fördergebieten oder durch Verlagerung in diese Gebiete wirksame flankierende Hilfen zur regionalen Wirtschaftsförderung geleistet werden können. Die Bundesregierung hat dies auch bereits in Beantwortung mehrerer Anfragen in der Fragestunde des Bundestages ausdrücklich betont. Der Bundesminister für Wirtschaft hat im interministeriellen Ausschuß für regionale Wirtschaftspolitik wiederholt sämtliche dort vertretenen Bundesressorts darauf hingewiesen, soweit wie möglich von der Ansiedlung und Verlagerung ihnen zugeordneter Verwaltungsstellen in Fördergebiete, insbesondere ins Zonenrandgebiet, Gebrauch zu machen. Präsident 'Frau Renger: Eine Zusatzfrage, bitte Herr Kollege Böhm!</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1973-11-28-07-066.u94" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg144">Herr Staatssekretär, gibt es zu diesem Themenkreis auch eine Erfolgskontrolle innerhalb der Bundesregierung, und können Sie mir sagen, welche konkreten Ergebnisse die Bemühungen der Bundesregierung auf diesem Gebiet bisher gehabt haben?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg145">Diese Erfolgskontrolle wird ständig durchgeführt, und unser Haus weist im interministeriellen Ausschuß auch ständig auf die Notwendigkeit hin. Ich kann Ihnen sagen, daß etwa die Ansiedlung der Bundeswehrverwaltungsschule III, von sechs Bundesforschungsanstalten im Bereich des Bundesministeriums für Landwirtschaft, des Bundesarbeitsgerichts, des Bundessozialgerichts, einer Verwaltungsschule der Bundesanstalt für Arbeit im Sinne dieser regionalen Förderung tatsächlich erfolgt ist. Geplant ist die Errichtung einer Schulungsstätte des Bundesverbandes der Betriebskrankenkassen im Raum Kassel.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg146">Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Böhm (Melsungen) (CDU/CSU) :</note>
+        <u who="#Q1752726" xml:id="ParlaMint-DE_1973-11-28-07-066.u97" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg147">Herr Staatssekretär, können Sie mir sagen, wann die von Ihnen soeben genannten Institutionen dort eingerichtet worden sind?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u98" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg148">Das kann ich auf Grund meiner Unterlagen leider zeitlich nicht fixieren. Aber ich gebe Ihnen das gern schriftlich bekannt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u99" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg149">Zusatzfrage, Herr Kollege Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1973-11-28-07-066.u100" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg150">Herr Staatssekretär, würden Sie mir einräumen, daß Ihre heute und schon wiederholt abgegebene Versicherung in krassem Gegensatz zu der Wirklichkeit steht, daß nämlich dann, wenn Möglichkeiten bestünden, Behörden, vor allem Schulen der Bundesverwaltungen, in strukturschwache Gebiete zu bringen, dies trotzdem nicht geschieht?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u101" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg151">Herr Kollege, es ist gar keine Frage, daß unsere Bemühungen, hier zu einer stärkeren Berücksichtigung etwa des Zonenrandgebietes beizutragen, natürlich auf Widerstände und Schwierigkeiten stoßen und daß bei der Ansiedlung von staatlichen Einrichtungen natürlich auch die Frage der Wirtschaftlichkeit berücksichtigt werden muß, daß also Ansiedlungen nicht allein unter diesem Gesichtspunkt möglich sind.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u102" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg152">Zusatzfrage, Herr Abgeordneter Immer.</seg>
+        </u>
+        <note type="speaker">Immer (SPD) :</note>
+        <u who="#Q1407193" xml:id="ParlaMint-DE_1973-11-28-07-066.u103" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg153">Herr Staatssekretär, inwieweit wird von Ihrem Hause darauf hingewirkt, daß im Rahmen des regionalen Förderungsprogramms erreicht wird, daß bestehende Dienststellen, die unter der Aufsicht des Bundes stehen — ich denke etwa an Bundespost und Bundesbahn —, auch wirklich im Lande verbleiben?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u104" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg154">Auch hier werden wir mit großem Nachdruck alle Einrichtungen, deren Erhaltung wirtschaftlich vertretbar ist, zu erhalten suchen. Das ist ganz selbstverständlich. Das schließt nicht aus, daß es zwingende, übergeordnete Gesichtspunkte, etwa im Rahmen der Rationalisierung, gibt, die im Einzelfall zu einer gegenteiligen Entscheidung zwingen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u105" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg155">Zusatzfrage, Herr Abgeordneter Dr. Warnke.</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u106" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg156">Herr Staatssekretär, wäre die Bundesregierung bereit, den Vorschlag zu erwägen, eine Zusammenstellung aller in absehbarer Zeit für eine Neuerrichtung oder Verlagerung in die Fördergebiete in Frage kommenden Dienststellen, Ausbildungseinrichtungen und Behörden vorzunehmen und, bis diese Zusammenstellung vorgenommen und beraten ist, einen Errichtungs- und Verlagerungsstopp anzuordnen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u107" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg157">Im interministeriellen Ausschuß wird ein solcher Überblick ständig erarbeitet. Ich bin gerne bereit, darauf hinzuwirken, daß auch Ihnen diese Liste bekanntgegeben wird. Für einen generellen Stopp sehe ich allerdings so, wie sich mir die Lage im Augenblick darstellt, keine Möglichkeit, weil es sich hier ja sowohl um langfristige als auch um sehr kurzfristige Vorhaben handelt, die nicht unter solchen Gesichtspunkten generell gestoppt werden können. Aber wir werden das gern prüfen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u108" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg158">Zusatzfrage, Herr Kollege Erhard.</seg>
+        </u>
+        <note type="speaker">Erhard (Bad Schwalbach) (CDU/CSU) :</note>
+        <u who="#Q817923" xml:id="ParlaMint-DE_1973-11-28-07-066.u109" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg159">Herr Staatssekretär, haben Sie im Wirtschaftsministerium nachhaltigen Einfluß auf den Standort bestimmter oberer oder mittlerer Postbehörden genommen, die neugeschaffen worden sind oder neugeschaffen werden - auf den Standort ganz konkret?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u110" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg160">Im Rahmen der Abstimmung zwischen den Ressorts werden diese Fragen auch mit uns besprochen, und wir haben in unserer speziellen Aufgabenstellung in diesem interministeriellen Ausschuß in den Bereichen, in denen eine besondere Notwendigkeit zur Erhaltung oder Ansiedlung öffentlicher Einrichtungen besteht, darauf auch besonderen Einfluß genommen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg161">Ich rufe die Frage 71 des Herrn Abgeordneten Dr. Waffenschmidt auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg162">Welche Schlußfolgerungen regionalpolitischer Art wird die Bundesregierung aus der Tatsache ziehen, daß in strukturschwachen und monostrukturierten Räumen stark ansteigende Kurzarbeit und zunehmende Arbeitslosigkeit festzustellen sind, besonders in der Bauwirtschaft und in der Textilindustrie? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg163">Die Bundesregierung beobachtet mit großer Aufmerksamkeit die Entwicklung am Arbeitsmarkt, insbesondere auf dem Bausektor und in der Textilwirtschaft. Die Bundesregierung hat daher für solche Bereiche, in denen sich kritische Entwicklungen abzeichnen, folgende Erleichterungen beschlossen, die ohne wesentliche Beeinträchtigung der gesamtwirtschaftlichen Stabilitätspolitik möglich sind. Erstens. Zur Realisierung des sozialen Wohnungsbauprogramms werden für 50 000 bereits fertig geplante Wohnungen vorübergehende Finanzierungserleichterungen gewährt. Zweitens. Für den Textil- und Bekleidungssektor werden gegenüber den asiatischen Ländern die im Zweiten Stabilitätsprogramm eingeführten Kontingentsaufstockungen nicht über den 31. Dezember 1973 hinaus verlängert und gegenüber den Staaten des Ostens nicht erhöht. Im Vordergrund der Regionalpolitik der Bundesregierung steht das Ziel der Schaffung von Ersatzarbeitsplätzen. Die Möglichkeit hierzu bietet die Gemeinschaftsaufgabe Verbesserung der regionalen Wirtschaftsstruktur, durch die neue Dauerarbeitsplätze, insbesondere auch Frauenarbeitsplätze, mit Nachdruck gefördert werden. Die im Zweiten Rahmenplan der Gemeinschaftsaufgabe zur Verfügung stehenden Mittel ermöglichen eine Berücksichtigung solcher strukturschwachen Räume, die von Kurzarbeit oder Arbeitslosigkeit bedroht sind.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg164">Zusatzfrage, Herr Kollege Dr. Waffenschmidt.</seg>
+        </u>
+        <note type="speaker">Dr. Waffenschmidt (CDU/CSU) :</note>
+        <u who="#Q1630036" xml:id="ParlaMint-DE_1973-11-28-07-066.u114" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg165">Herr Staatssekretär, wäre die Bundesregierung angesichts der Situation, die sich jetzt gerade in den strukturschwachen Gebieten stellt, bereit, den Zulagensatz von 10 % bei der Gemeinschaftsaufgabe Förderung der regionalen Wirtschaftsstruktur wiederherzustellen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg166">Dazu ist die Bundesregierung nicht bereit. Sie hat aber im Planungsausschuß mit den Ländern dafür gestimmt, daß im Einzelfall aus Mitteln der Gemeinschaftsaufgabe eine solche Aufstockung erfolgen kann. Die Bundesregierung hält es für zweckmäßiger, im Einzelfall, wenn eine solche Notwendigkeit wirtschaftlich gegeben ist, davon Gebrauch zu machen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg167">Bitte, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Waffenschmidt (CDU/CSU) :</note>
+        <u who="#Q1630036" xml:id="ParlaMint-DE_1973-11-28-07-066.u117" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg168">Herr Staatssekretär, können Sie hier für die Bundesregierung erklären, daß sie bereit ist, in diesen strukturschwachen Gebieten, die jetzt ganz besonders auch unter der sektoralen Anspannung auf dem Arbeitsmarkt leiden, in denen also höhere Arbeitslosenziffern zu verzeichnen sind, öffentliche Investitionen in besonderer Weise zu fördern — ich denke z. B. an den Straßenbau und andere Bereiche —, die eine Entlastung kritischer Verhältnisse herbeiführen können?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg169">Wenn das konjunkturell von der gesamtwirtschaftlichen Lage her angezeigt ist, wird die Bundesregierung das tun. Das hat sie schon mehrfach zum Ausdruck gebracht.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg170">Eine Zusatzfrage des Kollegen Dr. Warnke.</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u120" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg171">Herr Staatssekretär, wie rechtfertigt die Bundesregierung ihre Entscheidung, die Zusatzeinfuhren aus den Ostblockstaaten zur Dämpfung der überhitzten Konjunktur in der Textilindustrie trotz Kurzarbeit und Entlassungen in voller Höhe weiterzuführen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u121" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg172">Herr Kollege, dafür sind mehrere Verpflichtungen, die wir eingegangen sind, verantwortlich. Wir sind ja im Rahmen unserer langfristigen Handelsabkommen zu einer schrittweisen Liberalisierung und der Aufstockung der Kontingente verpflichtet. Wir haben darüber hinaus gerade im Handel mit den Staatshandelsländern einen sehr hohen Saldo zu unseren Gunsten. Drittens ist es so, daß 'die eigentlichen Schwierigkeiten der Textilindustrie nicht auf Grund dieser Einfuhren bestehen. Diese Einfuhren verschärfen zwar im einen oder anderen Fall die Schwierigkeiten. Die eigentlichen Schwierigkeiten der Textil- und Bekleidungsindustrie beruhen aber auf Einfuhren aus dem EWG-Raum.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u122" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg173">Eine Zusatzfrage von Herrn Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1973-11-28-07-066.u123" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg174">Herr Staatssekretär, stimmen Sie mir darin zu, daß in den strukturschwachen Gebieten gerade auf dem Bausektor bisher keine überhitzte Konjunktur bestanden hat und daß den sich abzeichnenden Schwierigkeiten dadurch begegnet werden könnte, daß der Bund jetzt in verstärktem Maße Straßenbauaufträge in diese Gebiete vergibt?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär 'beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u124" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg175">Diese Möglichkeit wird dann gegeben sein, wenn die gesamtwirtschaftliche Lage zu einer Änderung der globalen Politik Anlaß gibt oder zwingt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u125" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg176">Bitte, Herr Kollege, eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Zeyer (CDU/CSU) :</note>
+        <u who="#Q95846" xml:id="ParlaMint-DE_1973-11-28-07-066.u126" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg177">Herr Staatssekretär, wo und durch welche Bauträger sollen die 50 000 Sozialwohnungen gebaut werden, von denen Sie gerade gesprochen haben?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg178">Das ist eine Sache, die mit den Ländern abgestimmt wird. Ich kann Ihnen hier jetzt im einzelnen keine Auskunft dazu geben, weil ich darauf nicht vorbereitet bin.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg179">Eine Zusatzfrage des Kollegen Hösl.</seg>
+        </u>
+        <note type="speaker">Hösl (CDU/CSU) :</note>
+        <u who="#Q1525110" xml:id="ParlaMint-DE_1973-11-28-07-066.u129" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg180">Herr Staatssekretär, kann ich Ihrer Aussage entnehmen, daß die 30 %ige Sperre oder Streckung der Mittel für Gemeinschaftsaufgaben jetzt flexibler gehandhabt wird oder aufgehoben ist?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg181">Die Bundesregierung hat mehrfach erklärt, daß sie im Rahmen ihrer allgemeinen Stabilitätspolitik ständig überprüft, welche Maßnahmen etwa geändert werden können. Sie wird ihre Entscheidung in diesem Bereich bekanntgeben, wenn sie das unter den gegebenen Verhältnissen für angezeigt hält.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg182">Herr Kollege Sick, bitte!</seg>
+        </u>
+        <note type="speaker">Sick (CDU/CSU) :</note>
+        <u who="#Q2576900" xml:id="ParlaMint-DE_1973-11-28-07-066.u132" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg183">Herr .Staatssekretär, habe ich Sie, als Sie vorhin über den Anteil der Importe aus Ostblockländern sprachen, richtig verstanden, daß die Bundesregierung den möglichen Ausgleich der Zahlungsbilanz mit den Ostblockländern für wichtiger hält als die innenpolitische Konjunkturlage in bestimmten Sektoren oder Regionen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg184">Nein, Herr Kollege, hier haben Sie mich nicht richtig verstanden. Ich habe darauf hingewiesen, daß die Schwierigkeiten in der Textil- und Bekleidungsindustrie andere Ursachen als die Einfuhren aus den Ostblockstaaten haben. Als ergänzendes Argument habe ich nur hinzugefügt, daß unsere Handelsbeziehungen mit den Staatshandelsländern natürlich auch von der Überlegung mitbestimmt werden, wie diese Handelsbeziehungen insgesamt im Interesse der Beschäftigung unserer Wirtschaft ausgeweitet werden können und daß dazu natürlich nicht nur eine sehr hohe Ausfuhr gehört, sondern auch unsere Bereitschaft, die Ausfuhren, die diese Länder leisten können, als Importe hier aufzunehmen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg185">Eine Zusatzfrage des Herrn Abgeordneten Graf Stauffenberg.</seg>
+        </u>
+        <note type="speaker">Graf Stauffenberg (CDU/CSU):</note>
+        <u who="#Q76401" xml:id="ParlaMint-DE_1973-11-28-07-066.u135" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg186">Herr Staatssekretär, stimmt die Bundesregierung mit der Mitteilung des Herrn Bundesministers Vogel vom 25. Oktober 1973 überein, daß im Baubereich ein Beschäftigungsrisiko — ich frage dies insbesondere mit dem Blick auf Oberbayern — derzeit nicht bestehe?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u136" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg187">Ich kenne diese Mitteilung nicht. Es ist aber gar keine Frage, daß wir in verschiedenen Bereichen, etwa in der Textilindustrie und in der Bauwirtschaft, tatsächlich Beschäftigungsrisiken haben.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg188">Keine weiteren Zusatzfragen. Ich rufe die Frage 72 des Herrn Abgeordneten Sick auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg189">Teilt die Bundesregierung die Auffassung, daß eine Grundbedingung für die Erweiterung der Wirtschaftsstruktur eines Gebietes die Bereitstellung von Verkehrsleistungen ist, und wenn ja, hatte die Bundesregierung konkrete Vorstellungen über die Ausrüstung ländlicher, schwach strukturierter Räume mit ausreichenden Verkehrswegen und Einrichtungen zu dem Zweck, über eine Festigung der Wirtschaftsstruktur die allgemeine Einkommens- und Erwerbsstruktur in solchen Gebieten zu verbessern? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u138" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg190">Die Bundesregierung ist der Auffassung, daß die Bereitstellung eines ausreichenden Verkehrsangebotes eine wichtige Voraussetzung zur Verbesserung der Wirtschaftsstruktur insbesondere in schwach strukturierten Gebieten darstellt. Sie ist daher bemüht, den Ausbau der Verkehrswege in diesen Regionen fortzuführen bzw. zu unterstützen. Da in diesen Gebieten infolge der geringen Bevölkerungsdichte und des relativ niedrigen Verkehrsaufkommens dem Individualverkehr besondere Bedeutung zukommt, wird auch künftig das Schwergewicht der zu treffenden Maßnahmen im Bereich des Straßenbaus liegen. Ich darf in diesem Zusammenhang auch auf die Beantwortung der Großen Anfrage der CDU/CSU-Bundestagsfraktion zur Verkehrspolitik hinweisen. Neben dem Ausbau des Bundesfernstraßennetzes gewährt der Bund auch für den kommunalen Straßenbau in diesen Regionen nach dem Gemeindeverkehrsfinanzierungsgesetz beträchtliche Finanzhilfen, die durch das Verkehrsfinanzierungsgesetz 1971 wesentlich erhöht worden sind. Für das Zonenrandgebiet ist der Zuschuß zu den zuwendungsfähigen Kosten des einzelnen Vorhabens auf 75 % angehoben worden gegenüber 60 % im übrigen Bundesgebiet. Auch ein ausreichendes Angebot öffentlicher Verkehrsleistungen ist in den förderungsbedürftigen Regionen erforderlich. Das zweckmäßigste und gesamtwirtschaftlich kostengünstigste Verkehrssystem ist dabei der öffentliche Personennahverkehr durch Busse. Hier sind wesentliche Förderungsleistungen des Bundes auf dem Weg über die Mineralölsteuer und die Aufstockung der entsprechenden Gasölbetriebsbeihilfen erfolgt. Das kommt insbesondere den Verkehrsnutzern in den ländlichen Gebieten zugute, in denen der Busverkehr vielfach das einzige öffentliche Verkehrsmittel darstellt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg191">Zusatzfrage, Herr Kollege Sick.</seg>
+        </u>
+        <note type="speaker">Sick (CDU/CSU) :</note>
+        <u who="#Q2576900" xml:id="ParlaMint-DE_1973-11-28-07-066.u140" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg192">Herr Staatssekretär, ich entnehme Ihren Äußerungen, daß beispielsweise zwischen Ihrem Hause und dem Verkehrsministerium eine enge Koordination besteht. Darf ich dann an Sie die Frage richten, ob Sie die jetzt geltende Verkehrspolitik als in Ihrer Richtung wirksam ansehen, wenn Sie feststellen müssen, daß nach dem Bundesverkehrswegeplan, der jetzt veröffentlicht worden ist, die Investitionen bei der Bundesbahn zu 90 %, bei Kanal zu 88 %, bei Flug zu 100 %, aber bei den Bundesfernstraßen — ,das ist für die Gebiete wichtig — nur zu 43 % erfüllt werden sollen? Grüner, Parl. Staastssekretär beim Bundesminister für Wirtschaft: Der Vergleich, den Sie hier anstellen, trifft nicht zu, weil Sie allein auf die Bundesfernstraßen abheben, aber nicht auf die Gesamtleistungen, die ja vor allem auch den Bereich des kommunalen Straßenbaus einschließen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u141" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg193">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Sick (CDU/CSU) :</note>
+        <u who="#Q2576900" xml:id="ParlaMint-DE_1973-11-28-07-066.u142" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg194">Herr Staatssekretär, sind Sie mit mir der Meinung nun gezielter als eben —, daß für das flache Land, das beispielsweise durch den Rückzug der Schiene von Verkehrsleistungen entblößt wird, ein verstärkter Straßenbau nötig ist, und meinen Sie nicht auch, daß angesichts dieser Tatsache eine Umschichtung der Finanzmittel zugunsten der Deutschen Bundesbahn und zu Lasten des Straßenbaues diesem Ziel nicht entspricht?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u143" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg195">Grundsätzlich muß die Bundesregierung bei ihren Entscheidungen den Gesamtbedarf berücksichtigen. Das hat sie in diesem Plan getan. Das schließt nicht aus — ich habe darauf hingewiesen —, daß wir gerade in wirtschaftsschwachen Regionen dem Ausbau der Infrastruktur und damit vor allem auch der Verkehrsverbindungen besondere Aufmerksamkeit und, was viel wichtiger ist, besondere Mittel zuwenden. Das tun wir, und das werden wir auch in Zukunft tun.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u144" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg196">Herr Kollege Dr. Warnke!</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u145" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg197">Herr Staatssekretär, ist Ihnen bekannt, daß von den Mitteln für den kommunalen Verkehrsausbau zwischen 85 und 90 % in die Ballungsräume fließen, und sind Sie bereit, im Lichte dieser Tatsache Ihre Feststellung zu korrigieren, daß dadurch ein Ausgleich für die Vernachlässigung ,der verkehrsfernen Räume beim Bundesfernstraßenbau geschaffen werde?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u146" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg198">Herr Kollege, wenn das so ist was ich jetzt hier nicht nachprüfen kann —, dann, meine ich, müßte diese Anfrage an die zuständigen Landesregierungen gerichtet werden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u147" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg199">Herr Kollege Dr. Kunz (Weiden).</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1973-11-28-07-066.u148" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg200">Herr Staatssekretär, wie verträgt sich die von Ihnen gerade geäußerte Meinung bezüglich der Dringlichkeit der Bevorzugung der peripheren Räume beim Fernstraßenbau mit der Tatsache, daß der Haushaltsansatz 1974 gerade bei den Fördergebieten trotz der Teuerung geringer ist als der Ansatz im Fünfjahresplan 1971/75 und daß darüber hinaus die Kürzung für diese Räume größer ist als die Kürzung für die übrigen Gebiete?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär belm Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u149" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg201">Herr Kollege, daß wir im Rahmen einer Stabilitätspolitik nicht alle Wünsche erfüllen können, ist selbstverständlich. Das wird im Rahmen einer Änderung unserer wirtschaftlichen Situation auch Änderungen erfahren können, etwa im Bereich der Mittel, die der Planungsausschuß für die regionale Wirtschaftspolitik zur Verfügung stellen kann.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u150" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg202">Herr Kollege Ollesch.</seg>
+        </u>
+        <note type="speaker">Ollesch (FDP) :</note>
+        <u who="#Q2645612" xml:id="ParlaMint-DE_1973-11-28-07-066.u151" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg203">Herr Staatssekretär, würden Sie dem Kollegen, der vorhin nach der Verteilung der Mittel für den kommunalen Straßenbau fragte, darauf hinweisen wollen, daß die Verteilung der Mittel für den kommunalen Straßenbau nicht ohne Mitwirkung, sondern auf Vorschlag der Länder für die jeweiligen Einsatzarten vorgenommen wird.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg204">Ich bin für diesen Hinweis sehr dankbar und habe Herrn Kollegen Dr. Warnke schon an seine zuständige Landesregierung verwiesen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg205">Zusatzfrage, Herr Dr. Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1973-11-28-07-066.u154" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg206">Herr Staatssekretär, sind Sie bereit einzuräumen, daß die strukturschwachen, insbesondere die peripheren ländlichen Gebiete im Rahmen des Straßenausbauplanes des Bundes nicht gebührend berücksichtigt wurden, weil dort in erster Linie das Frequenzdenken und weniger der Erschließungsgedanke im Vordergrund steht? Stimmen Sie mir weiter zu, daß die Bestimmung des § 4 des Zonenrandförderungsgesetzes, die vorsieht, daß gerade im Zonenrandgebiet auf den Straßenausbau besonderes Gewicht zu legen ist, bis heute eine Symbolbestimmung geblieben ist?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär .bei im Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg207">Herr Kollege, es ist sicher wünschenswert, auch in diesem Bereich mehr zu tun, als wir tatsächlich tun können. Aber die Entscheidung darüber, was etwa im Rahmen der regionalen Wirtschaftsförderung tatsächlich in den Regionen und in den Ländern getan wird, treffen die Landesregierungen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u156" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg208">Herr Kollege Waffenschmidt, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Waffenschmidt (CDU/CSU) :</note>
+        <u who="#Q1630036" xml:id="ParlaMint-DE_1973-11-28-07-066.u157" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg209">Herr Staatssekretär, was gedenkt Ihr Ministerium konkret zu veranlassen, damit bei der ja vorgenommenen Kürzung der Bundesfernstraßenmittel — wie wir sie auch in den Finanzübersichten von der Regierung mitgeteilt bekommen haben — doch die strukturschwachen Räume mit Priorität bedacht werden, so wie das bereits mehrfach hier angekündigt worden ist? Was werden Sie konkret tun, damit das auch ausgeführt wird? Grüner, Parl. Staastssekretär beim Bundesminister für Wirtschaft: Wir können hier im Rahmen der Mittel der regionalen Wirtschaftsförderung tatsächlich etwas tun. Ich weise noch einmal darauf hin, daß alle Entscheidungen von Bund und Ländern gemeinsam gefaßt werden und daß die Durchführung ausschließlich den Ländern obliegt.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u158" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg210">Herr Kollege Dr. Mertes!</seg>
+        </u>
+        <note type="speaker">Dr. Mertes (Gerolstein) (CDU/CSU) :</note>
+        <u who="#Q2650355" xml:id="ParlaMint-DE_1973-11-28-07-066.u159" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg211">Herr Staatssekretär, wie beurteilen Sie die Tatsache, daß auf Vorschlag des Bundes ein Verteilungsschlüssel hinsichtlich der Verkehrsmittel geschaffen worden ist, der mehrheitlich die Mittel in die Ballungsräume leitet?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u160" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg212">Ich kann mich dazu nicht äußern, Herr Kollege — ich bin einfach hier überfragt —, daß ein solcher Beschluß gefaßt ist. Ich wäre dankbar, wenn diese Fragen auch an den Verkehrsminister gerichtet würden.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der FDP.</desc>
+        </vocal>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u161" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg213">Der Zwischenrufer hat recht. Ich glaube, ein bissel geht es zu weit in das andere Sachgebiet. Herr Kollege Hösl!</seg>
+        </u>
+        <note type="speaker">Hösl (CDU/CSU) :</note>
+        <u who="#Q1525110" xml:id="ParlaMint-DE_1973-11-28-07-066.u162" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg214">Herr Staatssekretär, darf ich Sie fragen, ob Sie Ihre vorige Aussage, daß Sie den Schienenersatzverkehr in revierfernen Gebieten — ich denke im besonderen an das Zonenrandgebiet —, nicht als generell ansehen, und würden Sie meine Sorge teilen, daß, wenn man den Rückzug von der Schienen vornimmt, dann doch eine Abqualifizierung in der ganzen wirtschaftlichen Entwicklung gewisser Räume möglich sein wird, und meinen Sie nicht auch, daß man hier von Gebiet zu Gebiet nach Abwägung der zu berücksichtigenden Aspekte gesondert verfahren sollte?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg215">Das ist sicher richtig, Herr Kollege. Es ist ja das Ziel der Gemeinschaftsaufgabe „Regionale Strukturpolitik", gerade diese Abwägung vorzunehmen und auch nach den Vorschlägen der betroffenen Länder die Mittel unterschiedlich zu gewichten.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg216">Ich rufe Frage 73 des Herrn Abgeordneten Sick auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg217">Teilt die Bundesregierung die Auffassung, daß die Verbesserung der regionalen Wirtschaftsstruktur nicht nur durch Maximierung (Ansiedlung neuer Betriebe)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg218">, sondern auch durch Optimierung (Förderung ansässiger Betriebe)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg219">erfolgen kann, und wenn ja, ist die Bundesregierung bereit, den Gesichtspunkt der Optimierung bei der Förderung von Einzelobjekten in Zukunft stärkere Aufmerksamkeit zuzuwenden? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u165" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg220">Die Bundesregierung teilt Ihre Auffassung. Der Rahmenplan der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur" sieht nicht nur eine Förderung der Ansiedlung neuer Industriebetriebe, sondern auch eine Förderung bereits ansässiger Industriebetriebe vor, sofern im Zuge des Investitionsvorhabens eine angemessene Zahl von neuen Dauerarbeitsplätzen geschaffen wird. Der Gesichtspunkt der Optimierung wird insbesondere dadurch unterstrichen, daß eine Förderung bereits ansässiger Industriebetriebe auch außerhalb der Schwerpunktorte erfolgen kann. Die Auswahl der aus Mitteln der Gemeinschaftsaufgabe zu fördernden Investitionsvorhaben obliegt jedoch den einzelnen Bundesländern. Die Bundesregierung hat hierauf keinen Einfluß.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u166" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg221">Eine Zusatzfrage, Herr Kollege? — Bitte!</seg>
+        </u>
+        <note type="speaker">Sick (CDU/CSU) :</note>
+        <u who="#Q2576900" xml:id="ParlaMint-DE_1973-11-28-07-066.u167" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg222">Herr Staatssekretär, sind Sie mit mir der Meinung, daß die Bundesregierung aber durch die Erteilung von Präferenzen meinetwegen für die Mittel, die sie beeinflussen kann, etwas für die Optimierung tun kann, Präferenzen beispielsweise bei ERP-Mitteln oder bei der Kreditanstalt für Wiederaufbau, Präferenzen bei der Zinsbelastung, bei der Laufzeit, bei den tilgungsfreien Jahren oder hinsichtlich der Anforderung von — —</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u168" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg223">Kurze Zusatzfrage, bitte!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u169" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg224">In allen diesen Bereichen sind wir auf die Abstimmung mit den Ländern angewiesen. Es ist nicht möglich, daß die Bundesregierung etwa eigene Präferenzen an die Stelle der von den Ländern vorgetragenen Präferenzen setzt.</seg>
+        </u>
+        <note type="speaker">Sick (CDU/CSU) :</note>
+        <u who="#Q2576900" xml:id="ParlaMint-DE_1973-11-28-07-066.u170" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg225">Herr Staatssekretär, stimmen Sie mit mir überein, daß Sie mich falsch verstanden haben,</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg226">wenn Sie auf die Länder verwiesen? Meine Frage lautete, was die Bundesregierung hier zu tun gedenkt und ob sie unter Umständen Initiativen auch den Ländern anzubieten geneigt wäre.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u171" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg227">Das ist selbstverständlich im Rahmen des Planungsausschusses der Fall. Hier wirkt die Bundesregierung an der Entscheidung mit.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u172" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg228">Ich rufe die Fragen 74 und 75 des Herrn Abgeordneten Dr. Todenhöfer auf. — Er ist nicht im Saal. Die Fragen werden schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Frage 76 des Herrn Abgeordneten Dr. Köhler (Wolfsburg):</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg229">Was gedenkt die Bundesregierung zu tun, um das Prinzip der Förderung in Schwerpunktorten flexibler als bisher zu handhaben und die Möglichkeiten zur Förderung der Industrieansiedlung außerhalb der Schwerpunktorte zu erweitern? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u173" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg230">Dem Gesichtspunkt einer größtmöglichen Flexibilität der Förderung in Schwerpunktorten der Gemeinschaftsaufgabe wird in dem zweiten Rahmenplan der Gemeinschaftsaufgabe weitestgehend Rechnung getragen. Die Förderung soll sich nämlich auf räumliche Schwerpunkte konzentrieren. Der Planungsausschuß der Gemeinschaftsaufgabe, dem alle Landeswirtschaftsminister und -senatoren angehören, hat sich dafür ausgesprochen, daß die Zahl der gegenwärtig 312 Schwerpunktorte der Gemeinschaftsaufgabe nicht vergrößert wird, da eine zu große Zahl von Schwerpunkten für die Förderung der Ansiedlung von Betrieben des verarbeitenden Gewerbes die Entwicklungschancen der einzelnen Schwerpunkte schmälert und zugleich die Effizienz der regionalen Wirtschaftspolitik mindert. Der Flexibilität in der Schwerpunktförderung wird ebenso dadurch Rechnung getragen, daß auch außerhalb von Schwerpunktorten die Errichtung von gewerblichen Produktionsbetrieben gefördert werden kann, wenn überwiegend Frauenarbeitsplätze geschaffen werden oder wenn es sich um Unternehmen handelt, die durch Rohstofflager an bestimmte Standorte gebunden sind oder die erhebliche Belästigungen oder Gefährdungen in Wohnsiedlungsgebieten hervorrufen. Im übrigen werden die Schwerpunkte von den Ländern ausgewählt und räumlich abgegrenzt. Eine darüber hinausgehende Förderung der Industrieansiedlung außerhalb der Schwerpunktorte hält die Bundesregierung im Interesse einer höchstmöglichen Effizienz der regionalen Wirtschaftsförderung nicht für vertretbar.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u174" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg231">Zu einer Zusatzfrage Herr Dr. Köhler.</seg>
+        </u>
+        <note type="speaker">Dr. Köhler (Wolfsburg) (CDU/CSU) :</note>
+        <u who="#Q1666914" xml:id="ParlaMint-DE_1973-11-28-07-066.u175" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg232">Herr Staatssekretär, teilt die Bundesregierung nicht auch die Auffassung, daß in besonders weitflächigen Räumen — ich denke z. B. an eine Situation wie im Regierungsbezirk Lüneburg — das Schwerpunktprinzip so modifiziert werden sollte, daß auch kleinere geeignete zentrale Orte mit gleicher Präferenz in die Förderung einbezogen werden?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u176" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg233">Das ist im Einzelfall durchaus möglich und bedarf eines entsprechend begründeten Antrags der zuständigen Landesregierung.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u177" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg234">Keine weitere Zusatzfrage. Ich rufe die Frage 77 des Abgeordneten Dr. Köhler (Wolfsburg)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg235">auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg236">Was gedenkt die Bundesregierung zu tun, um im Hinblick auf die vor kurzem erfolgte Kürzung der Investitionszulage für Einheitlichkeit zu sorgen, um die Präferenz des Zonenrandgebiets zu wahren?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u178" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg237">Auch nach Kürzung der Investitionszulage .von bisher 10 auf nunmehr 7,5 %, von der die Investitionszulage für die Umstellung oder die grundlegende Rationalisierung von im Zonenrandgebiet gelegenen Betriebsstätten ausgenommen wurde, ist die Einheitlichkeit im Präferenzgefälle gewahrt. Das bisherige Präferenzsystem, das dem Zonenrandgebiet die höchste Förderungspriorität einräumt, gilt unverändert weiter. Der Planungsausschuß der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur" hat sich einstimmig dafür ausgesprochen, daß die Bundesländer bei der Förderung der einzelnen Investitionsvorhaben die sich durch die Kürzung der Investitionszulage ergebende Lücke mit Mitteln der Gemeinschaftsaufgabe ausfüllen können. Hierüber entscheiden die Bundesländer in eigener Zuständigkeit.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u179" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg238">Zu einer Zusatzfrage Herr Kollege Dr. Köhler.</seg>
+        </u>
+        <note type="speaker">Dr. Köhler (Wolfsburg) (CDU/CSU) :</note>
+        <u who="#Q1666914" xml:id="ParlaMint-DE_1973-11-28-07-066.u180" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg239">Herr Staatssekretär, hält es die Bundesregierung denn für mit der eben von Ihnen umrissenen Zielsetzung vereinbar, daß für eine Vielzahl regionaler Aktionsprogramme außerhalb des Zonenrandgebietes besonders die finanzstarken Länder eigene Förderungsprogramme unterhalten, aus denen dann zusätzliche Mittel gewährt werden?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u181" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg240">Herr Kollege, das ist eine Frage, die außerhalb unserer Einflußmöglichkeiten liegt. Im Rahmen der regionalen Strukturpolitik erfolgt über die Förderungsgebiete und die Präferenzen eine mit den Ländern abgestimmte Willensentscheidung. Daß darüber hinaus die Länder im Rahmen ihrer Zuständigkeit und Hoheit andere, zusätzliche Förderungen ergreifen, liegt außerhalb der Möglichkeiten der Bundesregierung zur Einflußnahme.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u182" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg241">Zu einer Zusatzfrage Herr Dr. Warnke.</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u183" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg242">Herr Staatssekretär, welche Konsequenzen wird die Bundesregierung denn aus der Tatsache ziehen, daß durch die Kürzung der Investitionszulage einerseits und die völlig unzulängliche Ausstattung mit Gemeinschaftsaufgabemitteln andererseits die Bezeichnung „25-%-Ort" mittlerweile zum reinen Etikettenschwindel geworden ist, weil diese Mittel überhaupt nur in ganz seltenen Fällen in Höhe von 25 % zur Verfügung gestellt werden können?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u184" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg243">Herr Kollege, es ist noch einmal darauf hinzuweisen, daß das Präferenzgefälle trotz der Kürzung der Investitionszulagen erhalten geblieben ist und die Inanspruchnahme der Investitionszulage auf der Basis von 10 % weit über das hinausging, was der Bundestag angenommen hatte, als er das Investitionszulagengesetz beschloß. Das heißt, die tatsächliche Förderung liegt weit über dem — auch mit den reduzierten Zulagesätzen —, was dem gemeinsamen Beschluß dieses Hauses ursprünglich zugrunde lag.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u185" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg244">Zu einer Zusatzfrage Herr Abgeordneter Dr. Kunz, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden)( (CDU/CSU):</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1973-11-28-07-066.u186" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg245">Herr Staatssekretär, ich nehme Bezug auf die vorhin von Ihnen geäußerte Meinung. Sieht sich die Bundesregierung nicht in der Lage, die additive Gewährung der Beihilfe durch die Länder zu unterbinden oder hier einen Ausschluß der Gewährung der Beihilfe des Bundes vorzunehmen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u187" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg246">Dazu ist die Bundesregierung rechtlich nicht in der Lage. Ich kann hier im Augenblick nicht einmal entscheiden, ob es zweckmäßig wäre, einen solchen Schritt zu unternehmen; denn die Landesregierungen müssen im Rahmen ihrer Möglichkeiten im Einzelfall sehr genau überlegen, wo sie zusätzlich fördern wollen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u188" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg247">Zu einer Zusatzfrage bitte, Herr Kollege Nordlohne!</seg>
+        </u>
+        <note type="speaker">Nordlohne (CDU/CSU) :</note>
+        <u who="#Q1445835" xml:id="ParlaMint-DE_1973-11-28-07-066.u189" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg248">Herr Staatssekretär, Sie sprachen vorhin davon, daß für Investitionszulagen ganz erhebliche Mittel aufgewendet werden. Was gedenkt die Bundesregierung in bezug auf die beiden Aktionsprogramme Nordwestniedersachsen und Zonenrandgebiet zu tun? Denn in solchen Fällen kann tatsächlich fast nur jeder vierte Antrag bewilligt werden, und damit wird dem Problem nicht Rechnung getragen werden, obwohl das an sich die Absicht dieser beiden Aktionsprogramme ist.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u190" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg249">Wir haben in vielen Förderungsprogrammen mit der Tatsache zu kämpfen, daß der Umfang der Anträge die zur Verfügung stehenden Mittel überschreitet. Dagegen gibt es keine wirksame Möglichkeit außer einer erheblichen Erhöhung der Mittel, die wir aber nicht vornehmen können und auch nicht grundsätzlich für notwendig halten. Entscheidend ist, daß ein Präferenzgefälle besteht, auch wenn im Einzelfall nicht jeder Antrag bedient werden kann.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u191" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg250">Zu einer Zusatzfrage Herr Kollege Hösl, bitte!</seg>
+        </u>
+        <note type="speaker">Hösl (CDU/CSU) :</note>
+        <u who="#Q1525110" xml:id="ParlaMint-DE_1973-11-28-07-066.u192" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg251">Herr Staatssekretär, bestehen Richtlinien oder Verwaltungsabkommen zwischen Bund und Ländern bezüglich der von Ihnen genannten Auffangverpflichtung für gewerbliche Unternehmen im Zonenrandgebiet durch Ausfall der von 10 auf 71/2 % gesenkten Investitionszulage?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u193" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg252">Es besteht die Vereinbarung, daß die Länder berechtigt sind, aus den Mitteln der Gemeinschaftsaufgabe im Einzelfall, wo sie es für zweckmäßig halten, einen Ausgleich dieses Ausfalls vorzunehmen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u194" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg253">Keine Zusatzfrage. Die Frage 78 des Herrn Abgeordneten Dr. Fuchs wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Frage 79 des Herrn Abgeordneten Dr. Sprung:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg254">Wird die Bundesregierung dafür eintreten, daß das Zonenrandgebiet als Ganzes in die Fördergebietsverordnung für den Europäischen Regionalfonds aufgenommen wird? Bitte. Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u195" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg255">Die Bundesrepublik wird bei den Verhandlungen in Brüssel sorgfältig abwägen, ob ein solcher Vorschlag ratsam erscheint. Nicht zuletzt im Hinblick auf die Kosten eines Europäischen Regionalfonds sollte sein Anwendungsbereich zumindest am Anfang möglichst eng definiert werden. Dazu steht der Vorschlag, das Zonenrandgebiet als Ganzes in die Fördergebietverordnung aufzunehmen, im Widerspruch. Im übrigen würde auch die Einbeziehung an Art und Umfang der Förderung im Zonenrandgebiet nichts ändern, da die Hilfe dies Fonds nur im Rahmen der nationalen Regionalförderung gewährt werden soll.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u196" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg256">Eine Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Dr. Sprung (CDU/CSU) :</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1973-11-28-07-066.u197" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg257">Herr Staatssekretär, ist eine besondere Berücksichtigung des Zonenrandgebietes nicht schon deshalb gerechtfertigt, weil im Vertrag für das Zonenrandgebiet, etwa bei den Beihilfevorschriften, bereits ausdrücklich eine Sonderbehandlung vorgesehen ist?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u198" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg258">Herr Kollege, über das hinaus, was ich Ihnen zu diesem Thema gerade eben gesagt habe, kann ich eigentlich auch im Blick auf die laufenden Gespräche in Brüssel keine Einzelaussagen machen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u199" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg259">Herr Kollege Dr. Warnke.</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u200" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg260">Herr Staatssekretär, stimmen Sie mir zu, daß der Einbeziehung der Gesamtheit des Zonenrandgebietes in die Kategorie der europäischen Fördergebiete eine Bedeutung zukommt, die weit über die Frage des eventuellen Mitteleinsatzes der Europäischen Gemeinschaft in diesen Gebieten hinausgeht, und sind Sie bereit, die Frage auch in diesem Licht vor einer endgültigen Entscheidung Ihres Hauses mit dem Parlament zu beraten?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u201" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg261">Ich bin der Meinung, Herr Kollege, daß etwa der Wirtschaftsausschuß ein geeignetes Forum wäre, detailliert über diese Frage zu beraten. Ich würde es begrüßen, wenn das in diesem Rahmen möglich wäre.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u202" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg262">Ich rufe die. Frage 80 des Herrn Abgeordneten Dr. Kunz (Weiden)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg263">auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg264">Wie wird die Bundesregierung bezüglich der Förderpräferenzen auf die Senkung der Investitionszulage um 25 % reagieren, und wie gedenkt sie sicherzustellen, in diesem Zusammenhang die Sondersituation des Zonenrandgebiets deutlich zu machen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u203" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg265">Auch nach Kürzung der Investitionszulage von bisher 10 % auf nunmehr 7,5 %, von der die Investitionszulage für die Umstellung und die grundlegende Rationalisierung von Betriebsstätten im Zonenrandgebiet ausgenommen wurde, bleibt das Präferenzgefälle unverändert. Im Rahmen der Förderpräferenzen der Gemeinschaftsaufgabe genießt das Zonenrandgebiet nach wie vor die höchste Präferenz. Der Planungsausschuß hat übereinstimmend beschlossen, daß bei der Förderung einzelner Investitionsvorhaben die durch die Kürzung der Investitionszulage entstandene Lücke durch das jeweilige Bundesland mit den Mitteln der Gemeinschaftsaufgabe ausgefüllt werden kann.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u204" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg266">Eine Zusatzfrage, Herr Dr. Kunz.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU) :</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1973-11-28-07-066.u205" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg267">Herr Staatssekretär, habe ich Sie richtig verstanden, daß die Bundesregierung nicht bereit ist, die 25%ige Förderung für die übergeordneten Schwerpunktorte zu erhalten, und ist sie damit vielleicht der Meinung, daß diese Orte in der Vergangenheit zu hoch gefördert wurden?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u206" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg268">Die Bundesregierung ist der Meinung, daß die Mittel nicht ausgereicht haben, um die Investitionszulage in der bisherigen Höhe von 10 % aufrechtzuerhalten, daß die Beanspruchung der Haushalte des Bundes und der Länder weit über das hinausging, was ursprünglich vorgesehen war, und daß entscheidend für den Förderungscharakter ist, wie hoch das Präferenzgefälle ist.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u207" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg269">Eine Zusatzfrage, Herr Dr. Warnke.</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u208" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg270">Herr Staatssekretär, sind Sie bereit, damit das Präferenzgefälle nicht eine von Inhalt entleerte Hülse wird, dafür zu sorgen, daß in der mittelfristigen Finanzplanung Ihres Hauses entgegen dem gegenwärtigen Zustand die Mittel für die Regionalförderung nicht fallen, sondern steigen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u209" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg271">Wir werden uns darum sehr bemühen, Herr Kollege, ohne daß ich den Erfolg dieser Bemühungen schon heute voraussagen kann.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u210" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg272">Ich rufe die Frage 81 des Herrn Abgeordneten Dr. Mertes (Gerolstein)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg273">auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg274">Wie burteilt die Bundesregierung Vorschläge, die Auswahl der Schwerpunktorte nicht auf Mittel- und Oberzentren zu beschränken und in dünn besiedelten Gebieten auch Unter- und Kleinzentren in die Schwerpunktförderung einzubeziehen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u211" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg275">Die Bundesregierung ist stets für eine Flexibilität bei der Auswahl von Gemeinden zur Anerkennung als Schwerpunktorte eingetreten. So sind in der Zahl der 312 Schwerpunktorte neben Ober- und Mittelzentren auch Unterzentren vertreten. Allerdings sieht die Bundesregierung eine Grenze für die Anerkennung einer Gemeinde als Schwerpunktort, wenn diese Gemeinde so klein ist, daß sie ,die notwendigen Voraussetzungen für eine industrielle Entwicklung nicht bietet. In der Regel erfüllen Kleinzentren diese Voraussetzungen nicht und damit auch nicht die Anforderungen, die im Hinblick auf die effiziente regionale Wirtschaftsförderung zu stellen sind.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u212" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg276">Herr Kollege Mertes.</seg>
+        </u>
+        <note type="speaker">Dr. Mertes (Gerolstein) (CDU/CSU) :</note>
+        <u who="#Q2650355" xml:id="ParlaMint-DE_1973-11-28-07-066.u213" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg277">Herr Staatssekretär, können Sie die Gemeinden, die Sie eben als kleine Gemeinden qualifiziert haben, näher beschreiben?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u214" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg278">Im allgemeinen ein Einzugsbereich von 20 000 Einwohnern.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u215" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg279">Keine weitere Zusatzfrage". — Dann rufe ,ich die Frage 82 des Herrn Abgeordneten Dr. Mertes auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg280">Wie beurteilt die Bundesregierung den Vorschlag des Bundesrats, das Stabilitätsgesetz im Sinne einer stärkeren Berücksichtigung regionalpolitischer Probleme zu ergänzen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u216" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg281">Die Bundesregierung hat zu der Gesetzesinitiative des Bundesrates zur Änderung des § 6 des Gesetzes zur Förderung der Stabilität und des Wachstums der Wirtschaft ablehnend Stellung genommen. Ausschlaggebend für diese Haltung war die Überlegung, daß mit dem Vorschlag des Bundesrates eine gesetzliche Ausnahme zugunsten eines wenn auch bedeutsamen politischen Aufgabenbereiches begründet würde. Bei einem in bestimmten Konjunkturphasen durchaus möglichen Zielkonflikt zwischen Stabilitäts- und Regionalpolitik muß die Entscheidung aber aus der konkreten Situation heraus unter Berücksichtigung der besonderen Umstände des Einzelfalles getroffen werden und sollte nicht durch eine naturgemäß starre gesetzliche Regelung präjudiziert sein. Im übrigen steht das Stabilitätsgesetz einer angemessenen Berücksichtigung regionalpolitischer Belange keineswegs entgegen. Ich habe auf die Beschlüsse der Bundesregierung vom 22. November 1973 hinsichtlich der Förderung des sozialen Wohnungsbaus und der Rücknahme bestimmter Einfuhrmöglichkeiten schon hingewiesen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger :</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u217" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg282">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Mertes (Gerolstein) (CDU/CSU) :</note>
+        <u who="#Q2650355" xml:id="ParlaMint-DE_1973-11-28-07-066.u218" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg283">Herr Staatssekretär, sehen Sie, nachdem der Vorschlag des Bundesrates an die zuständigen Ausschüsse überwiesen worden ist, eine Möglichkeit, daß die Bundesregierung unter modifizierten Umständen diesem Vorschlag doch ihre Unterstützung gibt? Grüner, ParL Staatssekretär beim Bundesminister für Wirtschaft: Ich sehe vor allem die Möglichkeit, daß in den zuständigen Ausschüssen die Details dieser Frage und die Komplexität dieser Frage ausführlich erörtert werden und daß die Bundesregierung die Gründe, die sie zu ihrer Ablehnung veranlaßt haben, gerade in den Ausschüssen detailliert darlegen kann.</seg>
+        </u>
+        <note type="speaker">Dr. Mertes (Gerolstein) (CDU/CSU):</note>
+        <u who="#Q2650355" xml:id="ParlaMint-DE_1973-11-28-07-066.u219" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg284">Herr Staatssekretär, bedeutet diese Ihre Antwort, daß sie in jedem Falle einen gesetzlichen Rahmen ablehnen wird?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u220" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg285">Zum gegenwärtigen Zeitpunkt, ja.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u221" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg286">Zusatzfrage, Herr Kollege Sick.</seg>
+        </u>
+        <note type="speaker">Sick (CDU/CSU) :</note>
+        <u who="#Q2576900" xml:id="ParlaMint-DE_1973-11-28-07-066.u222" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg287">Herr Staatssekretär, habe ich Sie richtig verstanden, daß Sie sagten, gegebenenfalls solle auch in strukturschwachen Gebieten mit gezielten Maßnahmen eingegriffen werden, und darf ich aus Ihren Ausführungen schließen, daß die Bundesregierung meint, dieser Zeitpunkt sei heute noch nicht gekommen, dort sei alles noch in Ordnung?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u223" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg288">Ja, Sie können das daraus schließen, wobei ich die Zusatzbemerkung, es sei heute alles in Ordnung, angesichts der Energiesituation natürlich nicht gemeint habe.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u224" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg289">Zusatzfrage, Herr Dr. Warnke.</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u225" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg290">Herr Staatssekretär, sehen Sie nicht in der Tatsache, daß bei der Durchführung des Stabilitätsprogramms 1973 die wirtschaftsschwachen Gebiete zusätzlich mit zahlreichen Sonderopfern belastet worden sind, einen zwingenden Grund, durch eine Änderung des Stabilitätsgesetzes, wie vom Bundesrat vorgeschlagen, eine solche verfehlte Politik für die Zukunft auszuschließen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u226" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg291">Ich sehe diese Notwendigkeit nicht, Herr Kollege. Ich bin vielmehr ganz sicher, würde eine solche Regionalisierung betrieben, wäre diese Fragestunde mit Anfragen aus anderen Bereichen überfüllt, die sektorale Wünsche und Wünsche nach einer Investitionslenkung beinhalteten. Ich meine, man muß die Konsequenzen einer solchen Forderung sehr nachdrücklich unterstreichen und überdenken.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u227" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg292">Herr Dr. Waffenschmidt zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Waffenschmidt (CDU/CSU) :</note>
+        <u who="#Q1630036" xml:id="ParlaMint-DE_1973-11-28-07-066.u228" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg293">Herr Staatssekretär, wollen Sie allen Ernstes bei ihrer eben gemachten Aussage bleiben, daß, abgesehen von der Energiekrise, in den strukturschwachen Gebieten alles in Ordnung sei, und zwar angesichts der Tatsache, daß sich das gerade in einer besonderen Situation der Textilwirtschaft, der Bauwirtschaft und anderer Bereiche, die Sie selbst geschildert haben, für die Lebenssituation der Menschen kumulierend und verschlechternd ausgewirkt hat?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär 'beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u229" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg294">Herr Kollege, Sie haben darauf hingewiesen, daß ich sehr deutlich gemacht habe, welche Beschäftigungsrisiken in einigen Bereichen und Regionen schwerpunktmäßig vorhanden sind. Ich habe diese Entwicklung nicht etwa verharmlosen, sondern lediglich darauf hinweisen wollen, daß wir im allgemeinen im Blick auf die gesamtwirtschaftliche Situation keine Möglichkeit sehen, unsere Stabilitätspolitik etwa zum jetzigen Zeitpunkt abzubrechen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u230" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg295">Zusatzfrage, Graf Stauffenberg.</seg>
+        </u>
+        <note type="speaker">Graf Stauffenberg (CDU/CSU) :</note>
+        <u who="#Q76401" xml:id="ParlaMint-DE_1973-11-28-07-066.u231" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg296">Herr Staatssekretär, darf ich Sie fragen, von wann die Daten stammen, auf denen die Bundesregierung ihre ablehnende Haltung aufgebaut hat, und ob Sie sich denken können, daß sie innerhalb der nächsten ein bis zwei Monate über neue Daten verfügt, die sie diese ablehnende Haltung revidieren läßt, oder halten Sie das für ausgeschlossen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u232" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg297">Es ist ganz selbstverständlich, daß sich die konjunkturelle Lage ständig ändern kann. Die Bundesregierung ist nicht müde geworden, zu betonen, daß sie die Vollbeschäftigung zu erhalten wünscht und daß sie die entsprechenden Maßnahmen treffen wird, sobald sie dafür Entscheidungsgrundlagen hat, die tatsächlich zum Handeln Anlaß geben und dies auch rechtfertigen.</seg>
+        </u>
+        <note type="speaker">Graf Stauffenberg (CDU/CSU) :</note>
+        <u who="#Q76401" xml:id="ParlaMint-DE_1973-11-28-07-066.u233" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg298">Frau Präsidentin, ich hatte in meiner Frage klar nach dem Zeitpunkt gefragt, von wann die Daten sind, auf denen die Bundesregierung — —</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u234" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg299">Verzeihen Sie, verehrter Herr Kollege, ich muß es dem Herrn Staatssekretär überlassen, in welcher Weise er antwortet. Ich rufe die Frage 83 des Herrn Abgeordneten Dr. Warnke auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg300">Welche Gründe haben die Bundesregierung veranlaßt, über die globalen konjunkturpolitischen Maßnahmen hinaus in den strukturschwachen Gebieten zusätzliche Bremsmaßnahmen durch die Streckung der Mittel der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur" durchzuführen, und warum muß 1974 in den strukturschwachen Gebieten bei öffentlichen Investitionen stärker gebremst werden als in den Ballungszentren? Herr Staatssekretär, bitte!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u235" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg301">Die Streckung der Mittel der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur" ist Teil des gesamten Stabilitätsprogramms der Bundesregierung und kann daher nicht isoliert gesehen werden. Sie ist Teil der Bemühungen der Bundesregierung, zu einer Stabilisierung zu gelangen, die auch den Fördergebieten der Gemeinschaftsaufgabe zugute kommen. Allerdings ist der Konjunkturverlauf der nächsten Monate sehr aufmerksam zu beobachten, vor allem auch im Hinblick darauf, ob sich etwa regional in den strukturschwachen Gebieten besondere Entwicklungen ergeben werden. Die Bundesregierung hat am 22. November 1973 beschlossen, die bisherige Streckung von Haushaltsmitteln für die Gemeinschaftsaufgabe teilweise oder ganz aufzuheben, sobald entsprechende regionale Unterschiede in der konjunkturellen Abschwächung dies geboten erscheinen lassen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u236" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg302">Zusatzfrage, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u237" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg303">Welche Erscheinungen des konjunkturellen Überschäumens in den wirtschaftsschwachen Gebieten haben eigentlich die Bundesregierung dazu veranlassen können, eine Sperrung von 30% für das kommende Jahr überhaupt nur vorzuschlagen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u238" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg304">Die Tatsache, daß nicht nur in den Ballungsgebieten, sondern auch in den wirtschaftsschwachen Gebieten eine Hochkonjunktur außergewöhnlichen Ausmaßes und ein ungewöhnlicher Auftragseingang zu verzeichnen waren, hat diese Stabilitätspolitik ausgelöst, die vom Sachverständigenrat erst vor wenigen Tagen als notwendig und richtig und als ohne echte Alternative dastehend bezeichnet worden ist.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u239" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg305">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u240" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg306">Herr Staatssekretär, gibt es in dem Gutachten des Sachverständigenrates irgendeine Stelle, die sich auf die regionalpolitischen Maßnahmen und insbesondere auf die Streckung und Kürzung der Infrastrukturmittel bezieht?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u241" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg307">Es gibt im Gutachten vor allem keinen Hinweis darauf, daß eine Regionalisierung der Konjunkturpolitik für den Sachverständigenrat eine echte Alternative darstellen würde.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u242" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg308">Zusatzfrage, Herr Dr. Waffenschmidt.</seg>
+        </u>
+        <note type="speaker">Dr. Waffenschmidt (CDU/CSU) :</note>
+        <u who="#Q1630036" xml:id="ParlaMint-DE_1973-11-28-07-066.u243" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg309">Herr Staatssekretär, sind Pressemeldungen zutreffend, daß in der morgigen Sitzung des Konjunkturrates im Blick auf die öffentlichen Investitionen in den Bereichen, die hier gerade angesprochen wurden, die sogenannte Schuldendeckelverordnung für die betroffenen Gemeinden modifiziert werden soll?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u244" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg310">Ich möchte und kann der Sitzung des Konjunkturrates und deren Ergebnissen hier heute nicht vorgreifen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau 'Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u245" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg311">Ich rufe die Frage 84 des Herrn Abgeordneten Dr. Warnke auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg312">Strebt die Bundesregierung eine Reduzierung der Arbeitsplatzförderung (Objektförderung)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg313">dem Ausmaß und der Intensität nach an?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u246" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg314">Die Bundesregierung ist der Ansicht, daß die Subventionshöchstwerte für die Objektförderung infolge der Kürzung der Investitionszulage gesenkt werden sollten, wenn das Ziel des Subventionsabbaus ernst genommen wird. Dabei soll jedoch nach den Vorstellungen der Bundesregierung die Präferenzstruktur insgesamt erhalten bleiben. Die Bundesregierung ist außerdem der Meinung, daß die Ausgestaltung der Infrastruktur, vor allem des Wohn- und Freizeitwertes der Schwerpunktorte von wachsender Bedeutung für die regionalwirtschaftspolitischen Anstrengungen ist und daher entsprechender Mittel bedarf. Schließlich ist die Bundesregierung der Ansicht, daß es bei der Arbeitsplatzförderung, d. h. der Objektförderung, in Zukunft verstärkt darum gehen muß, bisherige Arbeitsplätze durch qualitativ bessere Arbeitsplätze zu ersetzen, die außerdem höhere Einkommen in Aussicht stellen. Diese Überlegungen leiten die Bundesregierung bei ihren Bemühungen um eine Weiterentwicklung der Arbeitsplatzförderung.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u247" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg315">Zusatzfrage, Herr Kollege, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u248" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg316">Herr Staatssekretär, muß ich Ihre Antwort so auslegen, daß die Bundesregierung über die in diesem Jahr vorgenommene 25 %ige Kürzung der Investitionszulage hinaus eine weitere Verringerung der Arbeitsplatzförderung zumindest nicht für ausgeschlossen hält?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u249" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg317">Das können Sie meiner Antwort so entnehmen, wobei ich darauf hinweise, daß darüber selbstverständlich. eine Entscheidung noch nicht getroffen ist.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u250" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg318">Noch ,eine Zusatzfrage, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u251" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg319">Herr Staatssekretär, welchen Weg will die Bundesregierung denn gehen, um den Einkommensrückstand, der in den Fördergebieten teilweise über 20 % beträgt, zu verringern, wenn sie die Arbeitsplatzförderung laufend herabsetzt?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u252" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg320">Die Bundesregierung ist der Meinung, daß es bei der Förderung wirtschaftsschwacher Gebiete darauf ankommt, ein Höchstmaß an Erfolg mit einem optimalen Maß an eingesetzten öffentlichen Mitteln zu erreichen. Sie ist der Meinung, daß das mit den getroffenen Maßnahmen tatsächlich der Fall ist. Der Erfolg dieser regionalen Wirtschaftsförderungspolitik zeigt auch deutlich, daß das gelungen ist. Die ursprünglichen Annahmen, wie viele neue Arbeitsplätze mit diesen Maßnahmen gefördert werden können, sind durch die Realität im positiven Sinne weit übertroffen worden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u253" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg321">Ich rufe die Frage 85 des Herrn Abgeordneten Zeyer auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg322">Teilt die Bundesregierung die Auffassung des Deutschen Städtetags, daß Betriebe aus den Ballungszonen verlagert werden sollen, und ist sie bereit, diesem Aspekt im Rahmen der künftigen Regionalpolitik Rechnung zu tragen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u254" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg323">Nach Auskunft des Deutschen Städtetages hat er die von Ihnen unterstellte Aussage in dieser Form nicht gemacht. Er unterstützt jedoch das von der Regionalpolitik der Bundesregierung verfolgte Ziel, die Förderung der Ansiedlung von Betrieben bei Neuerrichtung oder Verlagerung auf mittlere und kleine Verdichtungskerne — Schwerpunktorte — zu konzentrieren.</seg>
+        </u>
+        <note type="speaker">Zeyer (CDU/CSU) :</note>
+        <u who="#Q95846" xml:id="ParlaMint-DE_1973-11-28-07-066.u255" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg324">Herr Staatssekretär, darf ich Ihre Antwort so verstehen, daß Ihnen die Pressemitteilung des Deutschen Städtetages vom 20. September 1973 nicht bekannt ist, in der es heißt: ,,... Produktionsmittel, d. h. wirtschaftliche Unternehmen, dorthin zu verlagern, wo Arbeitskräfte vorhanden sind" ?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u256" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg325">Das steht nicht im Widerspruch zu meiner Antwort; denn Ihre Frage hat etwas anders gelautet.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u257" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg326">Weitere Zusatzfrage, Herr Kollege Zeyer? — Danke schön! Ich rufe die Frage 86 des Herrn Abgeordneten Schröder (Lüneburg)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg327">auf. — Der Herr Abgeordnete ist nicht im Saal. Die Frage wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Auch die weitere Frage des Herrn Abgeordneten Schröder (Lüneburg)</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg328">, die auf der Drucksache 7/1282 abgedruckt ist, wird, weil der Herr Abgeordnete nicht im Saal ist, schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 87 des Herrn Abgeordneten Dr. Jobst auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg329">Welche Absichten verfolgt die Bundesregierung in bezug auf eine Überprüfung der Förderungsschwerpunkte? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u258" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg330">Die Überprüfung von Schwerpunktorten ist in den Zusammenhang mit der geplanten Erfolgskontrolle für die Maßnahmen, Instrumente und Mittel der regionalen Wirtschaftsförderung zu stellen. Bei dieser Erfolgskontrolle wird auch danach zu fragen sein, in welchen Förderungsgebieten die Arbeitsplatzziele dank der Konzentration der Förderung auf Schwerpunktorte erreicht worden sind und in welchen Schwerpunktorten trotz angebotener Förderungshilfen keine Erfolge zu erzielen sind. Damit dient die Überprüfung der Förderungsschwerpunkte dem Bestreben der Bundesregierung, die regionale Wirtschaftsförderung auch weiterhin effizient zu gestalten und überflüssige Subventionen abzubauen. um die Mittel wirksam zu konzentrieren.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u259" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg331">Bitte, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1973-11-28-07-066.u260" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg332">Herr Staatssekretär, stimmen Sie mir zu, daß in dünnbesiedelten Räumen — im Gegensatz beispielsweise zu Fördergebieten, die in der Nähe von Ballungsräumen liegen — eine größere Anzahl von Schwerpunktorten erforderlich ist? -</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u261" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg333">Herr Kollege, über diese Frage müßte man sich wirklich anhand der Einzelfälle unterhalten. Eine generelle Aussage läßt sich hier insofern machen, als ich Ihnen in der Tendenz zustimme.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u262" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg334">Keine Zusatzfrage? — Danke. Ich rufe die Frage 88 des Herrn Abgeordneten Dr. Jobst auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg335">Gedenkt die Bundesregierung, dem Planungsausschuß vorzuschlagen, das derzeitige Grundmuster von 312 Schwerpunktorten beizubehalten?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u263" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg336">Bei !der Aufstellung des ersten Rahmenplans der Gemeinschaftsaufgabe durch Bund und Länder hat sich ein gewisser Pragmatismus nicht vermeiden lassen. Das führte auch dazu, daß die Schwerpunktorte der Regionalen Aktionsprogramme übernommen wurden. Dabei ergab sich die Zahl von 312 Schwerpunktorten. Es handelt sich also um keine methodisch ermittelte Zahl. Eine Überprüfung dieser Zahl — so hat der Planungsausschuß beschlossen — wird erst im Zuge der in meiner Antwort auf Ihre erste Frage erwähnten Erfolgskontrolle und der geplanten Überprüfung der Fördergebietsabgrenzungen möglich sein. Das bedeutet, daß es unter Beibehaltung des bewährten Schwerpunktprinzips zu einer anderen Gesamtzahl an Schwerpunktorten kommen kann.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u264" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg337">Bitte, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1973-11-28-07-066.u265" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg338">Herr Staatssekretär, darf ich Ihrer Antwort entnehmen, daß die Zahl von 312 Schwerpunktorten auf jeden Fall beibehalten wird?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u266" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg339">Das können Sie dieser Antwort nicht entnehmen, Herr Kollege, sondern nur, daß die Entscheidung darüber noch nicht getroffen worden ist. Sie wird bei der Neuabgrenzung der Fördergebiete, die mit den Ländern im Planungsausschuß gemeinsam vorgenommen werden muß, getroffen werden.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u267" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg340">Eine zweite Zusatzfrage, Herr Kollege Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU) :</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1973-11-28-07-066.u268" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg341">Herr Staatssekretär, ,stimmen Sie mir zu, daß die Zahl von 312 Schwerpunktorten im Hinblick auf die strukturpolitischen Notwendigkeiten in diesen Gebieten nicht verringert werden darf?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u269" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg342">Nein, ich kann Ihnen in dieser Allgemeinheit nicht zustimmen. Denn die Förderkriterien, nach denen die Neuabgrenzung vorgenommen werden muß, sind nach anderen Gesichtspunkten als etwa nur nach der Frage aufgestellt, wieviel Schwerpunktorte wir haben sollten. Sie sind vielmehr nach der Frage aufgestellt: Wo ist Förderung insgesamt notwendig? Das ist nicht vom Schwerpunktort, sondern von den regionalen Gegebenheiten 'abhängig. Präsident 'Frau Renger: Eine Zusatzfrage, Herr Dr. Warnke.</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1973-11-28-07-066.u270" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg343">Herr Staatssekretär, sind Sie bereit, dem Hause mitzuteilen, mit welchen Vorschlägen die Bundesregierung, die mit 11 von 22 Stimmen eine Führungsfunktion im Planungsausschuß innehat, bezüglich der Zahl der Schwerpunktorte in den Planungsausschuß der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur" gehen wird?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtchaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u271" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg344">Die Bundesregierung wird nicht mit einem konkreten Vorschlag in den Planungsausschuß gehen, sondern sie wird gemeinsam mit den Ländern im Planungsausschuß eine Entscheidung hinsichtlich der Fördergebietsabgrenzung treffen, wobei die Bundesregierung nicht der Meinung ist, daß es möglich sei, hier etwa eine knappe Mehrheitsentscheidung zu treffen, sondern daß es darauf ankommen wird, eine Möglichkeit zu finden, der eine möglichst große Zahl von Ländern zustimmen kann. Ich mache darauf aufmerksam, daß für eine Entscheidung eine Zweidrittelmehrheit notwendig ist, d. h. daß sechs Länder ausreichen, jede Entscheidung zu verhindern.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u272" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg345">Ich rufe die Frage 89 des Herrn Abgeordneten Dr. Waffenschmidt auf:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg346">Weiche Schlußfolgerungen zieht die Bundesregierung aus dem Gutachten der Wirtschafts-Wissenschaftlichen Forschungsinstitute vom 18. Oktober 1973, wonach 1974 die Bauleistungsnachfrage der Gemeinden im Rahmen der Gemeinschaftsaufgabe um mindestens 1 % zurückgehen wird, teilt sie die Ansicht, daß es keinen konjunkturpolitischen Grund gibt, bei den Gemeinschaftsaufgaben auf dem Bauleistungssektor spezifisch zu kürzen oder zu strecken?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u273" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg347">Im Gutachten der Wirtschaftswissenschaftlichen Forschungsinstitute vom 18. Oktober 1973 heißt es zu den Bauinvestitionen der öffentlichen Hand im Jahre 1974 nur ganz generell — ich zitiere:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg348">Lediglich im öffentlichen Bau kann mit einer Steigerung der Auftragsvergabe gerechnet werden. Und an anderer Stelle:</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg349">Die Ausgaben der öffentlichen Hand werden im nächsten Jahr etwas stärker expandieren als 1973. Dabei werden die Investitionsausgaben wahrscheinlich nennenswert zunehmen, wenn auch abermals weit weniger rasch als die Ausgaben für den Staatsverbrauch und die laufenden Übertragungen. Länder und Gemeinden werden ihre Investitionen 'kräftig erhöhen. Der Bund plant demgegenüber nur eine geringe Zunahme. Über einen Rückgang der Bauleistungsnachfrage der Gemeinden im Rahmen der Gemeinschaftsaufgaben im Jahre 1974 um mindestens 1 % ist in diesem Gutachten nichts gesagt. Was die Mittel für die Durchführung der Gemeinschaftsaufgaben betrifft, wird die Bundesregierung die weitere Entwicklung sorgfältig beobachten und die Aufrechterhaltung der Streckung der Bundesmittel bei den Gemeinschaftsaufgaben hiervon abhängig machen.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u274" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg350">Bitte, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Waffenschmidt (CDU/CSU) :</note>
+        <u who="#Q1630036" xml:id="ParlaMint-DE_1973-11-28-07-066.u275" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg351">Wäre die Bundesregierung bereit, in diesen angesprochenen Gebieten zusätzliche Möglichkeiten für öffentliche Investitionen zu schaffen, falls die heute hier mehrfach besprochene Entwicklung, nämlich einer konjunkturellen Abschwächung und einer zunehmenden Zahl von Arbeitslosen, weiter anhält?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u276" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg352">Im Augenblick gehen von den öffentlichen Haushalten schon gewisse 'expansive Wirkungen aus, weil die restriktive Haushaltsführung des ersten Halbjahres nach der Verabschiedung der Haushalte nun 'aufgehört hat. Darüber hinaus habe ich ja schon klargelegt, daß die Bundesregierung handeln wird, wenn etwa die globale Einschätzung der Konjunkturlage dazu Veranlassung bietet.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u277" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg353">Eine letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Waffenschmidt (CDU/CSU) :</note>
+        <u who="#Q1630036" xml:id="ParlaMint-DE_1973-11-28-07-066.u278" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg354">Herr Staatssekretär, hat die Bundesregierung Gelegenheit genommen,sich mit den Ländern und den kommunalen Spitzenverbänden auf einen solchen möglichen Fall vorzubereiten in dem Sinne, daß zusätzliche Maßnahmen ergriffen werden müssen, um in diesen Gebieten 'eine konjunkturelle und wirtschaftlich einigermaßen tragbare Situation aufrechtzuerhalten?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1973-11-28-07-066.u279" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg355">Das ist geschehen, indem wir die Länder und über die Länder auch 'die Gemeinden gebeten haben, entsprechende Vorarbeiten zu treffen, um auch rasch reagieren zu können, wenn etwa durch eine Freigabe öffentlicher Mittel die Möglichkeit dazu besteht.</seg>
+        </u>
+        <note type="speaker">Präsident Frau Renger:</note>
+        <u who="#Q66138" xml:id="ParlaMint-DE_1973-11-28-07-066.u280" ana="#chair">
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg356">Herr Abgeordneter Niegel ist nicht Saal; seine Frage 171 wird schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich bedanke mich bei Ihnen ganz besonders, Herr Staatssekretär. Die Fragestunde ist beendet.</seg>
+          <seg id="ParlaMint-DE_1973-11-28-07-066.seg357">Ich berufe die nächste Sitzung für Donnerstag, 29. November, 9 Uhr ein.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 15.07 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

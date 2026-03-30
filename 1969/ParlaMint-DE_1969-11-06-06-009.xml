@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1969-11-06-06-009">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 6. Wahlperiode, 9. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 06.11.1969 (9. Sitzung der 6. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 6, Session 9 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1969-11-06 (Session 9 in Legislative Period 6)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="9">9. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.06" n="6">6. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="9">Session 9</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.06" n="6">Legislative Period 6</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 06.11.1969</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1969-11-06</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488220/b2b4d0d49600ef852d15e4052fabce1e/pp06-data.zip</idno>
+          <date when="1969-11-06">1969-11-06</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1969-11-06">1969-11-06</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="U1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksache VI/34 —</head>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg1">Die Sitzung ist eröffnet. Vor Eintritt in die Tagesordnung gebe ich bekannt: Es ist angeregt worden, daß in dem gestern angenommenen Antrag Drucksache VI/38 betreffend Einsetzung von Ausschüssen die ab Nr. 3 bezeichneten Ausschüsse in der Reihenfolge der Ministerien aufgeführt werden sollen. Ist das Haus damit einverstanden? — Dann ist auch in dieser so wichtigen Angelegenheit beschlossen. Folgende amtliche Mitteilung wird ohne Verlesung in den Stenographischen Bericht aufgenommen:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg2">Der Präsident des Bundesverfassungsgerichts hat am 3. November 1969 eine Entscheidung des Bundesverfassungsgerichts vom 28. Oktober 1969 zu § 34 a des Einkommensteuergesetzes übersandt, die im Archiv zur Einsichtnahme ausliegt. Ich rufe den einzigen Punkt der Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg3">Fragestunde — Drucksache VI/34 —</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg4">Ich rufe die Frage 23 des Abgeordneten Dr. Apel auf:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg5">Entspricht es den Tatsachen, daß ab 1. Januar 1970 auf Grund einer vom Bundesfinanzministerium vor Bildung der neuen Bundesregierung vorbereiteten neuen Lohnsteuerrichtlinie die Praxis der Lohnsteuerberechnung für unentgeltliche oder verbilligte Mahlzeiten im Betrieb so verändert werden soll, daß der Sachbezugswert der jeweiligen Mahlzeit voll dem lohnsteuerpflichtigen Einkommen hinzugerechnet werden wird? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg6">Herr Präsident, ich wäre dankbar, wenn ich die beiden Fragen des Kollegen Dr. Apel im Zusammenhang behandeln dürfte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg7">Sind Sie einverstanden?</seg>
+        </u>
+        <note type="speaker">Dr. Apel (SPD) :</note>
+        <u who="#Q65561" xml:id="ParlaMint-DE_1969-11-06-06-009.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg8">Ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg9">Dann rufe ich noch die Frage 24 des Abgeordneten Dr. Apel auf:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg10">Wird die Bundesregierung diese neue Lohnsteuerrichtlinie in Kraft treten lassen, obwohl damit das lohnsteuerpflichtige Einkommen der Betroffenen so wachsen würde, daß sich für sie im Jahre 1970 selbst nach der beabsichtigten Verdoppelung der Arbeitnehmerfreibeträge eine höhere Steuerlast als im Jahre 1969 ergeben könnte?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u6" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg11">Der Wert von unentgeltlichen oder verbilligten Mahlzeiten im Betrieb gehört als geldwerter Vorteil zum steuerpflichtigen Arbeitslohn. Aus Vereinfachungsgründen wird von der Erfassung dieses lohnsteuerpflichtigen Sachbezugs abgesehen, soweit der geldwerte Vorteil 1,50 DM arbeitstäglich nicht übersteigt. Voraussetzung für die Berücksichtigung dieses Freibetrages ist aber, daß der Wert der Mahlzeit mit den üblichen Mittelpreisen des Verbrauchsorts angesetzt wird. Das ist also dann der Fall — ich füge das gleich ergänzend hinzu —, wenn nur eine Mahlzeit am Tag eingenommen wird. Es ist dagegen nicht der Fall, wenn der Arbeitnehmer in die Haus- und Verpflegungsgemeinschaft des Arbeitgebers aufgenommen ist. Der Wert der Mahlzeiten wird dann mit den amtlichen Sachbezugswerten bemessen, die ebenfalls der Vereinfachung und der gleichmäßigen Besteuerung dienen. In diesen Fällen darf nach dem Urteil des Bundesfinanzhofs vom 8. März 1968 der Freibetrag von arbeitstäglich 1,50 DM nicht berücksichtigt werden. Nach Auffassung des Bundesfinanzhofs stellen die amtlichen Sachbezugswerte zwar eine rechtlich zulässige Schätzung des geldwerten Vorteils dar, liegen aber erfahrungsgemäß an der unteren überhaupt möglichen Schätzungsgrenze. Der Vorteil, den die Arbeitnehmer bereits durch die niedrigere Schätzung haben, würde bei zusätzlicher Berücksichtigung des Freibetrages von 1,50 DM arbeitstäglich zu einer nicht gerechtfertigten Steuerbegünstigung führen. In der Praxis wird bereits nach diesen Grundsätzen verfahren. Die vorgesehene Änderung der Lohnsteuerrichtlinien dient in diesem Punkte lediglich der Klarstellung. Eine steuerliche Mehrbelastung der Arbeitnehmer im Kalenderjahr 1970 gegenüber dem Kalenderjahr 1969 wird sich deshalb hierdurch nicht ergeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u7" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg12">Eine Zusatzfrage, bitte!</seg>
+        </u>
+        <note type="speaker">Dr. Apel (SPD) :</note>
+        <u who="#Q65561" xml:id="ParlaMint-DE_1969-11-06-06-009.u8" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg13">Herr Staatssekretär, habe ich Sie richtig verstanden, daß durch diese Präzisierung, die Ihr Haus vorbereitet hat, keine erhöhte Steuerlast eintritt, daß also diejenigen, die 1970 mehr Lohnsteuer bezahlen müßten, es bereits jetzt tun?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u9" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg14">Wenn bisher richtig verfahren worden ist, ja. Es gibt aber Fälle — das habe ich aus dem mir gestern noch zugegangenen Schriftwechsel entnommen —, in denen die Finanzämter die Bestimmungen nicht richtig angewandt, sondern die allgemeine Begünstigung und die 1,50 DM kumuliert haben. In solchen Fällen, wo also gesetzwidrigerweise mehr bezahlt worden oder eine bessere Vergünstigung gegeben worden ist, würde natürlich durch diese Präzisierung ein Mehraufkommen an Lohnsteuer anfallen. Das läßt sich aber nicht vermeiden, denn wenn jemand entgegen dem Gesetz und entgegen der eindeutigen Rechtsprechung des Bundesfinanzhofs etwas bekommt, muß schon im Interesse einer Gleichmäßigkeit der Besteuerung überall gleichverfahren werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u10" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg15">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Apel (SPD) :</note>
+        <u who="#Q65561" xml:id="ParlaMint-DE_1969-11-06-06-009.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg16">Herr Staatssekretär, sind Sie der Meinung, die weit verbreitet ist und die oft vertreten wird, daß die Rechtsgrundlagen für diesen Bereich unzureichend sind und daß deswegen durch eine Novellierung der entsprechenden Gesetze mehr Klarheit und mehr Gerechtigkeit für die Arbeitnehmer geschaffen werden sollten?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg17">Hierzu darf ich sagen, daß mir dieser Eindruck beim Durchlesen der einschlägigen Bestimmungen auch gekommen ist. Man muß sich nämlich aus mehreren Gesetzen die einzelnen Rechtsgrundlagen zusammensuchen, und es ist selbst für einen Juristen sehr schwierig, sich da durchzufinden. Deswegen bin ich auch der Meinung, daß das vereinfacht werden muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg18">Sie haben noch zwei Zusatzfragen.</seg>
+        </u>
+        <note type="speaker">Dr. Apel (SPD) :</note>
+        <u who="#Q65561" xml:id="ParlaMint-DE_1969-11-06-06-009.u14" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg19">Das ist jetzt die letzte, Herr Präsident. Herr Staatssekretär, kann ich Ihrer Aussage entnehmen, daß wir in absehbarer Zeit mit einer Initiative Ihres Hauses in der hier angedeuteten Richtung rechnen können?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u15" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg20">Es handelt sich bei diesen Dingen ohnehin meist um Rechtsverordnungen, die schon auf Grund des gegenwärtigen Rechts vereinfacht werden können. Mit Sicherheit muß die ganze Frage im Zusammenhang mit der Steuerreform geklärt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u16" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg21">Zusatzfrage, Abgeordneter Geiger!</seg>
+        </u>
+        <note type="speaker">Geiger (SPD) :</note>
+        <u who="#Q1579686" xml:id="ParlaMint-DE_1969-11-06-06-009.u17" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg22">Herr Staatssekretär, läßt sich das, wenn Sie selbst die Erkenntnis haben, daß die Richtlinien zu ändern sind, nicht mehr vor Erlaß der neuen Lohnsteuerrichtlinien erledigen?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u18" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg23">In diesem Punkte, der hier in den Fragen des Kollegen Dr. Apel angesprochen worden ist, brauchen die Richtlinien nicht geändert zu werden. Sie geben den gegenwärtigen Rechtszustand, wie er durch die Rechtsprechung des Bundesfinanzhofes verdeutlicht worden ist, ganz richtig wieder. Wenn wir an den Richtlinien etwas ändern wollten, müßten wir zunächst an der Rechtsgrundlage etwas ändern. Das ist aber nicht ohne weiteres und sofort möglich. Ich bitte also um Verständnis, daß zunächst einmal die Neufassung der Richtlinien an Hand der Rechtsprechung erfolgen muß und daß die Frage, ob man die Anrechnung von Essen vereinfachen kann, danach geprüft werden muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u19" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg24">Keine Zusatzfrage mehr. Die Fragen sind beantwortet. Ich rufe die Frage 25 des Abgeordneten Schlee auf:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg25">Wird die Bundesregierung den Entwurf eines Gesetzes zur Verdoppelung des Lohnsteuerfreibetrages für Arbeitnehmer im Zonenrand vorlegen?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u20" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg26">Auf die Frage des Kollegen Schlee darf ich folgendes antworten:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg27">Seitens der früheren Bundesregierung ist bereits in der Fragestunde des Deutschen Bundestages am 20. März 1969 die Auffassung vorgetragen worden, daß steuerliche Maßnahmen zugunsten der Arbeitnehmer im Zonenrandgebiet nicht in Betracht kommen, um einer eventuellen Abwanderung junger qualifizierter Arbeitskräfte aus dem Zonenrandgebiet entgegenzuwirken. Es ist hierbei darauf hingewiesen worden, daß der Abwanderung von Arbeitskräften aus wirtschaftsschwachen Gebieten stets besser mit gezielten Maßnahmen zur Sicherung der vorhandenen Arbeitsplätze oder zur Schaffung neuer Arbeitsplätze begegnet wird. Maßnahmen dieser Art sind nicht nur bereits im Rahmen des Instrumentariums der regionalen Wirtschaftsförderung verfügbar, sondern auch neuerdings auf steuerrechtlichem Gebiet in dem mit dem Steueränderungsgesetz 1969 verabschiedeten Gesetz über die Gewährung von Investitionszulagen enthalten. Im Rahmen dieser Maßnahmen werden Anreize geschaffen, den Arbeitnehmern im Zonenrandgebiet in wohnungsnah gelegenen Arbeitsstätten die gleichen Verdienstchancen zu bieten, wie sie in anderen Gebieten der Bundesrepublik bestehen. Die neue Bundesregierung stimmt insofern der Auffassung der früheren Bundesregierung zu. Sie wird deshalb einen Gesetzentwurf zur Verdoppelung des Arbeitnehmerfreibetrags für Arbeitnehmer im Zonenrandgebiet, also getrennt nur für diese, nicht vorlegen. Parlamentarischer Staatssekretär Dr. Reischl Im übrigen darf ich darauf hinweisen, daß in dem von der Bundesregierung beschlossenen und dem Bundesrat zugeleiteten Entwurf des Steueränderungsgesetzes 1970 unter anderem die Verdoppelung des Arbeitnehmer-Freibetrages für alle Arbeitnehmer vorgeschlagen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg28">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schlee (CDU/CSU) :</note>
+        <u who="#Q2639952" xml:id="ParlaMint-DE_1969-11-06-06-009.u22" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg29">Herr Staatssekretär, ist Ihnen wohl bekannt, daß laut Presseveröffentlichungen in den Versammlungen vor der Wahl von einem maßgebenden Vertreter der nunmehrigen Regierungsparteien, nämlich von dem damaligen Minister für gesamtdeutsche Fragen, erklärt wurde, die SPD habe geplant und plane noch, den Lohnsteuerfreibetrag für Arbeitnehmer im Grenzland zu verdoppeln, leider sei dieses Vorhaben an der geheimen Koalition zwischen CDU/CSU und FDP gescheitert, und es solle ein solcher Antrag auf Verdoppelung des Freibetrages für Arbeitnehmer im Grenzland erneut dem Bundestag vorgelegt werden?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg30">Herr Kollege Schlee, mir ist dieser Vorgang nicht bekannt. Ich habe das nicht gewußt. Ich darf dazu aber sagen, daß eben jetzt ein Gesetzentwurf zur Verdoppelung des Arbeitnehmerfreibetrags für alle vorgelegt wird, und das ist wohl auch die richtigere Maßnahme; denn jede andere Verdoppelung — nur im Zonenrandgebiet — würde Steuergrenzen innerhalb des Bundesgebiets schaffen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg31">Zweite und letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schlee (CDU/CSU) :</note>
+        <u who="#Q2639952" xml:id="ParlaMint-DE_1969-11-06-06-009.u25" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg32">Herr Staatssekretär, ich darf also feststellen, daß die Meinung der Bundesregierung mit diesen von mir angegebenen Erklärungen nicht übereinstimmt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg33">Das war keine Frage.</seg>
+        </u>
+        <note type="speaker">Schlee (CDU/CSU):</note>
+        <u who="#Q2639952" xml:id="ParlaMint-DE_1969-11-06-06-009.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg34">Darf ich also feststellen, Herr Staatssekretär, —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg35">Jetzt höre ich das Fragezeichen!</seg>
+        </u>
+        <note type="speaker">Schlee (CDU/CSU) :</note>
+        <u who="#Q2639952" xml:id="ParlaMint-DE_1969-11-06-06-009.u29" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg36">— daß die Meinung der Bundesregierung mit den von mir wiedergegebenen Äußerungen nicht übereinstimmt?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u30" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg37">Dazu kann ich nicht Stellung nehmen, weil ich die von Ihnen zitierte Äußerung nicht kenne.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u31" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg38">Eine Zusatzfrage, Herr Abgeordneter Schulze-Vorberg.</seg>
+        </u>
+        <note type="speaker">Dr. Schulze-Vorberg (CDU/CSU) :</note>
+        <u who="#Q1593650" xml:id="ParlaMint-DE_1969-11-06-06-009.u32" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg39">Herr Staatssekretär, wenn es der Sinn der Äußerung des damaligen Bundesministers Wehner war, daß man den Arbeitnehmern im Zonenrandgebiet einen besonderen steuerlichen Anreiz schaffen sollte, teilt die Bundesregierung insoweit die Auffassung des heutigen Fraktionsvorsitzenden der SPD?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg40">Daß ein besonderer Anreiz im Zonenrandgebiet geschaffen werden sollte, ist sicher richtig. Nachdem wir jedoch eine generelle Anhebung des Freibetrags für alle Arbeitnehmer vorgeschlagen haben, wäre es jetzt wohl nicht angebracht, unter Schaffung neuer Steuergrenzen innerhalb des Bundesgebiets eine neuerliche Verdoppelung vorzunehmen. Ich könnte mir ja auch andere steuerliche Maßnahmen vorstellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u34" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg41">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Schulze-Vorberg (CDU/CSU) :</note>
+        <u who="#Q1593650" xml:id="ParlaMint-DE_1969-11-06-06-009.u35" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg42">Darf ich also Ihre Antwort so verstehen, Herr Staatssekretär, daß in der Bundesregierung andere steuerliche Maßnahmen erwogen werden, die das Zonenrandgebiet fördern und die Arbeitsmöglichkeiten im Zonenrandgebiet begünstigen?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u36" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg43">Konkrete Angaben über Einzelheiten kann ich naturgemäß schon deswegen nicht machen, weil darüber erst zwischen den einzelnen Häusern gesprochen werden muß und die Bundesregierung dazu nun wirklich noch nicht lange genug im Amt ist; sie kann nicht innerhalb von acht Tagen alle diese Probleme auf einmal regeln. Aber es ist sicher, daß man z. B. bei der Steuerreform und überhaupt bei den ganzen Vorberatungen dazu auch diese Frage gründlich erwägen muß, jedoch meines Erachtens nicht im Sinne der Schaffung neuer Steuergrenzen innerhalb des Bundesgebiets, sondern im Sinne der Schaffung anderer Förderungsmaßnahmen, die auch steuerlicher Art sein können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u37" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg44">Eine Zusatzfrage, Herr Abgeordneter Wehner.</seg>
+        </u>
+        <note type="speaker">Wehner (SPD) :</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1969-11-06-06-009.u38" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg45">Herr Staatssekretär, würden Sie der Anregung folgen, die Bundesregierung und den Bundestag in Kenntnis zu setzen von jener Erklärung der sozialdemokratischen Bundestagsfraktion in der Debatte zu dem ersten Bericht, den der damalige Bundestagsausschuß für gesamtdeusche und Berliner Fragen über die Probleme der Zonenrandförderung hier eingebracht hat, in der sich die sozialdemokratische Bundestagsfraktion als einzige zum Unterschied von den anderen für steuerliche Präferenzen für die Arbeitnehmer im Zonenrandgebiet eingesetz hat, damals aber in der Minderheit blieb? Damit — so begründe ich meine Frage — würde wohl klar, wonach die Herren Fragesteller hier eigentlich gefragt haben.</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u39" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg46">Ich würde der Anregung gern folgen. Ich habe einige Unterlagen darüber da. Ich kann also auch sofort darauf hinweisen, daß in der Bundetsagsdrucksache IV/3668 der damalige Beschluß des Ausschusses enthalten ist. In den Verhandlungen des Ausschusses hat die SPD-Fraktion damals als einzige den Standpunkt vertreten, daß in Form von Steuerpräferenzen Förderungsmaßnahmen erfolgen sollten. Ich wäre aber auch gern bereit — und ich halte das für die vielleicht günstigste Lösung überhaupt —, diese Frage, wenn Herr Kollege Wehner damit einverstanden ist, unter Zusammenstellung aller Fakten schriftlich zu beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u40" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg47">Der Abgeordnete Wehner ist einverstanden, wie ich sehe. Eine Zusatzfrage, Herr Abgeordneter Kempfler.</seg>
+        </u>
+        <note type="speaker">Dr. Kempfler (CDU/CSU) :</note>
+        <u who="#Q1460359" xml:id="ParlaMint-DE_1969-11-06-06-009.u41" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg48">Herr Staatssekretär, wird die Bundesregierung in die von Ihnen allerdings sehr zart angedeuteten Erwägungen über Steuerpräferenzen im Zonenrandgebiet auch die übrigen Fördergebiete, z. B. die Bundesausbaugebiete, einbeziehen?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u42" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg49">Die Frage muß generell geprüft werden. Allein an diesen Zusatzfragen sehen Sie schon, daß es ein sehr komplexes Gesamtproblem ist, das man zunächst einmal insgesamt für das ganze Steuergebiet prüfen muß. Dabei muß man immer im Auge behalten, daß das Steuergebiet eine Einheit ist und daß Präferenzen irgendwelcher Art daher gezielt auf bestimmte Gebiete beschränkt bleiben müssen. All diese Fragen konnten unmöglich jetzt innerhalb von acht Tagen geprüft werden. Sie können aber sicher sein, daß schon bei der Vorbereitung der Steuerreform diese Frage grundlegend überprüft wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u43" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg50">Zusatzfrage, Abgeordneter Niegel.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1969-11-06-06-009.u44" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg51">Herr Staatssekretär, denkt die Bundesregierung daran, gezielte Hilfen für die Arbeitnehmer im Zonenrandgebiet zu geben, sei es steuerlicher Art, sei es sonstiger Art, um einer Verödung des flachen Landes im Zonenrandgebiet entgegenzuwirken, weil sonst alle Arbeitnehmer wegziehen würden?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u45" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg52">Ich kann nur wiederholen, daß die Frage geprüft werden muß. Es ist mir unmöglich, heute etwas Konkretes darüber zu sagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u46" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg53">Zusatzfrage, Abgeordneter Hofmann.</seg>
+        </u>
+        <note type="speaker">Hofmann (SPD) :</note>
+        <u who="#Q1668724" xml:id="ParlaMint-DE_1969-11-06-06-009.u47" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg54">Herr Staatssekretär, ist Ihnen das Schreiben des früheren Bundesministers der Finanzen, Herrn Franz Josef Strauß, vom 14. Februar dieses Jahres bekannt, in dem Herr Strauß die Einführung einer Steuerpräferenz und einer Zulage für Arbeitnehmer im Zonenrandgebiet ablehnt, dies in sechs Punkten begründet und am Schluß schreibt:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg55">Ich würde es nach alledem auch begrüßen, wenn die Forderung nach Einführung einer steuerlichen Sonderregelung für Arbeitnehmer im Zonenrandgebiet nicht erneut erhoben werden würde.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Hört! Hört! bei der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u48" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg56">Dieses Schreiben ist mir leider nicht bekannt, aber sehr interessant.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg57">Zusatzfrage, Herr Abgeordneter Hösl.</seg>
+        </u>
+        <note type="speaker">Hösl (CDU/CSU) :</note>
+        <u who="#Q1525110" xml:id="ParlaMint-DE_1969-11-06-06-009.u50" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg58">Herr Staatssekretär, teilen Sie die frühere Auffassung Ihres Hauses, daß die Steuerpräferenzen im Zonenrandgebiet am regionalen Vollzug scheitern, und sind Sie darüber hinaus der Meinung, daß der Gesamtdeutsche Ausschuß in der früheren Zusammensetzung eine ungerechtfertigte Forderung erhoben hat? Während Herr Wehner hier erklärt, daß die sozialdemokratische Fraktion diesen Antrag gestellt hat, ist mir in Erinnerung, daß der Gesamtdeutsche Ausschuß sich dem Argument unterwarf, daß der regionale Vollzug erhebliche Schwierigkeiten bereitet.</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister für Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg59">Herr Kollege, zu der ersten Frage — den Schwierigkeiten — glaube ich in meiner ersten Antwort schon einiges gesagt zu haben. Bei all diesen Fragen muß darauf geachtet werden, daß das Steuergebiet eine Einheit bleibt und nur ganz wenige, klare Ausnahmen gemacht werden können. Bisher haben wir ja eigentlich nur eine grundlegende Ausnahme, und das ist Berlin, das ja auch in einer ganz besonderen Situation ist. Zu der zweiten Frage möchte ich sagen, daß es nicht in meine Zuständigkeit fällt, Beschlüsse von Ausschüssen dieses Hohen Hauses zu kritisieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg60">Zusatzfrage, Abgeordneter Dr. Warnke.</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1969-11-06-06-009.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg61">Herr Staatssekretär, trifft es zu, daß — im Gegensatz zu den Arbeitnehmerfreibeträgen im Zonenrandgebiet, zu denen bis jetzt eine Meinung Ihres Hauses noch nicht vorliegt — Sie bereits entschlossen sind, die Lohnsteuerpräferenz für Arbeitnehmer in Berlin weiter erheblich zu verbessern?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg62">Auch darüber kann ich etwas Endgültiges nicht sagen. Mir ist bis jetzt davon noch nichts bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg63">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Warnke (CDU/CSU) :</note>
+        <u who="#Q76101" xml:id="ParlaMint-DE_1969-11-06-06-009.u56" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg64">Herr Staatssekretär, sind Sie bereit, eine Frist zu nennen, binnen derer Ihr Haus in der Lage sein könnte, Endgültiges zu der Frage der Lohnsteuerfreibeträge für Arbeitnehmer im Zonenrandgebiet hier zu sagen?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg65">Eine genaue Frist möchte ich dafür schon deswegen nicht nennen, weil das, wie ich ja schon sagte, in die Vorbereitung der Steuerreform eingebaut werden muß. Das muß von allen Häusern der Bundesregierung geprüft werden, das hat eine Menge Aspekte. Da muß das Wirtschaftsministerium gefragt werden, das Gesamtdeutsche</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit und Beifall bei der CDU/CSU.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg66">—das Ministerium für innerdeutsche Beziehungen—muß gefragt werden usw. Versprechen kann man sich auch einmal, meine Damen und Herren; so schlimm ist das nicht. Ich glaube also, das muß erst klargestellt werden. Ich würde es ablehnen, hier die Bundesregierung zu einer überstürzten Handlungsweise zwingen zu lassen. Solche Sachen müssen gründlich überlegt werden. Auch das gehört zu einer soliden Finanz- und Haushaltsgebarung.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien und bei Abgeordneten der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u58" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg67">Zusatzfrage? — Herr Abgeordneter Ott.</seg>
+        </u>
+        <note type="speaker">Ott (CDU/CSU) :</note>
+        <u who="#Q592320" xml:id="ParlaMint-DE_1969-11-06-06-009.u59" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg68">Herr Staatssekretär, was hindert Sie, eine Initiative zu ergreifen, um den Freibetrag für Arbeitnehmer im Zonenrandgebiet zu erhöhen, obwohl vorher auf das Schreiben des früheren Finanzministers hingewiesen worden ist?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg69">Hindern könnte uns niemand daran. Aber es ist doch im Moment gar nicht beabsichtigt. Wir haben ein Gesetz eingebracht — es kommt demnächst in den Bundestag —, durch das der Freibetrag für sämtliche Bundesbürger erhöht wird. Das schafft doch eine neue Lage. Jetzt muß auf Grund dieser neuen Lage geprüft werden, was man weiter tun kann. Das erfordert die Zusammenarbeit der von mir genannten Häuser.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u61" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg70">Eine weitere Zusatzfrage, Herr Abgeordneter Ott, die letzte.</seg>
+        </u>
+        <note type="speaker">Ott (CDU/CSU) :</note>
+        <u who="#Q592320" xml:id="ParlaMint-DE_1969-11-06-06-009.u62" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg71">Herr Staatssekretär, wollen Sie damit zum Ausdruck bringen, daß die Ausführungen des Herrn Kollegen Wehner im Wahlkampf für Sie, nachdem Sie jetzt Regierungsfraktion sind, keine Gültigkeit mehr haben?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg72">Herr Kollege, ich weiß nicht., welche Auslegungsversuche Sie da mit meinen Ausführungen machen. Ich kenne die Äußerung aus dem Wahlkampf nicht; ich kann zu ihr also nicht Stellung nehmen, wenn ich sie nicht schriftlich habe. Ich meine, man sollte es dabei belassen. Ich bin gern bereit, zum gegebenen Zeitpunkt von unserem Hause aus einmal Auskunft darüber zu geben, wie weit die Erwägungen gediehen sind. Aber im Moment können doch noch gar keine da sein. Hexen können wir wirklich nicht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u64" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg73">Herr Abgeordneter Niegel, Sie haben schon zwei Zusatzfragen gestellt. Ihr Konto ist erschöpft.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Niegel: Erst eine!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg74">— Dann will ich annehmen, daß ich mich täusche. Bitte!</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU) :</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1969-11-06-06-009.u65" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg75">Herr Staatssekretär, sind Sie nicht der Meinung, daß die Bundesregierung jetzt und Ihre Partei in früheren Jahren Zeit genug gehabt hätten, wenn die Äußerungen von Herrn Wehner zutreffen, daß schon vor vier Jahren von Ihrer Seite aus beantragt wurde, den Lohnsteuerfreibetrag im Zonenrandgebiet zu erhöhen?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe von der SPD.</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg76">Ich habe den Eindruck, daß auf Fragen dieser Art nicht geantwortet zu werden braucht, Man sollte keine Fragen stellen, die prophetische oder divinatorische Talente voraussetzen.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit und Beifall bei den Regierungsparteien.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg77">Die Frage ist beantwortet.</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg78">Frage 26 — Abgeordneter Rommerskirchen —:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg79">Wie hoch sind die Personalkosteneinsparungen, die sich aus der Auflösung von vier Bundesministerien ergehen?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg80">Herr Kollege Rommerskirchen, die Einsparungen an Personalkosten werden nach voller Integrierung in die aufnehmenden Ressorts — die etwa innerhalb eines Jahres möglich sein dürfte, denn es sind eine Reihe von Maßnahmen dazu erforderlich — voraussichtlich rund 31/2 Millionen DM jährlich betragen. Dabei muß ich betonen, daß im jetzigen Zeitpunkt endgültige Beträge deshalb nicht genannt werden können, weil die Neuorganisation der Bundesregierung und die damit verbundenen Maßnahmen, insbesondere auf dem Personalsektor, noch nicht abgeschlossen sind. Im übrigen darf ich bemerken, daß bei der zweifellos sehr wichtigen Frage der Kostenersparnis nicht das noch wichtigere Ziel der Kabinettsreform, nämlich die Erhöhung der Effizienz der Regierungsarbeit durch Beseitigung von Reibungsmöglichkeiten infolge von Doppelbesetzungen in verschiedenen Ressorts, außer acht gelassen werden darf.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg81">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Rommerskirchen (CDU/CSU) :</note>
+        <u who="#Q1506825" xml:id="ParlaMint-DE_1969-11-06-06-009.u69" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg82">Herr Staatssekretär, sind Sie bereit, anzuerkennen, daß im Wahlkampf weniger die Effizienz — der ich eine hohe Bedeutung zumesse — eine Rolle spielte als vielmehr die Kosteneinsparung?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u70" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg83">Herr Kollege, den Eindruck habe ich nicht einmal gehabt. Ich habe mich selber im Wahlkampf zu dieser Frage mehrfach geäußert und habe immer in den Vordergrund gestellt, daß es bei jeder Vereinfachung auf diesem Gebiet gar nicht so sehr immer die Einsparung an unmittelbaren Personalkosten sein muß — die betrifft ja oft nur die Kosten für den Minister und das Büro darum herum —, sondern in erster Linie eine Vereinfachung der Regierungsarbeit dadurch, daß die vielen Doppelzuständigkeiten verschiedener Häuser, die dazu führen, daß es in verschiedenen Häusern ein und dasselbe Fachgebiet in verschiedenen Referaten gibt, beseitigt werden. Ich halte das für entscheidend. Das bringt — das möchte ich ausdrücklich dazu sagen -- auf die Dauer auch Einsparungen im Personalsektor, die sich aber natürlich nur langsam auswirken können; denn es muß sorgfältig überlegt werden, welche Referate man in welchem Haus zusammenlegt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u71" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg84">Ich glaube, wir sollten keine Fragen nach Äußerungen im Wahl) kampf stellen. Hier äußert sich nicht die Regierung, hier äußern sich Kandidaten. Danach zu fragen besteht, glaube ich, kein Anlaß.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Das hat er ja nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg85">Zu einer Zusatzfrage Herr Abgeordneter Ott.</seg>
+        </u>
+        <note type="speaker">Ott (CDU/CSU) :</note>
+        <u who="#Q592320" xml:id="ParlaMint-DE_1969-11-06-06-009.u72" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg86">Herr Staatssekretär, bringen Sie, wenn Sie von einer Ersparnis von 31/2 Millionen DM sprechen, zum Ausdruck, daß hier überwiegend Personalkosten eingespart werden können? Und was tun Sie mit diesem freiwerdenden Personal?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u73" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg87">Herr Kollege, erstens sind es nicht nur „überwiegend Personalkosten". Sie wissen so gut wie ich, daß ein großer Teil des Personals, das auf den Stellen sitzt, Beamte sind, die nun nicht ohne weiteres hin- und hergeschoben werden können und auch nicht sollen. Aber durch Zusammenlegung von Referaten können natürlich Vereinfachungen erreicht werden, und im Laufe der Zeit kann auch, indem man bestimmte Stellen in kw-Stellen umwandelt und sie nicht mehr besetzt, eine echte Personaleinsparung in größerem Stil eingeleitet werden. Das ist meines Erachtens aber der sekundäre Teil der Reform. Der primäre Teil ist die Beseitigung aller Reibungsflächen innerhalb des Regierungsapparats.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u74" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg88">Zur letzten Zusatzfrage Herr Abgeordneter Ott.</seg>
+        </u>
+        <note type="speaker">Ott (CDU/CSU):</note>
+        <u who="#Q592320" xml:id="ParlaMint-DE_1969-11-06-06-009.u75" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg89">Herr Staatssekretär, darf ich aus Ihren Äußerungen also schließen, daß sich die von Ihnen angegebene Ersparnis von 3t/2 Millionen DM durch den Wegfall dieser Stellen auf eine Vielzahl von Jahren erstrecken wird und nicht sofort Platz greift?</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u76" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg90">Nein, Herr Kollege. Die Zahl von 31/2 Millionen DM ist eine erste, grob geschätzte Zahl. Da sind wir wieder auf dem Gebiet einer gewissen Prophetie. Man kann diese Zahl nur einigermaßen schätzen. Aber diese grob geschätzte Einsparung kann etwa innerhalb des ersten Jahres nach Durchführung der Umgliederung eintreten. Ich bin der Meinung, daß im Laufe der Zeit sogar höhere Einsparungen möglich sind, weil sich nämlich bei einer solchen Umgliederung — ich kann Ihnen das aus den Erfahrungen unseres eigenen Hauses sagen immer wieder, wenn Sie den Organisationsplan betrachten, zeigt, daß da und dort eben noch ein Referat mit einem anderen zusammengelegt werden kann, wodurch eine Einsparung erfolgen kann. Natürlich ist es eine Aufgabe auf Zeit. Aber im ersten Jahr rechnen wir mit einer Einsparung von 31/2 Millionen DM.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u77" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg91">Keine Zusatzfrage mehr. Ich rufe die Frage 27 des Abgeordneten Rommerskirchen auf:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg92">Wie hoch sind die Mehrkosten, die sich aus der Berufung eines Bundesministers für besondere Aufgaben und von acht zusätzlichen Parlamentarischen Staatssekretären einschließlich der erforderlichen personellen und organisatorischen Hilfen ergeben? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Reischl, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1364997" xml:id="ParlaMint-DE_1969-11-06-06-009.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg93">Die Mehrkosten belaufen sich einschließlich der personellen Ausstattung der Büros auf rund 1,2 Millionen DM jährlich. Dabei gehe ich davon aus, daß der Bedarf an Zimmereinrichtungen und Dienstkraftwagen zum größten Teil aus den vorhandenen Beständen aufgelöster Ressorts gedeckt werden kann. Sollte dies nicht möglich sein, würde sich der genannte Betrag nur geringfügig erhöhen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg94">Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers der Finanzen erledigt. Ich rufe die Fragen aus dem Geschäftsbereich des Auswärtigen Amts auf, zunächst die Frage 9 des Abgeordneten Blumenfeld:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg95">Ist die Bundesregierung bereit und in der Lage, zu dem wichtigen Vorhaben einer Europäischen Sicherheitskonferenz näher zu erläutern, was in denn in der Regierungserklärung erwähnten und in Helsinki übergebenen Memorandum als politische Haltung bekräftigt wird? Herr Minister!</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u80" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg96">Herr Kollege Blumenfeld, die finnische Regierung hat bekanntlich auch die Bundesregierung von ihrer Bereitschaft unterrichtet, Gastland für eine mögliche Konferenz über Fragen der europäischen Sicherheit zu sein. In ihrer Antwort hat die Bundesregierung am 11. September diese Bereitschaft der finnischen Regierung begrüßt und dabei ihre Genugtuung darüber zum Ausdruck gebracht, daß die finnische Regierung ihre Einladung auch an die Vereinigten Staaten und Kanada gerichtet hat. Die Beteiligung dieser beiden Länder an einer solchen Konferenz erscheint auch der Bundesregierung unerläßlich. In dem deutschen Memorandum heißt es wörtlich:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg97">Die Schaffung einer gerechten und dauerhaften Friedensordnung, die auf allgemeiner Sicherheit und gegenseitigem Vertrauen beruht, ist eines der Hauptanliegen der Politik der Regierung der Bundesrepublik Deutschland. Daher begrüßt sie den konstruktiven Geist, von dem die finnische Initiative getragen ist. Die Bundesregierung hat in ihrer Antwort weiter auf die Notwendigkeit sorgfältiger Vorbereitungen hingewiesen und die finnische Regierung unterrichtet, daß sie mit anderen Regierungen alle Möglichkeiten der Entspannung prüft.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u81" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg98">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Blumenfeld (CDU/CSU) :</note>
+        <u who="#Q1353839" xml:id="ParlaMint-DE_1969-11-06-06-009.u82" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg99">Darf ich das so verstehen, Herr Minister, daß das deutsche Vorstelligwerden in Helsinki mit den westlichen Partnern innerhalb der Allianz abgestimmt ist, auch insbesondere hinsichtlich der Teilnahme der Vereinigten Staaten und Kanadas an einer solchen Europäischen Sicherheitskonferenz, wobei dieser letztere Punkt insbesondere mit Blick darauf zu sehen ist, daß von der östlichen Seite, insbesondere der Sowjetunion, die Beteiligung der Vereinigten Staaten ja auch in allerjüngster Zeit keineswegs als akzeptabel bezeichnet worden ist?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u83" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg100">Herr Kollege Blumenfeld, zunächst einmal ist es eine Selbstverständlichkeit, aber im Interesse der Sicherheit der Bundesrepublik Deutschland auch zwingend, daß, wir nicht nur vor einer europäischen Sicherheitskonferenz, sondern während des ganzen Verlaufes von möglichen Gesprächen dieser Art in engster Zusammenarbeit mit unseren Verbündeten bleiben. Wir haben das in der Vergangenheit getan; wir tun das täglich. Darüber hinaus ist es — ich habe es eben gesagt — unerläßlich für die Bundesrepublik, daß an einer solchen Konferenz die Mitglieder der in Europa existierenden militärischen Sicherheitssysteme teilnehmen, also die Vereinigten Staaten und Kanada; das auch nicht zuletzt deshalb, weil es einfach — um einmal einen bekannten Begriff zu wählen — nach dem letzten Krieg eine Realität ist, daß Sicherheit in Europa ohne die Vereinigten Staaten nicht möglich ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u84" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg101">Bitte, Herr Abgeordneter Becher!</seg>
+        </u>
+        <note type="speaker">Dr. Becher (Pullach) (CDU/CSU):</note>
+        <u who="#Q110156" xml:id="ParlaMint-DE_1969-11-06-06-009.u85" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg102">Herr Minister, ist Ihnen bekannt, daß der finnische Ministerpräsident Koivisto, als er vor kurzer Zeit mit Staatspräsident Kekkonen in Prag für diese Sicherheitskonferenz warb, erklärte, bei dieser Sicherheitskonferenz könne zwar nicht auf die Frage der Okkupation der Tschechoslowakei eingegangen werden, sie müsse sich aber sehr wohl mit der deutschen Frage beschäftigen, und Finnland gehe dabei von der selbstverständlichen Tatsache aus, daß man mit zwei deutschen Staaten rechnen müsse?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u86" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg103">Herr Becher, mir ist diese Bemerkung des finnischen Ministerpräsidenten zwar nicht bekannt, aber für die Vorbereitung dieser Konferenz gilt, soweit es die Bundesregierung angeht, daß wir mit unseren Verbündeten Tagesordnungen und Themen vorher sorgfältig abstimmen und dabei die Interessen der Deutschen vertreten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg104">Eine Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Becher (Pullach) (CDU/CSU) :</note>
+        <u who="#Q110156" xml:id="ParlaMint-DE_1969-11-06-06-009.u88" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg105">Herr Minister, ist nicht gleichwohl angesichts dieser Einstellung der finnischen Regierung eine bestimmte Vorsicht in der Richtung geboten,</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg106">daß man prüfen muß, ob Finnland hier nicht in weitern Sinne als ein Vollstreckungsgehilfe der sowjetischen Europa- und Deutschlandpolitik auftreten muß?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Hört! Hört! und Unruhe bei der SPD. — Abg. Wehner: Das ist ja wohl das letzte!</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u89" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg107">Ich lasse diese Frage nicht zu.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD und bei Abgeordneten der FDP. — Abg. Wehner: Sehr gut! — Abg. Franke (Hannover) : Da wird das mutige Finnland noch diffamiert! Das ist doch wohl das letzte! — Weitere Zurufe von der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg108">Keine Zusatzfrage mehr. Dann rufe ich die Frage 10 des Abgeordneten Blumenfeld auf:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg109">Welche Grundsätze wird die Bundesregierung für die Autstellung der Tagesordnung einer solchen Europäischen Sicherheitskonferenz anwenden — wo z. B. werden die Prioritäten und wo die Grenzen deutscher Verhandlungspositionen gesetzt werden —, und ist die Bundesregierung in der Lage, eine Beurteilung über die Konferenz der Außenminister der Osteuropäischen Staaten in Prag am 30. 31. Oktober 1969, die der Vorbereitung der Europäischen Sicherheitskonferenz diente, zu geben? Bitte, Herr Minister!</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u90" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg110">Herr Kollege, wichtigster Grundsatz für unsere Haltung gegenüber einer Europäischen Sicherheitskonferenz ist eine laufende und enge Zusammenarbeit mit unseren Verbündeten im gesamten Bereich der sich stellenden Fragen. Wir haben hier ein hohes Maß an Übereinstimmung hinsichtlich der Bewertung des Appells von Budapest und der Voraussetzungen angetroffen, von denen gerade im Interesse des Erfolgs derartiger Ost-West-Gespräche über Sicherheit und Entspannung ausgegangen werden muß. Wir befinden uns jetzt in einem Vorbereitungsprozeß Erst indiesem Prozeß von vielseitigen Gesprächen werden sich Grundsätze, Prioritäten und Grenzen unserer Verhandlungsposition entwickeln lassen, und zwar in ständiger enger Konsultation mit unseren Verbündeten. Die Beurteilung der Erklärung der Außenminister der Warschauer-Pakt-Staaten in Prag vom 31. Oktober, zu der der Sprecher der Bundesregierung am 1. November bereits in allgemeiner Form positiv Stellung genommen hat, wird hierbei eine wesentliche Rolle spielen. Gestern hat sich der NATO-Rat auf der Ebene der Außenministerstellvertreter mit dieser Beurteilung befaßt und — wie ja aus der heutigen Presse ersichtlich — eine teilweise skeptische Haltung zu dem Vorschlag der Warschauer-Pakt-Staaten eingenommen. Auch der Leiter der deutschen Delegation, Staatssekretär Duckwitz, hat zu diesem Thema Stellung genommen. Die Bundesregierung wird dem Bundestag, sei es durch den Auswärtigen Ausschuß oder auf andere geeignete Weise, über den Fortgang der Beratungen und unsere Stellungnahmen unterrichten. Das Angebot gemeinsamer Überlegungen, das Herr Dr. Barzel als der Vorsitzende der CDU/CSU-Fraktion gemacht hat, wird von der Bundesregierung daher ganz gewiß genutzt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u91" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg111">Eine Zusatzfrage, Herr Blumenfeld.</seg>
+        </u>
+        <note type="speaker">Blumenfeld (CDU/CSU) :</note>
+        <u who="#Q1353839" xml:id="ParlaMint-DE_1969-11-06-06-009.u92" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg112">Darf ich in Würdigung Ihrer Antwort, Herr Minister, 'und der Tatsache, daß Sie soeben ausgeführt haben, daß wir uns in einem vorbereitenden Stadium befinden, was wir alle — auch wir von der Opposition — sehr wohl verstehen, gleichwohl fragen, ob Sie nicht mit mir meinen, daß die Sowjetunion mit der wiederholten und sich über Jahre erstreckenden Aussage, die Anerkennung der Realitäten nach dein 2. Weltkrieg müßten vor Beginn einer solchen Konferenz festgestellt und akzeptiert werden, eine sehr wesentliche materiell-politische Vorbedingung geschaffen hat?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg113">Uns ist die Stellung der Sowjetunion zu der deutschen Frage wohl bekannt, aber in der Einladung Finnlands zu einer solchen Konferenz und auch in den Erklärungen der Außenminister der Warschauer-PaktStaaten in Prag ist doch eine erkennbare Änderung festzustellen, die es geraten erscheinen läßt, die Gespräche um das Zustandekommen einer solchen Konferenz in einem positiven Sinn in enger Zusammenarbeit mit unseren Verbündeten fortzuführen, die ihrerseits eine solche Konferenz ohne Ausnahme begrüßt haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u94" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg114">Eine letzte Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Blumenfeld (CDU/CSU):</note>
+        <u who="#Q1353839" xml:id="ParlaMint-DE_1969-11-06-06-009.u95" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg115">Herr Minister, darf ich in diesem Zusammenhang noch eine ganz grundsätzliche und sehr lapidare Frage an Sie richten: Was meinen Sie wohl, was die Sowjetunion unter europäischer Sicherheit versteht?</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Lachen bei der SPD. — Beifall bei der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u96" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg116">Ich bin davon überzeugt daß es unterschiedliche Vorstellungen über die Ausgestaltung eines Sicherheitssystems für Europa gibt. Wir haben zwar zu analysieren, was mögliche Gesprächspartner darunter verstehen, aber wir verfolgen das, was wir in unserer Regierungserklärung als Ziel unserer Sicherheitspolitik aufgestellt haben, nämlich eine dauerhafte Friedensordnung in Europa zu begünstigen, in der unsere nationale Frage eher gelöst werden kann, als es unter den augenblicklichen Umständen möglich ist.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u97" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg117">Herr Majonica zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Majonica (CDU/CSU) :</note>
+        <u who="#Q1359397" xml:id="ParlaMint-DE_1969-11-06-06-009.u98" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg118">Herr Bundesminister, sieht die Bundesregierung einen Zusammenhang zwischen den amerikanisch-sowjetischen Gesprächen über eine Rüstungsbegrenzung und den Vorbereitungen einer Europäischen Sicherheitskonferenz, und würde es das Zustandekommen einer Europäischen Sicherheitskonferenz nicht erheblich erleichtern, wenn diese amerikanisch-sowjetischen Gespräche vorher zu positiven Ergebnissen gekommen wären?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg119">Natürlich sind Verhandlungen und Gespräche über die Sicherheit in Europa, die von den wesentlichen Nuklearmächten bilateral geführt werden, in einem Zusammenhang mit der Möglichkeit des Erfolges einer Europäischen Sicherheitskonferenz zu sehen; denn man wird ja bei einer solchen Konferenz über die Frage der Reduzierung der Rüstung zwangsläufig sprechen müssen. Aber ich bin davon überzeugt, daß in der augenblicklichen Phase solche Gespräche, die noch nicht in konkrete Verhandlungen einmünden, parallel geführt werden können. Allerdings teile ich nicht den Optimismus, der in den letzten Tagen von anderer Seite an den Tag gelegt worden ist, daß eine solche Sicherheitskonferenz sehr bald mit Aussicht auf Erfolg zustande kommen könnte. Es bedarf vorher umfangreicher Gespräche nicht nur zwischen Ost und West, sondern auch zwischen den westlichen Verbündeten und denen, die an einer solchen Sicherheitskonferenz teilnehmen, und zwar über die unterschiedlichsten Bereiche, die bei solchen Konferenzen berührt werden könnten. Denn eines sollte man wohl sagen: Eine Sicherheitskonferenz, die allein ein Propagandainstrument bliebe, würde der Friedensordnung in Europa nicht nützen, sondern eher schaden.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg120">Herr Abgeordneter von Guttenberg, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Freiherr von und zu Guttenberg (CDU/CSU) :</note>
+        <u who="#Q97122" xml:id="ParlaMint-DE_1969-11-06-06-009.u101" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg121">Herr Außenminister, im Anschluß an das, was Sie soeben hinsichtlich eines möglichen Schadens einer reinen Propagandakonferenz gesagt haben, und im Anschluß an das, was mein Kollege Blumenfeld Sie sehr relevanterweise gefragt hat, als er die Frage nach dem Sicherheitsverständnis der Sowjetunion stellte, möchte ich Sie fragen, ob Sie sich daran erinnern, daß im Budapester Appell fast wörtlich zu lesen ist, Hauptvoraussetzung für die Sicherheit in Europa sei — nun kürze ich ab — die Annahme des gesamten deutschlandpolitischen Katalogs der Sowjetunion durch die Bundesrepublik.</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u102" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg122">Herr Kollege von Guttenberg, ich habe soeben schon gesagt, daß sich in den letzten Wochen und Monaten eine gewisse Änderung gezeigt hat. Aber eines ist sicher: Voraussetzung für uns, an einer solchen Konferenz teilzunehmen, ist, daß keine Vorbedingungen gestellt werden. Das ist eine der Voraussetzungen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall hei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u103" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg123">Zweite Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Freiherr von und zu Guttenberg (CDU/CSU) :</note>
+        <u who="#Q97122" xml:id="ParlaMint-DE_1969-11-06-06-009.u104" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg124">Herr Minister, teilen Sie mit mir die Auffassung, daß das Sicherheitsverständnis der Sowjetunion so ausgelegt werden muß, daß z. B. der Einmarsch sowjetischer Truppen in die Tschechoslowakei am 21. August vergangenen Jahres Ausdruck der Sicherheitsvorstellungen der Sowjetunion und damit der sowjetischen Staatsräson gewesen ist?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg125">Herr Kollege, das mag sein. Man könnte diesen Zustand dadurch überwinden, daß über ein Sicherheitssystem diskutiert wird, das einen größeren Raum in Europa umfaßt. Stellen Sie sich einmal vor, wie hätten ein gesamteuropäisches Sicherheitssystem zu jenem Zeitpunkt gehabt. Dann wäre möglicherweise die Entwicklung in Europa anders verlaufen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP. — Zurufe von der CDU/CSU: Ach! ach!</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u106" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg126">Keine Zusatzfragen mehr. — Dann rufe ich die Frage 11 des Abgeordneten Dr. Hallstein auf:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg127">Ist die Bundesregierung bereit, auf der Gipfelkonferenz der Mitgliedstaaten der Europäischen Gemeinschaft in Den Haag unverzüglich eine Initiative zu ergreifen, um eine verbindliche Entscheidung herbeizuführen, die zugleich sicherstellt, — daß die Entwicklung der Europäischen Wirtschaftsgemeinschaft zu einer vollständigen Wirtschafts- und Währungsunion am 1. Januar 1975 vollendet wird, daß die institutionellen Normen der Verträge von Paris und Rom in vollem Umfang respektiert und Stellung und Zuständigkeiten des Europäischen Parlaments verstärkt werden und — deß die Verhandlungen über die vorliegenden Beitrittsanträge begonnen werden?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u107" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg128">Herr Kollege Professor Hallstein, die Bundesregierung wird sich auf der Gipfelkonferenz für entscheidende Schritte auf die Wirtschafts- und Währungsunion hin einsetzen. Sie glaubt aber nicht, daß diese Konferenz schon einen festen Termin für die Vollendung der Wirtschafts- und Währungsunion beschließen kann. Die Bundesregierung wird sich nach wie vor — um zum zweiten Teil Ihrer Frage zu kommen — für die Respektierung der institutionellen Normen der Gemeinschaftsverträge und für die Stellung und Stärkung der Zuständigkeiten des Europäischen Parlaments einsetzen. Die Aufnahme der Verhandlungen über die Beitrittsanträge betrachtet die Bundesregierung als ein im Interesse der Gemeinschaften und ihrer Mitgliedstaaten liegendes wesentliches Anliegen, dessen Verwirklichung die Bundesregierung auch weiterhin, wie das in der Regierungserklärung im übrigen deutlich zum Ausdruck gekommen ist, betreiben wird, natürlich auch auf der Gipfelkonferenz.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u108" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg129">Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Hallstein (CDU/CSU) :</note>
+        <u who="#Q159995" xml:id="ParlaMint-DE_1969-11-06-06-009.u109" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg130">Herr Bundesminister, teilen Sie nicht meine Auffassung, daß die Mitteilungen über die Absichten der Bundesregierung nicht über eine unter uns und auch unter den anderen Partnern der Europäischen Gemeinschaft ganz unstreitige Selbstverständlichkeit hinausgehen? Ich meine damit, daß, um in dieser Frage weiterzukom men, ein Grundsatzentschluß insbesondere über die Vollendung einer Währungsunion und eine Datierung notwendig sind, weil wir anders eine Fortschrittswirkung nicht erzielen.</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u110" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg131">Herr Kollege, wir haben gerade in der Debatte über die Schwierigkeiten in der Agrarpolitik und über die Gefahr, daß der Gemeinsame Markt durch diese Schwierigkeiten in eine Krise geraten, am Ende sogar möglicherweise zerbrechen könnte, gesehen, daß der Erfolg der Gemeinschaften, wenn man nicht zu einer Wirtschaftsunion kommt, nicht zu erreichen ist. Die Bundesregierung wird von dieser Überzeugung aus alles tun, damit eine Wirtschaftsunion erzielt werden kann. Die Gipfelkonferenz ist eine Möglichkeit, den politischen Willen dazu zum Ausdruck zu bringen. Denn sonst hätte sie ja keinen Wert. Alle anderen Fragen hätte man im Rat der Europäischen Wirtschaftsgemeinschaft besprechen können. Wenn schon die Ministerpräsidenten zusammenkommen, dann, glaube ich, doch nur, wenn sie die feste Absicht haben, der Europäischen Wirtschaftsgemeinschaft wieder ein politisches Ziel zu setzen. Diese Europäische Wirtschaftsgemeinschaft würde ausdörren, wenn sie sich darin erschöpfte, daß die Teilnehmerstaaten sich möglicherweise gegenseitig kleine Präferenzen zuschieben. Das würde auch das ist meine feste Überzeugung — die Haltung unserer wesentlichen Partner in der westlichen Welt nicht gerade von der Nützlichkeit unserer Bestrebungen überzeugen. Wenn es uns nicht gelingt, der Europäischen Wirtschaftsgemeinschaft wieder politische Impulse zu geben, dann werden wir einer sehr schweren Zeit in Europa entgegensehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg132">Zweite Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Hallstein (CDU/CSU) :</note>
+        <u who="#Q159995" xml:id="ParlaMint-DE_1969-11-06-06-009.u112" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg133">Herr Bundesminister, glauben Sie nicht, daß die Auskunft, die Sie soeben gegeben haben, wesentlich hinter dem zurückbleibt, was der Herr Bundesminister für Ernährung und Landwirtschaft vor genau einer Woche in diesem Hohen Hause gefordert hat, indem er sagte — ich darf mit Genehmigung des Herrn Präsidenten aus dem Protokoll zitieren —:</seg>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg134">Wenn es nicht zu einer Wirtschafts- und Währungseinheit kommt, läßt sich keine Agrarpolitik, wie sie bisher gemacht worden ist, fortsetzen. Das kann nicht in absehbarer Zeit, sondern ich habe Herrn Kollegen Schiller erklärt, das muß so schnell wie möglich geschehen. Und nun will ich Ihnen ganz offen eines sagen: ich setze hier Hoffnungen auf die Gipfelkonferenz. Wenn diese Frage nicht von den Regierungschefs und den Außenministern zum zentralen Anliegen gemacht wird, dann wird Europa daran Schaden leiden. Das sage ich in aller Deutlichkeit und mit allem Ernst dieser Stunde.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe von der SPD.</desc>
+        </vocal>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u113" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg135">Herr Kollege Professor Hallstein, Sie müssen mich akustisch nicht verstanden haben. Ich habe soeben präzise das ausgedrückt, was mein Kollege Ertl hier vor acht Tagen gesagt hat.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u114" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg136">Zusatzfrage, Dr. Apel!</seg>
+        </u>
+        <note type="speaker">Dr. Apel (SPD) :</note>
+        <u who="#Q65561" xml:id="ParlaMint-DE_1969-11-06-06-009.u115" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg137">Herr Bundesminister, sind Sie nicht mit mir der Meinung, daß es nicht Aufgabe der Fragestunde und auch nicht Sinn in diesem Moment ist, von der Bundesregierung ein europäisches Manifest zu verlangen, sondern daß es jetzt darauf ankommt, konkrete Schritte zu tun?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg138">Herr Abgeordneter, über den Sinn der Fragestunde kann keine Regierungsstelle authentisch entscheiden.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg139">Herr Kollege, ich darf dazu die Bemerkung, die ich machen muß, machen. Über die Möglichkeit einer Fragestunde mag man geteilter Meinung sein. Aber die Regierung stellt sich natürlich der politischen Auseinandersetzung, wo immer sie sie finden kann.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Sehr gut! bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg140">Zweite Zusatzfrage!</seg>
+        </u>
+        <note type="speaker">Dr. Apel (SPD) :</note>
+        <u who="#Q65561" xml:id="ParlaMint-DE_1969-11-06-06-009.u119" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg141">Herr Bundesminister, sind Sie nicht der Meinung, daß nicht zuletzt angesichts Ihrer Gespräche am kommenden Wochenende mit dem französischen Außenminister und der Notwendigkeit, insbesondere mit Frankreich in diesen Fragen eng zusammenzugehen, und der sich abzeichnenden Kooperationsbereitschaft Frankreichs eine gewisse Delikatesse in der Diskussion vor der Gipfelkonferenz angebracht ist, da es auf Ergebnisse ankommt und nicht auf Deklamationen?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg142">Natürlich ist die Weiterentwicklung in der Europäischen Gemeinschaft delikat, weil die politischen Auffassungen der einzelnen Mitgliedstaaten in manchen entscheidenden Punkten nicht konvergent sind. Die Tatsache, daß ich einen Tag vor Beginn der Gipfelkonferenz nach Paris reise, um mit meinem französischen Kollegen zu sprechen, soll zeigen, daß sich die Bundesrepublik Mühe gibt, 'die Konferenz zu einem Erfolg zu bringen, und zwar auch in der Vorbereitung, die sich ja jetzt schon in Gesprächen in Brüssel in gewisser Weise anbahnt. Darüber hinaus soll dadurch aber auch gezeigt werden, daß die Bundesregierung nach wie vor das deutsch-französische Verhältnis als allein tragfähige Grundlage einer positiven europäischen Entwicklung betrachtet. Das, glaube ich, ist die Meinung des ganzen Hauses, in der wir uns mit Ihnen einig sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg143">Zusatzfrage, Herr Abgeordneter Fellermaier.</seg>
+        </u>
+        <note type="speaker">Fellermaier (SPD) :</note>
+        <u who="#Q1874372" xml:id="ParlaMint-DE_1969-11-06-06-009.u122" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg144">Herr Bundesminister, ist meine Feststellung richtig, daß sich auch die neue Bundesregierung der Bonner Erklärung der Staats-und Regierungschefs aus dem Jahre 1961 nach wie vor verpflichtet fühlt — ich darf wörtlich zitieren —. in regelmäßigen Zeitabständen — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg145">Herr Abgeordneter, in Maßen zitieren!</seg>
+        </u>
+        <note type="speaker">Fellermaier (SPD) :</note>
+        <u who="#Q1874372" xml:id="ParlaMint-DE_1969-11-06-06-009.u124" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg146">Herr Präsident, es ist ein Satz; es wird keine Lesestunde werden. ... in regelmäßigen Zeitabständen Zusammenkünfte zu dem Zweck abzuhalten, ihre Ansichten zu vergleichen, ihre Politik miteinander abzustimmen ... und darf ich daraus folgern, daß sich die Bundesregierung dafür einsetzen wird, daß es im Interesse der Bewältigung der ungelösten Fragen Europas zu regelmäßigeren Gipfelgesprächen kommen wird?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg147">Für solche Gespräche, Herr Kollege, gilt das gleiche, was ich soeben in einem anderen Zusammenhang gesagt habe: Man muß den Gesprächen einen Inhalt geben. Man muß solche Gespräche sorgfältig vorbereiten. Man darf sie nicht zur bloßen Routine werden lassen, weil wir ja irgendwo Gesprächsrunden sozusagen als Reserve brauchen, von denen wir erwarten können, daß sie ins Stocken geratenen Entwicklungen neue Impulse zu geben vermögen. Und eine Gipfelkonferenz ist ein solches Gespräch. Ich würde also vor der reinen Routine solcher Zusammenkünfte warnen und sie eher den wichtigen Perioden vorbehalten, in denen man weiterkommen muß, wenn die Zusammenarbeit in Europa einmal ins Stocken geraten ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u126" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg148">Zusatzfrage, Herr Abgeordneter Lenz.</seg>
+        </u>
+        <note type="speaker">Dr. Lenz (Bergstraße) (CDU/CSU) :</note>
+        <u who="#Q105119" xml:id="ParlaMint-DE_1969-11-06-06-009.u127" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg149">Herr Bundesminister, würden Sie mir darin zustimmen, daß ein fester Termin für die Erreichung der Wirtschafts-und Währungsunion in der EWG ein großer Vorteil wäre?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u128" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg150">Natürlich wäre das ein Vorteil, Herr Kollege Lenz. Aber ihn zu erreichen, hängt leider nicht von uns ab.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei den Regierungsparteien.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg151">Es ist noch nicht einmal sicher, ob wir die Übergangsphase am Ende des Jahres erreichen, aber doch nicht deshalb, weil wir sie nicht wollen, sondern weil durch Ereignisse, die sich unserem Einfluß entziehen, der Markt einfach auseinandergelaufen ist. Wir wollen uns doch nichts vormachen. Frankreich ist nicht mehr Teilnehmer am Agrarmarkt in Europa, und die Bundesrepublik ist doch nur dadurch Teilnehmer am gemeinsamen Agrarmarkt, daß wir durch sehr komplizierte Maßnahmen, über die wir uns im Gesetzgebungsverfahren ja noch unterhalten wollen, diese Teilnahme ermöglichen. Aber es heißt doch einfach die Augen vor der Wirklichkeit verschließen, wenn wir am Ende sagen, diese technischen Manipulationen haben die volle Teilnahme der Bundesrepublik am gemeinsamen Agrarmarkt möglich gemacht. Wir müssen doch die Gefahren sehen und sollten uns Mühe geben — wir wollen das tun —, in Gesprächen auch solcher Art, wie die Gipfelkonferenz eines ist, diese Schwierigkeiten zu überwinden. Feste Daten zu beschließen — etwa: die Wirtschaftsunion muß am 1. Januar 1975 vollendet sein —, halte ich allerdings schon deswegen für wenig erfolgversprechend, weil wir ja gesehen haben, was in einem Zeitraum von fünf Jahren alles passieren kann. Mir wäre es lieber, wir würden die Teilergebnisse, die unmittelbar vor uns liegen, praktisch erreichen, als daß wir neue Termine fest beschließen. In einem Punkt allerdings, muß ich sagen, ist es nötig, daß wir uns ein festes Ziel setzen, nämlich in der Frage der Erweiterung der Gemeinschaft.</seg>
+          <kinesic type="applause">
+            <desc>Zustimmung bei den Regierungsparteien.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg152">Das ist für alle an der Gemeinschaft Beteiligten eine wesentliche politische Frage, auch für den zukünftigen Erfolg der Gemeinschaft.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u129" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg153">Zweite Zusatzfrage, Herr Abgeordneter Lenz.</seg>
+        </u>
+        <note type="speaker">Dr. Lenz (Bergstraße) (CDU/CSU) :</note>
+        <u who="#Q105119" xml:id="ParlaMint-DE_1969-11-06-06-009.u130" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg154">Herr Minister, darf ich Ihrer Antwort entnehmen, daß die Bundesregierung ohne ein abgestimmtes Gesamtkonzept in diese Verhandlungen geht?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Widerspruch bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u131" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg155">Herr Kollege Lenz, das dürfen Sie nicht. Die Bundesregierung geht mit einem festen Konzept in diese Verhandlungen, und sie wird diese Verhandlungen benutzen, ihrerseits Initiativen vorzuschlagen, um in Abstimmung mit unseren Partnern in der EWG genau in den Punkten, die Sie hier genannt haben, einen Fortschritt zu erreichen. Aber Sie wissen genausogut wie ich, daß dieser Fortschritt kein Fortschritt wäre, wenn wir ihn nicht einstimmig akzeptierten. Es geht also für uns darum, eine Lösungsmöglichkeit herauszufinden, die diese Einstimmigkeit erwarten läßt. Es geht darum, mit unseren Partnern bilateral vor Zustandekommen der Gipfelkonferenz schon ein Stück des Weges besprochen und verabredet zu haben, damit wir zu einem Erfolg kommen. Denn wenn diese Gipfelkonferenz, die ja nicht von uns, sondern von Frankreich vorgeschlagen worden ist, wie das Hornberger Schießen ausgehen sollte, dann wäre die negative psychologische Wirkung in Europa, besonders auf die jüngere Generation in allen europäischen Ländern, eine so bedrückende, daß es manchem im nachhinein wahrscheinlich leid tun würde, eine solche Konferenz vorgeschlagen zu haben. Darin liegt auch schon ein gewisser Zwang für uns selbst, praktisch zu etwas zu kommen. Wir wollen alles dazu beitragen, auch an Bereitschaft der eigenen Kooperation in Europa und des Einsatzes unserer eigenen Möglichkeiten, um zu einem Erfolg zu kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u132" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg156">Zunächst eine Zusatzfrage des Abgeordneten Blumenfeld. feld.</seg>
+        </u>
+        <note type="speaker">Blumenfeld (CDU/CSU) :</note>
+        <u who="#Q1353839" xml:id="ParlaMint-DE_1969-11-06-06-009.u133" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg157">Herr Minister, meinen Sie, daß es zu dem Spektrum von Delikatessen gehört, von dem der Herr Kollege Apel eben sprach, in den Verhandlungen mit unserem Nachbarland Frankreich, wenn von dieser Tribüne aus das Mitglied der Regierung Herr Minister Schiller in der vergangenen Woche zwar nicht wortwörtlich, aber dem Sinne nach erklärt hat, er würde die Brieftasche zumachen, wenn sich die französische Regierung nicht anders verhielte?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg158">Zwar gehören Delikatessen, Herr Kollege —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u135" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg159">Einen Augenblick, bitte! — Ich kann den Sinn dieser Frage im Zusammenhang mit den Fragen, die hier gestellt sind, nicht recht verstehen.</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u136" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg160">Ja, ich wollte auf diesen Sinn zu sprechen kommen. Herr Kollege, Delikatessen gehören, sobald mit ihnen gehandelt wird, in den Zuständigkeitsbereich des Wirtschaftsministers, solange sie wachsen und noch nicht im Handel sind, in den Zuständigkeitsbereich des Landwirtschaftsministers, wie Sie wissen.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit bei den Regierungsparteien.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg161">Insofern also hat sich der Kollege Schiller mit Delikatessen zu Recht befassen können. Wir sollten, so glaube ich, das, was der Herr Kollege Schiller gesagt hat, nicht etwa als ein Zeichen mangelnder Kooperation in Europa werten, sondern als eine Mahnung, zu Ergebnissen auf dem Gebiete der Landwirtschaftspolitik zu kommen. Diese sollten am Ende die Leistungsfähigkeit aller europäischen Bürger nicht dadurch überfordern, daß die Kosten dieser Politik zu hoch werden; d. h., wir brauchen eine bessere europäische Landwirtschaftspolitik.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg162">Herr Abgeordneter Majonica zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Majonica (CDU/CSU) :</note>
+        <u who="#Q1359397" xml:id="ParlaMint-DE_1969-11-06-06-009.u138" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg163">Herr Bundesminister, sind Sie bereit, im Auswärtigen Ausschuß die Gesamtkonzeption vor der Gipfelkonferenz vorzulegen, damit sie dort diskutiert werden kann, und sehen Sie im Gegensatz zum Kollegen Dr. Apel das große Interesse des Bundestages an der europäischen Frage als eine Belastung oder vielmehr als eine Unterstützung Ihrer Position an?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg164">Herr Kollege, ich habe Herrn Dr. Apel nicht so verstanden, daß er die Europapolitik als eine Last empfindet, weiß ich doch aus seiner eigenen persönlichen Geschichte, daß er sich mit besonderer Leidenschaft, aber sogar auch in beruflicher Eigenschaft in europäischen Fragen mit Erfolg betätigt hat. Also: so habe ich ihn verstanden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg165">Herr Kollege Dr. Apel hat wohl davor warnen wollen, daß wir hier im Bundestag nur Deklamationen besprechen und nicht auch die praktischen Schwierigkeiten sehen. Aber das ist unser aller Überzeugung. Um auf Ihre Frage zu antworten, Herr Kollege Majonica: in dieser wie in anderen Fragen hat die Bundesregierung die Absicht, das Parlament nicht nur regelmäßig zu informieren, sondern auch mit dem Parlament zu beraten. Ich werde den Auswärtigen Ausschuß — weil sich manche Aspekte der Vorbereitung von Konferenzen für die öffentliche Diskussion nicht in vollem Umfange eignen — über die Absichten der Bundesregierung unterrichten, sowohl was die europäische Politik angeht als auch was andere politische Initiativen angeht, die die Bundesregierung in ihrer Regierungserklärung angekündigt hat. Ich greife das Wort auf, das hier aus dem Hause gesprochen worden ist, daß wir in eine Phase der Außenpolitik hineingehen, die es erforderlich macht, daß die verantwortlichen Politiker, und zwar in Regierung und Opposition, ein so enges Konsultationsverhältnis wie nur eben möglich halten. Das heißt nicht etwa, daß wir für unsere politischen Entscheidungen in der Außenpolitik allüberall die Einstimmigkeit haben müssen. Keineswegs! Es gibt auch in diesen Fragen unterschiedliche Meinungen, und wir sollten sie gar nicht verbergen. Aber wir sollten gemeinsam darum ringen, der Außenpolitik der Bundesregierung eine tragfähige Grundlage zu geben; denn nur so kann sie Erfolg haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg166">Herr Abgeordneter Majonica, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Majonica (CDU/CSU) :</note>
+        <u who="#Q1359397" xml:id="ParlaMint-DE_1969-11-06-06-009.u141" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg167">Herr Minister, ich hatte Sie präzise gefragt — entschuldigen Sie, wenn ich diese Frage wiederhole —, ob Sie vor der Gipfelkonferenz im Auswärtigen Ausschuß die Gesamtkonzeption der Bundesregierung im Hinblick auf die europäischen Probleme vorlegen könnten.</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg168">Herr Kollege Majonica, ich werde den Versuch machen, mit dem Auswärtigen Ausschuß einen Termin für eine Sitzung zu vereinbaren, in der ich die Vorstellungen der Bundesregierung zu dieser Gipfelkonferenz vortragen werde.</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Freiherr von und zu Guttenberg: Vor der Konferenz!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg169">— Vorstellungen zu der Konferenz kann ich nur vorher vortragen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg170">Zusatzfrage, Herr Abgeordneter Fellermaier.</seg>
+        </u>
+        <note type="speaker">Fellermaier (SPD) :</note>
+        <u who="#Q1874372" xml:id="ParlaMint-DE_1969-11-06-06-009.u144" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg171">Herr Außenminister, es ist doch sicher richtig, daß sich die Vorstellungen der Bundesregierung zur Gipfelkonferenz kontinuierlich weiterentwickeln, aufbauend auf den Bemühungen des Außenministers Willy Brandt aus der Zeit der Großen Koalition, das Haager Gipfeltreffen vorzubereiten, das nun schon seit Monaten Gegenstand von Konsultationen der sechs EWG-Staaten ist und dessen Vorbereitung nunmehr verstärkt und aktiviert werden soll.</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg172">Herr Kollege, ich habe mein Amt aus der Hand meines Vorgängers Willy Brandt empfangen, der heute der Bundeskanzler dieser Regierung ist. Es versteht sich von selbst, daß allein dadurch eine Kontinuität in der Außenpolitik gegeben ist.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei den Regierungsparteien.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg173">Die Bundesregierung hat in ihrer Regierungserklärung darauf auch mit Nachdruck hingewiesen, aber nicht verschwiegen, daß die Außenpolitik neben der Kontinuität — auch neue Akzente setzen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg174">Zusatzfrage, Herr Abgeordneter Dr. Wagner.</seg>
+        </u>
+        <note type="speaker">Dr. Wagner (Trier) (CDU/CSU) :</note>
+        <u who="#Q87656" xml:id="ParlaMint-DE_1969-11-06-06-009.u147" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg175">Herr Minister, da die Bundesregierung bereit ist, für die Stärkung der Stellung des Europäischen Parlaments einzutreten, möchte ich die Frage stellen, ob die Bundesregierung die Absicht hat, die Schaffung eigener Einnahmen der Gemeinschaft in der Endstufe und die dadurch bewirkte Finanzierung der Agrarausgaben der Gemeinschaft von einer echten Haushaltsbefugnis des Europäischen Parlaments abhängig zu machen.</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u148" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg176">Die Antwort lautet ja, Herr Kollege.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Sehr gut! bei der SPD.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u149" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg177">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wagner (Trier) (CDU/CSU) :</note>
+        <u who="#Q87656" xml:id="ParlaMint-DE_1969-11-06-06-009.u150" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg178">Herr Minister, die Schwierigkeiten hinsichtlich der europäischen Integration sind zur Zeit zweifellos weitgehend auch psychologisch bedingt und auf die weitverbreitete Resignation in den europäischen Ländern zurückzuführen. Ist die Bundesregierung unter diesen Umständen nicht der Auffassung, daß es auch der Erledigung der zur Zeit anstehenden europäischen Tagesfragen sehr förderlich wäre, wenn es gelänge, auf der kommenden Gipfelkonferenz neue, ehrgeizige Ziele, möglicherweise mit festen Daten verbunden, zu setzen?</seg>
+        </u>
+        <note type="speaker">Scheel, Bundesminister des Auswärtigen:</note>
+        <u who="#Q2571" xml:id="ParlaMint-DE_1969-11-06-06-009.u151" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg179">Auch auf diese Frage lautet die Antwort ja. Wir werden Vorschläge machen und versuchen, auf der Gipfelkonferenz zu konkreten Abmachungen zu kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Dr. Schmid:</note>
+        <u who="#Q67511" xml:id="ParlaMint-DE_1969-11-06-06-009.u152" ana="#chair">
+          <seg id="ParlaMint-DE_1969-11-06-06-009.seg180">Die Fragestunde ist beendet. Ich teile mit, daß die Fragen 14 und 15 des Abgeordneten Kiep und die Frage 49 des Abgeordneten Flämig von den Fragestellern zurückgezogen worden sind. Ich teile weiter mit, daß morgen, am Freitag, keine Präsenzpflicht ist. Ich berufe die nächste Sitzung auf Mittwoch, den 12. November 1969, 9 Uhr ein. Ich schließe die Sitzung.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 10.05 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

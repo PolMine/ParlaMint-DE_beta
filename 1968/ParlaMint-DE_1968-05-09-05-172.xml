@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1968-05-09-05-172">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 5. Wahlperiode, 172. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 09.05.1968 (172. Sitzung der 5. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 5, Session 172 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1968-05-09 (Session 172 in Legislative Period 5)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="172">172. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.05" n="5">5. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="172">Session 172</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.05" n="5">Legislative Period 5</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 09.05.1968</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1968-05-09</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/488218/bfba1a02d1090efc873f9a60f318a162/pp05-data.zip</idno>
+          <date when="1968-05-09">1968-05-09</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1968-05-09">1968-05-09</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="U1">
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg1">Die Sitzung ist eröffnet. Einziger Punkt der Tagesordnung ist die Fragestunde — Drucksachen V/2868, V/2875 Zunächst: Dringliche Mündliche Anfragen gemäß § 111 der Geschäftsordnung, Drucksache V/2875. Sie betreffen den Geschäftsbereich des Auswärtigen Amtes. Die erste Frage stellt der Abgeordnete Kiep: \V e beurteilt die Bundesregierung die Tatsache, daß der sowjetische Botschafter Zarapkin am 5. Mai in Trier eine Veranstaltung besuchte, deren Initiatoren erklärterweise Regierung und Verfassung seines Gastlandes bekämpfen? Herr Staatssekretär Jahn, wollen Sie bitte antworten.</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg2">Herr Präsident, mit Ihrer Genehmigung — die Herren Fragesteller haben mir schon erklärt, daß sie damit einverstanden sind — würde ich die drei Fragen des Herrn Kollegen Kiep und des Herrn Kollegen Klepsch gern zusammen beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg3">Bitte! Dann rufe ich auch die Fragen des, Abgeordneten Dr. Klepsch auf:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg4">Ist die Bundesregierung der Auffassung, daß das Verhallen Botschafter Zarapkins in Trier im Rahmen des für einen Botschafter Üblichen und Vertretbaren geblieben ist? Was gedenkt die Bundesregierung zu unternehmen, tim die Einmischung in die inneren Angelegenheiten der Bundesrepublik Deutschland durch Herrn Zarapkin in Zukunft auszuschließen?</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär be im Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u4" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg5">Der Botschafter der UdSSR hat das Recht, sich im Bundesgebiet nach Voranmeldung beim Auswärtigen Amt zu bewegen und an Veranstaltungen teilzunehmen. Nach unseren Informationen handelte es sich bei der betreffenden Veranstaltung in Trier, die von den „Marxistischen Blättern", einer Zeitschrift der August-Bebel-Gesellschaft e. V. in Frankfurt/Main, veranstaltet wurde, um eine geschlossene Veranstaltung auf Grund persönlicher Einladung. An dieser Veranstaltung haben auch eine Reihe hoher sowjetischer Persönlichkeiten teilgenommen, darunter ein Kandidat des ZK der KPdSU und Mitglied des Obersten Sowjets, Mitglieder der Akademie der Wissenschaften und Chefredakteure. Es ist üblich, daß ein Botschafter solche Persönlichkeiten begleitet. Ob sich Botschafter Zarapkin durch seine Teilnahme an dieser Veranstaltung im Rahmen des für den Chef einer diplomatischen Vertretung Üblichen und Vertretbaren gehalten hat, ist im übrigen eine Frage des politischen Taktes, die jeder Botschafter für sich entscheiden muß. Ein Botschafter sollte alles unterlassen, was den Eindruck erwecken könnte, als ob er in unangemessener Weise mit verfassungsfeindlichen Gruppen kooperiere.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg6">Herr Abgeordneter Kiep.</seg>
+        </u>
+        <note type="speaker">Kiep (CDU/CSU) :</note>
+        <u who="#Q2547309" xml:id="ParlaMint-DE_1968-05-09-05-172.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg7">Herr Staatssekretär, sind Sie mit mir der Meinung, daß das Prinzip der Nichteinmischung in die Angelegenheiten anderer Staaten, von dem sich ja auch die Bundesregierung bei ihrer Politik leiten läßt, wenn es auch auf die deutschsowjetischen Beziehungen von beiden Seiten angewandt würde, sicherlich zu einer Verbesserung der Beziehungen beitragen könnte?</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg8">Wenn ich Sie recht verstehe, Herr Kollege Kiep, meinen Sie die inneren Angelegenheiten eines Staates,</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Kiep: Ja!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg9">und dann bin ich in der Tat der Meinung, das würde nach beiden Seiten hin hilfreich sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg10">Herr Kiep!</seg>
+        </u>
+        <note type="speaker">Kiep (CDU/CSU):</note>
+        <u who="#Q2547309" xml:id="ParlaMint-DE_1968-05-09-05-172.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg11">Herr Staatssekretär, sind nach Ansicht der Bundesregierung Informationen oder Meinungen richtig, die besagen, daß der Botschafter der UdSSR seine Arbeit in der Bundesrepublik und in diesem Zusammenhang auch vielleicht den Besuch bei der in Frage stehenden Veranstaltung primär unter den Gesichtspunkten seiner Mitgliedschaft in der Kommunistischen Partei und seiner Zugehörigkeit zum Zentralkomitee der KP der Sowjetunion sieht?</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg12">Für eine solche Annahme hat die Bundesregierung keinen Anlaß. Sie hat es zu tun mit dem Botschafter der UdSSR. Welche Motive ihn in seinem Auftreten im einzelnen bewegen, ist naturgemäß schwer feststellbar oder überhaupt nicht feststellbar. Aber wenn ich es persönlich zu bewerten hätte, fürchte ich, Sie würden den Herrn Botschafter sicher in einige Verlegenheit bringen, wenn Sie die Frage unter diesem Aspekt an ihn richten würden, denn ich hätte eher den Eindruck, dann wäre er sogar bei der falschen Adresse gewesen. Ob es sich hier um jene Art kommunistischer Parteiveranstaltungen handelt, die bei allen mit Wohlwollen betrachtet wird, oder ob es sich hier nicht eher um eine Gruppe, die dem Vorsitzenden Mao oder Trotzkisten näher steht, handelt, ist eine Frage, die immerhin diskutiert werden könnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg13">Herr Klepsch!</seg>
+        </u>
+        <note type="speaker">Dr. Klepsch (CDU/CSU) :</note>
+        <u who="#Q61013" xml:id="ParlaMint-DE_1968-05-09-05-172.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg14">Herr Staatssekretär, gibt es Beispiele für vergleichbare Verhaltensweisen deutscher Diplomaten im Ausland?</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg15">Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg16">Herr Klepsch!</seg>
+        </u>
+        <note type="speaker">Dr. Klepsch (CDU/CSU) :</note>
+        <u who="#Q61013" xml:id="ParlaMint-DE_1968-05-09-05-172.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg17">Herr Staatssekretär, präziser: Würde es die Bundesregierung für korrekt halten, wenn sich der deutsche Botschafter in Moskau mit den Freunden der verurteilten russischen Schriftsteller solidarisierte, ohne damit die beiden Vorgänge wertend miteinander in Verbindung bringen zu wollen?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU.</desc>
+        </kinesic>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg18">Ich hielte das nicht für eine Aufgabe des deutschen Botschafters, Herr Klepsch.</seg>
+        </u>
+        <note type="speaker">Dr. Klepsch (CDU/CSU) :</note>
+        <u who="#Q61013" xml:id="ParlaMint-DE_1968-05-09-05-172.u17" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg19">Sind der Bundesregierung Beispiele vergleichbarer Verhaltensweisen von Botschaftern anderer Länder in der Bundesrepublik Deutschland bekannt?</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u18" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg20">Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u19" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg21">Herr Schlager!</seg>
+        </u>
+        <note type="speaker">Schlager (CDU/CSU) :</note>
+        <u who="#Q1889887" xml:id="ParlaMint-DE_1968-05-09-05-172.u20" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg22">Herr Staatssekretär, ist im Hinblick auf die von dem sowjetischen Botschafter in Anspruch genommene Bewegungsfreiheit eigentlich die Gegenseitigkeit verbürgt?</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg23">Hinsichtlich der Bewegungsfreiheit ja.</seg>
+        </u>
+        <note type="speaker">Schlager (CDU:</note>
+        <u who="#Q1889887" xml:id="ParlaMint-DE_1968-05-09-05-172.u22" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg24">CSU) : Herr Staatssekretär, haben wir inzwischen die Möglichkeit, beispielsweise unseren Informationsdienst in Moskau herauszugeben?</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg25">Wir haben vor einiger Zeit darüber hier in diesem Hause gesprochen. Mir ist nicht bekannt, daß sich in der Sache selber etwas geändert hätte. Aber ich benutze die Gelegenheit gern, Herr Kollege, um zu sagen: Die Bundesregierung ist gern bereit, in all diesen Fragen, insbesondere auch, was die Bewegungsfreiheit des Botschafters der Sowjetunion in der Bundesrepublik anlangt, mehr Entgegenkommen zu zeigen und größere Freiheiten einzuräumen, wenn es möglich wäre, dafür im Wege der Gegenseitigkeit eine entsprechende Regelung auch in Moskau zu bekommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg26">Herr Dr. Hofmann!</seg>
+        </u>
+        <note type="speaker">Dr. Hofmann (Mainz) (CDU/CSU) :</note>
+        <u who="#Q1704826" xml:id="ParlaMint-DE_1968-05-09-05-172.u25" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg27">Meine Frage ist zum Teil überholt. Trotzdem: Herr Staatssekretär, meinen Sie nicht, daß die Bundesregierung diesen Fall zum Anlaß nehmen sollte, gerade wegen der Beschränkungen und wegen der Möglichkeiten, die dem deutschen Botschafter in Rußland gegeben sind, dem Herrn Zarapkin zu sagen, daß er bei ähnlichen Vorkommnissen mit Reisebeschränkungen in Deutschland rechnen müßte?</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u26" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg28">Ich würde diesen konkreten Anlaß nicht dazu benutzen, so weitgehende konkrete Überlegungen anzustellen. So notwendig es mir erscheint, die Bewertung abzugeben, die ich vorhin in der ersten Antwort abgegeben habe, so wenig glaube ich, daß man darüber hinausgehende Überlegungen anstellen sollte, jedenfalls nicht im gegenwärtigen Zeitpunkt.</seg>
+        </u>
+        <note type="speaker">Dr. Hofmann (Mainz) (CDU/CSU) :</note>
+        <u who="#Q1704826" xml:id="ParlaMint-DE_1968-05-09-05-172.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg29">Ist die Bundesregierung dann bereit, zu überlegen, ob man nicht die Einreisegenehmigung für die begleitenden Delegationen, die zu solchen Anlässen in die Bundesrepublik hereinkommen, überprüfen müßte?</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg30">Die Bundesrepublik Deutschland ist ein freies Land, in dem der Grundsatz der Freizügigkeit und der freien Ein- und Ausreise ein wesentlicher Grundsatz auch ihres eigenen Selbstverständnisses ist.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall. — Abg. Dr. Hofmann (Mainz) meldet sich zu einer weiteren Zusatzfrage.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg31">Herr Dr. Hofmann, es tut mir leid, Sie hatten schon zwei Fragen.</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u30" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg32">Ich würde meine Antwort gern noch um einen Satz vervollständigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u31" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg33">Das ist Ihnen gestattet.</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg34">Ich glaube, wir werden in unseren Bemühungen um geregelte, bessere Beziehungen zu anderen Ländern — Osteuropa, Mitteleuropa, Südosteuropa und insbesondere Sowjetunion — der Bundesrepublik den besten Dienst damit leisten, daß wir diese unsere Verhaltensweise, wo immer es geht, praktisch dokumentieren.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den Regierungsparteien.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg35">Herr Ertl!</seg>
+        </u>
+        <note type="speaker">Ertl (FDP):</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1968-05-09-05-172.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg36">Herr Staatssekretär, darf ich Sie fragen, ob Sie die von Ihnen hier abgegebene Bewertung in mündlicher oder schriftlicher Form auch dem Herrn Botschafter zur Kenntnis gebracht haben?</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg37">Die Bundesregierung wird eine Gelegenheit finden, das zu tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg38">Ich halte es im übrigen das muß ich dazwischensagen — nicht fur richtig, daß wir hier in dieser Fragestunde die Bundesregierung auf eine bestimmte Marschroute in der konkreten Sache festlegen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei den Regierungsparteien.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg39">Aber trotzdem, Herr Ertl!</seg>
+        </u>
+        <note type="speaker">Ertl (FDP) :</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1968-05-09-05-172.u37" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg40">Herr Präsident, ich habe das zwar nicht verstanden, aber ich nehme an, daß es sich nicht auf meine Zusatzfrage, sondern auf die Antwort des Herrn Staatssekretärs bezogen hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg41">Das war eine ganz allgemeine Bemerkung.</seg>
+        </u>
+        <note type="speaker">Ertl (FDP) :</note>
+        <u who="#Q72637" xml:id="ParlaMint-DE_1968-05-09-05-172.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg42">Ich bedanke mich sehr, Herr Präsident. Herr Staatssekretär, darf ich Sie fragen, ob Sie mit mir darin übereinstimmen, daß es doch ein beachtliches Zeichen war, daß, als der Vertreter der DDR dort die Verfassung lobte, eine große Zahl der Besucher ihm mit Zischen ihre Meinung kundtat und damit doch auch bewies, daß viele unsere Verfassung noch als das Wertvollere betrachten.</seg>
+        </u>
+        <note type="speaker">Jahn, Parlamentarischer Staatssekretär beim Bundesminister des Auswärtigen:</note>
+        <u who="#Q73924" xml:id="ParlaMint-DE_1968-05-09-05-172.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg43">Wenn ich Sie, sehr verehrter Herr Kollege Ertl, diesmal recht verstanden habe, sprechen Sie von dem bestimmten Ablauf einer bestimmten Veranstaltung, über die Sie offenbar bestimmte, nähere Informationen haben, über die ich nicht verfüge.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u41" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg44">Damit sind diese Fragen beantwortet. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Wirtschaft auf Drucksache V/2868, zunächst zur Frage 76 des Abgeordneten Fritsch (Deggendorf):</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg45">Entspricht die Behauptung des Vorsitzenden des Grenzlandausschusses des bayerischen Landtages den Tatsachen, daß das Zweite Konjunkturförderungsprogramm der Bundesregierung ein Maßanzug für das Ruhrgebiet, der dem ostbayerischen Raum nicht gepaßt habe," gewesen sei? Herr Staatssekretär, wollen Sie bitte antworten!</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u42" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg46">Die Frage muß mit Nein beantwortet werden; das Schneidern eines „Maßanzugs" für ein bestimmtes Gebiet ist in erster Linie Aufgabe der regionalen und lokalen Behörden. Die Bundesregierung maßt sich nicht an, über die Erfordernisse an Ort und Stelle besser Bescheid wissen zu wollen als die dort lebenden Menschen. Die ihr zur Verfügung stehenden Informationen erlauben aber auch die erwähnte Schlußfolgerung nicht. Die Bundesregierung hat daher davon auszugehen, daß die für den ostbayerischen Raum von der bayerischen Landesregierung, von den dortigen Gemeinden und den dortigen privaten Investoren vorgeschlagenen Projekte den strukturellen Bedürfnissen des bayerischen Zonenrandgebiets ebenso gut entsprochen haben wie die für das Ruhrgebiet von den dort zuständigen Gebietskörperschaften genannten Einzelmaßnahmen. Nach dem Stand vom 5. April 1968 wurden bisher im Zonenrandgebiet 1,2 Milliarden DM an Auftragen gegeben; das sind 15 % der Gesamtsumme. Dem bayerischen Zonenrandgebiet kamen davon allein 336 Millionen DM zugute; das ist je Einwohner ein Betrag von 160 DM. Die Vergleichsgröße für das Ruhrgebiet ist 140 DM.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u43" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg47">Herr Fritsch!</seg>
+        </u>
+        <note type="speaker">Fritsch (Deggendorf) (SPD) :</note>
+        <u who="#Q2544321" xml:id="ParlaMint-DE_1968-05-09-05-172.u44" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg48">Herr Staatssekretär, könnten Sie angesichts der Behauptung des Vorsitzenden des Grenzlandausschusses des Bayerischen Landtages, daß dass chronisch kranke Ostbayern nur einige Hausmittel von seiten des Bundes verordnet bekommen habe und daß Ostbayern bei den Konjunkturprogrammen unter die Räder gekommen sei, wahrend im übrigen für Maßnahmen des Bundesstraßenbaues in Nordrhein-Westfalen 5 Milliarden DM zur Verfügung gestellt worden seien, die Relation zwischen dem, was das Ruhrgebiet einerseits und Bayern bzw. Ostbayern andererseits aus den Konjunkturprogrammen bekommen hat, vielleicht noch etwas spezifizieren?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u45" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg49">ich bin gern bereit, Ihnen diese Detailauskünfte schriftlich oder im zuständigen Ausschuß zu erteilen. Die Gesamtgröße habe ich bereits genannt. Die Aufteilung des Zweiten Konjunkturprogramms — laufende Auftragsvergabe nach Wirtschaftszweigen, nach Regionen, nach Art der Projekte — ist ein sehr umfangreiches Schriftstück. Es ist fast ein Buch, und ich fürchte, daß wir die späteren Frager überfordern würden, wenn wir hier alle Details ausbreiteten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u46" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg50">Herr Fritsch!</seg>
+        </u>
+        <note type="speaker">Fritsch (Deggendorf) (SPD) :</note>
+        <u who="#Q2544321" xml:id="ParlaMint-DE_1968-05-09-05-172.u47" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg51">Herr Staatssekretär, wäre es möglich, ein regionales Detail insoweit zu beantworten, als in diesem Zusammenhang davon die Rede war, daß z. B. der im Zonenrandgebiet liegende niederbayerische Landkreis Wolfstein aus dem Zweiten Konjunkturprogramm überhaupt keine Dotation erfahren habe?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u48" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg52">Die bayerische Landesregierung hat keinen Antrag für den Landkreis Wolfstein vorgelegt. Wir haben selbstverständlich die Interpellation der betreffenden Abgeordneten im Bayerischen Landtag und auch die Ausführungen, die dazu gemacht worden sind, sorgfältig geprüft.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg53">Herr Weigl!</seg>
+        </u>
+        <note type="speaker">Weigl (CDU/CSU) :</note>
+        <u who="#Q1449394" xml:id="ParlaMint-DE_1968-05-09-05-172.u50" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg54">Herr Staatssekretär, ist Ihnen bekannt, daß aus dem Landkreis Wolfstein deshalb kein Antrag vorgelegt worden ist, weil die Zinskonditionen nach Auffassung der dort zuständigen Stellen so hoch sind, daß man keine Kredite in Anspruch nehmen kann?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg55">Herr Kollege Weigl, das Argument ist mir bekannt; aber ohne eine nähere Prüfung würde ich es nicht akzeptieren. Es gibt viele Landkreise, die sich trotz großer wirtschaftlicher Schwierigkeiten und hoher Verschuldung an dem Zweiten Konjunktur- und Strukturprogramm beteiligt haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg56">Herr Weigl!</seg>
+        </u>
+        <note type="speaker">Weigl (CDU/CSU) :</note>
+        <u who="#Q1449394" xml:id="ParlaMint-DE_1968-05-09-05-172.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg57">Wären Sie bereit, an Hand dieses konkreten Beispiels einmal die von mir aufgeworfene Frage prüfen zu lassen?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg58">Selbstverständlich, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg59">Keine weiteren Fragen. Nun die Fragen 77 und 78 des Abgeordneten van Delden:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg60">Wird die deutsche Textil- und Bekleidungsindustrie nicht über Gebühr mangels anderer Gegenlieferungsmöglichkeiten aus den Ländern der Ostblockstaaten belastet, nachdem der Bundesernährungsminister die Besorgnis, oh die Schaffung eines besseren Verhältnisses zu den Ostblockstaaten nicht auf dem Rücken der Landwirtschaft ausgetragen wird, mit dem berechtigten Hinweis auf die Marktordnung innerhalb der EWG verneint hat? Was gedenkt die Bundesregierung zu tun im Falle, daß die Frage 77 bejaht wird, um die deutsche Textil- und Bekleidungsindustrie bei wettbewerbsverzerrenden Preisen dieser Staatshandelsländer dafür zu entschädigen, daß sie neben anderen Zweigen der Konsumgüterindustrie relativ einseitig die wirtschaftliche Last einer solchen Entspannungspolitik tragen muß? Der Fragesteller hat sich mit schriftlicher Beantwortung einverstanden erklärt. Die Antwort liegt noch nicht vor. Sie wird nach Eingang im Sitzungsbericht abgedruckt. Die Frage 79 stellt Herr Abgeordneter Kulawig. Welche Maßnahmen sind im Rahmen der Strukturprogramme tur Ruhr, Saar und Zonenrandgebiet vorgesehen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u56" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg61">Neben den Investitionshilfen an die gewerbliche Wirtschaft, mit denen die Bundesregierung die Schaffung neuer Arbeitsplätze in den Strukturgebieten bereits unterstützt, wird derzeitig eine zusätzliche Förderung des Ausbaues der Infrastruktur im Rahmen eines Strukturprogramms Ruhr-Saar-Zonenrandgebiet vorbereitet; auch die Bundesausbaugebiete sind in dieses Programm einbezogen. Die in dieses Programm aufzunehmenden Maßnahmen müssen geeignet sein, zur Lösung der Strukturkrise in den Steinkohlenbergbaugebieten beizutragen, bzw. den Richtlinien des regionalen Förderungsprogramms entsprechen. Die Einzelvorschläge der Länder sind noch nicht abschließend geprüft. Für das Saarland enthalten sie vor allem die Erschließung von Industriegelände und den Bau von Straßen und Wasserwegen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u57" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg62">Herr Kulawig!</seg>
+        </u>
+        <note type="speaker">Kulawig (SPD) :</note>
+        <u who="#Q449839" xml:id="ParlaMint-DE_1968-05-09-05-172.u58" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg63">Darf ich etwas konkreter fragen, Herr Staatssekretär: Ist durch die Erschließung von Industriegelände nach Auffassung der Bundesregierung sichergestellt, daß innerhalb kürzerer Zeit — insbesondere innerhalb der Fristen des Steinkohle-Anpassungsgesetzes — in wesentlichem Umfange neue Arbeitsplätze an der Saar geschaffen werden können, insbesondere für die nun wiederum im Zuge des zweiten Generalplanes der Saarbergwerke, der in diesen Tagen zur Diskussion stand, in den kommenden Jahren zur Entlassung anstehenden Saarbergleute?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u59" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg64">Herr Kollege Kulawig, die Bundesregierung hat von diesem Hause den Auftrag, für die Steinkohlenbergbaugebiete ein Programm auszuarbeiten, das geeignet ist, Einschränkungen in der Beschäftigung zu vermeiden und gleichzeitig die industrielle Umstrukturierung durchzuführen. Das Programm wird nach diesem Grundsatz erstellt und steht dann selbstverständlich dem Hohen Hause und der Öffentlichkeit zur Beratung und Kritik zur Verfügung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u60" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg65">Herr Kulawig!</seg>
+        </u>
+        <note type="speaker">Kulawig (SPD) :</note>
+        <u who="#Q449839" xml:id="ParlaMint-DE_1968-05-09-05-172.u61" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg66">Hält die Bundesregierung die Kanalisierung der Saar von Saarbrücken bis Dillingen für förderungswürdig im Sinne der Verbesserung der Wirtschaftsstruktur des Saarlandes, und wird sie sich dafür aussprechen?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u62" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg67">Ich habe be-Parlamentarischer Staatssekretär Dr. Arndt reits ausgeführt, daß die Einzelmaßnahmen noch geprüft werden. Ich kann also für die Bundesregierung eine derartige Erklärung nicht abgeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u63" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg68">Wie ist es mit der nächsten Frage? — Herr Fritsch! Noch zu dieser Frage? —</seg>
+          <vocal type="question">
+            <desc>Fritsch [Deggendorf]: Zu dieser Frage, ja!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg69">— Bitte!</seg>
+        </u>
+        <note type="speaker">Fritsch (Deggendorf) (SPD) :</note>
+        <u who="#Q2544321" xml:id="ParlaMint-DE_1968-05-09-05-172.u64" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg70">Herr Staatssekretär, sind die vorzusehenden Maßnahmen so zu verstehen, daß darin auch das bereits besprochene Strukturprogramm für die niederbayerische Granitindustrie, die sich im Zonenrandgebiet befindet, einbegriffen ist?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg71">Die Bundesregierung prüft auch diese Frage und ist dabei, ein derartiges Programm zu skizzieren.</seg>
+        </u>
+        <note type="speaker">Fritsch (Deggendorf) (SPD) :</note>
+        <u who="#Q2544321" xml:id="ParlaMint-DE_1968-05-09-05-172.u66" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg72">Herr Staatssekretär, nachdem schon einige Zeit vergangen ist, seitdem das Bundeswirtschaftsministerium — soviel ich weiß — mit dem Land Bayern darüber gesprochen hat, möchte ich doch fragen: Wann ist denn voraussichtlich damit zu rechnen, daß ein derartiges Strukturprogramm Wirklichkeit wird?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg73">Die verhandelnden Ressorts haben sich das Ziel gesetzt, bis zur Beschlußfassung über die mittelfristige Finanzplanung — also noch vor diesem Sommer — das Programm fertigzustellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg74">Ich rufe die Frage 80 des Herrn Abgeordneten Kulawig auf: 1st der baldige Beginn und der zügige Ablauf der Maßnahmen, insbesondere im Hinblick auf die Fristen des Gesetzes zur Anpassung und Gesundung des deutschen Steinkohlenbergbaus und der deutschen Steinkohlenbergbaugebiete gewahrleistet? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u69" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg75">Im Augenblick ist das noch nicht ganz der Fall. Das Strukturprogramm „Ruhr-Saar-Zonenrand" wird noch beraten. Aus den Zielsetzungen des von Ihnen erwähnten Gesetzes ergibt sich jedoch, daß wesentliche Teile des Programms noch im Jahre 1968 begonnen werden müssen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg76">Herr Abgeordneter Kulawig!</seg>
+        </u>
+        <note type="speaker">Kulawig (SPD) :</note>
+        <u who="#Q449839" xml:id="ParlaMint-DE_1968-05-09-05-172.u71" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg77">Herr Staatssekretär, können Sie eine ungefähre Zeitangabe darüber machen, wann die Bundesregierung mit den Vorarbeiten für die Erstellung des Programms fertig zu sein hofft?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u72" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg78">Wir hoffen, daß das Ende dieses Monats der Fall sein wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u73" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg79">Herr Abgeordneter Schlager, haben Sie auch eine Frage an den Herrn Staatssekretär? — Dann, bitte!</seg>
+        </u>
+        <note type="speaker">Schlager (CDU/CSU) :</note>
+        <u who="#Q1889887" xml:id="ParlaMint-DE_1968-05-09-05-172.u74" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg80">Herr Staatssekretär, ist im Hinblick darauf, daß bisher im Bundeshaushaltsplan für das Rechnungsjahr 1968 für besondere Strukturprogramme nur Ruhr und Saar berücksichtigt sind — wir haben seitens der CDU/CSU-Fraktion zugunsten des Zonenrandgebietes ergänzend einen besonderen Förderungsantrag gestellt —, zu befürchten, daß das Zonenrandgebiet bei der Ausarbeitung dieser Strukturprogramme zu kurz kommt, nachdem eben im Haushaltsplan des Jahres 1968 für das Zonenrandgebiet noch keine zusätzlichen Strukturförderungsmittel eingeplant sind?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg81">Das wird ganz gewiß nicht der Fall sein, Herr Kollege Schlager. Wichtig ist, daß die Arbeiten im Jahre 1968 begonnen werden. Ob die Maßnahmen aus Mitteln des Jahres 1969 oder 1968 finanziert werden, ist wohl sekundär.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg82">Jetzt rufe ich die Frage 81 des Herrn Abgeordneten Kulawig auf:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg83">Welche Mittel werden den einzelnen Ländern für die Realisierung der Strukturprogramme zur Verfügung gestellt?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg84">Diese Frage läßt sich zum gegenwärtigen Zeitpunkt noch nicht endgültig beantworten, weil die Höhe der Mittel von den Projekten abhängt, über deren Durchführung und Finanzierung mit dem jeweiligen Land Einvernehmen erzielt werden muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u78" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg85">Herr Abgeordneter Kulawig!</seg>
+        </u>
+        <note type="speaker">Kulawig (SPD) :</note>
+        <u who="#Q449839" xml:id="ParlaMint-DE_1968-05-09-05-172.u79" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg86">Herr Staatssekretär, besteht innerhalb der Ressorts der Bundesregierung bereits Einvernehmen über die Notwendigkeit der aufzubringenden Mittel?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u80" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg87">Die Bundesregierung ist selbstverständlich an die Beschlüsse dieses Hohen Hauses gebunden. Dieses Hohe Haus hat aber beschlossen, für Ruhr und Saar ein derartiges Programm zu erarbeiten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u81" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg88">Herr Abgeordneter Kulawig!</seg>
+        </u>
+        <note type="speaker">Kulawig (SPD) :</note>
+        <u who="#Q449839" xml:id="ParlaMint-DE_1968-05-09-05-172.u82" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg89">Können Sie mir zustimmen, Herr Staatssekretär, daß derjenige, der dem Saarland in seiner Bedrängnis helfen will, schnell helfen muß, d. h. insbesondere während der Jahre 1968, 1969 und 1970? Stimmen Sie mir zu, daß für das Saarland besondere Maßnahmen erforderlich sind, und zwar angesichts der Tatsache, daß sich jetzt bereits eine Normalisierung im Steinkohlenbergbau in Nordrhein-Westfalen anzudeuten scheint und daß im Saarland die größten arbeitsplatzmäßigen Schwierigkeiten besonders im Bereiche des Bergbaus erst auf uns zukommen, so daß schnelle Hilfe hier eine doppelte Hilfe bedeuten würde?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u83" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg90">Der schwierigere Teil der Gesundungsmaßnahmen für die deutsche Steinkohle liegt noch vor uns. In welcher Zeit die Gesundungsmaßnahmen im Steinkohlenbergbau zum Abschluß gebracht werden können, wird entscheidend davon abhängen, in welchem Umfang und in welcher Art diese Strukturprogramme dimensioniert werden. Ein enger Zusammenhang zwischen den Gesundungsmaßnahmen und dem Tempo ihrer Verwirklichung im Steinkohlenbergbau sowie den Sicherungsmaßnahmen für die wirtschaftliche Zukunft der Steinkohlenreviere ist selbstverständlich gegeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u84" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg91">Herr Josten zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Josten (CDU/CSU):</note>
+        <u who="#Q1695791" xml:id="ParlaMint-DE_1968-05-09-05-172.u85" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg92">Herr Staatssekretär, ist die Bundesregierung bereit, bei der Planung der Verteilung von Mitteln für die Strukturprogramme besonders die Gebiete vorrangig zu berücksichtigen, welche schon vor dem 2. Weltkrieg ständig benachteiligt wurden, wie das z. B. mit der Eifel oder den' gesamten Grenzland im Westen der Fall war?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u86" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg93">Bundesausbaugebiete werden in diesem Programm ebenfalls berücksichtigt werden. Über Einzelprojekte wird noch beraten. Mehr kann ich im Augenblick zu diesem wichtigen Problem nicht sagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg94">Wir kommen zu der Frage 82 des Herrn Abgeordneten Freiherr von Gemmingen:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg95">Sieht die Bundesregierung die Möglichkeit bei Vergabe von Aufträgen der öffentlichen Hand in den Förderungsgebieten bei nur geringen Preisunterschieden in den Angeboten die insbesondere in den Förderungsgebieten ansässigen Handwerksbetriebe stärker zu berücksichtigen? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u88" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg96">Handwerksbetriebe werden bei Vergaben der öffentlichen Hand dann bevorzugt berücksichtigt, wenn sie im Zonenrandgebiet oder in Berlin (West)</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg97">ansässig sind. Die Vorzugsstellung der Personen und der Unternehmen in diesen beiden Strukturgebieten wird zum Ausgleich der durch die Teilung Deutschlands entstandenen Nachteile gewährt. Es wird zur Zeit geprüft, ob diese Präferenzen auch auf andere Bundesfördergebiete ausgedehnt werden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u89" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg98">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Freiherr von Gemmingen (FDP) :</note>
+        <u who="#Q1555810" xml:id="ParlaMint-DE_1968-05-09-05-172.u90" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg99">Herr Staatssekretär, ist Ihnen bekannt, daß neben den Zonenrandgebieten und Westberlin auch gewaltige Beträge in die Fördergebiete, zu denen der Fall, den ich jetzt meine, gehört, gezahlt werden, um dort die Struktur zu verbessern?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u91" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg100">Ja.</seg>
+        </u>
+        <note type="speaker">Freiherr von Gemmingen (FDP) :</note>
+        <u who="#Q1555810" xml:id="ParlaMint-DE_1968-05-09-05-172.u92" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg101">Ist Ihnen das bekannt?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg102">Selbstverständlich. Das ist ja eine Zielsetzung der Bundesregierung. Dabei muß von Fall zu Fall abgewogen werden, welche in Frage kommenden Maßnahmen für die jeweiligen Gebiete jeweils am besten geeignet sind. Wir können regionale Strukturpolitik nicht mit der Gießkanne betreiben, wenn ich mir diesen Ausdruck erlauben darf; denn in jedem Gebiet bestehen unterschiedliche Probleme.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u94" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg103">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Freiherr von Lemmingen (FDP) :</note>
+        <u who="#Q1555810" xml:id="ParlaMint-DE_1968-05-09-05-172.u95" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg104">Halten Sie es dann für richtig, daß bei einer Vergabe durch das staatliche Hochbauamt im Landkreis Mosbach bei einer Auftragserteilung im Betrage von rund 30 000 DM und einem Unterschied von nicht ganz 200 DM bei den Preisangeboten die dort ansässigen Handwerker nicht berücksichtigt werden, sondern ein Großkonzern den Auftrag bekommen hat?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u96" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg105">Sie werden Verständnis dafür haben, Herr Kollege, daß ich zu einer konkreten Beschwerde nicht ad hoc Stellung nehme. Ich werde den Fall prüfen und Ihre Frage schriftlich beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u97" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg106">Ich rufe die Frage 83 des Herrn Abgeordneten Freiherr von Gemmingen auf. Sieht die Bundesregierung eine Möglichkeit, Ausschreiben gen teilweise so aufzuteilen</seg>
+          <incident type="incident">
+            <desc>zum Beispiel bis zu 50 000 DM</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg107">, deli sich die in den Fördergebieten ansässigen Handwerksbetriebe an den Ausschreibungen mit Aussicht auf Erfolg beteiligen können?</seg>
+        </u>
+        <note type="speaker">Dr. Arndt, Parlamentarischer Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1320363" xml:id="ParlaMint-DE_1968-05-09-05-172.u98" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg108">Die für die Auftragsvergabe maßgebenden Bestimmungen schreiben bereits vor, daß umfangreiche Arbeiten in Lose aufzuteilen sind. Dies gilt jedenfalls, soweit das sinnvoll ist. In Frage kommen § 4 der Verdingungsordnung für Bauleistungen und § 5 der Verdingungsordnung für Leistungen. Bestimmte Wertgrenzen, z. B. 50 000 DM, kann man schlecht festlegen, weil die Arbeiten und die technischen Anforderungen an die zu erbringenden Leistungen zu verschiedenartig sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u99" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg109">Keine weiteren Fragen. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Familie und Jugend. Ich rufe die Fragen 8 bis 10 des Herrn Abgeordneten Dr. Wuermeling auf. Zunächst die Frage 8:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg110">Nachdem seitens der Bundesregierung in der Antwort auf meine Frage 59 aus Drucksache V/2753 (Stenographischer Bericht S. 8976 B)</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg111">bestritten wurde, daß unsere kinderreichen Familien praktisch unter Ausnahmerecht gestellt seien, frage ich die Bundesregierung, welche zum Lebensunterhalt bestimmten monatlichen öffentlichen Leistungen mit Ausnahme der Kindergeldsätze seit nunmehr vier Jahren und vier Monaten keinerlei Anpassung an die allgemeine Preis- und Lohnentwicklung erfahren haben? Ist der Fragesteller anwesend? — Ja. Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg112">Herr Abgeordneter, ich darf Ihre Frage wie folgt beantworten. Wie ich Ihnen bereits auf Ihre Anfrage vom 21. Juni 1967 mitteilte, ist das Kindergeld die einzige zum Lebensunterhalt bestimmte monatliche öffentliche Leistung, die seit dem 1. Januar 1964 den gestiegenen Lebenshaltungskosten nicht angepaßt werden konnte. Das gilt auch heute noch.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg113">Herr Dr. Wuermeling!</seg>
+        </u>
+        <note type="speaker">Dr. Wuermeling (CDU/CSU):</note>
+        <u who="#Q280029" xml:id="ParlaMint-DE_1968-05-09-05-172.u102" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg114">Herr Staatssekretär, meine Frage lautete eigentlich dahin, ob unter diesen Umständen die von Ihnen in einer anderen Antwort aufgestellte These aufrechterhalten wird, daß unsere kinderreichen Familien nicht unter Ausnahmerecht stehen.</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg115">An dieser Auffassung, daß durch diese Tatsache die kinderreichen Familien nicht als unter Ausnahmerecht stehend angesehen werden dürfen, hat sich nichts geändert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u104" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg116">Herr Wuermeling!</seg>
+        </u>
+        <note type="speaker">Dr. Wuermeling (CDU/CSU) :</note>
+        <u who="#Q280029" xml:id="ParlaMint-DE_1968-05-09-05-172.u105" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg117">Welchen Unterschied sehen Sie, Herr Staatssekretär, darin, ob Ausnahmerecht durch positive Regelungen oder durch Unterlassung von Regelungen für einen einzigen Ausnahmefall geschaffen wird?</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u106" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg118">Herr Abgeordneter, ich glaube, von einem Ausnahmerecht könnte man nur sprechen, wenn es gewollt wäre oder in der Disposition der Bundesregierung gestanden hätte, eine andere Regelung als die derzeitige zu treffen, und das ist nicht der Fall.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u107" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg119">Herr Dr. Klepsch!</seg>
+        </u>
+        <note type="speaker">Dr. Klepsch (CDU/CSU) :</note>
+        <u who="#Q61013" xml:id="ParlaMint-DE_1968-05-09-05-172.u108" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg120">Herr Staatssekretär, beabsichtigt die Bundesregierung, an dem inkriminierten Sachverhalt in absehbarer Zeit etwas zu ändern?</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u109" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg121">Herr Abgeordneter, ich würde Sie bitten, Verständnis dafür zu haben, daß ich darauf in den Antworten auf die beiden nächsten Fragen des Herrn Abgeordneten Wuermeling eingehe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u110" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg122">Dann rufe ich jetzt die Frage 9 des Herrn Abgeordneten Dr. Wuermeling auf:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg123">Ist sich die Bundesregierung dessen bewußt, daß ihre Zusage, die Streichung der Ausbildungszulagen des Kindergeldgesetzes (im Ausmaß von mehr als 400 Millionen DM jährlich) werde „wettgemacht" durch eine „Reform des Familienlastenausgleichs, eingebettet in eine mittelfristige Finanzplanung", in Kenntnis aller Haushaltsnöte bereits vor mehr als 15 Monaten vorn Bundeskanzler vor dem Bundestag gegeben wurde und jetzt fünf Monate nach Verabschiedung dieser mittelfristigen Finanzplanung im Bundestag von ihr immer noch nicht erfüllt wurde?</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u111" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg124">Ich darf Ihre zweite Frage, Herr Abgeordneter, wie folgt beantworten. Es trifft zu, daß der Wegfall der Ausbildungszulage bisher noch nicht wettgemacht werden konnte. Wann und wie dies geschehen soll, wurde auch im Kabinettsausschuß für die Vorbereitung einer Reform des Familienlastenausgleichs geprüft. Der Kabinettsausschuß hat seine Beratungen in der ersten Phase abgeschlossen. Das Ergebnis wurde in einer Vorlage zusammengefaßt, mit der sich die Bundesregierung schon in Kürze befassen wird. Im Zusammenhang damit muß ich aber auch die angestrebte Neuregelung der Ausbildungsförderung erwähnen. Die Länder sind, wie Sie wissen, bereit, dem Bund im Rahmen der Finanzreform nunmehr die konkurrierende Gesetzgebung für die Ausbildungsförderung einzuräumen. Der Entwurf eines Ausbildungsförderungsgesetzes auf der Grundlage dieser neuen Kompetenz des Bundes liegt vor. Er bedarf nur noch in wenigen Fragen einer abschließenden Abstimmung mit den Ressorts. Die Verabschiedung eines solchen Gesetzes würde mittelbar gleichfalls in erheblichem Umfang die Lage vieler kinderreicher Familien verbessern. Ich muß hinzufügen, daß die Finanzierung eines solchen Ausbildungsförderungsgesetzes allerdings zur Zeit noch nicht geklärt ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u112" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg125">Herr Wuermeling!</seg>
+        </u>
+        <note type="speaker">Dr. Wuermeling (CDU/CSU) :</note>
+        <u who="#Q280029" xml:id="ParlaMint-DE_1968-05-09-05-172.u113" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg126">Herr Staatssekretär, sind Sie mit mir der Auffassung, daß Ausbildungsbeihilfen nach einem Ausbildungsbeihilfengesetz etwas ganz anderes sind als die gebotenen Anpassungen des Kindergeldes und daß insbesondere durch Erlaß eines Ausbildungsbeihilfengesetzes der großen Masse der kinderreichen Familien schon deswegen nicht geholfen werden könnte, weil sehr vielen auch Ausbildungsbeihilfen nach dem Ausbildungsbeihilfengesetz nicht genügen würden, um ihre Kinder weiterführender Ausbildung zuzuführen?</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u114" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg127">Herr Abgeordneter, gewiß ist eine Verbesserung des Kindergeldes etwas anderes als ein Ausbildungsförderungsgesetz. Aber Sie fragten ja nach dem in Aussicht gestellten Ausgleich, der für die weggefallene Ausbildungszulage geschaffen werden soll. Ausbildungszulage und Ausbildungsförderungsgesetz haben aber zweifellos sehr viel miteinander zu tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg128">Herr Dr. Wuermeling!</seg>
+        </u>
+        <note type="speaker">Dr. Wuermeling (CDU/CSU) :</note>
+        <u who="#Q280029" xml:id="ParlaMint-DE_1968-05-09-05-172.u116" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg129">Ich darf dann weiter fragen: Wie lange beabsichtigt die Bundesregierung die Kindergeldsätze noch eingefroren bleiben zu lassen?</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg130">Herr Abgeordneter, das hängt von den Überlegungen ab, die die Bundesregierung im Rahmen der eben erwähnten Kabinettsvorlage noch zu prüfen und zu entscheiden hat. Das hängt auch davon ab, mit welchen Ergebnissen die Beratungen über die Fortschreibung der mehrjährigen Finanzplanung abgeschlossen werden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg131">Frau Freyh!</seg>
+        </u>
+        <note type="speaker">Frau Freyh (SPD) :</note>
+        <u who="#Q916269" xml:id="ParlaMint-DE_1968-05-09-05-172.u119" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg132">Zum zweiten Teil Ihrer Antwort, Herr Staatssekretär, möchte ich Sie fragen, ob die Bundesregierung die Finanzierung der Ausbildungsförderung nur in der Richtung prüft, daß sie erst in die Fortschreibung der mittelfristigen Finanzplanung aufgenommen würde.</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg133">Frau Abgeordnete, diese Frage ist noch offen. Ich kann sie weder positiv noch negativ beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg134">Frau Freyh!</seg>
+        </u>
+        <note type="speaker">Frau Freyh (SPD) :</note>
+        <u who="#Q916269" xml:id="ParlaMint-DE_1968-05-09-05-172.u122" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg135">Besteht Aussicht, Herr Staatssekretär, daß die Ausbildungsförderung von der finanziellen Seite her in einem Zeitraum verwirklicht werden kann, der noch vor der Fortschreibung der mittelfristigen Finanzplanung liegt?</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u123" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg136">Das ist möglich, Frau Abgeordnete. Auf jeden Fall aber kann ein solches Ausbildungsförderungsgesetz nicht in Kraft treten, bevor die Gesetze zur Finanzreform verabschiedet sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u124" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg137">Frau Stommel!</seg>
+        </u>
+        <note type="speaker">Frau Stommel (CDU/CSU) :</note>
+        <u who="#Q1449990" xml:id="ParlaMint-DE_1968-05-09-05-172.u125" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg138">Herr Staatssekretär, Sie sagten eben, daß sich der Ministerausschuß im ersten Teil seiner Beratungen mit den Fragen befaßt habe und zu einem Abschluß gekommen sei. Können Sie uns sagen, mit welchem Aufgabengebiet sich der Ministerausschuß im zweiten Teil seiner Beratungen belassen wird?</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u126" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg139">Frau Abgeordnete, ich bitte, Verständnis dafür zu haben, daß ich darüber heute noch nichts sagen kann, weil auch darüber die Entscheidung des Kabinetts, die schon in Kürze zu erwarten ist, abgewartet werden muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u127" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg140">Frau Stommel!</seg>
+        </u>
+        <note type="speaker">Frau Stommel (CDU/CSU) :</note>
+        <u who="#Q1449990" xml:id="ParlaMint-DE_1968-05-09-05-172.u128" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg141">Zu welchem Zeitpunkt rechnen Sie damit, daß die Ausarbeitung des Ministerrats an die zuständigen Gremien kommt?</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u129" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg142">Frau Abgeordnete, ich selbst rechne damit, daß sich die Bundesregierung mit der vorhin erwähnten Vorlage in der nächsten oder übernächsten Kabinettssitzung befassen wird. Danach bin ich in der Lage, nähere Angaben zu machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u130" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg143">Herr Moersch!</seg>
+        </u>
+        <note type="speaker">Moersch (FDP) :</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1968-05-09-05-172.u131" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg144">Herr Staatssekretär, darf ich aus Ihrer Antwort auf die Frage 9 des Kollegen Dr. Wuermeling schließen, daß die Bundesregierung nun bereit ist, sich mit diesem Ausbildungsförderungsgesetz, das sie vorbereitet, von der alten Kindergeldideologie zu trennen?</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u132" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg145">Es hat nie ein Zusammenhang zwischen dem Ausbildungsförderungsgesetz, das bei früheren Gelegenheiten erörtert worden ist, und der Ausbildungszulage bestanden. Die Bundesregierung hat immer die Auffassung vertreten, daß die Ausbildungszulage eine Maßnahme innerhalb des unmittelbaren Familienlastenausgleichs sei und daß die Ausbildungsförderung, ein einheitliches Ausbildungsförderungsgesetz, zwar den Familienlastenausgleich mittelbar berührt, mit dein Familienlastenausgleich selbst aber nichts zu tun hat.</seg>
+        </u>
+        <note type="speaker">Moersch (FDP) :</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1968-05-09-05-172.u133" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg146">Herr Staatssekretär, darf ich aus Ihrer Antwort schließen, daß gewisse finanzielle Schwierigkeiten, die Sie eben angedeutet haben, offensichtlich daher kommen, daß Sie zwar den alten Familienlastenausgleich beibehalten möchten, aber dennoch ein Ausbildungsförderungsgesetz neuer Art machen möchten.</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg147">Diese Auffassung ist nicht richtig, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u135" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg148">Wir kommen zur Frage 10 des Herrn Abgeordneten Dr. Wuermeling:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg149">Muß auch damit gerechnet werden, daß die Beratungen des schon vor fünf Monaten für die Reform des Familienlastenausgleichs eingesetzten Ministerausschusses so lange fortgesetzt werden, daß die in Frage 9 zitierte verbindliche Zusage des Bundeskanzlers nicht einmal mehr in dieser Wahlperiode eingehalten werden kann? Herr Staatssekretär, bitte wollen Sie antworten.</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u136" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg150">Wie Sie meiner Antwort, Herr Abgeordneter, auf die vorige Frage entnehmen konnten, ist die Bundesregierung nicht der Auffassung, daß nicht noch in dieser Legislaturperiode mit einer Verbesserung des Familienlastenausgleichs gerechnet werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg151">Herr Dr. Wuermeling!</seg>
+        </u>
+        <note type="speaker">Dr. Wuermeling (CDU/CSU) :</note>
+        <u who="#Q280029" xml:id="ParlaMint-DE_1968-05-09-05-172.u138" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg152">Herr Staatssekretär, darf ich daraus schließen, daß sich die Bundesregierung nunmehr darüber klar geworden ist, daß innerhalb der breiten Schichten unserer Väter und Mütter draußen ein solcher Vertrauensverlust durch die Behandlung in den letzten Jahren eingetreten ist, daß nun dringendst Taten und Handlungen erforderlich sind, um diesen Vertrauensverlust wieder einigermaßen aufzufangen?</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg153">Herr Abgeordneter, die Bundesregierung hat nie einen Zweifel daran gelassen, daß die Tatsache, daß die Kindergelder nicht angepaßt werden konnten, sehr zu bedauern sei. Sie war sich auch darüber im klaren, welche Wirkung das draußen bei den besonders belasteten kinderreichen Familien haben muß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg154">Frau Freyh!</seg>
+        </u>
+        <note type="speaker">Frau Freyh (SPD) :</note>
+        <u who="#Q916269" xml:id="ParlaMint-DE_1968-05-09-05-172.u141" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg155">Herr Staatssekretär, darf ich Sie fragen, ob in den jetzigen Überlegungen der Bundesregierung die „Reform des Familienlastenausgleichs" auch noch weiter dahin zu verstehen ist: Vereinheitlichung der direkten und indirekten Kindergeldleistungen?</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg156">Frau Abgeordnete, diese Frage ist noch offen. Darüber ist noch keine grundsätzliche Entscheidung gefallen. Es ist aber richtig, daß hiermit eine der wichtigen, grundsätzlichen Fragen zur Entscheidung ansteht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg157">Frau Freyh!</seg>
+        </u>
+        <note type="speaker">Frau Freyh (SPD) :</note>
+        <u who="#Q916269" xml:id="ParlaMint-DE_1968-05-09-05-172.u144" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg158">Herr Staatssekretär, darf ich Sie fragen, ob das also heißt, daß das erarbeitete Papier, von dem Sie vorhin gesprochen haben, der Bundesregierung in dieser Frage zunächst keine Entscheidung abfordert?</seg>
+        </u>
+        <note type="speaker">Dr. Barth, Staatssekretär im Bundesministerium für Familie und Jugend:</note>
+        <u who="#Q94763551" xml:id="ParlaMint-DE_1968-05-09-05-172.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg159">Frau Abgeordnete, in der von mir erwähnten Vorlage, die der Bundesregierung bereits zugeleitet ist und die, wie ich annehme, in der nächsten oder übernächsten Woche behandelt werden soll, ist diese Frage noch nicht zur Entscheidung gestellt, weil die Voraussetzungen auch noch mit anderen Instanzen und nicht nur innerhalb der Bundesregierung geklärt werden müssen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg160">Wir kommen jetzt zu den Fragen aus dem Geschäftsbereich des Bundesministers für wissenschaftliche Forschung; es sind die Fragen 14, 15 und 16 des Abgeordneten Dr. Schmidt (Wuppertal):</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg161">Trifft die Nachricht zu, wonach die in Paris residierende Europäische Weltraumforschungsorganisation (ESRO)</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg162">beschlossen haben soll, das Projekt, einen europäischen Wettersatelliten zu starten, aufzugeben? Vorausgesetzt, daß diese Nachricht zutrifft, welches sind die Gründe dafür? Welche Stellung nimmt die Bundesrepublik Deutschland dabei ein? Die Fragen werden übernommen von Herrn Abgeordneten Rösing. Die Antworten gibt Herr Staatssekretär von Heppe.</seg>
+        </u>
+        <note type="speaker">Dr. von Heppe, Staatssekretär des Bundesministeriums für wissenschaftliche Forschung:</note>
+        <u who="#Q1583427" xml:id="ParlaMint-DE_1968-05-09-05-172.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg163">Die Nachricht trifft im wesentlichen zu. Es handelt sich allerdings nicht um ein Wettersatellitenprojekt. Die ESRO hat vielmehr einen vorläufigen Vertrag über die Entwicklung und den Bau von zwei wissenschaftlichen Satelliten, TD 1 und TD 2, nicht verlängert. Mit diesen beiden Satelliten, für deren Start amerikanische Thor-Delta-Raketen vorgesehen waren, sollten insgesamt 18 Experimente mehrerer wissenschaftlicher Gruppen aus sieben Mitgliedstaaten durchgeführt werden. Der Zweck dieser Experimente war es, neue Erkenntnisse zu gewinnen in der Stellarastronomie, im ultraroten und ultravioletten Spektralbereich, in der Erforschung der kosmischen Strahlung sowie über die solarterrestrischen Beziehungen während des solaren Aktivitätsmaximums.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg164">Sind damit alle Fragen beantwortet?</seg>
+        </u>
+        <note type="speaker">Rösing (CDU/CSU) :</note>
+        <u who="#Q1705589" xml:id="ParlaMint-DE_1968-05-09-05-172.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg165">Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u150" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg166">Frage 15. Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Dr. von Heppe, Staatssekretär des Bundesministeriums für wissenschaftliche Forschung:</note>
+        <u who="#Q1583427" xml:id="ParlaMint-DE_1968-05-09-05-172.u151" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg167">Es hat sich herausgestellt, daß die Kosten für die Entwicklung der Satelliten, für die ursprünglich 110 Millionen französische Franken vorgesehen waren, voraussichtlich um mehr als 100 % steigen werden. Trotzdem haben sich neun der zehn Mitgliedstaaten der ESRO wegen des technischen und wissenschaftlichen Interesses an diesem Projekt für seine Fortsetzung ausgesprochen. Lediglich ein Mitgliedstaat hat seine Zustimmung zur Finanzierung dieses Projektes versagt, so daß die hierfür erforderliche Einstimmigkeit nicht erzielt werden konnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u152" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg168">Können Sie Frage 16 auch gleich beantworten? — Bitte sehr!</seg>
+        </u>
+        <note type="speaker">Dr. von Heppe, Staatssekretär des Bundesministeriums für wissenschaftliche Forschung:</note>
+        <u who="#Q1583427" xml:id="ParlaMint-DE_1968-05-09-05-172.u153" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg169">Die Bundesregierung hat sich ebenso wie die anderen Partner der ESRO darum bemüht, doch noch die Zustimmung des betreffenden Mitgliedstaates zu erhalten. Diese Bemühungen blieben bislang ohne Erfolg. Zur Zeit werden Überlegungen angestellt, ob und wie das Projekt dennoch fortgeführt werden kann. Eine endgültige Entscheidung hierüber wird in einer voraussichtlich in Kürze stattfindenden Sitzung des ESRO-Rates getroffen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u154" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg170">Keine weiteren Fragen? — Ich rufe auf die Fragen aus dem Geschäftsbereich des Bundesministers für gesamtdeutsche Fragen, Fragen 17, 18 und 19, gestellt vom Abgeordneten Dr. Hudak:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg171">Wie beurteilt die Bundesregierung die neue Verfassung des „sozialistischen Staates Deutscher Nation"? Teilt die Bundesregierung die Meinung, daß in der Präambel der neuen Verfassung eine bewußte Verfälschung der politischen Tatbestände in der Bundesrepublik Deutschland vorgenommen wird? Welche Möglichkeiten sieht die Bundesregierung angesichts der neuen Verfassung, um ihre Politik der Erleichterung in den menschlichen Beziehungen zu dem anderen Teil Deutschlands fortsetzen zu können? Der Abgeordnete ist anwesend.</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg172">Herr Minister, wollen Sie bitte antworten.</seg>
+        </u>
+        <note type="speaker">Wehner, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1968-05-09-05-172.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg173">Zur Frage 17. Die jetzt im anderen Teil Deutschlands in Kraft getretene Verfassung ersetzt die alte Verfassung vom 7. Oktober 1949, die sowohl durch verfassungsergänzende Gesetze als auch durch die politisch ideologische Auslegung und die vielfache Nichtbeachtung, die zur Regel gehört hat, in der Praxis keine Bedeutung mehr hatte. Die neue Verfassung gibt den ursprünglichen gesamtdeutschen Geltungsanspruch der alten Verfassung auf und soll die Existenz von zwei deutschen Staaten im Rahmen der fortbestehenden einheitlichen deutschen Nation formalisieren, für deren Schicksal eine besondere Verantwortung der als DDR organisierten Gewalt postuliert wird. Die staatliche Vereinigung Deutschlands in einer Ordnung, die dem Parteiprogramm der SED entspräche, wird in der Verfassung als Fernziel und nationale Aufgabe fixiert. Diese Verfassung bricht endgültig mit der Tradition des früheren Verfassungstextes, indem sie die Führungsrolle der SED im Staatsapparat und in der Gesellschaft, das sogenannte sozialistische Eigentum an den Produktionsmitteln, das Prinzip der Gewaltenkonzentration und das System des demokratischen Zentralismus, wie es genannt wird, verankert. Der Grundrechtsteil enthält neben Formulierungen klassischer Freiheitsrechte zahlreiche Gesellschafts- oder gesellschaftliche Rechte und Rechte auf politische Mitwirkung, die zwar mit materieller Verwirklichungsgarantie ausgestattet sind, zugleich aber durch Gesetzes- oder allgemeine Vorbehalte relativiert werden. Verschiedene Rechte der alten Verfassung fehlen, z. B. die Freiheit der Berufswahl, das Streikrecht, das Verbot der Pressezensur und die Auswanderungsfreiheit. Das Recht auf Freizügigkeit gilt nur noch innerhalb des Staatsgebietes DDR. Die politische Wirkung der neuen Verfassung ist sehr stark nach außen berechnet. Sie soll die DDR gegenüber anderen als sozialistisch bezeichneten Staaten als ideologisch ebenbürtig und politisch konsolidiert ausweisen. Es geht also um eine Art Ranggleichheit. Für die übrige Welt soll sie den Anschein der Legitimität erwecken und die Rechtmäßigkeit oder, wenn Sie so wollen, die Rechtsstaatlichkeit des Systems betonen. Für den innerdeutschen Bereich soll sie wohl die Endgültigkeit der gegenwärtigen Verhältnisse in dem Teil, in dem diese Verfassung gilt, unterstreichen und jedes Gespräch über Veränderungen hinfort nur auf das lenken, was nach dem Willen der SED in der Bundeserpublik Deutschland geändert werden müsse.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u156" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg174">Herr Moersch!</seg>
+        </u>
+        <note type="speaker">Moersch (FDP) :</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1968-05-09-05-172.u157" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg175">Herr Minister, sehen Sie einen Zusammenhang zwischen dem Erlaß dieser neuen Verfassung und den Ereignissen in der Tschechoslowakei insofern, als damit eine Berufung auf Verfassungsgrundsätze bei der Inanspruchnahme von Pressefreiheitsrechten, beispielsweise wie in Prag, unmöglich gemacht werden sollte?</seg>
+        </u>
+        <note type="speaker">Wehner, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1968-05-09-05-172.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg176">Herr Moersch, die Verfassung, von der wir jetzt eben sprechen, ist zu einer Zeit gestartet worden, in der das, worauf Sie jetzt interessanterweise hinweisen, sicherlich nicht klar erkennbar war. Denn am 1. Dezember des Jahres 1967 hat der Staatsratsvorsitzende Ulbricht seine diese Verfassung ankündigende und den ursprünglichen Text interpretierende Erklärung vor der Volkskammer abgegeben. Ich hatte gesagt: eine der Absichten — ich bin persönlich der Meinung, wahrscheinlich sogar eine der hauptsächlichen Absichten war das Ranggleich-ziehen mit den „Volksdemokratien", wie sie sich bezeichnen. Was Sie sagen, muß man mit unterstellen. Das will ich unumwunden sagen. Ich kann es nur nicht sozusagen als alleinigen Grund oder als Grund Nummer eins dafür ansehen, daß man diese Verfassung überhaupt gestattet hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg177">Nun die Antwort auf die nächste Frage des Abgeordneten Dr. Hudak, also die Frage 18. Bitte, Herr Minister!</seg>
+        </u>
+        <note type="speaker">Wehner, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1968-05-09-05-172.u160" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg178">In der Präambel der neuen Verfassung wird von der geschichtlichen Tatsache gesprochen, daß der Imperialismus unter Führung der Vereinigten Staaten und im Einvernehmen mit Kreisen des westdeutschen Monopolkapitals Deutschland gespalten habe, um Westdeutschland zu einer Basis des Imperialismus und des Kampfes gegen den Sozialismus aufzubauen, der den Lebensinteressen der Nation widerspreche. Ich habe mich hier vorwiegend an den Text gehalten. Diese Interpretation der jüngsten Geschichte Deutschlands ist eine vor allem zu zwei Zwecken aufgestellte bewußte historische und politische Fälschung. Sie ist einmal als der Versuch anzusehen, alle jene Maßnahmen und Ereignisse im anderen Teil Deutschlands seit 1945 nachträglich zu rechtfertigen, mit denen sich in Mitteldeutschland und außerhalb der Begriff Unfreiheit unmittelbar verbindet. Sie dient zum anderen der Aufrechterhaltung des von der SED seit je strapazierten Mittels, die Bundesrepublik Deutschland als die Bedrohung des europäischen Friedens schlechthin darzustellen und damit politische Wirkungen zu erzielen. Die gesamtdeutsche Frage ist bei der Gründung der Bundesrepublik Deutschland nicht außer acht gelassen worden. Ein Mann mit einem so klaren Blick für politische Situationen und doch wohl auch, wie er sonst auch immer politisch gewertet werden mag, brennenden Engagement für die Wiedervereinigung Deutschlands wie Ernst Reuter hatte es damals zur entscheidenden Frage gemacht, daß man sich von der Vorstellung frei machen müsse, die Ordnung der staatlichen Verhältnisse im westlichen Teil Deutschlands schädige diejenigen, die unter sowjetischer Gewalt leben müßten. Wenn hier nicht — ich folge damit sinngemäß den damaligen Argumenten — das Mögliche getan werde, um den westlichen Teil Deutschlands nicht verfallen zu lassen — das war ja die Zeit um 1948 mit all den uns jedenfalls noch erinnerlichen Merkmalen —, würden die Deutschen schließlich alles verspielen, und die Nutznießer des Chaos wären diejenigen, die im anderen Teil die Gewalt ausübten. Hinter der Gründung oder Konstituierung der Bundesrepublik Deutschland stand nicht die Absicht der Spaltung, sondern der Wille, dort, wo das damals leider allein möglich war, die Freiheit zum Ausgangspunk für eine Politik zu machen, die auch die Interessen derjenigen berücksichtigt, denen man eine freie Äußerung ihres Willens nicht ermöglicht.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u161" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg179">Herr Dr. Hudak!</seg>
+        </u>
+        <note type="speaker">Dr. Hudak (CDU/CSU) :</note>
+        <u who="#Q347391" xml:id="ParlaMint-DE_1968-05-09-05-172.u162" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg180">Herr Bundesminister, teilen Sie mit mir die Meinung, daß die politische Verfälschung und die Verunglimpfung in der neuen Verfassung des „sozialistischen Staates deutscher Nation" in der Verfassungsgeschichte eine Einmaligkeit darstellt?</seg>
+        </u>
+        <note type="speaker">Wehner, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1968-05-09-05-172.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg181">Ich muß Ihnen da mit aller Bescheidenheit antworten, daß ich das nicht beurteilen kann, ob es in der Verfassungsgeschichte nicht Beispiele ähnlicher Art gibt. Aber ich muß sagen, für unsere Breitengrade und soweit unsere Erfahrungen hier in Mitteleuropa reichen, dürfte man das wohl sagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg182">Nun die Antwort auf die Frage Nr. 19 des Herrn Abgeordneten Dr. Hudak. Bitte, Herr Minister!</seg>
+        </u>
+        <note type="speaker">Wehner, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1968-05-09-05-172.u165" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg183">Die Menschen in der DDR haben, wie der Volksentscheid am 6. April zeigte, auch heute noch keine wirkungsvolle Möglichkeit, ihren eigenen Willen geltend zu machen. Deshalb müssen wir unser Verständnis für ihre Lage deutlich und erkennbar bekunden. Aber wir werden sie auch wissen lassen oder wissen lassen müssen, daß wir uns durch diesen Akt nicht daran hindern lassen, das in unseren Kräften Stehende zu tun, um daß Maß von innerdeutschen Beziehungen im gespaltenen Deutschland zustande bringen zu helfen, durch das das Verhältnis der Menschen im geteilten Deutschland normaler und die Bürde der Spaltung wenigstens teilweise von den Menschen im geteilten Deutschland genommen wird oder ihnen erleichtert wird. Der Ausgangspunkt des politischen Willens der Bundesregierung, wie er in der Regierungserklärung vom Dezember 1966, in den Schreiben des Bundeskanzlers an den Vorsitzenden des Ministerrats in Ostberlin und dann auch im Bericht zur Lage der Nation zum Ausdruck gebracht worden ist, wird von dieser neuen Verfassung nicht berührt. Unsere politische Situation verlangt, daß — solange es keine friedensvertragliche Regelung für Deutschland gibt, die auf deutscher Seite geschlossen werden muß von einer vom ganzen deutschen Volk legitimierten Vertretung — jenes Maß an innerdeutschen Regelungen angestrebt und verwirklicht wird, das für unser Volk im gespaltenen Deutschland das Leben erträglicher macht. Es sollte niemandem erlaubt sein, sich dieser Pflicht zu entziehen. Das ist jedenfalls unsere Auffassung und insofern auch eine Auffassung, der andere folgen könnten, wenn sie wollten.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall im ganzen Hause.</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u166" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg184">Herr Abgeordneter Dr. Hudak!</seg>
+        </u>
+        <note type="speaker">Dr. Hudak (CDU/CSU) :</note>
+        <u who="#Q347391" xml:id="ParlaMint-DE_1968-05-09-05-172.u167" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg185">Herr Bundesminister, teilen Sie mit mir die Meinung, daß die neue Verfassung von Ostberlin einen gezielten Akt auf die weitere Zerreißung des deutschen Volkes darstellt und daß zugleich damit auch die Bemühungen der Bundesregierung um die Erleichterung der zwischenmenschlichen Beziehungen erschwert werden?</seg>
+        </u>
+        <note type="speaker">Wehner, Bundesminister für gesamtdeutsche Fragen:</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1968-05-09-05-172.u168" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg186">Diejenigen, die diese Verfassung entworfen und auf die Weise in Kraft gesetzt haben, wie es geschehen ist, wissen ganz genau, daß sie damit nicht unsere Bemühungen um das, was ich soeben über innerdeutsche Beziehungen auch unter der Fortdauer der Spaltung Deutschlands gesagt habe, ersticken können. Das muß man voraussetzen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei allen Fraktionen.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg187">Deswegen erlauben Sie mir auch, darauf zurückzukommen — Zusatzfragen zu der ersten von Ihnen gestellten Frage haben an diesen Punkt gerührt daß es hier um einen Legitimitätsanspruch vor allem gegenüber dem Ausland geht, aber auch um einen Anspruch im eigenen Lager, der mit der Gleichrangigkeit versiegelt werden soll und der sozusagen den letzten Zweifel daran beseitigen soll, daß dieses Gebiet dort so wollen es die. die es gemacht haben — nicht mehr Verhandlungsobjekt soll sein können, Das ist ein entscheidender Grund. Dabei gehen die, die das so wollen und machen, aber daran vorbei — und sie wissen es, daß sie damit daran vorbeigehen —, daß wir ungeachtet dessen, was sie beabsichtigen und was sie in ihrer Auffassung konstituieren, nicht nachlassen werden in unseren Bemühungen, weil wir eine andere Vorstellung von dem Souverän in Deutschland haben. Und solange der nicht sprechen kann, nachweisbar ungehindert sprechen kann, dürfen wir nichts unterlassen, weil wir es für unsere moralische Pflicht halten, dennoch in dieser Zeit, von der niemand weiß, wie lang und hart sie uns noch auferlegt sein wird, das Menschenmögliche zu tun im Sinne dessen, was ich als unseren Willen auszuführen versucht habe.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall im ganzen Hause.</desc>
+        </kinesic>
+      </div>
+      <div type="debateSection" n="30|31" ana="#DE-election #DE-voting">
+        <head>Teilt die Bundesregierung die Auffassung, daß es nach dem Urteil des Bundesverfassungsgerichts in Sachen Parteienfinanzierung vom 19. Juli 1966 notwendig ist — vor allem im Hinblick auf eine Gleichheit der Chancen — für Abstimmungsvorbereitungsorganisationen, die an Volksentscheiden nach Artikel 29 des Grundgesetzes aktiv mitwirken, Regelungen im Sinne des Parteiengesetzes vorzusehen, zumal da Artikel 20 des Grundgesetzes ausdrücklich von „Wahlen und Abstimmengen" spricht?</head>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u169" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg188">Wir kommen nun zu den Fragen aus dem Geschäftsbereich des Bundesministers des Innern. Ich rufe die Fragen 30 und 31 des Abgeordneten Corterier auf:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg189">Teilt die Bundesregierung die Auffassung, daß es nach dem Urteil des Bundesverfassungsgerichts in Sachen Parteienfinanzierung vom 19. Juli 1966 notwendig ist — vor allem im Hinblick auf eine Gleichheit der Chancen — für Abstimmungsvorbereitungsorganisationen, die an Volksentscheiden nach Artikel 29 des Grundgesetzes aktiv mitwirken, Regelungen im Sinne des Parteiengesetzes vorzusehen, zumal da Artikel 20 des Grundgesetzes ausdrücklich von „Wahlen und Abstimmengen" spricht? Hat die Bundesregierung bereits Vorstellungen, in welcher Weise die Finanzierung oder Bezuschussung der an den Abstimmungen (Volksentscheiden)</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg190">beteiligten Organisationen mit Bundesmitteln erfolgen kann? Der Fragesteller hat sich mit schriftlicher Beantwortung einverstanden erklärt. Die Antwort des Bundesministers Benda vom 19. April 1968 lautet:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg191">Ich teile nicht die Auffassung, daß es nach denn Parteienfinanzierungsurteil des Bundesverfassungsgerichts vom 19. Juli 1966 (BVerfGE 20, 56 ff.)</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg192">notwendig ist, für Abstimmungs-Vorbereitungsorganisationen, die an Volksentscheiden nach Art. 29 GG mitwirken, dem Parteiengesetz entsprechende Kostenerstattungsregelungen vorzusehen. Das Bundesverfassungsgericht hat in seiner Entscheidung ausdrücklich ausgeführt, daß in einer Demokratie sich die Willensbildung vom Volke zu den Staatsorganen vollziehen müsse. Der Prozeß der Meinungs- und Willensbildung des Volkes habe daher grundsätzlich „staatsfrei" zu bleiben. Einwirkungen der gesetzgebenden Körperschaften und von Regierung und Verwaltung auf diesen Prozeß seien nur dann mit dem demokratischen Grundsatz der freien und offenen Meinungs- und Willensbildung vom Volk zu den Staatsorganen vereinbar, wenn sie durch einen besonderen, sie verfassungsrechtlich legitimierenden Grund gerechtfertigt werden könnten (BVerfGE 20, 56 [99]).</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg193">Das Bundesverfassungsgericht sieht lediglich in der besonderen verfassungsrechtlichen Stellung der politischen Parteien für die Wahlen einen derartigen Grund, der die Erstattung der Wahlkampfkosten legitimieren könne. Im Gegensatz zu den einzelnen Bürgern und vor allein Verbunden, Gruppen und Vereinigungen, die neben den Parteien am Prozeß der Meinungs- und Willensbildung teilnehmen (BVerfGE 20, 56 [141)</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg194">, scion die Parteiei politische „Kreationsorgane" sowie vornehmlich Wahlvorbereitungsorganisationen (BVerfGE 20, 56 1107, 113])</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg195">. Aus Art. 21 in Verbindung mit Art. 38 GG sowie dein Bundeswahlgesetz ergäbe sich, daß den Parteien bei der Willensbildung des Volkes durch Parlamentswahlen eine Vorrangstellung gegenüber den Verbänden zukommt (BVerfGE 20, 56 [14]).</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg196">Da die Parteien diese Sonderstellung indessen nur bei der Willensbildung des Volkes durch Parlamentswahlen einnehmen, lassen sich die vom Bundesverfassungsgericht entwickelten Grundsätze nicht auf Volksentscheide nach Art. 29 GG übertragen, zumal es sich dabei nicht um Wahlen und die Kreation von Staatsorganen handelt. Bereits in seinem Urteil vom 11. Juli 1961 hat das Bundesverfassungsgericht zwischen der Bedeutung von Wahlen und von Volksbegehren und Volksentscheid unterschieden und festgestellt, deß letztere auch ohns besondere Vereinigungen ablaufen könnten, die sich ihre Veranstaltung zum Ziel gesetzt haben - (vgl. BVerfGE 13, 54 [82 ff.])</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg197">, Demzufolge kommt solchen Abstimmungs-Vorbereitungsorganisationen auch keine besondere verfassungsrechtliche Stellung zu. Weder Art. 29 GG noch das Gesetz über Volksbegehren und Volksentscheid bei Neugliederung des Bundesgebietes vom 23. Dezember 1955 (BGBl. I S. 835)</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg198">enthalten Anhaltspunkte, die insoweit für eine Vorrangstellung der Parteien oder sonstiger Abstimmungs-Vorbereitungsorganisationen gegenüber einzelnen Bürgern, Gruppen oder Verbänden sprechen und eine staatliche Kostenerstattung des Werbeaufwandes dieser Organisationen verfassungsrechtlich rechtfertigen könnten. Auch aus Art. 20 Abs. 2 GG, der zwischen Wahlen und Abstimmungen unterscheidet, läßt sich Gegenteiliges nicht herleiten. Zufolge der vorstehenden Auffassung bestand für die Bundesregierung kehr Anlaß, Überlegungen über die Art und Weise der Finanzierung oder Bezuschussung derartiger Organisationen anzustellen. Nun die Frage 32 des Abgeordneten Gscheidle:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg199">Zu welchem Zeitpunkt wird die Bundesregierung nach den neuen Richtlinien für die Aufstellung des Ortsklassenverzeichnisses Orte, die die Voraussetzungen der Richtlinien erfüllen, höherstufen? Die Frage wird auch im Einvernehmen mit dem Fragesteller schriftlich beantwortet. Die Antwort des Bundesministers Benda vom 19. April 1968 lautet:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg200">Nach § 13 Abs. 2 des Bundesbesoldungsgesetzes ist die Bundesregierung ermächtigt, durch Rechtsverordnung mit Zustimmung des Bundesrates das Ortsklassenverzeichnis bei Änderung der tatsächlichen Verhältnisse in Abständen von zwei Jahren zu ändern und zu ergänzen. Auf Grund der von einer besonderen Kommission erarbeiteten Richtlinien für die Aufstellung des Ortsklassenverzeichnisses vom 18. Juni 1965 haben die Länder für 514 Orte eine Höherstufung nach Ortsklasse S vorgeschlagen. Die hierfür beim Bund, den Ländern und Gemeinden benötigten Mittel von damals jährlich insgesamt rund 140 Mio DM konnten wegen der schwierigen Haushaltslage im Rechnungsjahr 1966 nicht bereitgestellt werden. In der Folgezeit wurden die für Besoldungsverbesserungen zur Verfügung stehenden Haushaltsmittel für vordringlichere Maßnahmen der Besoldungsneuregelung benötigt. Wie sich aus der Begründung zuni Entwurt des Zweiten Besoldungsneuregelungsgesetzes ergibt, soll dem Gesetzgeber für die dritte Stufe der Besoldungsneuregelung die Beseitigung der gegenwärtigen Ortsklasseneinteilung vorgeschlagen werden. Im Hinblick hierauf beabsichtigt die Bundesregierung nicht, vor der Entscheidung des Gesetzgebers eine nochmalige Änderung des Ortsklassenverzeichnisses vorzunehmen. Ich rufe die Frage 33 des Abgeordneten Kahn-Ackermann auf. Ist der Abgeordnete anwesend? - Er ist nicht anwesend. Die Frage wird schriftlich beantwortet. Ich rufe die Frage 34 des Abgeordneten Kahn-Ackermann auf. Diese Frage wird ebenfalls schriftlich beantwortet. Ich rufe die Frage 35 des Abgeordneten Schmidt (Kempten)</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg201">auf. Ist der Abgeordnete Schmidt (Kemp-ten)</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg202">anwesend? — Er ist nicht anwesend. Die Frage wird schriftlich beantwortet. Der Abgeordnete Dr. Hofmann stellt die Fragen 36, 37 und 38:</seg>
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg203">Warum war bei den Unruhen in den letzten Tagen in der Bundesrepublik Deutschland die Polizei der Länder nicht in jedem Falle in der Lage, das Eigentum der Burger dieses Staates genügend zu schützen und das grundgesetzlich garantierte Recht der Pressefreiheit in jedem Falle durchzusetzen? Ist die für die Ordnung und Sicherheit in der Bundesrepublik Deutschland zuständige Polizei der Länder nach Meinung der Bundesregierung genügend und der Zeit entsprechend modern ausgerüstet, um solchen Vorkommnissen in der Zukunft besser begegnen zu können? Ist die Bundesregierung der Meinung, daß den Studenten die Unterstützung gemäß dem Honnefer Modell durch den Staat zu entziehen sei, die nachgewiesenermaßen an den Brandstiftungen, Sachbeschädigungen, Körperverletzungen usw. im Rahmen der Unruhen in den letzten Tagen als Täler im strafrechtlichen Sinne beteiligt waren? Bitte, Herr Staatssekretär!</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär des Bundesministers des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1968-05-09-05-172.u170" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg204">Herr Präsident, ich bitte wegen des inneren Zusammenhangs die beiden ersten Fragen gemeinsam beantworten zu dürfen. Wie der Herr Bundesminister des Innern bereits in seiner Rede vor dem Deutschen Bundestag am 30. April 1968 ausgeführt hat, sind die Polizeien der Länder bisher in der Lage gewesen, der Ausschreitungen, wie wir sie in den Ostertagen erlebt haben, Herr zu werden und das Eigentum der Bürger zu schützen. Selbstverständlich, Herr Kollege, gibt es keinen. lückenlosen Schutz. So kann nicht in jedem Falle verhindert werden, daß zu Rechtsverletzungen entschlossene Demonstranten überraschend einzelne Parlamentarischer Staatssekretär Köppler Objekte, z. B. auch Zeitungsdruckereien oder -verlage, angreifen und hierbei strafbare Handlungen wie Hausfriedensbruch, Sachbeschädigung oder vorsätzliche Brandstiftung begehen. Im einzelnen ist es Sache der zuständigen Innenminister der Länder, Weisungen dahin zu geben, daß Polizeidienststellen gefährdete Objekte ausreireichend schützen. Sollten die Ausschreitungen wiederaufleben und die Zahl der Anstifter zu solchen Aktionen sich vermehren, so könnte die Polizei möglicherweise örtlich die Grenze ihrer personellen und materiellen Einsatzfähigkeit erreichen. Zum Schutz der Bürger steht zwar grundsätzlich die gesamte Polizei der Länder und Gemeinden zur Verfügung, für aufrührerische Ausschreitungen ist in erster Linie jedoch die Bereitschaftspolizei in einer Stärke von 17 000 Beamten — hier nur für das Bundesgebiet ohne Berlin gerechnet — vorgesehen. Davon sind 13 000 Beamte in 18 Abteilungen voll einsatzfähig. Ihre Ausrüstung wurde im Einvernehmen zwischen Bund und Ländern erst im Jahre 1967 neu geregelt. Sie entspricht den Notwendigkeiten. Vier Abteilungen mit etwa 4000 Beamten sind noch nicht voll ausgestattet und daher nur bedingt einsatzfähig. Die Vervollständigung ist dringlich. Darüber hinaus streben, wie Sie wissen, Bund und Länder eine Verstärkung der Bereitschaftspolizei auf insgesamt 21 300 Beamte an. Die notwendige Ausrüstung an Fahrzeugen, Waffen und Gerät müßte vom Bund geliefert werden. Besprechungen mit dem Bundesminister der Finanzen sind vorgesehen. Die Ausrüstung des polizeilichen Einzeldienstes in den Ländern wird laufend ergänzt und modernisiert. Gegenwärtig wird vor allem geprüft, wie die technischen Einsatzmittel und der persönliche Schutz der Beamten verbessert werden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u171" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg205">Herr Dr. Hofmann!</seg>
+        </u>
+        <note type="speaker">Dr. Hofmann (Mainz) (CDU/CSU) :</note>
+        <u who="#Q1704826" xml:id="ParlaMint-DE_1968-05-09-05-172.u172" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg206">Bis wann oder wie schnell kann man damit rechnen, daß die Ausrüstung der Polizei, die notwendig erscheint, endgültig beschafft wird?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär des Bundesministers des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1968-05-09-05-172.u173" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg207">Ich glaube, daß die Besprechungen mit dem Bundesminister der Finanzen in den nächsten Tagen aufgenommen werden können. Im übrigen hängt die Lösung dieser Frage natürlich auch von den notwendigen Beschlußfassungen in diesem Hohen Hause ab.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u174" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg208">Herr Dr. Hofmann!</seg>
+        </u>
+        <note type="speaker">Dr. Hofmann (Mainz) (CDU/CSU) :</note>
+        <u who="#Q1704826" xml:id="ParlaMint-DE_1968-05-09-05-172.u175" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg209">Herr Staatssekretär, Sie sagten, daß die Polizei nicht in jedem Falle Rechtsverletzungen verhindern kann. Das unterstellend frage ich: Wie ist es denn in den Fällen, wo von Demonstranten vorweg angekündigt wurde, daß sie dies und jenes vorhaben? War in diesen Fällen nicht ein Schutz möglich?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär des Bundesministers des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1968-05-09-05-172.u176" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg210">Selbstverständlich war hier ein Schutz möglich. Er ist auch in der Mehrzahl der hier in Frage kommenden Fälle ausreichend geleistet worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u177" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg211">Herr Illerhaus!</seg>
+        </u>
+        <note type="speaker">Illerhaus (CDU/CSU) :</note>
+        <u who="#Q1519658" xml:id="ParlaMint-DE_1968-05-09-05-172.u178" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg212">Herr Staatssekretär, wenn Sachbeschädigungen bei den Unruhen vorgekommen sind, ist die Bundesregierung bereit, was den Ersatz für diese Sachbeschädigungen angeht, eine Änderung der gesetzlichen Bestimmungen vorzuschlagen, nämlich eine Versicherung gegen Aufruhrschäden, die bis 1933 möglich war, dann aber verboten worden ist, wieder zuzulassen?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär des Bundesministers des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1968-05-09-05-172.u179" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg213">Herr Kollege, ich bin gern bereit, Ihnen die Prüfung dieser Frage und dieser Möglichkeit heute zuzusagen. Darüber hinaus bin ich nicht in der Lage zu antworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u180" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg214">Herr Haase (Kassel)!</seg>
+        </u>
+        <note type="speaker">Haase (Kassel) (CDU/CSU) :</note>
+        <u who="#Q1525172" xml:id="ParlaMint-DE_1968-05-09-05-172.u181" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg215">Herr Staatssekretär, zwei Fragen im Zusammenhang mit der augenblicklichen Demonstrationswelle. Ist der deutschen Regierung bekannt, daß die hessische Landesregierung am Samstag Schulkinder vom Unterricht befreit, um ihnen eine Teilnahme an den für das Wochenende geplanten Demonstrationen gegen gesetzgeberische Vorhaben des Deutschen Bundestages zu ermöglichen?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär des Bundesministers des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1968-05-09-05-172.u182" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg216">Das hat die Bundesregierung aus der Presse entnommen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der FDP: Die Stadtverwaltung Bonn auch!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u183" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg217">Inzwischen ist mitgeteilt worden, Herr Kollege Haase — wenn ich das sagen darf —, daß die hessische Regierung diese Entscheidung zurückgenommen hat.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zurufe von der CDU/CSU: Aha! Sehr gut! — Zuruf von der FDP: Die Stadtverwaltung Bonn aber nicht!</desc>
+        </vocal>
+        <note type="speaker">Haase (Kassel) (CDU/CSU) :</note>
+        <u who="#Q1525172" xml:id="ParlaMint-DE_1968-05-09-05-172.u184" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg218">Herr Präsident, dann ist dieser Vorgang aber schon dreimal hin- und hergegangen. Es war erst genehmigt, dann widerrufen, dann ist es jetzt wieder widerrufen worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u185" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg219">Ich wollte nur intervenieren — damit die Frage nicht weitergesponnen wird —, weil inzwischen eine Entscheidung getroffen worden ist.</seg>
+        </u>
+        <note type="speaker">Haase (Kassel) (CDU/CSU) :</note>
+        <u who="#Q1525172" xml:id="ParlaMint-DE_1968-05-09-05-172.u186" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg220">Herr Staatssekretär, für den Fall, daß doch von irgendeiner Behörde Schulkindern freigegeben werden sollte — sieht die deutsche Regierung Gefahren für diese Jugendlichen, falls Demonstranten künftig Kinder vor sich hertreiben, um die notwendig werdenden Gegenmaßnahmen der Polizei zu beeinträchtigen?</seg>
+        </u>
+        <kinesic type="laughter">
+          <desc>Lachen bei der FDP.</desc>
+        </kinesic>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär des Bundesministers des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1968-05-09-05-172.u187" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg221">Ich würde diese nunmehr doch zur Hypothese gewordene Frage nicht vertiefen wollen. Natürlich kann in Einzelfällen eine solche Gefährdung bejaht werden.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Haase [Kassel] : Ich hoffe, wir werden es nicht erleben!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u188" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg222">Das war ein Kommentar, Herr Kollege Haase, keine Frage. Herr Moersch!</seg>
+        </u>
+        <note type="speaker">Moersch (FDP) :</note>
+        <u who="#Q1732393" xml:id="ParlaMint-DE_1968-05-09-05-172.u189" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg223">Herr Staatssekretär, wäre es Ihnen möglich, dem Hohen Hause auf Grund der besorgten Fragen des Kollegen Haase klarzustellen, daß zwischen Demonstrationen — genehmigten selbstverständlich — und Rechtsverletzungen ein grundsätzlicher Unterschied besteht?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär des Bundesminetisrs des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1968-05-09-05-172.u190" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg224">Ich glaube, das ist auch bereits aus der Regierungserklärung, die der Bundesminister des Innern hier am 30. April abgegeben hat, in hinlänglicher Deutlichkeit klargeworden.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Moersch: Offensichtlich nicht!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u191" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg225">Können wir nun die letzte Frage des Herrn Abgeordneten Hofmann beantworten, die Frage 38?</seg>
+        </u>
+        <note type="speaker">Köppler, Parlamentarischer Staatssekretär des Bundesministers des Innern:</note>
+        <u who="#Q990452" xml:id="ParlaMint-DE_1968-05-09-05-172.u192" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg226">Herr Kollege, nach den Richtlinien für die Studienförderung nach dem Honnefer Modell, die mit den Ländern abgesprochen worden sind, ist ein Student für die Förderung geeignet, wenn er neben guten Leistungen charakterliche Reife, fachliche Leistungen und Verständnis für die Umwelt zeigt. Charakterliche Reife und Verständnis für die Umwelt zeigt er in der Regel dann nicht, wenn er strafbare Handlungen begangen oder an ihnen teilgenommen hat. In diesen Fällen vertritt die Bundesregierung die Meinung, daß solchen Studenten die Förderung sofort zu entziehen ist.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Abg. Dr. Hofmann [Mainz] : Wenn ich mit einer Frage meinen Dank für diese Antwort verbinden kann, Herr Staatssekretär, dann sei das damit getan!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Schoettle:</note>
+        <u who="#Q1361327" xml:id="ParlaMint-DE_1968-05-09-05-172.u193" ana="#chair">
+          <seg id="ParlaMint-DE_1968-05-09-05-172.seg227">Keine weiteren Fragen. Damit ist die Fragestunde geschlossen. Wir sind am Ende der heutigen Sitzung. Ich berufe die nächste Sitzung des Deutschen Bundestages auf Freitag, den 10. Mai, 9 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 15.04 Uhr.</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>
