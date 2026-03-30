@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1994-11-10-13-001">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 13. Wahlperiode, 1. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 10.11.1994 (1. Sitzung der 13. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 13, Session 1 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1994-11-10 (Session 1 in Legislative Period 13)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="1">1. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.13" n="13">13. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="1">Session 1</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.13" n="13">Legislative Period 13</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 10.11.1994</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1994-11-10</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490388/84914a1feff6f2f4988ce352a5500845/pp13-data.zip</idno>
+          <date when="1994-11-10">1994-11-10</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1994-11-10">1994-11-10</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="2" ana="#DE-election">
+        <head>Wahl des Präsidenten, verbunden mit Namensaufruf und Feststellung der Beschlußfähigkeit</head>
+        <note type="speaker">Alterspräsident Stefan Heym:</note>
+        <u who="#Q76534" xml:id="ParlaMint-DE_1994-11-10-13-001.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg1">Meine Damen und Herren! Geehrte Kolleginnen und Kollegen! Ich begrüße Sie hier in Berlin zur konstituierenden Sitzung des 13. Deutschen Bundestages. Es ist parlamentarischer Brauch, daß der Älteste in der Versammlung die Leitung übernimmt, bis der Deutsche Bundestag sich selbst einen Präsidenten gewählt hat. So sieht es auch der § 1 Abs. 2 der Geschäftsordnung des Deutschen Bundestages vor. Ich wurde am 10. April 1913 geboren. Ist jemand unter Ihnen, der früher geboren wurde? — Das ist offenbar nicht der Fall. Meine Damen und Herren, als Alterspräsident eröffne ich die erste Sitzung der 13. Wahlperiode. Wir freuen uns, Herr Bundespräsident, daß Sie an dieser Sitzung teilnehmen. Ich begrüße auch den Herrn Altbundespräsidenten von Weizsäcker. Mein Gruß gilt auch den Botschaftern und Missionschefs zahlreicher Staaten. Ich heiße ferner die Mitglieder des Bundesrates und nicht zuletzt die Kolleginnen und Kollegen der Landesparlamente recht herzlich willkommen. Meine Damen und Herren, bis zur Beschlußfassung über die Geschäftsordnung, die sich der 13. Deutsche Bundestag nach der Wahl des Bundestagspräsidenten geben wird, verfahren wir nach den Regeln, die für den 12. Deutschen Bundestag gegolten haben. Nach Absprache mit den Fraktionen benenne ich jetzt als vorläufige Schriftführer die Damen und Herren Abgeordneten Brigitte Adler, Monika Brudlewsky, Peter Harry Carstensen (Nordstrand)</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg2">, Gertrud Dempwolf, Maria Eichhorn, Anke Eymer, Horst Friedrich, Hans-Joachim Fuchtel, Dr. Dietrich Mahlo, Dr. Rolf Niese, Doris Odendahl, Dr. Hermann Pohler, Hans Raidel, Bernd Reuter, Ortrun Schätzle, Heinz Schemken, Regina Schmidt-Zadel, Bodo Seidenthal, Wieland Sorge, Antje-Marie Steen, Joachim Tappe, Verena Wohlleben und Benno Zierer. Die Abgeordneten Benno Zierer und Bernd Reuter bitte ich, neben mir Platz zu nehmen. —</seg>
+          <incident type="entering">
+            <desc>Die Schriftführer nehmen ihre Plätze ein</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg3">— Schön, daß Sie gekommen sind.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg4">— Gut, daß Sie so gut gelaunt sind. Ich bin es auch. Meine Damen und Herren, an dieser Stelle eröffnete vor vier Jahren Willy Brandt den ersten gesamtdeutschen Bundestag. Ich habe zur Vorbereitung der meinen seine Rede vor kurzem noch einmal gelesen und mit Bedauern festgestellt, daß sich nicht alles von dem, was ihm vorschwebte, erfüllt hat. Willy Brandt hat uns verlassen, doch wir stehen, meine ich, immer noch in seiner Pflicht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, der PDS sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN und der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg5">— Ich danke Ihnen.</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg6">An dieser Stelle stand im gefahrvollen Jahre 1932 auch Clara Zetkin und eröffnete den damals neu gewählten Reichstag. Wir wissen, was aus dem Reichstag wurde, dessen Sitzungsperiode diese hochherzige Frau damals auf den Weg brachte. Zum Reichstagspräsidenten wurde Hermann Göring gewählt, und der Kanzler, den der Reichstag ernannte, hieß Adolf Hitler. Fast 200 der Reichstagsmitglieder gerieten in Gefängnisse und Konzentrationslager, über die Hälfte davon starben eines gewaltsamen Todes. Das Reichstagsgebäude, in dem wir uns heute befinden, brannte. Ich selber habe den Brand gesehen. Kurz darauf mußte ich Deutschland verlassen und sah es erst in amerikanischer Uniform wieder — ein Überlebender — und kehrte Jahre später dann in den östlichen Teil des Landes, in die DDR, zurück, wo ich auch bald in Konflikt mit den Autoritäten geriet. Wenn einer wie ich, mit dieser Lebensgeschichte, sich jetzt von hier aus an Sie wenden und den 13. Deutschen Bundestag, den zweiten des wiedervereinigten Deutschlands, eröffnen darf, so bestärkt das meine Hoffnung, daß unsere heutige Demokratie doch solider gegründet sein möchte als es die Weimarer war, und daß diesem Bundestag wie auch jedem künftigen ein Schicksal wie das des letzten Reichstages der Weimarer Republik erspart bleiben mag. Wir werden in den nächsten vier Jahren keine leichte Zeit haben. Es werden Entwicklungen auf uns zukommen, auf welche sich die wenigsten von uns, schätze ich, bisher eingestellt haben und um die wir uns nicht werden herumschwindeln können. Wie sagte doch Abraham Lincoln, der große amerikanische Präsident? „Einen Teil der Menschen können Sie die ganze Zeit zum Narren halten, und alle Menschen einen Teil der Zeit, aber nicht alle Menschen die ganze Zeit." Die Krise, in welche hinein dieser Bundestag gewählt wurde, ist nicht nur eine zyklische, die kommt und geht, sondern eine strukturelle, bleibende, und dieses weltweit. Zwar hat die Mehrheit der davon betroffenen Völker sich von der hemmenden Last des Stalinismus und Post-Stalinismus befreit. Aber die Krise, von der ich sprach, eine Krise nunmehr der gesamten Industriegesellschaft, tritt dadurch nur um so deutlicher in Erscheinung. Wie lange wird der Globus noch, der einzige, den wir haben, sich die Art gefallen lassen, wie diese Menschheit ihre tausenderlei Güter produziert und konsumiert? Wie lange wird die Menschheit sich die Art gefallen lassen, wie diese Güter verteilt werden? Der 13. Bundestag wird die Probleme, die sich aus diesen zwei Fragen ergeben, nicht lösen können, aber er kann ihre Lösung in Angriff nehmen, die Herausforderung akzeptieren. Deutschland, und gerade das vereinigte, hat eine Bedeutung in der Welt gewonnen, der voll zu entsprechen wir erst noch lernen müssen. Denn es geht nicht darum, unser Gewicht vornehmlich zum unmittelbaren eigenen Vorteil in die Waagschale zu werfen, sondern das Überleben künftiger Generationen zu sichern. Brecht schrieb:</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg7">Anmut sparet nicht noch Mühe, Leidenschaft nicht noch Verstand, daß ein gutes Deutschland blühe wie ein anderes gutes Land. Daß die Völker nicht erbleichen wie vor einer Räuberin, sondern ihre Hände reichen uns wie andern Völkern hin. Und nicht über und nicht unter andern Völkern woll'n wir sein, von der See bis zu den Alpen, von der Oder bis zum Rhein. Und weil wir dies Land verbessern, lieben und beschirmen wir's. Und das liebste mag's uns scheinen so wie andern Völkern ihr's. Arbeits- und Obdachlosigkeit, Pest und Hunger, Krieg und Gewalttat, Naturkatastrophen bisher unbekannten Ausmaßes begleiten uns täglich. Dagegen sind auch die besten Armeen machtlos. Hier braucht es zivile Lösungen: politische, wirtschaftliche, soziale und kulturelle. Reden wir nicht nur von der Entschuldung der Ärmsten, entschulden wir sie. Nicht die Flüchtlinge, die zu uns dringen, sind unsere Feinde, sondern die, die sie in die Flucht treiben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall des Abg. Dr. Gregor Gysi [PDS]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg8">Toleranz und Achtung gegenüber jedem einzelnen und Widerspruch und Vielfalt der Meinungen sind vonnöten, ebenso wie eine politische Kultur, mit der unser Land, das geeinte, seine besten Traditionen einbringen kann in ein geeintes, freies und friedliches Europa. Benutzen wir die Macht, die wir haben, vor allem die finanzielle, weise und mit sensibler Hand. Macht, wie wir wissen, korrumpiert. Absolute Macht korrumpiert absolut. Die Menschheit kann nur in Solidarität überleben. Das aber erfordert Solidarität zunächst im eigenen Lande: West, Ost, oben, unten, reich, arm. Ich habe mich immer gefragt, warum die Euphorie über die deutsche Einheit so schnell verflogen ist. Vielleicht weil ein jeder als erstes Ausschau nach den materiellen Vorteilen hielt, die die Sache ihm bringen würde: den einen Märkte, Immobilien, billigere Arbeitskräfte; den anderen — bescheidener — harte Mark und ein grenzenloses Angebot an Gütern und Reisen. Zu wenig wurde nachgedacht über die Chancen, die durch die Vereinigung unterschiedlicher Erfahrungen, positiver wie negativer, sich für das Zusammenleben und die Entwicklung der neuen alten Nation ergeben könnten und — wie ich hoffe — noch immer ergeben können. Es wird diesem Bundestag obliegen, dafür zu sorgen, daß die mit der Einheit zusammenhängenden Fragen nicht länger in erster Linie ins Ressort des Bundesfinanzministers fallen. Die gewaltlose Revolution vom Herbst 1989 hat den Menschen der alten Bundesländer Möglichkeiten zu neuer Expansion gebracht und denen der Ex-DDR Rechte und Freiheiten, die keiner von ihnen mehr missen möchte und die — ich betone das ausdrücklich — sie sich selber erkämpften. Diejenigen DDR-Bürger, die die Waffen zur Erhaltung des ungeliebten Systems besaßen, waren zurückhaltend genug, auf deren Anwendung zu verzichten. Dieses sollte, so meine ich, bei ihrer künftigen Beurteilung zumindest mit in Betracht gezogen werden. Die Vergangenheitsbewältigung, von der heute um der Gerechtigkeit willen soviel die Rede ist, sollte eine Sache des ganzen deutschen Volkes sein, damit nicht neue Ungerechtigkeiten entstehen. Aber vergessen wir dabei nicht, daß die Jahrzehnte des Kalten Krieges, welche uns die Spaltung Deutschlands mitsamt der schrecklichen Mauer und deren Folgen brachten, historisch gesehen, das Resultat des Naziregimes waren und des Zweiten Weltkriegs, der von diesem ausging. Die Effizienz des Westens, seine demokratischen Formen und andere Qualitäten des Lebens dort, die zum Nutzen der Ostdeutschen zu übernehmen wären, liegen zutage. Aber umgekehrt? Gibt es nicht auch Erfahrungen aus dem Leben der früheren DDR, die für die gemeinsame Zukunft Deutschlands zu übernehmen sich ebenfalls lohnte? Der gesicherte Arbeitsplatz vielleicht? Die gesicherte berufliche Laufbahn? Das gesicherte Dach überm Kopf?</seg>
+          <kinesic type="applause">
+            <desc>Unruhe bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg9">Nicht umsonst protestieren ja zahllose Bürger und Bürgerinnen der Ex-DDR dagegen, daß die Errungenschaften und Leistungen ihres Lebens zu gering bewertet und kaum anerkannt oder gar allgemein genutzt werden. Unterschätzen Sie doch bitte nicht ein Menschenleben, in dem, trotz aller Beschränkungen, das Geld nicht das Allentscheidende war, der Arbeitsplatz ein Anrecht von Mann und Frau gleichermaßen, die Wohnung bezahlbar und der wichtigste Körperteil nicht der Ellenbogen. Ich weiß sehr wohl, daß man Positives aus Ost und West nur schwer miteinander verquicken kann. Wir haben jedoch so lange mit unterschiedlichen Lebensmaximen in unterschiedlichen Systemen gelebt — und überlebt! —, daß wir jetzt auch fähig sein sollten, mit gegenseitiger Toleranz und gegenseitigem Verständnis unsere unterschiedlichen Gedanken in der Zukunft einander anzunähern. Das setzt allerdings voraus, daß den Menschen ihre Ängste genommen werden: den Westdeutschen, der Osten könnte sie ihre Ersparnisse und ihre Arbeitsplätze kosten; den Ostdeutschen, der Westen könnte sie ihrer Häuser und Wohnungen und Stückchen Landes berauben und ihrer Jobs dazu, ihre Berufsabschlüsse nicht anerkennen und ihre Rentenansprüche aus irgendwelchen Gründen kürzen. Ängste? Wie oft sind es schon traurige Realitäten! Also lassen Sie uns solche Realitäten ändern. Und diese Annäherung im Denken setzt ferner voraus, daß die Regierung eines so reichen Landes, wie es die jetzt vereinte Bundesrepublik ist, ernsthafte und vor allem wirksame Bemühungen unternimmt, Arbeitsplätze zu schaffen, selbst wenn kein Investor neue Profite aus solchen Bemühungen schlagen kann. Massenarbeitslosigkeit, meine Damen und Herren — das haben Ihre Eltern vor Jahren schon durchleben müssen —, zerstört die gesamte Gesellschaft und treibt das Land in den Abgrund. Die Menschen erwarten von uns hier, daß wir Mittel und Wege suchen, die Arbeitslosigkeit zu überwinden, bezahlbare Wohnungen zu schaffen, der Armut abzuhelfen und — im Zusammenhang damit — Sicherheit auf den Straßen und Plätzen unserer Städte und in den Schulen unserer Kinder zu garantieren, und jedermann und jederfrau den Zugang zu Bildung und Kultur zu öffnen. Das heißt: Die Menschen erwarten, daß wir uns als Wichtigstes mit der Herstellung akzeptabler, sozial gerechter Verhältnisse und der Erhaltung unserer Umwelt beschäftigen. Die Vorstellungen in diesem Hause dazu mögen weit auseinanderklaffen. Lassen Sie uns ruhig darüber streiten. Doch in einem werden wir hoffentlich übereinstimmen: Chauvinismus, Rassismus, Antisemitismus und stalinsche Verfahrensweisen sollten für immer aus unserem Lande gebannt sein.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN, der PDS sowie bei Abgeordneten der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg10">Dieser Bundestag wird derlei nicht völlig verhindern können, aber er kann dazu beitragen, ein Klima zu schaffen, in dem Menschen, die solch verfehlten Denkweisen anhängen, der öffentlichen Ächtung verfallen. All dieses jedoch kann nicht die Angelegenheit nur einer Partei oder einer Fraktion sein. Es ist nicht einmal die Sache eines Parlamentes nur, sondern die aller Bürgerinnen und Bürger, West wie Ost. Und wenn wir von diesen moralisches Verhalten verlangen und Großzügigkeit und Toleranz im Umgang miteinander, dann müssen wir wohl als ihre gewählten Repräsentanten mit gutem Beispiel vorangehen. Und just darum plädiere ich dafür, daß die Debatte um die notwendigen Veränderungen in unserer Gesellschaft Sache einer großen, bisher noch nie dagewesenen Koalition werden muß, einer Koalition der Vernunft, die eine Koalition der Vernünftigen voraussetzt. In diesem Sinne eröffne ich den 13. Deutschen Bundestag und wünsche uns allen Glück für unsere gemeinsame Arbeit.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN, der F.D.P. und der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg11">Ich rufe den Tagesordnungspunkt 2 auf:</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg12">Wahl des Präsidenten, verbunden mit Namensaufruf und Feststellung der Beschlußfähigkeit Mit dieser Wahl werden der Namensaufruf der Mitglieder des Bundestages und die Feststellung der Beschlußfähigkeit verbunden. Ich bitte um Vorschläge zur Wahl. — Herr Dr. Schäuble, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Wolfgang Schäuble (CDU/CSU):</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_1994-11-10-13-001.u2" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg13">Namens der CDU/CSU-Fraktion schlage ich Rita Süssmuth vor.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU, der F.D.P. sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Alterspräsident Stefan Heym:</note>
+        <u who="#Q76534" xml:id="ParlaMint-DE_1994-11-10-13-001.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg14">Ich danke Ihnen, Herr Dr. Schäuble. Sie alle haben den Vorschlag gehört. Die Abgeordnete Frau Professor Dr. Rita Süssmuth ist vorgeschlagen worden. Werden weitere Vorschläge gemacht? — Das ist nicht der Fall. Ich bitte um Ihre Aufmerksamkeit für einige Hinweise zum Wahiverfahren. Die Wahl findet mit verdeckten Stimmkarten — also geheim — statt. Gewählt ist, wer die Stimmen der Mehrheit der Mitglieder des Bundestages erhält. Sie benötigen für die Wahl Ihren weißen Wahlausweis. Dieser und weitere Wahlausweise für die später durchzuführende Wahl der Vizepräsidenten befinden sich in Ihren Schließfächern im nördlichen Seitengang der Lobby. Die für die Wahl allein gültige weiße Stimmkarte und den amtlichen Wahlumschlag erhalten Sie nach Aufruf Ihres Namens von den Schriftführern an den Zugängen zur Westhalle. Um einen möglichst reibungslosen Ablauf zu gewährleisten, bitte ich Sie, den Plenarsaal durch die seitlichen Durchgänge zu verlassen und von dort in die Westhalle zu gehen. Um nach dem Ankreuzen der Stimmkarten wieder in den Plenarsaal zurückzukehren, benutzen Sie bitte die beiden Türen rechts und links in der rückwärtigen Glaswand. Ich weiß, das klingt alles sehr kompliziert, und ich selber kann es mir auch nicht merken,</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg15">aber ich hoffe, Sie kriegen das alles richtig hin. Sie dürfen Ihre Stimmkarte nur in der Wahlkabine ankreuzen und müssen ebenfalls noch in der Wahlkabine die Stimmkarte in den Umschlag legen. Die Schriftführer sind verpflichtet, jeden, der seine Stimmkarte außerhalb der Wahlkabine kennzeichnet oder in den Umschlag legt, zurückzuweisen. Die Stimmabgabe kann in diesem Fall jedoch vorschriftsmäßig wiederholt werden — im Leben kann man das nicht immer machen. Gültig sind nur Stimmkarten mit einem Kreuz bei Ja, Nein oder Enthaltung. Ungültig sind Stimmen auf nichtamtlichen Stimmkarten sowie Stimmkarten, die mehr als ein Kreuz, andere Namen oder Zusätze enthalten. Bevor Sie die Stimmkarte in eine der hier rechts und links von mir aufgestellten Wahlurnen werfen, übergeben Sie dem Schriftführer bitte Ihren weißen Wahlausweis. Die Abgabe des Wahlausweises dient als Nachweis für die Beteiligung an dieser Wahl und ersetzt die Eintragung in die Anwesenheitsliste, soweit Sie sich nicht ohnehin schon eingetragen haben. Ich bitte jetzt die eingeteilten Schriftführer, die für die Wahl des Präsidenten vorgesehenen Plätze einzunehmen. — Die beiden Schriftführer neben mir werden nun Ihre Namen in alphabetischer Reihenfolge aufrufen. — Ich bitte Sie, den Namensaufruf zu befolgen und sich rechtzeitig zur Entgegennahme der Stimmkarte zu den Wahlkabinen in der Westhalle zu begeben. Haben alle Schriftführer ihre Plätze eingenommen? — Das ist der Fall. Ich eröffne die Wahl und bitte, mit dem Aufruf der Namen zu beginnen.</seg>
+          <incident type="incident">
+            <desc>Namensaufruf und Wahl</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg16">Meine Damen und Herren, der Namensaufruf ist beendet. Haben alle Mitglieder des Hauses, auch die Schriftführer, ihre Stimme abgegeben? -- Das ist offensichtlich der Fall. Ich schließe die Wahl und bitte die Schriftführer, mit der Auszählung zu beginnen. Zu dieser Auszählung unterbreche ich die Sitzung für etwa 15 bis 20 Minuten. Der Wiederbeginn der Sitzung wird rechtzeitig durch Klingelsignal angekündigt.</seg>
+          <vocal type="interruption">
+            <desc>Unterbrechung von 12.00 bis 12.22 Uhr</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg17">Meine Damen und Herren, die unterbrochene Sitzung ist wieder eröffnet. Ich habe das Vergnügen, das Ergebnis der Wahl bekanntzugeben. Es wurden insgesamt 669 Stimmen abgegeben. Damit ist der Bundestag beschlußfähig. Von den abgegebenen Stimmen sind 668 gültig. Mit Ja haben 555 Abgeordnete gestimmt.</seg>
+          <kinesic type="applause">
+            <desc>Langanhaltender Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg18">81 Abgeordnete stimmten mit Nein. 32 Abgeordnete haben sich der Stimme enthalten, und eine Stimme war ungültig. Ich stelle fest, daß die Abgeordnete Frau Professor Dr. Rita Süssmuth die Stimmen der Mehrheit der Mitglieder des Hauses erhalten hat. Sie ist damit zur Präsidentin des Deutschen Bundestages gewählt.</seg>
+          <kinesic type="applause">
+            <desc>Anhaltender Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg19">Ich frage Sie, Frau Kollegin Süssmuth: Nehmen Sie die Wahl an?</seg>
+        </u>
+        <note type="speaker">Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u4" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg20">Ja, ich nehme die Wahl an und freue mich über die Zustimmung und das Vertrauen. Danke schön.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall im ganzen Hause</desc>
+        </kinesic>
+        <note type="speaker">Alterspräsident Stefan Heym:</note>
+        <u who="#Q76534" xml:id="ParlaMint-DE_1994-11-10-13-001.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg21">Ich übermittle Ihnen — das werden Sie schon gehört haben — die Glückwünsche des Hauses. Auch ich selbst wünsche Ihnen Glück und Erfolg für Ihr verantwortungsvolles Amt. Ich bitte Sie nun, Frau Professor Süssmuth, das Amt zu übernehmen. —</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU, der SPD und der F.D.P. sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN und der PDS — Abg. Dr. Dagmar Enkelmann [PDS] überreicht dem Alterspräsidenten Stefan Heym einen Blumenstrauß — Beifall bei der PDS</desc>
+        </kinesic>
+      </div>
+      <div type="debateSection" n="4" ana="#DE-motion #DE-rules_of_procedure">
+        <head>Beschlußfassung über die — Geschäftsordnung des Deutschen Bundestages -- Richtlinien zur Überprüfung auf eine Tätigkeit oder politische Verantwortung für das Ministerium für Staatssicherheit/Amt für Nationale Sicherheit der ehemaligen Deutschen Demokratischen Republik vom 13. Dezember 1991 Es liegt ein Antrag der Fraktionen von CDU/CSU, SPD, BÜNDNIS 90/DIE GRÜNEN und F.D.P. auf Drucksache 13/1</head>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg22">Liebe Kolleginnen und Kollegen! Das erste Wort gilt Ihnen. Ich bedanke mich für die Wahl und freue mich auf unsere gemeinsame Arbeit. Dabei werde ich es nicht immer allen recht machen können, aber ich will mein Bestes geben, um dieses Amt gut, fair und überparteilich als Präsidentin aller Abgeordneten auszuüben. Dazu brauche ich Ihr Vertrauen. Dem Alterspräsidenten danke ich für die Leitung der konstituierenden Sitzung, und ich möchte bei dieser Gelegenheit auch von mir aus auf der Ehrentribüne ganz herzlich noch einmal unseren Bundespräsidenten und ebenso seinen Amtsvorgänger, Dr. Richard von Weizsäcker, begrüßen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg23">Mein Gruß gilt ebenso dem Präsidenten und den Mitgliedern des Bundesrates, dem Vizepräsidenten des Bundesverfassungsgerichts und den Kolleginnen und Kollegen aus den Parlamenten der Länder. Den Mitgliedern des diplomatischen Corps danke ich für ihre Anwesenheit. Ein ganz besonderer Gruß gilt den Bürgerinnen und Bürgern unseres Landes, die die konstituierende Sitzung in den Medien verfolgen, aber zugleich grüße ich die ausländischen Bürger, die in unserem Land leben und zu uns gehören.</seg>
+          <kinesic type="applause">
+            <desc>Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg24">Danken möchte ich heute besonders den ausscheidenden Parlamentskolleginnen und -kollegen für die von ihnen geleistete Arbeit. Nicht wenige verlassen uns, die dieses Parlament über eine lange Wegstrecke in wichtigen Funktionen geprägt, vorangebracht und manchmal auch zusammengehalten haben. Sie waren im Parlament dabei, als das kommunistische System zusammenbrach, als es um die wichtigen Weichenstellungen für die staatliche und innere Einheit Deutschlands ging, als über die neuen Aufgaben in Europa und in der Welt diskutiert wurde. Besonders ansprechen möchte ich jene, die sich nach den Oktober- und Novemberereignissen 1989 mitten im Umbruch — ohne langes Abwägen, ohne zu fragen, was sie an Voraussetzungen mitbringen, ohne berufliche Absicherung — für ein Mandat in der Volkskammer bei den ersten freien Wahlen am 18. März 1990 entschieden haben und bereit waren, für die Demokratie und die Einheit Deutschlands zu arbeiten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der F.D.P. sowie bei Abgeordneten der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg25">Diese Kollegen aus der Volkskammer, die jetzt das Parlament verlassen, weil sie nicht wieder gewählt wurden, sind zu einem erheblichen Teil ohne jede Rückkehrmöglichkeit in ihren früheren Beruf; denn auch ihre alten Arbeitsplätze gibt es nicht mehr. Ich weiß, was von ihnen allen gerade in der letzten Wahlperiode an Einsatz und an Leistungen erbracht worden ist. Noch einmal: Dank von uns allen!</seg>
+          <kinesic type="applause">
+            <desc>Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg26">Aus dem Präsidium scheiden drei Vizepräsidenten aus. Es war mehr als eine gute Zusammenarbeit — parlamentarisch und persönlich. Es herrschte ein guter Geist bei unterschiedlicher parteipolitischer Zugehörigkeit. Wir werden sie vermissen, und ich füge hinzu: Ich danke euch ganz persönlich.</seg>
+          <kinesic type="applause">
+            <desc>Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg27">Unser aller Gruß gilt ebenso den 218 neuen Mitgliedern des Parlaments. Sie machen überzeugend deutlich: Es gibt Wechsel. Auch sogenannter politischer Nachwuchs kommt in diesem Parlament zum Zuge. Es sind zudem mehr Frauen in den Bundestag gekommen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall im ganzen Hause — Heiterkeit bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg28">Das zeigt: Es lohnt sich auch für die Frauen zunehmend, für das Parlament zu kandidieren und um ein Mandat zu kämpfen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg29">Wir alle sollten wissen: Die Politik braucht die Frauen. Ohne sie können wir die Zukunftsprobleme nicht lösen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg30">Liebe Kolleginnen und Kollegen, wenn wir hier in Berlin zum zweitenmal als gesamtdeutsches Parlament, einen Tag nach dem fünften Jahrestag des Falls der Mauer, tagen und unsere 13. Wahlperiode eröffnen, dann soll von hier eine mehrfache Botschaft ausgehen. Dieses Gebäude ist unser Parlamentssitz. Hier, wo nach dem Willen der Nationalsozialisten nie wieder ein deutsches Parlament tagen sollte, ist auf Dauer unser fester Platz.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der F.D.P. sowie bei Abgeordneten der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg31">Unterbrochen wird dies nur durch den jetzt beginnenden Umbau; denn dies ist vorerst unsere letzte Sitzung in diesem Reichstagsgebäude. Hundert Jahre Reichstagsgebäude — das ist in wenigen Tagen so — sind hundert Jahre wechselvollen politischen und parlamentarischen Geschehens in Deutschland. Das beinhaltet Hoffnungen und Enttäuschungen in bezug auf die Weimarer Republik. Das beinhaltet politisches Versagen, Abgründe der mörderischen Diktatur von 1933 bis 1945, Leiden zweier Weltkriege für Millionen Menschen, Teilung unseres Vaterlandes mit der Folge der zweiten Diktatur auf deutschem Boden. Es beinhaltet aber auch den Wiederaufbau der Demokratie in unserem Land, Jahrzehnte Frieden und vertrauensvolle Beziehungen zu unseren Nachbarn. Welche Chancen wurden uns zuteil, welche Verpflichtung, welcher Grund zur Dankbarkeit! Eine Lehre können wir aus der Weimarer Zeit ziehen: Die zersetzende Kritik am Parlamentarismus und Parteienstaat der Weimarer Republik und die fehlende Verteidigung der parlamentarischen Demokratie dürfen sich nie wiederholen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der F.D.P. sowie bei Abgeordneten der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg32">Heute ist unsere Demokratie gefestigt und akzeptiert. Die letzte Wahlperiode aber hat uns deutlich gezeigt, wie heftig und radikal die Kritik ausfällt, wenn die Probleme schwierig und nicht schnell zu lösen sind. Ohne überzeugte Demokraten, ohne Vertrauen in die parlamentarische Arbeit brechen die institutionellen Fundamente allzu leicht weg. Die Demokratie verträgt Kritik und braucht sie auch, um nicht träge zu werden. Unsere demokratische Gesellschaft aber gibt jedem die Möglichkeiten der Beteiligung, der Einflußnahme und Mitgestaltung, auch wenn die Möglichkeiten zur Mitwirkung und Mitbestimmung der Bürger noch weiter ausgebaut werden können. Die Gerechtigkeitsidee bleibt Anspruch, Verpflichtung und Ansporn zu sozial gerechtem Handeln unter Beachtung der Leistung, der Leistungsfähigkeit und der Bedürftigkeit.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg33">Bisher sind die in den sozialistischen Utopien verfolgten Ziele in der Realität nie eingelöst worden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg34">Sie haben jeweils eher zu Volksarmut und Staatskapitalismus geführt,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg35">zu skandalösen Ungerechtigkeiten und Ungleichheiten wie zwischen Wandlitz und Bitterfeld.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der F.D.P. sowie bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg36">Ohne die Sehnsucht nach mehr sozialer Gerechtigkeit und Wärme blieben wir Menschen hinter dem zurück, was wir sein können und sollten. Diese Sehnsucht sollte in jedem Menschen lebendig sein. Sie gehört auch zu den politischen Visionen. Aber der sozialistische Realismus — so wie die Menschen ihn kennengelernt haben — hieß Ausplünderung der Zukunft,</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Sehr wahr!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg37">hieß Stasi-Herrschaft, hieß Gleichschaltung ohne soziale Gerechtigkeit.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg38">Demokratie hingegen heißt Regierung durch das Volk.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei Abgeordneten der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg39">Sie beinhaltet Machtkontrolle, Abwehr von Machtmißbrauch, Rechenschaftspflicht vor dem Volk, Entscheidung mit dem persönlichen Risiko, sich zu irren. Demokratie ist niemals vollkommen, niemals Routine, niemals fertig, sondern immer Aufgabe und Verpflichtung, nämlich: Recht und Gerechtigkeit zu üben, Probleme und Konflikte gemeinsam Schritt für Schritt zu lösen und den Lebensmut aller zu stärken. Unsere Demokratie ist heute gefestigt. Unser Staat hat sich weiterentwickelt. Doch dürfen wir die Risiken und Gefährdungen nicht verschweigen. Es besteht aus meiner Sicht eine doppelte Gefährdung: überhöhte, nicht erfüllbare Erwartungen an die Demokratie auf der einen Seite und eine die Demokratie aushöhlende Lebensweise auf der anderen Seite, die dem Motto folgt: In der Demokratie kann jeder tun und lassen, was er will und was für ihn als einzelnen am meisten Vorteile bringt. Statt dessen lebt Demokratie von der aufbauenden Arbeit aller. Ihre Feinde sind Willkür, Disziplinlosigkeit, Intoleranz, Gewalt und Egoismus. Sie ist die einzige Staatsform, die nicht von der Arroganz des endgültigen Wissens geprägt ist; denn sie weiß um das Vorläufige, um das zu Verbessernde. Sie lebt vom Bedenken des Realen und der Suche nach dem Möglichen. Sie ist nicht vollkommen; und sie täuscht auch keine Vollkommenheit vor. Wir sprechen zu Recht häufig von den dramatischen Umbrüchen seit 1989 und den neuen Chancen der Demokratie. Aber zugleich dürfen wir nicht die heute erkennbaren und auch besorgniserregenden Gefährdungen übersehen. Das sind nicht nur Nationalismus und Fundamentalismus. Auffallend ist die Zahl derer, die sich darüber hinwegsetzen, daß Demokratie ein Vertrag auf Gegenseitigkeit ist. Sie setzt nicht nur Individualität, sondern ebenso Gemeinschaftsgeist voraus. Individualität — sie ist unverzichtbar. Wenn aber jeder nur sich selbst verwirklichen will, geraten wir alle in Gefahr. Viele wollen die Vorzüge der Demokratie, wollen aber wenig oder nichts dafür einsetzen. Vorschriften oder Pflichten werden abgelehnt, Rechte immer stärker eingefordert. Dazu ist festzuhalten: Wer mehr Beteiligung will, muß auch zur Übernahme von Pflichten bereit sein.</seg>
+          <kinesic type="applause">
+            <desc>Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg40">Aber auch Willkür und Gemeinschaftsverachtung, Gewaltverherrlichung und Ausländerhaß bedrohen unseren inneren Frieden, gefährden den Zusammenhalt unseres Gemeinwesens.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg41">Zutrauen zur parlamentarischen Demokratie wächst in den neuen Bundesländern nur, wenn sich die Menschen mit ihren Anliegen, ihren Alltagsproblemen und Zukunftssorgen in unseren Parlamentsdebatten und -entscheidungen wiederfinden. Sie wollen von uns wissen, wie wir die Probleme anpacken, auch, wie wir sie zur Sprache bringen. Sie erwarten, daß wir Parlamentarier aus den alten und den neuen Bundesländern uns in vorurteilsfreier, gleichwertiger Partnerschaft ohne Überheblichkeit begegnen. Denken wir an das, was uns auch draußen häufiger gesagt wird, nämlich: So wie ihr als Deutsche nach der Wiedervereinigung voneinander denkt und miteinander umgeht, so werdet ihr auch mit Fremden und euren Nachbarn umgehen. Die innere Einheit bringen wir in dem Maße voran, wie wir uns klarmachen, daß es nicht mehr um getrennte, sondern um gemeinsame Probleme geht, die wir auch gemeinsam lösen müssen. Das betrifft vor allem die Bereiche Arbeit, Wohnen, innere Sicherheit und Bildung. Hier in Berlin, wo die Lebenswelten unvermittelt aufeinanderstoßen, haben wir rasch gelernt, daß es nicht beim Alten bleiben kann, wenn wir uns gemeinsam weiterentwickeln wollen. Wir haben auch gelernt, welch prägenden Einfluß gegensätzliche politische Systeme auf Menschen ausüben, wieviel Trennendes und wieviel Fremdheit entsteht. Von daher braucht es Geduld, um miteinander vertraut zu werden, auch in den gegenseitigen Erwartungen und dem Umgang mit der Demokratie, dem Rechtsstaat und der sozialen Marktwirtschaft. Unsere politische Aufgabe ist es, dafür Sorge zu tragen, daß alle sich in unserem Land, in unserem Staat zu Hause und ihm zugehörig fühlen. Das gelingt nicht, indem wir den Umgang mit unserer Vergangenheit verdrängen, sondern nur, indem wir die Aufarbeitung zu unserer gemeinsamen Aufgabe machen. Das war und ist schwierig, geht einher mit Enttäuschungen und Verletzungen. Dennoch: Scheuen wir uns nicht, die Aufarbeitung weiterzuführen; brechen wir sie nicht ab. Die Arbeit der Gauck-Behörde und der Enquete-Kommission des Deutschen Bundestages war beispielhaft; sie verdient unsere Anerkennung.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg42">Mit der Aufarbeitung gewinnen wir gemeinsame Zukunft, und wir schulden sie den Opfern, jenen, denen Unrecht und Unterdrückung widerfahren ist, die sich um der Freiheit willen nicht einschüchtern ließen. Sie sollten wissen und dessen gewiß sein: Ihr Freiheitskampf hat sich gelohnt. Zukunft sichern und Zukunft gestalten — das ist Aufgabe in dieser Wahlperiode am Ausgang dieses Jahrhunderts. Es gibt nicht die große Zäsur, den Einschnitt zwischen der vorangegangenen und der neuen Wahlperiode. Wir stehen weiterhin mitten in der Bewältigung der seit 1989 grundlegend veränderten politischen Situation — in unserem eigenen Land, in Europa und in der Welt. Gerade in der vergangenen Wahlperiode wurden daher neue Weichenstellungen durch zukunftssichernde Reformen für zentrale Lebensbereiche vorgenommen und durchgesetzt. Wir Abgeordneten sind uns bewußt, daß es nicht genügt, die uns bekannten politischen Konzepte und Instrumente einzusetzen, sondern daß wir Mut zur Offenheit für alle Problembereiche, insbesondere Arbeitsmarkt, Wohnungsförderung, Familienpolitik, die demographische Entwicklung, benötigen, um die jetzt anstehenden Aufgaben auf neue und zum Teil unkonventionelle Weise anzupacken. Das erwarten die Menschen in unserem Land von uns. Wenn wir unseren Bürgern und Bürgerinnen klar sagen, was an Umdenken, was an neuer Anstrengung und Kreativitätsleistung notwendig ist, dann stellen sie sich auch besser darauf ein. Das heißt auch, daß wir Parlamentarier unbequeme Wahrheiten sagen müssen und, wo nötig, auch Unpopuläres beschließen müssen. Die Menschen erwarten von uns im Parlament Konzentration auf wesentliche Fragen. Wir haben unter Beweis zu stellen, daß wir die Bürger wichtig nehmen und verstehen. Das muß schon an unserer Sprache ablesbar sein, gerade auch an der Sprache der Gesetze, die nur Vertrauen schaffen und überzeugen kann, wenn sie bürgergerechter wird.</seg>
+          <kinesic type="applause">
+            <desc>Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg43">Ihre Verständlichkeit und der Abbau von Bürokratie sind zwei unabdingbare Voraussetzungen für die erfolgreiche Umsetzung von Gesetzen und Verordnungen. Die Menschen wollen von uns konkret wissen, was wir von seiten der Politik zur besseren Verteilung von Arbeit, zur Schaffung neuer Arbeitsplätze und zum Angebot einfacher Tätigkeiten beitragen können. Denn der Mensch braucht Arbeit, um sich selbst auch im Verhältnis zum anderen in Erfahrung zu bringen, um sich selbst als wertvoll zu erfahren. Er braucht Arbeit, um Lebenssinn zu verwirklichen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg44">Armut in der Dritten Welt, Überbevölkerung, weltweite Flüchtlingswanderungen, Umweltzerstörung und Gewalt könnten dazu führen, daß dies die letzte Gegenwart ist, die die Menschheit erlebt, wenn sie nicht wachsam und tatkräftig handelt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg45">Voraussetzung für tatkräftiges Handeln ist, daß wir unsere gesellschaftliche Realität kritisch betrachten, Schwachstellen vorurteilslos aufdecken und Veränderungen durchsetzen. Unsere Aufgabe ist es, nicht nur zu erkennen, sondern auch im Rahmen unserer Möglichkeiten zu handeln.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg46">Die stärksten Veränderungen stehen uns in Europa bevor. Wie kommen wir nach Europa, ohne unsere nationalen und persönlichen Besonderheiten zu verlieren? Es geht dabei um ganz Europa, nicht nur um die Europäische Union. Viele unterstützen uns auf diesem Weg. Aber sie fürchten ein Europa, in dem sie sich selbst nicht wiederfinden und in dem ihnen eine wirksame demokratische Mitsprache fehlt. Unser Parlament ist und bleibt ein wichtiger Mitgestalter der europäischen Einigung. Sorgen wir dafür, daß wir gerade in diesem Prozeß das Sprachrohr der Menschen in unserem Lande bleiben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU, der SPD und der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg47">Liebe Kolleginnen und Kollegen, jeder Beginn einer neuen Wahlperiode ist für die Bürgerinnen und Bürger unseres Landes ein ebenso wichtiges Ereignis wie für uns Abgeordnete. Versehen mit einem neuen Mandat für eine begrenzte Zeit, haben wir in politischer Verantwortung für alle und für das Ganze zu arbeiten und zu handeln. Den Menschen, die uns beauftragt haben, bleiben wir während der gesamten Wahlperiode unmittelbar verpflichtet. Unser Parlament, der Deutsche Bundestag, muß als zentraler Ort demokratischer Diskussionen und Entscheidungen für alle Bürgerinnen und Bürger noch deutlicher als bisher sichtbar gemacht werden. Ich habe über die Notwendigkeit von Veränderungen gesprochen: Veränderungen in unserem Bewußtsein, in unseren Verhaltensweisen, in unseren politischen Instrumenten. Auf der Tagesordnung der nächsten vier Jahre stehen aber auch Veränderungen unserer Arbeitsformen mit dem Ziel, unsere Verfahren zu straffen und unsere Effektivität noch weiter zu steigern. Entscheidungen über die Größe des Parlaments, die Durchforstung unserer Gremien auf Zahl und Größe, die Konzentration der Plenardebatten auf politische Schwerpunkte sowie die Ausstattung des Abgeordnetenmandats stehen an und sind dringlich. Aber immer wieder gehört auch dazu, daß Parlamentsarbeit alltägliche, viel handwerkliche Arbeit ist. Mit Ihnen allen freue ich mich auf die gemeinsame Arbeit in der 13. Wahlperiode. Machen wir die 13 zu einer glücklichen Zahl! Ich danke Ihnen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall im ganzen Hause</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg48">Liebe Kolleginnen und Kollegen, ich rufe den Tagesordnungspunkt 4 auf:</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg49">Beschlußfassung über die — Geschäftsordnung des Deutschen Bundestages -- Richtlinien zur Überprüfung auf eine Tätigkeit oder politische Verantwortung für das Ministerium für Staatssicherheit/Amt für Nationale Sicherheit der ehemaligen Deutschen Demokratischen Republik vom 13. Dezember 1991 Es liegt ein Antrag der Fraktionen von CDU/CSU, SPD, BÜNDNIS 90/DIE GRÜNEN und F.D.P. auf Drucksache 13/1 vor. Außerdem wurden Änderungsanträge eingebracht von der Fraktion der SPD, Drucksache 13/7, der Fraktion BÜNDNIS 90/DIE GRÜNEN, Drucksachen 13/2 und 13/8, den Abgeordneten Dr. Gregor Gysi, Wolfgang Bierstedt, Petra Bläss und weiteren Abgeordneten, Drucksachen 13/4, 13/12 und 13/15. Der Änderungsantrag auf Drucksache 13/ 11 wurde zurückgezogen. Wird zu dem Antrag und den Änderungsanträgen das Wort gewünscht? — Herr Dr. Rüttgers.</seg>
+        </u>
+        <note type="speaker">Dr. Jürgen Rüttgers (CDU/CSU):</note>
+        <u who="#Q60975" xml:id="ParlaMint-DE_1994-11-10-13-001.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg50">Frau Präsidentin! Werte Kolleginnen und Kollegen! Hier liegen heute ein Antrag zur Verabschiedung der Geschäftsordnung des Deutschen Bundestages sowie eine Vielzahl von Änderungsanträgen vor. Wir haben uns im Vorfeld darüber verständigt, daß wir nicht zu jedem einzelnen Änderungsantrag eine Geschäftsordnungsdebatte führen wollen, sondern versuchen, die Positionen der jeweiligen Fraktionen und Gruppen sehr kurz darzustellen, damit diese Debatte nicht zu lange dauert. Ich glaube, daß es bei der Verabschiedung der Geschäftsordnung des Deutschen Bundestages und auch bei den Änderungsanträgen nicht nur darum geht, die Grundlage für die Arbeit des Deutschen Bundestages zu schaffen, sondern auch darum, daß wir die Wahlentscheidung vom 16. Oktober 1994 in dieses Regelwerk, das uns vier Jahre begleiten wird, einbauen. Die Wähler, werte Kolleginnen und Kollegen, haben erneut der Koalition der Mitte die Mehrheit im Deutschen Bundestag übertragen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der F.D.P. — Zuruf von der SPD: Rechtskoalition!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg51">Sie haben entschieden, daß im Deutschen Bundestag nunmehr vier Fraktionen vertreten sind. Auch im Präsidium des Deutschen Bundestages müssen sich diese Wahlentscheidungen vom 16. Oktober widerspiegeln. Dies betrifft sowohl die Mehrheitsverhältnisse als auch die Zusammensetzung nach Fraktionen. Die CDU/CSU-Bundestagsfraktion befürwortet daher, daß alle Fraktionen bei der Wahl der Vizepräsidenten berücksichtigt werden. Wir glauben aber, daß eine Vergrößerung des Präsidiums dazu weder erforderlich noch geboten ist.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg52">Die CDU/CSU-Bundestagsfraktion unterstützt daher den Antrag von BÜNDNIS 90/DIE GRÜNEN,</seg>
+          <kinesic type="laughter">
+            <desc>Beifall bei der CDU/CSU und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der F.D.P. — Lachen und Widerspruch bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg53">der für diese Legislaturperiode eine Berücksichtigung aller Fraktionen bei der Wahl der Vizepräsidenten vorsieht. Wir lehnen die von der SPD-Fraktion beantragte Erhöhung der Zahl der Vizepräsidenten ab,</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Theodor Waigel [CDU/CSU]: Sehr gut!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg54">weil sie mit der nach unserer Auffassung zu Recht geforderten Straffung der Parlamentsarbeit und der Bundestagsgremien nicht zu vereinbaren ist.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der F.D.P. — Dr. Theodor Waigel [CDU/ CSU]: Sparen!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg55">Wir reden allenthalben von notwendigen Sparmaßnahmen.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei der SPD und der PDS — Zuruf von der SPD: Ausgerechnet Sie!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg56">Daher ist es nach unserer Auffassung nicht gerechtfertigt, gleich bei erster Gelegenheit eine Vergrößerung des Präsidiums vorzunehmen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der F.D.P. sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg57">Dies gilt gleichermaßen für das Begehren der PDS, den Fraktionsstatus zu erhalten. Die PDS hat nach dem Willen der Wählerinnen und Wähler die für den Fraktionsstatus notwendigen Mandate nicht erreicht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg58">Nach unserer Auffassung kann es deshalb auch keine Sonderrechte für die PDS geben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg59">Wir bieten aber an — wie übrigens in der letzten Legislaturperiode —, uns über eine Regelung im Sinne des Gruppenstatus zu verständigen.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der PDS: Wie großzügig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg60">Deshalb beantragen wir die Überweisung des Antrags der PDS an den Ältestenrat. Auch die anderen Anträge von BÜNDNIS 90/DIE GRÜNEN und PDS bedürfen nach unserer Auffassung einer sorgfältigen Vorbereitung im Ältestenrat bzw. im Geschäftsordnungsausschuß. Ich bin deshalb der Auffassung, daß wir diese Anträge, wie dies auch schon in der Vergangenheit geschehen ist, in diese Gremien verweisen sollten, um sie in den nächsten Tagen und Wochen dort zu beraten und im Anschluß daran im Deutschen Bundestag darüber zu entscheiden. Ich bedanke mich.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU und der F.D.P. sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg61">Bitte, Herr Dr. Struck.</seg>
+        </u>
+        <note type="speaker">Dr. Peter Struck (SPD):</note>
+        <u who="#Q62202" xml:id="ParlaMint-DE_1994-11-10-13-001.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg62">Frau Präsidentin! Meine Damen und Herren! Seit 1949 ist das Präsidium des Deutschen Bundestages immer im Einvernehmen aller Fraktionen gewählt worden, unabhängig davon, wer Regierung und wer Opposition darstellte.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD — Joseph Fischer [Frankfurt] [BÜNDNIS 90/DIE GRÜNEN]: Das ist nicht ganz richtig, lieber Kollege!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg63">Zu dieser guten Tradition gehörte es auch, daß die jeweiligen Personalvorschläge der Fraktionen deutliche Zustimmung auch aus den anderen Fraktionen erhalten haben. Ihr Wahlergebnis, Frau Präsidentin, zeigt, daß die SPD diese Tradition fortsetzt,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg64">weil sie ein elementarer Bestandteil einer guten und gedeihlichen Zusammenarbeit in diesem Hause ist. Im Namen der SPD-Fraktion, Frau Präsidentin, gratuliere ich Ihnen sehr zu diesem überzeugenden Wahlergebnis,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU und der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg65">das auch die Anerkennung Ihrer bisherigen Arbeit als Bundestagspräsidentin ausdrückt. Ich füge hinzu, ich hatte in den vergangenen Jahren, Frau Präsidentin, häufiger den Eindruck, daß die Zustimmung meiner Fraktion zu Ihrer Amtsführung größer war als die Zustimmung Ihrer Fraktion.</seg>
+          <kinesic type="laughter">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten der PDS — Lachen bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg66">Ich hoffe nicht, Frau Präsidentin, daß diese Bemerkung Ihnen schaden wird. Die Wahl ist ja gerade vorüber.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg67">Mit dieser Wahl hat die Konstituierung des 13. Deutschen Bundestages begonnen, aber das Verfahren dieser Konstituierung folgt nicht den ungeschriebenen Regeln, die uns zwölf Vorgängerparlamente als Vermächtnis hinterlassen haben. Es war Herrn Schäubles Wille, daß der 13. Deutsche Bundestag bei seiner Konstituierung mit der Tradition seiner zwölf Vorgänger bricht.</seg>
+          <vocal type="exclamat">
+            <desc>Rudolf Scharping [SPD]: Unglaublich!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg68">In zwölf Legislaturperioden galt, daß mehr als eine Zweidrittelmehrheit die Spielregeln der Parlamentseröffnung trug, daß die große Regierungs- und die große Oppositionspartei das parlamentarische Verfahren im Konsens eröffneten. Diese Tradition brechen Sie heute, Herr Schäuble, wegen parteitaktischer Spiele.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg69">Wie man zuerst übrigens aus der Presse erfahren konnte — auch das ist wohl bezeichnend für Ihren neuen Stil der Zusammenarbeit —,</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Theodor Waigel [CDU/CSU]: Nehmen Sie das sofort zurück!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg70">will die Koalition mit den GRÜNEN einen Vertrag zu Lasten Dritter, nämlich der SPD-Fraktion, eingehen;</seg>
+          <kinesic type="laughter">
+            <desc>Beifall bei der SPD — Lachen beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg71">zu Lasten der SPD, die als einzige der großen Volksparteien bei der Bundestagswahl hinzugewonnen hat — 2,9 % —, während die Koalition 6,8 % verloren hat. Das wollte ich hier noch einmal festhalten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg72">Wenn schon die Koalitionsfraktionen die Anzahl der Vizepräsidenten beibehalten wollen, dann wäre es nach den herben Verlusten, die die F.D.P. bei den Wahlen erlitten hat, Anstandspflicht der F.D.P. gewesen, ihren Stuhl im Präsidium zu räumen und ihn für eine grüne Vizepräsidentin freizumachen.</seg>
+          <kinesic type="laughter">
+            <desc>Beifall bei der SPD — Lachen bei Abgeordneten der CDU/CSU und der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg73">Nur weil die F.D.P. diesen Anstand nicht besitzt,</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei der CDU/CSU und der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg74">wirkt sie an dem Stück aus dem Tollhaus mit, daß die größte Partei Deutschlands, daß wir, die SPD, im Präsidium so behandelt werden sollen, als ob wir wie die F.D.P. oder DIE GRÜNEN nur eine Fünf- bis Siebenprozentpartei wären. Das ist geradezu lächerlich.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg75">Die Verteilung der Positionen im Parlament hatte immer mit der Stärke der vertretenen Parteien zu tun. Die CDU/CSU ist fünfmal so stark wie DIE GRÜNEN und beansprucht wie selbstverständlich zwei Sitze im Präsidium. Die SPD ist fünfmal so stark wie die F.D.P. und stärker als die CDU allein — auch das wollen wir einmal feststellen, Herr Bundeskanzler —</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg76">und soll dennoch wie die kleineren Fraktionen nur einen Sitz erhalten. Wir bestreiten nicht, daß den GRÜNEN ein Sitz im Präsidium zukommt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg77">Aber daß DIE GRÜNEN den Kampf um diesen Sitz an der Seite der Koalition führen, ist, gelinde gesagt, haarsträubend.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit — Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg78">— Meine sehr verehrten Damen und Herren, ich habe bewußt an dieser Stelle eine Pause gemacht, um Ihnen die Gelegenheit zu dieser Reaktion zu geben. Ich denke, ich spreche im Namen aller Glatzenträger Deutschlands,</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg79">wenn ich darauf hinweise, daß man Glatzenträgern auf vielen anderen Gebieten besondere Fähigkeiten zutraut.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit — Beifall bei der SPD sowie bei Abgeordneten der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg80">Also, ich bleibe dabei, daß das haarsträubend ist, zumindest nach allem, was wir im Wahlkampf erlebt und gehört haben. Noch vor wenigen Wochen sah der vor mir sprechende Herr Rüttgers von der CDU im BÜNDNIS 90/ DIE GRÜNEN — ich zitiere — „die Partei der Machtopportunisten und Ökosozialisten". Für den Generalsekretär der CDU legten DIE GRÜNEN noch am 19. September 1994 „die Axt an die Wurzel der Wirtschaftsentwicklung". Der Vorsitzende der CSU- Landesgruppe, Michael Glos, hatte sie einen Tag zuvor als „weltfremde Ökosozialisten" diskreditiert, die Deutschlands Zukunft gefährden. Mein Kollege Oswald von der CSU — um auch ihm gerecht zu werden — legte am 4. Oktober 1994 nochmals nach, indem er DIE GRÜNEN als „Gefahr für die innere Sicherheit unseres Landes" einstufte. Nach diesen Vorläufen frage ich mich schon, warum BÜNDNIS 90/DIE GRÜNEN mit Leuten, von denen sie derartig qualifiziert und beschimpft worden sind, nunmehr zu Lasten der SPD ein Bündnis eingehen, nur weil sie einen Vizepräsidentenposten haben wollen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg81">Offensichtlich hat die Verwirrung hierüber der Union, der F.D.P. und den GRÜNEN jetzt den Blick dafür vernebelt, daß sie in die Geschäftsordnung unlösbare Probleme hineinbeschließen wollen. Sie wollen dieses Plenum darauf verpflichten, die von CDU/CSU, F.D.P. und den GRÜNEN benannten Kandidatinnen und Kandidaten in das Präsidium zu entsenden. Sie übersehen dabei, daß die Festschreibung eines Grundmandats unvereinbar ist mit dem geltenden § 2 der Geschäftsordnung. Danach nämlich werden entsprechend langer parlamentarischer Tradition die Mitglieder des Präsidiums gewählt und nicht von Herrn Schäuble oder von Herrn Fischer bestimmt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg82">Keine Geschäftsordnungsregel über ein Grundmandat kann, wie dies die Koalition und DIE GRÜNEN wollen, die Mitglieder des Bundestages verpflichten, ihre Wahl so zu treffen, daß jede Fraktion ein Grundmandat erhält. Zur Wahl, meine Damen und Herren, stehen nicht Grundmandate, sondern Kandidatinnen und Kandidaten. Jeder von uns ist nach Art. 38 frei, ob er diese Kandidatinnen und Kandidaten wählt oder nicht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg83">Wer will, daß die Fraktion der GRÜNEN im Präsidium vertreten ist, braucht nicht zu Geschäftsordnungstricks zu greifen, und er braucht dies auch nicht gegen die SPD tun, sondern er kann das mit uns gemeinsam in bewährtem Konsens erreichen.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg84">Den verfassungs- und geschäftsordnungsrechtlich sauberen und auch fairen Weg dazu haben wir gewiesen. Entweder wird das Präsidium insgesamt nur mit einer Präsidentin und drei Vizepräsidenten gebildet -</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg85">jede Fraktion könnte dann vertreten sein —, oder der jetzt von uns vorgelegte Antrag wird beschlossen. Dieser Antrag für eine kostenneutrale Erhöhung der Anzahl der Vizepräsidenten und der Verweis auf § 12 der Geschäftsordnung hat zur Folge, daß die SPD und die CDU mit je zwei Sitzen, die F.D.P. und die GRÜNEN mit je einem Sitz vertreten wären. Das, meine Damen und Herren, spiegelt die Stärkeverhältnisse in diesem Haus, das durch das Präsidium repräsentiert wird, zumindest annähernd korrekt wider, und nur dieses Ergebnis steht im Einklang mit unserer Geschäftsordnung.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg86">Meine Damen und Herren, manche verbinden mit der Zahl 13 abergläubische Gedanken an drohendes Unheil. Man muß nicht abergläubisch sein, um zu begreifen, daß der Schäuble/Fischer-Vertrag zwecks Bruch der parlamentarischen Tradition diesem Parlament eine schlechte Eröffnung beschert hat.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD — Widerspruch bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg87">Ich bitte deshalb alle Kolleginnen und Kollegen, mit uns einen anderen Weg, nämlich den des Konsenses, zu gehen, auch im Interesse des fairen Umgangs miteinander in diesem Haus.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u10" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg88">Herr Schulz.</seg>
+        </u>
+        <note type="speaker">Werner Schulz (Berlin) (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q95269" xml:id="ParlaMint-DE_1994-11-10-13-001.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg89">Frau Präsidentin! Meine Damen und Herren! Der Alterspräsident des 11. und des 12. Deutschen Bundestages, Willy Brandt, an den die Erinnerung in diesem Haus, glaube ich, wohl immer lebendig bleiben wird, hat in seiner Eröffnungsrede zur 11. Legislaturperiode folgendes gesagt — um Ihren Zitatenschatz, Herr Struck, etwas anzureichern —:</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg90">Abgeordnete höheren und niederen Ranges gibt es nach der Verfassung nicht. Für mich ergibt sich hieraus, daß alle Fraktionen über die gleichen Chancen der Mitwirkung verfügen sollten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten der F.D.P. — Otto Schily [SPD]: Alle Abgeordneten!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg91">— Ich freue mich über Ihren Beifall, denn wir haben diesen Gedanken in einen Änderungsantrag zur Geschäftsordnung aufgenommen, der den Anspruch festhält, daß jede Fraktion mindestens mit einem Vizepräsidenten oder einer Vizepräsidentin im Präsidium vertreten ist. Dieses Verständnis des Grundmandats trägt nämlich dem Gedanken Rechnung, daß es sich bei der Zusammensetzung des Präsidiums nicht um die Widerspiegelung der Kräfteverhältnisse des Parlaments handelt, sondern daß es um die Repräsentanz des gesamten Hauses geht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg92">Diese repräsentative Funktion verlangt, daß alle Fraktionen im Präsidium vertreten sind. Das war, lieber Herr Stuck, leider nicht immer so, das wissen auch Sie. Es ist eine lange und mißliche Geschichte, die Sie mit der Zustimmung zu unserem Antrag heute beenden können. Denn nicht nur die Art und Weise der Auseinandersetzung in parlamentarischen Gremien, sondern auch ihre Zusammensetzung ist Ausdruck der politischen Kultur. Hier geht es nicht um einen Vertrag zu Lasten Dritter oder einen Schäuble/ Fischer-Vertrag.</seg>
+          <vocal type="exclamat">
+            <desc>Ingrid Matthäus-Maier [SPD]: Doch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg93">Das sind einfach Legenden, die sich eher an die Pose des schlechten Verlierers anreihen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg94">Die letzte und frei gewählte Volkskammer hat gute Erfahrungen damit gemacht, daß Vizepräsidenten aus allen Fraktionen gewählt wurden. Unser Antrag ist damit auch eine Chance, endlich ein Zeichen dafür zu setzen, daß nicht alles über Bord geworfen werden muß, was in der DDR mit Erfolg praktiziert wurde.</seg>
+          <kinesic type="applause">
+            <desc>Unruhe bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg95">— Es geht um das letzte Volkskammerpräsidium. Hören Sie doch bitte zu! — Das letzte Volkskammerpräsidium war tatsächlich eine Errungenschaft — die bewegenden Fernsehbilder, die in den letzten Tagen wiederholt wurden, zeigen das noch einmal eindrücklich —: Es war eine politisch aktive Generation, die der SED dieses demokratische Recht abgerungen hat. Meine Damen und Herren, das zweite gesamtdeutsche Parlament sollte nicht unter dem Maßstab der frei gewählten Volkskammer bleiben. Ich will die politische Symbolik nicht auf die Spitze treiben, aber ich glaube: Ihre Zustimmung zu einem Grundmandat im Präsidium des Deutschen Bundestages wäre auch eine späte Aussöhnung mit den GRÜNEN, eine angemessene Würdigung der Bürgerbewegung und eine Anerkennung des demokratischen Aufbruchs von 1968 und 1989.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u12" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg96">Frau Albowitz.</seg>
+        </u>
+        <note type="speaker">Ina Albowitz (F.D.P.):</note>
+        <u who="#Q1660815" xml:id="ParlaMint-DE_1994-11-10-13-001.u13" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg97">Frau Präsidentin! Meine sehr verehrten Damen und Herren! Lieber Herr Kollege Struck, ich finde es schade, daß Sie in der ersten Sitzung, die unter besonderen politischen Vorzeichen steht, versuchen, ein wenig den Kasper zu spielen.</seg>
+          <kinesic type="applause">
+            <desc>Widerspruch bei der SPD — Beifall bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg98">Ich glaube, das ist weiß Gott nicht angemessen gewesen. Die Gesichter der Mitglieder Ihrer Fraktion waren auch nicht so begeistert, als Sie geredet haben.</seg>
+          <kinesic type="applause">
+            <desc>Widerspruch bei der SPD — Beifall bei Abgeordneten der F.D.P. und der CDU/ CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg99">Ich denke, daß der Antrag der Fraktion BÜNDNIS 90/DIE GRÜNEN, dem die Koalition und damit auch meine Fraktion zustimmt, beinhaltet: Wir wollen ein bißchen mehr Demokratie in diesem Parlament.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg100">Wir wollen ein bißchen mehr Demokratie, und ich habe den Eindruck, Herr Kollege Struck, die SPD will die GRÜNEN ausgrenzen. Das will die Koalition nicht.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei der SPD — Beifall bei Abgeordneten der F.D.P. und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg101">— Das ist so.</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg102">Meine Damen und Herren, meine Fraktion stimmt deshalb dem Antrag zu, daß jede Fraktion dieses Hauses durch einen Vizepräsidenten oder eine Vizepräsidentin im Präsidium des Deutschen Bundestages vertreten ist. Nur so können wir dem in der Wahlentscheidung liegenden Bürgerwillen auch die notwendige Geltung und Bedeutung verschaffen. Was jedoch nach unserer Meinung nicht geschehen darf, ist eine Ausweitung der Anzahl der Mitglieder des Präsidiums. Zum einen ist es in Zeiten der Diskussion um eine Verkleinerung des Parlaments nach außen nicht darstellbar, wenn das Parlament oder das oberste Gremium des Parlaments mit einer Vergrößerung anfängt. Im übrigen warten die Bürger dieses Landes auch darauf, daß wir unser aller Versprechen endlich einlösen, bei uns selber anzufangen zu sparen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der F.D.P. sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg103">Es kann mir hier in diesem Hause niemand weismachen, daß der vorgenannte Antrag der SPD, nämlich die bezweckte Ausweitung des Präsidiums, kostenneutral gestaltet werden kann.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Peter Struck [SPD]: Doch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg104">— Lieber Herr Struck, Sie müssen mir als Haushälter nicht begreiflich machen, wie man kostenneutrale Dinge gestaltet.</seg>
+          <kinesic type="applause">
+            <desc>Widerspruch bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg105">Das sind Hoffmanns Erzählungen oder möglicherweise Peterchens Sternstunde, aber darüber reden wir später noch einmal. Der Antrag der PDS, der Gott sei Dank zurückgezogen worden ist, zeugt — und das macht mich sehr bedenklich, Herr Kollege Gysi —, von der Haltung, die bei Ihnen offensichtlich immer noch vorherrscht, nämlich daß bei Wahlen auch keine Gegenkandidaten zuzulassen sind. Ich möchte das noch einmal in dieser Deutlichkeit sagen; denn der Antrag liegt in diesem Hause vor.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg106">Wahl heißt auch Auswahl. Im übrigen müssen alle Kandidatinnen und Kandidaten bei Wahlen auch immer das Vertrauen dieses Hauses erhalten. Insoweit bin ich sehr froh, daß Sie den Antrag zurückgezogen haben. Zum wiederholten Mal beantragt die Fraktion BÜNDNIS 90/DIE GRÜNEN, daß die Ausschüsse des Deutschen Bundestages grundsätzlich öffentlich tagen sollen. Jeder im Hause weiß — das ist auch kein neuer Hut —: Es ist unser erklärtes Ziel — und das nehmen wir sehr ernst —, daß die Parlamentsarbeit attraktiver zu gestalten ist. In der zwölften Wahlperiode haben Ausschüsse im übrigen wesentlich häufiger öffentlich getagt, und wir müssen diese Erfahrung bei unseren weiteren Überlegungen berücksichtigen. Wenn wir allerdings — und das bitte ich zu bedenken —, wie Sie das heute hier verlangen, wollen, daß alle Ausschüsse öffentlich tagen, so führt das zu tiefgreifenden strukturellen und nachhaltigen Veränderungen der Parlamentsarbeit. Ich denke, das müssen wir sorgfältig abwägen. Deshalb stimmen wir zu, den Antrag an die zuständigen Gremien dieses Hauses zu überweisen. Auch über den Änderungsantrag der Abgeordneten der PDS auf der Drucksache 13/12 werden wir reden. Er bringt nicht viel Neues. Vieles entspricht gutem parlamentarischen Brauch in diesem Hause. Auch hier werden wir der Überweisung in den Geschäftsordnungsausschuß des Deutschen Bundestages zustimmen. Der Antrag der Abgeordneten der PDS, die Mindeststärke der Fraktionen nach § 10 Abs. 1 der Geschäftsordnung an das Bundeswahlgesetz anzulehnen, hat erheblichen Diskussionsbedarf. Meine Fraktion will, daß es bei der bisherigen Regelung bleibt, nach der eine Fraktion aus mindestens 5 % der Mitglieder dieses Hauses bestehen soll. Diese Bestimmung hat sich über die Jahre, in langer Tradition gut bewährt. Sie ist Garant für effektive Arbeit im Parlament. Es gibt nach unserer Auffassung keinen Grund, von dieser Auffassung abzuweichen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der F.D.P. sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg107">Wir werden dies, auch entsprechend dem Urteil des Bundesverfassungsgerichtes vom 16. Juli 1991, bei der Diskussion zu berücksichtigen haben. Ich danke Ihnen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der F.D.P. und bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg108">Herr Müller.</seg>
+        </u>
+        <note type="speaker">Manfred Müller (Berlin) (PDS):</note>
+        <u who="#Q1889734" xml:id="ParlaMint-DE_1994-11-10-13-001.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg109">Sehr geehrte Frau Präsidentin! Meine sehr geehrten Damen und Herren! Ich war ja hin und wieder geneigt, Beifall zu klatschen, als es um die Begründung des Antrages von BÜNDNIS 90/GRÜNE ging, ein sogenanntes Grundmandat an alle Fraktionen zu verteilen, ohne daß wir Gefahr gelaufen wären, in diese hier beschriebene Koalition mit einbezogen zu werden. Deshalb haben wir, basierend auf Ihrem Antrag, eine leichte Ergänzung vorgenommen. Ich kann mich voll auf die hier genannten Gründe stützen. Wir haben beantragt: Nicht nur jede Fraktion, sondern auch jede parlamentarische Gruppe soll im Präsidium vertreten sein. Denn das Präsidium hat alle Abgeordnetengruppen zu vertreten und die Arbeit hier so zu organisieren, daß nicht eine Mehrheit eine Minderheit mit minderen Rechten ausstattet.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg110">Meine sehr verehrten Damen und Herren, ich will aber auf den Kernantrag zurückkommen, nämlich die Änderung des § 10 Abs. 1 der Geschäftsordnung. Herr Dr. Rüttgers, wir wollen eben keine Sonderrechte, sondern die gleichen Rechte wie alle übrigen Fraktionen dieses Hauses für uns beanspruchen. Das, was wir wollen, ist, eine Regelungslücke zu schließen, die auf Grund des Wahlergebnisses entstanden ist. Im Bundeswahlgesetz — das wissen Sie — gibt es für politische Parteien zwei Möglichkeiten, über Listen in den Bundestag einzuziehen: die eine, im gesamten Bundesgebiet mindestens 5 % der Zweitstimmen zu erreichen, die andere, mindestens drei Direktmandate zu erzielen, um dann, auch mit einer geringeren Prozentzahl von Zweitstimmen, in den Bundestag einzuziehen. Beide Möglichkeiten stehen im Bundeswahlgesetz gleichberechtigt nebeneinander. Wenn dies in der bisherigen Regelung der Geschäftsordnung über die Mindestzahl von Abgeordneten, die eine Fraktion bilden können, unberücksichtigt geblieben ist, so liegt dies allein daran, daß seit der vierten Wahlperiode des Deutschen Bundestages keine der kleineren Parteien mehr über den zweiten Weg in den Bundestag eingezogen ist, sondern alle im Bundestag vertretenen Parteien die 5 %-Hürde überwinden konnten. Es bestand also keine Notwendigkeit, in einer Geschäftsordnung — die nicht für alle Ewigkeit aufgestellt wird, sondern zu Beginn einer jeden Amtsperiode des Deutschen Bundestages neu beschlossen wird — einen Tatbestand, quasi theoretisch, zu regeln, der in der Praxis der jeweiligen Amtsperiode keine Rolle spielt. Ich selbst darf heute das erste Mal an einer Debatte des Deutschen Bundestages teilnehmen und gebe zu, daß ich mich früher für Geschäftsordnungsdebatten des Deutschen Bundestages in keinster Weise interessiert habe. Deshalb habe ich ein bißchen nachgeforscht, wie derartige Debatten früher geführt wurden. So stieß ich auf die Rede des Abgeordneten Bohl, der vor vier Jahren in bezug auf einen entsprechenden Geschäftsordnungsantrag der PDS/Linke Liste erklärte:</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg111">Es ist eine gute Tradition, daß der Deutsche Bundestag zu Beginn einer Wahlperiode die Fortgeltung seiner Geschäftsordnung beschließt. Die Geschäftsordnung — so Herr Abgeordneter Bohl weiter —</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg112">hat sich in der Vergangenheit bewährt, und es spricht viel dafür, daß dies auch in Zukunft so sein wird. Das schließt Änderungen selbstverständlich nicht aus, so wie wir dies immer wieder getan haben. Ich kann dem nur zustimmen.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der F.D.P.: Bitte!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg113">Denn die Regelung des Fraktionsstatus ist in der Vergangenheit tatsächlich immer wieder den aktuellen Gegebenheiten angepaßt worden, und zwar immer im Sinne unseres Antrages. Herr Bohl hat mit seiner Bemerkung vor vier Jahren sicher daran erinnern wollen, daß 1949 mindestens zehn Mitglieder des Deutschen Bundestages eine Fraktion bildeten, weil die Deutsche Partei damals siebzehn und das Zentrum zehn Abgeordnete in den ersten Deutschen Bundestag entsandten. Die Zentrumspartei erreichte damals lediglich 3,1 % der Stimmen und war, ebenfalls über Direktmandate, mit zehn Abgeordneten vertreten. Also: Damals ist die Zahl zehn festgelegt worden. 1952 wurde die Mindestzahl zur Bildung einer Fraktion auf 15 Abgeordnete heraufgesetzt. Deshalb konnten die 15 Abgeordneten der Deutschen Partei mit 3,3 % der Zweitstimmen und mit Direktmandaten wiederum eine Fraktion bilden. Dies blieb dann auch in der dritten und vierten Wahlperiode so. Erst mit dem Beschluß vom 27. März 1969 erhielt die Geschäftsordnung des Deutschen Bundestages hinsichtlich der Möglichkeiten der Fraktionsbildung die jetzige Fassung. Ich gehe deshalb davon aus, daß der Abgeordnete Bohl vor vier Jahren genau diese Tradition meinte, als er auf die Sinnfälligkeit von Änderungen der Geschäftsordnungen auf Grund veränderter Bedingungen hinwies und diese Bereitschaft auch für die Zukunft erklärte. Nun haben wir erstmals seit der 4. Wahlperiode wieder einen geänderten Umstand, der eine Änderung der Geschäftsordnung zwingend notwendig macht. Diese Geschäftsordnung soll wiederum nur für den 13. Deutschen Bundestag gelten, so daß wir schon heute erklären, einer Änderung der Geschäftsordnung in vier Jahren zuzustimmen, die die Gegebenheiten der 14. Wahlperiode erneut berücksichtigt. Diese bereits heute erteilte Zustimmung ist allerdings an die Voraussetzung geknüpft, meine sehr verehrten Damen und Herren, daß keine Partei die 5-ProzentHürde verfehlt, aber mindestens drei Direktmandate erzielt. Die PDS ist sich heute schon sicher, daß bei der Wahl zum nächsten Deutschen Bundestag nicht nur Direktmandate erzielt werden, sondern auch mehr als 5 % der Zweitstimmen erreicht werden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg114">Sollte diese Argumentation eine Mehrheit des Hohen Hauses nicht überzeugen, so kann es dafür eigentlich nur einen Grund geben: Mehr als 2 Millionen Menschen — der überwiegende Teil davon aus den neuen Bundesländern — haben die offene Liste der PDS beauftragt, als ihre Repräsentanten ihre Interessen im Deutschen Bundestag zu vertreten. Dieses Ergebnis stößt nicht bei allen Parteien dieses Hauses auf große Zustimmung, ist jedoch unumkehrbar. Nun sollen möglicherweise über Geschäftsordnungen die Möglichkeiten der Interessenvertretung einer kleineren Partei, die noch dazu ausdrücklich die Oppositionsrolle für sich in den Vordergrund gestellt hat, so weit eingeschränkt werden, daß die Erwartungen der Wählerinnen und Wähler nicht in dem Maße erfüllt werden können, wie diese das erwarten. Diese Einschränkungen, meine sehr verehrten Damen und Herren, sind ganz handfest: So sollen wir nicht das Recht haben, eine unbegrenzte Zahl von aktuellen Stunden zu verlangen. Das Einbringen von Geschäftsordnungsanträgen soll erschwert werden. Das Recht, die Erstattung von Zwischenberichten gemäß § 62 der Geschäftsordnung zu verlangen, wird uns bestritten. Das Recht, namentliche Abstimmungen zu fordern, wird uns vorenthalten. Auch das Recht, sofortige Abstimmungen von Anträgen im Plenum zu fordern, sollen wir nicht haben. Das Recht auf Herbeirufung eines Mitglieds der Bundesregierung sollen wir ebenfalls nicht beantragen können.</seg>
+          <vocal type="exclamat">
+            <desc>Michael Glos [CDU/CSU]: Sie sollten das Recht haben, zu verschwinden!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg115">Sicher sind wir auch nicht, ob wir in Untersuchungsausschüssen, in Enquete-Kommissionen, im Vermittlungsausschuß, in der Parlamentarischen Versammlung des Europarates usw. vertreten sein dürfen. Dieses Vorenthalten von Rechten, das, wie ich es zuvor verdeutlicht habe, weder rechtlich noch historisch begründet werden kann, hat allerdings allein politische Gründe. Ich erwarte, daß diejenigen, die gegen unseren Antrag stimmen, dies auch offen bekennen. Bei Ihrer Entscheidung sollten Sie bitte auch berücksichtigen, daß die Aberkennung des Fraktionsstatus von den Menschen in den neuen Bundesländern als weitere Diskriminierung und Zurücksetzung empfunden werden muß.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg116">Das von uns allen immer wieder eingeforderte und erwünschte Zusammenwachsen von Ost und West wird damit zusätzlich erschwert.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg117">Abschließend möchte ich Sie darauf hinweisen, daß sich Wert und Größe unseres demokratisch verfaßten Gemeinwesens immer auch an dem Verhalten von Mehrheiten gegenüber Minderheiten bemißt. Um es mit Rosa Luxemburg zu sagen: Freiheit ist immer die Freiheit der Andersdenkenden. Also: Beenden wir den Geschäftsordnungsstreit heute, und wenden wir uns gemeinsam den Angelegenheiten zu, für die sich der Streit auch lohnt, nämlich der Bewältigung der großen Probleme in unserem Land, wie Massenarbeitslosigkeit, Wohnungsnot und Armut. Treten wir gegen Haß und Gewalt, gegen andersdenkende, andersaussehende und anderslebende Menschen ein. Dafür, meine sehr verehrten Damen und Herren, sind wir nämlich gewählt. Abschließend noch der Hinweis auf einen weiteren Antrag, meine sehr verehrten Damen und Herren: Wir werden der gemeinsamen Abstimmung und Beschlußfassung über die Geschäftsordnung und die Richtlinien zustimmen. Wir werden also hiergegen keinen Einspruch einlegen. Wir werden uns allerdings in beiden Fällen der Stimme enthalten. Danke für Ihre Aufmerksamkeit.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der PDS</desc>
+        </kinesic>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u16" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg118">Meine Damen und Herren, wir kommen zu den Abstimmungen, und zwar zunächst zu den Anträgen zur Änderung der Zusammensetzung des Präsidiums. Ich lasse zuerst über den Änderungsantrag der Fraktion BÜNDNIS 90/DIE GRÜNEN zu § 2 der Geschäftsordnung — Einräumung eines Grundmandats im Präsidium — auf Drucksache 13/8 abstimmen. Wer stimmt für diesen Änderungsantrag? — Gegenprobe! — Enthaltungen? —</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Theodor Waigel [CDU/CSU]: Die erste Niederlage!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg119">Damit ist dieser Änderungsantrag angenommen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg120">Wir stimmen jetzt ab über den Änderungsantrag der Fraktion der SPD zur Erweiterung des Präsidiums auf sechs Mitglieder — § 5 der Geschäftsordnung — auf Drucksache 13/7. Wer stimmt für diesen Änderungsantrag? — Gegenprobe! — Enthaltungen? — Damit ist dieser Änderungsantrag abgelehnt. Wir stimmen jetzt ab über den Antrag der Abgeordneten der PDS auf Änderung von § 2 der Geschäftsordnung auf Drucksache 13/15 (neu).</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg121">Wer stimmt dafür? — Gegenprobe! — Enthaltungen? — Auch dieser Änderungsantrag ist abgelehnt. Der Änderungsantrag der Fraktion BÜNDNIS 90/ DIE GRÜNEN zur Öffentlichkeit der Ausschüsse auf Drucksache 13/2 und der Antrag der PDS auf Drucksache 13/12 mit verschiedenen Änderungsvorschlägen sollen dem Ausschuß für Wahlprüfung, Immunität und Geschäftsordnung überwiesen werden. Der Änderungsantrag der Abgeordneten Dr. Gregor Gysi, Wolfgang Bierstedt, Petra Bläss und weiterer Abgeordneter auf Drucksache 13/4 zum Fraktionsstatus soll an den Ältestenrat überwiesen werden. Sind Sie damit einverstanden? — Das ist der Fall. Dann haben wir die Überweisungen so beschlossen. Wir kommen jetzt zur Abstimmung über den interfraktionellen Antrag zur Übernahme der Geschäftsordnung mit der vorhin beschlossenen Änderung zu § 2 sowie der Richtlinien zur Überprüfung auf eine Tätigkeit oder politische Verantwortung für das Ministerium für Staatssicherheit/Amt für nationale Sicherheit der ehemaligen Deutschen Demokratischen Republik. Herr Struck, noch zu diesem Antrag?</seg>
+        </u>
+        <note type="speaker">Dr. Peter Struck (SPD):</note>
+        <u who="#Q62202" xml:id="ParlaMint-DE_1994-11-10-13-001.u17" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg122">Frau Präsidentin! Darf ich Sie bitten, getrennt abstimmen zu lassen, und zwar zunächst über den interfraktionellen Antrag zur Geschäftsordnung. Die SPD-Fraktion wird sich wegen der eben beschlossenen Änderungen dort enthalten. Selbstverständlich wollen wir den Richtlinien zustimmen. Deshalb bitte ich, zwei Abstimmungen durchzuführen.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="6" ana="#DE-election">
+        <head>Wahl der Stellvertreter des Präsidenten</head>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u18" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg123">Dazu kommt, daß die Abgeordneten der PDS ihrerseits auch getrennte Abstimmung verlangt haben, so daß ich jetzt erst über den ersten Teil abstimmen lasse. Wer stimmt dafür? —</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe: Wofür?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg124">— Ich drehe es um. Ich glaube, das ist einfacher. Wir stimmen zunächst über die Nr. 2 — Richtlinien zur Überprüfung auf eine Tätigkeit für das Ministerium für Staatssicherheit — ab. Wer ist dafür? — Wer ist dagegen? — Enthaltungen? — Damit ist dieser Antrag insgesamt bei Gegenstimmen und Enthaltungen angenommen. Wir kommen jetzt zur Abstimmung über den interfraktionellen Antrag. Wer stimmt für diesen Antrag? — Gegenstimmen? — Enthaltungen? — Damit ist auch dieser Antrag bei einigen Gegenstimmen und Enthaltungen angenommen. Ich rufe Tagesordnungspunkt 5 auf:</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg125">Festlegung der Zahl der Stellvertreter des Präsidenten Hierzu liegt ein Antrag der Fraktionen der CDU/CSU und der F.D.P. vor. Danach sollen vier Stellvertreter gewählt werden. Wer stimmt für den Antrag der Fraktionen der CDU/CSU und der F.D.P. auf Drucksache 13/6? — Gegenstimmen? — Enthaltungen? — Damit ist dieser Antrag angenommen und die Zahl der Stellvertreter der Präsidentin auf 4 festgelegt. Ich rufe Tagesordnungspunkt 6 auf:</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg126">Wahl der Stellvertreter des Präsidenten Interfraktionell ist vereinbart, die Wahl der Stellvertreter getrennt und mit verdeckten Stimmzetteln, d. h. geheim, durchzuführen. Wie wir soeben beschlossen haben, sind vier Stellvertreter zu wählen. Die Wahlen sollen entsprechend der Reihenfolge der Fraktionen nach ihrem Stärkeverhältnis durchgeführt werden. Sind Sie mit diesem Verfahren einverstanden?</seg>
+          <vocal type="exclamat">
+            <desc>Otto Schily [SPD]: Nein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg127">— Ich höre Widerspruch, aber Sie sind einverstanden.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg128">Ich gebe noch einige Hinweise zum Ablauf der Wahl: Für die einzelnen Wahlgänge benötigen Sie die verschiedenfarbigen Wahlausweise, die Sie, soweit noch nicht geschehen, den Schließfächern am nördlichen Seiteneingang der Lobby entnehmen können. Die jeweiligen Stimmkarten zu den einzelnen Wahlgängen werden von den Schriftführern und Schriftführerinnen vor den Wahlkabinen ausgegeben; sie haben jeweils die gleiche Farbe wie die Wahlausweise. Sie dürfen Ihre Stimmkarte nur in der Wahlkabine ankreuzen und müssen die Stimmkarte ebenfalls noch in der Kabine in den Umschlag legen. Ich mache insbesondere darauf aufmerksam, daß Sie jeweils nur einen Namen ankreuzen dürfen. Wer sich der Stimme enthalten will, macht keine Eintragung auf der Stimmkarte. Stimmkarten, die mehr als ein Kreuz, andere Namen oder Zusätze enthalten, sind ungültig. Bevor Sie die Stimmkarte in die Wahlurne werfen, müssen Sie dem Schriftführer an der Wahlurne Ihren Wahlausweis vorlegen. Wir kommen damit zur Wahl eines Stellvertreters der Präsidentin. Die Fraktion der CDU/CSU schlägt den Abgeordneten Hans Klein (München)</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg129">vor.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg130">Werden weitere Vorschläge gemacht? — Herr Müller.</seg>
+        </u>
+        <note type="speaker">Manfred Müller (Berlin) (PDS):</note>
+        <u who="#Q1889734" xml:id="ParlaMint-DE_1994-11-10-13-001.u19" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg131">Dagmar Enkelmann wird vorgeschlagen.</seg>
+        </u>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg132">Weiterer Vorschlag: Dagmar Enkelmann.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg133">Vor den Wahlkabinen erhalten Sie für die erste Wahlhandlung eine blaue Stimmkarte und den amtlichen Wahlumschlag. Außerdem benötigen Sie Ihren blauen Wahlausweis. Da die Stimmkarten noch gedruckt werden müssen, bitte ich um einige Minuten Geduld. — Ich höre gerade, daß die Stimmkarten vorliegen. Daher bitte ich die Schriftführer, jetzt die vorgesehenen Plätze einzunehmen. Ich eröffne die Wahl.</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg134">Haben alle Mitglieder des Hauses, auch die Schriftführer, ihre Stimmkarten abgegeben? — Das ist offensichtlich der Fall. Dann schließe ich die Wahl und bitte die Schriftführer, mit der Auszählung zu beginnen. Ich unterbreche die Sitzung für etwa zehn bis fünfzehn Minuten.</seg>
+        </u>
+        <vocal type="interruption">
+          <desc>Unterbrechung von 13.56 bis 14.17 Uhr</desc>
+        </vocal>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg135">Liebe Kolleginnen und Kollegen, die unterbrochene Sitzung ist wieder eröffnet. Ich gebe das Ergebnis der ersten Wahlhandlung bekannt. Es wurden 662 Stimmkarten abgegeben. Gültige Stimmkarten: 636. Auf Dr. Dagmar Enkelmann entfielen 45 Stimmen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg136">Auf Hans Klein entfielen 515 Stimmen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der F.D.P.</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg137">Enthaltungen: 76. Ungültige Stimmkarten: 26. Ich stelle fest, daß der Abgeordnete Hans Klein die Stimmen der Mehrheit der Mitglieder des Hauses erhalten hat. Er ist damit zum Stellvertreter der Präsidentin gewählt. Ich frage Sie, lieber Kollege Klein: Nehmen Sie die Wahl an?</seg>
+        </u>
+        <note type="speaker">Hans Klein (München) (CDU/CSU):</note>
+        <u who="#Q90844" xml:id="ParlaMint-DE_1994-11-10-13-001.u22" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg138">Danke. Ich nehme die Wahl mit Freuden an.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU, der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der F.D.P.</desc>
+        </kinesic>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg139">Ich übermittle Ihnen die Glückwünsche des ganzen Hauses und wünsche Ihnen Glück und Erfolg für Ihr verantwortungsvolles Amt. Wir fahren mit der Wahl eines weiteren Stellvertreters der Präsidentin fort. Die Fraktion der SPD schlägt hierfür den Abgeordneten Hans-Ulrich Klose vor. Werden weitere Vorschläge gemacht? — Das ist offenbar nicht der Fall. Für diese Wahl benötigen Sie Ihren gelben Wahlausweis. Die Stimmkarten sind gedruckt. Die gelbe Stimmkarte erhalten Sie vor den Wahlkabinen. Ich weise noch einmal darauf hin, daß Sie auf der Stimmkarte nur ein Kreuz bei Ja, Nein oder Enthaltung machen dürfen. Im übrigen ist es das gleiche Wahlverfahren wie vorhin. Ich bitte die Schriftführer, die vorgesehenen Plätze einzunehmen. Ich eröffne die Wahl. —</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg140">Haben alle Mitglieder des Hauses ihre Stimmkarten abgegeben? — Nein? — Letzter Aufruf! Sind jetzt alle Stimmkarten abgegeben? — Das ist offensichtlich der Fall. Ich schließe die Wahl und bitte die Schriftführer und Schriftführerinnen, mit der Auszählung zu beginnen. Ich unterbreche die Sitzung für etwa zehn bis fünfzehn Minuten.</seg>
+        </u>
+        <vocal type="interruption">
+          <desc>Unterbrechung von 14.38 Uhr bis 14.54 Uhr</desc>
+        </vocal>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg141">Die unterbrochene Sitzung ist wieder eröffnet. Wenn Sie Platz nehmen, dann kann ich das Ergebnis der Wahl eines weiteren Vizepräsidenten bekanntgeben. Abgegebene Stimmen: 661. Gültige Stimmen: 661. Mit Ja haben gestimmt: 591.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der F.D.P. sowie bei Abgeordneten der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg142">Mit Nein haben gestimmt: 50, Enthaltungen: 20, ungültige Stimmen: keine. Der Abgeordnete Hans-Ulrich Klose hat die erforderliche Mehrheit erhalten und ist zum Stellvertreter der Präsidentin gewählt. Ich frage Sie, Herr Klose, nehmen Sie die Wahl an?</seg>
+        </u>
+        <note type="speaker">Hans-Ulrich Klose (SPD):</note>
+        <u who="#Q447940" xml:id="ParlaMint-DE_1994-11-10-13-001.u25" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg143">Ich danke sehr und nehme die Wahl an.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD, der CDU/CSU, dem BÜNDNIS 90/DIE GRÜNEN und der F.D.P. sowie bei Abgeordneten der PDS</desc>
+        </kinesic>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg144">Unseren ganz herzlichen Glückwunsch, Glück und Erfolg und uns eine gute Zusammenarbeit im Amt. Wir fahren nun mit der Wahl eines weiteren Stellvertreters der Präsidentin fort. Die Fraktion BÜNDNIS 90/DIE GRÜNEN schlägt hierfür die Abgeordnete Dr. Antje Vollmer vor. Werden weitere Vorschläge gemacht? — Herr Dr. Struck!</seg>
+        </u>
+        <note type="speaker">Dr. Peter Struck (SPD):</note>
+        <u who="#Q62202" xml:id="ParlaMint-DE_1994-11-10-13-001.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg145">Frau Präsidentin, für die SPD-Bundestagsfraktion schlage ich die Abgeordnete Frau Anke Fuchs vor.</seg>
+        </u>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg146">Danke. Es liegen also zwei Vorschläge vor: Dr. Antje Vollmer und Anke Fuchs. Für diese Wahl benötigen Sie Ihren orangefarbenen Wahlausweis. Die orangefarbene Stimmkarte erhalten Sie vor den Wahlkabinen. Stimmkarten sind gedruckt. Ich bitte die Schriftführer, die vorgesehenen Plätze einzunehmen und eröffne die Wahl. Damit wir hier nicht ungültige Stimmen produzieren, sage ich hier noch einmal: Sie können nur einen der beiden Namen ankreuzen. Wenn Sie keinen ankreuzen, haben Sie sich der Stimme enthalten und damit auch Ihr Votum abgegeben. Eine andere Möglichkeit haben wir bei diesem Wahlverfahren nie praktiziert. Haben alle ihre Stimmkarten abgegeben? — Ich sehe, das ist noch nicht der Fall. Darf ich diejenigen, die noch nicht gewählt haben, auffordern, das jetzt möglichst schnell zu tun. — Ich gehe davon aus, daß jetzt alle gewählt haben. - Ich schließe den Wahlgang und unterbreche die Sitzung erneut für zehn bis fünfzehn Minuten.</seg>
+        </u>
+        <vocal type="interruption">
+          <desc>Unterbrechung von 15.16 Uhr bis 15.30 Uhr</desc>
+        </vocal>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg147">Meine Damen und Herren, die unterbrochene Sitzung ist wieder eröffnet. Ich gebe das Ergebnis der Wahl eines weiteren Vizepräsidenten bekannt. Abgegeben wurden 669 Stimmkarten, 664 gültige. Auf Anke Fuchs entfielen 279 Stimmen, auf Antje Vollmer 358 Stimmen.</seg>
+          <kinesic type="applause">
+            <desc>Anhaltender Beifall beim BÜNDNIS 90/DIE GRÜNEN — Beifall bei der CDU/CSU, der F.D.P. sowie bei Abgeordneten der SPD und der PDS — Die Fraktion BÜNDNIS 90/DIE GRÜNEN überreicht Abg. Dr. Antje Vollmer einen Blumenstrauß</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg148">Es gab 27 Enthaltungen und 5 ungültige Stimmkarten. Ich stelle damit fest, daß Frau Dr. Vollmer die Stimmen der Mehrheit der Mitglieder des Hauses erhalten hat. Sie ist damit zur Stellvertreterin der Präsidentin gewählt.</seg>
+          <kinesic type="applause">
+            <desc>Die SPD-Fraktion überreicht Abg. Anke Fuchs [Köln] einen Blumenstrauß. — Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg149">Ich frage Sie, Frau Dr. Vollmer: Nehmen Sie die Wahl an?</seg>
+        </u>
+        <note type="speaker">Dr. Antje Vollmer (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q103336" xml:id="ParlaMint-DE_1994-11-10-13-001.u30" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg150">Frau Präsidentin, ich nehme die Wahl an. Ich danke für das Vertrauen und hoffe auf eine gute Zusammenarbeit mit allen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei dem BÜNDNIS 90/DIE GRÜNEN, der CDU/CSU, der F.D.P., der SPD sowie bei Abgeordneten der PDS</desc>
+        </kinesic>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u31" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg151">Herzlichen Glückwunsch, viel Erfolg und auf eine gute Zusammenarbeit! Wir fahren nun mit der Wahl eines weiteren Stellvertreters der Präsidentin fort. Die Fraktion der F.D.P. schlägt hierfür den Abgeordneten Dr. Burkhard Hirsch vor. Werden weitere Vorschläge gemacht? — Herr Dr. Struck.</seg>
+        </u>
+        <note type="speaker">Dr. Peter Struck (SPD):</note>
+        <u who="#Q62202" xml:id="ParlaMint-DE_1994-11-10-13-001.u32" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg152">Frau Präsidentin, ich schlage die Abgeordnete Frau Anke Fuchs vor.</seg>
+        </u>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg153">Also existieren zwei Vorschläge: Dr. Burkhard Hirsch und Frau Anke Fuchs. Für diese Wahl benötigen Sie Ihren rosa Wahlausweis. Die rosa Stimmkarte erhalten Sie vor den Wahlkabinen. Ansonsten wird die Wahl nach demselben Verfahren wie vorhin durchgeführt. Liegen die Stimmkarten vor? — Die Stimmkarten liegen vor. Ich bitte die Schriftführer, die vorgesehenen Plätze einzunehmen. Ich eröffne die Wahl.</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg154">Sind alle Stimmkarten abgegeben? —</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg155">Liebe Kolleginnen und Kollegen, ich schließe die Wahl. Es folgt wieder eine Unterbrechung von zehn bis fünfzehn Minuten.</seg>
+          <vocal type="interruption">
+            <desc>Unterbrechnung von 15.50 Uhr bis 16.02 Uhr</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg156">Die unterbrochene Sitzung ist wieder eröffnet. Ich gebe das Ergebnis der Wahl eines weiteren Vizepräsidenten bekannt: Es wurden 662 Stimmkarten abgegeben. Gültige Stimmkarten: 661. Es entfielen auf Anke Fuchs 259 Stimmen, auf Dr. Burkhard Hirsch 394 Stimmen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, dem BÜNDNIS 90/DIE GRÜNEN und der F.D.P. sowie bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg157">Enthaltungen: 8, ungültige Stimmkarte. 1. Ich stelle fest, daß der Abgeordnete Dr. Burkhard Hirsch die Stimmen der Mehrheit der Mitglieder des Hauses erhalten hat. Er ist damit zum Stellvertreter der Präsidentin gewählt. Herr Kollege Hirsch, nehmen Sie die Wahl an?</seg>
+        </u>
+        <note type="speaker">Dr. Burkhard Hirsch (F.D.P.):</note>
+        <u who="#Q107360" xml:id="ParlaMint-DE_1994-11-10-13-001.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg158">Ich nehme die Wahl an und danke dem Haus für das Vertrauen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der F.D.P., der CDU/CSU und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der SPD</desc>
+        </kinesic>
+        <note type="speaker">Präsidentin Dr. Rita Süssmuth:</note>
+        <u who="#Q66286" xml:id="ParlaMint-DE_1994-11-10-13-001.u35" ana="#chair">
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg159">Auch Ihnen herzlichen Glückwunsch und uns eine gute Zusammenarbeit. Damit hätten wir die beschlossene Anzahl von vier Stellvertreterinnen und Stellvertretern der Präsidentin des Deutschen Bundestages gewählt. Das Wahlverfahren ist damit abgeschlossen. Wir sind damit am Schluß unserer Tagesordnung. Bevor ich die Sitzung schließe, habe ich noch folgendes mitzuteilen: Interfraktionell ist vereinbart, an dem Sitzungstag, an dem der Bundeskanzler gewählt und vereidigt wird, keine Regierungsbefragung, keine Fragestunde und keine Aktuelle Stunde durchzuführen. Das gleiche soll für den Tag der Vereidigung der Kabinettsmitglieder sowie für den Tag der Regierungserklärung und die Debatte darüber gelten. Sind Sie damit einverstanden?</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der SPD: Nein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg160">— Ich höre den Widerspruch, sehe aber noch nicht, daß wir das anders regeln.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg161">Ich berufe die nächste Sitzung des Deutschen Bundestages auf Dienstag, 15. November 1994 ein. Die genaue Uhrzeit wird Ihnen noch rechtzeitig mitgeteilt. Nun lade ich Sie zu einem Umtrunk mit dem Präsidium hier unmittelbar in der Osthalle ein. Zu essen gibt es auch etwas. Herzlichen Dank.</seg>
+          <seg id="ParlaMint-DE_1994-11-10-13-001.seg162">Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 16.07 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_2005-11-08-16-002">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 16. Wahlperiode, 2. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 08.11.2005 (2. Sitzung der 16. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 16, Session 2 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 2005-11-08 (Session 2 in Legislative Period 16)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="2">2. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.16" n="16">16. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="2">Session 2</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.16" n="16">Legislative Period 16</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 08.11.2005</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 2005-11-08</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2015-10-20">http://webarchiv.bundestag.de/archive/2008/0912/bic/plenarprotokolle/pp/2005/16002a.zip</idno>
+          <date when="2005-11-08">2005-11-08</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="2005-11-08">2005-11-08</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-election">
+        <head>Wahl eines Stellvertreters des Präsidenten</head>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2005-11-08-16-002.u1" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg1">Die Sitzung ist eröffnet.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg2">Ich begrüße Sie alle herzlich. Ich wünsche uns gute Beratungen und hoffentlich weise Entscheidungen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg3">Ich rufe zunächst unseren Tagesordnungspunkt 1 auf:</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg4">Wahl eines Stellvertreters des Präsidenten</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg5">Ich darf - und muss vielleicht auch -, bevor wir in diesen Wahlgang eintreten, eine Bemerkung zur Verfahrenslage machen. Wir haben, wie aus der konstituierenden Sitzung ja hinlänglich in Erinnerung, eine etwas komplizierte Lage, auch mit Blick auf den Wortlaut unserer Geschäftsordnung und die konkrete Situation, in der wir uns befinden. Da es eine ganz eindeutige Formulierung für präzise den Sachverhalt, mit dem wir es jetzt zu tun haben, in der Geschäftsordnung nicht gibt, benötigen wir eine Verständigung - wenn eben möglich auch Einvernehmen - über das Verfahren, mit dem wir das Präsidium komplettieren wollen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg6">Zu diesem Zweck habe ich in der vorletzten Woche die Geschäftsführer aller Fraktionen zu einem Gespräch gebeten, um ein solches Einvernehmen unter allen Fraktionen möglichst herbeizuführen. Das ist gelungen. Wir waren uns unter allen Fraktionen - in Gestalt ihrer Ersten Parlamentarischen Geschäftsführer - einig, dass wir die in der konstituierenden Sitzung unterbrochene Wahl wieder aufnehmen und heute in einem vierten Wahlgang nach den gleichen, damals getroffenen Verfahrensentscheidungen die Wahl eines weiteren Vizepräsidenten vornehmen. Das bedeutet im Klartext, dass für diesen vierten Wahlgang nach dem unter den Fraktionen hergestellten Einvernehmen die relative Mehrheit reicht, also der Kandidat oder die Kandidatin mehr Ja- als Neinstimmen erreichen muss.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg7">Ich darf fragen, ob darüber Einvernehmen im Haus besteht, so zu verfahren. - Das ist ganz offenkundig der Fall.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg8">Weil mir natürlich sehr bewusst ist, dass man mit beachtlichen Argumenten auch die Auffassung vertreten kann, dass anders hätte verfahren werden sollen oder müssen -</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg9">das ist ja so -, halte ich ausdrücklich fest, dass der Bundestag mit ganz breiter Mehrheit, die offenkundig auch ausreichen würde, um von der Geschäftsordnung abzuweichen - was unsere Geschäftsordnung ebenfalls ausdrücklich zulässt -, dieser Verfahrensvereinbarung zustimmt. Ich bedanke mich sehr für das Entgegenkommen, insbesondere bei all den Kolleginnen und Kollegen, die, wie ich weiß, damit persönlich nicht so ganz glücklich sind. Das wird uns im Übrigen im Lauf der Legislaturperiode an der einen oder anderen Stelle noch einmal passieren können; ich meine nicht konkret die jetzige Lage, aber das begrenzte Glück über die jeweils zu treffenden Entscheidungen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg10">Für diesen Wahlgang hat die Fraktion Die Linke den Abgeordneten Dr. Lothar Bisky als einen der Stellvertreter des Präsidenten vorgeschlagen. Werden weitere Vorschläge gemacht? - Das ist offensichtlich nicht der Fall.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg11">Dann darf ich noch einige Hinweise zur Durchführung des Wahlgangs geben. Für diesen vierten Wahlgang ist wieder, wie in der konstituierenden Sitzung für den dritten Wahlgang entschieden, die einfache Mehrheit ausreichend, also mehr Ja- als Neinstimmen. Für die Wahl benötigen Sie Ihren grünen Wahlausweis, den Sie, soweit noch nicht geschehen, den Stimmkartenfächern in der Lobby entnehmen können.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg12">Die grüne Stimmkarte für den Wahlgang wird Ihnen von den Schriftführern an den Ausgabetischen neben den Wahlkabinen ausgegeben. Da die Wahl geheim ist, dürfen Sie Ihre Stimmkarte nur in der Wahlkabine ankreuzen und müssen Sie die Stimmkarte ebenfalls noch in der Wahlkabine in den Umschlag legen. Der guten Ordnung halber füge ich hinzu: Stimmkarten, die mehr als ein Kreuz, andere Namen oder Zusätze enthalten, sind ungültig.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg13">Nach Kennzeichnung Ihrer Stimmkarte gehen Sie bitte zu den Wahlurnen, die neben den Sitzreihen der Bundesregierung und des Bundesrates sowie am Stenografentisch aufgestellt sind. Bevor Sie die Stimmkarte in die Wahlurne werfen, müssen Sie dem Schriftführer an der Wahlurne Ihren Wahlausweis übergeben.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg14">Ich bitte nun die Schriftführerinnen und Schriftführer, die vorgesehenen Plätze einzunehmen. - Das scheint bereits der Fall zu sein. Man könnte den Eindruck haben, dass Einzelne schon wählen, obwohl der Wahlgang noch gar nicht eröffnet wurde.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg15">Ich eröffne hiermit den Wahlgang und bitte um eine möglichst zügige Erledigung der damit verbundenen Verpflichtungen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg16">Ich bitte die Kolleginnen und Kollegen, die ihre Stimmkarte noch nicht abgegeben haben, dies jetzt möglichst zügig zu tun. Man muss nicht den längsten denkbaren Weg nehmen, wenn vier oder fünf Wahlurnen im Plenarsaal aufgestellt sind, und es beschleunigt die Prozedur schon sehr, wenn man nicht erst kurz vor Schließen des Wahlganges seine Stimmkarte abholt.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg17">Ich habe den Eindruck, dass nun alle ihre Stimme abgegeben haben. - Ich schließe den Wahlgang und bitte die Schriftführerinnen und Schriftführer, die Urnen mitzunehmen und die Stimmen auszuzählen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg18">Ich unterbreche die Sitzung bis zur Bekanntgabe des Wahlergebnisses für etwa 15 Minuten.</seg>
+        </u>
+        <vocal type="interruption">
+          <desc>Unterbrechung von 14.35 bis 14.50 Uhr</desc>
+        </vocal>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2005-11-08-16-002.u2" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg19">Die unterbrochene Sitzung ist wieder eröffnet. Ich bitte Sie, Platz zu nehmen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg20">Ich teile Ihnen das Ergebnis des gerade durchgeführten Wahlganges für die Wahl eines Stellvertreters des Präsidenten mit: abgegebene Stimmen 595, gültige Stimmen 595. Mit Ja haben gestimmt 249, mit Nein haben gestimmt 310,</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der LINKEN: Pfui!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg21">enthalten haben sich 36 Mitglieder des Hauses.1</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Pfui!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg22">Damit hat der Kollege Dr. Bisky die Mehrheit der abgegebenen Stimmen nicht erreicht.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg23">Interfraktionell ist vereinbart, dass heute kein weiterer Wahlgang durchgeführt wird, sodass wir in der ausgedruckten Tagesordnung fortfahren.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg24">Ich rufe nun den Tagesordnungspunkt 2 auf:</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg25">Beratung und Beschlussfassung des Antrags der Bundesregierung</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg26">Fortsetzung des Einsatzes bewaffneter deutscher Streitkräfte bei der Unterstützung der gemeinsamen Reaktion auf terroristische Angriffe gegen die USA auf Grundlage des Art. 51 der Satzung der Vereinten Nationen und des Art. 5 des Nordatlantikvertrags sowie der Resolutionen 1368 (2001) und 1373 (2001) des Sicherheitsrats der Vereinten Nationen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg27">- Drucksache 16/26 -</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg28">Wir werden über den Antrag der Bundesregierung im Anschluss an die Debatte namentlich abstimmen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg29">Nach einer interfraktionellen Vereinbarung sind für diese Aussprache eineinhalb Stunden vorgesehen. - Dazu höre ich keinen Widerspruch. Dann ist das so vereinbart.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg30">Ich eröffne die Aussprache und erteile das Wort zunächst dem Bundesminister der Verteidigung, Peter Struck.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="2" ana="#DE-motion #DE-consultation #DE-resolution">
+        <head>Beratung und Beschlussfassung des Antrags der Bundesregierung</head>
+        <note type="speaker">Dr. Peter Struck, Bundesminister der Verteidigung:</note>
+        <u who="#Q62202" xml:id="ParlaMint-DE_2005-11-08-16-002.u3" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg31">Sehr geehrter Herr Präsident! Meine Damen und Herren! Die erste inhaltliche Entscheidung, die der 16. Deutsche Bundestag zu treffen hat, ist von großer Bedeutung für die Soldatinnen und Soldaten, die wir in einen gefährlichen Auftrag schicken, für die Sicherheit in der Welt beim Kampf gegen den internationalen Terrorismus. Gleichermaßen ist der zu fassende Beschluss ein Ausweis für die gewachsene Verantwortung Deutschlands überall auf der Welt. Die Völkergemeinschaft, vertreten durch die Vereinten Nationen, erwartet dies von uns und wir stellen uns dieser Pflicht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg32">Als Bundesminister der Verteidigung will ich zunächst klarstellen: Militärisches Handeln ist nicht die erste Option. Vor den Soldaten sind die Diplomaten, die Entwicklungshelfer von Regierungsorganisationen und Nichtregierungsorganisationen, die Menschenrechtler, die Weltbank und andere internationale Institutionen gefordert, um gegen die Ursachen von Terrorismus zu kämpfen. Aber danach bleiben Situationen, die nur mithilfe militärischer Mittel gelöst werden können. Genau diesen Ansatz setzt die internationale Gemeinschaft in Afghanistan um. Gesellschaftlicher Wiederaufbau, die Verabschiedung einer afghanischen Verfassung, die Wahlen des Präsidenten und des Parlaments charakterisieren diesen erfolgreichen Weg.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg33">Der Einsatz militärischer Kräfte hat sich über Afghanistan hinaus als unerlässliches Instrument der internationalen Staatengemeinschaft im Kampf gegen diese neue Geißel der Menschheit erwiesen. Der UN-Sicherheitsrat hat am 13. September 2005 mit der Resolution 1623 die Weltgemeinschaft erneut zur Zusammenarbeit aufgefordert, um terroristische Handlungen zu verhüten und zu bekämpfen. Die bisherigen Einsätze von Streitkräften der an der Operation Enduring Freedom beteiligten Staaten haben terroristische Rückzugsgebiete beseitigt, wichtige Transportwege unterbunden und stabilisierend auf die Länder am Horn von Afrika gewirkt. Deshalb hat das Bundeskabinett in der vergangenen Woche entschieden, dass Deutschland, vorbehaltlich der Zustimmung dieses Hauses, weiterhin bis zu 2 800 Soldaten der Bundeswehr und entsprechende Ausrüstung bei der UN-mandatierten Operation Enduring Freedom einsetzen kann.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg34">Meine Damen und Herren, im Hinblick auf die Diskussionen in den Fraktionen will ich hinzufügen: Diese Obergrenze wird zurzeit nicht ausgeschöpft. Für die Bundesregierung erkläre ich, dass die Oppositionsfraktionen bei einer Aufstockung des Kontingents auf dem üblichen Weg einbezogen werden. Dies soll auch für die Nachfolgeregierung gelten. Mit anderen Worten: Ich gehe davon aus, dass auch die Nachfolgeregierung bei einer Aufstockung des Kontingents mit den Oppositionsfraktionen darüber redet. Ich denke, ich spreche auch in Ihrem Namen, Herr Kollege Jung.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg35">Auch künftig geht es darum, ein hohes Maß an Flexibilität bei militärischen Maßnahmen im Kampf gegen den internationalen Terrorismus zu erhalten. Nur auf diese Weise kann auf wechselnde Einsatzerfordernisse schnell und angemessen reagiert werden. Je unberechenbarer die Terroristen agieren, umso wichtiger ist es für die internationale Koalition, für glaubwürdige und effiziente Einsätze ein Spektrum militärischer Optionen zur Verfügung zu haben. Das Spektrum der deutschen Aktivitäten im Rahmen von Enduring Freedom bleibt anspruchsvoll: Die Bundeswehr wird sich am Horn von Afrika weiterhin an der Taskforce 150 mit einer Fregatte mit zwei Bordhubschraubern und, wenn nötig, weiteren Marinekräften beteiligen. Diese Region war in der Vergangenheit mehrfach Schauplatz von Attentaten terroristischer Gruppierungen. In den vergangenen zwölf Monaten wurden 749 Schiffe und Boote überprüft. Deutschland hat von Dezember 2004 bis März 2005 erneut den Kommandeur für die internationale Marinestreitkraft am Horn von Afrika gestellt. Eine erneute Übernahme dieser Funktion ist von August bis Dezember 2006 geplant.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg36">Die Bundeswehr wird sich weiterhin auch am bündnisgemeinsamen Beitrag der Marinekräfte der NATO für den Kampf gegen den Terrorismus im Mittelmeer beteiligen. In den vergangenen zwölf Monaten war die Bundeswehr mit einer Fregatte an der Operation Active Endeavour im östlichen Mittelmeer beteiligt, zeitweise zusätzlich mit einem U-Boot. Dabei wurden 653 Schiffe überprüft. Die Bundeswehr hält darüber hinaus einen Airbus A310 und eine Challenger CL601 für luftgestützte medizinische Notfallversorgung durchgehend in 24- bzw. 12-Stunden-Bereitschaft. Zur weiträumigen Seeüberwachung wurden in der Vergangenheit auch Seeluftstreitkräfte eingesetzt.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg37">Herr Präsident, meine Damen und Herren, Deutschland und die Bundeswehr handeln in Solidarität mit unseren Verbündeten und Partnern auf der Grundlage der Beschlüsse des Sicherheitsrates der Vereinten Nationen. Dies gilt für die Operation Enduring Freedom, über die wir heute zu entscheiden haben, genauso wie für die deutsche Beteiligung an ISAF, über die wir bereits entschieden haben. Stabilisierungsaufgaben und aktive Terroristenbekämpfung sollten aus politischen, rechtlichen und praktischen Erwägungen weiterhin getrennt bleiben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg38">Sie alle wissen, dass ich aller Wahrscheinlichkeit nach hier zum letzten Male als Verteidigungsminister rede.</seg>
+          <vocal type="exclamat">
+            <desc>Fritz Kuhn [BÜNDNIS 90/DIE GRÜNEN]: Abwarten!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg39">Wohlgemerkt: als Verteidigungsminister!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg40">Wenn meine Fraktion dies will, werde ich sicher noch öfter das Wort ergreifen, meine Damen und Herren.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg41">- Den Beifall habe ich erwartet.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg42">Deshalb erlauben Sie mir, eine kurze Bilanz meiner Amtszeit als Bundesminister der Verteidigung zu ziehen.</seg>
+          <vocal type="exclamat">
+            <desc>Widerspruch bei der LINKEN</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg43">Die Bundeswehr ist heute eine Armee im Einsatz;</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der LINKEN: Pfui!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg44">Landesverteidigung findet auch am Hindukusch statt. Selbstverständlich wird die Heimatverteidigung nicht vernachlässigt. Auch dafür werden die Soldatinnen und Soldaten ausgebildet; aber wichtiger sind natürlich die bestmögliche Vorbereitung auf und Ausrüstung für die Auslandseinsätze.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg45">Circa 6 500 Angehörige der Bundeswehr sind heute in Bosnien-Herzegowina, im Kosovo, in Afghanistan und am Horn von Afrika. Deutsche Soldatinnen und Soldaten sind als Militärbeobachter im Sudan, in Äthiopien, Eritrea und Georgien. Sie leisten dort einen wichtigen Dienst und legen Ehre für unser Land ein.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei Abgeordneten der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg46">Ihr Auftrag ist gefährlich und sie verdienen den Rückhalt des Parlaments und der Bevölkerung.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, der CDU/CSU, der FDP und dem BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg47">Die Bundeswehr feiert in diesem Jahr ihren 50. Ge-burtstag. Sie ist in dieser Zeit entschieden für den Frieden eingetreten und das wird auch so bleiben. Fast 374 000 Frauen und Männer arbeiten in der Bundeswehr und der Wehrverwaltung hier in Deutschland und an vielen Stellen auf der Welt. Ihnen gilt mein besonderer Dank für ihre Leistungen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, der CDU/CSU, der FDP und dem BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg48">Herr Präsident, meine Damen und Herren, ich habe versucht, meinen Teil dazu beizutragen, und danke dem Deutschen Bundestag für die gute Zusammenarbeit.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD, der CDU/CSU, der FDP und dem BÜNDNIS 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2005-11-08-16-002.u4" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg49">Ich erteile das Wort dem Kollegen Dr. Friedbert Pflüger für die CDU/CSU-Fraktion.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Dr. Friedbert Pflüger (CDU/CSU):</note>
+        <u who="#Q90455" xml:id="ParlaMint-DE_2005-11-08-16-002.u5" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg50">Herr Präsident! Meine sehr verehrten Damen und Herren! Der "Tagesspiegel" in Berlin hat vor wenigen Tagen die Geschichte eines jungen Palästinensers wiedergegeben: Arbeitslos verlässt der 18-Jährige sein Elternhaus in Jordanien; in Essen wird sein Asylantrag abgelehnt, aber aus humanitären Gründen darf er in Deutschland bleiben. Er spricht kaum Deutsch; immer mehr bestimmen Alkohol und Drogen seinen Alltag. In Krefeld lernt er dann eine muslimische Gemeinde kennen. Er sucht nun immer mehr Halt im Gebet. Über den Moscheeverein wird Geld für seine Pilgerfahrt nach Mekka gesammelt. Auf dem Weg dorthin schwärmt man ihm von Afghanistan vor. Er landet schließlich in einem Ausbildungslager von al-Qaida. Dort lernt er, sich in Europa zu tarnen und Bomben zu bauen. 2001 wird er nach Deutschland zurückgeschickt. Die deutschen Behörden merken nicht, dass er monatelang in Afghanistan in einem Terrorcamp war. Der junge Mann, inzwischen völlig fanatisiert, nimmt von hier aus Kontakt zu al-Sarkawi auf. Mit seiner Gruppe spioniert er Anschlagsziele bei uns, in Berlin und Düsseldorf, aus. Zum Glück lauschen die Sicherheitsbehörden der Bundesrepublik mit. Die Gruppe wird festgenommen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg51">Was lehrt uns dieser Einblick in eine ganz konkrete terroristische Karriere?</seg>
+          <vocal type="exclamat">
+            <desc>Claudia Roth [Augsburg] [BÜNDNIS 90/ DIE GRÜNEN]: Das ist eine gute Frage!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg52">Erste Lehre: Die Antiterroroperation Enduring Freedom war und ist richtig.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg53">In den Terrorcamps der al-Qaida unter der Talibanherrschaft in Afghanistan wurden mindestens 20 000 Terroristen ausgebildet und in alle Welt geschickt. Es war richtig, dass die internationale Staatengemeinschaft Terroristen und Taliban angegriffen, die Terrorlager ausgeschaltet und einem demokratischen Verfassungsprozess in Afghanistan, dem "Petersberg-Prozess", den Weg bereitet hat.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP sowie bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg54">CDU und CSU haben den entsprechenden Mandaten Enduring Freedom und ISAF sowie den sie begleitenden politischen Prozess von Beginn an unterstützt.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg55">Die CDU/CSU-Bundestagsfraktion stimmt auch heute der Verlängerung des Einsatzes der Bundeswehr im Rahmen der Antiterroroperation Enduring Freedom zu. Die Fortsetzung dieses Einsatzes ist notwendig, weil die weltweite Bedrohung durch den internationalen Terrorismus weiterhin unverändert besteht; sie ist sogar noch gewachsen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg56">Wir möchten - ich glaube, das kann ich im Namen aller Kollegen im Hause sagen - den Soldaten, die im Rahmen von Enduring Freedom ihr Leben einsetzen, herzlich für ihren Dienst an Freiheit und Sicherheit von uns Deutschen danken.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der SPD und der FDP sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg57">Die zweite Lehre: Ziele in Düsseldorf und Berlin wurden ausspioniert. Es ist wahr, der Terror ist längst zu uns in die westliche Welt gekommen: New York und Washington am 11. September 2001, Madrid im März 2004 und London im Juli dieses Jahres. Gestern wurde in Australien durch eine Großrazzia der Plan eines groß angelegten Terrorangriffes in allerletzter Minute gestoppt. In der letzten Woche berichtete "Le Figaro" von dem Versuch islamistischer Terroristen, in Frankreich mit Boden-Luft-Raketen aus Tschetschenien französische Passagierflugzeuge abzuschießen. In Kopenhagen wurden vor wenigen Tagen sieben Muslime im Alter von 16 bis 20 Jahren festgenommen, die nach Erkenntnissen der dänischen Polizei einem Terrornetzwerk angehören sollen. Sie hatten Selbstmordanschläge in Europa geplant.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg58">Es kann überall passieren - auch bei uns. Al-Qaida geht es um die Errichtung der weltweiten Herrschaft des Islam, so wie ihn seine Führer verstehen. Der Terror richtet sich nicht in erster Linie gegen das, was wir tun, sondern gegen das, was wir sind, nämlich Ungläubige. Der im Frühsommer 2004 bei einer Razzia getötete Al-Quaida-Führer Abd al-Asis al-Muqrin hat es so gesagt:</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg59">Wir müssen Juden und Christen töten. Dabei dürfen wir uns heutzutage nicht von Grenzen einschränken lassen ... Wir müssen die Häuser der Gotteslästerer in eine Hölle verwandeln ... Deshalb sollen alle aktiven Einheiten in der ganzen Welt die geographischen Grenzen überwinden. Es muss ihnen gelingen, die Länder der Gotteslästerer in Kriegszonen zu verwandeln.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg60">Die dritte Lehre: Wieso durfte der Jordanier in Deutschland bleiben? Wer kümmerte sich um ihn? Wieso merkten die Behörden nicht, dass er über Monate in Afghanistan und nicht bei uns lebte? Ist es nicht wahr, was der aus Syrien stammende kurdische Intellektuelle Tariq Hamo sagt?</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg61">Europa war lange ziemlich kompromissbereit gegenüber islamistischen Extremisten. Die Regierungen gaben ihnen Bewegungsfreiheit und Handlungsspielraum. Und das ist der Grund, warum sie ihre fundamentalistischen Ideen innerhalb der islamischen Gesellschaften Europas überhaupt so gut verbreiten konnten. Das trug auch dazu bei, dass sich die Muslime in Europa nicht integrieren konnten.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg62">Die vierte Lehre: Wenn der Terror überall stattfinden kann, dann müssen wir auch überprüfen, ob wir alles zum Schutz unserer Bevölkerung getan haben. Meine Partei hat im Juli 2005, zwei Tage vor dem Londoner U-Bahn-Anschlag, in Hannover einen Kongress zu der Frage durchgeführt, wie weit wir vorbereitet sind, um einen großen Terroranschlag zu bewältigen. Die dabei angehörten Praktiker von THW, Deutschem Roten Kreuz, Feuerwehr und Polizei haben uns deutlich zu verstehen gegeben, dass es noch einen erheblichen Verbesserungsbedarf zur Bewältigung dieser neuen sicherheitspolitischen Herausforderungen gibt. Konzepte für Großschadenslagen seien unzureichend vorhanden. Blutkonserven stünden nicht ausreichend zur Verfügung. Für Brandschwerstverletzte gebe es in Deutschland nur 25 bis 30 Betten insgesamt. Feuerwehr und DRK beklagten zudem, dass es kein System für die Dekontamination von Verletzten und Gerät gebe. Sie hätten weder das Geld noch das Personal dazu.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg63">Es darf nicht sein, dass wir nach einer möglichen Katastrophe, die niemand will und die um Himmels willen hoffentlich niemals kommen wird, zugeben müssen: Wir haben zwar alles gewusst, es war überall zu lesen, aber wir haben nicht alles Menschenmögliche getan. - Dazu gehört auch die vorbehaltlose Prüfung und Beantwortung der Frage, ob wir nicht bei der Bewältigung asymmetrischer Bedrohungen, ergänzend zu Polizei und Grenzschutz, die Bundeswehr mit ihren spezifischen Fähigkeiten im eigenen Land einsetzen können.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg64">Die fünfte Lehre: Wenn wir den islamistischen Terrorismus erfolgreich bekämpfen wollen, dann ist es neben allen polizeilichen und militärischen Maßnahmen vor allen Dingen wichtig, sich mit ihm politisch auseinander zu setzen. Bei allen Sorgen und Ängsten über die Bedrohung durch islamistische Terroristen darf es nicht dazu kommen, dass wir Islam und extremistischen Islamismus in einen Topf werfen. Im Gegenteil: Beides muss sauber unterschieden werden. Es wäre der größte Fehler, wenn es zu einem Kampf der Zivilisationen, zu einem Kampf zwischen Christen und Islamisten, käme. Wir müssen vielmehr erreichen, dass wir die Terroristen gemeinsam mit der großen Mehrheit der friedliebenden Muslime isolieren und bekämpfen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg65">Ein Beispiel dafür ist der in Algerien geborene Mohammed Arkoun. Er lehrt Ideengeschichte an der Pariser Sorbonne. Er wurde von einer aus fünf arabischen Intellektuellen bestehenden Jury mit dem Ibn-Ruschd-Preis für freies Denken ausgezeichnet, weil er in seinen Schriften die Ähnlichkeiten zwischen Islam und Christentum herausarbeitet, anstatt die Unterschiede aufzubauschen. Es ist unendlich wichtig, dass sich solche Stimmen durchsetzen. Nicht wir, aber gemäßigte, aufgeklärte Muslime können vielleicht junge Muslime erreichen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg66">Es gibt eine positive Entwicklung. Immer mehr europäische Muslime von Rang erheben ihre Stimme gegen den Terror. Auch in Deutschland scheinen die muslimischen Dachorganisationen aufgewacht zu sein. Sie distanzieren sich lauter und vernehmlicher vom Terror als früher. Wir begrüßen das außerordentlich. Denn es ist ungeheuer wichtig, dass den jungen Muslimen aus ihrer eigenen Gemeinde widersprochen wird, wenn sie zu Extremismus und Gewalt neigen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg67">Die sechste Lehre: Wir werden den Terror nur besiegen, wenn es gelingt, in den islamischen Ländern Diktatur, Willkür, Arbeitslosigkeit, Vetternwirtschaft sowie Perspektiv- und Würdelosigkeit abzubauen. Denn diese sind der ideale Nährboden für radikale Ideen, politisch motivierte Gewalt sowie islamistischen Extremismus. Ziel muss es sein, dass die Menschen eine selbstbestimmte Perspektive bekommen und ihnen der Anschluss an die Globalisierung gelingt.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Dagmar Enkelmann [DIE LINKE]: Was tun Sie dafür?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg68">Auch dafür gibt es immer mehr positive Signale.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg69">Ein Beispiel ist Ägypten. Dass erstmals ein ägyptischer Präsident nicht per Referendum, sondern per Wahl mit mehr als einem Gegenkandidaten bestimmt wurde, war ein richtiger Schritt in Richtung Demokratie. Ägyptische Oppositionelle sprechen sogar von einem Wendepunkt in der Geschichte Ägyptens und der Chance für den Aufbau eines neuen Staates, bei dem sie sich aktiv einbringen können.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg70">Zusammen mit den Kollegen Gloser und Stinner konnte ich Bundeskanzler Schröder auf seiner Reise in den Golf begleiten. Wir haben eigentlich überall in den Golfstaaten Bewegungen für mehr Frauenrechte und mehr Demokratie erlebt. Selbst in Saudi-Arabien hat es immerhin kommunale Wahlen gegeben. Das sind gute und wichtige Entwicklungen. Auch wenn diese Staaten erst am Anfang stehen, sollten wir sie bestärken, wenn sie ihre Petrodollars jetzt das erste Mal auch für Reformen und für eine Öffnung ausgeben.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg71">Oder nehmen wir den Irak. Als Zeichen des friedlichen politischen Widerstandes gegen die täglichen feigen Terroranschläge haben die Iraker für eine Verfassungsordnung gestimmt, die für das Land einmalig und in der arabischen Welt ohne Beispiel ist. Das gibt Anlass zu Hoffnung und macht jenen in der arabischen Welt Mut, die sich für mehr Demokratie und Freiheit einsetzen. Wir müssen den Menschen im Irak das Signal geben, dass wir trotz der schwierigen Lage an das Gelingen des Weges glauben, den die große Mehrheit des Irak jetzt wagt.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg72">Auch wenn in den Staaten des größeren Mittleren Ostens bis zur Verwirklichung von Freiheit und guter Regierungsführung noch erhebliche Hindernisse aus dem Weg zu räumen sind, so widerlegen die bisherigen Entwicklungen doch das Vorurteil, dass Islam und Demokratie nicht zusammenpassen würden. Was bisher an ersten, gewiss noch unzureichenden Reformen und Liberalisierungsschritten gegangen wurde, müssen wir, so gut es geht, fördern und begleiten.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg73">Um jedem Missverständnis vorzubeugen: Wir wollen keinen Kulturimperialismus und keine Belehrungen. Wir haben keinen Grund zu Überheblichkeit. Die Staaten der Region müssen ihren eigenen Weg der Modernisierung finden. Aber wir wollen unsere Unterstützung leisten, wenn in der arabischen Welt vorhandene demokratische Traditionen weiterentwickelt werden.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg74">Siebente und letzte Lehre: Ein wichtiger Faktor für das Bemühen, diese Entwicklungen zu fördern, ist, wie glaubwürdig wir alle uns für die Lösung des Nahostkonfliktes auf der Grundlage der Roadmap einsetzen. Der Stachel des Palästinaproblems sitzt überall in der arabischen Welt sehr tief. Es ist gut, dass sich die EU noch stärker engagiert und mit der Polizeimission einen eigenen Sicherheitsbeitrag leisten wird. Wir werden zwischen unserer Welt und der islamischen Welt keinen Frieden finden, wenn dieser Konflikt nicht fair, gerecht und dauerhaft gelöst wird und wenn in dieser Region nicht die Gewalt auf beiden Seiten ein Ende hat. Dazu müssen alle Staaten in der Region einen Beitrag leisten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg75">Das gilt auch und gerade für den Iran. Deshalb möchte ich an dieser Stelle für meine Fraktion in aller Deutlichkeit sagen: Die barbarische Sprache des iranischen Präsidenten gegen Israel ist völlig unakzeptabel.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der SPD und der FDP sowie bei Abgeordneten der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg76">Wer Israel ausradieren will, der verstärkt doch den Verdacht, dass sein Atomprogramm einem anderen als dem vorgeblich friedlichen Zweck dient.</seg>
+          <kinesic type="applause">
+            <desc>Beifall des Abg. Dirk Niebel [FDP]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg77">Wir haben uns parteiübergreifend immer wieder für den kritischen Dialog mit Teheran eingesetzt. Wir haben auch und gerade in Amerika dafür geworben, einer friedlichen, diplomatischen Lösung eine Chance zu geben. Aber klar sein muss doch auch: Ein Land, das Israel vernichten will, kann nicht Partner der Bundesrepublik Deutschland sein.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg78">Bernard Lewis kommt in seinem Buch "What Went Wrong?" - "Was lief falsch?" -, in dem er den Niedergang des Islam als der einst größten, fortschrittlichsten und offensten Kultur analysiert, zu dem Schluss, dass die Staaten des Nahen Ostens jetzt über ihren künftigen Weg entscheiden müssen. Wenn die Völker des Nahen Ostens weiter so verfahren würden wie bisher und die Schuld für alle Probleme, für alle Rückständigkeiten immer nur bei anderen, nämlich beim Westen, abladen, die Schuld aber nie bei sich selbst, sondern immer in Amerika, in Israel, im Westen schlechthin suchen würden, dann wären sie nicht in der Lage, den Anschluss an die moderne Welt zu finden. Dann, so schreibt er, wird der Selbstmordattentäter womöglich zur Metapher für die gesamte Region und es wird keinen Ausweg aus der Spirale von Gewalt und Hass geben.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg79">Wir alle wollen das Gegenteil. Wir alle stehen in der großen Verpflichtung, auf den Islam zuzugehen, die großen humanen Traditionen des Islam zu würdigen, anzuerkennen und überall zu fördern. Wir stehen aber auch in der Verantwortung, dort, wo es Terrorismus und Extremismus gibt, diesen entschieden entgegenzutreten.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg80">Deshalb stimmen wir heute Enduring Freedom zu.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2005-11-08-16-002.u6" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg81">Nächster Redner ist der Kollege Dr. Werner Hoyer für die FDP-Fraktion.</seg>
+        </u>
+        <note type="speaker">Dr. Werner Hoyer (FDP):</note>
+        <u who="#Q85825" xml:id="ParlaMint-DE_2005-11-08-16-002.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg82">Herr Präsident! Liebe Kolleginnen und Kollegen! Es ist ja schon bemerkenswert: Die letzte Entscheidung des alten Deutschen Bundestages betraf einen Militäreinsatz, ISAF. Die erste Entscheidung des neuen Bundestages betrifft ebenfalls einen Militäreinsatz, Operation Enduring Freedom. Wir entscheiden mittlerweile verdammt häufig über Militäreinsätze. Trotzdem darf das niemals zur Routine werden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU sowie bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN sowie des Abg. Dr. Gregor Gysi [DIE LINKE]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg83">In diesem Fall geht es sogar um einen wirklich besonderen Einsatz: Es handelt sich unter gar keinen Umständen um einen Einsatz, den man als Aufbauhilfe oder Ähnliches verbrämen kann, sondern um einen Kampfeinsatz. Es geht konkret darum, dass unsere Soldaten und Soldatinnen kämpfen müssen. Wir tragen also eine riesige Verantwortung. Deswegen dürfen wir auch niemals mit einer Art Routine über diesen Einsatz entscheiden.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg84">Wir müssen uns immer wieder vergegenwärtigen, dass es um einen Einsatz geht, der als sehr frühe Antwort auf den 11. September 2001 zu verstehen ist. Der Geist, der die Mitglieder dieses Hauses damals geeint hat - die Entschlossenheit, einen deutschen Beitrag zur Bekämpfung des Terrorismus zu leisten und diesem Anschlag auf die Vereinigten Staaten von Amerika, der ein Anschlag auch auf uns war, entgegenzutreten -, sollte uns auch leiten, wenn wir über die weitere Entwicklung der Operation Enduring Freedom entscheiden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg85">Das Parlament ist hierbei in einer ganz besonderen Pflicht; denn es nimmt seine Rechte wahr. Das hat das Parlament in den letzten Jahren, wie ich finde, in sehr verantwortlicher Weise getan. Durch den Parlamentsvorbehalt hat nicht nur das Parlament eine zentrale Funktion übernommen; vielmehr hat der Parlamentsvorbehalt auch den Soldatinnen und Soldaten der Bundeswehr sehr gut getan. Die Einsätze sind dadurch, dass das Parlament sehr genau hingesehen hat, nicht schlechter geworden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg86">Deswegen sind wir der Überzeugung, dass der Parlamentsvorbehalt auch in Zukunft eine wichtige Rolle spielen muss. Wir müssen übrigens, nachdem wir nun erste Erfahrungen mit dem Entsendegesetz gesammelt haben, auch einmal darüber sprechen, wie sie zu bewerten sind und ob wir Konsequenzen aus ihnen ziehen müssen. Denn mit den Rechten, die das Parlament im Sinne unserer Soldatinnen und Soldaten wahrnimmt, gehen auch Pflichten einher, die teilweise gar nicht so leicht zu tragen sind: Zum einen müssen wir Auffassungen vertreten, die nicht unbedingt populär sind, und zum anderen müssen wir uns - auch vom Verfahren her - auf Bedingungen einlassen, die unsere Arbeit nicht leichter machen. Das gilt bei der Operation Enduring Freedom im besonderen Maße; denn hier bedeutet das Brechen von Geheimhaltungsbestimmungen eine unmittelbare Gefährdung unserer Soldaten. Dazu darf es nicht kommen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg87">Daher bin ich sehr irritiert, dass über eines der wichtigen, in bestimmten Abständen stattfindenden Gespräche zwischen den Obleuten bzw. besonderen Vertrauenspersonen der Fraktionen und dem Bundesminister der Verteidigung, die als geheim gelten und im Lagezentrum des Verteidigungsministeriums geführt werden, am nächsten Tag etwas in der Zeitung steht. Das halte ich für unverantwortlich, Herr Kollege Schäfer.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU sowie bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg88">Die FDP-Fraktion wird den Parlamentsvorbehalt auch in Zukunft hochhalten. Wir sind der Meinung, dass wir auch über den Entsendeausschuss noch einmal neu nachdenken müssen; denn in unserem gestrigen Gespräch haben wir gemerkt, dass diese Entscheidung gar nicht so leicht zu treffen ist, übrigens auch deshalb, weil wir, was die Geheimhaltungsbestimmungen angeht, im internationalen Vergleich in eine schwierige Situation kommen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg89">Ich bin letzte Woche in Washington gewesen und habe mit einigen amerikanischen Kollegen gesprochen. Dort habe ich von ihnen über bestimmte Themen sehr viel erfahren. Allerdings hätte ich unseren Geheimhaltungsbestimmungen zufolge noch nicht einmal mit dem Auge zucken dürfen, um zu demonstrieren, ob ich etwas schon gewusst habe oder nicht. Wir brauchen also eine internationale Harmonisierung der Bestimmungen über den Umgang mit der Geheimhaltung. Aber Geheimhaltung ist erforderlich und zwingend notwendig: im Interesse der Sicherheit unserer Soldaten und - nebenbei bemerkt - ihrer Familien.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg90">Meine Damen und Herren, wir werden den Parlamentsvorbehalt auch aus folgendem Grund sehr stark betonen: Ich will einer großen Koalition zwar nicht unterstellen, dass sie automatisch zu Machtmissbrauch neigt - ganz bestimmt nicht -, aber es besteht schon die Gefahr, dass möglicherweise eine gewisse Hemdsärmeligkeit eintritt. Genau das wollen wir im Umgang mit der Bundeswehr auf jeden Fall vermieden wissen. Deshalb werden wir am Parlamentsvorbehalt festhalten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg91">Die schwierige und verantwortungsvolle Aufgabe der Operation Enduring Freedom ist nicht erledigt. Übrigens ist sie auch erforderlich - das ist ein Teilaspekt -, um die Sicherheit der Soldatinnen und Soldaten zu gewährleisten, die im Rahmen von ISAF zum Einsatz kommen. Also: Diese Aufgabe, gerade im pakistanisch-afghanischen Grenzgebiet, ist nicht erledigt. Die Aufgabe vor Ostafrika ist nicht erledigt. Wir werden den Angehörigen der Bundeswehr hier noch einiges zumuten müssen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg92">Deswegen ist es umso wichtiger, dass das Mandat präzise definiert ist. Der Einsatzraum ist sehr großzügig dimensioniert. Man weiß ja nicht, was kommt: Letzte Woche gab es ja eine Überraschung mit einem Kreuzfahrtschiff. Aber auch von der quantitativen Dimension ist das schon sehr großzügig angelegt: Wir haben vor vier Jahren mit 3 900 Soldaten angefangen, sind jetzt bei 3 200 und es hat einige Überredungskraft gekostet, an eine weitere Reduzierung zumindest heranzugehen. Die Bundesregierung hat um 300 reduziert. Ich erkenne das an, ich halte es aber bei weitem nicht für ausreichend. Wenn man das neue Seeraumüberwachungsflugzeug schon einsetzen könnte, wenn man noch eine Fregatte oder einen Einsatzgruppenversorger nach Dschibuti schicken würde, käme man auf eine Größenordnung, so sehr man es auch hochrechnen mag, von vielleicht 1 500, aber dann ist Schluss. Hier ist nun von 2 800 die Rede. Dabei haben wir große Bedenken. Ich bedauere, dass sich die Bundesregierung nicht dazu bereit finden konnte, hier eine realistische Größe zu nennen. Denn sosehr Flexibilität erforderlich ist - das sehe ich ein -, der Verdacht eines Vorratsbeschlusses sollte schnellstens ausgeräumt werden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg93">Wenn eine völlig neue Situation entsteht, die es erforderlich macht, erheblich aufzustocken - quantitativ und gegebenenfalls auch qualitativ -, dann sollte die Bundesregierung an das Parlament herantreten und sich diesen Einsatz neu legitimieren lassen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg94">Ich freue mich, Herr Bundesminister, dass Sie heute eine Erklärung abgegeben haben, die diesen Bedenken Rechnung trägt. Ich sehe natürlich: Zwischen der Befassung der Fraktionen und dem konstitutiven Beschluss des Bundestages ist noch ein Unterschied. Vielleicht können wir im nächsten Jahr diesen Schritt auch noch gehen. Aber Sie sind, von daher gesehen, auf dem richtigen Weg.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg95">Meine Damen und Herren, wir als Freie Demokraten tragen mit großer Mehrheit den Antrag zur Verlängerung des Mandats der Operation Enduring Freedom mit - nicht ohne Bauchgrimmen aufgrund der Elemente, die ich gerade zum Schluss vorgetragen habe, aber doch in der Verantwortung für die deutsche Beteiligung an dem Kampf gegen den internationalen Terrorismus, aus Verantwortung gegenüber den Soldatinnen und Soldaten.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg96">Herr Minister Struck, ich vermute, das war Ihre letzte Rede als Bundesverteidigungsminister. Für die Fraktion der Freien Demokraten bedanke ich mich für eine gute Zusammenarbeit. Aber mein noch sehr viel wichtigerer Dank gilt an dieser Stelle den Angehörigen der Bundeswehr, den Soldatinnen und Soldaten im Einsatz und ich wünsche ihnen, dass sie alle heil nach Hause kommen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg97">Herzlichen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP, der CDU/CSU, der SPD und dem BÜNDNIS 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2005-11-08-16-002.u8" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg98">Für die Fraktion Die Linke hat nun das Wort der Kollege Oskar Lafontaine.</seg>
+        </u>
+        <note type="speaker">Oskar Lafontaine (DIE LINKE):</note>
+        <u who="#Q110719" xml:id="ParlaMint-DE_2005-11-08-16-002.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg99">Herr Präsident! Meine sehr geehrten Damen und Herren! Die Fraktion Die Linke lehnt die Fortsetzung des Einsatzes bewaffneter deutscher Streitkräfte bei der Unterstützung der gemeinsamen Reaktion auf terroristische Angriffe auf die USA ab.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg100">Vielmehr fordert sie heute den Bundestag auf, das Mandat für diese Militäraktionen zu beenden und die Bundesregierung zu beauftragen, die Einsätze des Kommandos Spezialkräfte in Afghanistan unverzüglich einzustellen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg101">Im Gegensatz zur Bundesregierung und zur Mehrheit des Deutschen Bundestages sind wir nicht der Auffassung, dass die in Rede stehenden Militäreinsätze ein angemessener Beitrag zur Bekämpfung des internationalen Terrorismus sind. Sie bewirken nach unserer Auffassung eher das Gegenteil: Die Spirale militärischer Gewalt führt, wie wir insbesondere im Irak täglich beobachten, zu immer neuen terroristischen Anschlägen. Sie vergrößert die Gefahr, dass terroristische Angriffe demnächst auch auf dem Territorium der Bundesrepublik Deutschland stattfinden. Mittlerweile kursieren im Internet Warnungen afghanischer Islamisten, die darauf hinweisen, dass die Bundeswehr in Afghanistan Moslems getötet habe. Inzwischen gibt es einen Sachstandsbericht des Gemeinsamen Terrorismusabwehrzentrums, in dem darauf hingewiesen wird, dass die deutsche Sicherheitslage entscheidend aufgrund der Vorgänge in Afghanistan beurteilt wird.Man muss auch wissen, dass der Tod eines Taliban- oder Clanführers seine Angehörigen und seine Anhänger verpflichtet, Rache zu üben. Diese Verpflichtung ist jedoch nicht so gefasst, dass diese Rache nur auf dem Territorium Afghanistans geübt werden kann.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg102">Meine Damen und Herren, wer den Terrorismus bekämpfen will, muss wissen, was er unter Terrorismus versteht. Wenn ich aufmerksam gelesen und zugehört habe, dann ist es so: Die amtierende Bundesregierung und die Fraktionen, die den militärischen Einsätzen in den vergangenen Legislaturperioden zugestimmt haben, haben der deutschen Öffentlichkeit bis zum heutigen Tage nicht erklärt, was sie unter Terrorismus eigentlich verstehen.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Guido Westerwelle [FDP]: Das steht im Gesetz!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg103">Das kann ja noch nachgeholt werden. Auf diese Erklärung sind wir wirklich gespannt.</seg>
+          <vocal type="exclamat">
+            <desc>Markus Löning [FDP]: Das ist unglaublich!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg104">Für die Linken ist Terrorismus das Töten unschuldiger Zivilisten zum Erreichen politischer Ziele. Wer den Terrorismus mit militärischen Mitteln bekämpfen will, muss daher sicherstellen, dass die Schuldigen - in diesem Fall die Kombattanten - die Ziele von Vergeltungsakten sind. Wird die durch das internationale Recht vorgegebene Pflicht, Unschuldige zu schonen, grob verletzt, dann werden die militärischen Einsätze zur Bekämpfung des Terrorismus selbst zu Terrorakten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg105">Spätestens seit der flächendeckenden Bombardierung afghanischer Städte und Dörfer durch die Vereinigten Staaten, bei der viele Tausende unschuldiger Menschen ums Leben kamen, ist die Beteiligung der Bundesrepublik Deutschland an der gemeinsamen Reaktion auf terroristische Angriffe ebenso völkerrechtswidrig wie die Beteiligung Deutschlands am Jugoslawienkrieg und am Irakkrieg.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg106">Der Verweis auf den Irakkrieg mag viele von Ihnen überraschen, lesen Sie doch immer wieder, dass sich Deutschland nicht am Irakkrieg beteiligt habe. Zwar ist und bleibt es verdienstvoll, dass sich die Regierung Schröder geweigert hat, im UNO-Sicherheitsrat einem Mandat für einen Angriff der USA auf den Irak zuzustimmen. Dass wir uns im Irakkrieg aber nicht neutral verhalten haben, hat das Bundesverwaltungsgericht vor einiger Zeit in wünschenswerter Klarheit festgestellt. Das verdient auch hier im Deutschen Bundestag einmal gesagt zu werden. Das Parlament kann über dieses wichtige Urteil doch nicht einfach hinweggehen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg107">Das Gericht hat der Klage des Bundeswehrmajors Florian Pfaff stattgegeben, der sich während des Irakkrieges geweigert hatte, an einem Softwareprojekt der Bundeswehr weiterzuarbeiten, mit dem nach seiner Auffassung mittelbar ein völkerrechtswidriger Krieg unterstützt wurde. Daraufhin haben seine Vorgesetzten veranlasst, dass er auf seinen Geisteszustand untersucht wurde, und er wurde degradiert. Das Bundesverwaltungsgericht hat diesen Soldaten in vollem Umfang rehabilitiert.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg108">Im Namen der Fraktion Die Linke spreche ich diesem Soldaten heute im Deutschen Bundestag den Respekt für seine tapfere Haltung aus.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg109">Der Kernsatz der Begründung des Urteils lautet:</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg110">Eine Beihilfe zu einem völkerrechtlichen Delikt ist selbst ein völkerrechtliches Delikt.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg111">Dieser Satz trifft in vollem Umfang auf die militärische Mission zu, die der Bundestag heute verlängern will. Vor allem trifft er auf die Einsätze der KSK in Afghanistan zu. Die bisherige Geheimhaltungspraxis über Art und Umfang ihres Einsatzes ist nicht mit dem Sicherheitsbedürfnis dieser Einheit zu begründen. Sie verschleiert vielmehr den völkerrechts- und verfassungswidrigen Charakter der Einsätze dieser Sondereinheit.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN - Christian Schmidt [Fürth] [CDU/CSU]: Mein Gott, mein Gott! Unerträglicher Quatsch!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg112">Wenn der Krieg gegen den Terror so geführt wird wie in den letzten Jahren, dann werden wir genau die Werte untergraben, die die Terroristen ins Visier nehmen: die Menschenrechte und die Rechtsstaatlichkeit. - So urteilte der Generalsekretär der Vereinten Nationen, Kofi Annan.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg113">Statt zur Bekämpfung des Terrorismus auf völkerrechtswidrige militärische Maßnahmen zu setzen, muss die Bundesrepublik Deutschland in den betroffenen Regionen zur Förderung der sozialen und politischen Rechte beitragen und dabei helfen, Armut, Bildungsnotstand und Arbeitslosigkeit abzubauen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg114">Der Terrorismus kann eben nicht durch diese Art von Krieg bekämpft, geschweige denn ausgerottet werden. Wenn im Bombenhagel viele Unschuldige sterben, wachsen immer neue Terroristengenerationen heran.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg115">Die vor einigen Jahren eingeleitete Enttabuisierung des Militärischen war daher einer der großen Fehler der deutschen Außenpolitik nach dem Zweiten Weltkrieg.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg116">Insbesondere die Beteiligung am Afghanistan- und die mittelbare Beteiligung am Irakkrieg erhöhen die Gefahr terroristischer Anschläge in Deutschland. Sie ist mit der Pflicht, Schaden vom deutschen Volke abzuwenden, nicht zu vereinbaren.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg117">Der Krieg ist darin schlecht, dass er mehr böse Menschen macht, als er deren wegnimmt.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg118">So schrieb der Königsberger Philosoph Immanuel Kant. Es wäre ein Fortschritt, wenn Deutschland diese Maxime des Königsberger Philosophen in Zukunft wieder beherzigen würde.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg119">Selbstverständlich ist den Soldaten, die ihren Dienst tun, Respekt entgegenzubringen. Aber wir sind - das ist hochaktuell - dann auch verpflichtet, dafür Sorge zu tragen, dass sie für ihre Einsätze entsprechend ausgerüstet sind. Es mehren sich in der Öffentlichkeit kritische Stimmen, die darauf hinweisen, dass die Ausrüstung der Soldaten bei weitem nicht reicht, um sie in solch gefährliche Einsätze zu schicken. Auch dies muss vor dem Deutschen Bundestag einmal angemerkt werden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg120">Die Linke ist nicht der Auffassung, dass Deutschland - wie es so populär formuliert worden ist - am Hindukusch verteidigt wird.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg121">Wir glauben, dass Deutschland immer noch in Deutschland verteidigt werden muss und dass wir den besten Beitrag zur Bekämpfung des internationalen Terrorismus leisten, wenn wir das Völkerrecht beachten und auf zivile, friedliche Mittel sowie auf die Entwicklungshilfe setzen, um die Ursachen des Terrors zu bekämpfen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der LINKEN - Lothar Binding [Heidelberg] [SPD]: Entwicklungshilfe gibt es aber nicht nur in Deutschland!</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2005-11-08-16-002.u10" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg122">Für die Fraktion Bündnis 90/Die Grünen erhält nun das Wort der Kollege Winfried Nachtwei.</seg>
+        </u>
+        <note type="speaker">Winfried Nachtwei (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q118720" xml:id="ParlaMint-DE_2005-11-08-16-002.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg123">Herr Präsident! Geehrte Kolleginnen und Kollegen! Zunächst eine Vorbemerkung: Ich bedauere, dass Kollege Bisky nicht zum Vizepräsidenten gewählt wurde.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten des BÜNDNISSES 90/ DIE GRÜNEN und der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg124">Nun direkt zum nächsten neuen Kollegen. Kollege Lafontaine, Sie haben hier ein Zerrbild der deutschen Beiträge zur internationalen Terrorismusbewältigung entworfen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD sowie bei Abgeordneten der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg125">Die Konsequenzen Ihrer Forderung, bezogen auf Afghanistan, sind ganz eindeutig und klar: volle Bewegungs- und Anschlagsfreiheit für die Taliban- und andere Terrorgruppen und Zerstörung des UN-mandatierten Stabilisierungsprozesses, der schon schwierig genug ist.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD sowie bei Abgeordneten der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg126">In der Tat ist die Entscheidung über den Antrag der Bundesregierung keine Routine und darf keine Routine sein, auch wenn es für viele von uns die vierte Entscheidung solcher Art ist; denn es geht hier um Menschenleben, um Gewalt- und Kriegseindämmung. Deshalb haben wir uns immer wieder zu fragen: Ist dies notwendig, dringlich und ergiebig? Ist dies legal und verantwortbar? Was sind die Alternativen?</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg127">Zur Erinnerung: Deutsches Territorium ist bisher von terroristischen Anschlägen verschont geblieben. Aber dies ist kein Grund zur Beruhigung und kein Grund zu der illusionären Annahme, diesen Zustand dadurch aufrechterhalten zu können, indem sich Deutschland aus allem heraushält.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg128">Der UN-Generalsekretär hat in seinem großen Bericht vom 21. März dieses Jahres zum Thema Terrorismus festgestellt - er hat den Terrorismus dabei treffend definiert und die Bundesregierung hat dies voll unterstützt -:</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg129">Der transnationale Terrorismus hat sich in den letzten fünf Jahren zu einer immer akuteren Gefahr entwickelt. Grenzüberschreitende Netzwerke terroristischer Gruppen verfügen mittlerweile über eine globale Reichweite, machen gemeinsame Sache und stellen eine globale Bedrohung dar. Diese Gruppen machen aus ihrem Wunsch keinen Hehl, nukleare, biologische und chemische Waffen zu erwerben. Schon ein einziger derartiger Anschlag und die dadurch möglicherweise ausgelöste Kettenreaktion könnten unsere Welt für immer verändern.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg130">Die hochrangige Gruppe zur UN-Reform hat in ihrem Bericht vom vergangenen Dezember festgestellt:</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg131">Die Angriffe in den vergangenen fünf Jahren gegen mehr als zehn Mitgliedstaaten auf vier Kontinenten haben gezeigt, dass die al-Qaida und die mit ihr verbundenen Gruppierungen eine weltweite Bedrohung für alle Mitglieder der Vereinten Nationen und für die Vereinten Nationen selbst darstellen. In öffentlichen Erklärungen hat die al-Qaida die Vereinten Nationen speziell als ein wesentliches Hindernis für ihre Ziele erwähnt und sie als einen ihrer Feinde definiert.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg132">Wir sollten nicht vergessen, dass es nicht nur die Resolution des Sicherheitsrats vom 14. September gibt. Vielmehr hat der Sicherheitsrat seit dem 11. Sep-tember 2001 zu dieser Problematik insgesamt 22 Reso-lutionen einstimmig beschlossen, in denen der internationale Terrorismus gebrandmarkt wurde und die Staaten dazu aufgefordert wurden, im Rahmen der Charta der Vereinten Nationen und des humanitären Völkerrechts - das ist eine sehr wichtige Auflage, die zwingend notwendig ist - jeden ihnen möglichen Beitrag zu leisten. Die Berichte stellen auch klar, dass eine globale Gesamtstrategie gegen den Terrorismus notwendig ist. Es liegt eigentlich auf der Hand: Direkte Täterverfolgung, Gefahrenabwehr, politische Isolierung und mittel- und langfristig wirkende Ursachenbekämpfung gehören untrennbar zusammen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg133">Genau darin, dies global und unter Bündnispartnern durchzusetzen, liegt die Schwierigkeit.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg134">Dabei müssen wir nüchtern feststellen, dass der Hauptfehler in diesem Bereich in vielen Ländern die Reduzierung der Terrorismusbekämpfung auf das militärische, polizeiliche und nachrichtendienstliche Element ist. Dies bewirkt den bekannten und berüchtigten Hydra-Effekt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall der Abg. Uta Zapf [SPD]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg135">Es ist allerdings völlig unzureichend, sich nur auf die Ursachenbekämpfung zu beschränken. Das ist zwar sehr wichtig, hilft aber gegenüber akuten terroristischen Bedrohungen überhaupt nicht.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg136">Die deutschen Beiträge zur Terrorismusbekämpfung gehen über dieses gesamte Spektrum von der Ursachenbekämpfung bis hin zur direkten Gefahrenabwehr und Terrorismusverfolgung und verfolgen einen primär politischen und ganzheitlichen Einsatz.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg137">Man kann deutlich erkennen, dass unter den vielen deutschen Beiträgen zur Terrorismusbekämpfung die Beiträge zur Stabilisierung Afghanistans und die Gegnerschaft gegen den Irakkrieg von wirklich strategischer Bedeutung sind. Transnationaler Terrorismus lässt sich nicht mit Krieg besiegen. Das ist uns völlig klar.</seg>
+          <kinesic type="applause">
+            <desc>Beifall der Abg. Claudia Roth [Augsburg] [BÜNDNIS 90/DIE GRÜNEN]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg138">Bestimmte Akteure und Aktionsformen sind aber ohne Militär nicht einzudämmen. Beides muss auseinander gehalten werden.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg139">Deutschland beteiligt sich an der Operation Enduring Freedom nicht pauschal und uneingeschränkt, sondern mit ausgewählten und präzisen Fähigkeiten, insgesamt zurückhaltend und mit klarer rechtsstaatlicher Begrenzung.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der SPD und des Abg. Dr. Franz Josef Jung [CDU/CSU]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg140">Das größte Kontingent besteht aus Marinekräften zur Seeraumüberwachung. Dies ist notwendig und nützlich, um dort terroristische Bewegungen - zumindest deren Bewegungsfreiheit - einzuschränken.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg141">Es ist richtig - das ist von allen angesprochen worden -: Potenziell am riskantesten ist der zeitweilige Einsatz von maximal 100 Soldaten der KSK in Afghanistan. Dass Afghanistan nicht mehr das Rückzugs- und Ausbildungsgebiet für den transnationalen Terrorismus ist, ist ein enormer Fortschritt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten des BÜNDNISSES 90/ DIE GRÜNEN und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg142">Dieser Fortschritt ist aber nur dann zu halten, wenn Stabilisierung und Aufbau in Afghanistan insgesamt vorankommen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten des BÜNDNISSES 90/ DIE GRÜNEN, der SPD und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg143">Beides ist durch enorme Gewaltpotenziale gefährdet, über die man nicht einfach hinwegreden oder hinwegblicken kann. Diese Gewaltpotenziale sind ohne die Ausweitung der ISAF-Stabilisierungstruppe und die Rückendeckung durch Enduring Freedom nicht einzudämmen und zu bewältigen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg144">Umgekehrt: Ohne Enduring Freedom keine ISAF, keine Stabilisierungschance für Afghanistan. Deshalb hat sich Präsident Karsai - übrigens im Unterschied zu den Formulierungen im Antrag der Linkspartei - ausdrücklich für die Präsenz dieser Truppen ausgesprochen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg145">Er hat sich darüber hinaus sogar - wir teilen das nicht - für das Zusammenfügen von ISAF und der OEF ausgesprochen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg146">Ein erhebliches Problem bei der Zusammenarbeit im Rahmen der OEF ist allerdings, dass sich die US-Streitkräfte bekanntermaßen und in erschütternder Weise nicht an die Genfer Konvention halten, vor allem, was die Behandlung von Gefangenen angeht.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Ilja Seifert [DIE LINKE]: Pfui!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg147">Die deutschen Soldaten sind hier eindeutig und zwingend an Recht und Gesetz gebunden. Dies ist auch vom Ministerium klargestellt worden.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg148">Es wäre in Hinblick auf die insgesamt notwendige Geheimhaltung im Zusammenhang mit der KSK sehr hilfreich, wenn die Bundesregierung hier die Geheimhaltung auf das Ausmaß beschränken würde, welches zum Schutz von Operationen und Personen notwendig ist.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg149">Zusammengefasst: Die heute beantragten Beiträge zur Operation Enduring Freedom sind notwendig und verantwortbar. Die Bundesrepublik sieht sich damit ganz und gar nicht in dem zu Recht kritisierten Krieg gegen den Terrorismus; vielmehr liegt sie voll auf der Linie dessen, was in den Resolutionen des UN-Sicherheitsrates und in den höchsten UN-Berichten eingefordert wird. Deshalb stimmt die grüne Fraktion in ihrer übergroßen Mehrheit dem Antrag der Bundesregierung zu.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg150">Danke schön.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2005-11-08-16-002.u12" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg151">Ich erteile dem Kollegen Professor Gert Weisskirchen für die SPD-Fraktion das Wort.</seg>
+        </u>
+        <note type="speaker">Gert Weisskirchen (Wiesloch) (SPD):</note>
+        <u who="#Q107636" xml:id="ParlaMint-DE_2005-11-08-16-002.u13" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg152">Herr Präsident! Meine sehr verehrten Damen und Herren! Der Grund dafür, dass wir das Mandat für Enduring Freedom verlängern - wir sind dankbar, dass die Bundesregierung die Zahl der Soldaten auf insgesamt 2 800 senkt -, ist ganz einfach und ganz eindeutig - möglicherweise wird Oskar Lafontaine das noch lernen -: Die Menschen auf dieser Welt und zuallererst in Afghanistan müssen eine Chance auf ein eigenes, selbstbestimmtes Leben in Freiheit haben. Darum geht es.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten der FDP und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg153">Es geht auch darum, dass Afghanistan endlich eine Chance erhält, eine lange historische Erfahrung, die dem Land immer wieder von außen aufgezwungen worden ist, hinter sich zu lassen, sich selbst zu befreien. Die Herrscher Persiens und die Gewaltherrscher anderswo haben immer wieder ein Auge auf dieses kleine Land geworfen. Am Ende haben die Taliban und al-Qaida den Zerfallsprozess, der in Afghanistan stattgefunden hat, genutzt und von dort ihre terroristischen Eroberungsversuche unternommen. Das musste auch militärisch gestoppt werden. Wie sollte es denn anders gehen?</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD - Widerspruch bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg154">- Nein, das ist der zentrale Punkt.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg155">Oskar Lafontaine hat eben in der Debatte das Stichwort Jugoslawien genannt. Ich komme nicht daran vorbei, deutlich zu sagen: Haben wir denn alle vergessen, was vor zehn Jahren in Srebrenica geschehen ist? Es gab Tausende von Menschen, die von den VN hätten gerettet werden können. Milosevic hat nichts anderes getan, als eben jene Tausende gefangen zu nehmen und viele davon zu ermorden. Das musste doch gestoppt werden!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, der CDU/CSU, der FDP und dem BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg156">Auch da gilt ganz eindeutig: Dieses Stoppen darf natürlich nicht ausschließlich auf das Militärische begrenzt werden; das darf nicht sein. Es muss eine Gesamtstrategie entwickelt werden, bei der das Militärische ein zurückgenommenes, behutsam angewendetes Moment ist. Wenn man sieht, dass das Kontingent derjenigen, die in der Operation am gefährdetsten sind, zumindest gegenwärtig nicht ausgeschöpft wird, dann zeigt das, dass die Bundesregierung dafür gesorgt hat, dass mit dem Instrument des Militärs behutsam, zurückhaltend und vorsichtig umgegangen wird und dass es keine Militarisierung gegeben hat. Das soll auch so bleiben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten der FDP und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg157">Ich glaube, es kommt in der Tat darauf an, darauf zu achten, dass Enduring Freedom in die Gesamtstrategie der ISAF eingebettet bleibt, und dass dafür gesorgt wird, dass die logistischen Linien der Terroristen gestoppt bzw. unterbrochen werden, damit sich der Terrorismus nicht weiter ausbreitet.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg158">Wenn man - zu Recht - Kofi Annan zitiert, dann sollte man das, was er am 21. März dieses Jahres geschrieben hat, vollständig wiedergeben. Er hat gesagt, dass der Terrorismus alles bedroht, wofür die VN stehen: die Achtung der Menschenrechte, die Herrschaft des Rechts, den Schutz der Zivilpersonen, die Toleranz zwischen Völkern und Nationen und die friedliche Beilegung von Konflikten. Das ist genau das, wozu sich die Bundesregierung verpflichtet hat. Enduring Freedom ist ein Teilbereich der gesamtstrategischen Überlegungen. Wir stimmen ausdrücklich dem zu, was Joschka Fischer, der hier als Abgeordneter Platz genommen hat, in den vergangenen Jahren ständig deutlich gemacht hat: Das Militärische ist nur ein Teil. Viel wichtiger aber sind alle zivilen Instrumente, die eingesetzt werden. Sie müssen durch Enduring Freedom gestärkt und unterstützt werden. Sonst können sie keinen zivilen Prozess in Afghanistan oder anderswo fördern.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg159">Zu Recht ist gefordert worden, dass die Entwicklungspolitik eine starke Rolle spielen müsse. Das kann man in Afghanistan sehr genau beobachten. Ich nenne in diesem Zusammenhang die zentralen Vorhaben, die von der Entwicklungsministerin vorangetrieben werden, die aber nur gelingen können, wenn es ein Mindestmaß an Sicherheit in Afghanistan gibt: entwicklungsorientierte Nothilfe, Stärkung der Rolle der Frauen in der Gesellschaft, Ernährungssicherung, Schaffung von tragfähigen Strukturen im ländlichen Raum, Förderung der Privatwirtschaft und Schaffung von Arbeitsplätzen, Wiederaufbau von starken wirtschaftlichen Strukturen, Aufbau eines Gesundheitswesens, Stärkung der Menschenrechte, insbesondere der Frauenrechte, Aufbau der Infrastruktur.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg160">Es ist gewiss richtig: Ein zentraler Teil des Kampfes beinhaltet, die Ursachen, die zu Terrorismus führen, zu zerstören und den Boden, der von Ideologen und Protagonisten, die versuchen, den Islam als Maskerade zu benutzen, bereitet wird, unfruchtbar zu machen. Entsprechende entwicklungspolitische Schritte hat die Bundesregierung eingeleitet. Sie müssen fortgesetzt werden. Aber sie brauchen militärische Unterstützung; denn ohne eine solche Unterstützung können sie zivilgesellschaftliche Prozesse nicht vorantreiben. Sie brauchen gerade in Gesellschaften, die höchst gefährdet sind, die Unterstützung des Militärs. Deshalb stimmt die SPD-Bundestagsfraktion für eine Fortsetzung des Einsatzes im Rahmen von Enduring Freedom.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg161">Ich möchte noch einen Punkt aufgreifen, der vorhin vom Kollegen Nachtwei zu Recht genannt worden ist. Das alles kann nur stattfinden, wenn es - genauso wie bei Enduring Freedom - gelingt, eine internationale Abstimmung herbeizuführen, wenn der Sicherheitsrat seine Entscheidung getroffen hat - das war bereits 22-mal der Fall - und wenn darüber hinaus - genauso wie bei Enduring Freedom - 82 Nationen einen Teil ihres Militärs in einen gemeinsamen internationalen Einsatz einbringen und mithelfen, dass die logistischen Linien, die die Terroristen versuchen aufzubauen, durchschnitten werden. Das ist nicht einfach nur ein Versuch, den Terrorismus zu bändigen, sondern es ist die einzige Chance.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg162">Es gibt sicher einige, die in diesem Punkt anderer Auffassung sind. Ich bin der Meinung, dass die einzige Chance, dass sich Frieden auf der Welt durchsetzt, darin besteht, dafür zu sorgen, dass der Angriff, der von Terroristen geplant bzw. durchgeführt wird, gestoppt wird. Enduring Freedom ist ein Teil der Maßnahmen, zwar nur ein kleiner und ein behutsam eingesetzter, aber ein wichtiger. Deshalb stimmt die SPD-Bundestagsfraktion dem Antrag der Bundesregierung zu.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN und des Abg. Dr. Andreas Schockenhoff [CDU/CSU]</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Norbert Lammert:</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_2005-11-08-16-002.u14" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg163">Nächster Redner ist der Kollege Christian Schmidt, CDU/CSU-Fraktion.</seg>
+        </u>
+        <note type="speaker">Christian Schmidt (Fürth) (CDU/CSU):</note>
+        <u who="#Q107018" xml:id="ParlaMint-DE_2005-11-08-16-002.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg164">Herr Präsident! Meine sehr verehrten Kolleginnen und Kollegen! Die vierte Mandatsverlängerung für Enduring Freedom, die wir heute beschließen wollen und der wir seitens der CDU/CSU-Fraktion unsere Zustimmung geben, zeigt natürlich auch: Je länger und häufiger verlängert wird, desto deutlicher wird, dass das Problem, das dem Einsatz zugrunde liegt, bisher nicht gelöst ist. Die Lage hat sich verbessert, aber sie ist immer noch schwierig.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg165">Kollege Weisskirchen, Sie haben in beeindruckender Weise versucht, auf den Punkt zu bringen, dass wir natürlich bei der Frage - -</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der FDP</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg166">- Ich darf das doch einmal erwähnen, wenn ein Kollege der SPD etwas Vernünftiges gesagt hat. Ich sage das gerne.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Wolfgang Gerhardt [FDP]: Ich meine doch nur wegen der besonderen Umstände!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg167">- Da ich anschließend noch auf den Kollegen Hoyer zu sprechen kommen und einige positive Bemerkungen machen möchte, bitte ich die FDP-Fraktion um Geduld.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg168">Es geht im Kern darum, dass wir einen ganzheitlichen Ansatz verfolgen. Wir sehen sowohl den Einsatz des Militärs als auch den der anderen Strukturen, haben aber auch nicht nur begrenzt Afghanistan im Auge. Hier ist eine Wurzel ausgerottet worden. Ich hoffe, dass das der Fall ist und nicht Neues nachwächst. Wir müssen aber auch auf andere Gebiete achten. Hier ist die Tätigkeit der Bundeswehr am Horn von Afrika ein entscheidender Faktor. Ich darf das, was der Verteidigungsminister im Hinblick auf die Information des Hauses gesagt hat, aufnehmen, nämlich dass dann, wenn sich die Notwendigkeit zeigen sollte, den Einsatz zu ändern oder neu zu strukturieren, das in Absprache mit dem Parlament und in Kenntnis des Hauses passieren muss.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg169">Allerdings halte ich es für richtig, dass wir uns gerade aus diesem Grund nicht an dem Einzelfall festhalten und den einzelnen Problemfall - in diesem Fall Afghanis-tan - zum Marker dafür nehmen, wie groß und wie strukturiert der Einsatz sein kann bzw. sein darf. Deswegen halte auch ich es für wichtig, dass wir bei 2 800 Soldaten geblieben sind. Die Reduzierung ergibt sich auch dadurch, dass die Seeaufklärung seitens der Bundeswehr mit den gegenwärtigen Flugzeugen nicht mehr möglich ist. Die alten sind nicht mehr leistungsfähig und die neuen sind noch nicht da. Aber selbst eine Wiederaufnahme der Seeaufklärung wäre wohl mit 2 800 Soldaten möglich.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg170">Lassen Sie mich zu den Soldaten eines sagen: Es geht nicht, dass jemand schlecht recherchiert, sehr agitiert und den Soldaten sagt: Eigentlich macht ihr einen ganz anständigen Job, aber im Prinzip seid ihr Terroristen. - Ich weise im Namen der betroffenen Soldaten der deutschen Bundeswehr, die aufgrund eines völkerrechtlichen Mandats - der Resolutionen 1368 und 1373 der Vereinten Nationen - und entsprechender konstitutiver Beschlüsse des Deutschen Bundestages ihren Dienst ausüben - es waren übrigens sogar schon Reisepläne des deutschen Staatsoberhauptes gefährdet; die mussten geändert werden, weil eine konkrete Terrorgefahr bestanden hat -, mit allem Nachdruck zurück, was sich Oskar Lafontaine hier geleistet hat.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP sowie bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg171">Sicherheitspolitik und Sicherheit für unsere Menschen heißt, präzise zu arbeiten, präzise zu handeln und auch präzise zu argumentieren. Die Linkspartei hat da offensichtlich Nachholbedarf; das ist zu erkennen. Vielleicht ändert sich etwas in der nächsten Zeit. Man soll die Hoffnung nie aufgeben.</seg>
+          <vocal type="exclamat">
+            <desc>Vorsitz: Vizepräsident Wolfgang Thierse</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg172">Zum Thema Gewöhnungseffekt. Ich möchte auch in dieser Diskussion unterstreichen - der Kollege Hoyer hat das angesprochen -: In der Tat, auch wenn wir präzise vorausplanen können, dürfen wir uns nie daran gewöhnen, dass es die Normalität ist. Es ist die Ausnahme und es muss die Ausnahme bleiben. Wir sind sicherlich gut beraten, in Zukunft noch mehr darauf zu schauen, dass die Verknüpfung mit unseren Interessen - Stichwort "unsere Sicherheit" - und mit den Verpflichtungen in der internationalen Gemeinschaft die Grundlage für die Entsendung von Soldaten ist und dass wir uns hier auch in eine gewisse Beschränkung begeben müssen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg173">Wie wir das nun im Einzelnen organisieren, ist derzeit zwar im Entsendegesetz geregelt, sollte so aber, wie ich meine, nicht endgültig, also für alle Zeiten, geregelt sein. Ich glaube, wir haben deswegen gut daran getan, in Bezug auf die Frage, wie sich die kommende Bundesregierung und das Parlament zu diesem Thema stellen, zu sagen: Wenn sich im Lichte der Erfahrungen mit dem Entsendegesetz Veränderungsbedarf ergibt, dann sollen und wollen wir dem als Parlament nachkommen. Das ist keine Aufgabe der Bundesregierung; das machen wir dann als Parlament. Wenn ich es richtig sehe, wird diese Frage möglicherweise durch ein Verfahren, das die FDP-Fraktion angestrengt hat - die Hauptsacheentscheidung im Hinblick auf die Regelungen beim AWACS-Einsatz steht noch aus -, weiter geklärt werden können, sofern sich Änderungsbedarf ergibt.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg174">Ich halte das für richtig und wichtig und möchte deswegen ausdrücklich dem zustimmen, was Kollege Hoyer im Hinblick auf die Notwendigkeit der parlamentarischen Kontrolle gesagt hat. Parlamentskontrolle heißt einerseits, das Grundsätzliche im Parlament abzuklären, und andererseits, in der konkreten Umsetzung das Militär, die Fachleute, diejenigen, die die Entscheidungen im Einzelfall zu treffen haben, natürlich nicht zu ersetzen. In diesem Zusammenspiel bedarf es einer ständigen Information, nicht nur an diesen Tagen im Plenum, sondern darüber hinaus. Ich meine, gerade das wird ein Anlass sein, die Praxis noch einmal zu bewerten und zu überprüfen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg175">Es wurde bereits gesagt, dass 83 Nationen an dieser Operation beteiligt sind. 36 von ihnen stellen die insgesamt 20 000 Soldaten bereit; 18 000 Soldatinnen und Soldaten davon stellen allein die USA. Der amerikanische Beitrag ist also groß, sehr groß. Ohne die amerikanische Beteiligung ließe sich diese globale sicherheitspolitische Herausforderung auch kaum bewältigen. Deswegen sollten wir in der Frage der internationalen Kooperation nie vergessen, dass dies ein klassischer Fall der Globalisierung ist und dass wir das Ineinandergreifen von verschiedenen Elementen, um das Ziel, den Terror auszurotten, zu erreichen, in einer vernünftigen, kooperativen Art und Weise fördern müssen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg176">Beide in Afghanistan operierenden Aktionen, ISAF, also die Operation zur Unterstützung der neuen Staatlichkeit und der Strukturen der Gesellschaft einerseits, und Enduring Freedom, also der schiere Kampf gegen den Terror und die Verhinderung von terroristischen Aktivitäten andererseits, müssen zusammen gesehen werden.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg177">Wir sollten die Frage, ob das unter einem einheitlichen Kommando steht und in welcher Form das stattfindet, nicht ideologisieren. Ich meine, es muss pragmatisch am Erfolg gemessen werden. Es heißt deswegen, dass wir in beiden Operationen "separable but not separate", also trennbar, aber nicht getrennt, agieren müssen. Das heißt, es muss eine strategisch nachvollziehbare Verknüpfung da sein, die auch die Sicherheit beider Operationen in Afghanistan steigert. Die Überzeugung, dass Talibanelemente, die wir bekämpfen wollen, nach den Nummernschildern der Fahrzeuge jeweils unterscheiden, ob das nun ein ISAF- oder ein OEF-Fahrzeug ist, habe ich nun wirklich nicht.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg178">Eine Aufgabe der nächsten Zeit wird sein - ich sage das noch einmal, ohne das ideologisch-politisch aufgeblasen zu sehen -, pragmatisch zu versuchen, die Effizienz beider Einsätze zusammenzuführen. Der Maßstab der Effizienz ist dabei die Fähigkeit, Stabilität in Afghanistan zu organisieren.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg179">Die Antiterrorkoalition, die Enduring Freedom trägt, ist eines der Pfunde, mit dem die internationale Gemeinschaft wuchern kann und wuchern muss. Sie muss sich nur über Folgendes im Klaren sein: Der Antiterrorkampf findet nicht nur bei OEF statt. Wir dürfen uns an OEF nicht gewöhnen, sowenig wie wir uns an Terror gewöhnen dürfen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg180">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Wolfgang Thierse:</note>
+        <u who="#Q62703" xml:id="ParlaMint-DE_2005-11-08-16-002.u16" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg181">Ich erteile Kollegen Rainer Arnold, SPD-Fraktion, das Wort.</seg>
+        </u>
+        <note type="speaker">Rainer Arnold (SPD):</note>
+        <u who="#Q96968" xml:id="ParlaMint-DE_2005-11-08-16-002.u17" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg182">Herr Präsident! Werte Kolleginnen und Kollegen! Lassen Sie auch mich zunächst mit einem Dank beginnen, allerdings nicht wie sonst an die Soldaten; vielmehr geht ein herzliches Dankeschön an den Verteidigungsminister Peter Struck,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg183">der in ganz schwierigen Zeiten des Wandels der Bundeswehr und bei schwierigen Aufträgen für die Bundeswehr die Truppe - darüber, denke ich, sind sich alle einig - sehr verantwortungsvoll und sehr besonnen geführt hat. Vielen Dank!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU, der FDP und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg184">Wir reden heute - das wurde hier schon gesagt - über einen Teil des Antiterrorkampfes, nicht über den gesamten Antiterrorkampf. Natürlich ist Enduring Freedom ein wichtiger Baustein dabei. Ohne dieses Modul könnte alles andere, auch die Hilfen für die Menschen, nicht geleistet werden, könnten die Nichtregierungsorganisationen überhaupt nicht tätig werden. So müssen wir das einordnen und so ordnen wir das ein.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg185">Klar ist auch: Wenn 82 Nationen beteiligt sind - mit 52 Nationen kooperieren wir im Headquarter in Florida -, ist es kein nationaler Weg. Selten war ein Mandat so breit getragen. Die Welt beteiligt sich an der Erfüllung dieses internationalen Auftrags.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg186">Zu Beginn der Arbeit standen in Afghanistan natürlich die militärischen Maßnahmen von Enduring Freedom im Mittelpunkt. Inzwischen sind es die stabilisierenden Maßnahmen, ISAF. Das zeigt uns eines: OEF war in Afghanistan so erfolgreich, dass es jetzt möglich ist, mit ISAF Stabilität ins Land zu bringen. Es ist ein erfolgreiches Mandat. Wer hier von völkerrechtswidrigen Einsätzen redet, wie es die Linken getan haben, der sagt schlichtweg nicht die Wahrheit.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg187">Dieses Mandat ist von den Vereinten Nationen in der Resolution 1368 erteilt worden. Ich bitte Sie, werte Kolleginnen und Kollegen, das einfach zur Kenntnis zu nehmen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg188">Wer hier fordert, die Soldaten, auch die wenigen Kommandosoldaten, die dort immer wieder Dienst tun, sollten wieder zurück, der sagt doch im Umkehrschluss, dass er Afghanistan, vor allem die Menschen, die im Grenzbereich zu Pakistan leben, wieder dem Schicksal überlassen will. Er will, dass sich Taliban und Al-Qaida-Truppen wieder des Landes bemächtigen können.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Ilja Seifert [DIE LINKE]: Das ist doch gar nicht wahr!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg189">Dem Redner der Linken sei noch eines gesagt: Es gab viele schlechte Argumente, aber das schlimmste ist: Weil es gefährlich ist, weil irgendwelche Talibanfürsten Deutschland drohen, sollten wir dieses Mandat been-den. - Was heißt dies im Klartext? Das heißt doch wohl nichts anderes, als dass Sie bereit wären, dem Druck der internationalen Terroristen nachzugeben und dort zu weichen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg190">Die zweite wichtige Säule von Enduring Freedom ist selbstverständlich auch in Zukunft das Horn von Afrika. Das ist eine große Herausforderung im internationalen Kampf gegen den Terrorismus. Dort gibt es Transportwege, die Piraten nutzen, die aber auch Terroristen benutzen. Wenn die Staatengemeinschaft nicht aufpasst, könnte Somalia, dieser zerfallende Staat, leider ganz schnell zu einem neuen Rückzugsgebiet für den internationalen Terrorismus werden. Niemand soll glauben, dies gehe uns nichts an. Es wurde heute schon deutlich gesagt, wie die Ausbildung der Terroristen funktioniert und auf welchen Wegen sie letztlich in die Industrieländer gesendet werden. Deshalb ist es wichtig, auf die vielschichtigen inneren Konfliktpotenziale der Länder am Horn von Afrika nicht nur militärisch, sondern auch politisch zu reagieren. Klar ist dabei: Ohne unsere Soldaten wäre dieses Vorhaben zum Scheitern verurteilt. Sie leisten einen hervorragenden Dienst und haben hierfür unseren Respekt, unseren Dank und unsere Anerkennung verdient.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg191">Natürlich geht uns die Situation dort auch vor dem Hintergrund des Welthandels etwas an. Es kann doch niemand sagen, die Situation dort könne Deutschland egal sein. 90 Prozent des Welthandels und damit auch des Waffenschmuggels vollziehen sich auf dem Seeweg. Deshalb ist es gut, wenn wir alle miteinander darüber nachdenken, wie die Marine in die Lage versetzt werden kann, auch in Zukunft ihre Aufträge so zu erledigen, dass sie zusammen mit den Einsatzkräften anderer Staaten dem deutschen Interesse dient. Hierfür in den nächsten Jahren zu sorgen, haben wir uns gemeinsam vorgenommen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg192">Lassen Sie mich nun ein paar Sätze zur am Gesamtumfang geübten Kritik - Herr Hoyer von der FDP hat diese Frage ja aufgeworfen - sagen: Ich glaube nicht, dass es heute darum geht, einen Vorratsbeschluss, wie Sie es dargestellt haben, Herr Hoyer, zu fassen. Dieses Mandat ist geographisch sehr präzise eingegrenzt. Dieses Mandat ist auch vom Dispositiv der Kräfte sehr sauber gefasst. Deshalb handelt es sich nicht um einen Vorratsbeschluss, sondern höchstens um einen Vorsorgebeschluss. Im Kampf gegen den internationalen Terrorismus ist Wachsamkeit ja sicherlich richtig. Niemand auf der ganzen Welt weiß, wo die Terroristen zuschlagen werden. So ist es gut, dass Deutschland dafür sorgt, dass gerade bei seinen Marineverbänden - das wird ja schon jetzt in der Praxis gemacht - Wachbereitschaft herrscht, sodass sie sehr schnell in Marsch gesetzt werden können, wenn es denn notwendig ist. Es ist besser für die Soldaten, in der Heimat bereitzustehen, und es ist auch finanziell gesehen der bessere Weg.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg193">Ihr Argument aber, wir hätten deshalb alle Zeit der Welt und der Bundestag könnte immer entsprechende Beschlüsse fällen, sticht, wenn der Ernstfall eintritt, nur bedingt. Zwar brauchen Marineeinheiten knapp 14 Tage, bis sie am Einsatzort sind, aber ich will nicht, dass die deutschen Vertreter, die zusammen mit über 80 anderen Ländern in internationalen Gremien sitzen, dann, wenn schnell reagiert werden muss, nur unter Vorbehalt Zusagen machen können, weil sie immer warten müssen, bis das deutsche Parlament entschieden hat. Deshalb ist es gut, wie die Dinge derzeit im Parlamentsbeteiligungsgesetz geregelt sind. Wir würden diesem Gesetz, das sich in den nächsten Jahren in der parlamentarischen Praxis ein Stück weit bewähren muss - hier stehen wir ja erst am Anfang -, einen Bärendienst erweisen, wenn es selbst zu einem Hindernis dabei wird, auf internationaler Ebene schnell zu Entscheidungen zu kommen. Nein, die deutsche Regierung muss die Chance haben, sich schnell für oder gegen etwas zu entscheiden. Wir haben keinen Grund, daran zu zweifeln, dass die Bundesregierung auch in Zukunft so, wie sie es in der Vergangenheit getan hat, sehr sorgfältig abwägt, wo und wie viele Soldaten eingesetzt werden. Immer war Vorsicht das erste Gebot der Stunde. Darüber sind wir alle sehr froh.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg194">Nun gibt es noch ein zweites Argument, das die so genannten Linken hier immer wieder vorgebracht haben. Im Gegensatz zu Ihnen glaube ich aber, dass die Zeit für ein Heile-Welt-Wunschdenken abgelaufen ist und solche Vorstellungen auch von Ihnen überwunden werden müssen. Ich kann überhaupt nicht sehen, inwieweit die Rede, die wir heute von Ihrer Seite gehört haben, etwas mit linker Politik zu tun hat.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg195">Wenn 82 Nationen, darunter viele sozialdemokratisch geführte skandinavische Länder, mit denen gerade die Bundeswehr hervorragend zusammenarbeitet, an einem Strang ziehen, ist es unglaublich arrogant, hier aufzutreten und so zu tun, als ob die Bundeswehr zusammen mit Kriegstreibern in Einsätze geschickt werde. Nein, diese Länder handeln ebenso wie die Bundesrepublik verantwortungsvoll. Wer hier alle zusammen mit Kriegstreibern in eine Schublade steckt, handelt wirklich überheblich und schlimm. Es ist deshalb schlimm, weil unsere Soldaten erwarten, dass wir uns zwar inhaltlich streiten - sie wissen, dass es nicht immer Konsens gibt -, aber nicht die Menschen mit falschen Behauptungen verunsichern und davon reden, dass dies völkerrechtswidrig sei. Das ist wirklich schädlich und wird der Arbeit der Soldaten und der Sorge ihrer Familien nicht gerecht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD, der CDU/ CSU, der FDP und des BÜNDNISSES 90/ DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg196">Links bedeutet für mich ganz schlicht, Solidarität gegenüber den Menschen in Afghanistan und Somalia zu zeigen, die in Frieden leben wollen, die ihre Kinder, auch die Mädchen, in die Schule schicken wollen. Dies alles wurde durch den Einsatz der Soldaten möglich.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD - Zustimmung des Abg. Dr. Franz Josef Jung [CDU/ CSU]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg197">Wir haben mit dem Parlamentsbeteiligungsgesetz ein wichtiges Instrument zur Regierungskontrolle geschaffen. Ich glaube, Herr Hoyer und die Kollegen von der FDP, wir sollten uns alle noch einmal zusammensetzen und darüber reden, wie wir zu diesem Gesetz ein freiwilliges Modul schaffen, eine präzise Absprache, wie wir über Einsätze, auch von Spezialkräften, informiert werden. Ich bin der Meinung, man sollte das gründlich besprechen. Wir bieten Ihnen das ausdrücklich an. Aber eines müssen wir auch sehen: Wenn eine Fraktion im Hause diese Vertraulichkeit zerstört - das, was heute in der Zeitung stand, war in dieser Hinsicht kein guter Anfang -</seg>
+          <vocal type="exclamat">
+            <desc>Jörg van Essen [FDP]: Sehr richtig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg198">und damit das Leben der Soldaten - das ist das höchste Gut; es zu schützen, ist unsere größte Verantwortung gegenüber den Soldaten - gefährdet,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD, der CDU/ CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg199">dann wird die Chance, dass wir Parlamentarier gut und detailliert informiert werden, zunichte gemacht.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg200">Deshalb bitte ich Sie, zumindest über diesen Punkt noch einmal in Ruhe nachzudenken. Wir alle haben ein gemeinsames Interesse an Informationen. Peter Struck hat diese Unterrichtung in der letzten Legislaturperiode gut eingeführt und ist, wie ich glaube, sehr sorgsam und verantwortungsbewusst damit umgegangen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg201">Ich denke, für unsere Soldaten in der Parlamentsarmee ist es wichtig, dass solche Mandate über Fraktionsgrenzen hinweg erteilt werden. Ich bitte Sie, auch die Kollegen von der FDP, deshalb in der Tat um eine möglichst breite Zustimmung.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg202">Herzlichen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN und des Abg. Dr. Franz Josef Jung [CDU/CSU]</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Wolfgang Thierse:</note>
+        <u who="#Q62703" xml:id="ParlaMint-DE_2005-11-08-16-002.u18" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg203">Zu einer Kurzintervention erteile ich dem Kollegen Schäfer von der Fraktion Die Linke das Wort.</seg>
+        </u>
+        <note type="speaker">Paul Schäfer (Köln) (DIE LINKE):</note>
+        <u who="#Q100255" xml:id="ParlaMint-DE_2005-11-08-16-002.u19" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg204">Lieber Kollege Arnold, würden Sie bitte erstens zur Kenntnis nehmen, dass wir gestern um 12 Uhr ein Gespräch hatten, bei dem Pressevertreter anwesend waren; das war also vor der Unterrichtung im Verteidigungsministerium. Zweitens wurde bei diesem Pressegespräch eine sehr allgemeine Aussage getätigt - das kann man in der "Frankfurter Allgemeinen Zeitung" nachlesen -, die meines Erachtens nichts, aber auch gar nichts mit "geheim" oder "sehr geheim" zu tun hatte. Das möchte ich hier noch einmal klarstellen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der LINKEN</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Wolfgang Thierse:</note>
+        <u who="#Q62703" xml:id="ParlaMint-DE_2005-11-08-16-002.u20" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg205">Kollege Arnold, Sie haben Gelegenheit zu erwidern.</seg>
+        </u>
+        <note type="speaker">Rainer Arnold (SPD):</note>
+        <u who="#Q96968" xml:id="ParlaMint-DE_2005-11-08-16-002.u21" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg206">Herr Kollege Schäfer, ich kann es sehr kurz machen. Ich lese in der Zeitung, dass Sie den Journalisten gesagt haben, die Soldaten befänden sich in der Rückführung.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf des Abg. Oskar Lafontaine [DIE LINKE]</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg207">- Langsam! Es ist immer ein Unterschied, ob Journalisten spekulieren - das werden sie immer wieder tun - oder ob wir, die wir geheime und vertrauliche Informationen erhalten, diese der Presse geben. Ich will das einmal an einem praktischen Beispiel deutlich machen. Können Sie wirklich verantworten, dass die Journalisten mit ihren Kameras auf dem Flughafen Köln/Bonn warten, bis die Soldaten der Kommandospezialkräfte, von deren Rückführung sie wissen, dort tatsächlich landen, und das übermorgen im "Stern" steht? Das ist hochgradig gefährlich und unverantwortlich. Ich bitte Sie nochmals: Seien Sie in diesem Bereich höchst sensibel; dann werden Sie auch in Zukunft gut informiert!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD, der CDU/CSU und der FDP sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Wolfgang Thierse:</note>
+        <u who="#Q62703" xml:id="ParlaMint-DE_2005-11-08-16-002.u22" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg208">Ich erteile das Wort dem Kollegen Bernd Schmidbauer, CDU/CSU-Fraktion.</seg>
+        </u>
+        <note type="speaker">Bernd Schmidbauer (CDU/CSU):</note>
+        <u who="#Q824152" xml:id="ParlaMint-DE_2005-11-08-16-002.u23" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg209">Herr Präsident! Meine sehr verehrten Kolleginnen und Kollegen! Ich möchte als Berichterstatter über die Einsätze in Afghanistan sowie über Enduring Freedom zunächst einmal dem Verteidigungsminister Peter Struck meine Reverenz erweisen und ihm ganz herzlich danken für die sehr gute Informationspolitik und für die offensiv geführten Debatten - auch das hat sich heute widergespiegelt - über Synergieeffekte im Zusammenhang mit ISAF und Enduring Freedom.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg210">Lieber Herr Verteidigungsminister Struck, ich glaube, dass die Debatte über einen gemeinsamen Oberkommandierenden dazu führen sollte - Christian Schmidt hat dies direkt angesprochen -, dass er nicht nur vor Ort tätig ist, sondern dass er den Antiterrorkampf generell koordiniert. Ich glaube, wir sehen die Notwendigkeit dieser neuen Aufgabe. Da Sie aus dem Amt ausscheiden, will ich Ihnen an dieser Stelle dafür danken, dass wir im Hinblick auf die PRTs einen Weg gefunden haben, der nicht nur Soldaten und Spezialkräftekommandos umfasst. Wir müssen erreichen, dass ISAF auch durch andere Kräfte unterstützt wird. Auch das halte ich Ihnen zugute.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg211">Ich glaube, dass wir im Hinblick auf die Petersberger Beschlüsse ein gewaltiges Stück weitergekommen sind. Wir tun heute deshalb gut daran, das Mandat für Enduring Freedom zu verlängern. Wir müssen aber auch darüber nachdenken, was hier verändert werden kann. Wir müssen eine Debatte darüber führen, wie die Information erfolgen kann. Ich wundere mich über die Art Euphorie, die im Hinblick auf Durchstecher in allen Ministerien besteht. Wir müssen dazu kommen, dass das Vertrauen zwischen denjenigen, die beraten, und denjenigen, die informieren, wiederhergestellt wird. Es soll sich keiner ein Alibi nach dem Motto "Wir konnten nicht informieren, denn es gab Durchstecher in diesem oder jenem Gremium" verschaffen können. So etwas darf nicht als Entschuldigung dienen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU - Dr. Werner Hoyer [FDP]: Sehr wahr!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg212">Neben dem ausscheidenden und jetzt geschäftsführenden Verteidigungsminister will ich auch unseren Soldaten, die in diesem Einsatz sind, danken. Es ist unmöglich, im Zusammenhang mit diesem Einsatz nicht über die Risiken zu reden. Denn wir sehen, wie sich die Situation im Irak und in Afghanistan verändert. Wir tun deshalb gut daran, alles zu unternehmen, um Risiken zu minimieren. Wir wollen unseren Soldatinnen und Soldaten sagen, dass dieses Parlament hinter ihnen steht. Es hilft, wo es geht, und tut alles, damit die Soldaten die richtige Ausrüstung und den notwendigen Rückhalt bekommen. Ich möchte den Soldaten unseren herzlichen Dank für diese Einsätze aussprechen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der SPD und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg213">Nachdem schon vieles von meinen Vorrednern gesagt wurde, will ich mich auf zwei Punkte beschränken.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg214">Der erste Punkt. Es gibt sehr viele Definitionen über die Sicherheit in Europa und in unserem eigenen Land. Ich will in diesem Zusammenhang auf eine Übung in London hinweisen, die vor über einem Jahr stattgefunden hat. Die Aussage war: Wir üben zwar, aber wir werden nicht unmittelbar betroffen sein. Dennoch gab es den Angriff am 7. Juli 2005. Vor wenigen Tagen fand der Gedenkgottesdienst für die Opfer dieses Terroranschlags statt. Der Erzbischof von Canterbury sagte: Der Terrorist ist nicht nur der Feind eines Systems oder einer Regierung, sondern der Idee, dass jeder von uns einzigartig, verantwortlich und unersetzbar ist.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg215">Aus diesem Grund stimmen wir diesen Einsätzen zu. Wir dürfen nicht der Argumentation verfallen, die hier vor wenigen Minuten dargelegt wurde. Wir weichen nicht vor internationalem Terrorismus zurück, weder jetzt noch in Zukunft. Wir lassen uns von Drohungen nicht verängstigen. Deshalb beteiligen wir uns an der Mission Enduring Freedom und damit am Kampf gegen den Terrorismus in Afghanistan, im Mittelmeerraum und am Horn von Afrika.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg216">Ich will Ihnen noch ein paar Zahlen nennen. Bisher waren insgesamt circa 6 300 Marinesoldaten am Horn von Afrika. Das bedeutet, dass jeder dritte Marinesoldat beteiligt war. Dafür sprechen wir unseren aufrichtigen Dank aus.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg217">Wenn die freie Welt weiterhin frei sein will, dann müssen wir dazu bereit sein, Verantwortung zu übernehmen und den Preis für diese Freiheit zu zahlen. Wir dürfen uns, wie ich sagte, nicht einschüchtern lassen. Wir müssen Solidarität leben. Es kann nicht sein, dass Solidarität nur durch Worte bewiesen wird. Solidarität wird vielmehr durch unser Handeln, durch unsere Taten bewiesen. Das macht Deutschland durch seine Teilnahme an solchen Operationen im Kampf gegen den internationalen Terrorismus deutlich. Das bedeutet auch, dass unsere Partner wissen, dass wir an ihrer Seite stehen, dass wir verlässliche Partner sind.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg218">Manche Redner haben sich - das ist mehrfach angeklungen; es ist ein letztes Argument - für die Reduzierung der Zahl der Soldaten bedankt. Das ist - wenn ich das sagen darf - überhaupt kein Argument für die Zustimmung zu dem vorliegenden Antrag. Das ist vielmehr eine rein technische Frage. Es sollte sich also keiner für sich selber ein Alibi schaffen, indem er sagt: Die Zahl ist ja geringer geworden. Nein, wir stehen bei diesem Engagement in einer totalen Verpflichtung. Auch die eine oder andere Schlagzeile in der Presse im internationalen Bereich, wie zum Beispiel "Germany to reduce troops in US-led anti-terror mission", entspricht nicht der Wahrheit. Die Wahrheit ist: Wir behalten unsere volle Kapazität bei. Wir sind im Kampf gegen den Terror unbeirrbar.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg219">Wir sagen nicht, dass Enduring Freedom die Antwort schlechthin auf den internationalen Terrorismus ist. Aber dieser Einsatz ist eine Antwort; er ist ein kleiner, wichtiger Bestandteil, ein unverzichtbares Instrument im Kampf gegen den Terror. Wir versuchen durch das Bekämpfen von Terroristen in deren Heimat, unsere Heimat zu schützen. Das sollten wir immer dann beachten, wenn wir über diese Dinge sprechen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg220">Die CDU/CSU-Fraktion stimmt dem Einsatz Enduring Freedom vorbehaltlos zu und bedankt sich für die Unterstützung in diesem Bereich.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg221">Herzlichen Dank für die Aufmerksamkeit.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD und der FDP</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Wolfgang Thierse:</note>
+        <u who="#Q62703" xml:id="ParlaMint-DE_2005-11-08-16-002.u24" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg222">Ich schließe die Aussprache.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg223">Wir kommen zur Abstimmung über den Antrag der Bundesregierung zur Fortsetzung des Einsatzes bewaffneter deutscher Streitkräfte bei der Unterstützung der gemeinsamen Reaktion auf terroristische Angriffe gegen die USA, Drucksache 16/26. Es ist namentliche Abstimmung verlangt.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg224">Zu dieser Abstimmung liegt mir eine Erklärung nach § 31 der Geschäftsordnung der Kollegen Sabine Leutheusser-Schnarrenberger und Jürgen Koppelin vor.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg225">Ich bitte alle Kolleginnen und Kollegen, bei der Stimmabgabe sorgfältig darauf zu achten, dass sie nur Stimmkarten der 16. Wahlperiode verwenden und dass die Stimmkarten ihren Namen tragen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg226">Ich bitte die Schriftführerinnen und Schriftführer, die vorgesehenen Plätze einzunehmen. Ist das erfolgt? - Das ist so. Ich eröffne die Abstimmung.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg227">Haben alle anwesenden Abgeordneten ihre Stimme abgegeben? - Das ist offensichtlich der Fall. Dann schließe ich die Abstimmung.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg228">Ich bitte die Schriftführerinnen und Schriftführer, mit der Auszählung zu beginnen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg229">Bis zum Vorliegen des Ergebnisses der namentlichen Abstimmung unterbreche ich die Sitzung.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg230">Die Sitzung ist unterbrochen.</seg>
+        </u>
+        <vocal type="interruption">
+          <desc>Unterbrechung von 16.32 bis 16.39 Uhr</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wolfgang Thierse:</note>
+        <u who="#Q62703" xml:id="ParlaMint-DE_2005-11-08-16-002.u25" ana="#chair">
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg231">Die unterbrochene Sitzung ist wieder eröffnet.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg232">Ich gebe das von den Schriftführerinnen und Schriftführern ermittelte Ergebnis der namentlichen Abstimmung über den Antrag der Bundesregierung zur Fortsetzung des Einsatzes bewaffneter deutscher Streitkräfte bei der Unterstützung der gemeinsamen Reaktion auf terroristische Angriffe gegen die USA, Drucksache 16/26, bekannt: abgegebene Stimmen 589. Mit Ja haben gestimmt 519, mit Nein haben gestimmt 67,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg233">Enthaltungen 3. Der Antrag ist damit angenommen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg234">Endgültiges Ergebnis</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg235">Abgegebene Stimmen: 589;</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg236">davon</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg237">ja: 519</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg238">nein: 67</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg239">enthalten: 3</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg240">Ja</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg241">CDU/CSU</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg242">Ulrich Adam</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg243">Ilse Aigner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg244">Peter Altmaier</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg245">Thomas Bareiß</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg246">Norbert Barthle</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg247">Günter Baumann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg248">Ernst-Reinhard Beck (Reutlingen)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg249">Veronika Bellmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg250">Dr. Christoph Bergner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg251">Otto Bernhardt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg252">Clemens Binninger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg253">Carl-Eduard von Bismarck</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg254">Renate Blank</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg255">Peter Bleser</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg256">Antje Blumenthal</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg257">Dr. Maria Böhmer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg258">Wolfgang Börnsen (Bönstrup)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg259">Wolfgang Bosbach</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg260">Klaus Brähmig</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg261">Michael Brand</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg262">Helmut Brandt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg263">Dr. Ralf Brauksiepe</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg264">Monika Brüning</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg265">Georg Brunnhuber</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg266">Gitta Connemann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg267">Leo Dautzenberg</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg268">Hubert Deittert</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg269">Alexander Dobrindt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg270">Thomas Dörflinger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg271">Marie-Luise Dött</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg272">Maria Eichhorn</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg273">Anke Eymer (Lübeck)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg274">Georg Fahrenschon</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg275">Ilse Falk</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg276">Dr. Hans Georg Faust</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg277">Enak Ferlemann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg278">Ingrid Fischbach</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg279">Hartwig Fischer (Göttingen)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg280">Dirk Fischer (Hamburg)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg281">Axel E. Fischer</seg>
+          <vocal type="exclamat">
+            <desc>Karlsruhe-Land</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg282">Dr. Maria Flachsbarth</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg283">Klaus-Peter Flosbach</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg284">Herbert Frankenhauser</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg285">Dr. Hans-Peter Friedrich (Hof)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg286">Erich G. Fritz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg287">Jochen-Konrad Fromme</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg288">Dr. Michael Fuchs</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg289">Hans-Joachim Fuchtel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg290">Dr. Jürgen Gehb</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg291">Norbert Geis</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg292">Eberhard Gienger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg293">Ralf Göbel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg294">Dr. Reinhard Göhner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg295">Josef Göppel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg296">Peter Götz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg297">Dr. Wolfgang Götzer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg298">Ute Granold</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg299">Reinhard Grindel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg300">Hermann Gröhe</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg301">Michael Grosse-Brömer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg302">Markus Grübel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg303">Manfred Grund</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg304">Monika Grütters</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg305">Karl-Theodor Freiherr von und zu Guttenberg</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg306">Olav Gutting</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg307">Holger Haibach</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg308">Gerda Hasselfeldt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg309">Ursula Heinen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg310">Uda Carmen Freia Heller</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg311">Michael Hennrich</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg312">Jürgen Herrmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg313">Bernd Heynemann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg314">Ernst Hinsken</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg315">Peter Hintze</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg316">Robert Hochbaum</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg317">Klaus Hofbauer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg318">Franz-Josef Holzenkamp</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg319">Joachim Hörster</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg320">Anette Hübinger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg321">Hubert Hüppe</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg322">Susanne Jaffke</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg323">Dr. Peter Jahr</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg324">Dr. Hans-Heinrich Jordan</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg325">Andreas Jung (Konstanz)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg326">Dr. Franz Josef Jung</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg327">Bartholomäus Kalb</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg328">Hans-Werner Kammer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg329">Steffen Kampeter</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg330">Alois Karl</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg331">Bernhard Nikolaus Kaster</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg332">Siegfried Kauder</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg333">(Villingen-Schwenningen)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg334">Volker Kauder</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg335">Eckart von Klaeden</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg336">Jürgen Klimke</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg337">Julia Klöckner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg338">Jens Koeppen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg339">Kristina Köhler (Wiesbaden)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg340">Manfred Kolbe</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg341">Norbert Königshofen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg342">Dr. Rolf Koschorrek</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg343">Hartmut Koschyk</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg344">Thomas Kossendey</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg345">Michael Kretschmer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg346">Gunther Krichbaum</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg347">Dr. Günter Krings</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg348">Dr. Martina Krogmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg349">Johann-Henrich Krummacher</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg350">Dr. Hermann Kues</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg351">Dr. Karl A. Lamers (Heidelberg)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg352">Andreas G. Lämmel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg353">Dr. Norbert Lammert</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg354">Katharina Landgraf</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg355">Dr. Maximilian Lehmer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg356">Paul Lehrieder</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg357">Ingbert Liebing</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg358">Eduard Lintner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg359">Patricia Lips</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg360">Dr. Michael Luther</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg361">Stephan Mayer (Altötting)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg362">Wolfgang Meckelburg</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg363">Dr. Michael Meister</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg364">Dr. Angela Merkel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg365">Friedrich Merz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg366">Laurenz Meyer (Hamm)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg367">Maria Michalk</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg368">Philipp Mißfelder</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg369">Dr. Eva Möllring</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg370">Marlene Mortler</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg371">Carsten Müller (Braunschweig)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg372">Peter Müller (Eppelborn)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg373">Stefan Müller (Erlangen)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg374">Bernward Müller (Gera)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg375">Dr. Gerd Müller</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg376">Hildegard Müller</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg377">Bernd Neumann (Bremen)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg378">Henry Nitzsche</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg379">Michaela Noll</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg380">Dr. Georg Nüßlein</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg381">Franz Obermeier</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg382">Eduard Oswald</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg383">Henning Otte</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg384">Rita Pawelski</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg385">Dr. Peter Paziorek</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg386">Ulrich Petzold</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg387">Dr. Joachim Pfeiffer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg388">Sibylle Pfeiffer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg389">Dr. Friedbert Pflüger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg390">Beatrix Philipp</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg391">Ronald Pofalla</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg392">Ruprecht Polenz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg393">Daniela Raab</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg394">Thomas Rachel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg395">Hans Raidel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg396">Dr. Peter Ramsauer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg397">Peter Rauen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg398">Eckhardt Rehberg</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg399">Katherina Reiche (Potsdam)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg400">Klaus Riegert</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg401">Dr. Heinz Riesenhuber</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg402">Franz Romer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg403">Johannes Röring</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg404">Kurt J. Rossmanith</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg405">Dr. Norbert Röttgen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg406">Dr. Christian Ruck</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg407">Albert Rupprecht (Weiden)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg408">Peter Rzepka</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg409">Anita Schäfer (Saalstadt)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg410">Dr. Wolfgang Schäuble</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg411">Hartmut Schauerte</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg412">Dr. Annette Schavan</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg413">Dr. Andreas Scheuer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg414">Karl Richard Schiewerling</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg415">Georg Schirmbeck</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg416">Bernd Schmidbauer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg417">Christian Schmidt (Fürth)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg418">Andreas Schmidt (Mülheim)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg419">Ingo Schmitt (Berlin)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg420">Dr. Andreas Schockenhoff</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg421">Bernhard Schulte-Drüggelte</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg422">Uwe Schummer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg423">Wilhelm Josef Sebastian</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg424">Horst Seehofer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg425">Kurt Segner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg426">Bernd Siebert</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg427">Thomas Silberhorn</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg428">Jens Spahn</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg429">Erika Steinbach</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg430">Christian Freiherr von Stetten</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg431">Gero Storjohann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg432">Andreas Storm</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg433">Max Straubinger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg434">Thomas Strobl (Heilbronn)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg435">Lena Strothmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg436">Michael Stübgen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg437">Antje Tillmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg438">Dr. Hans-Peter Uhl</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg439">Arnold Vaatz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg440">Volkmar Uwe Vogel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg441">Andrea Astrid Voßhoff</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg442">Gerhard Wächter</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg443">Marco Wanderwitz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg444">Kai Wegner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg445">Marcus Weinberg</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg446">Peter Weiß (Emmendingen)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg447">Gerald Weiß (Groß-Gerau)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg448">Ingo Wellenreuther</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg449">Karl-Georg Wellmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg450">Anette Widmann-Mauz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg451">Klaus-Peter Willsch</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg452">Elisabeth Winkelmeier-Becker</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg453">Matthias Wissmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg454">Dagmar Wöhrl</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg455">Wolfgang Zöller</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg456">Willi Zylajew</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg457">SPD</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg458">Dr. Lale Akgün</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg459">Gerd Andres</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg460">Niels Annen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg461">Ingrid Arndt-Brauer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg462">Rainer Arnold</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg463">Ernst Bahr (Neuruppin)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg464">Doris Barnett</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg465">Dr. Hans- Peter Bartels</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg466">Klaus Barthel (Starnberg)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg467">Sören Bartol</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg468">Sabine Bätzing</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg469">Dirk Becker</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg470">Uwe Beckmeyer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg471">Klaus Uwe Benneter</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg472">Dr. Axel Berg</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg473">Ute Berg</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg474">Petra Bierwirth</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg475">Lothar Binding (Heidelberg)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg476">Volker Blumentritt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg477">Kurt Bodewig</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg478">Gerd Friedrich Bollmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg479">Dr. Gerhard Botz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg480">Klaus Brandner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg481">Willi Brase</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg482">Bernhard Brinkmann (Hildesheim)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg483">Edelgard Bulmahn</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg484">Marco Bülow</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg485">Ulla Burchardt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg486">Martin Burkert</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg487">Dr. Michael Bürsch</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg488">Christian Carstensen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg489">Marion Caspers-Merk</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg490">Dr. Peter Danckert</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg491">Dr. Herta Däubler-Gmelin</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg492">Karl Diller</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg493">Martin Dörmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg494">Dr. Carl-Christian Dressel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg495">Elvira Drobinski-Weiß</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg496">Garrelt Duin</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg497">Detlef Dzembritzki</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg498">Sebastian Edathy</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg499">Siegmund Ehrmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg500">Hans Eichel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg501">Gernot Erler</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg502">Petra Ernstberger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg503">Karin Evers-Meyer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg504">Annette Faße</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg505">Elke Ferner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg506">Gabriele Fograscher</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg507">Rainer Fornahl</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg508">Gabriele Frechen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg509">Dagmar Freitag</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg510">Peter Friedrich</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg511">Sigmar Gabriel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg512">Martin Gerster</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg513">Iris Gleicke</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg514">Günter Gloser</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg515">Renate Gradistanac</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg516">Angelika Graf (Rosenheim)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg517">Dieter Grasedieck</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg518">Monika Griefahn</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg519">Kerstin Griese</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg520">Wolfgang Grotthaus</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg521">Wolfgang Michael Gunkel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg522">Hans-Joachim Hacker</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg523">Bettina Hagedorn</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg524">Klaus Hagemann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg525">Alfred Hartenbach</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg526">Michael Hartmann (Wackernheim)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg527">Nina Hauer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg528">Hubertus Heil</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg529">Reinhold Hemker</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg530">Rolf Hempelmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg531">Dr. Barbara Hendricks</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg532">Gustav Herzog</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg533">Petra Heß</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg534">Gabriele Hiller-Ohm</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg535">Stephan Hilsberg</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg536">Petra Hinz (Essen)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg537">Gerd Höfer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg538">Iris Hoffmann (Wismar)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg539">Frank Hofmann (Volkach)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg540">Eike Hovermann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg541">Klaas Hübner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg542">Christel Humme</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg543">Lothar Ibrügger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg544">Brunhilde Irber</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg545">Johannes Jung (Karlsruhe)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg546">Josip Juratovic</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg547">Johannes Kahrs</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg548">Ulrich Kelber</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg549">Christian Kleiminger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg550">Astrid Klug</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg551">Dr. Bärbel Kofler</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg552">Walter Kolbow</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg553">Karin Kortmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg554">Rolf Kramer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg555">Anette Kramme</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg556">Ernst Kranz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg557">Nicolette Kressl</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg558">Volker Kröning</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg559">Angelika Krüger-Leißner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg560">Dr. Hans-Ulrich Krüger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg561">Jürgen Kucharczyk</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg562">Helga Kühn-Mengel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg563">Ute Kumpf</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg564">Dr. Uwe Küster</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg565">Christine Lambrecht</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg566">Christian Lange (Backnang)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg567">Dr. Karl Lauterbach</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg568">Waltraud Lehn</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg569">Helga Lopez</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg570">Gabriele Lösekrug-Möller</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg571">Lothar Mark</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg572">Caren Marks</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg573">Katja Mast</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg574">Hilde Mattheis</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg575">Markus Meckel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg576">Petra Merkel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg577">Ulrike Merten</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg578">Dr. Matthias Miersch</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg579">Ursula Mogg</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg580">Marko Mühlstein</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg581">Detlef Müller (Chemnitz)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg582">Michael Müller (Düsseldorf)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg583">Gesine Multhaupt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg584">Franz Müntefering</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg585">Dr. Rolf Mützenich</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg586">Andrea Nahles</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg587">Thomas Oppermann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg588">Holger Ortel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg589">Heinz Paula</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg590">Johannes Pflug</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg591">Joachim Poß</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg592">Dr. Wilhelm Priesmeier</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg593">Florian Pronold</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg594">Dr. Sascha Raabe</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg595">Mechthild Rawert</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg596">Steffen Reiche (Cottbus)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg597">Maik Reichel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg598">Gerold Reichenbach</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg599">Dr. Carola Reimann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg600">Christel Riemann-Hanewinckel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg601">Sönke Rix</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg602">Rene Röspel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg603">Dr. Ernst Dieter Rossmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg604">Karin Roth (Esslingen)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg605">Michael Roth (Heringen)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg606">Ortwin Runde</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg607">Marlene Rupprecht (Tuchenbach)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg608">Anton Schaaf</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg609">Axel Schäfer (Bochum)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg610">Bernd Scheelen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg611">Marianne Schieder</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg612">Ulla Schmidt (Aachen)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg613">Silvia Schmidt (Eisleben)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg614">Renate Schmidt (Nürnberg)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg615">Dr. Frank Schmidt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg616">Heinz Schmitt (Landau)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg617">Carsten Schneider (Erfurt)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg618">Olaf Scholz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg619">Ottmar Schreiner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg620">Gerhard Schröder</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg621">Reinhard Schultz (Everswinkel)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg622">Swen Schulz (Spandau)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg623">Ewald Schurer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg624">Frank Schwabe</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg625">Dr. Angelica Schwall-Düren</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg626">Dr. Martin Schwanholz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg627">Rolf Schwanitz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg628">Rita Schwarzelühr-Sutter</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg629">Wolfgang Spanier</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg630">Dr. Margrit Spielmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg631">Jörg-Otto Spiller</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg632">Dr. Ditmar Staffelt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg633">Andreas Steppuhn</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg634">Ludwig Stiegler</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg635">Rolf Stöckel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg636">Christoph Strässer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg637">Dr. Peter Struck</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg638">Joachim Stünker</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg639">Dr. Rainer Tabillion</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg640">Jörg Tauss</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg641">Jella Teuchner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg642">Wolfgang Thierse</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg643">Jörn Thießen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg644">Franz Thönnes</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg645">Hans-Jürgen Uhl</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg646">Rüdiger Veit</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg647">Simone Violka</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg648">Jörg Vogelsänger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg649">Dr. Marlies Volkmer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg650">Hedi Wegener</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg651">Andreas Weigel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg652">Petra Weis</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg653">Gunter Weißgerber</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg654">Gert Weisskirchen (Wiesloch)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg655">Dr. Rainer Wend</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg656">Lydia Westrich</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg657">Dr. Margrit Wetzel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg658">Andrea Wicklein</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg659">Heidemarie Wieczorek-Zeul</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg660">Dr. Dieter Wiefelspütz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg661">Engelbert Wistuba</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg662">Waltraud Wollf (Wolmirstedt)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg663">Heidi Wright</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg664">Uta Zapf</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg665">Manfred Zöllmer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg666">Brigitte Zypries</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg667">FDP</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg668">Jens Ackermann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg669">Christian Ahrendt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg670">Uwe Barth</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg671">Rainer Brüderle</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg672">Angelika Brunkhorst</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg673">Ernst Burgbacher</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg674">Patrick Döring</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg675">Mechthild Dyckmans</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg676">Jörg van Essen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg677">Ulrike Flach</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg678">Otto Fricke</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg679">Paul K. Friedhoff</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg680">Horst Friedrich (Bayreuth)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg681">Dr. Edmund Peter Geisen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg682">Dr. Wolfgang Gerhardt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg683">Hans-Michael Goldmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg684">Miriam Gruß</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg685">Joachim Günther (Plauen)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg686">Dr. Christel Happach-Kasan</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg687">Heinz-Peter Haustein</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg688">Elke Hoff</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg689">Birgit Homburger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg690">Dr. Werner Hoyer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg691">Michael Kauch</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg692">Dr. Heinrich L. Kolb</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg693">Hellmut Königshaus</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg694">Gudrun Kopp</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg695">Heinz Lanfermann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg696">Sibylle Laurischk</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg697">Harald Leibrecht</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg698">Ina Lenke</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg699">Michael Link</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg700">Markus Löning</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg701">Horst Meierhofer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg702">Patrick Meinhardt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg703">Jan Mücke</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg704">Burkhardt Müller-Sönksen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg705">Dirk Niebel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg706">Hans-Joachim Otto (Frankfurt)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg707">Cornelia Pieper</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg708">Gisela Piltz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg709">Jörg Rohde</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg710">Frank Schäffler</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg711">Dr. Konrad Schily</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg712">Marina Schuster</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg713">Dr. Hermann Otto Solms</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg714">Dr. Rainer Stinner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg715">Carl-Ludwig Thiele</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg716">Florian Toncar</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg717">Christoph Waitz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg718">Dr. Guido Westerwelle</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg719">Dr. Claudia Winterstein</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg720">Dr. Volker Wissing</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg721">Hartfrid Wolff (Rems-Murr)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg722">Martin Zeil</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg723">BÜNDNIS 90/DIE GRÜNEN</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg724">Marieluise Beck (Bremen)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg725">Volker Beck (Köln)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg726">Cornelia Behm</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg727">Birgitt Bender</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg728">Matthias Berninger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg729">Grietje Bettin</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg730">Alexander Bonde</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg731">Ekin Deligöz</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg732">Dr. Thea Dückert</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg733">Dr. Ursula Eid</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg734">Joseph Fischer (Frankfurt)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg735">Kai Boris Gehring</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg736">Katrin Göring-Eckardt</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg737">Anja Hajduk</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg738">Britta Haßelmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg739">Priska Hinz (Herborn)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg740">Ulrike Höfken</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg741">Bärbel Höhn</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg742">Thilo Hoppe</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg743">Ute Koczy</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg744">Fritz Kuhn</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg745">Renate Künast</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg746">Undine Kurth (Quedlinburg)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg747">Markus Kurth</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg748">Dr. Reinhard Loske</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg749">Anna Lührmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg750">Jerzy Montag</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg751">Kerstin Müller (Köln)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg752">Winfried Nachtwei</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg753">Brigitte Pothmer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg754">Claudia Roth (Augsburg)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg755">Krista Sager</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg756">Elisabeth Scharfenberg</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg757">Christine Scheel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg758">Gerhard Schick</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg759">Rainder Steenblock</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg760">Silke Stokar von Neuforn</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg761">Dr. Harald Frank Terpe</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg762">Wolfgang Wieland</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg763">Josef Philip Winkler</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg764">Margareta Wolf (Frankfurt)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg765">Nein</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg766">CDU/CSU</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg767">Dr. Wolf Bauer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg768">Jochen Borchert</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg769">Norbert Schindler</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg770">SPD</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg771">Gregor Amann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg772">FDP</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg773">Jürgen Koppelin</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg774">Sabine Leutheusser-Schnarrenberger</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg775">Dr. Max Stadler</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg776">DIE LINKE</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg777">Hüseyin-Kenan Aydin</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg778">Dr. Dietmar Bartsch</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg779">Karin Binder</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg780">Prof. Dr. Lothar Bisky</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg781">Heidrun Bluhm</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg782">Eva Bulling-Schröter</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg783">Dr. Martina Bunge</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg784">Roland Claus</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg785">Sevim Dagdelen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg786">Dr. Jörg-Diether</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg787">Dehm-Desoi</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg788">Werner Dreibus</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg789">Dr. Dagmar Enkelmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg790">Klaus Ernst</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg791">Wolfgang Gehrcke-Reymann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg792">Diana Golze</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg793">Dr. Gregor Gysi</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg794">Heike Hänsel</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg795">Lutz Heilmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg796">Hans-Kurt Hill</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg797">Cornelia Hirsch</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg798">Inge Höger-Neuling</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg799">Dr. Barbara Höll</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg800">Ulla Jelpke</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg801">Dr. Lukrezia Jochimsen</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg802">Dr. Hakki Keskin</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg803">Katja Kipping</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg804">Monika Knoche</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg805">Jan Korte</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg806">Katrin Kunert</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg807">Oskar Lafontaine</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg808">Michael Leutert</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg809">Ursula Lötzer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg810">Dr. Gesine Lötzsch</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg811">Ulrich Maurer</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg812">Dorothee Menzner</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg813">Kornelia Möller</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg814">Kersten Naumann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg815">Wolfgang Neskovic</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg816">Norman Paech</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg817">Petra Pau</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg818">Bodo Ramelow</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg819">Elke Reinke</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg820">Paul Schäfer (Köln)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg821">Volker Schneider (Saarbrücken)</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg822">Dr. Herbert Schui</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg823">Dr. Ilja Seifert</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg824">Dr. Petra Sitte</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg825">Frank Spieth</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg826">Dr. Kirsten Tackmann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg827">Dr. Axel Troost</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg828">Alexander Ulrich</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg829">Gert Winkelmeier</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg830">Jörn Wunderlich</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg831">Sabine Zimmermann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg832">BÜNDNIS 90/DIE GRÜNEN</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg833">Winfried Hermann</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg834">Peter Hettlich</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg835">Dr. Anton Hofreiter</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg836">Sylvia Kotting-Uhl</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg837">Monika Lazar</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg838">Hans-Christian Ströbele</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg839">Enthalten</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg840">CDU/CSU</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg841">Peter Albach</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg842">SPD</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg843">Dr. Wolfgang Wodarg</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg844">BÜNDNIS 90/DIE GRÜNEN</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg845">Irmingard Schewe-Gerigk</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg846">Liebe Kolleginnen und Kollegen, wir sind damit am Ende unserer heutigen Tagesordnung.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg847">Interfraktionell ist vereinbart worden, dass an den Sitzungstagen, an denen die Bundeskanzlerin gewählt, die Bundesregierung vereidigt, die Regierungserklärung abgegeben und die Aussprache hierüber durchgeführt wird, keine Regierungsbefragung, keine Fragestunde und keine Aktuellen Stunden stattfinden sollen. Sind Sie damit einverstanden? - Ich höre keinen Widerspruch. Dann ist so beschlossen.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg848">Der Termin der nächsten Sitzung wird Ihnen rechtzeitig bekannt gegeben.</seg>
+          <seg id="ParlaMint-DE_2005-11-08-16-002.seg849">Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluss: 16.40 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

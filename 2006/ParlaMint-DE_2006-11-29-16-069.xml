@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_2006-11-29-16-069">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 16. Wahlperiode, 69. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 29.11.2006 (69. Sitzung der 16. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 16, Session 69 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 2006-11-29 (Session 69 in Legislative Period 16)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="69">69. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.16" n="16">16. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="69">Session 69</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.16" n="16">Legislative Period 16</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 29.11.2006</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 2006-11-29</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2015-10-20">http://webarchiv.bundestag.de/archive/2008/0912/bic/plenarprotokolle/pp/2006/16069a.zip</idno>
+          <date when="2006-11-29">2006-11-29</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="2006-11-29">2006-11-29</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde</head>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u1" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg1">Guten Tag, liebe Kolleginnen und Kollegen!</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg2">Die Sitzung ist eröffnet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg3">Ich rufe den Tagesordnungspunkt 1 auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg4">Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Zweiten Buches Sozialgesetzbuch und des Finanzausgleichsgesetzes</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg5">- Drucksache 16/3572 -</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg6">Überweisungsvorschlag:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg7">Ausschuss für Arbeit und Soziales (f)</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg8">Innenausschuss</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg9">Rechtsausschuss</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg10">Finanzausschuss</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg11">Ausschuss für Wirtschaft und Technologie</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg12">Ausschuss für Verkehr, Bau und Stadtentwicklung</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg13">Haushaltsausschuss mitberatend und gemäß § 96 GO</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg14">Eine Aussprache ist nicht vorgesehen. Wir kommen daher gleich zur Überweisung.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg15">Interfraktionell wird Überweisung des Gesetzentwurfs auf Drucksache 16/3572 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen. Gibt es dazu anderweitige Vorschläge? - Das ist nicht der Fall. Dann ist die Überweisung so beschlossen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg16">Ich rufe den Tagesordnungspunkt 2 auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg17">Fragestunde</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg18">- Drucksachen 16/3562, 16/3598 -</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg19">Zunächst rufe ich gemäß Nr. 10 Abs. 2 der Richtlinien für die Fragestunde die dringliche Frage des Abgeordneten Hans-Christian Ströbele auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg20">Ist der Bundesregierung bekannt, dass in der US-EUCOM-Militärzentrale in Stuttgart-Vaihingen, also von Deutschland aus, die Verschleppung so genannter illegaler Kämpfer, "enemy combatants", in das US-Gefangenenlager Guantanamo auf Kuba mit organisiert worden sein soll, insbesondere die Verbringung der so genannten Algerian Six aus Bosnien über den US-Stützpunkt Ramstein nach Guantanamo im Januar 2002 ("Report Mainz" vom 27. November 2006), und wie gedenkt die Bundesregierung - auch angesichts ihrer Kritik an Guantanamo -, diese Vorwürfe aufzuklären sowie eine Wiederholung und Fortführung solcher etwaiger Aktivitäten der US EUCOM auszuschließen, insbesondere durch Änderungen der Truppenstationierungsverträge mit den USA?</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg21">Steht ein Vertreter der Bundesregierung für die Beantwortung bereit?</seg>
+          <vocal type="exclamat">
+            <desc>Gerd Andres, Parl. Staatssekretär: Die Bundesregierung ist reichhaltig vertreten!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg22">- Sie ist zwar reichhaltig vertreten; ist denn auch schon jemand anwesend, der sich berufen fühlt, diese Frage zu beantworten? -</seg>
+          <vocal type="exclamat">
+            <desc>Jürgen Koppelin [FDP]: Die Vertretung ist nur personell, nicht inhaltlich!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg23">Zur Beantwortung der Frage steht der Parlamentarische Staatssekretär Schmidt zur Verfügung.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Jürgen Koppelin [FDP]: Ich hätte ihn so gerne herbeizitiert!</desc>
+        </vocal>
+        <note type="speaker">Christian Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q107018" xml:id="ParlaMint-DE_2006-11-29-16-069.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg24">Herr Kollege Ströbele, zu Ihrer dringlichen Frage folgende Antwort: Erstens. Der Bundesregierung sind die von Ihnen angesprochenen Meldungen bekannt. Von einem Transport über Ramstein ist nach Kenntnis der Bundesregierung in diesem Zusammenhang allerdings nicht berichtet worden. Ob die Pressemeldungen bezüglich der Beteiligung des US-Hauptquartiers in Stuttgart US EUCOM an Transporten von Gefangenen zutreffen, kann die Bundesregierung nicht bestätigen. Auch zur Authentizität der in den Pressemeldungen gezeigten Dokumente kann die Bundesregierung nicht Stellung nehmen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg25">Die Bundeswehr hat von der durch bosnische Behörden vorgenommenen Festnahme des später als Algerian Six bezeichneten Personenkreises im Oktober 2001 erfahren. Von der am 18. Januar 2002 erfolgten Übergabe des Personenkreises durch bosnische Behörden an amerikanische Dienststellen, die trotz der durch das Oberste Gericht der bosnisch-kroatischen Föderation am 17. Januar 2002 angeordneten Freilassung aus Mangel an Beweisen stattfand, hat die Bundeswehr unmittelbar erfahren, da es in diesem Zusammenhang zu einer Demonstration von etwa 300 Personen in Sarajewo gekommen war, die diese gewaltsam zu verhindern versuchten. Darüber hinaus wurde über diesen Vorgang einschließlich der vermuteten Verbringung nach Guantanomo in den Medien ausführlich berichtet, so unter anderem in der "Süddeutschen Zeitung" vom 19. Januar 2002 und von "rtr" am 18. Januar 2002.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg26">Zweitens. Die Aufklärung möglicherweise strafrechtlich relevanter Vorwürfe gegen US-Dienststellen in Deutschland ist Aufgabe der deutschen Justiz.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg27">Drittens. Eine Änderung der Abkommen in Bezug auf die Stationierung von US-Truppen in Deutschland wird von der Bundesregierung nicht in Erwägung gezogen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u3" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg28">Haben Sie Nachfragen, Kollege Ströbele?</seg>
+        </u>
+        <note type="speaker">Hans-Christian Ströbele (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q71533" xml:id="ParlaMint-DE_2006-11-29-16-069.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg29">Ja. - Herr Parlamentarischer Staatssekretär, ist die Bundesregierung bereit, angesichts der auf der Hand liegenden Fakten, die Sie gerade geschildert haben, eine Bewertung dieses Vorganges vorzunehmen? Die Bundesregierung hat in ihren bisherigen Stellungnahmen zu den Renditionflügen der USA über Europa, über Deutschland, immer behauptet, sie gehe davon aus, dass US-Behörden sich strikt an deutsche Gesetze - dazu zähle ich auch das Strafgesetzbuch - und das Völkerrecht halten.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg30">Ist die Bundesregierung angesichts dessen nicht bereit, die Verbringung der Algerian Six - nachdem sie von einem Gericht in Bosnien freigesprochen worden sind, wurden sie von US-Soldaten gefangen genommen, nach Guantanamo gebracht und werden dort seit fünf Jahren ohne gerichtliches Verfahren festgehalten, möglicherweise auch gefoltert - zu bewerten, zu missbilligen und daraus Konsequenzen für die Truppenstationierung in Deutschland zu ziehen?</seg>
+        </u>
+        <note type="speaker">Christian Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q107018" xml:id="ParlaMint-DE_2006-11-29-16-069.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg31">Herr Kollege Ströbele, die von Ihnen angesprochenen Punkte, vor allem die Vorgänge in Bosnien, berühren die Frage von Abkommen über Truppenstationierungen in Deutschland nicht.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg32">Ihre Frage, wie die Bundesregierung die Verbringung nach Guantanamo im Jahr 2002 bewertet, möchte ich mit dem Hinweis darauf beantworten, dass die Bundeskanzlerin bereits Anfang dieses Jahres in einem Interview, das im "Spiegel" in der Ausgabe 2 des Jahres 2006 abgedruckt wurde, betont, dass eine Institution wie Guantanamo auf Dauer so nicht existieren könne und dürfe.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg33">In einer gemeinsamen Gipfelerklärung der USA und der Europäischen Union vom 21. Juni 2006 haben beide Seiten unterstrichen, dass sie in Übereinstimmung mit ihren gemeinsamen Werten sicherstellen werden, dass Maßnahmen zur Bekämpfung des Terrorismus vollständig mit den Verpflichtungen nach dem Völkerrecht - einschließlich der Menschenrechte, des Flüchtlingsrechtes und des humanitären Völkerrechtes - in Einklang stehen. Unterschiedliche Meinungen gibt es aber - das ist allgemein bekannt - zu bestimmten Einzelfragen der völkerrechtlichen Bewertung. Die Bundesregierung befindet sich dazu in einem kontinuierlichen Dialog mit der US-Regierung, sowohl bilateral als auch im Rahmen der Europäischen Union.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u6" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg34">Sie haben noch eine zweite Nachfrage.</seg>
+        </u>
+        <note type="speaker">Hans-Christian Ströbele (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q71533" xml:id="ParlaMint-DE_2006-11-29-16-069.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg35">Herr Parlamentarischer Staatssekretär, ist die Bundesregierung bereit, zur Aufklärung der Frage, ob das in Deutschland, nämlich in Stuttgart-Vaihingen, stationierte US EUCOM, also das amerikanische Hauptquartier, in die - ich sage einmal: illegale, möglicherweise strafbare - Verbringung der Algerian Six von Bosnien nach Guantanamo verwickelt war, beizutragen? Ist die Bundesregierung bereit, zur Aufklärung dieser Fakten die Unterlagen beizuziehen, die von den US-Behörden im Rahmen des Freedom of Information Act freigegeben worden sind und derzeit beispielsweise der ARD vorliegen? Kann die Bundesregierung wenigstens die Ermittlungen vornehmen, die auch deutsche Journalisten, wie beispielsweise die verdienstvollen Journalisten der ARD, vorgenommen haben?</seg>
+        </u>
+        <note type="speaker">Christian Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q107018" xml:id="ParlaMint-DE_2006-11-29-16-069.u8" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg36">Herr Kollege, die Arbeit aller Journalisten ist per se verdienstvoll. Aufgrund Ihrer Fragestellung kann übrigens der Eindruck entstehen, dass Sie dafür Sorge tragen, dass Medien, bevor Sie im Deutschen Bundestag Fragen stellen, mit den entsprechenden Informationen versorgt werden. Ich überlasse es Ihrer Bewertung, wie Sie das mit Ihrer parlamentarischen Initiative verknüpfen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg37">Es bleibt festzustellen: Ob diese Pressemeldungen bezüglich der Beteiligung des US-Hauptquartiers in Stuttgart an Transporten von Gefangenen zutreffen oder nicht, kann die Bundesregierung nicht bestätigen. Auch zur Authentizität der in den Presseberichten gezeigten Dokumente kann und wird die Bundesregierung nicht Stellung nehmen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg38">Ich will aber sagen, dass die Befragung der damals bei US EUCOM eingesetzten deutschen Verbindungssoldaten ergeben hat, dass sie keine Kenntnis einer Beteiligung von US EUCOM hatten.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u9" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg39">Der Kollege Koppelin hat noch eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Jürgen Koppelin (FDP):</note>
+        <u who="#Q1717375" xml:id="ParlaMint-DE_2006-11-29-16-069.u10" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg40">Herr Staatssekretär, darf ich noch einmal konkret nachfragen: Hat die vorherige Bundesregierung Kenntnisse von solchen Vorgängen gehabt, ist sie informiert worden? Wenn ja: Was hat sie unternommen, um weitere Aufklärung zu bekommen? Hat sie auch Schritte eingeleitet?</seg>
+        </u>
+        <note type="speaker">Christian Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q107018" xml:id="ParlaMint-DE_2006-11-29-16-069.u11" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg41">Herr Kollege Koppelin, die vorherige Bundesregierung hat von der Festnahme des Personenkreises, der so genannten Algerian Six, in Bosnien im Oktober 2001 erfahren. Sie hat am 17./18. Januar 2002 von den Vorgängen in Bosnien Kenntnis erhalten. Inwieweit die Bundesregierung zur damaligen Zeit über weitere Informationen verfügen konnte, ist mir nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u12" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg42">Kollege Maurer hat noch eine Frage. Aber zuvor möchte ich ihm herzlich zu seinem heutigen Geburtstag gratulieren.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall</desc>
+        </kinesic>
+        <note type="speaker">Ulrich Maurer (DIE LINKE):</note>
+        <u who="#Q98802" xml:id="ParlaMint-DE_2006-11-29-16-069.u13" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg43">Herr Staatssekretär, wird sich die Bundesregierung bemühen, mehr über den diesbezüglichen Kenntnisstand ihrer Vorgängerregierung zu erfahren? Wird sich die Bundesregierung aktiv um Aufklärung der erhobenen Vorwürfe bemühen? Wie wird sich die Bundesregierung verhalten, falls sie zu der Feststellung kommen sollte, dass rechtswidrige Handlungen stattgefunden haben?</seg>
+        </u>
+        <note type="speaker">Christian Schmidt, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q107018" xml:id="ParlaMint-DE_2006-11-29-16-069.u14" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg44">Vorneweg darf ich mich den Wünschen des Hauses anschließen, Herr Kollege, und Ihnen auch meinerseits alles Gute zu Ihrem Geburtstag wünschen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg45">Die Bundesregierung befindet sich, wie ich bereits im Hinblick auf das, was mit Ihren Fragen wohl insinuiert ist - die Lage der Gefangenen in Guantanamo -, gesagt habe, in einem bilateralen Dialog mit den USA. Darüber hinaus findet ein Dialog zwischen der EU und den USA statt. Die Bundesregierung wird die völkerrechtliche Bewertung bestimmter Einzelfragen im Zusammenhang dieses Dialogs vornehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u15" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg46">Danke, Herr Staatssekretär. - Nachdem die dringliche Frage aufgerufen und beantwortet worden ist, kommen wir jetzt zu den Fragen auf Drucksache 16/3562.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg47">Wir kommen zum Geschäftsbereich des Bundesministeriums für Arbeit und Soziales. Zur Beantwortung der Fragen steht der Parlamentarische Staatssekretär Gerd Andres zur Verfügung.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg48">Die Frage 1 des Abgeordneten Dirk Niebel aus der FDP-Fraktion wird schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg49">Ich rufe die Frage 2 der Kollegin Cornelia Hirsch, Die Linke, auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg50">Ist aus der Antwort des Bundesministeriums für Arbeit und Soziales auf meine schriftliche Frage 1 zur zukünftigen Gestaltung der Ausbildungsstatistik der Bundesagentur für Arbeit auf Bundestagsdrucksache 16/3386 zu schließen, dass sie die neuen Möglichkeiten für mehr Transparenz und Realität in der Statistik durch Umstellung auf das Erfassungssystem VerBIS nicht nutzen will, da nicht bekannt sei, ob die Jugendlichen, die sich nach Vermittlungsvorschlägen nicht mehr bei den Agenturen oder den Trägern der Grundsicherung für Arbeitsuchende melden, noch weiterhin eine Ausbildungsstelle suchen oder was sie tatsächlich machen, obwohl Untersuchungen des Bundesinstituts für Berufsbildung ergeben haben, dass zwei Drittel der Jugendlichen, denen alternative Vermittlungsvorschläge unterbreitet wurden, angeben, dass sie sich in einer Notsituation sehen bzw. dass ihr alternativer Verbleib nicht ihren Bildungswünschen entspricht, was bedeutet, dass eine Nutzung der Möglichkeiten des neuen Erfassungssystems VerBIS zu einer Ausbildungsstatistik führen würde, die deutlich näher an der Realität wäre, und, wenn ja, warum?</seg>
+        </u>
+        <note type="speaker">Gerd Andres, Parl. Staatssekretär beim Bundesminister für Arbeit und Soziales:</note>
+        <u who="#Q99899" xml:id="ParlaMint-DE_2006-11-29-16-069.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg51">Frau Abgeordnete Hirsch, die Frage wird mit einem klaren Nein beantwortet. Die Bundesagentur für Arbeit strebt mit der Umstellung auf das EDV-System VerBIS eine Verbesserung der Arbeitsgrundlage der Berater und Vermittler an. Dies soll insbesondere den Ausbildung suchenden Jugendlichen zugute kommen. Bewerber, die noch nicht vermittelt werden konnten, bleiben, wenn sie ihren Ausbildungswunsch bis zum 30. September aufrechterhalten, für das neue Berufsberatungsjahr registriert. Von Ausbildungsvermittlung kann nur profitieren, wer diese in Anspruch nimmt. Doch es gibt aus guten Gründen keinen Zwang. Vielmehr ist die Inanspruchnahme der Berufsberatung und Ausbildungsvermittlung der Bundesagentur für Arbeit freiwillig.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u17" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg52">Ihre Nachfragen, bitte.</seg>
+        </u>
+        <note type="speaker">Cornelia Hirsch (DIE LINKE):</note>
+        <u who="#Q1133345" xml:id="ParlaMint-DE_2006-11-29-16-069.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg53">Besten Dank für die Antwort erst einmal. - Ich habe eine Nachfrage: Könnten Sie versuchen, auf die konkrete Situation einzugehen? Die Bundesagentur für Arbeit spricht offiziell von 50 000 fehlenden Ausbildungsplätzen, wogegen den Gewerkschaften zufolge eigentlich 150 000 Jugendliche noch auf der Suche nach einem Ausbildungsplatz sind. Wenn man die Möglichkeiten des neuen Erfassungssystems VerBIS nutzen würde, wie würde sich das in der zukünftigen Ausbildungsstatistik widerspiegeln?</seg>
+        </u>
+        <note type="speaker">Gerd Andres, Parl. Staatssekretär beim Bundesminister für Arbeit und Soziales:</note>
+        <u who="#Q99899" xml:id="ParlaMint-DE_2006-11-29-16-069.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg54">Noch einmal, Frau Abgeordnete: In der Ausbildungsstatistik wird nur derjenige als Ausbildungsplatzbewerber geführt, der sich bei der BA nach dem 30. September eines Jahres ausdrücklich als solcher zu erkennen gibt. Das Problem ist, dass die jungen Leute im Laufe des Berufsberatungsjahres, das vom 1. Oktober eines Jahres bis zum 30. September des nächsten Jahres dauert, mitteilen, dass sie einen Ausbildungsplatz suchen. Dann finden unterschiedliche Aktivitäten statt. Nach dem 30. September eines Jahres wird festgehalten, wer noch immer einen Ausbildungsplatz sucht. Viele der jungen Menschen machen dann schon etwas anderes.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg55">Sie haben in Ihrer Frage darauf hingewiesen, dass viele der Jugendlichen zwar etwas anderes machen, aber trotzdem gerne einen Ausbildungsplatz hätten. Das ist ihnen unbenommen. Sie müssen sich nur bewerben und das mitteilen. Dass dem so ist, kann schließlich niemand ahnen. Daher werden keine weiteren Ausbildungsplätze auf Vorrat gehalten.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg56">Ein Teil der Jugendlichen absolviert eine schulische Maßnahme, ein Teil von ihnen macht ein berufliches Praktikum und ein Teil nimmt an Trainingsmaßnahmen oder Ähnlichem teil. Die BA kann nicht davon ausgehen, dass jemand, der sich einmal um einen Ausbildungsplatz beworben hat, dies für ewige Zeit tun wird. Deswegen ist Ihre Frage nach dem Verfahren sehr einfach zu beantworten: Wir halten im Rahmen von VerBIS nicht fest, was jemand ursprünglich einmal gesucht hat, sondern welchen aktuellen Vermittlungswunsch er hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u20" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg57">Ihre zweite Nachfrage.</seg>
+        </u>
+        <note type="speaker">Cornelia Hirsch (DIE LINKE):</note>
+        <u who="#Q1133345" xml:id="ParlaMint-DE_2006-11-29-16-069.u21" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg58">Danke schön. - Aus den bisher, unter anderem vom Bundesinstitut für Berufsbildung, vorgelegten Studien ist Ihnen bekannt, dass ein sehr großer Teil der Jugendlichen, die in sonstigen Maßnahmen landen - ich glaube, mehr als 60 Prozent von ihnen -, wenn sie gefragt werden, nach wie vor sagen, dass sie noch immer einen Ausbildungsplatz suchen, dass sie aber nicht mehr den offiziellen Weg gehen, sich bei der Bundesagentur für Arbeit zu melden.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg59">Mir geht es nicht in erster Linie um die Frage, ob wir in irgendeiner Form sicherstellen wollen, dass sich die Jugendlichen bei der Bundesagentur für Arbeit melden. Meine Frage zielt vielmehr darauf, wie wir es schaffen können, eine realistische Ausbildungsbilanz vorzulegen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg60">Die Ausbildungsbilanz wäre doch viel realistischer - dies könnte durch VerBIS gewährleistet werden -, wenn wir die verbliebenen Bewerberinnen und Bewerber, von denen wir wissen, dass sie noch immer einen Ausbildungsplatz suchen, auch wenn sie sich nicht offiziell bei der BA gemeldet haben, in der Statistik als Ausbildungsplatzsuchende führen würden. Meine Frage lautet: Warum sollen diese Möglichkeiten nicht genutzt werden? So könnten wir schließlich unser Ziel, eine realistischere Ausbildungsbilanz vorzulegen, erreichen.</seg>
+        </u>
+        <note type="speaker">Gerd Andres, Parl. Staatssekretär beim Bundesminister für Arbeit und Soziales:</note>
+        <u who="#Q99899" xml:id="ParlaMint-DE_2006-11-29-16-069.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg61">Es gibt im Hinblick auf die Daten unterschiedliche Einschätzungen, zum einen aufgrund unterschiedlicher Beteiligter und zum anderen aufgrund unterschiedlicher Verfahren.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg62">Die erste Grundlage ist, dass junge Menschen, die der BA zum Beispiel im Rahmen der Berufsberatung mitteilen, dass sie einen Ausbildungsplatz suchen, zunächst einmal als Ausbildungsplatzsuchende registriert werden. Angesichts der vorliegenden Zahlen des vergangenen Frühjahrs wissen wir beispielsweise schon jetzt, wie viele Bewerber sich für das nächste Ausbildungsjahr gemeldet haben. Dann können wir einen Vergleich mit den Bewerberzahlen des vergangenen Berufsberatungsjahres ziehen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg63">Die zweite Grundlage ist, dass die Industrie- und Handelskammern und die Handwerkskammern ganz konkrete Zahlen liefern, wie viele Jugendliche nach einem bestimmten Stichtag in den Ausbildungsverzeichnissen bzw. Ausbildungsrollen eingetragen sind.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg64">Unsere dritte Quelle sind - darauf haben auch Sie Bezug genommen - Befragungsaktionen des BIBB.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg65">Wenn man all das berücksichtigt, erhält man, je nachdem, welchen Zeitraum man betrachtet, sehr unterschiedliche Bilder. Die Industrie- und Handelskammern zum Beispiel vertreten die Meinung, die BA erfasse viel zu wenig. Das ist natürlich richtig. Wer sich direkt beworben und einen Ausbildungsplatz bekommen hat, meldet sich bei der BA nicht oder nicht mehr. Schon allein deshalb ist die Zahl derjenigen, die einen Ausbildungsplatz suchen, höher als in der Statistik ausgewiesen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg66">Ihre Frage war: Wie hängt das Ganze mit VerBIS zusammen? VerBIS wurde zur Verbesserung der Vermittlung und Beratung entwickelt; darauf ist es angelegt und dazu soll es genutzt werden. Das bedeutet aber nicht - das wiederhole ich -, dass ein Jugendlicher, der sich im Berufsberatungsjahr um einen Ausbildungsplatz bewirbt, für ewige Zeit in VerBIS als Ausbildungsplatzsuchender registriert ist. Denn wenn die BA - entweder im Rahmen von Nachvermittlungsaktionen oder im Rahmen eigener Aktivitäten - nicht erfährt, dass er nach wie vor einen Ausbildungsplatz sucht und weiterhin registriert bleiben möchte, wird er aus der Statistik herausgenommen. Das ist ein ganz normales Verfahren.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u23" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg67">Der Kollege Maurer hat noch eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Ulrich Maurer (DIE LINKE):</note>
+        <u who="#Q98802" xml:id="ParlaMint-DE_2006-11-29-16-069.u24" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg68">Herr Staatssekretär, treffen die Behauptungen zu, wonach aufgrund der Umstellung auf das neue Erfassungssystem bis Frühjahr 2007 keine Monatsbilanzen zur Ausbildungsplatzsituation veröffentlicht werden, und, falls ja, worauf ist das zurückzuführen und führt das nicht zu einer Beeinträchtigung der Möglichkeiten der Bundesregierung hinsichtlich der Bewertung der Ausbildungsplatzsituation?</seg>
+        </u>
+        <note type="speaker">Gerd Andres, Parl. Staatssekretär beim Bundesminister für Arbeit und Soziales:</note>
+        <u who="#Q99899" xml:id="ParlaMint-DE_2006-11-29-16-069.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg69">Es gibt einen Umstellungsprozess. Die Frage, ob die Behauptungen zutreffen, kann ich gegenwärtig nicht beantworten.</seg>
+          <vocal type="exclamat">
+            <desc>Ulrich Maurer [DIE LINKE]: Würden Sie sie uns schriftlich beantworten?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg70">- Ich kann sie Ihnen gerne schriftlich beantworten. Meinen Sie diese eine Frage oder meinen Sie alle drei Fragen, die Sie gestellt haben? Wegen Ihres heutigen Geburtstages haben Sie einen gut. Ich beantworte auch Ihre drei Fragen.</seg>
+          <vocal type="exclamat">
+            <desc>Ulrich Maurer [DIE LINKE]: Dann beantworten Sie bitte alle drei!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg71">- Gut.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u26" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg72">Der Abgeordnete Maurer bittet also um die schriftliche Beantwortung aller drei Fragen. - Herzlichen Dank, Herr Staatssekretär.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg73">Wir kommen damit zum Geschäftsbereich des Bundesministeriums der Justiz. Zur Beantwortung der Fragen steht der Parlamentarische Staatssekretär Alfred Hartenbach zur Verfügung.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg74">Ich rufe die Fragen 3 und 4 des Abgeordneten Dr. Anton Hofreiter auf. Da dieser nicht anwesend ist, verfahren wir mit diesen Fragen wie in der Geschäftsordnung vorgesehen. Damit bedanke ich mich für Ihre Bereitschaft, die Fragen zu beantworten, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Alfred Hartenbach, Parl. Staatssekretär bei der Bundesministerin der Justiz:</note>
+        <u who="#Q103781" xml:id="ParlaMint-DE_2006-11-29-16-069.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg75">Ich bedanke mich für Ihre Freundlichkeit.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u28" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg76">Wir kommen zum Geschäftsbereich des Bundesministeriums der Verteidigung. Die Fragen 5 und 6 der Kollegin Brigitte Pothmer werden schriftlich beantwortet. Damit verlassen wir auch diesen Geschäftsbereich wieder, Herr Staatssekretär Schmidt.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg77">Wir kommen zum Geschäftsbereich des Bundesministeriums für Gesundheit. Zur Beantwortung der Fragen steht die Parlamentarische Staatssekretärin Marion Caspers-Merk bereit.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg78">Ich rufe Frage 7 des Kollegen Omid Nouripour auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg79">Wie bewertet die Bundesregierung das fünfjährige Modellprojekt zur kontrollierten Abgabe von Heroin an Opiatabhängige in den Städten Hamburg, Hannover, Frankfurt, Köln, Karlsruhe und München bei Berücksichtigung der Ergebnisse der Studie der Universität Hamburg vom Januar 2006?</seg>
+        </u>
+        <note type="speaker">Marion Caspers-Merk, Parl. Staatssekretärin bei der Bundesministerin für Gesundheit:</note>
+        <u who="#Q124134" xml:id="ParlaMint-DE_2006-11-29-16-069.u29" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg80">Herr Kollege Nouripour, aus Sicht der Bundesregierung wurde das Modellprojekt erfolgreich durchgeführt. Es hat sich gezeigt, dass die im Studiendesign aufgeführte Zielgruppe der Schwerstopiatabhängigen erreichbar und eine Diamorphinbehandlung wirksam durchführbar ist. Das zentrale Ergebnis des bundesdeutschen Modellprojekts hinsichtlich beider Hauptzielkriterien ist eine statistisch signifikante Überlegenheit der Diamorphin- gegenüber der Methadonbehandlung. Das erste Zielkriterium war die Verbesserung des Gesundheitszustandes, das zweite Kriterium war der Rückgang des illegalen Drogenkonsums.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg81">In der Gruppe der mit Diamorphin Behandelten zeigte sich bei 80 Prozent der Probanden eine gesundheitliche Verbesserung, in der Vergleichsgruppe der mit Methadon Behandelten nur bei 74 Prozent. Ein Rückgang des illegalen Drogenkonsums trat in der Diamorphingruppe bei 69,1 Prozent der Probanden, in der Methadongruppe nur bei 55,2 Prozent auf.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg82">Auch wenn nur als Erfolg betrachtet wird, wenn die Gesundheit der Patienten deutlich verbessert wurde und sie zugleich ihren illegalen Heroinkonsum reduzierten, ist die Diamorphinbehandlung der Methadontherapie überlegen. Da die Unterschiede statistisch signifikant sind, ist der wissenschaftliche Nachweis für eine größere Wirksamkeit der Diamorphinbehandlung gegenüber der Methadonsubstitution für diese spezifische Patientengruppe erbracht.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg83">Die Diamorphinbehandlung ist bei den Patienten, die vor der Teilnahme an der Studie nicht ausreichend von der Methadonsubstitution profitierten, und bei den Schwerstopiatabhängigen, die vom Drogenhilfesystem zuvor überhaupt nicht erreicht wurden, gleichermaßen wirksam.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u30" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg84">Ihre erste Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Omid Nouripour (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q71635" xml:id="ParlaMint-DE_2006-11-29-16-069.u31" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg85">Frau Staatssekretärin, herzlichen Dank für Ihre Antwort, die auch mit den Ausführungen der Drogenbeauftragten der Bundesregierung, Frau Bätzing, und mit den Erfahrungen, von denen man aus den Kommunen hört und liest - beispielsweise von Frau Rottmann, Gesundheitsdezernentin in Frankfurt am Main -, übereinstimmt.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg86">Daraus ergibt sich aber doch folgende Frage: Heißt das, dass es seitens der Bundesregierung jetzt konkrete weitere Schritte geben wird, um diese Modellprojekte nicht auslaufen zu lassen, sondern zu verlängern?</seg>
+        </u>
+        <note type="speaker">Marion Caspers-Merk, Parl. Staatssekretärin bei der Bundesministerin für Gesundheit:</note>
+        <u who="#Q124134" xml:id="ParlaMint-DE_2006-11-29-16-069.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg87">Herr Kollege Nouripour, am 21. November 2006 ist in einem Spitzengespräch der Koalitionsfraktionen entschieden worden, dass die Diamorphinbehandlung nicht in die Regelversorgung aufzunehmen ist, weil zwischen den beiden die Bundesregierung tragenden Fraktionen keine Einigung zustande kam.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg88">Nach den Regeln der großen Koalition kann ein Gesetzgebungsverfahren nur dann begonnen werden, wenn beide Fraktionen mit dem Verfahren einverstanden sind. Nach derzeitigem Stand wird die Arzneimittelstudie - um eine solche handelt es sich nämlich - am 31. Dezember dieses Jahres beendet. Daher könnte nur dann ohne Änderung der gesetzlichen Grundlage weitergemacht werden, wenn das Bundesinstitut für Arzneimittel und Medizinprodukte, kurz: BfArM, entsprechende Anträge aus den Städten im öffentlichen Interesse positiv bescheidet. Die Anträge aus den Städten müssten im Einzelfall begründet werden. Eine Begründung im Sinne des öffentlichen Interesses wäre, dass dann die Probanden, die man jetzt im Hilfesystem integriert hat, weiterbehandelt werden können. Deswegen gehen wir davon aus, dass das BfArM eine solche Erlaubniserteilung im öffentlichen Interesse nur begrenzt für einen bestimmten Übergangszeitraum aussprechen kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u33" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg89">Ihre zweite Nachfrage.</seg>
+        </u>
+        <note type="speaker">Omid Nouripour (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q71635" xml:id="ParlaMint-DE_2006-11-29-16-069.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg90">Vor dem Hintergrund, dass der Erfolg dieses Projektes anscheinend weniger Gewicht hat als das, was Sie die Regeln der großen Koalition genannt haben, frage ich Sie, wie aus der Sicht der Bundesregierung die sachgerechte Behandlung von langjährig abhängigen Schwerkranken, die bisher noch nicht an dem Projekt teilnehmen und noch hinzukommen werden, gerade dort fortzusetzen ist, wo es kein solches Projekt gibt.</seg>
+        </u>
+        <note type="speaker">Marion Caspers-Merk, Parl. Staatssekretärin bei der Bundesministerin für Gesundheit:</note>
+        <u who="#Q124134" xml:id="ParlaMint-DE_2006-11-29-16-069.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg91">Die Neuaufnahme oder Ausdehnung dieser Behandlungsart wäre nur dann möglich, wenn es gelingt, das Betäubungsmittelgesetz entsprechend zu ändern. Das ist die Voraussetzung dafür. Die an dem Modellprojekt beteiligten Städte sind über die Situation informiert worden. Auch die Lenkungsgruppe der beteiligten Länder, Kommunen und des Bundesgesundheitsministeriums, die immer wieder einberufen wird, wurde über die derzeitige Situation informiert. Es wurde auch darauf hingewiesen, dass die betroffenen Länder immer noch die Möglichkeit haben, über eine Bundesratsinitiative tätig zu werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u36" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg92">Danke, Frau Staatssekretärin.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg93">Wir kommen damit zum Geschäftsbereich des Bundesministeriums für Bildung und Forschung.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg94">Die Frage 8 der Kollegin Dr. Gesine Lötzsch und die Fragen 9 und 10 des Kollegen Kai Gehring werden schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg95">Zur Beantwortung der übrigen Fragen in diesem Geschäftsbereich steht der Parlamentarische Staatsekretär Thomas Rachel zur Verfügung.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg96">Ich rufe die Frage 11 der Kollegin Sylvia Kotting-Uhl auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg97">Welchen plausiblen Grund gibt es dafür, dass das Atommüllendlager Asse II nicht dem Bundesamt für Strahlenschutz, BfS, und damit dem Atomrecht unterstellt ist, obwohl dort atomare Abfälle endgelagert werden?</seg>
+        </u>
+        <note type="speaker">Thomas Rachel, Parl. Staatssekretär bei der Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q2426649" xml:id="ParlaMint-DE_2006-11-29-16-069.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg98">Frau Präsidentin! Sehr geehrte Frau Kollegin, Ihre Frage bezieht sich auf das Bergwerk Asse II. Das GSF - Forschungszentrum für Umwelt und Gesundheit ist für dieses Bergwerk zuständig. Denn es hat im Jahr 1965 das ehemalige Salzbergwerk Asse im Auftrag des Bundes erworben.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg99">Von 1967 bis 1978 hat das GSF - Forschungszentrum radioaktive Abfälle im Forschungsbergwerk eingelagert, um hier sichere Endlagertechniken zu entwickeln. Die Genehmigungen für diese Einlagerungen waren gestützt auf die erste Strahlenschutzverordnung und das Atomgesetz in der Fassung vom 23. Dezember 1959. Die damaligen Genehmigungen erlaubten auch die Endlagerung radioaktiver Abfälle im Forschungsbergwerk.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg100">Mit der vierten Novelle des Atomgesetzes im Jahr 1976 hat der Gesetzgeber konkrete Regelungen zur Endlagerung radioaktiver Abfälle eingeführt. Die Einlagerung der radioaktiven Abfälle in das Forschungsbergwerk Asse wurde vor In-Kraft-Setzung der Novelle eingestellt. Aufgrund rechtlicher Prüfungen und auch externer Gutachten ist die Bundesregierung - übrigens unter Beteiligung des Landes Niedersachsen - Mitte der 90er-Jahre zu der Auffassung gelangt, dass die Schachtanlage Asse kein Endlager im Sinne des Atomgesetzes ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u38" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg101">Ihre erste Nachfrage.</seg>
+        </u>
+        <note type="speaker">Sylvia Kotting-Uhl (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1568404" xml:id="ParlaMint-DE_2006-11-29-16-069.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg102">Ich habe zunächst nur eine Verständnisfrage. Habe ich Sie richtig verstanden, dass die Schachtanlage Asse kein Endlager im Sinne des Atomgesetzes ist?</seg>
+        </u>
+        <note type="speaker">Thomas Rachel, Parl. Staatssekretär bei der Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q2426649" xml:id="ParlaMint-DE_2006-11-29-16-069.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg103">Die Schachtanlage Asse ist kein Endlager im Sinne des Atomgesetzes.</seg>
+        </u>
+        <note type="speaker">Sylvia Kotting-Uhl (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1568404" xml:id="ParlaMint-DE_2006-11-29-16-069.u41" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg104">Gut. - Jetzt habe ich eine Nachfrage. Derzeit wird der immer noch ausstehende Langzeitsicherheitsnachweis erstellt. Angesichts der Tatsache, dass es sich bei Asse II zwar um kein Endlager im Sinne des Atomgesetzes, aber letztlich um ein De-facto-Endlager für atomaren Abfall handelt - denn dieser Abfall wird darin verbleiben; es geht um 125 000 Fässer mit schwach und mittel radioaktivem Abfall -, frage ich Sie: Wird der Langzeitsicherheitsnachweis atomrechtlich geprüft? Ich vermute selbst, dass das nicht der Fall ist.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg105">Aber sind wir uns nicht einig darüber, dass auch nuklearspezifische Risiken geprüft und beim Langzeitsicherheitsnachweis berücksichtigt werden müssen? Daher lautet meine eigentliche Frage: Wie und durch wen wird dieses nuklearspezifische Sicherheitsrisiko geprüft?</seg>
+        </u>
+        <note type="speaker">Thomas Rachel, Parl. Staatssekretär bei der Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q2426649" xml:id="ParlaMint-DE_2006-11-29-16-069.u42" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg106">Eigentlich haben Sie sich die Antwort schon selber gegeben. Deswegen weise ich nur darauf hin, dass diese Fragen im Rahmen der rechtlich vorgegebenen Wege überprüft werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u43" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg107">Sie haben die Chance, eine zweite Nachfrage zu stellen.</seg>
+        </u>
+        <note type="speaker">Sylvia Kotting-Uhl (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1568404" xml:id="ParlaMint-DE_2006-11-29-16-069.u44" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg108">Diese Logik hat sich mir nicht erschlossen, vielleicht aber meinem Kollegen. Ich lasse ihn fragen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u45" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg109">Er ist noch nicht dran. Die Kollegin Höhn wäre dran, wenn Sie auf Ihre zweite Nachfrage verzichten.</seg>
+        </u>
+        <note type="speaker">Sylvia Kotting-Uhl (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1568404" xml:id="ParlaMint-DE_2006-11-29-16-069.u46" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg110">Nein. Ich verzichte nicht. Muss ich meine zwei Nachfragen hintereinander stellen?</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u47" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg111">So ist es.</seg>
+        </u>
+        <note type="speaker">Sylvia Kotting-Uhl (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1568404" xml:id="ParlaMint-DE_2006-11-29-16-069.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg112">Dann stelle ich eine andere, wichtige Nachfrage. Ich wüsste gerne, inwieweit sich mit dem Bergrecht, das die bergbautypischen Gefahren regelt, die hier existierenden nuklearspezifischen Risiken - ich denke, wir sind uns einig, dass es solche gibt - abdecken lassen, die normalerweise das Atomrecht regelt.</seg>
+        </u>
+        <note type="speaker">Thomas Rachel, Parl. Staatssekretär bei der Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q2426649" xml:id="ParlaMint-DE_2006-11-29-16-069.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg113">Alle aufgeworfenen Fragen werden im Rahmen des Bergrechts geprüft und sind in diesem Sinne zu beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u50" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg114">Dann hat die Kollegin Höhn das Wort zu einer Nachfrage.</seg>
+        </u>
+        <note type="speaker">Bärbel Höhn (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q123504" xml:id="ParlaMint-DE_2006-11-29-16-069.u51" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg115">Die im Bergrecht verankerten Beteiligungsrechte der Bevölkerung sind insbesondere im Vergleich zu den Möglichkeiten, die man in einem Planfeststellungsverfahren nach dem Atomrecht hätte, erheblich eingeschränkt. Nun versucht die Behörde, der Bevölkerung über freiwillige Maßnahmen die entsprechenden Rechte einzuräumen. Sind Sie wirklich der Meinung, dass sich mit dem Bergrecht, das meines Wissens aus den 30er-Jahren des letzten Jahrhunderts stammt, eine ausreichende Information der Bevölkerung bei einem so brisanten Thema sicherstellen lässt?</seg>
+        </u>
+        <note type="speaker">Thomas Rachel, Parl. Staatssekretär bei der Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q2426649" xml:id="ParlaMint-DE_2006-11-29-16-069.u52" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg116">Frau Kollegin Höhn, die Maßnahmen werden selbstverständlich nach den bestehenden rechtlichen Regelungen vollzogen. In diesem Falle ist nicht das Atomgesetz einschlägig. Alle Maßnahmen und Tätigkeiten im Bereich Asse II sind vielmehr unter Aufsicht der Bergbehörde durchzuführen. Auch die geplante Schließung des Bergwerks wird unter Aufsicht der Bergbehörde und im Rahmen des Bergrechts durchzuführen sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u53" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg117">Der Kollege Hans-Josef Fell hat eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Hans-Josef Fell (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q90931" xml:id="ParlaMint-DE_2006-11-29-16-069.u54" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg118">Herr Staatssekretär, das Eindringen einer Salzlösung in die Asse - das wurde erst 1988 bekannt - wurde atomrechtlich und strahlenschutzrechtlich nie bewertet. Die alten Genehmigungen für die Einlagerung von atomaren Abfällen stammen aus dem Zeitraum von 1969 bis 1997, als davon ausgegangen wurde, dass die Asse trocken bleibt. Wie begründen Sie, dass eine atomrechtliche und strahlenschutzrechtliche Bewertung dieser Laugenzuflüsse nie stattgefunden hat und offensichtlich aus Ihrer Sicht - weil Sie nur das Bergrecht betonen - überflüssig ist?</seg>
+        </u>
+        <note type="speaker">Thomas Rachel, Parl. Staatssekretär bei der Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q2426649" xml:id="ParlaMint-DE_2006-11-29-16-069.u55" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg119">Die zahlreichen Unterstellungen in Ihrer Frage mache ich mir nicht zu Eigen. Ich weise darauf hin, dass die Bundesregierung korrekt nach Recht und Gesetz zu verfahren hat. Durch den Übergang des Bergwerks Asse in die Zuständigkeit des GSF - Forschungszentrums für Umwelt und Gesundheit, welches das Bergwerk im Auftrag des Bundes erworben hat, ist klar, dass hier bergrechtliche Regelungen zu berücksichtigen sind. Alle aufgeworfenen Fragen werden in diesem Sinne überprüft.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u56" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg120">Ich rufe die Frage 12 der Kollegin Sylvia Kotting-Uhl auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg121">Was spricht gegen eine Rückholung des bereits in Asse II eingelagerten Atommülls?</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg122">Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Thomas Rachel, Parl. Staatssekretär bei der Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q2426649" xml:id="ParlaMint-DE_2006-11-29-16-069.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg123">Frau Kollegin, es sind vor allem technische Gründe und sicherheitsrelevante Aspekte, die eine Rückholung der eingelagerten atomaren Abfälle falsch erscheinen lassen. Nach vorliegenden Gutachten ist das Grubengebäude des Forschungsbergwerks bis etwa 2014 für die Durchführung von Untertagearbeiten ausreichend stabil ausgelegt.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg124">Als Voraussetzung für weitere Tätigkeiten unter Tage wäre daher zuerst die Frage zu beantworten, wie das Grubengebäude mechanisch für eine geschätzte Rückholzeit von etwa 25 Jahren stabilisiert werden könnte. Ob eine solche Stabilisierung überhaupt technisch möglich ist, ist unklar. Darüber hinaus sind Fragen zu klären, die die Bergung des Abfalls und den Strahlenschutz der betroffenen Personen betreffen, aber auch Fragen der Ertüchtigungsmaßnahmen im Bergwerk, die gegebenenfalls erforderlich sind. Schließlich ist die Frage zu klären, wo im Falle des Falles der radioaktive Abfall behandelt oder gelagert werden könnte.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg125">Im Übrigen verweise ich auf die ausführliche Antwort der Bundesregierung auf die Kleine Anfrage der Fraktion des Bündnisses 90/Die Grünen, der Sie selber angehören, zum Thema "Zustand und Planung am Forschungsendlager Asse II" vom 17. Oktober dieses Jahres, Bundestagsdrucksache 16/2963.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u58" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg126">Ihre erste Nachfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Sylvia Kotting-Uhl (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1568404" xml:id="ParlaMint-DE_2006-11-29-16-069.u59" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg127">Herr Staatssekretär, herzlichen Dank, auch für den Hinweis auf die Kleine Anfrage, die mir sehr präsent ist, da sie von mir stammt. Meine Fragen jetzt gehen über diese Fragen und die Antworten auf die Kleine Anfrage hinaus.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg128">Ich darf aus einem Brief des BMBF vom 12. Juli 2005 an die Bürgerinitiative "aufpASSEn e. V." zitieren:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg129">Die GSF hat eine Rückholzeit von insgesamt 40 Jahren bei Kosten von über 2 Milliarden Euro abgeschätzt.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg130">Das BMBF hat trotzdem geprüft, ob zur Rückholung der radioaktiven Abfälle aus der Schachtanlage Asse eine fachliche Ausarbeitung in Auftrag gegeben werden könne. Aus dieser haben Sie zitiert. Die Ausarbeitung der Firma Fichtner Consulting liegt nun vor. Sie liegt auch mir vor. Diese Ausarbeitung spricht von einer Rückholzeit von maximal 20 Jahren und Kosten von 2,4 Milliarden Euro, wovon 1,4 Milliarden Euro auf die Endlagerung entfallen. Die Kosten der Rückholung betragen somit gerade einmal 1 Milliarde Euro. Sowohl Dauer als auch Kosten der Rückholung betragen also genau die Hälfte der Einschätzung durch das GSF.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg131">Ich frage Sie: Wie entstehen solche fatalen Fehleinschätzungen? Wäre es angesichts der Unterschiede in der Einschätzung der GSF und des Gutachtens nicht angebracht, weitere Gutachten einzuholen, um zu einer tatsächlich belastbaren Einschätzung zu kommen, bevor man die Bevölkerung vor Ort mit der Aussage konfrontiert, dass eine Rückholung nicht machbar ist?</seg>
+        </u>
+        <note type="speaker">Thomas Rachel, Parl. Staatssekretär bei der Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q2426649" xml:id="ParlaMint-DE_2006-11-29-16-069.u60" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg132">Frau Kollegin, der Sinn des eingeholten Gutachtens besteht gerade darin, die Fragestellung genauer aufzuarbeiten. Dies hat das Gutachten erreicht. Es trägt insofern zu einer qualifizierten Meinungsbildung bei und die Frage ist aus Sicht der Gutachter der Fichtner Consulting klar beantwortet, nämlich dass von einer Rückholung der radioaktiven Abfälle abzusehen sei.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u61" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg133">Sie können noch eine Nachfrage stellen.</seg>
+        </u>
+        <note type="speaker">Sylvia Kotting-Uhl (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1568404" xml:id="ParlaMint-DE_2006-11-29-16-069.u62" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg134">Das mache ich gerne. Danke, Frau Präsidentin. - Herr Staatssekretär, bei der Vorstellung des Gutachtens am letzten Donnerstag in Wolfenbüttel zog der Gutachter der Consulting die Bilanz, dass es machbar sei, aber große Risiken berge. Ich frage Sie: Nach welchen Indikatoren werden diese Risiken mit den Risiken des Verbleibens des Atommülls in der Asse abgewogen?</seg>
+        </u>
+        <note type="speaker">Thomas Rachel, Parl. Staatssekretär bei der Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q2426649" xml:id="ParlaMint-DE_2006-11-29-16-069.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg135">Die Gutachter kommen selber - da Ihnen das Gutachten vorliegt, haben Sie das nachlesen können - unter Beachtung verschiedenster Gesichtspunkte zu dem Ergebnis, dass sie eindeutig davon abraten, die radioaktiven Abfälle zurückzuholen. Dabei werden sowohl Kostengesichtspunkte als auch Sicherheitsgesichtspunkte angesprochen. Diese von den Gutachtern angeführten Gesichtspunkte müssen in der abschließenden Meinungsbildung unbedingt berücksichtigt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u64" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg136">Es gibt noch eine Nachfrage des Kollegen Fell.</seg>
+        </u>
+        <note type="speaker">Hans-Josef Fell (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q90931" xml:id="ParlaMint-DE_2006-11-29-16-069.u65" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg137">Herr Staatssekretär, bei der Analyse des Gutachtens ist uns aufgefallen, dass die Gutachter den Vergleich eben nicht angestellt haben. Deswegen frage ich Sie: Gibt es einen Vergleich, bei welchem Konzept - GSF-Schließungskonzept oder Rückholung - die betroffene Bevölkerung langfristig weniger Risiken ausgesetzt ist?</seg>
+        </u>
+        <note type="speaker">Thomas Rachel, Parl. Staatssekretär bei der Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q2426649" xml:id="ParlaMint-DE_2006-11-29-16-069.u66" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg138">Alle Überlegungen, sowohl die der GSF als auch die der Gutachter, sind nach meinem Kenntnisstand davon ausgegangen, dass Priorität der Schutz der Bevölkerung im Umfeld des Bergwerks hat. Dabei sind natürlich Fragen der technischen Machbarkeit und der geologischen Veränderungen mit berücksichtigt worden. Aus meiner Sicht ist der Stellungnahme der Gutachter, die sich mit diesem Projekt ausführlich befasst haben, nichts hinzuzufügen. Die Gutachter raten von einer Rückholung der radioaktiven Abfälle dringend ab.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u67" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg139">Herzlichen Dank, Herr Staatssekretär.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg140">Wir kommen damit zum Geschäftsbereich des Bundesministeriums des Innern. Zur Beantwortung der Fragen steht der Parlamentarische Staatssekretär Peter Altmaier bereit.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg141">Die Fragen 13 und 14 des Kollegen Volker Beck (Köln) werden schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg142">Ich rufe die Frage 15 der Kollegin Cornelia Hirsch auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg143">Was versteht die Bundesregierung unter generationengerechtem Handeln und wie positioniert sie sich zu der Forderung, den Grundsatz der Generationengerechtigkeit im Grundgesetz zu verankern?</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-11-29-16-069.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg144">Frau Präsidentin! Frau Kollegin Hirsch, im Koalitionsvertrag wird der Begriff der Generationengerechtigkeit als zentrale Herausforderung, insbesondere für die Finanz- und Haushaltspolitik, angeführt. Daran können Sie erkennen, welchen Stellenwert die Bundesregierung dieser Problematik beimisst. Wir wollen den nachfolgenden Generationen tragfähige Staatsfinanzen übergeben. Damit wollen wir erreichen, dass die Chancen zukünftiger Generationen auf Befriedigung ihrer eigenen Bedürfnisse mindestens so groß sind wie die der heutigen Generation. Das entspricht im Übrigen der Definition des Begriffs der Nachhaltigkeit durch die Brundtland-Kommission aus dem Jahre 1987, der unserem Handeln zugrunde liegt. Das gilt auch für andere Politikbereiche, insbesondere für den Umweltschutz oder für die Reform der sozialen Sicherungssysteme. Vor dem Hintergrund der demografischen Entwicklung kommt es auch darauf an, sich auf die veränderten Rahmenbedingungen rechtzeitig einzustellen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg145">Was die Forderungen nach einer Verankerung des Grundsatzes der Generationengerechtigkeit im Grundgesetz angeht, darf ich daran erinnern, dass es hierzu einen fraktionsübergreifenden Gesetzentwurf junger Abgeordneter gibt, der die Einführung eines entsprechenden Staatsziels in einem neuen Art. 20 b Grundgesetz und eine Änderung in Art. 109 Abs. 2 Grundgesetz vorsieht.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg146">Ich bitte allerdings um Verständnis dafür, dass ich den Erörterungen dieses Gesetzentwurfs im Plenum und in den zuständigen Ausschüssen nicht vorgreifen möchte. Die Bundesregierung wird sich gegebenenfalls im Rahmen der dort stattfindenden Beratungen äußern.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u69" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg147">Ihre erste Nachfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Cornelia Hirsch (DIE LINKE):</note>
+        <u who="#Q1133345" xml:id="ParlaMint-DE_2006-11-29-16-069.u70" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg148">Danke schön. - Es ist richtig, dass Sie auf den vorliegenden Gesetzentwurf Bezug nehmen. An diesem Gesetzentwurf sind alle Fraktionen bis auf die Fraktion Die Linke beteiligt. Ich kann auch verstehen, dass Sie darauf nicht näher eingehen, um den parlamentarischen Beratungen nicht vorzugreifen. Für die Bewertung ist es wichtig, zu wissen, was daraus folgen würde, wenn dieser Grundsatz in unserer Verfassung künftig verankert würde.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg149">In der Begründung des Gesetzentwurfs wird darauf verwiesen, dass der Gesetzgeber durch die Verankerung dieses Grundsatzes in Art. 20 b Grundgesetz zukünftig sowohl die Pflicht als auch mehr Möglichkeiten hätte, die so genannte Generationengerechtigkeit gesetzlich zu verankern. Können Sie mir konkrete Beispiele dafür nennen, was das für die Regierungspolitik im Einzelnen heißen könnte? Würden sich daraus, insbesondere in der Haushalts- und Finanzpolitik, Änderungen ergeben? Welche Regierungsprojekte könnten durchgeführt werden, wenn es zu einer Zustimmung kommt?</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-11-29-16-069.u71" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg150">Frau Kollegin, ich darf darauf hinweisen, dass die Regierungspolitik sich bereits geändert hat und dass wir insbesondere im Rahmen der Aufstellung des Haushaltes für das Jahr 2007 einen Beitrag zum Prinzip der Generationengerechtigkeit geleistet haben, indem wir die Neuverschuldung auf den niedrigsten Stand seit der deutschen Wiedervereinigung begrenzen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg151">Im Übrigen bitte ich ganz herzlich noch einmal um Verständnis dafür, dass wir uns zu all den technischen und inhaltlichen Fragen, die mit dem vorliegenden Gesetzentwurf verbunden sind, in den zuständigen Ausschüssen und in der anstehenden Plenarberatung äußern werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u72" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg152">Ihre zweite Nachfrage.</seg>
+        </u>
+        <note type="speaker">Cornelia Hirsch (DIE LINKE):</note>
+        <u who="#Q1133345" xml:id="ParlaMint-DE_2006-11-29-16-069.u73" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg153">Dieser Gesetzentwurf wurde von der Stiftung für die Rechte künftiger Generationen maßgeblich angestoßen. Kennt die Bundesregierung diese Stiftung schon von vorherigen Gesetzesinitiativen oder von anderen parlamentarischen Initiativen? Arbeitet diese Stiftung in irgendeiner Form auch mit öffentlichen Fördermitteln? Wie muss diese Stiftung aus Sicht der Bundesregierung insgesamt eingeordnet werden?</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-11-29-16-069.u74" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg154">Diese Stiftung ist der Bundesregierung bekannt.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg155">Ich schlage vor, dass wir die Frage, ob Fördergelder gezahlt werden, schriftlich beantworten. Mir ist die Antwort im Augenblick nicht geläufig. Damit, glaube ich, ist auch diese Nachfrage beantwortet.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u75" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg156">Die Fragen 16 und 17 des Kollegen Albert Rupprecht (Weiden) werden schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg157">Danke, Herr Staatssekretär.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg158">Wir kommen damit zum Geschäftsbereich des Bundesministeriums der Finanzen. Zur Beantwortung steht die Parlamentarische Staatssekretärin Dr. Barbara Hendricks zur Verfügung.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg159">Die Fragen 18 und 19 der Kollegin Christine Scheel werden schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg160">Ich rufe die Frage 20 des Kollegen Omid Nouripour auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg161">Wie unterstützt die Bundesregierung die Bestrebungen der Deutschen Börse zum Ausbau des internationalen Finanzstandortes Frankfurt am Main nach dem Abbrechen der Verhandlungen zur Partnerschaft mit der Betreibergesellschaft Euronext?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-11-29-16-069.u76" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg162">Herr Kollege Nouripour, die Bundesregierung bedauert, dass eine Konsolidierung der wichtigsten kontinentaleuropäischen Börsenplätze nicht zu erreichen war. Die Entscheidung der Deutschen Börse AG, einen Zusammenschluss mit Euronext nicht weiterzuverfolgen, wenn ein solcher für die Aktionäre der Deutschen Börse AG nicht mehr attraktiv ist, ist aber nachvollziehbar. Die Bundesregierung hat stets betont, dass die Entscheidung über Börsenfusionen in erster Linie bei den betroffenen privaten Unternehmen und ihren Aktionären liegt. Die Börsen sollten aber die Interessen des jeweiligen europäischen Finanzstandorts und der dort Beschäftigten in angemessener Weise berücksichtigen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg163">Auch nach dem Abbruch der Verhandlungen gehen wir davon aus, dass die Deutsche Börse AG ein wichtiges Element nicht nur des Finanzplatzes Deutschland, sondern auch des Finanzplatzes Europa bleibt. Wir sind bestrebt, die weitere Entwicklung des Finanzplatzes Deutschland durch ein wettbewerbsfähiges Kapitalmarktrecht voranzutreiben. Hierzu dient auch die Festlegung im Koalitionsvertrag, die nationale Umsetzung von entsprechenden EU-Richtlinien eins zu eins durchzuführen, dabei aber nationale Spielräume im Sinne der Wettbewerbsfähigkeit des Finanzmarkts Deutschland zu nutzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u77" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg164">Ihre Nachfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Omid Nouripour (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q71635" xml:id="ParlaMint-DE_2006-11-29-16-069.u78" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg165">Vor dem Hintergrund der heutigen Ankündigung des Chefs von Euronext, Jean-François Théodore, dass Euronext jetzt nicht nur mit der NYSE, sondern auch mit der Tokioer Börse kooperieren möchte, würde mich sehr interessieren, Frau Staatssekretärin, wie Sie die jetzt ausgerufene Stand-alone-Strategie der Deutschen Börse bewerten.</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-11-29-16-069.u79" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg166">Es geht nicht um eine Stand-alone-Strategie der Deutschen Börse, sondern es geht um die Frage, ob andere europäische Börsenplätze bzw. ihre Aktionäre bereit sind, mit der Deutschen Börse eine engere Zusammenarbeit, in welcher Weise und Struktur auch immer, aufzunehmen. Dies scheint nicht der Fall zu sein. Die Bundesregierung bedauert die Entscheidungen, die dort getroffen worden sind, hat diese aber nicht zu verantworten. Offenbar hat aufseiten der Aktionäre von Euronext kein Interesse bestanden, eine Zusammenarbeit mit der Deutschen Börse in die Wege zu leiten.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg167">Ich sage noch einmal: Wir hätten das begrüßt. Wir bekräftigen unsere Auffassung, dass eine europäische Lösung im Interesse des europäischen Binnenmarkts sowie der Wettbewerbsfähigkeit des Finanzplatzes Europa vorzuziehen gewesen wäre. Aber in Wirtschaftskreisen fallen manchmal Entscheidungen, die nicht unbedingt ratio-nalen Erwägungen folgen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u80" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg168">Ihre zweite Nachfrage.</seg>
+        </u>
+        <note type="speaker">Omid Nouripour (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q71635" xml:id="ParlaMint-DE_2006-11-29-16-069.u81" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg169">Ich habe etwas nicht ganz verstanden. Sie haben gesagt, es gehe um Kooperationen, die gescheitert seien, aber es gehe nicht um Stand-alone-Strategien, wobei ich diesen Begriff nicht negativ gemeint habe. Meine Frage vor diesem Hintergrund ist: Beabsichtigt die Bundesregierung, konkrete Pläne der Deutschen Börse - nicht im Hinblick auf eine Fusion, sondern im Hinblick auf eine Kooperation mit Finanzstandorten wie Moskau, Mailand oder Standorten in Ostasien - zu unterstützen?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-11-29-16-069.u82" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg170">Sollte die Deutsche Börse von der Bundesregierung eine öffentliche Unterstützung bei Bestrebungen der Art, die Sie angedeutet haben, erwarten, so würden wir uns dem selbstverständlich nicht entziehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u83" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg171">Danke, Frau Staatssekretärin.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg172">Die Frage 21 der Kollegin Dr. Gesine Lötzsch, die Frage 22 des Kollegen Winfried Hermann und die Frage 23 der Kollegin Höhn werden schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg173">Wir kommen damit zum Geschäftsbereich des Bundesministeriums für Familie, Senioren, Frauen und Jugend. Zur Beantwortung steht der Parlamentarische Staatssekretär Dr. Hermann Kues zur Verfügung.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg174">Ich rufe die Frage 24 des Kollegen Jörn Wunderlich auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg175">Welche Gründe haben das Bundesministerium für Familie, Senioren, Frauen und Jugend, BMFSFJ, in Absprache mit dem Bundeskanzleramt veranlasst, den "Ersten Bericht über die Situation der Heime und die Betreuung der Bewohnerinnen und Bewohner" entgegen § 22 des Heimgesetzes nicht dem Parlament zuzuleiten und auf eine Aussprache zu verzichten?</seg>
+        </u>
+        <note type="speaker">Dr. Hermann Kues, Parl. Staatssekretär bei der Bundesministerin für Familie, Senioren, Frauen und Jugend:</note>
+        <u who="#Q1611886" xml:id="ParlaMint-DE_2006-11-29-16-069.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg176">Ich beantworte die Frage 24 wie folgt: Die öffentlich-rechtlichen Vorschriften des Heimrechts, zu denen auch die Berichtspflicht in § 22 des Heimgesetzes gehört, sind mit In-Kraft-Treten der Föderalismusreform in die ausschließliche Gesetzgebungskompetenz der Länder übergegangen. Bundestag und Bundesrat sind damit für diese Materie nicht mehr die zuständigen gesetzgebenden Körperschaften.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg177">Um die im Heimbericht enthaltenen wertvollen Informationen trotz der geänderten Rechtslage zugänglich zu machen, wurde der mit den Bundes- und Landesressorts abgestimmte Bericht Mitte Oktober als Onlinepublikation auf der Homepage des BMFSFJ eingestellt. Hierüber wurden die Mitglieder der Bundestagsausschüsse für Gesundheit sowie für Familie, Senioren, Frauen und Jugend, dem Sie ja auch angehören, die beteiligten Bundesressorts, die Minister und Ministerinnen der für das Heimrecht zuständigen Ressorts der Länder, die Präsidenten und Präsidentinnen der Landtage sowie die Vertreterinnen und Vertreter der Verbände durch Anschreiben informiert. Darüber hinaus wurde den Mitgliedern des FSFJ-Ausschusses des Bundestages auch ein Druckexemplar zur Verfügung gestellt.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg178">Gemäß § 62 Abs. 1 Satz 3 der Geschäftsordnung des Bundestages steht es einem Ausschuss frei, mit Mehrheit jedes Thema aus seinem Geschäftsbereich auf die Tagesordnung des Ausschusses zu setzen und darüber zu beraten.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u85" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg179">Ihre erste Nachfrage.</seg>
+        </u>
+        <note type="speaker">Jörn Wunderlich (DIE LINKE):</note>
+        <u who="#Q113851" xml:id="ParlaMint-DE_2006-11-29-16-069.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg180">Vielen Dank, Herr Kues, für diese Antwort. - Mich würde interessieren, seit wann der Heimbericht vorgelegen hat und ob Ihnen bekannt ist, dass es noch keine Landesheimgesetze gibt und sich somit bis dato noch nichts an der Zuständigkeit des Bundes geändert hat, sodass Ihre Schilderung insoweit nicht zutrifft.</seg>
+        </u>
+        <note type="speaker">Dr. Hermann Kues, Parl. Staatssekretär bei der Bundesministerin für Familie, Senioren, Frauen und Jugend:</note>
+        <u who="#Q1611886" xml:id="ParlaMint-DE_2006-11-29-16-069.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg181">Die Zuständigkeit hat sich geändert. Die Gesetze zur Föderalismusreform sind vom Bundestag und vom Bundesrat verabschiedet worden.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg182">Der Heimbericht enthält sehr umfangreiches Zahlenmaterial für das Jahr 2003. Diese Angaben waren aber erst Mitte des Jahres 2005 verfügbar; dann mussten sie eingehend analysiert und ausgewertet werden. Insofern hat es längere Zeit gedauert, bis der Heimbericht vorgelegt werden konnte. Im Heimgesetz war die Vorlage für das Jahr 2004 vorgesehen gewesen. Es hat aus den angegebenen Gründen länger gedauert. Nachdem die Daten 2005 vorlagen, hat sich eine sehr zeitaufwendige Abstimmung mit den Verbänden, den Leistungsanbietern, den Vertretern von Betroffenen, den zuständigen Behörden der Länder, den fachlich betroffenen Ressorts des Bundes und auch den Beauftragten der Bundesregierung als notwendig erwiesen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u88" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg183">Sie haben die Möglichkeit, eine zweite Nachfrage zu stellen.</seg>
+        </u>
+        <note type="speaker">Jörn Wunderlich (DIE LINKE):</note>
+        <u who="#Q113851" xml:id="ParlaMint-DE_2006-11-29-16-069.u89" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg184">Wie Sie schon richtig erwähnten, sollte der erste Heimbericht dem Parlament im Jahre 2004 zugeleitet werden. Nach Ihrer Aussage lag er 2005 vor. Woran lag es denn, dass er bis zum heutigen Tag dem Parlament nicht förmlich zugeleitet wurde?</seg>
+        </u>
+        <note type="speaker">Dr. Hermann Kues, Parl. Staatssekretär bei der Bundesministerin für Familie, Senioren, Frauen und Jugend:</note>
+        <u who="#Q1611886" xml:id="ParlaMint-DE_2006-11-29-16-069.u90" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg185">Ich hielte es für politisch sehr fragwürdig, wenn, nachdem die Gesetzgebungskompetenz auf die Länder übergegangen ist, der Eindruck erweckt würde, als läge hierfür die Gesetzgebungskompetenz nach wie vor beim Bund. Ich habe Ihnen aber schon erläutert, dass die Mitglieder des Ausschusses, dem auch Sie selbst angehören, detailliert informiert worden sind und dass darüber hinaus Informationen auch anderweitig zur Verfügung gestellt worden sind.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg186">Es wäre nun Sache der Länder, daraus politische Konsequenzen zu ziehen. Der Bund arbeitet in der entsprechenden Arbeitsgruppe natürlich mit; bislang hat es ja auch schon Absprachen und Abstimmungen gegeben. Ich habe auch schon gesagt, dass ich keinen Zweifel habe, dass die Länder mit den darin enthaltenen interessanten Informationen sorgfältig umgehen und sie bewerten werden und dann auch Schlussfolgerungen ziehen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg187">Es wäre nicht angemessen, auch nicht gegenüber der Öffentlichkeit, wenn der Bund, ohne irgendwelche Gestaltungsmöglichkeiten zu haben, den Eindruck erwecken würde, als sei er dafür verantwortlich. Von daher halte ich unser Vorgehen für sachlich richtig: Wir haben die Information zur Verfügung gestellt und die Mitglieder des zuständigen Ausschusses informiert. Der Ausschuss kann ja im Übrigen über alle Aspekte des Berichtes, wenn er möchte, diskutieren. Dafür müssen diese Aspekte nur auf die Tagesordnung gesetzt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u91" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg188">Danke schön.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg189">Damit rufe ich die Frage 25 des Kollegen Jörn Wunderlich auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg190">Worin liegt die Ursache dafür, dass das BMFSFJ zum wiederholten Male Studien, Sachberichte und Fachanalysen - zum Beispiel die Studie über die Möglichkeiten einer Umsetzung von Gender-Budgeting auf Bundesebene - unter Ausschluss der gesetzgebenden Körperschaften des Bundes berät und diskutiert?</seg>
+        </u>
+        <note type="speaker">Dr. Hermann Kues, Parl. Staatssekretär bei der Bundesministerin für Familie, Senioren, Frauen und Jugend:</note>
+        <u who="#Q1611886" xml:id="ParlaMint-DE_2006-11-29-16-069.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg191">Die Behauptungen, die der Frage 25 zugrunde liegen, sind nach meiner Auffassung falsch. Ich kann dazu auch nichts Weiteres sagen, solange sie nicht präzisiert werden.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg192">Konkret wird die Gender-Budgeting-Studie erwähnt. Dazu kann ich Stellung nehmen. Hierbei handelt es sich um eine Machbarkeitsstudie zur probeweisen Einführung von Gender-Budgeting auf Bundesebene. Diese hatte das BMFSFJ im April 2005, und zwar nach Durchführung eines Ausschreibungsverfahrens, in Auftrag gegeben. Die Konzeption dieser Studie erfolgte auf Basis eines Abstimmungsprozesses innerhalb der Bundesregierung. Sie sollte Vorschläge zu möglichen Ansatzpunkten zu Gender-Budgeting im Bundeshaushalt machen und für eine sinnvolle Erprobung von Gender-Budgeting auf Bundesebene entwickeln.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg193">Die Studie liegt dem BMFSFJ vor und wird in den Diskussions- und Entscheidungsprozess innerhalb der Bundesregierung einfließen; ich habe darüber heute Morgen auch im Ausschuss berichtet und wir haben relativ ausführlich darüber diskutiert. Auf ihrer Basis sollen weitere konzeptionelle Überlegungen auf Bundesebene stattfinden. Wir bringen dieses Thema auch in den europäischen Diskussionsprozess mit ein. Daraus werden sich wiederum Konsequenzen ergeben, weil wir von anderen Ländern lernen wollen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg194">Über Sinn und Zweck einer Veröffentlichung muss dann im Einzelnen entschieden werden, wie ich bereits heute Morgen erläutert habe. Es gibt jedenfalls keinen gesetzlichen Auftrag, auch keinen Parlamentsbeschluss, der die Bundesregierung verpflichten würde, das sofort zu tun. Aber ich sage ausdrücklich, dass wir an einer offenen Diskussion interessiert sind. Im Mai werden in Bad Pyrmont die europäischen Gleichstellungsminister zusammenkommen. Auch dort werden solche Fragen wie Gender-Budgeting erörtert.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u93" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg195">Sie haben die Möglichkeit zu zwei Nachfragen.</seg>
+        </u>
+        <note type="speaker">Jörn Wunderlich (DIE LINKE):</note>
+        <u who="#Q113851" xml:id="ParlaMint-DE_2006-11-29-16-069.u94" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg196">Meine Frage fußt zum einen auf der Antwort auf eine Kleine Anfrage vom 28. September 2006, in der es heißt:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg197">Die Studie wurde vom Bundesministerium ... in Auftrag gegeben, um Möglichkeiten ... Sie liegt dem Bundesministerium vor und wird gegenwärtig geprüft. Es ist geplant, ihre Ergebnisse und weitere Konsequenzen im Ressortkreis zu diskutieren. Dabei wird auch die Frage ihrer Veröffentlichung entschieden werden.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg198">Durch Zufall ist mir dann zum anderen eine Einladung zu einer öffentlichen Veranstaltung der Friedrich-Ebert-Stiftung in die Hände gekommen, in der es heißt:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg199">Eine erste Studie über die Möglichkeiten einer Umsetzung von Gender Budgeting auf der Bundes-ebene liegt nun vor.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg200">Ohne Einschaltung des Parlaments! Der Ausschuss war über diese Veranstaltung nicht informiert; das heißt, sämtliche Fachpolitiker waren darüber nicht informiert.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg201">In dem Zusammenhang möchte ich - weil Sie von Unterstellung sprechen - nur an die Evaluierung des Prostitutionsgesetzes erinnern, die dem Ausschuss erst vorgelegt wurde, nachdem seitens des Ministeriums eine Versicherung abgegeben wurde, um eine Kampfabstimmung im Ausschuss, wo aller Voraussicht nach die SPD gegen die CDU/CSU gestimmt hätte, zu verhindern.</seg>
+        </u>
+        <note type="speaker">Dr. Hermann Kues, Parl. Staatssekretär bei der Bundesministerin für Familie, Senioren, Frauen und Jugend:</note>
+        <u who="#Q1611886" xml:id="ParlaMint-DE_2006-11-29-16-069.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg202">Beim Prostitutionsgesetz war es so - das wissen auch Sie genau, Herr Wunderlich, weil Sie bei den Erörterungen immer dabei waren, auch im Ausschuss -, dass die Bundesregierung verpflichtet war, einen Bericht vorzulegen. Ein solcher Bericht muss im Kabinett diskutiert werden. Dann müssen die unterschiedlichen Ressorts einbezogen werden. Dieses Thema fällt ausdrücklich nicht allein in die Zuständigkeit des Familienministe-riums, sondern auch das Innenministerium und das Justizministerium sind betroffen. Es hat dann eine - ich nenne das jetzt einmal so - erste Expertise gegeben, die vorgelegen hat. Ich habe seinerzeit gesagt, dass der Bericht nicht vorliegt. Es ist eine Frage der Zweckmäßigkeit, ob man Teilaspekte veröffentlicht. Wir haben uns im Endeffekt doch dazu entschlossen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg203">Wenn Sie sich aber näher damit beschäftigen, werden Sie merken, dass solche Expertisen auch im Hinblick auf das Ziel, das man hat, nämlich einen Bericht zu erstatten, aufgearbeitet werden müssen. Beim Prostitutionsgesetz zum Beispiel war es aus unserer Sicht so, dass die damit verbundenen Zielsetzungen mit der ersten Expertise nicht hinreichend erfasst worden sind. Deswegen haben wir einen weiteren Auftrag als Ergänzung erteilt, damit wir einen wirklich sachgerechten Bericht vorlegen können. Das erklärt auch, dass es zu bestimmten Verzögerungen gekommen ist. Das wissen Sie aber alles, weil wir im Ausschuss darüber diskutiert haben.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg204">Wenn jetzt eine private Stiftung eine Veranstaltung zum Gender-Budgeting macht und sich dabei Informationen zu Eigen durchführt, die öffentlich auf dem Markt sind, ist dafür nicht die Bundesregierung verantwortlich. Die Stiftung kann jederzeit so handeln. Ich glaube dennoch, dass es sachgerecht ist, wenn ein Ministerium Sachverhalte erst dann veröffentlicht, wenn sie aufbereitet und auch politisch bewertet sind. Das Ministerium muss da etwas anders vorgehen als eine private Stiftung. Wir haben die Informationen bislang jedenfalls aus den besagten Gründen und aus Gründen der Sorgfalt, der wir uns verpflichtet fühlen, nicht veröffentlicht. Aber wir haben das ausdrücklich vor.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u96" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg205">Sie haben die Möglichkeit, eine zweite Nachfrage zu stellen.</seg>
+        </u>
+        <note type="speaker">Jörn Wunderlich (DIE LINKE):</note>
+        <u who="#Q113851" xml:id="ParlaMint-DE_2006-11-29-16-069.u97" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg206">Sie stimmen mir aber zu, dass es bei der Evaluierung des Prostitutionsgesetzes um einen Auftrag des Parlaments an die Bundesregierung ging, das Ergebnis dieses Auftrags dem Parlament allerdings vorenthalten wurde, weil das Ergebnis der Regierung offensichtlich nicht hinreichend erschien - ohne das Parlament darüber zu informieren?</seg>
+        </u>
+        <note type="speaker">Dr. Hermann Kues, Parl. Staatssekretär bei der Bundesministerin für Familie, Senioren, Frauen und Jugend:</note>
+        <u who="#Q1611886" xml:id="ParlaMint-DE_2006-11-29-16-069.u98" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg207">Nein, das ist falsch. Ich habe eben gesagt: Wir sind verpflichtet, beim Prostitutionsgesetz einen Bericht vorzulegen. Das wird aber ein Bericht der Bundesregierung sein. Eine einzelne Expertise - ich nenne sie einmal so; über den Begriff kann man streiten - ist noch kein Bericht der Bundesregierung. Ein Bericht der Bundesregierung wird im Kreise der Fachressorts abgestimmt und wird mit einer Bewertung versehen. Ich finde, das Parlament hat einen Anspruch darauf, dass die Bundesregierung erklärt, wie damit umgegangen wird. Das muss geleistet werden. Das heißt keineswegs, dass zu einzelnen Aspekten keine Vorarbeiten geleistet worden sind. Das habe ich im Ausschuss aber schon im Einzelnen erläutert.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u99" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg208">Die Frage 26 der Kollegin Bettin wird schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg209">Herzlichen Dank, Herr Staatssekretär.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg210">Wir kommen damit zum Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und Reaktorsicherheit. Es antwortet der Parlamentarische Staatssekretär Michael Müller.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg211">Die Frage 27 des Kollegen Winfried Hermann wird schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg212">Ich rufe die Frage 28 des Kollegen Hans-Josef Fell auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg213">Stimmt die Meldung der Tageszeitung "Passauer Neue Presse" vom 23. November 2006, dass der Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit, Sigmar Gabriel, ein schrittweises Auswahlverfahren für die Bestimmung eines deutschen Atommüllendlagers anstrebt, und, wenn nein, welchen Zeitplan strebt die Bundesregierung bei der Endlagersuche an?</seg>
+        </u>
+        <note type="speaker">Michael Müller, Parl. Staatssekretär beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q1928687" xml:id="ParlaMint-DE_2006-11-29-16-069.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg214">Sehr verehrter Herr Kollege Fell, Sie beziehen sich in Ihrer Frage auf eine Meldung der "Passauer Neuen Presse" vom 23. November. Wie Sie wissen, haben wir dieses Thema im Bundestag mehrfach im Rahmen von Anfragen behandelt. Ich verweise unter anderem auf die Drucksache 16/2690.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg215">Die Antwort lautet wie folgt: Im Koalitionsvertrag bekennen sich die beiden Regierungsfraktionen, CDU/ CSU und SPD, gemeinsam zur nationalen Verantwortung für eine sichere Endlagerung radioaktiver Abfälle. Sie wollen, dass die Erarbeitung einer Lösung zügig und ergebnisorientiert angegangen wird. Die Koalitionsfraktionen haben dabei ihre Absicht bekundet, noch in dieser Legislaturperiode zu einer Lösung zu kommen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg216">Das Bundesministerium für Umwelt, Naturschutz und Reaktorsicherheit hat dazu ein Konzept entwickelt. Dieses Konzept muss allerdings innerhalb der Bundesregierung noch abgestimmt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u101" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg217">Ihre erste Nachfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Hans-Josef Fell (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q90931" xml:id="ParlaMint-DE_2006-11-29-16-069.u102" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg218">Herr Staatssekretär, herzlichen Dank für die Antwort. - Inzwischen ist ja bekannt geworden, dass der Bundesumweltminister anstrebt, mit den Betreibern direkt einen Vertag über die Endlagersuche zu schließen, und nur zwei oder drei Standorte in die engere Auswahl nehmen will. Heißt das im Klartext, dass sich die Bundesregierung mit diesem Vorstoß von der ursprünglichen Linie verabschiedet hat?</seg>
+        </u>
+        <note type="speaker">Michael Müller, Parl. Staatssekretär beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q1928687" xml:id="ParlaMint-DE_2006-11-29-16-069.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg219">Das Thema ist so wichtig, dass wir einen möglichst breiten Konsens hinbekommen wollen und dass es bei der Abstimmung innerhalb der Bundesregierung bleibt. Dass das Ministerium ein großes Interesse hat, zügig zu einer Regelung zu kommen, die § 96 des Atomgesetzes entspricht - es muss sich um eine Lösung handeln, die die nach dem Stand von Wissenschaft und Technik erforderliche Vorsorge garantiert -, dürfte sich daraus ergeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u104" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg220">Ihre zweite Nachfrage.</seg>
+        </u>
+        <note type="speaker">Hans-Josef Fell (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q90931" xml:id="ParlaMint-DE_2006-11-29-16-069.u105" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg221">Da nun ein Vertrag mit den Betreibern angestrebt wird - Sie haben es indirekt bestätigt - und die Zielvorstellungen der Betreiber, die keine Endlagersuche wollen, sondern den Standort Gorleben als Endlager einfach festschreiben wollen, bekannt sind, taucht für uns die Frage auf: Wird es in diesen Vertragsverhandlungen zu einer Aufgabe der Position der Bundesregierung kommen?</seg>
+        </u>
+        <note type="speaker">Michael Müller, Parl. Staatssekretär beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q1928687" xml:id="ParlaMint-DE_2006-11-29-16-069.u106" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg222">Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u107" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg223">Damit rufe ich die Frage 29 des Kollegen Hans-Josef Fell auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg224">Wenn ja, bis wann sollen die Kriterien dafür festgelegt werden und wer soll die Suche finanzieren?</seg>
+        </u>
+        <note type="speaker">Michael Müller, Parl. Staatssekretär beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q1928687" xml:id="ParlaMint-DE_2006-11-29-16-069.u108" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg225">Diesbezüglich gilt das, was ich schon gesagt habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u109" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg226">Ich nehme an, der Kollege Fell hat eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Hans-Josef Fell (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q90931" xml:id="ParlaMint-DE_2006-11-29-16-069.u110" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg227">Danke, Frau Präsidentin. - Die Kriterien wurden im Wesentlichen vom Arbeitskreis Auswahlverfahren Endlagersuche festgelegt. Wird es nun in den Verhandlungen mit den Betreibern eine Aufgabe dieser Kriterien geben oder wird es weiterhin ein Festhalten der Bundesregierung an den Kriterien des AK End geben?</seg>
+        </u>
+        <note type="speaker">Michael Müller, Parl. Staatssekretär beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q1928687" xml:id="ParlaMint-DE_2006-11-29-16-069.u111" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg228">Ich bleibe dabei, dass nach § 96 des Atomgesetzes die Verpflichtung besteht, den Planfeststellungsbeschluss für ein Endlager nur dann zu erteilen, wenn optimal Vorsorge nach Stand von Technik und Wissenschaft gegeben ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u112" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg229">Sie haben die Chance eines zweiten Versuchs.</seg>
+        </u>
+        <note type="speaker">Hans-Josef Fell (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q90931" xml:id="ParlaMint-DE_2006-11-29-16-069.u113" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg230">Herr Staatssekretär, ich möchte noch ein wenig nachhaken, was diesen Vertrag betrifft; denn das ist ein neuer Vorschlag. Bedeutet das Anstreben eines Vertrages zwischen Bundesregierung und Betreibern die Aufgabe der bisherigen Position, die Endlagersuche über ein Gesetz zu regeln, und einen Ersatz durch einen solchen Vertrag?</seg>
+        </u>
+        <note type="speaker">Michael Müller, Parl. Staatssekretär beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q1928687" xml:id="ParlaMint-DE_2006-11-29-16-069.u114" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg231">Ich sehe nicht, dass eine derartig gewichtige Entscheidung ohne eine gesetzliche Grundlage machbar ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u115" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg232">Es gibt eine Nachfrage der Kollegin Kotting-Uhl.</seg>
+        </u>
+        <note type="speaker">Sylvia Kotting-Uhl (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1568404" xml:id="ParlaMint-DE_2006-11-29-16-069.u116" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg233">Herr Staatssekretär, ich möchte im Hinblick auf Ihre Antwort auf die erste Nachfrage des Kollegen Fell fragen, wie es möglich sein soll, den bestmöglichen Ort für ein Endlager zu finden, ohne dass eine wirklich ergebnisoffene Suche in solchen Schritten vorgenommen wird, wie sie damals der AK End vorgeschlagen hat, und wenn man nur zwei, drei Orte untersucht? Wie soll so der bestmögliche Standort in Deutschland gefunden werden?</seg>
+        </u>
+        <note type="speaker">Michael Müller, Parl. Staatssekretär beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q1928687" xml:id="ParlaMint-DE_2006-11-29-16-069.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg234">Ich sehe die Situation nach wie vor so, dass das Bundesministerium für Umwelt, Naturschutz und Reaktorsicherheit alles tun wird, um im Interesse des Schutzes der Menschen und der Natur den bestmöglichen Standort zu finden. Wir sind aus meiner Sicht an die Pflicht eines nationalen Depots gebunden. Alles andere ist eine Frage des Prozesses. Natürlich werden die Kriterien des Arbeitskreises Endlager eine zentrale Rolle spielen. Was sonst?</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u118" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg235">Damit kommen wir zur Frage 30 der Kollegin Bärbel Höhn:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg236">Teilt die Bundesregierung die am 14. November 2006 in der "Financial Times Deutschland" veröffentlichte Einschätzung von Vertretern des Wuppertal Instituts für Klima, Umwelt, Energie GmbH und der Deutschen Umwelthilfe e. V., dass der Nationale Allokationsplan ein Schlupfloch der Art enthält, dass der Widerruf der Entscheidung über die Zuteilung der Emissionszertifikate nur bei vollständiger Betriebseinstellung möglich ist und die Unternehmen deshalb durch den Weiterbetrieb von Kraftwerken mit geringer Auslastung Zertifkate ansammeln können, und was plant die Bundesregierung zu tun, um dieses Schlupfloch im Interesse eines effektiven Klimaschutzes zu schließen?</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg237">Herr Staatssekretär, bitte.</seg>
+        </u>
+        <note type="speaker">Michael Müller, Parl. Staatssekretär beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q1928687" xml:id="ParlaMint-DE_2006-11-29-16-069.u119" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg238">Liebe Kollegin Höhn, Ihre Frage zielt auf die EU-weit praktizierte Methode der Zuteilung von Emissionszertifikaten für bestehende Anlagen ab, bei denen die Anzahl der Emissionsberechtigungen auf der Basis der früheren Emissionen einer Anlage berechnet und keine Anpassung an aktuelle Emissions- oder Produktionsniveaus vorgenommen wurde. Das ist eine so genannte Ex-post-Korrektur.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg239">Meine Antwort umfasst zwei Punkte. Der erste ist: Grundsätzlich stellt die Verlagerung der Produktion in alten, ineffizienten Anlagen hin zu modernen, sehr viel effizienteren Anlagen eine wichtige Option zur Vermeidung von CO2-Emissionen dar; da sind wir sicherlich einer Meinung. Im Ergebnis führen Produktionsverlagerungen zweifellos zu einer Reduktion der Kohlendioxidemissionen. Insofern hat diese Regelung im Grundsatz nichts mit Schlupflöchern zu tun.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg240">Allerdings ist es richtig - das ist der zweite Teil meiner Antwort -, dass nicht ausgeschlossen werden kann, dass es einen "Scheinbetrieb" von Anlagen gibt, bei dem Anlagen nur noch deshalb eine Betriebsgenehmigung haben, damit weiterhin Emissionsberechtigungen für sie zugeteilt werden. Das ist zweifellos ein Problem; das sehen auch wir. Es kommt im Ergebnis quasi einer Stilllegungsprämie gleich, wenn die Produktion dieser Anlage nicht von einer anderen, also von einer alten oder neuen Anlage des Betreibers, übernommen wurde.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg241">Wir haben deshalb im Zuteilungsgesetz 2007 eine Regelung vorgeschlagen, nach der im Falle eines Produktionsrückgangs die Zuteilungsmenge für eine Anlage durch Ex-post-Korrekturen reduziert werden kann. Diese Regelung sowie auch andere Ex-post-Korrekturen sind allerdings von der EU-Kommission als unvereinbar mit der Emissionshandelsrichtlinie bezeichnet und deshalb abgelehnt worden. Seitdem wurde der Vollzug ausgesetzt. Jedoch hat die Bundesregierung gegen diese Kommissionsentscheidung Klage vor dem Europäischen Gericht in erster Instanz erhoben. Die Entscheidung des Gerichtes wird in den nächsten Monaten erwartet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg242">Abhängig von dem Ausgang des Gerichtsverfahrens wird die Bundesregierung prüfen, ob auch im Hinblick auf die Zuteilungsperiode 2008 bis 2012 Ex-post-Korrekturen vorgesehen werden sollten. Um zumindest die sich jetzt abzeichnenden möglichen Stilllegungsprämien zu vermeiden, hat die Bundesregierung im Nationalen Allokationsplan II - das ist das Kap. 6.4, dritter Absatz - vorgesehen, dass Anlagen auch dann keine Zuteilung für die Zuteilungsperiode 2008 bis 2012 erhalten, wenn die Anlage im Durchschnitt der Jahre 2005 und 2006, also für zwei Jahre gerechnet, produktionsbedingt weniger als 20 Prozent der durchschnittlichen CO2-Menge der Jahre 2000 bis 2004, also über fünf Jahre berechnet, emittiert hat.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg243">Zudem hat die Bundesregierung im Nationalen Allokationsplan II in Kap. 6.4 auch angekündigt, dass bei der Zuteilung für die nachfolgende Handelsperiode, also 2013 bis 2017, die Mitnahme von Stilllegungsprämien ausgeschlossen wird. Wir denken in diesem Zusammenhang über verschiedene Wege nach, beispielsweise über die Stilllegung einzelner Teilanlagen oder Kraftwerksblöcke.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u120" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg244">Sie haben das Wort zu einer Nachfrage.</seg>
+        </u>
+        <note type="speaker">Bärbel Höhn (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q123504" xml:id="ParlaMint-DE_2006-11-29-16-069.u121" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg245">Sie haben zu Recht angesprochen, dass bezüglich der Ex-post-Korrektur eine Klage auf EU-Ebene anhängig ist und dass man die Entscheidung darüber abwarten muss. Habe ich Sie jetzt richtig verstanden, dass, wenn die Entscheidung für die Bundesregierung positiv ausgeht und die Ex-post-Korrektur auf EU-Ebene gebilligt wird, die Bundesregierung dann auch im NAP II eine solche Ex-post-Korrektur vornehmen und die Regelung des NAP I - vielleicht in abgeänderter Form - übernehmen wird?</seg>
+        </u>
+        <note type="speaker">Michael Müller, Parl. Staatssekretär beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q1928687" xml:id="ParlaMint-DE_2006-11-29-16-069.u122" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg246">Im Grundsatz hat das Parlament und auch die Bundesregierung schon beim ersten Nationalen Allokationsplan Ex-post-Regelungen für sinnvoll angesehen. An dieser Haltung hat sich nichts geändert.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u123" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg247">Zweite Nachfrage.</seg>
+        </u>
+        <note type="speaker">Bärbel Höhn (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q123504" xml:id="ParlaMint-DE_2006-11-29-16-069.u124" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg248">Die Emissionszertifikate für Neuanlagen sind immer noch sehr knapp bemessen. Nun sind auf dem Energiegipfel viele neue Anlagen versprochen worden. Geht die Bundesregierung davon aus, dass die knapp bemessenen Emissionszertifikate für die neuen Anlagen ausreichen oder kann der Fall eintreten - wenn sie nicht ausreichen -, dass die Bundesregierung sogar vorher verschenkte Zertifikate am Ende teuer zurückkaufen muss, um die neuen Anlagen zu bedienen? Oder gehen Sie davon aus, dass die Energiekonzerne die Versprechungen, die sie gemacht haben, sowieso nicht einhalten und es gar nicht zu einer solchen Zahl von neuen Anlagen kommt?</seg>
+        </u>
+        <note type="speaker">Michael Müller, Parl. Staatssekretär beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q1928687" xml:id="ParlaMint-DE_2006-11-29-16-069.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg249">Man hat so seine Erfahrungen; aber im Augenblick würde ich erst einmal davon ausgehen, dass die Prognosen stimmen.</seg>
+        </u>
+        <note type="speaker">Bärbel Höhn (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q123504" xml:id="ParlaMint-DE_2006-11-29-16-069.u126" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg250">Was heißt das jetzt?</seg>
+        </u>
+        <note type="speaker">Michael Müller, Parl. Staatssekretär beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q1928687" xml:id="ParlaMint-DE_2006-11-29-16-069.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg251">Das heißt, wir gehen davon aus, dass unsere Daten und unsere Berechnungen richtig sind. Ich widerspreche allerdings insofern nicht: Wir haben oft Ankündigungen nicht umgesetzt gesehen. Dann muss man darüber neu beraten.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u128" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg252">Der Kollege Fell hat noch eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Hans-Josef Fell (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q90931" xml:id="ParlaMint-DE_2006-11-29-16-069.u129" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg253">Herr Staatssekretär, Bundesminister Gabriel hat letzte Woche angekündigt, dass die Bundesregierung die Obergrenze für den erlaubten CO2-Ausstoß auf 465 Millionen Tonnen beschränken will. Die EU-Kommission hat heute aber den Nationalen Allokationsplan gerügt und Deutschland verpflichtet, den CO2-Ausstoß noch deutlicher abzusenken, und zwar auf 453 Millionen Tonnen. Wird die Bundesregierung diese Vorgabe der EU-Kommission einhalten?</seg>
+        </u>
+        <note type="speaker">Michael Müller, Parl. Staatssekretär beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q1928687" xml:id="ParlaMint-DE_2006-11-29-16-069.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg254">Die Position der Bundesregierung ist, dass der neue Vorschlag von der Richtlinie nicht gedeckt ist. Wir haben hier also eine andere Auffassung - übrigens nicht nur wir, sondern, wenn ich das richtig sehe, auch die Vorgängerregierung. Darüber wird aber noch weiter zu debattieren sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-11-29-16-069.u131" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg255">Danke, Herr Staatssekretär. - Damit sind wir am Ende der Fragestunde.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg256">Ich unterbreche die Sitzung bis 15 Uhr.</seg>
+        </u>
+        <vocal type="interruption">
+          <desc>Unterbrechung von 14.12 bis 15.00 Uhr</desc>
+        </vocal>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u132" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg257">Liebe Kolleginnen und Kollegen! Die unterbrochene Sitzung ist wieder eröffnet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg258">Ich rufe Zusatzpunkt 1 auf:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg259">Aktuelle Stunde</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg260">auf Verlangen der Fraktionen der CDU/CSU und der SPD</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg261">Stärkere Beteiligung der Arbeitnehmer am Erfolg und Kapital von Unternehmen</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg262">Ich eröffne die Aussprache und erteile als erstem Redner dem Kollegen Dr. Joachim Pfeiffer für die CDU/ CSU-Fraktion das Wort.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei Abgeordneten der CDU/CSU - Dr. Thea Dückert [BÜNDNIS 90/DIE GRÜNEN]: Die Regierungsbank ist leer! Ist die Bundesregierung zurückgetreten? - Gegenruf des Abg. Hartmut Schauerte [CDU/CSU]: Gnädige Frau, die Bundesregierung hat ihren Platz hier! - Gegenruf der Abg. Dr. Thea Dückert [BÜNDNIS 90/DIE GRÜNEN]: Jetzt sind Sie Parlamentarier!</desc>
+        </kinesic>
+      </div>
+      <div type="debateSection" n="2" ana="#DE-current_affairs">
+        <head>Aktuelle Stunde</head>
+        <note type="speaker">Dr. Joachim Pfeiffer (CDU/CSU):</note>
+        <u who="#Q103666" xml:id="ParlaMint-DE_2006-11-29-16-069.u133" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg263">Frau Präsidentin! Meine sehr geehrten Damen und Herren! In der Tat: Ich darf auch die Bundesregierung begrüßen, vertreten durch den Staatssekretär Schauerte - wenn auch, aus seiner Sicht betrachtet, auf den Zuschauerrängen, nämlich im Plenum.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Thea Dückert [BÜNDNIS 90/DIE GRÜNEN]: Der kann zu den Zuschauern gehen, wenn er nichts zu sagen hat!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg264">Die Debatte um das Thema "Stärkere Beteiligung der Arbeitnehmer am Erfolg und Kapital von Unternehmen" führen wir in Deutschland seit den 50er-Jahren, also bereits seit Jahrzehnten.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Thea Dückert [BÜNDNIS 90/DIE GRÜNEN]: Deshalb die Aktuelle Stunde heute!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg265">Schon Ludwig Erhard hatte ja die Vision einer Gesellschaft von Teilhabern. Einiges ist in dieser Beziehung passiert. Ich nenne: Arbeitnehmersparzulage, Steuerfreiheit von entsprechenden Anlagen. Aber es ist in dieser Angelegenheit noch kein Durchbruch erzielt worden. Wenn wir uns einmal die einschlägigen Zahlen betrachten, müssen wir leider feststellen: Das Ergebnis ist sehr nüchtern. In Frankreich sind beispielsweise 23 Prozent der Mitarbeiter am Kapital beteiligt, in Großbritannien über 30 Prozent, während es in Deutschland gerade einmal 10 Prozent sind.</seg>
+          <vocal type="exclamat">
+            <desc>Brigitte Pothmer [BÜNDNIS 90/DIE GRÜNEN]: Ein bisschen spät, wenn Sie jetzt darüber reden!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg266">Bei der Gewinnbeteiligung sieht es nicht viel besser aus. In Frankreich sind 84 Prozent der Mitarbeiter am Gewinn beteiligt, in Großbritannien 30 Prozent, in Deutschland knapp 18 Prozent.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg267">Auch die Akzeptanz der sozialen Marktwirtschaft - das ist eine aktuelle Thematik, die uns zu denken geben sollte - schwindet zunehmend. Viele Menschen sehen sich nicht mehr als Teilnehmer oder Teilhaber an der Gesellschaft bzw. der Wirtschaft; vielmehr sehen sie sich, zum Objekt degradiert, als Verlierer. Auch hier nur einige Zahlen für die Bundesrepublik. Diese Zahlen sind nach West und Ost differenziert, weil es da nennenswerte Unterschiede gibt. Im Westen waren es 1998 73 Prozent, die die soziale Marktwirtschaft als anzustrebende Wirtschaftsform bezeichnet haben bzw. die gesagt haben, sie habe sich bewährt, während es 2002 nur noch 65 Prozent und 2005 nur noch 52 Prozent waren. Im Jahre 2006 haben wir wieder einen leichten Anstieg zu verzeichnen. Die entsprechenden Zahlen für den Osten lauten: 1998 waren es 64 Prozent, dann 55 Prozent, bis der Wert im letzten Jahr unter 44 Prozent ging. In diesem Jahr ist er leicht auf 48 Prozent angestiegen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg268">Wir haben ein sachliches Problem, das die nüchternen Zahlen beschreiben, und ein psychologisches Problem. Damit aus diesem psychologischen Problem nicht schnell auch ein politisches Problem wird, wird die große Koalition - sie bietet dafür eine einzigartige Chance - in einer großen Anstrengung dieses Thema angehen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg269">Was sind die Chancen und was sind die Ziele dabei? Wir in der CDU haben mit unserem gestrigen Beschluss auf dem Bundesparteitag in Dresden einen richtungweisenden Prozess angestoßen. Ich will nur einige Vorteile der Arbeitnehmerbeteiligung nennen: Das Vertrauen zwischen Arbeitnehmern und Arbeitgebern, die Partizipation, das Mitwirken, die Teilhabe werden gestärkt. Es ist der Weg weg von einer Misstrauens- hin zu einer Vertrauenskultur. Die Motivation der Arbeitnehmer wird gestärkt.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg270">Auch für die Betriebe, für die Arbeitgeber, hat dieses Instrument Vorteile: Eine Untersuchung des IAB in Nürnberg zeigt, dass die Produktivität und Wettbewerbsfähigkeit der Unternehmen, in denen Mitarbeiter am Gewinn oder am Kapital beteiligt sind, in Westdeutschland um durchschnittlich 57 Prozent und in Ostdeutschland um rund 40 Prozent höher ist. In meinem Wahlkreis Waiblingen praktiziert die Firma Stihl dieses Modell seit Jahren erfolgreich. Bei dieser Firma, die auf dem Weltmarkt deutlich zeigt, dass ein solches Unternehmen überdurchschnittlich wettbewerbsfähig und produktiv sein kann, können die Mitarbeiter Genussscheine erwerben: Die Firma bezahlt 900 Euro und die Mitarbeiter können bis zu 1 350 Euro drauflegen. Auch die Carl Zeiss AG in Oberkochen bietet ähnliche Instrumente an. Dort gibt es diverse Formen der Beteiligung, zum Beispiel Belegschaftsaktien und Genussrechte.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg271">In dem jetzt anstehenden Prozess, dem wir uns stellen, müssen wir mehrere grundlegende Kriterien benennen. Für uns ist wichtig, dass gerade auf betrieblicher Ebene der Grundsatz der Freiwilligkeit gewährleistet wird. Wir wollen weder gesetzlichen noch tariflichen Zwang. Die Regelung muss einfach und unbürokratisch sein, damit sie von den Mitarbeitern auch angenommen wird. Wir müssen darüber nachdenken, wie diese Instrumente steuerlich behandelt werden - Stichwort: nachgelagerte Besteuerung -, und sie beispielsweise sinnvoll mit der Altersvorsorge verknüpfen. Auch über solche Anreize können wir diese Instrumente nach vorne bringen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg272">Gestern haben wir den Startschuss gegeben. Jetzt laden wir alle Fraktionen sowie alle auf Wirtschafts- und Arbeitnehmerseite Beteiligten ein, sich an der breiten gesellschaftlichen Debatte, die wir mit dieser Aktuellen Stunde anstoßen wollen, zu beteiligen. Für die Zukunft unseres Landes ist es wichtig, dass wir eine Gesellschaft von Teilhabern werden. Die Menschen sollen nicht nur aktiv an der politischen und gesellschaftlichen Fortentwicklung unseres Landes teilhaben, sondern auch an der wirtschaftlichen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg273">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU und der SPD - Irmingard Schewe-Gerigk [BÜNDNIS 90/DIE GRÜNEN]: Was haben Sie denn sonst noch in Dresden beschlossen?</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u134" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg274">Nächster Redner ist der Kollege Rainer Brüderle für die FDP-Fraktion.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP - Irmingard Schewe-Gerigk [BÜNDNIS 90/DIE GRÜNEN]: Was hat denn die FDP auf ihrem Parteitag beschlossen?</desc>
+        </kinesic>
+        <note type="speaker">Rainer Brüderle (FDP):</note>
+        <u who="#Q495084" xml:id="ParlaMint-DE_2006-11-29-16-069.u135" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg275">Frau Präsidentin! Meine Damen und Herren! Aktuelle Stunden auf Antrag der Koalitionsfraktionen sind etwas Seltenes,</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Thea Dückert [BÜNDNIS 90/DIE GRÜNEN]: Stimmt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg276">erst recht, da sich Schwarz und Rot so selten einig sind. Wenn sie jetzt Eintracht üben, wollen sie damit eines signalisieren: Wir tun etwas für die Arbeitnehmer! Sie wollen vernebeln und davon ablenken, dass die bisherige Politik von Schwarz-Rot ein dreister Anschlag auf die Vermögensbildung der Arbeitnehmer war:</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der LINKEN - Widerspruch bei der CDU/CSU und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg277">Halbierung des Sparerfreibetrages - kein Beitrag zur Vermögensbildung! Erhöhung der Versicherungsteuer - kein Beitrag zur Vermögensbildung! Dreiste Erhöhung der Mehrwertsteuer - sie mindert gerade bei den Arbeitnehmern das verfügbare Einkommen erheblich. Und jetzt kommen Sie, ein bisschen scheinheilig, mit der vermögensbildenden Maßnahme Investivlohn.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg278">Sie kommen mir vor wie der Junker, der dem Bauern erst die Sau klaut und ihm dann drei Koteletts zurückgibt, wofür sich der Bauer auch noch artig bedanken soll. Das scheint das Motto Ihrer Politik zu sein.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg279">Im Grundsatz herrscht bei dem Thema Mitarbeiterbeteiligung weitgehend Eintracht. Das Thema wird seit Jahrzehnten diskutiert und ist genauso lange Position der FDP: Wir wollen ein Volk von Eigentümern, kein Volkseigentum. Die Probleme liegen im Detail: Was haben Sie vor? Wollen Sie, das der Investivlohn zusätzlich, über den vereinbarten Lohn hinaus, gezahlt wird? Vielen Mittelständlern wird das schwer fallen. Auch die internationale Wettbewerbsfähigkeit wird davon in vielfacher Hinsicht tangiert sein. Wollen Sie Sparlohn statt Barlohn, das heißt, einen Teil des Lohnes der Arbeitnehmer nicht auszahlen, sondern in Unternehmensbeteiligungen anlegen? Darüber würden sich viele freuen. Die Gewerkschaften haben gleich angemeldet, dass es so etwas nicht geben könne, dass der Investivlohn zusätzlich gezahlt werden müsse.</seg>
+          <vocal type="exclamat">
+            <desc>Hüseyin-Kenan Aydin [DIE LINKE]: Richtig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg280">Sie haben bisher keine Aussagen dazu gemacht, wie Sie das machen wollen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg281">Es geht außerdem um die Entscheidung, ob der Arbeitnehmer freie Verfügung hat oder das Kapital im Unternehmen gebunden wird. Aus all den Gründen, die Herr Dr. Pfeiffer angesprochen hat, würde ich Letzteres begrüßen, weil es eine Bindung an das Unternehmen mit sich bringt. Allerdings muss man auch die Gefahrenmomente sehen. Man kann ja nicht einfach sagen: Die Gewinne bekommt der Arbeitnehmer und bei Verlust sollen dann andere zahlen; die SPD hat nebulös von Bürgschaften und Versicherungslösungen gesprochen. Es ist schwierig, hier eine konkrete Lösung zu finden.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg282">Klar ist: Das kann nur auf freiwilliger Basis geschehen. Es kann keinen Anspruch auf Investivlohn geben. Es kann ein Angebot der Arbeitgeber sein. Der Arbeitnehmer muss frei wählen können, ob er das Angebot annimmt oder nicht, ob er lieber Barlohn möchte oder einen Lohn, der in der Unternehmensbeteiligung sparend angelegt wird.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg283">Das Thema Investivlohn wurde bereits vor langen Jahren mit dem so genannten Leber-Plan angestoßen: Er wollte eine Arbeitnehmerbeteiligung an Unternehmen ermöglichen. Dazu müsste man Öffnungsklauseln in die Flächentarifverträge aufnehmen, die dies ermöglichen. Der Staat könnte das Seine tun, indem er für eine nachgelagerte Besteuerung sorgt - dafür sind auch wir -: Steuern und Sozialbeiträge fallen erst dann an, wenn der Arbeitnehmer über das Erworbene verfügen kann. Die CDU/CSU dagegen will eine staatliche Zulage für Kapitalbeteiligung, also eine neue Subvention, einführen. Wie sie das finanzieren will, sagt sie nicht. Eine Begründung dürfte auch nicht leicht fallen, hat sie doch gerade erst den Sparerfreibetrag halbiert. Wenn sie den Leuten erst Geld wegnimmt, um dann eine neue Subvention einzuführen, ist das nicht eben schlüssig.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg284">Ich glaube, besser für die Vermögensbildung wären etwa Bonuszahlungen am Jahresende, wenn ein Unternehmen Erfolg hat. Porsche zum Beispiel, denen es glänzend geht, zahlen jedem Mitarbeiter 3 500 Euro Sonderbonus am Jahresende. Davon hat der Einzelne sicher mehr als von einer Unternehmensbeteiligung im eigentlichen Sinne. Es ist zwar schön, Anteile am eigenen Unternehmen zu haben, aber verbunden sind sie immer mit allen Chancen und Risiken. Sobald Sie die Haftung beim Staat abladen - das alles bleibt ja völlig unklar bei dem, das vorgelegt wurde und über das bisher diskutiert wird -, schaffen Sie eine ganz andere Form von Beteiligung als ein Eigentum im eigentlichen Sinne des Wortes.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg285">Ich hoffe, dass die Debatte wenigstens eines mit sich bringt: dass mehr Fantasie in die Tarifpolitik kommt. Schon längst könnte man nämlich ertragsabhängige Komponenten einführen: Wenn in einem Unternehmen oder einer Branche bestimmte Erfolgszahlen erreicht werden und die Betriebe entsprechende Gewinne machen, dann gibt es einen Bonus, zum Beispiel in Form von Belegschaftsaktien.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg286">Übrigens: Bei Personengesellschaften - der vorherrschenden Rechtsform beim Mittelstand -, etwa bei einer OHG, sind Miteigentümer von Gesetzes wegen zwingend haftend. Herr Dr. Pfeiffer, bei diesem Vorhaben darf es nicht dazu kommen, dass der Mittelstand diskriminiert und schlecht behandelt wird. Es muss alles durchdacht sein.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg287">Der Grundgedanke ist richtig und wird von uns unterstützt. Wir wollen das anpacken - aber bitte nicht wie Zieten aus dem Busch, um von Schwierigkeiten der großen Koalition abzulenken, von den massiven Steuererhöhungen und den Eingriffen in die Möglichkeiten unserer Arbeitnehmer zur Vermögensbildung. Durch die Steuererhöhungen haben sie nicht mehr die Möglichkeiten wie bisher, Kapitalbildung und Vermögensbildung zu betreiben. Im Grunde ist das, was Sie machen, scheinheilig. Sie kommen jetzt mit einer Art Wunderwaffe vom Parteitag und wollen davon ablenken, dass Sie eine falsche Politik machen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u136" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg288">Das Wort hat nun der Kollege Dr. Rainer Wend für die SPD-Fraktion.</seg>
+        </u>
+        <note type="speaker">Dr. Rainer Wend (SPD):</note>
+        <u who="#Q97249" xml:id="ParlaMint-DE_2006-11-29-16-069.u137" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg289">Frau Präsidentin! Meine sehr geehrten Damen und Herren! Lieber Kollege Brüderle, uns in der Koalition hätte heute auch etwas gefehlt, wenn wir nicht ordentlich von Ihnen beschimpft worden wären, wie Sie es gerade getan haben.</seg>
+          <vocal type="exclamat">
+            <desc>Rainer Brüderle [FDP]: Leider muss das sein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg290">Es hat für die Betriebstemperatur wieder gereicht. Aber möglicherweise gibt es einige Fakten, die es notwendig machen, über das Thema Gewinnbeteiligung zu reden.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg291">Die Lohnquote, also der Anteil von Löhnen und Gehältern am Volkseinkommen, ist von 1999 bis 2001 um etwa 5,5 Prozent gewachsen, die Gewinnquote, also der Anteil von Unternehmens- und Vermögenseinkommen, im selben Zeitraum um etwa 3,5 Prozent. Im Jahr 2005 betrug der Zuwachs der Lohnquote gegenüber 1999 immer noch etwa 5,5 Prozent - keine Veränderung -, die Gewinnquote hingegen hat gegenüber 1999 um 30 Prozent zugenommen. Das heißt, wir haben hier ein Auseinanderklaffen, eine Schere tut sich auf zwischen den Löhnen und Gehältern der Beschäftigten einerseits und den Gewinnen der Unternehmen andererseits. Das ist nicht nur schlecht; denn das hilft natürlich unserem Export, wettbewerbsfähig zu sein. Doch für die Binnenkonjunktur ist das fehlende Einkommen ein Problem. Was noch wichtiger ist: Ich glaube, dass unsere soziale Marktwirtschaft ganz erheblich an Legitimation verliert, wenn es uns nicht gelingt, die Schere zwischen Löhnen und Gehältern einerseits und Gewinnen andererseits ein Stück weit zu schließen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg292">Dafür ist eine Gewinnbeteiligung hilfreich. Aber man muss vorweg einiges klarstellen, auf das Herr Brüderle zu Recht angespielt hat:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg293">Erstens. Für uns Sozialdemokraten kann so etwas kein Ersatz für Tarifverträge, kein Ersatz für die Tarifautonomie sein. Die kollektive Festlegung von Arbeitsbedingungen durch Flächentarifverträge bleibt für uns die Grundlage; auf ihr kann aufgebaut werden, doch sie kann durch eine Gewinnbeteiligung nicht ersetzt werden.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg294">Zweitens. Es gibt Ideen, über so etwas wie einen Investivlohn werde die Mitbestimmung der Beschäftigten überflüssig, weil sie quasi Miteigentümer der Unternehmen würden. Dazu sagen wir ganz deutlich: Für uns ist eine Gewinnbeteiligung keine Alternative zur Mitbestimmung. Für uns sind die gesetzlichen Mitbestimmungsrechte genau wie die Tarifautonomie unantastbar.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg295">Das als Voraussetzungen klargestellt, können wir sagen: Lasst uns das machen, wir sind uns weitgehend einig. Allerdings wird seit 30 Jahren immer wieder einmal über so etwas diskutiert, und wenn wir ehrlich sind, müssen wir zugeben: So richtig zustande gebracht haben wir nichts. Vielleicht liegt das auch daran, dass viele Sachen durcheinander gehen, dass es kompliziert ist: Was meinen wir eigentlich? Meinen wir eine Beteiligung an den Gewinnen von Unternehmen? Oder meinen wir eine Beteiligung am Kapital von Unternehmen?</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Thea Dückert [BÜNDNIS 90/DIE GRÜNEN]: Das Thema eurer Aktuellen Stunde heißt: "... und am Kapital von Unternehmen"!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg296">Wenn wir über Letzteres reden, über eine Beteiligung am Kapital des Unternehmens, einen Investivlohn, stellen sich eine Reihe von Fragen: Ist es in Ordnung, dass Arbeitnehmer im Falle einer Insolvenz das doppelte Risiko tragen, nämlich Arbeitsplatz und Kapital zu verlieren? Nun gibt es die Idee, eine Insolvenzsicherung vorzusehen. Doch ist es in Ordnung, wenn ein VW-Mitarbeiter bei Aktien, die er von seinem Konzern bekommt, einen Insolvenzschutz hat, aber wenn er sie woanders erwirbt, keinen solchen hat? Und wie soll man bei Personengesellschaften eine Beteiligung am Kapital des Unternehmens oder am Unternehmen selbst organisieren? Das wird schwierig. Es gibt also viele Fragezeichen beim Investivlohn.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg297">Eine Beteiligung am Gewinn - über den Flächentarifvertrag, über die Tariflöhne hinaus - ist meines Erachtens eine realistischere Perspektive. Doch so etwas muss freiwillig sein. Man kann auch über Förderung reden, allerdings in Grenzen. Denn wir müssen uns über die finanziellen Folgewirkungen und über die ordnungspolitischen Folgewirkungen im Klaren sein: Wir können kein Interesse daran haben, dass die Flucht aus sozialversicherungspflichtigen Löhnen intensiviert wird und wir auf diese Art und Weise unsere sozialen Sicherungssysteme schwächen. Wann also Förderung? Zum Beispiel wenn ein anderer gewünschter Zweck damit erreicht wird, nämlich fürs Alter vorzusorgen. Wenn wir eine Förderung an einen Zweck koppeln und die Gewinnbeteiligung daran knüpfen, kann ich mir vorstellen, über nachgelagerte Besteuerung und Ähnliches Unterstützung und Anreize seitens des Staates zu geben.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg298">Das Thema ist wichtig. Die große Koalition kann es anpacken wie kaum eine andere Konstellation - aber es muss realistisch betrachtet und konkret ausgestaltet werden und man darf es nicht als Wunderinstrument verkaufen. Trotzdem: Prima, lassen Sie uns das gemeinsam auf den Weg bringen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD und der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u138" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg299">Nächster Redner ist nun der Kollege Professor Dr. Herbert Schui für die Fraktion Die Linke.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der LINKEN</desc>
+        </kinesic>
+        <note type="speaker">Dr. Herbert Schui (DIE LINKE):</note>
+        <u who="#Q1296323" xml:id="ParlaMint-DE_2006-11-29-16-069.u139" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg300">Frau Präsidentin! Meine Damen und Herren! Bei Licht besehen ist der Investivlohn nichts weiter als ein Suggestivlohn. Suggestion bedeutet bekanntlich, dass die rationalen Persönlichkeitsanteile außer Funktion gesetzt werden. Angesichts sinkender realer Masseneinkommen und sinkender realer Haushaltseinkommen soll den Lohn- und Gehaltsempfängern suggeriert werden, auch sie würden jetzt besser gestellt.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg301">Nachdem die Unterschicht, traditionell bestimmt durch die Höhe des Einkommens, par ordre de Mufti wegdefiniert worden ist, findet die Koalition offenbar, dass es nun Zeit wird, die arbeitenden Armen in den Stand der Kapitalisten zu erheben.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg302">Durch den Investivlohn werden sie zu Miteigentümern des Unternehmens, in dem sie arbeiten. Sie werden Volkskapitalisten - so der Begriff der 50er- und 60er-Jahre - im Rahmen der, so die CDU jetzt, sozialen Kapitalpartnerschaft.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg303">Aber was genau hat es mit dem Investivlohn auf sich?</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg304">Erstens. Investivlohn erhöht das gegenwärtige Einkommen nicht. In der überschaubaren Frist ist das angesparte Vermögen zu gering, um entsprechende Erträge abzuwerfen. Das führt dazu, dass weder die laufenden Einkommen noch die Binnennachfrage steigen. Aus dieser Form der Lohnerhöhung folgt selbstverständlich keine Verbesserung der konjunkturellen Lage.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg305">Zweitens. Wahrscheinlich ist, dass die baren Löhne unter Hinweis auf den existierenden Investivlohn weiter gesenkt werden. Dadurch wird das Wachstum gedrosselt.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg306">Drittens. Auf den Investivlohn sollen keine Sozialabgaben gezahlt werden. Das soll erst dann der Fall sein, wenn der Betrag fällig wird. Das bedeutet aber, dass die Finanzierung der sozialen Sicherheit in der gesamten Ansparphase in der Größenordnung des Betrags, der dem Umfang der entgangenen Sozialleistungen entspricht, gefährdet ist.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg307">Viertens, Risiko und Beteiligung: Wenn ein Unternehmen Bankrott geht, dann ist nicht nur der Arbeitsplatz weg, sondern auch der angesparte Investivlohn. Wie soll das geregelt werden, wenn man alle Eier in einen Korb legt? Oder schlägt die CDU-Arbeitsgruppe unter Leitung von Herrn Laumann eine Gewinnbeteiligung mit entsprechender Absicherung vor?</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg308">Fünftens. Wenn es sich jemand mit hinreichendem Einkommen leisten kann, zu sparen, dann wählt er die Form der Geldanlage normalerweise frei. Der Verkauf von Aktien beispielsweise ist jederzeit möglich und sinnvoll, wenn man meint, dass die Kurse nachgeben, oder wenn man einen Gewinn mitnehmen möchte. Beim Investivlohn ist das, da das Gesparte gebunden ist, nicht der Fall. Offensichtlich hat die Koalition hier überlegene Einsichten: Sie zwingt die Lohnbezieher zum Sparen - Investivlohn ist Zwangssparen - und weiß obendrein auch noch besser als die Betroffenen, wie und wo das Ersparte anzulegen ist.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Joachim Pfeiffer [CDU/CSU]: Freiwillig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg309">- Ja, natürlich. Alles ist freiwillig, selbstverständlich.</seg>
+          <vocal type="exclamat">
+            <desc>Alexander Dobrindt [CDU/CSU]: Sie sollten erst einmal genau lesen! Dann können Sie uns hier etwas erzählen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg310">Sie sagen also: Die Unternehmer werden sich freiwillig darauf einigen, einen Investivlohn zu zahlen.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit bei der LINKEN - Zuruf von der LINKEN: Ach was! Niemals!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg311">Ich frage Sie: Wenn sie das freiwillig tun, wieso müssen Sie darüber überhaupt noch auf Ihrem Parteitag diskutieren?</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg312">Ganz grundsätzlich: Die Koalition lehnt die Einführung eines Mindestlohns strikt ab.</seg>
+          <vocal type="exclamat">
+            <desc>Andrea Nahles [SPD]: Das stimmt doch gar nicht! Der Mindestlohn wird nicht abgelehnt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg313">Mit der Einführung eines Investivlohns möchte sie aber einen Teil des Lohnes gesetzlich regeln. Wenn die Regierung im Hinblick auf den Lohn Regeln gesetzlicher Art vorgibt, warum sperrt sie sich dann gegen die Einführung eines gesetzlichen Mindestlohns?</seg>
+          <vocal type="exclamat">
+            <desc>Andrea Nahles [SPD]: Das stimmt doch gar nicht! - Hüseyin-Kenan Aydin [DIE LINKE]: Richtig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg314">Zumindest signalisieren Sie durch Ihre Überlegungen, dass eine gesetzliche Regelung der Entlohnung für Sie nicht völlig tabu ist.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Joachim Pfeiffer [CDU/CSU]: Sie haben nichts verstanden!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg315">- Doch. Ich habe mehr verstanden als Sie, vor allen Dingen von der Wirklichkeit.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit und Beifall bei Abgeordneten der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg316">Ich habe mich nämlich nicht der Käfighaltung hingegeben, sondern bin gelegentlich dort, wo ich gewählt werde.</seg>
+          <kinesic type="laughter">
+            <desc>Heiterkeit und Beifall bei der LINKEN - Lachen bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg317">Wenn es um Kapitalgesellschaften geht, ist der Investivlohn in technischer Hinsicht leicht zu handhaben: Der Lohnbezieher bekommt Aktien. Aber wie wollen Sie bei Personengesellschaften vorgehen? Sollen alle Unternehmen verpflichtet sein, einen Investivlohn zu zahlen? Vor allen Dingen frage ich Sie in Bezug auf die Mitsprache der Miteigentümer - bei Aktiengesellschaften ließe sich das institutionell organisieren -: Wie wollen Sie die Mitsprache der Miteigentümer in kleinen Unternehmungen regeln, die nicht über die Institutionen verfügen, in denen eine solche Mitsprache stattfinden könnte?</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg318">Schließlich: Ministerpräsident Stoiber hat der "Bild"-Zeitung offenbart, der Investivlohn sei genau die richtige Antwort auf den Vorwurf, im Rahmen der Globalisierung würden die Managergehälter nach amerikanischem Vorbild erhöht und die Gehälter der Arbeitnehmer nach dem Vorbild Chinas gesenkt. 100 Millionen für Ackermann, eine Hand voll Aktien für die Belegschaft. Diese Größenordnungen stören mich. Vor allem wird dadurch keine der brennenden Gegenwartsfragen angegangen. Zweck ist, die Verarmung der Bevölkerung durch eine aufgesetzte Debatte zu überdecken - weiter nichts.</seg>
+          <kinesic type="laughter">
+            <desc>Beifall bei der LINKEN - Lachen bei der CDU/CSU - Zuruf von der CDU/CSU: Das ist doch keine Karnevalsveranstaltung!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg319">Auch bei dieser Debatte über den Volkskapitalismus und den Investivlohn wird nichts herauskommen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg320">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der LINKEN - Peter Rauen [CDU/ CSU]: Zurück in die DDR! - Peter Weiß [Emmendingen] [CDU/CSU]: Unglaublich!</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u140" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg321">Nächster Redner ist der Kollege Alexander Dobrindt für die CDU/CSU-Fraktion.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Alexander Dobrindt (CDU/CSU):</note>
+        <u who="#Q85783" xml:id="ParlaMint-DE_2006-11-29-16-069.u141" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg322">Frau Präsidentin! Liebe Kolleginnen und Kollegen! Meine Damen und Herren! Herr Professor Schui, auch für die Zuschauer auf den Rängen oben muss es wie Realsatire wirken, wenn Sie hier im Deutschen Bundestag berichten. Vor allem aber bringen Sie offensichtlich wissentlich falsche Zitate: Der bayerische Ministerpräsident</seg>
+          <vocal type="exclamat">
+            <desc>Andrea Nahles [SPD]: Intensivlohn!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg323">hat ausdrücklich erwähnt, dass das Auseinandergehen der Schere zwischen den Managergehältern, die sich nach dem Vorbild Amerikas entwickeln, und den Gehältern der Arbeitnehmer, die sich nach dem Vorbild Chinas entwickeln, kein Ziel sein darf, das mit der Globalisierung verfolgt wird. Genau das darf nicht sein und genau dagegen richten wir unsere Politik auch aus.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU - Hüseyin-Kenan Aydin [DIE LINKE]: Dann tun Sie doch etwas dagegen! - Weiterer Zuruf der Linken: Sie bauen Luftschlösser!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg324">Für eine Debatte hier in diesem Hause ist es aber ausgesprochen typisch: Anstatt die Chancen einer solchen Idee zu entdecken und sie voranzubringen, indem man erzählt, was alles an Gutem darin stecken kann, debattiert man vom ersten Moment an nur über das Risiko und malt Horrorszenarien an die Wand.</seg>
+          <vocal type="exclamat">
+            <desc>Irmingard Schewe-Gerigk [BÜNDNIS 90/ DIE GRÜNEN]: Überzeugen Sie doch erst einmal Ihren Koalitionspartner davon!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg325">Als Erstes sollten wir betonen: Das ist ein guter Ansatz, in dem Chancen stecken. Es könnte durchaus sein, dass daraus ein Projekt für diese große Koalition wird. Ich höre immer häufiger die Behauptung - das eine oder andere Mal mag das vielleicht auch stimmen -, dass man bei anderen Konstellationen hier im Deutschen Bundestag einiges besser machen könnte. Von mir aus! Herr Brüderle, ich will Ihnen nicht immer widersprechen. Ich glaube aber, dass genau bei diesem Punkt, für den wir einen großen und breiten Konsens in der Bevölkerung und zwischen den Arbeitgebern und den Arbeitnehmern brauchen, die große Koalition in der Lage sein mag, hier etwas Positives zu verwirklichen. Auch das muss man einmal wirklich positiv darstellen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der SPD - Dr. Rainer Wend [SPD]: Sollten wir das beim Arbeitslosengeld nicht auch tun?</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg326">Ich lese momentan ständig negative Dinge, nämlich zum Beispiel, dass die IG Metall großen Zweifel am Investivlohn hat:</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Thea Dückert [BÜNDNIS 90/DIE GRÜNEN]: Lesen Sie doch einmal unseren Antrag! Er ist sehr positiv!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg327">Es kann nicht sein, dass die Arbeitnehmer neben ihrem Arbeitsplatzrisiko auch noch ein Kapitalrisiko tragen müssen - so Gewerkschaftschef Peters.</seg>
+          <vocal type="exclamat">
+            <desc>Hüseyin-Kenan Aydin [DIE LINKE]: Was ist denn daran falsch?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg328">Wer sagt denn überhaupt, dass das in diesem Konzept steckt?</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg329">Ich sehe aber auch gute Dinge. Ich habe heute gelesen, dass der Bundesvorsitzende der Wirtschaftsjunioren sagte: Wir unterstützen die Bemühungen, rechtliche Grundlagen für eine stärkere Mitarbeiterbeteiligung zu schaffen. Wir müssen dahin kommen, dass mehr Mitarbeiter und nicht nur Führungskräfte mit einem Teil ihres Gehalts das unternehmerische Risiko mittragen und einen unmittelbaren Vorteil darin erkennen. - Ich glaube, dass auch darin etwas Positives stecken kann.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg330">Aus meiner Sicht sollten wir uns drei Kernpunkten zuwenden:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg331">Erstens stellt sich die Frage, ob es überhaupt sinnvoll ist, dass die Arbeitnehmer im weitesten Sinne an Unternehmen beteiligt werden. Wenn man sich das Jahresgutachten des Sachverständigenrates anschaut, dann erkennt man, dass die Unternehmensgewinne in den Jahren 1991 bis 2005 um 100 Prozent gestiegen sind - es war also eine Verdoppelung -, während die Haushaltseinkommen im gleichen Zeitraum um 25 Prozent gesteigert wurden. Ich sehe hier die Chance, dass durch die Mitarbeiterbeteiligung mehr Ausgewogenheit geschaffen wird. Also sollten wir das positiv annehmen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg332">Die Kollegen, die vor mir hier gesprochen haben, haben dargestellt, dass die Motivation in den Unternehmen mit Mitarbeiterbeteiligung durchaus höher sein kann als in anderen. Es gibt genügend Beispiele dafür. Inzwischen habe ich sogar von Aktienfonds gehört, die sich nur in den Unternehmen engagieren, in denen es eine hohe Mitarbeiterbeteiligung gibt, weil sie auf lange Sicht gesehen deutlich erfolgreicher als andere sind. Auch das ist eine positive Antwort auf die Frage, ob es überhaupt sinnvoll ist, eine Mitarbeiterbeteiligung zu schaffen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg333">Zweitens stellt sich die Frage, wie man das Risiko verteilt. Dies wird hier zu Recht immer wieder angesprochen. Mitarbeiterbeteiligungen sollen freiwillig sein - das haben wir gehört -, aber dann muss die Freiwilligkeit auch für beide Seiten gelten: sowohl für die Arbeitgeber als auch für die Arbeitnehmer.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der FDP: Genau!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg334">Wenn wir darüber debattieren, ob wir einen Insolvenz-schutz brauchen und wie dieser gegebenenfalls aussehen könnte, sind zwei Gesichtspunkte zu beachten. Wenn wir eine unternehmerische Beteiligung mit den typischen Risiken und Mitspracherechten haben, beispielsweise eine stille Gesellschaft, dann brauchen wir nach meiner tiefen Überzeugung keinen Insolvenzschutz. Das entspricht im Prinzip unternehmerischem Handeln. Dann kann man auch eine entsprechende Entscheidung treffen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg335">Wenn man sich anders entscheidet und eine Beteiligung schuldrechtlicher Art oder eine Art Lohnumwandlung einführt, dann müssen wir nach meiner Überzeugung zumindest für einen großen Teil des Geldes eine insolvenzsichere Regelung vorsehen, damit die Mitarbeiter keinen Nachteil haben. Der Grundsatz ist also klar: Mitarbeiterbeteiligungen müssen differenziert ausgestaltet werden, je nachdem, welche Beteiligung gewünscht wird.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg336">Drittens stellt sich die Frage, ob es in Deutschland eine Kultur der Mitarbeiterbeteiligung gibt.</seg>
+          <kinesic type="applause">
+            <desc>Hüseyin-Kenan Aydin [DIE LINKE]: Die haben Sie doch zerstört! - Widerspruch bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg337">Das hat die bisherige Debatte gezeigt. Wir alle müssen uns dafür engagieren, dass die Menschen in Deutschland bereit sind, als Mitarbeiter Verantwortung in ihrem Unternehmen zu übernehmen, und dass auch die Arbeitgeber bereit sind, ihre unternehmerische Tätigkeit offen zu legen und sich sozusagen in die Karten schauen zu lassen, weil sie eine zusätzliche Motivationsgrundlage schaffen wollen und hinsichtlich der Globalisierung die Chance erkennen, dass sich die Beschäftigten durch die Mitarbeiterbeteiligung stärker mit ihrem Unternehmen identifizieren.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg338">Das ist unsere Mission und Aufgabe. Wir hoffen, dass wir gemeinsam zu einer guten Lösung kommen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg339">Danke schön.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU und der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u142" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg340">Nun hat die Kollegin Dr. Thea Dückert für die Fraktion des Bündnisses 90/Die Grünen das Wort.</seg>
+        </u>
+        <note type="speaker">Dr. Thea Dückert (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1423477" xml:id="ParlaMint-DE_2006-11-29-16-069.u143" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg341">Frau Präsidentin! Liebe Kolleginnen und Kollegen! "Mitarbeiterbeteiligung ist Teil einer offenen, modernen Unternehmenskultur." Das ist ein Zitat. So lautet der erste Satz in dem Antrag des Bündnisses 90/Die Grünen, der morgen zur Debatte stehen wird. Während Sie sich noch sozusagen im embryonalen Stadium der Debatte streiten, haben wir bereits einen Antrag zur Stärkung der Mitarbeiterbeteiligung hier eingebracht. Das macht vielleicht unsere Haltung dazu deutlich. Sie sind herzlich eingeladen, sich morgen konstruktiv an dieser Debatte und dann auch den Entscheidungen zu beteiligen, statt sich auf wohlgesetzte Worte zu beschränken.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg342">Dass Sie die aktuelle Stunde zu diesem Thema beantragt haben, macht, glaube ich, noch etwas anderes deutlich. Es belegt die Kommentierung der letzten Tage, in der unter anderem darauf hingewiesen wurde, dass Sie mit der Debatte über den Investivlohn sozusagen ein Kaninchen - ein älteres Kaninchen - aus dem Hut gezaubert haben, um die Rüttgers-Debatte zu überdecken, die Sie auf Ihrem Parteitag geführt haben und die sich in ihrem zentralen Inhalt mit dem Angriff auf Arbeitnehmerinnen- und Arbeitnehmerrechte auseinander setzt. Sie wollen die Illusion einer Lösung verbreiten, die letzlich doch nur auf den Abbau von Arbeitnehmerinnen- und Arbeitnehmerrechten hinausläuft, auch wenn Sie überall behaupten, dies sei nicht der Fall.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg343">Das ist eine Stellvertreterdebatte. Herr Brüderle, dem ich sonst nicht oft zustimme, hat zu Recht darauf hingewiesen. Sie haben eines getan: Sie haben den Sparerfreibetrag halbiert. Das ist ein guter Schritt in Ihre Richtung, aber ein schlechter Schritt für die Menschen, die Vermögensbildung betreiben wollen. Denen arbeiten Sie entgegen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg344">Sie haben - darauf möchte ich aufmerksam machen - die Aktuelle Stunde zu dem Thema "Stärkere Beteiligung der Arbeitnehmer am Erfolg und Kapital von Unternehmen" beantragt. Auch mit diesem Titel erwecken Sie den Eindruck, als könnte man die Mitarbeiterbeteiligung diskutieren, indem wir nur über die Erfolgsbeteiligung und nicht über das Risiko sprechen. Sie erwecken den Eindruck, als würde mit der Mitarbeiterbeteiligung sozusagen Manna vom Himmel regnen. Ich will das verdeutlichen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg345">Herr Dobrindt und Herr Wend, Sie haben interessanterweise genauso wie Herr Stoiber darauf hingewiesen, dass der Investivlohn eine richtige Antwort auf die Entwicklung sei, dass die Managergehälter nach oben und die Arbeitnehmereinkommen nach unten gingen. Damit erwecken Sie den Eindruck, als ob der Investivlohn eine Antwort auf dieses Auseinandergaloppieren gäbe und eine Art Umverteilung bewirkte. Das ist gefährlich. Sie erwecken in dieser Debatte Illusionen. Der Begriff "Investivlohn" bedeutet, dass Teile des Lohns investiert werden. Man kann das gut finden. Ich glaube, zusammen mit einer ordentlichen Insolvenzsicherung ist das nicht nur diskussionswürdig, sondern auch gut machbar. Aber man sollte schon darauf hinweisen, dass Arbeitnehmer, die sich am Kapital ihres Unternehmens beteiligen, ein doppeltes Risiko haben. Wenn das betreffende Unternehmen Pleite geht, verlieren sie nicht nur ihren Arbeitsplatz. Dann ist vielmehr auch ihre Kapitaleinlage perdu. Aber das erwähnen Sie nicht, genauso wenig wie im Titel dieser Aktuellen Stunde. Sie streuen den Menschen Sand in die Augen. Ich hoffe, dass sich die Menschen von Ihnen nicht für dumm verkaufen lassen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg346">Ich möchte noch auf ein anderes großes Problem aufmerksam machen, über das traute Einigkeit zwischen den Koalitionsfraktionen herrscht. Sie verkaufen den Menschen ein gefährliches Objekt, wenn Sie sagen, eine reformierte Mitarbeiterbeteiligung sei eine ordentliche, sichere Altersvorsorge. Das ist wirklich gefährlich; denn bei der Altersvorsorge geht es darum - darüber haben wir im Zusammenhang mit der Riesterrente lang und breit diskutiert -, eine Kapitalanlage zu befördern, die eine breite Risikostreuung hat. Das heißt, das Kapital darf nicht nur in einem Unternehmen angelegt werden. Sonst taucht das Problem auf, dass die Altersvorsorge perdu ist, wenn das betreffende Unternehmen Pleite geht. Das darf aber nicht geschehen. Wir brauchen vielmehr eine kapitalgedeckte Altersvorsorge mit einer breiten Risikoabdeckung. Reden Sie also den Menschen nicht ein, dass Ihr Modell eine sichere Altersvorsorge bietet!</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg347">Wenn Sie eine sichere Altersvorsorge haben wollen, haben Sie andere Möglichkeiten. Erhöhen Sie beispielsweise das Schonvermögen für diejenigen, die im Alter arbeitslos werden,</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg348">oder unterstützen Sie unser Modell eines Altersvorsorgekontos, das sich durch breite Risikostreuung und Wahlmöglichkeit auszeichnet!</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u144" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg349">Frau Kollegin, Sie müssen zum Schluss kommen.</seg>
+        </u>
+        <note type="speaker">Dr. Thea Dückert (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1423477" xml:id="ParlaMint-DE_2006-11-29-16-069.u145" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg350">Ich komme zum Schluss. - Wir werden morgen über unsere Vorschläge diskutieren. Ich lege Ihnen ans Herz: Führen Sie eine ehrliche und offene Debatte über die Chancen und Risiken der verschiedenen Modelle! Die Mitarbeiterbeteiligung ist sicherlich ein gutes unternehmenskulturelles Projekt, insbesondere wenn es mehr Mitbestimmung gibt. Aber gaukeln Sie den Menschen nichts vor! Denn sonst erweisen Sie einem eigentlich guten Projekt einen Bärendienst.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg351">Danke schön.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u146" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg352">Das Wort hat nun die Kollegin Doris Barnett für die SPD-Fraktion.</seg>
+        </u>
+        <note type="speaker">Doris Barnett (SPD):</note>
+        <u who="#Q113994" xml:id="ParlaMint-DE_2006-11-29-16-069.u147" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg353">Frau Präsidentin! Kolleginnen und Kollegen! Nach einem längeren Prozess der Anpassung der deutschen Wirtschaft an internationale Gegebenheiten, der mit erheblichen Einschnitten bei der Arbeitnehmerschaft einherging, hat die Wirtschaft endlich wieder Boden unter den Füßen und sie brummt. Die Firmen erzielen hervorragende Gewinne. Die Auftragsbücher sind voll. Selbst das Handwerk kommt den Aufträgen nicht mehr hinterher. Dass das so ist, hat die Wirtschaft auch dem Einsatz, der Kreativität, dem Fleiß und dem Verzicht auf Lohn der Arbeitnehmer zu verdanken. Somit ist es nun an der Zeit, nicht nur darüber nachzudenken, wie die Belegschaften an dem von ihnen mit erarbeiteten Erfolg zu beteiligen sind, sondern konkret zu werden. SPD und Union haben ein gutes Wochenende bzw. einen guten Start in die Woche hinter sich. Wir werden uns auf den Weg machen und Vorschläge gemeinsam erarbeiten.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg354">Die Diskussionen zum Thema Mitarbeiterbeteiligung sind wirklich nicht neu. Sie werden schon lange geführt. Schon lange gibt es etliche Firmen mit Belegschaftsbeteiligungen. Von dem Global Player in meiner Heimatstadt kenne ich es gar nicht anders, als dass er Gratifikationen, die sich nach der Gewinnlage richten, auch in Form von Belegschaftsaktien anbietet. Viele Mitarbeiter machen davon Gebrauch, allerdings nur auf Zeit. Sie verkaufen die Aktien dann wieder. Wenn sie die Aktien von Anfang an behalten hätten, dann hätten die Mitarbeiter heute 38 Prozent der BASF-Aktien in ihrem Besitz statt nur 4 bis 5 Prozent.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg355">Gute Einzelbeispiele zeigen, dass und wie es geht. Wir wollen, dass die Mitarbeiterbeteiligung breiter aufgestellt wird und möglichst viele Beschäftigte mitmachen können; denn dass nur 9 Prozent aller deutschen Firmen ihre Belegschaft am Gewinn und nur 2 Prozent am Kapital beteiligen, ist uns zu wenig. Deshalb hat es mich auch gefreut, dass die Arbeitgeberseite einer größeren Mitarbeiterbeteiligung aufgeschlossen gegenübersteht. Allerdings werden wir nur dann eine Steigerung der Mitarbeiterbeteiligung erreichen, wenn sie zusätzlich zum Einkommen erfolgt. Mit Lohnverzicht bzw. einer Verrechnung mit dem Lohn - das wäre ein Eingriff in die Tarifautonomie - erreichen wir das auf keinen Fall. Es wäre auch keine Vermögensmehrung für den Arbeitnehmer, sondern lediglich eine Lohnverschiebung. Nach all der Lohnzurückhaltung, die wir in den letzten Jahren von den Menschen erwartet haben und die sie auch geleistet haben, damit der Motor wieder brummt, kann es jetzt nicht darum gehen, weiter Lohnverzicht zu üben. Wir brauchen vielmehr ordentliche Löhne, damit eine zusätzliche Gewinnbeteiligung überhaupt investiert werden kann; denn wer einen niedrigen Lohn hat, wird trotz der Anreize, die die CDU in ihren Papieren in Aussicht stellt, nicht investieren können, weil er jeden Euro braucht. Deshalb gilt: Wenn wir wollen, dass auch Geringverdiener Vermögen bilden können, brauchen wir keine Dumpinglöhne mit Sahnehäubchen, sondern wir brauchen Mindestlöhne.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg356">Ob, wie und welche Anreize wir von staatlicher Seite setzen sollten und können, damit analog zur Riesterrente möglichst viele Beschäftigte davon profitieren und mitmachen, werden wir jetzt in unseren Arbeitsgruppen beraten. Dabei wird auch die Frage von Ausfallrisiken eine nicht unbedeutende Rolle spielen. Die Tarifvertragsparteien sind dabei auch gefordert, die Initiative zu ergreifen und Vorschläge zu erarbeiten, um die Mitarbeiter zu ermutigen, freiwillig Investitionen zu tätigen. Wir sollten dabei auch im Auge behalten, dass die Beteiligungen für den Aufbau der eigenen Alterssicherung genutzt werden können. Allerdings darf die nicht in solchen Pensionsfonds enden, die möglicherweise mit der Firma untergehen wie seinerzeit bei Enron. Wenn die Arbeitnehmer bereit sind, unternehmerisches Risiko durch Kapitaleinlagen zu übernehmen, dann ist es nur folgerichtig, dass damit auch Mitwirkungsrechte einhergehen. Schließlich haben viele Belegschaften bewiesen, dass sie durch Kreativität, Engagement und auch Entbehrungen das wettgemacht haben, was ihr Management mit all seiner Entscheidungsmacht in den Sand gesetzt hat.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg357">Lassen Sie uns jetzt daran gehen, die Vermögensbildung in ihren vielen Facetten für die Menschen in unserem Land Wirklichkeit werden zu lassen. Das wird Anstrengungen erfordern, weil die Materie - Sie sagten es schon - extrem kompliziert ist, komplizierter, als viele ahnen. Aber, so denke ich, es ist der Mühe wert.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u148" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg358">Nun erteile ich dem Kollegen Peter Rauen für die Fraktion der CDU/CSU das Wort.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Peter Rauen (CDU/CSU):</note>
+        <u who="#Q2077748" xml:id="ParlaMint-DE_2006-11-29-16-069.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg359">Frau Präsidentin! Liebe Kolleginnen und Kollegen! Wir diskutieren hier über ein zutiefst marktwirtschaftliches Thema. Ludwig Erhard brachte sein Bekenntnis zur sozialen Marktwirtschaft in folgende Formel: Ich will das Risiko des Lebens selbst tragen, will für mein Schicksal verantwortlich sein. Sorge du, Staat, dafür, dass ich dazu in der Lage bin. - Mit den Beschlüssen des CDU-Parteitags - ich erinnere auch an das, was die SPD dazu gesagt hat - wollen wir diesen unternehmerischen Geist in allen Schichten wieder beleben, die gesellschaftlichen Kräfte entfesseln, Eigeninteresse und Leistungsstolz wecken.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg360">Mit dem Wort Investivlohn wird dabei etwas zu kurz gegriffen, wenn wir Arbeitnehmer an Gewinn und Kapital beteiligen wollen. Eine daraus entstehende so genannte soziale Kapitalpartnerschaft hat viele Vorteile für Arbeitnehmer und Arbeitgeber. Als Unternehmer will ich einmal die Vorteile benennen - ich habe mich mit diesem Thema oft beschäftigt -: Am Erfolg eines Betriebes beteiligt zu sein, stärkt die Eigenverantwortung eines jeden. Unternehmen, die ihre Mitarbeiter am Erfolg und am Kapital beteiligen, sind produktiver und damit auch wettbewerbsfähiger. Partnerschaft in einem Unternehmen baut gegenseitiges Vertrauen auf, fördert die Motivation und die Bindung der Mitarbeiter an ihr Unternehmen. Die Beteiligung der Mitarbeiter stärkt darüber hinaus die Eigenkapitalbasis und ist somit auch im Hinblick auf Basel II insbesondere für kleine und mittlere Unternehmen sinnvoll.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg361">Ebenso vermögen Gewinn- und Kapitalbeteiligungen einen fairen Anteil der Arbeitnehmerinnen und Arbeitnehmer am wirtschaftlichen Erfolg auch dann sicherzustellen, wenn sie um der Wettbewerbsfähigkeit und der Beschäftigungssicherheit willen zu Zugeständnissen beim Nominallohn bereit sind.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg362">Schließlich sind Gewinne und Kapitaleinkommen in den vergangenen Jahren deutlich stärker gestiegen als die Arbeitseinkommen. Dieser Trend wird sich im Zuge der Globalisierung wohl noch verstärken. Deswegen gilt es, möglichst vielen Beschäftigten Kapitaleinkommen als weitere Einkommensquelle zu erschließen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg363">Es wird sich dabei nie um einen Lohnersatz handeln; daran denke ich in diesem Zusammenhang überhaupt nicht. Das, was wir da tun, wird auch sehr vielschichtig sein müssen, Herr Wend; sonst werden wir es nicht schaffen. Für die 5 Millionen bei Kapitalgesellschaften Beschäftigten lassen sich Regelungen mit Aktienanteilen oder Optionsscheinen finden. Größer ist das Problem bei 21 Millionen im Mittelstand Beschäftigten. Dort muss eine Lösung gefunden werden, damit eine breite Beteiligung wirklich möglich ist.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg364">Denkbar ist eine Fremdkapitalbeteiligung. Sie wäre durch ein Mitarbeiterdarlehen möglich: Die Mitarbeiter geben dem Arbeitgeber aus ihren Gewinnanteilen ein Darlehen, das sich entsprechend verzinst. Das Ganze lässt sich insolvenzfest machen. Dabei gibt es aus meiner Sicht überhaupt kein Problem. Das wäre das einfachste Modell der Partizipation. Es bedeutet aber, dass Unternehmen Fremdkapital erhalten. Damit dürften viele, gerade mittelständische Unternehmen Schwierigkeiten haben.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg365">Eine Mischform von Eigenkapital- und Fremdkapitalbeteiligung liegt bei Genussrechten bzw. bei Genussscheinen und der stillen Beteiligung vor.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg366">Auch wenn die Mitarbeiterbeteiligung allgemein von Vorteilen geprägt ist, müssen wir den möglichen Problemen Aufmerksamkeit schenken. Für die Unternehmer - sie müssen mitgenommen werden - besteht oft die Sorge, durch die Einbeziehung der Mitarbeiter einen Verlust der Kontrolle über den Betrieb zu erleiden. Ich denke hierbei nicht an die großen Kapitalgesellschaften, sondern an Hunderttausende von mittelständischen Firmen. Wir müssen die richtigen Anreize schaffen und durch Transparenz Schwellenängste abbauen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg367">Eines will ich ebenfalls klar sagen: Beispielsweise bei einer Fremdkapitalbeteiligung - dabei werden dem Arbeitgeber Anteile aus Gewinnbeteiligungen als Darlehen gegeben - muss das Darlehen zunächst einmal natürlich steuerfrei sein. Es kann nur nachgelagert besteuert werden. Wenn der Staat dies tut - damit die Arbeitnehmer Sicherheit haben -, dann muss der eingeschlagene Weg über viele Jahre fortgesetzt werden; denn nur so können die entsprechenden Mittel für die Altersvorsorge und andere Dinge eingesetzt werden.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg368">Kurzum, Herr Wend, wir haben über diese Dinge lange genug geredet. Es ist Zeit, das Ganze anzupacken. Ich bin der Meinung, die Zeit ist reif dafür.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU sowie des Abg. Dr. Rainer Wend [SPD]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg369">Was unsere heutigen Probleme angeht: Der Sozial- und Umverteilungsstaat ist selbst ein Teil des Problems geworden. Wir müssen neue Wege gehen. Als Praktiker und Unternehmer kann ich nur sagen: Lasst uns alle guten Geister bemühen! Lasst uns dazu alle Anstrengungen unternehmen! Ich bin überzeugt: Wir behandeln hier ein Thema, das für die zukünftige Beschäftigung und das Wohl der Arbeitnehmer, aber auch der Firmen von allergrößter Bedeutung ist.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg370">Schönen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU und der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u150" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg371">Nächste Rednerin ist die Kollegin Ute Berg für die SPD-Fraktion.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei Abgeordneten der SPD</desc>
+        </kinesic>
+        <note type="speaker">Ute Berg (SPD):</note>
+        <u who="#Q96623" xml:id="ParlaMint-DE_2006-11-29-16-069.u151" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg372">Frau Präsidentin! Liebe Kolleginnen und Kollegen! Die Diskussion um die Mitarbeiterbeteiligung am Unternehmenserfolg ist ein echter Klassiker in der politischen Debatte und sie hat bis heute nichts an Aktualität eingebüßt. Bereits vor 150 Jahren haben Wissenschaftler in einem Gutachten des Vereins für Socialpolitik festgestellt, dass die Beteiligung der Arbeiter am Unternehmensgewinn den sozialen Frieden erhalten und die Ertragslage der Betriebe verbessern kann.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg373">Es ist also kein Wunder, dass diese bestechenden Vorzüge in der Folge viele Politiker beschäftigt haben. Ludwig Erhard wurde schon mehrere Male genannt. Gerhard Schröder hat sich im Bündnis für Arbeit für die Mitarbeiterbeteiligung stark gemacht. Seit Kurt Beck im Sommer die Beteiligung von Arbeitnehmerinnen und Arbeitnehmern an den Gewinnen der Unternehmen wieder zum Thema gemacht hat, ist die Debatte neu entbrannt.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg374">Warum hat sich dieser Klassiker bei uns bisher nicht stärker durchgesetzt? Es liegt vermutlich an der Vielzahl der möglichen Modelle und an erheblichen Vorbehalten und Widerständen, die aus verschiedenen Richtungen kommen. So fürchten die Unternehmer bei den Kapitalbeteiligungsmodellen zum Beispiel, nicht mehr Herr im eigenen Haus zu sein, wenn ihre Mitarbeiter praktisch zu Miteigentümern werden. Die Gewerkschaften fürchten, dass den Arbeitnehmerinnen und Arbeitnehmern neben dem Arbeitsplatzrisiko auch noch das Unternehmensrisiko aufgebürdet werden soll.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg375">Für uns ist klar: Wir wollen, dass Arbeitnehmerinnen und Arbeitnehmer am Gewinn beteiligt werden können; denn sowohl Unternehmen als auch Mitarbeiter haben dabei einen klaren Vorteil. Wenn das Unternehmen große Gewinne macht, bekommen auch die Beschäftigten ein großes Stück vom Kuchen ab. Geht es dem Unternehmen nicht so gut, braucht es weniger zusätzliche Leistungen an die Mitarbeiter auszuzahlen. Ein solches Modell ist gut für die Motivation und die Identifikation der Mitarbeiter mit dem Unternehmen und es regt darüber hinaus dazu an, mehr Verantwortung zu übernehmen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg376">Für uns ist aber auch klar, was wir definitiv nicht wollen: eine Mitarbeiterbeteiligung, bei der die Arbeitnehmer erhebliche Lohneinbußen hinnehmen müssen, dafür zwar Unternehmensanteile, aber keine Mitentscheidungsrechte bekommen und im Falle der Insolvenz dann auch noch das volle Risiko tragen. Das können wir nicht unterstützen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg377">Diese Risiken sehe ich zum Teil bei dem Modell Investivlohn, wie es derzeit zumindest von einigen diskutiert wird. Es gibt ja nicht das Modell; es gibt viele Schattierungen. Im Übrigen findet das auch das Institut der deutschen Wirtschaft. Michael Hüther sagte dazu: Jedem Anleger wird normalerweise empfohlen, die Risiken zu streuen und nicht alle Eier in einen Korb zu werfen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg378">Ein Modell, das als Einstiegsmodell gut geeignet ist - mich hat es jedenfalls überzeugt -, habe ich kennen gelernt, als ich kürzlich mit Wirtschaftspolitikern meiner Fraktion die Firma 3M in Neuss besucht habe. Dort gilt das Motto: Wenn 3M mehr verdient, verdienen auch die Mitarbeiter mehr. Das läuft so: Das Weihnachtsgeld wird an den finanziellen Erfolg des Unternehmens gekoppelt. Je nach Entwicklung des Unternehmenserfolgs erhalten die Mitarbeiter zwischen 60 und 150 Prozent des 13. Monatsgehalts. - Zur Akzeptanz dieses Modells hat sicherlich beigetragen - das muss man dazusagen -, dass die Entwicklung des Unternehmens bisher sehr positiv verlaufen ist.</seg>
+          <vocal type="exclamat">
+            <desc>Irmingard Schewe-Gerigk [BÜNDNIS 90/ DIE GRÜNEN]: Und wenn es 3M einmal schlechter geht?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg379">"13 Plus" ist natürlich nur ein Beispiel von vielen denkbaren Beispielen. Ich finde, wie gesagt: Es ist als Einstiegsmodell sehr gut geeignet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg380">Insgesamt ist die Beteiligung der Mitarbeiter am Erfolg des Unternehmens in Deutschland bis heute nicht sehr ausgeprägt; Herr Pfeiffer hat schon einige Zahlen dazu genannt. Ich hoffe, dass künftig auch in Deutschland die Erfolgsbeteiligung der Mitarbeiter in den Betrieben stärker verankert wird. Voraussetzung dafür ist aber, dass eine Win-Win-Situation geschaffen wird, die Unternehmen und Mitarbeiter gleichermaßen motiviert.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg381">In der SPD - in unserer Fraktion, aber auch im Parteivorstand - arbeiten wir derzeit mit Hochdruck an einem tragfähigen Konzept, das dann auch wirklich den Praxistest bestehen kann; denn das Ergebnis der öffentlichen Diskussion sollte auf keinen Fall sein: Schön, dass wir wieder einmal darüber geredet haben.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg382">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD und der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u152" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg383">Nächster Redner ist der Kollege Gerald Weiß für die CDU/CSU-Fraktion.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Gerald Weiß (Groß-Gerau) (CDU/CSU):</note>
+        <u who="#Q1510033" xml:id="ParlaMint-DE_2006-11-29-16-069.u153" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg384">Frau Präsidentin! Meine sehr verehrten Damen und Herren! Wir brauchen mehr Mitarbeiterbeteiligung in Deutschland, weil wir so schlecht sind auf diesem Gebiet. Wir brauchen bessere Rahmenbedingungen für die Kapital- und Erfolgsbeteiligung der Arbeitnehmerschaft, weil wir so schlecht sind im internationalen Vergleich. - Da war sie wieder, diese alte Bekannte in deutschen Diskussionen, diese kulturpessimistische elende Bedenkenträgerei.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der LINKEN</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg385">Es wird immer zuerst nach dem Haar in der Suppe gesucht. Lasst uns doch einmal anders herum anfangen, mit Optimismus und Gestaltungswillen! Die Aussichten sehen doch viel besser aus.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg386">Die beiden Volksparteien - ich sage das wirklich mit Dankbarkeit - nehmen hier das gleiche Ziel ins Visier. Das ist etwas. Auch die FDP ist grundsätzlich dafür; das hat mein ehemaliger Kommilitone eben bestätigt. Auch die Grünen sind grundsätzlich dafür, wenn auch ein wenig von Kulturpessimismus geprägt.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Thea Dückert [BÜNDNIS 90/DIE GRÜNEN]: CDU-Pessimismus!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg387">Auch gesellschaftlich erkennt man einen immer größeren Konsens. Man denke nur daran, dass in den Gewerkschaften ein erhebliches Umdenken stattgefunden hat und auch in den Arbeitgeberverbänden darüber wesentlich anders als früher gedacht wird. Insbesondere im Mittelstand wird über dieses Thema aus Gründen, die Peter Rauen eben ausgeführt hat, viel konstruktiver nachgedacht. Nun müssen wir dafür bessere Rahmenbedingungen schaffen. Dazu, wie wir diese schaffen können, hat die CDU auf ihrem Parteitag einige Vorschläge gemacht. Vielleicht reicht die Zeit noch, um auf einige einzugehen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg388">Ich möchte aber zunächst von denen sprechen, die diesen gesellschaftlichen Consensus nicht tragen. Selbstverständlich können die Linken mit dem Komplex Arbeitnehmer und Eigentum nichts anfangen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP - Frank Spieth [DIE LINKE]: Wer im Glashaus sitzt, sollte nicht mit Steinen werfen!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg389">Während Sie unsere Vorschläge hier als Volkskapitalismus diffamieren, träumen Sie vom alten Staatskapitalismus.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU - Widerspruch bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg390">Es ist doch völlig selbstverständlich, dass Sie mit den beiden größten Ordnungspolitikern des vergangenen Jahrhunderts nichts im Sinne haben.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg391">Der bereits mehrfach zitierte Ludwig Erhard sagte:</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg392">Eine Vermögenspolitik der Sozialen Marktwirtschaft beteiligt alle durch Vermögensbesitz an den Unternehmen. Ihr Ziel ist eine Gesellschaft von Teilhabern.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg393">Das wollte Ludwig Erhard. Jetzt lasst uns dafür sorgen, dass noch mehr davon, als bisher in Deutschland erreicht wurde, umgesetzt wird!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg394">Der große christlich-soziale Denker Oswald von Nell-Breuning gehört natürlich auch in dieser Debatte erwähnt. Er wusste, dass Eigentum eine der Quellen - Familie und Arbeit gehören auch dazu - der Autonomie, also der Selbstständigkeit, der Würde und der Unabhängigkeit des Menschen ist. Er sagte, die Beteiligung der Arbeitnehmer am Produktivkapital ist Garantin für die Erhaltung unserer freiheitlichen Gesellschaftsordnung. Er hatte damit Recht.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg395">Herr Wend hat es eben, wenn ich ihn richtig verstanden habe, ähnlich ausgedrückt, als er sagte: Die soziale Marktwirtschaft braucht dies als eine Legitimationsgrundlage.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Rainer Wend [SPD]: Ja!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg396">Die derzeitige Entwicklung der Vermögensverteilung in Deutschland gefährdet diese Legitimationsgrundlage. Sie haben ja die Verteilungsstruktur deutlich gemacht: Die Kapitaleinkünfte wachsen seit Jahrzehnten doppelt so schnell wie die Arbeitseinkünfte und 4 Prozent der Bevölkerung halten, ich glaube, 47 Prozent der Vermögenswerte. Die Gesellschaft darf sich nicht zu weit auseinander entwickeln.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Rainer Wend [SPD]: Ja!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg397">Die Idee, alle am Eigentum zu beteiligen, kann hier verbindend wirken und dürfte somit auch konsensfähig sein. In diesem Sinne müssen wir gemeinsam an einer Umsetzung dieser Idee arbeiten.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg398">Die hier schon geschilderten Probleme bis hin zur Risikostreuung können wir, wie ich glaube, alle lösen. Wenn wir die Beteiligung der Mitarbeiter am Produktivkapital und am Gewinn mit der kapitalgedeckten Altersversorgung verbinden wollen - wie nahe liegt das! -, dann müssen wir natürlich darauf bestehen, dass es sich bei den Beteiligungsformen für die Altersvorsorge um langfristige und sichere handelt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU - Dr. Thea Dückert [BÜNDNIS 90/DIE GRÜNEN]: Zu 100 Prozent? Nein, Sie schlagen zwei Drittel vor!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg399">Zugleich muss ein solches Modell auf Freiwilligkeit beruhen. Einerseits darf keine Arbeitnehmerin und kein Arbeitnehmer und andererseits kein Arbeitgeber gezwungen werden, daran teilzunehmen. Es darf auch nicht vorgeschrieben werden, worauf die Prioritäten gelegt werden sollen: auf mehr Sicherheit oder auf stärkere Gewinnbeteiligung. Beides kann man auch miteinander kombinieren. Dafür wollen wir jetzt bessere Rahmenbedingungen herstellen. Sie zu schildern, fehlt mir hier leider die Zeit. Gehen wir ans Werk; es ist ein großes Werk!</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg400">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD und des Abg. Dr. Edmund Peter Geisen [FDP]</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u154" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg401">Die letzte Rednerin in dieser Debatte ist die Kollegin Andrea Nahles für die SPD-Fraktion.</seg>
+        </u>
+        <note type="speaker">Andrea Nahles (SPD):</note>
+        <u who="#Q62810" xml:id="ParlaMint-DE_2006-11-29-16-069.u155" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg402">Frau Präsidentin! Liebe Kolleginnen und Kollegen! Herr Rauen, Unternehmergeist fördern wollen wir alle gerne. Aber ein bisschen handfester muss das in den nächsten Monaten noch ausgearbeitet werden.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg403">Zur Frage der Mitarbeiterbeteiligung sagen wir von der Sozialdemokratie ganz klar Ja. Dieses Thema ist schon von Philip Rosenthal, den ich persönlich kennen zu lernen noch die Ehre hatte, immer wieder eingebracht worden - mit Recht; denn die Mitarbeiterbeteiligung beinhaltet durchaus Gutes, zum Beispiel die Möglichkeit, dass einerseits aufseiten der Arbeitnehmer die Motivation, die Bereitschaft, sich ins Unternehmen einzubringen, steigt und andererseits die Arbeitgeber eine größere Verbundenheit mit ihren Mitarbeitern suchen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg404">Dazu trägt auch die Mitbestimmung bei. Aber das kann gestärkt werden, wenn wir ein neues Eigentumsmodell schaffen und dieses mit zusätzlicher Mitbestimmung koppeln. Das steckt für mich als Potenzial in dieser Frage. So weit ist das gar nicht schlecht.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg405">Aber wenn ich mir den Vorschlag, den die Union jetzt auf den Tisch legt, ansehe, scheint mir, dass die Mitbestimmung am Katzentisch landet. Es soll ein Beirat geschaffen werden, der dafür sorgt, dass die zusätzlichen Stimmenanteile, die gebündelt werden müssen, in dem entstehenden Fonds in ein neues Mitbestimmungsmodell integriert werden. Vor allem aber soll das Ganze nicht als Zuschlag gestaltet werden, sondern im Prinzip sollen - das finde ich sehr problematisch - die Lohnsteigerungen teilweise einfach umgewandelt werden. Dabei kommt dann Folgendes heraus: Die Lohnkosten der Unternehmen werden gesenkt; gleichzeitig werden die Unternehmen in die Lage versetzt, ihren Eigenkapitalanteil zu erhöhen,</seg>
+          <vocal type="exclamat">
+            <desc>Christian Freiherr von Stetten [CDU/CSU]: Das ist ja nicht schlecht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg406">und das bei weniger Mitbestimmungsrechten.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg407">Das ist eine Rechnung, die man der SPD nicht aufmachen kann. Das sage ich in aller Deutlichkeit.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg408">Der zweite Punkt. Wir können in dieser modernen Gesellschaft Mitarbeiterbeteiligungen schlicht und ergreifend nicht so gestalten, dass der Mitarbeiter an ein Unternehmen gebunden ist; denn zunehmend müssen die Menschen - das wollen wir ja auch und fördern es teilweise sogar - die Portabilität im Blick haben. Das gilt übrigens auch für die Altersrückstellungen - über diese Frage sind wir gerade mit der EU im Streit - und bei Insolvenzen. Wir müssen also, wenn wir solche Modelle planen, Regelungen finden, um für die Menschen Insolvenzschutz und Portabilität herzustellen. Das gilt übrigens auch für Arbeitszeitkonten. Das ist die Richtung, in der wir unseren Arbeitsmarkt und unseren Sozialstaat gestalten müssen. An dieser Stelle sehe ich Ansätze, aber noch keine fertigen Lösungen.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg409">Ich will zum Dritten darauf hinweisen, dass wir eine vielfältige Form von Beteiligungsmöglichkeiten haben. 17 Millionen Menschen in Deutschland haben mittlerweile eine betriebliche Altersvorsorge, 7 Millionen haben die Riesterrente. Betriebsbeteiligungen gibt es in Deutschland vor allem in großen Unternehmen. Mit der Sparquote, die 11,1 Prozent beträgt, liegen wir auf Platz eins. Wenn wir uns anschauen, welche gesellschaftlichen Gruppen, welche Arbeitnehmergruppen wir mit unseren Instrumenten erreichen, dann stellen wir fest, dass es zum Beispiel die Facharbeiter sind; es sind Leute, die einen festen Job haben. Mit Blick auf diese bin ich dafür.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg410">Aber ein Investivlohn ersetzt eben keinen Mindestlohn</seg>
+          <kinesic type="applause">
+            <desc>Beifall des Abg. Dr. Ernst Dieter Rossmann [SPD] sowie des Abg. Markus Kurth [BÜNDNIS 90/DIE GRÜNEN]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg411">und ist keine Antwort auf die Frage, wie wir an dieser Stelle die Menschen im nicht festen, prekären Arbeitsbereich und im Mindestlohnbereich mitnehmen und ihnen Kapitalbildung, simples Sparguthaben oder andere Formen der eigenen Zukunftssicherung ermöglichen. Deswegen brauchen wir für diesen Bereich ergänzend Sicherungskonzepte.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg412">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Gerda Hasselfeldt:</note>
+        <u who="#Q72873" xml:id="ParlaMint-DE_2006-11-29-16-069.u156" ana="#chair">
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg413">Die Aktuelle Stunde ist beendet.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg414">Wir sind damit am Schluss unserer heutigen Tagesordnung.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg415">Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, 30. November 2006, 9 Uhr, ein.</seg>
+          <seg id="ParlaMint-DE_2006-11-29-16-069.seg416">Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluss: 16.04 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

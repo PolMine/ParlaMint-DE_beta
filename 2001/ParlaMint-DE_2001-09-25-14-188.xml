@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_2001-09-25-14-188">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 14. Wahlperiode, 188. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 25.09.2001 (188. Sitzung der 14. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 14, Session 188 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 2001-09-25 (Session 188 in Legislative Period 14)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="188">188. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.14" n="14">14. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="188">Session 188</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.14" n="14">Legislative Period 14</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 25.09.2001</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 2001-09-25</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2015-10-07">http://dipbt.bundestag.de/doc/btp/14/14188.pdf</idno>
+          <date when="2001-09-25">2001-09-25</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="2001-09-25">2001-09-25</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-consultation">
+        <head>a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Geset...</head>
+        <note type="speaker">Vizepräsidentin Petra Bläss:</note>
+        <u who="#Q2080120" xml:id="ParlaMint-DE_2001-09-25-14-188.u1" ana="#chair">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg1">Liebe Kolleginnen und Kollegen! Die Sitzung ist eröffnet.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg2">Zu Beginn der Sitzung möchte ich nachträglich dem Kollegen Dr. Günter Rexrodt, der am 12. September seinen 60. Geburtstag beging, und dem Kollegen Peter Zumkley, der am 17. September seinen 65. Geburtstag feierte, namens des Hauses sehr herzlich gratulieren.</seg>
+          <kinesic type="applause">
+            <desc>Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg3">Sodann müssen einige Änderungen bei der Besetzung von Gremien vorgenommen werden.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg4">Die Fraktion der SPD teilt mit, dass der Kollege Dietmar Schütz (Oldenburg) als stellvertretendes Mitglied aus der Parlamentarischen Versammlung des Europarates ausscheidet. Nachfolger soll der Kollege Kurt Palis werden. Sind Sie damit einverstanden? - Ich höre keinen Widerspruch. Dann ist der Kollege Palis als stellvertretendes Mitglied in die Parlamentarische Versammlung des Europarates gewählt.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg5">Weiterhin teilt die Fraktion der SPD mit, dass der ehemalige Kollege Björn Engholm als ordentliches Mitglied aus dem Verwaltungsrat der Filmförderanstalt ausscheidet.</seg>
+          <vocal type="exclamat">
+            <desc>Carl-Ludwig Thiele [FDP]: Das ist aber überraschend! Dass es den noch gibt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg6">Als Nachfolgerin wird die Kollegin Gisela Schröter, die bisher stellvertretendes Mitglied war, vorgeschlagen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg7">Sind Sie damit einverstanden? - Auch das ist der Fall.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg8">Dann ist die Kollegin Schröter als ordentliches Mitglied in den Verwaltungsrat gewählt.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg9">Die Kollegin Ekin Deligöz hat ihr Amt als Schriftführerin niedergelegt. Nachfolger soll der Kollege Ulrich Kasparick werden. Sind Sie damit einverstanden? - Ich höre keinen Widerspruch. Dann ist der Kollege Kasparick als Schriftführer gewählt.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg10">Außerdem teilt die Fraktion der CDU/CSU mit, dass sie den Kollegen Werner Lensing für eine weitere Amtszeit als Mitglied des Kuratoriums "Wissenschaftszentrum Berlin für Sozialforschung" benennt. Sind Sie damit einverstanden? - Auch das ist der Fall.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg11">Interfraktionell wurde vereinbart, dass in dieser Woche wegen der Haushaltsberatungen keine Befragung der Bundesregierung und keine Fragestunde stattfinden. Sind Sie damit einverstanden? - Ich höre keinen Widerspruch.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg12">Dann ist auch das so beschlossen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg13">Ich rufe die Tagesordnungspunkte 1 a bis 1 e auf:</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg14">a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Bekämpfung von Steuerverkürzungen bei der Umsatzsteuer und anderen Steuern (Steuerverkürzungsbekämpfungsgesetz - StVBG)</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg15">- Drucksache 14/6883 - Überweisungsvorschlag:</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg16">Finanzausschuss (f)</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg17">Haushaltsausschuss gemäß § 96 GO b) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Fortentwicklung des Unternehmensteuerrechts (Unternehmensteuerfortentwicklungsgesetz - UntStFG)</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg18">- Drucksache 14/6882 - Überweisungsvorschlag:</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg19">Finanzausschuss (f)</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg20">Ausschuss für Wirtschaft und Technologie Ausschuss für Verbraucherschutz, Ernährung und Landwirtschaft Haushaltsausschuss mitberatend und gemäß § 96 GO c) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung steuerrechtlicher Vorschriften (Steueränderungsgesetz 2001 - StÄndG 2001)</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg21">- Drucksache 14/6877 - Überweisungsvorschlag:</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg22">Finanzausschuss (f)</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg23">Innenausschuss Ausschuss für Wirtschaft und Technologie Ausschuss für Verbraucherschutz, Ernährung und Landwirtschaft Ausschuss für Verkehr, Bau- und Wohnungswesen Haushaltsausschuss mitberatend und gemäß § 96 GO d) Beratung des Antrags der Abgeordneten Gerda Hasselfeld, Heinz Seiffert, Norbert Barthle, weiterer Abgeordneter und der Fraktion der CDU/CSU Mehr Wirtschaftswachstum durch mehr Gerechtigkeit im Unternehmensteuerrecht - Drucksache 14/6887 - Überweisungsvorschlag:</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg24">Finanzausschuss (f)</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg25">Ausschuss für Wirtschaft und Technologie Haushaltsausschuss e) Beratung der Beschlussempfehlung und des Berichts des Haushaltsausschusses (8. Ausschuss)</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg26">- zu dem Antrag des Bundesministeriums der Finanzen Entlastung der Bundesregierung für das Haushaltsjahr 1999 - Vorlage der Haushaltsrechnung und Vermögensrechnung des Bundes (Jahresrechnung 1999) - - zu der Unterrichtung durch den Bundesrechnungshof Bemerkungen des Bundesrechnungshofes 2000 zur Haushalts- und Wirtschaftsführung (einschließlich der Feststellungen zur Jahresrechnung des Bundes 1999)</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg27">- Drucksachen 14/3141, 14/4226, 14/4571 Nr. 1.2, 14/6521 - Berichterstattung:</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg28">Abgeordnete Uta Titze-Stecher Nach einer interfraktionellen Vereinbarung ist für die Aussprache eine Stunde vorgesehen. - Ich höre keinen Widerspruch. Dann ist das so beschlossen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg29">Ich eröffne die Aussprache und erteile zunächst dem Bundesfinanzminister Hans Eichel das Wort.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Hans Michelbach [CDU/CSU]: Schon wieder eine Steuererhöhung! - Gerda Hasselfeldt [CDU/CSU]: Jetzt rechtfertigt er die Steuererhöhung!</desc>
+        </vocal>
+        <note type="speaker">Hans Eichel, Bundesminister der Finanzen:</note>
+        <u who="#Q62180" xml:id="ParlaMint-DE_2001-09-25-14-188.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg30">Frau Präsidentin! Meine sehr verehrten Damen und Herren! - Nein, Frau Hasselfeldt, dieses Thema steht morgen auf der Tagesordnung. Dann werde ich mit großem Vergnügen berichten.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Fragt sich, für wen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg31">Bereiten Sie sich schon einmal darauf vor! Die Gelegenheit will ich heute Abend, fast unter Ausschluss der Öffentlichkeit, nicht verschenken.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD - Zuruf von der CDU/ CSU: Zu verschenken haben Sie ja nichts!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg32">Ich bitte Sie um Verständnis dafür, dass ich - nicht als Missachtung des Parlaments - unmittelbar nach meiner Rede gehen muss, damit ich pünktlich beim Bundespräsidenten aus Anlass des Essens mit dem russischen Präsidenten erscheinen kann. Ich muss mir noch einen schwarzen Anzug anziehen.</seg>
+          <vocal type="exclamat">
+            <desc>Jochen-Konrad Fromme [CDU/CSU]: Keine Steuererhöhungen vereinbaren!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg33">- Vorsicht, in diesem Spiel gibt es auch noch sehr verschiedene Varianten.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg34">Meine Damen und Herren, unsere steuerpolitische Bilanz kann sich sehen lassen. Mit der Steuerreform 2000 ist das größte Steuersenkungsprogramm im Bereich der direkten Besteuerung seit 40 Jahren erfolgreich umgesetzt worden.</seg>
+          <kinesic type="laughter">
+            <desc>Beifall bei der SPD und dem BÜNDNIS 90/ DIE GRÜNEN - Lachen bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg35">- Sind Sie unruhig? - Die Steuerzahler werden im Zeitraum von 1998 bis 2005 insgesamt um 100 Milliarden DM jährlich nachhaltig entlastet. Familien, Arbeitnehmer und die mittelständische Wirtschaft sind die Hauptgewinner der Reform.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg36">Denn für uns ist Gerechtigkeit keine Leerformel. Wir haben sie konkret in der Steuerpolitik umgesetzt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD - Zuruf von der CDU/ CSU: Haben Sie schon einmal etwas von Scheingewinnen gehört?</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg37">Daran ändern auch die maßvollen Steuererhöhungen - über die wir morgen diskutieren - nichts, die wir für die Finanzierung der Maßnahmen zur Erhöhung der inneren und äußeren Sicherheit im Kampf gegen den Terrorismus benötigen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg38">Durch die deutliche Senkung der Steuersätze für Kapitalgesellschaften und das Halbeinkünfteverfahren bei der Körperschaftsteuer ist unser Steuersystem endlich wieder international wettbewerbsfähig und europatauglich.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD - Carl-Ludwig Thiele [FDP]: Verriestert haben Sie es!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg39">Durch die Beseitigung der Gewerbesteuer als Kostenfaktor für die Personengesellschaften und Einzelunternehmer wird eine nachhaltige Entlastung des Mittelstandes, wie er ihn seit fünfzig Jahren gefordert hat, erreicht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg40">Mit der Senkung der Steuersätze bei der Einkommensteuer erhält er ebenfalls eine Entlastung.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg41">Das Steuerrecht ist einfacher, transparenter und gerechter geworden.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der CDU/CSU</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg42">- Sie werden sich noch wundern, was "Vereinfachung" heißt. Es bedeutet immer den Abbau von Steuersubventionen. Das müssten Sie eigentlich wissen. - Es wird in Zukunft den Wachstumsmotor unterstützen. Aber es bleibt selbstverständlich viel zu tun. Die vorliegenden Gesetzentwürfe zum Steuerrecht sind kleine, aber wichtige Schritte auf diesem Weg. Für weitere hohe Steuerentlastungen ist augenblicklich kein finanzieller Spielraum vorhanden; denn mit mir wird es kein Zurück in die Verschuldungspolitik früherer Regierungen geben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg43">Aber wir können noch eine Menge tun: Modernisierung und Vereinfachung müssen nun die Schwerpunkte der Steuerpolitik sein. Deshalb werden wir noch in dieser Legislaturperiode auf verschiedenen Feldern aktiv; denn es gibt keine Reformpause. Wir gehen die Aufgaben weiter energisch an. Das schafft bei Bürgern und Unternehmen Vertrauen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg44">Zunächst zur Unternehmensbesteuerung und ihrer Fortentwicklung: Auch für die Zukunft wird die Steuerpolitik der Wirtschaft einen attraktiven Rahmen im sich verschärfenden globalen Wettbewerb bieten. Deshalb dürfen wir nicht rasten. Das Ziel der Bundesregierung ist es, die mit der Unternehmensteuerreform erreichte gute Position des Standortes Deutschland weiter zu festigen und auszubauen. Dabei gilt es, sowohl für den Mittelstand als auch für die Großunternehmen die wichtigen steuerlichen Rahmenbedingungen so zu justieren, dass ein Bestehen im internationalen Wettbewerb nachhaltig gesichert ist.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg45">Mit der Fortentwicklung des Unternehmensteuerrechts verfolgen wir folgende Ziele: Wir schaffen weitergehende Erleichterungen für Umstrukturierungen insbesondere von mittelständischen Unternehmen. Das Steuerrecht machen wir für die internationalen Verflechtungen der Wirtschaft fit. Wir sichern eine gleichmäßige Besteuerung durch den Ausschluss von Gestaltungen. Wir gewährleisten Rechtssicherheit durch Klarstellung bei der Anwendung der Steuergesetze.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg46">Grundlage des Gesetzentwurfs ist der Bericht des Bundesfinanzministeriums an den Finanzausschuss des Deutschen Bundestages vom 18. April dieses Jahres zu Fragen der Fortentwicklung des Unternehmensteuerrechts.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg47">Der Bericht basiert auf Überlegungen einer Expertengruppe aus Wirtschaft, Wissenschaft, Finanzverwaltung der Länder, von Steuerberatern und den kommunalen Spitzenverbänden. So haben wir ein vernünftiges Fundament für die Diskussion gelegt. Die Vorschläge des Berichts betreffen kurzfristig zu realisierende Maßnahmen, aber auch mittelfristig umzusetzende Entwicklungsperspektiven aus den Bereichen Umstrukturierung von Unternehmen, Ergebnisverrechnung zwischen verbundenen Unternehmen und Besteuerung von Auslandsbeziehungen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg48">Der Entwurf eines Gesetzes zur Fortentwicklung des Unternehmensteuerrechts greift die kurzfristig zu verwirklichenden Maßnahmen auf. Wir erleichtern die Umstrukturierung von Personenunternehmen im mittelständischen Bereich. Die Einführung einer Reinvestitionsrücklage für Personenunternehmen bei der Veräußerung von Beteiligungen an Kapitalgesellschaften ist eine weitere Mittelstandskomponente. Damit entlasten wir den Mittelstand um weitere 150 Millionen Euro. Auch erleichtern wir die Umstrukturierung von Kapitalgesellschaften im grenzüberschreitenden Bereich. Dies nützt dem Zusammenwachsen der Volkswirtschaften in Europa und dem offensiven Hineingehen der deutschen Wirtschaft in den europäischen Binnenmarkt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg49">Weitere Maßnahmen betreffen vor allem gesetzliche Klarstellungen zum Systemwechsel nach dem Steuersenkungsgesetz.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg50">Der Gesetzentwurf, meine Damen und Herren, zum Unternehmensteuerrecht ist ausgewogen. Er berücksichtigt die Interessen der Wirtschaft nach stärkerer Flexibilisierung des Unternehmensteuerrechts sowie der Länder und Kommunen nach Sicherung des Steueraufkommens. Hier bin ich auf Ihre Position gespannt. Das ist kein einfaches, aber ein notwendiges Thema.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg51">Eines zeigt er deutlich: Für den Mittelstand haben wir, wie sich das schon bei der Steuerreform grundlegend gezeigt hat, immer ein offenes Ohr;</seg>
+          <vocal type="exclamat">
+            <desc>Carl-Ludwig Thiele [FDP]: Aber zugeknöpfte Taschen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg52">denn vor allem in der mittelständischen Wirtschaft werden die Weichen für Ausbildung und Beschäftigung gestellt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg53">Auch auf anderen Feldern müssen wir reagieren. So ist eine Verhinderung von Steuerbetrug unabdingbar, um die steuerehrlichen Bürger und die steuerehrlichen Unternehmen im Wettbewerb nicht gegenüber denjenigen zu benachteiligen, die steuerbetrügerisch sind.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie der Abg. Christine Scheel [BÜNDNIS 90/DIE GRÜNEN]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg54">An dieser Stelle hoffe ich sehr, dass wir uns nicht wieder mit einigen Ausflüchten um die notwendigen Dinge, die die Steuerverwaltung braucht, drücken; denn es darf nicht sein, dass man jemandem die Möglichkeit gibt, noch schnell seine Unterlagen in Ordnung zu bringen oder sich davonzumachen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg55">Im Fall des Umsatzsteuerbetrugs geht es um solche Summen, dass nicht mit tagelangen Voranmeldungen gearbeitet werden kann. Ein Telefonanruf vor dem Erscheinen der Prüfer muss genügen. Andernfalls werden wir - ich sage es mit allem Nachdruck - unser Ziel nicht erreichen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg56">Der rasche technische Wandel, die internationale Arbeitsteilung und die zunehmende Digitalisierung von Daten führen dazu, dass sich Bürger und Unternehmen zum Teil drastisch gewandelten Lebens- und Erwerbsbedingungen gegenübersehen. Wir müssen dabei dafür Sorge tragen, dass internationale Arbeitsteilung und moderne Techniken nicht dazu genutzt werden, um unsere Steuerbasis schleichend zu unterhöhlen. Der Umsatzsteuerbetrug hat ganz erhebliche Ausmaße angenommen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg57">Für Deutschland muss mit Umsatzsteuerausfällen im zweistelligen Milliardenbereich gerechnet werden. Steuerehrliche Unternehmen sind in ihrer Wettbewerbsfähigkeit beeinträchtigt und Arbeitsplätze sind bedroht. Die Betrüger nutzen das bestehende Umsatzsteuersystem bewusst aus, sind bestens organisiert und kennen die Abläufe in der Finanzverwaltung sehr genau.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg58">Wir haben auf diesem Gebiet ein äußerst liberales Recht. Auch will ich nicht in die Liquidität der Unternehmen eingreifen. Insofern bleiben wir sehr viel maßvoller als alle anderen Länder in Europa. Man muss aber auch zugreifen können und darf Steuerunehrlichen nicht die Chance eröffnen, vor einer Verfolgung zu fliehen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD - Hansgeorg Hauser [Rednitzhembach] [CDU/CSU]: Dann sollten Sie den Gesetzentwurf zurücknehmen!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg59">Ich bin mit meinen Finanzministerkollegen aus den Ländern darin einig, dass für eine wirkungsvolle Bekämpfung des Umsatzsteuerbetruges neben der Verbesserung des Verwaltungsvollzugs gesetzgeberische Maßnahmen unverzichtbar sind. Die Maßnahmen zur Verbesserung des Verwaltungsvollzugs haben wir in Abstimmung mit den Ländern zum Teil bereits umgesetzt. Die notwendigen gesetzlichen Änderungen enthält der vorliegende Gesetzentwurf.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg60">Folgende Regelungen sind besonders wichtig:</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg61">Erstens: Abgabe monatlicher Voranmeldungen bei Neugründungen. Kurzlebige betrügerische Unternehmen können nur dann rechtzeitig aufgedeckt werden, wenn die Finanzverwaltung die notwendigen Informationen über solche Firmen frühzeitig erhält. Neu gegründete Unternehmen sollen deshalb künftig im Jahr der Gründung und dem darauf folgenden Jahr ihre Umsätze monatlich melden.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg62">Zweitens: Vorsteuererstattung gegen freiwillige Sicherheitsleistung. Die nahezu nur in Deutschland praktizierte schnelle Auszahlung von Vorsteuerbeträgen zieht Steuerhinterzieher an. Sie kommen sehr schnell an das Geld. Um das Haushaltsrisiko zu reduzieren, ohne die Liquidität der Unternehmen allzu sehr zu belasten, soll bei Zweifeln an der Berechtigung des Vorsteuerabzugs die Auszahlung der Vorsteuer künftig mit Zustimmung des Steuerpflichtigen gegen Sicherheitsleistung möglich sein.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg63">Andere Länder - ich weise darauf hin - zahlen erst sehr, sehr viel später oder nur einmal im Jahr aus. Das wollten wir unseren Unternehmen nicht zumuten.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg64">Drittens: Haftung für schuldhaft nicht abgeführte Steuer. Künftig sollen Unternehmer, die wissen oder den Umständen nach wissen müssen, dass sie in einen Karussellbetrug involviert sind, für den Umsatzsteuerausfall in Haftung genommen werden können, der durch das Karussellgeschäft entstanden ist. Nur steuerunehrliche Unternehmer werden davon betroffen sein.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg65">Viertens: Allgemeine Nachschau - ich habe es eben schon angedeutet - für die Umsatzsteuer; das betone ich.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg66">Für Umsatzsteuerzwecke ist die Möglichkeit, unangekündigt Unternehmen in Augenschein zu nehmen, zwingend erforderlich.</seg>
+          <vocal type="exclamat">
+            <desc>Gerda Hasselfeldt [CDU/CSU]: Schnüffelstaat!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg67">- Was decken Sie da eigentlich, Frau Kollegin Hasselfeldt? Mit einem Umsatzsteuerausfall von über 20 Milliarden DM - dies hat der Rechnungshof festgestellt - ist eine Größenordnung erreicht, die es notwendig macht gegenzusteuern. Überlegen Sie sich, was Sie da decken!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg68">Wir könnten uns noch manche Steuersenkung leisten, wenn wir das Steuerrecht voll durchsetzten. Das ist meine Zielsetzung.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD und dem BÜNDNIS 90/ DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg69">Es kann doch nicht wahr sein, dass der Ehrliche der Dumme ist. Das kann doch nicht unser gemeinsames Ziel sein.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg70">Nach geltendem Recht müssen Prüfungen außerhalb des Strafverfahrens angemeldet werden. Die Anmeldung gibt zwangsläufig Gelegenheit - übrigens ist auch das gemeinsame Überzeugung der Länderfinanzminister -, einen ordnungsgemäßen Geschäftsbetrieb vorzutäuschen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg71">Eine effektive Kontrolle ist damit derzeit nicht gewährleistet. Im Bereich des Zolls und der Verbrauchsteuern hat sich die Nachschau - dort haben wir sie nämlich - seit langem bewährt.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/CSU]: Aber in anderen Formen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg72">Fünftens: Wegfall der Anhörung vor Weitergabe von Informationen ins Ausland. Ein schneller und zeitnaher Auskunftsaustausch über die Grenze ist im europäischen Binnenmarkt dringend erforderlich. Die Anhörungspflicht im Bereich der Umsatzsteuer soll künftig entfallen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg73">Sechstens: Meldung von Neugründungen beim Finanzamt. Speziell zur effektiveren Aufdeckung von kurzlebigen betrügerischen Unternehmen, den so genannten Phönixfirmen, benötigen die Finanzämter schneller als bisher Informationen über die Aufnahme von unternehmerischer Tätigkeit. Die Unternehmen sollen daher künftig ihre Tätigkeit unmittelbar beim Finanzamt anmelden.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg74">Siebtens: Hinzuziehung von Bediensteten anderer Mitgliedstaaten. Wir müssen enger mit unseren europäischen Partnern zusammenarbeiten. Deswegen erleichtern wir die Kontakte mit den Finanzbehörden der anderen europäischen Länder.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg75">Achtens: bessere Koordinierung zwischen Bund und Ländern. Die umsatzsteuerlichen Ermittlungen der Bundesländer werden wir besser koordinieren. Dazu wird das Bundesamt für Finanzen beauftragt, zur Identifizierung prüfungswürdiger Sachverhalte Informationen zusammenzuführen und auszuwerten.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg76">Diese Modernisierungsoffensive im Bereich der Umsatzsteuer</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Ein frommer Wunsch seit Jahren!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg77">sichert das Steueraufkommen und schützt den steuerehrlichen Unternehmer vor betrügerischen Mitbewerbern, die nur aufgrund von Vorsteuermanipulationen preiswerter anbieten können.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Der wird doch in Haftung genommen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg78">Ich habe übrigens gestern ein Gespräch mit dem Präsidenten des Zentralverbandes des Deutschen Handwerks geführt, der in diesem Punkt vollständig meine Position teilt.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Nein, nein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg79">Es muss Schluss damit sein, dass der steuerunehrliche Unternehmer einen Wettbewerbsvorteil gegenüber dem steuerehrlichen Unternehmer hat.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD und dem BÜNDNIS 90/ DIE GRÜNEN - Hansgeorg Hauser [Rednitzhembach] [CDU/CSU]: Der Steuerehrliche wird in Haftung genommen!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg80">Die vorgeschlagenen Regelungen sollen im Übrigen in den nächsten vier Jahren zu Mehreinnahmen - ich wünschte, es wären noch mehr; wir müssen erst einmal schauen, was wir wirklich hinbekommen - von 10 Milliarden Euro führen. Für mich ist noch wichtiger: Dies ist ein konkreter Schritt hin zu mehr Steuergerechtigkeit.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg81">Nun zum Steueränderungsgesetz 2001. Mit dem Steueränderungsgesetz wird die Klarheit der Steuergesetze erhöht.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei Abgeordneten der CDU/CSU - Heinz Seiffert [CDU/CSU]: Unheimlich klar!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg82">Viele Änderungen sind hier eher technischer Natur, aber sie tragen zu einer besseren Transparenz bei. Ihre Umsetzung ist deshalb wichtig.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg83">Neben der redaktionellen und inhaltlichen Bereinigung steuerrechtlicher Vorschriften wird das Steuerrecht auch an die höchstrichterliche Rechtsprechung sowie an das Recht der Europäischen Union angepasst. Zudem tragen die Änderungen zu einer Vereinfachung des Steuerrechts und der Beseitigung überflüssiger Verwaltungsvorschriften bei.</seg>
+          <vocal type="exclamat">
+            <desc>Heinz Seiffert [CDU/CSU]: Jetzt wird es noch einfacher!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg84">Nun zu der Fortsetzung der Euroumstellung. Es werden, soweit noch nicht geschehen, steuerrechtliche Vorschriften auf den Euro umgestellt oder bereits umgerechnete und geglättete Eurobeträge an zwischenzeitliche Gesetzesänderungen angepasst. Auch hier wollen wir, wie beim Steuer-Euro-Glättungsgesetz, das Vertrauen der Bürger in den Euro dadurch stärken, dass nahe am Umrechnungswert zugunsten der Steuerpflichtigen geglättet wird. Die Umsetzung europäischen Rechts und die Umstellung auf das Eurobargeld müssen zum 1. Januar 2002 im Gesetz vollzogen sein. Daher ist es notwendig, das Gesetzgebungsverfahren noch in diesem Jahr abzuschließen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg85">Meine Damen und Herren, das sind die drei Entwürfe, die ich Ihnen vorzustellen hatte. Ich denke, sie alle dienen dem Ziel, zu einem einfacheren, gerechteren, moderneren Steuerrecht zu kommen. Ich bitte Sie herzlich um Ihre Zustimmung.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD und dem BÜNDNIS 90/ DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Petra Bläss:</note>
+        <u who="#Q2080120" xml:id="ParlaMint-DE_2001-09-25-14-188.u3" ana="#chair">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg86">Für die Fraktion der CDU/CSU spricht jetzt der Kollege Hansgeorg Hauser.</seg>
+        </u>
+        <note type="speaker">Hansgeorg Hauser (Rednitzhembach) (CDU/CSU):</note>
+        <u who="#Q1401471" xml:id="ParlaMint-DE_2001-09-25-14-188.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg87">Frau Präsidentin! Meine sehr geehrten Kolleginnen und Kollegen! Bei allem Respekt davor, dass Sie, Herr Minister, die Sitzung gleich verlassen müssen: Den Text hätte auch Ihre Staatssekretärin vorlesen können. Sie hat uns schon heute Vormittag eine Kostprobe Ihrer Vorlesung gegeben. Ich denke, das ist kein guter Stil.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP - Dr. Uwe Küster [SPD]: Ziemlich billig, Herr Hauser!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg88">Wir wollen alles anders und besser machen, versprach diese rot-grüne Regierung. Jetzt, nach drei Jahren, stellt die Fachwelt auf dem Gebiet des Steuerrechts fest: Das Chaos wächst. In 35 Monaten hat diese Bundesregierung 37 neue Steuergesetze vorgelegt,</seg>
+          <vocal type="exclamat">
+            <desc>Carl-Ludwig Thiele [FDP]: Unglaublich!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg89">dazu über 60 Rechtsverordnungen und Richtlinien.</seg>
+          <vocal type="exclamat">
+            <desc>Heinz Seiffert [CDU/CSU]: Fleißig sind sie!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg90">Viele davon waren Nachbesserungsgesetze</seg>
+          <vocal type="exclamat">
+            <desc>Gerda Hasselfeldt [CDU/CSU]: Eine Reparatur nach der anderen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg91">und Klarstellungsschreiben, ohne die manche Vorschrift nicht umsetzbar bzw. verständlich gewesen wäre. Wenn man sich mit Leuten aus der Praxis unterhält, dann kommt permanent die Klage, dass sie bei vielen geänderten Vorschriften - ich darf nur das Stichwort "§ 2 b EStG" und ähnliche Dinge nennen - bis heute nicht in der Lage sind - auch die Finanzverwaltung ist dazu nicht in der Lage -, diese Änderungen umzusetzen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg92">Jetzt sind die Gesetze Nr. 38, 39 und 40 dran, wie üblich mit fantasievollen Namen. Die nächsten sind auch schon in Arbeit. Es geht darum, Geld für mehr Sicherheitsmaßnahmen zu beschaffen, die man in den Vorjahren unter dem Vorwand des Sparzwanges gestrichen hatte.</seg>
+          <vocal type="exclamat">
+            <desc>Ludwig Eich [SPD]: Eben weil Sie nicht gespart haben!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg93">- Hören Sie zu, Herr Kollege! Dann würden Sie nicht solche dummen Bemerkungen machen. Es geht darum, Sicherheitsmaßnahmen zu finanzieren. Diese Sicherheitsmaßnahmen sind vorher unter dem Vorwand des Sparzwanges deutlich eingeschränkt worden.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg94">Über die Fragwürdigkeit dieser Nacht-und-Nebel-Aktion wird noch zu sprechen sein.</seg>
+          <vocal type="exclamat">
+            <desc>Christine Scheel [BÜNDNIS 90/DIE GRÜNEN]: Es war zwar Nacht, aber kein Nebel!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg95">Jedenfalls wird diese für den Finanzminister sehr bequeme Art, die ihm die Mühe des Einsparens und Umschichtens im Haushalt erspart, für die Entwicklung der Verbraucherpreise problematisch sein.</seg>
+          <vocal type="exclamat">
+            <desc>Peter Rauen [CDU/CSU]: Er kann nur den Leuten in die Tasche greifen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg96">Die Inflationsrate wird nach Aussage des Statistischen Bundesamtes um 0,4 Prozent steigen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg97">Frau Staatssekretärin - sie ist leider nicht mehr da -,</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Zigarettenpause!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg98">auch noch so schöne Erklärungen, dass das Statistische Bundesamt den Warenkorb anders beschreibe usw., werden nicht davon ablenken können, dass die Inflationsrate deutlich ansteigen wird.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie des Abg. Carl-Ludwig Thiele [FDP]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg99">Das Vertrauen in die Finanzpolitik geht verloren, urteilt der Finanzwissenschaftler Professor Peffekoven.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg100">Heute geht es um die Änderung steuerlicher Vorschriften durch das Steueränderungsgesetz 2001, um die Fortentwicklung der Unternehmensteuerreform und um das Gesetz zur Bekämpfung von Steuerverkürzungen bei der Umsatzsteuer und anderen Steuern, von dem im Folgenden die Rede ist.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg101">Um es klar zu sagen: Wir unterstützen sinnvolle Maßnahmen zur Bekämpfung von Steuerverkürzungen. Dabei geht es nicht nur um die Sicherung der Steuereinnahmen des Staates, sondern auch - da stimme ich dem Minister voll zu - um die gerechte, gleichmäßige Besteuerung und um die Wettbewerbsgleichheit.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg102">Mit dem vorliegenden Gesetzentwurf allerdings wird deutlich über das Ziel hinaus geschossen und die Verantwortlichkeit völlig aus der Balance gebracht. Nachdem der Minister den Eindruck erwecken will, dass Verbände hier zustimmen, beispielsweise der ZDH, darf ich Ihnen aus den Kernaussagen des ZDH nur einen Punkt vorlesen:</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg103">Die vorgeschlagenen verfahrensrechtlichen Einschränkungen des Vorsteuerabzugs schießen unseres Erachtens aber deutlich über das Ziel hinaus, indem sie auch dem steuerehrlichen Unternehmer unverhältnismäßige Lasten aufbürden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP - Lothar Mark [SPD]: Lesen Sie einmal alles vor!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg104">- Das könnte ich auch, aber die Zeit ist mir dafür jetzt zu schade. Der Tenor ist genau der gleiche.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg105">Drei Vorschriften sind nach unserer Auffassung gründlich missraten: erstens die Einführung einer Sicherheitsleistung bei der Vorsteuererstattung, zweitens die Haftung des Leistungsempfängers für die schuldhaft nicht abgeführte Steuer, drittens die allgemeine Nachschau.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg106">Bei der Begründung des Gesetzes führt das Ministerium schweres Geschütz auf. Wir haben es gerade wieder gehört: Die Steuerausfälle durch Betrug betrügen über 20 Milliarden DM.</seg>
+          <vocal type="exclamat">
+            <desc>Christine Scheel [BÜNDNIS 90/DIE GRÜNEN]: 23 Milliarden DM!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg107">Diese Summe muss uns gründlich erläutert werden, einschließlich der Berechnungs- und Datengrundlagen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg108">Vermutlich handelt es sich nämlich um übernommene Schätzungen aus anderen Ländern, die bei uns so nicht zutreffen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg109">Mit der lapidaren Begründung, dass "das Vorsteuerabzugsrecht... in hohem Maße betrugsanfällig" sei, kann künftig die Vorsteuererstattung "im Einvernehmen mit dem Unternehmer von einer Sicherheitsleistung abhängig gemacht werden". Das "Einvernehmen mit dem Unternehmer" geht wohl nach dem Motto: Vogel, friss oder stirb!</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg110">Eine Fülle ungeklärter Fragen drängt sich auf. Der Erstattungsfall muss "zweifelhaft" sein. In welchen Punkten denn? Die Überprüfung muss "notwendig" sein. Welche Überprüfung? In welchem Umfang? Wie hoch muss die Sicherheitsleistung sein? Davon steht im Gesetz kein Wort.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg111">Völlig übersehen wird, dass nicht nur Kosten für eine Bankbürgschaft entstehen, sondern auch der Kreditrahmen eines Unternehmens betroffen ist und damit Liquiditätsengpässe entstehen können. Gerade für Existenzgründer und mittelständische Unternehmer mit geringer Eigenkapitalausstattung und hoher Fremdkapitalquote wird die Bereitstellung von Sicherheitsleistungen kaum möglich sein. Wo bleibt da Ihr neu entdecktes Herz für die mittelständischen Unternehmer? Sie haben sich doch zum Anwalt dieser Klientel gemacht. Das ist mit Sicherheit schiefgegangen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg112">Auch eine Prüfung der Werthaltigkeit wäre nötig; trotzdem wird dazu nichts gesagt. Bei den neuen Anforderungen des § 18 KWG wird dies sehr zeitaufwendig sein.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg113">Neu ist auch die Haftung des Leistungsempfängers für die schuldhafte Nichtabführung der Umsatzsteuer aus der ausgestellten Rechnung. Dabei muss der Vorsteuerabzugsberechtigte Kenntnis von der schuldhaften Nichtabführung haben. Es reicht aber auch schon aus, wenn der Unternehmer den Umständen nach hätte wissen müssen, dass diese Steuer nicht abgeführt wurde.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der SPD: Das greift!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg114">Diese Vorschrift bringt jeden rechtstreuen und ehrlichen Unternehmer mit einem Bein ins Gefängnis, denn die Haftung erstreckt sich auf alle Stufen der Umsatzsteuer.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg115">Hier gilt das Motto: "Den Letzten beißen die Hunde", weil die Verwaltung den Betrüger nicht fassen kann. Diese Regelung hat mit Rechtsstaatlichkeit nichts zu tun.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg116">Ich frage Sie: Was ist beispielsweise mit dem Finanzbeamten, der nach den Umständen eines Falles hätte wissen müssen, dass etwas nicht mit rechten Dingen zugeht, und trotzdem erstattet? Diese Überreglementierung missachtet den Grundsatz der zurückhaltenden Eingriffsverwaltung und den rechtsstaatlichen Schutz des Bürgers und wird von uns strikt abgelehnt.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg117">Auch die Einführung einer allgemeinen Nachschau atmet den Geist des Obrigkeitsstaates, der eigenes Unvermögen kaschiert</seg>
+          <vocal type="exclamat">
+            <desc>Christine Scheel [BÜNDNIS 90/DIE GRÜNEN]: Steuerhinterzieher schützen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg118">und mit unangemeldeten Prüfungen massiv in die persönliche Sphäre des Unternehmers eingreift und so der Kriminalisierung rechtschaffener Bürger Vorschub leistet.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP - Lothar Mark [SPD]: Wieso ist das persönliche Sphäre?</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg119">- Natürlich ist das eine persönliche Sphäre.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg120">Die Finanzverwaltung besitzt mit den Instrumenten der allgemeinen Betriebsprüfung und der Umsatzsteuersonderprüfung bereits weit gehende Möglichkeiten zur Überprüfung umsatzsteuerrechtlicher Tatbestände. Außerdem hat die Steuerfahndung eine umfangreiche Machtfülle, um Steuerkriminalität zu bekämpfen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg121">Wenn Sie wie ich in meiner Kundschaft einmal einen solchen Fall miterlebt hätten, sähen Sie, wie die Steuerfahndung zuschlägt und welche Möglichkeiten sie hat.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg122">Deswegen braucht man hier keine neuen Instrumente. Der überfallartige Charakter der Nachschau wird allein damit begründet, dass eine Ankündigung steuerunehrlichen Unternehmen die Zeit gäbe, Vorkehrungen zu treffen, gegenüber den Steuerbehörden einen normalen Geschäftsbetrieb vorzutäuschen und den Geschäftsbetrieb einzustellen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg123">Diese allgemeine Nachschau stellt eine Art Steuerfahndung ohne konkreten Anfangsverdacht dar, da die Voraussetzungen, unter denen die Sicherstellung einer gleichmäßigen Festsetzung und Erhebung der Steuer gefährdet ist, weder näher definiert noch überhaupt genau zu definieren sind.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg124">Auch der Übergang von der Nachschau zur Außenprüfung ist zweifelhaft geregelt. Die Ausdehnung der Rechte der Finanzverwaltung ist eine Fortsetzung der Eingriffe des Staates in Unternehmen. Durch das so genannte Steuersenkungsgesetz werden ab dem 1. Januar 2002 mit dem Datenzugriff durch den Betriebsprüfer bereits neue Mitwirkungspflichten im Rahmen der Außenprüfung geschaffen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg125">Vor allem der weitgehend selbstständige Zugriff der Prüfer auf Unternehmensdatenbestände kann zur Belastung des Prüfungsnehmers führen. Das in der Zwischenzeit ergangene Anwendungsschreiben - auch das ist wieder ein Kapitel für sich - lässt mehr Fragen offen, als es beantwortet.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Bläss:</note>
+        <u who="#Q2080120" xml:id="ParlaMint-DE_2001-09-25-14-188.u5" ana="#chair">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg126">Herr Kollege Hauser, es gibt eine Zwischenfrage des Kollegen von Larcher.</seg>
+        </u>
+        <note type="speaker">Hansgeorg Hauser (Rednitzhembach) (CDU/CSU):</note>
+        <u who="#Q1401471" xml:id="ParlaMint-DE_2001-09-25-14-188.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg127">Bitte sehr.</seg>
+        </u>
+        <incident type="incident">
+          <desc>Das vom Abg. Detlev von Larcher [SPD] eingeschaltete Saalmikrofon funktioniert nicht - Jochen-Konrad Fromme [CDU/CSU]: Er betet um die Erkenntnis, aber sie kommt ihm nicht! - Detlev von Larcher [SPD]: Warum geht es nicht?</desc>
+        </incident>
+        <note type="speaker">Vizepräsidentin Petra Bläss:</note>
+        <u who="#Q2080120" xml:id="ParlaMint-DE_2001-09-25-14-188.u7" ana="#chair">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg128">Vielleicht probieren Sie einfach ein benachbartes Mikrofon.</seg>
+        </u>
+        <incident type="incident">
+          <desc>Detlev von Larcher [SPD] schaltet ein weiteres Saalmikrofon ein, das wiederum nicht funktioniert</desc>
+        </incident>
+        <note type="speaker">Hansgeorg Hauser (Rednitzhembach) (CDU/CSU):</note>
+        <u who="#Q1401471" xml:id="ParlaMint-DE_2001-09-25-14-188.u8" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg129">Vielleicht ist das ein Zeichen dafür, dass die Frage doch überflüssig ist.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit und Beifall bei der CDU/CSU und der FDP - Ludwig Eich [SPD]: Bei Ihnen ist sie vielleicht sinnlos! Detlev von Larcher [SPD]: Wo soll ich jetzt hingehen?</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg130">- Wir werden das später beim Bier klären. Ich kann das alles wunderbar erklären.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Detlev von Larcher [SPD]: Vielleicht darf ich die Frage mit einem Zwischenruf stellen? Ich habe doch eine laute Stimme!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsidentin Petra Bläss:</note>
+        <u who="#Q2080120" xml:id="ParlaMint-DE_2001-09-25-14-188.u9" ana="#chair">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg131">Herr Hauser, Kollege von Larcher legt großen Wert auf die Zwischenfrage.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg132">Dann muss er das notfalls so probieren.</seg>
+        </u>
+        <note type="speaker">Detlev von Larcher (SPD):</note>
+        <u who="#Q1201476" xml:id="ParlaMint-DE_2001-09-25-14-188.u10" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg133">Sie haben Ihre Rede mit den Worten begonnen, Sie unterstützten die Ziele und würden vernünftige Maßnahmen unterstützen. Können Sie uns Maßnahmen nennen, die Sie unterstützen?</seg>
+        </u>
+        <note type="speaker">Hansgeorg Hauser (Rednitzhembach) (CDU/CSU):</note>
+        <u who="#Q1401471" xml:id="ParlaMint-DE_2001-09-25-14-188.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg134">Verehrter Kollege von Larcher, ich bin es von Ihnen gewohnt, dass Sie häufig sehr voreilig irgendwelche Dinge zur Sprache bringen. Hätten Sie jetzt noch eine Minute gewartet, dann hätte ich eine Reihe von Punkten genannt, die ich für wichtig und nötig halte und die einen Teil dieser Maßnahmen überflüssig machen würden. Ich möchte nicht sagen, dass die Punkte, die hier angesprochen worden sind, in Bausch und Bogen zu verurteilen sind. Man muss aber Maß und Ziel bei der Gesetzgebung erkennen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg135">Das ist hier nicht möglich.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg136">Sie haben in den drei Punkten, die ich genannt habe, eine Fülle von Überreaktionen gezeigt. Wir müssen uns im Finanzausschuss sehr deutlich darüber unterhalten, wie wir das Ganze auf das richtige Maß zurechtstutzen können.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg137">Wenn Sie weiter zuhören, werde ich Ihnen auch mitteilen, was meines Erachtens noch notwendig wäre.</seg>
+          <vocal type="exclamat">
+            <desc>Detlev von Larcher [SPD]: Da bin ich sehr gespannt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg138">Ich habe festgestellt, dass das vorliegende Gesetz ausschließlich Verschärfungen für den Unternehmer bringt.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg139">Wir brauchen uns nicht darüber zu unterhalten, ob man jetzt den Zeitraum von einen Vierteljahr auf einen Monat verkürzt. Das ist kein Thema, über das wir uns groß unterhalten müssten. Aber die bereits vorhandenen Möglichkeiten für die Verwaltung werden weitgehend außer Acht gelassen. Durch Intensivierung der Zusammenarbeit der nationalen und internationalen Behörden und durch bessere Ausgestaltung technischer Einrichtungen wie Datenbanken oder des Informationsaustausches lässt sich die Steuerkriminalität wirksamer bekämpfen. Es genügt einfach nicht, in die Begründung nur zu schreiben: Wir sind dazu zurzeit nicht in der Lage. Der Unternehmer soll offensichtlich nachprüfen, ob der Dritte oder Vierte in der Kette bei der Rechnungstellung die Umsatzsteuer abgeführt hat. Das wird ihm zugemutet.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg140">Offensichtlich sucht man mit diesem Gesetz wieder den bequemen Weg, der da lautet: alle Last dem Bürger aufbürden, ihm mit Misstrauen begegnen und ihn bloßstellen. Manchmal würde schon der bloße Menschenverstand eines Finanzbeamten ausreichen, um Betrugsfälle aufzudecken. Aber wenn die Nachlässigkeit dazu führt, dass über 20 Finanzämter - wie neulich in einem Fall in Nürnberg geschehen - hohe Vorsteuererstattungen für den gleichen Unternehmer ohne Rückfragen und ohne Kontaktaufnahme gewähren,</seg>
+          <vocal type="exclamat">
+            <desc>Christine Scheel [BÜNDNIS 90/DIE GRÜNEN]: Weil die Datenverknüpfung nicht funktioniert!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg141">dann ist dem Betrug Tür und Tor geöffnet.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU und der FDP</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Petra Bläss:</note>
+        <u who="#Q2080120" xml:id="ParlaMint-DE_2001-09-25-14-188.u12" ana="#chair">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg142">Jetzt spricht die Kollegin Christine Scheel für die Fraktion Bündnis 90/Die Grünen.</seg>
+        </u>
+        <note type="speaker">Christine Scheel (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q103518" xml:id="ParlaMint-DE_2001-09-25-14-188.u13" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg143">Frau Präsidentin! Verehrte Kollegen und Kolleginnen!</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg144">Wenn man Herrn Hauser zuhört, könnte man fast den Eindruck bekommen, man könnte alles so lassen, wie es ist, und man könnte die Probleme mit der bestehenden Gesetzgebung in den Griff bekommen.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Dann haben Sie nicht zugehört! - Gerda Hasselfeldt [CDU/CSU]: Das ist doch gar nicht wahr!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg145">Das ist eben nicht so. Deswegen haben sich die Finanzminister der Länder auf diesen Entwurf verständigt, der jetzt in ein Gesetz überführt wird.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg146">Es ist gerade in der heutigen Zeit wichtig, dass wir in der Steuerpolitik Besonnenheit und auch Augenmaß an den Tag legen.</seg>
+          <vocal type="exclamat">
+            <desc>Gerda Hasselfeldt [CDU/CSU]: Deshalb 37 Gesetze!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg147">Deshalb sollten nur solche Forderungen gestellt werden, die erfüllbar sind. Dementsprechend dürften derartig kontraproduktive Vorwürfe, wie sie von Ihrer Seite gerade in den letzten Tagen wieder gekommen sind, hier im Parlament im Prinzip nicht diskutiert werden, denn sie sind verantwortungslos.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der SPD - Carl-Ludwig Thiele [FDP]: Wer korrigiert denn seine Gesetze?</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg148">Ich sage Ihnen ganz offen - Herr Thiele spricht ja nach mir -: Wenn die Vorschläge, die Sie in den letzten Tagen zur Steuergesetzgebung gemacht haben, umgesetzt würden, würde das bedeuten, dass wir bis 2005 - das sage ich an dieser Stelle noch einmal ganz bewusst - Steuermindereinnahmen von 115 Milliarden DM hätten.</seg>
+          <vocal type="exclamat">
+            <desc>Carl-Ludwig Thiele [FDP]: Sie wollten doch selbst die Steuererhöhung der Steuersenkung vorziehen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg149">Das ist schlichtweg nicht finanzierbar und zeigt den ganzen Populismus, mit dem die Union und auch die FDP diese Steuerdebatte in den letzten Tagen geführt haben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg150">Wir wollen nicht, dass der Stabilisierungspakt aufgekündigt wird. Dem haben sich, wie wir wissen - Gott sei Dank -, alle Finanzminister der europäischen Länder im Ecofin angeschlossen. Wir wollen erreichen, dass alle Länder in Europa eine solide Finanzpolitik - mit der dazugehörigen Haushaltskonsolidierung - beschließen, wie wir sie immer wieder vorschlagen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg151">Wir sehen - das muss man berücksichtigen - ein Licht am Konjunkturhorizont.</seg>
+          <vocal type="exclamat">
+            <desc>Carl-Ludwig Thiele [FDP]: 2010! - Hansgeorg Hauser [Rednitzhembach] [CDU/CSU]: Sie führen die Leute hinters Licht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg152">Die Inflationsrate geht zurück. Es ist sehr erfreulich, dass die EZB diesen Spielraum nutzt und dass sie bereits zweimal die Zinsen gesenkt hat. Damit verfügen die Märkte über ausreichend Liquidität für eine konjunkturelle Wende.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN und der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg153">Das muss man in der aktuellen Situation auch sagen, denn Miesmacherei und ein Schlechtreden des Wirtschaftsstandortes Deutschland wirkt sich psychologisch aus und hätte zur Konsequenz, dass wir im Ausland schlechter dastehen, als es der Wirklichkeit entspricht. Das haben Sie zu verantworten; das bedauere ich sehr.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD - Carl-Ludwig Thiele [FDP]: Das ist Ihre Politik! Wer regiert denn? Wer hat den Vorsitz im Finanzausschuss? Wer macht denn die Gesetze? - Hans Michelbach [CDU/ CSU]: 4 Millionen Arbeitslose!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg154">Wir haben in der letzten Woche im Kabinett eine maßvolle Steuererhöhung beschlossen. Das bestätigen übrigens auch Wirtschaftsforschungsinstitute, wie zum Beispiel das Institut für Wirtschaftsforschung in Halle und auch das Hamburger Weltwirtschaftsarchiv. Diese weisen darauf hin, dass die um 2 Eurocent pro Zigarette erhöhte Tabaksteuer und die um 1 Prozentpunkt angehobene Steuer auf Sachversicherungen - es geht hier nicht um Lebensversicherungen und Altersvorsorge, sondern um Sachversicherungen - die Gesamtnachfrage und auch die Leistungsanreize nur ganz geringfügig beeinträchtigen würden. Deshalb halten wir die Entscheidung, zusätzliche Maßnahmen für die innere und äußere Sicherheit durch zusätzliche Steuereinnahmen zu finanzieren, für richtig.</seg>
+          <vocal type="exclamat">
+            <desc>Jürgen Koppelin [FDP]: Ihr findet ja inzwischen alles richtig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg155">Es ist keine Alternative, verehrte Kolleginnen und Kollegen von der FDP, jetzt wieder mehr Schulden zu machen. Maßnahmen für mehr Sicherheit müssen heute umgesetzt werden. Deswegen müssen sie auch heute bezahlt werden. Mehr Schulden heute würde den Steuersenkungsspielraum für die nächsten Jahre verringern und in den kommenden Jahren höhere Zins- und Steuerbelastungen verursachen. Diese Politik, die Sie jahrelang betrieben haben, wollen und werden wir nicht fortführen.</seg>
+          <vocal type="exclamat">
+            <desc>Carl-Ludwig Thiele [FDP]: Sie werden gar keine Politik fortführen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg156">Wir haben ja sogar noch das auszubaden, was Sie uns hinterlassen haben. Schließlich wären unsere Spielräume ansonsten größer.</seg>
+          <kinesic type="laughter">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD - Detlev von Larcher [SPD]: Das ist einfach wahr! - Lachen bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg157">Weil in den letzten Tagen besonders vonseiten der CDU/CSU und der FDP Vorhaltungen gemacht wurden, man könne doch jetzt nicht mit Steuererhöhungen kommen, möchte ich in diesem Zusammenhang darauf hinweisen und Sie in aller Ruhe daran erinnern - das Gedächtnis ist ja bei einigen manchmal sehr kurz bzw. man will sich nicht mehr erinnern -,</seg>
+          <vocal type="exclamat">
+            <desc>Carl-Ludwig Thiele [FDP]: Stimmt, Frau Kollegin!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg158">dass wir 1991 in der Bundesrepublik Deutschland eine ähnliche Situation hatten, in der wir Zusätzliches finanzieren mussten, nämlich in Zusammenhang mit dem Golfkrieg. In dieser für den Haushalt schwierigen Situation sind Sie auf die glorreiche Idee gekommen, die Tabaksteuer und die Versicherungsteuer - um 40 Prozent übrigens - zu erhöhen. Außerdem haben Sie die Mineralölsteuer in Schritten erhöht,</seg>
+          <vocal type="exclamat">
+            <desc>Jochen-Konrad Fromme [CDU/CSU]: Was ist mit der Bahnreform? Da haben Sie auch nicht zugestimmt?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg159">die pro Schritt einnahmemäßig vier Schritten bei der Ökosteuer entsprechen. Auch das wollte ich noch einmal deutlich sagen. Schließlich haben Sie den Solidaritätszuschlag eingeführt.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: War das jetzt richtig oder falsch?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg160">Das hatte damals zur Konsequenz, dass 27 Milliarden DM mehr an Steuern eingenommen wurden, von denen Sie aber nur 10 Milliarden DM wirklich für Maßnahmen zur inneren und äußeren Sicherheit gebraucht haben.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg161">Ich will damit sagen: Die steuerpolitische Entscheidung, die 1991 getroffen wurde, hat in der Konsequenz zu Steuermehreinnahmen von 27 Milliarden DM geführt, von denen man aber eigentlich nur 10 Milliarden DM gebraucht hat. Den Rest haben Sie im Haushalt versacken lassen.</seg>
+          <vocal type="exclamat">
+            <desc>Lothar Mark [SPD]: So war das!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg162">Hier gibt es einen Unterschied zu dem, was die jetzige Regierungskoalition macht. Wir haben ein Paket in Höhe von 3 Milliarden DM beschlossen.</seg>
+          <vocal type="exclamat">
+            <desc>Joachim Poß [SPD]: Ihre Steuererhöhungen gelten bis heute!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg163">Daran sind auf der Ausgabenseite feste Maßnahmen geknüpft.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Das glaubt Ihnen noch nicht einmal der Stammtisch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg164">Das ist genau der Punkt, warum ich sage, dass wir eine solide und ehrliche Steuer- und Haushaltspolitik im Gegensatz zu der, die die CDU/CSU- und FDP-Koalition all die Jahre betrieben hat, betreiben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD - Jochen-Konrad Fromme [CDU/CSU]: Dann müssten Sie die Steuereinnahmen befristen, wenn Sie das wirklich wollten!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg165">Wir alle, wie wir hier sitzen, von den Kollegen und Kolleginnen der PDS über die der Fraktionen der SPD, des Bündnisses 90/Die Grünen und der CDU/CSU bis zu denen der FDP-Fraktion, haben uns sehr deutlich dafür ausgesprochen, dass wir Einnahmen aus der Umsatzsteuer garantieren wollen. Das wollen wir dadurch erreichen, dass wir die Entwicklungen der letzten Jahre, dass nämlich immer mehr Leute betrügerische Geschäfte gemacht haben, indem Umsatzsteuergeschäfte zulasten der Steuereinnahmen und letztendlich zulasten aller Steuerbürgerinnen und -bürger abgewickelt wurden, beenden.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg166">Wir nehmen bei der Umsatzsteuer durch Betrug jedes Jahr rund 23 Milliarden DM weniger ein. Diese 23 Milliarden DM würden wir, wie durch die Gesetzesänderung jetzt vorlegt worden ist, viel lieber über die Steuer einnehmen und als Entlastung an die Bürger und Bürgerinnen weitergeben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD - Hansgeorg Hauser [Rednitzhembach] [CDU/CSU]: Da sind wir gespannt!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg167">Sicher ist - da braucht man sich nichts vorzumachen -:</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg168">Es wird kaum möglich sein, kriminelle Geschäfte bei der Umsatzsteuer völlig zu unterbinden, ohne dass die Bedingungen für die steuerehrlichen Bürger und Bürgerinnen und Unternehmer verschärft werden. Das ist genau die Debatte, die wir jetzt führen: Egal, ob man mehr Finanzbeamte oder -beamtinnen einsetzt oder ob man die Prüfungsbedingungen des Fiskus verbessert, immer betreffen diese Maßnahmen auch die Ehrlichen, die man eigentlich ja nicht treffen will.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/CSU]: Aber das gründlich!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg169">Herr Hauser, wir müssen hier die Frage beantworten, die sich uns bei der Umsatzsteuer, aber aktuell auch in vielen anderen Bereichen wie bei der inneren Sicherheit oder der Zinsbesteuerung stellt: Welcher Eingriff in den persönlichen oder in den unternehmerischen Handlungsrahmen ist bezogen auf das Ziel, auf der einen Seite mehr Freiheit sicherzustellen, auf der anderen Seite mehr Ehrlichkeit und die Sicherung der Steuereinnahmen zu erreichen, angemessen? Genau auf diesem Grat müssen wir uns bewegen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg170">Es ist ganz unbestreitbar für viele, auch für die steuerehrlichen Unternehmen, ein unangenehmer Eingriff, wenn Finanzbeamte zukünftig das Recht haben, unangemeldet in den Geschäftsräumen des Unternehmens aufzutauchen und die Umsatzsteuerunterlagen zu prüfen. Aber ich bitte Sie: Wenn man eine Prüfung vornehmen will, dann kann man sich nicht eine Woche vorher zum Kaffee anmelden und davon ausgehen, dass alle Unterlagen dann noch da sind.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg171">Das müssen wir doch wissen. Dementsprechend müssen wir hier Regelungen finden, um die Umsatzsteuersünder aufzuspüren und zur Steuerzahlung mit heranzuziehen.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Ein bisschen Praxis wäre nicht von Schaden!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg172">Wir wahren die Betriebssphäre der steuerehrlichen Unternehmen und schützen die steuerehrlichen Unternehmen vor betrügerischen Wettbewerbsverzerrungen. Man darf in diesem Zusammenhang nicht vergessen: Es besteht eine Konkurrenz unter den Unternehmen; sie verschaffen sich gegenüber den anderen einen Vorteil. Auch das muss, im Sinne einer guten und gerechten Wirtschaftsordnung, die wir uns in diesem Land alle wünschen, mitgeregelt werden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg173">Mit der Fortführung der Unternehmensteuerreform erleichtern wir - der Minister hat das eben angesprochen - Umstrukturierungen und modernisieren Vorschriften zur Organschaft und zum Außensteuerrecht. Dies bedeutet eine Reihe von durchgreifenden Verbesserungen, gerade für die mittelständischen Unternehmen. Insgesamt bringt das Gesetz Steuerentlastungen von rund 500 Millionen DM.</seg>
+          <vocal type="exclamat">
+            <desc>Jochen-Konrad Fromme [CDU/CSU]: Alles, was Sie vorher weggenommen haben!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg174">Es ist ein gutes Signal, auch für die mittelständische Wirtschaft, dass wir trotz der schwierigen konjunkturellen Situation, trotz der Anforderungen, die sich uns bei der inneren und äußeren Sicherheit stellen, für den Mittelstand Entlastungen beschließen können. Ich glaube, dass das honoriert wird.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg175">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Petra Bläss:</note>
+        <u who="#Q2080120" xml:id="ParlaMint-DE_2001-09-25-14-188.u14" ana="#chair">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg176">Das Wort für die FDP- Fraktion hat jetzt der Kollege Carl-Ludwig Thiele.</seg>
+        </u>
+        <note type="speaker">Carl-Ludwig Thiele (FDP):</note>
+        <u who="#Q1036557" xml:id="ParlaMint-DE_2001-09-25-14-188.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg177">Sehr geehrte Frau Präsidentin! Meine lieben Kolleginnen und Kollegen! Frau Kollegin Scheel, erstens: Ich halte es für abenteuerlich, wenn Sie auf Steuererhöhungen der Jahre 1990/91 verweisen und als Erklärung ausschließlich den Golfkrieg heranziehen. Ich weiß, dass die Grünen damals nicht im Bundestag waren; aber auch Ihnen dürfte bekannt sein, dass damals Zentrales gelungen ist, nämlich die Wiedervereinigung zu erreichen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg178">Dass die Wiedervereinigung und der Aufbau in den neuen Bundesländern Geld kosten, dass dafür Steuern, Sozialabgaben und die Neuverschuldung erhöht werden mussten, war alternativlos. Auch wenn die Grünen die Wiedervereinigung damals nicht wollten, ist das trotzdem kein Grund, dieses Argument auszulassen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU - Christine Scheel [BÜNDNIS 90/DIE GRÜNEN]: Das war aber nicht die Begründung für diese Steuererhöhungen! - Zurufe von der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg179">Zweitens. Sie werfen der Opposition heute vor, Steuersenkungen zu fordern. Vor der Sommerpause tingeln Sie durch die Medien und fordern selbst ein Vorziehen der Steuerreform, um die Wachstumskräfte in unserem Lande zu stärken.</seg>
+          <vocal type="exclamat">
+            <desc>Christine Scheel [BÜNDNIS 90/DIE GRÜNEN]: Aber doch nicht bei dieser Konjunktur!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg180">Das ist doch eine persönliche Schizophrenie, die Sie hier zum Ausdruck bringen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU - Zurufe von der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg181">Drittens. Die Inflationsrate sinkt; darüber sind wir alle glücklich. Die Inflationsrate wird ab dem 1. Januar nächsten Jahres aber wieder steigen, und zwar unter anderem durch die Ökosteuer. Zusätzlich hat das Statistische Bundesamt erklärt, dass durch die von Ihnen veranlassten neuen Steuererhöhungen die Inflationsrate um 0,4 Prozent steigen wird. Das ist doch Tun gegen eigenes Wissen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg182">Das ist unverantwortlich. Das tragen wir nicht mit.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg183">Heute debattieren wir über eine Reihe von Gesetzen, mit denen die Koalition vor allem ihre eigenen Steuergesetze zum wiederholten Male korrigiert.</seg>
+          <vocal type="exclamat">
+            <desc>Jochen-Konrad Fromme [CDU/CSU]: So ist es!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg184">Es geht auch um Maßnahmen zur Bekämpfung von Betrugsfällen bei der Umsatzsteuer. Über diese Dinge werden wir im Finanzausschuss im Einzelnen reden. Aber angesichts der aktuellen Ereignisse stellt sich doch die grundsätzlichere Frage nach dem Kurs dieser Bundesregierung in der Finanzpolitik. Die Ereignisse in den USA werden heute noch nicht absehbare Auswirkungen auf Wachstum, Konjunkturverlauf und Steuereinnahmen in Deutschland haben. Niemand von uns weiß, was uns hier noch bevorsteht.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg185">Fest steht jedoch, dass der Bundesfinanzminister jetzt selbst vorgenommene Sparmaßnahmen bei Investitionen in vielen Bereichen der Sicherheit wieder zurücknehmen muss.</seg>
+          <vocal type="exclamat">
+            <desc>Jochen-Konrad Fromme [CDU/CSU]: So ist es!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg186">Mehr Mittel für die Bundeswehr, für die Aufklärung durch unsere Geheimdienste, die die Grünen noch vor kurzem abschaffen wollten,</seg>
+          <vocal type="exclamat">
+            <desc>Christine Scheel [BÜNDNIS 90/DIE GRÜNEN]: Ist schon eine Weile her, Herr Thiele!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg187">für den Bundesgrenzschutz und für die Flugüberwachung sind angesichts der Ereignisse in den USA für die Sicherheit unserer Bürger notwendig und werden von uns ausdrücklich begrüßt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg188">Die bedauerlichen Ereignisse in den USA werfen ein ganz anderes Licht auf den Sparkommissar Eichel, der bislang für seine Politik fast ausschließlich gelobt wurde.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg189">Es zeigt sich heute, dass die geplanten Kürzungen insbesondere bei der Bundeswehr, deren Wirkung für breite Kreise der Bevölkerung nicht spürbar war, falsch waren und falsch sind.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg190">Die Bürger in unserem Land haben ein Recht darauf, dass ihre innere und ihre äußere Sicherheit geschützt ist. Den Frieden, die Freiheit und die Menschenwürde unserer Bürger zu schützen ist die Aufgabe verantwortlicher Politik.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg191">In der vergangenen Woche haben wir zwar in beeindruckender Weise erlebt, wie Regierung und Opposition in schwieriger Zeit zusammenstanden. Aber dass schon eine Stunde nach der Debatte, in der auch um nationale Konsequenzen aus den schrecklichen Anschlägen vom 11. September gerungen wurde, die Bundesregierung das Parlament, ja sogar die eigenen Abgeordneten brüskiert hat, indem sie einseitig Steuererhöhungen beschlossen hat, ist ein unglaublicher Vorgang, der im Parlament noch erörtert werden muss.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg192">Jetzt sollen, wie gesagt, kurzfristig Steuern erhöht werden, nämlich die Tabak- und die Versicherungsteuer.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg193">Zudem sind die weiteren Erhöhungen der Ökosteuer schon beschlossen. Dies bedeutet, dass im letzten Jahr der Ökosteuer die Bürger und die Arbeitsplätze allein durch die Ökosteuer mit 33,5 Milliarden DM pro Jahr belastet werden.</seg>
+          <vocal type="exclamat">
+            <desc>Nicolette Kressl [SPD]: So ein Quatsch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg194">- Das ist doch Ihr Gesetz! Schauen Sie es sich selber doch einmal genau an!</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg195">Zusätzlich wird die Tabaksteuer erhöht und dann deren Aufkommen künstlich auf 2 Milliarden DM heruntergerechnet. Wenn man alle Steuererhöhungen zusammenrechnet, ergibt sich Folgendes: 35,5 Milliarden DM - Aufkommen aus Ökosteuer und Tabaksteuer - zuzüglich 16 Prozent Mehrwertsteuer - das sind 5,7 Milliarden DM - sind 41,2 Milliarden DM. Hinzu kommt noch die Erhöhung der Versicherungsteuer, deren Aufkommen voraussichtlich bei 1 Milliarde DM liegen wird. Das heißt, die Bürger werden durch Rot-Grün mit rund 42 Milliarden DM pro Jahr zusätzlich belastet werden.</seg>
+          <vocal type="exclamat">
+            <desc>Lothar Mark [SPD]: Und die Entlastungen? Was sagen Sie zu den Entlastungen, die vorgenommen werden?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg196">Dazu kann ich nur sagen: Herr Finanzminister Eichel - er ist inzwischen gegangen -, Sie setzen inzwischen die Politik Ihres Vorgängers Lafontaine fort. Sie reden von Steuersenkungen, beschließen aber Steuererhöhungen. Diesen Weg werden wir nicht mitgehen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU - Lothar Mark [SPD]: Das ist sehr billig! - Detlev von Larcher [SPD]: Herr Thiele, das glaubt Ihnen doch kein Mensch! Sie kriegen einen Rechenkurs von uns bezahlt!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg197">Das ist schon eine verquere Steuerlogik von Rot-Grün:</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg198">Rasen für die Rente, Rauchen für den Frieden! Das nimmt Ihnen niemand ab.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg199">Unter Ihnen, Herr Finanzminister Eichel, ist die Steuerquote im letzten Jahr auf den höchsten Wert seit Bestehen der Bundesrepublik Deutschland gestiegen. Es hat den Anschein, dass Rot-Grün unter dem Eindruck der schrecklichen Geschehnisse in den USA die Steuern deshalb klammheimlich erhöht, um einen Teil der Haushaltsprobleme dieses Jahres und der nächsten Jahre nicht durch Sparmaßnahmen, sondern durch Steuererhöhungen zu lösen. Das heißt, Sie drücken sich vor der Aufgabe, den Haushalt tatsächlich zu sanieren. Auch das lassen wir Ihnen nicht durchgehen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU - Detlev von Larcher [SPD]: So ein Blödsinn!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg200">Höhere Steuern scheinen jetzt das letzte Mittel zu sein, um zusätzliche Ausgaben zu finanzieren. Aber die Koalition trägt damit angesichts der abflauenden Konjunktur weiter zur Verunsicherung von Bürgern und Unternehmen sowie zur Entziehung von Kaufkraft bei. Der Finanzminister und die rot-grüne Koalition haben offenbar vor der Aufgabe kapituliert, die Staatsausgaben einzudämmen und umzugestalten. Sie verfahren nach der alten Buchhaltermethode: Neue Ausgaben erfordern neue Einnahmen, also höhere Steuern. Dabei übersehen sie, dass so die Verunsicherung der Wirtschaft und der Verbraucher geschürt wird.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg201">Mit diesem Taschenspielertrick, was Ihre steuerpolitischen Vorgaben angeht, sind Sie, Herr Finanzminister, nicht mehr der Garant finanzpolitischer Solidität; deshalb lehnt die FDP diese Steuererhöhungen ab.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP und der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Petra Bläss:</note>
+        <u who="#Q2080120" xml:id="ParlaMint-DE_2001-09-25-14-188.u16" ana="#chair">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg202">Zeittechnisch gesehen war das Ende Ihrer Rede eine Punktlandung.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg203">Nächste Rednerin ist die Kollegin Dr. Barbara Höll, PDS-Fraktion.</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Höll (PDS):</note>
+        <u who="#Q807478" xml:id="ParlaMint-DE_2001-09-25-14-188.u17" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg204">Verehrte Frau Präsidentin!</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg205">Liebe Kolleginnen und Kollegen! In einem muss ich Herrn Thiele Recht geben: Ich finde schon, dass "Tanken für die Rente, Rauchen für die Sicherheit" eine makabre Steuerpolitik ist. Alle in diesem Hause sind sich darin einig, dass Maßnahmen notwendig sind. Allerdings wird noch zu diskutieren sein, wie diese Maßnahmen ausgestaltet werden. Ich denke, sie können nicht so finanziert werden, wie Sie es planen. Es gibt andere Quellen im Bundeshaushalt. Wenn Sie schon so vorgehen, dann werden Sie zumindest den Prinzipien der Haushaltsklarheit und der Haushaltswahrheit gerecht! Die Mehreinnahmen des nächsten Jahres sollten ordentlich etatisiert werden und - ich erinnere an das Budgetrecht des Parlamentes - nicht einfach im Einzelplan 60 verschwinden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg206">Liebe Kolleginnen und Kollegen, dass der Kampf gegen die Steuerhinterziehung ein wesentliches Anliegen auch der PDS ist, haben wir hier schon zur Genüge bewiesen. Die PDS hat bereits eine Vielzahl von Anträgen eingebracht, die die Aufhebung des Bankgeheimnisses, die Aufstockung der Anzahl der Betriebsprüfer in den Finanzbehörden und anderes betreffen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg207">Wir sehen durchaus das Bemühen der Regierungskoalition, in diesem Bereich etwas zu tun. Es ist klar, dass es ein schwieriges Terrain ist: Es gibt ehrliche und es gibt unehrliche Unternehmer. Man muss Regelungen finden, die die einen nicht zu stark belasten und die den anderen den Boden entziehen. Ein weiterer Problemkreis betrifft die öffentliche Verantwortung. Es stellt sich die Frage, inwieweit öffentliche Verantwortung in den Privatbereich verschoben werden kann. Ich möchte das an zwei Beispielen deutlich machen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg208">Erstens: die Haftung für schuldhaft nicht abgeführte Steuer. Wenn man auf dem Markt ein Kilo Äpfel kauft, dann kann man aufgrund Ihrer Regelung letztendlich dafür in Haftung genommen werden, dass ein Verkäufer seine Standgebühren nicht gezahlt hat und hinterher ein Strafgeld abführen muss.</seg>
+          <kinesic type="applause">
+            <desc>Widerspruch bei der SPD und dem BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg209">- Es ist so! - Sie wollen eine Gesamtschuldnerhaftung aller Unternehmer einführen. Es kann doch nicht richtig sein, dass die Notwendigkeit der öffentlichen Kontrolle in den Privatbereich verlagert wird.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg210">Zweitens: allgemeine Nachschau. Ich möchte mich überhaupt nicht der Auffassung anschließen, dass eine allgemeine Nachschau nicht durchführbar ist. Sie kann eine richtige Regelung sein. Ich frage mich aber: Wer will sie eigentlich umsetzen? Bereits heute reicht die Anzahl der Finanzbeamten in den Behörden nicht aus, um ordentliche Betriebsprüfungen durchzuführen. Wir wollen die Finanzbeamten mit einer zusätzlichen Aufgabe ausrüsten; aber dazu braucht man eine zusätzliche Ausstattung der Finanzbeamten.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg211">Wenn wir die Umsatzsteuerhinterziehung tatsächlich bekämpfen wollen, dann stellt sich mir die Frage, wie mit der eingebrachten Gesetzesvorlage sichergestellt wird, dass alle Bundesländer ein vernetztes, bundeseinheitliches Computernetz haben. Nach meinem Kenntnisstand ist eines der wesentlichen Probleme, dass der Informationsaustausch zwischen den Ländern bisher überhaupt nicht klappt.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg212">Wie ist es nun eigentlich mit der einheitlichen Steuernummer? Warum haben Sie in dieser Angelegenheit keine Einigung mit den Landesfinanzministern erzielt und eine wirkliche Innovation vorgelegt? Eine solche Innovation ist notwendig. Gerade im Informationszeitalter kann man sich wirklich fragen, warum wir an diesem Punkt noch immer nicht weiter sind.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg213">Solange diese beiden Dinge nicht geklärt sind, bleibt das, was Sie ansonsten bezwecken, leider Gottes Stückwerk. Was Sie vorhaben, wird nicht dazu führen, dass der Fiskus durch die erfolgreiche Bekämpfung von Umsatzsteuerhinterziehung zusätzlich 23 Milliarden DM einnimmt.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg214">Wir beraten heute gleichzeitig den Gesetzentwurf zur Fortentwicklung des Unternehmensteuerrechts. Herr Eichel hat vorhin versucht, eine Reihe von Regelungen mit den schönsten Worten zu begründen. Der Bundestag besteht in dieser Zusammensetzung seit 1998. Vor mehr als zwei Jahren hat bereits der damalige Finanzminister Lafontaine - ebenfalls mit sehr schönen Worten - eine Begründung für die Änderung eines Teils der Regelungen gegeben. Das ist ein Hü und Hott in der Steuer- und Finanzpolitik in einer Größenordnung, die nicht mehr nachvollziehbar ist.</seg>
+          <vocal type="exclamat">
+            <desc>Carl-Ludwig Thiele [FDP]: Sehr richtig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg215">Ich möchte die Reinvestitionsrücklage ansprechen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg216">Herr Eichel hat vorhin die entsprechende Regelung erklärt. Sie wollen die Steuerfreiheit für Personenunternehmen beim Verkauf von Anteilen an Kapitalgesellschaften einführen. Da frage ich mich: Warum gibt es keine entsprechende Regelung für den Fall, dass ein Personenunternehmen Anteile an anderen Personenunternehmen erwirbt? Das ist doch nicht logisch. Warum führen Sie nicht eine entsprechende Regelung für Sachinvestitionen - es geht Ihnen doch um Investitionen, wie man dem Titel entnehmen kann - in den Unternehmen ein? Das sind Fragen, die offen bleiben. Antworten darauf sind in Ihrem Gesetzentwurf nicht zu finden.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg217">Angesichts der Tatsache, dass das freie Unternehmertum unterstützt werden soll, frage ich mich, warum Sie ständig davon sprechen, dass Sie Umstrukturierungen von Personenunternehmen in Kapitalgesellschaften erleichtern wollen. Eine Antwort darauf ist mir von Ihrer Seite bisher noch nicht bekannt.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg218">Ähnliche Fragen ergeben sich im Zusammenhang mit dem Mitunternehmererlass. Regelungen, die mit dem Steuersenkungsgesetz abgeschafft wurden - diese Änderungen gehen nicht auf Lafontaine zurück; sie sind noch nicht allzu lange her -, sollen jetzt in veränderter Form wieder eingeführt werden. Dafür gibt es keine Begründung.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg219">Angesichts der Tatsache, dass wir ein Nachbesserungsgesetz verabschieden werden, frage ich mich, warum Sie nicht auf die akute Finanznot der Kommunen in der Bundesrepublik Deutschland reagieren.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der PDS</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg220">Die Gewerbesteuerausfälle, die jetzt zu verzeichnen sind, sind im Finanztableau zum Steuersenkungsgesetz nicht ausgewiesen worden.</seg>
+          <vocal type="exclamat">
+            <desc>Carl-Ludwig Thiele [FDP]: Richtig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg221">Die Kommunen stehen jetzt zum Teil mit dem Rücken an der Wand. Sie waren diejenigen, die keine Möglichkeit hatten, in den Verhandlungen zum Steuersenkungsgesetz in dem Maße Einfluss zu nehmen, wie es die Bundesländer konnten.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg222">Wir erwarten dringend, dass in diesem Punkt nachgebessert wird. Ansonsten können wir zumindest diesem Gesetzentwurf nicht unsere Zustimmung geben.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg223">Danke.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der PDS</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Petra Bläss:</note>
+        <u who="#Q2080120" xml:id="ParlaMint-DE_2001-09-25-14-188.u18" ana="#chair">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg224">Jetzt spricht die Kollegin Lydia Westrich für die SPD-Fraktion.</seg>
+        </u>
+        <note type="speaker">Lydia Westrich (SPD):</note>
+        <u who="#Q1878633" xml:id="ParlaMint-DE_2001-09-25-14-188.u19" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg225">Frau Präsidentin! Meine Kolleginnen und Kollegen! Ich bin froh, Frau Höll, dass Sie wenigstens versucht haben, die Debatte auf eine sachliche Grundlage zu stellen, auch wenn ich Ihre Meinung in vielen Punkten nicht teile. Einige Debattenbeiträge kommen mir eine bisschen vor wie Theaterdonner nach der klaren Rede, die wir vorhin von Herrn Putin gehört haben.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Uwe-Jens Rössel [PDS]: Die war gut!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg226">Im Finanzausschuss sind wir eigentlich eine sehr sachliche Arbeit gewohnt.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg227">Wir bringen heute drei Steuergesetze ein. Herr Thiele, um es richtig zu stellen: Ihre Steuererhöhungen, die Ihnen Frau Scheel gerade vorgerechnet hat, gelten bis heute und sind den Bürgern durch Vorspiegelung falscher Tatsachen - nämlich Golfkrieg - abgeknöpft worden. Die deutsche Einheit sollte damals - das wissen Sie selber - aus der Portokasse finanziert werden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie der Abg. Christine Scheel [BÜNDNIS 90/DIE GRÜNEN] - Lothar Mark [SPD]: Laut Kohl! Wir sind alle "verkohlt" worden! - Detlef von Larcher [SPD]: Das war alles Lüge!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg228">Deswegen können Sie die ehrliche und moderate Steuererhöhung für die Terrorbekämpfung und für mehr Sicherheit für die Bürger kaum kritisieren.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg229">Ich komme zurück auf die Steuergesetze, die - jedes auf seine Art - mehr Rechtssicherheit, mehr Klarheit und Gerechtigkeit sowie mehr Erleichterungen für die Steuerzahlerinnen und Steuerzahler schaffen. Das zeigt, dass wir sehr flexibel sind und dass wir die Entwicklungen schneller aufnehmen, als Sie es damals gemacht haben.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Lesen Sie mal den "Focus"-Artikel von dieser Woche! - Gegenruf des Abg. Joachim Poß [SPD]: Ghostwriter Hauser!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg230">- Sie müssen sich einmal anschauen, was damals zu Ihrer Zeit geschrieben worden ist, Herr Hauser. Das war auch nicht immer sensationell.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg231">Das ist erst einmal - wie jedes Jahr - das übliche Steueränderungsgesetz. Sofern Anpassungen an höchstrichterliche Rechtsprechung und an das Recht der Europäischen Union nötig wurden, haben wir diese im Steueränderungsgesetz berücksichtigt. Steuerrechtliche Vorschriften, die sich in der Vergangenheit nicht bewährt oder sich nicht als praktikabel erwiesen haben - so war es auch in der Vergangenheit immer üblich, Herr Thiele -, haben wir beseitigt. Der Verwaltungsaufwand wurde dadurch reduziert. Zum Beispiel wird die Abzugsfähigkeit von Unterhaltsleistungen auf einen einheitlichen Höchstbetrag festgesetzt. Kürzungsbescheide werden so unnötig.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg232">Auch die Pflicht zur Meldung - Sie haben sich vielleicht den Gesetzentwurf noch nicht durchgelesen - der vom Steuerabzug freigestellten Kapitalerträge wird aus dem gleichen Grund gestrichen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg233">Wir sind für Verwaltungsvereinfachung. Wir haben im internationalen Amtshilfeverkehr durch die Verkürzung der bisher umständlichen Dienstwege eine verbesserte Zusammenarbeit erreichen können.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Echternacher Springprozession: einen vor, zwei zurück!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg234">Die erforderlichen Umstellungen auf den Euro werden im Gesetz vorgenommen. Es handelt sich um ein übliches, sehr unspektakuläres Gesetz, über dessen Details wir uns sicherlich schnell einigen können.</seg>
+          <vocal type="exclamat">
+            <desc>Jochen-Konrad Fromme [CDU/CSU]: Übles Gesetz!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg235">- Herr Fromme, es handelt sich um ein Gesetz, wie es auch schon früher üblich war. Ihre Kollegen können Ihnen das sicher bestätigen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg236">Ich bin auch relativ zuversichtlich, dass wir uns über die Fortentwicklung des Unternehmensteuerrechts einigen können. Sie können jetzt mit Ihrer Zustimmung und Mitarbeit gutmachen, dass Sie, meine Damen und Herren von der Opposition, letztes Jahr fatalerweise dem Steuersenkungsgesetz Ihre Zustimmung verweigert haben.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Was kann man denn da noch gutmachen?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg237">Sie haben Ihre Zustimmung verweigert und haben sich im ganzen Land blamiert.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD und dem BÜNDNIS 90/ DIE GRÜNEN - Hansgeorg Hauser [Rednitzhembach] [CDU/CSU]: Gott sei Dank haben wir es abgelehnt!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg238">Diesen Meilenstein in der Steuergeschichte - ich meine damit das Steuersenkungsgesetz - entwickeln wir weiter und schaffen damit noch weiter gehende Erleichterungen für die Umstrukturierungen von Unternehmen insbesondere im mittelständischen Bereich.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Hören Sie doch einmal den Praktikern zu!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg239">Dies ist auch eine alte Forderung. Ich habe sehr viele Gespräche geführt. Diese gehen immer in dieselbe Richtung:</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg240">Gut, dass ihr das gemacht habt. Es war im Gegensatz zu dem vorher herrschenden Stillstand endlich einmal ein Schritt nach vorn.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Eigenartige Gesprächspartner!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg241">Wir führen die Reinvestitionsrücklage für mittelständische Personenunternehmen ein. Wir werden diese nicht nur wieder einführen,</seg>
+          <vocal type="exclamat">
+            <desc>Jochen-Konrad Fromme [CDU/CSU]: Das hätten wir schon lange haben können!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg242">sondern die Regelungen des Mitunternehmererlasses zugunsten der mittelständischen Wirtschaft weiterentwickeln. Auch dies ist, Herr Michelbach, eine alte Forderung. Dadurch wird mittelständischen Unternehmen nicht nur die Umstrukturierung ihrer Beteiligungen an anderen Unternehmen erleichtert. Die Unternehmen erhalten dadurch auch eine weitere Steuerentlastung in Höhe von 300 Millionen DM, die für die Finanzierung neuer Impulse verwendet werden können.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg243">Die Grunderwerbsteuer wird die Umstrukturierung künftig nicht mehr behindern. Auch Umstrukturierungen von Kapitalgesellschaften, die ihre Betriebsstätten in verschiedenen Ländern haben, können künftig leichter vonstatten gehen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg244">Die momentane Handhabung der Mehrmütterorganschaft im Rahmen der Gewerbesteuer, nach der keine Verrechnung der Verluste der Organschaften mit den Gewinnen ihrer Mütterorganschaften erfolgt, gilt noch bis zum Ende des Jahres 2002. Ab dem Jahre 2003 werden wir eine Mindestbeteiligung von 25 Prozent an der Organgesellschaft vorsehen. Diese rückwirkende Maßnahme ist für die Sicherung der kommunalen Haushalte notwendig, die ihre Berechnungen auf der Basis des vorher geltenden Rechts ermittelt haben. In diesem Punkt hat Frau Höll sicher Recht.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg245">Eines der Ziele der kommenden Legislaturperiode ist eine umfassende Regelung im Bereich der steuerlichen Behandlung von Verschmelzungen im Ausland mit inländischen Vermögensübertragungen. Zunächst einmal haben wir durch eine Lockerung des § 12 des Körperschaftsteuergesetzes eine wesentliche Erleichterung erwirkt. Ich hoffe, dass Sie an diesen Weiterentwicklungen für die Unternehmen mitarbeiten. Wenn Sie das nicht wollen, würde das noch einmal Ihre fehlende wirtschaftliche Kompetenz verdeutlichen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg246">Sie wissen genau, dass gerade Wirtschafts- und Steuerpolitik einen soliden, verlässlichen Rahmen bilden muss. Die Unternehmen brauchen ein stabiles Konzept für die Zukunft, ein Steuerrecht, das sich stärker an den internationalen Verflechtungen in der Wirtschaft orientiert, das aber auch durch den Ausschluss von Gestaltungen und durch notwendige Klarstellungen eine gleichmäßige Besteuerung gewährleisten muss. Mit diesem Gesetz könnten wir das gemeinsam tun. Dies würde sicherlich zu einer besseren Beurteilung Ihrer wirtschaftlichen Kompetenz in der Öffentlichkeit beitragen.</seg>
+          <vocal type="exclamat">
+            <desc>Lothar Mark [SPD]: Da kann man doch gar nicht mehr von Kompetenz reden!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg247">Damit bin ich beim dritten Gesetz mit dem zugegebenermaßen nicht gerade eingängigen Namen Steuerverkürzungsbekämpfungsgesetz. Ich weiß auch nicht, wer diese Namen immer erfindet.</seg>
+          <kinesic type="applause">
+            <desc>Beifall des Abg. Jürgen Koppelin [FDP]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg248">Der Bundesrechnungshof und die Ländervertreter - das wissen Sie genau - haben uns im Ausschuss mit ihren Berichten über die immer stärker steigende Umsatzsteuerkriminalität alle aufgeschreckt. Niemand kann einfach zuschauen, wenn kriminelle Elemente den Staat, also die Steuerzahler, um viele Milliarden betrügen. Mit Blick auf das in einer Stadt gegebene Versprechen, die Kriminalitätsrate in 100 Tagen zu halbieren, muss ich sagen, dass ich persönlich, Herr Hauser, wirklich nicht einsehe, dass Verbrechen wirtschaftlicher Art anders als Verbrechen anderer Art bewertet werden sollen. Man muss immer mit gleichen Maßstäben messen. Wenn Sie schon bereit sind, in Hamburg solch strenge Maßstäbe anzulegen,</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Aber dann muss ich doch nicht die anderen mit hineinziehen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg249">erwarte ich von Ihnen, dass Sie bei der Bekämpfung der Wirtschaftskriminalität zumindest das bisschen an Verschärfung, das wir vorschlagen, mittragen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg250">Schon seit Jahren steht die Umsatzsteuermissbrauchsbekämpfung immer wieder auf der Tagesordnung.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/CSU]: Ja, natürlich!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg251">Wir alle wissen - Sie selber doch auch -, wie sensibel und missbrauchsanfällig unser Mehrwertsteuersystem ist.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg252">Wenn kriminelle Elemente die Finanzämter anzapfen, um über Scheingeschäfte Steuererstattungen zu erschwindeln, dann handelt es sich dabei nicht um Kavaliersdelikte.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD und dem BÜNDNIS 90/ DIE GRÜNEN - Hansgeorg Hauser [Rednitzhembach] [CDU/CSU]: Das behauptet auch niemand!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg253">Hier liegt ein massives Betrugsverhalten mit erheblicher krimineller Energie vor.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg254">Die damit verbundenen Probleme gehen zweifellos zulasten der ehrlichen Steuerzahler. Denn für jede D- Mark, die dem Fiskus durch Steuerbetrug und -hinterziehung verloren geht, müssen die ehrlichen Steuerzahler geradestehen. Das schreibt selbst der Bund der Steuerzahler.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Sie haben den Artikel nicht weitergelesen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg255">Selbst Sie müssen zugeben, dass die zunehmende Aufdeckung von Betrug im Bereich der Zahlung der Umsatzsteuer, die eine unserer bedeutendsten Einnahmequellen ist, eine Änderung des Umsatzsteuerrechts dringend notwendig macht.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg256">Bestens ausgerüstete, informierte und organisierte Kriminelle stehlen dem Staat und somit dem Steuerzahler durch fingierte so genannte Karussellgeschäfte momentan jährlich mehr als 20 Milliarden DM. Sie wissen genau, dass das zum Beispiel auch im baden-württembergischen Finanzministerium hochgerechnet worden ist. Dabei handelt es sich wirklich nur um geschätzte Zahlen; vermutlich liegen sie höher. Ehrliche Unternehmer, die ihre Umsatzsteuer gewissenhaft zahlen, können im Wettbewerb mit diesen Betrügern nicht bestehen. Arbeitsplätze werden gefährdet. Viele Unternehmer sagen: Macht endlich einmal etwas in diesem Bereich! Wir können es nicht mehr aushalten!</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg257">Das hat unter anderem damit zu tun, dass die geltenden Bestimmungen zu lasch sind. Effektive Kontrollen der Behörden sind nicht möglich. Wir werden dies mit dem Steuerverkürzungsbekämpfungsgesetz ändern; Finanzminister Eichel und Frau Scheel haben die damit verbundenen Maßnahmen deutlich dargestellt.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg258">Wir haben es doch schon mit anderen Maßnahmen versucht, Herr Hauser.</seg>
+          <vocal type="exclamat">
+            <desc>Hansgeorg Hauser [Rednitzhembach] [CDU/ CSU]: Was denn? - Gegenruf des Abg. Lothar Mark [SPD]: Was haben Sie denn versucht? Sie haben nichts versucht! - Gegenruf des Abg. Hansgeorg Hauser [Rednitzhembach][CDU/ CSU]: Natürlich!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg259">Die Menschen mit krimineller Energie drehen uns trotzdem eine Nase. Hätten wir schon früher effektive Gesetzesvorschriften gehabt, wäre der von Ihnen verursachte Schuldenberg vielleicht nicht so groß, wie er jetzt ist, und wir müssten nicht so mühsam wie derzeit daran arbeiten, ihn für die nächste Generation abzubauen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg260">Die Länder haben konstruktiv an diesem Gesetzentwurf mitgearbeitet und der Eilbedürftigkeit zugestimmt.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg261">Sie und vor allem auch die Finanzverwaltungen warten händeringend darauf, in ihrem Kampf um die Steuermilliarden und um Steuergerechtigkeit unterstützt zu werden.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg262">Ich erwarte von Ihnen als Opposition, die Sie so viele Sonntagsreden in diese Richtung halten - damit meine ich auch Sie, Herr Hauser -, dass Sie nach der Feinarbeit im Ausschuss den vorliegenden Gesetzentwurf mit verabschieden. Wer als finanzpolitisch kompetent gelten will, muss an erster Stelle für Steuergerechtigkeit und Steuerlegalität eintreten.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg263">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD und dem BÜNDNIS 90/ DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Petra Bläss:</note>
+        <u who="#Q2080120" xml:id="ParlaMint-DE_2001-09-25-14-188.u20" ana="#chair">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg264">Der letzte Redner ist der Kollege Norbert Barthle für die Fraktion der CDU/CSU.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Christine Scheel [BÜNDNIS 90/DIE GRÜNEN]: So, wie ist es jetzt mit dem Betrug?</desc>
+        </vocal>
+        <note type="speaker">Norbert Barthle (CDU/CSU):</note>
+        <u who="#Q109811" xml:id="ParlaMint-DE_2001-09-25-14-188.u21" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg265">Sehr geehrte Frau Präsidentin! Meine sehr geehrten Damen und Herren! Das mit dem Betrug hat mein Kollege Hansgeorg Hauser bereits eingehend dargelegt.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg266">Wenn wir uns heute über drei Gesetzesvorlagen der Regierungskoalition unterhalten, kann ich Ihnen einen Vorwurf nicht ersparen: Sie denken nicht bis zum Ende,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP - Lothar Mark [SPD]: Ihr habt noch nicht einmal angefangen zu denken!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg267">und zwar weder bei Ihren Entwürfen noch in Ihren Beratungen und - das ist das Schlimme - noch nicht einmal bei Ihren Nachbesserungen. Anders sind nämlich diese vielen Fehler und Inkonsequenzen auch in diesen Gesetzentwürfen nicht zu erklären.</seg>
+          <vocal type="exclamat">
+            <desc>Lydia Westrich [SPD]: Das sind Fortentwicklungen, keine Fehler!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg268">Dabei bestreite ich gar nicht, dass tatsächlich Handlungsbedarf besteht. Ich bin froh, dass die Rufe der Opposition und auch die der Unternehmer bis zu Ihnen vorgedrungen sind. Denn es ist in unserem Lande in der Tat nicht alles positiv. Es geht nicht allen Unternehmen wirklich gut. Nicht nur die Folgen des brutalen Terroranschlags in den USA werden zu konjunkturellen Verschärfungen führen. Da hilft übrigens weder Verharmlosen noch Schönreden, Frau Kollegin.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg269">Wir brauchen realistische Analysen und eine vorausschauende Politik.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP - Dr. Barbara Höll [PDS]: Das haben wir bei Ihnen erlebt!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg270">Denn schon vor diesem Anschlag war das Wirtschaftswachstum nahezu zum Stillstand gekommen. Die Arbeitslosigkeit steigt bereits wieder. Die angestrebte Begrenzung des öffentlichen Defizits auf 1,5 Prozent des Bruttoinlandsprodukts ist bereits heute Makulatur.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg271">Es ist eine Tatsache - leider eine beschämende; aber Sie werden sich das noch öfter anhören müssen -: Deutschland ist das Schlusslicht in der europäischen Wirtschaft. Das wird, so lange Rot-Grün regiert, vermutlich leider auch so bleiben. Unsere Bürgerinnen und Bürger haben das allerdings nicht verdient. Ich bin froh, dass im kommenden Jahr Gelegenheit dazu besteht, dies zu korrigieren.</seg>
+          <vocal type="exclamat">
+            <desc>Lothar Mark [SPD]: Wir werden sehen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg272">So lange kann Deutschland aber nicht warten. Was wir jetzt brauchen, ist - insbesondere bei den Steuern - ein früheres und entschlosseneres Handeln.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg273">Unsere Wirtschaft braucht Impulse, um die drohende Rezession abzuwenden und um die Arbeitslosigkeit nachhaltig und erfolgreich bekämpfen zu können.</seg>
+          <vocal type="exclamat">
+            <desc>Lothar Mark [SPD]: Impulse, aber kein Miesreden!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg274">Da wir nicht die Mehrheit haben,</seg>
+          <vocal type="exclamat">
+            <desc>Lothar Mark [SPD]: Gott sei Dank!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg275">müssen Sie handeln. Ergreifen Sie endlich wieder Verantwortung für dieses Land, gehen Sie weg von der ruhigen Hand! Machen Sie etwas und handeln Sie richtig!</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg276">Wir haben nicht die Mehrheit in diesem Hause.</seg>
+          <vocal type="exclamat">
+            <desc>Carl-Ludwig Thiele [FDP]: Noch nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg277">Die CDU/CSU-Fraktion hat sich aber Gedanken darüber gemacht, wie Deutschland wieder auf die Beine geholfen werden kann.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg278">Wir haben den Antrag "Mehr Wirtschaftswachstum durch mehr Gerechtigkeit im Unternehmensteuerrecht" vorgelegt. Lassen Sie sich durch diesen Antrag inspirieren; denn dann werden wenigstens Ihre Nachbesserungen mehr Hand und Fuß und mehr Nachhaltigkeit haben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg279">Unser Antrag kann Ihnen auch helfen, die immer noch bestehenden Gerechtigkeitslücken Ihrer bisherigen Steuerreform weitestgehend zu schließen. Eine vollständige Heilung kann man auch damit nicht hinkriegen. Das verspreche ich Ihnen.</seg>
+          <vocal type="exclamat">
+            <desc>Lydia Westrich [SPD]: Gott sei Dank!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg280">Dazu haben Sie viel zu tief und zu chaotisch in das Steuersystem eingegriffen. Ich denke da nur an den nicht zu Ende gedachten Wechsel vom Anrechnungs- zum Halbeinkünfteverfahren.</seg>
+          <vocal type="exclamat">
+            <desc>Jochen-Konrad Fromme [CDU/CSU]: Oder an die Handelsvertreter!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg281">Aber nun konkret: Was stört uns insbesondere an Ihrem Unternehmensteuerfortentwicklungsgesetz? Da ist zunächst einmal die versuchte Wiederherstellung der Regelungen des früheren Mitunternehmererlasses.</seg>
+          <vocal type="exclamat">
+            <desc>Jochen-Konrad Fromme [CDU/CSU]: Hört! Hört!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg282">Nach bisheriger Rechtslage konnte bei der Übertragung von Wirtschaftsgütern zwischen Personenunternehmen die Buchwertfortführung ohne jegliche Beschränkung durch Fristen geschehen. Was kommt jetzt? Sie wollen die steuerneutrale Übertragung an eine generelle Behaltefrist von sieben Jahren koppeln. Das ist eine deutliche Einschränkung. Diese Verschlechterung gegenüber dem geltenden Recht haben unsere Unternehmer nicht verdient.</seg>
+          <vocal type="exclamat">
+            <desc>Jochen-Konrad Fromme [CDU/CSU]: Biblische Fristen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg283">Sie erschwert Umstrukturierungen in Personenunternehmen. Letztendlich treiben Sie damit einen Keil zwischen die Handels- und die Steuerbilanz. Das bereitet unseren Unternehmern zunehmend Schwierigkeiten. Woher kommt dies? - Es kommt aus Ihrem pathologischen Misstrauen gegenüber allen Unternehmern.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP - Christine Scheel [BÜNDNIS 90/DIE GRÜNEN]: So ein Quatsch!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg284">Da Sie zudem die Behaltefrist unwiderlegbar ausgestalten wollen, kann in Härtefällen die volle Besteuerung zuschlagen. Für viele Unternehmer kann es existenzbedrohend werden, wenn Steuernachforderungen, die womöglich noch mit 6 Prozent verzinst werden müssen, nach Jahren erhoben werden. Wenn Sie schon glauben, Behaltefristen vorsehen zu müssen, dann sollten Sie sich auch darüber klar sein, dass eine kürzere Frist notwendig ist. Verzichten Sie auf diese babylonische Frist von sieben Jahren!</seg>
+          <vocal type="exclamat">
+            <desc>Detlev von Larcher [SPD]: Babylonisch, Donnerwetter!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg285">Wir fordern Sie außerdem auf, die Besteuerung bei der Aufgabe von Gewerbebetrieben nicht noch weiter zu verschärfen. Sie haben richtigerweise - wir haben es bereits gehört - die vom Weltökonomen Lafontaine</seg>
+          <vocal type="exclamat">
+            <desc>Jochen-Konrad Fromme [CDU/CSU]: Wo ist er denn?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg286">durchgesetzte Abschaffung des halben Steuersatzes bei der Betriebsveräußerung zurückgenommen. Ungerechterweise haben Sie aber diejenigen vergessen, die 1999 und 2000 verkauft und den vollen Steuersatz zu leisten haben. Das nenne ich auf dem halben Weg stehen geblieben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg287">Sie wollen - entgegen der geltenden Rechtslage - jetzt auch die entgeltliche Übertragung eines Mitunternehmeranteils voll besteuern. Das ist ein weiterer Versuch, die Besteuerung des Mittelstandes zu verschärfen. Wir meinen: Das ist nicht gerecht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg288">Liebe Kolleginnen und Kollegen, auch die von Ihnen geplante Einführung einer Reinvestitionsrücklage für Personenunternehmen ist nicht dazu angetan, unseren Beifall zu finden. Auch das ist ein Beispiel für die einseitige, unsystematische und ungerechte Bevorzugung von Kapitalgesellschaften gegenüber Personengesellschaften.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU - Jochen-Konrad Fromme [CDU/CSU]: Etikettenschwindel ist das!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg289">- So ist es.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg290">Warum, so frage ich mich, zwängen Sie diese Reinvestitionsrücklage in ein so enges Korsett, dass nur größere Unternehmen davon Gebrauch machen können und die Mehrzahl der kleinen und mittleren Unternehmen außen vor bleibt? Warum muss ein Handwerksbetrieb, der externe Beteiligungen veräußert, diese auch wieder in externe Beteiligungen investieren, anstatt die flüssigen Mittel in seinen Betrieb wachstums- und beschäftigungsfördernd investieren zu können? Das macht keinen Sinn.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg291">Warum befristen Sie auch diese Möglichkeit zusätzlich auf zwei Jahre? All diese Restriktionen gelten nicht für die großen Kapitalgesellschaften. Sie können sogar die bei Veräußerungsgeschäften anfallenden Kreditzinsen zusätzlich steuerlich geltend machen. Also schaffen Sie endlich Gerechtigkeit!</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg292">Wie sagte uns kürzlich ein Steuerberater im Gespräch? Die von Ihnen verteilten Bonbons sind schon sauer, bevor man sie überhaupt in den Mund nimmt. Es heißt zwar, dass sauer lustig macht, aber über diese Placebos werden unsere Mittelständler wirklich nicht lachen können.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP - Lydia Westrich [SPD]: Armes Deutschland!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg293">Im Gegenteil: Sie erfahren ein weiteres Mal, dass die Mittelständler die großen Verlierer rot-grüner Finanzpolitik sind.</seg>
+          <vocal type="exclamat">
+            <desc>Lydia Westrich [SPD]: Unfug! - Lothar Mark [SPD]: Das wird immer behauptet, stimmt aber trotzdem nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg294">Wir fordern Sie deshalb auf, die Regelungen für Beteiligungsveräußerungen von Personengesellschaften an die Vorschriften für Kapitalgesellschaften anzupassen, und zwar nicht nur in den Überschriften, sondern auch in den Inhalten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg295">Ein weiterer Punkt, der nicht nur uns, sondern vor allem den kleinen und mittleren Unternehmen schwer im Magen liegt, sind die seit dem 1. Januar 2001 überarbeiteten AfA-Tabellen.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der SPD: Oh!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg296">Inzwischen hat sich mehr als deutlich herausgestellt, dass die Bundesregierung hinsichtlich der Mehrbelastungen für die deutsche Wirtschaft weit übers Ziel hinausgeschossen ist.</seg>
+          <vocal type="exclamat">
+            <desc>Carl-Ludwig Thiele [FDP]: Sehr wahr! - Nicolette Kressl [SPD]: Wie sah denn das CDU/CSU-Konzept aus?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg297">Das gibt sogar das Finanzministerium zu. Nachdem jetzt wohl die Neufassung der Branchentabellen auf die Zeit nach der Bundestagswahl verschoben werden soll, können auf diesem Weg die Mehrbelastungen für die Wirtschaft nicht mehr kompensiert werden, wie es noch im Frühjahr im Finanzausschuss hieß. Das kennen wir bereits von Ihnen: Belastungen heute, Entlastungen irgendwann in ferner Zukunft.</seg>
+          <vocal type="exclamat">
+            <desc>Nicolette Kressl [SPD]: Absurd! - Detlev von Larcher [SPD]: Nein, das war alles vorgesehen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg298">Letztendlich geht es nur darum, Geld in die Kassen des Finanzministers zu schaufeln, und zwar auf Kosten des Mittelstandes.</seg>
+          <vocal type="exclamat">
+            <desc>Lydia Westrich [SPD]: Bei 1,5 Billionen DM Schulden!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg299">Wir fordern Sie auf: Nehmen Sie diese Regelungen komplett zurück! Fangen Sie einfach von vorne an und beziehen Sie uns in die Beratungen ein!</seg>
+          <vocal type="exclamat">
+            <desc>Lothar Mark [SPD]: Vorhin wurde gesagt, die Richtung stimme! Was ist nun?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg300">Noch eine kleine Gemeinheit haben Sie in Art. 11 des Steueränderungsgesetzes 2001 versteckt. Sie wollen im Bewertungsgesetz die Bewertung noch nicht fälliger Ansprüche aus Lebens-, Kapital- oder Rentenversicherungen nur noch nach dem Rückkaufswert vornehmen. Diese Abkehr von der bisherigen Wahlfreiheit mit der Zweidrittelregelung stellt für viele Bürgerinnen und Bürger eine versteckte Steuererhöhung dar. Das ist sachlich nicht gerechtfertigt. Sie nennen dies redaktionelle und inhaltliche Bereinigung. Ich sage: Das ist eine versteckte Steuererhöhung.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg301">Last, but not least eines unserer Hauptanliegen: Wenn es richtig ist, dass Wirtschaftspolitik zu 50 Prozent aus Psychologie besteht - wie der Bundeskanzler immer wieder betont -, dann handeln Sie entsprechend: Machen Sie Gesetzentwürfe, die in die richtige Richtung weisen; denn unsere Wirtschaft braucht jetzt entschlossene Signale. Sie braucht jetzt eine Politik, die mit Steuersenkungen und Entlastungen in die richtige Richtung führt. Was will ich sagen? Ziehen Sie die nächsten Stufen der Steuerreform auf 2002 vor! Damit wäre uns geholfen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP - Detlev von Larcher [SPD]: Endlich kommt diese Forderung!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg302">Damit reduzieren Sie nicht allein die ungerechte Tarifspreizung zulasten der Personenunternehmen, sondern damit würden Sie auch dringend benötigte Impulse an die Wirtschaft senden.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg303">Wenn Sie mir jetzt wieder mit den Horrorzahlen kommen, was das an Steuerausfällen mit sich bringt, dann kann ich nur sagen: Sie haben diese Steuerausfälle mittelfristig in Ihre Finanzplanung bereits aufgenommen.</seg>
+          <vocal type="exclamat">
+            <desc>Detlev von Larcher [SPD]: Mittelfristig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg304">Es geht letztendlich nur um die zusätzlichen Zinskosten für das reale Entlastungsvolumen. Weshalb vertrauen Sie nicht auf die positiven Effekte von Steuersenkungen, wie das andere Länder mit gutem Erfolg vorgemacht haben?</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der FDP - Nicolette Kressl [SPD]: Schuldenmacher!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg305">Ich wiederhole: Stoppen Sie diese Benachteiligungen des Mittelstandes! Ziehen Sie die Stufen der Steuerreform vor!</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Bläss:</note>
+        <u who="#Q2080120" xml:id="ParlaMint-DE_2001-09-25-14-188.u22" ana="#chair">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg306">Herr Kollege Barthle, Sie müssen zum Schluss kommen.</seg>
+        </u>
+        <note type="speaker">Norbert Barthle (CDU/CSU):</note>
+        <u who="#Q109811" xml:id="ParlaMint-DE_2001-09-25-14-188.u23" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg307">Ich bin bei meinem letzten Satz.</seg>
+          <vocal type="exclamat">
+            <desc>Christine Scheel [BÜNDNIS 90/DIE GRÜNEN]: Kündigen Sie gleichzeitig auch den Solidarpakt auf?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg308">Was sich jetzt durch die letzten Kabinettsbeschlüsse angekündigt hat - Steuererhöhungen, um Maßnahmen zur Verbesserung der inneren Sicherheit finanzieren zu können -, lässt mir wenig Hoffnung darauf, dass Sie tatsächlich zu Steuerentlastungen bereit sind. Der Weg weist offensichtlich auf immer mehr neue Steuern und Steuererhöhungen hin. Das ist der falsche Weg.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg309">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU und der FDP - Nicolette Kressl [SPD]: Das war Ihr Weg!</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsidentin Petra Bläss:</note>
+        <u who="#Q2080120" xml:id="ParlaMint-DE_2001-09-25-14-188.u24" ana="#chair">
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg310">Ich schließe die Aussprache.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg311">Interfraktionell wird die Überweisung der Vorlagen auf den Drucksachen 14/6883, 14/6882, 14/6877 und 14/6887 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen. - Ich sehe keinen Widerspruch.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg312">Dann sind die Überweisungen so beschlossen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg313">Wir kommen jetzt zur Abstimmung über die Beschlussempfehlung des Haushaltsausschusses zu dem Antrag des Bundesministeriums der Finanzen zur Entlastung der Bundesregierung für das Haushaltsjahr 1999 und zu den Bemerkungen des Bundesrechnungshofes 2000. Es handelt sich um die Drucksachen 14/3141, 14/4226 und 14/6521. Wer stimmt für die Beschlussempfehlung? - Gegenprobe! - Enthaltungen? - Die Beschlussempfehlung ist bei Enthaltung der Fraktion der CDU/CSU angenommen.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg314">Wir sind damit am Schluss unserer heutigen Tagesordnung.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg315">Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Mittwoch, den 26. September 2001, 9 Uhr, ein.</seg>
+          <seg id="ParlaMint-DE_2001-09-25-14-188.seg316">Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluss: 19.21 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1981-09-09-09-048">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 9. Wahlperiode, 48. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 09.09.1981 (48. Sitzung der 9. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 9, Session 48 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1981-09-09 (Session 48 in Legislative Period 9)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="48">48. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.09" n="9">9. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="48">Session 48</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.09" n="9">Legislative Period 9</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 09.09.1981</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1981-09-09</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490382/effcc03f3b3e157f9d8050b4a9d9d089/pp09-data.zip</idno>
+          <date when="1981-09-09">1981-09-09</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1981-09-09">1981-09-09</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksache 9/783 —</head>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg1">Meine Damen und Herren, die Sitzung ist eröffnet. Ich rufe Punkt 1 der Tagesordnung auf: Fragestunde — Drucksache 9/783 —</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg2">Ich rufe den Geschäftsbereich des Bundesministers der Justiz auf. Zur Beantwortung steht Herr Parlamentarischer Staatssekretär Dr. de With zur Verfügung. Ich rufe die Frage 3 des Abgeordneten Jäger (Wangen)</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg3">auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg4">Treffen Pressemeldungen zu, nach denen die Bundesregierung beabsichtigt, den Kanzleramts-Spion Guillaume in den Häftlingsaustausch mit der DDR einzubeziehen und deshalb beim Bundespräsidenten auf eine Begnadigung des Spions hinzuwirken, und welche Gründe haben die Bundesregierung bejahendenfalls veranlaßt, ihre bisherige Haltung aufzugeben, wonach ein Austausch Guillaumes nicht in Frage komme? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1981-09-09-09-048.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg5">Die Bundesregierung sieht keinen Anlaß, zu entsprechenden öffentlichen Äußerungen, Vermutungen oder Spekulationen Stellung zu nehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg6">Bitte sehr, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1981-09-09-09-048.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg7">Herr Staatssekretär, bedeutet diese Antwort, mit der j a meiner Frage weitgehend ausgewichen wird, daß damit zu rechnen ist, daß die Bundesregierung Herrn Guillaume in nächster Zeit austauschen und sich um die entsprechende Begnadigung bemühen wird?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1981-09-09-09-048.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg8">Meine Antwort war einfach und klar und bedarf, meine ich, keiner Interpretation, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg9">Weitere Zusatzfrage, bitte, Herr Abgeordneter Jäger.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1981-09-09-09-048.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg10">Bedeutet die Nichtverneinung meiner Zusatzfrage, daß wir jetzt fest damit rechnen können, daß wohl schon in den nächsten Wochen ein solcher Austausch stattfinden wird?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1981-09-09-09-048.u8" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg11">Herr Kollege, ich darf mich auf meine erste Antwort beziehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u9" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg12">Eine Zusatzfrage, bitte sehr, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Lintner (CDU/CSU):</note>
+        <u who="#Q1289169" xml:id="ParlaMint-DE_1981-09-09-09-048.u10" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg13">Herr Staatssekretär, können Sie zumindest Pressemeldungen bestätigen, wonach die DDR auf einen derartigen Austausch drängt?</seg>
+        </u>
+        <note type="speaker">Dr. de With, Parl. Staatssekretär:</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1981-09-09-09-048.u11" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg14">Herr Kollege, wenn Sie meine Antwort auf die erste Frage verstanden haben — ich schließe nicht aus, daß Sie nicht zuhören konnten —, dann hätten Sie sie als verständlich und klar aufgefaßt. Ich beziehe mich erneut auf meine erste Antwort.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u12" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg15">Keine weiteren Zusatzfragen. — Vielen Dank, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit auf. Die Fragen 27 und 28 des Abgeordneten Kroll-Schlüter wurden vom Fragesteller zurückgezogen. Aus dem Geschäftsbereich des Bundesministers für Verkehr sollen die Frage 1 des Abgeordneten Pauli und die Frage 2 des Abgeordneten Dr. Hüsch schriftlich beantwortet werden. Die Antworten werden als Anlagen abgedruckt. An sich wäre jetzt der Geschäftsbereich des Bundesministers für Forschung und Technologie an der Reihe. Ich sehe aber, der Parlamentarische Staatssekretär Stahl ist noch nicht im Saal. Darf ich Sie bitten, damit einverstanden zu sein, daß wir den Geschäftsbereich des Bundesministers des Innern vorziehen. Zur Beantwortung steht uns Herr Parlamentarischer Staatssekretär von Schoeler zur Verfügung. Ich rufe die Frage 5 des Abgeordneten Jansen auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg16">Ist die Bundesregierung in Anbetracht z. B. folgender Plakattexte des Bundesamtes für Verfassungsschutz: „Es gibt ein Codewort zum Öffnen von Tresoren: Liebe. Es fängt an, wie es immer anfängt: Man lernt sich kennen. Faßt Zuneigung und Vertrauen. Geht aus. Und verliebt sich. Gern erzählt man aus seinem Leben. Intimes. Privates. Und vom Beruf. Kleine Bitten werden erfüllt. Es werden immer größere. Aus Liebe. Aber am Ende war es bloß: Landesverrat. Denn manche Liebe ist geplant. In Ostberlin. Und der Partner ist längst verheiratet. Mit dem dortigen Staatssicherheitsdienst. Denken Sie bitte daran. Unser Land vertraut Ihnen." der Auffassung, Frauen und Männer unseres Landes sollten, wenn sie eine Bekanntschaft oder Freundschaft eingehen oder Zuneigung zueinander empfinden, grundsätzlich eine Auskunft des Bundesamtes für Verfassungsschutz einholen, ob der auserwählte Partner möglicherweise ein Verfassungsfeind oder Agent ist? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-09-09-09-048.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg17">Herr Kollege, die Antwort lautet nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg18">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jansen (SPD):</note>
+        <u who="#Q110533" xml:id="ParlaMint-DE_1981-09-09-09-048.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg19">Sind Sie nicht der Auffassung, daß der Staat gegenüber seinen Bürgern grundsätzlich soviel Vertrauen haben sollte, daß er zunächst einmal davon ausgeht, daß sich Mitarbeiter des Staates vertrauensgerecht verhalten, daß also der Staat seine Mitarbeiter nicht pro forma, indem er derartige Methoden einführt, unter Spionageverdacht stellen sollte? Sind Sie also der Auffassung, daß das allgemeine Vertrauen gegenüber dem Bürger der Überwachung vorzuziehen ist?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-09-09-09-048.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg20">Herr Kollege, ich teile die Auffassung, die in Ihrer Frage zum Ausdruck kommt, sehe aber keinen Widerspruch zu dem, was Sie mit Ihrer Frage offenbar kritisieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg21">Eine Zusatzfrage des Abgeordneten Conradi.</seg>
+        </u>
+        <note type="speaker">Conradi (SPD):</note>
+        <u who="#Q2074395" xml:id="ParlaMint-DE_1981-09-09-09-048.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg22">Wie soll sich denn ein Mitarbeiter bzw. eine Mitarbeiterin des öffentlichen Dienstes, der bzw. die eine persönliche Beziehung eingeht, welche möglicherweise zum Landesverrat führt, versichern, daß es sich nicht um einen Mitarbeiter des Staatssicherheitsdienstes der DDR handelt, wenn Sie hier erklären, Sie seien nicht willens, auf entsprechende Anfragen Auskunft zu geben?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-09-09-09-048.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg23">Herr Kollege, es wäre sicher eine reizvolle Gelegenheit für spaßige Antworten. Ich will nur eine ernsthafte geben:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg24">Die in Ihrer Frage angesprochenen Plakate haben den Sinn — und zwar im Rahmen der Fürsorgepflicht, die die Bundesregierung gegenüber den bei ihr beschäftigten Beamten hat —, auf Werbungsmethoden gegnerischer Nachrichtendienste hinzuweisen. Die in dem Plakat dargestellte ist eine solche. Ziel der Plakate ist es zu sensibilisieren und darauf hinzuweisen — wie gesagt, im Rahmen der Fürsorgepflicht und nicht als Ausdruck eines Mißtrauens. Darauf lege ich großen Wert und darin stimme ich mit Herrn Kollegen Jansen überein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg25">Keine weiteren Zusatzfragen mehr. Ich rufe die Frage 6 des Abgeordneten Jansen auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg26">Teilt die Bundesregierung die Auffassung, daß diese Plakate des Bundesamtes für Verfassungsschutz in peinlicher Weise an die „Feind hört mit"-Plakate der jüngsten Vergangenheit erinnern, und ist die Bundesregierung bereit, das Bundesamt anzuweisen, diese Plakate zurückzuziehen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-09-09-09-048.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg27">Die Antwort lautet nein, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u22" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg28">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jansen (SPD):</note>
+        <u who="#Q110533" xml:id="ParlaMint-DE_1981-09-09-09-048.u23" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg29">Würden Sie dennoch bereit sein, die Plakate zurückzuziehen, wenn darüber eine Beschlußfassung im Sinne einer Empfehlung im Plenum stattfinden würde? Würden Sie mit mir glauben, daß dieses sogar nötig ist, um das Vertrauen zwischen Bürgern und Institutionen zu verbessern?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-09-09-09-048.u24" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg30">Herr Kollege Jansen, wenn es eine entsprechende Beschlußfassung im Plenum gäbe, lautete die Antwort ja. Ich halte eine solche Beschlußfassung aber weder für erforderlich noch für sachgerecht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u25" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg31">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jansen (SPD):</note>
+        <u who="#Q110533" xml:id="ParlaMint-DE_1981-09-09-09-048.u26" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg32">In dieser Frage habe ich deutlich gemacht, daß das, was die Bundesregierung praktiziert, an die „Feind hört mit"-Plakate erinnert. Sind Sie der Meinung, daß wirklich kein Zusammenhang zwischen den Warnplakaten des Dritten Reiches und den Warnplakaten der Bundesregierung jetzt herstellbar ist, die bis in die Intim- und die Privatsphäre des einzelnen hineinreichen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-09-09-09-048.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg33">Herr Kollege Jansen, auf gar keinen Fall ist eine solche Parallele auch nur in irgendeiner Weise herstellbar.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg34">Eine Zusatzfrage des Abgeordneten Jäger (Wangen)</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg35">. Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1981-09-09-09-048.u29" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg36">Herr Staatssekretär, beruht die Antwort der Bundesregierung auf der häufig gemachten Erfahrung, daß Privatbeziehungen von auf Bundesbehörden angesetzten Spionen zu Bediensteten solcher Behörden eben schon zu ganz erheblichen Spionagefällen mit schlimmen Auswirkungen für die Bundesrepublik Deutschland geführt haben?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-09-09-09-048.u30" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg37">Darauf habe ich in einer der Antworten auf eine der Zusatzfragen hingewiesen, Herr Kollege. Das ist der Grund dafür. Es gibt eine solche Werbungsmethode gegnerischer Nachrichtendienste, auf die hinzuweisen im Interesse der Fürsorgepflicht der Bundesregierung unsere Pflicht ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u31" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg38">Eine Zusatzfrage des Abgeordneten Conradi.</seg>
+        </u>
+        <note type="speaker">Conradi (SPD):</note>
+        <u who="#Q2074395" xml:id="ParlaMint-DE_1981-09-09-09-048.u32" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg39">Herr Staatssekretär, sind Text und Foto dieses Plakates dahin gehend zu verstehen, daß die Bundesregierung die weiblichen Mitarbeiter im öffentlichen Dienst für gefährdeter hält als die männlichen, soweit es sich um Anknüpfungsversuche von Sicherheitsdiensten handelt?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-09-09-09-048.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg40">Herr Kollege Conradi, in diesen Plakaten und in den Texten soll keineswegs eine Diskriminierung zum Ausdruck kommen; sie kommt auch nicht zum Ausdruck. Tatsache ist allerdings, daß wir auf Grund von Erfolgen der Spionageabwehr in den letzten Jahren eine spezielle Werbungsmethode, die sich gezielt auf weibliche Mitarbeiter des öffentlichen Dienstes im geheimen Bereich und sicherheitsempfindlichen Bereich bezieht, festgestellt haben. Auf diese Werbungsmethode soll hingewiesen werden. Diese richtet sich in dieser Form insbesondere gegen weibliche Mitarbeiter. Die Namen dieser Spionagefälle sind allen bekannt. Ich könnte sie aufzählen. Sie haben lange Zeit auch sehr intensiv die Presse beschäftigt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u34" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg41">Keine weiteren Zuatzfragen mehr. Ich rufe die Frage 4 des Abgeordneten Herberholz auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg42">Was gedenkt die Bundesregierung zu tun, um „Scheinehen" zwischen Ausländern und Deutschen, die zu teilweise hohen DM-Beträgen erkauft werden oder unter Drogeneinfluß zustande kommen und nur dazu dienen, dem Ausländer eine Aufenthaltserlaubnis auf illegale Weise zu verschaffen, zu unterbinden?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-09-09-09-048.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg43">Der Bundesregierung sind aus Berichten einzelner Länder Anhaltspunkte dafür bekannt, daß in verstärktem Maße Anträge auf Eheschließung von Ausländern mit Deutschen eingehen, bei denen die Ehe nicht zur Aufnahme einer dauerhaften Lebensgemeinschaft geschlossen werden soll, sondern ausschließlich zu dem Zweck, dem Ausländer den Aufenthalt in der Bundesrepublik Deutschland zu ermöglichen. Die Standesbeamten sind in diesen Fällen nicht verpflichtet, die Eheschließung vorzunehmen. Eine gleichwohl erfolgte Eheschließung genießt nicht den Schutz des Art. 6 des Grundgesetzes und steht aufenthaltsbeendenden Maßnahmen dem Ausländer gegenüber nicht entgegen. Sowohl personenstandsals auch ausländerrechtlich ist somit die Möglichkeit gegeben, das Ziel derartiger Anträge auf Eheschließungen zu verhindern. Die sich für die Behörden der Bundesländer beim Vollzug dieser gesetzlichen Bestimmungen ergebenden Schwierigkeiten sind tatsächlicher Natur. Deshalb sind der Bundesregierung auch von keinem Land Vorschläge für gesetzgeberische Maßnahmen unterbreitet worden. Auf Anregung eines Bundeslandes wird die Angelegenheit bei der nächsten Personenstandsreferentenbesprechung erörtert werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg44">Zusatzfrage. Bitte, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Herberholz (SPD):</note>
+        <u who="#Q2129630" xml:id="ParlaMint-DE_1981-09-09-09-048.u37" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg45">Herr Staatssekretär, liegen Ihnen für diesen Sachverhalt Zahlenangaben vor?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-09-09-09-048.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg46">Herr Kollege, die liegen uns nicht vor. Sie könnten uns auch nur auf Grund von Meldungen der für den Vollzug des Ausländergesetzes und des Personenstandsrechts zuständigen Länder vorliegen. Aber auch die Länder könnten Zahlenangaben nur für den Bereich haben, in dem der Standesbeamte eine Ablehnung eines Antrags auf Eheschließung ausgesprochen hat. Solche Fälle sind uns bekannt. Wir haben aber keinen kompletten Überblick über die Praxis in den Ländern. Ein Bereich bleibt statistisch auf keinen Fall erfaßbar, nämlich der, wo der Standesbeamte oder ein Mitarbeiter einer Ausländerbehörde keinen Verdacht geschöpft hat, obwohl der Tatbestand einer Scheinehe durchaus vorgelegen haben kann. Von daher glaube ich, daß mit Statistiken an dieses Problem nicht weiter heranzukommen sein wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u39" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg47">Vielen Dank, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers für Forschung und Technologie auf. Zur Beantwortung steht Herr Parlamentarischer Staatssekretär Stahl zur Verfügung. Ich rufe Frage 26 des Herrn Abgeordneten Dr. Diederich auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg48">Kann die Bundesregierung in einer für durchschnittliche Politiker verständlichen Sprache erläutern, was sich hinter der vom Bundesgesundheitsamt in einer Stellenausschreibung zitierten und vom BMFT geförderten „gemeindeorientierten, multizentrischen Interventionsstudie zur Prävention chronischer Herz-Kreislauf-Krankheiten" verbirgt, und welche Vorkehrungen werden künftig getroffen werden, daß Stellenausschreibungen für Positionen in mit öffentlichen Mitteln geförderten Projekten allgemeinverständlich formuliert werden? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Stahl, Parl. Staatssekretär beim Bundesminister für Forschung und Technologie:</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1981-09-09-09-048.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg49">Herr Kollege Diederich, Ihre Frage beantworte ich wie folgt: Die Bezeichnung „gemeindeorientierte, multizentrische Interventionsstudie zur Prävention chronischer HerzKreislauf-Krankheiten" ist der von den beteiligten Wissenschaftlern gewählte Kurztitel für ein Vorhaben, zu dem zur Zeit vorbereitende Untersuchungen vom Bundesminister für Forschung und Technologie gefördert werden. Das Vorhaben ist Bestandteil des Programms der Bundesregierung „Forschung und Entwicklung im Dienste der Gesundheit". Das Vorhaben wird von verschiedenen wissenschaftlichen Einrichtungen in der Bundesrepublik Deutschland nach einem gemeinsamen, abgestimmten Konzept durchgeführt, also multizentrisch. Ziel ist es, durch eingreifende Maßnahmen — Interventionen — das Entstehen chronischer Herz-Kreislauf-Krankheiten zu verhüten, also Prävention. Das Vorhaben ist nicht auf ausgewählte Zielgruppen, sondern auf die gesamte Bevölkerung, also gemeindeorientiert, ausgerichtet. Die Ausschreibung der Stelle eines wissenschaftlichen Mitarbeiters für dieses Vorhaben durch das Bundesgesundheitsamt ist an die Gruppe geeigneter Bewerber mit entsprechender fachlicher Ausbildung gerichtet. Für den Text dieser Stellenausschreibung konnte deshalb auf eine allgemeinverständliche Darstellung verzichtet werden, die wegen der notwendigen Umschreibung von Fachausdrükken den Anzeigentext wesentlich verlängert hätte. Die zahlreich — 100 eingegangenen Bewerbungen qualifizierter Wissenschaftler zeigen, daß die Stellenausschreibung verstanden wurde und erfolgreich war. Ich stimme Ihnen zu, Herr Kollege, daß grundsätzlich eine allgemein verständliche Vorhabenbeschreibung anzustreben ist, soweit die notwendige wissenschaftliche Genauigkeit dies zuläßt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u41" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg50">Eine Zusatzfrage, Herr Abgeordneter Dübber.</seg>
+        </u>
+        <note type="speaker">Dr. Dübber (SPD):</note>
+        <u who="#Q1492850" xml:id="ParlaMint-DE_1981-09-09-09-048.u42" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg51">Herr Staatssekretär, würden Sie mir zustimmen, daß gelegentlich, besser gesagt: leider sehr häufig, Projekte, die von Ihrem Haus gefördert werden, unverständlich deklariert werden, und können Sie mir z. B. auf Anhieb sagen, was ein „Vermittlung sozialer Kompetenz" benanntes Projekt bedeutet?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u43" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg52">Entschuldigen Sie, Herr Abgeordneter, diese Frage steht nicht im Zusammenhang mit der ersten Frage. Ich stelle es dem Staatssekretär frei, sie zu beantworten.</seg>
+        </u>
+        <note type="speaker">Stahl, Parl. Staatssekretär:</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1981-09-09-09-048.u44" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg53">Herr Kollege Dübber, unser Förderkatalog z. B., der jährlich für die Öffentlichkeit herausgegeben wird, umfaßt bei den zahlreich aufgeführten Forschungsvorhaben nur den Obertitel. Deshalb bitte ich um Nachsicht, wenn in dem einen oder anderen Fall — wie Sie dargestellt haben — für einen Laien draußen nicht unmittelbar verständlich ist, was sich hinter einem derartigen Projekt tatsächlich im einzelnen verbirgt. Ich werde mich aber bemühen und deswegen im Hause einmal Rücksprache nehmen, daß dies in etwas verständlicherer Weise geschieht. Aber ich bitte nochmals um Nachsicht. Bei der Menge der Projekte würde der jetzige Umfang von schon 560 Seiten wesentlich erweitert. Dies kann auch nicht im Sinne der Sparsamkeit sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u45" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg54">Keine weiteren Zusatzfragen mehr. Vielen Dank, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers der Finanzen auf. Die Fragen 7 und 8 der Abgeordneten Frau Dr. Lepsius sowie die Frage 9 des Abgeordneten Dr. Friedmann werden auf Wunsch der Fragesteller schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich komme nunmehr zum Geschäftsbereich des Bundesministers für Wirtschaft. Zur Beantwortung steht Herr Staatssekretär Dr. von Würzen zur Verfügung. Ich rufe die Frage 10 des Abgeordneten Dr. Lammert auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg55">Wie beurteilt die Bundesregierung den Vorschlag des Rheinisch-Westfälischen Instituts (RWI)</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg56">für Wirtschaftsforschung, die gegenwärtig in der Bundesrepublik Deutschland praktizierte Energiesicherungspolitik in Form einer „Kohle-Vorrang-Politik" in ihrer volkswirtschaftlichen Finanzierung und Lastenverteilung durch eine zweckgebundene, den Subventionsbedarf des Steinkohlebergbaus deckende spezielle Besteuerung der für unsicher angesehenen Energien (vor allem Erdöl, Erdgas und Mineralölprodukte) vorzunehmen, und teilt die Bundesregierung die durch Simulationsrechnungen ermittelte Einschätzung des RWI, daß die auf diese Weise veränderten Preisstrukturen in den Belastungswirkungen für Bürger und verschiedene Wirtschaftsbranchen sich durch die weitgehende Kompensation von dem verteuerten Einsatz bestimmter Energien auf der einen Seite und steuerlicher Entlastung und Wegfall des Kohlepfennigs auf den Stromverbrauch auf der anderen Seite weitgehend ausgleichen würden? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. von Würzen, Staatssekretär im Bundesministerium für Wirtschaft:</note>
+        <u who="#Q1223094" xml:id="ParlaMint-DE_1981-09-09-09-048.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg57">Herr Abgeordneter, die Bundesregierung hat sich im Rahmen ihrer Stellungnahme zum Strukturbericht 1980 auch zu dem Vorschlag des RWI über die Einführung einer Energiesicherungsumlage insbesondere auf Erdöl, Erdgas und Mineralölprodukte geäußert. Sie hat in dieser Stellungnahme ausgeführt, daß das gegenwärtig gemischte Kohlesubventionssystem insgesamt größere Vorteile bietet als die vorgeschlagene Finanzierung über eine Energiesicherungsumlage und sie deshalb eine Umstellung dieses Systems nicht für erforderlich hält. Unsere Gründe waren folgende: Bei einer Umstellung auf die vom RWI vorgeschlagene Energiesicherungsumlage bliebe zwar wahrscheinlich die volkswirtschaftliche Gesamtbelastung unverändert, eine solche Umstellung würde aber zu erheblichen Strukturverschiebungen innerhalb der Volkswirtschaft führen. Trotz Entlastung von einer Verstromungsabgabe würden auf Grund der zusätzlichen Verteuerung von Erdöl und Erdgas durch die Energiesicherungsumlage große Teile der deutschen Wirtschaft in ihrer internationalen Wettbewerbsfähigkeit beeinträchtigt. Vom Wärmepreis sowie von den Einsatzkosten her ist die deutsche Kohle bereits heute preisgünstiger als schweres Heizöl; dies gilt zum Teil auch für Erdgas. Von daher ist ein Anreiz zur Substitution dieser Energieträger bereits gegeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg58">Eine Zusatzfrage, bitte, Herr Abgeordneter Lammert.</seg>
+        </u>
+        <note type="speaker">Dr. Lammert (CDU/CSU):</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_1981-09-09-09-048.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg59">Ist Ihre Auskunft so zu verstehen, daß Sie auf Grund der Einschätzung der Sachlage das gegenwärtige System — nicht nur unter Berücksichtigung der bisherigen Rahmendaten, sondern auch für die nächsten Jahre — für das überlegene halten, oder würden Sie unter Berücksichtigung von Wechselkursschwankungen und anderen Unsicherheitsfaktoren beim gegenwärtigen System ein Verfahren wie das hier vorgeschlagene für eine langfristige marktwirtschaftliche Energiesicherungspolitik als möglicherweise überlegen ansehen?</seg>
+        </u>
+        <note type="speaker">Dr. von Würzen, Staatssekretär:</note>
+        <u who="#Q1223094" xml:id="ParlaMint-DE_1981-09-09-09-048.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg60">Sicher kann man so etwas für die nächsten zehn Jahre nicht abschließend beantworten, und sicher muß man das gegenwärtige Kohlesubventionierungssystem immer prüfen, ob es den Gegebenheiten, den Wandlungen entspricht. Wir haben ja gerade vor eineinhalb Jahren durch Änderung des Kohleverstromungsgesetzes eine wesentliche Änderung vorgenommen. Aber die generelle Aussage, daß das gegenwärtige System erstens nicht teurer sein wird als ein neues, und daß wir zweitens die strukturellen Veränderungen bei einer generellen Abgabe auf alle übrigen Energieträger nach gegenwärtiger Kenntnis für so gravierend halten, daß man daran nichts ändern sollte, wage ich wohl zu treffen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u50" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg61">Sie haben noch eine Zusatzfrage, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Dr. Lammert (CDU/CSU):</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_1981-09-09-09-048.u51" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg62">Danke.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg63">Ich rufe die Fragen 11 und 12 des Abgeordneten Dr. Kübler auf. — Der Abgeordnete Kübler ist nicht im Saal. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Wirtschaft beantwortet. Ich danke Ihnen, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung auf. Zur Beantwortung der Fragen steht die Parlamentarische Staatssekretärin Frau Fuchs zur Verfügung. Ich rufe Frage 13 des Herrn Abgeordneten Müller (Wesseling)</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg64">auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg65">Bleibt die Bundesregierung trotz der in der Arbeitsmarktstatistik 1980 der Bundesanstalt für Arbeit dargelegten Zahlen, daß nur noch 54 v. H. der Arbeitslosen keine, 46 v. H. dagegen eine vollständige Berufsausbildung haben, bei ihrer wiederholt vorgetragenen Meinung, nichts schütze wirksamer vor Arbeitslosigkeit als eine gute Berufsausbildung? Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär im Bundesministerium für Arbeit und Sozialordnung:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u53" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg66">Herr Kollege, die Bundesregierung ist nach wie vor der Auffassung, daß eine abgeschlossene Berufsausbildung im besonderen Maße vor Arbeitslosigkeit schützt. Hieran ändert auch nichts die Tatsache, daß auf Grund der Strukturanalyse vom September 1980 46 % der Arbeitslosen über eine abgeschlossene Berufsausbildung verfügt haben. Die spezifische Arbeitslosenquote betrug nämlich für Arbeitslose ohne Berufsausbildung 5,6 %, bei allen Arbeitslosen insgesamt dagegen 3,5%. Im übrigen haben natürlich Arbeitnehmer mit beruflicher Qualifikation, wenn sie einmal arbeitslos geworden sind, eine ungleich größere Chance, wieder einen Arbeitsplatz zu finden, und sie sind auch viel kürzere Zeit arbeitslos als Arbeitnehmer ohne Berufsausbildung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u54" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg67">Eine Zusatzfrage, bitte, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Müller (Wesseling) (CDU/CSU):</note>
+        <u who="#Q2644429" xml:id="ParlaMint-DE_1981-09-09-09-048.u55" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg68">Frau Staatssekretär, können Sie mir sagen, wie sich der Kreis der Arbeitslosen, die keine Ausbildung haben, von der soziologischen Struktur her zusammensetzt? Ist es richtig, daß hier ein hoher Anteil älterer Frauen besteht?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u56" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg69">Nein, viel mehr ist der Anteil der Frauen an der Arbeitslosigkeit insgesamt überproportional hoch. Sie können nicht die Kombination „ältere Frauen unqualifiziert" herstellen. Auch unqualifizierte ältere Männer sind überproportional von Arbeitslosigkeit betroffen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u57" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg70">Eine Zusatzfrage, bitte sehr, Herr Abgeordneter Lammert.</seg>
+        </u>
+        <note type="speaker">Dr. Lammert (CDU/CSU):</note>
+        <u who="#Q57474" xml:id="ParlaMint-DE_1981-09-09-09-048.u58" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg71">Frau Staatssekretär, ist angesichts der gerade zitierten und bestätigten Zahlen und der von Ihnen gegebenen Interpretation nicht möglicherweise auch der Schluß zu ziehen, daß bei einer unzureichenden Wirtschafts- und Sozialpolitik eben leider auch die beste Ausbildung nicht vor Arbeitslosigkeit schützt?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u59" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg72">Die beste Ausbildung kann nie vor Arbeitslosigkeit schützen; wir brauchen Arbeitsplätze dafür, da haben Sie völlig recht. Deswegen können Sie auch die Arbeitslosen nicht dafür verantwortlich machen, daß sie keinen Arbeitsplatz finden. Aber nach wie vor ist richtig, daß Arbeitnehmer mit einem qualifizierten Abschluß größere Chancen haben, wieder einen Arbeitsplatz zu finden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u60" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg73">Eine Zusatzfrage, Frau Abgeordnete Wilms.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Wilms (CDU/CSU):</note>
+        <u who="#Q272658" xml:id="ParlaMint-DE_1981-09-09-09-048.u61" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg74">Frau Staatssekretär, ich beziehe mich auf die Anwort, die Sie soeben dem Kollegen Müller gegeben haben. Sie stimmen mir doch sicher zu, daß es unbestritten ist, daß der Anteil der arbeitslosen älteren Frauen ohne Ausbildung im Verhältnis zur Gesamtzahl der Arbeitslosen überproportional hoch ist.</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u62" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg75">Ich habe schon gesagt, daß die Frauen insgesamt überproportional betroffen sind. Es ist aber nicht so, daß der Anteil bei den älteren Frauen im Verhältnis zu dem Anteil bei den älteren Männern — jeweils ohne Berufsausbildung — überproportional hoch ist. Die Anteile halten sich vielmehr die Waage. Insgesamt sind die Frauen von Arbeitslosigkeit natürlich auch deshalb überproportional betroffen, weil sehr viele von ihnen einen Teilzeitarbeitsplatz suchen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u63" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg76">Eine weitere Zusatzfrage, Herr Abgeordneter Lennartz.</seg>
+        </u>
+        <note type="speaker">Lennartz (SPD):</note>
+        <u who="#Q1237918" xml:id="ParlaMint-DE_1981-09-09-09-048.u64" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg77">Frau Staatssekretärin, kann ich Ihrer Antwort auf die erste Frage des Abgeordneten Müller entnehmen, daß Sie es nicht für sinnvoll halten, den Wert einer guten Berufsausbildung zu des-kreditieren, wie es die Frage des Kollegen Müller beinhaltete?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg78">Herr Kollege, es steht mir sicherlich nicht zu, die Frage des Herrn Abgeordneten zu qualifizieren. Ich stimme Ihnen aber zu: Nach wie vor ist es richtig, daß wir dafür sorgen, daß Arbeitnehmer — insbesondere auch junge Arbeitnehmer — eine qualifizierte Berufsausbildung durchlaufen. Wir werden alle Anstrengungen unternehmen, um dieses eher zu verbessern als zu verschlechtern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg79">Keine Zusatzfrage mehr. Ich rufe die Frage 14 des Abgeordneten Müller auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg80">Wie beurteilt die Bundesregierung die Tatsache, daß mehr als 50 000 Arbeitslose 1980 eine Hochschul- oder Fachhochschulreife vorzuweisen hatten?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg81">Herr Abgeordneter, nach der Strukturanalyse vom September 1980 gab es rund 41 000 arbeitslose Hochschul- und Fachhochschulabsolventen. Dies entspricht einem Anteil von rund 5 % an allen Arbeitslosen. Die spezifische Arbeitslosenquote für diesen Personenkreis lag bei gut 2 % und damit bei einer damaligen Gesamtarbeitslosenquote von 3,5% noch relativ niedrig. Die Arbeitlosigkeit dieses Personenkreises ist vor allem darauf zurückzuführen, daß die Kräftenachfrage bezüglich einiger Hochschul- bzw. Fachhochschulrichtungen zurückgegangen ist. So waren es bei den Hochschulabsolventen vor allem Lehrer, Psychologen, Soziologen und Politologen, die eine höhere Zahl von Arbeitslosen aufwiesen, bei den Fachhochschulabsolventen insbesondere die sozialpflegerischen Berufe. Solche Strukturdiskrepanzen werden sich aber auch in Zukunft nicht vermeiden lassen, insbesondere dann nicht, wenn — wie zu erwarten — die Zahl der Absolventen von Hochschulen und Fachhochschulen aus demographischen Gründen stark ansteigen wird. Die Bundesregierung hat in diesem Zusammenhang öfter darauf hingewiesen, daß bei einer wachsenden Zahl von Hochschul- und Fachhochschulabsolventen diese auch bereit sein müssen, zumindest zu Beginn ihrer beruflichen Tätigkeit Positionen zu übernehmen, die nach herkömmlicher Vorstellung ein Studium nicht oder nicht unbedingt verlangen. Hierzu wird es eines Anpassungsprozesses sowohl auf seiten der Beschäftigungsstellen als auch auf seiten der Hochschul- und Fachhochschulabsolventen bedürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg82">Eine Zusatzfrage, bitte, Herr Abgeordneter Müller.</seg>
+        </u>
+        <note type="speaker">Müller (Wesseling) (CDU/CSU):</note>
+        <u who="#Q2644429" xml:id="ParlaMint-DE_1981-09-09-09-048.u69" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg83">Stimmen Sie mir in der Auffassung zu, daß vielfach am Bedarf vorbei ausgebildet wird, daß viele junge Menschen auf Grund der gegebenen Situation an den Hochschulen einen Beruf studieren müssen, mit dem sie nachher im Leben keinen Arbeitsplatz finden können?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u70" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg84">Wir haben uns immer dafür eingesetzt, daß jeder die Ausbildung — auch Hochschulausbildung — durchlaufen kann, für die er sich entscheidet. Wir haben uns dafür ausgesprochen, daß es ein Recht auf eine adäquate Ausbildung gibt. Wenn es nunmehr Verschiebungen in der Hinsicht gibt, daß nicht jeder, der sein Studium absolviert hat, einen Arbeitsplatz findet, so bedeutet das ein Risiko, das man eingeht. Ich glaube nicht, daß wir hier anders planen können. Sonst müßten wir von vornherein Zuteilungen vornehmen. Ich meine, daß das, was wir jetzt schon mit dem Numerus clausus an Zuteilungen haben, bereits an der Grenze des Erträglichen ist. Ich glaube nicht, daß wir mit Planungsinstrumenten einer solchen Entwicklung beikommen können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u71" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg85">Eine weitere Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Müller (Wesseling) (CDU/CSU):</note>
+        <u who="#Q2644429" xml:id="ParlaMint-DE_1981-09-09-09-048.u72" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg86">Sehen Sie einen Zusammenhang zwischen der Tatsache, daß wir inzwischen auf der einen Seite ein Überangebot an ausgebildeten Akademikern haben, und der Tatsache, daß es auf der anderen Seite einen immer größer werdenden Facharbeitermangel gibt?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u73" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg87">Wenn die Statistiken richtig sind, ist es nach wie vor so, daß wir auch in den 80er Jahren unter allen Arbeitnehmern nur rund 12 % Arbeitnehmer mit akademischer Ausbildung haben. Wir dürfen dieses Problem also nicht überbewerten. Die Probleme der 80er Jahre werden eher daraus resultieren, daß wir zuwenig qualifiziert ausgebildete Arbeitnehmer haben, als daraus, daß wir zuviel hochqualifiziert ausgebildete Arbeitnehmer haben. Deshalb kann ich auch den von Ihnen angeführten Zusammenhang nicht sehen. Wie wir alle wissen, gibt es aber eine Diskrepanz in der Frage technisch ausgebildeter Akademiker und technisch ausgebildeter Facharbeiter. Hier müssen wir eben sehen, wie wir auch innerhalb der Arbeitnehmerschaft für diese Berufe werben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u74" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg88">Noch eine Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Graf von Waldburg-Zeil (CDU/CSU):</note>
+        <u who="#Q1304832" xml:id="ParlaMint-DE_1981-09-09-09-048.u75" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg89">Frau Staatssekretärin, können Sie im Blick auf die genannten akademischen Ausbildungen — Soziologen, Politologen, Psychologen — konkrete Zahlen nennen und sagen, wie viele im Jahr fertig werden und wie viele dann eine Anstellung finden?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u76" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg90">Sie werden mir abnehmen, daß ich für diesen Bereich so wenig zuständig bin, daß ich diese Zahlen auf Anhieb nicht im Kopf haben kann. Ich habe die herzliche Bitte, daß Sie diese Frage an das zuständige Ministerium richten. Ich kann aber natürlich auch bei dem Ministerium die Antwort auf diese Frage für Sie ermitteln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u77" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg91">Eine weitere Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dallmeyer (CDU/CSU):</note>
+        <u who="#Q1585540" xml:id="ParlaMint-DE_1981-09-09-09-048.u78" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg92">Frau Staatssekretär, Sie haben soeben gesagt, daß es heute zwischen den technischen Berufen einerseits und den anderen Berufen andererseits eine Problemlage gibt und daß man bei den Arbeitnehmern sehen muß, wie wir in Zukunft weiterkommen. Das war etwa Ihre Formulierung. Gibt es konkrete Pläne der Bundesregierung, hier Schritte einzuleiten, um dieses Mißverhältnis in den Griff zu bekommen?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u79" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg93">Ich bin über Ihre Frage überrascht, weil Sie von mir wieder eine planende Antwort haben wollen. Ich dachte immer, Sie wären sehr dagegen. Im übrigen darf ich Sie darauf hinweisen, daß sich die Arbeitnehmerschaft in allen Ausbildungsfragen sehr den Gegebenheiten des Arbeitsmarktes anpaßt. So haben wir uns alle z. B. nie aufgeregt, wenn ein Schlosser, der seine Ausbildung beendet hatte, keinen Arbeitsplatz fand. Erst als dies bei Akademikern virulent wurde, wurde es plötzlich zu einem Problem. Ich glaube, wir sollten uns darauf verständigen, zu sagen: Auch bei Akademikern gibt es ein Recht auf Bildung, auf Ausbildung, aber sie müssen die Risiken erkennen, die sie bei Beginn des Studiums auf sich nehmen, wenn sie ein Fach wählen, in dem nicht genug Arbeitsplätze zur Verfügung stehen könnten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u80" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg94">Keine weitere Zusatzfrage. Ich rufe die Frage 15 des Abgeordneten Kolbow auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg95">Ist es nach Ansicht der Bundesregierung richtig, daß die Verwaltungskosten bei Krankenkassen annähernd so hoch sind wie die Ausgaben für Arzneimittel, wie der Bayerische Landesverband und der Deutsche Apothekerverband in Zeitungsanzeigen behaupten?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg96">Nach der amtlichen Statistik der gesetzlichen Krankenversicherung betrugen die Ausgaben der gesetzlichen Krankenversicherung für Arzneimittel im Jahr 1980 rund 12,6 Milliarden DM; die Verwaltungskosten beliefen sich auf rund 3,7 Milliarden DM. Der Anteil an den Gesamtausgaben der gesetzlichen Krankenversicherung beträgt bei Arzneimitteln rund 14 %, bei den Verwaltungskosten rund 4 %.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg97">Eine Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Kolbow (SPD):</note>
+        <u who="#Q2545122" xml:id="ParlaMint-DE_1981-09-09-09-048.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg98">Frau Staatssekretärin, welche Aufklärungsmaßnahmen kann und will die Bundesregierung unternehmen, um solche irreführenden Angaben in öffentlichen Anzeigen widerlegen zu helfen?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg99">Herr Abgeordneter, wir haben es im Gesundheitswesen mit einer sehr schwierigen Presselandschaft zu tun. Angaben von Ärzten, Arzneimittelherstellern, Zahnärzten werden sehr leicht in die Presse hineingegeben. Wir antworten zwar immer darauf, aber es ist sehr schwierig, dafür zu sorgen, daß dies auch der Bevölkerung bekannt wird und sie es zur Kenntnis nimmt. Ich sehe die von Ihnen vorgebrachten Zahlen, die bedeuten sollen, daß der Verwaltungsapparat teurer als alle Arzneimittel ist, als einen Punkt in der jetzigen Auseinandersetzung über das Kostendämpfungsgesetz.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg100">Eine weitere Zusatzfrage des Abgeordneten Kolbow, bitte.</seg>
+        </u>
+        <note type="speaker">Kolbow (SPD):</note>
+        <u who="#Q2545122" xml:id="ParlaMint-DE_1981-09-09-09-048.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg101">Darf ich Sie fragen, ob Sie die Unterstützung aller Abgeordneten des Deutschen Bundestages bei der Aufklärung der wahren Tatbestände gern in Anspruch nehmen.</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg102">Die will ich gern in Anspruch nehmen. Vielen Dank.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg103">Eine Zusatzfrage des Herrn Abgeordneten Lennartz.</seg>
+        </u>
+        <note type="speaker">Lennartz (SPD):</note>
+        <u who="#Q1237918" xml:id="ParlaMint-DE_1981-09-09-09-048.u89" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg104">Frau Staatssekretärin, könnte es möglich sein, daß der Verband der Auffassung ist, daß bei Auslegen einer Positivliste für den Arzneimittelsektor die Kosten für die Arzneimittel etwa nur die Höhe der Verwaltungskosten der Krankenkassen, nämlich 4 %, erreichen könnten?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-09-09-09-048.u90" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg105">Wenn wir es schaffen könnten, die Kosten für die Arzneimittel durch eine Positivliste derart drastisch zu senken, so wäre das natürlich ein Instrument, das im Sinne der Kostendämpfung durchaus zu überlegen wäre. Aber ich glaube, daß dahinter gar nicht so viele ernsthafte Gedanken stecken, sondern daß damit schlicht der Versuch unternommen wird, die gesetzliche Krankenversicherung in Mißkredit zu bringen, um ihr übermäßige Bürokratie vorzuwerfen und von den horrenden Einkommens- und Gewinnverbesserungen in all diesen Bereichen in den letzten Jahren abzulenken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u91" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg106">Weitere Zusatzfragen liegen nicht vor. Ich danke Ihnen, Frau Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers der Verteidigung auf. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär Dr. Penner zur Verfügung. Ich rufe die Frage 16 des Herrn Abgeordneten Wimmer (Neuss)</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg107">auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg108">Ist die Bundesregierung darüber informiert und trifft es zu, daß sich infolge von Impulsen der Radargroßanlagen des englischen Aufklärungsflugzeuges „Nimrod" in mehreren Fällen bei in der Nähe befindlichen Kampfflugzeugen Waffenaußenlasten selbsttätig gelöst haben, und sind Vorkehrungen dagegen getroffen, daß ähnliche Erscheinungen an dem NATO-AWACS-Aufklärungsflugzeug E- 3A nicht dazu führen, daß bei in der Nähe befindlichen Kampfflugzeugen auf oder über deutschem Gebiet Waffenaußenlasten selbsttätig ausgelöst werden? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Penner, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1981-09-09-09-048.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg109">Herr Kollege Wimmer, die Royal Air Force Germany, RAFG, hat Mitte August 1981 mitgeteilt, daß es wiederholt zu nicht autorisierter Annäherung von Kampfflugzeugen an den Test- und Prototyp des britischen Frühwarnflugzeugs Nimrod MK III gekommen ist. Die RAFG ersuchte um Belehrung des fliegenden Personals darüber, daß die Radarstrahlung der Nimrod selbsttätige Auslösung der Außenlasten von in unmittelbarer Nähe befindlichen Flugzeugen bewirken kann. Die deutsche Lufwaffe hat ihre fliegenden Verbände am 21. August 1981 entsprechend unterrichtet und Annäherungen an Nimrod- und AWACS-Flugzeuge unterhalb bestimmter Mindestabstände, horizontal ca. 400 m, vertikal ca. 200 m, untersagt. Auf Rückfrage hat das britische Verteidigungsministerium mitgeteilt, daß tatsächliche Selbstauslösungen von Waffenaußenlasten anderer Flugzeuge durch das Nimrod-Radar bisher nicht aufgetreten sind und die Warnung der RAFG lediglich vorsorglichen Charakter hat. Das Radar der künftigen NATO-E-3A (AWACS)</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg110">entspricht dem des US-E-3A-Systems, das seit 1978 von der US-Air Force mit zur Zeit 24 Maschinen betrieben wird. In diesem Zeitraum sind Zwischenfälle der genannten Art nicht aufgetreten, obwohl die USE-3A im Regelfall eng mit bewaffneten Kampfflugzeugen operiert. Der Bundesminister der Verteidigung hat in dieser Angelegenheit die Forschungsgesellschaft für angewandte Naturwissenschaften Werthofen eingeschaltet. Sollten die dort durchgeführten Untersuchungen neue Erkenntnisse erbringen, wird die Bundesregierung dem Deutschen Bundestag berichten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u93" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg111">Eine Zusatzfrage des Herrn Abgeordneten Wimmer.</seg>
+        </u>
+        <note type="speaker">Wimmer (Neuss) (CDU/CSU):</note>
+        <u who="#Q2582265" xml:id="ParlaMint-DE_1981-09-09-09-048.u94" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg112">Herr Staatssekretär, ist sichergestellt, daß für die Flughäfen im süddeutschen Gebiet, wo der derzeitige erste Prototyp der AWACS-NATO-Flotte Landeanflüge und Starts simuliert, es nicht zu Vorfällen kommen kann, die sich daraus ergeben, daß gleichzeitig auf diesen Flughäfen wartende Kampfmaschinen stehen, die nur deshalb nicht starten können, weil die NATO-AWACS-Maschine im Landeanflug bzw. im Startvorgang ist? Ist durch Vorsichtsmaßnahmen sichergestellt, daß es nicht zu Vorfällen kommen kann, die hinsichtlich dieses Problems von der Royal Air Force nicht umfaßt sind?</seg>
+        </u>
+        <note type="speaker">Dr. Penner, Parl. Staatssekretär:</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1981-09-09-09-048.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg113">Ich denke, daß es entsprechende Sicherungsvorkehrungen gibt. Wichtig erscheint mit nur — und darauf scheint mir Ihre Frage zu zielen —, daß diese Sicherheitsvorkehrungen auch beachtet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg114">Eine weitere Zusatzfrage?</seg>
+        </u>
+        <note type="speaker">Wimmer (Neuss) (CDU/CSU):</note>
+        <u who="#Q2582265" xml:id="ParlaMint-DE_1981-09-09-09-048.u97" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg115">Herr Staatssekretär, über das Problem der Royal Air Force hinaus ergeben sich unter Umständen Flugsicherheitsprobleme für den zukünftigen Betrieb der NATO-AWACS-Maschinen in dem von mir angesprochenen Raum Nörvenich, Wildenrath, Brüggen und Laarbruch, und zwar daraus, daß unter Umständen aus dem Betrieb des Radargeräts der NATO-AWACS-Maschine sich Irritationen für in der Nachbarschaft befindliche andere Maschinen ergeben könnten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u98" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg116">Herr Abgeordneter, ich darf bitten, eine Frage zu stellen.</seg>
+        </u>
+        <note type="speaker">Wimmer (Neuss) (CDU/CSU):</note>
+        <u who="#Q2582265" xml:id="ParlaMint-DE_1981-09-09-09-048.u99" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg117">Damit der Herr Staatssekretär das versteht, habe ich es etwas ausführlicher gemacht. Ich bitte um Nachsicht. Ist durch entsprechende Maßnahmen des Bundesministeriums der Verteidigung sichergestellt, daß in diesem stark durch militärische Einrichtungen betroffenen Gebiet, das ich eben angesprochen habe, es nicht zu Problemen in der Flugsicherung kommt? Oder wollen Sie es gegebenenfalls noch einmal überprüfen?</seg>
+        </u>
+        <note type="speaker">Dr. Penner, Parl. Staatssekretär:</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1981-09-09-09-048.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg118">Ich denke, daß Sie damit schon die zweite Frage angesprochen haben, wenn ich Sie richtig verstanden habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg119">Dann rufe ich auch Frage 17 — des Herrn Abgeordneten Wimmer (Neuss)</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg120">— auf :</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg121">Sind bei etwaigen Vorkehrungen auch jene Probleme berücksichtigt worden, die sich aus der Lage des zukünftigen Stationierungsstandortes Geilenkirchen für den NATO-AWACS-Verband in unmittelbarer Nachbarschaft der Flughäfen Nörvenich, Brüggen, Wildenrath und Laarbruch ergeben könnten? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Penner, Parl. Staatssekretär:</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1981-09-09-09-048.u102" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg122">Ich beantworte diese Frage folgendermaßen. Die Anweisung zur Einhaltung eines Mindestabstandes von Nimrod- und E-3A-Flugzeugen ist auch für die auf diesen Flugplätzen stationierten deutschen und britischen Verbände verbindlich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u103" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg123">Zusatzfrage des Abgeordneten Wimmer, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Wimmer (Neuss) (CDU/CSU):</note>
+        <u who="#Q2582265" xml:id="ParlaMint-DE_1981-09-09-09-048.u104" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg124">Herr Staatssekretär, ich nehme an, Sie wollen die zweite Frage jetzt noch ausführlich beantworten? Dann — —</seg>
+        </u>
+        <note type="speaker">Dr. Penner, Parl. Staatssekretär:</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1981-09-09-09-048.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg125">Nein, das ist alles.</seg>
+        </u>
+        <note type="speaker">Wimmer (Neuss) (CDU/CSU):</note>
+        <u who="#Q2582265" xml:id="ParlaMint-DE_1981-09-09-09-048.u106" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg126">Gut, dann darf ich eine weitere Frage stellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u107" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg127">Zusatzfrage. Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Wimmer (Neuss) (CDU/CSU):</note>
+        <u who="#Q2582265" xml:id="ParlaMint-DE_1981-09-09-09-048.u108" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg128">Danke schön, Herr Präsident. Herr Staatssekretär, es ist ja im bayerischen Luftraum zu den Vorfällen um die Sidewinder-Rakete gekommen. Wir haben im Verteidigungsausschuß darüber noch keinen Bericht hören können. Aber: ist definitiv ausgeschlossen, daß durch einen möglichen gleichzeitigen Betrieb des Prototyps der AWACSNATO-Flotte diese_ r Vorfall hervorgerufen worden ist?</seg>
+        </u>
+        <note type="speaker">Dr. Penner, Parl. Staatssekretär:</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1981-09-09-09-048.u109" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg129">Sie wissen, daß über die Sidewinder der Verteidigungsausschuß sehr wohl eine erste Information bekommen hat — keine abschließende Information; das wird noch geschehen. Vorbehaltlich dieser abschließenden Information kann ich aber sagen, daß sich keine tatsächlichen Anhaltspunkte in der Hinsicht ergeben haben, die Sie Ihrer Frage zugrunde gelegt haben.</seg>
+        </u>
+        <note type="speaker">Wimmer (Neuss) (CDU/CSU):</note>
+        <u who="#Q2582265" xml:id="ParlaMint-DE_1981-09-09-09-048.u110" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg130">Ich bedanke mich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg131">Keine weitere Zusatzfrage. Ich rufe Frage 18 — des Herrn Abgeordneten Herberholz — auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg132">Kann die Bundesregierung Auskunft darüber geben, wieviel ein wehrdienstleistender Arzt (ledig, 28 Jahre alt)</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg133">monatlich brutto bzw. netto verdient, und kann die Bundesregierung die gleichen Angaben für einen wehrdienstleistenden Kfz-Mechaniker (mit Meisterprüfung)</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg134">und einen wehrdienstleistenden Koch (mit Meisterprüfung)</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg135">machen?</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg136">Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Penner, Parl. Staatssekretär:</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1981-09-09-09-048.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg137">Ein als Stabsarzt zum Grundwehrdienst einberufener Arzt erhält nach dem Wehrsoldgesetz entsprechend seinem Dienstgrad monatlich 510 DM, täglich 17 DM, und hat nach dem Unterhaltssicherungsgesetz — als eine Art funktionsabhängiger Leistung — monatlich 1 600 DM. Ein Kraftfahrzeugmechaniker oder ein Koch, die mit dem niedrigsten Mannschaftsdienstgrad einberufen werden, erhalten als Wehrsold zunächst monatlich 225 DM — täglich 7,50 DM —, nach Beförderung zum Gefreiten, in der Regel nach sechs Monaten, monatlich 270 DM — täglich 9 DM. Daneben können nach dem Unterhaltssicherungsgesetz die Aufwendungen für bestimmte, während des Wehrdienstes weiterlaufende Verpflichtungen erstattet werden, z. B. die Kosten der Miete. Wehrsold und Unterhaltssicherungsleistungen sind steuer- und sozialversicherungsfrei. Daneben werden allen Grundwehrdienstleistenden Verpflegung, Bekleidung, Unterkunft und ärztliche Versorgung unentgeltlich gewährt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg138">Eine Zusatzfrage, Herr Abgeordneter Herberholz.</seg>
+        </u>
+        <note type="speaker">Herberholz (SPD):</note>
+        <u who="#Q2129630" xml:id="ParlaMint-DE_1981-09-09-09-048.u114" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg139">Herr Staatssekretär, könnten Sie mir kurz begründen, weshalb ein wehrdienstleistender Arzt finanziell bessergestellt wird als ein wehrdienstleistender Kraftfahrzeugmechanikermeister oder ein wehrdienstleistender Diplomphysiker oder ein wehrdienstleistender ausgebildeter Koch?</seg>
+        </u>
+        <note type="speaker">Dr. Penner, Parl. Staatssekretär:</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1981-09-09-09-048.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg140">Die Bundeswehr hat die Heilfürsorge für die Soldaten durch einen eigenen Sanitätsdienst sicherzustellen. Die Zahl der Ärzte, die ihr hierfür als Soldat auf Zeit oder als Berufssoldat zur Verfügung stehen, reicht nicht aus, um diesen Dienst in dem gebotenen Umfang durchzuführen. Deshalb müssen hierfür auch Ärzte, die auf Grund der Wehrpflicht Wehrdienst leisten, herangezogen werden. Bei ihrer Verwendung in der Bundeswehr nehmen sie die gleichen Aufgaben und Funktionen wie die Sanitätsoffiziere, die als Soldaten auf Zeit oder Berufssoldat dienen, wahr. Aus diesem Grund hat der Gesetzgeber für sie im Jahr 1973 eine besondere Abfindung eingeführt, die sich an den Bezügen vergleichbarer Soldaten auf Zeit und Berufssoldaten anlehnt, wobei der Wehrsold und der Wert der freien Verpflegung angerechnet werden. Bei der Einführung dieser besonderen Abfindung hat der Gesetzgeber ferner berücksichtigt, daß die Einberufung der für den Sanitätsdienst vorgesehenen Wehrpflichtigen im Interesse der Bundeswehr bis zum Abschluß ihres langjährigen Studiums zurückgestellt wird; sie leisten daher regelmäßig ihren Grundwehrdienst in einem erheblich höheren Alter als die übrigen Grundwehrdienstleistenden und können bis zum 32. Lebensjahr einberufen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg141">Eine weitere Zusatzfrage. Bitte, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Herberholz (SPD):</note>
+        <u who="#Q2129630" xml:id="ParlaMint-DE_1981-09-09-09-048.u117" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg142">Herr Staatssekretär, gibt es keine andere Berufsgruppe in der Bundeswehr, vergleichbar den Ärzten, die nach abgeschlossener Ausbildung in ihrem Ausbildungsberuf tätig ist, aber vergleichbar mit dem beispielhaft erwähnten Kraftfahrzeugmechanikermeister nur den normalen Wehrsold bekommt?</seg>
+        </u>
+        <note type="speaker">Dr. Penner, Parl. Staatssekretär:</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1981-09-09-09-048.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg143">Es gibt sicher Berufsgruppen, die mit ihren besonderen Fachkenntnissen auch in der Bundeswehr eine entsprechende Tätigkeit haben. Aber der Grund für die besondere Herausstellung des ärztlichen Dienstes in der Bundeswehr ist eine Entscheidung des Gesetzgebers, dessen Motive von 1973 ich Ihnen darzulegen versucht habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg144">Keine weitere Zusatzfrage. Ich rufe die Frage 19 des Abgeordneten Gilges auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg145">Ist der Bundesregierung die Anzeige bekannt aus der Zeitschrift „Die Bundeswehr, Organ des Bundeswehrverbandes e. V" Nr. 7/Juli 1981, vorletzte Seite, unter der Überschrift „Die Kampfmesser der Ledernakken, der Green Berets, der GSG 9, der Militärpiloten ...", mit der diese Kampfmesser zum Verkauf angeboten werden, und wenn ja, teilt sie die Auffassung, daß die Anzeige gegen das Vertriebsverbot gemäß § 37 des Waffengesetzes verstößt?</seg>
+        </u>
+        <note type="speaker">Dr. Penner, Parl. Staatssekretär:</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1981-09-09-09-048.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg146">Herr Kollege Gilges, wenn Sie einverstanden sind, beantworte ich Ihre Fragen 19 und 20 zusammen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg147">Sind Sie einverstanden? Gilges (SPD): Ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u122" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg148">Ich rufe dann auch die Frage 20 des Abgeordneten Gilges auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg149">Kann die Bundesregierung Auskunft darüber geben, welche Beihilfen (Förderungsmittel)</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg150">die Zeitschrift „Die Bundeswehr, Organ des Bundeswehrverbandes e. V." aus welchen Haushaltstiteln oder anderen Bundesmitteln erhält?</seg>
+        </u>
+        <note type="speaker">Dr. Penner, Parl. Staatssekretär:</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1981-09-09-09-048.u123" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg151">Der Bundesregierung ist die bezeichnete Anzeige bekannt. Das Bundesministerium des Innern prüft, ob die Anzeige gegen ein waffenrechtliches Verbot verstößt. Das Ergebnis der Prüfung werde ich Ihnen mitteilen. Der Bundeswehrverband erhält keine Beihilfen oder Förderungsmittel zur Herstellung der Zeitschrift „Die Bundeswehr" aus dem Einzelplan 14, anderen Einzelplänen oder sonstigen Bundesmitteln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u124" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg152">Zusatzfrage. Bitte, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Gilges (SPD):</note>
+        <u who="#Q1782007" xml:id="ParlaMint-DE_1981-09-09-09-048.u125" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg153">Kann es sein, Herr Parlamentarischer Staatssekretär Dr. Penner, daß über andere Förderungsmittel an den Bundeswehrverband eine indirekte Finanzierung dieser Zeitschrift möglich ist, oder ist generell ausgeschlossen, daß die Zeitschrift mit öffentlichen Mitteln gefördert werden kann?</seg>
+        </u>
+        <note type="speaker">Dr. Penner, Parl. Staatssekretär:</note>
+        <u who="#Q2576882" xml:id="ParlaMint-DE_1981-09-09-09-048.u126" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg154">Soweit wir das feststellen können, findet auch eine mittelbare Förderung mit öffentlichen Mitteln, etwa mit dem Ergebnis, daß über diese mittelbare Zuwendung die Zeitschrift finanziert werden könnte, nicht statt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u127" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg155">Keine weitere Zusatzfrage. Die Fragen 23 und 24 des Abgeordneten Biehle und die Frage 25 des Abgeordneten Dr. Friedmann werden auf Wunsch der Fragesteller schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers der Verteidigung abgehandelt. Ich danke Ihnen, Herr Staatssekretär. Ich rufe die Fragen aus dem Geschäftsbereich des Bundesministers für das Post- und Fernmeldewesen auf. Zur Beantwortung steht Herr Staatssekretär Elias zur Verfügung. Wir kommen zunächst zur Frage 29 des Abgeordneten Weirich. — Der Fragesteller ist nicht im Saal. Die Frage wird nicht beantwortet. Ich rufe die Frage 30 des Abgeordneten Dr. Laufs auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg156">Trifft es zu, daß die Deutsche Bundespost im Jahr 1980 die Anzahl ihrer Mitarbeiter um 10,3 v. H. auf 532 455 erhöht hat, und welche unternehmenspolitische Zielsetzung verfolgt sie ggf. mit der starken Ausweitung der Beschäftigtenzahl?</seg>
+        </u>
+        <note type="speaker">Elias, Staatssekretär im Bundesministerium für das Post- und Fernmeldewesen:</note>
+        <u who="#Q104761191" xml:id="ParlaMint-DE_1981-09-09-09-048.u128" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg157">Es trifft nicht zu, daß die Deutsche Bundespost die Zahl ihrer Mitarbeiter 1980 auf 552 455 erhöht hat. Die Zahl der Arbeitskräfte der Deutschen Bundespost stieg im Jahr 1980 von 443 491 auf 449 013, d. h. um 5 522 Kräfte; das sind 1,25 %. Dieser geringe Anstieg bestätigt die unternehmenspolitische Zielsetzung der Bundespost, den Verkehr mit einem möglichst wirtschaftlichen Personaleinsatz abzuwickeln.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u129" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg158">Eine Zusatzfrage, bitte, Herr Abgeordneter Dr. Laufs.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-09-09-09-048.u130" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg159">Herr Staatssekretär, können Sie also die Mitteilung der Wochenzeitung „Die Zeit" Nr. 36 vom 28. August 1981 im Hinblick auf die Entwicklung der Belegschaft nicht bestätigen?</seg>
+        </u>
+        <note type="speaker">Elias, Staatssekretär:</note>
+        <u who="#Q104761191" xml:id="ParlaMint-DE_1981-09-09-09-048.u131" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg160">So ist es.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u132" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg161">Zweite Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-09-09-09-048.u133" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg162">Herr Staatssekretär, in welchem Ausmaß beabsichtigt die Deutsche Bundespost die Zahl ihrer Mitarbeiter zukünftig vor allem im Hinblick auf neue Dienste im Bereich der Telekommunikation zu entwickeln?</seg>
+        </u>
+        <note type="speaker">Elias, Staatssekretär:</note>
+        <u who="#Q104761191" xml:id="ParlaMint-DE_1981-09-09-09-048.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg163">Auch in dem Bereich der neuen Dienstleistungen der Telekommunikation richtet sich der Bedarf erstens nach den personellen Notwendigkeiten bei der Einführung der neuen Dienste aus, über die teilweise noch diskutiert wird, und dann nach der entstehenden tatsächlichen Nachfrage. Das System, das wir hier anwenden, läuft über Personalbemessungsvorgaben und Erhebungsbogen. Es handelt sich um ein eingefahrenes Verfahren, das für zukünftige genauso wie für bestehende Dienste funktioniert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u135" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg164">Ich rufe die Frage 31 des Abgeordneten Dr. Laufs auf:</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg165">Welche grundsätzlichen Vorstellungen über die Struktur ihrer Dienstleistungsangebote in der Telekommunikation verfolgt die Deutsche Bundespost bei ihren Investitionen im Leitungsnetz- und Endgerätebereich? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Elias, Staatssekretär:</note>
+        <u who="#Q104761191" xml:id="ParlaMint-DE_1981-09-09-09-048.u136" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg166">Die Deutsche Bundespost ist nach dem Postverwaltungsgesetz verpflichtet, die Anlagen in einem guten Zustand zu erhalten und technisch und betrieblich den Anforderungen des Verkehrs entsprechend weiterzuentwickeln und zu vervollkommnen. Die Bundespost kommt diesem gesetzlichen Auftrag nach, indem sie sowohl im Leitungsnetz wie im Endgerätebereich und in den übrigen Anlagebereichen ihre Investitionen unter Berücksichtigung eines wirtschaftlichen Einsatzes bedarfsgerecht vornimmt. Dabei ist es ihr Ziel, technologische Neu- und Weiterentwicklungen zur Rationalisierung der Betriebsabläufe und zur Minimierung der Kosten zu berücksichtigen. Auch ihr Dienstleistungsangebot entwickelt die Bundespost entsprechend den volkswirtschaftlichen Bedürfnissen und den technischen Möglichkeiten weiter. Beispiele für dieses Handeln sind die neuen Endgerätetypen, die Bereitstellung von Präsentationsvermittlungsstellen in digitaler Technik, der geplante Einsatz der Glasfaser im Orts- und im Fernnetz, die neuen Dienstleistungen Telefaxdienst, Teletex und in naher Zukunft auch Bildschirmtext. Da die Bundespost zur Eigenwirtschaftlichkeit verpflichtet ist, können nur solche neuen Dienstleistungen angeboten werden, die nach einer angemessenen Einführungsphase das betriebswirtschaftliche Ergebnis zumindest nicht verschlechtern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg167">Zu einer Zusatzfrage, bitte, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-09-09-09-048.u138" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg168">Herr Staatssekretär, halten Sie Ihre Feststellung vom April dieses Jahres gegenwärtig immer noch für zutreffend, daß es nicht genüge, Geräte zu entwickeln und neue Dienste einzuführen, sondern eine Art Telekommunikationsphilosophie entwickelt werden müsse? Und in welchem Zeitraum glauben Sie, daß Sie Ihr Theoriedefizit, von dem Sie gesprochen haben, aufgehoben und die Bereiche abgegrenzt haben, in denen sich Wettbewerb entfalten kann?</seg>
+        </u>
+        <note type="speaker">Elias, Staatssekretär:</note>
+        <u who="#Q104761191" xml:id="ParlaMint-DE_1981-09-09-09-048.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg169">Herr Abgeordneter, an diesem Problem arbeiten wir mit großem Nachdruck, weil zunehmend deutlicher wird, daß das, was ich in dem Interview gesagt habe, auch für die Weiterentwicklung der neuen Dienstleistungen entscheidend sein wird. Hier müssen also die technologische Entwicklung und die gedankliche Begleitung in dem mehr unternehmenspolitischen Bereich Hand in Hand gehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg170">Zu einer weiteren Zusatzfrage Herr Abgeordneter Dr. Laufs.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-09-09-09-048.u141" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg171">Herr Staatssekretär, darf ich Ihrer Antwort also entnehmen, daß Sie mir darin zustimmen, daß es für die Entwicklungschancen dieser neuen Techniken sehr hilfreich wäre, wenn die Abgrenzung von Monopol- und Wettbewerbsbereichen möglichst bald erfolgte, wobei den Marktkräften genügend Spielräume zugestanden werden sollten?</seg>
+        </u>
+        <note type="speaker">Elias, Staatssekretär:</note>
+        <u who="#Q104761191" xml:id="ParlaMint-DE_1981-09-09-09-048.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg172">Herr Abgeordneter, ich sehe diesen Zusammenhang, den Sie hier konstruieren, nicht unmittelbar. Mein Gedanke bei dieser Überlegung, die Sie eben vorgetragen haben, war, daß wir für viele Bereiche des öffentlichen Lebens, Dienstleistungsbereiche und Infrastrukturbereiche, eine breitangelegte wissenschaftliche Begleitung haben, daß es Hochschulinstitute gibt, die sich mit diesen Fragen befassen, und daß die Materie systematisch wissenschaftlich durchdrungen wird. Was ich dabei im Auge habe, ist, dies für das Fernmeldewesen nachzuholen. Das hat nicht unmittelbar etwas damit zu tun, daß hier Monopolbereiche abgegrenzt oder abgeschlosssen werden sollen oder Privatinitiative eingeführt werden soll. Dies wäre erst eine sekundäre Überlegung, die sich dann anschließen müßte. Was wir zunächst einmal brauchen, ist ein besseres geistiges Fundament, auf dem die sich unwahrscheinlich schnell entwickelnde Telekommunikationstechnik besser aufbauen kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1981-09-09-09-048.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg173">Keine weiteren Zusatzfragen. Meine Damen und Herren, ich möchte den Hinweis geben, daß für die morgige Fragestunde, die in der Zeit von 14.00 Uhr bis 15.30 Uhr abgewickelt werden soll, nur noch sechs Fragen anstehen. Wir sind am Ende der Fragestunde.</seg>
+          <seg id="ParlaMint-DE_1981-09-09-09-048.seg174">Ich berufe die nächste Sitzung des Deutschen Bundestages für Donnerstag, den 10. September 9 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung 13.47 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1984-01-25-10-049">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 10. Wahlperiode, 49. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 25.01.1984 (49. Sitzung der 10. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 10, Session 49 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1984-01-25 (Session 49 in Legislative Period 10)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="49">49. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.10" n="10">10. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="49">Session 49</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.10" n="10">Legislative Period 10</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 25.01.1984</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1984-01-25</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490374/07ce06f666b624d37b47d2fe6e205ab4/pp10-data.zip</idno>
+          <date when="1984-01-25">1984-01-25</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1984-01-25">1984-01-25</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksache 10/908 —</head>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg1">Die Sitzung ist eröffnet. Ich rufe Punkt 1 der Tagesordnung auf: Fragestunde — Drucksache 10/908 —</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg2">Wir kommen zunächst zum Geschäftsbereich des Bundesministers der Justiz. Zur Beantwortung der Fragen steht der Parlamentarische Staatssekretär Erhard zur Verfügung. Ich rufe die Frage 1 der Frau Abgeordneten Reetz auf. — Frau Reetz ist nicht im Raum. Die Frage wird nicht beantwortet. Ich rufe die Frage 2 des Abgeordneten Grünbeck auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg3">Sieht die Bundesregierung in Anbetracht der Rechtsstreitigkeiten, der ergangenen Urteile und Berufungen nicht jetzt einen dringenden Handlungsbedarf, um im Sinne des § 2 des Miethöhengesetzes die 30-Prozent-Kappungsklausel auch bei bindungsfrei gewordenen Sozial- und Staatsdienst-Wohnungen in jeder Weise unumstritten zu ermöglichen? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Erhard, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q817923" xml:id="ParlaMint-DE_1984-01-25-10-049.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg4">Herr Kollege Grünbeck, das in der Frage angesprochene Problem wird von der Bundesregierung gesehen und ernst genommen. Nach Abstimmung zwischen dem Bundesminister der Justiz und dem Bundesminister für Raumordnung, Bauwesen und Städtebau sieht die Bundesregierung gegenwärtig allerdings keinen gesetzgeberischen Handlungsbedarf. Zum einen ist in Kürze eine Klärung der Rechtsfrage, ob die 30%ige Kappungsgrenze auch in den sogenannten Übergangsfällen Anwendung findet, durch obergerichtliche Entscheidungen zu erwarten. Zur Vereinheitlichung der Rechtsprechung in Mietsachen hat der Gesetzgeber, wie Sie sicher genau wissen, das Rechtsentscheidverfahren eingerichtet. Hiernach können die Landgerichte bei den zuständigen Oberlandesgerichten den Erlaß von Rechtsentscheiden beantragen. Die im Rechtsentscheidverfahren von einem Oberlandesgericht getroffene Entscheidung ist für die unteren Gerichte bindend. Will ein Oberlandesgericht von der Entscheidung eines anderen Oberlandesgerichts abweichen, hat es die Rechtsfrage dem Bundesgerichtshof zur Entscheidung vorzulegen. Wie mir bekannt ist, haben sowohl in Bayern als auch in Niedersachsen wenigstens zwei Landgerichte bereits den Erlaß eines Rechtsentscheids zu der vorliegenden Rechtsfrage beantragt. Zum anderen besteht auch in rechtstatsächlicher Hinsicht zum gegenwärtigen Zeitpunkt kein Bedarf an gesetzgeberischen Maßnahmen. Untersuchungen der Bundesregierung haben nämlich ergeben, daß ausgesprochene Problemfälle in zunehmendem Maße erst ab 1987 auftreten können. Auch hierbei wird es sich nach Schätzungen der Bundesregierung insgesamt auch nur um eine relativ niedrige Zahl von Fällen handeln. Gemessen an der Gesamtzahl aller dann freiwerdenden Sozialwohnungen — ab 1987 ist mit bis zu 265 000 Fällen zu rechnen —, sind gesetzgeberische Maßnahmen nicht erforderlich. Die Bundesregierung wird aber die Entwicklung in jedem Fall aufmerksam verfolgen. Gesetzgeberische Schritte behält sie sich für die Zukunft dann vor, wenn eine befriedigende Klärung durch die Obergerichte nicht erfolgt sein sollte und neue rechtstatsächliche Erkenntnisse einen Handlungsbedarf nach sich ziehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg5">Zusatzfrage? — Bitte, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Grünbeck (FDP):</note>
+        <u who="#Q1704703" xml:id="ParlaMint-DE_1984-01-25-10-049.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg6">Herr Staatssekretär, sind dann die Meldungen in einer bedeutenden Zeitung falsch, wonach die Umwandlung von Mietwohnungen in Eigentumswohnungen sowohl bei freifinanzierten als auch bei Sozialmietwohnungen möglich ist?</seg>
+        </u>
+        <note type="speaker">Erhard, Parl. Staatssekretär:</note>
+        <u who="#Q817923" xml:id="ParlaMint-DE_1984-01-25-10-049.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg7">Herr Kollege, es ist mir nicht möglich, Zeitungsmeldungen, die ich selbst nicht gelesen habe, als richtig oder falsch zu beurteilen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg8">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Grünbeck (FDP):</note>
+        <u who="#Q1704703" xml:id="ParlaMint-DE_1984-01-25-10-049.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg9">Herr Staatssekretär, sehen Sie nicht dennoch eine Möglichkeit oder eine Notwendigkeit, in Anbetracht der von Ihnen genannten Zahl — Sie sprachen davon, daß in den nächsten Jahren 265000 Sozialwohnungen in Eigentumswohnungen ungewandelt werden — eine klare Rechtslage zu schaffen?</seg>
+        </u>
+        <note type="speaker">Erhard, Pari. Staatssekretär:</note>
+        <u who="#Q817923" xml:id="ParlaMint-DE_1984-01-25-10-049.u8" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg10">Bei den 265 000 Füllen, die ab 1987 auftreten können, handelt es sich nicht um solche, in denen eine Umwandlung erfolgt. Vielmehr werden die Wohnungen nur von der Bindung frei. Insofern sollte man, meine ich, die obergerichtliche Rechtsprechung abwarten, zumal die Obergerichte bereits angerufen sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u9" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg11">Weitere Zusatzfrage des Abgeordneten de With.</seg>
+        </u>
+        <note type="speaker">Dr. de With (SPD):</note>
+        <u who="#Q1257864" xml:id="ParlaMint-DE_1984-01-25-10-049.u10" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg12">Herr Staatssekretär, unterstellt, die zitierte Zeitungsmeldung ist richtig: Können Sie dazu eine Erklärung abgeben?</seg>
+        </u>
+        <note type="speaker">Erhard, Parl. Staatssekretär:</note>
+        <u who="#Q817923" xml:id="ParlaMint-DE_1984-01-25-10-049.u11" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg13">Herr Kollege de With, ich habe nicht die Befugnis, für die Bundesregierung auf Eventualitäten hin hier verbindliche Erklärungen abzugeben.</seg>
+        </u>
+        <vocal type="question">
+          <desc>Dr. de With [SPD]: Aber die Frage eines Abgeordneten zu beantworten!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u12" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg14">Keine weiteren Zusatzfragen mehr. Ich danke, Herr Staatssekretär. Ich rufe nunmehr den Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit auf. Zu Frage 3 hat der Fragesteller, Abgeordneter Schlottmann, um schriftliche Beantwortung gebeten. Die Antwort wird als Anlage abgedruckt. Ich rufe den Geschäftsbereich des Bundesministers für Raumordnung, Bauwesen und Städtebau auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Dr. Jahn zur Verfügung. Ich rufe die Frage 4 des Abgeordneten Dr. Soell auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg15">Ist der Bundesregierung bekannt, daß durch den Einbau von Zwischenwassermessern auch in älteren Eigentumswohnungen eine beträchtliche Eindämmung des Wasserverbrauchs erreicht werden könnte? Ich bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär beim Bundesminister für Raumordnung, Bauwesen und Städtebau:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1984-01-25-10-049.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg16">Herr Präsident, ich würde die Fragen gern im Zusammenhang beantworten dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg17">Herr Abgeordneter Dr. Soell, darf ich fragen, ob die beiden Fragen im Zusammenhang beantwortet werden können.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Soell [SPD]: Ja!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg18">— Dann rufe ich auch die Frage 5 des Abgeordneten Dr. Soell auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg19">Beabsichtigt die Bundesregierung, dieses sinnvolle Vorhaben durch eine entsprechende Gesetzesinitiative in die Tat umzusetzen?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1984-01-25-10-049.u15" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg20">Der Einbau von Zwischenwassermessern wäre nur sinnvoll, wenn der damit verbundene — sehr hohe — kostenmäßige Aufwand in einem vertretbaren Verhältnis zu der zu erwartenden Einsparung des Wasserverbrauchs stünde. Das ist nach den Erkenntnissen der Bundesregierung nicht der Fall. Die Bundesregierung hat daher nicht die Absicht, eine gesetzliche Pflicht zum Einbau von Zwischenwassermessern einzuführen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u16" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg21">Zu einer Zusatzfrage Herr Abgeordneter Dr. Soell.</seg>
+        </u>
+        <note type="speaker">Dr. Soell (SPD):</note>
+        <u who="#Q1587570" xml:id="ParlaMint-DE_1984-01-25-10-049.u17" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg22">Auf welche Untersuchungen stützt sich die Bundesregierung bei dieser Aussage, daß der Ertrag — insbesondere die Einsparung des Wasserverbrauchs — nicht groß genug wäre, um eine gesetzliche Bestimmung in dieser Richtung erforderlich zu machen?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1984-01-25-10-049.u18" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg23">Herr Kollege, wir haben diese Frage umfassend geprüft. Die Anfrage, die Sie heute stellen, ist von der Bundesregierung bereits in der Drucksache 9/2404 beantwortet worden, und zwar auf die Frage 56 des Abgeordneten Kansy. Dort sind nähere Ausführungen gemacht. Im übrigen bin ich gerne bereit, diese Frage auch noch schriftlich konkreter zu beantworten.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Soell [SPD]: Ich bitte darum!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u19" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg24">Zu einer Zusatzfrage, Herr Abgeordneter Krizsan.</seg>
+        </u>
+        <note type="speaker">Krizsan (GRÜNE):</note>
+        <u who="#Q1444261" xml:id="ParlaMint-DE_1984-01-25-10-049.u20" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg25">Herr Staatssekretär können Sie sagen, wie teuer solche Zwischenwassermesser sind, damit man Ihre Aussage, das sei sehr teuer, quantifizieren kann?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1984-01-25-10-049.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg26">Ich müßte umfangreiche Erhebungen durchführen, wie teuer die Meßgeräte im Einzelfall sind. Wichtig ist die Frage, ob die Anschaffung solcher Meßgeräte in der richtigen Relation zu dem damit gewünschten Erfolg steht. Die Bundesregierung vertritt die Auffassung, daß das, was hier als sachliches Anliegen vorgetragen wird, durchaus freiwillig praktiziert werden kann. Nur sehen wir keinen Vorteil darin, dies gesetzlich als Zwang einzuführen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Krizsan [GRÜNE]: Können Sie nicht mal sagen, wie teuer das ist?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u22" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg27">Herr Abgeordneter Dr. Soell, wollen Sie noch eine Frage stellen? — Nein. Dann eine Zusatzfrage des Abgeordneten Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u23" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg28">Herr Staatssekretär, geht es Ihnen so wie Ihrem Amtsvorgänger und Ihren anderen Kollegen auf der Regierungsbank, daß Sie auf solche Detailfragen zu Ihrem Bedauern keine Antwort wissen?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1984-01-25-10-049.u24" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg29">Herr Kollege, wenn ich danach gefragt werde, was ein bestimmter Wassermesser tatsächlich kostet, dann bin ich in diesem Moment ebenso überfragt, wie das der frühere Parlamentarische Staatssekretär Sperling wäre, wenn er jetzt hier stünde.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u25" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg30">Keine weiteren Zusatzfragen. Ich danke Ihnen, Herr Staatssekretär.</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg31">Ich rufe den Geschäftsbereich des Bundesministers des Innern auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Spranger zur Verfügung. Ich rufe die Frage 11 des Abgeordneten Lennartz auf. — Der Abgeordnete Lennartz ist nicht im Saal. Es wird verfahren, wie für diesen Fall vorgesehen. Das gleiche gilt für die Frage 12 des Abgeordneten Lennartz. Ich rufe nunmehr die Frage 13 des Abgeordneten Hirsch auf. Er ist auch nicht im Saal. Es wird ebenso verfahren. Ich rufe die Frage 14 des Abgeordneten Seehofer auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg32">Trifft es zu, daß bundesdeutsche Automobilhersteller bereits jetzt Personenkraftwagen in Serie mit Katalysatoren anbieten? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1984-01-25-10-049.u26" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg33">Herr Kollege Seehofer, wegen des sachlichen Zusammenhangs möchte ich beide Frage zusammenfassend beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u27" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg34">Sind Sie damit einverstanden, Herr Abgeordneter? — Gut. Dann rufe ich auch die Frage 15 auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg35">Aus welchen Gründen ist es heute noch so schwierig, unverbleites Benzin auf dem freien Markt zu erhalten, und wie könnte hier Abhilfe geschaffen werden?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1984-01-25-10-049.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg36">Die in Ihren Fragen angesprochenen Themenbereiche wurden vom Bundesinnenminister Dr. Zimmermann am 10. Januar 1984 in einem ausführlichen Gespräch mit den Spitzenvertretern des Mineralölwirtschaftsverbandes und des Verbandes der Automobilindustrie erörtert. Dabei hat der Verband der Automobilindustrie die Bereitschaft der deutschen Automobilfirmen unterstrichen, bereits vor dem von der Bundesregierung vorgesehenen Termin, 1. Januar 1986, mit Katalysatoren ausgestattete Pkw in der Bundesrepublik Deutschland anzubieten. Soweit mir bekannt ist, werden bereits von einem Hersteller drei mit Katalysatoren ausgerüstete Fahrzeugtypen serienmäßig angeboten. Weitere Hersteller prüfen zur Zeit ebenfalls die Möglichkeit, für ihre für den Export in die USA produzierten mit Katalysatoren ausgerüsteten Fahrzeugtypen die Erteilung einer Allgemeinen Betriebserlaubnis zu beantragen und diese hier anzubieten. Die Mineralölwirtschaft hat gegenüber Bundesinnenminister Dr. Zimmermann erklärt, daß die Lieferung von bleifreiem Normalbenzin zum 1. Januar 1986 keine Probleme bereite. Die Mineralölindustrie ist grundsätzlich in der Lage, nach Festlegung der Kraftstoffspezifikation in der DIN 51600 bleifreies Normalbenzin schon vor dem 1. Januar 1986 entsprechend dem Bedarf anzubieten. Bleifreies Superbenzin mit einer Qualität von 86 MOZ kann nach Aussage der Mineralölwirtschaft ab 1. Januar 1986 entsprechend dem sich dann entwickelnden Bedarf angeboten werden. Beide Verbände haben zugesagt, sich in Kürze auf der Grundlage der bereits in Erprobung befindlichen Testkraftstoffe über die Qualitätsdaten des bleifreien Benzins zu verständigen. Die Arbeiten an der Kraftstoffnormung der DIN 51600 sind bereits eingeleitet worden. Ich gehe davon aus, daß diese Arbeiten zügig vorangetrieben und in Kürze abgeschlossen werden. Hierbei darf es keinerlei Verzögerung mehr geben. Dann steht der sofortigen Markteinführung von bleifreiem Normalbenzin und einer Versorgung der für bleifreies Normalbenzin ausgelegten US-Modelle nichts mehr im Wege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg37">Zusatzfrage, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Seehofer (CDU/CSU):</note>
+        <u who="#Q44612" xml:id="ParlaMint-DE_1984-01-25-10-049.u30" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg38">Herr Staatssekretär, können Sie sagen, warum man hier beim zeitlichen Vollzug zwischen Normalbenzin und Superbenzin unterscheidet, warum das eine sofort und das andere erst ab 1986 verfügbar ist?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1984-01-25-10-049.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg39">Nach Angaben der beiden Verbände gibt es beim Superbenzin, sowohl was die Festlegung der Normen als auch was die technischen Probleme anbelangt, mehr Schwierigkeiten als beim Normalbenzin.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u32" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg40">Eine Zusatzfrage des Abgeordneten Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD):</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1984-01-25-10-049.u33" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg41">Herr Staatssekretär, wenn ich Sie richtig verstanden habe, haben Sie auf die Frage des Herrn Kollegen Seehofer bezüglich des Einbaus von Katalysatoren geantwortet, daß ein Unternehmen in der Bundesrepublik bereits derartige Wagen hier im Markt ausliefert und verkauft. Darf ich Sie fragen, ob dies eine Serienfertigung allgemeiner Art ist, die im Markt ist, und, falls nicht, wieviel Mehrkosten dadurch verursacht werden und ob sie zusätzlich im Preis ausgewiesen werden oder im Festpreis des Fahrzeugs enthalten sind.</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1984-01-25-10-049.u34" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg42">Herr Kollege Stahl, Ihre Frage enthält eine derartige Spezialisierung, daß ich, um Ihnen keine falschen Zahlen zu übermitteln, gern bereit bin, sie Ihnen schriftlich zu beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u35" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg43">Eine weitere Zusatzfrage des Abgeordneten Fischer.</seg>
+        </u>
+        <note type="speaker">Fischer (Homburg) (SPD):</note>
+        <u who="#Q1262223" xml:id="ParlaMint-DE_1984-01-25-10-049.u36" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg44">Herr Staatssekretär, gibt es Alternativen zu den Katalysatoren, oder ist vorgesehen, die Katalysatoren ab 1986 zwingend vorzuschreiben?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1984-01-25-10-049.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg45">Es ist bekannt, daß sich die Bundesregierung im Hinblick auf die Katalysatorentechnik nicht festgelegt hat, weil die Automobilindustrie, und zwar weltweit, an Alternativen arbeitet, die technisch zu den gleichen Abgasgrenzwerten führen wie die Katalysatorentechnik. Es wird eine Frage der technischen Entwicklung sein, ob Alternativtechniken rechtzeitig zur Verfügung stehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg46">Eine weitere Zusatzfrage des Abgeordneten Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD):</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1984-01-25-10-049.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg47">Herr Staatssekretär, können Sie einmal der Frage nachgehen, ob in der Bundesrepublik nicht schon mehrere Wagentypen, die mit Katalysatoren ausgerüstet sind, verkauft werden? Denn es gab eine Zeitschrift, die behauptete, daß es eine ganze Menge, etwa 20, Typen von Fahrzeugen gebe, die die Grenzwerte, wie sie von Ihnen künftig festgelegt werden, erfüllen?</seg>
+        </u>
+        <note type="speaker">Spranger, Pari. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1984-01-25-10-049.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg48">Es ist bekannt, daß eine Reihe von Firmen — auch in der Größenordnung, wie Sie sie nennen — mehrere Fahrzeugtypen in anderen Staaten, beispielsweise in den USA anbieten, so daß die Information zutrifft, daß die Produktion von Fahrzeugtypen mit Katalysatoren größer ist, als sie speziel hier in der Bundesrepublik Deutschland angeboten werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u41" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg49">Keine weiteren Zusatzfragen mehr. Ich danke Ihnen, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers der Finanzen auf. Zur Beantwortung steht der Herr Parlamentarische Staatssekretär Dr. Voss zur Verfügung. Der Fragesteller der Frage 16, der Abgeordnete Kirschner, hat um schriftliche Beantwortung gebeten. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 17 des Abgeordneten Dr. Sperling auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg50">Teilt die Bundesregierung die im letzten Jahresgutachten des Sachverständigenrates vertretene Auffassung, daß bei der Neugestaltung der steuerlichen Behandlung von Wohneigentum eine höhere Besteuerung der jetzigen Wohneigentümer angebracht ist? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parlamentarischer Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u42" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg51">Herr Kollege Sperling, sind Sie einverstanden, daß ich wegen des Sachzusammenhangs Ihre Fragen 17 und 18 zusammen beantworte?</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Sperling [SPD]: Ja!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg52">— Danke schön.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u43" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg53">Ich rufe zugleich die Frage 18 des Abgeordneten Sperling auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg54">Teilt die Bundesregierung die Auffassung aus dem letzten Gutachten des Sachverständigenrates, daß es bei der Neugestaltung der steuerlichen Behandlung von Wohneigentum erforderlich ist, Veräußerungsgewinne, die beim Verkauf von Wohneigentum erzielt werden, steuerlich wirksamer zu erfassen?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u44" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg55">Die Bundesregierung prüft zur Zeit, Herr Kollege Sperling, die möglichen Formen der künftigen Besteuerung des selbstgenutzten Wohnraums. Zu einzelnen materiell-rechtlichen Fragen kann daher zur Zeit keine Stellung genommen werden. Zu gegebener Zeit wird die Bundesregierung das Ergebnis ihrer Prüfung mitteilen. Im übrigen darf ich bei der von Ihnen zitierten Äußerung des Sachverständigenrats zur Neugestaltung der steuerlichen Behandlung von Wohneigentum darauf hinweisen, daß der Sachverständigenrat aus Gründen des Vertrauensschutzes für Bauherren, die in der Vergangenheit auf den Schuldzinsenabzug verzichten mußten, vorschlägt, bei der Einführung der sogenannten Investitionsgutlösung für die jetzigen Wohneigentümer eine Übergangsregelung vorzusehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u45" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg56">Zusatzfrage, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u46" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg57">Herr Staatssekretär, prüft die Bundesregierung dies auch in Zusammenarbeit mit den Finanzverwaltungen der Länder, um sicher zu sein, daß sie, welche Regelung auch immer sie findet, eine möglichst wenig bürokratische Regelung sowohl für frühere Bauherren wie auch für die Bauherren der Zukunft findet?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u47" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg58">Herr Kollege Sperling, Sie können davon ausgehen, daß eine umfassende Prüfung erfolgen wird, die natürlich im ersten Schritt unter den zuständigen Ressorts und den beteiligten Referaten vor sich geht. Aber ich gehe davon aus, daß auch der Bereich, den Sie eben angesprochen haben, in die Prüfung einbezogen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u48" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg59">Weitere Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u49" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg60">Herr Staatssekretär, ist die Bundesregierung, um den Prüfungsaufwand bürokratischer Art zwischen den Ressorts der Bundesregierung nicht allzu hoch zu treiben, bereit, rechtzeitig zur Kenntnis zu nehmen, was der eine der Koalitionspartner zu diesem Thema deutlich und öffentlich gesagt hat?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u50" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg61">Sie können auch hier davon ausgehen, Herr Kollege, daß die Bundesregierung alles das zur Kenntnis nimmt, was von den entsprechenden politischen Seiten geäußert wird, und daß sie das auch entsprechend in ihre Überlegungen einbeziehen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u51" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg62">Weitere Zusatzfrage, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u52" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg63">Herr Staatssekretär, da Sie gesagt haben, die Bundesregierung werde die Prüfungsergebnisse zu gegebener Zeit mitteilen, frage ich: Wann könnte denn die Zeit etwa gegeben sein?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u53" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg64">Sofort dann, Herr Kollege, wenn die Prüfungen, die jetzt angelaufen sind und die jetzt durchgeführt werden, beendet sein werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u54" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg65">Sie haben noch eine Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u55" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg66">Herr Staatssekretär, würden Sie als Sprecher der Bundesregierung Ihre soeben gegebene Antwort als sehr erleuchtend qualifizieren?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u56" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg67">Diese Qualifikation, Herr Kollege, möchte ich Ihnen selbst überlassen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Sehr gut! bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u57" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg68">Weitere Zusatzfrage des Abgeordneten Krizsan.</seg>
+        </u>
+        <note type="speaker">Krizsan (GRÜNE):</note>
+        <u who="#Q1444261" xml:id="ParlaMint-DE_1984-01-25-10-049.u58" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg69">Herr Staatssekretär, ein beliebtes Wort in den Antworten der Bundesregierung scheint „prüfen" zu sein. Können Sie mir sagen: Was tut denn die Bundesregierung noch, außer zu prüfen?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u59" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg70">Herr Kollege, die sich anbietenden Möglichkeiten gegeneinander abzuwägen — das ist j a letztlich das, was man mit „Prüfen" bezeichnet — ist ein sehr wichtiger Weg und eine sehr wichtige Sache, um nicht zu falschen Lösungen zu gelangen. Daher legt die Bundesregierung auf diesen Vorgang entscheidenden Wert.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf des Abg. Lambinus [SPD]</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u60" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg71">Herr Kollege Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD):</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1984-01-25-10-049.u61" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg72">Herr Staatssekretär, Sie antworteten eben dem Kollegen Sperling, daß die Bundesregierung prüft. Darf ich Sie fragen, wann die Prüfung zu Ende ist, bezogen auf einen festzulegenden Termin?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Lambinus [SPD]: Auch das muß doch erst geprüft werden!</desc>
+        </vocal>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u62" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg73">Es ist schwierig, Herr Kollege, jetzt einen fixen Termin zu sagen, da man ja bei Prüfungen und Verhandlungen, die man mit einer Reihe von Partnern zu führen hat, nie ganz genau sagen kann, wann man hier zeitlich abkommt. Aber Sie können auch hier sicher sein, daß wir bestrebt sind, einen möglichst baldigen Zeitpunkt für den Abschluß der Prüfung anzugehen. Ich gehe davon aus, daß das im Laufe des Jahres absolut sein wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u63" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg74">Weitere Zusatzfrage. Herr Abgeordneter Fischer.</seg>
+        </u>
+        <note type="speaker">Fischer (Homburg) (SPD):</note>
+        <u who="#Q1262223" xml:id="ParlaMint-DE_1984-01-25-10-049.u64" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg75">Herr Staatssekretär, können Sie bestätigen, daß das Ergebnis der Prüfung als Steuerrecht zum 1. Januar 1985 in Kraft treten kann?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u65" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg76">Nein, das kann ich nicht bestätigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u66" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg77">Keine weitere Zusatzfrage. Ich rufe die Frage 19 des Abgeordneten Becker (Nienberge)</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg78">auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg79">Wie viele Beförderungs-Planstellen stehen im Jahr 1984 für die Beamten des Bundes zur Verfügung? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg80">Wie viele Beförderungsplanstellen für Beamte, d. h. Stellen oberhalb des Eingangsamtes, im Jahr 1984 frei werden, Herr Kollege, und für Beförderungen genutzt werden können, läßt sich nicht genau sagen, weil zu Beginn des Jahres noch nicht bekannt ist, wie viele Beamte von der Möglichkeit einer vorzeitigen Versetzung in den Ruhestand Gebrauch machen und wie viele Beamte durch Tod, Entlassung oder Versetzung zu einem anderen Dienstherrn ausscheiden werden. Fest steht zur Zeit lediglich die Zahl der Beamten, die im Jahre 1984 das 65. Lebensjahr erreichen und in den Ruhestand treten. Die genaue Zahl müßte durch Umfragen bei den einzelnen Ressorts ermittelt werden. Bei einer groben Schätzung, bei der eine Ausscheidensquote von 2,5 bis 3 % der Beamten zugrunde gelegt wird, ergeben sich bei einem Planstellenbestand von 112 909 etwa 3 000 Ausscheidensfälle. Diese 3 000 Ausscheidensfälle führen dann zu Beförderungsmöglichkeiten für 9 000 Beamte. Wegen der in das Haushaltsgesetz aufgenommenen Besetzungssperre wird im Jahre 1984 etwa die Hälfte aller frei werdenden Stellen nicht im gleichen Jahr in Anspruch genommen werden können, so daß sich bei dieser Schätzung etwa 4 500 Beförderungsmöglichkeiten im Jahre 1984 ergeben werden.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Lambinus [SPD]: Und der Überhang vom vorigen Jahr?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg81">Zusatzfrage, Herr Abgeordneter, bitte.</seg>
+        </u>
+        <note type="speaker">Becker (Nienberge) (SPD):</note>
+        <u who="#Q1604393" xml:id="ParlaMint-DE_1984-01-25-10-049.u69" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg82">Herr Staatssekretär, ist es Ihnen auch möglich, die Beförderungsplanstellen bei Bahn und Post zu nennen?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u70" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg83">Herr Kollege, dazu wären spezielle Umfragen bei Bahn und Post erforderlich, da hier die Verhältnisse anders sind als beim Bund. Diese Umfragen sind bisher nicht erfolgt, so daß ich Ihnen im Moment keine präzise Antwort zu geben vermag.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u71" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg84">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Becker (Nienberge) (SPD):</note>
+        <u who="#Q1604393" xml:id="ParlaMint-DE_1984-01-25-10-049.u72" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg85">Herr Staatssekretär, wären Sie bereit, mir diese Angaben noch zukommen zu lassen, und hätten Sie auch die Freundlichkeit, das nach Laufbahnen für die beiden Bereiche Bahn und Post zu unterteilen?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u73" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg86">Ich will versuchen, ob das möglich ist, und werde Ihnen dann die Antwort zukommen lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u74" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg87">Keine weitere Zusatzfrage. Der Fragesteller der Frage 20, Herr Abgeordneter Dr. Steger, hat um schriftliche Antwort gebeten. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 21 des Herrn Abgeordneten Fischer (Homburg)</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg88">auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg89">Wie beurteilt die Bundesregierung die Tatsache, daß die Industrieverwaltungsgesellschaft mbH Gelände am ehemaligen Zollbahnhof in Homburg/Saar an die Saarbergwerke AG verkauft hat zwecks Anlegung einer Kohlehalde? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg90">Die Geschäftsleitungen der Bundesunternehmen führen ihre Gesellschaften unter Kontrolle des Aufsichtsrats in eigener Verantwortung. Soweit die Entscheidungen keine Nachteile für die Gesellschaft oder für den Eigentümer Bund zur Folge haben und nicht gegen geltendes Gesetz verstoßen, sieht die Bundesregierung keinen Anlaß, bei den Geschäftsleitungen einzugreifen. Die Veräußerung des Geländes der Industrieverwaltungsgesellschaft am ehemaligen Zollbahnhof in Homburg/Saar an die Saarbergwerke AG entspricht den genannten Gesichtspunkten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg91">Zusatzfrage, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Fischer (Homburg) (SPD):</note>
+        <u who="#Q1262223" xml:id="ParlaMint-DE_1984-01-25-10-049.u77" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg92">Herr Staatssekretär, ist Ihnen bekannt, daß das angekaufte Gelände, auf dem von der Saarbergwerke AG die geplante Kohlenhalde angelegt werden soll, im Westen der Stadt Homburg liegt und daß die Stadt Homburg die Medizinische Fakultät der Universität des Saarlandes und die Landeskrankenanstalten beheimatet?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg93">Das ist mir bekannt, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Fischer (Homburg) (SPD):</note>
+        <u who="#Q1262223" xml:id="ParlaMint-DE_1984-01-25-10-049.u79" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg94">Ist Ihnen auch bekannt, daß der damalige Staatssekretär Herr Haehser, nachdem er das Gelände besichtigt hatte, mit Schreiben vom März 1981 erklärt hat, daß die Saarbergwerke als Käufer dieses Geländes der IVG ausscheiden?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u80" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg95">Herr Kollege, auch das ist mir bekannt. Damals waren Verhandlungen zwischen der Stadt Homburg und den Saarbergwerken im Gange. Es sah damals so aus, als ob man zu einem befriedigenden Abschluß mit der Stadt kommen würde. Ich gehe davon aus, daß aus diesem Grunde Herr Kollege Haehser damals die Meinung vertreten hat, daß die Saarbergwerke als Käufer ausscheiden würden. Das hat sich aber später als nicht realistisch erwiesen, weil halt die Preisvorstellungen bei der Stadt nur in einem Umfange vorhanden waren, der mit den Vorstellungen des Veräußerers nicht übereinstimmte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u81" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg96">Weitere Zusatzfrage? — Bitte.</seg>
+        </u>
+        <note type="speaker">Fischer (Homburg) (SPD):</note>
+        <u who="#Q1262223" xml:id="ParlaMint-DE_1984-01-25-10-049.u82" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg97">Sind jetzt meine beiden Fragen beantwortet?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u83" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg98">Herr Abgeordneter, entschuldigen Sie, Sie haben eben gerade schon eine Frage zu Ihrer zweiten Frage gestellt, so daß ich davon ausgehe, daß Sie insgesamt vier Fragen zur Verfügung haben. Sie haben jetzt noch zwei Fragen.</seg>
+        </u>
+        <note type="speaker">Fischer (Homburg) (SPD):</note>
+        <u who="#Q1262223" xml:id="ParlaMint-DE_1984-01-25-10-049.u84" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg99">Welche Verhandlungen sind von seiten der IVG mit der Stadt Homburg geführt worden und mit welchem Ergebnis?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u85" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg100">Die Verhandlungen mit der Stadt Homburg sind so verlaufen, daß man sich hinsichtlich des Preises nicht zu einigen vermochte. Daher ist es nicht zu einem Abschluß gekommen. Aber die zweite Frage, Herr Präsident, ist noch nicht aufgerufen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u86" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg101">Das ist richtig. Aber der Abgeordnete Fischer hatte im Zusammenhang mit Herrn Haehser zur zweiten von ihm eingebrachten Frage eine Zusatzfrage gestellt, so daß ich zugrunde gelegt habe, daß er insgesamt vier Zusatzfragen stellen kann. Aber, bitte, Herr Parlamentarischer Staatssekretär, beantworten Sie nun die Frage 22 des Abgeordneten Fischer (Homburg):</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg102">Wie beurteilt die Bundesregierung die Tatsache, daß der damalige Staatssekretär im Bundesfinanzministerium, Haehser, am 5. März 1981 bestätigt hat, daß die Saarbergwerke als Käufer obigen Geländes aus umweltpolitischen Erwägungen nicht in Frage kommen?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg103">Im Zeitpunkt der Zusage des ehemaligen Parlamentarischen Staatssekretärs Haehser, daß die Saarbergwerke AG aus Umweltschutzgründen als Erwerber des Grundstückes ausscheide, befanden sich sowohl die Stadt Homburg als auch die Saarbergwerke AG in aussichtsreichen Kaufverhandlungen mit der Industrieverwaltungsgesellschaft. Bei dieser Sachlage ist es verständlich, daß der damalige Parlamentarische Staatssekretär Haehser aus übergeordneten Gesichtspunkten die Stadt als Erwerber bevorzugte. In den späteren Verhandlungen konnte jedoch kein Einvernehmen über die Zahlungsbedingungen mit der Stadt erreicht werden. Auf ein Angebot der Industrieverwaltungsgeseilschaft vom 11. Mai 1982 ist die Stadt Homburg nicht mehr eingegangen. Da die Saarbergwerke AG bereit war, den von der Industrieverwaltungsgesellschaft geforderten Kaufpreis zu zahlen und die Zahlungsbedingungen zu akzeptieren, stimmte der Aufsichtsrat der Industrieverwaltungsgesellschaft am 8. Juni 1983 dem Verkauf zu. Im übrigen, Herr Kollege, bedarf die Errichtung einer Kohlenhalde auf diesem Grundstück der Genehmigung der Stadt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg104">Eine letzte Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Fischer (Homburg) (SPD):</note>
+        <u who="#Q1262223" xml:id="ParlaMint-DE_1984-01-25-10-049.u89" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg105">Herr Staatssekretär, können Sie bestätigen, daß der damalige Staatssekretär Karl Haehser als Begründung unter Punkt 1 angeführt hat, daß die Saarbergwerke AG aus umweltpolitischen Gesichtspunkten ausscheide?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u90" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg106">Damals ist die Rede davon gewesen, daß die Saarbergwerke AG ausscheide, weil wohl die berechtigte Aussicht bestand, daß die Stadt Homburg das Grundstück zu den Konditionen erwerben würde, die gestellt worden sind.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Fischer [Homburg] [SPD]: Meine Frage ist damit nicht beantwortet, Herr Präsident! Ich habe gefragt — —</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u91" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg107">Einen Augenblick, Herr Abgeordneter. Das ist eine Wertung. Sie haben vier Fragen gestellt. Ihnen stehen nur vier Zusatzfragen zu.</seg>
+          <vocal type="exclamat">
+            <desc>Fischer [Homburg] [SPD]: Zwischen Umweltpolitik und Finanzpolitik besteht ein Unterschied! Meine Frage ist nicht beantwortet!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg108">Das Wort zu einer Zusatzfrage hat der Herr Abgeordnete Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u92" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg109">Herr Staatssekretär, muß ich aus dem Zusammenhang Ihrer Antworten entnehmen, daß diese Bundesregierung als Eigentümerin der entsprechenden Firma die Vernachlässigung des Umweltschutzes nicht als Nachteil erkennen kann und darum dem Aufsichtsrat nicht die Weisung gegeben hat, den entsprechenden Ankauf zu verhindern?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg110">Herr Kollege, das müssen Sie nicht annehmen, und nach meiner Vorstellung dürfen Sie das auch nicht annehmen; denn ich habe eben die Kriterien genannt, unter denen die Bundesregierung eine Anweisung an die Gesellschaft vornehmen würde. Diese Gründe sind hier nicht gegeben, und ergo bestand auf seiten der Bundesregierung keine Veranlassung, auf die Gesellschaft einzuwirken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u94" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg111">Eine weitere Zusatzfrage des Abgeordneten Lambinus.</seg>
+        </u>
+        <note type="speaker">Lambinus (SPD):</note>
+        <u who="#Q2504480" xml:id="ParlaMint-DE_1984-01-25-10-049.u95" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg112">Herr Staatssekretär, können Sie mir bitte erklären, wieso — wie Sie selbst vorlasen — umweltpolitische Gründe, die gegen einen Verkauf dieser Fläche sprachen, plötzlich nicht mehr gelten sollen, weil nunmehr andere Gründe diese Fläche für die Saarbergwerke AG erforderlich machen?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u96" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg113">Herr Kollege, Sie müssen meine Antwort falsch verstanden haben.</seg>
+          <vocal type="exclamat">
+            <desc>Lambinus [SPD]: Nein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg114">Ich habe das nicht in dieser Form geäußert. Ich habe lediglich gesagt, daß zum damaligen Zeitpunkt die Stadt Homburg als Interessent stärker im Vordergrund stand und daß man aus diesem Grunde einen Erwerb durch die Saarbergwerke AG ausschließen konnte. Ich habe weiterhin gesagt, daß die Zweckbestimmung, der die Saarbergwerke AG das Grundstück eventuell zuführen will, ja noch von der Genehmigung abhängt, die die Stadt zu geben hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u97" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg115">Eine weitere Zusatzfrage des Abgeordneten Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD):</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1984-01-25-10-049.u98" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg116">Herr Staatssekretär, darf ich Sie auf Grund der Darstellung, die Sie gegeben haben, fragen, ob Sie schon jetzt dazu etwas sagen können, ob die Stadt Homburg unter den gegebenen Gesichtspunkten, wie ja dargestellt wird, die Genehmigung für das Aufhalden auf diesem Grundstück erteilen wird.</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg117">Herr Kollege, wenn ich richtig informiert bin, ist der Rat der Stadt Homburg von der SPD bestimmt, so daß es mir verhältnismäßig schwer sein dürfte, mich in die Intentionen und die Motivationen dieses Gremiums hineinzugeben.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Sehr gut! bei der CDU/CSU — Stahl [Kempen] [SPD]: Auch dies ist falsch!</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg118">Weitere Zusatzfrage des Abgeordneten Gansel.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD):</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1984-01-25-10-049.u101" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg119">Herr Staatssekretär, sind Sie bereit, nach der Lektüre des Protokolls der Fragestunde den Eindruck zu korrigieren, daß umweltpolitische Erwägungen zurückgestellt worden sind, nachdem bei der Saarbergwerke AG ein höherer Verkaufspreis als bei der Stadt Homburg zu erzielen war?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u102" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg120">Herr Kollege Gansel, im Moment sehe ich keine Veranlassung, nach Lektüre des Protokolls meine Meinung zu ändern; denn ich glaube, noch präsent zu haben, was ich geantwortet habe. Ich habe hier lediglich noch hinzuzufügen, daß für den Verkauf des Grundstücks im Vergleich zwischen Stadt und Saarbergwerke AG der Preis natürlich eine Rolle spielte; denn das Grundstück war zu einem Preis erworben worden, der nach ökonomischen Gesichtspunkten wieder erzielt werden sollte.</seg>
+          <vocal type="exclamat">
+            <desc>Lambinus [SPD]: Profit vor Umweltschutz!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg121">Die Frage des Umweltschutzes spielt hier insofern eine untergeordnete Rolle, als die entsprechende Genehmigung j a erst von der Stadt Homburg und hier vom SPD-regierten Stadtrat erteilt werden muß. Herr Kollege, solange diese Genehmigung nicht erteilt wird, kann die Saarbergwerke AG das Grundstück nicht so nutzen, wie sie es vielleicht möchte. Ergo liegt keinerlei Verletzung irgendeines Umweltgesichtspunkts vor.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u103" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg122">Weitere Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD):</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1984-01-25-10-049.u104" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg123">Herr Staatssekretär, kann ich Ihre Antwort so verstehen, daß Sie die Gremien der Stadt Homburg ermuntern wollen, scharfe Umweltauflagen für dieses Grundstück zu machen, damit die Bundesregierung auf der einen Seite den höheren Verkaufspreis erzielen kann und auf der anderen Seite die Ziele ihrer Umweltpolitik erfüllen kann?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg124">Herr Kollege, ich habe nicht die Aufgabe, die Stadt Homburg und ihre Gremien zu ermuntern. Ich kann es ihr nur unbenommen sein lassen, das zu tun, was sie in dieser Region für den Umweltschutz für notwendig hält.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u106" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg125">Weitere Zusatzfrage des Abgeordneten Dr. Scheer.</seg>
+        </u>
+        <note type="speaker">Dr. Scheer (SPD):</note>
+        <u who="#Q63346" xml:id="ParlaMint-DE_1984-01-25-10-049.u107" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg126">Herr Staatssekretär, da entgegen Ihrer Aussage der Oberbürgermeister der hier angesprochenen Stadt der CDU angehört und auch die Mehrheit des Stadtrats der CDU angehört:</seg>
+          <kinesic type="applause">
+            <desc>Hört! Hört! bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg127">können Sie vor diesem Hintergrund Ihre Aussage, die Sie zuvor getroffen haben, zurücknehmen und sich dann besser in die Entscheidungssituation der Verantwortlichen dieser Stadt hineinversetzen, als Sie es eben getan haben?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u108" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg128">Ich habe eben gesagt, Herr Kollege, daß nach meiner Kenntnis die Mehrheitsverhältnisse im Stadtrat so sind, wie ich sie eben qualifiziert habe.</seg>
+          <vocal type="exclamat">
+            <desc>Lambinus [SPD]: Was hat das mit der Sache zu tun?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg129">Aber ich gehe davon aus, daß die Maximen für eine Entscheidung, was die Umweltbedürfnisse angeht, sowohl bei dieser als auch bei jener Mehrheit gleich sein dürften.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u109" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg130">Eine weitere Zusatzfrage des Abgeordneten Dr. Scheer.</seg>
+        </u>
+        <note type="speaker">Dr. Scheer (SPD):</note>
+        <u who="#Q63346" xml:id="ParlaMint-DE_1984-01-25-10-049.u110" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg131">Wie ist das mit Ihrer Vorrede vereinbar? Sie haben eben genau das Gegenteil von dem gesagt, was vorher von Ihnen zum Ausdruck gebracht wurde.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der CDU/CSU: Stimmt doch gar nicht!</desc>
+        </vocal>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u111" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg132">Herr Kollege, das sind wieder Qualifizierungen, die Sie vornehmen und die ich Ihrem intellektuellen Vermögen überlassen möchte.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Zustimmung bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u112" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg133">Weitere Zusatzfrage des Abgeordneten Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD):</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1984-01-25-10-049.u113" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg134">Herr Staatssekretär, nachdem Sie meine Frage bezüglich der Mehrheit bewußt falsch beantwortet haben, frage ich Sie, ob Sie die Bitte nicht zurücknehmen und sich korrigieren wollen.</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u114" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg135">Herr Kollege, ich habe bewußt nichts falsch beantwortet. Ich habe lediglich auf Grund meiner Information geantwortet. Wenn diese Information in diesem Fall nicht zutreffend war, was ich nachprüfen werde, dann werde ich das entsprechend korrigieren. Aber Sie werden mir zugeben müssen, Herr Kollege, daß bei Informationen dieser Art durchaus schon einmal ein Irrtum vorkommen kann, ohne daß ich Ihnen hier etwas vortragen wollte oder in meine Antwort etwas hineinbringen wollte, was den Umständen bewußt nicht entspricht.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Kunz [Weiden] [CDU/CSU]: Nur Ideologen sind unfehlbar!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg136">Zusatzfrage des Abgeordneten Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u116" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg137">Herr Staatssekretär, könnten Sie mir das Vergnügen machen, sich mit mir gemeinsamen daran zu erinnern, daß Sie gesagt haben, Ihnen fehle die Phantasie, sich in eine SPD-Mehrheit in der Stadt Homburg hineinzuversetzen, und darf man daraus schließen, daß Sie die Phantasie haben — wahrscheinlich brauchen Sie dafür weniger —, sich in eine CDU-Mehrheit in dieser Stadt hineinversetzen zu können?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg138">Herr Kollege, das fällt mir zugegebenermaßen etwas leichter; dennoch bleibt eine Restschwierigkeit, weil es immer schwierig ist, sich in Intentionen, in Vorstellungen, in Bedürfnisse, die von einem Entscheidungsgremium ausgehen, hineinzuversetzen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Sperling [SPD]: Jetzt haben Sie sich bereits zum zweitenmal widersprochen!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg139">Meine Damen und Herren, ich bitte doch, bei künftigen Fragen Wertungen zu unterlassen. — Letzte Frage, bitte, Herr Abgeordneter Lambinus.</seg>
+        </u>
+        <note type="speaker">Lambinus (SPD):</note>
+        <u who="#Q2504480" xml:id="ParlaMint-DE_1984-01-25-10-049.u119" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg140">Herr Staatssekretär, es hat wohl wenig mit meinem intellektuellen Vermögen zu tun, wenn ich Sie um die Beantwortung der Frage bitte, was Sie unter einem „SPD-regierten Stadtrat" — so haben Sie wörtlich ausgeführt — verstehen?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1984-01-25-10-049.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg141">Herr Kollege, das ergab sich aus den Unterlagen, die ich dazu habe. Wenn darin ein Irrtum enthalten sein sollte, muß dieser Irrtum korrigiert werden. Vielleicht hat sich das geändert. Ich weiß im Moment aber nicht genau, ob das an der betreffenden Stelle, die die Vorbereitung vorgenommen hat, angekommen ist. Ich bin davon ausgegangen, daß hier eine Mehrheit in diesem Sinne bestanden hat.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Lambinus [SPD]: Seit wann werden Stadträte von irgend jemandem regiert?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg142">Es sollen keine weiteren Zusatzfragen mehr gestellt werden. — Ich danke Ihnen, Herr Staatssekretär. Wir kommen zum Geschäftsbereich des Bundesministers für Wirtschaft. Zur Beantwortung der Fragen steht der Herr Parlamentarische Staatssekretär Dr. Sprung zur Verfügung. Ich rufe die Frage 23 des Abgeordneten Dr. Kunz (Weiden)</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg143">auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg144">Kann die Bundesregierung bestätigen, daß die Bundesrepublik Deutschland bei der Verteilung der Mittel des Europäischen Regionalfonds insofern schlecht weggekommen ist, als der der Bundesrepublik Deutschland zustehende Anteil von 4,65 v. H. der Gesamtmittel des Fonds ca. 350 Millionen DM ausmacht, sie tatsächlich aber nur 98,8 Millionen DM für Regionalprojekte erhalten hat? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u122" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg145">Herr Kollege Kunz, die Kommission der Europäischen Gemeinschaft hat vor kurzem Angaben über die Verteilung der Mittel des Europäischen Fonds für regionale Entwicklung im Jahre 1983 veröffentlicht. Diese Angaben werfen eine Reihe von Fragen auf, um deren Klärung mit der EG-Kommission sich die Bundesregierung zur Zeit bemüht. Der Bundesregierung stehen gegenwärtig folgende Informationen zur Verfügung: Der Anteil der Bundesrepublik beläuft sich für das Jahr 1983 auf rund 204 Millionen DM, sofern die rechtlich nur bis 1981 geltende Quotenaufteilung zugrunde gelegt wird. Im vergangenen Jahr sind Rückerstattungen aus dem Fonds in Höhe von rund 154 Millionen DM an die Bundesrepublik erfolgt. Zur Zeit liegen der Kommission noch deutsche Anträge mit einem Volumen in Höhe von 90 Millionen DM vor, über die die Kommission noch nicht entschieden hat. Über das Gesamtergebnis für die Bundesrepublik Deutschland für das Jahr 1983 lassen sich daher noch keine abschließenden Aussagen treffen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg146">Zusatzfrage, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU):</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1984-01-25-10-049.u124" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg147">Herr Staatssekretär, was sind die Gründe für die offensichtliche Tatsache, daß nicht ausreichend viele Regionalprojekte beim europäischen Regionalfonds vorgelegt wurden, um das deutsche Kontingent auszuschöpfen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg148">Herr Kunz, wie ich bereits gesagt habe, liegen noch Anträge mit einem Volumen von über 90 Millionen DM vor, über die die Kommission noch zu entscheiden hat. Ihre Frage, welches die Gründe dafür seien, daß nicht genügend Anträge gestellt worden seien, bezieht sich offenbar auf Presseberichte über eine Veröffentlichung der EG-Kommission, in der dieser Vorwurf erhoben wird. Die Aussagen der EG-Kommission und die von ihr veröffentlichten Zahlenangaben sind für uns zur Zeit zu einem großen Teil nicht nachvollziehbar. Wir wissen nicht, wie die Kommission zu diesen Zahlen, zu diesen Aussagen gekommen ist. Wir haben deshalb der Kommission geschrieben — ich erwähnte es schon —; wir stehen deshalb inzwischen mit der Kommission in Kontakt. Und wir haben sie um nähere Aufklärung insbesondere über ihr Vorgehen bei der Verteilung der Fondsmittel für das letzte Jahr gebeten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u126" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg149">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Kunz (Weiden) (CDU/CSU):</note>
+        <u who="#Q1912892" xml:id="ParlaMint-DE_1984-01-25-10-049.u127" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg150">Herr Staatssekretär, welche Wirtschaftsbereiche im Zonenrandgebiet könnten aus diesem Regionalfonds gefördert werden?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u128" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg151">Für die Inanspruchnahme der Mittel gelten die Voraussetzungen, die auf europäischer Ebene für den Einsatz des Regionalfonds beschlossen und festgelegt worden sind. Hier ist der Zonenrand nicht ausgeschlossen. Ich kann Ihnen jetzt die Voraussetzungen nicht im Detail nennen, aber es ist grundsätzlich möglich, Vorhaben, die im Zonenrandgebiet durchgeführt werden, für eine Erstattung anzumelden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u129" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg152">Eine Zusatzfrage des Abgeordneten Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u130" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg153">Herr Staatssekretär, wäre es nicht sinnvoll, nachdem wir Ihrer Antwort entnehmen müssen, daß so manches, was an Geldflüssen aus Europa stattfinden müßte, für Ihr Ressort zweifelhaft und rätselhaft ist, diese Aufgabe dem Raumordnungsministerium zu überlassen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u131" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg154">Herr Sperling, es ist nicht zweifelhaft, in welchem Umfang und für welche Zwecke Mittel aus dem europäischen Regionalfonds in die Bundesrepublik gehen können. Deshalb besteht auch keine Notwendigkeit, eine andere Zuständigkeit zu vereinbaren oder vorzusehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u132" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg155">Keine weitere Zusatzfrage. Ich rufe die Frage 24 der Frau Abgeordneten Reetz auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg156">Kann die Bundesregierung mit Sicherheit ausschließen, daß die nach einer Linzenz der Firma Motoren-TurbinenUnion (MTU)</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg157">, Friedrichshafen, in Rumänien hergestellten Motoren im Leistungsbereich 470 PS bis 1360 PS einer militärischen Verwendung zugeführt werden? Bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg158">Frau Kollegin, die Firma Motoren-Turbinen-Union (MTU)</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg159">, Friedrichshafen, hat 1977 im Anschluß an eine ausgelaufene Lizenz zur Fertigung von Maybach-Dieselmotoren aus dem Jahre 1963 eine Lizenz über die Dieselmotoren- Baureihen 331/396 nach Rumänien vergeben. Es handelt sich dabei um weitverbreitete zivile Motoren im Leistungsbereich von 470 bis 1360 PS für Generator-Anlagen, Lokomotiven, Muldenkipper, Feuerlöschfahrzeuge, Schneeräumgeräte und dergleichen. Beide Baureihen sind zivile Motoren, die für den Antrieb von Panzern und anderen militärischen Fahrzeugen nicht besonders konstruiert oder in wesentlichen Merkmalen für militärische Anwendung abgeändert sind. Sie werden deshalb nicht von der Position 0006 (1)</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg160">der Ausfuhrliste erfaßt. Die Lizenzvergabe und der Export unterliegen daher keinerlei Beschränkungen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg161">Zusatzfrage, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Frau Reetz (GRÜNE):</note>
+        <u who="#Q1078167" xml:id="ParlaMint-DE_1984-01-25-10-049.u135" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg162">Welche Kontrolle hat die Bundesregierung oder die Firma MTU über den Einbau der in Lizenz hergestellten Motoren? In welche Maschinen und, detailliert, in welchem PS-Bereich?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u136" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg163">Da, wie ich schon sagte, die Lizenzvergabe und der Export keinerlei Beschränkungen unterliegen, gibt es auch keine Möglichkeit zu prüfen, wofür diese Motoren dann letztendlich verwandt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg164">Weitere Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Frau Reetz (GRÜNE):</note>
+        <u who="#Q1078167" xml:id="ParlaMint-DE_1984-01-25-10-049.u138" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg165">Dann ist die Bundesregierung auch nicht darüber unterrichtet, in welche Länder und in welcher Anzahl diese Motoren von Rumänien exportiert werden?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u139" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg166">Wir wissen nicht, ob solche Motoren exportiert werden. Wir wissen daher auch nicht, wohin sie gehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u140" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg167">Eine Zusatzfrage, Herr Abgeordneter Gansel.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD):</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1984-01-25-10-049.u141" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg168">Können Sie bestätigen, daß der Bundesregierung seit langem bekannt ist, daß MTU Motoren exportiert bzw. die Lizenzen für den Bau von Motoren für Panzer im südamerikanischen und asiatischen Raum zur Verfügung gestellt hat?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg169">Ich kann dies nicht bestätigen, weil ich darüber keinerlei Informationen habe und die Frage auch nicht gestellt worden ist. Ich glaube aber, wir können davon ausgehen, daß Exporte für diese Zwecke nicht stattfinden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg170">Weitere Zusatzfrage des Abgeordneten Krizsan.</seg>
+        </u>
+        <note type="speaker">Krizsan (GRÜNE):</note>
+        <u who="#Q1444261" xml:id="ParlaMint-DE_1984-01-25-10-049.u144" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg171">Herr Staatssekretär, Sie haben vorhin erklärt, daß diese Motoren ausschließlich ziviler Nutzung dienten. Wie können Sie denn feststellen, daß solche Motoren nicht auch militärischen Nutzungen dienen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg172">Ich habe Ihrer Kollegin schon geantwortet, daß wir dies deshalb annehmen können, weil die Motoren so konstruiert sind, daß sie zivilen und nur zivilen Zwecken dienen. Sie sind, wie ich gesagt habe, nicht besonders für den Antrieb von Panzern und anderen militärischen Fahrzeugen konstruiert oder in wesentlichen Merkmalen für militärische Anwendungen abgeändert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg173">Zusatzfrage des Abgeordneten Lambinus.</seg>
+        </u>
+        <note type="speaker">Lambinus (SPD):</note>
+        <u who="#Q2504480" xml:id="ParlaMint-DE_1984-01-25-10-049.u147" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg174">Herr Staatssekretär, anschließend an die Frage des Kollegen Gansel: Sind Sie bereit, nachzuprüfen, ob derartige Exporte wie die vom Kollegen Gansel angesprochenen stattgefunden haben, und uns darüber zu informieren?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u148" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg175">Ich werde diesem Wunsch entsprechend das zuständige Ministerium bitten, solche Informationen einzuholen. Wir werden Ihnen solche Informationen, wenn sie zur Verfügung stehen, übergeben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u149" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg176">Zusatzfrage des Abgeordneten Grünbeck.</seg>
+        </u>
+        <note type="speaker">Grünbeck (FDP):</note>
+        <u who="#Q1704703" xml:id="ParlaMint-DE_1984-01-25-10-049.u150" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg177">Herr Staatssekretär, kann man davon ausgehen, daß der Bundesregierung bekannt ist, daß im Motorenbau der Wettbewerb weltweit ungeheuer scharf ist und daß wir den Export von Motoren, der ohnedies im Augenblick begrenzt ist, weiter drosseln würden, wenn wir den Abnehmern von Motoren — insbesondere in dieser PS-Stärke — Auflagen über die weitere Anwendung der Motoren oder in der Exportlizenz machten?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u151" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg178">Ich kann Ihnen das, was Sie eben gesagt haben, bestätigen. Viezepräsident Wurbs: Keine weiteren Zusatzfragen. Ich rufe Frage 25 des Abgeordneten Gansel auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg179">Ist es zutreffend, daß die Bundesregierung im vergangenen Jahr eine Genehmigung für die Lieferung von 40 000 kugelsicheren Panzerwesten an die syrische Regierung erteilt hat? Bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg180">Herr Kollege Gansel, das für Genehmigungen nach dem Außenwirtschaftsgesetz zuständige Bundesamt für Gewerbliche Wirtschaft hat im Frühjahr 1983 die Ausfuhr von 33 000 Körperschutzwesten nach Syrien genehmigt. Die deutsche Herstellerfirma hatte für das aus den USA bezogene Vormaterial eine Reexportlizenz der amerikanischen Behörden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg181">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD):</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1984-01-25-10-049.u154" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg182">Darf ich nachfragen, ob das die Antwort für meine beiden Fragen war?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg183">Das war die Antwort auf die erste Frage.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD):</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1984-01-25-10-049.u156" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg184">Meine erste Zusatzfrage: Herr Staatssekretär, ist Ihnen bekannt, daß die Bundesregierung in einer schriftlichen Antwort auf eine Anfrage hier im Bundestag erklärt hat, daß nach Syrien keine Rüstungsgüter geliefert werden sollen, und kann ich dem entnehmen, daß Sie die Lieferung von 33 000 Panzerwesten an die syrische Armee möglicherweise nicht als Lieferung von Rüstungsgütern betrachten wollen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u157" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg185">Herr Gansel, vielleicht ist es das beste, wenn ich jetzt zunächst doch ihre zweite Frage beantworte und dann auf die jetzt gestellte Frage zurückkomme.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD):</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1984-01-25-10-049.u158" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg186">Dann ziehe ich diese Frage zunächst zurück.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg187">Sie sind also damit einverstanden, daß die zweite Frage mit beantwortet wird. Ich rufe Frage 26 des Abgeordneten Gansel auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg188">Ist es zutreffend, daß die Regierung der USA die Bundesregierung ersucht hat, die Genehmigung rückgängig zu machen, um die Lage im Nahen Osten nicht weiter zu verschärfen? Bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u160" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg189">Das für Genehmigungen nach dem Außenwirtschaftsgesetz zuständige Bundesamt für Gewerbliche Wirtschaft hat im Frühjahr 1983 die Ausfuhr von 33 000 Körperschutzwesten nach Syrien genehmigt. Die deutsche Herstellerfirma hatte für das aus den USA bezogene Vormaterial eine Reexportlizenz der amerikanischen Behörden.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Gansel [SPD]: Das haben wir schon gehört!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u161" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg190">Bitte sehr, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD):</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1984-01-25-10-049.u162" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg191">Jetzt bin ich etwas verwirrt, Herr Präsident. Das haben wir schon gehört. — Sind nun beide Fragen beantwortet, Herr Staatssekretär?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg192">Ich bitte um Entschuldigung, ich hatte den falschen Zettel.</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Heiterkeit</desc>
+        </kinesic>
+        <note type="speaker">Gansel (SPD):</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1984-01-25-10-049.u164" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg193">Vielleicht hatte ich die Fragen auch verkehrt herum gestellt, Herr Staatssekretär!</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Kunz [Weiden] [CDU/CSU]: Das ist durchaus denkbar, Herr Kollege!</desc>
+        </vocal>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u165" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg194">Auf Grund der sich verschärfenden Kritik in der amerikanischen Öffentlichkeit im Hinblick auf die aktuelle Lage im Libanon haben die amerikanischen Behörden die Reexportlizenz suspendiert und die Bundesregierung gebeten, die Frage der Ausfuhr der Körperschutzwesten zu überprüfen. Jetzt zu Ihrer Zusatzfrage, die Sie gestellt haben: Die Bundesregierung überprüft diese Angelegenheit. Die Überprüfung ist noch nicht abgeschlossen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u166" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg195">Bitte sehr, Herr Abgeordneter. Jetzt können Sie Ihre drei Zusatzfragen stellen.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD):</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1984-01-25-10-049.u167" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg196">Bedeutet das, daß sich die Bundesregierung noch in der Überprüfung befindet, ob sie ihre Zusage an den Bundestag einhalten will, keine Rüstungsgüter nach Syrien zu liefern?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u168" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg197">Herr Gansel, diese Zusage ist gegeben worden, und diese Zusage wird eingehalten.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD):</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1984-01-25-10-049.u169" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg198">Da es sich bei Panzerwesten zweifelsohne um Rüstungsgüter handelt, sehe ich gar keinen Ermessensspielraum für eine Prüfung durch die Bundesregierung, wenn die von Ihnen gegebenen Antworten richtig sind. Oder sehen Sie, Herr Staatssekretär, einen solchen Spielraum?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u170" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg199">Herr Gansel, wenn bisher eine Genehmigung erteilt worden ist, so deshalb, weil diese Westen nicht als Rüstungsgüter qualifiziert worden sind.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Frau Hürland [CDU/CSU]: Gegen Sandsturm!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u171" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg200">Eine weitere Zusatzfrage? — Bitte.</seg>
+        </u>
+        <note type="speaker">Gansel (SPD):</note>
+        <u who="#Q1670247" xml:id="ParlaMint-DE_1984-01-25-10-049.u172" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg201">Der Zwischenruf der Kollegin von der Union, die Westen seien gegen Sandsturm, veranlaßt mich, Herr Präsident, zu der Frage, nach welchen Kriterien denn Rüstungsgüter in Zukunft festgelegt werden sollen, wenn zwar etwa Uniformteile oder Motorenteile durchaus darunter fallen können, aber Panzerwesten — die doch in der Regel nicht von Schützenvereinen erstanden werden — nicht.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Lambinus [SPD]: Sehr gut!</desc>
+        </vocal>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u173" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg202">Dies ist richtig, Herr Gansel, aber sie können z. B. von Polizeistreitkräften verwendet werden,</seg>
+          <vocal type="exclamat">
+            <desc>Lambinus [SPD]: Aber nicht 33 000!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg203">und dann haben sie sicherlich einen anderen Charakter.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Auch von Zivilisten!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg204">Daß diese Verwendung denkbar ist, ist ganz gewiß auch einer der Gründe dafür gewesen, daß zunächst einmal eine Genehmigung erteilt worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u174" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg205">Damit kommen wir — —</seg>
+          <vocal type="exclamat">
+            <desc>Gansel [SPD]: Habe ich nicht noch eine Zusatzfrage?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg206">— Nein.</seg>
+          <vocal type="exclamat">
+            <desc>Gansel [SPD]: Aber ich hatte doch nur drei!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg207">Eine Zusatzfrage des Abgeordneten Lambinus.</seg>
+        </u>
+        <note type="speaker">Lambinus (SPD):</note>
+        <u who="#Q2504480" xml:id="ParlaMint-DE_1984-01-25-10-049.u175" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg208">Herr Staatssekretär, können Sie mir die Frage beantworten, ob kugelsichere Panzerwesten in einer Stückzahl von 33 000 — und hier kommt es auch auf die Quantität an — nicht doch unter das Kriegswaffenexportgesetz fallen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u176" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg209">Herr Lambinus, die Genehmigung ist erteilt worden. Aus dieser Entscheidung kann entnommen werden, daß dieser Export bisher anders gesehen wurde, daß diese Westen nicht als Kriegsmaterial betrachtet wurden.</seg>
+          <vocal type="exclamat">
+            <desc>Lambinus [SPD]: 33 000?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg210">Wir haben jetzt eine neue Situation.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der CDU/CSU: Z. B. auch für die Polizei! — Lambinus [SPD]: 33 000 für die Polizei? Daß ich nicht lache!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u177" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg211">Eine Zusatzfrage des Abgeordneten Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u178" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg212">Herr Staatssekretär, finden Sie nicht auch, daß eine Weste, an der unangenehme Fragen abprallen würden, bei Ihnen ganz kleidsam wäre?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Heiterkeit und Beifall bei der SPD und bei den GRÜNEN — Zuruf bei der CDU/CSU: Nicht zulassen!</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u179" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg213">Herr Staatssekretär, Sie brauchen diese Frage nicht zu beantworten.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u180" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg214">Nein, Sie brauchen nicht zu antworten!</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u181" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg215">Herr Sperling, die Weste würde ja andere Körperteile schützen als jenen Körperteil, auf den Sie jetzt abzielen.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u182" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg216">Aha! Sind Sie mit mir der Auffassung — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u183" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg217">Halt, einen Augenblick!</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u184" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg218">Herr Präsident, es waren zwei Fragen. Also habe ich zwei Zusatzfragen; sonst muß ich für Mierscheid Fragen stellen. Herr Staatssekretär, haben Sie auch den Eindruck, daß Ihr Ministerium mit anderen Dingen so sehr überbeschäftigt ist, daß Sie für eine wirkliche Kontrolle der für uns doch eigentlich wichtigen Kriegswaffenexporte nicht mehr genügend Zeit haben?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u185" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg219">Herr Sperling, das ist nicht zutreffend. Diese Kontrolle findet statt. Sie findet auf der Basis der dafür geltenden gesetzlichen Vorschriften statt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u186" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg220">Eine Zusatzfrage des Abgeordneten Horacek.</seg>
+        </u>
+        <note type="speaker">Horacek (GRÜNE):</note>
+        <u who="#Q69778" xml:id="ParlaMint-DE_1984-01-25-10-049.u187" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg221">Wenn ich es richtig verstanden habe, geht es um kugelsichere Panzerwesten. Solche Westen werden nicht in Panzern, sondern für den Nahkampf gebraucht. Ist das so?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u188" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg222">Es handelt sich um kugelsichere Westen. Das ist richtig.</seg>
+          <vocal type="exclamat">
+            <desc>Horacek [GRÜNE]: Also für den Nahkampf!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg223">— Ich kann Ihnen nicht sagen, wofür diese Westen verwendet werden.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg224">Ich sagte Ihnen bereits, daß die Möglichkeit besteht, diese Westen etwa für Polizeieinsätze zu verwenden.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Lambinus [SPD]: 33 000! Sie machen sich doch lächerlich!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u189" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg225">Eine Zusatzfrage des Abgeordneten Peter (Kassel).</seg>
+        </u>
+        <note type="speaker">Peter (Kassel) (SPD):</note>
+        <u who="#Q1629785" xml:id="ParlaMint-DE_1984-01-25-10-049.u190" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg226">Herr Staatssekretär, könnten Sie mir sagen bzw. sich kundig machen, wer der Empfänger dieser Westen ist, die syrische Regierung, die syrische Armee oder die syrische Polizei?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Pari. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u191" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg227">Die Westen sind bisher nicht geliefert worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u192" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg228">Eine weitere Zusatzfrage des Abgeordneten Horacek.</seg>
+        </u>
+        <note type="speaker">Horacek (GRÜNE):</note>
+        <u who="#Q69778" xml:id="ParlaMint-DE_1984-01-25-10-049.u193" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg229">Warum hat dann, wenn das auch für die Polizei ist, die Regierung der USA unsere Bundesregierung ersucht, dies zurückzuziehen, um die Lage im Nahen Osten zu entschärfen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u194" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg230">Ich habe bereits in meiner Antwort auf die zweite Frage von Herrn Gansel zum Ausdruck gebracht, daß auf Grund der verschärften Kritik in der amerikanischen Öffentlichkeit im Hinblick auf die aktuelle Lage im Libanon die amerikanischen Behörden die Reexportlizenz suspendiert haben.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Lambinus [SPD]: Also doch Kriegswaffenexport!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u195" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg231">Zu einer Zusatzfrage Herr Abgeordneter Catenhusen.</seg>
+        </u>
+        <note type="speaker">Catenhusen (SPD):</note>
+        <u who="#Q2588530" xml:id="ParlaMint-DE_1984-01-25-10-049.u196" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg232">Herr Staatssekretär, wer hat denn den Export dieser kugelsicheren Westen beantragt? Die syrische Regierung, die syrische Armee oder die syrische Polizei? Derartiges muß auf dem Antrag doch vermerkt worden sein.</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u197" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg233">Ich darf noch einmal darauf hinweisen, daß bis jetzt ein Export dieser Westen nicht stattgefunden hat.</seg>
+          <vocal type="exclamat">
+            <desc>Lambinus [SPD]: Das ist doch nicht die Frage gewesen! — Catenhusen [SPD]: Aber ein Antrag liegt doch vor!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg234">— Ein Antrag liegt vor.</seg>
+          <vocal type="exclamat">
+            <desc>Lambinus [SPD]: Von wem?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg235">Diesem Antrag ist entsprochen worden. Aber bis jetzt haben keine Exporte stattgefunden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u198" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg236">Meine Damen und Herren, ich bitte, die Zwischenrufe doch zu unterlassen. Wir sollten die Fragestunde in aller Ruhe abwickeln. Zu einer Zusatzfrage Herr Abgeordneter Peter.</seg>
+        </u>
+        <note type="speaker">Peter (Kassel) (SPD):</note>
+        <u who="#Q1629785" xml:id="ParlaMint-DE_1984-01-25-10-049.u199" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg237">Herr Staatssekretär, ich komme auf die Frage zurück, die ich vorhin schon einmal gestellt habe. Wenn ein Antrag gestellt worden ist, ist der Antragsteller dann die syrische Regierung, die syrische Polizei, die syrische Armee oder der liebe Gott?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u200" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg238">Es dürfte sicher sein, daß der Antragsteller auf keinen Fall ein Privatmann ist und sein kann.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei der SPD und den GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg239">Es bleibt also nur eine amtliche Stelle übrig.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von den GRÜNEN: Polizei oder Armee?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u201" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg240">Zu einer Zusatzfrage Herr Abgeordneter Kirschner.</seg>
+        </u>
+        <note type="speaker">Kirschner (SPD):</note>
+        <u who="#Q1745330" xml:id="ParlaMint-DE_1984-01-25-10-049.u202" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg241">Herr Staatssekretär, der Bundesregierung müßte, wenn sie eine solche Genehmigung erteilt, doch wohl bekannt sein, wer der Antragsteller ist: Armee, Polizei oder Regierung?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u203" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg242">Ich weise noch einmal darauf hin, daß Antragsteller eine öffentliche Stelle ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u204" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg243">Meine Damen und Herren, ich glaube, dieser Fragenkomplex ist nach einigen Wiederholungen wohl abgehandelt.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Kunz [Weiden] [CDU/CSU]: So ist es! — Weitere Zurufe</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg244">— Augenblick! Das müssen Sie mir überlassen. — Ich bitte, jetzt Wiederholungsfragen zu vermeiden. Das Wort hat Herr Abgeordneter Lambinus.</seg>
+        </u>
+        <note type="speaker">Lambinus (SPD):</note>
+        <u who="#Q2504480" xml:id="ParlaMint-DE_1984-01-25-10-049.u205" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg245">Herr Staatssekretär, ich frage Sie jetzt ganz konkret: Wer hat den Antrag gestellt?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Kunz [Weiden] [CDU/CSU]: Eine öffentliche Stelle!</desc>
+        </vocal>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u206" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg246">Ich wiederhole: Es ist eine öffentliche syrische Stelle gewesen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Lambinus [SPD]: Das ist doch lächerlich!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u207" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg247">Zu einer Zusatzfrage Herr Abgeordneter Krizsan.</seg>
+        </u>
+        <note type="speaker">Krizsan (GRÜNE):</note>
+        <u who="#Q1444261" xml:id="ParlaMint-DE_1984-01-25-10-049.u208" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg248">Herr Staatssekretär, könnte es sein, daß Sie den betreffenden Antrag gar nicht selber gesehen haben?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Pari. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u209" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg249">Dies ist richtig.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u210" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg250">Zu einer Zusatzfrage Herr Abgeordneter Kirschner.</seg>
+        </u>
+        <note type="speaker">Kirschner (SPD):</note>
+        <u who="#Q1745330" xml:id="ParlaMint-DE_1984-01-25-10-049.u211" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg251">Herr Staatssekretär, ich möchte noch einmal nachfragen, wer diese öffentliche Stelle ist, die den Antrag gestellt hat. Wenn Sie zur Beantwortung dieser Frage im Moment nicht in der Lage sein sollten, wären Sie dann bereit, sie gegenüber dem Fragesteller noch heute schriftlich zu beantworten?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u212" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg252">Herr Kollege, ich wiederhole, was ich vorhin mehrfach gesagt habe: Es ist eine öffentliche Stelle gewesen. Mehr möchte ich dazu nicht sagen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Lambinus [SPD]: Untersteht das der Geheimhaltung?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u213" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg253">Das Wort hat Herr Abgeordneter Stratmann.</seg>
+        </u>
+        <note type="speaker">Stratmann (GRÜNE):</note>
+        <u who="#Q97250" xml:id="ParlaMint-DE_1984-01-25-10-049.u214" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg254">Herr Staatssekretär, ich komme doch noch einmal zu dieser Auskunft. Können Sie ausschließen, daß die beantragende öffentliche Stelle eine militärische Stelle ist?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u215" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg255">Herr Stratmann, ich habe diese Frage beantwortet. Dabei sollte es bleiben. Ich kann dem, was ich gesagt habe, nichts hinzufügen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u216" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg256">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Stratmann (GRÜNE):</note>
+        <u who="#Q97250" xml:id="ParlaMint-DE_1984-01-25-10-049.u217" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg257">Sie können es also nicht ausschließen. Können Sie mir Auskunft darüber geben — wenn nicht jetzt, dann im nachhinein schriftlich —, wie stark die Polizeikräfte von Syrien sind? Denn ich möchte das in Verbindung mit dem Antrag auf 33 000 Westen bringen.</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u218" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg258">So weit reichen meine Informationen heute leider nicht, um sagen zu können, wie stark die Polizeikräfte in Syrien sind.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Stratmann [GRÜNE]: Sind Sie bereit, das schriftlich zu beantworten?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u219" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg259">Meine Damen und Herren, die Fragesteller haben das Recht, Fragen zu stellen. Aber auch die Regierung hat das Recht, Fragen nicht zu beantworten; dies liegt im Ermessen desjenigen, der eine Frage beantworten soll. So ist — ich will nur darauf hinweisen — die Sachlage. Eine Zusatzfrage des Abgeordneten Stahl (Kempen).</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD):</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1984-01-25-10-049.u220" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg260">Herr Staatssekretär, habe ich Sie vorhin richtig verstanden, daß Sie ausführten, die USA hätten diese Westen als Rüstungsgüter eingestuft und deshalb Einspruch erhoben, und wird die Prüfung der Bundesregierung Ihrer Meinung nach zu dem gleichen Ergebnis kommen, oder kann man davon ausgehen, daß die Bundesregierung den Rüstungsexport, bezogen auf Materialien, Güter, wesentlich großzügiger handhabt als selbst die amerikanische Regierung?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u221" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg261">Herr Stahl, ich wiederhole das, was ich schon gesagt habe: Auf Grund der sich verschärfenden Kritik in der amerikanischen Öffentlichkeit im Hinblick auf die aktuelle Lage im Libanon haben die amerikanischen Behörden die Reexportlizenz suspendiert. Wovon immer sich die Amerikaner haben leiten lassen, es ist ihre Entscheidung gewesen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u222" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg262">Zusatzfrage des Abgeordneten Antretter. — Ich glaube, meine Damen und Herren, damit können wir dann diesen Fragenkomplex abschließen.</seg>
+        </u>
+        <note type="speaker">Antretter (SPD):</note>
+        <u who="#Q1264062" xml:id="ParlaMint-DE_1984-01-25-10-049.u223" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg263">Herr Sprung, haben Sie eine Vorstellung davon, welche Auswirkungen die Informationspolitik mit Vokabeln wie „könnte" und „dürfte" hinsichtlich dieses brisanten Punktes vor dem Hintergrund des derzeitigen Besuchs des Herrn Bundeskanzlers in Israel hat?</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD und den GRÜNEN — Dr. Kunz [Weiden] [CDU/CSU]: Da besteht doch überhaupt kein Zusammenhang!</desc>
+        </kinesic>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u224" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg264">Es gibt auf diese Frage, meine ich, keine Antwort, die etwas mit dem Thema zu tun hat.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Kunz [Weiden] [CDU/CSU]: So ist es richtig!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u225" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg265">Keine weiteren Zusatzfragen. Die Frage 27 des Abgeordneten Austermann wird auf Wunsch des Fragestellers schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 28 des Abgeordneten Kastning auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg266">Mit welchen Ergebnissen hat die Bundesregierung die vom Parlamentarischen Staatssekretär Pfeifer in der Fragestunde des Deutschen Bundestages vom 9. November 1983 (Plenarprotokoll 10/32)</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg267">auf eine Frage des Abgeordneten Kuhlwein (SPD)</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg268">angekündigte Bestandsaufnahme über die Auswirkungen der Berufsgrundbildungsjahr-Anrechnungsverordnung auf die Ausbildungsplatzsituation im Bereich der gewerblichen Wirtschaft durchgeführt? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u226" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg269">Herr Kollege, ich bitte, die beiden Fragen, da sie im Zusammenhang miteinander stehen, gemeinsam beantworten zu dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u227" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg270">Herr Abgeordneter, sind Sie damit einverstanden?</seg>
+        </u>
+        <note type="speaker">Kastning (SPD):</note>
+        <u who="#Q1267999" xml:id="ParlaMint-DE_1984-01-25-10-049.u228" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg271">Ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u229" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg272">Ich rufe dann auch die Frage 29 des Abgeordneten Kastning auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg273">Ist die Bundesregierung bereit, an der Berufsgrundbildungsjahr-Anrechnungsverordnung in der bisherigen Fassung festzuhalten?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u230" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg274">Die Bundesregierung ist auf Grund der Bestandsaufnahme zur Anrechnung schulischer Vorbildung auf die Berufsausbildung vom 25. Oktober 1983 zu dem Ergebnis gekommen, die Anrechnungsverordnungen für den Besuch des schulischen Berufsgrundbildungsjahres und der Berufsfachschulen im Bereich der gewerblichen Wirtschaft flexibler zu gestalten, um so die Ausbildungschancen der Jugendlichen zu verbessern und den Sorgen und Schwierigkeiten der Eltern sowie der ausbildenden Betriebe Rechnung zu tragen. Die Ministerien für Wirtschaft und für Bildung und Wissenschaft treten dabei für eine Reduzierung der Anrechnungszeit auf eineinhalb Jahre ein. Dadurch würde sowohl der Forderung nach Verlängerung der betrieblichen Ausbildungszeit entsprochen als auch an dem Grundsatz der Anrechnung schulischer Vorbildung festgehalten. Jede Neuregelung erfordert eine enge Zusammenarbeit von Bund und Ländern. Deshalb sind mit den Vertretern der Länder Änderungsmöglichkeiten erörtert worden. Dabei hat sich ergeben, daß diese Bemühungen derzeit im Bundesrat auf Bedenken stoßen. Die Bundesregierung sieht deshalb kurzfristig keine Möglichkeit, die Anrechnungsverordnungen zu ändern. Sie wird jedoch die Änderungsdiskussionen mit den Ländern fortsetzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u231" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg275">Zusatzfrage? — Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Kastning (SPD):</note>
+        <u who="#Q1267999" xml:id="ParlaMint-DE_1984-01-25-10-049.u232" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg276">Herr Staatssekretär, bei welchen Bundesländern ist das Vorhaben der flexibleren Gestaltung der Anrechnungsverordnungen auf Bedenken oder Widerspruch gestoßen?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Meyer zu Bentrup [CDU/CSU]: In Nordrhein-Westfalen!</desc>
+        </vocal>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u233" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg277">Es sind von verschiedenen Ländern Bedenken geäußert worden. Es gibt unterschiedliche Positionen, auch verschiedene Möglichkeiten. Ich kann Ihnen aber hinsichtlich einer bestimmten Position jetzt nicht die Namen der Länder nennen, um die es dabei geht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u234" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg278">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Kastning (SPD):</note>
+        <u who="#Q1267999" xml:id="ParlaMint-DE_1984-01-25-10-049.u235" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg279">Erstens. Darf ich daraus schließen, daß inzwischen auch die Bildungspolitik, die Berufsbildungspolitik zur Geheimdiplomatie geworden ist? Zweitens. Wer ist derjenige, der die Bundesregierung zu der Überlegung gebracht hat, die Anrechnungsverordnung im Hinblick auf kürzere Anrechnungszeiten zu überprüfen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u236" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg280">Der Initiator ist die Wirtschaft. Die Wünsche danach sind aus der Wirtschaft und sind aus dem Handwerk gekommen, weil auf diesem Wege — dies ist die Vorstellung, dies ist die Meinung — zusätzliche Ausbildungsplätze zur Verfügung gestellt werden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u237" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg281">Eine weitere Zusatzfrage, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Kastning (SPD):</note>
+        <u who="#Q1267999" xml:id="ParlaMint-DE_1984-01-25-10-049.u238" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg282">Meine erste Zusatzfrage war vielleicht zu wertend, Herr Präsident; das will ich zugeben. Deswegen frage ich noch einmal nach, welche Gründe gibt es denn, daß man hier nicht darüber sprechen kann, welche Länder für oder gegen eine Sache sind?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u239" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg283">Ich kann Ihnen im Augenblick nicht sagen, welche Länder dafür und dagegen sind. Ich habe darüber keine Informationen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u240" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg284">Eine Zusatzfrage des Abgeordneten Kuhlwein.</seg>
+        </u>
+        <note type="speaker">Kuhlwein (SPD):</note>
+        <u who="#Q1281343" xml:id="ParlaMint-DE_1984-01-25-10-049.u241" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg285">Herr Staatssekretär, da die Bundesregierung Überlegungen angestellt hat, zu mehr Ausbildungsplätzen durch die Änderung der Anrechnungsverordnung zu kommen, wie viele Ausbildungsplätze würden denn zusätzlich mobilisiert, wenn die Anrechnungsverordnung in dem von der Bundesregierung überlegten Sinne geändert würde?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u242" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg286">Herr Kuhlwein, so berechenbar sind wirtschaftliche Entwicklungen nicht. Die Tendenz ist klar erkennbar: Es würden mehr Ausbildungsplätze zur Verfügung gestellt werden, wenn die Anrechnung der Ausbildungszeit verkürzt würde. Es geht nicht um einen vollständigen Ausfall, es geht nicht um eine Streichung, sondern es geht um eine Verkürzung der Anrechnung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u243" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg287">Eine weitere Zusatzfrage, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Kuhlwein (SPD):</note>
+        <u who="#Q1281343" xml:id="ParlaMint-DE_1984-01-25-10-049.u244" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg288">Hat die Bundesregierung in ihren Berechnungen auch darüber nachgedacht, daß j a die Zeit im schulischen Berufsgrundbildungsjahr gleichzeitig nicht im Betrieb verbracht wird und daß eine Änderung der Anrechnungsverordnung mehr betriebliche Ausbildungskapazität für die Jugendlichen, die jetzt in der Zeit in der Schule sind, erfordern würde als bisher?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u245" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg289">Natürlich ist darüber nachgedacht worden. Nur werden die Konsequenzen nicht so gesehen, wie Sie sie eben gezogen haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u246" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg290">Eine weitere Zusatzfrage des Abgeordneten Krizsan.</seg>
+        </u>
+        <note type="speaker">Krizsan (GRÜNE):</note>
+        <u who="#Q1444261" xml:id="ParlaMint-DE_1984-01-25-10-049.u247" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg291">Herr Staatssekretär, sind Sie mit mir einer Meinung, daß die Ausbildung im Berufsgrundbildungsjahr im Gegensatz zu der Ausbildung in kleineren Betrieben oft effektiver und ergiebiger ist?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u248" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg292">Wir haben das duale System, das sich bewährt hat, schulische Ausbildung und betriebliche Ausbildung. So sollte es bleiben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u249" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg293">Eine weitere Zusatzfrage, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Krizsan (GRÜNE):</note>
+        <u who="#Q1444261" xml:id="ParlaMint-DE_1984-01-25-10-049.u250" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg294">Herr Staatssekretär, ist Ihnen dann bekannt, daß auch im Berufsgrundbildungsjahr Ausbildung in Werkstätten stattfindet?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u251" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg295">Dies ist mir bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u252" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg296">Eine weitere Zusatzfrage des Abgeordneten Grünbeck.</seg>
+        </u>
+        <note type="speaker">Grünbeck (FDP):</note>
+        <u who="#Q1704703" xml:id="ParlaMint-DE_1984-01-25-10-049.u253" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg297">Herr Staatssekretär, würden Sie meine Meinung teilen, daß der Wunsch der Wirtschaft nach Verkürzung der Anrechnung dadurch berechtigt ist, daß sie mehr praktische Ausbildung anbieten und damit die Ausbildung qualifizieren will und daß man nicht ständig die Wirtschaft nur um mehr Ausbildungsplätze bitten kann, sondern daß man auch den Bitten der Wirtschaft nach der qualifizierten Struktur der Ausbildung nachkommen sollte?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u254" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg298">Dies ist bekannt. Und weil dies so ist, schlägt die Bundesregierung diesen Weg vor, bemüht sie sich, auf diesem mittleren Weg zu einem Ergebnis zu kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u255" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg299">Eine Zusatzfrage des Abgeordneten Lambinus.</seg>
+        </u>
+        <note type="speaker">Lambinus (SPD):</note>
+        <u who="#Q2504480" xml:id="ParlaMint-DE_1984-01-25-10-049.u256" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg300">Herr Staatssekretär, sind Sie bereit, uns schriftlich mitzuteilen, welche Bundesländer sich wie in dieser Frage verhalten haben?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u257" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg301">Dies will ich gern tun.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u258" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg302">Eine weitere Zusatzfrage des Abgeordneten Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u259" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg303">Herr Staatssekretär, ist Ihnen klar, daß die Wirtschaft zu dieser Frage keine einheitliche Auffassung haben kann, weil sich zumindest Teile der Wirtschaft mit ihrem betrieblichen Ausbildungsverhalten voll auf das Berufsgrundbildungsjahr eingestellt haben?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u260" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg304">Es ist richtig, daß das Berufsgrundbildungsjahr praktiziert wird und Betriebe sich insoweit darauf eingestellt haben. Aber auch diese Betriebe haben zu einem großen Teil vorgebracht, daß weitere Ausbildungsmöglichkeiten durch sie geschaffen werden könnten, wenn eine Verkürzug der Anrechnungszeit erfolgt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u261" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg305">Eine letzte Zusatzfrage des Abgeordneten Kastning.</seg>
+        </u>
+        <note type="speaker">Kastning (SPD):</note>
+        <u who="#Q1267999" xml:id="ParlaMint-DE_1984-01-25-10-049.u262" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg306">Herr Staatssekretär, ist der Bundesregierung bekannt, daß es bei schulischen Berufsgrundbildungsjahren mindestens im Land Niedersachsen begleitende Ausschüsse gibt, in denen Gelegenheit besteht, das Praxisbedürfnis der Ausbildung, das von der Wirtschaft immer so unterstrichen wird, mit den Trägern, dem Personal zu besprechen, um so BGJ schulische und betriebliche Ausbildung besser aufeinander abzustimmen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u263" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg307">Dies ist bekannt, aber gerade aus dem Land Niedersachsen kommen die Wünsche nach einer Verkürzung der Anrechnung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u264" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg308">Keine weiteren Zusatzfragen mehr. Ich rufe Frage 30 des Abgeordneten Uldall auf. Wie viele Existenzneugründungen wurden im Jahr 1983 — aufgeschlüsselt nach Branchen — vorgenommen, und wie hoch ist die Veränderung gegenüber dem Vorjahr? Bitte sehr, Herr Staatssekretär:</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u265" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg309">Herr Kollege Uldall, in der Bundesrepublik besteht keine Existenzgründungsstatistik auf Bundesebene, da nur ein kleiner Teil der Bundesländer die dafür geeigneten Gewerbean- und abmeldungen statistisch auswertet. Es gibt lediglich Daten über die vom Bund geförderten Existenzgründungen. Nach dem ERP-Existenzgründungsprogramm wurden 1983 rund 16 000 — 1982 waren es 12 000 — Gründungen gefördert. Nach dem Eigenkapitalhilfeprogramm wurden knapp 8 000 — 1982 waren es 3 000 — Existenzgründungen gefördert. Hierfür liegt auch eine branchenweise Aufgliederung vor, die ich Ihnen gerne zur Verfügung stelle, wenn Sie es wünschen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u266" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg310">Zusatzfrage, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Uldall (CDU/CSU):</note>
+        <u who="#Q107637" xml:id="ParlaMint-DE_1984-01-25-10-049.u267" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg311">Herr Staatssekretär, geht die Bundesregierung davon aus, daß diese erfreuliche Entwicklung auch im Jahre 1984 weiter anhalten wird?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u268" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg312">Wir gehen davon aus, daß diese Entwicklung anhalten wird. Wir werden alles tun, damit diese Entwicklung unterstützt wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u269" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg313">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Uldall (CDU/CSU):</note>
+        <u who="#Q107637" xml:id="ParlaMint-DE_1984-01-25-10-049.u270" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg314">Herr Staatssekretär, gibt es eine Übersicht — auch wenn Sie, wie Sie sagten, keine vollständigen Statistiken darüber haben —, ob es auch bei der Frage der Existenzneugründungen so etwas wie eine Süd-Nord-Gefälle gibt, d. h. ob es im Süden relativ mehr Neugründungen gibt als im Norden?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u271" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg315">Aus der Statistik, die ich Ihnen angeboten habe und die ich Ihnen überreichen werde, könne Sie die regionale Aufteilung der Entwicklung des Eigenkapitalhilfeprogramms für 1983 entnehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u272" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg316">Zusatzfrage des Abgeordneten Becker.</seg>
+        </u>
+        <note type="speaker">Becker (Nienberge) (SPD):</note>
+        <u who="#Q1604393" xml:id="ParlaMint-DE_1984-01-25-10-049.u273" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg317">Herr Staatssekretär, wären Sie so freundlich, diese Statistik allen Mitgliedern des Hauses zur Verfügung zu stellen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u274" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg318">Aber selbstverständlich, Herr Becker.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u275" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg319">Zusatzfrage des Abgeordneten Bachmaier.</seg>
+        </u>
+        <note type="speaker">Bachmaier (SPD):</note>
+        <u who="#Q1491016" xml:id="ParlaMint-DE_1984-01-25-10-049.u276" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg320">Herr Staatssekretär, können Sie Auskunft darüber geben, wie sich die Rechtsformen der von Ihnen in Bezug genommenen Existenzneugründungen aufgliedern?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u277" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg321">Ich würde dies gerne tun, kann dies aber leider nicht. Wenn dies möglich ist, tun wir dies, aber aus der mir vorliegenden Statistik ergibt sich keine Antwort auf diese Frage.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u278" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg322">Keine weitere Zusatzfrage. Ich rufe Frage 31 des Abgeordneten Uldall auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg323">Verfügt die Bundesregierung über Informationen, wie viele Arbeitsplätze in den neu gegründeten Unternehmen zwei Jahre nach Gründung angeboten wurden (z. B. Anzahl der Arbeitsplätze 1983 in den Unternehmen, die 1981 geschaffen wurden)?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u279" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg324">Herr Uldall, die Bundesregierung verfügt mangels amtlicher Statistik über keine zuverlässige Information über die Zahl der Arbeitsplätze zwei Jahre nach der Gründung. Nach wissenschaftlichen Untersuchungen schaffen von der öffentlichen Hand geförderte Existenzgründungen im Verlauf von zwei bis drei Jahren nach der Gründung durchschnittlich ungefähr zwei zusätzliche Arbeitsplätze. Diese Arbeitsplätze kommen zu den fünf Arbeitsplätzen, die mit öffentlich geförderten Existenzgründungen durchschnittlich geschaffen werden, hinzu.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u280" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg325">Zusatzfrage, bitte? — Keine. Danke sehr. Die Fragestellerin der Frage 32, Frau Abgeordnete Männle, hat um schriftliche Beantwortung ihrer Frage gebeten. Die Antwort wird als Anlage abgedruckt. Ich rufe Frage 33 des Abgeordneten Jung auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg326">Besitzt die Bundesregierung Informationen über die Zahl der Unternehmen, die zwei Jahre nach Gründung ihren Betrieb einstellen mußten? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u281" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg327">Herr Kollege Jung, die Bundesregierung besitzt mangels entsprechender Statistiken keine amtlichen Informationen über die Zahl der Unternehmen, die zwei Jahre nach Gründung aufgeben. Es bestehen zwar Untersuchungen von verschiedenen Institutionen, so z. B. von Creditreform, über den Anteil der nach Altersgruppen gestaffelten Existenzgründungen an Insolvenzen, doch machen zum einen insolvent gewordene Unternehmen nur einen kleinen Bruchteil der insgesamt jährlich ausscheidenden Unternehmen aus, so daß sich daraus keine Aufschlüsse über die Liquidationen insgesamt gewinnen lassen. Zum anderen lassen sich aus den nach Altersgruppen gestaffelten Insolvenzen keine Rückschlüsse darauf ziehen, welcher Anteil eines bestimmten Gründungsjahrgangs nach zwei Jahren wieder ausgeschieden ist. Eine Antwort auf die von Ihnen gestellte Frage ist daher auch auf der Basis von Untersuchungen über die Altersstruktur insolventer Unternehmen nicht möglich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u282" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg328">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Jung (Lörrach) (CDU/CSU):</note>
+        <u who="#Q2573501" xml:id="ParlaMint-DE_1984-01-25-10-049.u283" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg329">Herr Staatssekretär, ist Ihnen bekannt, daß Wirtschaftsverbände — ich meine hier vornehmlich Handwerkskammern und Industrie- und Handelskammern — gerne bereit sind, Ihnen eine solche Statistik — regional — zu erstellen und gegebenenfalls auch über Erfahrungen zu berichten, die solche Jungunternehmer in den ersten Jahren ihrer Betriebsgründung gehabt haben?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u284" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg330">Dies ist, glaube ich, ein sehr nützlicher und wertvoller Hinweis, daß die Möglichkeit besteht, dort Informationen zu bekommen. Ich darf darauf hinweisen, daß die Bundesregierung das Fehlen einer Statistik bedauert. Sie ist dabei, prüfen zu lassen, in welcher Form solch eine Statistik für die Zukunft erstellt werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u285" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg331">Weitere Zusatzfrage, Herr Abgeordneter Dr. Schöfberger.</seg>
+        </u>
+        <note type="speaker">Dr. Schöfberger (SPD):</note>
+        <u who="#Q1564139" xml:id="ParlaMint-DE_1984-01-25-10-049.u286" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg332">Herr Staatssekretär, wie kann man eigentlich planen, fördern und damit regieren, wenn es an jeglichem empirischem Material über die Auswirkungen möglicher Förderungen fehlt? Und ist die Bundesregierung demzufolge bereit, ganz konkret einmal das Statistische Bundesamt, das im übrigen auch Obstbäume und Ziegen bis zur Vervollkommnung zählen kann, zu beauftragen, derartige statistische Grundlagen zu liefern?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Uldall [CDU/CSU]: Das wurde doch schon gesagt!</desc>
+        </vocal>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u287" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg333">Herr Schöfberger, Sie übertreiben in diesem Fall maßlos. Denn ich habe vorhin von einer Statistik gesprochen, die wir haben und die Sie alle zur Verfügung gestellt bekommen. Da werden einige Antworten auf gestellte Fragen gegeben. Aber hier geht es ja doch um ein sehr, sehr spezielles Problem. Es geht nämlich darum, ob die Zahl der zwei Jahre nach ihrer Gründung den Betrieb einstellenden Unternehmen ermittelt werden kann. Dies ist ein sehr spezieller Aspekt. Die Statistik, die wir für die Zukunft gern zur Verfügung hätten, wird möglicherweise auch dazu Aussagen machen. Aber im Augenblick haben wir, glaube ich, doch auch schon Material zur Verfügung, mit dem eine ganze Menge angefangen werden kann; die Ergebnisse zeigen es.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u288" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg334">Zusatzfrage des Abgeordneten Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1984-01-25-10-049.u289" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg335">Herr Staatssekretär, da Sie die Hinweise auf die Industrie- und Handelskammern, die Handwerkskammern und die Wirtschaftsverbände vorhin als „nützlich und hilfreich" bezeichnet haben, frage ich: Geben Sie zu, daß die Fragestunde eigentlich nicht dazu da sein sollte, um die normale Arbeit Ihres Ministeriums mit nützlichen und hilfreichen Hinweisen zu versehen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u290" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg336">Herr Sperling, es geschieht in dieser Fragestunde mehr, als solche Bemerkungen hier abzugeben. Ich habe darauf hingewiesen, daß die Bundesregierung dabei ist, das Thema Statistik für diesen Bereich zu lösen.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Sperling [SPD]: Zu bürokratisieren!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg337">Dafür ist ein Forschungsauftrag erteilt worden. Wir werden die Ergebnisse entsprechend verwerten und verwenden.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Uldall [CDU/CSU]: Sehr gut!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u291" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg338">Keine weitere Zusatzfrage. Ich rufe die Frage 34 des Abgeordneten Jung (Lörrach)</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg339">auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg340">Ist der Bundesregierung bekannt, welches die wesentlichen Ursachen waren, die die Unternehmen zur Einstellung ihres Betriebs zwangen? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u292" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg341">Herr Kollege Jung, ich nehme an, Ihre Frage bezieht sich auf die Unternehmen, die nach zwei Jahren aufgeben müssen. Der Bundesregierung ist nicht bekannt, aus welchen Gründen diese Unternehmen aufgeben müssen. Es ist jedoch anzunehmen, daß es sich grundsätzlich um das gleiche Ursachenbündel wie bei Unternehmensinsolvenzen allgemein handelt.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf des Abg. Lambinus [SPD]</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg342">Dazu hat die Bundesregierung 1983 mehrmals Stellung genommen. Ich verweise auf die schriftliche Antwort von Staatssekretär Schlecht an Frau Martiny vom 7. Juli 1983. Die Lastenausgleichsbank ermittelt für die mit Eigenkapitalhilfe geförderten Existenzgründungen, die von den Hausbanken als gefährdet eingestuft werden bzw. die notleidend wurden, jährlich einmal die wichtigsten Ursachen dafür. Danach werden als Hauptgründe Absatzschwierigkeiten und mangelnde kaufmännisch-unternehmerische Fähigkeit genannt. Finanzierungsschwierigkeiten spielen demgegenüber eine deutlich geringere Rolle.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u293" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg343">Zusatzfrage. Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Jung (Lörrach) (CDU/CSU):</note>
+        <u who="#Q2573501" xml:id="ParlaMint-DE_1984-01-25-10-049.u294" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg344">Herr Staatssekretär, sind Sie mit mir der Auffassung, daß eine einigermaßen genaue Kenntnis der Gründe, die in den ersten zwei Jahren zur Betriebsschließung führen, die Effektivität der Betriebsgründungsprogramme sicher erheblich steigern würde? Und meine Zusatzfrage Nr. 2 — Herr Präsident, wenn es gestattet ist, will ich jetzt die zweite Zusatzfrage gleich stellen —: Herr Staatssekretär, sind Sie mit mir der Auffassung, daß die Landesgewerbeämter, die ja von allen Landesregierungen installiert sind, sicher in der Lage und bereit sind, solche meines Erachtens wichtigen Gründe bei Jungunternehmern zu ermitteln, die bereits nach zwei Jahren gezwungen sind, ihren Betrieb zu schließen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u295" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg345">Herr Jung, es ist sicher nützlich, zu wissen, warum Betriebe aufgegeben werden. Aber es ist sehr schwierig, dies zu ermitteln. Da kann man nicht nur objektive Fakten in die Überlegungen einbeziehen, sondern man muß auch Motivforschung treiben. Es sind ja oft sehr subjektive Gründe, die zu einer Wiedereinstellung der selbständigen Tätigkeit führen. Eine solche Untersuchung wäre nützlich. Die Frage stellt sich, in welcher Form es am besten geschehen kann. Es gibt j a Untersuchungen darüber, welche Gründe dafür sprechen, aber eine Quantifizierung dieser Gründe ist bisher nicht möglich gewesen. Zum zweiten. Sie haben darauf hingewiesen, daß eine Bereitschaft bei den entsprechenden Ämtern bestünde, hier Hilfestellung zu geben. Wenn Untersuchungen darüber angestellt würden, aus welchen Gründen die Unternehmen wieder aufgeben, würden diese Ämter sicherlich angesprochen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u296" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg346">Zusatzfrage, Herr Abgeordneter Stiegler.</seg>
+        </u>
+        <note type="speaker">Stiegler (SPD):</note>
+        <u who="#Q87650" xml:id="ParlaMint-DE_1984-01-25-10-049.u297" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg347">Herr Staatssekretär, sind Sie denn bereit, eine wissenschaftliche Begleitforschung zur Effizienz der Existenzgründungsprogramme anzuregen und einen Ansatz dafür im nächsten Haushalt unterzubringen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Pari. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u298" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg348">Über die Effizienz der Existenzgründungsprogramme spricht zunächst einmal ganz sicher die Zahl der Gründungen selbst eine beredte Sprache. Natürlich wird aber in den zuständigen Bundesministerien auch untersucht, welche weiteren Wirkungen das hat. Ich habe einige genannt. Ich habe darauf hingewiesen, daß mit jeder Gründung fünf neue Arbeitsplätze geschaffen werden und daß im Laufe der Zeit — das habe ich eben mitgeteilt — zwei weitere Arbeitsplätze hinzukommen. Es gibt eine Reihe von Instituten, die wir haben — Mittelstandsforschungsinstitute —, die sich schon jetzt intensiv mit diesem Thema befassen. Ich glaube, mehr ist dafür im Augenblick ganz gewiß nicht nötig.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u299" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg349">Zusatzfrage des Herrn Abgeordneten Dr. Schöfberger.</seg>
+        </u>
+        <note type="speaker">Dr. Schöfberger (SPD):</note>
+        <u who="#Q1564139" xml:id="ParlaMint-DE_1984-01-25-10-049.u300" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg350">Kommt es denn vor, Herr Staatssekretär, daß Unternehmen Förderungsmittel auf dem Gebiet der Arbeitsförderung oder der Existenzgründung in Bereicherungsabsicht entgegennehmen und daß die Unternehmen alsbald wieder aufgeben, wenn sichergestellt ist, daß sie das Geld nicht mehr zurückzahlen müssen?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u301" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg351">Herr Schöfberger, die Bedingungen des Programms sehen so aus, daß niemand auf solch eine Idee kommen würde, wie Sie sie eben vorgetragen haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u302" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg352">Zusatzfrage des Herrn Abgeordneten Bachmaier.</seg>
+        </u>
+        <note type="speaker">Bachmaier (SPD):</note>
+        <u who="#Q1491016" xml:id="ParlaMint-DE_1984-01-25-10-049.u303" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg353">Herr Staatssekretär, ist Ihnen bekannt, daß im Rahmen der Arbeiten der beim Justizminister eingerichteten Insolvenzrechtskommission Fakten gesammelt worden sind, die recht umfangreiche Aussagen über Insolvenzursachen liefern?</seg>
+        </u>
+        <note type="speaker">Dr. Sprung, Parl. Staatssekretär:</note>
+        <u who="#Q2173848" xml:id="ParlaMint-DE_1984-01-25-10-049.u304" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg354">Das ist mir bekannt; aber ich habe ja auch einige Gründe genannt.</seg>
+        </u>
+        <note type="speaker">Bachmaier (SPD):</note>
+        <u who="#Q1491016" xml:id="ParlaMint-DE_1984-01-25-10-049.u305" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg355">Weitere Zusatzfrage: Beziehen sich diese Daten — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u306" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg356">Zu der Frage 34 haben Sie nur eine Zusatzfrage. Die Frage 33 ist abgeschlossen. Keine weiteren Zusatzfragen mehr.</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg357">Der Fragesteller der Fragen 35 und 36, Herr Abgeordneter Wolfram (Recklinghausen)</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg358">, hat seine Fragen zurückgezogen.</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg359">Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Wirtschaft abgeschlossen. Ich danke, Herr Staatssekretär. Ich rufe den Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Gallus zur Verfügung. Ich rufe die Frage 37 des Herrn Abgeordneten Dr. Schöfberger auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg360">Wie hoch schätzt die Bundesregierung die im Bundeshaushalt 1984 vorgesehenen Gesamtausgaben für Maßnahmen der öffentlichen Hand, die üblicherweise zu Eingriffen in Natur und Landschaft im Sinne des § 8 Abs. 1 BNatSchG führen, und jene Gesamtausgaben, die nötig sind, um unvermeidbare Beeinträchtigungen von Natur und Landschaft gemäß § 8 Abs. 2 BNatSchG auszugleichen? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1984-01-25-10-049.u307" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg361">Herr Kollege Schöfberger, nach der Eingriffsregelung des Bundesnaturschutzgesetzes — § 8 — sind vermeidbare Beeinträchtigungen von Natur und Landschaft zu unterlassen sowie unvermeidbare Beeinträchtigungen durch Maßnahmen des Naturschutzes und der Landschaftspflege auszugleichen. Dies gilt auch für Maßnahmen der öffentlichen Hand. Die hierdurch entstehenden, teilweise erheblichen Mehrkosten sind im Bundeshaushalt nicht besonders ausgewiesen. Sie wären nur nachträglich und mit erheblichem Verwaltungsaufwand zu ermitteln. Abgesehen davon gibt es keine verläßlichen Kriterien, nach denen der mit der Frage angestrebte Zahlenvergleich in schlüssiger Form geführt werden könnte. Als Beispiel darf ich aus dem Einzelplan 10 auf die Gemeinschaftsaufgabe „Verbesserung der Agrarstruktur" verweisen. Hier werden Maßnahmen der Flurbereinigung und der Wasserwirtschaft gefördert, die nicht in ihrer Gesamtheit, aber in Einzelfällen zu Eingriffen im Sinne des § 8 Abs. 1 des Bundesnaturschutzgesetzes führen können, wobei gemäß Ziffer 6 der Einleitung zum Rahmenplan die Belange von Naturschutz und Landschaftspflege zu berücksichtigen sind. Aus den oben dargelegten Gründen ist mir jedoch eine einigermaßen verläßliche Schätzung nicht möglich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u308" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg362">Zusatzfrage, Herr Abgeordneter, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Dr. Schöfberger (SPD):</note>
+        <u who="#Q1564139" xml:id="ParlaMint-DE_1984-01-25-10-049.u309" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg363">Könnte denn Ihr Ministerium, wenn wir davon ausgehen, daß die Ermittlung solcher Zahlen in der Tat sehr schwierig ist, nicht an Hand von einzelnen Fallbeispielen — etwa auf dem Gebiet des Straßenbaus oder des Kanalbaus oder anderer Eingriffe in Natur und Landschaft — feststellen, in welcher Proportion die eigentlichen Bauausgaben zu den Wiederherstellungsausgaben stehen? Es wäre sehr aufschlußreich, wenn man da drei oder vier Beispiele hören könnte.</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1984-01-25-10-049.u310" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg364">Herr Kollege, ich kann Ihnen dazu jetzt keine spezielle Antwort geben. Aber wenn Sie zu einem bestimmten Projekt eine Frage stellen, z. B. zur Voreindeichung an der Nordsee, zum Kanalbau oder ähnliches, dann werden wir das jeweilige Bundesland darum bitten, uns über diese spezielle Frage Aufschluß zu geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u311" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg365">Eine weitere Zusatzfrage des Abgeordneten Stiegler.</seg>
+        </u>
+        <note type="speaker">Stiegler (SPD):</note>
+        <u who="#Q87650" xml:id="ParlaMint-DE_1984-01-25-10-049.u312" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg366">Herr Staatssekretär, werden Sie denn in Zukunft dafür eintreten, daß die Bewilligung von Bundesmitteln für Flurbereinigungsmaßnahmen an die Voraussetzung einer umfassenden Umweltverträglichkeitsprüfung geknüpft wird?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1984-01-25-10-049.u313" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg367">Herr Kollege, es ist heute schon so, daß im Rahmenplan der Gemeinschaftsaufgabe genau festgelegt ist, unter welchen Bedingungen Mittel der Gemeinschaftsaufgabe zur Durchführung der Flurbereinigung verwendet werden dürfen und wann nicht.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Stiegler [SPD]: Das ist keine Antwort!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u314" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg368">Keine weiteren Zusatzfragen. — Ich rufe die Frage 38 des Abgeordneten Dr. Schöfberger auf:</seg>
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg369">Welche Maßnahmen gedenkt die Bundesregierung kurz-, mittel- oder langfristig zu ergreifen oder gegenüber Ländern und Gemeinden anzuregen, um den im Abschlußbericht der Projektgruppe „Aktionsprogramm Ökologie" (Umweltbrief Nr. 29 des Bundesministeriums des Innern) unter Nr. 179 aufgeführten „schwerwiegenden ökologischen Schwachstellen" der Landwirtschaft in der Bundesrepublik Deutschland wirksam zu begegnen?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1984-01-25-10-049.u315" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg370">Herr Kollege Schöfberger, in der genannten Textziffer 179 des Abschlußberichtes der Projektgruppe „Aktionsprogramm Ökologie" sind wesentliche ökologische Probleme der modernen Landwirtschaft angesprochen und bewertet worden. Wenn ich auch die Bewertung nicht voll teile, halte ich doch weitere Maßnahmen für erforderlich, um ökologische Belastungen soweit wie möglich abzubauen. Die bereits eingeleiteten und in Vorbereitung befindlichen Maßnahmen sind vielfältiger Art. Sie reichen von der Verbesserung der wissenschaftlichen Grundlagen über die Intensivierung der Beratung sowie die Verbesserung des Vollzuges bestehender Rechtsvorschriften bis hin zur Schaffung neuer Rechtsvorschriften. Da die Zuständigkeit der Länder sehr stark betroffen ist, findet ein intensiver Meinungsaustausch zwischen Bund und Ländern statt. Ich möchte daher darauf verzichten, von dieser Stelle aus spezielle Anregungen an die Länder und Gemeinden zu geben, und bitte dafür um Ihr Verständnis. Bei den Maßnahmen des Bundes und solchen, an denen der Bund mitwirkt, kann ich hier nicht die ganze Palette von Einzelmaßnahmen aufzählen. Ich will mich auf besonders wichtige Maßnahmen aus den in der genannten Textziffer des Berichts angesprochenen Bereichen Artenschutz, Düngung, Pflanzenbehandlungsmittel und intensive Tierhaltung beschränken. Erstens. Der Schutz wildlebender Pflanzen- und Tierarten muß weiter verbessert werden. Dazu wird zur Zeit eine Novellierung des Bundesnaturschutzgesetzes vorbereitet. Vor allem muß dem Vollzug des Bundesnaturschutzgesetzes und der Ländernaturschutzgesetze in allen Bereichen besonderer Nachdruck verliehen werden. Zur Verbesserung des Schutzes der Lebensstätten wildlebender Pflanzen-und Tierarten wird zur Zeit ein Biotopschutzprogramm aus Bundessicht erarbeitet. Zweitens. Überdüngungen und dadurch an bestimmten Standorten bewirkten Auswaschungen von Nitrat in das Grundwasser wird verstärkt entgegengewirkt. Zu den Maßnahmen gehören die Weiterentwicklung von Methoden zur Feststellung des tatsächlichen Düngungsbedarfs, intensive Beratung sowie die konsequente Anwendung der Instrumente des Wasserhaushaltsgesetzes, insbesondere in bezug auf die Festsetzung von Wasserschutzgebieten und von § 15 des Abfallbeseitigungsgesetzes in bezug auf organische Dungstoffe. Drittens. Bei Pflanzenbehandlungsmitteln sollen durch den von der Bundesregierung beschlossenen Entwurf eines neuen Pflanzenschutzgesetzes die Verkehrs- und Anwendungsvorschriften für Pflanzenbehandlungsmittel mit dem Ziele der Verminderung der ökologischen Risiken des Pflanzenschutzes erweitert und verschärft werden. Viertens. Der intensiven Tierhaltung soll durch Hemmung weiterer Konzentrationsentwicklungen vor allem mit Hilfe des Steuerrechts entgegengewirkt werden. Durch Maßnahmen der Tierzüchtung sowie des Futtermittel-, Arzneimittel-, Fleischbeschau- und Lebensmittelrechts wird gewährleistet, daß die von Nutztieren gewonnenen Erzeugnisse an sie gestellten qualitativen, insbesondere den lebensmittelrechtlich vorgegebenen Anforderungen entsprechen. Für alle angesprochenen Bereiche hat auch das Bodenschutzkonzept, das zur Zeit von der Bundesregierung vorbereitet wird, eine große Bedeutung, weil alle den Boden betreffenden Aspekte darin behandelt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u316" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg371">Eine Zusatzfrage, Herr Abgeordneter, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Schöfberger (SPD):</note>
+        <u who="#Q1564139" xml:id="ParlaMint-DE_1984-01-25-10-049.u317" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg372">Herr Staatssekretär, arbeiten Sie eng und ohne Probleme mit dem Innenministerium zusammen, auf daß vermieden wird, daß die einen in Broschüren massive Kritik an Zuständen in der Landwirtschaft üben und die anderen nicht wissen, was dagegen zu tun ist?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1984-01-25-10-049.u318" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg373">Herr Kollege, die Zusammenarbeit zwischen beiden Ministerien ist gut. Das, was Sie als Konsequenz dessen in Ihrer Frage in den Raum stellen, stimmt so nicht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u319" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg374">Eine Zusatzfrage des Abgeordneten Stiegler.</seg>
+        </u>
+        <note type="speaker">Stiegler (SPD):</note>
+        <u who="#Q87650" xml:id="ParlaMint-DE_1984-01-25-10-049.u320" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg375">Herr Staatssekretär, ich frage in diesem Zusammenhang noch einmal nach: Ist die Umweltverträglichkeitsprüfung Gegenstand der Förderkriterien nach dem Regionalprogramm „Agrarstruktur und Küstenschutz" oder nicht, und wird die Bundesregierung gegebenenfalls darauf drängen, daß die Förderkriterien geändert werden?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1984-01-25-10-049.u321" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg376">Herr Kollege, damit das ganz klar ist: Die Durchführung nach dem Gemeinschaftsaufgabengesetz liegt allein in den Händen der Länder. Die Länder haben nach ihren Gesetzen die entsprechenden Maßnahmen zu vollziehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Wurbs:</note>
+        <u who="#Q2150961" xml:id="ParlaMint-DE_1984-01-25-10-049.u322" ana="#chair">
+          <seg id="ParlaMint-DE_1984-01-25-10-049.seg377">Keine weiteren Zusatzfragen. Meine Damen und Herren, wir sind damit am Ende der Fragestunde angelangt. Ich berufe die nächste Sitzung des Deutschen Bundestages für morgen, den 26. Januar 1984, 9 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.30 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

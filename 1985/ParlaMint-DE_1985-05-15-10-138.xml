@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1985-05-15-10-138">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 10. Wahlperiode, 138. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 15.05.1985 (138. Sitzung der 10. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 10, Session 138 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1985-05-15 (Session 138 in Legislative Period 10)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="138">138. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.10" n="10">10. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="138">Session 138</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.10" n="10">Legislative Period 10</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 15.05.1985</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1985-05-15</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490374/07ce06f666b624d37b47d2fe6e205ab4/pp10-data.zip</idno>
+          <date when="1985-05-15">1985-05-15</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1985-05-15">1985-05-15</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="U1">
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg1">Meine Damen und Herren, die Sitzung ist eröffnet. Mir liegt eine Wortmeldung des Abgeordneten Roth zur Geschäftsordnung vor. — Bitte schön, Herr Roth.</seg>
+        </u>
+        <note type="speaker">Roth (SPD):</note>
+        <u who="#Q1288084" xml:id="ParlaMint-DE_1985-05-15-10-138.u2" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg2">Herr Präsident! Meine Damen und Herren! Auf Wunsch und im Namen meiner Kollegen von Bülow, Catenhusen, Fischer, Grunenberg, Jens, Kübler, Stahl, Vahlberg und Vosen sowie im eigenen Namen ziehe ich die für die heutige Fragestunde eingereichten 19 Fragen zur Strategischen Verteidigungsinitiative, SDI, der Vereinigten Staaten von Amerika zurück</seg>
+          <incident type="editorial">
+            <desc>*)</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg3">. Es ist ein ungewöhnlicher Schritt, dies mit einer Erklärung zur Geschäftsordnung zu tun. Wir reagieren damit auf die ungewöhnliche Behandlung dieser Fragen durch die Bundesregierung. Es widerspricht dem Prinzip der Ministerverantwortung, die zum forschungspolitischen Aspekt von SDI formulierten Fragen in der Mehrzahl beim völlig unzuständigen und in den einzelnen Fragen auch absolut inkompetenten Bundesverteidigungsminister abzuladen.</seg>
+          <vocal type="exclamat">
+            <desc>Voigt [Frankfurt] [SPD]: Aber das zeigt, wie die Bundesregierung denkt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg4">Nach dieser Einordnung soll der Bundesverteidigungsminister etwa zum Thema Arbeit der MaxPlanck-Gesellschaft Stellung nehmen. Der Arbeitsminister soll sich zu der Frage äußern, ob die LaserAnwendung in der Medizinforschung mehr aus ziviler oder mehr aus militärischer Forschung resultiert. Ich empfinde es als empörend, wie der Bundesforschungsminister seit Wochen in dieser Jahrhundertfrage gegenüber unseren Anfragen den „toten Mann" spielt. Wir fordern, daß der Bundesforschungsminister endlich seiner Ressortverantwortung nachkommt und die Position der deutschen Forschung zu SDI durch Antworten auf unsere Fragen klarstellt. Er ist doch sonst immer schnell bei der Hand, wenn es gilt, glanzvoll in der Presse wis</seg>
+          <incident type="editorial">
+            <desc>*)</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg5">Es handelt sich um die Fragen Nr. 16, 51, 64 bis 78, 99 und 100 aus der Drucksache 10/3326. senschaftliche Ergebnisse als die seinen auszugeben. Daß die deutsche technologieinteressierte Industrie sehr zurückhaltend ist, wie in der Montagabendrunde im Kanzleramt offenbar klargeworden ist, möchten wir hier im Parlament erfahren. Wir wollen darüber unterrichtet werden. Warum die deutschen Forschungsorganisationen schweigen, möchten wir vom Forschungsminister wissen. Wir werden nächste Woche unsere Fragen erneut einbringen und sie wiederum konkret an den Forschungsminister stellen. Ich hoffe, daß Herr Riesenhuber seine unglaubliche Feigheit in dieser Frage überwindet und endlich zu den forschungspolitischen Fragen Stellung nimmt, und zwar in aller Öffentlichkeit.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg6">Das Wort zur Geschäftsordnung hat der Abgeordnete Bötsch.</seg>
+        </u>
+        <note type="speaker">Dr. Bötsch (CDU/CSU):</note>
+        <u who="#Q85844" xml:id="ParlaMint-DE_1985-05-15-10-138.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg7">Herr Präsident! Meine sehr verehrten Herren! Es ist sicherlich ungewöhnlich — und das ist das einzige, in dem ich dem Kollegen Roth zustimme —, daß bei der Zurückziehung von Fragen für die Fragestunde eine Geschäftsordnungsdebatte eröffnet wird. Das ist eine Novität. Aber wir hatten in letzter Zeit hier des öfteren die eine oder andere Novität zu beobachten.</seg>
+          <vocal type="exclamat">
+            <desc>Schulte [Menden] [GRÜNE]: Ist doch schön!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg8">— Sie als Novität hier würde ich nicht als so schön bezeichnen. Da kann ich mir etwas Schöneres vorstellen.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Müller [Bremen] [GRÜNE]: Das ist eine Geschmacksfrage!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg9">— So ist es.</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg10">Es ist sonst üblich gewesen, daß man, wenn man Fragen zurückziehen will, dies beim Präsidenten oder hinter dem Präsidentenstuhl tut. So war es jedenfalls seit Bestehen dieses Hauses üblich.</seg>
+          <vocal type="question">
+            <desc>Vosen [SPD]: Bündel von Fragen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg11">— Auch Bündel von Fragen. Das wurde in derselben Weise gemacht. Ein Blick in das Grundgesetz und die daraus abgeleitete Geschäftsordnung, Herr Roth, würde Sie, wenn Sie ihn sehr intensiv täten, vielleicht überzeugen, daß wir eine Ressortzuständigkeit in der von Ihnen beschriebenen Form, nämlich eine Verantwortlichkeit einzelner Ressorts gegenüber dem Parlament, nicht haben, sondern die Bundesregierung insgesamt gegenüber dem Parlament verantwortlich ist. Das ist nicht in allen Verfassungen so geregelt. In der bayerischen Verfassung beispielsweise ist es anders geregelt. Aber diese kleine Unterscheidung hat auch einmal Ihr Herr Fraktionsvorsitzender, damals als Justizminister, von diesem Pult aus nicht so klar vollziehen können. Er hat sich nachher allerdings korrigiert. Vielleicht sollten Sie bei ihm einmal um Rat fragen.</seg>
+          <vocal type="exclamat">
+            <desc>Roth [SPD]: Feigheit ist kein Verfassungsproblem!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg12">Kurz und knapp: Es ist nicht Aufgabe des Parlaments, darüber zu entscheiden, und es ist nicht Aufgabe einer Fraktion, darüber zu entscheiden, durch wen die Bundesregierung, die insgesamt auch für den Inhalt ihrer Antworten verantwortlich ist, diese Beantwortung vornehmen läßt. Das entscheidet die Bundesregierung in ihrem eigenen Arbeitsbereich. Ob dabei Ausdrücke wie „Feigheit" und ähnliche in einer Geschäftsordnungsdebatte angebracht sind, überlasse ich dem Beobachter. Im übrigen ist es Aufgabe der Bundesregierung, nicht des Parlaments, darüber zu entscheiden. Danke.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU und der FDP — Roth [SPD]: Feigheit!</desc>
+        </kinesic>
+      </div>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksache 10/3326 —</head>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u5" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg13">Der Ausdruck „Feigheit" ist jedenfalls kein parlamentarisch üblicher.</seg>
+          <vocal type="exclamat">
+            <desc>Voigt [Frankfurt] [SPD]: Der Sachverhalt auch nicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg14">Wir wollen ihn auch nicht üblich werden lassen. Ich rufe Punkt 1 der Tagesordnung auf: Fragestunde — Drucksache 10/3326 —</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg15">Meine Damen und Herren, wir kommen zum Geschäftsbereich des Bundeskanzlers und des Bundeskanzleramtes. Zur Beantwortung der Fragen steht uns der Staatsminister Herr Vogel zur Verfügung. Ich rufe die Frage 1 des Abgeordneten Dr. Hupka auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg16">Warum hat die Bundesregierung in ihrer Dokumentation zum „Bericht der Bundesregierung zur Lage der Nation im geteilten Deutschland" im Text des Moskauer und des Warschauer Vertrages nicht den entscheidenden Artikel 4 mit dem Friedensvorbehalt veröffentlicht? Bitte schön, Herr Staatsminister.</seg>
+        </u>
+        <note type="speaker">Vogel, Staatsminister beim Bundeskanzler:</note>
+        <u who="#Q1462656" xml:id="ParlaMint-DE_1985-05-15-10-138.u6" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg17">Herr Kollege Dr. Hupka, die Broschüre „40 Jahre danach — die Freiheit Kern der deutschen Frage" enthält in ihrem Anhang Auszüge aus Dokumenten, soweit diese zum Verständnis einzelner Passagen der Regierungserklärung zur Lage der Nation im geteilten Deutschland unbedingt erforderlich waren. Dokumentarische Vollständigkeit war erkennbar nicht angestrebt. Die im Art. 4 des Moskauer Vertrages und im Art. IV des Warschauer Vertrages angesprochenen zweiseitigen und mehrseitigen Verträge und Vereinbarungen sind in dem Anhang der Broschüre mit denjenigen Passagen abgedruckt, aus denen sich der Friedensvertragsvorbehalt ausdrücklich ergibt. Ich verweise in diesem Zusammenhang auf die Auszüge aus dem Potsdamer Abkommen, aus dem Deutschland-Vertrag sowie ergänzend auf den Auszug aus dem Beschluß des Deutschen Bundestages vom 17. Mai 1972.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u7" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg18">Zusatzfrage des Abgeordneten Dr. Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU):</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1985-05-15-10-138.u8" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg19">Herr Staatsminister, können sie mir dann doch die Frage beantworten, warum ausgerechnet die Passage des Friedensvertragsvorbehalts nicht in diese Auszüge aufgenommen worden ist, zumal sich der Bundeskanzler in seiner Rede auf unsere Rechtspositionen bezogen hat und das natürlich mit gemeint haben muß?</seg>
+        </u>
+        <note type="speaker">Vogel, Staatsminister:</note>
+        <u who="#Q1462656" xml:id="ParlaMint-DE_1985-05-15-10-138.u9" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg20">Herr Kollege Dr. Hupka, ich glaube, daß die Bundesregierung häufig genug hier in diesem Hause zum Ausdruck gebracht hat, daß selbstverständlich auch der Friedensvertragsvorbehalt seine rechtliche Gültigkeit hat. Ich selbst habe in der Fragestunde am 6. Februar, als wir dieses Thema hier sehr ausführlich behandelt haben, auf den Art. IV des Warschauer Vertrages hingewiesen. Sie können davon ausgehen, daß die Bundesregierung sowohl den Art. 4 des Moskauer Vertrages als auch den Art. IV des Warschauer Vertrages selbstverständlich in ihre rechtlichen Bewertungen einbezieht. Daran kann überhaupt kein Zweifel bestehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u10" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg21">Weitere Zusatzfrage des Abgeordneten Dr. Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU):</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1985-05-15-10-138.u11" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg22">Herr Staatsminister, da diese Broschüre natürlich in die Hand möglichst vieler Bürger geraten soll, muß doch gefragt werden, warum hier der Moskauer und der Warschauer Vertrag so selektiv behandelt worden sind, daß die für uns entscheidende Passage, der Art. 4 bzw. Art. IV mit dem Friedensvertragsvorbehalt, nicht abgedruckt worden ist.</seg>
+        </u>
+        <note type="speaker">Vogel, Staatsminister:</note>
+        <u who="#Q1462656" xml:id="ParlaMint-DE_1985-05-15-10-138.u12" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg23">Herr Kollege Dr. Hupka, ich glaube, daß es völlig verfehlt wäre, falsche Schlüsse daraus zu ziehen, daß die zum Verständnis der Erklärung des Bundeskanzlers notwendigen Auszüge aus den verschiedenen Dokumenten in dieser Broschüre wiedergegeben sind. Ich glaube, niemand, der sich den Anhang genau ansieht, kann übersehen, daß hier lediglich Auszüge wiedergegeben werden und damit deutlich zum Ausdruck kommt, daß damit keine vollständige Wiedergabe der Dokumente vorgesehen ist und daß darin keine Bewertung der einzelnen Elemente der Dokumente liegt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u13" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg24">Zusatzfrage des Abgeordneten Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1985-05-15-10-138.u14" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg25">Hält es die Bundesregierung nicht für sinnvoll, um solche Nachfragen von Herrn Dr. Hupka zu vermeiden, Publikationen zur Ost- und Deutschlandpolitik zuvor Herrn Hupka zum Zwecke der Begutachtung und Ergänzung vorzulegen?</seg>
+        </u>
+        <note type="speaker">Vogel, Staatsminister:</note>
+        <u who="#Q1462656" xml:id="ParlaMint-DE_1985-05-15-10-138.u15" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg26">Herr Kollege Sperling, ich möchte hier mit dem § 117 des Bürgerlichen Gesetzbuches antworten, in dem steht, daß eine Erklärung nichtig ist, wenn der Mangel der Ernsthaftigkeit nicht übersehen werden kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u16" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg27">Eine Zusatzfrage des Abgeordneten Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU):</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1985-05-15-10-138.u17" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg28">Herr Staatsminister, sehe ich es richtig, daß die Bedeutung des Art. IV, über den hier so gesprochen wird, darin besteht, daß die östlichen Vertragspartner darin ausdrücklich die Unberührtheit des Deutschland-Vertrages und seines Art. 7 hingenommen haben?</seg>
+        </u>
+        <note type="speaker">Vogel, Staatsminister:</note>
+        <u who="#Q1462656" xml:id="ParlaMint-DE_1985-05-15-10-138.u18" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg29">Herr Kollege Dr. Czaja, ich habe schon auf die Fragestunde vom 6. Februar 1985 hingewiesen, und ich habe damals auf eine Ihrer Fragen geantwortet — ich darf das wiederholen —:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg30">Das Vertragswerk zwischen der Bundesrepublik Deutschland und der Volksrepublik Polen gilt in allen seinen Bestandteilen. Dazu zählt u. a. auch ... Art. IV. Dazu zählt insbesondere aber auch der der polnischen Regierung notifizierte Notenwechsel zwischen der Bundesregierung und den drei Westmächten. Dieser bezog sich auf den Deutschland-Vertrag, wenn ich das hinzufügen darf. Zum Vertragswerk gehört auch die seinerzeitige „Information" der polnischen Regierung. Ich glaube, daß damit abschließend deutlich gemacht ist, wie die Position der Bundesregierung ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u19" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg31">Eine Zusatzfrage des Abgeordneten Lowack.</seg>
+        </u>
+        <note type="speaker">Lowack (CDU/CSU):</note>
+        <u who="#Q2032290" xml:id="ParlaMint-DE_1985-05-15-10-138.u20" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg32">Herr Staatsminister, glauben Sie nicht trotzdem, daß das Zitat von Art. I allein durchaus zu Mißverständnissen Anlaß geben muß und daß man dann, wenn man mit besonderer Authentizität einen Artikel in einer Broschüre abdruckt, die für die Information der Bevölkerung bestimmt ist, den Gesamtzusammenhang darstellen sollte, der sich nur mit Art. IV ergibt, und daß das bei weiteren Zitaten aus diesen Verträgen zumindest wünschenswert wäre?</seg>
+        </u>
+        <note type="speaker">Vogel, Staatsminister:</note>
+        <u who="#Q1462656" xml:id="ParlaMint-DE_1985-05-15-10-138.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg33">Herr Kollege Lowack, es kommt immer darauf an, wie Erklärungen, Dokumente, Schriften interpretiert werden und ob man eine Neigung zu Unterstellungen dabei unterdrükken kann oder nicht. Ich glaube, daß die Position der Bundesregierung hier wiederholt deutlich dargelegt worden ist und daß sie durch ständige Wiederholung nicht deutlicher wird. Man kann Rechtspositionen auch dadurch abnutzen, daß man zuviel auf ihnen herumreitet.</seg>
+        </u>
+        <kinesic type="kinesic">
+          <desc>Zustimmung des Abg. Dr. Sperling [SPD]</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u22" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg34">Da die Frage 2 des Abgeordneten Stiegler (SPD)</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg35">schriftlich beantwortet werden soll — die Antwort wird als Anlage abgedruckt —, sind wir am Ende des Geschäftsbereichs des Bundeskanzlers und des Bundeskanzleramtes. Ich danke für die Beantwortung der Fragen, Herr Staatsminister. Wir kommen zum Geschäftsbereich des Bundesministers der Finanzen. Zur Beantwortung steht der Parlamentarische Staatssekretär Dr. Voss zur Verfügung. Ich rufe die Frage 3 des Abgeordneten Reimann auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg36">Welche Erkenntnisse hat die Bundesregierung über die prozentuale und absolute Investitionstätigkeit der Kommunen bezogen auf die öffentliche Hand seit 1980 sowie deren Anteil an den Sozialhilfeausgaben in diesem Zeitraum? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär beim Bundesminister der Finanzen:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1985-05-15-10-138.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg37">Herr Kollege Reimann, die Ausgaben für Sachinvestitionen der Gemeinden und Gemeindeverbände haben sich zwischen 1980 und 1984 wie folgt entwickelt: 1980 waren es 41,2 Milliarden DM, was einem kommunalen Anteil von 68,5% an den Investitionsausgaben des öffentlichen Gesamthaushalts entspricht. 1981 waren es 39,7 Milliarden DM; das entspricht einem kommunalen Anteil von 69,5 %. 1982 waren es 35,1 Milliarden DM; das entspricht einem kommunalen Anteil von 67,3% an den Investitionsausgaben des öffentlichen Gesamthaushalts. Für 1983 sind die entsprechenden Zahlen: 31,4 Milliarden DM und 65,6%, für 1984 sind es 30,6 Milliarden DM und 64,6 %. Angaben über den kommunalen Anteil an den gesamten Sozialhilfeausgaben liegen nur bis 1982 vor; neuere Daten sind noch nicht verfügbar. 1980 leisteten die Gemeinden 71,4 v. H. der gesamten Sozialhilfeausgaben des öffentlichen Gesamthaushalts, 1981 waren es 70,6 v. H. und 1982 69,7 v. H. Die tatsächlichen Belastungen der kommunalen Haushalte durch Sozialhilfe sind allerdings geringer, da nach dem Sozialhilferecht den Kommunen als Sozialhilfeträgern regelmäßig auch Einnahmen von anderen Kostenträgern durch Kostenbeiträge und Ersatzleistungen zufließen, die durchschnittlich rund ein Drittel der Bruttoausgaben ausmachen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg38">Eine Zusatzfrage des Abgeordneten Reimann.</seg>
+        </u>
+        <note type="speaker">Reimann (SPD):</note>
+        <u who="#Q1600748" xml:id="ParlaMint-DE_1985-05-15-10-138.u25" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg39">Herr Staatssekretär, nach Ihren Zahlen sind die Investitionen in den Gemeinden drastisch zurückgegangen. Darum frage ich Sie: Wie erklären Sie den Rückgang der kommunalen Investitionen? Liegt es an den fehlenden Konjunkturförderungsprogrammen, oder liegt es an dem sozialpolitischen Kahlschlag, den die Bundesregierung in den letzten zwei Jahren verursacht hat, daß den Gemeinden nicht mehr das Geld für Investitionen zur Verfügung steht, weil sie es für andere Zwecke benötigen?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1985-05-15-10-138.u26" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg40">Herr Kollege Reimann, es liegt an keinem der von Ihnen hier genannten Gründe, sondern es liegt daran, daß die Überschüsse der Verwaltungshaushalte bei den Gemeinden in den letzten Jahren nicht so waren, wie man sie sich wünschen kann. Aber zwischenzeitlich sind sie wieder in einem ansteigenden Rahmen. Bereits im Jahre 1984 haben sie 16,5 Milliarden DM erreicht. Von daher geht die Bundesregierung davon aus, daß die Investitionstätigkeit in diesem Jahr und in den nächsten Jahren weiter ansteigen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u27" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg41">Weitere Zusatzfrage des Abgeordneten Reimann.</seg>
+        </u>
+        <note type="speaker">Reimann (SPD):</note>
+        <u who="#Q1600748" xml:id="ParlaMint-DE_1985-05-15-10-138.u28" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg42">Herr Staatssekretär, dann möchte ich noch einmal konkreter fragen. Dann würden Sie also sagen, daß die Aussagen des Bundesarbeitsministers und wahrscheinlich auch des Bundeskanzlers nicht richtig sein können, die der Meinung sind, daß die Gemeinden nur ihre Investitionen zu erhöhen bräuchten, um die Arbeitslosigkeit spürbar abzubauen?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1985-05-15-10-138.u29" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg43">Die Aussagen des Bundeskanzlers und des Bundesarbeitsministers sind zutreffend. Von daher hat j a auch die Bundesregierung an die Gemeinden appelliert — sie ist insbesondere von den kommunalen Spitzenverbänden unterstützt worden —, ihre Investitionen in diesem Jahr und in den folgenden Jahren wieder erheblich zu steigern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u30" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg44">Zusatzfrage des Abgeordneten Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1985-05-15-10-138.u31" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg45">Herr Staatssekretär, um wieviel werden sich die Einnahmen der Gemeinden auf Grund der größten Steuerreform aller Zeiten, geplant durch Ihre Bundesregierung, vermindern?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1985-05-15-10-138.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg46">Herr Kollege, Sie wissen, daß der Anteil der Gemeinden an den Steuereinnahmen, die hier in Betracht kommen, 15% beträgt. Insofern ist diese Rechnung nicht schwer anzustellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg47">Zusatzfrage der Abgeordneten Frau Steinhauer.</seg>
+        </u>
+        <note type="speaker">Frau Steinhauer (SPD):</note>
+        <u who="#Q2547645" xml:id="ParlaMint-DE_1985-05-15-10-138.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg48">Herr Staatssekretär, habe ich Sie richtig verstanden: Sie haben zwar Statistiken über die Entwicklung der Investitionstätigkeit der Kommunen, aber keine über die Entwicklung der Sozialhilfeausgaben? Wenn ich das richtig sehe, wird draußen ja immer von den Zahlen gesprochen. Verschweigen Sie die draußen nur schamhaft, oder wie ist es sonst zu erklären, daß hier Informationsrückstände bei Ihnen bestehen?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1985-05-15-10-138.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg49">Die Bundesregierung verschweigt nichts schamhaft, Frau Kollegin. Danach ist in dieser Frage primär nicht gefragt worden. Aber wenn Sie es gerne hören wollen, kann ich es Ihnen gerne sagen. Bei den Sozialhilfeausgaben müssen Sie berücksichtigen, daß zwei Drittel für besondere Hilfen — Heimunterbringung und Hilfe für Behinderte — anfallen und nur ein Drittel für die sogenannte Hilfe zum Lebensunterhalt. Diese Hilfe zum Lebensunterhalt, die durch Arbeitslosigkeit in etwa tangiert werden kann, ist seit 1981 um 1,3 Milliarden DM auf 6,1 Milliarden DM gestiegen. Aber das kann bei einem Gesamtvolumen der kommunalen Haushalte von 150 Milliarden DM keinen großen Ausschlag machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg50">Zusatzfrage des Abgeordneten Klejdzinski.</seg>
+        </u>
+        <note type="speaker">Dr. Klejdzinski (SPD):</note>
+        <u who="#Q1269833" xml:id="ParlaMint-DE_1985-05-15-10-138.u37" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg51">Herr Staatssekretär, wenn Sie sagen, das könne keinen großen Ausschlag machen: Können Sie sich nicht vorstellen, daß bestimmte Regionen, die schwach entwickelt sind, einen überproportionalen Anstieg der Sozialhilfeausgaben haben, und meinen Sie nicht, daß es unerläßlich ist, beispielsweise festzustellen, in welchem Verhältnis sich dies vollzogen hat, weil nämlich gerade die Sozialhilfeausgaben die Kommunen und Kreise belasten, und daß insofern dieses Geld im Grunde genommen nicht für Ausgaben für Investitionen zur Verfügung steht?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1985-05-15-10-138.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg52">Herr Kollege Klejdzinski, die Bundesregierung hat nie verschwiegen, daß es Unterschiede zwischen den einzelnen Gemeinden gibt, Es gibt hier Gemeinden, die sich finanziell sehr, sehr gut stehen, es gibt Gemeinden, die sich finanziell schlechter stehen. Daß hier dann auch bei den Investitionen gewisse Unterschiede zu verzeichnen sind, ist völlig klar. Aber dennoch hat sich im Schnitt die Möglichkeit für Investitionen so verbessert, daß die Hoffnung der Bundesregierung berechtigt ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u39" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg53">Zusatzfrage des Abgeordneten Brück.</seg>
+        </u>
+        <note type="speaker">Brück (SPD):</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1985-05-15-10-138.u40" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg54">Herr Staatssekretär, nachdem Sie gesagt haben, daß der Betrag eines Anstiegs von 5 Milliarden DM relativ gering ist: Können Sie sich nicht vorstellen, daß 5 Milliarden DM mehr für Investitionen der Gemeinden schon einen beachtlichen Faktor auf dem Arbeitsmarkt darstellten?</seg>
+        </u>
+        <note type="speaker">Dr. Voss, Parl. Staatssekretär:</note>
+        <u who="#Q1462679" xml:id="ParlaMint-DE_1985-05-15-10-138.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg55">Ich weiß nicht, auf welche Zahlen Sie jetzt abstellen, Herr Kollege. Ich habe hier eine Steigerung von 1,3 Milliarden DM genannt.</seg>
+          <vocal type="exclamat">
+            <desc>Brück [SPD]: „Auf 6,1" habe ich in Erinnerung!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg56">— Um 1,3 Milliarden DM auf 6,1 Milliarden DM.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Brück [SPD]: Entschuldigung!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u42" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg57">Wir sind am Ende des Geschäftsbereichs des Bundesministers der Finanzen. Ich danke dem Staatssekretär für die Beantwortung der Fragen. Wir kommen zum Geschäftsbereich des Bundesministers für Raumordnung, Bauwesen und Städtebau. Herr Staatssekretär Dr. Jahn steht zur Beantwortung der Fragen zur Verfügung. Ich rufe die Frage 4 des Abgeordneten Dr. Schöfberger auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg58">Was hat die Bundesregierung bisher unternommen, um entsprechend der Ankündigung des Bundesministers Dr. Schneider vom März 1984 das Instrument der Erhaltungssatzung (§ 39 h BBauG)</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg59">gesetzgeberisch so zu verbessern, daß eine Baugenehmigung zweifelsfrei auch dann versagt werden kann, wenn Baumaßnahmen zur Vertreibung von Mietern führen und keine „besonderen städtebaulichen Gründe" für die Erhaltung vorliegen, und bis wann ist mit einer Gesetzesinitiative zu rechnen? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär beim Bundesminister für Raumordnung, Bauwesen und Städtebau:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1985-05-15-10-138.u43" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg60">Herr Kollege Dr. Schöfberger, ich gehe davon aus, daß Sie mit Ihrer Frage die Ausführungen ansprechen, die der Bundesminister für Raumordnung, Bauwesen und Städtebau am 4. März 1985 im Münchener Presse-Club gemacht hat. Herr Bundesminister Dr. Schneider kündigte in dieser Pressekonferenz an, daß auch die Erhaltungssatzung nach § 39 h des Bundesbaugesetzes in das neue Baugesetzbuch übernommen und in ihrer städtebaulichen Funktion gestärkt werden soll. Die beabsichtigte Änderung zielt darauf ab, Mißverständnisse zu beseitigen, die sich aus der Fassung des geltenden Rechts ergeben haben. Eine Fortentwicklung der Erhaltungssatzung hat nach Sinn und Zweck des Bundesbaugesetzes städtebaulichen Zwecken zu dienen. Eine Weiterentwicklung der Erhaltungssatzung zum Instrument des Mieterschutzes kommt daher nicht in Betracht und wurde auch von den kommunalen Spitzenverbänden bisher stets abgelehnt. Die Bundesregierung erachtet das bestehende Rechtsinstrumentarium zum Schutz des Mieters bei der Umwandlung von Miet- in Eigentumswohnungen als ausgewogen. Die Probleme ergeben sich in erster Linie daraus, daß die Mieter über ihre Schutzrechte nicht hinreichend unterrichtet sind oder davon absehen, von ihren Rechten Gebrauch zu machen. Deshalb hält die Bundesregierung es für geboten, immer wieder auf die Rechte des Mieters in Umwandlungsfällen hinzuweisen. Hierauf hat Herr Minister Dr. Schneider in der Pressekonferenz am 4. März hingewiesen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u44" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg61">Zusatzfrage des Abgeordneten Dr. Schöfberger.</seg>
+        </u>
+        <note type="speaker">Dr. Schöfberger (SPD):</note>
+        <u who="#Q1564139" xml:id="ParlaMint-DE_1985-05-15-10-138.u45" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg62">Herr Staatssekretär, ist Ihnen trotz aller bekannten Rechte der Mieter die Dokumentation der Landeshauptstadt München bekannt, wonach in München zwischen 1981 und 1983 mehr als 20 000 preiswerte Mietwohnungen im Wege des Erwerbermodells in Eigentumswohnungen umgewandelt und später luxussaniert wurden, was zum Anstieg der Mieten um das Dreifache und schlicht zu einer Vertreibung all derjenigen Mieter führte, die diese dreimal so hohen Mieten nicht mehr zahlen konnten, und glauben Sie, daß sich die Bürger angesichts solcher massenhaften Zustände in einer Großstadt — anderswo wird es auch so sein — auf Dauer damit vertrösten lassen, das Städtebauförderungsgesetz sei nicht das richtige Gesetz, um so etwas zu regeln?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1985-05-15-10-138.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg63">Herr Kollege Schöfberger, der Bundesregierung sind Geschäftspraktiken bekannt, die auch die Bundesregierung nicht billigen kann. Nur muß bei der Analyse dieser Geschäftspraktiken im Einzelfall geprüft werden, ob gegen Mieterschutzbestimmungen, die bereits geltendes Recht sind, verstoßen worden ist oder ob die Unkenntnis von Mietern über ihre Rechte ausgenutzt worden ist. Herr Minister Dr. Schneider hat in München dazu aufgefordert, ihm konkrete Einzelfälle an die Hand zu geben. Mir ist bisher nicht bekannt, daß im Bundesbauministerium solche Einzelfälle vorliegen. Ich lade Sie noch einmal ein, uns konkrete Einzelfälle zu geben. Wir würden dann jeden Einzelfall daraufhin prüfen, ob hier nicht bereits das geltende Recht verletzt ist oder ob die Rechte der Mieter im Grunde ausgenutzt worden sind. Das heißt, Herr Kollege Schöfberger: Viele — ich würde sagen: alle uns bekannten — Fälle lassen sich dadurch regeln, daß man die Mieter verstärkt über ihre Rechte aufklärt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg64">Eine weitere Zusatzfrage, Dr. Schöfberger.</seg>
+        </u>
+        <note type="speaker">Dr. Schöfberger (SPD):</note>
+        <u who="#Q1564139" xml:id="ParlaMint-DE_1985-05-15-10-138.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg65">Dann möchte ich Sie fragen, ob die Wohnungsdokumentation der Landeshauptstadt — übersandt vom Oberbürgermeister im April dieses Jahres — und die sogenannte Schwarze Liste des Deutschen Mietervereins mit mehreren Dutzend Einzelfällen — sie wurde auch dem Bundesministerium zugesandt — nicht bei Ihnen angekommen sind.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1985-05-15-10-138.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg66">Kollege Schöfberger, Sie sprechen die sogenannte Schwarze Liste an, von der ich aus der Presse erfahren habe. Ich habe mich soeben noch einmal im Hause erkundigt, ob uns diese Schwarze Liste offiziell zugegangen ist. Das ist bis heute nicht der Fall. Ich lade Sie nach wie vor ein, sie uns zur Prüfung zuzustellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u50" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg67">Wir sind am Ende des Geschäftsbereichs des Bundesministers für Raumordnung, Bauwesen und Städtebau. Ich danke dem Staatssekretär für die Beantwortung der Frage. Der Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit braucht nicht aufgerufen zu werden, weil die Fragestellerin, die Abgeordnete Frau Schmedt (Lengerich)</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg68">die Frage 5 zurückgezogen hat.</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg69">Wir kommen zum Geschäftsbereich des Bundesministers des Auswärtigen. Herr Staatsminister Möllemann steht zur Beantwortung der Fragen zur Verfügung. Ich rufe die Frage 6 des Abgeordneten Duve auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg70">Trifft die Meldung des SPIEGEL (Nr. 18/1985 — „Mehr Verständnis")</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg71">zu, wonach sich das Auswärtige Amt und die chilenische Botschaft von der massiven Kritik des CDU-Generalsekretärs Dr. Geißler an dem Militärdiktator Pinochet distanziert haben sollen?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister im Auswärtigen Amt:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg72">Herr Kollege Duve, Meldungen, nach denen sich das Auswärtige Amt von der Kritik von CDU-Generalsekretär Dr. Geißler an Präsident Pinochet distanziert haben soll, treffen nicht zu. Zu Stellungnahmen der chilenischen Botschaft kann ich mich nicht äußern und möchte ich mich nicht äußern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg73">Zusatzfrage, Herr Duve.</seg>
+        </u>
+        <note type="speaker">Duve (SPD):</note>
+        <u who="#Q1454589" xml:id="ParlaMint-DE_1985-05-15-10-138.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg74">Herr Staatsminister, sind Sie bereit, zur Kenntnis zu nehmen, daß uns, meinem Kollegen Ernst Waltemathe und mir, bei unserem Aufenthalt in Chile mehrfach von christdemokratischer Seite solches gesagt und bestätigt wurde, daß die Äußerungen von Herrn Minister Geißler in Chile und seine harsche und scharfe Kritik an der Regierung, an dem Regime Pinochet bei der deutschen Botschaft dazu geführt haben, daß man Herrn Geißler bei einem zweiten Versuch, einen Besuch in Chile zu unternehmen, davon abgeraten hat und daß Herr Minister Geißler dann auch nicht nach Chile gefahren ist?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg75">Zunächst möchte ich noch einmal klarstellen: Ihre Frage bezog sich auf das Auswärtige Amt — dazu habe ich klar Stellung bezogen — und auf die chilenische Botschaft. Ich verstehe Sie so, daß Sie jetzt die deutsche Botschaft meinen.</seg>
+          <vocal type="exclamat">
+            <desc>Duve [SPD]: Ich spreche von der deutschen Botschaft in Santiago, die Ihnen untersteht, zumindest Ihrem Minister!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg76">— Das ist schon richtig, nur ist das nicht die chilenische Botschaft, sondern die deutsche Botschaft in Chile. Deswegen wußte ich nicht, daß das gemeint war. Entsprechende Äußerungen sind uns nicht bekannt. Das Auswärtige Amt vertritt diese Haltung auch nicht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg77">Sie haben noch eine Zusatzfrage, Herr Duve.</seg>
+        </u>
+        <note type="speaker">Duve (SPD):</note>
+        <u who="#Q1454589" xml:id="ParlaMint-DE_1985-05-15-10-138.u56" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg78">Wären Sie denn bereit, Ihrem Mitarbeiter Herrn Kullak-Ublick, in dessen Vermerk sich nach unserer Information eine solche Distanzierung und eine solche Kritik an den Geißlerschen Äußerungen befinden soll, entsprechend anzuweisen, sich in dieser Form nicht zu distanzieren?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u57" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg79">Herr Duve, wie wir mit unseren Mitarbeitern welche Fragen regeln, sollte man, glaube ich, nicht im Detail hier im Parlament vortragen. In der Sache ist klar, was die Haltung des Auswärtigen Amtes ist: Wir distanzieren uns von der Kritik, die Herr Geißler geübt hat, nicht. Vizepräsident Westphal Auch die Frage 7 ist von Herrn Abgeordneten Duve:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg80">Zitiert der SPIEGEL eine Aufzeichnung des Chile-Referats des Auswärtigen Amtes vom 10. Januar 1985 richtig, in der der angesehene Führer der chilenischen Christdemokraten Gabriel Valdes als „Belastung" und als ein Faktor für den „Anfang eines neuen Allende-Chaos" bezeichnet wurde? Bitte schön, Herr Staatsminister.</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u58" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg81">Herr Kollege Duve, zu nichtamtlichen Veröffentlichungen von angeblichen internen Dokumenten nimmt das Auswärtige Amt grundsätzlich keine Stellung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u59" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg82">Zusatzfrage, Herr Duve.</seg>
+        </u>
+        <note type="speaker">Duve (SPD):</note>
+        <u who="#Q1454589" xml:id="ParlaMint-DE_1985-05-15-10-138.u60" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg83">Herr Staatsminister, der von mir in meiner Frage zitierte „Spiegel" berichtet von einem Treffen von Herrn Kullak-Ublick mit Mr. Motley in Washington am 17. Oktober. Es soll laut „Spiegel" dort eine Übereinkunft gegeben haben, daß man in einem Vier-Phasen-Plan eine veränderte Linie gegenüber Chile eröffnen wolle. Sind Sie bereit, dazu Aussagen zu machen, oder treffen die Aussagen des „Spiegel" zu diesem Vier-Phasen-Plan und zu diesem Treffen in Washington nicht zu?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u61" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg84">Herr Kollege Duve, Sie haben in Ihrer Frage etwas vollständig anderes gefragt. Dazu habe ich hier Stellung genommen, nämlich dergestalt, daß ich dazu nicht Stellung nehme, weil wir zu Veröffentlichungen im „Spiegel" oder wo auch sonst immer, die sich auf angebliche interne Dokumente beziehen, eben keine Kommentare abgeben. Im übrigen ist die Politik der Bundesregierung gegenüber den Staaten Lateinamerikas hinreichend bekannt. Wir versuchen, im Sinne unserer politischen Prinzipien auf eine Verbesserung der Menschenrechtssituationen in Chile hinzuwirken.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u62" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg85">Zusatzfrage des Abgeordneten Jungmann.</seg>
+          <vocal type="question">
+            <desc>Duve [SPD]: Ich habe noch eine Zusatzfrage!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg86">— Ich bitte um Entschuldigung. Sie hatten bei Ihrer zweiten Frage erst eine Zusatzfrage. Noch einmal Herr Duve.</seg>
+        </u>
+        <note type="speaker">Duve (SPD):</note>
+        <u who="#Q1454589" xml:id="ParlaMint-DE_1985-05-15-10-138.u63" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg87">Herr Staatsminister, sind Sie bereit, zur Kenntnis zu nehmen, daß uns, dem erwähnten Kollegen Ernst Waltemathe und mir, von Führern der Christdemokraten das Befremden zum Ausdruck gebracht worden ist, daß der anerkannte Präsident der Christdemokraten, Gabriel Valdes, bisher nie zur deutschen Botschaft eingeladen worden ist, auch an dem Abend, an dem wir empfangen wurden, nicht eingeladen war, sondern sein Vertreter, und daß die Aussage, er weigere sich, solchen Einladungen zu folgen, nicht stimmt?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u64" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg88">Ich will dem nachgehen. Wenn das so wäre, hielte ich das für ein falsches Vorgehen. Es ist nicht Sache der Bundesregierung festzustellen, wer eine Partei führt, oder Bewertungen über Parteiführer in anderen Ländern abzugeben. Wenn das so wäre, würde das abgestellt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u65" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg89">Eine Zusatzfrage des Abgeordneten Jungmann.</seg>
+        </u>
+        <note type="speaker">Jungmann (SPD):</note>
+        <u who="#Q1512829" xml:id="ParlaMint-DE_1985-05-15-10-138.u66" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg90">Herr Staatsminister, Sie haben gerade ausgeführt, daß Sie nicht bereit seien, zu angeblichen Dokumenten- oder sonstigen Veröffentlichungen in Zeitungen Kommentare abzugeben. Wäre es nicht besser, solche Veröffentlichungen, wenn sie falsch sind, zu dementieren, damit diese Gerüchte nicht weiter verbreitet werden?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg91">Ich glaube — soeben sehe ich bei dem Kollegen Bahr ein verständnisvolles Lächeln —, daß es seinen guten Grund hat, wenn sich die Bundesregierung weigert, zu Veröffentlichungen betreffend vermeintliche oder tatsächliche Dokumente überhaupt Stellung zu nehmen. Der Trick ist ja bekannt, mit dem in diesem Fall „Der Spiegel", in anderen Fällen andere Zeitungen vorgehen, um den Stellenwert, das Vorhandensein von Dokumenten überhaupt zu erfragen, nämlich zunächst einmal Publikationen vorzunehmen. Ich sage noch einmal: Zu nicht amtlichen Veröffentlichungen von angeblich internen Dokumenten nimmt das Auswärtige Amt, nimmt die Bundesregierung grundsätzlich keine Stellung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg92">Eine Zusatzfrage des Abgeordneten Brück.</seg>
+        </u>
+        <note type="speaker">Brück (SPD):</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1985-05-15-10-138.u69" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg93">Herr Staatsminister, da Vermerke eines Beamten in der Tat nicht die Haltung einer Regierung widerspiegeln: Sind Sie aber wenigstens zur Klarstellung bereit, nämlich zu sagen, daß die Bundesregierung die Militärdiktatur in Chile verurteilt?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u70" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg94">Es hat sicher zu keinem Zeitpunkt irgendeinen Zweifel gegeben, daß wir für demokratische Staatssysteme und für die Überwindung undemokratischer Zustände eintreten. Das gilt hinsichtlich all der Staaten, in denen undemokratische Zustände herrschen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u71" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg95">Eine Zusatzfrage des Abgeordneten Voigt (Frankfurt).</seg>
+        </u>
+        <note type="speaker">Voigt (Frankfurt) (SPD):</note>
+        <u who="#Q90939" xml:id="ParlaMint-DE_1985-05-15-10-138.u72" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg96">Herr Staatsminister, nachdem Ihre letzte Antwort im Vergleich zu den vorhergehenden Fragen mehr Nebel wirft als Klarheit schafft, möchte ich Sie fragen, ob die Politik des Auswärtigen Amtes bezüglich der genannten vier Punkte dem entspricht, was angeblich in dem Papier steht. — Ich frage nicht nach dem Papier, sondern ich frage nach der politischen Linie des Auswärtigen Amtes. — Sie wissen ja, welche Konsequenz es hätte, wenn Sie in dieser Frage irgendeine Unklarheit über die politische Linie des Auswärtigen Amtes ließen.</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u73" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg97">Die politische Linie des Auswärtigen Amtes ist sonnenklar. Insofern besteht diese Gefahr nicht. Sie ist unverändert. Es gibt gegenüber Chile — wenn Sie das meinen — keine veränderte Politik. Wenn ich das noch mehr konkretisieren darf: Wenn Sie die letzten vier oder fünf Jahre vergleichen, so gibt es keine veränderte Politik.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u74" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg98">Der Abgeordnete Bindig hat um schriftliche Beantwortung der Frage 8 gebeten. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 9 des Abgeordneten Lowack auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg99">Sind der Bundesregierung Berichte von SWAPO-Dissidenten bekannt, wonach die SWAPO-Gefängnisse in Mboroma, Nyango und Senanga — alle Sambia — und Cuanza-Sul/ Angola unterhält, in denen Hunderte von Frauen und Männern häufig in Erdlöchern gefangen gehalten werden, weil sie sich von der SWAPO losgesagt haben, und ist die Bundesregierung bereit, diesen Berichten nachzugehen, um sich gegebenenfalls für die Freilassung dieser Gefangenen einzusetzen? Bitte schön, Herr Staatsminister.</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg100">Herr Kollege Lowack, der Bundesregierung ist bekannt, daß in einem Artikel des in Namibia erscheinenden „Windhuk Observer" über SWAPO-Gefängnisse in Sambia und Angola berichtet wurde. Wir sind diesen Berichten nachgegangen. Bis heute gibt es keine Bestätigung für die Existenz der beschriebenen SWAPO-Gefängnisse in Sambia und Angola. Auch unseren amerikanischern Partnern liegen keine Informationen über die beschriebenen SWAPO-Gefängnisse vor. Mitarbeiter der Botschaft Lusaka konnten Ende Juli 1984 das als Ort eines Gefängnisses bezeichnete Flüchtlingslager Nyango besichtigen. Gebäude oder Baulichkeiten, die als Gefängnisse dienten, wurden bei diesem Besuch nicht festgestellt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg101">Eine Zusatzfrage, Herr Lowack.</seg>
+        </u>
+        <note type="speaker">Lowack (CDU/CSU):</note>
+        <u who="#Q2032290" xml:id="ParlaMint-DE_1985-05-15-10-138.u77" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg102">Herr Staatsminister, seit wann geht die Bundesregierung entsprechenden Mitteilungen nach?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg103">In diesem konkreten Fall gehen wir den Mitteilungen bzw. der Veröffentlichung in der genannten Zeitung nach. Das tun wir durch unsere eigenen Möglichkeiten der Erkenntnisgewinnung, aber auch durch Zusammenarbeit mit befreundeten Staaten, in diesem konkreten Fall in besonderer Weise auch mit den Vereinigten Staaten von Amerika, die ja in diesem Bereich eventuell bessere Erkenntnismöglichkeiten haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg104">Eine weitere Zusatzfrage, Herr Lowack.</seg>
+        </u>
+        <note type="speaker">Lowack (CDU/CSU):</note>
+        <u who="#Q2032290" xml:id="ParlaMint-DE_1985-05-15-10-138.u80" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg105">Herr Staatsminister, darf ich noch um die Beantwortung des zweiten Teils der Frage bitten: ob die Bundesregierung bereit wäre, sich für die Freilassung dieser Gefangenen einzusetzen, wenn das zutrifft?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg106">Ja. Die Bundesregierung verfolgt eine konsequente Menschenrechtspolitik, wie ich das vorhin schon in einem anderen Zusammenhang gesagt habe. Sollten sich die Berichte über angebliche SWAPO-Gefängnisse tatsächlich bestätigen, wird sich die Bundesregierung gegenüber der SWAPO auch für die Freilassung der Gefangenen einsetzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg107">Eine Zusatzfrage des Abgeordneten Jungmann.</seg>
+        </u>
+        <note type="speaker">Jungmann (SPD):</note>
+        <u who="#Q1512829" xml:id="ParlaMint-DE_1985-05-15-10-138.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg108">Herr Staatsminister, Sie haben gerade dem Kollegen Lowack geantwortet, daß Sie Ihre Information aus Zeitungsberichten hätten und, daß Sie diesen Zeitungsberichten nachgegangen seien. Jetzt haben Sie zu diesen Zeitungsberichten Stellung genommen und eine Bewertung gegeben. Warum tun Sie das nicht hinsichtlich der Bewertung des „Spiegel"-Artikels und hinsichtlich der Bewertung der Dokumente, nach denen wir vorher gefragt haben? Hier ist doch wohl eine Diskrepanz festzustellen.</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg109">Nein, das ist keine Diskrepanz, sondern ein Unterschied, und zwar im Ausgangssachverhalt.</seg>
+          <vocal type="exclamat">
+            <desc>Duve [SPD]: Wie unterscheiden Sie eine Diskrepanz von einem Unterschied?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg110">— Ich weiß: Die Basis ist das Fundament der Grundlage. — Ich wollte nur sagen, daß der Unterschied darin besteht, daß hier ein vermeintliches internes Dokument zitiert worden ist. Ich habe mich zu diesem Dokument nicht geäußert. In dem anderen Fall bin ich nach einem politischen Sachverhalt befragt worden, auf den wir u. a. durch die Veröffentlichung in einer Zeitung hingewiesen worden sind. Dem sind wir nachgegangen. Ich finde schon, daß das ein Unterschied ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg111">Wir kommen dann zu der Frage 10 des Herrn Abgeordneten Bahr:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg112">Welche Informationen liegen der Bundesregierung im Hinblick auf Abänderung von Dienstvorschriften der amerikanischen Streitkräfte vor, die sich — wie insbesondere das Air Force Pamphlet 110-31 und das Army Field Manual 27-10 — auf die Verbindlichkeit von Völkerrechtsnormen im Falle eines Atomkrieges beziehen? Bitte schön, Herr Staatsminister.</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u86" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg113">Herr Kollege Bahr, nach den im Auswärtigen Amt vorliegenden Informationen ist amerikanischerseits in der Tat beabsichtigt, die US-Dienstvorschriften, die Sie angesprochen haben, einer Überarbeitung zu unterziehen. Einzelheiten sind der Bundesregierung nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg114">Eine Zusatzfrage, Herr Abgeordneter Bahr.</seg>
+        </u>
+        <note type="speaker">Bahr (SPD):</note>
+        <u who="#Q62206" xml:id="ParlaMint-DE_1985-05-15-10-138.u88" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg115">In welcher Richtung werden diese Umarbeitungen vorgenommen, und hat die Bundesregierung — u. a. durch Ihren Kollegen Mertes — auf dieses Thema in Amerika Einfluß genommen?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg116">Ich sagte gerade bei der Beantwortung Ihrer Frage, daß uns Einzelheiten nicht bekannt sind. Da ich aber annehme, daß Sie einen spezifischen Aspekt der möglichen Überarbeitung im Auge haben, möchte ich darlegen, daß uns jedenfalls die Haltung der USA, was völkergewohnheitsrechtliche Regelungen für Nuklearwaffen anbelangt, seit langem bekannt ist. Diese ist in Briefen des damaligen Botschafters Stoessel an meinen Kollegen Dr. Mertes ebenso wie in einem Schreiben des US-Geschäftsträgers Woessner dargelegt worden. Sinngemäß steht in diesem Schreiben, daß für Nuklearwaffen nach amerikanischer Auffassung folgende gewohnheitsrechtlichen Regeln zur Anwendung kommen: erstens, daß das Recht von Konfliktparteien, Mittel anzuwenden, um dem Feind Schäden zuzufügen, nicht unbegrenzt ist; zweitens, daß es verboten ist, Angriffe gegen die Zivilbevölkerung als solche zu richten; drittens, daß man zu jeder Zeit zwischen Personen, die an den Feindseligkeiten teilnehmen, und Angehörigen der Zivilbevölkerung unterscheiden muß, und zwar dergestalt, daß die letztere soweit wie möglich geschont wird. Konkreteres darüber hinaus, was nun bei der Überarbeitung angestrebt wird, kann ich, da uns die Pläne nicht bekannt sind, nicht sagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg117">Eine weitere Zusatzfrage des Herrn Abgeordneten Bahr.</seg>
+        </u>
+        <note type="speaker">Bahr (SPD):</note>
+        <u who="#Q62206" xml:id="ParlaMint-DE_1985-05-15-10-138.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg118">Ist die Bundesregierung daran interessiert, daß der substantielle Inhalt der bestehenden und gültigen Vorschriften nicht geändert wird?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg119">Ja, wir halten die bestehenden Prinzipien, die bestehenden gewohnheitsrechtlichen Regeln für sehr vernünftig und sehen auch keinen Anlaß, sie zu ändern.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u93" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg120">Eine Zusatzfrage des Herrn Abgeordneten Voigt (Frankfurt).</seg>
+        </u>
+        <note type="speaker">Voigt (Frankfurt) (SPD):</note>
+        <u who="#Q90939" xml:id="ParlaMint-DE_1985-05-15-10-138.u94" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg121">Herr Staatssekretär, nachdem Sie eben mit anderen Worten bestätigt haben, daß die bisherige amerikanische Auffassung war, daß jeder Angriff zu unterbleiben hat, wenn mit zivilen Verlusten zu rechnen wäre, die in einem exzessiven Verhältnis zu den militärischen Vorteilen stünden, möchte ich Sie fragen, ob die Bundesregierung bereits versucht hat, Einfluß auf die inneramerikanische Diskussion und Entscheidung dahin gehend zu nehmen, daß auf jeden Fall eine Formulierung bzw. eine Modifizierung der Vorschrift in dem Sinne verhindert wird, daß wegen angeblicher militärischer Vorteile eine Verminderung des Schutzes der Zivilbevölkerung eintreten könnte?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg122">Herr Kollege Voigt, ich finde, daß es nicht Sache der Bundesregierung ist, bei Neuformulierungen interner Dienstvorschriften der USA — inbesondere der amerikanischen Streitkräfte — mitzuwirken. Es gibt derzeit keine deutsch-amerikanischen Konsultationen mit dem Ziel, eine Änderung der bestehenden Dienstvorschriften in einem bestimmten Sinne zu erreichen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Voigt [Frankfurt] [SPD]: Berührt das nicht irgendwie doch deutsche Interessen?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg123">Einen Augenblick! Das geht nun leider nicht. Das muß dann schon jemand anders fragen. Jetzt hat der Herr Abgeordnete Dr. Soell das Wort zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Soell (SPD):</note>
+        <u who="#Q1587570" xml:id="ParlaMint-DE_1985-05-15-10-138.u97" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg124">Herr Staatsminister, teilt die Bundesregierung die Rechtsauffassung, daß die bundesdeutschen Dienstvorschriften den US-Streitkräften heute verbieten würden, Atombombenabwürfe auf Bevölkerungszentren wie Hiroshima oder Nagasaki zu wiederholen?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u98" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg125">Diese Rechtsauffassung ist mir nicht bekannt. Deswegen kann ich sie im Moment nicht kommentieren.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Voigt [Frankfurt] [SPD]: Das steht auf der nächsten Seite!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u99" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg126">Zusatzfrage des Abgeordneten Jungmann.</seg>
+        </u>
+        <note type="speaker">Jungmann (SPD):</note>
+        <u who="#Q1512829" xml:id="ParlaMint-DE_1985-05-15-10-138.u100" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg127">Herr Staatsminister, kann die Bundesregierung denn wenigstens bestätigen, daß die zitierten Bestimmungen aus den beiden US-Vorschriften des Jahres 1976 zufälligerweise inhaltlich übereinstimmen mit Art. 51 Abs. 5 b des Zusatzprotokolls I von 1977, demzufolge die Zulässigkeit ziviler Begleitschäden am konkreten und unmittelbaren militärischen Nutzen gemessen werden muß?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u101" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg128">Ich sagte Ihnen ja gerade, Herr Kollege Jungmann, daß die drei gewohnheitsrechtlichen Regeln, die ich vorgetragen habe, weiterhin Gültigkeit haben, und zwar sowohl nach Auffassung der US-amerikanischen Regierung als auch nach der unseren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u102" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg129">Zusatzfrage des Abgeordneten Verheugen.</seg>
+        </u>
+        <note type="speaker">Verheugen (SPD):</note>
+        <u who="#Q76525" xml:id="ParlaMint-DE_1985-05-15-10-138.u103" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg130">Herr Staatsminister, die zu Grunde liegende Völkerrechtsnorm ist in der Tat das Verhältnismäßigkeitsgebot, zuletzt kodifiziert in Art. 51 des Genfer Zusatzprotokolls. Ich möchte gern wissen, ob die Bundesregierung der Meinung ist, daß diese Bestimmungen des Art. 51 des Genfer Zusatzprotokolls identisch sind mit den derzeit geltenden Dienstvorschriften der amerikanischen Armee und nach unserem Völkerrechtsverständnis schon deshalb nicht geändert werden können.</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u104" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg131">Ob die Dienstvorschriften der amerikanischen Armee geändert werden können oder nicht, das kann ich so pauschal nun wirklich nicht sagen. Es ist das Recht der amerikanischen Regierung, ihre Dienstvorschriften zu verändern, aber natürlich im Rahmen der gültigen internationalen Vereinbarungen und Verträge.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u105" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg132">Zusatzfrage des Abgeordneten Dr. Scheer.</seg>
+        </u>
+        <note type="speaker">Dr. Scheer (SPD):</note>
+        <u who="#Q63346" xml:id="ParlaMint-DE_1985-05-15-10-138.u106" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg133">Herr Staatsminister, wenn Sie bei der Beantwortung der beiden letzten Fragen überfordert gewesen sind, sind Sie bei meiner Frage jetzt vielleicht nicht überfordert. Sie lautet, ob die Bundesregierung bestätigen kann, daß es für die Bewertung des dringend ratifizierungsbedürftigen Zusatzprotokolls I von zentraler Bedeutung ist, welche seiner Kampfführungsbestimmungen dem Völkergewohnheitsrecht zuzurechnen sind, weil dieses Völkergewohnheitsrecht, wie Regierungsvertreter, u. a. Sie, einräumen, „natürlich auch im Falle des Atomkrieges" — wörtlich — anzuwenden wäre.</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u107" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg134">Die Bedeutung dieses Abkommens gerade für die von Ihnen angesprochenen Fragenbereiche ist unbestritten. Dies kann ich feststellen, ohne besonders überfordert zu werden. Deswegen haben wir ja auch der Würdigung des Abkommens hier im Parlament mehrfach breiten Raum eingeräumt, und wir sind nach wie vor daran interessiert, daß es möglichst bald zu einer Ratifizierung des Abkommens kommen wird. Sie wissen, daß es das Ziel der Bundesregierung bleibt, zu einer solchen baldigen Ratifizierung der Zusatzprotokolle zu gelangen. Allerdings haben wir auch gesagt, daß wir das Zustimmungsverfahren erst dann einleiten wollen, wenn die Zusatzprotokolle durch eine Nuklearmacht des Bündnisses ratifiziert worden sind. Das ist noch nicht erfolgt.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Scheer [SPD]: Das ist aber neu!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u108" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg135">Zusatzfrage des Abgeordneten Duve.</seg>
+        </u>
+        <note type="speaker">Duve (SPD):</note>
+        <u who="#Q1454589" xml:id="ParlaMint-DE_1985-05-15-10-138.u109" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg136">Herr Staatsminister, auf die Frage meines Kollegen Professor Soell, ob Ihnen bekannt ist, daß nach deutscher Dienstvorschrift ein atomarer Angriff auf Bevölkerungszentren wie etwa Hiroshima — oder nehmen wir Düsseldorf, Herr Möllemann — nicht zulässig sei, haben Sie die erstaunliche und für die deutsche Bevölkerung sicher außerordentlich interessante Antwort gegeben, daß Ihnen diese Rechtsauffassung nicht bekannt sei. Ich frage Sie: Welche Auffassung zur atomaren Zerstörung ziviler Zentren ist Ihnen denn bekannt?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u110" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg137">Herr Kollege, ich habe dem Fragesteller vorhin dargelegt, welche Prinzipien für den Einsatz von Nuklearwaffen Gültigkeit haben müssen, und das kennzeichnet unsere Auffassung. Ich habe dafür drei Prinzipien genannt, die ich deswegen wiederhole, weil Sie versuchen, den Eindruck zu erwecken, als seien uns diese Prinzipien entweder unbekannt oder gar gleichgültig. Sie lauten, daß das Recht von Konfliktparteien, Mittel anzuwenden, um dem Feind Schäden zuzufügen, nicht unbegrenzt ist, daß es verboten ist, Angriffe gegen die Zivilbevölkerung als solche zu richten, und daß man zu jeder Zeit unterscheiden muß zwischen Personen, die an den Feindseligkeiten teilnehmen, und Angehörigen der Zivilbevölkerung dergestalt, daß die letztere so weit wie möglich geschont wird. Das sind klare Prinzipien. Daran orientiert sich die amerikanische Regierung, und daran orientieren wir uns.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg138">Zu einer Zusatzfrage Herr Abgeordneter Berger.</seg>
+        </u>
+        <note type="speaker">Berger (CDU/CSU):</note>
+        <u who="#Q1777494" xml:id="ParlaMint-DE_1985-05-15-10-138.u112" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg139">Herr Staatsminister, würden Sie bestätigen, daß in den deutschen Dienstvorschriften für Kampfführung und Operationsführung in der Bundeswehr diesem Grundsatz der Verhältnismäßigkeit der Mittel, der vorhin mehrmals zitiert worden ist, uneingeschränkt Rechnung getragen wird? Und würden Sie mir weiter bestätigen, daß dieser Grundsatz auch im Hinblick auf alle Verabredungen im Bündnis auf etwaige Zieloptionen und Strategien Geltung hat?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u113" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg140">Ich kann Ihnen dies bestätigen. Nur war ich bei der Beantwortung der Frage des Kollegen Bahr besonders auf den Bereich der Nuklearkriegführung eingegangen; denn hier wird die Problematik besonders drängend. Die ganze Debatte über die Frage der Ratifizierung der Zusatzprotokolle und möglicher Nuklearvorbehalte, die wir hier schon mehrfach geführt haben, bezieht sich ja auf diesen speziellen Schwierigkeitsbereich. Aber im Blick auf die geltenden Bestimmungen für die deutschen Streitkräfte haben Sie diesen Sachverhalt völlig zutreffend beschrieben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u114" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg141">Ich rufe die Frage 11 des Abgeordneten Dr. Hupka auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg142">In welcher Weise gedenkt die Bundesregierung auf die jüngsten Ausführungen des polnischen Partei- und Regierungschefs Jaruzelski am 7. Mai 1985 in Breslau zum Ende der Ausreise, zumal der Inhalt dieser Ausführungen gegen die deutsch-polnischen Abmachungen von 1970 und 1975/76 sowie gegen die Verpflichtungen der Volksrepublik Polen aus den UN-Menschenrechtspakten und der KSZE-Schlußakte verstößt, zu reagieren? Bitte schön, Herr Staatsminister.</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg143">Herr Dr. Hupka, die Bundesregierung wird sich weiter nachdrücklich für eine Lösung dieser humanitären Probleme einsetzen. Sie wird sich dabei auf alle geeigneten Rechtsgrundlagen stützen, insbesondere auf die nach wie vor gültige „Information der Regierung der Volksrepublik Polen" vom 7. Dezember 1970 sowie auf das Protokoll einschließlich der sogenannten „Offenhalteklausel" aus dem Jahr 1975. Dies wird bei jeder sich bietenden Gelegenheit geschehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg144">Zu einer Zusatzfrage Herr Abgeordneter Dr. Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU):</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1985-05-15-10-138.u117" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg145">Herr Staatsminister, Sie haben jetzt die Zukunft angesprochen. Es geht um die Reaktion unmittelbar auf die Rede des polnischen Ministerpräsidenten Jaruzelski am 7. Mai in Breslau. Ist seitens der Bundesregierung in dieser Hinsicht ein Schritt über unsere Botschaft in Warschau unternommen worden?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u118" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg146">Ich glaube nicht, daß es zweckmäßig ist, auf jede einzelne Rede mit politischen Demarchen zu reagieren. Sinnvoll ist vielmehr, kontinuierlich die von uns umschriebene Politik, die Ihnen bekannt ist, fortzusetzen und zu verfolgen. Dies ist wahrscheinlich mittel- und langfristig wirksamer, als auf Einzelerklärungen von Regierungsmitgliedern oder des Regierungschefs einzugehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u119" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg147">Zu einer weiteren Zusatzfrage Herr Abgeordneter Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU):</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1985-05-15-10-138.u120" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg148">Herr Staatsminister, Sie werden mir darin zustimmen können, daß die Frage der Deutschen in Ostdeutschland jenseits von Oder oder Neiße in der Rede des polnischen Ministerpräsidenten eine große Rolle gespielt hat. Darum habe ich die Frage: Wäre das nicht ein Anlaß gewesen, unmittelbar nach dieser Rede oder ihrem Bekanntwerden — zumal diese Rede vom ersten Mann Polens gehalten worden ist — sich entweder hier in der Öffentlichkeit oder in Warschau auf diplomatischem Weg zu äußern?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u121" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg149">Öffentlich habe ich mich für die Bundesregierung gerade hier geäußert. Aber ich wiederhole: Es erscheint nicht zweckmäßig, auf jede solcher Reden eine Erklärung abzugeben, zumal es keinerlei Zweifel über die Haltung der Bundesregierung im Blick auf diese Fragen gibt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u122" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg150">Zu einer Zusatzfrage Herr Abgeordneter Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1985-05-15-10-138.u123" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg151">Herr Staatsminister, stimmen Sie mir zu, daß die Bundesregierung bei ihrem Verhalten auch das Schicksal der betroffenen Menschen in Polen bedacht haben muß und nicht irgendwelche Reaktionen von irgendwelchen Schreibern in einem Verbandsorgan mit dem Namen „Der Schlesier" oder so?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u124" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg152">Natürlich geht es uns bei der Politik, die wir in diesem sehr heiklen Feld betreiben, darum, die Situation der betroffenen Menschen zu verbessern.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Hupka [CDU/CSU]: Sehr richtig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg153">Das kann man ganz sicher nur tun, wenn man alle denkbaren Reaktionen auf der Gegenseite mit in Rechnung zieht. Eine behutsame und besonnene Politik, wie sie die Bundesregierung in diesen Fragen verficht, scheint da allemal besser zu sein als bestimmte, manchmal ganz drastische Erklärungen. Die von Ihnen angesprochene Verlautbarung, die auch ich zur Kenntnis genommen habe, hat der Kollege Dr. Hupka als „unverantwortliches Zeug irgendeines Schreibers" gekennzeichnet. Man kann ihm da wirklich nicht widersprechen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Hupka [CDU/CSU]: Ich danke Ihnen!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u125" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg154">Zu einer Zusatzfrage Herr Abgeordneter Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU):</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1985-05-15-10-138.u126" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg155">Herr Staatsminister, wäre aber nicht die amtliche Erklärung des polnischen Regierungschefs ein Anlaß, dem Bruch der humanitären Geschäftsgrundlage des Warschauer Vertrags zu widersprechen — um so mehr, als davon 80 000 Ehegatten und Kinder wegen Trennung auf unbestimmte Frist betroffen sind?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg156">Herr Kollege Dr. Czaja, wenn ich sage, daß sich die Bundesregierung weiter nachdrücklich für eine Lösung dieser humanitären Probleme einsetzen wird, dann sage ich j a, daß wir uns die Auffassung, die hier artikuliert worden ist, nicht zu eigen machen können, daß für uns nach wie vor die beiden angesprochenen Dokumente, nämlich die Information der Regierung der Volksrepublik Polen wie auch die sogenannte Offenhalteklausel, Gültigkeit haben. Darauf beziehen wir uns. Es ist eine Frage der Zweckmäßigkeit, wie man dann vorgeht. Uns scheint, daß man das mit Regierungsdeklarationen oder gar -deklamationen kaum tun sollte, daß man dabei jedenfalls kaum für die betroffenen Menschen Positives bewirken kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg157">Wir kommen zur Frage 12 des Abgeordneten Dr. Czaja:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg158">Was wird die Bundesregierung angesichts der Hunderttausenden unerledigten Aussiedlungsanträge Deutscher einerseits und der Erklärung des polnischen Regierungschefs Jaruzelski in Breslau am 7. Mai 1985, daß alle polnischen Verpflichtungen diesbezüglich „mehr als erfüllt" seien und die deutsche Minderheit aufgehört habe zu existieren, andererseits unternehmen, um den konstanten Bruch der humanitären Geschäftsgrundlagen des Warschauer Vertrags und der Rechtsverpflichtungen des Politischen Menschenrechtspaktes — trotz riesiger deutscher Subsidien an die Volksrepublik Polen und Milliardenverlusten des Bundes — zu unterbinden? Bitte schön, Herr Staatsminister.</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u129" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg159">Herr Kollege Dr. Czaja, ich verweise auf meine Antwort auf die Frage des Kollegen Hupka. Ergänzend füge ich hinzu, daß der Bundesregierung eine Verknüpfung von wirtschaftlichen Maßnahmen mit unseren humanitären Anliegen nicht hilfreich erscheint. Ich wiederhole ferner die Antwort, die Ihnen mein Kollege, der Parlamentarische Staatssekretär Dr. Sprung, auf Ihre entsprechende Frage am 8. Juni 1983 hier bereits gegeben hat:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg160">Herr Kollege Czaja, die Gewährung von Bundesbürgschaften und -garantien ist ein Instrument zur Förderung der deutschen Exportwirtschaft. Dieses Instrument wird grundsätzlich unter wirtschaftlichen, insbesondere unter Risikogesichtspunkten gehandhabt. Andere Aspekte wie z. B. ... Menschenrechtsfragen werden mit der Gewährung von Bürgschaften und Garantien nicht verknüpft.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u130" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg161">Zusatzfrage, Herr Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU):</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1985-05-15-10-138.u131" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg162">Herr Staatsminister, wird die Bundesregierung diesen ständigen Bruch der humanitären Geschäftsgrundlagen des Warschauer Vertrages nicht zum Anlaß nehmen, die polnische Regierung darauf hinzuweisen — ob nun offen oder im diplomatischen Verkehr —, daß dieser Bruch den gesamten Warschauer Vertrag zu erschüttern droht, wie die frühere Bundesregierung das hier bei den Ratifizierungsdebatten im Bundeshaus angekündigt hat?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u132" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg163">Eine Ankündigung der Erschütterung des Warschauer Vertrags durch die frühere Bundesregierung kenne ich jetzt nicht, habe ich nicht in Erinnerung. Herr Kollege Dr. Czaja, ich möchte aber noch einmal unterstreichen — und kann dem auch nichts weiter hinzufügen —, daß wir uns weiter nachdrücklich für die Lösung dieser humanitären Probleme einsetzen werden, allerdings mit den Methoden und Mitteln, die der Regierung als zweckmäßig erscheinen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u133" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg164">Weitere Zusatzfrage, Herr Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU):</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1985-05-15-10-138.u134" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg165">Zu der Verknüpfung mit erheblichen Verlusten für den Bundeshaushalt und den Steuerzahler — darum geht es ja —: Meinen Sie wirklich, daß ein Teil unserer Bürger diesen groben Mißstand hinnehmen wird, daß der Steuerzahler von 1982 bis 1984 nach Aussage des Finanzministeriums 3 056 Millionen DM Verluste für Polen bezahlt hat und heuer 1 Milliarde DM zahlt, andererseits aber Polen die Verträge bricht, die Deutschen beschimpft und die Deutschen daheim menschenrechtswidrig behandelt?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u135" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg166">Was die Gewährung von Bundesbürgschaften und -garantien angeht, Herr Kollege Dr. Czaja, habe ich bereits die Kriterien erwähnt. Daran ändert sich nichts.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u136" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg167">Zusatzfrage des Abgeordneten Dr. Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU):</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1985-05-15-10-138.u137" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg168">Herr Staatsminister, darf ich Ihre Antwort so interpretieren, daß die Bundesregierung den Ausführungen des polnischen Ministerpräsidenten erstens nicht zustimmen kann und zweitens diesen Ausführungen widerspricht?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u138" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg169">Ich glaube, es ist deutlich geworden, daß wir die hier zum Ausdruck gekommene Auffassung nicht teilen, daß wir dem unsere Auffassung entgegenstellen und im Sinne unserer Auffassungen auch Politik gegenüber dem polnischen Staat betreiben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg170">Wir kommen zur Frage 13 des Abgeordneten Dr. Czaja:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg171">Wie wird die Bundesregierung den unerhörten Entstellungen der ostdeutschen Geschichte, der Verletzung des guten Rufs der ostdeutschen Heimatvertriebenen, der Einmischung in unsere innerstaatlichen Angelegenheiten sowie der Beschimpfung unseres Staatsbesuchs (der „Bitburger Tag der Schande")</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg172">seitens des polnischen Regierungschefs Jaruzelski in Breslau wirksam entgegentreten? Bitte schön, Herr Staatsminister.</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u140" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg173">Herr Kollege Dr. Czaja, die Bundesregierung bedauert die einseitige Darstellung, die der Ministerpräsident der Volksrepublik Polen in seiner Rede in Breslau am 7. Mai 1985 bestimmten Vorgängen im deutsch-polnischen Verhältnis gegeben hat. Der Standpunkt der Bundesregierung zu den von Ministerpräsident Jaruzelski angesprochenen Fragen beruht auf historischer Wahrheit und ist der Regierung der Volksrepublik Polen auch bekannt. Die Bundesregierung unterstreicht in diesem Zusammenhang erneut die unschätzbaren Verdienste der Vertriebenen um Demokratie und wirtschaftlichen Wiederaufbau in der Bundesrepublik Deutschland. Die Kranzniederlegung auf dem Soldatenfriedhof Bitburg sowie die Ansprachen des amerikanischen Präsidenten und des Bundeskanzlers auf der Bitburger Militärbasis sprechen in ihrer Würde für sich selbst. Im übrigen darf ich Sie auf die von dem Herrn Bundespräsidenten an dieser Stelle in seiner überaus eindrucksvollen Rede dargelegte historische Sicht unserer jüngsten Geschichte verweisen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u141" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg174">Zusatzfrage, Herr Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU):</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1985-05-15-10-138.u142" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg175">Herr Staatsminister, darf ich Ihre dankenswerten Ausführungen so verstehen, daß auch im freien Teil Deutschlands — unter Wahrung einer minimalen Selbstachtung — nicht hingenommen wird, daß das Ermland, Schlesien, Pommern und andere Gebiete, in die Deutsche gerufen worden sind und die sie sieben Jahrhunderte mitgestaltet haben, als von ihnen „geraubte" Gebiete bezeichnet werden?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u143" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg176">Ich glaube, Herr Kollege Czaja, daß wir von seiten der Bundesregierung nicht nur eine minimale Selbstachtung für uns in Anspruch nehmen. Im übrigen aber habe ich der dargelegten Auffassung der Bundesregierung, die hier ja wiederholt, immer wieder vorgetragen worden ist, zu den in Rede stehenden Fragen nichts hinzuzufügen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u144" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg177">Eine weitere Zusatzfrage, Herr Dr. Czaja.</seg>
+        </u>
+        <note type="speaker">Dr. Czaja (CDU/CSU):</note>
+        <u who="#Q72639" xml:id="ParlaMint-DE_1985-05-15-10-138.u145" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg178">Kann ich Ihren Ausführungen, Herr Staatsminister, auch entnehmen, daß die Beschimpfung der Deutschen als Imperialisten und die Bezeichnung des Staatsbesuches in Bitburg als eines Tages der europäischen Schande durch Sie zurückgewiesen werden?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u146" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg179">Ich habe gerade gesagt, daß wir diese einseitigen Erklärungen bedauern und daß wir darauf setzen, daß das Verhältnis zwischen der Bundesrepublik Deutschland und Polen durch den Geist der Verständigung und der Zusammenarbeit und nicht durch Erklärungen dieser oder jener Seite geprägt werden wird, die diese Verständigung und Zusammenarbeit erschweren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u147" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg180">Zusatzfrage des Abgeordneten Dr. Hirsch.</seg>
+        </u>
+        <note type="speaker">Dr. Hirsch (FDP):</note>
+        <u who="#Q107360" xml:id="ParlaMint-DE_1985-05-15-10-138.u148" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg181">Herr Staatsminister, wenn Sie sich schon zu einer Rede des polnischen Ministerpräsidenten Jaruzelski äußern sollen, könnten Sie dann auch zu dem Artikel in der letzten Ausgabe der Zeitschrift „Der Schlesier" Stellung nehmen, in dem die von Ihnen erwähnte Rede des Bundespräsidenten in einer unglaublich miesen und dümmlichen Weise angegriffen wird?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u149" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg182">Herr Kollege Dr. Hirsch, ich glaube, daß der Deutsche Bundestag und unsere zahlreichen Gäste, die wir an jenem Tag hatten, die Rede des Präsidenten eindrucksvoll bewertet und sie mit großer Zustimmung begleitet haben. Ein überwältigendes Echo aus allen Teilen der Bundesrepublik, aber auch aus vielen anderen Ländern zeigt im übrigen, daß diese Rede als großartig angesehen wird. Auch wir finden sie großartig. Ich habe sie ja soeben noch einmal erwähnt, indem ich auf die geschichtlichen Betrachtungen, die darin angestellt worden sind, hingewiesen habe. Ich finde, daß die Qualifizierung der Rede des Staatsoberhauptes in dem von Ihnen angesprochenen Artikel von Herrn Dr. Hupka in der Tat mit vollem Recht als dümmliches Geschwätz oder ähnlich bezeichnet worden ist. Ich hoffe sehr, daß die Rede unseres Bundespräsidenten nicht noch von anderer Seite so gewertet wird, daß ähnliche Urteile erforderlich sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u150" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg183">Zusatzfrage des Abgeordneten Dr. Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU):</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1985-05-15-10-138.u151" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg184">Herr Staatsminister, kann die Bundesregierung möglichst bald einen Anlaß finden und dann auch dazu benutzen, dem polnischen Ministerpräsidenten zu widersprechen, wenn er die Vertreibung als die Notwendigkeit, die Heimat zu verlassen, darstellt, indem man darauf hinweist, daß die Vertreibung tatsächlich ein Verbrechen gegen die Menschlichkeit und nicht ein freiwilliges Verlassen der Heimat gewesen ist?</seg>
+        </u>
+        <note type="speaker">Möllemann, Staatsminister:</note>
+        <u who="#Q65521" xml:id="ParlaMint-DE_1985-05-15-10-138.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg185">Herr Kollege Dr. Hupka, wir machen unsere Auffassung, die Ihnen bekannt ist und die ich hier mehrfach angesprochen habe, in den regelmäßigen Kontakten zur Volksrepublik Polen deutlich. Insofern dürfen Sie davon ausgehen, daß sie der polnischen Regierung auch wirklich hinreichend bekannt ist. Bei Bedarf wird dies dann erneut geschehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg186">Die Fragen 14 und 15 des Abgeordneten Hedrich sollen auf Wunsch des Fragestellers schriftlich beantwortet werden. Die Antworten werden als Anlagen abgedruckt. Die Frage 16 des Abgeordneten Dr. von Bülow ist zusammen mit anderen Fragen zurückgezogen worden. Wir sind damit am Ende dieses Geschäftsbereichs. Ich danke dem Staatsminister Möllemann für die Beantwortung der Fragen. Wir kommen zum Geschäftsbereich des Bundesministers des Innern. Zur Beantwortung der Fragen steht uns Herr Staatssekretär Kroppenstedt zur Verfügung. Zuerst rufe ich die Frage 17 der Frau Abgeordneten Hönes auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg187">Ist der Bundesregierung bekannt, daß die Industrie in Österreich und in der Schweiz freiwillig den Anteil an PVC-Verpackungen innerhalb der nächsten zwei Jahre um 18 v. H. bzw. um ca. 60 v. H. reduzieren will, nur um gesetzliche Zwangsmaßnahmen zu verhindern, und befindet sich die Bundesregierung derzeit in Verhandlung mit der Industrie über eine mögliche Reduzierung des PVC-Anteils bei Verpakkungen? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u154" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg188">Frau Abgeordnete, der Bundesregierung sind die in der Schweiz und Österreich getroffenen freiwilligen Vereinbarungen zur Verringerung des PVC-Anteils bei Verpackungen bekannt. Das Umweltbundesamt stellt zur Zeit in einer Untersuchung die PVC-Packmittel nach Menge, verpackten Produkten und Substitutionsmöglichkeiten zusammen. Nach Fertigstellung und Auswertung dieser Studie wird die Bundesregierung über weitere Maßnahmen entscheiden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u155" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg189">Zusatzfrage, Frau Hönes.</seg>
+        </u>
+        <note type="speaker">Frau Hönes (GRÜNE):</note>
+        <u who="#Q1575835" xml:id="ParlaMint-DE_1985-05-15-10-138.u156" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg190">Welche Untersuchungen und Gutachten liegen der Bundesregierung zur Frage des Ersatzes von PVC vor, und zu welchen Erkenntnissen sind sie gelangt?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u157" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg191">Diese Gutachten werden zur Zeit vom Umweltbundesamt zusammengestellt, so daß ich Ihnen das im Augenblick nicht sagen kann. Wir wollen unsere Entscheidung von dem Inhalt der Gutachten abhängig machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u158" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg192">Weitere Zusatzfrage, Frau Hönes? — Dann rufe ich die Frage 18 der Frau Abgeordneten Hönes auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg193">Ist der Bundesregierung bekannt, daß nach Schätzungen bundesdeutscher Abfallexperten die Dioxinemissionen aus Müllverbrennungsanlagen zu ca. 50 v. H. aus dem PVC im Hausmüll gebildet werden, und welche Pilotprojekte zur Separierung und Verwertung von Kunststoffabfällen aus der Wertstofftonne fördert oder finanziert die Bundesregierung derzeit? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u159" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg194">Nach dem derzeitigen Kenntnisstand wird davon ausgegangen, daß etwa die Hälfte der Chlorwasserstoffemissionen bei Müllverbrennungsanlagen durch den PVC-Gehalt des Hausmülls verursacht wird. Die Dioxinemissionen hängen aber nicht allein von den im Abfall enthaltenen Stoffen ab, sondern insbesondere von den bei der Verbrennung herrschenden Bedingungen. Bei Wahl von geeigneter Temperatur und Verweilzeit werden Dioxine thermisch zersetzt und damit unschädlich gemacht. Die notwendigen Anforderungen zur Verbesserung des Ausbrandes werden bei der zur Zeit laufenden Novellierung der TA Luft von der Bundesregierung festgelegt. Die Bundesregierung hat im Rahmen ihres Forschungsprogrammes zur Wertstofferfassung aus dem Hausmüll in der Vergangenheit mehrere Vorhaben zur getrennten Erfassung von Kunststoffabfällen gefördert. Nach diesen Ergebnissen ist eine durchgängige Verwertung der gemischten Kunststoffe zur Zeit nicht möglich. Im wesentlichen fehlt ein Markt für derartige Produkte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u160" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg195">Zusatzfrage, Frau Hönes.</seg>
+        </u>
+        <note type="speaker">Frau Hönes (GRÜNE):</note>
+        <u who="#Q1575835" xml:id="ParlaMint-DE_1985-05-15-10-138.u161" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg196">Ist der Bundesregierung bekannt, daß bei der Verschwelung von PVC, z. B. bei Schwelbränden an Kabelummantelungen, in großen Mengen Dioxine gebildet werden, und welche Möglichkeiten sieht die Bundesregierung zur Vermeidung?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u162" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg197">Die Bundesregierung kann relativ wenig Einfluß darauf nehmen, daß Brände entstehen.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg198">Aber der Bundesregierung ist das selbstverständlich bekannt; denn die Beantwortung der Frage macht doch deutlich, daß die Entstehung von Dioxinen nur dann verhindert wird, wenn hohe Temperaturen, nämlich solche oberhalb von 1 200 ° C erreicht werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u163" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg199">Noch eine Zusatzfrage, Frau Hönes.</seg>
+        </u>
+        <note type="speaker">Frau Hönes (GRÜNE):</note>
+        <u who="#Q1575835" xml:id="ParlaMint-DE_1985-05-15-10-138.u164" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg200">Weich-PVC besteht bis zu 60 % aus Weichmachern: Welche ökologischen Folgen sind zu erwarten bei der Deponierung von PVC-haltigen Abfällen, gibt es Untersuchungen auf Gehalte an Weichmachern in Deponiesickerwässern, und sieht die Bundesregierung die Gefahr einer Grundwasserverunreinigung durch diese Stoffe?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u165" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg201">Gewisse Gefahren bestehen durch diese Stoffe. Diese Gefahren werden in einer TA Abfall, die auf Grund des Vierten Abfallbeseitigungsgesetzes erlassen werden soll, berücksichtigt, indem für diese gefährlichen Stoffe bestimmte Vorsorge hinsichtlich der Deponierung getroffen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u166" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg202">Zusatzfrage des Abgeordneten Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1985-05-15-10-138.u167" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg203">Herr Staatssekretär, erscheint nicht auch der Bundesregierung angesichts der Tatsache, daß Temperatur und Verweildauer von PVC-haltigen Stoffen in Müllverbrennungsanlagen nicht frei wählbar sind, das Verbot der PVC-Nutzung in hausmüllfähigen Produkten sinnvoll?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u168" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg204">In Müllverbrennungsanlagen sind die Temperaturen schon regelbar. In der Bundesrepublik Deutschland werden die Müllverbrennungsanlagen, in denen solche Produkte verbrannt werden, umgerüstet, damit diese Temperaturen erreicht werden können. Allein durch PVC-Verbot oder -Reduzierung kann dieses Problem nicht gelöst werden; denn nur 50 % der Dioxine stammen möglicherweise aus dem PVC, die anderen aber aus anderen Produkten. Insofern ist es schon richtig, daß die Bundesregierung bei der Regelung der Temperatur in den Müllverbrennungsanlagen ansetzt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u169" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg205">Dann habe ich noch die Wortmeldung für eine Zusatzfrage eines Kollegen vorliegen, dessen Namen ich noch nicht kenne. Sagen Sie ihn bitte. —</seg>
+        </u>
+        <note type="speaker">Schulte (Menden) (GRÜNE):</note>
+        <u who="#Q2337616" xml:id="ParlaMint-DE_1985-05-15-10-138.u170" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg206">Stephan Schulte (Menden).</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u171" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg207">Sie sind dran.</seg>
+        </u>
+        <note type="speaker">Schulte (Menden) (GRÜNE):</note>
+        <u who="#Q2337616" xml:id="ParlaMint-DE_1985-05-15-10-138.u172" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg208">Herr Staatssekretär, ist der Bundesregierung bekannt, daß bei einem PVC-Schwelbrand in Rösrath erhebliche Mengen Dioxine freigesetzt worden sind, wie beurteilt die Bundesregierung die hier stattgefundenen Belastungen der Rösrather Bevölkerung, und welche Konsequenzen zieht sie daraus?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u173" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg209">Der konkrete Sachverhalt ist der Bundesregierung im einzelnen nicht bekannt. Er fällt in die Zuständigkeit der Landesregierung. Wir haben keine hinreichenden Informationen über alle Schwelbrände, die an verschiedenen Stellen der Bundesrepublik entstehen.</seg>
+        </u>
+        <incident type="action">
+          <desc>Abg. Schulte [Menden] [GRÜNE] meldet sich zu einer weiteren Zusatzfrage</desc>
+        </incident>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u174" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg210">Nein, Sie haben nur eine Frage. Die Fragen 19 und 20 des Abgeordneten Fellner sollen schriftlich beantwortet werden. Die Antworten werden als Anlagen abgedruckt. Wir kommen zur Frage 21 der Abgeordneten Frau Steinhauer:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg211">Ist der Bundesregierung bekannt, in welchen Ländern auf Grund der dortigen gesetzlichen Bestimmungen die Möglichkeit besteht, im Laufe des Lebens einmal den eigenen Geburtstag neu festsetzen zu lassen, und welche Auswirkungen hat dies auf Ausländer, die ihren Aufenthalt in der Bundesrepublik Deutschland haben? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u175" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg212">Ich darf um Ihre Zustimmung bitten, die Frage 22 wegen des Sachzusammenhangs gleich mit zu beantworten.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Frau Steinhauer [SPD]: Bitte sehr!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u176" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg213">Frau Steinhauer ist einverstanden. Ich rufe die Frage 22 der Abgeordneten Frau Steinhauer auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg214">Sind der Bundesregierung Fälle bekannt, daß Änderungen des Geburtsdatums von Ausländern in ihren Heimatländern in der Bundesrepublik Deutschland Konsequenzen hinsichtlich von Ansprüchen in der Sozialversicherung und beim Aufenthalt hatten oder noch haben werden, und was gedenkt die Bundesregierung zu tun, um solche Unklarheiten auszuschalten?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u177" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg215">Nach Kenntnis der Bundesregierung besteht jedenfalls in der Türkei und in Griechenland die Möglichkeit, das Geburtsdatum durch gerichtlichen Beschluß nachträglich neu festsetzen zu lassen. Der Bundesregierung sind Fälle der Berichtigung von Eintragungen der Geburtsdaten bei Ausländern bekanntgeworden, bei denen nicht auszuschließen ist, daß es Beeinträchtigungen der Leistungen im Bereich der sozialen Sicherheit gegeben hat. Nach einer noch nicht veröffentlichten Entscheidung des Bundessozialgerichts dienen türkische Gerichtsurteile, mit denen die Berichtigung von Eintragungen in den türkischen Personalstandsregistern angeordnet werden, als Beweismittel bei der Feststellung der Richtigkeit der zu beurkundenden Tatsachen. Hieraus folgt, daß die deutschen Versicherungsträger wie bisher die Personenstandsdaten in freier Beweiswürdigung festzustellen haben und bei eventuellen Berichtigungen der Eintragungen nicht automatisch an die berichtigten Daten gebunden sind. Im Bereich des Auf enthaltsrechts wurde in der Vergangenheit versucht, mit Hilfe der Geburtsdatenänderung bei Kindern einen nach den Familiennachzugsregelungen sonst nicht gewährten Aufenthalt im Bundesbereich zu erlangen. Nach entsprechender Prüfung und Abstimmung durch die Bundesressorts ist auch den Ländern hierzu empfohlen worden, jedenfalls dann von dem ursprünglichen Geburtsdatum auszugehen und die neu festgesetzten Daten unberücksichtigt zu lassen, wenn die Änderung offensichtlich der Umgehung deutscher Rechtsvorschriften dienen soll.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u178" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg216">Zusatzfrage, Frau Steinhauer.</seg>
+        </u>
+        <note type="speaker">Frau Steinhauer (SPD):</note>
+        <u who="#Q2547645" xml:id="ParlaMint-DE_1985-05-15-10-138.u179" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg217">Herr Staatssekretär, kann ich davon ausgehen, daß Ihnen nicht bekannt ist, daß sich in letzter Zeit in Griechenland viel mehr Bewohner älter machen, um entsprechende Rechte in Anspruch nehmen zu können?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u180" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg218">Was ich ausgeführt habe, gilt in jeglicher Richtung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u181" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg219">Weitere Zusatzfrage, Frau Steinhauer.</seg>
+        </u>
+        <note type="speaker">Frau Steinhauer (SPD):</note>
+        <u who="#Q2547645" xml:id="ParlaMint-DE_1985-05-15-10-138.u182" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg220">Wären Sie bereit, ohne Rücksicht auf das, was Sie ausgeführt haben, diese Frage in bezug auf die Sozialversicherung einmal generell aufzugreifen, um hier Unklarheiten auszuschließen? Denn es gibt auch schon Probleme mit Tarifverträgen in bezug auf Vorruhestand.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u183" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg221">Sicher ist unser Haus bereit, Ihrer Anregung nachzugehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u184" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg222">Sie haben weitere Zusatzfragen, Frau Steinhauer?</seg>
+          <vocal type="exclamat">
+            <desc>Frau Steinhauer [SPD]: Ja!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg223">— Bitte.</seg>
+        </u>
+        <note type="speaker">Frau Steinhauer (SPD):</note>
+        <u who="#Q2547645" xml:id="ParlaMint-DE_1985-05-15-10-138.u185" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg224">Sie haben hier soeben erklärt, daß dies nur in der Türkei und in Griechenland der Fall sei. Darf ich davon ausgehen, daß das in anderen Ländern nicht so ist? Denn dieser letzte Fall ist erst jetzt bekanntgeworden. Mir war bisher nur bekannt, daß es in der Türkei möglich sei.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u186" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg225">Es ist uns nur aus diesen beiden Ländern bekannt. Wenn man sich die Interessenlagen in der weiten Welt ansieht, kann man nicht ausschließen, daß solche Praktiken auch in anderen Ländern stattfinden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u187" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg226">Noch eine Zusatzfrage, Frau Steinhauer.</seg>
+        </u>
+        <note type="speaker">Frau Steinhauer (SPD):</note>
+        <u who="#Q2547645" xml:id="ParlaMint-DE_1985-05-15-10-138.u188" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg227">Herr Staatssekretär, könnten Sie sich vorstellen, im Zusammenwirken mit dem Bundesminister für Arbeit und Sozialordnung und mit dem Bundesminister des Auswärtigen diese Frage einmal generell zu klären, um für die Zukunft solche Unklarheiten auszuschließen und um klarzustellen, daß gleiche Rechte hier auch gleiche Anwendungen im Heimatland bedeuten?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u189" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg228">Dieses Problem generell zu klären, scheint mir nicht ganz einfach zu sein. Sicher sollte man aber auch dieser Anregung von Ihnen nachgehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u190" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg229">Wir kommen zu den Fragen 23 und 24 des Abgeordneten Dr. Hirsch:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg230">Trifft es zu, daß Bundesbehörden die Namen von Bewerbern für den öffentlichen Dienst, die von ihnen eingestellt werden, an Versicherungen (insbesondere auch Krankenversicherungen) weitergeben, und wenn ja, welche Bundesbehörden tun dies? Wie beurteilt die Bundesregierung dies unter datenschutzrechtlichem Aspekt? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u191" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg231">Herr Abgeordneter, mir liegen bisher keine Erkenntnisse darüber vor, daß Bundesbehörden die Namen von den in den öffentlichen Dienst eingestellten Bewerbern an Versicherungen weitergeben. Die Mitteilung der Namen an einzelne Versicherungsträger wird — abgesehen von den wettbewerbsrechtlichen Problemen — grundsätzlich auch aus Datenschutzgründen für unzulässig angesehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u192" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg232">Herr Dr. Hirsch, bitte schön.</seg>
+        </u>
+        <note type="speaker">Dr. Hirsch (FDP):</note>
+        <u who="#Q107360" xml:id="ParlaMint-DE_1985-05-15-10-138.u193" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg233">Herr Staatssekretär, wenn Ihnen entsprechende Nachweise von Weitergaben gegeben werden, so nehme ich nach Ihrer Antwort an, würden Sie solche Vorgänge in Zukunft unterbinden.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u194" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg234">Wir sind selbstverständlich bereit, den Dingen nachzugehen und unserer Rechtsauffassung hier auch tatsächliche Praxis zu verschaffen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Hirsch [FDP]: Vielen Dank!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u195" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg235">Frau Steinhauer, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Steinhauer (SPD):</note>
+        <u who="#Q2547645" xml:id="ParlaMint-DE_1985-05-15-10-138.u196" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg236">Herr Staatssekretär, habe ich Sie eben richtig verstanden, wenn Sie sagten, grundsätzlich würden keine Namen weitergegeben? „Grundsätzlich" heißt j a, daß es doch der Fall ist. Könnte es sein, daß im Hause Versicherungsvertreter sind, die Neueinstellungen anwerben?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u197" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg237">Ich hielte es theoretisch für denkbar, daß, wenn die Betroffenen zustimmen würden, Weitergaben möglich wären. Dann blieben allerdings noch die wettbewerbsrechtlichen Gründe. Dann müßten sie ja an alle entsprechenden Versicherungen weitergegeben werden. Ich kann mir also in der Praxis kaum einen Fall vorstellen, daß nach geltendem Recht eine Weitergabe zulässig erfolgen könnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u198" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg238">Eine weitere Zusatzfrage, Frau Steinhauer.</seg>
+        </u>
+        <note type="speaker">Frau Steinhauer (SPD):</note>
+        <u who="#Q2547645" xml:id="ParlaMint-DE_1985-05-15-10-138.u199" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg239">Könnte es sein, daß auch Beschäftigte im öffentlichen Dienst Nebentätigkeitsgenehmigungen als Versicherungsvertreter haben, und wären Sie bereit, diese Frage einmal zu überprüfen, um diese ganze Problematik, insbesondere im Innenbereich, auszuschließen?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u200" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg240">Sicher gibt es Fälle — das ist ja jedem bekannt —, daß in den einzelnen Behörden Angehörige von Bausparkassen und Versicherungen tätig sind und daß das auch mit dem geltenden Nebentätigkeitsrecht vereinbar ist. Ich glaube, daß Sie vielleicht auf folgenden Sachverhalt anspielen wollen: es ist denkbar, daß durch Hausmitteilungen über die Neuzugänge in Dienststellen diese offenen Informationen nach außen gelangen. Diesen Sachverhalt wird man schwer unterbinden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u201" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg241">Wir kommen zur Frage 25 des Abgeordneten Brück:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg242">Ist sich die Bundesregierung bewußt, daß ein wesentlicher Teil der umweltschädlichen Immissionen, denen die Lothringen benachbarten Gebiete der Bundesrepublik Deutschland ausgesetzt sind, von den französischen Industrieanlagen in Lothringen stammen, und hat sich die Bundesregierung aus diesem Grunde darum bemüht, Kenntnisse darüber zu erhalten, ob die Umweltschutzmaßnahmen in den französischen Industrieanlagen in Lothringen dem Stand der Technik entsprechen? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u202" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg243">Herr Abgeordneter, wegen des Sachzusammenhangs bitte ich, auch Ihre beiden Fragen im Zusammenhang beantworten zu können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u203" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg244">Der Abgeordnete ist einverstanden. Dann rufe ich noch die Frage 26 des Abgeordneten Brück auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg245">Ist die Bundesregierung bereit, die Umweltprobleme an der deutsch-französischen Grenze zum Thema der Konsultationen im Rahmen des deutsch-französischen Freundschaftsvertrages zu machen? Bitte.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u204" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg246">Der Bundesregierung ist bekannt, daß sich auf lothringischem Gebiet unmittelbar an der Grenze zur Bundesrepublik Deutschland mehrere Industrieanlagen befinden, darunter eine Kokerei und ein Steinkohlekraftwerk. Nach Kenntnis der Bundesregierung soll die Kokerei im Laufe des Jahres 1986 stillgelegt werden. Das Kraftwerk ist im Jahre 1982 durch den Bau eines neuen Blocks bei gleichzeitiger Stillegung alter, kleinerer Blöcke erweitert worden. Immissionsmeßstellen der Landesregierung des Saarlandes in Grenznähe zeigen, daß die mittleren Immissionswerte bei Schwefeldioxid niedriger liegen als in Saarbrücken und Völklingen, beim Staub in der gleichen Größenordnung wie in den saarländischen Belastungsgebieten. Der Kontakt mit den französischen Stellen vollzieht sich auf mehreren Ebenen. 1984 ist eine EG-Richtlinie zur Bekämpfung der Luftverunreinigungen durch Industrieanlagen verabschiedet worden. Danach sind die Mitgliedstaaten der Gemeinschaft verpflichtet, die Emissionen aus Industrieanlagen gemäß dem Stand der Technik zu vermindern. Darüber hinaus wird zur Zeit beim EG-Rat der Entwurf einer Richtlinie über Großfeuerungsanlagen beraten, in welcher in Anlehnung an die deutsche Großfeuerungsanlagen-Verordnung Emissionsgrenzwerte für die wichtigsten Luftschadstoffe vorgesehen werden sollen. Daneben besteht eine Zusammenarbeit in der saarländisch-lothringisch-luxemburgischen Regionalkommission. Auch eine Behandlung im Rahmen der deutsch-französischen Freundschaftsvereinbarung wäre möglich. Zunächst sollten aber die Verhandlungsmöglichkeiten auf regionaler Ebene ausgeschöpft werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u205" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg247">Zusatzfrage, Herr Brück.</seg>
+        </u>
+        <note type="speaker">Brück (SPD):</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1985-05-15-10-138.u206" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg248">Herr Staatssekretär, würden Sie mir zustimmen, wenn ich sage, daß natürlich auch in Saarbrücken und Völklingen, die dicht an der deutsch-französischen Grenze liegen, die Immissionen auch von den Emissionen in Frankreich bestimmt werden?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u207" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg249">Da ist kein Zweifel. Sie wissen generell, daß beispielsweise die Hälfte der Schwefeldioxiddepositionen der Bundesrepublik aus dem Ausland kommt. Ich kann Ihnen nur voll zustimmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u208" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg250">Weitere Zusatzfrage, Herr Brück.</seg>
+        </u>
+        <note type="speaker">Brück (SPD):</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1985-05-15-10-138.u209" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg251">Würden Sie mir bitte auch noch meine Frage beantworten, ob denn die französischen Industrieanlagen dem Stand der Technik entsprechen?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u210" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg252">Wenn die Großfeuerungsanlagen-Verordnung in der Weise kommt, wie es die Bundesregierung wünscht, werden die Besitzer der französischen Altanlagen auch verpflichtet, diesen Stand zu erreichen. Im Augenblick ist nach meiner Information nach dem französischen Recht so etwas noch nicht vorhanden. Ich gehe davon aus, daß die Altanlagen nicht alle dem Stand der Technik entsprechen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u211" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg253">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Brück (SPD):</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1985-05-15-10-138.u212" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg254">Herr Staatssekretär, Sie haben die Möglichkeit angedeutet, daß die Umweltbelastungen im Grenzraum im Rahmen der Konsultationen des deutsch-französischen Freundschaftsvertrages behandelt werden könnten, schließen das aber für jetzt aus. Teilen Sie nicht die Auffassung, daß die Umweltbelastungen im Grenzraum dadurch zu einem Politikum werden, daß die Ungeduld der Bevölkerung im Grenzraum wächst, wenn man ständig vom Nachbarn mit Schmutz übergossen wird?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u213" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg255">Ich möchte das im Augenblick nicht ausschließen. Ich könnte mir vorstellen, daß die Bundesregierung, wenn von Landesseite vorgetragen wird, daß die Verhandlungen im Regionalbereich zu keinem Ergebnis geführt haben, über die Kontakte, die Sie angesprochen haben, das Problem weiter verfolgt. Ich halte das auch für richtig und wichtig.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u214" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg256">Sie haben noch eine Zusatzfrage, Herr Brück.</seg>
+          <vocal type="exclamat">
+            <desc>Brück [SPD]: Nein, vielen Dank!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg257">Wir kommen dann zur Frage 27 des Abgeordneten Dr. Sperling:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg258">War die Kommission der Bundesregierung für Rechts- und Verwaltungsvereinfachung auch an der Erarbeitung der Maßnahmen für die Begünstigung schadstoffarmer Autos beteiligt, und welche Vereinfachungen wurden dadurch erreicht? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u215" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg259">Herr Abgeordneter, das Bundeskabinett hat am 11. Dezember 1984 Maßnahmen beschlossen, mit denen die Prüfung aller Rechtsetzungsvorhaben auf ihre Notwendigkeit und Qualität gesichert werden soll. Dabei stellt jeder Bundesminister für seinen Bereich die entsprechende Prüfung auf Notwendigkeit, Wirksamkeit und Verständlichkeit sicher. Eine Beteiligung der unabhängigen Kommission für Rechts- und Verwaltungsvereinfachung des Bundes ist demgegenüber schon aus Zeit- und Kapazitätsgründen nur begrenzt möglich. Sie ist bei den von Ihnen genannten Vorhaben nicht erfolgt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u216" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg260">Herr Sperling, Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1985-05-15-10-138.u217" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg261">Herr Staatssekretär, ist Ihnen bekannt, ob das betreffende Ressort denn insbesondere die Fragen 8 und 9 — und zwar 8.4 und 9.11 — des Prüfungskatalogs bei der Erarbeitung der Vorschriften für das schadstoffarme Auto beachtet hat, deren Vorschriften in Ihrem schönen blauen Fragenkatalog lauten:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg262">Können die Betroffenen die vorgesehene Regelung hinsichtlich Wortwahl, Satzbau, Satzlänge, Länge der Einzelvorschriften, Systematik, Logik, Abstraktion verstehen? Ist die geplante Regelung unter Beteiligung der Vollzugsträger vorab erprobt worden (Planspiele)?</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg263">— Warum nicht?</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg264">— Mit welchem Ergebnis?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u218" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg265">Herr Abgeordneter, ich muß zunächst einmal ausführen, daß wegen der Dringlichkeit dieser Dinge Planspiele vorher nicht durchgeführt werden konnten. Im übrigen ist es bei Vorschriften dieser Art kaum üblich und kaum möglich, daß der Bürger sie, wenn er sie liest, ohne weiteres versteht. In diesem Fall werden die Förderungsmöglichkeiten durch eine entsprechende Öffentlichkeitsarbeit dem Bürger ja in Tabellen deutlich gemacht. Wenn sie einmal sehen, wie leicht dieser Sachverhalt in einer Tabelle darstellbar ist, so glaube ich nicht, daß ernsthafte Probleme bestehen, dem Bürger die Förderungsmöglichkeiten deutlich zu machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u219" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg266">Weitere Zusatzfrage, Herr Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1985-05-15-10-138.u220" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg267">Herr Staatssekretär, würden Sie der Kommission für Rechts- und Verwaltungsvereinfachung raten, daß man vielleicht auf die Arbeit weitgehend dann verzichten kann, wenn man eine zwölfte Frage einführt, die da lautet: Kann man den Sachverhalt auch in einer einfach lesbaren Tabelle darstellen?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u221" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg268">Wenn sich das ermöglichen läßt und wenn es Sachverhalte sind, die auf diese Weise an die Betroffenen herangebracht werden können, scheint mir in der Tat die sprachliche Darstellung ein bißchen an Bedeutung zu verlieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u222" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg269">Wir kommen zur Frage 28 des Abgeordneten Schulte (Menden):</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg270">Inwieweit bestätigt die Bundesregierung die Feststellung über das Auto in dem vom Umweltbundesamt herausgegebenen Buch „was Sie schon immer über Auto und Umwelt wissen wollten" auf Seite 9: „Das Auto ist das Verkehrsmittel Nr. 1. Aber es ist auch das Sicherheits- und Umweltproblem Nr. 1! — Das Auto hat von allen Verkehrsmitteln den höchsten Anteil an der Umweltverschmutzung. — Das Auto schafft die meisten Lärmprobleme. — Das Auto hat den größten Verkehrsflächenbedarf. — Das Auto hat — mit Ausnahme des Luftverkehrs — den höchsten Energieverbrauch pro Person. — Das Auto ist das größte Unfallrisiko für uns alle. — Das Auto ist selbst dann noch ein Problem, wenn es nicht mehr fährt."? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u223" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg271">Herr Abgeordneter, in der von Ihnen zitierten Broschüre sind den Vorteilen des Autos auch dessen Nachteile gegenübergestellt. Der Bundesregierung sind die aus der Nutzung des Autos für die Umwelt, aber auch für den Menschen selbst entstandenen Probleme durchaus bekannt. Trotzdem hält sie am Kraftfahrzeug als einem unverzichtbaren Bestandteil unseres Lebens fest. Die Bundesregierung sorgt mit einem Bündel von Maßnahmen dafür, daß Schäden an der menschlichen Gesundheit und nachhaltige Eingriffe in die Natur soweit wie möglich vermieden werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u224" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg272">Zusatzfrage, Herr Schulte.</seg>
+        </u>
+        <note type="speaker">Schulte (Menden) (GRÜNE):</note>
+        <u who="#Q2337616" xml:id="ParlaMint-DE_1985-05-15-10-138.u225" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg273">Sind Sie bereit, meine Frage zu beantworten?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u226" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg274">Ich habe die Frage beantwortet. Ich habe gesagt, der Bundesregierung sind diese Dinge bekannt. Das sind die Dinge, die vom Umweltbundesamt dargestellt worden sind. Ich kann die Antwort noch einmal wiederholen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u227" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg275">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schulte (Menden) (GRÜNE):</note>
+        <u who="#Q2337616" xml:id="ParlaMint-DE_1985-05-15-10-138.u228" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg276">Herr Staatssekretär, können Sie mir zustimmen, daß von dem Auto nicht nur Umweltbelastungen durch Schadstoffe und Abgase ausgehen, sondern auch Umweltbelastungen durch Lärm, Energieverbrauch und Rohstoffverbrauch?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Zuruf von der CDU/CSU: Binsenweisheiten!</desc>
+        </vocal>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u229" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg277">Da stimme ich Ihnen zu. Das ist nach dem herangezogenen Bericht des Umweltbundesamtes und meinen Ausführungen, daß wir diese Gefahren kennen, auch unstreitig.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u230" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg278">Ich nehme an, Sie stellen jetzt zum erstenmal eine Frage. Damit sind eigentlich Ihre zwei Fragen verbraucht.</seg>
+          <vocal type="exclamat">
+            <desc>Schulte [Menden] [GRÜNE]: Ich weiß!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg279">— Dann halten wir uns gemeinsam an unsere Regeln. Sie wollen eine Zusatzfrage stellen. Bitte schön, Herr Müller.</seg>
+        </u>
+        <note type="speaker">Dr. Müller (Bremen) (GRÜNE):</note>
+        <u who="#Q1655901" xml:id="ParlaMint-DE_1985-05-15-10-138.u231" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg280">Inwieweit stimmt die Bundesregierung der Aussage zu, daß gemessen an dem relativ sicheren, energiesparenden, abgasarmen öffentlichen Verkehr das Automobil als wesentlich umweltgefährdender und -feindlicher einzustufen ist als andere Verkehrsmittel?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u232" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg281">Das Auto birgt stärkere Risiken als andere Verkehrsmittel. Es ist aber in gewissen Bereichen nicht durch andere Verkehrsmittel ersetzbar. Insofern muß man die erhöhten Risiken in Kauf nehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u233" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg282">Herr Müller, Sie können sich dann noch einmal zu einer zweiten Zusatzfrage melden. Das geht jetzt nicht. Eine weitere Zusatzfrage, Herr Werner.</seg>
+        </u>
+        <note type="speaker">Werner (Dierstorf) (GRÜNE):</note>
+        <u who="#Q1424446" xml:id="ParlaMint-DE_1985-05-15-10-138.u234" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg283">Herr Staatssekretär, ist Ihnen bekannt, wann ein Lkw herauskommt, der schadstoffärmer als die heutigen Versionen ist?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u235" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg284">Die Bundesregierung hat einen Entwurf für ein Konzept in Bearbeitung, in dem die Reduzierung der Schadstoffe bei Lkws — einmal der Partikelemissionen, aber auch der gasförmigen Emissionen — geregelt werden soll.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u236" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg285">Ich rufe Frage 29 des Abgeordneten Schulte (Menden)</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg286">auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg287">Wie rechtfertigt die Bundesregierung den von ihr häufig benutzten Terminus „umweltfreundliches Auto" in Zusammenhang mit abgasmindernden Maßnahmen für Kraftwagen, wenn auch solche Autos weiterhin mit Lärm, Flächenverbrauch, Energieverschwendung, Rohstoffverbrauch, Öl, Asbest, Reifenabrieb usw. unsere Umwelt extrem belasten? Bitte schön.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u237" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg288">Bei dem Terminus „umweltfreundliches Auto" handelt es sich um eine für jedermann verständliche Kurzbezeichnung für ein Auto, das sich durch ganz erhebliche Minderung seiner Abgasschadstoffe von herkömmlichen Autos unterscheidet und damit in einem entscheidenden Punkt die Umweltbelastung reduziert. Darüber hinaus hat die Bundesregierung jedoch auch die Lösung weiterer, mit dem Autoverkehr zusammenhängender Probleme in Angriff genommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u238" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg289">Zusatzfrage, Herr Schulte.</seg>
+        </u>
+        <note type="speaker">Schulte (Menden) (GRÜNE):</note>
+        <u who="#Q2337616" xml:id="ParlaMint-DE_1985-05-15-10-138.u239" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg290">Würden Sie ein Auto, das auf Grund optimaler Lärmkapselung als lärmarm einzustufen ist, das aber den gleichen Ausstoß wie die herkömmlichen Fahrzeuge hat, auch als „umweltfreundlich" bezeichnen, oder — lassen Sie mich das bitte noch präzisieren — weshalb nehmen sie die Abgasminderung als einzigen Parameter für die Umweltbelastung?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u240" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg291">Wir nehmen das nicht als einzigen Parameter. Das Ideal wäre ein Auto, das keinen Lärm und keine Abgase oder möglichst wenig Lärm und möglichst wenig Abgase verursacht. Die Bemühungen der Bundesregierung zielen darauf ab, zu einer Lärmreduzierung am Objekt — also am Auto — zu gelangen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u241" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg292">Zweite Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schulte (Menden) (GRÜNE):</note>
+        <u who="#Q2337616" xml:id="ParlaMint-DE_1985-05-15-10-138.u242" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg293">Können Sie mir darin zustimmen, daß auch von einem KatalysatorFahrzeug weitere erhebliche Umweltbelastungen ausgehen?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u243" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg294">Es gehen Umweltbelastungen von ihm aus. Die Reduzierung der Abgase um 80% ist aber doch sehr beachtlich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u244" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg295">Zusatzfrage, Abgeordneter Vogel (München).</seg>
+        </u>
+        <note type="speaker">Vogel (München) (GRÜNE):</note>
+        <u who="#Q792395" xml:id="ParlaMint-DE_1985-05-15-10-138.u245" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg296">Herr Staatssekretär, da Sie vorhin vom umweltfreundlichen Auto gesprochen haben, frage ich Sie: Ist eine Zigarette, die weniger Schadstoffe hat, lungenfreundlich?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u246" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg297">Das Problem ist immer die Kosten-Nutzen-Relation. Bei Gegenständen, auf die man leichter verzichten kann, wird sich das Problem anders stellen als bei Gegenständen, auf die man stärker angewiesen ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u247" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg298">Zusatzfrage des Abgeordneten Dr. Sperling.</seg>
+        </u>
+        <note type="speaker">Dr. Sperling (SPD):</note>
+        <u who="#Q1224041" xml:id="ParlaMint-DE_1985-05-15-10-138.u248" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg299">Herr Staatssekretär, geht Ihnen auf, daß es um die Problematik des Sprachgebrauchs geht, eine etwas weniger umweltschädliche Sache bereits als umweltfreundlich zu bezeichnen, während doch die Mehrzahl der Faktoren immer noch für die Umweltschädlichkeit spricht? Dies ist vielleicht unvermeidlich, aber der Ausdruck „umweltfreundlich" ist eine verkleisternde Verniedlichung.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u249" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg300">Herr Abgeordneter, ich verstehe Ihre Frage schon. In den Rechtsverordnungen ist ja auch von „abgasarm" und „bedingt abgasarm" die Rede. Unser Interesse geht dahin, möglichst viele Menschen zum Kauf dieser Autos statt der konventionellen Autos zu veranlassen. Wir meinen, daß ein Terminus wie „umweltfreundlich" hier doch eine gewisse Hilfe sein kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u250" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg301">Zusatzfrage des Abgeordneten Senfft.</seg>
+        </u>
+        <note type="speaker">Senfft (GRÜNE):</note>
+        <u who="#Q1578344" xml:id="ParlaMint-DE_1985-05-15-10-138.u251" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg302">Herr Staatssekretär, ist Ihnen bekannt, daß das sogenannte umweltfreundliche Katalysator-Auto mit dem Blauen Umweltschutzengel ausgezeichnet worden ist, und inwieweit sind Fahrräder, Straßenbahnen und die Bundesbahn schon mit diesem umweltfreundlichen Engel ausgezeichnet worden?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u252" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg303">Mir ist der Sachverhalt bekannt. Unser Haus hat dieses Vorhaben sehr unterstützt, gerade auch aus den Gründen, die ich soeben in Beantwortung der Zusatzfrage genannt habe. Wir wollen darauf hinwirken, daß möglichst viele Leute in unserem Lande abgasarme Autos anstelle von konventionellen Autos kaufen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u253" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg304">Zusatzfrage des Abgeordneten Müller (Bremen).</seg>
+        </u>
+        <note type="speaker">Dr. Müller (Bremen) (GRÜNE):</note>
+        <u who="#Q1655901" xml:id="ParlaMint-DE_1985-05-15-10-138.u254" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg305">Herr Staatssekretär, wann wird die Bundesregierung dazu übergehen, Schrottplätze „Entsorgungsparks" zu nennen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei den GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u255" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg306">Die Bundesregierung hat bisher keine darartige Absicht, aber ich nehme Ihre Anregung gerne zur Kenntnis.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u256" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg307">Ich rufe Frage 30 des Abgeordneten Dr. Schierholz auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg308">Wie beurteilt die Bundesregierung die Tatsache, daß die Hanauer Nuklearfirma RBU (Reaktor-Brennelement-Union)</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg309">am Atomgesetz vorbei mit hochangereichertem Uran und Plutonium hantiert hat, und gedenkt sie im Rahmen der Bundesaufsicht Maßnahmen gegen die von der hessischen Landesregierung verfügten Teilstillegung der RBU zu ergreifen? Kroppenstedt, Staatssekretär *): Das Bundes-Immissionsschutzgesetz wird nach Art. 83 des Grundgesetzes von den Ländern als eigene Angelegenheit ausgeführt. Die Prüfung und Entscheidung darüber, ob Anlagen oder Anlagenteile der Firma RBU einer immissionsschutzrechtlichen Genehmigung bedürfen, obliegt damit den Vollzugsbehörden des Landes Hessen. Die Bundesregierung geht davon aus, daß die zuständigen hessischen Behörden den von Ihnen angesprochenen Sachverhalt geprüft und das danach Erforderliche veranlaßt haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u257" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg310">Zusatzfrage, Herr Dr. Schierholz.</seg>
+        </u>
+        <note type="speaker">Dr. Schierholz (GRÜNE):</note>
+        <u who="#Q1605554" xml:id="ParlaMint-DE_1985-05-15-10-138.u258" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg311">Herr Staatssekretär, ist es denn nach der Auffassung der Bundesregierung ein Ausdruck von Zuverlässigkeit, wenn die Betreiber von Nuklearanlagen auch am Atomgesetz vor-</seg>
+          <incident type="editorial">
+            <desc>*)</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg312">Vom Redner wurden versehentlich die Antworten auf die Fragen 30 und 31 verwechselt. bei, das bekanntlich ein Bundesgesetz ist, mit waffenfähigem Uran und mit Plutonium hantieren?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u259" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg313">Ich habe den Eindruck, daß das Ihre andere Frage betrifft.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Schierholz [GRÜNE]: Ja, das gehört zusammen!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u260" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg314">Dies ist nun einmal Sache der Regierung, daß sie fragt, ob sie zusammen beantworten darf.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u261" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg315">Ich beantworte gerne auch die andere Frage.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u262" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg316">Bitte, Frage 31:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg317">Wie beurteilt die Bundesregierung den Umstand, daß die RBU, die seit ca. 15 Jahren in Betrieb ist, bis heute nicht über die nach dem Bundesimmissionschutzgesetz erforderliche Genehmigung verfügt?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u263" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg318">Die Bundesregierung macht sich die Ihrer Fragestellung zugrundeliegenden Unterstellungen nicht zu eigen. Die Reaktor-Brennelement-Union hat die Assemblierung plutoniumhaltiger sowie hochangereichertes Uran enthaltenden Brennelemente nach dem 1. Oktober 1975 gemäß Art. 2 des Dritten Gesetzes zur Änderung des Atomgesetzes vorgenommen. Hierzu hat der Hessische Minister für Wirtschaft und Technik in einem Gespräch am 9. Mai 1985 im Rahmen der Bundesaufsicht dem BMI einen ersten Bericht gegeben. Die Prüfung der Sache ist noch nicht abgeschlossen. Der BMI hat heute nach Art. 85 Abs. 3 den Hessischen Minister für Wirtschaft und Technik angewiesen, in der erwähnten Sache keine Anordnungen zu treffen, ohne vorher eine bundesaufsichtliche Äußerung eingeholt zu haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u264" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg319">Zusatzfrage 2 von Ihnen.</seg>
+        </u>
+        <note type="speaker">Dr. Schierholz (GRÜNE):</note>
+        <u who="#Q1605554" xml:id="ParlaMint-DE_1985-05-15-10-138.u265" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg320">Dann möchte ich meine erste Zusatzfrage wiederholen, ob Sie es für einen Ausdruck von Zuverlässigkeit halten, daß hier Betreiber von Nuklearanlagen mit waffenfähigem Plutonium am Atomgesetz, bekanntlich ein Bundesgesetz, vorbei hantieren?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u266" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg321">Ich teile die Unterstellung nicht, und deswegen besteht kein Grund zur Beantwortung der Frage.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u267" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg322">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Schierholz (GRÜNE):</note>
+        <u who="#Q1605554" xml:id="ParlaMint-DE_1985-05-15-10-138.u268" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg323">Nun steht in Art. 7 des Atomgesetzes etwas von „Bedenken gegen die Zuverlässigkeit der Antragsteller", und deswegen möchte ich Sie fragen, was alles noch passieren muß, Herr Staatssekretär, bevor die Bundesregierung diese Bedenken, die ich gerade hier zitiert habe, aus dem Atomgesetz gegen die Atombetreiber geltend macht.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Sperling [SPD]: Die Bundesregierung muß ausgewechselt werden!</desc>
+        </vocal>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u269" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg324">Mir sind keine derartigen Bedenken bekannt. Sie sind nicht substantiiert worden. Die Bundesregierung teilt die Rechtsauffassung, die die hessische Landesregierung ihrer Entscheidung zugrunde gelegt hat, nicht in dem dort ausgeführten Umfang.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u270" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg325">Noch eine Zusatzfrage des Herrn Abgeordneten Dr. Schierholz.</seg>
+        </u>
+        <note type="speaker">Dr. Schierholz (GRÜNE):</note>
+        <u who="#Q1605554" xml:id="ParlaMint-DE_1985-05-15-10-138.u271" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg326">Herr Staatssekretär, kann denn die Bundesregierung Presseinformationen bestätigen, wonach laut § 327 des Strafgesetzbuches das unerlaubte Betreiben von Anlagen bis zu fünf Jahren Haft einbringen kann?</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u272" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg327">Die Bundesregierung kann das Zitat von Bestimmungen des Strafgesetzes natürlich bestätigen, aber es liegt kein irgendwie erwiesener, durch Gerichte festgestellter Sachverhalt vor, daß Mitarbeiter oder Vorstandsmitglieder dieser Firma sich nach diesen Vorschriften strafbar gemacht haben.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Schierholz [GRÜNE]: Habe ich noch eine?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u273" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg328">Nein, aber ich prüfe gerade, ob Herr Schulte eine Frage stellen wollte oder nicht! — Dann sind Sie jetzt dran, Herr Schulte.</seg>
+        </u>
+        <note type="speaker">Schulte (Menden) (GRÜNE):</note>
+        <u who="#Q2337616" xml:id="ParlaMint-DE_1985-05-15-10-138.u274" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg329">Herr Staatsminister, welche Rolle spielt in diesem Zusammenhang der Umstand, daß mit dem Geschäftsführer der RBU und der Alkem, Dr. Warrikoff, ein MdB am Rande der Kriminalität oder Illegalität agiert hat?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Laufs [CDU/CSU]: Das ist doch unglaublich! — Weiß [CDU/CSU]: Unverschämtheit! — Weitere Zurufe von der CDU/CSU</desc>
+        </vocal>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u275" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg330">Ich möchte Sie doch bitten, solche Unterstellungen hier nicht vorzutragen. Es gibt keinerlei Nachweise, daß irgendein Mitglied der Firmen, geschweige ein Mitglied dieses Hauses sich in dieser Weise verhalten hat, wie das von Ihnen unterstellt wird.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Laufs [CDU/CSU]: Das ist unglaublich! Schämen Sie sich! — Weitere Zurufe von der CDU/CSU — Horacek [GRÜNE]: Es wäre nicht das erste Mal, daß so etwas passiert!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u276" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg331">Eine Zusatzfrage des Abgeordneten Vogel (München).</seg>
+        </u>
+        <note type="speaker">Vogel (München) (GRÜNE):</note>
+        <u who="#Q792395" xml:id="ParlaMint-DE_1985-05-15-10-138.u277" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg332">Ich würde gern wissen, warum die Bundesregierung alle Angaben über die Lagerung des im Staatsauftrag lagernden Plutoniums unter Geheimhaltung gestellt hat.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u278" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg333">Diese Frage kann ich Ihnen im Augenblick nicht beantworten. Ich werde der Sache nachgehen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Schierholz [GRÜNE]: Dann bitten wir darum!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u279" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg334">Zusatzfrage des Abgeordneten Horacek.</seg>
+        </u>
+        <note type="speaker">Horacek (GRÜNE):</note>
+        <u who="#Q69778" xml:id="ParlaMint-DE_1985-05-15-10-138.u280" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg335">Würden Sie uns das dann auch mitteilen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u281" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg336">Augenblick, ich muß jetzt eingreifen, weil die Frage nicht in einem unmittelbaren Zusammenhang mit den hier zur Beantwortung anstehenden Fragen steht. Dann müssen Sie schon eine neue Frage einbringen, um das aufzuklären, was hier eben gemacht worden ist.</seg>
+          <vocal type="exclamat">
+            <desc>Horacek [GRÜNE]: Ich beziehe mich auf die Zusatzfrage!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg337">— Genau die ging schon daran vorbei. Ich habe bloß ein bißchen zu spät reagiert. Da war die Antwort schon gegeben. Wir kommen zur Frage 32 des Abgeordneten Weiß:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg338">Sieht sich die Bundesregierung bzw. das Umweltbundesamt als Beratungsorgan der Bundesregierung im Rahmen ihres Verantwortungsbereichs in der Lage, den von dem Bremer Biochemiker und Journalisten Egmont R. Koch angekündigten und in Teilen schon veröffentlichten Umweltatlas hinsichtlich seiner Wissenschaftlichkeit zu bewerten, und wenn ja, wie lautet ihre Stellungnahme? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Kroppenstedt, Staatssekretär:</note>
+        <u who="#Q1447923" xml:id="ParlaMint-DE_1985-05-15-10-138.u282" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg339">Herr Abgeordneter, die Veröffentlichung „Die Lage der Nation 85/86 — Umweltatlas der Bundesrepublik" ist als Buchausgabe erst seit einigen Tagen erhältlich. Einige Ergebnisse sind im Nachrichtenmagazin „Der Spiegel" vorab veröffentlicht worden. Eine Bewertung der Bundesregierung läßt sich aus den nur auszugsweise veröffentlichten Daten noch nicht vornehmen. Der Bundesminister des Innern hat das Umweltbundesamt beauftragt, so bald als möglich eine Bewertung vorzubereiten. Ich bin gern bereit, Ihnen diese Stellungnahme zuzuleiten, sobald sie vorliegt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u283" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg340">Durch die Tatsache, daß wir am Anfang eine Geschäftsordnungsdebatte hatten, haben wir jetzt noch fünf Minuten Zeit, um eine Frage aus einem weiteren Geschäftsbereich zu beantworten. Zunächst aber danke ich Staatssekretär Kroppenstedt für die Beantwortung der Fragen aus dem Geschäftsbereich des Bundesministers des Innern. Ich rufe den Geschäftsbereich des Bundesministers der Justiz auf. Herr Staatssekretär Dr. Kinkel steht zur Beantwortung der Fragen zur Verfügung. Ich rufe die Frage 33 des Abgeordneten Dr. Schwenk (Stade)</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg341">auf:</seg>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg342">Gibt es bundesrechtliche Rahmenvorschriften oder Mindestanforderungen für die Verfahrensordnungen bei den Rechtsanwaltskammern für die Wahrnehmung der Aufsicht über Rechtsanwälte, und inwieweit ist dadurch das rechtliche Gehör für Beteiligte innerhalb und außerhalb der Kammerzugehörigkeit in allen Stadien eines Verfahrens gesichert?</seg>
+        </u>
+        <note type="speaker">Dr. Kinkel, Staatssekretär im Bundesministerium der Justiz:</note>
+        <u who="#Q159913" xml:id="ParlaMint-DE_1985-05-15-10-138.u284" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg343">Herr Abgeordneter, ich beantworte die Frage wie folgt: Verfahrensordnungen der Rechtsanwaltskammern für das Verfahren in Aufsichtsangelegenheiten gibt es nach Auskunft der Bundesrechtsanwaltskammer nicht. Die Bundesrechtsanwaltsordnung regelt das Verfahren der Rechtsanwaltskammern in Aufsichts- und Beschwerdeangelegenheiten nur in wenigen Grundzügen und auch nur insoweit, als es um die Beteiligung des Rechtsanwalts geht. Das Verwaltungsverfahrensgesetz, das im einzelnen das Verfahren der Verwaltungsbehörden regelt, gilt nach seinem § 2 Abs, 3 Nr. 1 nicht für die Tätigkeit der Rechtsanwaltskammern. Demnach gelten für das Verfahren der Rechtsanwaltskammern in Aufsichts- und Beschwerdeangelegenheiten weitgehend die überkommenen ungeschriebenen Grundsätze des allgemeinen Verwaltungsrechts. Diese sind in das Verwaltungsverfahrensgesetz aufgenommen worden, das insoweit für die Kammern eine wesentliche Erkenntnisquelle ist. Soweit es um das rechtliche Gehör in diesem Verfahren geht, ist folgendes zu bemerken: Art. 103 Abs. 1 des Grundgesetzes gilt für das gerichtliche Verfahren. Aus dem ihm zugrunde liegenden Gedanken, der einzelne solle nicht Objekt der richterlichen Entscheidung sein, sondern er solle vor einer Entscheidung, die seine Rechte betreffe, zu Wort kommen, um Einfluß auf das Verfahren und sein Ergebnis nehmen zu können, wird die Anwendung dieses Grundsatzes auch im Verwaltungsverfahren gefolgert. Dem entspricht § 28 des Verwaltungsverfahrensgesetzes. Hiernach ist, bevor ein Verwaltungsakt erlassen wird, der in Rechte eines Beteiligten eingreift, diesem Gelegenheit zu geben, sich zu den für die Entscheidung erheblichen Tatsachen zu äußern. In Rechte oder die berufliche Stellung greift eine Entscheidung der Rechtsanwaltskammer ein, die Maßnahmen gegen den Rechtsanwalt verhängt oder in die Wege leitet, etwa der Antrag der Rechtsanwaltskammer auf Einleitung des ehrengerichtlichen Verfahrens gegenüber der Staatsanwaltschaft. Insoweit besteht eine Verpflichtung der Rechtsanwaltskammer, den Rechtsanwalt vor der Entscheidung zu hören. Für die Rüge ist das ausdrücklich in § 74 Abs. 3 der Bundesrechtsanwaltsordnung geregelt. Anders ist die Lage eines Beschwerdeführers. In seine Rechte greift das ausschließlich auf den berufsrechtlichen Aspekt, nämlich die Reinhaltung des Berufs, ausgerichtete Verfahren nicht ein. Er wird daher nach allgemein-verwaltungsrechtlichen Grundsätzen einen Anspruch darauf haben, daß auf seine Beschwerde ein Bescheid gegeben wird, nicht aber, daß er vor der Entscheidung der Kammer zu den entscheidungserheblichen Tatsachen nochmals gehört wird. Einen Hinweis darauf, daß es in diesem Bereich nicht um Rechte des Beschwerdeführers geht, gibt § 122 der Bundesrechtsanwaltsordnung. Hiernach kann die Rechtsanwaltskammer ein Klageerzwingungsverfahren durchführen, wenn die Staatsanwaltschaft ihrem Antrag auf Einleitung des ehrengerichtlichen Verfahrens keine Folge gibt. Dem außenstehenden Beschwerdeführer ist diese Möglichkeit ausdrücklich in § 122 Abs. 5 versagt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u285" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg344">Ich nehme an, daß selbst der juristische Fachmann Dr. Schwenk nicht in der Lage war, diesem Leitartikel eines juristischen Seminars voll zu folgen. Trotzdem höre ich mit Interesse Ihre Zusatzfrage; denn wir haben noch eine Minute Zeit.</seg>
+        </u>
+        <note type="speaker">Dr. Schwenk (Stade) (SPD):</note>
+        <u who="#Q2591350" xml:id="ParlaMint-DE_1985-05-15-10-138.u286" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg345">Herr Staatssekretär, wäre es nicht angesichts der Eingangssätze Ihrer Ausführungen erforderlich, nunmehr das Verfahren vor den Rechtsanwaltskammern zu formalisieren und an rechtsstaatliche Grundsätze heranzuführen und dabei auch daran zu denken, daß es sich um ein öffentlich-rechtliches Verfahren handelt, da die Berufsvertretung ja eine öffentlich-rechtliche Aufgabe wahrnimmt, und, weil der Rechtsanwalt Organ der Rechtspflege ist, ein betroffener Außenstehender sehr wohl in seinen Persönlichkeitsrechten betroffen sein kann, wenn der Rechtsanwalt von seinen Möglichkeiten einen unzutreffenden oder über faire Möglichkeiten hinausgehenden Gebrauch macht?</seg>
+        </u>
+        <note type="speaker">Dr. Kinkel, Staatssekretär:</note>
+        <u who="#Q159913" xml:id="ParlaMint-DE_1985-05-15-10-138.u287" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg346">Herr Abgeordneter, Überlegungen dieser Art sind angestellt worden. Es bestand nach Auffassung der Bundesregierung eben bisher keine Notwendigkeit, die vorher von mir zugegebenermaßen etwas ausführlich geschilderte, aber leider Gottes komplizierte Rechtslage zu ändern. Ich bin aber gerne bereit, darauf hinzuwirken, daß wir nochmals Überlegungen anstellen, ob nicht doch eine Änderung in der von Ihnen angedeuteten Weise notwendig ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u288" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg347">Als letzte Zusatzfrage lasse ich noch die Frage von Herrn Dr. Schwenk zu.</seg>
+        </u>
+        <note type="speaker">Dr. Schwenk (Stade) (SPD):</note>
+        <u who="#Q2591350" xml:id="ParlaMint-DE_1985-05-15-10-138.u289" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg348">Danke schön. Wird die Bundesregierung nicht Anlaß haben, angesichts der leider zu beobachtenden Tendenz rüderer Umgangsformen von Rechtsanwälten gegenüber fremden Parteien dieser Frage mehr Aufmerksamkeit zu schenken und das Verfahren zur Einhaltung der Standesregeln transparenter zu machen?</seg>
+        </u>
+        <note type="speaker">Dr. Kinkel, Staatssekretär:</note>
+        <u who="#Q159913" xml:id="ParlaMint-DE_1985-05-15-10-138.u290" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg349">Herr Abgeordneter, Sie sind sicher nicht böse, wenn ich sage, daß ich nicht ohne weiteres unterstreichen und bestätigen kann, was Sie hier in Ihrer Frage unterstellt haben. Ich bin aber gern bereit, auch hier zuzusagen, daß die Bundesregierung das, was Sie gesagt haben, in die Prüfung miteinbeziehen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Westphal:</note>
+        <u who="#Q87666" xml:id="ParlaMint-DE_1985-05-15-10-138.u291" ana="#chair">
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg350">Nun müssen wir diese Fragestunde beenden</seg>
+          <incident type="editorial">
+            <desc>*)</desc>
+          </incident>
+          <seg id="ParlaMint-DE_1985-05-15-10-138.seg351">. Ich danke allen Beteiligten für ihre Mitwirkung. Ich berufe die nächste Sitzung des Deutschen Bundestages für Mittwoch, den 22. Mai 1985, 13 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.38 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

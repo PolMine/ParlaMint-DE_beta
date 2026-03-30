@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1986-01-29-10-193">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 10. Wahlperiode, 193. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 29.01.1986 (193. Sitzung der 10. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 10, Session 193 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1986-01-29 (Session 193 in Legislative Period 10)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="193">193. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.10" n="10">10. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="193">Session 193</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.10" n="10">Legislative Period 10</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 29.01.1986</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1986-01-29</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490374/07ce06f666b624d37b47d2fe6e205ab4/pp10-data.zip</idno>
+          <date when="1986-01-29">1986-01-29</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1986-01-29">1986-01-29</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksache 10/4732 —</head>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg1">Ich eröffne die Sitzung. Ich rufe Punkt 1 der Tagesordnung auf: Fragestunde — Drucksache 10/4732 —</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg2">Wir kommen zunächst zum Geschäftsbereich des Bundesministers für das Post- und Fernmeldewesen. Die Frage 1 des Abgeordneten Zierer wurde vom Fragesteller zurückgezogen. Dann kommen wir zum Geschäftsbereich des Bundesministers für Forschung und Technologie. Die Fragen 2 und 3 des Abgeordneten Dr. Kübler sollen schriftlich beantwortet werden. Die Antworten werden als Anlagen abgedruckt. Nunmehr kommen wir zum Geschäftsbereich des Bundesministers der Justiz. Zur Beantwortung der Fragen steht uns Herr Staatssekretär Erhard zur Verfügung. Ich rufe die Frage 4 des Abgeordneten Vogel (München)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg3">auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg4">Wann beabsichtigt die Bundesregierung eine Änderung der Regelunterhaltsverordnung, da durch die im Steuersenkungsgesetz verankerte Halbteilung des Kinderfreibetrages ledige Mütter gegenüber dem Vorjahr steuerlich stärker belastet und dadurch einkommensmäßig schlechter gestellt sind? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Erhard, Parl. Staatssekretär beim Bundesminister der Justiz:</note>
+        <u who="#Q817923" xml:id="ParlaMint-DE_1986-01-29-10-193.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg5">Ich beantworte Ihre Frage, Herr Abgeordneter, wie folgt: Die Bundesregierung wird eine Verordnung über die Anpassung und Erhöhung von Unterhaltsrenten für Minderjährige erlassen, wenn — so die gesetzliche Ermächtigung — eine erhebliche Änderung der allgemeinen wirtschaftlichen Verhältnisse eingetreten ist. Ob das der Fall ist, wird in Kürze geprüft werden. Maßgebend wird dabei auf Grund der gesetzlichen Ermächtigung insbesondere die allgemeine Entwicklung der Verdienste und der Lebenshaltungskosten im Jahre 1985 und die erwartete Entwicklung der Verdienste und der Lebenshaltungskosten im Jahre 1986 sein. Die wirtschaftliche Situation der Mütter nichtehelicher Kinder und der sorgeberechtigten Elternteile wird bei dieser Prüfung keine Rolle spielen, da es nicht um ihren Unterhaltsbeitrag, sondern um den des anderen Elternteils geht, der das Kind nicht betreut und daher Unterhalt durch laufende Geldzahlungen leisten muß. Ich möchte aber im Einvernehmen mit dem Bundesminister der Finanzen anmerken: Sie unterstellen in Ihrer Frage Herr Vogel, durch das Steuersenkungsgesetz seien ledige Mütter wegen des Halbteilungsgrundsatzes beim Kinderfreibetrag einkommensmäßig schlechter gestellt. Diese Unterstellung ist unzutreffend. Trotz des erwähnten Halbteilungsgrundsatzes hat das Steuersenkungsgesetz auch den sorgeberechtigten Elternteilen und den Müttern nichtehelicher Kinder in aller Regel Vorteile gebracht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg6">Ihre Zusatzfrage, bitte schön, Herr Abgeordneter Vogel.</seg>
+        </u>
+        <note type="speaker">Vogel (München) (GRÜNE):</note>
+        <u who="#Q792395" xml:id="ParlaMint-DE_1986-01-29-10-193.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg7">Dann darf ich das vielleicht erläutern. — Es ist so, daß vor Inkrafttreten des Steuersenkungsgesetzes die Mütter einen Kinderfreibetrag von 432 DM und einen Sonderausgabenhöchstbetrag von 900 DM, zusammen 1 332 DM, hatten. Jetzt haben sie noch den halben Kinderfreibetrag von 1 242 DM und sonst nichts. Daraus ergibt sich ja wohl eine Differenz zuungunsten der Mütter. Sie haben gesagt, daß von den Verhältnissen beim Unterhalt zahlenden Vater oder der Unterhalt zahlenden Mutter ausgegangen werde. Es ist doch so, daß sich die Situation der Zahl-Väter oder Zahl-Mütter durch das Steuersenkungsgesetz wesentlich verbessert hat, da nunmehr zum Freibetrag von 600 DM auch noch der halbe Kinderfreibetrag von 1 242 DM hinzukommt. Gibt Ihnen das vielleicht Anlaß, darüber nachzudenken, auch diesen Gesichtspunkt bei der Frage der Neuanpassung der Regelunterhalt-Verordnung zu berücksichtigen?</seg>
+        </u>
+        <note type="speaker">Erhard, Parl. Staatssekretär:</note>
+        <u who="#Q817923" xml:id="ParlaMint-DE_1986-01-29-10-193.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg8">Es wird bei den Überprüfungen zur Festsetzung des Regelunterhaltes selbstverständlich in aller Breite und auf Grund der gesetzlichen Ermächtigung der Sachverhalt, so weit es irgend geht, ermittelt und zur Grundlage der Neuregelung gemacht werden. Immerhin ist es erfreulich, daß auch Sie eben Ihrer Frage zugrunde gelegt haben, daß sich nach den Steuerveränderungen die wirtschaftliche Situation in diesen Einkommensbereichen wesentlich gebessert hat.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Vogel [München] [GRÜNE]: Das kann ich nicht bestreiten!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg9">Eine weitere Zusatzfrage wird nicht gewünscht. Herr Staatssekretär, wir bedanken uns für Ihre Bemühungen. Ich rufe den Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten auf. Zur Verfügung steht der Parlamentarische Staatssekretär Dr. von Geldern. Ich rufe die Frage 69 des Abgeordneten Eigen auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg10">Welche Möglichkeiten sieht die Bundesregierung bei den Verhandlungen im Ministerrat der Europäischen Gemeinschaft, um sicherzustellen, daß die EG-Kommission mit den Lieferländern von Getreidesubstituten ein Stillhalteabkommen abschließt, da sonst jede Produktionsaufgabe von Getreide in der Europäischen Gemeinschaft sinnlos wäre? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. von Geldern, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q2591867" xml:id="ParlaMint-DE_1986-01-29-10-193.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg11">Herr Kollege Eigen, der Minister hat die EG-Kommission schon vor zwei Jahren ermächtigt, mit den Vereinigten Staaten über ein Selbstbeschränkungsabkommen über Cornglutenfeed zu verhandeln. Diese Gespräche mit den Amerikanern sind leider festgefahren, weil die Amerikaner darauf hinweisen, daß die Gemeinschaft keine ausreichenden Kompensationen anbieten könne. Trotzdem sind die Importe von Cornglutenfeed im letzten Jahr leicht zurückgegangen. Dies wird im wesentlichen eine Folge der Garantiemengenregelung für Milch sein. Bezüglich der Sojaschroteinfuhren lehnt die Bundesregierung nach wie vor importbeschränkende Maßnahmen ab, weil dies die ohnehin bestehenden handelspolitischen Spannungen verschärfen und die Bemühungen um eine neue GATT-Verhandlungsrunde zunichte machen würde. Im übrigen ist die Bundesregierung der Auffassung, daß im Getreidesektor unabhängig von der Substitutenfrage Maßnahmen zur Eingrenzung der Überschußproduktion sinnvoll sind und ergriffen werden müssen, weil die Übermengen von jährlich 20 bis 30 Millionen Tonnen weder innerhalb noch außerhalb der Gemeinschaft in vollem Umfang absetzbar sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg12">Zusatzfrage. Bitte schön, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU):</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1986-01-29-10-193.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg13">Herr Staatssekretär, ist die Bundesregierung mit mir einer Meinung, daß jetzt eine neue Situation entstanden ist? Denn dadurch, daß die Getreideproduktion in der Europäischen Gemeinschaft vermindert werden soll, würden die USA im Weltmarkt weniger Konkurrenz haben, womit doch ein ganz neuer Ansatzpunkt für Verhandlungen über ein Stillhalteabkommen bei Substituten gegeben wäre.</seg>
+        </u>
+        <note type="speaker">Dr. von Geldern, Parl. Staatssekretär:</note>
+        <u who="#Q2591867" xml:id="ParlaMint-DE_1986-01-29-10-193.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg14">Herr Kollege Eigen, es war seit geraumer Zeit ein Wunsch der amerikanischen Seite, daß die Europäische Gemeinschaft durch Verminderung ihrer Produktion in den Überschußbereichen auch dazu beitragen sollte, den subventionierten Wettlauf um Drittmärkte zu beenden. In diesem Sinne glaube ich, daß wir das Argument, daß sich die Gemeinschaft in wichtigen Bereichen anschickt — oder, siehe Milch, bereits angeschickt hat —, ihre Überschußproduktion zu vermindern, bei solchen Verhandlungen durchaus verwenden können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg15">Weitere Zusatzfrage. Bitte schön, Herr Abgeordneter Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU):</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1986-01-29-10-193.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg16">Herr Staatssekretär, würde die Bundesregierung unter diesen neuen Gesichtspunkten noch einmal an die Kommission herantreten können, um diese Dinge in Gang zu bringen? Denn es ist doch völlig sinnlos, daß die Europäische Gemeinschaft Lücken am Markt durch Produktionsbeschränkung entstehen läßt, die dann möglicherweise durch Lieferländer von Substituten — nicht nur von den USA, auch Thailand ist hier z. B. zu nennen — wieder vollgeworfen würden, und damit die ganze Maßnahme letztlich nur das Geld des europäischen Steuerzahlers kostet.</seg>
+        </u>
+        <note type="speaker">Dr. von Geldern, Parl. Staatssekretär:</note>
+        <u who="#Q2591867" xml:id="ParlaMint-DE_1986-01-29-10-193.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg17">Herr Kollege Eigen, wie Sie wissen, sind die angestrebten Entscheidungen zur Produktionsdämpfung im Getreidebereich noch in der Beratung und noch nicht getroffen worden. Nach Abschluß dieser Verhandlungen, die im Frühjahr dieses Jahres die agrarpolitische Diskussion auf der nationalen wie auf der europäischen Ebene bestimmen, ist, denke ich, der richtige Zeitpunkt gekommen, auch die Einbeziehung von Ergebnissen der Produktionsdämpfung auf dem Getreidesektor in die genannten Gespräche mit den Amerikanern zu prüfen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Eigen [CDU/CSU]: Vielen Dank!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg18">Zusatzfrage des Abgeordneten Werner (Dierstorf).</seg>
+        </u>
+        <note type="speaker">Werner (Dierstorf) (GRÜNE):</note>
+        <u who="#Q1424446" xml:id="ParlaMint-DE_1986-01-29-10-193.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg19">Herr Staatssekretär, die erste Frage von Herrn Kollegen Eigen bezog sich eigentlich auf ein Stillhalteabkommen. Ich will auch noch einmal darauf hinaus. Besteht nicht, wenn die europäischen Länder ihr Aufkommen an Getreide ganz stark verringern, so daß die Ausfuhren gedrosselt werden können, die Möglichkeit, über Verhandlungen, hauptsächlich mit den Amerikanern, darauf hinzuwirken, daß die Einfuhr von Substituten stark verringert wird?</seg>
+        </u>
+        <note type="speaker">Dr. von Geldern, Parl. Staatssekretär:</note>
+        <u who="#Q2591867" xml:id="ParlaMint-DE_1986-01-29-10-193.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg20">Herr Kollege Werner, ich hatte schon bei der ursprünglichen Antwort auf die Frage des Kollegen Eigen darauf hingewiesen, daß im Bereich Cornglutenfeed bereits seit zwei Jahren solche Verhandlungen laufen. Ich wiederhole, daß es nach den Entscheidungen über die europäische Agrarpolitik sinnvoll sein kann, eine veränderte Lage hinsichtlich des zu erwartenden künftigen Produktionsaufkommens in der Gemeinschaft und damit auch der Konkurrenzsituation auf Drittmärkten mit in solche Gespräche einzubeziehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg21">Eine Zusatzfrage, Herr Abgeordneter Oostergetelo, bitte schön.</seg>
+        </u>
+        <note type="speaker">Oostergetelo (SPD):</note>
+        <u who="#Q1368686" xml:id="ParlaMint-DE_1986-01-29-10-193.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg22">Herr Staatssekretär, wie sieht denn die Wahrscheinlichkeit Ihrer Meinung nach aus: Hat die Europäische Gemeinschaft die Möglichkeit, mit den Hauptlieferländern — allen voran den USA — zu einer Art Selbstbeschränkungsabkommen zu kommen? Wenn nein: Ist es dann nicht unverantwortlich, von Flächenstillegungen als von der Möglichkeit der Eindämmung der Überproduktion zu reden, wenn gleichzeitig bei den Substituten alle Schotten offenbleiben?</seg>
+        </u>
+        <note type="speaker">Dr. von Geldern, Parl. Staatssekretär:</note>
+        <u who="#Q2591867" xml:id="ParlaMint-DE_1986-01-29-10-193.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg23">Herr Kollege Oostergetelo, zur Kennzeichnung der Getreidesituation gehören ja eine ganze Reihe von Merkmalen: sowohl die Überproduktion in der Gemeinschaft selbst als auch die Verdrängung europäischen Getreides aus dem Futtertrog durch Getreidesubstitute, insbesondere aus den Vereinigten Staaten. Es gibt auch eine ganze Palette von Anatzmöglichkeiten, um die Getreidemarktordnung wieder funktionsfähig zu machen und die hohen Kosten, die gegenwärtig durch die Getreidemarktordnung verursacht werden, zu dämpfen. Damit wird auch erreicht, daß mehr Geld den Landwirt erreicht, d. h. das Aufkommen der Steuerzahler der Europäischen Gemeinschaft für die europäische Agrarpolitik geht dann weniger an andere Adressaten. Wir sollten das Problem also nicht in verkürzter Form auf die Verhandlungsrunde über ein Selbstbeschränkungsabkommen im Zusammenhang mit den Substituten begrenzen. Vielmehr müssen wir den gesamten Bereich einbeziehen. Aber ich gebe Ihnen wie allen anderen Fragestellern recht, daß das auch ein Gesichtspunkt in diesem Zusammenhang sein kann, nachdem sich die Europäische Gemeinschaft hinsichtlich ihrer künftigen Maßnahmen auf dem Getreidesektor entschieden hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u20" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg24">Nun hat sich die Abgeordnete Frau Blunck zu einer Zusatzfrage gemeldet. Bitte schön, Frau Abgeordnete.</seg>
+        </u>
+        <note type="speaker">Frau Blunck (SPD):</note>
+        <u who="#Q1824295" xml:id="ParlaMint-DE_1986-01-29-10-193.u21" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg25">Herr Staatssekretär, habe ich Sie richtig verstanden, daß bisher noch keine entsprechenden Verhandlungen zur Substitutverminderung stattgefunden hätten — Sie sähen dazu erst jetzt Veranlassung —, und stimmen Sie mir dann zu, daß es bei der zur Zeit herrschenden Überproduktion — wir kennen alle die Gründe, warum es so ist — eigentlich unverantwortlich ist, diese Verhandlungen noch nicht in Gang gebracht zu haben?</seg>
+        </u>
+        <note type="speaker">Dr. von Geldern, Parl. Staatssekretär:</note>
+        <u who="#Q2591867" xml:id="ParlaMint-DE_1986-01-29-10-193.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg26">Frau Kollegin Blunck, ich führe Ihre Frage darauf zurück, daß Sie nicht ganz pünktlich zum Beginn der Fragestunde hier sein konnten.</seg>
+          <vocal type="exclamat">
+            <desc>Frau Blunck [SPD]: Ich war hier, Herr Staatssekretär! Ich habe extra noch einmal nachgefragt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg27">— Frau Kollegin Blunck, dann muß ich mich doch wundern; denn in meiner Antwort auf die ursprünglich gestellte Frage des Kollegen Eigen habe ich gesagt, daß solche Verhandlungen bereits seit zwei Jahren geführt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u23" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg28">Ich rufe nunmehr die Frage 70 des Abgeordneten Eigen auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg29">Welche Auswirkungen auf dem EG-Getreidemarkt erwartet die Bundesregierung durch die verstärkten Anstrengungen in den USA bei der Produktion von Bioäthanol aus Mais?</seg>
+        </u>
+        <note type="speaker">Dr. von Geldern, Parl. Staatssekretär:</note>
+        <u who="#Q2591867" xml:id="ParlaMint-DE_1986-01-29-10-193.u24" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg30">Herr Kollege Eigen, durch den Einsatz von Mais und gelegentlich auch anderem Getreide, z. B. Sorghum, und Zucker für die Äthanolerzeugung haben die Vereinigten Staaten versucht, zunächst der Energiekrise zu begegnen und später auch durch Verwertung landwirtschaftlicher Überschüsse aus Regierungsbeständen die Agrarpreise zu stützen. Im vergangenen Jahr hat die Verwendung von 6,6 Millionen Tonnen Mais für die Äthanolproduktion nach Schätzung des nationalen Maisanbauerverbandes in den USA eine preiserhöhende Wirkung von etwa 10 DM je Tonne gehabt, d. h. einen Mehrerlös von rund 850 Millionen Dollar für die Ernte 1985. Diejenigen landwirtschaftlichen Erzeugnisse, die zu Bioäthanol in den USA verarbeitet werden, drängen nicht auf den Weltmarkt; sie entlasten diesen. Sie können insoweit dem preissenkenden Einfluß des neuen Landwirtschaftsgesetzes der Vereinigten Staaten — Farm Bill 1985 — entgegenwirken. Durch die in diesem Gesetz vorgesehene Senkung der marktpreisstützenden Beleihungspreise, z. B. bei Getreide, ist nämlich zu erwarten, daß sich die Wettbewerbsstellung der USA auf den Weltmärkten und damit auch gegenüber der EG verbessern wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u25" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg31">Herr Abgeordneter Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU):</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1986-01-29-10-193.u26" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg32">Herr Staatssekretär, die Intention zu dieser Frage resultiert ja aus der ersten Frage, verbunden mit der großen Sorge, daß durch die explosionsartige Erweiterung der Äthanolproduktion in den USA noch mehr Cornglutenfeed auf den Substituten-Weltmarkt von Getreide drängen wird und daß sich damit das Problem, das wir in der ersten Frage erörtert haben, noch verschärfen würde. In welcher Weise denkt die Bundesregierung darüber mit den USA zu verhandeln?</seg>
+        </u>
+        <note type="speaker">Dr. von Geldern, Parl. Staatssekretär:</note>
+        <u who="#Q2591867" xml:id="ParlaMint-DE_1986-01-29-10-193.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg33">Herr Kollege Eigen, so wie die Gemeinschaft in ihren Entscheidungen, z. B. auch über die Förderung des Einsatzes von nachwachsenden landwirtschaftlichen Rohstoffen für industrielle Produktion — auch für Bioäthanol —, frei ist, so sind auch die Vereinigten Staaten frei, solche Entscheidungen im Innern mit Blick auf ihre Landwirtschaftspolitik zu treffen. Erst wenn das Auswirkungen auf die Konkurrenzverhältnisse auf Drittmärkten hat — die wir eben diskutiert haben — oder wenn das Auswirkungen auf den Anfall von möglichen Getreidesubstituten und auf das Bemühen hat, diese in die Gemeinschaft zu liefern, ist der Ansatzpunkt gegeben, darüber handelspolitische Gespräche zu führen. Ich denke, daß bei den genannten, bereits seit zwei Jahren laufenden Verhandlungen auch solche Gesichtspunkte, nämlich Veränderungen der Gesamtlage durch Entwicklungen, wie Sie sie beschrieben haben, mit berücksichtigt werden sollten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u28" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg34">Weitere Zusatzfrage des Herrn Abgeordneten Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU):</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1986-01-29-10-193.u29" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg35">Herr Staatssekretär, nachdem Sie in Beantwortung der Frage vollkommen richtig dargelegt haben, daß diese Maßnahmen auf dem Weltmarkt eben tatsächlich gewisse Veränderungen bringen können, frage ich: Ist die Bundesregierung möglicherweise bereit, bei der Erzeugung von Bioäthanol aus Getreide aus der Europäischen Gemeinschaft für eine Sicherstellung dahin zu sorgen, daß die europäische Bioäthanolproduktion mit der amerikanischen angesichts der Tatsache konkurrieren kann, daß die USA für die Investitionen in diesem Bereich eine 100 %ige Staatsbürgschaft geben und für das Bioäthanol ganz wesentliche Steuererleichterungen bei der Mineralölsteuer gewähren?</seg>
+        </u>
+        <note type="speaker">Dr. von Geldern, Parl. Staatssekretär:</note>
+        <u who="#Q2591867" xml:id="ParlaMint-DE_1986-01-29-10-193.u30" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg36">Herr Kollege Eigen, sowohl in der Diskussion in der Bundesrepublik Deutschland als auch in der Diskussion auf europäischer Ebene wird die Möglichkeit des Einsatzes nachwachsender Rohstoffe — z. B. zur Herstellung von Bioäthanol — unter dem Gesichtspunkt einer Marktentlastung und der Herstellung einer neuen agrarpolitischen Perspektive für Europa erörtert. Deshalb gehört zu dieser Diskussion natürlich auch die Überlegung, wie gewährleistet werden kann, daß es europäische Rohstoffe sind, die für eine solche industrielle Produktion eingesetzt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u31" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg37">Zusatzfrage, Herr Abgeordneter Oostergetelo.</seg>
+        </u>
+        <note type="speaker">Oostergetelo (SPD):</note>
+        <u who="#Q1368686" xml:id="ParlaMint-DE_1986-01-29-10-193.u32" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg38">Herr Staatssekretär, Sie hatten soeben gesagt, daß im Rahmen der Gesamtagrardiskussion auch hierüber auf EG-Ebene nachgedacht wird. Ich frage: Sieht die Bundesregierung in der Diskussion um nachwachsende Rohstoffe, um dadurch Produktionen aus dem Markt gewissermaßen herauszunehmen, schon heute eine Möglichkeit, oder ist das eine mittelfristige Maßnahme, und hat sie im Zusammenhang mit den Verhandlungen mit den Vereinigten Staaten auch darauf aufmerksam gemacht, daß die von Herrn Eigen befürchteten Einfuhren von immer mehr Cornglutenfeed am Ende wieder zum Export deutschen Getreides führen, also wieder zu Konkurrenz mit amerikanischem Getreide?</seg>
+        </u>
+        <note type="speaker">Dr. von Geldern, Parl. Staatssekretär:</note>
+        <u who="#Q2591867" xml:id="ParlaMint-DE_1986-01-29-10-193.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg39">Offen gesagt, Herr Kollege Oostergetelo, es war nun reichlich viel in dieser Frage verpackt. Ich weiß nicht, ob ich das jetzt noch alles so im Kopf habe, was Sie haben ansprechen wollen und zum Teil auch nur in Nebensätzen gestreift haben. Ich kann Ihnen sagen, daß bei der Diskussion, die im Zusammenhang mit der notwendigen Neuorientierung der europäischen Agrarpolitik geführt wird, nicht erst seit heute, sondern seit geraumer Zeit die Notwendigkeit der Eröffnung einer neuen Perspektive, die nicht Nahrungsmittelproduktion heißt, sondern Produktion industrieller Güter aus nachwachsenden, also landwirtschaftlichen Rohstoffen, eine wesentliche Rolle spielt, daß bereits erhebliche Anstrengungen von seiten der Bundesregierung unternommen worden sind, um auch auf dem Forschungssektor das Notwendige zu tun, so daß diese Perspektive zwar nicht zu einer wesentlichen Entlastung der angespannten Situation auf dem Getreidemarkt dieses Jahres oder des kommenden Jahres führen kann, aber wir sind doch der Meinung, daß jetzt eine Weichenstellung notwendig ist, damit zu Beginn der 90er Jahre — also in einigen Jahren — diese Perspektive zu einer konkreten Wirklichkeit für die europäische und deutsche Landwirtschaft wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u34" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg40">Herr Abgeordneter, ich möchte Sie darauf aufmerksam machen, daß sich die ursprüngliche Frage ausschließlich auf die Auswirkungen der Importe aus den USA und nicht auf die Auswirkungen der Erzeugung hier bezog. Herr Abgeordneter Werner (Dierstorf).</seg>
+        </u>
+        <note type="speaker">Werner (Dierstorf) (GRÜNE):</note>
+        <u who="#Q1424446" xml:id="ParlaMint-DE_1986-01-29-10-193.u35" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg41">Ich wollte sagen, auch meine Frage zielt in die gleiche Richtung: wenn hier Bioäthanol hergestellt wird. Ich weiß nicht, ob ich diese Frage jetzt stellen soll.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg42">Ich möchte schon im Interesse der Kollegen, die auch Fragen gestellt haben, darum bitten, sehr darauf zu achten, daß der Sachzusammenhang erhalten bleibt. Sonst bekommen wir eine Debatte, und die übrigen Kollegen, die Fragen gestellt haben, haben nicht mehr die Möglichkeit, ihre Fragen im Plenum beantwortet zu bekommen. Ich überlasse es Ihnen, dies zu beurteilen, aber lege Wert darauf, daß der Sachzusammenhang erhalten bleibt, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Werner (Dierstorf) (GRÜNE):</note>
+        <u who="#Q1424446" xml:id="ParlaMint-DE_1986-01-29-10-193.u37" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg43">Dann verzichte ich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg44">Danke schön, Sie ziehen zurück. Dann darf ich diesen Bereich schließen. Ich bedanke mich bei Herrn Staatssekretär von Geldern und rufe den Geschäftsbereich des Bundesministers der Verteidigung auf. Zur Verfügung steht uns der Herr Parlamentarische Staatssekretär Würzbach. Ich rufe die Frage 5 des Abgeordneten Stiebler auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg45">Treffen Hinweise aus Kreisen der bayerischen Grenzpolizei und des Bundesgrenzschutzes zu, daß Einheiten der Bundeswehr in Amberg und in Neunburg v. Wald im Zusammenhang mit den WAA-Demonstrationen in Wackersdorf sich zur Amtshilfe bereit gehalten haben, und auf welche Rechtsgrundlage stützt die Bundesregierung die Anordnung der entsprechenden Bereitschaft der Bundeswehr zur Amtshilfe?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär beim Bundesminister der Verteidigung:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u39" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg46">Herr Präsident! Kollege Stiegler! Meine Anwort ist: Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u40" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg47">Zusatzfrage des Abgeordneten Stiegler.</seg>
+        </u>
+        <note type="speaker">Stiegler (SPD):</note>
+        <u who="#Q87650" xml:id="ParlaMint-DE_1986-01-29-10-193.u41" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg48">Herr Staatssekretär, gab es denn Befehle im Bereich der Brigaden, des Korps oder der Division, die Fragen der Amtshilfe im Zusammenhang mit der beabsichtigten Räumung von Wackersdorf geregelt haben?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u42" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg49">Es gibt seit Olims Zeiten eine generelle Regel, im übrigen auch im Grundgesetz festgelegt, über die Amtshilfe aller Bundesbehörden. In diesem Zusammenhang gab es auch eine Verabredung — beim Militär heißt das Umsetzen, Befehl —, daß wir Parkplätze, Raum in den Kasernen, logistische Unterstützung zur Verfügung stellen — dies ja —, aber keine personelle.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u43" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg50">Weitere Zusatzfrage des Abgeordneten Stiegler. Bitte schön.</seg>
+        </u>
+        <note type="speaker">Stiegler (SPD):</note>
+        <u who="#Q87650" xml:id="ParlaMint-DE_1986-01-29-10-193.u44" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg51">Herr Staatssekretär, halten Sie es denn für von Art. 87 a gedeckt, wenn in breitem Umfang logistische Unterstützung für den Einsatz der Polizei gegen Demonstrationen durch die Bundeswehr befohlen wird?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u45" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg52">Art. 35, den ich zitiere, und Art. 87 a, den Sie zitierten, stehen hier in keinem Widerspruch zueinander und sollten auch von Ihnen und von allen hier nicht in einen Widerspruch gebracht werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u46" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg53">Zusatzfrage, Abgeordneter Vogel (München).</seg>
+        </u>
+        <note type="speaker">Vogel (München) (GRÜNE):</note>
+        <u who="#Q792395" xml:id="ParlaMint-DE_1986-01-29-10-193.u47" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg54">Herr Staatssekretär, Sie sind also der Auffassung, daß die Bereitstellung von Unterkunft in Kasernen — in Neunburg vorm Wald waren das konkret für, glaube ich, zwei Hundertschaften Bereitschaftspolizei — durch die Bundeswehr keine Amtshilfe darstellt?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u48" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg55">Der Auffassung bin ich nicht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg56">Zusatzfrage des Abgeordneten Jobst.</seg>
+        </u>
+        <note type="speaker">Dr. Jobst (CDU/CSU):</note>
+        <u who="#Q1226961" xml:id="ParlaMint-DE_1986-01-29-10-193.u50" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg57">Herr Staatssekretär, darf ich Ihrer Antwort auf die Frage des Kollegen Stiegler entnehmen, daß überhaupt nicht vorgesehen war, Einheiten einzusetzen, und daß auch keine Einheiten der Bundeswehr bereitgehalten wurden; und können Sie mir bestätigen, daß Amtshilfe ähnlich der, die von der Bundeswehr in diesem Zusammenhang in Wackersdorf gewährt wurde, auch schon früher gewährt wurde, beispielsweise unter dem Verteidigungsminister Apel bei den Demonstrationen gegen Kasernen in Bremen?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg58">Ich bestätige, daß es nicht geplant war, auch nur eine einzige Person oder einen einzigen Soldaten einzusetzen, und daß auch keine eingesetzt wurden. Ich bestätige auch den zweiten Teil der Frage, daß dies uralt geübte Praxis in vielen Regionen der Bundesrepublik, auch der vorherigen Bundesregierung, gewesen ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg59">Zusatzfrage des Abgeordneten Tatge.</seg>
+        </u>
+        <note type="speaker">Tatge (GRÜNE):</note>
+        <u who="#Q1421748" xml:id="ParlaMint-DE_1986-01-29-10-193.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg60">Herr Staatssekretär, wenn Sie diese Maßnahmen als Amtshilfe bezeichnen, geht meine Frage an Sie, wer diese Amtshilfe angeordnet hat und auf welche rechtliche Grundlage sich diese Anordnung stützt?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg61">Dies ist ein reiner Verwaltungsvorgang, daß auf vorgeschriebenem Weg die Bundesbehörden miteinander in Verbindung treten, um diese Amtshilfe zu erbitten. Der vorgeschriebene Weg wurde auch hier eingehalten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg62">Danke schön. Weitere Zusatzfragen werden nicht gewünscht. Ich rufe die Frage 6 des Abgeordneten Stiegler auf. Gibt es generelle Absprachen zwischen dem Bundesminister der Verteidigung und der Bayerischen Staatsregierung über eventuelle Einsätze der Bundeswehr bei Konflikten in und um Wackersdorf, und auf welche Rechtsgrundlage stützt die Bundesregierung sich dabei? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u56" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg63">Auch hier ist meine Antwort: Nein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u57" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg64">Sie wünschen eine Zusatzfrage, Herr Abgeordneter Stiegler.</seg>
+        </u>
+        <note type="speaker">Stiegler (SPD):</note>
+        <u who="#Q87650" xml:id="ParlaMint-DE_1986-01-29-10-193.u58" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg65">Herr Staatssekretär, sind Sie bereit, die Befehle, die zur Regelung der Amtshilfe im konkreten Fall erlassen worden sind, mir zur Verfügung zu stellen?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u59" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg66">Zur Einsicht stelle ich die Ihnen gern zur Verfügung, weil überhaupt kein Geheimnis daraus zu machen ist. Wenn Sie wollen, können Sie auch uralte ähnliche Fälle, unter welchen Verteidigungsministern auch immer, einsehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u60" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg67">Eine weitere Zusatzfrage wird nicht gewünscht. Ich rufe die Frage 7 der Abgeordneten Frau Weyel auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg68">Hält es die Bundesregierung für angemessen, daß mit der Einberufung Wehrpflichtiger auch deren Mütter „dienstverpflichtet" werden in der Form, daß sie als Wäscherin für die Dienstkleidung ihrer Söhne im Sonntagsdienst beansprucht werden? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u61" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg69">Frau Kollegin Weyel, von einer „Dienstverpflichtung", wie Sie sich in Ihrer Frage ausdrücken, der Mütter unserer Wehrpflichtigen per Order, die Wäsche zu waschen, kann überhaupt keine Rede sein. Aus der Erfahrung über jetzt viele Jahre, Jahrzehnte mit dem gleichen Vorgang in der Bundeswehr stelle ich hier fest, daß die Mütter, die die Wäsche für ihre Söhne waschen, dies freiwillig tun. Diese Soldaten könnten das kostenlos in der Kaserne tun. Die Erfahrung lehrt auch, daß alle Mütter, die dies tun, dies für ihre Söhne, die ihre Wehrpflicht ableisten, gern tun.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Daweke [CDU/CSU]: Kommt offenbar darauf an!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u62" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg70">Frau Abgeordnete, Sie wünschen eine Zusatzfrage. Bitte schön.</seg>
+        </u>
+        <note type="speaker">Frau Weyel (SPD):</note>
+        <u who="#Q1553160" xml:id="ParlaMint-DE_1986-01-29-10-193.u63" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg71">Herr Staatssekretär, ist Ihnen bekannt, daß Dienstvorgesetzte den Wehrpflichtigen bei Beginn ihres Grundwehrdienstes sagen, sie mögen ihre Wäsche mit nach Hause nehmen, da bei der Bundeswehr die Wäsche nicht ordnungsgemäß behandelt werden könne und sie auch nicht sicher sein könnten, daß sie ihre eigenen Wäschestücke zurückbekämen?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u64" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg72">Der Vorgesetzte, der eine solche Anordnung gibt — ich kenne ihn nicht —, handelt nicht nur gegen die Gepflogenheiten, sondern auch gegen die Vorschriften. Ich möchte hoffen, daß es von den rund 150 000 Vorgesetzten — ich nehme nicht an, daß Sie eine falsche Information haben — keinen gab, der sich unrecht verhalten hat. Das wäre nicht in Ordnung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u65" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg73">Weitere Zusatzfrage, Frau Abgeordnete, bitte schön.</seg>
+        </u>
+        <note type="speaker">Frau Weyel (SPD):</note>
+        <u who="#Q1553160" xml:id="ParlaMint-DE_1986-01-29-10-193.u66" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg74">Ich darf Ihnen sagen, daß die Information zuverlässig ist. Ich frage weiter: Ist Ihnen bekannt, daß die Wehrpflichtigen — zumindest ein großer Teil von ihnen — diejenigen ihrer Kameraden außerordentlich bedauern, die nicht die Möglichkeit haben, diese Dienstleistung ihrer Mütter in Anspruch zu nehmen, weil tatsächlich die Erfahrung zeigt, daß hier große Mängel auftreten?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u67" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg75">Es treten keine großen Mängel auf. Daß der eine Wehrpflichtige es lieber so, der andere lieber so macht, sollten wir ihnen selbst überlassen. Jeder kann die Wäsche in der Kaserne abgeben. In Ihrer zweiten Frage fragen Sie nach der ordnungsgemäßen Behandlung. Das werden wir dann erörtern.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Eigen [CDU/CSU]: Jeder darf und keiner muß!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u68" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg76">Abgeordneter Vogel (München)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg77">hat eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Vogel (München) (GRÜNE):</note>
+        <u who="#Q792395" xml:id="ParlaMint-DE_1986-01-29-10-193.u69" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg78">Herr Staatssekretär, können Sie mir einmal erklären, wie es den Wehrpflichtigen in einer Ausbildungskompanie, wo für 120 Soldaten eine Waschmaschine zur Verfügung steht — insbesondere auch unter Berücksichtigung der Tatsache, daß die Wehrpflichtigen eine äußerst extensive Dienstzeitregelung haben —, möglich sein soll, zusätzlich ihre Wäsche zu waschen?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u70" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg79">Herr Kollege, eine solche Frage können Sie nur stellen, weil Sie augenscheinlich, obwohl ich Sie herzlich einlade, noch nie in einer Kaserne gewesen sind.</seg>
+          <kinesic type="laughter">
+            <desc>Beifall bei der CDU/CSU und der FDP — Lachen bei den GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg80">Wir haben keine Kompanien mit Waschmaschinen, sondern wir arbeiten mit mittelständischen, freien chemischen Reinigungsbetrieben zusammen. Dort kann der Soldat einmal oder zweimal in der Woche die Wäsche ordnungsgemäß abgeben. Er bekommt sie dann zurück.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Daweke [CDU/CSU]: So ist es! — Eigen [CDU/CSU]: „Wissen ist Macht! Weiß nichts, macht nichts!"</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u71" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg81">Herr Abgeordneter Tatge, möchten Sie hierzu eine Zusatzfrage stellen? — Bitte schön.</seg>
+        </u>
+        <note type="speaker">Tatge (GRÜNE):</note>
+        <u who="#Q1421748" xml:id="ParlaMint-DE_1986-01-29-10-193.u72" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg82">Herr Staatssekretär, sind Sie bereit, zur Kenntnis zu nehmen, daß mein Kollege Vogel (München)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg83">vier Jahre Zeitsoldat war?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u73" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg84">Das nehme ich gern zur Kenntnis.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u74" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg85">Ich rufe die Frage 8 der Frau Abgeordneten Weyel auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg86">Sieht die Bundesregierung eine Möglichkeit, in der Bundeswehr die Reinigung der Dienstkleidung Wehrpflichtiger so zu organisieren, daß die Soldaten jeweils ihre Kleidungsstücke zurückerhalten und die Wäsche fachgerecht behandelt wird, damit keine Schäden daran entstehen? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u75" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg87">Frau Kollegin, meine Antwort lautet: Ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u76" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg88">Zusatzfrage, Frau Abgeordnete, bitte schön.</seg>
+        </u>
+        <note type="speaker">Frau Weyel (SPD):</note>
+        <u who="#Q1553160" xml:id="ParlaMint-DE_1986-01-29-10-193.u77" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg89">Herr Staatssekretär, ich beziehe mich auch auf die einschlägigen Erfahrungen des Kollegen Vogel, die er angedeutet hat: Ist Ihnen bekannt, daß die Dienstkleidung zum Teil in einem Zustand zurückkommt, daß sie für den Wehrpflichtigen tatsächlich nicht mehr tragbar ist?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg90">Wir überprüfen die Betriebe, in die die Wäsche abgegeben wird, mehrmals im Jahr durch Standort- und Wehrbereichsverwaltungen. Wenn dort Mängel auftreten, scheiden diese Betriebe aus der Vertragsverlängerung aus, weil der Soldat natürlich mit Recht die Forderung erhebt, nicht nur seine eigenen Dinge überhaupt wiederzubekommen, sondern sie auch ordentlich, fachlich gereinigt zurückzubekommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg91">Weitere Zusatzfrage, bitte schön.</seg>
+        </u>
+        <note type="speaker">Frau Weyel (SPD):</note>
+        <u who="#Q1553160" xml:id="ParlaMint-DE_1986-01-29-10-193.u80" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg92">Herr Staatssekretär, wären Sie bereit, in verschiedene Ausbildungskompanien eine nicht dienstliche, sondern von einem neutralen Institut durchgeführte Befragung in dieser Hinsicht zu veranlassen?</seg>
+        </u>
+        <kinesic type="amusement">
+          <desc>Daweke [CDU/CSU]: Aktion sauberes Deutschland! — Heiterkeit</desc>
+        </kinesic>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg93">Frau Kollegin, vielleicht würde ich Ihnen eine Freude machen, wenn ich jetzt ja sagte. Ich sage es dennoch nicht. Ich sage nein, und zwar deshalb, weil sich die jetzige Praxis in den letzten zehn Jahren bewährt hat. Minister Leber hat einmal versucht, Waschmaschinen, Bügel- und Trockenapparate in 40 Kompanien aufzustellen; vielleicht war das in der Zeit, von der Herr Vogel sprach. Da ging kein Mann hin. Die, die dies versuchten, kamen nicht so richtig zurecht. Wir sollten es den Soldaten überlassen — da brauchen wir keine Befragung zu machen —, Mängel zu melden, und zwar auf dem Dienstweg oder wie auch immer.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von den GRÜNEN: Nicht nur totschießen, sondern Wäsche waschen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg94">Wir gehen dann den Mängeln nach. Wir wollen aber keine zusätzliche, mit bürokratischem Aufwand durchzuführende Befragung. Die Soldaten sind keck, wach und selbstbewußt genug, um Mängel zu melden. Wir stellen sie ab.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg95">Danke schön. Weitere Zusatzfragen liegen mir hierzu nicht vor. Der Abgeordnete Dr. Feldmann hat gebeten, seine Frage 9 schriftlich zu beantworten. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 10 des Abgeordneten Pauli auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg96">Wie kommt die Bundesregierung zu ihrer in der Antwort auf meine Frage 10 (Plenarprotokoll 10/189)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg97">zum Ausdruck kommenden Auffassung, daß es sich bei den immerhin vom Sender Freies Berlin und vom Westdeutschen Rundfunk verbreiteten Vorwürfen gegenüber dem Hauptabteilungsleiter Rüstung im Bundesministerium der Verteidigung um unseriöseste Verdächtigungen handelt? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u83" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg98">Herr Kollege Pauli, ich habe in der letzten Fragestunde auf Ihre Fragen geantwortet. Sie kommen auf diese Antwort zurück. Ich wiederhole nur, daß die Sendebeiträge — in welcher Rundfunkanstalt auch immer — über Aussagen Dritter berichtet haben. Diese Aussagen Dritter habe ich als „unseriöseste Verdächtigungen", die längst widerlegt sind, bezeichnet. Ich bleibe dabei.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u84" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg99">Zusatzfrage, Abgeordneter Pauli.</seg>
+        </u>
+        <note type="speaker">Pauli (SPD):</note>
+        <u who="#Q1560888" xml:id="ParlaMint-DE_1986-01-29-10-193.u85" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg100">Herr Staatssekretär, wären Sie bereit, mir die Widerlegungen, von denen Sie in der letzten Fragestunde gesprochen haben, an die Hand zu geben, und wären Sie auch bereit, mir mitzuteilen, ob das Bundesministerium der Verteidigung oder die Bundesregierung die Sendebeiträge des Senders Freies Berlin und des Westdeutschen Rundfunks als unseriöse Meldungen ansieht, die nicht entsprechend juristisch überprüft worden sind?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u86" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg101">Herr Kollege, ich habe nicht diese Sendung, auch nicht Teile von Sendungen irgendwelcher Anstalten hier für die Bundesregierung zu klassifizieren. Ich habe über den Sachverhalt, über den berichtet wurde, hier gesprochen. Dabei bleibe ich. Ich habe auch zum ersten Teil Ihrer Frage über das hinaus, was in der letzten Fragestunde sachlich — auch von Bundesregierungen früherer Zusammensetzung — gesagt wurde, nichts hinzuzufügen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u87" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg102">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Paull (SPD):</note>
+        <u who="#Q1560888" xml:id="ParlaMint-DE_1986-01-29-10-193.u88" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg103">Herr Staatssekretär, wären Sie bereit, zur Kenntnis zu nehmen, daß derartige Stellungnahmen von mir nicht aufgefunden worden sind, und trifft es zu, daß der Bundesminister bzw. der Bundeskanzler in Erwägung gezogen hatte, auf Vorschlag von Bundesminister Wörner den hier in Frage stehenden Ministerialdirektor zum Staatssekretär zu berufen und einen anderen Staatssekretär zu entlassen?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg104">Ich habe auf solche Spekulationen von Ihnen hier nicht zu antworten, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg105">Keine weitere Zusatzfrage. Ich rufe die Frage 11 des Abgeordneten Pauli auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg106">Was wird die Bundesregierung zur Erhaltung des Ansehens des Bundesministeriums der Verteidigung unternehmen, daß in Zukunft diese bisher nicht eindeutig dementierten und widerlegten Vorwürfe von anderen Rundfunkanstalten, Fernsehanstalten sowie der übrigen Presse nicht mehr wiederholt werden?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u91" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg107">Herr Kollege, die Behauptungen und die Vorwürfe sind eindeutig von der vorhergehenden Regierung und von uns — ich sage das noch einmal — dementiert worden. Es besteht kein Anlaß und keine Absicht, die freie Berichterstattung in den Medien in irgendeiner Form durch die Bundesregierung zu korrigieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u92" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg108">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Pauli (SPD):</note>
+        <u who="#Q1560888" xml:id="ParlaMint-DE_1986-01-29-10-193.u93" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg109">Herr Staatssekretär, empfindet es die Bundesregierung nicht als belastend — auch und vor allem im Verhältnis zu unseren Verbündeten —, wenn der Hauptabteilungsleiter Rüstung im Bundesministerium der Verteidigung immer wieder unwidersprochen mit illegalem Waffenhandel in Verbindung gebracht wird?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u94" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg110">Das erfolgt nicht unwidersprochen. Der, der das behauptet hat, ist vor Gericht einer uneidlichen Falschaussage und anderer Dinge bezichtigt und verurteilt worden. Jeder, der mit unserem Rüstungshauptabteilungsleiter umzugehen hat, wird sich ein Bild von seiner Leistung und Person machen, und wer sich dafür interessiert, wird wissen, daß dies falsche, nicht aufrechtzuerhaltende, unseriöse Behauptungen waren und sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u95" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg111">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Pauli (SPD):</note>
+        <u who="#Q1560888" xml:id="ParlaMint-DE_1986-01-29-10-193.u96" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg112">Herr Staatssekretär, hat die Bundesregierung geprüft, ob es nicht angezeigt sei, den Westdeutschen Rundfunk, den Sender Freies Berlin und den Südwestfunk auf Unterlassung bzw. auf Widerruf dieser Rundfunkbeiträge zu verklagen, da in diesen Rundfunkbeiträgen Behauptungen aufgestellt werden, die geeignet sind, den Hauptabteilungsleiter Rüstung in den Augen der Öffentlichkeit herabzusetzen?</seg>
+        </u>
+        <note type="speaker">Würzbach, Parl. Staatssekretär:</note>
+        <u who="#Q1700346" xml:id="ParlaMint-DE_1986-01-29-10-193.u97" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg113">Ich habe Ihnen dazu das Ergebnis der Prüfung gesagt und füge noch hinzu: Wenn Sie die Manuskripte dieser Rundfunksendung — eines habe ich gelesen — lesen und sich einmal genau anschauen, stellen Sie fest, daß selbst in dieser Rundfunksendung darauf hingewiesen wird, wie unseriös diese Aussage des betreffenden Zeugen ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u98" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg114">Danke schön. Weitere Zusatzfragen werden nicht gewünscht. Herr Staatssekretär, ich bedanke mich bei Ihnen. Ich rufe den Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit auf. Zur Beantwortung steht uns Frau Parlamentarische Staatssekretärin Karwatzki zur Verfügung. Ich rufe Frage 12 des Abgeordneten Werner (Ulm)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg115">auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg116">Gedenkt die Bundesregierung angesichts der Erkenntnisse der neuesten Forschung, daß menschliches Leben von der Vereinigung von Eizelle und Samen an existiert, die Frage der besonderen Schutzwürdigkeit des ungeborenen Menschen durch den Staat von allem Anfang an einer erneuten umfassenden Prüfung zu unterwerfen? Bitte, Frau Staatssekretärin.</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg117">Herr Kollege, im Bericht der Arbeitsgruppe „In-vitro-Fertilisation: Genomanalyse und Gentherapie" wird festgestellt, daß artspezifisches menschliches Leben vom Zeitpunkt der Vereinigung von Ei- und Samenzelle unter dem Schutz des Grundgesetzes steht. Die Bundesregierung prüft unter der Federführung des Bundesministers der Justiz, welche Konsequenzen sich daraus für den Lebensschutz des ungeborenen Menschen ergeben. Sie wird zu gegebener Zeit ihre Vorstellungen dazu darlegen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg118">Eine Zusatzfrage, Herr Abgeordneter Werner.</seg>
+        </u>
+        <note type="speaker">Werner (Ulm) (CDU/CSU):</note>
+        <u who="#Q1522503" xml:id="ParlaMint-DE_1986-01-29-10-193.u101" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg119">Frau Staatssekretärin, geht die Bundesregierung bei dieser Prüfung davon aus, daß diese Schutzwürdigkeit prinzipiell von allem Anfang an besteht, oder gibt es in der Bundesregierung irgendwo im Hinblick auf diese prinzipielle Schutzwürdigkeit von Anfang an Zweifel?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u102" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg120">Erstens gibt es solche Aussagen nicht, und zweitens dürfen Sie sicher sein, Herr Kollege, daß alles geprüft wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u103" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg121">Eine weitere Zusatzfrage, bitte schön.</seg>
+        </u>
+        <note type="speaker">Werner (Ulm) (CDU/CSU):</note>
+        <u who="#Q1522503" xml:id="ParlaMint-DE_1986-01-29-10-193.u104" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg122">Ich möchte Sie dann fragen, ob sich nicht — auch vor dem Hintergrund der Bereitschaft der Bundesregierung, diese Prüfung durchzuführen — generell die Notwendigkeit ergibt — etwa im Rahmen von § 218 StGB — den Zeitpunkt der prinzipiellen Schutzwürdigkeit vor den Zeitpunkt des Abschlusses der Nidation zu legen?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u105" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg123">Herr Kollege, bevor ich dazu eine Aussage mache, möchte ich erst die abschließende Beratung innerhalb des Kabinetts abwarten, um diese hier zur Grundlage zu machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u106" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg124">Frau Abgeordnete Weyel, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Frau Weyel (SPD):</note>
+        <u who="#Q1553160" xml:id="ParlaMint-DE_1986-01-29-10-193.u107" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg125">Frau Staatssekretärin, halten auch Sie den im Zusammenhang mit der Entwicklung neuer Technologien gebrauchten Ausdruck „Reproduktionstechnologie" für zutiefst unmenschlich und eigentlich in einer Form gebraucht, die dieser Sache nicht gemäß ist?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u108" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg126">Ich möchte Ihnen dazu ein klares Ja sagen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u109" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg127">Frau Abgeordnete Blunck.</seg>
+        </u>
+        <note type="speaker">Frau Blunck (SPD):</note>
+        <u who="#Q1824295" xml:id="ParlaMint-DE_1986-01-29-10-193.u110" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg128">Frau Staatssekretärin, Sie zitierten gerade eben die Benda-Kommission. Darf ich fragen, ob ich richtig informiert bin, daß in dieser Benda-Kommission trotz der Anerkennung der Tatsache, daß das menschliche Leben von der Vereinigung von Eizelle und Samen an existiert, gleichzeitig gesagt worden ist, daß aus anderweitiger Interessenlage sehr wohl Experimente mit Embryonen gemacht werden dürften.</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u111" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg129">Unter der Voraussetzung, daß ganz strenge Grenzen gesetzt werden, ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u112" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg130">Herr Abgeordneter Vogel.</seg>
+        </u>
+        <note type="speaker">Vogel (München) (GRÜNE):</note>
+        <u who="#Q792395" xml:id="ParlaMint-DE_1986-01-29-10-193.u113" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg131">Frau Staatssekretärin, sind Sie der Auffassung, daß ein befruchtetes Ei in einem Reagenzglas ein ungeborener Mensch ist? Und falls es sich da nach Ihrer Meinung um einen ungeborenen Menschen handelt: Sind Sie der Auffassung, daß da Grenzen zu ziehen sind — das haben Sie ja gesagt — und wo da die Grenzen liegen für irgendwelche Manipulationen, Versuche usw., die man damit durchführen darf?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u114" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg132">Ich habe Ihnen gesagt, daß in der Kommission sehr enge Grenzen gesetzt werden. Im übrigen bin ich persönlich der Meinung, daß hier auch die Menschenwürde zu bedenken ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg133">Frau Abgeordnete Schmidt (Nürnberg).</seg>
+        </u>
+        <note type="speaker">Frau Schmidt (Nürnberg) (SPD):</note>
+        <u who="#Q69677" xml:id="ParlaMint-DE_1986-01-29-10-193.u116" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg134">Frau Staatssekretärin, welche Grenzen stellen Sie bzw. stellt die Bundesregierung sich dabei konkret vor?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg135">Frau Kollegin Schmidt, ich habe eben auf die erste Frage des Kollegen Werner gesagt, daß wir im Prüfvorgang sind. Erst wenn die Prüfung abgeschlossen ist und das Ergebnis da ist, bin ich bzw. ist der zuständige Minister für Justiz in der Lage, hier eine abschließende Meinung darzulegen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg136">Danke schön. — Ich rufe die Frage 13 des Abgeordneten Werner (Ulm)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg137">auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg138">Ist die Bundesregierung der Auffassung, daß das Verbot der Tötung auf Verlangen eine Insel der Inhumanität in unserer Rechtsordnung ist?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u119" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg139">Herr Kollege Werner, die Bundesregierung teilt diese Auffassung nicht. Im Gegenteil, das Verbot der Tötung auf Verlangen ist Ausdruck der Achtung vor der Würde des Menschen. Es bewahrt den Sterbenden vor der Verfügbarkeit durch Dritte. Kein Mensch kann und darf über das Leben eines anderen Menschen verfügen. Ebensowenig ist der Sterbende selbst in der Lage, einem Dritten die Befugnis zum Töten zu verleihen. Mit Recht hat der Bundesminister der Justiz kürzlich in einem Interview darauf hingewiesen, daß auch keinem Menschen zugemutet werden sollte, einen anderen vorsätzlich zu töten. Darüber hinaus bestehe die Gefahr, daß sich mancher Sterbende moralisch verpflichtet fühlen könnte, seinen eigenen Tod zu erbitten, um den Angehörigen nicht mehr zur Last zu fallen. Vor einer solchen Situation sollte der Sterbende auf jeden Fall bewahrt werden. Der Verzicht auf die aktive Sterbehilfe bedeutet andererseits aber auch nicht einen Akt der Inhumanität. Denn kein Arzt ist verpflichtet, das Leiden eines Sterbenden künstlich durch Einsatz aller Mittel — insbesondere der Intensivmedizin — zu verlängern. Wegen näherer Einzelheiten darf ich auf die Richtlinien für die Sterbehilfe der Bundesärztekammer verweisen (Deutsches Ärzteblatt, Heft 14 vom 5. April 1979, Seite 957 ff.).</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u120" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg140">Zu einer Zusatzfrage Herr Abgeordneter Werner.</seg>
+        </u>
+        <note type="speaker">Werner (Ulm) (CDU/CSU):</note>
+        <u who="#Q1522503" xml:id="ParlaMint-DE_1986-01-29-10-193.u121" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg141">Bevor ich die folgende Frage stelle, möchte ich Ihnen für diese ausführliche Beantwortung ausdrücklich danken. Ich möchte Sie fragen: Hat die Bundesregierung vor, gemeinsam mit den ärztlichen Standesorganisationen eine Regelung herbeizuführen, die es in Zukunft vereitelt, daß sich etwa Ärzte auch noch zwecks Durchführung derartiger aktiver Sterbehilfe öffentlich ohne jegliche Retorsion direkter Art darbieten können?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u122" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg142">Herr Kollege, Sie dürfen sicher sein, daß die Bundesregierung zusammen mit den zuständigen Standesorganisationen alles tun wird, hier einen Riegel vorzuschieben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg143">Eine weitere Zusatzfrage, bitte sehr, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Werner (Ulm) (CDU/CSU):</note>
+        <u who="#Q1522503" xml:id="ParlaMint-DE_1986-01-29-10-193.u124" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg144">Heißt dies auch, daß die Bundesregierung gegebenenfalls bereit ist, mit den Standesorganisationen darauf hinzuwirken, daß die Frage der Zulassung oder der Weitergeltung der Zulassung derartiger Ärzte unmittelbar mit deren Verhalten zu verknüpfen ist?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u125" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg145">Ein Gespräch ist ja immer dafür da, Klärungen herbeizuführen. Wir werden nichts außer acht lassen, das einer Klärung bedarf.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u126" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg146">Frau Abgeordnete Blunck.</seg>
+        </u>
+        <note type="speaker">Frau Blunck (SPD):</note>
+        <u who="#Q1824295" xml:id="ParlaMint-DE_1986-01-29-10-193.u127" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg147">Frau Staatssekretärin, dies ist j a ein sehr sensibles Gebiet. Ich möchte Sie fragen, ob Sie sich eine Situation vorstellen können, in der es für den Sterbenden, den Todkranken, den Kranken, der schwerste Schmerzen zu erleiden hat, eine Erleichterung wäre, wenn ihm der Arzt eine Hilfestellung zu dem von ihm gewünschten schnellen und schmerzlosen Tod geben könnte, und können Sie sich vorstellen — da Sie vorhin hinsichtlich der Anwendung von Intensivmethoden gesagt haben, dies müsse der Arzt nicht —, daß der Arzt in einen Konflikt gerät, weil er letztendlich ein ökonomisches Interesse daran haben kann, diese Intensivmethoden am Kranken anzuwenden?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Daweke [CDU/CSU]: Schlimm!</desc>
+        </vocal>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u128" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg148">Vorstellen kann ich mir alles; letzteres kann ich mir nur wenig vorstellen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Daweke [CDU/CSU]: Sehr gut!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u129" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg149">Ich rufe Frage 14 der Abgeordneten Frau Dr. Lepsius auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg150">Teilt die Bundesregierung die Auffassung der Landesregierung Baden-Württemberg (Richtlinien des Ministeriums für Arbeit, Gesundheit, Familie und Sozialordnung über die Beratung werdender Mütter gemäß § 218 b Abs. 1 Nr. 1 StGB vom 9. Dezember 1985, Nr. V/4-7443) , nach der eine Beratung nach § 218b StGB „in jedem Fall dem Schutz des ungeborenen Lebens dienen" muß und „eine Beratung, in welcher der werdenden Mutter der Schwangerschaftsabbruch empfohlen oder vermittelt wird, verfassungswidrig und daher unzulässig ist", und wird durch die Androhung der Verfassungswidrigkeit das durch den Gesetzgeber gewollte und durch die Rechtsprechung des Bundesverfassungsgerichts bestätigte geltende Recht nicht ausgehöhlt?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg151">Frau Kollegin Lepsius, ich wäre Ihnen dankbar, wenn Sie zustimmen würden, daß ich Ihre beiden Fragen im Zusammenhang beantworte.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Frau Dr. Lepsius [SPD]: Ja!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg152">Dann rufe ich auch Frage 15 der Abgeordneten Frau Dr. Lepsius auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg153">Wie sind Meinungsäußerungen des Bundesministers für Jugend, Familie und Gesundheit und des Bundesministers der Justiz gegen eine direkte oder indirekte Aushöhlung des geltenden § 218 StGB zu verstehen, wenn gleichzeitig die Beachtung neuer Richtlinien als Voraussetzung für den Fortbestand der Anerkennung als Beratungsstelle und die Gewährung von Landeszuschüssen vorgeschrieben wird, und kann eine objektive, alle Konflikt- und Notlagen berücksichtigende Beratung unter derart einseitigen Vorgaben überhaupt noch als qualifizierte Beratung zur Entscheidungsfindung bezeichnet werden?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u132" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg154">Nach § 218 b des Strafgesetzbuchs muß die Schwangere über die zur Verfügung stehenden öffentlichen und privaten Hilfen für Schwangere, Mütter und Kinder beraten werden, insbesondere über solche Hilfen, die die Fortsetzung der Schwangerschaft und die Lage von Mutter und Kind erleichtern. Damit ist Zielsetzung der im Gesetz vorgeschriebenen Beratung eindeutig, den Schutz des ungeborenen Lebens zu verbessern. Das war und ist Auffassung der Bundesregierung. So erklärte der Bundesminister der Justiz am 15. September 1974 gegenüber dem Bundesverfassungsgericht — ich zitiere —:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg155">Der Gesetzgeber hat Zweck und Gegenstand der Beratung sachgerecht festgelegt. Unzweideutig ist insbesondere, daß die Beratung auf Fortsetzung der Schwangerschaft ausgerichtet sein muß. Das Bundesverfassungsgericht stellt in seinem Urteil vom 25. Februar 1975 fest — ich zitiere —:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg156">Ob die neutrale Umschreibung der Aufgabe der Beratungsstellen darauf zurückzuführen ist, daß im Sonderausschuß für die Strafrechtsreform die Meinung vertreten wurde, die Schwangere solle durch die Beratung nicht in ihrem Entschluß beeinflußt werden, ... kann offen bleiben. Auf eine solche Einflußnahme kommt es jedenfalls entscheidend an, wenn der Beratung ein Schutzeffekt zugunsten des werdenden Lebens zukommen soll. Für die Ausgestaltung der Beratung im Sinne dieser Vorgaben sind die Länder zuständig. Die Bundesregierung begrüßt es, daß die Länder auf Grund der zwischenzeitlichen Entwicklung prüfen, inwieweit die derzeitige Beratungspraxis noch den Intentionen des Gesetzes gerecht wird, denn die Bundesregierung ist selbstverständlich für eine Sicherung der Beratung im Sinne des geltenden Rechts.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u133" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg157">Eine Zusatzfrage, Frau Dr. Lepsius, bitte schön.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Lepsius (SPD):</note>
+        <u who="#Q1432067" xml:id="ParlaMint-DE_1986-01-29-10-193.u134" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg158">Frau Staatssekretärin, in dem Urteil des Bundesverfassungsgerichts ist insbesondere darauf abgestellt worden, daß der Gesetzgeber präventive Maßnahmen ergreifen soll. Mittelpunkt dieser präventiven Maßnahmen ist die Beratung, die ja durch das Strafrechtsergänzungsgesetz in der Tat ein Kernbestand der gesamten Strafrechtsreform gewesen ist. Welches sind nach Auffassung der Bundesregierung nun aber die gesetzlichen Grundlagen für die Ausführungsbestimmungen des baden-württembergischen Ministeriums für Arbeit, Gesundheit, Familie und Sozialordnung in den Richtlinien, wonach eine Vermittlung von Adressen auch über Krankenhäuser, die einen Schwangerschaftsabbruch durchführen, verfassungswidrig sind?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u135" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg159">Frau Kollegin Lepsius, es geht in erster Linie um den Schutz des ungeborenen Kindes. Da die Länder die federführende Aufsichtsbehörde sind, haben sie auch dafür Sorge zu tragen, daß das Recht eingehalten wird, und insofern auch die Zuständigkeit.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u136" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg160">Weitere Zusatzfrage, Frau Dr. Lepsius.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Lepsius (SPD):</note>
+        <u who="#Q1432067" xml:id="ParlaMint-DE_1986-01-29-10-193.u137" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg161">Frau Staatssekretärin, teilt die Bundesregierung die Auffassung, daß der Begriff der Beratung im Sinne des Gesetzes, auch nach Meinung des Bundesverfassungsgerichtes, ausschließt, eine manipulative Beeinflussung von ratsuchenden Frauen durchzusetzen, sondern im Gegenteil zum Inhalt hat, den schwangeren Frauen in ihrer eigenen Entscheidung zu helfen, und wie will sie das sicherstellen?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u138" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg162">Die Beratung muß so erfolgen, daß sie dem Ziel entspricht, nämlich der Erhaltung von Leben. Insofern glaube ich nicht, daß hier der manipulative Charakter die Grundlage bilden sollte oder kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg163">Weitere Zusatzfrage, Frau Dr. Lepsius.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Lepsius (SPD):</note>
+        <u who="#Q1432067" xml:id="ParlaMint-DE_1986-01-29-10-193.u140" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg164">Frau Staatssekretärin, hat die Bundesregierung die Absicht, die Zielsetzung der Richtlinien aus Baden-Württemberg in eigene Initiativen umzusetzen, wie etwa durch die Ankündigung des ehemaligen Familienministers Geißler deutlich geworden ist?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg165">Die Bundesregierung hat immer wieder deutlich gemacht, daß sie sich auf der Grundlage geltenden Rechts bewegt und daher alles tun muß, daß Mißbrauchstatbestände nicht weiter Maßstab des Handelns sein können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg166">Ihre letzte Zusatzfrage, Frau Dr. Lepsius.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Lepsius (SPD):</note>
+        <u who="#Q1432067" xml:id="ParlaMint-DE_1986-01-29-10-193.u143" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg167">Frau Staatssekretärin, Frau Minister Süssmuth hat immer wieder deutlich gemacht, daß sie eine Aushöhlung der Reform des § 218 und der ergänzenden Maßnahmen verhindern wird. Wie bewerten Sie vor dem Hintergrund eines in einem Begleitschreiben angekündigten verfassungswidrigen Verhaltens von Beratungsstellen die Aussage der Frau Minister nach einer Meldung der „Süddeutschen Zeitung" vom 25. November 1985? Es heißt dort:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg168">Frau Süssmuth bekräftigte ihre Auffassung, daß die letzte Gewissensentscheidung über die Abtreibung bei der Frau liege. Dann wird Frau Minister Süssmuth wörtlich zitiert: „Und ich muß auch die Gewissensentscheidung einer Frau oder eines Paares tragen, selbst wenn sie der meinigen entgegensteht." Würde diese Aussage nicht durch das Verfassungsgerichtsurteil von 1975, das die Fristenregelung außer Kraft gesetzt hat, als verfassungswidrig zu kennzeichnen sein?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u144" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg169">Frau Kollegin Lepsius, dieser Meinung bin ich nicht. Wenn es so ist, wie Sie aus einer Zeitung zitieren — ich habe das nicht gelesen, ich habe es auch nicht von der Frau Kollegin Süssmuth gehört —, dann ist das höchstens so zu bewerten, daß es sich hier um eine moralische Frage handelt, sich aber nicht auf den Tatbestand geltenden Rechts bezieht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u145" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg170">Zusatzfrage, Frau Abgeordnete Augustin.</seg>
+        </u>
+        <note type="speaker">Frau Augustin (CDU/CSU):</note>
+        <u who="#Q566133" xml:id="ParlaMint-DE_1986-01-29-10-193.u146" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg171">Frau Staatssekretärin, trifft es zu, daß es Beratungsstellen nach § 218b des Strafgesetzbuches gibt, bei denen das Ergebnis der Beratung überdurchschnittlich oft den Rat zum Abbruch der Schwangerschaft beinhaltet, und, falls es hierüber keine Erkenntnisse gibt, gibt es die Möglichkeit, solche Erkenntnisse einzuholen?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg172">Frau Kollegin Augustin, das kann im Einzelfall mit der Zusammensetzung der Klientel zusammenhängen. Daher kann es im Einzelfall durchaus so sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg173">Zusatzfrage der Abgeordneten Frau Schmidt (Nürnberg).</seg>
+        </u>
+        <note type="speaker">Frau Schmidt (Nürnberg) (SPD):</note>
+        <u who="#Q69677" xml:id="ParlaMint-DE_1986-01-29-10-193.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg174">Frau Staatssekretärin, es versteht sich ja wohl von selbst, daß alle Beratungsstellen — sie haben das immer wieder betont — im Sinne des Lebens von Mutter und Kind beraten. Deshalb frage ich Sie: Wie kann man sich denn eine Kontrolle der Beratungsstellen und derartiger Gespräche vorstellen? Was beabsichtigt denn Ihrer Erkenntnis nach die baden-württembergische Landesregierung? Wie könnten Sie sich so eine Kontrolle auf Bundesebene vorstellen?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u150" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg175">Ich habe eben ausgeführt, daß die Kontrolle auf Bundesebene gar nicht gegeben ist, weil wir keine Zuständigkeit haben. Entsprechend muß die Kontrolle durch die Länder durchgeführt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u151" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg176">Eine weitere Zusatzfrage der Frau Abgeordneten Schmidt (Nürnberg).</seg>
+        </u>
+        <note type="speaker">Frau Schmidt (Nürnberg) (SPD):</note>
+        <u who="#Q69677" xml:id="ParlaMint-DE_1986-01-29-10-193.u152" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg177">Um noch einmal konkret zu werden: Wie könnte eine Kontrolle solcher Beratungsgespräche durch die Landesbehörden aussehen?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u153" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg178">Die Landesbehörden greifen im Einzelfall ja nur ein, wenn offensichtlich ein Mißbrauch gegeben ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u154" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg179">Eine Zusatzfrage des Abgeordneten Werner (Ulm).</seg>
+        </u>
+        <note type="speaker">Werner (Ulm) (CDU/CSU):</note>
+        <u who="#Q1522503" xml:id="ParlaMint-DE_1986-01-29-10-193.u155" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg180">Frau Staatssekretärin, entspricht es nicht dem Sinn und auch dem Wortlaut des zur Zeit existierenden Strafgesetzes, wenn die Landesregierung von Baden-Württemberg auf dem hier von Kolleginnen kritisierten Weg vorgeht und sowohl zeitlich als auch räumlich und personell Trennungen bezüglich der Berater vornimmt, um damit den Schutz des ungeborenen Kindes zu erhöhen?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u156" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg181">Ja, Herr Kollege, das ist ein möglicher Weg, dem geltenden Recht zu entsprechen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u157" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg182">Eine weitere Zusatzfrage. Bitte sehr, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Werner (Ulm) (CDU/CSU):</note>
+        <u who="#Q1522503" xml:id="ParlaMint-DE_1986-01-29-10-193.u158" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg183">Frau Staatssekretärin, entspricht eine derartig umfassend durchgeführte Prüfung, die sich gleichwohl im Rahmen des bestehenden Gesetzes hält, nicht auch dem Erfordernis, daß die zulässigen Indikationen bezüglich ihrer Schwere vergleichbar sein müssen, um damit eben sicherzustellen, daß nicht mehr oder weniger leichtfertig zu Abbrüchen geraten wird?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u159" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg184">Ja, Herr Kollege, das ist so.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u160" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg185">Frau Abgeordnete Weyel, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Frau Weyel (SPD):</note>
+        <u who="#Q1553160" xml:id="ParlaMint-DE_1986-01-29-10-193.u161" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg186">Frau Staatssekretärin, wie vereinbaren Sie die gesetzliche Bestimmung, daß indikationsfeststellender Arzt und abbrechender Arzt verschiedene Personen sein müssen, mit der weitergehenden Bestimmung in Baden-Württemberg, daß auch der indikationsfeststellende Arzt und der beratende Arzt verschiedene Personen sein müssen?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u162" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg187">Das ist damit zu begründen, daß es ein unterschiedliches Informationsbedürfnis geben kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u163" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg188">Eine weitere Zusatzfrage, bitte schön.</seg>
+        </u>
+        <note type="speaker">Frau Weyel (SPD):</note>
+        <u who="#Q1553160" xml:id="ParlaMint-DE_1986-01-29-10-193.u164" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg189">Frau Staatssekretärin, angesichts der zeitlichen Begrenzung der Möglichkeiten eines Abbruchs frage ich Sie: Sehen Sie bei einer solchen Erschwerung des Weges — Einschaltung von drei Ärzten — nicht die Gefahr, daß Frauen dann unter Umständen das legale Verfahren ganz umgehen und damit der Sinn des Gesetzes, daß den Frauen Beratung und Hilfe zuteil wird, verlorengeht?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u165" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg190">Frau Kollegin Weyel, der Lebensschutz des noch nicht geborenen Kindes ist hier höher zu bewerten als mögliche Erschwernisse, die die betroffene Frau in eine solche Situation bringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u166" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg191">Frau Abgeordnete Blunck.</seg>
+        </u>
+        <note type="speaker">Frau Blunck (SPD):</note>
+        <u who="#Q1824295" xml:id="ParlaMint-DE_1986-01-29-10-193.u167" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg192">Unter dem Eindruck der Antwort, die Sie auf die Frage meiner Kollegin Schmidt gegeben haben, möchte ich eine Frage an Sie richten, Frau Karwatzki. Sie sprachen von der unterschiedlichen Klientel, die in die Beratungsstellen kommt, und Sie sprachen von einem Mißbrauch. Ich hätte an Sie jetzt die Frage: Wie definieren Sie „Mißbrauch", und wie wird er festgestellt?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u168" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg193">Frau Kollegin Blunck, zunächst möchte ich sagen, daß ich nicht im Zusammenhang mit der Frage der Frau Kollegin Schmidt, sondern im Zusammenhang mit der Frage der Frau Kollegin Augustin von der unterschiedlichen Klientel gesprochen habe. Ich sage dies nur, damit alles geklärt ist. Nun zu Ihrer Frage selbst, die sich auf den Mißbrauchstatbestand bezieht. Wenn z. B. überhaupt nicht für das Leben beraten wird, sondern selbstverständlich ein Schein ausgestellt wird, so wird eben nicht gesetzesgemäß beraten, sondern es liegt ein Mißbrauch vor.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u169" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg194">Die Länge der Frage von Frau Dr. Lepsius läßt es etwas schwierig erscheinen, immer festzustellen, ob der Sachzusammenhang wirklich noch gegeben ist. Ich bitte, die Angelegenheit möglichst konzentriert zu behandeln. Frau Abgeordnete Blunck, wenn Sie wünschen, können Sie noch eine Zusatzfrage stellen.</seg>
+        </u>
+        <note type="speaker">Frau Blunck (SPD):</note>
+        <u who="#Q1824295" xml:id="ParlaMint-DE_1986-01-29-10-193.u170" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg195">Was ist nach Ansicht der Bundesregierung die gesetzliche Grundlage für die Richtlinienbestimmung, daß nur durch besondere Sachkunde ausgewiesene Ärzte eine Beratung schwangerer Frauen vornehmen dürfen, und wie bewertet die Bundesregierung in diesem Zusammenhang die Äußerung des Ärztekammerpräsidenten Vilmar, daß dadurch eine Verschiebung des Konflikts auf den Arzt stattfinde?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u171" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg196">Also, ich glaube nicht, daß dadurch eine Verschiebung des Konflikts auf den Arzt stattfindet. Aber ich könnte mir schon vorstellen, daß besondere Sachkunde darin begründet ist, daß hier z. B. vorrangig die Fachmediziner, die Gynäkologen, zum Zuge kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u172" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg197">Danke schön. — Nun kommt der Abgeordnete Peter (Kassel).</seg>
+        </u>
+        <note type="speaker">Peter (Kassel) (SPD):</note>
+        <u who="#Q1629785" xml:id="ParlaMint-DE_1986-01-29-10-193.u173" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg198">Frau Staatssekretärin, wie wird sich die Bundesregierung verhalten, wenn die Ausführungsrichtlinien des Landes Baden-Württemberg in einigen Fragen — was offensichtlich ist — nicht die gesetzliche Abdeckung durch das Strafgesetzbuch finden?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Daweke [CDU/CSU]: Die haben sie aber!</desc>
+        </vocal>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u174" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg199">Die Bundesregierung sieht das nicht so. Aber sollte es der Fall sein, daß hier geltendes Recht verletzt wird, dann wird natürlich gehandelt.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Daweke [CDU/CSU]: Natürlich, aber so ist es ja nicht!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u175" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg200">Eine weitere Zusatzfrage wird nicht gewünscht. Dann können wir diese Frage abschließen. Die Fragen 16 und 17 des Abgeordneten Zander werden auf Wunsch des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe nunmehr die Frage 18 des Abgeordneten Löffler auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg201">Welche Maßnahmen gedenkt die Bundesregierung angesichts der Kosten für die Behandlung von Karies in Höhe von etwa 2 Milliarden DM zu ergreifen oder zu unterstützen, mit denen auf die Schädlichkeit des Zuckergenusses für die Zähne hingewiesen wird? Frau Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u176" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg202">Herr Kollege Löffler, es sind nicht nur die Kosten für die Behandlung kariöser Zähne und für den durch Karies notwendigen Zahnersatz, die mit 2 Milliarden DM eher zu niedrig geschätzt sind, die der Bundesregierung Sorgen bereiten. Ernster noch als den volkswirtschaftlichen Schaden schätzt sie die Einbuße an Gesundheit ein, die durch kariöse Zähne und nicht mehr kaufähige Gebisse oft bereits bei jungen Menschen entsteht. Um der Karies, die oft schon erhebliche Schäden im Milchgebiß mit nachfolgenden Anomalien im bleibenden Gebiß setzt, entgegenzuwirken, sind folgende Maßnahmen wichtig: a) eine sachgerechte Mundhygiene, b)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg203">gesundheitliche Überwachung der Kinder und Jugendlichen, c) eine angemessene Fluoridierung.</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg204">Alle genannten Maßnahmen sind auf wirkungsvolle Gesundheitserziehung und Aufklärung angewiesen. Im Hinblick auf den Zuckerkonsum geht es um Fragen der Menge, der Art und Weise und des Zeitpunkts. Die Bundeszentrale für gesundheitliche Aufklärung hat Materialien auch zu dieser Thematik entwickelt und verteilt. Sie wird in Arbeitsteilung mit dem öffentlichen Gesundheitsdienst und den Landesarbeitsgemeinschaften mit Zahnärzten, Kassen und anderen tätig, die hier eigene Schwerpunkte gebildet haben. Die Bundesregierung ist, zum Teil über die Bundeszentrale für gesundheitliche Aufklärung, an den entsprechenden Abstimmungen beteiligt und unterstützt vorteilhafte Aktivitäten nach Kräften.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u177" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg205">Zusatzfrage, Herr Abgeordneter Löffler? — Bitte.</seg>
+        </u>
+        <note type="speaker">Löffler (SPD):</note>
+        <u who="#Q1647066" xml:id="ParlaMint-DE_1986-01-29-10-193.u178" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg206">Frau Staatssekretärin, wie beurteilt die Bundesregierung die Möglichkeit, die Gefährdung der Zahngesundheit durch Karies durch Angabe des Zuckergehalts auf abgepackten Süßwaren einzudämmen?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u179" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg207">Herr Kollege Löffler, das kann ich so nicht sagen. Ich sage Ihnen Überprüfung zu und werde Sie dann von dem Prüfergebnis in Kenntnis setzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u180" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg208">Weitere Zusatzfrage? — Bitte.</seg>
+        </u>
+        <note type="speaker">Löffler (SPD):</note>
+        <u who="#Q1647066" xml:id="ParlaMint-DE_1986-01-29-10-193.u181" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg209">Erwägt die Bundesregierung ein Forschungsvorhaben, durch das die bisher vorhandenen Erkenntnisse über die Zusammenhänge zwischen Zuckerkonsum und Kariesbefall erweitert, bestätigt oder revidiert werden könnten?</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u182" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg210">Herr Kollege Löffler, soweit es solche Forschungsvorhaben noch nicht gibt, sage ich Ihnen auch hier Prüfung zu. Ich persönlich werde einem solchen Forschungsvorhaben sehr bereitwillig zustimmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u183" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg211">Abgeordneter Rusche, eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Rusche (GRÜNE):</note>
+        <u who="#Q98746" xml:id="ParlaMint-DE_1986-01-29-10-193.u184" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg212">Frau Staatssekretärin, wäre die Bundesregierung in diesem Zusammenhang bereit, über die Schädlichkeit von isolierten Kohlehydraten im allgemeinen aufzuklären?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Daweke [CDU/CSU]: Was ist das denn?</desc>
+        </vocal>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u185" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg213">Soweit mir bekannt ist, wird das getan.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u186" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg214">Ich rufe die Frage 19 des Abgeordneten Löffler auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg215">Wie beurteilt die Bundesregierung eine mögliche gesetzliche Verpflichtung der Krankenkassen, über die Auswirkungen des Zuckergenusses auf die Zähne aufzuklären? Frau Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Frau Karwatzki, Parl. Staatssekretär:</note>
+        <u who="#Q125431" xml:id="ParlaMint-DE_1986-01-29-10-193.u187" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg216">Herr Kollege Löffler, die Reichsversicherungsordnung erlaubt den Krankenkassen bereits heute, über die schädlichen Auswirkungen des Zuckergenusses auf die Zähne aufzuklären. Einer zusätzlichen gesetzlichen Verpflichtung der Krankenkassen bedarf es daher nicht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u188" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg217">Keine Zusatzfrage mehr. Dann darf ich diesen Bereich schließen. Frau Staatssekretär, wir bedanken uns für Ihre Mühewaltung. Wir kommen zum Geschäftsbereich des Bundesministers für Verkehr. Zur Beantwortung der Fragen steht uns der Herr Parlamentarische Staatssekretär Dr. Schulte zur Verfügung. Ich rufe die Frage 20 des Herrn Abgeordneten Dr. Weng auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg218">Ist die Bundesregierung mit mir der Meinung, daß die Hotelbaupläne der Deutschen Bundesbahn (DB)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg219">der politischen Zielsetzung „Privatisierung" zuwiderlaufen, und was wird sie tun, um die DB zu bewegen, ihren Hotelbettenbedarf in Kooperation mit Selbständigen und nicht durch Eigenbauten zu decken? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Schulte, Parl. Staatssekretär beim Bundesminister für Verkehr:</note>
+        <u who="#Q1222818" xml:id="ParlaMint-DE_1986-01-29-10-193.u189" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg220">Herr Kollege Weng, die Deutsche Bundesbahn beschränkt sich auf die Bereitstellung geeigneter Grundstücke. Hotelplanung, Finanzierung und Betriebsführung überläßt sie fachlich geeigneten Unternehmen, deren Auswahl nach Wettbewerbsgesichtspunkten erfolgt. Über die Pläne der Deutschen Bundesbahn gab es eine Reihe von Falschmeldungen und dementsprechend viel unbegründete Unruhe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u190" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg221">Zusatzfrage, Herr Dr. Weng, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Weng (Gerlingen) (FDP):</note>
+        <u who="#Q1780158" xml:id="ParlaMint-DE_1986-01-29-10-193.u191" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg222">Herr Staatssekretär, sind Sie der Auffassung, daß der Intention „Privatisierung" der Bundesregierung dann Rechnung getragen wird, wenn die Bundesbahn eigene Hotels an die DSG verpachtet und das als eine Abgabe in die Privatwirtschaft definiert?</seg>
+        </u>
+        <note type="speaker">Dr. Schulte, Parl. Staatssekretär:</note>
+        <u who="#Q1222818" xml:id="ParlaMint-DE_1986-01-29-10-193.u192" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg223">Ich habe gerade gesagt, Herr Kollege Weng, daß die Auswahl der Pächter nach Wettbewerbsgesichtspunkten erfolgt. Würde die DSG von Zuschüssen des Bundes leben, wäre dies ganz gewiß eine falsche Subventionierung eines mittelbar staatlichen Unternehmens. Da die DSG im Wettbewerb steht, sehe ich diese Frage anders. Darüber hinaus wurden vom Vorstand der Deutschen Bundesbahn Gespräche im Dezember letzten Jahres mit dem DEHOGA geführt. Dabei konnten eine ganze Reihe von Punkten der Kritik ausgeräumt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u193" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg224">Weitere Zusatzfrage, Herr Dr. Weng.</seg>
+        </u>
+        <note type="speaker">Dr. Weng (Gerlingen) (FDP):</note>
+        <u who="#Q1780158" xml:id="ParlaMint-DE_1986-01-29-10-193.u194" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg225">Herr Staatssekretär, sind Sie mit mir der Meinung, daß es sinnvoller gewesen wäre, wenn die Deutsche Bundesbahn ihre Leistungen ausgeschrieben und damit auf überall vorhandene Bettenkapazitäten einen positiven Belegungseinfluß ausgeübt hätte, anstatt durch eine staatlich verursachte Bettenvermehrung in Konsequenz örtlich Überangebote und Marktverzerrungen hervorzurufen?</seg>
+        </u>
+        <note type="speaker">Dr. Schulte, Parl. Staatssekretär:</note>
+        <u who="#Q1222818" xml:id="ParlaMint-DE_1986-01-29-10-193.u195" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg226">Für die Zukunft ist sichergestellt, daß eine Vergabe nach Wettbewerbsgesichtspunkten stattfindet. Auch diesem Zweck haben die Gespräche mit dem DEHOGA gedient. Ich gehe auch davon aus, daß in der Zukunft der Markt darüber entscheiden wird, wer in ein solches Projekt einsteigt. Ich gehe davon aus, daß Private ihr Geld nicht dort ausgeben, wo bereits eine Überkapazität besteht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u196" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg227">Weitere Zusatzfragen werden nicht gewünscht. Die Frage 21 des Abgeordneten Dr. Jobst ist zurückgezogen worden. Die Frage 22 des Abgeordneten Böhm (Melsungen)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg228">wird auf dessen Wunsch schriftlich beantwortet. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 23 des Abgeordneten Dr. Schierholz auf. Wenn ich es richtig sehe, ist er nicht im Saal. — Wir verfahren in der in der Geschäftsordnung vorgesehenen Weise. Damit sind die Fragen aus Ihrem Geschäftsbereich, Herr Staatssekretär, schon beantwortet. Wir bedanken uns bei Ihnen. Wir kommen zum Geschäftsbereich des Bundesministers für Raumordnung, Bauwesen und Städtebau. Zur Beantwortung der Fragen steht uns der Parlamentarische Staatssekretär Dr. Jahn zur Verfügung. Ich rufe die Frage 24 des Abgeordneten Daweke auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg229">Wie beurteilt die Bundesregierung den Verteilerschlüssel der für 1986/87 aufgestockten Städtebauförderungsmittel im Land Nordrhein-Westfalen, und wie ist dieser Schlüssel im Vergleich zu anderen Bundesländern gestaltet? Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär beim Bundesminister für Raumordnung, Bauwesen und Städtebau:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1986-01-29-10-193.u197" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg230">Herr Kollege Daweke, die Bundesregierung gibt den Ländern ihre Finanzhilfen im Bereich der Städtebauförderung nach Art. 104 Abs. 4 des Grundgesetzes für städtebauliche Sanierungs- und Entwicklungsmaßnahmen nach dem Städtebauförderungsgesetz. Die Aufteilung der Städtebauförderungsmittel im Verhältnis Land — Gemeinde und die Verteilung innerhalb des Landes liegen in der alleinigen Zuständigkeit der Landesregierungen. Die Länder haben dabei auch die sachlichen und raumordnerischen Schwerpunkte in Sinne von § 71 des Städtebauförderungsgesetzes festzulegen. Das Land Nordrhein-Westfalen hat neun Auswahl- und Verteilungskriterien aufgestellt und diese am 3. Dezember 1985 veröffentlicht. Ich bin gerne bereit, Ihnen den umfassenden Katalog zur Verfügung zu stellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u198" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg231">Zusatzfrage, Herr Abgeordneter Daweke, bitte schön.</seg>
+        </u>
+        <note type="speaker">Daweke (CDU/CSU):</note>
+        <u who="#Q1744975" xml:id="ParlaMint-DE_1986-01-29-10-193.u199" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg232">Herr Kollege Dr. Jahn, können Sie bestätigen, daß in Nordrhein-Westfalen der Gemeindeanteil von 20 % dazu führt, daß die bisher zur Verfügung stehenden Mittel reduziert werden und dadurch der Investitionsschub, von dem wir alle ausgegangen sind, hier geringer ist, eben weil sich hier das Gesamtvolumen verringert hat?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1986-01-29-10-193.u200" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg233">Herr Kollege Daweke, die Gemeinden sind ermächtigt, auch von diesem Schlüssel, 20 %, abzuweichen; denn es steht in der Zuständigkeit eines jeweiligen Landes, in bezug auf strukturschwache Gebiete auch von diesem Schlüssel abzugehen. Die Quotierung zwischen Land und jeweiliger Gemeinde ist alleinige Angelegenheit des jeweiligen Landes.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u201" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg234">Weitere Zusatzfrage. Bitte sehr, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Daweke (CDU/CSU):</note>
+        <u who="#Q1744975" xml:id="ParlaMint-DE_1986-01-29-10-193.u202" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg235">Stimmt die jedenfalls in meinem Wahlkreis häufig zu hörende These, daß in anderen Bundesländern auch andere Maßnahmen, wie sie etwa in der Broschüre des BMBau genannt werden — Kanalbaumaßnahmen zur Stadtsanierung und der gleichen Dinge mehr —, wesentlich mehr gefördert werden, als das in Nordrhein-Westfalen der Fall ist, wo dies fast ausgeschlossen ist und fast alle Mittel nur in die Stadtkernsanierung fließen?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1986-01-29-10-193.u203" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg236">Herr Kollege Daweke, die einzelnen Länder haben unterschiedliche Schwerpunkte gesetzt. Wir sind gerade dabei, die Meldungen auf diese Schwerpunkte hin zu überprüfen. Ich bin gern bereit, ihnen das Ergebnis mitzuteilen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u204" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg237">Weitere Zusatzfragen zu dieser Frage werden nicht gewünscht. Ich rufe die Frage 25 des Abgeordneten Daweke auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg238">Teilt die Bundesregierung die in Nordrhein-Westfalen vertretene Auffassung, daß die Förderung der Dorferneuerung für kleinere Gemeinden, aber auch für Teile der neugeordneten Städte, nach dem gewählten Verfahren nahezu unmöglich ist?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1986-01-29-10-193.u205" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg239">Herr Kollege Daweke, die Bundesregierung teilt nicht die Auffassung, daß die Verfahren nach dem Städtebauförderungsgesetz für kleinere Gemeinden und Teile neugeordneter Städte — wie es die Frage formuliert — nahezu unmöglich seien. Die Anwendung des Städtebauförderungsgesetzes ist durch die Novellierung vom 5. November 1984 mit Wirkung vom 1. Januar 1985 erheblich erleichtert worden. Gerade für die städtebauliche Erneuerung von Dörfern und Kleinstädten, aber auch für eine Vielzahl städtebaulicher Problemstellungen in größeren Städten wurde das sogenannte vereinfachte Sanierungsverfahren geschaffen. Es ist nicht einzusehen, warum die Anwendung dieses erleichterten Instrumentariums in Nordrhein-Westfalen auf besondere Schwierigkeiten stoßen sollte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u206" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg240">Zusatzfrage. Bitte sehr, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Daweke (CDU/CSU):</note>
+        <u who="#Q1744975" xml:id="ParlaMint-DE_1986-01-29-10-193.u207" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg241">Gleichwohl wird berichtet, daß zwar da, wo schon in den 70er Jahren nach dem Städtebauförderungsgesetz, wie es damals galt, Verfahren eingeleitet worden sind, die jetzt zusätzlich gesteigerten Mittel fließen können, aber es eben doch schwer sei, z. B. in den ehemaligen selbständigen Dörfern um meine Heimatstadt Lemgo herum, solche Mittel anzuwenden, weil eben die vorbereitenden Maßnahmen nicht eingeleitet worden seien und deshalb die Anwendung des Gesetzes unmöglich gemacht werde. Teilen Sie diese Beobachtung?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1986-01-29-10-193.u208" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg242">Herr Kollege Daweke, das Land Nordrhein-Westfalen wollte die Städtebauförderung ursprünglich nicht nach dem von der Bundesregierung vorgesehenen Verfahren durchführen. Alle anderen Länder haben sich von vornherein darauf eingestellt. Das Land Nordrhein-Westfalen hat sich erst später darauf eingestellt. In allen anderen Ländern sind wir nicht auf Schwierigkeiten gestoßen. Der Antragsdruck zeigt ja — auch in Nordrhein-Westfalen —, daß das Instrumentarium geeignet ist. Das Instrumentarium, das wir ausgewählt haben, ist deshalb besonders gut geeignet, weil zu dem Geld, was Bund, Land und Gemeinden geben, private Initiative den doppelten Betrag hinzutut. Das heißt: Wenn im Jahr 1986 zwei Milliarden DM öffentliche Mittel für die Städtebauförderung zur Verfügung stehen, wird private Initiative dafür sorgen, daß das Gesamtinvestitionsvolumen bei 6 Milliarden DM liegt. Das ist der beste Konjunkturmotor, den wir uns denken können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u209" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg243">Nun Ihre letzte Zusatzfrage, Herr Abgeordneter Daweke.</seg>
+        </u>
+        <note type="speaker">Daweke (CDU/CSU):</note>
+        <u who="#Q1744975" xml:id="ParlaMint-DE_1986-01-29-10-193.u210" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg244">Herr Kollege Jahn, was werden Sie denn seitens der Bundesregierung tun, um dafür zu sorgen, daß die berechtigten Wünsche kleinerer Gemeinden und vor allen Dingen der Dorfgemeinschaften, die ihre Anmeldungen jetzt nicht erfolgreich plazieren konnten, auch in Nordrhein-Westfalen zum Zuge kommen?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1986-01-29-10-193.u211" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg245">Herr Kollege Daweke, es ist Sache des jeweiligen Landes, die Auswahlkriterien zu bestimmen. Die Bundesregierung bedauert aber, daß das Land Nordrhein-Westfalen nicht zusätzlich Mittel für die Städtebauförderung zur Verfügung gestellt hat. Wir haben nämlich ausdrücklich eine Vereinbarung erzielt, wonach diese Mittel nicht umgeschichtet werden sollen, sondern für die Städtebauförderung zusätzlich bereitgestellt werden. Das Land Nordrhein-Westfalen hat dem nicht Rechnung getragen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u212" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg246">Zusatzfrage des Abgeordneten Müntefering.</seg>
+        </u>
+        <note type="speaker">Müntefering (SPD):</note>
+        <u who="#Q58609" xml:id="ParlaMint-DE_1986-01-29-10-193.u213" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg247">Herr Staatssekretär, können Sie bestreiten, daß sich das Land Nordrhein-Westfalen über lange Zeit und auch im jetzt laufenden Jahr stärker als viele andere Bundesländer im Bereich der Städtebauförderung engagiert und daß natürlich auch in Nordrhein-Westfalen, wenn Gemeinden, die dafür zuständig sind, Sanierungsgebiete klassischer oder neuer Art ausweisen, auch kleine Gemeinden Mittel der Städtebauförderung erhalten?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1986-01-29-10-193.u214" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg248">Herr Kollege Müntefering, es ist richtig, daß auch kleinere Städte und Gemeinden an den Mitteln, die der Bund zur Verfügung gestellt hat, partizipiert haben. Dies ist auch nicht der streitige Punkt. Der streitige Punkt ist der, daß die Bundesregierung in den Gesprächen mit den Ländern damals davon ausging, daß die Länder jeweils zu den Bundesmitteln in gleicher Weise die Mittel für die Städtebauförderung auch in den Ländern erhöhen. Diese Erklärung ist nicht eingehalten worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u215" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg249">Eine Zusatzfrage des Abgeordneten Stahl (Kempen).</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD):</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1986-01-29-10-193.u216" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg250">Herr Staatssekretär, habe ich Sie nach dem, was Sie gesagt haben, richtig verstanden, daß das Land Nordrhein-Westfalen nicht bereit gewesen sei, die Komplementärmittel zu erhöhen, und daß die Bundesregierung der Meinung sei, daß das Land Nordrhein-Westfalen — es ist ja in einer schlechten Finanzlage — diesen Bedarf an zusätzlichen Mitteln über den Kreditmarkt decken sollte? Wie verträgt sich diese Ihre Aussage, die Sie im Bundestag machen, mit dem Grundsatz, daß man mit der Kreditaufnahme etwas sparsamer umgehen sollte?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1986-01-29-10-193.u217" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg251">Herr Kollege, ich beziehe mich auf die Verhandlungen, die im Kanzleramt stattgefunden haben. Danach mußte die Bundesregierung davon ausgehen, daß das Land Nordrhein-Westfalen die politische Zusage einhielte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u218" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg252">Weitere Zusatzfragen werden nicht gewünscht. Dann rufe ich die Frage 26 des Abgeordneten Lowack auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg253">Welche Möglichkeiten sieht die Bundesregierung, einer durch die Randlage vorgegebenen Schwächung des Zonenrandgebiets durch die Verlegung oder Einrichtung von Behördenstandorten entgegenzuwirken?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1986-01-29-10-193.u219" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg254">Herr Kollege Lowack, die Verwaltungsstruktur in der Bundesrepublik Deutschland ist auf eine ausreichende und bürgernahe Versorgung der Bevölkerung mit öffentlichen Dienstleistungen ausgerichtet. Der föderative Aufbau der Bundesrepublik hat dazu geführt, daß sich die Behörden nicht in einzelnen Gebieten konzentrieren. Für eine umfassende Verlagerung von Behörden besteht daher keine Veranlassung. Die Bundesregierung ist jedoch bei Standortveränderungen stets darum bemüht, Bundesbehörden bzw. Bundeseinrichtungen, Teile von Behörden oder Funktionsbereiche in strukturschwache Gebiete, insbesondere in das Zonenrandgebiet zu legen. Bei Neugründungen von Bundesbehörden bzw. Bundeseinrichtungen sind Standorten im Zonenrandgebiet auf Grund des Raumordnungsgesetzes und des Zonenrandförderungsgesetzes Vorrang vor anderen strukturschwachen Gebieten einzuräumen. Neue Behörden werden allerdings nur noch in Ausnahmefällen errichtet. Deshalb kommt es aus raumordnungspolitischen Gesichtspunkten derzeit besonders darauf an, vorhandene Behörden und sonstige öffentliche Einrichtungen mit ihren Arbeitsplätzen im Zonenrandgebiet zu erhalten. Falls ein Behördenabzug aus gewichtigen betriebswirtschaftlichen Gesichtspunkten für unumgänglich erachtet wird, sind nach Möglichkeit durch flankierende Maßnahmen negative Folgen für den Arbeitsmarkt zu vermeiden. Der für die Raumordnung zuständige Bundesminister wirkt bei der Abstimmung von Standortentscheidungen gemäß dem Raumordnungsgesetz auf die Verwirklichung dieser Zielsetzungen hin. Die Bundesregierung hat auch in den „Programmatischen Schwerpunkten der Raumordnung" vom 30. Januar 1985 erneut unterstrichen, daß sie in einer frühzeitigen Abstimmung von Standortentscheidungen für Bundesbehörden und -einrichtungen ein geeignetes Koordinierungsinstrument sieht, um raumordnungs- und zonenrandpolitische Erfordernisse bei der Standortplanung zur Geltung zu bringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u220" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg255">Eine Zusatzfrage, bitte schön, Herr Abgeordneter Lowack.</seg>
+        </u>
+        <note type="speaker">Lowack (CDU/CSU):</note>
+        <u who="#Q2032290" xml:id="ParlaMint-DE_1986-01-29-10-193.u221" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg256">Herr Staatssekretär, erkennt die Bundesregierung an, daß sich die Förderung des Zonenrandgebiets aus dem deutschlandpolitischen Auftrag des Grundgesetzes ergibt, der u. a. darin besteht, zu verhindern, daß mitten durch Deutschland durch die Zonenrandlage eine strukturschwache Zone entsteht, und daß sich hieraus eben die Notwendigkeit ergibt, in dieser Art strukturwirksam tätig zu werden?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1986-01-29-10-193.u222" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg257">Ich beantworte Ihre Frage mit Ja. Die Bundesregierung fühlt sich dem gesetzlichen Auftrag, den sie hat, verpflichtet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u223" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg258">Eine weitere Zusatzfrage des Abgeordneten Lowack.</seg>
+        </u>
+        <note type="speaker">Lowack (CDU/CSU):</note>
+        <u who="#Q2032290" xml:id="ParlaMint-DE_1986-01-29-10-193.u224" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg259">Herr Staatssekretär, könnten Sie Beispiele nennen, die zeigen, welche Art von Behörden die Bundesregierung im Zonenrandgebiet unter typisch zonenrandpolitischen Gesichtspunkten eventuell erhalten oder einrichten kann?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1986-01-29-10-193.u225" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg260">Herr Kollege Lowack, ich möchte drei Beispiele nennen. Das erste ist die Erhaltung der Bundesbahnausbesserungswerke Fulda und Weiden. Sie wissen, daß der Bundesminister für Verkehr im Juli 1984 seine Absicht bekundet hat, die vom Verwaltungsrat der Deutschen Bundesbahn beantragte Stillegung der Ausbesserungswerke Fulda und Weiden nicht zu genehmigen. Es gibt auch noch andere Beispiele, z. B. die Errichtung der zentralen Verwaltungsschule der Bundesanstalt für Arbeit. Hier lautet das Votum des Wohnungsbauministers als Raumordnungsminister: nordbayerisches Zonenrandgebiet. Es gibt ein drittes Beispiel: die Verlagerung der Kasse mit Forderungseinzug für den Landesarbeitsamtsbezirk Südbayern. Hier lautet das Votum des Raumordnungsministers: südbayerisches Zonenrandgebiet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u226" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg261">Herr Abgeordneter Müntefering, eine Zusatzfrage dazu.</seg>
+        </u>
+        <note type="speaker">Müntefering (SPD):</note>
+        <u who="#Q58609" xml:id="ParlaMint-DE_1986-01-29-10-193.u227" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg262">Herr Staatssekretär, könnten Sie uns, wenn Sie das hier nicht parat haben, eine schriftliche Information darüber geben, welche Maßnahmen an Bundeseinrichtungen für die nächsten zwei Jahre anstehen, die unter dem hier diskutierten Gesichtspunkt interessant wären?</seg>
+        </u>
+        <note type="speaker">Dr. Jahn, Parl. Staatssekretär:</note>
+        <u who="#Q1457661" xml:id="ParlaMint-DE_1986-01-29-10-193.u228" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg263">Sie haben mit dieser Fragestellung schon zum Ausdruck gebracht, daß ein sachlicher Zusammenhang mit der von mir zu beantwortenden Frage nicht vorliegt. Gleichwohl bin ich gerne bereit, Ihnen die gewünschten Erhebungen zukommen zu lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u229" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg264">Hierfür und für Ihre Bemühungen Herr Staatssekretär, möchte ich mich herzlich bedanken. Ich rufe den Geschäftsbereich des Bundesministers des Innern auf. Zur Beantwortung steht uns der Herr Parlamentarische Staatssekretär Spranger zur Verfügung. Ich rufe die Frage 43 des Herrn Abgeordneten Reimann auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg265">Wie erklärt die Bundesregierung den Widerspruch zwischen der Antwort, die mir der Parlamentarische Staatssekretär Dr. Waffenschmidt auf meine Frage nach der Gefährdung der Produktion in der Düngemittelindustrie und damit einer Gefährdung der Arbeitsplätze bei der Anwendung der TA Luft in der Fragestunde am 15. Januar 1986 (Plenarprotokoll 10/186)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg266">gegeben hat, und den erneuten Verhandlungen in dieser Sache?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u230" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg267">Herr Kollege Reimann, zwischen der Antwort auf Ihre Frage vom 15. Januar 1986 und den erneuten Verhandlungen besteht kein Widerspruch. Kollege Waffenschmidt hat sich in der Fragestunde am 15. Januar 1986 nicht abweichend geäußert. Er hat lediglich darauf hingewiesen, das neu verhandelt wird. Dies bedeutet weder eine Gefährdung der Produktion in der Düngemittelindustrie noch eine Gefährdung der Arbeitsplätze.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u231" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg268">Zusatzfrage, Herr Abgeordneter Reimann.</seg>
+        </u>
+        <note type="speaker">Reimann (SPD):</note>
+        <u who="#Q1600748" xml:id="ParlaMint-DE_1986-01-29-10-193.u232" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg269">Herr Staatssekretär, ich bin damals mit dem Eindruck hier herausgegangen, daß die Verhandlungen abgeschlossen seien. Dann wurde mir von Staatssekretär Waffenschmidt geantwortet: Wir nehmen die Verhandlungen neu auf. Jetzt frage ich Sie: Wie stehen Sie denn dazu, wenn heute in der „Frankfurter Rundschau" sinngemäß steht, daß gerade im Bereich von Ammoniak keine strengeren Maßnahmen nach dieser Änderung eingeführt werden sollen, wenn bisher gerade bei Ammoniak überhaupt keine Regelungen bestanden haben?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u233" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg270">Herr Kollege Reimann, Sie wissen, daß der Bundesrat abweichende Vorstellungen von der bisherigen Regelung gehabt hat, die, wie Sie zu Recht feststellen, keine solchen Grenzwerte vorsah. Es ist nun das Ergebnis der Verhandlungen — das hat der Bundesminister des Innern gestern bekanntgegeben —, daß es keine Emissionsgrenzwerte für Ammoniak geben wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u234" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg271">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Reimann (SPD):</note>
+        <u who="#Q1600748" xml:id="ParlaMint-DE_1986-01-29-10-193.u235" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg272">Habe ich Sie dann also richtig verstanden, daß es keinerlei Auflagen in dieser Richtung gibt und daß alles, was bisher zur TA Luft über diesen Punkt geschrieben und abgehandelt wurde, gegenstandslos ist?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u236" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg273">Ich hatte Ihnen auch in der Fragestunde bereits mitgeteilt, daß die Bundesregierung solche Grenzwerte in ihrem Entwurf der TA Luft nicht vorgesehen hat, daß dies allein Vorstellungen des Bundesrats waren, die sich jetzt allerdings nicht verwirklichen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u237" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg274">Herr Abgeordneter Stahl (Kempen)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg275">zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD):</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1986-01-29-10-193.u238" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg276">Herr Staatssekretär, welche Gründe haben den Bundesrat dazu bewogen, Ammoniak in die Regelung der Schadstoffemissionen hineinzunehmen?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u239" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg277">Ich kann die Gründe jetzt nicht nennen. Nur, das Problem ist durch die Entscheidung, die heute wohl auch im Kabinett getroffen wird, erledigt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u240" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg278">Keine weitere Zusatzfrage. Dann rufe ich Frage 44 des Herrn Abgeordneten Reimann auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg279">Wie hat die Bundesregierung das Zehn-Milliarden-Volumen an Investitionen errechnet, wenn — wie sie mir auf meine Anfrage nach den Kosten der Ammoniakabsenkungen geantwortet hat — ihr diese nicht bekannt waren?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u241" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg280">Herr Kollege Reimann, das Zehn-Milliarden-Investitionsvolumen, das im Zusammenhang mit der TA Luft erwartet wird, wurde auf der Basis beispielhaft durchgeführter Branchenanalysen sowie von Herstellerangaben zu Minderungstechniken abgeschätzt. Kosten für eine Ammoniakabsenkung sind darin nicht enthalten, weil die Bundesregierung einen Emissionswert für Ammoniak nicht vorgesehen hat und dementsprechend Investitionen nicht erforderlich sind. Wie Bundesminister Dr. Zimmermann schon gestern erklärt hat, wird das Bundeskabinett heute die Neufassung der TA Luft ohne Festlegung eines Emissionswertes für Ammoniak beschließen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u242" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg281">Zusatzfrage, Herr Abgeordneter Reimann.</seg>
+        </u>
+        <note type="speaker">Reimann (SPD):</note>
+        <u who="#Q1600748" xml:id="ParlaMint-DE_1986-01-29-10-193.u243" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg282">Herr Staatssekretär, ich hatte damals nicht nur nach den Ammoniakkosten gefragt, sondern generell nach den Kosten, die die TA Luft für die Industrie verursachen kann, und nach ihren Auswirkungen gefragt. Ich habe auch sehr dezidiert nach den notwendigen Maßnahmen gefragt, und es wurde geantwortet, daß die Kosten nicht vorliegen. In der letzten Debatte höre ich, es sind 10 Milliarden. Irgendwie müssen Sie ja nun diese Zahlen addiert haben. Woher haben Sie diese Zahlen?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u244" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg283">Ich habe in meiner Antwort klar gesagt, daß es auf der Basis beispielhaft durchgeführter Branchenanalysen zu dieser Zahl gekommen ist und daß die Frage der Ammoniakabsenkung keine Rolle spielte, auch beim Investitionsvolumen nicht, weil das nach den Vorstellungen der Bundesregierung nicht vorgesehen war.</seg>
+        </u>
+        <note type="speaker">Reimann (SPD):</note>
+        <u who="#Q1600748" xml:id="ParlaMint-DE_1986-01-29-10-193.u245" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg284">Also, Herr Staatssekretär, dann frage ich Sie: Würden Sie mir zustimmen, daß bei mir der Eindruck entstehen kann, daß ich mich durch die Antworten der Bundesregierung veralbert fühle?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u246" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg285">Mir ist absolut unklar, wie Sie zu einer solchen Schlußfolgerung kommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u247" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg286">Herr Abgeordneter Stahl (Kempen)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg287">zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD):</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1986-01-29-10-193.u248" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg288">Herr Staatssekretär, wenn ich Sie richtig verstanden habe, haben Sie hier gesagt, daß der Bundesrat bei der Verabschiedung seiner Punkte unverantwortlich gehandelt und die Investitionskosten, die Herr Reimann hier für den Ammoniakbereich erwähnte, bei seinen Überlegungen wohl nicht in die Entscheidung hereingenommen hat.</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u249" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg289">Nein, Herr Kollege Stahl, das habe ich nicht gesagt. Ich habe nicht gesagt, daß der Bundesrat unverantwortlich gehandelt hat. Ich habe nur gesagt, daß mir die Gründe für die Haltung des Bundesrats nicht bekannt sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u250" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg290">Weitere Zusatzfragen liegen trotz des Versuchs des Abgeordneten Stahl, den Abgeordneten Reuter zu überzeugen, nicht vor. Ich rufe die Frage 45 des Abgeordneten Reuter auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg291">Ist der Bundesregierung bekannt, daß die Deutsche Gesellschaft für Wiederaufarbeitung von Kernbrennstoffen mbH bei Gorleben in Kürze den Bau einer Konditionierungsanlage für abgebrannte Brennelemente aus Leichtwasserreaktoren beantragen wird?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u251" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg292">Der Bundesregierung ist bekannt, daß die DWK Unterlagen für einen Antrag auf Errichtung einer Pilotanlage vorbereitet, in der abgebrannte Brennelemente aus verschiedenen Reaktortypen — Leichtwasserreaktoren, gasgekühlte Reaktoren — konditioniert werden sollen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u252" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg293">Zusatzfrage. Bitte schön, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Reuter (SPD):</note>
+        <u who="#Q824052" xml:id="ParlaMint-DE_1986-01-29-10-193.u253" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg294">Herr Staatssekretär, wäre die Genehmigung einer solchen Fabrik, wie es in der Zeitung heißt, nicht eine Präjudizierung des Endlagerstandorts Gorleben?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u254" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg295">Die Frage der Genehmigung ist im jetzigen Stadium überhaupt nicht zu prüfen. Es handelt sich nicht um eine Fabrik, sondern, wie ich sagte, um einen Antrag auf Errichtung einer Pilotanlage, ohne daß die Bundesregierung darüber schon Näheres weiß.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u255" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg296">Weitere Zusatzfrage, bitte.</seg>
+          <vocal type="exclamat">
+            <desc>Reuter [SPD]: Er hat meine zweite Frage noch nicht beantwortet! — Spranger, Parl. Staatssekretär: Die zweite Frage kann ich nicht beantworten! Aber ich dachte — —!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg297">1 — Ich hatte gefragt, ob Sie Ihre zweite Zusatzfrage zu der Frage 45 stellen wollen. Wenn nein,</seg>
+          <vocal type="exclamat">
+            <desc>Reuter [SPD]: Ja; doch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg298">ist das Haus sehr zufrieden. Wenn ja: dann bitte.</seg>
+        </u>
+        <note type="speaker">Reuter (SPD):</note>
+        <u who="#Q824052" xml:id="ParlaMint-DE_1986-01-29-10-193.u256" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg299">Herr Präsident, diese Zufriedenheit kann ich dem Haus noch nicht bescheren. Ich hätte von dem Herrn Staatssekretär gern noch gewußt, ob es sich bei diesen Vorhaben, die jetzt geplant sind, um eine direkte Endlagerungskonditionierung oder um Materialien, die bei der Wiederaufarbeitung als Restabfallstoffe entstehen, handelt.</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u257" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg300">Ich kann nur wiederholen, daß es eine Pilotanlage sein soll, die in Überlegung ist, und zwar zur Fortentwicklung einer bestimmten Technologie im Bereich der Endlagerung, auch entsprechend dem Beschluß des Bundeskabinetts vom 23. Januar 1985, der zu diesem Problem weitere Forschungs- und Entwicklungsarbeiten für erforderlich hält. In diesem Rahmen findet die Überlegung zur Errichtung einer solchen Pilotanlage statt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u258" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg301">Zusatzfrage des Abgeordneten Stahl (Kempen).</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf des Abg. Reuter [SPD]</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg302">— Nein. Sie haben zu jeder Frage zwei Zusatzfragen. Die Fragen sind nicht gemeinsam beantwortet. Oder doch? — Nein.</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u259" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg303">Ich habe jetzt die zweite Zusatzfrage des Fragestellers beantwortet.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u260" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg304">Eben: des Fragestellers! Herr Abgeordneter Reuter, jetzt kommt der Abgeordnete Stahl (Kempen)</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg305">mit einer Zusatzfrage. Sie werden bei der Frage 46 wieder aufgerufen werden. Bitte sehr, Herr Abgeordneter Stahl.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (CDU/CSU):</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1986-01-29-10-193.u261" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg306">Herr Staatssekretär, habe ich Sie richtig verstanden, daß diese Konditionierungsanlage, für die die DWK jetzt wahrscheinlich einen Antrag beim zuständigen Regierungspräsidenten stellen wird, eine Anlage ist, die Brennelemente bearbeitet, die dann der Endlagerung zugeführt werden, wie es in der Vereinbarung der Ministerpräsidenten von 1979 steht? Und ist die Entscheidung der niedersächsischen Landesregierung für ein derartiges Projekt schon endgültig gefallen?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u262" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg307">Herr Kollege Stahl, ich glaube, Sie haben mich richtig darin verstanden, daß ich zum Ausdruck bringen wollte, daß die geplante Anlage den Zweck hat, abgebrannte Brennelemente unter Verzicht auf vorherige Wiederaufarbeitung in eine endlagergerechte Form zu bringen. Die niedersächsische Landesregierung hat sich nach meinem Kenntnisstand dazu bisher nicht geäußert. Es wäre auch nicht Aufgabe der Bundesregierung, dies zu bewerten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u263" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg308">Das war die Wiederholung der Antwort. Herr Abgeordneter Reuter, jetzt kommt Ihre nächste Frage. Da haben Sie natürlich wieder die Möglichkeit, zwei Zusatzfragen zu stellen. Ich rufe die Frage 46 des Abgeordneten Reuter auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg309">Handelt es sich hierbei um ein Konzept der direkten Endlagerung abgebrannter Brennelemente aus Leichtwasserreaktoren? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u264" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg310">Herr Kollege Reuter, die von der DWK geplante Pilotkonditionierungsanlage ist ein Beitrag der Industrie zur Weiterentwicklung der Technik der direkten Endlagerung. Diese Entwicklung erfolgt entsprechend dem Beschluß der Bundesregierung vom 23. Januar 1985 als Ergänzung zu dem vom Atomgesetz gebotenen Entsorgungsweg der Wiederaufarbeitung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u265" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg311">Zusatzfrage, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Reuter (SPD):</note>
+        <u who="#Q824052" xml:id="ParlaMint-DE_1986-01-29-10-193.u266" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg312">Herr Staatssekretär, bei der seinerzeitigen Anhörung im Forschungsausschuß wurde dargelegt, daß wir in der Forschung und Entwicklung der direkten Endlagerung etwa zehn Jahre hinter der Wiederaufarbeitungstechnologie herhinken. Ich frage deshalb im Zusammenhang mit der geplanten Anlage, ob die Bundesregierung hier einen entscheidenden Schritt unternimmt, um diesen Rückstand in der Forschung aufzuholen, und frage, ob weiterhin außer dieser Fabrik auch Forschungsaufträge vergeben wurden, diese abgebrannten Elemente bergmännisch zu bewegen; denn es handelt sich ja immerhin um abgebrannte Brennelemente von Leichtwasserreaktoren in einer Größe und einer Schwere, die bisher bergmännisch noch nie bewegt wurden.</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u267" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg313">Herr Kollege Reuter, die grundsätzliche Haltung der Bundesregierung zu diesem Problem ergibt sich aus dem Beschluß des Kabinetts vom 23. Januar. Ich darf den letzten Absatz zitieren:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg314">Aus heutiger Sicht kommt die direkte Endlagerung nur für solche Brennelemente in Betracht, für die die Entwicklung einer eigenen Wiederaufarbeitungstechnik wirtschaftlich nicht vertretbar ist. Die Bundesregierung wird durch Forschungs- und Entwicklungsarbeiten dazu beitragen, die direkte Endlagerung für diese Brennelemente zur Einsatzreife zu bringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u268" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg315">Ihre zweite Zusatzfrage, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Reuter (SPD):</note>
+        <u who="#Q824052" xml:id="ParlaMint-DE_1986-01-29-10-193.u269" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg316">Ist es aus der Sicht der Bundesregierung sinnvoll und richtig, die Entscheidung über diese Konditionierungsanlage so lange zurückzustellen, bis entschieden ist, ob sich der Salzstock in Gorleben für die Endlagerung eignet?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u270" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg317">Im jetzigen Stadium — also in dem Moment, wo nur ein Antrag auf Errichtung einer Pilotanlage vorliegt — ist eine endgültige Entscheidung der Bundesregierung noch nicht möglich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u271" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg318">Zusatzfrage des Abgeordneten Stahl (Kempen).</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD):</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1986-01-29-10-193.u272" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg319">Herr Staatssekretär, auf Grund Ihrer Antwort gehe ich davon aus, daß sich die Bundesregierung nun entschlossen hat, den zweigleisigen Weg zu gehen: Wiederaufarbeitung auf der einen Seite und Bearbeitung und Endlagerung auf der anderen Seite. Seit wann ist dies Bestandteil der offiziellen Politik der Bundesregierung? Denn der Bedarf, den Sie bezüglich der abgebrannten Brennelemente aus Forschungsreaktoren, so nehme ich an, ansprachen, ist ja nicht riesenhaft. Ist die Summe an zusätzlichen Investitionen und Untersuchungen, die Sie eben angesprochen haben, zu verantworten, wenn man die Elemente auch im Ausland aufarbeiten lassen könnte?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u273" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg320">Herr Kollege Stahl, ich glaube nicht, daß man die Haltung der Bundesregierung in dieser Form interpretieren kann. Ich wiederhole nur, daß die Bundesregierung in der Kabinettsitzung vom 23. Januar zum Ausdruck gebracht hat, daß sie durch Forschungs- und Entwicklungsarbeiten dazu beitragen wird, die direkte Endlagerung für diese Brennelemente zur Einsatzreife zu bringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u274" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg321">Ich rufe nunmehr die Frage 47 des Abgeordneten Tatge auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg322">Welche Erkenntnisse liegen der Bundesregierung, insbesondere dem Parlamentarischen Staatssekretär Spranger, nach Aktenlage des Bundesamtes für Verfassungsschutz über die Person des Abgeordneten Tatge vor, und welchen anderen Personen wurden sie gegebenenfalls mitgeteilt?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u275" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg323">Herr Kollege Tatge, darf ich Ihre Fragen des Sachzusammenhangs wegen gemeinsam beantworten.</seg>
+          <vocal type="exclamat">
+            <desc>Tatge [GRÜNE]: Herr Staatssekretär, ich bitte Sie, sie getrennt zu beantworten!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg324">Die Bundesregierung hat bereits in ihrer Antwort vom 9. Januar 1986 auf die schriftliche Frage des Abgeordneten Fred Zander ausgeführt, daß jedes Mitglied des Deutschen Bundestages in Wahrnehmung seiner parlamentarischen Aufgaben von der Bundesregierung Auskünfte erhalten kann, die auf Erkenntnisse der Nachrichtendienste gestützt sind, soweit nicht Geheimhaltungsgründe, sonstige Sicherheits- oder Individualinteressen entgegenstehen oder/und sich die Unterrichtungspflicht aus diesen Gründen auf bestimmte parlamentarische Gremien beschränkt. Diese Grundsätze gelten auch für Anfragen, die Erkenntnisse über Personen einbeziehen. Zu Anfragen in eigener Sache, die von diesen Grundsätzen nicht gedeckt werden, gelten nach Auffassung der Bundesregierung die allgemeinen Regeln für eine Auskunftserteilung, soweit personenbezogene Kenntnisse von Verfassungsschutzbehörden erfragt werden. Die Erfüllung der Aufgaben dieser Behörden wäre gefährdet, wenn sie auf Anfragen von Personen, die in eigener Sache gestellt werden, etwaige Erkenntnisse und Speicherungen personenbezogener Daten grundsätzlich offenlegen müßten. Sie sind deshalb nach dem Willen des Gesetzgebers — § 13 Abs. 2 in Verbindung mit § 12 Abs. 2 Nr. 1 des Bundesdatenschutzgesetzes — von der Pflicht zur Auskunftserteilung an den Betroffenen ausdrücklich ausgenommen. Aus den dargelegten Gründen kann ich Ihre Anfrage nicht in der von Ihnen gewünschten Weise beantworten. Ich möchte jedoch hinzufügen, daß das Bundesministerium des Innern keine Sie gegebenenfalls betreffenden Erkenntnisse anderen Personen mitgeteilt hat. Bundesinnenminister Dr. Zimmermann hat den Fragenkomplex im übrigen in der Innenausschußsitzung am 22. Januar 1986 eingehend erläutert.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u276" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg325">Eine Zusatzfrage, Herr Abgeordneter Tatge.</seg>
+        </u>
+        <note type="speaker">Tatge (GRÜNE):</note>
+        <u who="#Q1421748" xml:id="ParlaMint-DE_1986-01-29-10-193.u277" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg326">Herr Staatssekretär, ist mit der Beantwortung dieser Frage auch auszuschließen, daß der Kollege Todenhöfer von Ihnen oder von einem sonstigen Mitarbeiter Ihres Ministeriums Unterlagen über meine Person erhalten hat?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u278" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg327">Ich habe hier Ihre konkrete Frage zu beantworten und nicht zu dieser den Abgeordneten Todenhöfer betreffenden Frage Stellung zu nehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u279" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg328">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Tatge (GRÜNE):</note>
+        <u who="#Q1421748" xml:id="ParlaMint-DE_1986-01-29-10-193.u280" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg329">Ich habe zwar sehr konkret danach gefragt, aber trotzdem: Haben Sie, Herr Staatssekretär, die Liste weitergegeben, die 1983 oder etwas später über die Personen, die als Nachrücker der Fraktion DIE GRÜNEN in Bonn anwesend waren, angelegt wurde, ist sie Ihnen bekannt, und befindet sich mein Name — und wenn ja, mit welchen Erkenntnissen — auf dieser Liste?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u281" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg330">Ich habe ausdrücklich zum Ausdruck gebracht, daß aus den dargelegten Gründen Ihre Anfrage nicht in der von Ihnen gewünschten Weise beantwortet wird. Ich habe hinzugefügt, daß das Bundesministerium des Innern keine Sie gegebenenfalls betreffenden Erkenntnisse anderen Personen mitgeteilt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u282" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg331">Sie haben noch eine weitere Zusatzfrage, Herr Abgeordneter Tatge.</seg>
+          <vocal type="exclamat">
+            <desc>Tatge [GRÜNE]: Ich hatte zwei Zusatzfragen, und jetzt kommt die nächste Frage! Ich hatte um getrennte Beantwortung gebeten!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg332">— Entschuldigung. Dann hat Herr Abgeordneter Vogel eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Vogel (München) (GRÜNE):</note>
+        <u who="#Q792395" xml:id="ParlaMint-DE_1986-01-29-10-193.u283" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg333">Herr Staatssekretär, Sie haben gerade gesagt, nach dem Bundesdatenschutzgesetz gebe es kein Recht des Abgeordneten Tatge, diese Antworten zu erwirken. Das nehme ich mal hin. Ich gehe davon aus, daß es so ist. Die Frage ist hier jedoch nicht nach dem Recht gestellt, sondern ob es politisch nicht opportun wäre, daß der Abgeordnete Tatge als Bundestagsabgeordneter, der die Bundesregierung und ihr nachgeordnete Behörden beurteilen muß — das gehört ja auch zu seiner Aufgabe —, zu seiner Information auch Unterlagen, die über ihn — aus politischen Gründen wohlgemerkt — gespeichert sind, zugestellt bekommen sollte, um diese Beurteilung vornehmen zu können.</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u284" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg334">Ich habe in meiner Antwort bereits dargelegt, daß aus rechtlichen Gründen so verfahren werden muß, wie ich es dem Abgeordneten Tatge in der Antwort auf seine Anfrage übermittelt habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u285" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg335">Herr Abgeordneter Stahl (Kempen).</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg336">Ich mache allerdings darauf aufmerksam, daß wir die Fragestunde jetzt schon deutlich überschritten haben, und wäre dankbar, wenn die Frage ganz kurz formuliert werden könnte, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Stahl (Kempen) (SPD):</note>
+        <u who="#Q1363491" xml:id="ParlaMint-DE_1986-01-29-10-193.u286" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg337">Ich mache es ganz kurz. Herr Staatssekretär, haben Sie über den hier in Rede stehenden Abgeordneten Erkenntnisse vom Bundesverfassungsschutz oder vom Bundesamt einholen lassen, die Ihrem Hause oder Ihnen persönlich vorgelegen haben?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u287" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg338">Ich kann nur wiederholen, daß ich aus den dargelegten Gründen nicht in der Lage bin, diese Frage in der gewünschten und vom Abgeordneten Tatge erbetenen Form zu beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u288" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg339">Danke schön. — Herr Staatssekretär, ich glaube, wir beantworten die Frage 48 auch noch, um dann Schluß zu machen. Ich rufe die Frage 48 des Abgeordneten Tatge auf:</seg>
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg340">Ist die Bundesregierung bereit, mir eine vollständige Kopie meiner durch die Bundesregierung veranlaßten Akte beim Bundesamt für Verfassungsschutz zukommen zu lassen? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u289" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg341">Herr Kollege Tatge, ich verweise als Antwort auf die Frage 48 auf meine Auskunft zu der Frage 47.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u290" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg342">Danke schön. — Eine Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Tatge (GRÜNE):</note>
+        <u who="#Q1421748" xml:id="ParlaMint-DE_1986-01-29-10-193.u291" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg343">Herr Staatssekretär, da Sie mir ja eine konkrete Auskunft verweigern, muß ich Sie noch einmal fragen: Sind Sie bereit, eine Kopie einer eventuell angelegten Akte dem Untersuchungsausschuß oder seinen Mitgliedern auf ihre Anforderung zur Verfügung zu stellen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u292" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg344">Dieser Zusammenhang ist nun, glaube ich, nur noch schwer herstellbar.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Tatge [GRÜNE]: Das ist ganz konkret eine Frage nach der Existenz der Akte, und wem er sie zur Verfügung stellt!</desc>
+        </vocal>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u293" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg345">Ich habe es in meiner Antwort völlig offengelassen, inwieweit hier irgendwelche Erkenntnisse bestehen. Deswegen kann ich Ihnen auch keine Zusicherung machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u294" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg346">Sie wollen noch eine Frage stellen. Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Tatge (GRÜNE):</note>
+        <u who="#Q1421748" xml:id="ParlaMint-DE_1986-01-29-10-193.u295" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg347">Herr Staatssekretär, können Sie mir ein Verfahren nennen, wie Sie mir als frei gewähltem Abgeordneten des deutschen Volkes helfen können, eventuelle Vorfälle, die in Ihrem Ministerium passiert sind, nachzuverfolgen und dann an diese Daten, die ich wünsche, zu kommen?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u296" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg348">Herr Kollege Tatge, ich bin gerne bereit, im Rahmen der in der gegebenen Antwort enthaltenen Konditionen Fragen zu diesen Problemen zu beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u297" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg349">Ich lasse jetzt noch eine Frage zu und schließe dann die Fragestunde. — Herr Abgeordneter Reimann.</seg>
+        </u>
+        <note type="speaker">Reimann (SPD):</note>
+        <u who="#Q1600748" xml:id="ParlaMint-DE_1986-01-29-10-193.u298" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg350">Herr Staatssekretär Spranger, nachdem Sie sehr blumenreich um die Fragen herumgeredet haben, frage ich Sie konkret: wenn nichts gegen den Abgeordneten, der gefragt hat, vorliegt oder wenn gegen ihn nicht recherchiert wurde — das gilt ja für alle Abgeordneten, und das ist eine sehr wichtige Frage —, hätten Sie doch mit Nein antworten können. Warum antworten Sie nicht mit Nein?</seg>
+        </u>
+        <note type="speaker">Spranger, Parl. Staatssekretär:</note>
+        <u who="#Q95850" xml:id="ParlaMint-DE_1986-01-29-10-193.u299" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg351">Herr Kollege Reimann, ich habe die Frage des Abgeordneten Tatge ganz konkret beantwortet und zum Ausdruck gebracht, daß es jeweils vom Einzelfall abhängt, welche Fragen in welcher Form beantwortet werden. Sie können insgesamt davon ausgehen, daß eine Antwort gegeben wird, soweit die in meiner Antwort zuvor genannten Hinderungsgründe einer Auskunftserteilung nicht entgegenstehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1986-01-29-10-193.u300" ana="#chair">
+          <seg id="ParlaMint-DE_1986-01-29-10-193.seg352">Ich habe die Fragestunde deutlich — ich glaube, um mehr als fünf Minuten — überschritten in der offensichtlich falschen Annahme, daß die beiden Fragen zusammen beantwortet werden sollten. Das ist offensichtlich hier oben falsch angekommen. Ich schließe nunmehr die Fragestunde und berufe die nächste Sitzung des Deutschen Bundestages für Donnerstag, den 30. Januar 1986, um 8 Uhr ein. Wegen einer Aktuellen Stunde ist der Termin von 9 auf 8 Uhr vorverlegt worden. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.37 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1981-06-16-09-044">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 9. Wahlperiode, 44. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 16.06.1981 (44. Sitzung der 9. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 9, Session 44 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1981-06-16 (Session 44 in Legislative Period 9)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="44">44. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.09" n="9">9. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="44">Session 44</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.09" n="9">Legislative Period 9</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 16.06.1981</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1981-06-16</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490382/effcc03f3b3e157f9d8050b4a9d9d089/pp09-data.zip</idno>
+          <date when="1981-06-16">1981-06-16</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1981-06-16">1981-06-16</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="U1">
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg1">Die Sitzung ist eröffnet. Vor Eintritt in die Tagesordnung möchte ich zwei Glückwünsche aussprechen. Am 11. Juni hat Frau Abgeordnete Will- Feld ihren 60. Geburtstag gehabt, und heute hat Herr Abgeordneter Rainer seinen 60. Geburtstag. Herzliche Glückwünsche des Hauses!</seg>
+          <kinesic type="applause">
+            <desc>Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg2">Die Abgeordneten Dr. von Weizsäcker, Kunz (Berlin)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg3">und Dr. Blüm haben mit Wirkung vom 15. Juni 1981 auf die Mitgliedschaft im Deutschen Bundestag verzichtet. Nach einer interfraktionellen Vereinbarung wird die Tagesordnung um den Zusatzpunkt erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Bundesbesoldungs- und -versorgungsanpassungsgesetzes 1981— Drucksache 9/557 — ergänzt. Ist das Haus damit einverstanden? — Ich sehe keinen Widerspruch. Es ist so beschlossen. Wir treten in Punkt 1 der Tagesordnung ein: Fragestunde — Drucksache 9/561 —</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg4">Ich rufe den Geschäftsbereich des Bundeskanzlers und des Bundeskanzleramtes auf. Die Frage 1 des Herrn Abgeordneten Graf Stauffenberg wird vom Fragesteller zurückgezogen. Ich rufe den Geschäftsbereich des Bundesministers der Justiz auf. Der Abgeordnete Hennig bittet, die Frage 2 schriftlich zu beantworten. Die Antwort wird als Anlage abgedruckt. Ich rufe den Geschäftsbereich des Bundesministers für Raumordnung, Bauwesen und Städtebau auf. Die Fragen 3 und 4 des Herrn Abgeordneten Rapp (Göttingen)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg5">werden auf Wunsch des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe den Geschäftsbereich des Bundesministers für Bildung und Wissenschaft auf. Zur Beantwortung der Fragen steht uns der Parlamentarische Staatssekretär Kuhlwein zur Verfügung. Ich rufe die Frage 5 des Herrn Abgeordneten Dr. Meyer zu Bentrup auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg6">Kann die Bundesregierung mitteilen, wie viele Hochschulabsolventen der Fächer Pädagogik, Soziologie und Politologie gegenwärtig ohne Beschäftigung sind und wie diese Zahlen voraussichtlich für das Jahr 1985 lauten werden? Herr Staatssekretär, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Kuhlwein, Parl. Staatssekretär beim Bundesminister für Bildung und Wissenschaft:</note>
+        <u who="#Q1281343" xml:id="ParlaMint-DE_1981-06-16-09-044.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg7">Herr Kollege, nach der letzten vorliegenden Sonderuntersuchung der Bundesanstalt für Arbeit vom September 1980 — nur diese zweimal jährlich vorgenommenen Sonderuntersuchungen erlauben eine Antwort auf Ihre Frage; die nächste ist im Mai 1981; deren Ergebnisse werden dann aber erst im Spätsommer vorliegen — waren 1 276 Soziologen und Politologen und 1 740 Absolventen der Studienrichtung Pädagogik — ohne Lehramtskandidaten —, zusammen also 3 016 Personen, arbeitlos. Dies entspricht einem Anteil der von Ihnen genannten Fachrichtungen an der Gesamtzahl der arbeitslosen Hochschulabsolventen, die mit 41 890 angegeben wurden, von 7,2 %. Vorausschätzungen der Arbeitslosen bis 1985 gibt es weder für die Arbeitslosen insgesamt noch für Arbeitslose nach einzelnen Hochschulfachrichtungen. Da die Entwicklung der Arbeitslosigkeit bzw. der Beschäftigung in einem Zeitraum von fast fünf Jahren von einer Vielzahl von Faktoren beeinflußt wird, wären solche Schätzungen auch in hohem Maße spekulativ und nicht zu vertreten. Wie der Bundesregierung aus den Unterlagen der Arbeitsvermittlung bekannt ist, sind die Beschäftigungsaussichten für Angehörige dieser Fachrichtungen zur Zeit nicht sehr günstig. Die rückläufigen Absolventenzahlen in diesen Fachrichtungen zeigen jedoch, daß die Studienwilligen sich auf diese Arbeitsmarktlage einstellen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg8">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Meyer zu Bentrup (CDU/CSU):</note>
+        <u who="#Q1369441" xml:id="ParlaMint-DE_1981-06-16-09-044.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg9">Wie stark rückläufig sind denn die Zahlen in den letzten Jahren? Können Sie da irgendwelche Anhaltspunkte geben?</seg>
+        </u>
+        <note type="speaker">Kuhlwein, Parl. Staatssekretär:</note>
+        <u who="#Q1281343" xml:id="ParlaMint-DE_1981-06-16-09-044.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg10">Die Zahl der Studienanfänger ist vorläufig nur in geringem Maße rückläufig. Wir hatten 1978 im Fach Pädagogik 3 311 und 1979 3387. Da ist also noch ein gewisser geringer Anstieg zu verzeichnen. Bei Politikwissenschaften, Politologie stieg die Zahl von 798 auf 847. Bei den Soziologen haben wir einen Rückgang, der bereits 1976 einsetzte. 1976 hatten wir 1 418 Studienanfänger im Fach Soziologie; wir hatten 1978 noch 1 032, 1979 waren es 978. Und nun zu den Absolventenzahlen für die Fächer Soziologie, Politologie und Pädagogik zusammen: Vom Wintersemester 1977/78 und Sommersemester 1978 fiel die Zahl von 4 470 auf 3 594 im Wintersemester 1978/79 und Sommersemester 1979, wobei der Rückgang besonders stark bei den Diplompädagogen war; diese Zahl fiel von 3 052 auf 2 133, und das bei einem insgesamt starken Anstieg der Zahl der Geprüften.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg11">Herr Abgeordneter, möchten Sie noch eine Zusatzfrage stellen? — Bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Meyer zu Bentrup (CDU/CSU):</note>
+        <u who="#Q1369441" xml:id="ParlaMint-DE_1981-06-16-09-044.u7" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg12">Was tut die Bundesregierung im Rahmen ihrer bildungspolitischen Kompetenz, um junge Menschen darauf hinzuweisen, wie eng der Arbeitsmarkt in diesen Fachrichtungen ist?</seg>
+        </u>
+        <note type="speaker">Kuhlwein, Parl. Staatssekretär:</note>
+        <u who="#Q1281343" xml:id="ParlaMint-DE_1981-06-16-09-044.u8" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg13">Herr Kollege, z. B. indem wir Fragen wie Ihre in dieser Fragestunde so beantworten, wie ich das getan habe. Sie wissen, daß wir grundsätzlich davon ausgehen, daß jeder, der sich berufen fühlt, der sich geeignet fühlt und die Neigung hat, auch nach Möglichkeit das studieren soll, was er gern möchte. Aber wir können natürlich in solchen politischen Diskussionen, wie wir sie hier im Deutschen Bundestag führen, durchaus darauf hinweisen, daß die Trends — wie sie bisher erkennbar sind — die Beschäftigungssituation nicht gerade als positiv ausweisen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u9" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg14">Ich rufe die Frage 6 des Herrn Abgeordneten Dr. Meyer zu Bentrup auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg15">Wie hoch ist der prozentuale Anteil dieser beschäftigungslosen Hochschulabsolventen in den letzten Jahren innerhalb der oben aufgeführten Fachrichtungen sowie gemessen an der Gesamtarbeitslosigkeit? Bitte schön, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Kuhlwein, Parl. Staatssekretär:</note>
+        <u who="#Q1281343" xml:id="ParlaMint-DE_1981-06-16-09-044.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg16">Herr Kollege, die Beantwortung Ihrer Frage würde voraussetzen, daß aktuelle Datenangaben über die „Bestände" an Erwerbspersonen mit entsprechender Hochschulausbildung verfügbar sind, also fachrichtungsspezifische Erwerbs- und Arbeitslosigkeitsquoten gebildet werden könnten. Dies ist gegenwärtig nicht der Fall. Solche Angaben könnten mit einem hinreichenden Verläßlichkeitsgrad nur aus einer Volks- und Berufszählung gewonnen werden; die Daten der letzten Volks- und Berufszählung von 1970 sind aber wegen der zwischenzeitlichen Expansion im Hochschulbereich — wie auch in anderen Bildungsbereichen — und wegen zwischenzeitlicher institutioneller Änderungen, z. B. die Einrichtung der Fachhochschulen 1972, veraltet und nicht mehr zu verwenden. Die für 1981 geplante neue Volks- und Berufszählung kam, wie Sie ja wissen, nicht zustande und ist jetzt erneut für 1982 geplant.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg17">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Meyer zu Bentrup (CDU/CSU):</note>
+        <u who="#Q1369441" xml:id="ParlaMint-DE_1981-06-16-09-044.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg18">Herr Staatssekretär, meine Frage war an sich sehr viel einfacher: Wie hoch ist der prozentuale Anteil derer, die die Hochschule verlassen und keine Beschäftigung finden?</seg>
+        </u>
+        <note type="speaker">Kuhlwein, Parl. Staatssekretär:</note>
+        <u who="#Q1281343" xml:id="ParlaMint-DE_1981-06-16-09-044.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg19">Die Frage ist ja, wenn man das statistisch sorgfältig aufbereiten wollte, wie hoch der Anteil derjenigen ist, die in der Vergangenheit bestimmte Fächer studiert haben und nach einem bestimmten Zeitraum keine Beschäftigung gefunden haben. Dazu liegen gegenwärtig keine verläßlichen Datenangaben vor, weil die Volks- und Berufszählung, die bereits 1981 stattfinden sollte, bisher nicht durchgeführt werden konnte. Wir können das, was Ihrer Frage zugrunde liegt, nur dann feststellen, wenn wir nicht nur diejenigen, die jetzt abgehen und vielleicht erst in einem halben oder einem Dreivierteljahr oder in zwei Jahren eine Beschäftigung finden, ermitteln, sondern wenn wir auch für einen länger zurückliegenden Zeitraum untersuchen, wie Studienabsolventen bestimmter Fachrichtungen ihre berufliche Karriere gestalten konnten.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Meyer zu Bentrup [CDU/CSU]: Danke!</desc>
+        </vocal>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg20">Eine weitere Zusatzfrage, Frau Abgeordnete Martiny-Glotz. Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Martiny-Glotz (SPD):</note>
+        <u who="#Q556817" xml:id="ParlaMint-DE_1981-06-16-09-044.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg21">Herr Staatssekretär, hat die Bundesregierung irgendwelche Anhaltspunkte, wie hoch die Zahl der Studenten ist, die etwas anderes machen als das, was sie ursprünglich studiert haben, gerade in so heiklen Fächern wie Politologie, Soziologie und Pädagogik?</seg>
+        </u>
+        <note type="speaker">Kuhlwein, Parl. Staatssekretär:</note>
+        <u who="#Q1281343" xml:id="ParlaMint-DE_1981-06-16-09-044.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg22">Frau Kollegin, aus den Zahlen, die ich vorgetragen habe, ergibt sich, daß eine beträchtliche Zahl von Studenten das Fach gewechselt haben muß, auch aus der Erfahrung heraus, die andere gemacht haben, die diese Studiengänge absolviert haben, daß nämlich die Beschäftigungsmöglichkeiten nicht sehr rosig sind. Konkrete Zahlen kann ich Ihnen gern schriftlich mitteilen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Frau Dr. Martiny-Glotz [SPD]: Darum würde ich Sie bitten!</desc>
+        </vocal>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u17" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg23">Keine weiteren Zusatzfragen. Ich rufe den Geschäftsbereich des Bundesministers des Innern auf. Zur Beantwortung der Fragen steht uns Herr Staatssekretär Dr. Fröhlich zur Verfügung. Ich rufe Frage 7 des Herrn Abgeordneten Müller (Wesseling)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg24">auf. — Der Abgeordnete ist nicht im Saal. Es wird verfahren, wie in den Richtlinien vorgesehen. Das gleiche gilt für Frage 8 desselben Fragestellers. Ich rufe Frage 9 des Herrn Abgeordneten Dr. Kübler auf. — Der Abgeordnete ist nicht im Saal. Es wird so verfahren, wie die Richtlinien es vorsehen. Ich rufe Frage 10 des Herrn Abgeordneten Dr. Laufs auf und freue mich, daß der Fragesteller im Saal ist:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg25">Liegen der Bundesregierung Informationen darüber vor, daß der weitere Ausbau der französischen Wiederaufarbeitungsanlage von La Hague nicht im bisher geplanten Umfang stattfinden könnte, und welche Auswirkungen könnten sich daraus für die Entsorgung deutscher Kernkraftwerke ergeben? Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär im Bundesministerium des Innern:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u18" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg26">Herr Abgeordneter, die im Mai 1981 neu gebildete französische Regierung hat bisher noch keine Stellungnahme darüber abgegeben, welche Haltung sie hinsichtlich des bisherigen Programms zum weiteren Ausbau der Wiederaufarbeitungsanlage in La Hague einzunehmen gedenkt. Die Bundesregierung geht daher davon aus, daß die abgeschlossenen Entsorgungsverträge mit der COGEMA eingehalten werden.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u19" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg27">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-06-16-09-044.u20" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg28">Herr Staatssekretär, da die gegenwärtig bemerkenswert erfolgreiche Sozialistische Partei Frankreichs immer wieder betont hat, Frankreich dürfe nicht der atomare Mülleimer der Welt werden und der weitere Ausbau der Wiederaufarbeitungsanlage La Hague müsse dringend überprüft werden, möchte ich Sie folgendes fragen: Wäre es nach dem Vertragstext dem französischen Vertragspartner, der Firma COGEMA, möglich, den Vertrag über die Wiederaufarbeitung von rund 2 000 Tonnen deutscher abgebrannter Brennelemente zu kündigen, wenn durch ein Votum in der Nationalversammlung oder durch einen Volksentscheid eine neue politische Lage entstünde?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg29">Herr Abgeordneter, ich halte die Frage zunächst für hypothetisch, weil wir auf dem Standpunkt stehen, daß auch auf der französischen Seite der Grundsatz „Pasta sunt servanda" gilt. Man muß hier auch zwischen dem privatrechtlichen Vertrag zwischen der COGEMA und den deutschen Elektrizitätserzeugern einerseits und der offiziellen Haltung der französischen Regierung andererseits unterscheiden, die natürlich gewisse Einflüsse auf die COGEMA ausüben kann. Aber es gibt im Augenblick noch kein Indiz dafür, daß die künftig erst neuzubildende französische Regierung dieses tun wird.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u22" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg30">Eine weitere Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-06-16-09-044.u23" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg31">Herr Staatssekretär, da sich nach meiner Kenntnis für die Entsorgung deutscher Kernkraftwerke ungünstige Entwicklungen in Frankreich nicht ausschließen lassen, frage ich: Wird die Bundesregierung die Verwirklichung ihres, nämlich des deutschen Entsorgungskonzeptes nun mit Nachdruck vorantreiben?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u24" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg32">Herr Abgeordneter, für den Fall, den ich, wie gesagt, im Augenblick für hypothetisch halte, daß in Zukunft der durch die COGEMA-Verträge erfaßte deutsche Wiederaufarbeitungsbedarf nicht oder nicht in vollem Umfang abgedeckt werden würde, könnte es allerdings erforderlich werden, daß die deutschen Vertragspartner der Firma COGEMA für den Verbleib der nicht zur Wiederaufbereitung gelangenden Mengen ihrer abgebrannten Brennelemente eine andere der in den Grundsätzen zur Entsorgungsvorsorge für Kernkraftwerke vom 29. Februar 1980 festgelegten Möglichkeiten nachweisen. Dieses müßte dann geschehen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u25" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg33">Keine weitere Zusatzfrage. Ich rufe Frage 11 des Herrn Abgeordneten Dr. Laufs auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg34">Wird die Bundesregierung ihre bisherige Absicht, eine Änderung des Bundes-Immissionsschutzgesetzes in dieser Wahlperiode nicht anzustreben, entsprechend der Empfehlung des Rats von Sachverständigen für Umweltfragen zur Beseitigung genehmigungsrechtlicher Hindernisse im Interesse eines zügigen Ausbaus der Fernwärmeversorgung revidieren? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u26" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg35">Herr Abgeordneter, Ihre Frage bezieht sich offenbar auf Ausführungen des Rates von Sachverständigen für Umweltfragen in dem Sondergutachten „Energie und Umwelt" vom März 1981, das der Bundesminister des Innern dem Vorsitzenden des Innenausschusses des Deutschen Bundestages zur Kenntnisnahme zugeleitet hat. Im Kapitel „Schlußfolgerungen und Empfehlungen" spricht der Rat von Sachverständigen rechtliche und wirtschaftliche Hindernisse an, die einer nachträglichen Kraft-Wärme-Kopplung bei vorhandenen Anlagen zur Erzeugung von Prozeßwärme oder dem Bau neuer Heizkraftwerke zur Fernwärmeversorgung entgegenstehen könnten. Entgegen den Befürchtungen der Anlagebetreiber, von denen der Rat von Sachverständigen ausgeht — ich beziehe mich auf die Textziffer 650 des Gutachtens —, löst die Kraft-Wärme-Kopplung bei vorhandenen Anlagen im allgemeinen keine zusätzlichen Luftverschmutzungen aus, die immissionsschutzrechtlichen Änderungsgenehmigungen entgegenstehen könnten. Durch die Nutzung von Abwärme mittels KraftWärme-Kopplung ergeben sich keine zusätzlichen Emissionen, solange der Primärenergieeinsatz unverändert bleibt. Sofern der Primärenergieeinsatz im Hinblick auf die Kraft-Wärme-Kopplung gesteigert werden muß, wird dies in der Immissionsbilanz durch den Wegfall von Emissionen aus Feuerungsanlagen des Hausbrands kompensiert. Diese Umstände sind bei den Immissionsprognosen zu berücksichtigen, die den Änderungsgenehmigungen zugrunde zu legen sind. Auch beim Bau neuer verbrauchernaher Heizkraftwerke — das ist die Textziffer 656 des Gutachtens — sehen wir keine immissionsschutzrechtlichen Hindernisse, die einem zügigen Ausbau der Fernwärmeversorgung entgegenstehen könnten. Der zentrale Bau von Heizkraftwerken führt zugleich zu einer Entlastung der bisher stark vorbelasteten reviernahen oder für den Primärenergietransport günstigen Standorte. Im übrigen tritt auch hier der schon beschriebene Kompensationseffekt ein, weil die besonders ungünstigen Emissionen aus Feuerungsanlagen des Hausbrands in Atemlufthöhe entfallen. Voraussetzung für die Wahrung der Belange des Umweltschutzes ist jedoch, daß bei den neuen, dezentralen Heizkraftwerken der moderne Stand der Emissionsminderungstechnik angewandt wird, damit die Emissionen nicht nur besser verteilt, sondern auch insgesamt, soweit wie möglich, verringert werden. Zu einer Novellierung des Bundes-Immissionsschutzgesetzes sieht die Bundesregierung daher unter diesem Gesichtspunkt keinen Anlaß.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u27" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg36">Zusatzfrage? — Bitte schön.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-06-16-09-044.u28" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg37">Herr Staatssekretär, kann ich Ihrer Antwort entnehmen, daß die Bundesregierung die Bedenken der Sachverständigen also nicht teilt, daß sich eine Sanierungs- und Luftreinhalteplanklausel sowie nähere Bestimmungen über das Ausmaß des Sachgüterschutzes im Rahmen des geltenden Rechts nicht verwirklichen lassen?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u29" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg38">Diese Auffassung teilt die Bundesregierung nicht. Ich darf darauf verweisen, daß die TA Luft seit dem Urteil des Bundesverwaltungsgerichts vom 17. Februar 1978 in Sachen Voerde von den Gerichten als antizipiertes Sachverständigengutachten zugrunde gelegt werden kann, so daß eine Rechtslücke nicht entsteht. Es ist also bei der Bewertung der Zulassung der Anlagen insoweit im Augenblick weniger ein Problem der formalen Gesetzeslücke als vielmehr ein Problem der Zumutbarkeit der Belastungen für die Nachbarn und der Wahrung von deren Grundrechten im Einzelfall. Hier muß eine Einzelfallprüfung der Zumutbarkeit stattfinden.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u30" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg39">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-06-16-09-044.u31" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg40">Darf ich Ihrer Antwort weiter entnehmen, daß die Bundesregierung das Urteil der Sachverständigen auch insoweit nicht teilt, als sie die Abwägungsmöglichkeiten bei der Sanierung von Belastungsgebieten, etwa im Rahmen der Technischen Anleitung zur Reinhaltung der Luft, als ausreichend gegeben ansieht?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg41">Herr Abgeordneter, es ist zuzugeben, daß hier, was die Kriterien hinsichtlich der Zulassung in Sanierungsgebieten angeht, noch ein gewisser Nachdenkungsbedarf besteht. Aber das Innenministerium ist dabei, sich mit diesen Dingen zu befassen, auch im Sinne der Hinweise der Sachverständigenkommission.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u33" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg42">Weitere Zusatzfrage, Herr Abgeordneter Hirsch.</seg>
+        </u>
+        <note type="speaker">Dr. Hirsch (FDP):</note>
+        <u who="#Q107360" xml:id="ParlaMint-DE_1981-06-16-09-044.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg43">Herr Staatssekretär, die Bundesregierung hat in einer Fragestunde die Angaben des nordrhein-westfälischen Arbeits- und Sozialministers Farthmann bestätigt, daß die ganz überwiegende Zahl immissionsschutzrechtlicher Genehmigungen innerhalb von sechs Monaten erteilt wird und daß wir in Nordrhein-Westfalen sogar eine „Genehmigungshalde" nicht ausgenutzter Genehmigungen zur Errichtung von Kraftwerken mit einem Volumen von etwa 8 500 Megawatt haben, so daß also von Hemmnissen gar keine Rede sein kann. Kann man davon ausgehen, daß die Bundesregierung vor irgendwelchen weiteren gesetzlichen Initiativen, wie sie hier erfragt werden, zunächst einmal die entsprechenden Zahlen auch der anderen Bundesländer einholt, damit man einmal feststellt, in welchem Umfang immissionsschutzrechtliche Fragen Investitionen tatsächlich behindern?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg44">Davon kann man mit Sicherheit ausgehen, Herr Abgeordneter.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Hirsch (FDP): Danke schön!</desc>
+        </vocal>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u36" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg45">Keine weiteren Zusatzfragen. Ich rufe die Frage 12 des Herrn Abgeordneten Dr. Olderog auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg46">Wie hoch veranschlagt die Bundesregierung die Mehrkosten für den Bundeshaushalt, die dadurch entstehen, daß bei der Anpassung der Gehälter im Gegensatz zur Neufestsetzung der BAföG-Beträge die Bezüge nicht auf volle DM abgerundet, sondern auf volle Pfennigbeträge aufgerundet werden sollen, und wie begründet die Bundesregierung das zweierlei Maß für Auszubildende und Beamte?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg47">Leistungen nach dem BAföG, Herr Abgeordneter, sind keine Bezüge aus entgeltlicher Arbeit, sondern steuerfreie Sozialleistungen nach Bedürftigkeitsgesichtspunkten; ich verweise auf § 1 BAföG. Ihre Festsetzung unterliegt eigenen Regeln. Es gehört andererseits zu den Tarifvereinbarungen für die Arbeitnehmer in der Wirtschaft und im öffentlichen Dienst, daß Anpassungen, die als Prozentsatz vereinbart sind, auch auf Heller und Pfennig ausbezahlt werden. Das hängt auch damit zusammen, daß Steuern und Sozialabgaben ebenfalls in Prozentsätzen berechnet sind und auf Heller und Pfennig einbehalten werden. Die Gehälter der Beamten, Richter und Soldaten, also der Besoldungsempfänger, stehen als steuerpflichtiges Arbeitseinkommen insoweit Arbeitnehmerbezügen gleich. Bei Besoldungsanpassungen wird deshalb ebenso verfahren wie im Arbeitnehmerbereich. Da eine Abrundung auf DM-Beträge bei den Tarifgewerkschaften nicht durchsetzbar wäre, könnten Einsparungen nur einseitig zu Lasten der Besoldungs- und Versorgungsempfänger erfolgen, und zwar von bis zu 4 Millionen DM jährlich im Bundeshaushalt, allerdings unter Inkaufnahme unterschiedlicher Bezügeeinbußen — es reicht von 1 Pfennig bis zu 99 Pfennig je Monat — und unter unterschiedlicher Behandlung gerade auch der 65 % Soldaten und Beamten, die dem einfachen und mittleren Dienst angehören und bei denen diese Beträge auch zu Buche schlagen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u38" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg48">Eine Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Olderog (CDU/CSU):</note>
+        <u who="#Q2163694" xml:id="ParlaMint-DE_1981-06-16-09-044.u39" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg49">Herr Staatssekretär, glaubt die Bundesregierung, daß Studenten und BAföG-Bezieher weniger mit dem Pfennig rechnen müssen als Beamte?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u40" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg50">Nein, das glaubt die Bundesregierung sicher nicht, Herr Abgeordneter. Ich habe aber ausgeführt, daß hier unterschiedliche Regeln gelten. Die BAföG-Beträge unterliegen ja auch nicht steuerlicher Behandlung und insoweit auch nicht der Heller-und-Pfennig-Rechnung, die die Steuer anstellt.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u41" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg51">Eine weitere Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Olderog (CDU/CSU):</note>
+        <u who="#Q2163694" xml:id="ParlaMint-DE_1981-06-16-09-044.u42" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg52">Herr Staatssekretär, erinnere ich mich richtig, daß in der Vergangenheit auch bei Studenten aufgerundet und nicht abgerundet worden ist, und kann man die in dieser Frage angesprochene Lastenverteilung als Symbol und Beispiel dafür sehen, wie die Bundesregierung in Zukunft sozialen Wildwuchs abbauen will?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u43" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg53">Herr Abgeordneter, ich kann die Frage, ob in der Vergangenheit so, wie Sie es ausführen, verfahren worden ist, im Augenblick nicht behandeln. Ich kann das aber gern überprüfen und Ihnen dann eine Mitteilung dazu machen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u44" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg54">Eine weitere Zusatzfrage, Frau Abgeordnete Martiny-Glotz.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Martiny-Glotz (SPD):</note>
+        <u who="#Q556817" xml:id="ParlaMint-DE_1981-06-16-09-044.u45" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg55">Herr Staatssekretär, könnte die von Ihnen herangezogene unterschiedliche Regelung, die hier vorliegt, vielleicht auch darauf zurückzuführen sein, daß unterschiedliche Lobbyistengruppen von unterschiedlicher Stärke wirksam geworden sind?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg56">Das ist eine Frage, die sich meiner Bewertung entzieht, Frau Abgeordnete. Man muß aber eben den Unterschied sehen: Das eine ist die Bezahlung einer Arbeitsleistung, das andere ist eine Förderung im Rahmen sozialer Leistungen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg57">Keine weiteren Zusatzfragen. Ich rufe die Frage 13 des Herrn Abgeordneten Weirich auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg58">Was gedenkt die Bundesregierung nach der Detonation zahlreicher Selbstschußanlagen an Grenzanlagen der DDR während der jüngsten Unwetterkatastrophe in Nord- und Osthessen sowie Südniedersachsen gegenüber der Regierung der DDR zu unternehmen, um bei ähnlichen Naturereignissen in Zukunft eine Gefahr für das Leben der Bewohner der Bundesrepublik Deutschland in Zonennähe auszuschließen?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u48" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg59">Durch Selbstschußanlagen oder Minen sind — nach den Feststellungen unserer Grenzsicherungsorgane und entgegen anderslautenden Presseberichten — bei der jüngsten Unwetterkatastrophe keine Schäden auf dem Gebiet der Bundesrepublik eingetreten. Im übrigen darf ich sagen: Die Vermeidung von Auswirkungen durch das System der Grenzsperranlagen auf das Bundesgebiet ist in zahlreichen Sitzungen der Grenzkommission erörtert worden. Grundlage dafür ist ja, wie Sie sicher wissen, Herr Abgeordneter, das Abkommen der Grenzkommission über die Vermeidung von Schadensfällen. Insbesondere ist auch auf die Gefährdung im Fall von Hochwasser generell und in konkreten Fällen immer wieder hingewiesen worden. Die DDR hat ihre Verpflichtung zur Vermeidung von Schäden für das Bundesgebiet ausdrücklich anerkannt. Sie hat, wie sich beispielsweise beim Frühjahrshochwasser dieses Jahres gezeigt hat, auch Vorsorgemaßnahmen getroffen, um Gefahren durch detonierende Selbstschußanlagen zu vermeiden. Anläßlich der jüngsten Unwetterkatastrophe ist die DDR über das Grenzinformationssystem, das eigens für diesen Zweck eingerichtet ist, auf ihre Pflicht zur Vermeidung von Schäden erneut hingewiesen worden.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg60">Eine Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Weirich (CDU/CSU):</note>
+        <u who="#Q123224" xml:id="ParlaMint-DE_1981-06-16-09-044.u50" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg61">Herr Staatssekretär, können Sie die Meldungen der Grenzschutzkommandos, die sich gegenüber der dortigen lokalen Presse verlautbart haben, bestätigen, daß Minen auf das Gebiet der Bundesrepublik Deutschland getrieben sind und daß es nur dem Glück der Umstände zu verdanken war, daß es zu keinen Schäden gekommen ist?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg62">Herr Abgeordneter, diese Meldungen kann ich, was die letzte Unwetterkatastrophe des Frühjahrs angeht, nicht bestätigen. Es gab in den vergangenen Jahren solche Vorfälle. Soweit aber in der letzten Zeit solche Informationen in die Presse gekommen sind, haben sie einer Nachprüfung nicht standgehalten.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg63">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Weirich (CDU/CSU):</note>
+        <u who="#Q123224" xml:id="ParlaMint-DE_1981-06-16-09-044.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg64">Herr Staatssekretär, welche konkreten Maßnahmen des Gewässerschutzes wurden bei den Verhandlungen zwischen den beiden deutschen Seiten erwogen, und was erwarten Sie denn in den kommenden Monaten an Erfolgen bei den Beratungen in der Grenzkommission?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u54" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg65">Es hat ja bereits eine ganze Reihe konkreter Abmachungen gegeben. Es lassen sich auch eine ganze Reihe von konkreten Verbesserungen vorweisen. Das reicht von Abmachungen über die Instandhaltung von Grenzgewässern, durch die Überflutungen vermieden werden, bis hin zur Beseitigung von grenznahen störenden Einrichtungen auf der DDR-Seite. Ein sehr wesentlicher Vorzug, der erreicht worden ist, liegt darin, daß eine unmittelbare Informationsmöglichkeit über Gefährdungstatbestände auf beiden Seiten geschaffen worden ist.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u55" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg66">Keine weiteren Zusatzfragen. Ich rufe die Frage 14 des Herrn Abgeordneten Wolfgramm (Göttingen)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg67">auf. Der Herr Abgeordnete bittet um schriftliche Beantwortung. Die Antwort wird als Anlage abgedruckt. Frage 15 des Herrn Abgeordneten Herberholz. Der Abgeordnete ist nicht im Saal. Es wird wie vorgesehen verfahren. Frage 17 des Abgeordneten von der Heydt Freiherr von Massenbach. Der Abgeordnete ist nicht im Saal. Es wird ebenso verfahren. Ich rufe die Frage 18 des Herrn Abgeordneten Neumann (Bramsche)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg68">auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg69">Welches Ergebnis haben die Bemühungen des Bundeskanzlers, die Länder zu einer weiteren Aufnahme der durch die „Cap Anamur" aus Seenot geretteten Vietnamflüchtlinge zu bewegen? Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u56" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg70">Herr Abgeordneter, die Bereitstellung von weiteren Aufnahmeplätzen für die von der Cap Anamur aufgenommenen Vietnamflüchtlinge war Gegenstand der Besprechung des Bundeskanzlers mit den Regierungschefs der Länder am 5. dieses Monats. Dabei sind auch die längerfristigen Perspektiven dieser Frage eingehend erörtert worden. Die Regierungschefs der Länder haben sich vorbehalten, bis zum 15. dieses Monats, also bis gestern abend, zu diesen Fragen Stellung zu nehmen. Bisher sind mir erst die Äußerungen aus zwei Ländern bekannt. Eine Beantwortung der von Ihnen gestellten Frage ist daher erst nach Vorliegen und Bewertung sämtlicher Stellungnahmen der Länder möglich.</seg>
+        </u>
+        <note type="speaker">Neumann (Bramsche) (SPD):</note>
+        <u who="#Q1578219" xml:id="ParlaMint-DE_1981-06-16-09-044.u57" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg71">Herr Staatssekretär, können Sie mir sagen, welche beiden Länder geantwortet haben und welchen Inhalt diese Antworten haben?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u58" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg72">Herr Abgeordneter, angesichts der Tatsache, daß diese Angelegenheit zunächst in einer internen Diskussion zwischen Regierungschefs von Bund und Ländern behandelt worden ist und derzeit eine Meinungsbildung stattfindet, halte ich es nicht für richtig, Teilergebnisse jetzt vorweg bekanntzugeben. Ich bitte dafür um Verständnis.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u59" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg73">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Neumann (Bramsche) (SPD):</note>
+        <u who="#Q1578219" xml:id="ParlaMint-DE_1981-06-16-09-044.u60" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg74">Herr Staatssekretär, können Sie mir sagen, was mit den Flüchtlingen passiert, die derzeit von der Cap Anamur gerettet worden sind und bei denen keine Aufnahmegarantie erklärt ist?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u61" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg75">Die Ministerpräsidenten haben sich in der Sitzung am 5. dieses Monats bereit erklärt, daß sie die knapp 500 Flüchtlinge aus der letzten Rettungsaktion der Cap Anamur, die inzwischen in südostasiatischen Ländern abgesetzt worden sind, aufnehmen werden, so daß derzeit alle geborgenen Flüchtlinge aufgenommen werden können. Eine offene Frage ist die Aufnahmemöglichkeit für die Flüchtlinge, die bei der inzwischen wieder laufenden Fahrt der Cap Anamur geborgen werden. Hier besteht in der Tat ein Entscheidungsbedarf.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u62" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg76">Eine weitere Zusatzfrage des Herrn Abgeordneten Hirsch.</seg>
+        </u>
+        <note type="speaker">Dr. Hirsch (FDP):</note>
+        <u who="#Q107360" xml:id="ParlaMint-DE_1981-06-16-09-044.u63" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg77">Herr Staatssekretär, sind die Informationen zutreffend, daß sich in dem von Ihnen erwähnten Gespräch zwischen Bundeskanzler und Ministerpräsidenten die Länder überwiegend ablehnend eingestellt haben und daß sich das Bundesland Bayern darüber hinaus sogar unverändert weigert, seine Quote von Asylbewerbern aufzunehmen?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u64" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg78">Herr Abgeordneter, verstehen Sie bitte, daß ich jetzt aus dieser internen Besprechung des Bundeskanzlers mit den Regierungschefs nicht inhaltliche Einzeldarstellungen geben kann. Ich glaube, man muß abwarten, wie sich jetzt der gesamte Meinungsbildungsprozeß vollzieht; dann wird sicher auch die Öffentlichkeit entsprechend informiert werden.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u65" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg79">Keine weiteren Zusatzfragen. Ich rufe die Frage 19 des Herrn Abgeordneten Neumann (Bramsche)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg80">auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg81">Besteht neben der völkerrechtlichen Verpflichtung, Menschen aus Seenot zu retten, auch eine Verpflichtung, durch deutsche Schiffe gerettete Menschen in der Bundesrepublik Deutschland aufzunehmen, und wenn ja, welche Folgerungen zieht die Bundesregierung daraus?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u66" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg82">Herr Abgeordneter, eine Verpflichtung, von deutschen Schiffen gerettete Flüchtlinge in der Bundesrepublik Deutschland aufzunehmen, läßt sich aus dem Völkerrecht nicht herleiten. Die Bundesrepublik Deutschland hat sich jedoch aus humanitären Gründen darum bemüht, möglichst vielen der aus Seenot geretteten Flüchtlingen eine Heimat und Existenzgrundlage in der Bundesrepublik Deutschland zu verschaffen. Die Bundesregierung wird ihre Bemühungen in dieser Richtung auch weiterhin fortsetzen.</seg>
+        </u>
+        <note type="speaker">Neumann (Bramsche) (SPD):</note>
+        <u who="#Q1578219" xml:id="ParlaMint-DE_1981-06-16-09-044.u67" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg83">Herr Staatssekretär, verstehe ich Sie richtig, daß eine völkerrechtliche Verpflichtung zur Rettung von Schiffbrüchigen besteht, aber keine Verpflichtung, diese dann aufzunehmen?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg84">Sie verstehen mich richtig, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Neumann (Bramsche) (SPD):</note>
+        <u who="#Q1578219" xml:id="ParlaMint-DE_1981-06-16-09-044.u69" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg85">Herr Staatssekretär, was passiert dann mit den Flüchtlingen, die gerettet worden sind und sich noch auf den Schiffen befinden?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u70" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg86">Herr Abgeordneter, im Normalfall ist ein Schiffbrüchiger ja nicht jemand, der die Aufnahme in einem anderen Land benötigt, sondern er muß in erster Linie aus Seenot gerettet werden. Hier haben wir den besonderen Fall, daß es sich um Schiffbrüchige handelt, die nicht mehr in ihre Heimat zurückkehren können oder zurückkehren wollen. Hier entsteht eine gewisse Kopplung, einerseits die Verpflichtung zur Rettung, andererseits die Notwendigkeit, die Geretteten auch unterzubringen, was eine freie Entscheidung des aufnehmenden Staates darstellt.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u71" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg87">Eine weitere Zusatzfrage des Herrn Abgeordneten Repnik.</seg>
+        </u>
+        <note type="speaker">Repnik (CDU/CSU):</note>
+        <u who="#Q106976" xml:id="ParlaMint-DE_1981-06-16-09-044.u72" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg88">Herr Staatssekretär, ist es so, daß, wenn sich die Bundesregierung mit den Bundesländern nicht auf eine Aufnahme weiterer Flüchtlinge von der „Cap Anamur" einigen kann, die „Cap Anamur" ihren Dienst einstellen muß, wenn sie Flüchtlinge nicht in anderen Ländern unterbringt?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u73" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg89">Wenn ich den theoretischen Fall nehme, Herr Abgeordneter, daß es nicht möglich ist, Aufnahmezusagen für weiterhin von der „Cap Anamur" geborgene Flüchtlinge zu geben und wenn es andererseits dabei bleibt, daß die Staaten in Südostasien die Anlandung der von der „Cap Anamur" Geborgenen davon abhängig machen, daß diese kurzfristig aus dem Land weiterverbracht werden, dann ist in der Tat die Grundlage für die bisherige Art der Rettungstätigkeit der „Cap Anamur" in Frage gestellt.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u74" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg90">Eine weitere Zusatzfrage, Herr Abgeordneter Hansen.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD):</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1981-06-16-09-044.u75" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg91">Herr Staatssekretär, würden Sie, da es keine völkerrechtliche Verpflichtung gibt, solche Flüchtlinge aufzunehmen, denn nicht aus dem Geist des Grundgesetzes eine moralische Verpflichtung zur Aufnahme für die Bundesrepublik Deutschland folgern, zumal wir auch so etwas wie ein Asylrecht als Folgerung daraus gezogen haben?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u76" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg92">Herr Abgeordneter, ich würde das Asylrecht hier nicht ins Spiel bringen, da die Wurzeln des Asylrechts anderer Art sind. Ich habe aber ausgeführt, daß sich die Bundesregierung aus humanitären Gründen — diese humanitären Gründe wurzeln auch in unserer Verfassung — darum bemüht, diesen Menschen Aufnahme zu bieten. Auf der anderen Seite ist aber nicht zu verkennen, daß die Aufnahmemöglichkeiten in der Bundesrepublik Deutschland nicht unbegrenzt sind.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u77" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg93">Keine weiteren Zusatzfragen. Ich rufe Frage 20 des Abgeordneten Thüsing auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg94">Trifft der Bericht des Hamburger Wochenmagazins „stern" vom 27. Mai 1981 zu, wonach Mitglieder der amerikanischen rassistischen Terrororganisation Ku-Klux-Klan als Angehörige der in der Bundesrepublik Deutschland stationierten US-Streitkräfte mit deutschen NeoNazis zusammenarbeiten und einen „Ku-Klux-Klan Deutschland" gegründet haben, und wenn ja, welche Folgerungen zieht die Bundesregierung daraus?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u78" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg95">Herr Abgeordneter, zu einer Organisation mit der Bezeichnung „Ku-KluxKlan Deutschland" liegt den Sicherheitsbehörden lediglich die Information vor, daß der 19jährige Schüler Thomas Schwencke, der auch in dem angesprochenen „stern"-Artikel erwähnt wird, im Januar 1981 unter der Bezeichnung „Informationsbüro des Ku-Klux-Klan Deutschland, Mainz" Werbematerial für zwei miteinander konkurrierende Ku-KluxKlan-Gruppen versandt hat. Darüber hinaus ist den Sicherheitsbehörden bekannt, daß zwei der zahlreichen und unterschiedlich ausgerichten Ku-Klux-Klan-Organisationen der Vereinigten Staaten versuchen, Filialen in der Bundesrepublik Deutschland zu gründen. Dem Publikationsorgan einer dieser Organisationen war zu entnehmen, daß auf zwei Luftstützpunkten in Rheinland-Pfalz durch Angehörige der US-Streitkräfte eine westdeutsche Sektion dieser Organisation gegründet wurde. Dieser Sektion gehören auch einzelne Deutsche an, so der bereits erwähnte Thomas Schwencke. Außer der genannten Werbeaktion des Schwencke ist bekannt, daß in der neonazistischen Zeitschrift „Die Bauernschaft", herausgegeben von der „Bürger- und Bauerinitiative" des Neonazis Thies Christophersen, für eine Ku-Klux-Klan-Organisation geworben wurde. Die Bundesregierung wird die Entwicklung beobachten, sieht jedoch keine Veranlassung zu einem Protest gegenüber den amerikanischen Behörden. Die in diesen Fällen übliche enge Zusammenarbeit zwischen den Sicherheitsbehörden der Bundesrepublik Deutschland und den USA ist gewährleistet.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u79" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg96">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Thüsing (SPD):</note>
+        <u who="#Q1271409" xml:id="ParlaMint-DE_1981-06-16-09-044.u80" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg97">Sehen Sie — auch auf Grund der von Ihnen vorgetragenen Informationen — Anlaß, dieses Thema zu einem Thema der Konferenz der Innenminister der Länder zu machen?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg98">Wir sind, Herr Abgeordneter, in dieser Angelegenheit mit dem zunächst betroffenen Innenminister des Landes Rheinland-Pfalz in Kontakt. Wenn das ein Problem wird, das über den Bereich eines Landes hinaus Bedeutung hat, wird es zweifellos auch mit den Innenministern generell diskutiert werden.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg99">Keine weiteren Zusatzfragen. — Ich rufe Frage 21 des Abgeordneten Thüsing auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg100">Gedenkt die Bundesregierung angesichts der rechtsextremen Betätigungen von Truppenangehörigen der US-Streitkräfte in der Bundesrepublik Deutschland offiziell Protest einzulegen?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u83" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg101">Die Frage ist schon mit beantwortet worden, Herr Abgeordneter.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u84" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg102">Die Frage wurde schon beantwortet; Sie haben aber noch zwei Zusatzfragen.</seg>
+          <vocal type="exclamat">
+            <desc>Thüsing [SPD]: Das ist dann erledigt!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg103">— Gut.</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg104">Die Fragen 22 und 23 des Herrn Abgeordneten Dr. Friedmann werden auf Wunsch des Fragestellers schriftlich beantwortet. Die Antworten werden als Anlage abgedruckt. Ich rufe Frage 24 des Herrn Abgeordneten Dr. Hirsch auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg105">Ist der Bundesregierung die Studie von Fetter und Tsipis (Massachusetts Institute of Technology) bekannt, in der die möglichen Folgen eines atomaren Angriffs auf das Kernkraftwerk Neckarwestheim untersucht werden, und welche Maßnahmen hat sie zum Schutz der Zivilbevölkerung für einen solchen Fall getroffen?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u85" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg106">Herr Abgeordneter, die Studie von Fetter und Tsipis ist der Bundesregierung bekannt. Sie befaßt sich unter anderem mit den Folgen von Atombombenabwürfen auf in Betrieb befindliche Kernkraftwerke. Die Studie wurde als Worst-Case-Studie ausgelegt, d. h. sie betrachtet und bewertet keine Eintrittwahrscheinlichkeiten für die betrachteten Fälle. Abgesehen von der Frage der Eintrittswahrscheinlichkeit solcher Ereignisse müßte wohl auch auf den völkerrechtlichen Aspekt hingewiesen werden: Durch ein Zusatzprotokoll zu den Genfer Rotkreuz-Konventionen hat das Plenum der Konferenz im Frühjahr 1977 ein Verbot beschlossen, u. a. Kernkraftwerke zum Gegenstand eines militärischen Angriffs oder einer entsprechenden Androhung zu machen. Das Zusatzprotokoll wurde von 46 Staaten unterzeichnet und bisher von 17 Staaten ratifiziert. Die Bundesrepublik Deutschland hat noch nicht ratifiziert, da das Konsultationsverfahren mit den Bündnisstaaten der NATO noch nicht abgeschlossen ist. Die Konsequenzen für die Bevölkerung würden bei Atomwaffenabwürfen, auch wenn ein Kernkraftwerk in Mitleidenschaft gezogen würde, entscheidend durch die zerstörende Wirkung und das Spaltstoffinventar der Bombe bestimmt. Für den Schutz der Bevölkerung kommen deshalb die bei Atombombenabwürfen vorgesehenen allgemeinen Zivilschutzmaßnahmen in Betracht.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u86" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg107">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Hirsch (FDP):</note>
+        <u who="#Q107360" xml:id="ParlaMint-DE_1981-06-16-09-044.u87" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg108">Herr Staatssekretär, Sie sagen, es kämen die allgemeinen Maßnahmen in Betracht. Kann ich daraus schließen, daß in der Umgebung von Kernkraftwerken wegen des dargestellten erheblichen Risikos bisher keine besonderen Schutzmaßnahmen getroffen worden sind oder für erforderlich gehalten werden?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u88" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg109">Herr Abgeordneter, wenn man davon ausgeht, daß das Risiko solcher Schadensereignisse in der Umgebung von Kernkraftwerken nicht wesentlich größer ist als das allgemeine Risiko im ganzen Bundesgebiet durch Nuklearwaffeneinsatz im Kriegsfall, dann handelt es sich in der Tat um Maßnahmen, die für das ganze Bundesgebiet getroffen werden müssen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u89" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg110">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Hirsch (FDP):</note>
+        <u who="#Q107360" xml:id="ParlaMint-DE_1981-06-16-09-044.u90" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg111">Herr Staatssekretär, ist das Risiko verschieden, je nachdem, ob sich ein Angriff auf ein Kernkraftwerk oder auf eine Wiederaufarbeitungsanlage richten würde, und beziehen sich die internationalen Abmachungen, von denen Sie gesprochen haben, auch auf Wiederaufarbeitungsanlagen?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u91" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg112">Die internationalen Abmachungen beziehen sich sinngemäß auch auf Wideraufarbeitungsanlagen, weil die Abmachungen im Hinblick auf eine entsprechend gezielte Waffenwirkung alles einschließen, was schwere Folgeschäden für die Bevölkerung nach sich ziehen kann.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u92" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg113">Herr Dr. Hirsch, Sie dürfen keine weitere Zusatzfrage stellen.</seg>
+          <vocal type="question">
+            <desc>Dr. Hirsch [FDP]: Die Frage ist nicht beantwortet!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg114">— Herr Abgeordneter Dr. Hirsch, es ist nicht das erste Mal, daß eine Frage nach Meinung des Fragestellers nicht ausreichend beantwortet ist. Aber es besteht keine Möglichkeit, von seiten des Präsidenten die Bundesregierung zu veranlassen, die Frage im Sinne des Abgeordneten zu beantworten. Ich bedaure. Zu einer weiteren Zusatzfrage Herr Abgeordneter Dr. Laufs.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-06-16-09-044.u93" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg115">Herr Staatssekretär, welche Motive eines Angreifers sind nach Auffassung der Bundesregierung vorstellbar für die Zerstörung eines im Betrieb befindlichen Kernreaktors mit nuklearen Waffen mit der Folge einer unkontrollierten Freisetzung von Radioaktivität, die je nach Wetterlage auch weite Bereiche des Auslands in Mitleidenschaft ziehen kann?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u94" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg116">Herr Abgeordneter, eigentlich haben Sie die Frage indirekt beantwortet. Die Antwort müßte sein, daß bei einer realistischen Einschätzung das Risiko einer solchen Angriffshandlung für den Angreifer zu groß ist.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u95" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg117">Zu einer weiteren Zusatzfrage Herr Abgeordneter Hansen.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD):</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1981-06-16-09-044.u96" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg118">Herr Staatssekretär, wäre es, da es vorstellbar ist, daß die Bevölkerung von der Tatsache beunruhigt sein könnte, daß Verträge im Verteidigungsfall solche Anlagen nicht schützen, zumal nukleare Waffen einen Streubereich haben, der auch zu unbeabsichtigten Wirkungen führen könnte, nicht angebracht, unsere Bevölkerung generell besser als bisher über die mögliche Wirkung solcher stationärer Bomben, wie ich sie nennen möchte, im sogenannten Verteidigungsfall sowie auch über die Wirkung von Verteidigunganstrengungen eigener Streitkräfte aufzuklären, da dies, soviel ich weiß, seit über 20 Jahren — sprich: seit „Carte blanche" und „Lion noire" — nicht mehr geschehen ist?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u97" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg119">Herr Abgeordneter, ich habe ausgeführt, daß das Risiko, welches für die Bevölkerung gegeben ist, in erster Linie durch die nukleare Wirkung eingesetzter Atomwaffen entsteht. Es gibt da keinen wesentlichen Unterschied zu der Gefährdungslage, die im Bundesgebiet insgesamt in dem schlimmsten vorstellbaren Fall eines mit Atomwaffen geführten Angriffs auf das Bundesgebiet gegeben sein könnte. Insoweit beziehen sich auch die Aufklärungsaktion und die Vorsorgemaßnahmen, die die Bundesregierung im Rahmen des Möglichen trifft, auf das ganze Bundesgebiet und schließen von daher auch die Gefahrenlage im Bereich der Kernkraftanlagen mit ein.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u98" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg120">Eine weitere Zusatzfrage, Herr Abgeordneter Feldmann.</seg>
+        </u>
+        <note type="speaker">Dr. Feldmann (FDP):</note>
+        <u who="#Q2017948" xml:id="ParlaMint-DE_1981-06-16-09-044.u99" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg121">Herr Staatssekretär, denkt die Bundesregierung daran, ein besonderes Schutzraumprogramm für das Gebiet in der Nähe von Kernkraftwerken aufzulegen bzw. den Bau von Schutzräumen in der Nähe von Kernkraftwerken besonders zu fördern?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u100" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg122">Herr Abgeordneter, ich muß wiederholen: Die Bundesregierung sieht keine spezifische Gefährdung für die Bevölkerung in Bereich der Kernkraftanlagen. Sie sieht eine gleichmäßige Gefährdung für das Bundesgebiet insgesamt, so daß sie ein spezielles Schutzbauprogramm für die Umgebung von Kernkraftwerken derzeit nicht ins Auge gefaßt hat.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg123">Eine weitere Zusatzfrage, Herr Abgeordneter Wendig.</seg>
+        </u>
+        <note type="speaker">Dr. Wendig (FDP):</note>
+        <u who="#Q1462786" xml:id="ParlaMint-DE_1981-06-16-09-044.u102" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg124">Herr Staatssekretär, ist nach Ihrer Auffassung das Gefahrenrisiko bei einer Wiederaufbereitungsanlage genauso hoch einzuschätzen wie bei einer anderen Kernkraftanlage, oder wird es größer sein?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg125">Herr Abgeordneter, ich kann diese Frage, hier nicht für Sie befriedigend beantworten. Aber ich lasse das gerne nachprüfen. Es ist mir nicht bekannt, ob die derzeitigen Untersuchungen diese spezielle Abwägung zwischen dem Risiko von Kernkraftwerken einerseits und Wiederaufbereitungsanlagen andererseits berücksichtigt haben.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u104" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg126">Weitere Zusatzfrage, Frau Abgeordnete Schuchardt.</seg>
+        </u>
+        <note type="speaker">Frau Schuchardt (FDP):</note>
+        <u who="#Q1602291" xml:id="ParlaMint-DE_1981-06-16-09-044.u105" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg127">Herr Staatssekretär, wenn Sie sagen, daß ein besonderes Risiko für die Bevölkerung in der Einsetzung der Atomwaffe selber liege: Wie wäre denn das Risiko für die Bevölkerung etwa einzuschätzen, wenn ein Angriff mit konventionellen Waffen z. B. auf ein Zwischenlager oder eine Wiederaufbereitungsanlage stattfände, und wie groß wäre das Risiko der Freisetzung von Radioaktivität durch einen solchen Angriff?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u106" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg128">Frau Abgeordnete, nach den Sicherheitsstandards, die in der Bundesrepublik Deutschland gelten, kann davon ausgegangen werden, daß die kerntechnischen Anlagen in der Bundesrepublik Deutschland konventionellen Waffenwirkungen oder auch Unglücksfällen des täglichen Lebens weitgehend standhalten,</seg>
+          <vocal type="exclamat">
+            <desc>Widerspruch bei Abgeordneten der SPD</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg129">so daß wir zunächst davon ausgehen, daß nicht mit nuklearen Einsatzmitteln geführte Angriffe einen besonderen Gefährdungstatbestand nicht hervorrufen würden.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u107" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg130">Eine weitere Zusatzfrage des Herrn Abgeordneten Peter.</seg>
+        </u>
+        <note type="speaker">Peter (Kassel) (SPD):</note>
+        <u who="#Q1629785" xml:id="ParlaMint-DE_1981-06-16-09-044.u108" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg131">Herr Staatssekretär, nachdem ich jetzt im Rahmen dieser Fragestunde doch einige Erkenntnisse gewonnen habe: Sehen Sie denn Möglichkeiten, die Bevölkerung der Bundesrepublik über die Dinge, die wir heute morgen erfahren haben, aufzuklären?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u109" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg132">Sie wissen, daß es sich im Augenblick um eine Diskussion handelt, die durch Presseveröffentlichungen in den Vereinigten Staaten in Gang kommt. Ich bin ganz sicher, daß auch durch die parlamentarischen Gremien eine Diskussion in Gang kommen wird, die auch eine Aufklärung der Bevölkerung bewirken wird.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u110" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg133">Eine weitere Zusatzfrage, Herr Abgeordneter Thüsing.</seg>
+        </u>
+        <note type="speaker">Thüsing (SPD):</note>
+        <u who="#Q1271409" xml:id="ParlaMint-DE_1981-06-16-09-044.u111" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg134">Herr Staatssekretär, ist es vor dem Hintergrund Ihrer Antworten nicht besonders unverantwortlich, eine Wiederaufarbeitungsanlage — wie jetzt in Nordhessen geplant — wenige Kilometer neben einer Raketenabschußanlage, von der Atomraketen verschossen werden können, zu errichten — angesichts der Gefahr, daß bei Fehlstarts solcher Raketen die Wiederaufarbeitungsanlage durch NATO-Raketen getroffen werden kann?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg135">Herr Abgeordneter, ich bin sicher, daß bei der technischen Anlage solcher Einrichtungen in der Nähe der von Ihnen erwähnten militärischen Einrichtungen auf diese Aspekte Bedacht genommen wird. Ich glaube nicht, daß etwa ein Absturz einer Rakete ein ernstliches Gefährdungspotential freisetzen würde.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg136">Eine weitere Zusatzfrage, Frau Abgeordnete Martiny-Glotz.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Martiny-Glotz (SPD):</note>
+        <u who="#Q556817" xml:id="ParlaMint-DE_1981-06-16-09-044.u114" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg137">Herr Staatssekretär, auch ich habe aus dieser Fragestunde einige Erkenntnisse gezogen: Worauf stützt die Bundesregierung angesichts der Zerstörung dieses zwar noch im Bau befindlichen Kernkraftwerks in der Nähe von Bagdad mit ja wohl konventionellen Waffen ihren Optimismus, daß deutsche Kernkraftwerke und Wiederaufbereitungsanlagen konventionellen Waffen standhalten?</seg>
+        </u>
+        <note type="speaker">Dr. Fröhlich, Staatssekretär:</note>
+        <u who="#Q2283339" xml:id="ParlaMint-DE_1981-06-16-09-044.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg138">Wir gehen nicht davon aus, daß der Sicherheitsstandard der Anlagen in der Bundesrepublik Deutschland mit dem in der Nähe von Bagdad vergleichbar ist, Frau Abgeordnete.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u116" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg139">Keine weitere Zusatzfrage. Ich rufe den Geschäftsbereich des Bundesministers für Wirtschaft auf. Zur Beantwortung der Fragen steht uns Herr Parlamentarischer Staatssekretär Grüner zur Verfügung. Ich rufe die Frage 25 des Herrn Abgeordneten Feile auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg140">Ist der Bundesregierung die Tatsache bekannt, daß jedes einzelne deutsche Auto bei der Einfuhr nach Japan eine umfangreiche, zeitaufwendige und kostspielige technische Prüfung zu absolvieren hat, wogegen wir uns mit einer Typenprüfung zufriedengeben, und sieht die Bundesregierung nicht in der japanischen Haltung entgegen der offiziellen Haltung eine deutliche Importbehinderung?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär beim Bundesminister für Wirtschaft:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg141">Japan hat alle förmlichen Einfuhrbeschränkungen für Automobile aus anderen Ländern beseitigt. Es gibt weder mengenmäßige Beschränkungen noch Zölle. Allerdings darf man nicht übersehen, daß trotz dieser De-jure-Liberalisierung der Automobileinfuhr der Zugang zum japanischen Markt nicht leicht ist. Ausländische Industriegüter treffen in Japan auf einen scharfen heimischen Wettbewerb, aber auch auf weniger sichtbare Schwierigkeiten, die nicht zuletzt mit den besonderen Verteilungsstrukturen im japanischen Wirtschaftssystem zusammenhängen. Es gibt in Japan wie auch in der Bundesrepublik Deutschland und in den meisten anderen Ländern sowohl ein Typprüfungsverfahren zur Erteilung einer allgemeinen Betriebserlaubnis für einen bestimmten Automobiltyp als auch Einzelzulassungen für einzelne Fahrzeuge. Der Hersteller kann bei der Zulassung sowohl in Japan als auch in der Bundesrepublik Deutschland zwischen beiden Verfahren wählen. Die Typprüfung ist langwierig. In Japan erfordert sie überdies einen Dauerhaltbarkeitstest für bestimmte Teile des Fahrzeugs sowie besonders umfangreiche technische Dokumentationen. Dieses Verfahren lohnt sich nur für eine größere Stückzahl von Automobilen. Die deutschen Hersteller beantragen in Japan zumeist die Einzelzulassung, da sie dort bisher nur verhältnismäßig geringe Stückzahlen absetzen konnten. Einige in der Vergangenheit bei der Zulassung in Japan bestehende Probleme wurden inzwischen gelöst. Es kann jedoch nicht ausgeschlossen werden, daß die japanischen Zulassungsverfahren den Import auch weiterhin faktisch behindern. Der Bundesregierung sind allerdings keine konkreten Beschwerden der deutschen Automobilindustrie über die gegenwärtig geltenden Zulassungsverfahren für Kraftfahrzeuge in Japan bekannt. Sie ist bereit, jeder begründeten Beschwerde nachzugehen und sie gegenüber der japanischen Regierung zur Sprache zu bringen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg142">Eine Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Feile (SPD):</note>
+        <u who="#Q2074809" xml:id="ParlaMint-DE_1981-06-16-09-044.u119" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg143">Herr Staatssekretär, ist der Bundesregierung bekannt, daß die Prüfungsbögen und die schriftlichen Unterlagen für die zu erfüllenden immerhin 41 Sicherheits- und 5 Abgasvorschriften alle in japanischer Sprache abgefaßt sind, und ist die Bundesregierung bereit, darauf hinzuwirken, daß zur Erleichterung des PKW-Imports nach Japan wenigstens die in diesen Fällen allgemein übliche englische Sprache angewandt wird?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg144">Herr Kollege, ich habe darauf hingewiesen, daß uns in diesem Bereich keine konkreten Anregungen der deutschen Automobilindustrie vorliegen, und ich möchte Regierungsinitiativen eigentlich davon abhängig machen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg145">Eine weitere Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Feile (SPD):</note>
+        <u who="#Q2074809" xml:id="ParlaMint-DE_1981-06-16-09-044.u122" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg146">Ist der Bundesregierung z. B. bekannt, daß die Erfüllung der japanischen Vorschriften bei einem VW Golf eine Mehrbelastung von durchschnittlich 5 000 DM verursacht, was einem Drittel des Kaufpreises entspricht, und sieht die Bundesregierung nicht in dem Umstand, daß, selbst wenn eine Typenprüfung vorgenommen wird, auch noch eine Einzelprüfung erforderlich ist, für die wiederum eine Gebühr von zirka 2 000 DM erhoben wird, ein sehr beträchtliches, nichttarifäres Handelshemmnis?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u123" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg147">Nein, Herr Kollege. Die Zahlen, die Sie nennen, kenne ich nicht. Ich möchte noch einmal darauf hinweisen, daß wir jeder konkreten Anregung der deutschen Automobilindustrie nachgehen werden und bereit sind, entsprechende Schritte bei der japanischen Regierung zu unternehmen. Derartige konkrete Anregungen der deutschen Automobilindustrie liegen uns zur Zeit nicht vor.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u124" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg148">Eine weitere Zusatzfrage, Herr Abgeordneter Spöri.</seg>
+        </u>
+        <note type="speaker">Dr. Spöri (SPD):</note>
+        <u who="#Q92536" xml:id="ParlaMint-DE_1981-06-16-09-044.u125" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg149">Herr Staatssekretär, Sie haben soeben davon gesprochen, daß es durch das von Ihnen angesprochene Zulassungsverfahren zu einer faktischen Zulassungsbeschränkung kommt. Ist Ihnen bekannt, ob Bundeswirtschaftsminister Graf Lambsdorff diese Probleme bei seiner Reise nach Japan angesprochen hat?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u126" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg150">Diese Themen waren Gegenstand des Gesprächs. Insbesondere war es die Forderung nicht nur der Bundesregierung, sondern aller westlichen Handelspartner Japans nach einer stärkeren Öffnung des japanischen Marktes im Hinblick darauf, daß der Anteil der japanischen Fertigwareneinfuhren am Gesamtimport im Vergleich zu vergleichbaren Industrieländern im Westen ungewöhnlich gering ist. Voraussetzung für konkrete Forderungen sind allerdings konkrete Hinweise der deutschen Industrie auf sie behindernde Regelungen im japanischen Markt. Ich habe darauf hingewiesen, daß uns jedenfalls im Augenblick, was den Automobilbereich anbelagt, derartige Forderungen nicht vorliegen. Diejenigen, die den Markt kennen und die auf Hindernisse stoßen, müssen uns erklären, was wir tun sollen. Es hilft uns nicht weiter, wenn etwa Behauptungen allgemeiner Art aufgestellt werden.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u127" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg151">Eine Zusatzfrage, Herr Abgeordneter Klejdzinski.</seg>
+        </u>
+        <note type="speaker">Dr. Klejdzinski (SPD):</note>
+        <u who="#Q1269833" xml:id="ParlaMint-DE_1981-06-16-09-044.u128" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg152">Herr Staatssekretär, ist Ihnen bekannt — ich darf „Die Zeit" zitieren —, daß beispielsweise für einen VW Scirocco in Japan ein Kaufpreis von 34 000 DM genannt wird, wobei diese Preisbildung hauptsächlich dadurch zustande kommt, daß die spezifische Einzelteilprüfung erforderlich ist, und stimmen Sie mir darin zu, daß diese erheblichen Wettbewerbsnachteile der deutschen Automobilindustrie in Japan im Vergleich zu japanischen Importen in die Bundesrepublik Deutschland gesehen werden müssen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u129" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg153">Herr Kollege, die japanische Automobilindustrie hat in Deutschland auch die Wahlmöglichkeit zwischen der Einzelzulassung und der Typzulassung. Es ist selbstverständlich, daß sich die Typzulassung bei großen Stückzahlen lohnt. Von dieser Möglichkeit haben die deutschen Automobilfirmen in Japan bisher wegen ihrer geringen Importe keinen Gebrauch gemacht, sondern sie haben die Einzelzulassung gewählt, weil sie bei geringen Importstückzahlen wirtschaftlicher ist. Das System ist im Grundsatz in beiden Ländern nicht unterschiedlich. Lediglich die Anforderungen sind unterschiedlich; aber selbstverständlich haben die Japaner das Recht, die Bedingungen, die sie für ihre eigene Automobilindustrie bei der Zulassung fordern, auch für die Importe zu fordern. So verfahren wir auch bei uns.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u130" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg154">Keine weitere Zusatzfrage. Ich rufe die Frage 26 des Herrn Abgeordneten Feile auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg155">Ist der Bundesregierung bekannt, daß der Export mittelständischer Unternehmen nach Japan in der Regel nur über japanische Großhandelshäuser möglich ist, die vor Aufnahme eines deutschen Artikels erst sorgfältig prüfen, ob das angediente Importprodukt einem einheimischen Artikel schadet, und, wenn dies der Fall ist, die Übernahme ablehnen und so praktisch den Export unmöglich machen, und, wenn ja, welche Folgerungen zieht die Bundesregierung daraus?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u131" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg156">Die Großhandelshäuser nehmen in Japan eine beherrschende Stellung ein. Eine grundlegende Umstrukturierung des japanischen Binnenhandelssystems wäre notwendig, wird sich aber allenfalls nur längerfristig entwickeln. Die Bundesregierung nutzt deshalb jede Gelegenheit, die japanische Regierung darauf hinzuweisen, daß auch im Rahmen des bestehenden Systems ernsthafte Anstrengungen unternommen werden müssen, um die japanische Wirtschaft von der Notwendigkeit der Öffnung des Marktes für ausländische Produkte zu überzeugen. Der Handel darf keine Einbahnstraße sein. Die Bundesregierung wird allen bekannt werdenden konkreten Fällen nachgehen, in denen insbesondere Großhandelshäuser in der von Ihnen bezeichneten Art den Import deutscher Waren behindern. Die deutsche Wirtschaft muß aber auch das Ihrige tun, um bestehende Marktchancen in Japan besser zu nutzen. Beachtliche Erfolge einzelner Markenhersteller auf dem japanischen Markt zeigen, daß man die Auswirkungen der sehr starken Stellung der Großhandelshäuser durchaus vermeiden kann. Insbesondere für mittelständische Unternehmen der Konsumgüterindustrie bieten Warenhäuser und Supermärkte Importchancen. Auch sollte die deutsche Wirtschaft die Chancen testen, die die jüngst vorgenommene Liberalisierung des japanischen Außenwirtschaftsrechts im Investitionsbereich für den Aufbau eigener Vertriebswege — insbesondere im Rahmen von joint ventures — eröffnen könnte.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u132" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg157">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Feile (SPD):</note>
+        <u who="#Q2074809" xml:id="ParlaMint-DE_1981-06-16-09-044.u133" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg158">Herr Staatssekretär, es gibt eine neue Umfrage, wonach deutsche Waren in Japan an sich sehr begehrt sind, ihr Absatz aber daran scheitert, daß der Eindruck vorherrscht, sie seien nicht überall kaufbar. Ist es nicht so, daß gerade in dieser Art der japanischen Handelshäuser der eigentliche Grund für dieses Sich-Zurückhalten im Kauf deutscher Waren zu suchen ist?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg159">Ja. Ich habe darauf hingewiesen, daß die speziellen Marktstrukturen, die in Japan Tradition sind, einem Absatz in unserem Sinn gewisse Schwierigkeiten entgegenstellen. Aber man wird natürlich nicht daran vorbeigehen können, daß sich diese Strukturen in Japan entwikkelt haben und daß für uns keine Möglichkeit besteht, Handelsstrukturen in einem anderen Land zu ändern — so wie wir uns das wohl auch verbitten würden, wenn derartige Ansinnen an uns gestellt würden.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u135" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg160">Eine weitere Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Feile (SPD):</note>
+        <u who="#Q2074809" xml:id="ParlaMint-DE_1981-06-16-09-044.u136" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg161">Herr Staatssekretär, der Bundeswirtschaftsminister war j a vor kurzem in Japan. Ist dieses Thema „Importpolitik der Großhandelshäuser in Japan" auch in diesem Zusammenhang zur Sprache gekommen?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u137" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg162">Im Zusammenhang mit unserem Wunsch, die Fertigwareneinfuhr nach Japan deutlich zu erhöhen, hat dieses Thema eine Rolle gespielt.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u138" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg163">Eine weitere Zusatzfrage, Herr Abgeordneter Dr. Spöri.</seg>
+        </u>
+        <note type="speaker">Dr. Spörl (SPD):</note>
+        <u who="#Q92536" xml:id="ParlaMint-DE_1981-06-16-09-044.u139" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg164">Herr Staatssekretär, ist die Bundesregierung nicht der Auffassung, daß die von Ihnen bestätigte Praxis der japanischen Großhandelshäuser eine eindeutige Durchbrechung der auch bei uns üblichen wettbewerbspolitischen Spielregeln und eine Durchbrechung des Prinzips des freien Welthandels darstellt und damit eine Ursache für das große Leistungsbilanzdefizit, das wir mit Japan haben, sein könnte?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u140" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg165">Ich zögere sehr, Herr Kollege, eine solche Frage uneingeschränkt zu bejahen. Ich mache darauf aufmerksam, daß etwa die japanischen Erfolge auf den europäischen Märkten in einer außerordentlich langwierigen Beobachtung des deutschen Markts und der europäischen Märkte mit einem großen finanziellen Aufwand vorbereitet worden sind. Die Früchte liegen heute auf dem Tisch. Ich meine: Vergleichbare Anstrengungen deutscher Unternehmen oder anderer ausländischer Unternehmen auf dem japanischen Markt gibt es bisher nicht.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u141" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg166">Keine weitere Zusatzfrage. Ich rufe die Frage 27 des Herrn Abgeordneten Dr. Klejdzinski auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg167">Inwieweit können die in den einzelnen Artikeln der Neuordnung des Seerechts angesprochenen Formen des „Technologietransfer" — u. a. Brasilklausel — sich nachteilig auf den Anlagenbau der Meerestechnik in der Bundesrepublik Deutschland auswirken? Bitte.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg168">Der Konventionsentwurf legt den Tiefseebergbauunternehmen die Verpflichtung auf, die von ihnen benutzte Technologie auf ein internationales Bergbauunternehmen — allerdings zu kommerziellen Bedingungen — zu übertragen. Schon dies stellt einen Eingriff in die Vertragsfreiheit dieser Unternehmen dar, der zu Nachteilen führen kann. Der Konventionsentwurf verpflichtet die Tiefseebergbauunternehmen ferner, auch die Technologie ihrer Zulieferanten übertragbar zu machen. Andernfalls darf diese Technologie von ihnen nicht benutzt werden. Diese Verpflichtung dürfte zu zahllosen rechtlichen und praktischen Schwierigkeiten führen und den Tiefseebergbau erheblich behindern. Äußerst problematisch ist vor allem die Regelung, wonach die Technologie im Einzelfall auch an einzelne Entwicklungsländer übertragen werden muß. Hier wird zum ersten Male ein Rechtsanspruch der Entwicklungsländer auf Technologietransfer verankert und der Rahmen des Seerechts bei weitem überschritten. Eine solche Klausel könnte Präjudizwirkungen für andere Nord-Süd-Technologieverhandlungen haben. In der Praxis muß vor allem bei dieser Regelung mit unbefugter Weitergabe gerechnet werden, zumal da der Kreis der berechtigten Länder nicht eingrenzbar ist. Die Bundesregierung hat so weitgehende Verpflichtungen immer abgelehnt. Sie wird dies auch in Zukunft tun. Der Komplex Technologietransfer ist ein wichtiges Thema bei den bevorstehenden Konsultationen mit den USA.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u143" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg169">Zusatzfrage. Bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Klejdzinski (SPD):</note>
+        <u who="#Q1269833" xml:id="ParlaMint-DE_1981-06-16-09-044.u144" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg170">Herr Staatssekretär, wie beurteilt die Bundesregierung den Versuch, durch eine neue Ordnung des Meeresbodenregimes, das wir auch als innerstaatliches Bergrecht bezeichnen können, weltwirtschaftliche Ordnungsprobleme anderer Art zu lösen, beispielsweise die internationale Rohstoffpolitik, den Technologietransfer — den Sie bereits angesprochen haben —, besonders den Finanztransfer sowie andere internationale Verteilungsziele?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg171">Herr Kollege, wir glauben nicht, daß der Tiefseebergbau dafür ein geeignetes Instrument abgeben kann. Wir befürchten, daß das Inkrafttreten derartiger Regelungen den Tiefseebergbau zum Erliegen brächte.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u146" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg172">Keine weitere Zusatzfrage. Ich rufe die Frage 28 des Herrn Abgeordneten Dr. Klejdzinski auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg173">Wie schätzt die Bundesregierung die in Artikel 151 (Seite 94 ff.)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg174">formulierte Produktionsbeschränkung ein, u. a. unter der Perspektive, daß neben ökologischen Zielvorgaben auch ökonomische Vorgaben bei der Entscheidung, bestimmte notwendige Rohstoffe gewinnen zu wollen, beachtet werden müssen? Bitte.</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg175">Produktionsbeschränkungen ziehen immer globale Wohlfahrtskosten nach sich und sind daher grundsätzlich wirtschaftspolitisch bedenklich. Es kommt hinzu, daß hier in der Seerechtskonferenz eine neue Form des Protektionismus verankert werden soll. Terrestrische Rohstoffproduzenten sollen vor Konkurrenz durch den Meeresbergbau geschützt werden. Diese handfesten Partikularinteressen einer Minderheit von Staaten werden damit begründet, daß die Rohstoffe der Tiefsee als gemeinsames Erbe der Menschheit eine stille Reserve für kommende Generationen sein sollen. Der gegenwärtigen Generation der rohstoffarmen Entwicklungsländer hilft diese Philosophie allerdings wenig. Die Bundesregierung wird sich weiterhin für eine Beseitigung, zumindest aber für eine Entschärfung der Produktionsbeschränkungen einsetzen. Sie ist allerdings der Ansicht, daß Umweltgesichtspunkte auch beim Ausbau der Tiefseebodenrohstoffe im erforderlichen Umfang berücksichtigt werden müssen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u148" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg176">Zusatzfrage. Bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Klejdzinski (SPD):</note>
+        <u who="#Q1269833" xml:id="ParlaMint-DE_1981-06-16-09-044.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg177">Herr Staatssekretär, wie beurteilt die Bundesregierung beispielsweise die Beschränkung im Meeresbergbau, die jährliche Zuwachsrate auf 60 % des Nickel-Weltverbrauchs zu begrenzen — eine Forderung, die nach meiner Einschätzung von den Landproduzenten zum Schutz ihrer Exporterlöse durchgesetzt wurde —, und welche ökonomischen Voraussetzungen für eine sinnvolle Meerestiefbauproduktion stehen entgegen, insbesondere wenn wir davon ausgehen, daß damit möglicherweise die Rohstoffversorgung von Ländern wie der Bundesrepublik in einem erheblichen Maß gefährdet wird?</seg>
+        </u>
+        <note type="speaker">Grüner, Parl. Staatssekretär:</note>
+        <u who="#Q1522327" xml:id="ParlaMint-DE_1981-06-16-09-044.u150" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg178">Herr Kollege, ich habe darauf hingewiesen, daß die Produktionsbeschränkungen aus Partikularinteressen von Ländern gefordert werden, die über eigene Rohstoffe verfügen und die Konkurrenz von im Tiefseebergbau geförderten Rohstoffen beschränken wollen. Die Bundesregierung sieht darin einen unzulässigen, einen wirtschaftlich nicht erfolgversprechenden und einen die Allgemeininteressen schädigenden Versuch des Protektionismus. Sie hat darauf auch immer hingewiesen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u151" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg179">Keine weiteren Zusatzfragen. Ich rufe den Geschäftsbereich des Bundesministers für Jugend, Familie und Gesundheit auf. Zur Beantwortung der Fragen steht uns Herr Parlamentarischer Staatssekretär Zander zur Verfügung. Ich rufe die Frage 29 des Herrn Abgeordneten Dr. Wulff auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg180">Ist der Bundesregierung bekannt, aus welchen Gründen das Abkommen der Europäischen Gemeinschaft mit der Republik Österreich über die gegenseitige Anerkennung von Qualitätsweinen und Weinen mit mehr als 15 Grad Alkohol (Spätlese)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg181">noch nicht rechtskräftig geworden ist?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär beim Bundesminister für Jugend, Familie und Gesundheit:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u152" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg182">Herr Abgeordneter Dr. Wulff, die Verordnung Nr. 2931/80 der EG über bestimmte Qualitätsweine mit Ursprung in Österreich, die einen Gesamtalkoholgehalt von mehr als 15 % aufweisen, ist zwar vom Rat bereits am 11. November 1980 angenommen worden, sie wird jedoch erst von dem Tage an gelten, an dem das zwischen der EG-Kommission und Österreich ausgehandelte Abkommen zwischen der Europäischen Gemeinschaft und der Republik Österreich über die Kontrolle und den gegenseitigen Schutz von Qualitätsweinen sowie bestimmten, mit einer geographischen Angabe bezeichneten Weinen in Kraft tritt. Voraussetzung hierfür ist die Genehmigung des Abkommens durch den Rat und seine Unterzeichnung durch eine hierzu bestellte Person. Dem Vorschlag zu einer Verordnung des Rates, die diese Voraussetzungen schafft, hat die Bundesregierung bisher nicht zugestimmt, weil ein Zusammenhang zwischen diesem Abkommen und dem vorgesehenen Vertrag zwischen der Bundesrepublik Deutschland und Österreich über den Schutz von Herkunftsangaben und anderen geographischen Bezeichnungen für Erzeugnisse und Waren der Landwirtschaft — ohne Wein — und der gewerblichen Wirtschaft besteht, über den seit 1970 verhandelt wird. Die österreichischen Interessen liegen überwiegend im Weinbereich, der durch das zwischen der EG und Österreich ausgehandelte Abkommen abgedeckt wird. Die deutschen Interessen haben ihren Schwerpunkt dagegen im Bereich der übrigen landwirtschaftlichen und der Erzeugnisse der gewerblichen Wirtschaft. Die Bundesregierung hat daher bei den Beratungen in Brüssel auf den Zusammenhang zwischen beiden Abkommen hingewiesen und erklärt, daß sie dem Abkommen EG—Österreich nicht zustimmen werde, bevor die Verhandlungen über den zweiseitigen deutsch-österreichischen Vertrag zum Abschluß gekommen sind.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u153" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg183">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wulff (CDU/CSU):</note>
+        <u who="#Q1681310" xml:id="ParlaMint-DE_1981-06-16-09-044.u154" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg184">Herr Staatssekretär, besteht denn die Möglichkeit, daß diese, wie ich meine, doch etwas fadenscheinigen Gründe, die die Bundesregierung anführt, im Interesse guter Beziehungen zu Österreich in Zukunft zurückgestellt werden und daß es zu einem erfolgreichen Abschluß der Verhandlungen kommt?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u155" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg185">Herr Abgeordneter, ich weiß nicht, ob es richtig ist, diese Gründe als fadenscheinig zu bezeichnen. Ich kann nur darauf hinweisen, daß jedenfalls der Ausschuß des Deutschen Bundestages für Ernährung und Landwirtschaft die Bundesregierung in dieser Haltung bestärkt hat. Ich hoffe sehr, daß es möglich sein wird, diesen Interessenausgleich, der j a erforderlich ist und in dem beide Seiten aufeinander zugehen müssen, bald zum Abschluß zu bringen, damit dann der Weg für die Ratifizierung frei wird.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u156" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg186">Noch eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Wulff (CDU/CSU):</note>
+        <u who="#Q1681310" xml:id="ParlaMint-DE_1981-06-16-09-044.u157" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg187">Herr Staatssekretär, laufen die Verhandlungen denn jetzt zügig weiter, und besteht nach Ihrer Ansicht eine Chance, ein im beiderseitigen Interesse liegendes Ergebnis zu erreichen?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u158" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg188">Herr Abgeordneter, diese Verhandlungen liegen nicht im Zuständigkeitsbereich des Bundesministers für Jugend, Familie und Gesundheit. Ich kann Ihnen daher über den derzeitigen Stand dieses Teils der Verhandlungen keine Auskunft geben.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u159" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg189">Keine weiteren Zusatzfragen. Die Frage 30 und die Frage 31 des Herrn Abgeordneten Immer (Altenkirchen)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg190">sollen auf Wunsch des Fragestellers schriftlich beantwortet werden, ebenso die Frage 32 des Herrn Abgeordneten Dr. Hennig. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 34 des Herrn Abgeordneten Schröder (Wilhelminenhof)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg191">auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg192">Was gedenkt die Bundesregierung zum Schutze des Verbrauchers und zum Abbau von Wettbewerbsverzerrungen innerhalb der EG zu tun angesichts einer 1978 um 62 neue Wirkstoffe erweiterten HöchstmengenVerordnung, die Einfuhren — insbesondere von Gemüse — zuläßt, welche Rückstände von Pflanzenschutzmitteln aufweisen, deren Einsatz im inländischen Anbau nicht zulässig ist?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u160" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg193">Herr Abgeordneter Schröder, die Frage bezieht sich offensichtlich auf einen von der Kommission vorgelegten Änderungsvorschlag zur Richtlinie des Rates Nr. 76/895 über Höchstgehalte an Rückständen von Schädlingsbekämpfungsmitteln auf und in Obst und Gemüse, in der 62 Stoffe neu genannt werden. Bei den anstehenden Beratungen über diese Änderungsrichtlinie wird sich die Bundesrepublik Deutschland weiterhin für eine strenge gesundheitliche Prüfung und eng festgelegte Toleranzgrenzen der Schädlingsbekämpfungsmittel einsetzen. Die Höchstmengen werden für alle Mittel unabhängig vom Ort der Anwendung nach den gleichen gesundheitlichen Kriterien und nach den gleichen intensiven Prüfungen festgelegt. Dadurch ist der Schutz des Verbrauchers auch gleichermaßen gesichert. Hierzu verweise ich auf meine Antwort vom 27. April 1978 auf eine kleine Anfrage zur Höchstmengenverordnung Pflanzenbehandlungsmittel. Sie finden sie in der Bundestagsdrucksache 8/1754. Das Festlegen der Höchstmengen für immer mehr Stoffe bedeutet nicht, daß dadurch mehr Stoffe oder höhere Rückstandsmengen in oder auf den Lebensmitteln anzutreffen sind, im Gegenteil wird durch das Festsetzen der Höchstmengen eben die Anwendung der Stoffe reglementiert und auf das Maß zurückgedrängt, das für den Schutz des Verbrauchers erforderlich ist.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u161" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg194">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Schröder (Wilhelminenhof) (CDU/CSU):</note>
+        <u who="#Q1220307" xml:id="ParlaMint-DE_1981-06-16-09-044.u162" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg195">Herr Staatssekretär, kann ich Ihrer Antwort entnehmen, daß die deutschen Erzeuger bei der Anwendung von bestimmten Pflanzenschutzmitteln gleichbehandelt werden, daß also auch sie diese Mittel anwenden dürfen, daß nur eben bestimmte Höchstmengen nicht überschritten werden dürfen?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg196">Herr Abgeordneter, es ist im Prinzip so, wie Sie es dargestellt haben, wobei Sie beachten müssen, daß natürlich in dem Bereich der EG ganz unterschiedliche klimatische Bedingungen vorherrschen und deshalb z. B. auch unterschiedliche Schädlingsbekämpfungsmittel angewandt werden müssen. Ich habe das alles aber in der von mir soeben erwähnten Antwort auf eine Kleine Anfrage sehr ausführlich dargelegt. Ich würde Sie bitten, dort noch einmal einen Blick hineinzuwerfen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg197">Eine weitere Zusatzfrage, Herr Abgeordneter Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU):</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1981-06-16-09-044.u165" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg198">Herr Staatssekretär, können Sie mir Mittel nennen, die beim Import nach der Höchstmengenverordnung erlaubt sind und deren Anwendung für den deutschen Gartenbau und die deutsche Landwirtschaft verboten ist, und sind Sie mit mir einer Meinung, daß dies eine Wettbewerbsverzerrung sein kann, zum Teil sein muß?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u166" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg199">Ich kann dies nicht bestätigen, denn es ist hier einheitlich geregelt, welche Höchstmengen verwendet werden dürfen, d. h. welche Pflanzenschutzmittel in welcher Menge angewandt werden dürfen und sich nachher auf Lebensmitteln oder in Lebensmitteln befinden dürfen. Dies gilt für den gesamten Bereich der EG, wobei ich noch einmal darauf hinweisen muß, daß eben unterschiedliche klimatische Bedingungen — wenn ich mir die vom Süden bis in den Norden dieses Bereichs herrschenden Bedingungen vorstelle — vorhanden sind, die es rechtfertigen — das ist völlig klar —, daß hier unterschiedliche Mittel angewandt werden müssen. Aber es gibt eine Gleichbehandlung in der gesamten Gemeinschaft. Eine Wettbewerbsbenachteiligung ist insofern darin nicht zu sehen, daß unterschiedliche Bedingungen auch unterschiedliche Anwendungen und Mengenfestsetzungen erfordern.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u167" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg200">Keine weiteren Zusatzfragen. Ich rufe Frage 35 des Herrn Abgeordneten Dr. Feldmann auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg201">Wie beurteilt die Bundesregierung die in einer vorn Öko-Institut Freiburg vorgelegten Trinkwasserstudie von Uwe Lahl und Barbara Zeschnar enthaltenen Hinweise, wonach die heutige Trinkwassertechnologie nicht mehr in der Lage sei, aus dem mit Chemikalien hoch belasteten Oberflächengewässer einwandfreies Trinkwasser herzustellen, und daß die zur Desinfektion, Geschmacks- und Geruchsverbesserung des Trinkwassers verwendeten chemischen Verfahren nicht frei von Nebenwirkungen seien, so daß der Verdacht bestehe, daß sowohl durch diese verbessernde Behandlung des Trinkwassers wie auch durch den möglichen Durchbruch von Verunreinigungen eine Erhöhung bestimmter Erkrankungen begünstigt werde, und welche Konsequenzen zieht sie daraus?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u168" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg202">Herr Abgeordneter, die vom Öko-Institut Freiburg vorgelegte Trinkwasserstudie ist erst im Mai 1981 im Dreisam-Verlag in Freiburg erschienen. Sie lag der Bundesregierung bisher noch nicht vor. Die zuständigen Behörden sind zur Zeit jedoch eingehend mit ihrer Prüfung und Auswertung befaßt. Die in der Studie behandelten Komplexe sind seit Jahren Gegenstand intensiver wissenschaftlicher und praktischer Arbeit in den zuständigen Einrichtungen von Bund und Ländern.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u169" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg203">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Feldmann (FDP):</note>
+        <u who="#Q2017948" xml:id="ParlaMint-DE_1981-06-16-09-044.u170" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg204">Herr Staatssekretär Zander, sind denn der Bundesregierung wenigstens die auf dem internationalen Trinkwasser-Symposion in Amsterdam bereits im September 1980 verfaßten Empfehlungen bekannt, den biologischen und physikalischen Trinkwasseraufbereitungsverfahren eindeutig den Vorzug vor chemischen Verfahren zu geben, und welche Möglichkeiten sieht die Bundesregierung, auf eine Umsetzung dieser Empfehlungen in der Bundesrepublik Deutschland hinzuwirken?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u171" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg205">Diese Empfehlungen sind selbstverständlich bekannt. Ich bin aber jetzt nicht in der Lage, zu sagen, wie diese Verfahren im einzelnen beurteilt werden.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u172" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg206">Keine weitere Zusatzfrage? — Eine weitere Zusatzfrage, Herr Abgeordneter Hirsch.</seg>
+        </u>
+        <note type="speaker">Dr. Hirsch (FDP):</note>
+        <u who="#Q107360" xml:id="ParlaMint-DE_1981-06-16-09-044.u173" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg207">Herr Staatssekretär, bei zunehmender Verunreinigung des Trinkwassers liegt doch das eigentliche Problem darin, daß der Vorrang der Trinkwassergewinnung vor der Brauchwassernutzung nach § 6 des Wasserhaushaltsgesetzes mit den sogenannten Altrechten der Industrie kollidiert. Können Sie mir sagen, ob die Bundesregierung bei weiterer Verknappung des Trinkwasservorrates beabsichtigt, hier Initiativen zu entfalten?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u174" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg208">Herr Abgeordneter, eine Reihe von Bedenken, die in der soeben zitierten Publikation, nach der Herr Abgeordneter Feldmann fragte, erschienen sind oder dargestellt werden, betreffen ja eben diesen Gegenstand. Ich kann jetzt nicht einer Entscheidung vorgreifen, bevor nicht alle vom Öko-Institut und den Verfassern vorgetragenen Sorgen und Bedenken über unser Trinkwasser geprüft sind. Aber selbstverständlich wird so eine Frage einzubeziehen sein.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u175" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg209">Noch eine Zusatzfrage? — Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Dr. Feldmann (FDP):</note>
+        <u who="#Q2017948" xml:id="ParlaMint-DE_1981-06-16-09-044.u176" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg210">Herr Staatssekretär Zander, ist der Bundesregierung bekannt, daß durch den Einsatz von Chlordioxyd an Stelle von Chlor zwar die Belastung durch leichtflüchtige halogenierte Kohlenwasserstoffe gesenkt, aber als neuer Schadstoff Chlorit eingeführt wird, der im Verdacht steht, vor allem Säuglinge zu gefährden, und, wenn dies nicht der Fall sein sollte, ist die Bundesregierung dann bereit, sich Informationen darüber zu beschaffen?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u177" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg211">Einerseits ist das der Bundesregierung und den zuständigen Behörden bekannt, andererseits sind die Folgen, die Sie jetzt schon als feststehend daran knüpfen, nicht gesichert. Allerdings wird mit intensiven Prüfungen versucht, so schnell wie möglich Aufklärung zu schaffen. Ich komme aber in der Antwort auf Ihre nächste Frage noch auf einen Teil dieser Rückstände im Wasser zurück.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u178" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg212">Keine weiteren Zusatzfragen. Ich rufe die Frage 36 des Herrn Dr. Feldmann auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg213">Hält die Bundesregierung die in der Trinkwasserstudie des Oko-Institutes enthaltenen Informationen für zutreffend, daß neben der Industrie die Landwirtschaft durch die steigende Verwendung von Kunstdünger und Pestiziden einer der Hauptverursacher der Grund- und Trinkwasserverunreinigung sei und daß bereits bis zu 5 v. H. der Trinkwasserkonsumenten in der Bundesrepublik Deutschland mit Trinkwasser versorgt werden, das einen zu hohen Nitratgehalt hat, und welche Folgerungen zieht sie ggf. daraus? Bitte, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u179" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg214">Herr Dr. Feldmann, die Bundesregierung hat anläßlich früherer Fragen, z. B. in der Fragestunde vom 1. April 1981, festgestellt, daß sich überwiegend in Gebieten hoher Nitratdüngung von Intensiv- und Sonderkulturen eine bedenkliche Nitratbelastung herausgebildet hat. Ebenfalls sind ihr die regional steigende Tendenz des Nitratgehalts in verschiedenen Grundwasservorkommen sowie weitere unerwünschte Überdüngungsauswirkungen bekannt. Für Abhilfemaßnahmen liegen die Prioritäten der Bundesregierung daher in Zusammenarbeit mit den Bundesländern eindeutig bei der Reduzierung des Schadstoffeintrages, entsprechenden Aufklärungsmaßnahmen im landwirtschaftlichen Bereich sowie beim Vollzug der Trinkwasserverordnung. Insbesondere verweise ich hierzu beispielhaft auf die Abwassergesetzgebung des Bundes, auf die Rücknahme des Phosphatanteils in den Düngemitteln, auf die Phosphathöchstmengenverordnung sowie auf die Initiativen der Landwirtschaftskammern betreffend die Aufklärung der Landwirte. Der Höchstwert für Nitrate in Trinkwasser wird anläßlich der Novellierung der Trinkwasserverordnung von 90 Milligramm pro Liter auf 50 Milligramm pro Liter herabgesetzt werden. Auch hat das Bundesgesundheitsamt Empfehlungen zum Nitratgrenzwert sowie zu Ausnahmeregelungen gegeben. Das gleiche trifft für das Problem Trihalomethale im Trinkwasser zu.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u180" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg215">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Feldmann (FDP):</note>
+        <u who="#Q2017948" xml:id="ParlaMint-DE_1981-06-16-09-044.u181" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg216">Herr Staatssekretär Zander, hält die Bundesregierung eine abgestimmte wasserwirtschaftliche Gesamtplanung für erforderlich, um die zukünftige Trinkwasserversorgung der Bundesrepublik langfristig zu sichern, und was wurde bisher auf diesem Gebiet insgesamt unternommen?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u182" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg217">Ich habe auf einige der gesetzlichen und sonstigen Regelungen hingewiesen, die dies zum Ziel haben. Selbstverständlich ist so eine Planung erforderlich. Gerade die bedenkliche Verschlechterung der Trinkwasserqualität in bestimmten Gebieten, auf die ich beispielhaft hingewiesen habe, macht das zwingend erforderlich. Wir sind dabei, zusammen mit den Bundesländern die Informationen, die wir darüber haben, zu verbessern und insgesamt besser abzustimmen, um einfach die Qualität des Trinkwassers dadurch besser zu erhalten, daß ihm weniger Schadstoffe zugeführt werden. Der Hinweis darauf, daß wir den Nitratgehalt auf 50 Milligramm herabsetzen wollen, darf hierzu ein Beispiel sein.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u183" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg218">Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Feldmann (FDP):</note>
+        <u who="#Q2017948" xml:id="ParlaMint-DE_1981-06-16-09-044.u184" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg219">Herr Staatssekretär, können Sie für diese Vorsorgemaßnahmen, die Sie soeben genannt haben, einen Zeithorizont nennen?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u185" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg220">Das ist sehr schwer, weil immer wieder neue Gefährdungen auftreten, und immer wieder neue Stoffe — in der landwirtschaftlichen Produktion etwa — verwendet werden. Ich kann Ihnen also nicht sagen, wann wir die Qualität des Trinkwassers wieder auf einen Stand gebracht haben, wie er vielleicht noch vor zehn Jahren zu beobachten war. Aber daran wird gearbeitet. Die Gefährdungen sind erst in den letzten Jahren offensichtlich geworden. Ich kann aber nicht sagen, wann hier wieder eine Qualität hergestellt ist, wie sie in der Vergangenheit üblich war.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u186" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg221">Eine weitere Zusatzfrage des Herrn Abgeordneten Herberholz.</seg>
+        </u>
+        <note type="speaker">Herberholz (SPD):</note>
+        <u who="#Q2129630" xml:id="ParlaMint-DE_1981-06-16-09-044.u187" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg222">Herr Staatssekretär, Sie kündigen hier an, daß die Nitrathöchstmenge von 90 Milligramm auf 50 Milligramm je Liter gesenkt werden soll. Können Sie mir sagen, welche praktischen Auswirkungen das z. B. für die Ortsgemeinde Müden in Rheinland-Pfalz hat, die heute bereits 260 Milligramm Nitratgehalt je Liter Trinkwasser trinken muß?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u188" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg223">Welche praktischen Auswirkungen das hat, kann ich nur dahin gehend beschreiben, daß diese Belastung künftig nicht mehr zulässig wäre, aber auch bereits nach heutigen rechtlichen Bestimmungen unzulässig ist.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u189" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg224">Eine weitere Zusatzfrage, Herr Abgeordneter Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU):</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1981-06-16-09-044.u190" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg225">Herr Staatssekretär, können Sie mir bestätigen, daß die Gefährdung des Trinkwassers viel stärker durch Küchenabwässer und durch sogenannte Weißmacher als durch die Landwirtschaft erfolgt?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u191" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg226">Ich will das hier nicht quantifizieren; es gibt verschiedene Ursachen. Die beiden Bereiche, die Sie genannt haben, sind jedenfalls die wichtigsten. Ich kann hier nicht zuordnen und sagen, von welchem Bereich die stärksten Gefährdungen ausgehen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u192" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg227">Keine weitere Zusatzfragen? — Herr Abgeordneter, bitte schön.</seg>
+        </u>
+        <note type="speaker">Bredehorn (FDP):</note>
+        <u who="#Q1232751" xml:id="ParlaMint-DE_1981-06-16-09-044.u193" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg228">Herr Staatssekretär, kann die Bundesregierung Gebiete nennen, in denen eine zu hohe Nitratbelastung des Trinkwassers festgestellt wurde?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u194" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg229">Ja.</seg>
+        </u>
+        <note type="speaker">Bredehorn (FDP):</note>
+        <u who="#Q1232751" xml:id="ParlaMint-DE_1981-06-16-09-044.u195" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg230">Können Sie die schriftlich mitteilen?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u196" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg231">Das kann ich gern.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u197" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg232">Weitere Zusatzfrage, Herr Abgeordneter Peter.</seg>
+        </u>
+        <note type="speaker">Peter (Kassel) (SPD):</note>
+        <u who="#Q1629785" xml:id="ParlaMint-DE_1981-06-16-09-044.u198" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg233">Herr Staatssekretär, ich habe soeben vernommen, daß Überschreitungen der Höchstgrenzen einen Verstoß gegen diese Höchstgrenzenverordnung darstellen, daß das also illegal sei. Können Sie sagen, was nun die Bevölkerung oder die politisch Verantwortlichen in so einer Gemeinde mit dieser Aussage anfangen können?</seg>
+        </u>
+        <note type="speaker">Zander, Parl. Staatssekretär:</note>
+        <u who="#Q1452557" xml:id="ParlaMint-DE_1981-06-16-09-044.u199" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg234">Herr Abgeordneter, hinsichtlich der Kontrolle und auch hinsichtlich der Gegenmaßnahmen sind die zuständigen Länderbehörden die Instanzen, an die man sich wenden muß. Ich kann hier nur sagen, welche Höchstmengen festgelegt sind. Wenn die überschritten werden, liegt ein Verstoß gegen die Höchstmengenverordnung vor, ohne daß die Bundesregierung in der Lage ist, im einzelnen zu sagen, welche Ursachen dazu geführt haben und wie Abhilfe geschaffen werden könnte.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u200" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg235">Keine weiteren Zusatzfragen. Ich rufe den Geschäftsbereich des Bundesministers des Auswärtigen auf. Zur Beantwortung der Fragen steht uns Herr Staatsminister von Dohnanyi zur Verfügung. Ich rufe die Frage 37 des Herrn Abgeordneten Schröder (Hannover)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg236">auf. — Der Abgeordnete ist nicht im Saal. Damit wird verfahren, wie in den Richtlinien vorgesehen. Das gilt auch für die Frage 38 des gleichen Abgeordneten. Ich rufe die Frage 39 des Herrn Abgeordneten Sielaff auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg237">Inwieweit sieht die Bundesregierung Möglichkeiten, bei der Regierung der USA darauf hinzuwirken, daß der Ausbau einer „chemischen Waffenfabrik", wie er in den USA geplant sein soll (s. „Welt" vom 27. Mai 1981 ,USA entwickeln „sicheres" Nervengas') , verhindert und die Verurteilung der chemischen Waffen auch innerhalb der NATO (s. Drucksache 9/200)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg238">verwirklicht wird?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister im Auswärtigen Amt:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u201" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg239">Herr Kollege, alle Bündnispartner sind Vertragsparteien des Genfer Protokolls, das den Einsatz von chemischen Kampfstoffen im Krieg verbietet. Die Bundesrepublik hat 1954 völkerrechtlich bindend auf die Herstellung von C-Waffen verzichtet. Die Bundesregierung fordert gemeinsam mit ihren Verbündeten seit vielen Jahren mit Nachdruck ein umfassendes Verbotsabkommen, das die Herstellung, Lagerung und Entwicklung aller C-Waffen untersagt und die Vernichtung bestehender Vorräte vorsieht. Ein solches Verbot muß allerdings weltweit und verifizierbar sein. Hier liegen die heutigen Schwierigkeiten und auch die Ursachen für die von Ihnen zitierten Pläne der Vereinigten Staaten. Es bleibt Ziel der Politik der Bundesregierung, die Zeit bis zu einer möglichen Produktionsaufnahme in den USA, über die wir hier nicht zu entscheiden hätten, für weitere Bemühungen um ein umfassendes, verifizierbares C-Waffen-Verbot zu nutzen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u202" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg240">Keine Zusatzfrage? — Bitte.</seg>
+        </u>
+        <note type="speaker">Sielaff (SPD):</note>
+        <u who="#Q1629961" xml:id="ParlaMint-DE_1981-06-16-09-044.u203" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg241">Herr Staatsminister, ist es richtig, daß der US-Kongreß neuerdings bereits 20 Millionen Dollar zur Ausrüstung einer Fabrik für chemische Waffen, wie in der angegebenen Presse zitiert, gebilligt hat?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u204" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg242">Herr Kollege, ich kann jetzt diese Zahl nicht verifizieren. Aber ich habe ja die Planungen, von denen Sie gesprochen hatten, im Prinzip nicht bestritten.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u205" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg243">Weitere Zusatzfrage, Herr Abgeordneter Hansen.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD):</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1981-06-16-09-044.u206" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg244">Herr Staatsminister, angesichts der Tatsache, daß die USA bereits Entscheidungen zu Herstellung von Binärgas getroffen haben, und angesichts der Tatsache, daß z. B. der Senator Hatfield erst vor kurzem gesagt hat, solche Waffen gehörten auch auf das potentielle Schlachtfeld, nämlich nach Europa, möchte ich Sie fragen, ob wir denn nach dem Dilemma mit der sogenannten Nachrüstung, die im Doppelbeschluß niedergelegt ist, hier bei uns, auf unserem Boden, mit einer Nachrüstung mit chemischen Waffen zu rechnen haben.</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u207" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg245">Herr Kollege, diese Frage steht ja nicht zur Diskussion. Sie ist auch, wenn ich das richtig verstehe, nicht Gegenstand der Frage des Kollegen Sielaff gewesen. Ich habe auf den Zusammenhang hingewiesen, der hier mit den weltweiten Problemen besteht. Wie in vielen anderen Fällen, Herr Kollege, ist die Frage der Verifikation der entscheidende Schlüssel für die Möglichkeit eines Fortschritts im Bereich von Rüstungskontrolle und Abrüstung.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u208" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg246">Eine weitere Zusatzfrage, Herr Abgeordneter Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1981-06-16-09-044.u209" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg247">Herr Staatsminister, können Sie uns etwas über die Ursachen der amerikanischen Vorhaben zu einer stärkeren chemischen Rüstung sagen, und gehören dazu nicht auch die bereits in großem Umfang bei den sowjetischen Streitkräften vorhandenen Waffen dieser Art?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u210" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg248">Über letzteres, über dieses Vorhandensein, gibt es wohl keinen Zweifel. Über den Umfang indessen gibt es unterschiedliche Auffassungen. Es ist sicherlich wichtig, daß man hier auf beiden Seiten den Versuch macht, so restriktiv wie möglich vorzugehen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u211" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg249">Keine weiteren Zusatzfragen. Ich rufe die Frage 40 des Herrn Abgeordneten Hansen auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg250">Auf welchen verfassungsrechtlichen oder sonstigen rechtlichen Grundlagen und durch welchen Rechtsakt wurde den von den Vereinigten Staaten betriebenen und finanzierten Sendern Radio Free Europe und Radio Liberty im Jahr 1978 die Genehmigung auf unbestimmte Zeit gewährt?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u212" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg251">Herr Kollege, die fernmelderechtliche Genehmigung für den Betrieb der Sender wurde 1955 erteilt. Im Jahre 1978 ist diese Genehmigung lediglich den geänderten Umständen, d. h. im wesentlichen der Fusion der Sender und ihrer Unterstellung unter die Kontrolle der amerikanischen Regierung, angepaßt worden.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u213" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg252">Eine Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD):</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1981-06-16-09-044.u214" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg253">Wenn es diese Änderung gegeben hat, muß es dafür j a auch wenn nicht rechtliche, so zumindest politische Gründe gegeben haben. Deshalb möchte ich Sie fragen: Wer hat mit welcher Begründung die Umstellung der jährlich notwendigen Lizenzverlängerung vorgenommen, und mit welcher Zielsetzung geschah dies?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u215" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg254">Herr Kollege, ich würde gern in Beantwortung Ihrer Frage doch noch einmal auf den Ablauf der Geschichte zu sprechen kommen. Es gab zwei Sender. Sie wurden in der Besatzungszeit errichtet und zunächst von amerikanischen Privatgesellschaften betrieben. Nach Ablösung des Besatzungsstatutes 1955 erhielten die Sender deutsche Sendegenehmigungen, die mit politischen Auflagen von deutscher Seite versehen waren. Im Zuge der Neuordnung des amerikanischen Auslandrundfunkwesens wurden die Sender 1973 dem durch amerikanisches Bundesgesetz geschaffenen Board for International Broadcasting unterstellt. Der Vorsitzende dieses Board wird jeweils vom amerikanischen Präsidenten berufen. Die Finanzierung erfolgt über den amerikanischen Kongreß. 1976 haben dann beide Sender fusioniert. Die Bundesregierung hat 1978 die bisherigen Sendegenehmigungen den geänderten Umständen angepaßt und in einer Lizenz zusammengefaßt. Dabei handelt es sich um eine Lizenz nach fernmeldetechnischen Gesichtspunkten, die allerdings schon im Jahre 1955, wie ich eben sagte, mit Auflagen zur redaktionellen Linie der Sender versehen war. Diese Auflagen wurden 1978 im Einvernehmen mit der Regierung der Vereinigten Staaten und dem Board for International Broadcasting ergänzt.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u216" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg255">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD):</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1981-06-16-09-044.u217" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg256">Herr Staatsminister, darf ich Ihrer Antwort entnehmen, daß die Bundesrepublik keinerlei Probleme sieht, die daraus resultieren, daß einerseits auf deutschem Boden eine ausländische Macht einen Sender betreibt, der zur politischen Propaganda dient, und wir andererseits — auch auf der Grundlage des Grundgesetzes — eine Rundfunkhoheit der Bundesrepublik haben?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u218" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg257">Herr Präsident, ich habe den Eindruck — ich weiß nicht, ob das richtig ist —, daß ich damit jetzt eigentlich die Frage 41 des Kollegen Hansen zu beantworten hätte; denn in der Frage 41 geht es genau um diese Fragestellung. Wenn der Kollege Hansen mir dies gestattet, würde ich jetzt zur Frage 41 übergehen. Herr Präsident, das würde ja nicht bedeuten, daß die Zahl der Zusatzfragen eingegrenzt werden müßte.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u219" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg258">Herr Staatsminister, wir müssen vorläufig noch bei der Frage 40 bleiben.</seg>
+          <vocal type="exclamat">
+            <desc>Hansen [SPD]: Das ist auch sachlich nicht richtig!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg259">Es ist durchaus verstanden worden, daß Sie diese Zusatzfrage von Herrn Hansen im Rahmen der Antwort auf die Frage 41 beantworten wollen.</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u220" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg260">Herr Kollege Hansen, die Antwort auf Ihre Frage lautete: Ich teile Ihre Schlußfolgerung nicht.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u221" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg261">Eine weitere Zusatzfrage, Herr Abgeordneter Hupka, bitte schön.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU):</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1981-06-16-09-044.u222" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg262">Herr Staatsminister, können Sie dem Hohen Hause bitte mitteilen, daß auch ein Sender, der in Deutschland betrieben wird, nämlich die Deutsche Welle, im Ausland Sendestationen unterhält und daß es dort auch in ähnlicher Weise Lizenzverträge gibt?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u223" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg263">Das ist richtig, Herr Kollege Hupka.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u224" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg264">Keine weiteren Zusatzfragen. Ich rufe die Frage 41 des Herrn Abgeordneten Hansen auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg265">Ist aus der Tatsache, daß die Bundesregierung auf eine Kontrolle der von einem anderen Staat betriebenen Sender verzichtet (Plenarprotokoll der Sitzung des Deutschen Bundestages vom 19. März 1981, Seite 1201) zu schließen, daß der Bundesregierung öffentliche Kritik sowie mögliche Folgen aus der nicht unumstrittenen Aktivität dieser Sender für die auswärtigen Beziehungen der Bundesrepublik Deutschland gleichgültig sind, obwohl sich Radio Free Europe und Radio Liberty mit großem technischen Aufwand in die inneren Angelegenheiten anderer Länder einmischen?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u225" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg266">Herr Kollege Hansen, die Antwort auf Ihre Frage 41 lautet: Nein; dies ist nicht zu schließen.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u226" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg267">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD):</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1981-06-16-09-044.u227" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg268">Da ich auch in der vorigen Zusatzfrage keine Schlußfolgerung gezogen habe, sondern Fragen gestellt habe, auf die ich gerne eine Antwort hätte, möchte ich Sie, Herr Staatsminister, in dieser ersten Zusatzfrage fragen, ob es denn der Bundesregierung auch gleichgültig ist, daß z. B. der US-Geheimdienst CIA, der sich vor einiger Zeit aus diesen Sendern zurückgezogen hat, jetzt klammheimlich, zumindest personell, dorthin zurückgekehrt ist.</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u228" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg269">Herr Kollege, nach meiner Kenntnis besteht eine Verbindung zwischen dem CIA und den beiden Sendern nicht mehr.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u229" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg270">Keine weiteren Zusatzfragen.</seg>
+          <vocal type="exclamat">
+            <desc>Hansen [SPD]: Doch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg271">— Bitte.</seg>
+        </u>
+        <note type="speaker">Hansen (SPD):</note>
+        <u who="#Q1729863" xml:id="ParlaMint-DE_1981-06-16-09-044.u230" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg272">Wäre es möglich, daß die Bundesregierung in dieser Richtung ihre Kenntnisse auffrischt, um dann vielleicht meine Frage beantworten zu können, ob denn die Tatsache, daß die Mittel für die Sender erheblich erhöht worden sind, nicht auch von politischer Relevanz sein kann?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u231" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg273">Letzteres kann sicherlich von politischer Relevanz sein. Das erstere bezog sich auf meinen jetzigen Kenntnisstand. Aber ich werde gerne der von Ihnen gestellten Frage hinsichtlich des CIA nochmals nachgehen. Meine Unterlagen sagen mir, daß eine solche Verbindung nicht mehr besteht.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u232" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg274">Eine weitere Zusatzfrage, Herr Abgeordneter Dr. Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU):</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1981-06-16-09-044.u233" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg275">Herr Staatsminister, können Sie bestätigen, daß die hier vom Kollegen Hansen genannte öffentliche Kritik an den Sendungen dieser beiden Sender im Grunde eigentlich immer eine kommunistische ist, sei es hierzulande oder außerhalb der Grenzen der Bundesrepublik Deutschland?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u234" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg276">Herr Kollege, wenn Sie meinen, daß diese Kritik eine kommunistische Kritik ist, dann kann ich das in keiner Weise bestätigen. Der Abgeordnete hat hier eine Frage gestellt, wenn ich es richtig verstanden habe, die durchaus die deutsche Bevölkerung bewegen kann, weil es sich um einen Sender handelt, der von einer ausländischen Macht betrieben wird, aber auf deutschem Boden steht. Insofern hat das mit kommunistischer Kritik überhaupt nichts zu tun.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u235" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg277">Keine weiteren Zusatzfragen. Frage 42 des Herrn Abgeordneten Dr. Mertes (Gerolstein)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg278">. — Der Abgeordnete ist nicht im Saal. Die Frage wird entsprechend den Richtlinien behandelt; dasselbe gilt für die Frage 43 des gleichen Abgeordneten. Ich rufe die Frage 44 des Herrn Abgeordneten Jäger (Wangen)</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg279">auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg280">Was hat der Bundesaußenminister an konkreten Maßnahmen im Jahr 1981 veranlaßt, um entsprechend dem Auftrag des Grundgesetzes, den Wiedervereinigungsanspruch unseres Volks nach außen beharrlich zu vertreten, in den mit der Bundesrepublik Deutschland durch diplomatische Beziehungen verbundenen Staaten — soweit dort möglich — und insbesondere seitens der deutschen Auslandsvertretungen zu einer würdigen Gestaltung des 17. Juni, des Tages der deutschen Einheit, beizutragen?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u236" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg281">Herr Kollege, alle Auslandsvertretungen der Bundesrepublik Deutschland weisen in ihren politischen Gesprächen und in öffentlichen Veranstaltungen immer wieder auf die Lage Deutschlands hin und werben damit um Verständnis für unser nationales Anliegen der Wiedervereinigung. Eine solche Gelegenheit ist insbesondere auch durch den Tag der deutschen Einheit gegeben. Dafür sind unsere Auslandsvertretungen ständig mit eingeschlägigem Informationsmaterial ausgestattet und sind im übrigen natürlich auch dafür ausgebildet.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u237" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg282">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1981-06-16-09-044.u238" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg283">Herr Staatsminister, kann ich aus Ihrer Antwort schließen, daß der Bundesminister des Auswärtigen im Jahre 1981 keine besonderen Vorkehrungen getroffen hat, um den 17. Juni im Sinne des Wiedervereinigungsgebots zu nutzen?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u239" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg284">Herr Kollege Jäger, da uns dieses Anliegen am Herzen liegt, bedarf es nicht eines neuen Anstoßes in einem neuen Jahr. Für uns ist das ständige Aufgabe.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u240" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg285">Weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1981-06-16-09-044.u241" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg286">Herr Staatsminister, Sie sind also auch nicht in der Lage, irgendwelche konkreten Maßnahmen zu nennen, die in diesem Jahre seitens des Bundesministers getroffen worden sind, um die von vielen Seiten als unbefriedigend empfundene Erinnerung an den 17. Juni zu verbessern?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u242" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg287">Herr Kollege, ich wiederhole, was ich zu Beginn gesagt habe. Dies ist eine ständige Aufgabe der deutschen Auslandsvertretungen, und es bedurfte hierzu keines besonderen Anstoßes im Jahre 1981.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u243" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg288">Weitere Zusatzfrage, Herr Abgeordneter Dr. Hupka.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU):</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1981-06-16-09-044.u244" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg289">Herr Staatsminister, liegen der Bundesregierung innerhalb der Berichtspflicht der Missionen Berichte darüber vor, wie der 17. Juni jeweils von unseren Missionen im Ausland begangen wird?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u245" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg290">Herr Kollege, ich vermute: im großen und ganzen j a. Ich kann das nicht für alle Botschaften sagen. Aber da nach meiner Kenntnis und Erfahrung die Botschaften regelmäßig über derartige Veranstaltungen berichten, gehe ich davon aus, daß man sich hier eine Übersicht verschaffen kann.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u246" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg291">Keine weiteren Zusatzfragen. Ich rufe die Frage 45 des Herrn Abgeordneten Dr. Hupka auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg292">In welcher Weise ist dafür Sorge getragen worden, daß in und von unseren auswärtigen Vertretungen der 17. Juni als nationaler Gedenktag in angemessener Form begangen wird, und wird der Tag im Ostblock anders begangen als in den anderen Staaten?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u247" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg293">Herr Kollege, der 17. Juni als Tag der deutschen Einheit wird von den Auslandsvertretungen im allgemeinen mit internen Veranstaltungen begangen, wobei ein Unterschied zwischen kommunistischen und anderen Ländern nicht gemacht wird.</seg>
+        </u>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u248" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg294">Zusatzfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU):</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1981-06-16-09-044.u249" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg295">Wird der 17. Juni von unseren auswärtigen Missionen so begangen, wie andere Nationen ihre besonderen Gedenktage begehen, Großbritannien etwa den Geburtstag der Königin oder Amerika den 4. Juli?</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u250" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg296">Herr Kollege, wir haben uns über diese Frage vor einiger Zeit hier unterhalten. Ich verweise noch einmal darauf, daß der Ursprung und der Gedanke des 17. Juni mit einem Freudenfest wie dem Geburtstag einer Königin nicht vergleichbar sind.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD und der FDP</desc>
+        </kinesic>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u251" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg297">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Hupka (CDU/CSU):</note>
+        <u who="#Q84942" xml:id="ParlaMint-DE_1981-06-16-09-044.u252" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg298">Herr Staatsminister, da der 17. Juni unser nationaler Gedenktag ist, wäre es doch Aufgabe unserer Missionen, diesen durch Einladungen an das Diplomatische Korps und an die Öffentlichkeit auch in würdiger Weise zu begehen.</seg>
+        </u>
+        <note type="speaker">Dr. von Dohnanyi, Staatsminister:</note>
+        <u who="#Q62673" xml:id="ParlaMint-DE_1981-06-16-09-044.u253" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg299">Herr Kollege, ich habe soeben darauf hingewiesen, daß dieser Tag entsprechend dem mit ihm verbundenen Anliegen aller Deutschen in würdiger Weise begangen wird.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="U2" ana="#DE-consultation">
+        <head>Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Anpassung von Dienst- und Versorgungsbezügen in Bund und Ländern 1981 (Bundesbesoldungs- und -versorgungsanpassungsgesetz 1981 — BBVAnpG 81) — Drucksache 9/557 —</head>
+        <note type="speaker">Präsident Stücklen:</note>
+        <u who="#Q454669" xml:id="ParlaMint-DE_1981-06-16-09-044.u254" ana="#chair">
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg300">Keine weiteren Zusatzfragen. Die Fragen 67 und 68 des Herrn Abgeordneten Kirschner werden auf Wunsch des Fragestellers zurückgezogen. Herr Staatsminister, das fällt nicht in Ihren Bereich. Damit sind wir am Ende der Fragestunde angelangt. Ich rufe den Zusatzpunkt zur Tagesordnung auf:</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg301">Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Anpassung von Dienst- und Versorgungsbezügen in Bund und Ländern 1981 (Bundesbesoldungs- und -versorgungsanpassungsgesetz 1981 — BBVAnpG 81) — Drucksache 9/557 —</seg>
+          <seg id="ParlaMint-DE_1981-06-16-09-044.seg302">Wird das Wort zur Einbringung gewünscht? - Das ist nicht der Fall. Wir kommen zur Abstimmung. Der Ältestenrat schlägt vor, den Gesetzentwurf der Bundesregierung auf Drucksache 9/557 zur federführenden Beratung an ,den Innenausschuß sowie zur Beratung gemäß § 96 unserer Geschäftsordnung an den Haushaltsausschuß zu überweisen. Ist das Haus damit einverstanden? — Ich sehe und höre keinen Widerspruch. Es ist so beschlossen. Wir sind am Schluß unserer heutigen Tagesordnung angekommen. Ich berufe die nächste Sitzung des Deutschen Bundestages für morgen, Mittwoch, den 17. Juni 1981, 10 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 10.33 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

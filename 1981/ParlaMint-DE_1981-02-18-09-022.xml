@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1981-02-18-09-022">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 9. Wahlperiode, 22. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 18.02.1981 (22. Sitzung der 9. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 9, Session 22 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 1981-02-18 (Session 22 in Legislative Period 9)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="22">22. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.09" n="9">9. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="22">Session 22</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.09" n="9">Legislative Period 9</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 18.02.1981</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 1981-02-18</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-02-24">https://www.bundestag.de/resource/blob/490382/effcc03f3b3e157f9d8050b4a9d9d089/pp09-data.zip</idno>
+          <date when="1981-02-18">1981-02-18</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Bonn</name>
+          <name type="city" xml:lang="en">Bonn</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="1981-02-18">1981-02-18</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-question_time">
+        <head>Fragestunde — Drucksache 9/159 —</head>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u1" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg1">Ich eröffne die Sitzung. Ich rufe Punkt 1 der Tagesordnung auf: Fragestunde — Drucksache 9/159 —</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg2">Ich rufe als erstes den Geschäftsbereich des Bundesministers der Justiz auf. Die Frage 1 ist von Herrn Abgeordneten Dr. Schneider eingebracht; sie soll auf Wunsch des Fragestellers schriftlich beantwortet werden. Die Antwort wird als Anlage abgedruckt. Ich rufe dann den Geschäftsbereich des Bundesministers für Forschung und Technologie auf. Für die Fragen 2 und 3 des Herrn Abgeordneten Pfeffermann ist schriftliche Beantwortung vorgesehen. Die Antworten werden als Anlagen abgedruckt. Dann rufe ich den Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit auf. Dazu ist der Herr Parlamentarische Staatssekretär Brück erschienen. Ich begrüße Sie, Herr Staatssekretär. Ich rufe die Frage 4 des Herrn Abgeordneten Zierer auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg3">Treffen nach Kenntnis der Bundesregierung Zeitungsberichte zu, nach denen ein in der Entwicklungshilfe tätiger deutscher Buchhalter in Kenia — der durch speziell ausgebildete Einheimische leicht ersetzt werden könnte — den deutschen Steuerzahler seit Jahren ca. 1 000 DM pro Tag kostet und sein Vertrag weiter verlängert werden soll? Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär beim Bundesminister für wirtschaftliche Zusammenarbeit:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1981-02-18-09-022.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg4">Herr Kollege Zierer, es handelt sich hier nicht um einen Buchhalter, sondern um einen Finanzberater und Experten für die vielfältigen Probleme der Ausschreibung der Tana-River-Development-Authority als Trägerin des Masinga-Staudamm-Projektes. Der Experte verdient 9 114,23 DM brutto monatlich. Wegen der Größe und Komplexität des Vorhabens werden an den Finanzberater hohe Ansprüche gestellt. Die kenianische Regierung hatte die Entsendung gewünscht, weil eine einheimische Fachkraft vergleichbarer Qualifikation nicht zu finden war. Dem deutschen Experten stehen einheimische Buchhalter zur Seite. Mit der bevorstehenden Vollendung des Masinga-Staudamms zirka Mitte dieses Jahres läuft auch die Tätigkeit des Finanzberaters aus. Eine Verlängerung ist nicht beabsichtigt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u3" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg5">Eine Zusatzfrage, Herr Kollege Zierer.</seg>
+        </u>
+        <note type="speaker">Zierer (CDU/CSU):</note>
+        <u who="#Q818010" xml:id="ParlaMint-DE_1981-02-18-09-022.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg6">Herr Staatssekretär, dann trifft diese Zeitungsmeldung also nicht zu. Meine Frage lautet: Was unternimmt die Bundesregierung, wenn in so angesehenen Zeitungen wie der „FAZ" so diffamierende Berichte erscheinen? Was wird in diesem konkreten Fall unternommen?</seg>
+        </u>
+        <note type="speaker">Brück, Parl. Staatssekretär:</note>
+        <u who="#Q449806" xml:id="ParlaMint-DE_1981-02-18-09-022.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg7">Herr Kollege, unsere Pressestelle hat an die „Frankfurter Allgemeine Zeitung" einen richtigstellenden Leserbrief geschickt. Er ist von dieser Zeitung veröffentlicht worden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u6" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg8">Damit ist die Frage aus dem Geschäftsbereich des Bundesministers für wirtschaftliche Zusammenarbeit beantwortet. Ich danke Ihnen, Herr Staatssekretär. Ich rufe die Fragen aus dem Geschäftsbereich des Bundesministers des Innern auf. Dazu ist der Herr Parlamentarische Staatssekretär von Schoeler erschienen. Ich begrüße Sie, Herr Staatssekretär. Ich rufe die Frage 5 des Herrn Abgeordneten Dr. Laufs auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg9">Welche Menge an schwachradioaktiven Abfällen ist seit Schließung des Salzlagers Asse oberirdisch aufgelaufen, und welches ist ihr jährlicher Zuwachs?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg10">Eine Umfrage des Bundesministeriums des Innern vom 12. Juni 1979 nach dem erwarteten Anfall endkonditionierter schwach radioaktiver Abfälle in den Ländern ergab für 1979 etwa 10 300 cbm und für 1980 etwa 11 900 cbm.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u8" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg11">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-02-18-09-022.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg12">Herr Staatssekretär, in welchem Umfang sind in diesen Kapazitätsangaben auch die Abfälle aus dem Abriß von Kernkraftwerken in der Zukunft enthalten?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg13">Herr Kollege Laufs, in den Zahlen sind alle diejenigen Angaben enthalten, die für die Länder voraussehbar waren. Die genannte Zahl setzt z. B. voraus, daß die gegenwärtige Zahl von Kernkraftwerken, die im Betrieb befindlich sind, gleichbleibt. Es sind natürlich Veränderungen möglich. Es handelt sich um eine Prognose. Auch für das Problem, das Sie eben angesprochen haben, gilt, daß nur erwartete und schon prognostizierbare Angaben oder Tatbestände in die zahlenmäßigen Angaben der Länder eingeflossen sein können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u11" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg14">Eine weitere Zusatzfrage, Herr Kollege Laufs.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-02-18-09-022.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg15">Herr Staatssekretär, welche Abfallmenge wird sich bis zum mutmaßlichen Zeitpunkt der Endlagerung oberirdisch akkumulieren?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg16">Herr Kollege Laufs, das ist eine Frage, die nicht beantwortbar ist, weil sie eine exakte Kenntnis des Zeitpunktes der Endlagerung voraussetzt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u14" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg17">Keine weiteren Zusatzfragen. Dann rufe ich die Frage 6 des Herrn Abgeordneten Dr. Laufs auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg18">Nach welchem Konzept beabsichtigt die Bundesregierung, diese leichtradioaktiven Abfälle durch Endlagerung zu beseitigen, und sieht die Bundesregierung in der rückholbaren Zwischenlagerung schwachradioaktiver Abfälle, wie sie am 30. April 1979 von der Gesellschaft für Strahlen- und Umweltforschung für das Salzbergwerk Asse nach § 3 der Strahlenschutzverordnung beantragt wurde, noch eine durchführbare Malinahme zur Vermeidung großer oberirdischer Sammelstellen für leichtaktive Abfälle? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u15" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg19">Das Konzept der Bundesregierung sieht vor, zunächst wieder radioaktive Abfälle in dem Versuchsendlager Asse II sowie daneben im ehemaligen Eisenerzbergwerk Konrad in Salzgitter und längerfristig im geplanten Endlager bei Gorleben endzulagern. Zu diesem Zweck wird zur Zeit für Asse II ein umfassendes Planfeststellungsverfahren vorbereitet und für Konrad ein 1975 begonnenes Programm von Eignungsuntersuchungen bis Ende 1981 abgeschlossen, um gegebenenfalls dann auch für die Grube Konrad ein Planfeststellungsverfahren einzuleiten. Bei Gorleben werden die Erkundung und die bergmännische Erschließung des Salzstocks und das laufende Planfeststellungsverfahren für ein Endlager gemäß dem Beschluß der Regierungschefs von Bund und Ländern vom 28. 9. 1979 planmäßig vorangeführt. Die Bundesregierung sieht in der rückholbaren Zwischenlagerung schwachradioaktiver Abfälle im Salzbergwerk Asse II nicht mehr eine Möglichkeit, große oberirdische Sammelstellen für leichtaktive Abfälle zu vermeiden. Es hat sich in der Zwischenzeit ergeben, daß die seinerzeitigen optimistischen Einschätzungen niedersächsischer Behörden über die Abwicklung des erforderlichen Genehmigungsverfahrens nicht haltbar sind, u. a. weil ein Sachverständigengutachten über die mögliche Ausbreitung von Radionukliden nicht vor Ablauf von drei bis vier Jahren, d. h. ungefähr erst 1984, erstellt werden kann. Ein gleiches Gutachten mit ähnlichem Zeitbedarf wird auch für das erwähnte Planfeststellungsverfahren benötigt, so daß auch das Planfeststellungsverfahren keinen Verzicht auf oberirdische Sammelstellen ermöglicht. Für das Eisenerzbergwerk Konrad könnte, falls sich seine bisher positiv einzuschätzende Eignung abschließend bestätigen sollte, bereits im Jahre 1982 ein Antrag auf Planfeststellung eingereicht werden. Nach Schätzung der Bundesregierung könnte das Planfeststellungsverfahren, das von der zuständigen obersten niedersächsischen Landesbehörde durchzuführen ist, bis Mitte der 80er Jahre abgeschlossen werden. Das Endlager bei Gorleben, abschließende Eignung selbstverständlich vorausgesetzt, wird frühestens in der ersten Hälfte der 90er Jahre den Betrieb aufnehmen können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u16" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg20">Eine Zusatzfrage, Herr Kollege Laufs.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-02-18-09-022.u17" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg21">Herr Staatssekretär, können Sie abschätzen, bis wann die Länder die Planungsgrundlagen für den Umfang der erforderlichen Ausbaumaßnahmen ihrer Landessammelstellen erhalten werden?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u18" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg22">Herr Kollege Laufs, das ist etwas, was ich akustisch nicht verstanden habe.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-02-18-09-022.u19" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg23">Vielleicht darf ich noch einmal wiederholen: Können Sie abschätzen, bis wann die Bundesländer die für den Ausbau ihrer Landessammelstellen erforderlichen Planungsgrundlagen von der rechtlich hier geforderten Bundesregierung erhalten werden?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u20" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg24">Herr Kollege Laufs, nach meiner Kenntnis haben die Länder die Unterlagen, die sie für ihre Planungen benötigen. Ich bin aber gerne bereit, noch einmal der Frage nachzugehen, ob aus der Sicht der Länder zusätzliche Informationen notwendig sind. Aber ich glaube, daß das nicht der Fall ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u21" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg25">Eine weitere Zusatzfrage, Herr Kollege Laufs.</seg>
+        </u>
+        <note type="speaker">Dr. Laufs (CDU/CSU):</note>
+        <u who="#Q2060856" xml:id="ParlaMint-DE_1981-02-18-09-022.u22" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg26">Herr Staatssekretär, wie beurteilt die Bundesregierung die sicherheitstechnische Situation am Ort der Landessammelstellen, die gegenwärtig sehr stark beansprucht werden, im Vergleich mit der bei der früher möglichen Lagerung schwachaktiver Abfälle im Bergwerk Asse?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg27">Herr Kollege Laufs, wir haben dazu verschiedentlich auch hier im Bundestag Stellung genommen. Spezifische Auskünfte zu sicherheitstechnischen Gegebenheiten lassen sich natürlich immer nur für einzelne Anlagen machen. Für das Beispiel Mitterteich hat das an Hand der Fragen einiger Kollegen hier eine Rolle gespielt. Ich bin gerne bereit, Ihnen diese Antworten zur Verfügung zu stellen. Insgesamt läßt sich sagen, daß gegen die Planungen der Landessammelstellen aus Sicherheitsgesichtspunkten keinerlei Bedenken bestehen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u24" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg28">Das Wort zu weiteren Zusatzfragen wird nicht gewünscht. Damit ist die Frage 6 beantwortet. Ich rufe die Frage 7 des Herrn Abgeordneten Graf Huyn auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg29">Trifft es zu, daß auf Veranlassung der Bundesregierung seit einiger Zeit der Chef der „Westabteilung" der SED, Herbert Häber, sowie dessen Stellvertreter während ihrer Tätigkeit innerhalb des Bundesgebiets von den zuständigen Abwehrorganen nicht mehr observiert werden dürfen, und treffen neue Presseberichte zu, daß ein Erlaß des Bundesinnenministers vorgesehen ist, die Überwachung von kommunistischen Funktionären, die im Auftrag der SED in der Bundesrepublik Deutschland umherreisen, völlig abzuschaffen? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg30">Herr Kollege, darüber, ob in einem Einzelfall nachrichtendienstliche Mittel eingesetzt werden, kann die Bundesregierung in der Öffentlichkeit keine Auskunft geben. Zum zweiten Teil Ihrer Frage weise ich darauf hin, daß sich die Tätigkeit des Bundesamtes für Verfassungsschutz nach dem gesetzlichen Auftrag des § 3 des Bundesverfassungsschutzgesetzes richtet. Eine Änderung dieses gesetzlichen Auftrags durch Erlaß des Bundesinnenministers ist weder möglich noch beabsichtigt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u26" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg31">Eine Zusatzfrage, Graf Huyn.</seg>
+        </u>
+        <note type="speaker">Graf Huyn (CDU/CSU):</note>
+        <u who="#Q216652" xml:id="ParlaMint-DE_1981-02-18-09-022.u27" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg32">Herr Staatssekretär, trifft es zu, daß der Bundesinnenminister Mitte November vergangenen Jahres oder zu einem anderen Zeitpunkt in einem Fernschreiben an den BGS angeordnet hat, den Chef der „Westabteilung" beim Zentralkomitee der SED und seine beiden Stellvertreter bei ihrer Einreise in die Bundesrepublik Deutschland nicht mehr an das Bundesamt für Verfassungsschutz zu melden, das damit in der Erfüllung eines gesetzlichen Auftrags eingeschränkt wird?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u28" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg33">Herr Kollege, ich darf Ihnen noch einmal den ersten Satz meiner Antwort verlesen, weil er auch die Antwort auf Ihre Zusatzfrage darstellt. Ich zitiere mit Genehmigung des Herrn Präsidenten:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg34">Darüber, ob in einem Einzelfall nachrichtendienstliche Mittel eingesetzt werden, kann die Bundesregierung in der Öffentlichkeit keine Auskunft geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u29" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg35">Eine weitere Zusatzfrage, Graf Huyn.</seg>
+        </u>
+        <note type="speaker">Graf Huyn (CDU/CSU):</note>
+        <u who="#Q216652" xml:id="ParlaMint-DE_1981-02-18-09-022.u30" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg36">Ist sich die Bundesregierung denn wenigstens darüber im klaren, welche abträglichen und fatalen politischen Folgen eine Aufweichung der Beobachtung und Abwehr der Westarbeit der SED, eines bedeutenden Faktors der politisch-psychologischen Kriegsführung der Kommunisten gegen den freien Teil Deutschlands, haben würde?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg37">Herr Kollege, Sie gehen ganz offensichtlich von einem Tatbestand aus, zu dem ich Ihnen erklärt habe, daß die Bundesregierung dazu in der Öffentlichkeit keine Auskunft geben kann. Wenn sie über den Tatbestand in der Öffentlichkeit keine Auskunft geben kann, schließt das selbstverständlich die Wertung dieses Tatbestandes mit ein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u32" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg38">Keine weiteren Zusatzfragen zu Frage 7? — Dann rufe ich Frage 8 des Herrn Abgeordneten Fellner auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg39">Hält die Bundesregierung die „Westabteilung" des Zentralkomitees der SED für ein Organ, dessen vorrangiges Ziel die Bekämpfung und Beseitigung der freiheitlichen demokratischen Grundordnung der Bundesrepublik Deutschland ist und bleibt, und trifft es zu, daß die SED über diese Westabteilung ihres Zentralkomitees z. B. die Deutsche Kommunistische Partei nicht nur ideell sowie politisch-ideologisch, sondern auch materiell unterstützt und operativ an leitet? Zur Beantwortung, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg40">Herr Kollege, die Bundesregierung hat wiederholt — zuletzt ausführlich im Verfassungsschutzbericht 1979 — darauf hingewiesen, daß die SED bestrebt ist, die politische Entwicklung in der Bundesrepublik Deutschland in ihrem Sinne zu beeinflussen. Sie bedient sich hierbei unverändert der beim Zentralkomitee der SED bestehenden Abteilung für Westarbeit. Die besonderen Beziehungen zwischen SED und DKP zeigen sich auch darin, daß die DKP von der Westabteilung angeleitet sowie ideologisch und materiell unterstützt wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u34" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg41">Eine Zusatzfrage, Herr Kollege Fellner.</seg>
+        </u>
+        <note type="speaker">Fellner (CDU/CSU):</note>
+        <u who="#Q98954" xml:id="ParlaMint-DE_1981-02-18-09-022.u35" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg42">Herr Staatssekretär, bleibt die Bundesregierung bei ihrer meines Erachtens unhaltbaren Auffassung, daß der Westabteilung der SED trotz ihrer Intention, die Sie ja dargestellt haben, dann ein erhebliches politisches Gewicht beikommt, wenn es darum geht, Verträge und Vereinbarungen im Hinblick auf menschliche Erleichterungen im Verhältnis der DDR zur Bundesrepublik zu treffen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u36" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg43">Herr Kollege, mir ist nicht bekannt, woraus Sie eine solche Meinungsäußerung der Bundesregierung entnehmen.</seg>
+        </u>
+        <note type="speaker">Fellner (CDU/CSU):</note>
+        <u who="#Q98954" xml:id="ParlaMint-DE_1981-02-18-09-022.u37" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg44">Ich habe einer von Ihnen vielleicht auch zitierten Anfrage entnommen, nach der die Bundesregierung — das war im Jahre 1978 — gesagt hat, man müsse diesem Westbüro der SED eine erhebliche Bedeutung beimessen, wenn es darum gehe, daß Verträge über menschliche Erleichterungen zustande gebracht werden. Das war damals die Antwort der Bundesregierung.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg45">Herr Kollege, ich bin gern bereit, zu dieser Antwort der Bundesregierung, die mir im Augenblick nicht vorliegt und mir auch aus dem Kopf nicht bekannt ist, eine Stellungnahme abzugeben. Ich bitte aber um Verständnis, daß ich mich hier nicht zu einem Zitat äußern kann, das mir nicht im Wortlaut vorliegt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u39" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg46">Herr Kollege Fellner, wünschen Sie das Wort zu einer weiteren Zusatzfrage? Ich möchte Sie dann bitten, eine sehr kurze und auf den Gegenstand bezogene Frage zu stellen.</seg>
+        </u>
+        <note type="speaker">Fellner (CDU/CSU):</note>
+        <u who="#Q98954" xml:id="ParlaMint-DE_1981-02-18-09-022.u40" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg47">Danke. — Wie beurteilt die Bundesregierung dann andere DDR-Institutionen — ich nenne hier z. B. das Institut für internationale Politik und Wirtschaft oder auch die Zentrale Arbeitsgruppe im FDJ-Zentralrat —, die ebenfalls Westarbeit machen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg48">Herr Kollege Fellner, die Bundesregierung weist jährlich in dem Verfassungsschutzbericht auf besonders wichtige Träger der Westarbeit der SED hin. Das geschieht auch im Verfassungsschutzbericht des Jahres 1979. Ich weise in diesem Zusammenhang auf die Seiten 87 ff. dieses Berichts hin.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Fellner [CDU/CSU]: Danke schön!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u42" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg49">Eine Zusatzfrage. Der Kollege Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1981-02-18-09-022.u43" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg50">Herr Staatssekretär, darf ich Ihrer Antwort an den Kollegen Fellner entnehmen, daß die Bundesregierung jeden Angehörigen der Westabteilung der SED, der in die Bundesrepublik Deutschland kommt, auch unter dem Aspekt der Beihilfe und der Unterstützung verfassungsfeindlicher Aktivitäten betrachtet und ihr praktisches Handeln nach dieser Betrachtung ausrichtet?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u44" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg51">Herr Kollege, die Bundesregierung richtet ihr praktisches Handeln nach den gesetzlichen Grundlagen aus. Ich habe vorhin darauf hingewiesen. Im übrigen gilt auch zu Ihrer Frage das, was ich vorhin gesagt habe: Über die Frage, ob nachrichtendienstliche Mittel in einem Einzelfall eingesetzt werden, kann in der Öffentlichkeit keine Auskunft der Bundesregierung gegeben werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u45" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg52">Graf Huyn zu einer Zusatzfrage. Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Graf Huyn (CDU/CSU):</note>
+        <u who="#Q216652" xml:id="ParlaMint-DE_1981-02-18-09-022.u46" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg53">Herr Staatssekretär, sind Sie bereit, den Wortlaut zur Kenntnis zu nehmen, den mein Kollege Fellner vorhin nicht präsent hatte? Es heißt dort:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg54">Die Westabteilung beim ZK der SED konzipiert und kontrolliert die Westarbeit der SED gegenüber der Bundesrepublik Deutschland und die Zusammenarbeit mit DKP und SEW. Das politische Gewicht, das diese Abteilung des ZK der SED für Verhandlungen und Verträge mit der DDR sowie für die Bemühungen der Bundesregierung — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u47" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg55">Kollege Graf Huyn, ich bin ja nicht kleinlich. Aber Sie können hier keine Verlesung von Artikeln betreiben. Beschränken Sie sich bitte darauf, so wie es in der Geschäftsordnung steht, eine kurze, kurzgefaßte Frage an den Herrn Staatssekretär zu stellen.</seg>
+        </u>
+        <note type="speaker">Graf Huyn (CDU/CSU):</note>
+        <u who="#Q216652" xml:id="ParlaMint-DE_1981-02-18-09-022.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg56">Herr Präsident, ich wollte nur das zitieren, —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u49" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg57">Ich verstehe das.</seg>
+        </u>
+        <note type="speaker">Graf Huyn (CDU/CSU):</note>
+        <u who="#Q216652" xml:id="ParlaMint-DE_1981-02-18-09-022.u50" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg58">— auf was bereits eine Antwort zu geben der Herr Staatssekretär leider nicht in der Lage war.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg59">Herr Kollege, auch nach Ihrem Zitat ist mir weder bekannt, was Sie zitieren, noch, in welchem Zusammenhang es steht. Ich bin gern bereit, Ihrer Bitte um eine Stellungnahme zu einem Zitat, das Ihnen wichtig ist, zu entsprechen. Ich bitte nur um Verständnis, daß ich dann beanspruchen muß, daß mir die Quelle und der Zusammenhang dieses Zitats bekannt sind. Deswegen bitte ich Sie, mir dieses Schriftstück, das Sie dort haben und das ich nicht kenne, zuzuleiten. Ich bin gern bereit, Ihnen dann eine Stellungnahme zukommen zu lassen.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Graf Huyn [CDU/CSU]: Dies eben wollte ich gern tun! Danke sehr!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u52" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg60">Ich rufe die Frage 9 des Herrn Abgeordneten Dr. von Wartenberg auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg61">Wie begründet die Bundesregierung die Gewährung der oberstbehördlichen Stellenzulage („Ministerialzulage")</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg62">, insbesondere unter dem Aspekt, daß sie auch für Tätigkeiten mit nur relativ geringer Verantwortlichkeit gewährt wird? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u53" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg63">Herr Kollege, die oberstbehördliche Zulage in ihrer heutigen Form als steuerpflichtige Stellenzulage wurde 1971 vom Gesetzgeber eingeführt. Auf Grund von Tarifverträgen wird sie auch Angestellten und Arbeitern gewährt. Aus Einsparungsgründen ist die Höhe der Zulage im Haushaltsstrukturgesetz seit 1975 festgeschrieben. Der gesetzgeberischen Entscheidung lag die Erwägung zugrunde, daß die mit der Umwandlung der seit 1938 als steuerfreie Aufwandsentschädigung gezahlten Ministerialzulage in eine nicht ruhegehaltsfähige steuerpflichtige Stellenzulage verbundenen Verbesserungen, die sich im Durchschnitt im unteren und mittleren Einkommensbereich ergeben, dringend erwünscht seien, weil die vorangegangenen Strukturverbesserungen zugunsten der Beamten in der Außenverwaltung sich zum Nachteil der Personalauslese in den Zentralbehörden ausgewirkt hätten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u54" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg64">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. von Wartenberg (CDU/CSU):</note>
+        <u who="#Q1586203" xml:id="ParlaMint-DE_1981-02-18-09-022.u55" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg65">Herr Staatssekretär, wie hoch sind die Kosten, die die Ministerialzulage beim Bund und bei den Ländern erfordert?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u56" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg66">Herr Kollege, die Kosten belaufen sich — das ist eine Zahl, die ich Ihnen jetzt aus dem Kopf sagen muß; ich bitte um Verständnis — auf, glaube ich, die Größenordnung von etwa 90 Millionen DM. Ich werde Ihnen nachher die genaue Zahl nennen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u57" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg67">Die zweite Zusatzfrage des Herrn Kollegen Dr. von Wartenberg.</seg>
+        </u>
+        <note type="speaker">Dr. von Wartenberg (CDU/CSU):</note>
+        <u who="#Q1586203" xml:id="ParlaMint-DE_1981-02-18-09-022.u58" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg68">Ich gehe davon aus, daß ich die Zahl nachgeliefert bekomme. Herr Staatssekretär, in welchem Jahr wird sich die Festschreibung, die Sie zitiert haben, dahin ausgewirkt haben, daß man von einer Besserstellung der Beamten in den Ministerien nicht mehr sprechen kann?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u59" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg69">Die Frage ist nicht beantwortbar, weil die Prämisse, von der Sie ausgehen, nämlich die Prämisse der Besserstellung, nicht zutrifft.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u60" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg70">Eine Zusatzfrage des Herrn Abgeordneten Dr. Hirsch.</seg>
+        </u>
+        <note type="speaker">Dr. Hirsch (FDP):</note>
+        <u who="#Q107360" xml:id="ParlaMint-DE_1981-02-18-09-022.u61" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg71">Herr Staatssekretär, können Sie sagen, wie groß ungefähr der Anteil der Ministerialzulage ist, der für Arbeiter, Angestellte und Beamte — ich sage mal: etwa für Beamte bis zum mittleren Dienst — gezahlt wird?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u62" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg72">Herr Kollege Hirsch, 50 % der Empfänger der Zulage gehören dem einfachen und dem mittleren Dienst an.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u63" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg73">Eine weitere Zusatzfrage des Herrn Abgeordneten Dr. Hirsch.</seg>
+        </u>
+        <note type="speaker">Dr. Hirsch (FDP):</note>
+        <u who="#Q107360" xml:id="ParlaMint-DE_1981-02-18-09-022.u64" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg74">Können Sie, Herr Staatssekretär, angeben, wie groß ungefähr die Haushaltsersparnis des Bundes wäre, wenn man die Ministerialzulage für die Beamten bis einschließlich des mittleren Dienstes und die Angestellten und Arbeiter gegen Tariferhöhungen von — ich sage mal — 4 oder 5 % abschmelzen und aufrechnen würde?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u65" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg75">Herr Kollege Hirsch, ich habe Ihnen die Zusatzfrage erlaubt, obwohl sie nach der Geschäftsordnung eigentlich nicht zulässig ist.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u66" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg76">Herr Kollege, ich kann Ihnen hierzu selbstverständlich keine exakte Zahl nennen, weil das auf eine eventuelle gesetzliche Regelung, so wie sie im Einzelfall ausgestaltet würde, ankäme. Nur eines steht fest — darauf wollen Sie mit Ihrer Frage j a auch hinweisen —: daß die Einsparungsbeträge schon deshalb sehr gering wären, weil der gesamte heute anfallende Betrag nicht ersatzlos gestrichen werden könnte. Im übrigen muß in diesem Zusammenhang auch berücksichtigt werden, daß es in den Besoldungsstufen ab A 9 dort, wo diese Zulage gewährt wird, keine Überstundenvergütung gibt. In dem Augenblick, in dem die Erwägungen, die Ihrer Frage zugrunde liegen, im Parlament beschlossen würden, müßte sicherlich gleichzeitig die Frage beantwortet werden, ob und in welchen Besoldungsgruppen dann ein Ausgleich für Überstundenleistungen erfolgen müßte, so wie das in anderen Bereichen des öffentlichen Dienstes der Fall ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u67" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg77">Herr Kollege Kansy, Sie wünschen das Wort zu einer Zusatzfrage? — Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Dr. Kansy (CDU/CSU):</note>
+        <u who="#Q1223435" xml:id="ParlaMint-DE_1981-02-18-09-022.u68" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg78">Herr Staatssekretär, haben Sie Verständnis für die Tatsache, daß Beamte außerhalb des Ministerialbereichs, die sehr oft ähnliche Verantwortung bei ähnlichen Aufgaben zu tragen haben, hinsichtlich ihrer Besoldung auf Grund der Tatsache, daß sie an dieser Ministerialzulage nicht beteiligt sind, schlechtergestellt sind?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u69" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg79">Herr Kollege, ursächlich für die Einführung dieser Zulage war, daß die wesentlichen Funktionen der Beamten, die diese Zulage beziehen, in ihrer Zusammenballung in den anderen Bereichen des öffentlichen Dienstes nicht anzutreffen sind. Das gilt für den Bereich der Ministerialverwaltung, der mit der Erarbeitung von Grundlagen der Regierungstätigkeit befaßt ist, das gilt für die Mitarbeit an der Gesetzgebung, und das gilt für die oberste Dienst- und Fachaufsicht. Das sind Funktionen, die in ihrer Zusammenballung in anderen Bereichen der öffentlichen Verwaltung sonst nicht wahrgenommen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u70" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg80">Herr Kansy, da Sie die Frage 9 nicht eingebracht haben, können Sie nur eine Zusatzfrage stellen. — Keine weiteren Zusatzfragen? Ich rufe nun die Frage 10 des Herrn Abgeordneten Dr. von Wartenberg auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg81">Beabsichtigt die Bundesregierung, mit dem Ziel einer differenzierten Besoldung unterschiedlicher Tätigkeiten und einer vergleichbaren Besoldung sich entsprechender Tätigkeiten, eine Überprüfung des Zulagenwesens vorzunehmen? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u71" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg82">Mit dem Beschluß des Deutschen Bundestages vom 18. Juni 1980 ist die Bundesregierung gebeten worden, u. a. die Möglichkeiten für eine Neuordnung der Zulagen nach einheitlichen Grundsätzen zu prüfen. Die Bundesregierung wird über das Ergebnis der Prüfung zu gegebener Zeit berichten. In die Prüfung werden auch die in Ihrer Frage zum Ausdruck kommenden Aspekte einbezogen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u72" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg83">Eine Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Dr. von Wartenberg (CDU/CSU):</note>
+        <u who="#Q1586203" xml:id="ParlaMint-DE_1981-02-18-09-022.u73" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg84">Herr Staatssekretär, können Sie mir Auskunft darüber geben, wie viele der Ministerialzulage vergleichbare Zulagen es insgesamt gibt und wie sich das haushaltsmäßig auswirkt?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u74" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg85">Herr Kollege, es gibt dazu einen Bericht des Bundesministers des Innern an den Innenausschuß des Deutschen Bundestages aus der letzten Legislaturperiode, der diese Bestandsaufnahme sehr sorgfältig vornimmt. Ich werde Ihnen diesen Bericht im Anschluß an die Fragestunde gern zuleiten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u75" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg86">Eine weitere Zusatzfrage des Herrn Abgeordneten Kansy.</seg>
+        </u>
+        <note type="speaker">Dr. Kansy (CDU/CSU):</note>
+        <u who="#Q1223435" xml:id="ParlaMint-DE_1981-02-18-09-022.u76" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg87">Herr Staatssekretär, wird bei dieser Überprüfung auch die Tatsache eine Rolle spielen, daß die Einführung der Ministerialzulage ursprünglich u. a. auch damit begründet wurde, daß unsere Bediensteten in den Ministerien angemessen gekleidet erscheinen müssen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg88">Herr Kollege, bei den Überprüfungen wird die heutige tatsächliche Situation eine Rolle spielen. Dabei sind die Gesichtspunkte der Personalwirtschaft, wie ich sie am Anfang genannt habe, ebenso wie die Bedeutung der Funktionen, die im Bereich der Ministerialverwaltung wahrgenommen werden, entscheidend, weniger aber historische Tatbestände.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u78" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg89">Keine weiteren Zusatzfragen. Dann rufe ich die Frage 11 der Frau Abgeordneten Terborg auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg90">Teilt die Bundesregierung die Auffassung des Bundesverbands der Deutschen Industrie (BDI)</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg91">(vgl. Frankfurter Rundschau vom 26. Januar 1981) , daß ein Verbot von Cadmium und Asbest weder aus umweltpolitischen noch wirtschaftlichen Gründen zu rechtfertigen sei? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u79" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg92">Frau Kollegin ich wäre Ihnen dankbar, wenn ich die beiden Fragen zusammen beantworten könnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u80" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg93">Sind Sie einverstanden? — Dann rufe ich auch die Frage 12 der Frau Abgeordneten Terborg auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg94">Beabsichtigt die Bundesregierung, durch gesetzgeberische Maßnahmen Konsequenzen aus den vorliegenden Asbest- und Cadmiumberichten des Umweltbundesamts zu ziehen, und wann ist mit ihnen zu rechnen? Bitte sehr.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u81" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg95">Das Umweltbundesamt hat vor wenigen Wochen je einen Bericht über Cadmium und Asbest vorgelegt und darin auf die beim Umgang mit diesen Stoffen verbundenen Gefahren für Mensch und Umwelt hingewiesen. Ich möchte hervorheben, daß die von Cadmium und Asbest ausgehenden Gefahren der Bundesregierung auch schon vorher bekannt waren und daß sie bereits Vorschriften zum Schutz vor diesen Stoffen erlassen hat. So enthält z. B. die Technische Anleitung zur Reinhaltung der Luft einschneidende Immissionsbegrenzungen sowohl für Asbest wie für Cadmium, die in der von der Bundesregierung bereits 1978 beschlossenen Änderung der TA Luft verschärft und um zusätzliche Immissionswerte ergänzt wurden. Die am 1. Oktober 1980 in Kraft getretene Arbeitsstoffverordnung sieht erhöhte Sicherheitsvorkehrungen beim Umgang mit Asbest vor und enthält die grundsätzliche Ermächtigung für die Gewerbeaufsicht, den Austausch von Asbest gegen ungefährliche Ersatzstoffe anzuordnen. Das besonders gefährliche Aufspritzen von Asbest ist seit 1979 durch die Unfallverhütungsvorschrift Staub verboten. Die Berichte des Umweltbundesamts zeigen, daß weitere Maßnahmen erforderlich sind. Die bereits bestehenden Vorschriften zum Schutz vor den Gefahren durch Cadmium und Asbest werden entsprechend dem neuesten Kenntnisstand fortgeschrieben werden. Das gilt insbesondere für die Technische Anleitung Luft. Außerdem sieht ein vom Bundesarbeitsminister bereits gebilligter Nachtrag zur Unfallverhütungsvorschrift Staub das grundsätzliche Verbot der Verwendung bestimmter Asbestzementprodukte zur Innenisolierung von Räumen sowie der Verwendung bestimmter Filter, Anstrichstoffe, Kitte, Klebestoffe, Mörtel und Spachtelmassen sowie Boden- und Straßenbeläge für 1984 vor. Unabhängig von der Fortentwicklung bestehender Vorschriften wird seit einiger Zeit in Brüssel im Rahmen der Mitgliedstaaten der Europäischen Gemeinschaft ein Richtlinienentwurf beraten, der auf ein Verwendungsverbot für asbesthaltige Produkte hinzielt. Außerdem bereitet die Bundesregierung unter Federführung des Bundesinnenministeriums eine Verordnung zur Überwachung der Aufbringung von Klärschlamm auf landwirtschaftliche Anbauflächen vor, in der u. a. Grenzwerte für Cadmium in Klärschlamm und Boden vorgeschrieben werden. Daneben werden Gespräche mit der Industrie geführt mit dem Ziel, die bisher verwandten Cadmiumverbindungen in möglichst vielen Produkten zu ersetzen und schon jetzt Verarbeitungsverfahren zu verbessern. Die endgültige Auswertung der Berichte im Hinblick auf die zu ziehenden Schlußfolgerungen ist noch nicht abgeschlossen. Erst nach Abschluß der Beratungen innerhalb der Bundesregierung und je nach dem Stand und den Auswirkungen der angelaufenen Maßnahmen kann die Frage, ob und welche weiteren Maßnahmen erforderlich sind, beantwortet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u82" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg96">Frau Kollegin, Sie wünschen das Wort zu einer Zusatzfrage. Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Frau Terborg (SPD):</note>
+        <u who="#Q1366127" xml:id="ParlaMint-DE_1981-02-18-09-022.u83" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg97">Ist der Bundesregierung bekannt, ob und gegebenenfalls welche Gefahren für die Bevölkerung beim Verladen von Asbestgestein entstehen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u84" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg98">Frau Kollegin, das Problem bei Asbest ist immer — das trifft auch auf den Verladungsvorgang zu — die Entstehung von Abrieb. Insbesondere daraus ergeben sich die gesundheitlichen Gefährdungen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u85" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg99">Eine weitere Zusatzfrage, Frau Kollegin.</seg>
+        </u>
+        <note type="speaker">Frau Terborg (SPD):</note>
+        <u who="#Q1366127" xml:id="ParlaMint-DE_1981-02-18-09-022.u86" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg100">Sie sind also der Meinung, daß beim Verladen von Asbestgestein der Staub, der dabei entsteht, für die Bevölkerung des Umkreises gefährlich ist?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u87" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg101">Frau Kollegin, ich würde Ihnen gern im Anschluß an die Fragestunde — —</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Frau Terborg [SPD]: Ich habe da einen ganz konkreten Fall, bei dem immer wieder diese Dinge auftreten!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u88" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg102">Sie dürfen nicht in Gespräche eintreten.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Frau Terborg [SPD]: Entschuldigung!</desc>
+        </vocal>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u89" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg103">Ich möchte meine Bereitschaft erklären, Ihnen im Anschluß an die Fragestunde zu diesem konkreten Fall eine Auskunft zu geben.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Frau Terborg [SPD]: Danke!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u90" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg104">Zu einer weiteren Zusatzfrage Herr Kollege Urbaniak.</seg>
+        </u>
+        <note type="speaker">Urbaniak (SPD):</note>
+        <u who="#Q1576923" xml:id="ParlaMint-DE_1981-02-18-09-022.u91" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg105">Herr Staatssekretär, meinen Sie nicht, daß es wichtig wäre, gerade im Hinblick auf die beiden hier angeführten Stoffe die Arbeitsschutzgesetzgebung und das Verordnungswesen für den Bereich des Arbeitsschutzes weiterzuentwikkeln und diese Instrumente zu nutzen, um tatsächlich zu einem Verbot dieser beiden für die betroffenen Arbeitnehmer und die Bevölkerung sehr gefährlichen Stoffe zu kommen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u92" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg106">Herr Kollege, das war der Grund, weshalb ich hier besonders ausführlich auf die Bemühungen des Bundesarbeitsministers im Bereich des Unfallschutzes und auch auf die Pläne hingewiesen habe, die der Bundesarbeitsminister in diesem Zusammenhang für die Zukunft noch hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u93" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg107">Zu einer Zusatzfrage Herr Abgeordneter Schmitt (Wiesbaden).</seg>
+        </u>
+        <note type="speaker">Schmitt (Wiesbaden) (SPD):</note>
+        <u who="#Q2172125" xml:id="ParlaMint-DE_1981-02-18-09-022.u94" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg108">Herr Staatssekretär, wie beurteilen Sie die Feststellung, daß es der Industrienation Japan gelungen ist, den Cadiumverbrauch in Japan in kürzester Zeit erheblich zu reduzieren?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u95" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg109">Herr Kollege, auch bezüglich dieser Frage bin ich gern bereit, Ihnen im Anschluß an die Fragestunde zu den Entwicklungen in Japan eine Auskunft zu geben.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Schmitt [Wiesbaden] [SPD]: Danke!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u96" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg110">Keine weiteren Zusatzfragen. Die Fragen 13 des Abgeordneten Dr. Voss und 14 des Abgeordneten Dr. Jobst werden auf Wunsch der Fragesteller schriftlich beantwortet. Die Antworten werden als Anlagen abgedruckt. Ich rufe die Frage 15 der Abgeordneten Frau Pack auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg111">Wann ist mit einem Erlaß einer Großfeuerungsanlagen-Verordnung oder einer entsprechenden Änderung der TA Luft zu rechnen? Bitte sehr, Herr Staatssekretär, zur Beantwortung.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u97" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg112">Frau Kollegin, ich gehe davon aus, daß Sie befürchten, der von der Umweltministerkonferenz bei sachgerechter Auslegung der TA Luft empfohlene Emissionsgrenzwert von 650 Milligramm Schwefeldioxyd je Kubikmeter Abgas von Kraftwerken werde nicht bundeseinheitlich angewandt. Auf Grund der Genehmigungspraxis seit dem UMK-Beschluß im Frühjahr 1980 teile ich diese Befürchtung grundsätzlich nicht. Allenfalls bestehen noch gewisse Schwierigkeiten bei der asche- und damit schwefelreicheren Ballastkohle; ein Sonderproblem, das auf Nordrhein-Westfalen begrenzt ist und selbst dort nur in Einzelfällen auftreten kann. Im übrigen müssen in einer Verordnung, von der eine größere Rechtssicherheit bei der Planung und der immissionsschutzrechtlichen Genehmigung von Steinkohlekraftwerken erwartet wird, außer für Schwefeldioxyd auch für alle übrigen Schadstoffe nicht nur für eine, sondern für alle genehmigungsbedürftigen Feuerungsanlagen umfassende Regelungen enthalten sein. Denn neben der S02-Begrenzung gewinnen die Begrenzungen der Emissionen an Stickstoffoxyden und Schwermetallen sowie Regelungen bei Anlagen mit Kraftwärmekopplungen und bei Altanlagen zunehmend an Bedeutung. Die Diskussion darüber, wie diese Entwicklungen zu bewerten sind, ist noch nicht abgeschlossen. Aus heutiger Sicht können die Grundlagen für eine Änderung der bundeseinheitlichen Regelung für Großfeuerungsanlagen im Jahre 1982 fertiggestellt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u98" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg113">Eine Zusatzfrage, Frau Kollegin Pack.</seg>
+        </u>
+        <note type="speaker">Frau Pack (CDU/CSU):</note>
+        <u who="#Q77534" xml:id="ParlaMint-DE_1981-02-18-09-022.u99" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg114">Herr Staatssekretär, ich vermute nicht nur, ich glaube nicht nur, sondern ich habe ja den Beweis, daß diese bundeseinheitlichen Regelungen unterlaufen werden, wie kürzlich erst in Nordrhein-Westfalen, wo 850 Milligramm pro Kubikmeter — —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u100" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg115">Frau Kollegin Pack, — Frau Pack (CDU/CSU): Das war die Einleitung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u101" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg116">— ich nehme an, Sie wollen eine Frage stellen, und das war eben das Vorwort.</seg>
+        </u>
+        <note type="speaker">Frau Pack (CDU/CSU):</note>
+        <u who="#Q77534" xml:id="ParlaMint-DE_1981-02-18-09-022.u102" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg117">Ich wollte nur sagen, daß ich nicht vermute, sondern daß ich feststelle und meine Frage auf dieser Feststellung gründet. Diese Frage läuft darauf hinaus: Glauben Sie nicht auch, daß der von uns allen so gewünschte verstärkte Einsatz von Kohle nur dann sichergestellt werden kann, wenn der strengste Maßstab angelegt wird? Denn sonst besteht meines Erachtens die Gefahr, daß der Genehmigungsspielraum durch steigende Emissionsbelastungen weiter eingeschränkt wird.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u103" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg118">Frau Kollegin, das war der Grund, wieso sich die Umweltministerkonferenz einmütig auf die Empfehlung eines Wertes von 650 Milligramm verständigt hat. Von daher kann ich nur unterstreichen, was Sie gesagt haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u104" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg119">Frau Kollegin Pack, Sie haben das Wort zu einer weiteren Zusatzfrage. Vorher muß ich Ihnen aber sagen: Sie haben eben ein zweifaches Kunststück fertiggebracht. Sie haben Ihrer Frage ein Vorwort vorangeschickt, und Sie haben in Ihrer Frage außerdem eine Feststellung untergebracht. Sie sind eine erfahrene Parlamentarierin und wissen, daß beides auffällt. Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Frau Pack (CDU/CSU):</note>
+        <u who="#Q77534" xml:id="ParlaMint-DE_1981-02-18-09-022.u105" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg120">Herr Staatssekretär, nachdem Sie meine Frage nicht beantwortet haben, frage ich Sie noch einmal: Wann gedenkt die Bundesregierung denn nun, endlich eine solche Großfeuerungsanlagen-Verordnung und eine entsprechende Änderung der TA Luft zu erlassen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u106" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg121">Frau Kollegin, Ihre Aussage, ich hätte Ihre Frage nicht beantwortet, scheint auf einem Mißverständnis zu beruhen. Ich darf das noch einmal vortragen. Aus heutiger Sicht — so habe ich vorhin gesagt — können die Grundlagen für eine Änderung der bundeseinheitlichen Regelung für Großfeuerungsanlagen im Jahre 1982 fertiggestellt werden. Ich will Ihnen, Frau Kollegin, die Begründung noch einmal in anderen Worten sagen. Wir dürfen nicht nur die Grenzwertproblematik bezüglich Schwefeldioxid betrachten, sondern wir müssen andere Schadstoffe ebenfalls im Auge haben und entsprechende Regelungen treffen, wenn das mit der Großfeuerungsanlagen-Verordnung erstrebte Ziel auch tatsächlich erreicht werden soll. In diesen anderen Bereichen sind die von mir in der Antwort auf die Ausgangsfrage dargestellten Arbeiten noch erforderlich. Deswegen kann die Großfeuerungsanlagen-Verordnung nicht früher erlassen werden. Im „Vorgriff" auf diese Entscheidung ist die Empfehlung der Umweltministerkonferenz mit dem Grenzwert von 650 Milligramm ergangen, die eine große Bedeutung hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u107" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg122">Keine weitere Zusatzfrage. Dann rufe ich die Frage 16 des Herrn Abgeordneten Dr. Olderog auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg123">Wie viele Schwerbehinderte im Sinne des Schwerbehindertengesetzes waren beim Bundesinnenministerium am 1. Januar 1975 und wie viele am 1. Januar 1981 dort beschäftigt? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u108" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg124">Am 1. Januar 1975 waren 116 Schwerbehinderte im Bundesinnenministerium beschäftigt. Am 1. Januar 1981 waren es 126 Schwerbehinderte und zwei Gleichgestellte. Sie besetzten 142 Pflichtplätze.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u109" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg125">Eine Zusatzfrage, Herr Kollege Olderog? — Das ist nicht der Fall. Dann rufe ich die Frage 17 des Herrn Abgeordneten Dr. Olderog auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg126">Wie viele dieser Schwerbehinderten sind in der Zeit vom 1. Januar 1975 bis zum 1. Januar 1981 neu eingestellt worden, wie viele der bereits im Bundesinnenministerium beschäftigten Mitarbeiter sind in dieser Zeit als Schwerbehinderte anerkannt worden, und wie viele der Schwerbehinderten wurden auf mehr als einem Pflichtplatz anerkannt?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u110" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg127">In dem Zeitraum vom 1. Januar 1975 bis zum 1. Januar 1981 sind 16 Schwerbehinderte eingestellt worden. Im gleichen Zeitraum sind 101 Beschäftigte des Bundesministeriums des Innern nachträglich als Schwerbehinderte anerkannt worden. Auf mehr als einem Pflichtplatz werden derzeit zehn Schwerbehinderte geführt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u111" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg128">Ich rufe die Frage 18 des Herrn Abgeordneten Sauer auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg129">Wie beurteilt die Bundesregierung die Tätigkeit des Polen-Verbands „Zgoda", Bochum, der nach dem Rücktritt von Ignacy Lukaszczyk von dem erst ebenfalls vor wenigen Jahren als „Aussiedler" in die Bundesrepublik Deutschland gekommenen Ingenieur Wladyslaw Janik geleitet wird? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg130">Der 1952 in Hamburg gegründete Bund der Polen „Zgoda" in der Bundesrepublik Deutschland e. V. hat sich nach § 2 seiner Satzung die Betreuung der Bevölkerung polnischer Abstammung in der Bundesrepublik Deutschland zur Aufgabe gestellt. Wie dieser Satzungsbestimmung zu entnehmen ist, gehören hierzu die Verteidigung der Interessen der Mitglieder in allen Bereichen des gesellschaftlichen und kulturellen Lebens, die Pflege und Entwicklung der kulturellen Tätigkeit im Dienste der Annäherung der Völker sowie der Ausbau der Kontakte der Mitglieder zu den Familien und Angehörigen in Polen. Mitglied kann nach der Satzung jeder werden, der polnischer Abstammung ist, in der Bundesrepublik Deutschland seinen ständigen Wohnsitz hat und sich zu den Aufgaben der „Zgoda" bekennt. Der Verein führt Gesellschaftsreisen sowie Kinderferienreisen der Mitglieder des Verbands nach Polen in Zusammenarbeit mit staatlichen polnischen Stellen durch. Nach eigenen Angaben hatte er im August 1980 10 000 Mitglieder. Irgendwelche Auswirkungen des in der Frage angesprochenen Wechsels im Vorsitz auf die Zielsetzung des Vereins oder die darauf gegründeten Aktivitäten sind nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u113" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg131">Wünschen Sie, eine Zusatzfrage zu stellen, Herr Abgeordneter Sauer?</seg>
+        </u>
+        <note type="speaker">Sauer (Salzgitter) (CDU/CSU):</note>
+        <u who="#Q118277" xml:id="ParlaMint-DE_1981-02-18-09-022.u114" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg132">Gern, Herr Präsident.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u115" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg133">Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Sauer (Salzgitter) (CDU/CSU):</note>
+        <u who="#Q118277" xml:id="ParlaMint-DE_1981-02-18-09-022.u116" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg134">Herr Kollege von Schoeler, wenn sich dieser Verband nach Ihrer Aussage zum Ziel gesetzt hat, die polnische Bevölkerung in der Bundesrepublik Deutschland zu vertreten und zu betreuen, wie erklärt dann die Bundesregierung die Tatsache, daß der amtierende Vorsitzende Janik, sein Vorgänger Lukaszczyk wie auch sehr viele Mitgleider — so kann ich es örtlich beobachten — Aussiedler sind, d. h. in den letzten Jahren aus dem polnischen Machtbereich ausgesiedelt sind, um nicht zu sagen als Deutsche von der polnischen Regierung freigekauft wurden?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg135">Herr Kollege, es ist nicht die Aufgabe der Bundesregierung, die Aktivitäten eines Vereins in der Bundesrepublik Deutschland hier sozusagen regierungsamtlich zu beurteilen. Auch für Aussiedler, die in die Bundesrepublik Deutschland kommen, gelten die vollen staatsbürgerlichen Rechte, sich in der Vereinsarbeit zu engagieren. Deswegen möchte ich bei dieser Zusatzfrage darauf hinweisen, daß ich es nicht richtig finde — diese Kritik möchte ich mir erlauben —, wenn in der Ausgangsfrage von „Aussiedlern" in Anführungszeichen gesprochen wird. Auch den Personen, die als Aussiedler in die Bundesrepublik Deutschland kommen, steht das Recht zu, hier tätig zu werden.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP und der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u118" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg136">Eine weitere Zusatzfrage, Herr Kollege Sauer.</seg>
+        </u>
+        <note type="speaker">Sauer (Salzgitter) (CDU/CSU):</note>
+        <u who="#Q118277" xml:id="ParlaMint-DE_1981-02-18-09-022.u119" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg137">Herr Staatssekretär von Schoeler, erhält der Bund der Polen „Zgoda" irgendwelche Haushaltszuwendungen des Bundes oder der Länder?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg138">Herr Kollege, ich kann nur für die Bundesregierung sprechen und sagen: Für den Bereich des Bundes ist das nicht der Fall.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u121" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg139">Ich rufe die Frage 19 der Abgeordneten Frau Traupe auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg140">Trifft es zu, daß der für den Reaktorsicherheitsbehälter des künftigen Kernkraftwerks Grohnde verwendete Stahl nicht den neuesten Sicherheitsbestimmungen entspricht? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u122" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg141">Frau Kollegin, ich wäre dankbar, wenn ich die Fragen 19 und 20 zusammen beantworten könnte.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u123" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg142">Die Fragestellerin ist einverstanden. Dann rufe ich auch die Frage 20 der Abgeordneten Frau Traupe auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg143">Wenn ja, warum ist der fast zweijährige Baustopp in Grohnde nicht dazu genutzt worden, die Bauelemente des Kernkraftwerks auf den neuesten Stand zu bringen? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u124" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg144">Es trifft zu, daß der für den Sicherheitsbehälter des Kernkraftwerks Grohnde verwendete Stahl sich von dem bei neuen Anlagen vorgesehenen unterscheidet. Für die spannungsmäßig gestörten Bereiche einschließlich der Stutzen wird dort der Stahl 20 MnMoNi 55 verwendet. In der glatten Hülle des Sicherheitsbehälters Grohnde wird der Stahl W StE 51 eingesetzt, auf den sich vermutlich die Frage bezieht. Hochfeste mikrolegierte Feinkornbaustähle wie der W StE 51 bedürfen einer besonders sorgfältigen Verarbeitung und Fertigungsüberwachung. Im konventionellen Druckbehälterbau wurden in der Vergangenheit diese Anforderungen teilweise nicht angemessen beachtet, was zu Schäden führte, durch die der Einsatz dieser Stähle zunehmend umstritten wurde. Im Bereich der Kerntechnik soll daher in Zukunft weniger verarbeitsempfindlichen Stählen von geringerer Festigkeit und höherer Zähigkeit der Vorzug gegeben werden. Das schließt nicht aus, daß auch hochfeste Stähle — bei entsprechender Blechqualität und Verarbeitung sowie sorgfältiger Fertigungskontrolle — die bei Kernkraftwerken besonders hohen Anforderungen erfüllen können. Nach den Feststellungen des von der Genehmigungsbehörde zugezogenen Sachverständigen wird diesen Erfordernissen beim Sicherheitsbehälter des Kernkraftwerks Grohnde voll Rechnung getragen. Die Genehmigungsvoraussetzungen des § 7 Atomgesetz sind daher erfüllt, so daß sich die Frage der Notwendigkeit einer nachträglichen Umrüstung nicht stellt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u125" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg145">Eine Zusatzfrage, Frau Kollegin Traupe.</seg>
+        </u>
+        <note type="speaker">Frau Traupe (SPD):</note>
+        <u who="#Q916655" xml:id="ParlaMint-DE_1981-02-18-09-022.u126" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg146">Herr Staatssekretär, stimmen Sie mir zu, daß es bei dem aktualisierten Bewußtsein der Bevölkerung hinsichtlich der Kernenergie sinnvoller gewesen wäre, das jetzt im Bau befindliche Kraftwerk, bei dem der Sicherheitsbehälter noch nicht erstellt ist, auf die moderneren Anforderungen umzustellen?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg147">Frau Kollegin, dem kann ich nicht zustimmen. Ich muß mich dabei auf den von der zuständigen Genehmigungsbehörde Niedersachsen herangezogenen Sachverständigen, nämlich den TÜV Hannover, ebenso beziehen wie auf eine entsprechende Empfehlung der Reaktorsicherheits- und Strahlenschutzkommission der Bundesregierung. Beide sind übereinstimmend zu dem Ergebnis gekommen, daß hier die Sicherheitsanforderungen nach § 7 des Atomgesetzes erfüllt sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u128" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg148">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Traupe (SPD):</note>
+        <u who="#Q916655" xml:id="ParlaMint-DE_1981-02-18-09-022.u129" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg149">Ist Ihnen bekannt, daß der Technische Überwachungsverein zunächst durch einen Mitarbeiter festgestellt hatte, daß der Stahl den jetzigen, aktualisierten Berechnungen eigentlich nicht mehr entspreche?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg150">Frau Kollegin, bezüglich der Eigenschaften des Stahls möchte ich noch einmal das zusammenzufassen versuchen, was ich vorhin gesagt habe. Der Stahl ist voll geeignet. Das Problem ist, daß dieser Stahl in seiner Beschaffenheit hohe Anforderungen an die Verarbeitung stellt. Der Stahl, von dem wir jetzt reden, ist in Grohnde nur für den Sicherheitsbehälter eingesetzt worden, nicht für die besonders sicherheitsempfindlichen Teile. Bezüglich der Verarbeitung bestehen besondere Anforderungen an die Qualität. Ich bin gern bereit, Ihnen das in allen technischen Details auf schriftlichem Wege mitzuteilen. Das Ergebnis all dieser Anstrengungen ist, daß die Sicherheitsanforderungen erfüllt sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u131" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg151">Zu einer dritten Zusatzfrage Frau Kollegin Traupe.</seg>
+        </u>
+        <note type="speaker">Frau Traupe (SPD):</note>
+        <u who="#Q916655" xml:id="ParlaMint-DE_1981-02-18-09-022.u132" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg152">Herr Staatssekretär, können Sie sich vorstellen, daß eine Bevölkerung, die bislang mit den Politikern dieses Raumes darin einverstanden war, daß das Projekt Grohnde gebaut würde, bei solchen Aussagen doch Unwohlgefühle entwickelt?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u133" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg153">Frau Kollegin, ich möchte bitten, daß Sie sich in einem solchen Falle mit den technischen Details, um die es hier geht — anders kann ich die Frage nicht beantworten —, auseinandersetzen und dabei auch einbeziehen, was die Sachverständigen, die sich mit diesen Fragen beschäftigt haben, gesagt haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u134" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg154">Sie haben vier Zusatzfragen. Das Wort zur vierten Frage, Frau Kollegin Traupe.</seg>
+        </u>
+        <note type="speaker">Frau Traupe (SPD):</note>
+        <u who="#Q916655" xml:id="ParlaMint-DE_1981-02-18-09-022.u135" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg155">Was gedenkt die Bundesregierung zu tun, damit in Zukunft der jeweils neueste Sicherheitsstand auch noch bei in Bau befindlichen Kernkraftwerken berücksichtigt wird?</seg>
+        </u>
+        <note type="speaker">von Schoeler, Parl. Staatssekretär:</note>
+        <u who="#Q113325" xml:id="ParlaMint-DE_1981-02-18-09-022.u136" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg156">Frau Kollegin, das ständige Bemühen des Bundesinnenministers geht dahin, bei den einzelnen Kernkraftwerken den jeweils neuesten Stand der Sicherheitstechnik zu berücksichtigen. Dazu gibt es umfangreiche Bemühungen, über die wir hier wiederholt Auskunft gegeben haben. Ich möchte Sie nur noch einmal darauf hinweisen, daß den Sicherheitsanforderungen auch in dem hier vorliegenden Fall durch besondere Anforderungen an die Qualität der Verarbeitung Rechnung getragen worden ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u137" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg157">Keine weiteren Zusatzfragen. Frage 21 — des Abgeordneten Schröder (Hannover)</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg158">— ist zurückgezogen.</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg159">Damit sind die Fragen aus dem Geschäftsbereich des Bundesministers des Innern beantwortet. Ich danke Ihnen, Herr Staatssekretär. Ich rufe die Fragen aus dem Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten auf. Ich begrüße dazu den Herrn Staatssekretär Gallus. Ich rufe die Frage 22 — des Herrn Abgeordneten Eigen — auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg160">Welche Anstrengungen unternimmt die Bundesregierung als Mitglied des Ministerrats der Europäischen Gemeinschaft, daß die Agrarpreisbeschlüsse vor Beginn des Wirtschaftsjahrs 1981/1982 (vor dem 1. April)</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg161">gefaßt werden und die Verhandlungen sich auf keinen Fall bis zu einem Zeitpunkt nach dem 10. Mai 1981 hinziehen? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär beim Bundesminister für Ernährung, Landwirtschaft und Forsten:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u138" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg162">Herr Kollege Eigen, die Bundesregierung wird nach Vorlage der Vorschläge der Kommission der Europäischen Gemeinschaften für die Agrarpreise 1981/82 in jeder Weise konstruktiv verhandeln, um vor Beginn der Wirtschaftsjahre für Milch und Rindfleisch einen Beschluß des Ministerrates über das Agrarpreispaket herbeizuführen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u139" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg163">Eine Zusatzfrage, Herr Kollege Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU):</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1981-02-18-09-022.u140" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg164">Herr Staatssekretär, wird die Bundesregierung dabei beachten, daß die vom ehemaligen Kommissar Lardinois eingeführte objektive Methode zur Errechnung der Notwendigkeit der Preisveränderungen auch bei den Verhandlungen berücksichtigt wird?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u141" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg165">Herr Kollege Eigen, die Bundesregierung wird davon auszugehen haben, daß ein Vorschlag der Kommission vorliegt. Auf dieser Basis werden die Verhandlungen geführt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u142" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg166">Eine weitere Zusatzfrage, Herr Kollege Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU):</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1981-02-18-09-022.u143" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg167">Herr Staatssekretär, wird die Bundesregierung darauf achten, daß bei den Preisverhandlungen der positive Grenzausgleich Englands von über 18 % in der gleichen Weise wie der deutsche positive Grenzausgleich von 9,8 % berücksichtigt wird?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u144" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg168">Herr Kollege Eigen, der positive Grenzausgleich wird bei den vorgeschlagenen Preisen der Kommission zwangsläufig eine bedeutende Rolle in bezug auf seine künftige Handhabung spielen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u145" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg169">Keine weitere Zusatzfrage. Ich rufe Frage 23 des Herrn Abgeordeten Niegel auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg170">Treffen Meldungen des Pressedienstes AGRA-EUROPE zu, wonach etwa 50 000 Tonnen Butter aus der EG über die französische Firma Interagra mit einem Zuschuß von 118 ECU (296 DM)</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg171">auf dem Umweg über verschiedene Ostblockländer, auf kleinere Partien verteilt u. a. über Bulgarien an die Sowjetunion geliefert werden?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u146" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg172">Herr Kollege Niegel, ich hätte die Bitte, wegen des Sachzusammenhangs beide Fragen gemeinsam beantworten zu dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u147" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg173">Der Antragsteller ist einverstanden. Bitte sehr! Ich rufe auch noch Frage 24 des Abgeordneten Niegel auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg174">Welche Maßnahmen wird die Bundesregierung unternehmen, damit derartige Exporterstattungen zur Verbilligung von EG-Butter für die Sowjetunion nicht mehr möglich sind, und ist die Bundesregierung bereit, bei der EG-Kommission in Brüssel darauf hinzuwirken, daß die jetzt bekanntgewordene Exporterstattung unterbunden wird?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u148" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg175">Nach Auskunft der für die Handelspolitik der EG zuständigen Kommission treffen diese Meldungen nicht zu. Es sei zwar richtig, daß die Erstattung für die Ausfuhr einer gewissen Buttermenge in verschiedene Ostblockstaaten — mit Ausnahme der UdSSR — vorausfixiert worden ist, diese Menge liege jedoch weit unter den genannten 50 000 t. Bulgarien, Rumänien und die Tschechoslowakei hätten in den letzten Jahren Butter auf dem Weltmarkt sowohl gekauft als auch verkauft. Der gestiegene Butternettoeinfuhrbedarf dieser Länder in 1981 sei ähnlich wie im Falle Polen weitgehend durch klimatische Einflüsse bedingt. Ein geringerer Ertrag an wirtschaftseigenem Futter, verbunden mit der wegen Devisenknappheit fehlenden Möglichkeit, Mischfutter auf dem Weltmarkt entsprechend dazuzukaufen, hätten zu einem Absinken der Milchleistung je Kuh und damit zu einer geringeren Butterproduktion geführt. Nach den geltenden Bestimmungen wird die Ausfuhrerstattung erst dann ausgezahlt, wenn die Ware in dem Bestimmungsland zum freien Verkehr abgefertigt worden ist. Durch diese Regelung ist ein Reexport der Ware bereits in gewisser Weise erschwert worden. Angesichts dieser Sachlage sieht die Bundesregierung zur Zeit keine Notwendigkeit, bei der EG-Kommission weitere ausfuhrbeschränkende Maßnahmen zu fordern. Diese könnten im übrigen auch zu einer Beeinträchtigung der Butterexporte in andere Länder führen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u149" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg176">Eine Zusatzfrage, Herr Kollege Niegel.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU):</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1981-02-18-09-022.u150" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg177">Herr Staatssekretär, wie kann exakt sichergestellt werden, daß Butterexporte in Ostblockländer in diesen Ländern wirklich dem Verbraucher zugutekommen und nicht über irgendwelche Umwege in die UdSSR gelangen?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u151" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg178">Herr Kollege, wir haben keinen hoheitlichen Einfluß darauf, wie die einzelnen Länder — auch die Ostblockstaaten — die Butter verwenden. In dem Moment, in dem bestätigt wird, daß die Butter in dem betreffenden Land angekommen ist, hat die EG-Kommission keinen Einfluß mehr.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u152" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg179">Eine zweite Zusatzfrage, Herr Kollege Niegel.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU):</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1981-02-18-09-022.u153" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg180">Herr Staatssekretär, läßt es sich nicht in Richtlinien — die EG ist ja für die Produktion von Richtlinien bekannt —, an denen auch die Bundesregierung mitwirkt, festlegen, daß das auf jeden Fall ausgeschlossen ist und ein Land, das das nicht garantieren kann, keine Exporte mehr bekommt?</seg>
+        </u>
+        <note type="speaker">Gallus, Pari. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u154" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg181">Herr Kollege, ich fürchte, daß die EG dann in viele Länder der Erde, denen Sie wegen der Überschüsse Butter verkaufen muß, keine Butter mehr exportieren kann, wenn solche Restriktionen verhängt werden, weil wir ja auf der anderen Seite Handelsbeziehungen mit den Ostblockstaaten haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u155" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg182">Eine weitere Zusatzfrage, Herr Kollege Niegel.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU):</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1981-02-18-09-022.u156" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg183">Herr Staatssekretär, bestehen Befürchtungen zu Recht, daß hohe und höchste Beamte der EG augenzwinkernd solche Geschäfte, wie ich sie in meiner Frage angedeutet habe, in Aussicht genommen haben und in etwa auch dem französischen Agrarexporteur Interagra zugesichert haben, daß solche Geschäfte ohne weiteres möglich sind?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u157" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg184">Ich kann das nicht bestätigen, Herr Kollege. Beamte haben sich an Gesetz und Recht zu halten. Mir sind solche Vorgänge nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u158" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg185">Eine vierte Zusatzfrage, Herr Kollege.</seg>
+        </u>
+        <note type="speaker">Niegel (CDU/CSU):</note>
+        <u who="#Q1870123" xml:id="ParlaMint-DE_1981-02-18-09-022.u159" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg186">Herr Staatssekretär, wie erklären Sie sich dann, daß z. B. das Butterembargo, das Olav Gundelach ausgesprochen hat, von der EG selbst dadurch hintergangen wurde, daß Butter in Form von Kokosfettmischungen in die UdSSR exportiert wurde?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u160" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg187">Herr Kollege, das war eine Randerscheinung, weil die Fettmischungen nicht einbezogen waren in die Gesamtmenge, über die hinaus nichts geliefert werden sollte. Die Sache ist jetzt aber berücksichtigt worden. Das war damals ein Fehler seitens der Kommission; das gebe ich zu. Es bestand j a kein Embargo, das absolut keine Lieferungen mehr nach Rußland vorsah; in Absprache mit den Vereinigten Staaten sollten vielmehr über die bisherigen Durchschnittslieferungen und Kontrakte hinaus keine weiteren Lieferungen erfolgen, genauso wie es übrigens Amerika mit seinen Weizenlieferungen in die UdSSR getan hat. Es war nicht so, daß die Amerikaner auf Grund des Embargos keinen Weizen in die UdSSR geliefert hätten, sondern sie haben ihre Lieferungen lediglich auf die 8 Millionen Tonnen der langfristigen Kontrakte beschränkt.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u161" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg188">Eine Zusatzfrage des Abgeordneten Graf Huyn.</seg>
+        </u>
+        <note type="speaker">Graf Huyn (CDU/CSU):</note>
+        <u who="#Q216652" xml:id="ParlaMint-DE_1981-02-18-09-022.u162" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg189">Herr Staatssekretär, ist die Bundesregierung bereit, gerade angesichts des soeben beschlossenen Fortdauerns des amerikanischen Weizenembargos auch im EG-Ministerrat alles in ihrer Kraft Stehende zu tun, um auf eine größtmögliche Beschränkung solcher Butterexporte an die Sowjetunion hinzuwirken?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u163" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg190">Wir halten uns daran, daß Europa das, was Amerika in dieser Sache beschließt, mitträgt, und wir sind stets getreue Vollzieher dessen gewesen, was Amerika insoweit vorgegeben hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u164" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg191">Eine weitere Zusatzfrage, Herr Kollege Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU):</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1981-02-18-09-022.u165" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg192">Herr Staatssekretär, welche Anstrengungen hat die Bundesregierung im vorigen Herbst im Ministerrat unternommen, um für Weihnachten 1980 eine Verbilligungsaktion für die Verbraucher der Europäischen Gemeinschaft durchzuführen?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u166" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg193">Herr Kollege, ich habe von dieser Stelle aus bereits im vergangenen Herbst darauf hingewiesen, daß Bundesminister Ertl damals rechtzeitig einen solchen Antrag gestellt hat, daß wir aber von den übrigen Staaten der EG in unserem Wollen, wieder eine Weihnachtsbutteraktion durchzuführen, nicht unterstützt worden sind.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u167" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg194">Eine weitere Zusatzfrage, Kollege Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU):</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1981-02-18-09-022.u168" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg195">Herr Staatssekretär, können Sie dem Hohen Haus erklären, wie hoch die Butterüberschüsse im Moment sind — um diese geht es bei dem Rußlandgeschäft — und für wie viele Wochen diese Bevorratung in der Europäischen Gemeinschaft ausreicht?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u169" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg196">Herr Kollege, ich habe die genaue Zahl nicht im Kopf.</seg>
+          <vocal type="exclamat">
+            <desc>Eigen [CDU/CSU]: Ungefähr reicht mir!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg197">Die augenblicklichen Buttervorräte in der öffentlichen Lagerhaltung betragen weniger als 100 000 Tonnen. So niedrig waren die Bestände noch nie; das muß man sehen und ganz offen zugeben. Nur muß man auf der anderen Seite wissen, daß noch nie solch große Mengen an Butter und Magermilchpulver exportiert worden sind, wie das im vergangenen Wirtschaftsjahr bis in die letzten Wochen der Fall war. Das war unter Aufrechterhaltung des Finanzrahmens nur deshalb möglich, weil die Weltmarktpreise für Butter und Magermilchpulver so stark gestiegen sind, daß die Ausgleichsbeträge nur die Hälfte dessen ausmachen, was man in früheren Jahren hierfür aufwenden mußte. Sonst wäre es überhaupt nicht möglich gewesen, solche gewaltigen Mengen dieser Interventionswaren zu exportieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u170" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg198">Eine Zusatzfrage, Herr Kollege Müller (Schweinfurt).</seg>
+        </u>
+        <note type="speaker">Müller (Schweinfurt) (SPD):</note>
+        <u who="#Q2173496" xml:id="ParlaMint-DE_1981-02-18-09-022.u171" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg199">Herr Staatssekretär, trifft es zu, daß die Butterproduktion in der EG erheblich über den Verbrauch in der EG hinausgeht und daß die EG deshalb gezwungen ist, die Butter mit hohen Aufwendungen zu exportieren?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Niegel [CDU/CSU]: Aber nicht nach Rußland!</desc>
+        </vocal>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u172" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg200">Herr Kollege, ich kann Ihnen das bestätigen. Ich habe vorhin die Tatsache erwähnt, daß wir im Augenblick keine hohen Lagerbestände haben. Das ist nicht darauf zurückzuführen, daß die Milchproduktion in der EG zurückgegangen ist, sondern liegt daran, daß gewaltige Mengen exportiert worden sind. Deshalb besteht nach wie vor die Notwendigkeit, auf diesem Sektor Angebot und Nachfrage miteinander in Einklang zu bringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u173" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg201">Keine weitere Zusatzfrage. Ich rufe die Frage 25 des Herrn Abgeordneten Schröder (Wilhelminenhof)</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg202">auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg203">Kann die Bundesregierung angeben, welche Gründe dafür verantwortlich sind, daß die beabsichtigten und auch vereinbarten Nahrungsmittellieferungen nach Polen in nur geringem Umfang und äußerst schleppend abgewickelt werden? Bitte sehr, Herr Staatssekretär.</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u174" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg204">Herr Kollege Schröder, die EG-Kommission hat unter Beteiligung der Mitgliedstaaten im Verwaltungsausschußverfahren die Lieferung einer ganzen Palette von Waren beschlossen. Diese Erzeugnisse sollen aus EG-Interventionsbeständen oder, falls solche nicht vorhanden sind, aus dem Markt der Gemeinschaft zu Preisen abgegeben werden, die generell 15 Prozent unter den Weltmarktpreisen liegen. Zum Teil hat die EG-Kommission eine detaillierte Aufteilung der Lieferungen auf bestimmte Mitgliedstaaten vorgenommen. Die Feststellung, daß unsere Nahrungsmittellieferungen an Polen nur in geringem Umfang und äußerst schleppend abgewickelt werden, trifft nicht zu. Im einzelnen ergibt sich folgender Sachstand. Von den bei uns lagernden EG-Interventionsbeständen sollen im Rahmen der EG-Beschlüsse 20 000 Tonnen Butter geliefert werden. Bis Ende dieser Woche werden 12 000 Tonnen Butter abgeflossen sein. Beide Seiten sind für die restlichen 8 000 Tonnen um Anschlußlieferungen bemüht. Die nach der EG-Aufteilung aus dem Markt der Bundesrepublik Deutschland zu liefernden 5 000 Tonnen Zucker sind kontrahiert. Polen wünscht die Lieferung im Mai und Juni dieses Jahres. Aus den bei uns lagernden EG-Interventionsbeständen sollen auch 4 000 Tonnen Rindfleisch geliefert werden. In Kreisen der Exportwirtschaft wird mit baldigem Vertragsabschluß gerechnet. In den letzten Tagen hat Polen mit deutschen Exporteuren auch Verträge über die Lieferung von Schweinefleisch geschlossen. Einzelheiten sind noch nicht bekannt. Bei Schweinefleisch gibt es keine EG-Aufteilung auf Lieferländer. Für die Lieferungen von Nahrungsmitteln aus der Bundesrepublik Deutschland steht zur Zeit ein Bürgschaftsrahmen von 95 Millionen DM zur Verfügung, der zur Stunde noch nicht voll belegt ist.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u175" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg205">Eine Zusatzfrage, Herr Kollege Schröder.</seg>
+        </u>
+        <note type="speaker">Schröder (Wilhelminenhof) (CDU/CSU):</note>
+        <u who="#Q1220307" xml:id="ParlaMint-DE_1981-02-18-09-022.u176" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg206">Darf ich dann feststellen, daß die zahlreichen Zeitungsmeldungen der letzten Wochen über einen schleppenden Anlauf der Nahrungsmittelhilfe für Polen nicht stimmen? Das muß man doch wohl so sehen.</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u177" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg207">Das können Sie so sehen. Wir haben im Kabinett, soweit wir zuständig waren, zügig die notwendigen Beschlüsse gefaßt. Wenn es gewisse Verzögerungen gegeben hat, so lag es daran, daß Polen mit allen möglichen Stellen — auch mit anderen Ländern der EG — verhandelt hat, um noch günstigere Preise herauszuschlagen, und andererseits die Waren mit eigenen Lastwagen befördern wollte, die zum Teil nicht, zur Verfügung standen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u178" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg208">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Schröder (Wilhelminenhof) (CDU/CSU):</note>
+        <u who="#Q1220307" xml:id="ParlaMint-DE_1981-02-18-09-022.u179" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg209">Herr Staatssekretär, könnten Sie mir noch sagen, zu welchen Bedingungen dieser Bürgschafts- oder Kreditrahmen gegeben wird?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u180" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg210">Das ist ein allgemeiner Hermes-Bürgschaftsrahmen, der bei Auslandsgeschäften zum Tragen kommt, falls das Geschäft tatsächlich nicht bezahlt wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u181" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg211">Eine Zusatzfrage, Herr Kollege Eigen.</seg>
+        </u>
+        <note type="speaker">Eigen (CDU/CSU):</note>
+        <u who="#Q1730847" xml:id="ParlaMint-DE_1981-02-18-09-022.u182" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg212">Herr Staatssekretär, finden Sie es nicht eigenartig, daß, wenn Polen Hilfslieferungen an Nahrungsmitteln aus der Europäischen Gemeinschaft bekommt, gleichzeitig ständig Schlachtpferde aus Polen über Deutschland nach Frankreich transportiert werden?</seg>
+        </u>
+        <note type="speaker">Gallus, Parl. Staatssekretär:</note>
+        <u who="#Q1504416" xml:id="ParlaMint-DE_1981-02-18-09-022.u183" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg213">Herr Kollege, trotz dieser Nahrungsmittellieferungen geht natürlich der Handelsaustausch Polens weiter zum Teil auch mit höherwertigen Nahrungsmitteln, als sie eingekauft werden. Das trifft auf die Schlachtpferde nicht zu. Jedenfalls haben die Polen anscheinend einen Überschuß an Schlachtpferden, andererseits aber einen Bedarf an Schweinefleisch. In jeder Volkswirtschaft ist es so: Was man zuviel hat, verkauft man; was man zuwenig hat, muß man einkaufen. Das trifft auch für Polen zu. Trotz der prekären Lage dort sind die Menschen in Polen höchstwahrscheinlich nicht dazu zu bringen, in verstärktem Maße anstelle von Schweinefleisch Pferdefleisch zu essen.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Das ist eben Geschmackssache!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg214">Sonst würde das ja nicht stattfinden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u184" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg215">Keine weiteren Zusatzfragen. Meine Damen und Herren, damit sind die Fragen aus dem Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten beantwortet. Ich danke Ihnen, Herr Parlamentarischer Staatssekretär. Wir kommen zu den Fragen aus dem Geschäftsbereich des Bundesministers für Arbeit und Sozialordnung. Zur Beantwortung begrüße ich Frau Parlamentarische Staatssekretärin Fuchs. Ich rufe die Frage 26 des Herrn Abgeordneten Schröder (Wilhelminenhof)</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg216">auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg217">Welche Pläne hat die Bundesregierung, den seit Februar 1959 höchsten Stand an Arbeitslosen in Ostfriesland abzubauen, nachdem Bundesrninister Dr. Ehrenberg laut Pressemeldung in der Ostfriesen-Zeitung vom 4. Februar 1981 gezielte Hilfen im Laufe dieses Jahrs nicht ausschloß, die insbesondere der strukturschwachen Region Oldenburg/ Ostfriesland zugute kommen müßten?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär beim Bundesminister für Arbeit und Sozialordnung:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u185" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg218">Herr Kollege, die von Ihnen zitierte Pressemeldung dürfte auf einem Interview beruhen, das Bundesminister Ehrenberg am 4. Februar 1981 der Nord-West-Zeitung Oldenburg gegeben hat. Auf die Frage, ob gezielte Hilfen hierzu speziell auch den strukturschwachen Gebieten im Nordwesten Niedersachsens, nämlich Emden, Leer, Vechta zufließen, antwortete Minster Ehrenberg wörtlich:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg219">Natürlich wird man auch dort helfen, wo es am notwendigsten ist, aber ich werde jetzt mit Sicherheit keine Einzelankündigungen machen. Ich betone noch einmal: Die Zahlen aus diesen Gebieten sind ein Alarmsignal, aber Konjunkturprogramme der alten Art würden in diesen Gebieten heute nicht helfen. Ich möchte dem hinzufügen, daß die Bundesregierung schon in der Vergangenheit nicht nur allgemeine Konjunkturprogramme, sondern auch gezielte regional ausgerichtete Maßnahmen durchgeführt hat. So sind beispielsweise die Arbeitsamtsbezirke Wilhelmshaven, Emden und Leer voll in das arbeitsmarktpolitische Programm der Bundesregierung von Mai 1979 einbezogen worden. Nach diesem Programm sind in den drei genannten Arbeitsamtsbezirken bis Dezember 1980 fast 2 300 Arbeitnehmer gefördert worden. Die gezielte Förderung dürfte mit dazu beigetragen haben, daß der Abstand der genannten Region zum Bundesdurchschnitt heute wesentlich geringer ist, als er in dem von Ihnen zitierten Jahr 1959 war. So lagen z. B. die Arbeitslosenquoten von Emden und Leer im Jahre 1959 mit über 20 % mehr als 13 Prozentpunkte höher als die bundesdurchschnittliche Arbeitslosenquote von 6,9 %, während im Jahre 1981 angesichts der Bundesdurchschnittsquote von 5,6 % der Abstand für Emden bei 7,4 und für Leer bei 10,5 Prozentpunkten liegt. Die Strukturschwäche dieser Region konnte demnach leicht gemildert werden. Die Möglichkeiten eines regional gezielten Einsatzes arbeitsmarktpolitischer Instrumente sind durch die 5. Novelle zum Arbeitsförderungsgesetz verbessert worden. Die am 1. Oktober 1980 in Kraft gesetzte Anordnung für Maßnahmen zur Arbeitsbeschaffung sieht ausdrücklich die Möglichkeiten regionaler Schwerpunktsetzungen vor. Ich bin sicher, daß die Arbeitsverwaltung von dieser Möglichkeit Gebrauch machen wird. Die finanziellen Voraussetzungen dafür sind gegeben, nachdem der Bundesfinanzminister auf Initiative von Herrn Ehrenberg in der vergangenen Woche zusätzliche Mittel in Höhe von 200 Millionen DM für einen aktiven Einsatz der arbeitsmarktpolitischen Instrumente bereitgestellt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u186" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg220">Eine Zusatzfrage, Herr Kollege Schröder.</seg>
+        </u>
+        <note type="speaker">Schröder (Wilhelminenhof) (CDU/CSU):</note>
+        <u who="#Q1220307" xml:id="ParlaMint-DE_1981-02-18-09-022.u187" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg221">Frau Staatssekretär, darf ich feststellen, daß die Ankündigungen des Herrn Ministers auf der genannten Pressekonferenz Hoffnungen geweckt haben, die der Minister nicht erwecken wollte?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u188" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg222">Er hat nicht nur Hoffnungen erweckt, sondern er hat gesagt: Auch für diese Region wird es regionale arbeitsmarktpolitische Schwerpunkte geben. Dabei bleibt es auch.</seg>
+        </u>
+        <note type="speaker">Schröder (Wilhelminenhof) (CDU/CSU):</note>
+        <u who="#Q1220307" xml:id="ParlaMint-DE_1981-02-18-09-022.u189" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg223">Da es keine neuen Maßnahmen gegenüber den in früheren Jahren ergriffenen Maßnahmen sind, kann man doch wohl nicht von gezielten Hilfen sprechen?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u190" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg224">Ich habe darauf hingewiesen, daß mit der Novelle zum Arbeitsförderungsgesetz die Möglichkeit in das Gesetz hineingeschrieben worden ist, regionale arbeitsmarktpolitische Schwerpunkte zu setzen. Das heißt: wir brauchen nicht immer ein generelles Programm der Bundesregierung, sondern können in den einzelnen Regionen mit den dortigen Arbeitsämtern gezielt regionale Schwerpunkte setzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u191" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg225">Zu einer Zusatzfrage der Kollege Tietjen.</seg>
+        </u>
+        <note type="speaker">Tietjen (SPD):</note>
+        <u who="#Q1561881" xml:id="ParlaMint-DE_1981-02-18-09-022.u192" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg226">Frau Staatssekretär, können Sie dem Fragesteller erklären, wann die niedersächsische Landesregierung denn nun das bereits 1974/75 angekündigte Sonderprogramm „Ostfrieslandplan" auf die Schiene bringen wird?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u193" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg227">Nach Ihrer Frage unterstelle ich, daß sich die niedersächsische Landesregierung mit diesem Programm lange Zeit läßt und dieses Programm zum Bedauern der dortigen Arbeitsamtsbezirke noch nicht auf die Schiene gesetzt hat.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u194" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg228">Eine weitere Zusatzfrage, Herr Kollege Seiters.</seg>
+        </u>
+        <note type="speaker">Seiters (CDU/CSU):</note>
+        <u who="#Q73941" xml:id="ParlaMint-DE_1981-02-18-09-022.u195" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg229">Frau Staatssekretärin, ist die Bundesregierung bereit, dem Vorschlag der niedersächsischen Landesregierung zu folgen, bei den künftigen Beratungen über die Neuabgrenzung der Fördergebiete im Rahmen der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur" die Fördermittel stärker als bisher zu konzentrieren, und zwar insonderheit auf die Gebiete, die von einer besonders hohen Arbeitslosigkeit betroffen sind?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u196" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg230">Die Bundesregierung ist immer bereit, mit der niedersächsischen Landesregierung in Gespräche einzutreten. Ich finde es aber auch wichtig, daß das 1974 von der niedersächsischen Landesregierung angekündigte Programm endlich in die Wege geleitet wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u197" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg231">Eine Zusatzfrage des Kollegen Kiep.</seg>
+        </u>
+        <note type="speaker">Kiep (CDU/CSU):</note>
+        <u who="#Q2547309" xml:id="ParlaMint-DE_1981-02-18-09-022.u198" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg232">Frau Staatssekretär, stimmen Sie mit mir darin überein, daß in den Jahren 1974/75 in Niedersachsen eine von der SPD geführte Landesregierung amtiert hat?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u199" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg233">Dies kann die heutige Landesregierung nicht davon entbinden, notwendige und wichtige arbeitsmarktpolitische Schwerpunkte im Lande Niedersachsen zu setzen. Wenn ich es richtig sehe, ist auch die niedersächsische Landesregierung angetreten, die Arbeitslosigkeit dort abzubauen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD und der FDP</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u200" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg234">Keine weiteren Zusatzfragen. Dann rufe ich die Frage 27 der Abgeordneten Frau Krone-Appuhn auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg235">Teilt die Bundesregierung meine Auffassung, daß die Beschäftigungsverbote für Frauen auf Grund der geltenden Arbeitszeitordnung aus dem Jahr 1938 die Berufschancen der heute ins Erwerbsleben strebenden Frauen behindern?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u201" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg236">Herr Präsident, ich würde gern die Fragen 27 und 28 gemeinsam beantworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u202" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg237">Die Fragestellerin ist einverstanden. Dann rufe ich jetzt auch die Frage 28 der Abgeordneten Frau Krone-Appuhn auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg238">Welche Berufe, auf Grund welcher gesetzlichen Bestimmungen, sind für Frauen nicht zugänglich? Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u203" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg239">Frau Kollegin, die Frage, inwieweit Berufschancen von Frauen gemindert werden, läßt sich nicht generell beantworten: So sind im Zusammenhang mit dem Verbot, gebärfähige Arbeitnehmerinnen mit Arbeiten zu beschäftigen, bei denen sie Einwirkungen von bleihaltigen Arbeitsstoffen ausgesetzt sind, Probleme bisher nicht bekanntgeworden. Dieses Beschäftigungsverbot schließt auch nicht generell den Zugang zu bestimmten Berufen aus, sondern unterbindet zum Schutz des werdenden Lebens nur die Einwirkung von Blei in bestimmten Konzentrationen. Das Verbot des § 16 Abs. 1 der Arbeitszeitordnung, Arbeitnehmerinnen im Bergbau unter Tage zu beschäftigen, schließt dagegen den Zugang zu allen Berufen aus, die unter Tage ausgeübt werden. Frauen haben insofern keine Berufschancen. Die Bundesregierung prüft zur Zeit, ob und inwieweit diese generellen Beschäftigungsverbote aus geschlechtsspezifischen Gründen noch erforderlich sind. Zu Ihrer zweiten Frage kann ich Ihnen mitteilen, daß auf Grund des § 16 Abs. 1 der Arbeitszeitordnung Frauen diejenigen Berufe nicht zugänglich sind, die in Bergwerken, Salinen, Aufbereitungsanstalten und unterirdisch betriebenen Brüchen und Gruben unter Tage ausgeübt werden. Auf Grund des § 16 Abs. 2 der Arbeitszeitordnung und den dazugehörigen Ausführungsverordnungen sind Frauen die Berufe nicht zugänglich, die in Kokereien, in Hochofen- und Stahlwerken, in Metallhütten, in Walz-, Preß- und Hammerwerken sowie auf Bauten mit den eigentlichen Betriebsarbeiten ausgeübt werden. Die Aufstellung einer genauen Liste der einzelnen betroffenen Berufe wäre wegen der dabei auf tretenden Tat- und Rechtsfragen sehr schwierig. Sie wäre für die Betroffenen bei der gegenwärtigen Rechtslage auch nicht verbindlich.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u204" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg240">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Krone-Appuhn (CDU/CSU):</note>
+        <u who="#Q2501725" xml:id="ParlaMint-DE_1981-02-18-09-022.u205" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg241">Frau Staatssekretär, stimmen Sie mit mir überein, daß das Frauenbild der nationalsozialistischen Ideologie, auf dem unser noch heute gültiges Frauenarbeitsschutzrecht beruht, wenig geeignet ist, Vorurteile der Männer und Rollenklischees der Frauen abzubauen?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u206" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg242">Ich stimme mit Ihnen überein. Ich bitte allerdings zu bedenken, daß die Veränderung der Arbeitszeitordnung aus dem Jahre 1938 nicht das einzige Problem ist, mit dem die Frauen in der Arbeitswelt zu kämpfen haben. Ich halte es ein bißchen für ein Nebenproblem. Die Probleme der Frauenbeschäftigung liegen in ganz anderen Bereichen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Zustimmung bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u207" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg243">Eine weitere Zusatzfrage, Frau Abgeordnete Krone-Appuhn.</seg>
+        </u>
+        <note type="speaker">Frau Krone-Appuhn (CDU/CSU):</note>
+        <u who="#Q2501725" xml:id="ParlaMint-DE_1981-02-18-09-022.u208" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg244">Frau Staatssekretärin, habe ich Sie recht verstanden, daß der Bundesregierung keine empirischen Untersuchungen zur Praxis des Frauenarbeitsschutzes vorliegen, und darf ich deshalb fragen, weshalb es die Bundesregierung bisher unterlassen hat, um entsprechende Untersuchungen besorgt zu sein, bzw. bis wann entsprechende Untersuchungen vorliegen werden?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u209" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg245">Die Bundesregierung hat verschiedene Untersuchungen über Frauenarbeitsschutz und allgemein über Schutzbestimmungen am Arbeitsplatz eingeholt. Ihre Frage geht dahin, wann wir die Arbeitszeitordnung ändern wollen, um diese spezifischen — ich sage noch einmal: einen kleinen Bereich von Arbeitsplätzen betreffenden — Probleme einer Lösung näherzubringen. Wir sind dabei, dies zu prüfen, und werden dann bei der sowieso notwendigen Änderung der Arbeitszeitordnung diese Probleme lösen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u210" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg246">Wünschen Sie das Wort zu einer dritten Zusatzfrage, Frau Kollegin Krone-Appuhn?</seg>
+        </u>
+        <note type="speaker">Frau Krone-Appuhn (CDU/CSU):</note>
+        <u who="#Q2501725" xml:id="ParlaMint-DE_1981-02-18-09-022.u211" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg247">Ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u212" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg248">Bitte sehr.</seg>
+        </u>
+        <note type="speaker">Frau Krone-Appuhn (CDU/CSU):</note>
+        <u who="#Q2501725" xml:id="ParlaMint-DE_1981-02-18-09-022.u213" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg249">Frau Staatssekretärin, gehe ich recht in der Annahme, daß die Bundesregierung zum Maßstab für ein Beschäftigungsverbot von Frauen in diesen Berufen die besonders hohen Anforderungen an die körperliche Leistungsfähigkeit und Belastbarkeit macht, und, wenn ja, können Sie mir dann bitte genauere Kriterien für die Abgrenzung z. B. von den Berufen der Pflegerin, der Kranken- oder Altenhilfe, der Bäuerin und der Hausfrau geben?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u214" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg250">Ich kann Ihnen da jetzt keine Kriterien nennen. Ich will Ihnen nur eine allgemeine Antwort geben. Ich verstehe, daß Frauen, die z. B. Kinder oder schwere Einkaufstaschen tragen, oder Bäuerinnen, die schwere Lasten tragen, unter dieser Arbeit leiden. Ich sehe aber nicht ein, warum es so besonders fortschrittlich sein soll, daß wir die Möglichkeiten der Frauen im Hinblick auf sehr schwere Arbeiten erweitern. Ich habe mich in meinem ganzen Leben dafür eingesetzt, daß man die Arbeiten für Männer und Frauen gleichermaßen erleichtert,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg251">nicht aber versucht, besonders schwere Arbeiten nun auch noch den Frauen zugänglich zu machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u215" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg252">Zu einer vierten Zusatzfrage, Frau Kollegin Krone-Appuhn.</seg>
+        </u>
+        <note type="speaker">Frau Krone-Appuhn (CDU/CSU):</note>
+        <u who="#Q2501725" xml:id="ParlaMint-DE_1981-02-18-09-022.u216" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg253">Frau Staatssekretärin, stimmen Sie nicht mit mir überein, daß im gewerblich-technischen Bereich die Arbeit heute wesentlich leichter ist als z. B. noch vor 30 oder 40 Jahren und daß man bei der Neubewertung von Arbeitsplätzen auch das zu berücksichtigen hat?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u217" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg254">Sie haben recht, wenn Sie sagen, daß die Arbeitsbedingungen und auch die körperlichen Anforderungen leichter geworden sind. Ich stimme Ihnen auch zu — das ist es doch, was dahintersteckt —, daß man alles tun muß, damit auch Mädchen in gewerblich-technischen Berufen ausgebildet werden können. Ich sage noch einmal: Die Bundesregierung wird die Arbeitsschutzvorschriften daraufhin überprüfen, ob sie, besonders für Frauen, heute noch zu gelten haben. Ich darf aber generell hinzufügen: Ich habe große Zweifel, ob es wirklich sinnvoll ist, diese Bereiche — ich habe sie genannt: Arbeit unter Tage, Arbeit an den Hochöfen — auch für die Frauen zu eröffnen. Auch die zuständigen Gewerkschaften warnen uns davor, aus Gründen einer allgemeinen Gleichberechtigung den Arbeitsschutz einfach über den Haufen zu werfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u218" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg255">Zu einer weiteren Zusatzfrage der Kollege Ruf.</seg>
+        </u>
+        <note type="speaker">Ruf (CDU/CSU):</note>
+        <u who="#Q2173662" xml:id="ParlaMint-DE_1981-02-18-09-022.u219" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg256">Frau Staatssekretärin, ist es zutreffend, daß die Bereitschaft zu der seit Jahren vom Handwerk geforderten Änderung der Arbeitszeitordnung aus 1938, die hier zur Debatte steht, bzw. der Ausführungsverordnung dazu, wo es heißt — ich zitiere —: „Weibliche Gefolgschaftsmitglieder dürfen bei Bauten aller Art nicht beschäftigt werden", mit einem Junktim des Bundesarbeitsministers verbunden war, demzufolge die Wirtschaft einer Verkürzung der Wochenarbeitszeit — 35-Stunden-Woche durch die Hintertüre — zustimmen solle, und deshalb eine Änderung der diskriminierenden Bestimmungen ...</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u220" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg257">Herr Kollege Ruf, Sie müssen sich bitte daran gewöhnen, daß Zwischenfragen so kurz sein sollen, daß sie der Beantwortende auch noch übersehen kann. Sie halten hier eine Vorlesung.</seg>
+        </u>
+        <note type="speaker">Ruf (CDU/CSU):</note>
+        <u who="#Q2173662" xml:id="ParlaMint-DE_1981-02-18-09-022.u221" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg258">Danke.</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg259">... bis heute nicht erfolgt ist, soweit es die Bauberufe des Handwerks betrifft?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u222" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg260">Sie wissen, daß wir die Bestimmungen gelockert haben, so daß für die Bauberufe des Handwerks nicht mehr die generelle Arbeitszeitordnung gilt. Ich will aber noch einmal allgemein sagen: Die Bundesregierung ist dabei, diese Arbeitszeitordnung zu ändern, und zwar nicht nur wegen der altertümlichen Begriffe und der nazistischen Herkunft dieser Regelungen, sondern weil sie der Auffassung ist, daß wir ein modernes Arbeitszeitgesetz dringend brauchen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u223" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg261">Eine weitere Zusatzfrage, Herr Kollege Ruf.</seg>
+        </u>
+        <note type="speaker">Ruf (CDU/CSU):</note>
+        <u who="#Q2173662" xml:id="ParlaMint-DE_1981-02-18-09-022.u224" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg262">Meine Frage zielte auf das Junktim, das der Bundesarbeitsminister vorgenommen haben soll.</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u225" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg263">Die Bundesregierung wird die Frage einer Veränderung der Arbeitszeitverordnung nicht an das Junktim knüpfen, die 35-Stunden-Woche einzuführen, wenngleich ich große Sympathie für diese gewerkschaftliche Forderung habe.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u226" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg264">Das Mißverständnis kann dadurch entstehen, daß, wenn Sie eine zu lange Frage formulieren, demjenigen, der die Frage zu beantworten hat, gar nicht deutlich wird, was Sie eigentlich fragen wollen. Das war bei der Frage, die Sie soeben gestellt haben, auffällig.</seg>
+          <vocal type="exclamat">
+            <desc>Ruf [CDU/CSU]: Ich bitte um Nachsicht! Ich bin zum erstenmal hier!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg265">— Bitte sehr.</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg266">Als nächste hat Frau Kollegin Steinhauer das Wort zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Steinhauer (SPD):</note>
+        <u who="#Q2547645" xml:id="ParlaMint-DE_1981-02-18-09-022.u227" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg267">Frau Staatssekretärin, würden Sie mir zustimmen, daß es nicht darum gehen kann, eine Nivellierung des Arbeitsschutzes herbeizuführen und daß es keine Fortentwicklung z. B. des Arbeitszeitrechts ist, wenn man Frauen verstärkt die Ableistung von Nachtarbeit gestattet, sondern daß es vielmehr sozialpolitisch zeitgerechter ist, Schichtarbeit, insbesondere Nachtschichtarbeit allgemein, d. h. für Männer und Frauen, einzuschränken?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u228" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg268">Frau Kollegin Steinhauer, Sie sprechen ein anderes Problem an, das auch mit der Veränderung der Arbeitszeitordnung zusammenhängt. Ich habe darauf hingewiesen, daß es Bereiche gibt, bei denen ich nicht weiß, ob wir den Frauen etwas Gutes tun, wenn wir ihnen die Beschäftigung ermöglichen. Zum Nachtarbeitsverbot will ich aber gerne sagen, daß die Bundesregierung nicht daran denkt, das Nachtarbeitsverbot für Arbeiterinnen aufzuheben. Wir haben immer gesagt, Nachtarbeit müsse generell auf das Mindestmaß beschränkt werden, und zwar für Männer und Frauen gleichermaßen. Ich würde es nicht für einen Fortschritt halten, wenn man nun meint, Frauen sollten auch nachts arbeiten dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u229" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg269">Zu einer weiteren Zusatzfrage der Abgeordnete Gerster (Mainz).</seg>
+        </u>
+        <note type="speaker">Gerster (Mainz) (CDU/CSU):</note>
+        <u who="#Q1436925" xml:id="ParlaMint-DE_1981-02-18-09-022.u230" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg270">Frau Staatssekretärin, ist Ihnen bekannt, daß die Enquete-Kommission „Frau und Gesellschaft" einmütig, d. h. auch mit Zustimmung der Sachverständigen aus dem Bereich des DGB, die Auffassung vertreten hat, daß der Abbau bestimmter Beschäftigungsverbote bei Frauen durchaus zu einer Verminderung der Diskriminierung von Frauen auf dem Arbeitsmarkt führen wird?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u231" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg271">Das ist mir bekannt. Ich darf jedoch auf meine bisherigen Antworten zurückkommen. Ich habe erstens gesagt: Wir wollen die Arbeitszeitordnung ändern; zweitens: Wir wollen eine moderne Arbeitsschutzgesetzgebung schaffen; drittens: Wir wollen auch die Verbote aufheben, die bisher speziell für Frauen gelten und heute nicht mehr aufrechterhalten werden müssen. Ich habe nur eine Einschränkung gemacht — das steht auch im Zusammenhang mit der Enquete-Kommission —, nämlich daß man da sehr sorgfältig sein muß. Wenn man die Schutzbestimmungen individueller Art aufhebt, ohne generelle Schutzbestimmungen anbieten zu können, wird insbesondere die Situation der Frauen verschlechtert.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Zustimmung bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u232" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg272">Herr Kollege Gerster, Sie wünschen das Wort zu einer zweiten Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Gerster (Mainz) (CDU/CSU):</note>
+        <u who="#Q1436925" xml:id="ParlaMint-DE_1981-02-18-09-022.u233" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg273">Frau Staatssekretärin, können Sie mir denn sagen, warum die Bundesregierung — bei allem Zwang zur Sorgfalt — bis heute nicht in der Lage war, nur eine einzige Forderung der Enquete-Kommission aufzunehmen und eine diesbezügliche gesetzgeberische Initiative zu ergreifen?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u234" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg274">Das stimmt so nicht. Die Forderungen der Enquete-Kommission sind zum Teil umgesetzt worden. Ich habe schon bei der Beantwortung einer Frage einer der Kollegen darauf hingewiesen, daß wir über Ausnahmebestimmungen in Verordnungen die brisantesten Probleme zunächst einmal gelöst haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u235" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg275">Herr Kollege Soell zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Soell (SPD):</note>
+        <u who="#Q1587570" xml:id="ParlaMint-DE_1981-02-18-09-022.u236" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg276">Frau Staatssekretärin, wären Sie bereit, den Kolleginnen und Kollegen der CDU zu sagen,</seg>
+          <vocal type="exclamat">
+            <desc>Jäger [Wangen] [CDU/CSU]: Unzulässige Dreiecksfrage!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg277">daß einige der Schutzbestimmungen, die 1938 in die Arbeitszeitordnung und in andere Bestimmungen aufgenommen worden sind, Errungenschaften langer sozialpolitischer Kämpfe des 19. und des frühen 20. Jahrhunderts sind, die die Nazis notgedrungen haben übernehmen müssen und die nicht unbedingt mit dem Frauenbild des NS-Regimes übereinstimmen müssen.</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u237" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg278">Herr Abgeordneter, ich glaube, wir sollten uns darüber einig sein, daß es alle richtig finden, die Arbeitszeitordnung aus dem Jahre 1938 zu überprüfen und in ein modernes Arbeitszeitgesetz zu überführen. Aber ich sage noch einmal: Vorsicht mit einer vorschnellen Aufhebung von Schutzbestimmungen, die damals ihren Sinn hatten und die vielleicht in dem einen oder anderen Fall heute als unmodern gelten mögen. Wir müssen aber auch den betroffenen Personenkreis sehen, denn es handelt sich nicht um Arbeitsplätze, zu denen die Damen dieses Hauses alle hinmüßten; diese Arbeitsplätze würden nämlich den Arbeiterinnen überlassen. Ich bin immer ein bißchen vorsichtig, wenn ich bestimmen will, was ich im Zuge der Gleichberechtigung für andere gut finde und was nicht.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u238" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg279">Zu einer weiteren Zusatzfrage, Frau Wilms, bitte sehr.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Wilms (CDU/CSU):</note>
+        <u who="#Q272658" xml:id="ParlaMint-DE_1981-02-18-09-022.u239" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg280">Frau Staatssekretärin, das Problem, über das wir diskutieren, ist ja nicht ganz neu; es ist einige Jahre alt. Ich frage, wann die Bundesregierung beabsichtigt, uns Vorschläge zu einer — ich glaube, auch darüber sind wir uns einig — sinnvollen Novellierung der Arbeitszeitordnung von 1938 vorzulegen?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u240" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg281">Die Bundesregierung ist dabei, dies zu erwägen. Sie wissen, daß in der Regierungserklärung dieser Punkt nicht angesprochen ist. Dennoch sind die Fraktionen des Bundestages und die Bundesregierung einig, daß wir an diesem Thema arbeiten müssen. Ich bin überzeugt, daß wir zur richtigen Zeit einen Entwurf vorlegen können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u241" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg282">Zu einer weiteren Zusatzfrage hat in der Reihenfolge der Wortmeldungen das Wort jetzt die Kollegin Benedix-Engler.</seg>
+        </u>
+        <note type="speaker">Frau Benedix-Engler (CDU/CSU):</note>
+        <u who="#Q2501516" xml:id="ParlaMint-DE_1981-02-18-09-022.u242" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg283">Frau Staatssekretärin, sind Sie mit mir der Meinung, daß die Frauenarbeitsschutzgesetzgebung, so wie sie heute besteht, dazu beiträgt, das Vorurteil zu verstärken, Frauen seien für technische Berufe nicht geeignet und deshalb im technischen Bereich nur sehr beschränkt einsetzbar?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u243" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg284">Frau Kollegin, Sie sprechen damit eine spätere Frage an. Wir sollten vielleicht bis zur Frage 28 warten. Denn das ist genau das, was dort gefragt wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u244" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg285">Die Frage 28 ist eingeschlossen.</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u245" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg286">Nein; ich meine die Frage 29.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u246" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg287">Die ist noch nicht aufgerufen.</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u247" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg288">Die ist noch nicht aufgerufen; darf ich dann darauf zurückkommen?</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u248" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg289">Bitte sehr. Dann hat als nächster zu einer Zusatzfrage der Herr Abgeordnete Wehner das Wort.</seg>
+        </u>
+        <note type="speaker">Wehner (SPD):</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1981-02-18-09-022.u249" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg290">Nachdem es — entschuldigen Sie — hier so durcheinander geht, was die Nummern betrifft, —</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u250" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg291">Nein, Herr Kollege Wehner; ich bin nach der Reihenfolge der Wortmeldungen verfahren.</seg>
+        </u>
+        <note type="speaker">Wehner (SPD):</note>
+        <u who="#Q77095" xml:id="ParlaMint-DE_1981-02-18-09-022.u251" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg292">— möchte ich die Frau Parlamentarische Staatssekretärin gern fragen, ob sie es gut fände, wenn den Abgeordneten des Bundestages dargelegt würde — sie kann das jetzt nicht aus dem Stand —, daß es bisher eine einzige Fraktion im Deutschen Bundestag, seitdem er besteht, gab und gibt, die für eine Änderung des hier fortgesetzt in Erwähnung gebrachten 1938 er Gesetzes eintritt, nämlich die Fraktion der SPD?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u252" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg293">Vielen Dank, Herr Kollege Wehner; ich bestätige das gern. Ich bin überzeugt, nach der heutigen Diskussion wird auch die Oppositionsfraktion uns ganz beredt helfen, wenn es darum geht, ein Arbeitszeitgesetz zu verabschieden.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u253" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg294">Zu einer weiteren Zusatzfrage die Frau Kollegin Steinhauer.</seg>
+        </u>
+        <note type="speaker">Frau Steinhauer (SPD):</note>
+        <u who="#Q2547645" xml:id="ParlaMint-DE_1981-02-18-09-022.u254" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg295">Frau Staatssekretärin, würden Sie mir bestätigen, daß es neben den gesetzlichen Arbeitschutzproblemen auch darum geht, psychologische Hemmnisse zu überwinden, Frauen in anderen Tätigkeiten als bisher von ihnen ausgeübten zu beschäftigen bzw. auszubilden, und zwar bei Arbeitgebern, Betriebsräten, Eltern, Mädchen und Frauen?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u255" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg296">Frau Kollegin, ich würde gern auf Ihre Frage eingehen. Aber ich bitte, dies alles im Zusammenhang mit der Frage 29 beantworten zu dürfen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u256" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg297">Zu einer Zusatzfrage die Frau Kollegin Dr. Hellwig.</seg>
+        </u>
+        <note type="speaker">Frau Dr. Hellwig (CDU/CSU):</note>
+        <u who="#Q2143401" xml:id="ParlaMint-DE_1981-02-18-09-022.u257" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg298">Frau Staatssekretärin, können Sie mir bestätigen, daß höhere, übertarifliche Leistungen nur Männern nicht zuletzt mit der Begründung erbracht werden, da die Frauen auf Grund der Beschäftigungsverbote nicht voll einsetzbar seien, könne man ihnen nicht die gleichen übertariflichen Leistungen wie Männern erbringen?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u258" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg299">Dies ist verfassungswidrig, wie wir wissen. Es gibt ein Urteil, wonach jemand, der keine Nachtarbeit leisten darf, trotzdem die Schichtzulagen zu erhalten hat. Ich halte es insgesamt immer für Manöver zur Ablenkung von den eigentlichen Problemen, nämlich daß man nicht gewillt ist, Frauen einzustellen, zu beschäftigen und angemessen zu entlohnen. Wenn wir ein schönes modernes Arbeitszeitgesetz hätten, würde man sich andere Gründe aussuchen, wenn man eine Frau partout nicht einstellen will.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u259" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg300">Es gibt offenbar keine weiteren Wortmeldungen zu den Fragen 27 und 28. Ich rufe die Frage 29 der Frau Abgeordneten Pack auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg301">Stimmt die Bundesregierung mit mir überein, daß es eine offensichtliche Diskrepanz zwischen der Propagierung des Modells der Bundesregierung „Mädchen in Männerberufen" und den bestehenden gesetzlichen Hemmnissen für die Beschäftigung von Frauen in diesen Berufen gibt? Zur Beantwortung, bitte, Frau Staatssekretärin.</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u260" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg302">Frau Kollegin, die Bundesregierung kann eine Diskrepanz zwischen dem Modellversuch zur Erschließung gewerblich-technischer Ausbildungsberufe für Frauen und bestehenden Vorschriften des Frauenarbeitsschutzes nicht erkennen. Wie bereits ausgeführt, sind die Ausbildung für Mädchen und ihre spätere Berufsausübung aus Gründen des Frauenarbeitsschutzes nur noch in den soeben diskutierten Bereichen ausgeschlossen. Es gibt Beschränkungen auch für See- und Binnenschiffahrt, für Tätigkeiten auf Lastkraftwagen und Omnibussen sowie für den Umgang mit bleihaltigen und radioaktiven Stoffen. Die Bundesregierung wird sich bei einer Änderung der Arbeitszeitordnung dafür einsetzen, daß — auch das habe ich schon gesagt — der darin enthaltene Frauenarbeitsschutz durch einen den modernen, den heutigen Verhältnissen entsprechenden Arbeitsschutz ersetzt wird. Sie ist jedoch der Auffassung, daß ein Zugang zur Ausbildung dort seine Grenze finden muß, wo Frauen vor gesundheitlichen Schädigungen besonders geschützt werden müssen. Wir prüfen, wo dies der Fall ist. Ich weise noch darauf hin, daß Frauen durch besondere Arbeitsschutzvorschriften nur 4 % der vorhandenen Ausbildungsplätze verschlossen sind. Mädchen stehen weit eher vor tatsächlichen als vor rechtlichen Schranken. So wurden nach einer Untersuchung der Bundesanstalt für Arbeit 1980 mehr als 50 % aller Ausbildungsplätze nur jungen Männern und weniger als 25 jungen Frauen angeboten. Trotz dieser — leider immer noch bestehenden — tatsächlichen Hemmnisse kann das von Ihnen angesprochene Modell als Erfolg gewertet werden. In Berufen, in denen die Zahl der auszubildenden Frauen 1977 unter 20 % lag, hat sich die Zahl der Ausbildungsplätze für Frauen von 11 500 im Jahre 1977 auf 27 700 im Jahre 1979 erhöht. Zahlen für 1980 liegen noch nicht vor; es ist jedoch anzunehmen, daß sich diese erfreuliche Entwicklung fortsetzen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u261" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg303">Frau Kollegin Pack zu einer Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Pack (CDU/CSU):</note>
+        <u who="#Q77534" xml:id="ParlaMint-DE_1981-02-18-09-022.u262" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg304">Warum, Frau Staatssekretärin, hat die Bundesregierung nicht an eine Änderung der entgegenstehenden gesetzlichen Vorschriften gedacht und eine entsprechende Gesetzesinitiative unternommen, bevor sie den Modellversuch „Mädchen in Männerberufen" startete?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u263" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg305">Sie unterstellen jetzt, daß das, was ich soeben gesagt habe, alles falsch ist.</seg>
+          <vocal type="exclamat">
+            <desc>Frau Pack [CDU/CSU]: Nein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg306">Denn ich habe gesagt: Nur 4 % der Ausbildungsberufe werden den Frauen durch gesetzliche Arbeitsschutzverbote verschlossen; die übrigen Berufe können auch auf Grund der jetzigen Vorschriften von Mädchen ergriffen werden. Ich darf noch einmal darauf hinweisen, daß die bisherigen Modelle „Mädchen in gewerblich-technischen Berufen" erfolgreich sind. Sie können das heute übrigens in der „Süddeutschen Zeitung" nachlesen, in der das an Hand von Einzelfällen dargestellt wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u264" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg307">Eine weitere Zusatzfrage, Frau Kollegin Pack.</seg>
+        </u>
+        <note type="speaker">Frau Pack (CDU/CSU):</note>
+        <u who="#Q77534" xml:id="ParlaMint-DE_1981-02-18-09-022.u265" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg308">Trifft es zu — das sind meine Informationen —, daß es Fälle von bereits in der Ausbildung befindlichen Frauen gibt, die an der Barriere des § 16 Arbeitszeitordnung scheitern, und wie gedenkt die Bundesregierung diesen Frauen zu helfen?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u266" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg309">Ich glaube, es gibt hier noch einen Bereich, nämlich die Stukkateurinnen, die hier Schwierigkeiten haben. Wir sind dabei, dies zu ändern, und zwar, wie ich hoffe, im Rahmen der von mir schon wiederholt erwähnten Änderung der Arbeitszeitordnung.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u267" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg310">Eine Zusatzfrage des Kollegen Gerster (Mainz).</seg>
+        </u>
+        <note type="speaker">Gerster (Mainz) (CDU/CSU):</note>
+        <u who="#Q1436925" xml:id="ParlaMint-DE_1981-02-18-09-022.u268" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg311">Frau Staatssekretärin, plant die Bundesregierung nach der Propagierung des Modells „Mädchen in Männerberufen" im Zuge der Gleichberechtigung auch ein Modell „Männer in Frauenberufen"?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u269" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg312">Ich würde mich dem anschließen können. Denn mit Hilfe eines Modells „Männer in Frauenberufen" könnte man vielleicht dafür sorgen, daß sich die Männer verstärkt um Kindererziehung kümmern. Es wäre eine ganz wichtige Angelegenheit, dies einmal modellartig zu erproben.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD und der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u270" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg313">Zu einer Zusatzfrage Frau Verhülsdonk.</seg>
+        </u>
+        <note type="speaker">Frau Verhülsdonk (CDU/CSU):</note>
+        <u who="#Q2167961" xml:id="ParlaMint-DE_1981-02-18-09-022.u271" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg314">Frau Staatssekretärin, ist der Bundesregierung bekannt, daß sich die nordrhein-westfälische Landesregierung bei der Verweigerung der Zulassung von Frauen zu Berufen des Baugewerbes in dem konkreten Fall einer Auszubildenden auf die Einhaltung von im Wege stehender Bundesvorschriften berufen hat?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u272" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg315">Das war — ich will es noch einmal genau nachprüfen und Ihnen dann abschließend Bescheid geben — ein Fall in Nordrhein-Westfalen. Auch diesen Fall haben wir durch eine extensive Auslegung erledigt.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Frau Verhülsdonk [CDU/CSU]: Er besteht noch!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u273" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg316">Zu einer Zusatzfrage Frau Kollegin Benedix-Engler.</seg>
+        </u>
+        <note type="speaker">Frau Benedix-Engler (CDU/CSU):</note>
+        <u who="#Q2501516" xml:id="ParlaMint-DE_1981-02-18-09-022.u274" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg317">Darf ich Sie, Frau Staatssekretärin, jetzt an die Beantwortung meiner Zusatzfrage erinnern? Ich habe nach den Vorurteilen gefragt, die dahin gehen, Frauen seien für technische Berufe nicht so geeignet und deshalb auch nur bedingt einsetzbar. Werden solche Vorurteile nicht durch das Arbeitszeitschutzgesetz und durch Arbeitszeitordnung noch verstärkt?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u275" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg318">Frau Kollegin, ich habe das in Ihrer Frage zum Ausdruck kommende Problem vorhin schon angedeutet. Ich habe den Eindruck, daß wir alle dazu beitragen können, Vorurteile gegen Mädchen in Männerberufen abbauen zu helfen. Wie erfolgreich man auf die Entwicklung eines entsprechenden Bewußtseins oder entsprechender gesellschaftlicher Bedingungen oder Veränderungen hinarbeiten kann, hängt auch davon ab, ob insgesamt eine Situation vorhanden ist, in der man den Frauen wirklich helfen will, oder ob es eine Situation ist, in der die allgemeine Meinung im Grunde mehr dahin geht, Frauen sollten doch lieber vom Arbeitsmarkt verschwinden. Ich glaube, daß wir im Moment eine Situation haben, in der die allgemeine Meinung mehr der Auffassung zuneigt, Frauen sollten vom Arbeitsmarkt doch lieber verschwinden. Um so mehr wird in einer solchen Situation nach Gründen gesucht, um die angeblichen Probleme bei der Beschäftigung von Frauen als Vorwand benutzen zu können.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u276" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg319">Frau Kollegin Benedix, Sie haben das Recht zu nur einer Zusatzfrage; tut mir leid. Ich rufe die Frage 30 des Herrn Abgeordneten Gerster (Mainz)</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg320">auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg321">Liegt der Bundesregierung inzwischen das vom nordrhein-westfälischen Arbeits- und Gesundheitsminister angekündigte Gutachten zum Für und Wider schwerer Frauenarbeit vor, welches laut dpa vom 17. November 1980 dem Bundesarbeitsminister verbunden mit entsprechenden Vorschlägen zur Gesetzesänderung zur Verfügung gestellt werden soll, und welche Konsequenzen zieht die Bundesregierung daraus'?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u277" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg322">Herr Kollege, das Gutachten liegt noch nicht vor. Es soll im Laufe des Jahres 1981 erstellt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u278" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg323">Keine Zusatzfrage. Dann rufe ich die Frage 31 der Frau Kollegin Verhülsdonk auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg324">Ist die Bundesregierung bereit, sich im Sinne der Empfehlung der Enquete-Kommission Frau und Gesellschaft für die Abschaffung des § 16 Abs. 2 der Arbeitszeitordnung in Verbindung mit § 20 der Ausführungsverordnung zur Arbeitszeitordnung einzusetzen, und wann ist mit einer entsprechenden Gesetzesänderung zu rechnen?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u279" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg325">Herr Präsident, ich würde die Fragen 31 und 32 gern zusammen beantworten.</seg>
+        </u>
+        <note type="speaker">Frau Verhülsdonk (CDU/CSU):</note>
+        <u who="#Q2167961" xml:id="ParlaMint-DE_1981-02-18-09-022.u280" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg326">Bitte schön.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u281" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg327">Ich rufe also auch die Frage 32 der Frau Abgeordneten Verhülsdonk auf:</seg>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg328">Häit die Bundesregierung es für notwendig, das Frauenarbeitsschutzrecht entsprechend den Erfordernissen des Artikels 3 des Grundgesetzes anzupassen, wie sie dies im Arbeitsvertragsrecht gemäß des arbeitsrechtlichen EG-Anpassungsgesetzes für erforderlich gehalten hat?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u282" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg329">Frau Kollegin die Bundesregierung prüft die Empfehlung der Enquete-Kommission und steht dabei auch mit den beteiligten Arbeitgeber- und Arbeitnehmerverbänden in Verbindung. Die Arbeitgeberverbände neigen wie die Enquete-Kommission dazu, die von Ihnen genannten Arbeitsschutzvorschriften für Frauen ersatzlos abzuschaffen. Die Gewerkschaften dagegen vertreten die Auffassung, aus Gründen des Gesundheitsschutzes sollte an den Schutzvorschriften festgehalten werden. Zu Ihrer zweiten Frage darf ich darauf hinweisen, daß die Bundesregierung seit mehreren Jahren dabei ist, den überkommenen Frauenarbeitsschutz durch einen modernen, für Männer und Frauen im Grundsatz gleichen Arbeitsschutz zu ersetzen. Ich habe darauf hingewiesen, daß wir dies im Rahmen der Änderung der Arbeitszeitordnung tun werden. Die Bundesregierung wird sich bei der vorgesehenen Änderung der Arbeitszeitordnung dafür einsetzen, daß der dort geregelte Frauenarbeitsschutz modernisiert wird. Dabei wird auch den Erfordernissen des Art. 3 des Grundgesetzes Rechnung zu tragen sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u283" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg330">Eine Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Verhülsdonk (CDU/CSU):</note>
+        <u who="#Q2167961" xml:id="ParlaMint-DE_1981-02-18-09-022.u284" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg331">Stimmt die Bundesregierung mit mir überein, daß der betriebliche Arbeitsschutz eine Frage der menschengerechten Gestaltung der Arbeitsplätze von Frauen und Männern ist und sich somit über den Mutterschutz hinaus eine gesonderte Behandlung von Frauen, wie sie in der Arbeitszeitordnung zu finden ist, verbietet?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u285" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg332">Ich will nicht auf all das eingehen, was wir bisher zu diesem Thema besprochen haben. Sie haben recht, daß die menschengerechte Gestaltung von Arbeitsplätzen gleichermaßen für Männer und Frauen gelten muß. Deswegen bemühen wir uns auch, im Rahmen der Humanisierung des Arbeitslebens dafür Sorge zu tragen, daß es für Männer und Frauen in Betrieben gleichermaßen erträglicher wird. Nun komme ich noch einmal auf meine Antwort von vorhin. Solange dies für die Männer noch nicht gewährleistet sein kann, dürfen wir bei den Frauen nicht den Versuch machen, sie verstärkt an Arbeitsplätzen mit schwerer Belastung einzusetzen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u286" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg333">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Verhülsdonk (CDU/CSU):</note>
+        <u who="#Q2167961" xml:id="ParlaMint-DE_1981-02-18-09-022.u287" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg334">Sind der Bundesregierung vergleichbare Beschäftigungsverbote für Frauen in anderen Ländern, insbesondere der EG, bekannt? Wenn ja: Um welche handelt es sich? Das bezieht sich auf die Vorschriften der §§ 16 und 20 der Arbeitszeitordnung.</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u288" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg335">Diese Arbeitsschutzbestimmungen wird es in den anderen Ländern so stark nicht geben, weil wir mit diesen Verboten aus dem Jahre 1938 sehr weit gegangen sind. Ich kann Ihnen aber im Augenblick nicht sagen, wie die Situation im EG-Bereich generell ist.</seg>
+          <vocal type="exclamat">
+            <desc>Frau Verhülsdonk [CDU/CSU]: Kann ich das schriftlich haben?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg336">— Ich bin gern bereit, es Ihnen schriftlich mitzuteilen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u289" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg337">Eine weitere Zusatzfrage.</seg>
+        </u>
+        <note type="speaker">Frau Verhülsdonk (CDU/CSU):</note>
+        <u who="#Q2167961" xml:id="ParlaMint-DE_1981-02-18-09-022.u290" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg338">Frau Staatssekretärin, wie beurteilt die Bundesregierung Bestrebungen des Hamburger Senats zur Einführung eines arbeitsschutzrechtlichen Gleichstellungsgesetzes mit dem Inhalt, daß alle Beschäftigungsverbote und sonstigen Schutzvorschriften für Frauen aufgehoben werden, soweit sie weder arbeitsmedizinisch noch biologisch gerechtfertigt sind?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u291" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg339">Die Bundesregierung wird, wie erwähnt, zunächst einmal darangehen, die Arbeitszeitordnung des Jahres 1938 zu modernisieren. Sie wissen, daß wir erst vor kurzem das EG-Gleichbehandlungsgesetz verabschiedet haben, das noch Gegenstand von Fragen an Frau Minister Huber sein wird, so daß ich dazu mehr nicht sagen möchte. Ich muß Ihnen ganz offen bekennen, daß ich bezüglich der Frauenerwerbsarbeit und weiterer enormer rechtlicher Anstrengungen ein bißchen skeptisch bin. Nach meinem Eindruck ist Frauenerwerbsarbeit mehr eine Frage des tatsächlichen Abbaus von Diskriminierungen und der tatsächlichen Schaffung von Arbeitsplätzen für Frauen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u292" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg340">Zu einer weiteren Zusatzfrage Frau Verhülsdonk.</seg>
+        </u>
+        <note type="speaker">Frau Verhülsdonk (CDU/CSU):</note>
+        <u who="#Q2167961" xml:id="ParlaMint-DE_1981-02-18-09-022.u293" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg341">Hält die Bundesregierung daran fest, die Beschäftigungsverbote, die in der Arbeitszeitordnung geregelt sind, nur dann zu modifizieren, wenn die gesamte Arbeitszeitordnung geändert wird, wie es den Intentionen der SPD entspricht? Oder ist sie eventuell auch bereit — wie es meinen Intentionen entsprechen würde und es auch der kleinere Koalitionspartner vorgeschlagen hat —, diese Beschäftigungsverbote vorab in dem Sinne, wie es heute diskutiert wurde, zu ändern?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u294" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg342">Die Bundesregierung bleibt bei ihrer Absicht, es im Zuge der Änderung der Arbeitszeitordnung zu machen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u295" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg343">Zu einer Zusatzfrage Herr Kollege Ruf.</seg>
+        </u>
+        <note type="speaker">Ruf (CDU/CSU):</note>
+        <u who="#Q2173662" xml:id="ParlaMint-DE_1981-02-18-09-022.u296" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg344">Frau Staatssekretärin, ist die Änderung der Arbeitszeitordnung eine Frage, die den Bundesgesetzgeber angeht, oder ist es eine Angelegenheit, die durch das Ministerium auf dem Verordnungsweg erledigt werden kann?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u297" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg345">Die Änderung der Arbeitszeitordnung ist eine Sache des Gesetzgebers.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Ruf [CDU/CSU]: Danke!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u298" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg346">Zu einer Zusatzfrage Frau Kollegin Steinhauer.</seg>
+        </u>
+        <note type="speaker">Frau Steinhauer (SPD):</note>
+        <u who="#Q2547645" xml:id="ParlaMint-DE_1981-02-18-09-022.u299" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg347">Frau Staatssekretärin, kann ich Ihre Antworten so auffassen, daß es nicht darum gehen kann, die bestehenden Arbeitsschutzbestimmungen rückzuentwickeln, sondern daß es darauf ankommt, sie den gewandelten Verhältnissen anzupassen, d. h. die besonderen Arbeitsschutzvorschriften für Frauen in dem hier anstehenden Bereich, im Bereich der Humanisierung der Arbeitswelt, den eingetretenen Veränderungen so anzupassen, daß diese Vorschriften für Männer und Frauen gleichermaßen gelten?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u300" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg348">Frau Kollegin, ich stimme Ihnen zu.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u301" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg349">Eine Zusatzfrage, Herr Kollege Jäger (Wangen).</seg>
+        </u>
+        <note type="speaker">Jäger (Wangen) (CDU/CSU):</note>
+        <u who="#Q1098592" xml:id="ParlaMint-DE_1981-02-18-09-022.u302" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg350">Frau Staatssekretärin, wie sind Ihre Antworten auf die Fragen der Frau Kollegin Verhülsdonk damit zu vereinbaren, daß es die Bundesregierung gleichwohl zuläßt, daß die schweren und einen 16-Stunden-Arbeitstag umfassenden Arbeitsplätze eines Bundesministers und eines Parlamentarischen Staatssekretärs von Frauen besetzt sind?</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Wehner [SPD]: Damit Sie Witze machen können!</desc>
+        </vocal>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u303" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg351">Wir sind keine Arbeiterinnen, sondern wir gehören zum „Stand" der Politikerinnen, und denen ist offensichtlich alles zuzumuten. Aber ich würde mich auch da dafür einsetzen, Herr Kollege, für Politiker — Männer und Frauen gleichermaßen — angemessene Arbeitsbedingungen zu schaffen. Vielleicht können wir uns darauf verständigen, wie wir das miteinander besser hinkriegen.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u304" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg352">Eine Zusatzfrage, Frau Kollegin Pack.</seg>
+        </u>
+        <note type="speaker">Frau Pack (CDU/CSU):</note>
+        <u who="#Q77534" xml:id="ParlaMint-DE_1981-02-18-09-022.u305" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg353">Frau Staatssekretärin, wie will die Bundesregierung verhindern, daß jedes Bundesland bzw. die Gewerbeaufsichtsämter trotz der Empfehlung des Bundesministers für Arbeit für sich interpretieren, ob hinsichtlich des Beschäftigungsverbotes für Frauen auf Bauten die Arbeiten des Bauausbau- und Baunebengewerbes zu den eigentlichen Betriebsarbeiten zu rechnen sind oder nicht?</seg>
+        </u>
+        <note type="speaker">Frau Fuchs, Parl. Staatssekretär:</note>
+        <u who="#Q73197" xml:id="ParlaMint-DE_1981-02-18-09-022.u306" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg354">Wir haben diese weitere Auslegung mit den Ländern vereinbart. Aber wir haben keinerlei Möglichkeit, nunmehr auf die Länder und Gewerbeaufsichtsämter dahin gehend einzuwirken, daß sie unsere Empfehlung auch beherzigen. Eine gesetzliche Änderung würde das verbessern. Aber ich kann Ihnen nur empfehlen, sich mit Nachdruck um diese Dinge zu kümmern, soweit sie aus den Regionen kommen, wo das nicht eingehalten wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsident Leber:</note>
+        <u who="#Q62237" xml:id="ParlaMint-DE_1981-02-18-09-022.u307" ana="#chair">
+          <seg id="ParlaMint-DE_1981-02-18-09-022.seg355">Damit sind die Fragen 31 und 32 beantwortet. Ich danke Ihnen. Meine Damen und Herren, die für die Fragestunde vorgesehene Zeit ist abgelaufen. Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 19. Februar 1981, 9 Uhr ein. Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluß der Sitzung: 14.32 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

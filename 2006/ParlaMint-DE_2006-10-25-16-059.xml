@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_2006-10-25-16-059">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 16. Wahlperiode, 59. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 25.10.2006 (59. Sitzung der 16. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 16, Session 59 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 2006-10-25 (Session 59 in Legislative Period 16)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="59">59. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.16" n="16">16. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="59">Session 59</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.16" n="16">Legislative Period 16</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 25.10.2006</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 2006-10-25</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2015-10-20">http://webarchiv.bundestag.de/archive/2008/0912/bic/plenarprotokolle/pp/2006/16059a.zip</idno>
+          <date when="2006-10-25">2006-10-25</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="2006-10-25">2006-10-25</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-questioning_of_the_government">
+        <head>Befragung der Bundesregierung</head>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u1" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg1">Guten Tag, liebe Kolleginnen und Kollegen! Die Sitzung ist eröffnet.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg2">Ich rufe Tagesordnungspunkt 1 auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg3">Beratung des Antrags der Abgeordneten Jens Ackermann, Dr. Karl Addicks, Christian Ahrendt und weiterer Abgeordneter</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg4">Ergänzung des Untersuchungsauftrages des 1. Untersuchungsausschusses</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg5">- Drucksache 16/3028 -</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg6">Überweisungsvorschlag:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg7">Ausschuss für Wahlprüfung, Immunität und Geschäftsordnung</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg8">Eine Aussprache ist heute nicht vorgesehen. Wir kommen daher gleich zur Überweisung. Interfraktionell wird Überweisung des Antrags auf Drucksache 16/3028 an den Ausschuss für Wahlprüfung, Immunität und Geschäftsordnung vorgeschlagen. Sind Sie damit einverstanden? - Das ist der Fall. Dann ist die Überweisung so beschlossen.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg9">Ich rufe Tagesordnungspunkt 2 auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg10">Befragung der Bundesregierung</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg11">Die Bundesregierung hat als Thema der heutigen Kabinettssitzung mitgeteilt: Entwurf eines Gesetzes zur Erleichterung der Unternehmensnachfolge.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg12">Das Wort für den einleitenden fünfminütigen Bericht hat die Parlamentarische Staatssekretärin im Bundesministerium der Finanzen, Frau Dr. Barbara Hendricks.</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg13">Frau Präsidentin! Liebe Kolleginnen und Kollegen! Die Bundesregierung hat heute den Entwurf eines Gesetzes zur Erleichterung der Unternehmensnachfolge auf den Weg gebracht. Damit werden die in der Koalitionsvereinbarung vom 11. November 2005 vorgesehenen Erleichterungen bei der Erbschaft- und Schenkungsteuer umgesetzt.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg14">Wir wollen den Unternehmen im Interesse der Erhaltung von Arbeitsplätzen entgegenkommen. Bei Betriebsübergängen soll die auf begünstigtes Produktivvermögen entfallende Steuer über einen Zeitraum von zehn Jahren zinslos gestundet werden. Diese Steuer erlischt in zehn Jahresraten unter der Voraussetzung einer Betriebsfortführung. Nach zehn Jahren ist die Steuer also gänzlich entfallen.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg15">Liquide Mittel und damit Wirtschaftskraft bleiben den Unternehmen und Unternehmern zum Wohle der dort beschäftigten Arbeitnehmerinnen und Arbeitnehmer erhalten. Betriebe sollen nicht deshalb geschlossen oder verkleinert werden bzw. Unternehmensbeteiligungen nicht verkauft werden, weil im Zuge der Übergabe an die nächste Generation Erbschaft- oder Schenkungsteuer zu zahlen ist. Damit erreichen wir mehr Sicherheit für die vielen Arbeitsplätze gerade in mittelständischen Unternehmen. Begünstigt ist auch Unternehmensvermögen in anderen EU-Staaten und Staaten des Europäischen Wirtschaftsraums. Damit stellen wir die Europatauglichkeit der neuen Begünstigung her.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg16">Der vorgesehene Steuernachlass ist jedoch an Bedingungen geknüpft. Stundung und Steuererlass werden nicht für so genanntes unproduktives Vermögen gewährt. Dies soll verhindern, dass, nur um die Erbschaft- und Schenkungsteuer zu sparen, Vermögensgegenstände des Privatvermögens in Betriebsvermögen umgewandelt werden.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg17">Im Kern geht es darum, dass die Arbeitsplätze weitgehend erhalten bleiben. Sonst verlöre die Begünstigung ihren politischen Sinn und würde zudem vor dem Bundesverfassungsgericht keinen Bestand haben. Eine direkte Arbeitsplatzklausel wird es allerdings nicht geben. Vorbild für eine so genannte Fortführungsklausel ist eine Formulierung aus dem Umwandlungssteuerrecht. Damit haben die Unternehmensnachfolger mehr Spielraum für betriebswirtschaftlich notwendige Entscheidungen.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg18">Es ist sichergestellt, dass die zu erwartende Entscheidung des Bundesverfassungsgerichts zur Erbschaftsteuer im weiteren Gesetzgebungsverfahren berücksichtigt werden kann. Die geänderten Vorschriften sollen für Besteuerungszeitpunkte nach Verkündung des Gesetzes gelten. Auf Antrag des Steuerpflichtigen sind die neuen Vorschriften über die Stundung und das Erlöschen der Steuer auf begünstigtes Vermögen bereits ab dem 1. Januar 2007 anwendbar. Damit kann der in der Koalitionsvereinbarung vorgesehene Fahrplan für das In-Kraft-Treten eingehalten werden.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg19">Herzlichen Dank.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u3" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg20">Danke, Frau Staatssekretärin. - Das Wort für die erste Frage hat der Kollege Carl-Ludwig Thiele von der FDP-Fraktion.</seg>
+        </u>
+        <note type="speaker">Carl-Ludwig Thiele (FDP):</note>
+        <u who="#Q1036557" xml:id="ParlaMint-DE_2006-10-25-16-059.u4" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg21">Sehr geehrte Frau Staatssekretärin, Sie hatten darauf hingewiesen, dass eine zu erwartende Entscheidung des Bundesverfassungsgerichtes noch ausstehe. Ist es denn zutreffend, dass die Stellungnahme der Bundesregierung für das Bundesverfassungsgericht dahin gehend lautet, dass der Vorlagebeschluss unzulässig und auch unbegründet sei?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg22">Es ist richtig, dass die Bundesregierung dies getan hat. Das ist aber auch selbstverständlich; denn der Vorlagebeschluss des Bundesfinanzhofes richtet sich auf geltendes Recht, auf das jetzt bestehende Erbschaft- und Schenkungsteuerrecht. Es gibt natürlich keinerlei Veranlassung, für welche Bundesregierung auch immer, an den bestehenden Gesetzen zu zweifeln. Deswegen verteidigt die Bundesregierung, wenn sie vom Bundesverfassungsgericht zur Stellungnahme aufgefordert wird, immer die bestehenden Gesetze.</seg>
+        </u>
+        <note type="speaker">Carl-Ludwig Thiele (FDP):</note>
+        <u who="#Q1036557" xml:id="ParlaMint-DE_2006-10-25-16-059.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg23">Ich habe eine Zusatzfrage. In dem Sprechzettel für den Regierungssprecher heißt es auch:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg24">Auf Antrag des Steuerpflichtigen sind die neuen Vorschriften über die Stundung und das Erlöschen der Steuer auf begünstigtes Vermögen bereits ab dem 1. Januar 2007 anwendbar.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg25">So wie es derzeit vorgesehen ist, soll die erste Lesung des Gesetzes wahrscheinlich erst Anfang nächsten Jahres erfolgen, sodass sich das Gesetzgebungsverfahren in das nächste Jahr hineinzieht, obwohl es nach Inkraftsetzung ab dem 1. Januar 2007 gelten soll. Damit gäbe es zwei unterschiedliche Rechte im Jahr 2007, nämlich das derzeit geltende und das im Laufe des Jahres 2007 möglicherweise in Kraft tretende Gesetz. Wie soll das Wahlrecht sein: Soll es auch Schenkungen umfassen oder wie ist das von Ihnen gedacht?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg26">Ich hatte Ihnen gerade vorgetragen, dass das neue Recht auf Antrag für alle Erbfälle ab dem 1. Januar 2007 zur Anwendung kommen kann. In der Tat hat es aber für Erbfälle mehr Bedeutung; denn Schenkungsfälle kann man selber gestalten, sodass es da auf einen bestimmten Zeitpunkt nicht so sehr ankommt. Wenn man also dem neuen Recht nicht vertraut und den Schenkungsvorgang lieber nach altem Recht herbeiführen will, kann man Schenkungen auch noch in diesem Jahr vornehmen. Aber auch in den Fällen, in denen eine eigene Gestaltung selbstverständlich nicht möglich ist, nämlich im Todesfall des Erblassers, sollen die Steuerpflichtigen ab dem 1. Januar 2007 ein Wahlrecht haben.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u8" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg27">Das Wort zu einer weiteren Frage hat der Kollege Dr. Meister für die Unionsfraktion.</seg>
+        </u>
+        <note type="speaker">Dr. Michael Meister (CDU/CSU):</note>
+        <u who="#Q103523" xml:id="ParlaMint-DE_2006-10-25-16-059.u9" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg28">Frau Präsidentin! Meine Damen und Herren! Frau Staatssekretärin, ich habe eine Frage zu der europarechtlichen Komponente in Bezug auf den Kabinettsbeschluss. Es gab im Vorfeld der Kabinettsentscheidung die Diskussion, inwieweit dieser Ansatz bezogen auf die Frage, welches Betriebsvermögen in dem Gesetzentwurf mit erfasst wird, europarechtlich abgesichert ist. Darf ich nachfragen, wie das Kabinett bezüglich der Frage der Einbeziehung von Vermögen in den begünstigten Kreis, bezogen auf die geografische Abgrenzung zwischen Inlandsvermögen und EU-Binnenmarkt, entschieden hat?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u10" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg29">Das Kabinett hat entschieden, dem Gesetzgeber vorzuschlagen, dass Vermögen, welches innerhalb der Europäischen Union bzw. des Europäischen Wirtschaftsraums gehalten wird, zukünftig denselben Bedingungen unterliegen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u11" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg30">Das Wort für eine weitere Frage hat die Kollegin Barbara Höll.</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Höll (DIE LINKE):</note>
+        <u who="#Q807478" xml:id="ParlaMint-DE_2006-10-25-16-059.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg31">Frau Staatssekretärin, mich interessiert der finanzielle Umfang der angestrebten Neuregelung. Wie hoch schätzen Sie die Steuermindereinnahmen auf Grundlage der beabsichtigten Gesetzesänderung ein?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg32">Wir gehen von einer Steuermindereinnahme aufgrund dieses Gesetzentwurfes in der Größenordnung von 500 Millionen Euro aus. Den Ländern allerdings, denen das Aufkommen aus der Erbschaftsteuer zusteht, liegt daran, dieses in einem weiteren bzw. im laufenden Gesetzgebungsverfahren auszugleichen. Wir erwarten vom Bundesverfassungsgericht Hinweise auf die Bewertung von Immobilienvermögen. In diesem Zusammenhang gehen die Länder davon aus, dass es insgesamt zahlenmäßig nicht zu einer Entlastung bei der Erbschaftsteuer kommen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u14" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg33">Eine Nachfrage?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Höll (DIE LINKE):</note>
+        <u who="#Q807478" xml:id="ParlaMint-DE_2006-10-25-16-059.u15" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg34">Frau Staatssekretärin, wir reden ja jetzt über den Bereich der Unternehmensübertragungen. Das ist ein Bereich, in dem bereits jetzt vom Bundesverfassungsgericht kritisiert wird, dass sehr große Privilegien eingeräumt würden. Ein sehr großer Kritikpunkt vonseiten der Steuerrechtler ist, dass der vorhandene Spielraum hinsichtlich der Besteuerung beim Unternehmensübergang derzeit nicht ausgenutzt wird. Sie beschreiten nun nicht den Weg, diese Spielräume auszunutzen, sondern Sie wollen - im Gegenteil - diese Besteuerung letztendlich noch eingrenzen und die Privilegien ausbauen - und das in einer Zeit leerer öffentlicher Kassen, wie immer wieder betont wird.</seg>
+          <vocal type="question">
+            <desc>Dr. Uwe Küster [SPD]: Ist das eine Frage?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg35">- Ja. - Herr Küster, meine Frage ist: Was ist der Anlass für die Entscheidung, Privilegien für diejenigen auszubauen, die durch die Übertragung von Unternehmen in Folge einer Erbschaft leistungslose Einkommen erhalten?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u16" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg36">Frau Kollegin Höll, zunächst möchte ich sagen: Das Bundesverfassungsgericht hat sich bisher zu dieser Frage noch nicht geäußert. Es war vielmehr der Bundesfinanzhof, der zwei Vorlagebeschlüsse dem Bundesverfassungsgericht zugeleitet hat. In diesen Beschlüssen geht es zum einen um die Bewertung von Immobilienbesitz - unabhängig davon, ob die Immobilien zu einem betrieblichen oder privaten Vermögen gehören - und zum anderen um die im geltenden Recht vorhandenen Begünstigungen des Betriebsvermögens. Dazu wird das Bundesverfassungsgericht ein Urteil fällen, dessen Richtung wir natürlich noch nicht kennen.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg37">Die Ziele, die wir mit unserem Gesetzentwurf verfolgen, sind folgende: Die Unternehmen sollen, wenn die Generationenfolge gewährleistet ist, von der Erbschaft- und Schenkungsteuer entlastet werden. Auf produktiv eingesetztes Vermögen entfallende Steuern sollen nach zehn Jahren gänzlich erlassen werden. Die Begünstigung ist selbstverständlich auch an den Erhalt von Arbeitsplätzen gekoppelt. Ich hatte Ihnen das vorhin schon dargestellt.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg38">Natürlich muss eine Begünstigung des Betriebsvermögens gegenüber dem Privatvermögen gut begründet sein, damit sie nicht zu einer Gleichheitswidrigkeit führt. Eine Begünstigung kann es daher nur geben, wenn die Unternehmen fortgeführt werden und Arbeitsplätze erhalten bleiben. Erst dann ist eine solche Begünstigung verfassungsfest. Darum haben wir eine entsprechende Klausel in den Gesetzentwurf aufgenommen.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg39">Darüber hinaus wollen wir - anders als im jetzt geltenden Recht - das produktive vom unproduktiven Vermögen abgrenzen. Das ist einer der Gegenstände des Vorlagebeschlusses des Bundesfinanzhofs an das Bundesverfassungsgericht. Im geltenden Recht ist es noch verhältnismäßig einfach möglich, Privatvermögen in begünstigtes betriebliches Vermögen umzuwandeln, indem man beispielsweise privaten Wohnungsbesitz in eine gewerblich geprägte Kommanditgesellschaft einbringt und daraus Betriebsvermögen macht. Dies wird es zukünftig nicht mehr geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u17" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg40">Danke, Frau Staatssekretärin. - Das Wort für die nächste Frage geht an die Kollegin Scheel.</seg>
+        </u>
+        <note type="speaker">Christine Scheel (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q103518" xml:id="ParlaMint-DE_2006-10-25-16-059.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg41">Frau Staatssekretärin, ich halte Ihre Aussage, dass Steuerpflichtige doch jetzt, also noch im Jahr 2006, handeln sollten, wenn sie denn nicht auf die Gesetzgebung des nächsten Jahres vertrauen wollen, für sehr provokativ. Denn die Intention dieses Gesetzentwurfs ist ja wohl die, dass man Betriebsübergaben erleichtern und nicht erschweren will. In dem Zusammenhang interessiert mich, inwieweit Sie der Befürchtung entgegentreten, dass es gerade bei der Übergabe von Unternehmen im Bereich der kleinen und mittleren Unternehmen im Vergleich zur heutigen Gesetzgebung zu Verschlechterungen durch die von Ihnen vorgesehenen Änderungen kommt. Ich möchte ferner wissen, ob Sie nicht auch die Befürchtung haben, dass möglicherweise bezüglich des Vertrauensschutzes große Unsicherheit entstehen kann, wenn es nach zwei oder drei Jahren zu einer Neufassung des Bewertungsgesetzes kommt und ältere Fälle eventuell völlig neu abgewickelt werden müssen.</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg42">Frau Kollegin, zunächst einmal will ich sagen, dass selbstverständlich keine Fälle neu abgewickelt werden müssten, wenn ein Gesetz in zwei Jahren in Kraft treten würde. Neues Recht kann erst zur Anwendung kommen, wenn es in Kraft getreten ist. Rückabwicklungen wegen einer Gesetzgebung zu einem späteren Zeitpunkt kann es - das wissen auch Sie, Frau Kollegin - also nicht geben.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg43">Allerdings ist nicht damit zu rechnen, dass es einen entsprechenden Gesetzentwurf zu einem späteren Zeitpunkt gibt. Denn wenn, wie wir erwarten, das Bundesverfassungsgericht Anfang des nächsten Jahres die Begründung des Urteils darlegen wird, das wir in Bälde erwarten, dann werden wir neue Bewertungsregeln, sofern das Bundesverfassungsgericht das von uns erwartet, in dieses Gesetzgebungsverfahren einbringen.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg44">Sie hatten aber auch noch eine Unterfrage gestellt, nämlich die, wie vermieden wird, dass kleinere Unternehmen benachteiligt werden. Wir sehen eine Freigrenze von 100 000 Euro vor, sodass der Übergang von kleineren Unternehmen, zum Beispiel von solchen im Kleinhandel, von Handwerkerbetrieben oder auch Betrieben der Land- und Forstwirtschaft, nicht mit Steuer belastet wird. Gleichzeitig wird damit vermieden, dass Wertermittlungen und aufwendige Überwachungen stattfinden müssen.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg45">Ich muss Ihnen im Übrigen sagen: Natürlich soll die Unternehmensnachfolge erleichtert werden; das ist die Zielrichtung dieses Gesetzentwurfs. Aber durch die Abgrenzung von produktivem und unproduktivem Vermögen kann es im Vergleich zum jetzigen Recht im Einzelfall zu Schlechterstellungen kommen. Da es uns aber um die Fortführung von Unternehmen geht, muss das im Zweifelsfall in Kauf genommen werden, auch wenn unproduktives Vermögen bisher in größerem Umfang als begünstigt galt.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg46">Wenn man also ein solches Unternehmen besitzt und die Abgrenzung von produktivem und unproduktivem Vermögen kennt, könnte man möglicherweise sagen: Für mich ist es günstiger, den Schenkungsfall schon jetzt einzuleiten. Insofern weise ich Ihre Formulierung, das sei provokativ, zurück. Denn die Abgrenzung von produktivem und unproduktivem Vermögen kann in Einzelfällen zu Schlechterstellungen im Vergleich zum jetzigen Recht führen. Es ist aber gerade die Intention des Gesetzgebers, das produktive Betriebsvermögen - dies ist auch unter Berücksichtigung des Gleichheitsgrundsatzes deshalb so geregelt worden, weil es für Arbeitsplätze sorgt; das unproduktive sorgt eben nicht in vergleichbarer Weise für Arbeitsplätze - im Übergang, im Erbschaftsfall und im Schenkungsfall, zu begünstigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u20" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg47">Ich habe, beginnend mit dem Kollegen Thiele, je eine Nachfrage zugelassen, möchte das auch weiter tun, habe aber inzwischen eine längere Liste von Abgeordneten, die eine Frage stellen wollen, und bitte daher sowohl um eine kurze Formulierung der Fragen als auch, soweit es möglich ist, Frau Staatssekretärin, um eine kurze Antwort, sodass alle diejenigen, die zu diesem Thema noch eine Frage stellen wollen, auch aufgerufen werden können.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg48">Kollegin Scheel.</seg>
+        </u>
+        <note type="speaker">Christine Scheel (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q103518" xml:id="ParlaMint-DE_2006-10-25-16-059.u21" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg49">Frau Präsidentin, ich werde mich daran halten. - Kurze Nachfrage, Frau Staatssekretärin: Was passiert denn eigentlich, wenn das Bundesverfassungsgericht zu der Entscheidung kommt, kein Urteil zu fällen? Was gedenkt die Bundesregierung dann zu tun?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u22" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg50">Dann wird die Bundesregierung dieses Gesetzgebungsverfahren mit Unterstützung des Parlaments ordentlich zu Ende bringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u23" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg51">Das Wort hat der Kollege Fahrenschon für die Unionsfraktion.</seg>
+        </u>
+        <note type="speaker">Georg Fahrenschon (CDU/CSU):</note>
+        <u who="#Q90696" xml:id="ParlaMint-DE_2006-10-25-16-059.u24" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg52">Frau Staatssekretärin, Sie haben bei der Beantwortung der Frage der Kollegin Scheel die Grundzüge der Regelung für die Klein- und Kleinstunternehmer beschrieben und die Freigrenze von 100 000 Euro, die angedacht ist, angesprochen. Ich möchte in diesem Zusammenhang nachfragen: Soll denn unterhalb dieser Freigrenze ebenfalls zwischen produktivem und unproduktivem Vermögen unterschieden werden oder bezieht sich die Freigrenze quasi auf die Summe?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg53">Sie bezieht sich auf die Summe. Bewertungen sollen unterhalb dieser Freigrenze nicht notwendig werden.</seg>
+        </u>
+        <note type="speaker">Georg Fahrenschon (CDU/CSU):</note>
+        <u who="#Q90696" xml:id="ParlaMint-DE_2006-10-25-16-059.u26" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg54">Eine Nachfrage ergibt sich noch: Das Kabinett hat sich anders als in den vorbereitenden Runden zu einer bestimmten Regelung in Bezug auf die Arbeitsplatzgarantie entschieden. Diese wird jetzt an das Umwandlungssteuergesetz angelehnt. Könnten Sie uns die Gründe für diese Kabinettsentscheidung darstellen?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg55">Der Hauptgrund war, dass die Länder in ihrer Mehrheit genau diese Regelung wollten. Da die Länder nun einmal die Ertragshoheit über die Erbschaftsteuer haben und sie im Übrigen die Verwaltungsdurchführung in Bezug auf die Erhebung dieser Steuer - wie auch der meisten anderen - vornehmen müssen, haben wir uns dem Votum der Länder angeschlossen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u28" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg56">Das Wort hat der Kollege Thiele für die FDP.</seg>
+        </u>
+        <note type="speaker">Carl-Ludwig Thiele (FDP):</note>
+        <u who="#Q1036557" xml:id="ParlaMint-DE_2006-10-25-16-059.u29" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg57">Frau Staatssekretärin, ich möchte Sie fragen, ob Sie mit mir der Auffassung sind, dass wir gerade im Erbschaftsteuerrecht eine erhebliche Schlechterstellung des mittelständischen Vermögens gegenüber den großen Kapitalgesellschaften dadurch haben, dass, wenn derzeit ein Aktionär verstirbt, die Aktien auf den Stichtag bewertet werden, auf diesen Wert der Aktien eine Steuer festgesetzt wird und die Steuer durch Veräußerung eines Teils der Aktien gezahlt werden kann, die Aktiengesellschaft aber keinen Cent Kapital verliert, während im Mittelstand eine ganz andere Situation besteht. Häufig fehlt die Führungsperson. Der Betrieb hat Schwierigkeiten. Die Gelder sind nicht verfügbar und Teile des Betriebes müssen veräußert werden oder der Betrieb muss entsprechend belastet werden, sodass es im Sinne des Erhalts der Arbeitsplätze ist, eine solche Regelung zu treffen, wie sie seitens der Koalition vorgeschlagen worden ist.</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u30" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg58">Herr Kollege Thiele, das ist einer der Gründe, die uns bei diesem Gesetzentwurf geleitet haben.</seg>
+        </u>
+        <note type="speaker">Carl-Ludwig Thiele (FDP):</note>
+        <u who="#Q1036557" xml:id="ParlaMint-DE_2006-10-25-16-059.u31" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg59">Eingehend auf die Frage der Kollegin Höll: Sehen Sie in dieser Regelung eine Privilegierung oder ein Mittel, hinsichtlich der sozialen Verpflichtung betrieblich gebundenes Vermögen gegenüber anderem Vermögen stärker heranzuziehen? Das Interesse sollte darauf liegen, die Arbeitsplätze in den Betrieben zu erhalten und sie nicht durch die Erbschaftsteuer zu gefährden.</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u32" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg60">Herr Kollege, das betriebliche Vermögen wird natürlich unterschiedlich bewertet. Sie haben richtigerweise darauf hingewiesen, dass Aktien zum Stichtag bewertet werden. Das ist ganz einfach: Es gibt keine Abschläge. Dieses Vermögen wird genauso behandelt wie Barvermögen. Betriebliches Vermögen wird demgegenüber schon nach geltendem Recht mit Bewertungsabschlägen versehen, und zwar wegen der geringeren Fungibilität, weil man es nicht so schnell veräußern kann. Das Vermögen soll ja auch gar nicht veräußert werden; der Betrieb soll schließlich fortgeführt werden. In Zukunft werden wir eine Stundungs- und Erlassregelung haben, weswegen wir auf Bewertungsabschläge verzichten.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg61">Von Privilegierung muss man unter einem verfassungsrechtlichen Gesichtspunkt sprechen. Wenn man einen Tatbestand anders behandelt als einen vergleichbaren anderen, muss man einen guten Grund dafür haben. Es ist klar, dass der Gleichheitsgrundsatz in Art. 3 des Grundgesetzes das gebietet. Unser Vorschlag sieht vor, dass das betriebliche Vermögen besser gestellt wird als das private Vermögen, insofern privilegiert wird. Die guten Gründe, die wir dafür nennen, erlauben eine andere Behandlung. Daher ist die Privilegierung verfassungsgemäß.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u33" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg62">Die nächste Frage stellt der Kollege Obermeier aus der Unionsfraktion.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Eduard Oswald [CDU/CSU]: Das ist ein CSU-Abgeordneter! - Manfred Grund [CDU/ CSU]: Das hört man am Namen!</desc>
+        </vocal>
+        <note type="speaker">Franz Obermeier (CDU/CSU):</note>
+        <u who="#Q1448421" xml:id="ParlaMint-DE_2006-10-25-16-059.u34" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg63">Frau Staatssekretärin, es scheint sich um ein sehr gutes Gesetz zu handeln, das insbesondere den kleinen und mittelständischen Unternehmen hilft. In diesem Zusammenhang stellen sich mir ein paar Fragen: Erstens. Habe ich Sie richtig verstanden, dass diese Regelung auch für nicht Verwandte gilt? Zweitens. Im mittelständischen Bereich sind die Strukturen hinsichtlich der Gesellschafteranteile sehr unterschiedlich. Wo sollen die Grenzen bei der Vererbung dieser Anteile gezogen werden? Drittens. Wie wollen Sie bei der Vererbung von landwirtschaftlichen Betrieben mit verpachteten Flächen umgehen, also mit Flächen, die zwar zum Betriebsvermögen gehören, aus irgendwelchen betrieblichen Gründen aber verpachtet sind?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg64">Es ist richtig, dass es nicht darauf ankommt, in einem bestimmten Verwandtschaftsverhältnis zum Erblasser zu stehen. Die Begünstigung richtet sich auf die Fortführung des Unternehmens. Es mag Fälle geben, in denen man an völlig fremde, nicht verwandte Menschen vererbt. Das kommt sicherlich nicht häufig vor, ist aber nicht auszuschließen. Vererbungen an entfernt Verwandte gibt es häufiger. All das spielt in diesem Zusammenhang aber keine Rolle. Es geht um die Fortführung des Unternehmens.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg65">Zweitens. Wir gehen davon aus, dass man mindestens 25 Prozent eines Unternehmens besitzen muss, um in den Genuss dieser Vorteile zu kommen. Wenn jemand einen geringeren Anteil an einer Gesellschaft besitzt, in den Statuten gleichwohl geregelt ist - in Familienunternehmen ist das oft der Fall -, dass das Stimmrecht nur im Zusammenspiel mit anderen Gesellschaftern, gleichgerichtet, ausgeübt werden kann, dann ist auch das abgedeckt. In den Statuten von Familienunternehmen ist die Ausübung des Stimmrechts sehr häufig in dieser Form geregelt. Viele Unternehmen wurden schon in dritter oder vierter Generation vererbt, wodurch es zu 120 oder sogar 280 Anteilseignern gekommen ist. Bei Personengesellschaften gibt es das durchaus. Also: Wenn in den Statuten des Unternehmens geregelt ist, dass Entscheidungen nur gleichgerichtet gefällt werden dürfen, darf der Anteil eines Gesellschafters allein auch unter 25 Prozent liegen. Die Menge der Einzelanteile wird häufig geringer - zum Teil liegen sie im einstelligen Prozentbereich -, je länger die Generationsfolge bereits ist. Wenn klar ist, dass man das Stimmrecht nur gemeinsam ausüben darf, dann reicht das aus.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg66">Drittens. Was die landwirtschaftlichen Pachtflächen anbelangt, sehen wir eine Begünstigung vor, sofern die Pachtflächen an den voraussichtlichen Erben verpachtet sind. Auch diese Regelung ist im Sinne der Betriebsfortführung.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u36" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg67">Bevor der Kollege Volker Schneider für die Fraktion Die Linke die nächste Frage stellt, möchte ich eine Erläuterung als Antwort auf eine Frage aus dem Plenum machen. Die Geschäftsführer der Fraktionen haben im Ältestenrat vereinbart, dass es heute und im Laufe der Woche möglich ist, im Plenum Fotos zu machen, und zwar im Auftrag des Bundestages. Sie dienen der Außendarstellung unserer Arbeit. Das heißt, der Kollege dort drüben dokumentiert heute, wie Sie, die hier versammelt sind, dem Recht und der Pflicht der Kontrolle der Bundesregierung durch Fragen nachkommen. Ich denke, damit ist diese Frage hinreichend erklärt.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg68">Kollege Schneider hat das Wort.</seg>
+        </u>
+        <note type="speaker">Volker Schneider (Saarbrücken) (DIE LINKE):</note>
+        <u who="#Q1764294" xml:id="ParlaMint-DE_2006-10-25-16-059.u37" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg69">Danke, Frau Präsidentin. Ich komme meinem Recht und der Pflicht der Kontrolle gern nach.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg70">Frau Staatssekretärin, Sie haben schon ausgeführt und auf Nachfrage von Herrn Thiele noch einmal bestätigt, dass zentraler Anlass für diesen Gesetzentwurf die Bannung der Gefahr ist, dass Unternehmen durch die Erhebung der Erbschaftsteuer in Schwierigkeiten kommen und damit möglicherweise Arbeitsplätze in diesem Bereich verloren gehen können. Angesichts dieser beschworenen Gefahr - es scheint sich ja um ein massives Problem zu handeln, da man diesen Gesetzentwurf jetzt auf den Weg bringt - würde mich interessieren: Wie viele konkrete Fälle sind bekannt, in denen Unternehmen aufgrund der Androhung der Erhebung bzw. der Erhebung der Erbschaftsteuer nicht fortgeführt wurden, veräußert wurden oder gar in Insolvenz gegangen sind?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u38" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg71">Herr Kollege, darüber gibt es keine Statistiken, weil wir natürlich nicht wissen, aus welchen Gründen Unternehmen aus dem Markt ausscheiden. Wir kennen die Anzahl der Insolvenzen. Es sind pro Jahr rund 40 000. Zu diesen kann es aus unterschiedlichen Gründen kommen. Im Regelfall kommt es nicht aufgrund der Erhebung der Erbschaftsteuer, sondern aus anderen Gründen, zum Beispiel Kapitalunterdeckung, zur Insolvenz. Jedes Jahr gehen insgesamt 400 000 Unternehmen aus dem Markt; 90 Prozent nicht aufgrund von Insolvenz, 10 Pro-zent aufgrund von Insolvenz. Die Gründe, warum diese rund 360 000 Unternehmen aus dem Markt gehen, sind uns nicht bekannt. Es ist anzunehmen, dass ein Teil dieser Unternehmen auch aufgrund der Erhebung der Erbschaftsteuer geht.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u39" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg72">Eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Volker Schneider (Saarbrücken) (DIE LINKE):</note>
+        <u who="#Q1764294" xml:id="ParlaMint-DE_2006-10-25-16-059.u40" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg73">Sie haben vorhin die Frage nicht beantwortet - zumindest nicht präzise -, mit welchen Einnahmeausfällen Sie rechnen. Ich möchte einmal andersherum fragen: Wie hoch wird die jährliche Entlastung der Unternehmen durch die Erbschaftsteuerreform sowie die anvisierte Unternehmensteuerreform voraussichtlich sein?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg74">Ich hatte schon auf die Frage der Kollegin Höll geantwortet, dass dieser Gesetzentwurf von Steuermindereinnahmen in einer Größenordnung von 500 Millionen Euro ausgeht, dass allerdings die Länder Wert darauf legen, dass im Zusammenhang mit der anstehenden Neubewertung des Grundvermögens bei der Erbschaftsteuer insgesamt keine Mindereinnahmen zu verzeichnen sein werden. Dies werden wir gesetzgeberisch so vorsehen.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg75">Hinsichtlich der Unternehmensteuerreform hat sich das Kabinett darauf verständigt, die obere Grenze der Steuereinnahmeausfälle bei 5 Milliarden Euro festzulegen. Allerdings geht das Bundeskabinett davon aus, dass die Unternehmensteuerreform in die Wege geleitet wird, um Deutschland wettbewerbsfähiger, das heißt, um den Standort Deutschland für Investitionen attraktiver zu machen. Im Übrigen soll durch die Begrenzung von bestimmten Finanzierungsaufwendungen Steuersubstrat nach Deutschland zurückgeholt werden. Denn diese Finanzierungsaufwendungen dienen lediglich dazu, Gewinne nicht in Deutschland, sondern im Ausland bzw. Verluste nicht im Ausland, sondern in Deutschland anfallen zu lassen. Das Kabinett geht davon aus, dass die Unternehmensteuerreform mittelfristig, also in einigen Jahren, sogar dazu führen wird, dass Deutschland mehr Steueraufkommen verzeichnen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u42" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg76">Die nächste Frage zum Thema der heutigen Kabinettssitzung stellt der Kollege Grund aus der Unionsfraktion.</seg>
+        </u>
+        <note type="speaker">Manfred Grund (CDU/CSU):</note>
+        <u who="#Q1889410" xml:id="ParlaMint-DE_2006-10-25-16-059.u43" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg77">Vielen Dank. - Frau Staatssekretärin, es gibt auch Fälle, in denen nicht gemeinnützige Stiftungen Eigentümer von Firmen sind. Hier kommt alle 30 Jahre die Erbersatzsteuer zum Tragen. Welche Regelung sieht der von Ihnen vorgestellte Gesetzentwurf hierzu vor?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u44" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg78">Da gibt es keine Änderungen.</seg>
+        </u>
+        <note type="speaker">Manfred Grund (CDU/CSU):</note>
+        <u who="#Q1889410" xml:id="ParlaMint-DE_2006-10-25-16-059.u45" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg79">Es bleibt also bei der Erhebung der Erbersatzsteuer alle 30 Jahre?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u46" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg80">Es bleibt dabei.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u47" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg81">Das Wort hat der Kollege Michelbach.</seg>
+        </u>
+        <note type="speaker">Hans Michelbach (CDU/CSU):</note>
+        <u who="#Q1581364" xml:id="ParlaMint-DE_2006-10-25-16-059.u48" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg82">Frau Staatssekretärin, im Hinblick auf den Entwurf eines Gesetzes zur Erleichterung der Unternehmensnachfolge wird bei der Abgrenzung zwischen dem produktiven und dem so genannten unproduktiven Vermögen sicherlich ein Spannungsfeld bestehen. Denn staatliche Bewertungen von Unternehmen bzw. Wirtschaftssubjekten sind immer sehr schwierig. Wie verhält es sich mit dieser Abgrenzung bei Investitionsunternehmen, die zum Teil Wohnungseigentum im gewerblichen Bereich vorhalten, die, wenn sie im Leasingbereich tätig sind, aber auch auf das Entgelt, die Miete, angewiesen sind? Handelt es sich hierbei um produktives Vermögen?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg83">Herr Kollege, die Abgrenzungen sind in diesem Bereich in der Tat schwierig. Wenn man den Steuergestaltungen, die im Vorlagebeschluss des Bundesfinanzhofes, der beim Bundesverfassungsgericht anhängig ist, thematisiert werden, entgegenwirken will, so wird man um eine Abgrenzung zwischen produktivem und unproduktivem Vermögen nicht herumkommen. Dabei geht es auch um eine Reihe von vermieteten Gegenständen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u50" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg84">Das Wort hat die Kollegin Höll.</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Höll (DIE LINKE):</note>
+        <u who="#Q807478" xml:id="ParlaMint-DE_2006-10-25-16-059.u51" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg85">Frau Staatssekretärin, in der Begründung Ihres Gesetzentwurfs führten Sie aus, dass die Privilegien nur dann gewährt werden sollen, wenn bestimmte Bedingungen erfüllt werden; dabei geht es im Wesentlichen um die Erhaltung des Unternehmens und der vorhandenen Arbeitsplätze. Gleichzeitig sagten Sie, es gebe keine Arbeitsplatzgarantie. Mich würde die konkrete Ausgestaltung dieser Regelungen interessieren, insbesondere vor dem Hintergrund, dass Arbeitsplätze sehr unterschiedlich gestaltet sein können: Sie können tariflich oder nicht tariflich entlohnt sein, und es kann sogar der Fall sein, dass es sich bei der Mehrheit der Arbeitsplätze in einem Betrieb um prekäre Beschäftigungsverhältnisse handelt. Ich finde, aufgrund der Sozialbindung des Eigentums müssten diese Aspekte rechtsverbindlich und tariflich geregelt werden.</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u52" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg86">Frau Kollegin, Folgendes ist vorgesehen: Die Entlastung von der Steuer auf den Wert des begünstigten Vermögens ist nur dann gerechtfertigt, wenn die Betriebe bzw. Betriebsteile in einem nach dem Gesamtbild der wirtschaftlichen Verhältnisse vergleichbaren Umfang über zehn Jahre fortgeführt werden. Vorbild ist, wie ich Ihnen schon sagte, eine Regelung aus dem Umwandlungssteuergesetz.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg87">Bei der Beurteilung der Frage, ob es sich um eine tatsächliche Unternehmensfortführung handelt, orientiert man sich an folgenden Größen: dem Umsatz, dem Auftragsvolumen, dem Betriebsvermögen bzw. dem Aktivvermögen und der Zahl der Arbeitnehmer. Weichen diese Merkmale in der Gesamtschau von den Ausgangsgrößen zum Erwerbszeitpunkt in wesentlichem Umfang nach unten ab, wird die noch nicht erloschene Steuer insgesamt fällig. Eine Differenzierung nach dem Status der Arbeitnehmer ist nicht vorgesehen.</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Höll (DIE LINKE):</note>
+        <u who="#Q807478" xml:id="ParlaMint-DE_2006-10-25-16-059.u53" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg88">Danke.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u54" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg89">Gibt es Fragen zu anderen Themen der heutigen Kabinettssitzung? - Das ist nicht der Fall. Gibt es eventuell Fragen, die über die Themenbereiche der heutigen Kabinettssitzung hinausgehen? - Wenn auch das nicht der Fall ist, dann beende ich die Befragung der Bundesregierung.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg90">Ich rufe Tagesordnungspunkt 3 auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg91">Fragestunde</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg92">- Drucksache 16/3052 -</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg93">Wir beginnen mit dem Geschäftsbereich des Bundesministeriums für Arbeit und Soziales. Die Frage 1 der Abgeordneten Sevim Dagdelen wird schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg94">Ich rufe den Geschäftsbereich des Bundesministeriums der Justiz auf. Die Fragen 2 und 3 der Abgeordneten Bärbel Höhn werden ebenfalls schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg95">Wir kommen zum Geschäftsbereich des Bundesministeriums der Finanzen. Ich rufe die Frage 4 der Abgeordneten Christine Scheel, Bündnis 90/Die Grünen, auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg96">Welche Konsequenzen zieht die Bundesregierung aus der Aufforderung des Bundesverfassungsgerichts, das geltende Finanzausgleichsinstrumentarium zu reformieren, und welche Ziele verfolgt der Bund bei der Reform der Bund-Länder-Finanzbeziehungen im Rahmen der zweiten Stufe der Föderalismusreform?</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg97">Zur Beantwortung steht wiederum die Parlamentarische Staatssekretärin Dr. Barbara Hendricks zur Verfügung.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="2" ana="#DE-question_time">
+        <head>Fragestunde</head>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u55" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg98">Frau Kollegin Scheel, das Bundesverfassungsgericht hat in seinem Urteil zur Haushaltsnotlage Berlins festgestellt, dass Sonderbedarfsbundesergänzungszuweisungen zum Zwecke der Sanierung eines Not leidenden Landes durch die Vorgaben des Grundgesetzes einem strengen Ultima-Ratio-Prinzip unterliegen und nur im Falle eines nicht anders abwendbaren bundesstaatlichen Notstandes in Betracht kommen. Damit ist das geltende Finanzausgleichssystem nicht infrage gestellt worden. In der Ausgestaltung der Finanzbeziehungen fehle es allerdings, so das Gericht, an verfahrensrechtlich wie auch inhaltlich handlungsleitenden Regelungen zum Umgang mit potenziellen und aktuellen Sanierungsfällen im Bundesstaat.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg99">Die Bundesregierung wird dieses Urteil gründlich analysieren und den sich daraus ergebenden Handlungsbedarf, die Staatsverschuldung zu begrenzen und Haushaltsnotlagen zu vermeiden, im Rahmen der anstehenden Beratungen über die Reform der Bund-Länder-Finanzbeziehungen mit den Ländern erörtern. Das Urteil ist insoweit vertieft zu analysieren. Die Begrenzung der öffentlichen Verschuldung ist ein vorrangiges Ziel der zweiten Stufe der Föderalismusreform.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u56" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg100">Sie haben Nachfragen?</seg>
+        </u>
+        <note type="speaker">Christine Scheel (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q103518" xml:id="ParlaMint-DE_2006-10-25-16-059.u57" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg101">Danke schön, Frau Präsidentin. - Frau Staatssekretärin, danke erst einmal für die Beantwortung. In ihrer gestrigen Kabinettssitzung hat die Bayerische Staatsregierung ein Dreipunkteprogramm verabschiedet. Es würde mich interessieren, inwieweit die Bundesregierung die zentralen Forderungen, vor allen Dingen die nach einem nationalen Stabilitätspakt, auch versehen mit Sanktionen, einschätzt. Halten Sie es für sinnvoll, Schuldenobergrenzen für alle Länder einzuführen, wie es das zweite größere Petitum der Bayerischen Staatsregierung ist?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u58" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg102">Die Vorschläge, die die Bayerische Staatsregierung in die gemeinsamen Verhandlungen über die zweite Stufe der Föderalismusreform einbringen wird, sind für die Bundesregierung natürlich von hohem Interesse. Allerdings hat sich die Bundesregierung noch keine abschließende Meinung gebildet. Jeder Vorschlag muss in Bundestag und Bundesrat mehrheitsfähig sein. Deswegen will ich hier noch nicht abschließend Stellung nehmen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u59" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg103">Sie haben die Möglichkeit, eine zweite Nachfrage zu stellen.</seg>
+        </u>
+        <note type="speaker">Christine Scheel (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q103518" xml:id="ParlaMint-DE_2006-10-25-16-059.u60" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg104">Danke schön, Frau Präsidentin. - Aus Hessen, von Roland Koch, gibt es den Vorschlag, den Ländern durch eine Heiratsprämie einen Anreiz zu bieten, zu fusionieren. Was halten Sie denn davon?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u61" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg105">Auch dieses wird im Rahmen der Debatte über die zweite Stufe der Föderalismusreform zu erörtern sein.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u62" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg106">Da ich nicht sehe, dass weitere Kollegen dazu eine Nachfrage haben, rufe ich die Frage 5 der Kollegin Scheel auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg107">Ist der Bund bereit, mithilfe von Verschuldungsgrenzen oder einer Schuldenbremse die ungebremste Schuldenaufnahme der Länder zu begrenzen und damit zu einer Stabilisierung der Finanzbeziehungen von Bund und Ländern beizutragen?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u63" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg108">Die Vermeidung übermäßiger Defizite ist nach der Entscheidung des Bundesverfassungsgerichts Sache der Länder. Es ist ganz klar geworden: Jedes Land ist für die Folgen einer expansiven Verschuldungspolitik grundsätzlich selbst verantwortlich. Der Bund ist selbstverständlich bereit, sich gemeinsam mit den Ländern in den Beratungen über die zweite Stufe der Föderalismusreform auf Instrumentarien zu verständigen, die zur Lösung der Verschuldungsproblematik beitragen können.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u64" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg109">Dazu gibt es Nachfragen. Bitte.</seg>
+        </u>
+        <note type="speaker">Kerstin Andreae (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q95185" xml:id="ParlaMint-DE_2006-10-25-16-059.u65" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg110">Frau Staatssekretärin, hält es die Bundesregierung für richtig, den Finanzplanungsrat in einen Stabilitätsrat zu verwandeln mit der Möglichkeit, Entscheidungen mit qualifizierter Mehrheit zu fällen?</seg>
+        </u>
+        <note type="speaker">Dr. Barbara Hendricks, Parl. Staatssekretärin beim Bundesminister der Finanzen:</note>
+        <u who="#Q97332" xml:id="ParlaMint-DE_2006-10-25-16-059.u66" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg111">Dies ist ein mögliches gemeinschaftliches Instrumentarium von Bund und Ländern auf der Basis eines Bundesgesetzes. Letzteres ist wohl nicht zu bestreiten. Rein schematische, rein zahlenmäßige Ableitungen wird es nicht geben können. Es ist durchaus möglich, den Finanzplanungsrat in seiner Zuständigkeit aufzuwerten. Aber auch dies wird Gegenstand des Verfahrens sein, welches vor uns liegt.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u67" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg112">Weitere Nachfragen? - Das ist nicht der Fall.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg113">Wir kommen zum Geschäftsbereich des Bundesministeriums für Wirtschaft und Technologie.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg114">Die Fragen 6 und 7 des Abgeordneten Dr. Ilja Seifert der Fraktion Die Linke werden schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg115">Ich rufe den Geschäftsbereich des Bundesministeriums für Ernährung, Landwirtschaft und Verbraucherschutz auf.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg116">Die Frage 8 der Abgeordneten Ulrike Höfken, Fraktion des Bündnisses 90/Die Grünen, wird ebenfalls schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg117">Wir kommen zum Geschäftsbereich des Bundesministeriums für Verkehr, Bau und Stadtentwicklung.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg118">Die Frage 9 der Abgeordneten Dr. Gesine Lötzsch, Fraktion Die Linke, wird schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg119">Damit kommen wir zum Geschäftsbereich des Bundesministeriums für Bildung und Forschung.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg120">Die Frage 10 der Abgeordneten Krista Sager wird gemäß Nr. 2 Abs. 2 der Richtlinien für die Fragestunde schriftlich beantwortet, weil das Thema, um das es hier geht, aufgrund der Tagesordnung des Bundestages in dieser Sitzungswoche noch behandelt wird.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg121">Damit kommen wir zum Geschäftsbereich des Auswärtigen Amtes.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg122">Die Fragen 11 und 12 der Abgeordneten Dr. Uschi Eid, Bündnis 90/Die Grünen, werden schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg123">Mit den Fragen 13 und 14 des Abgeordneten Rainder Steenblock wird verfahren, wie in der Geschäftsordnung vorgesehen, da er nicht anwesend ist.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg124">Ich rufe die Frage 15 des Abgeordneten Jürgen Trittin auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg125">Wann wird dem Deutschen Bundestag das Programm der deutschen Ratspräsidentschaft vorgelegt werden?</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg126">Zur Beantwortung steht der Staatsminister Günter Gloser zur Verfügung.</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u68" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg127">Sehr geehrter Herr Kollege Trittin, das Arbeitsprogramm der deutschen EU-Ratspräsidentschaft wird dem Deutschen Bundestag nach Billigung durch das Bundeskabinett vorgelegt werden, welche voraussichtlich Ende November erfolgen wird.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u69" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg128">Ihre Nachfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Jürgen Trittin (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q11762" xml:id="ParlaMint-DE_2006-10-25-16-059.u70" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg129">Herr Staatsminister, ist es zutreffend, dass die beiden Koalitionsfraktionen schon über diese Präsidentschaftsprogrammatik unterrichtet worden sind? Falls ja: Wie vereinbaren Sie diese Praxis mit den Regelungen, die wir in der gemeinsamen Vereinbarung zwischen dem Bundestag und der Bundesregierung getroffen haben, mit der darauf abgezielt wird, in Fragen, die die Europäische Union betreffen, möglichst frühzeitig zusammenarbeiten?</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u71" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg130">Sehr geehrter Herr Kollege Trittin, der Deutsche Bundestag ist bereits vor einigen Wochen über die Schwerpunkte der deutschen EU-Präsidentschaft unterrichtet worden.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg131">Darüber hinaus hält sich die Bundesregierung an die getroffene Vereinbarung. Zum Beispiel wurde vor wenigen Tagen das System umgestellt, sodass Dokumente - beispielsweise Drahtberichte aus Brüssel - entsprechend zugeleitet werden. Diese Dokumente enthalten zum Teil bereits Vorbereitendes auf die Präsidentschaft. Insofern ist die Information auf dieser Ebene sichergestellt.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg132">Bezüglich Ihrer Frage nach der Unterrichtung der Koalitionsfraktionen ist mir bekannt, dass vorab keine Unterrichtung stattgefunden hat. Nach der ersten Befassung des Kabinetts mit diesem Programm, nachdem es also zur Kenntnis genommen wurde, hat der Außenminister den Entwurf dem Vorsitzenden des Europaausschusses aufgrund seiner herausragenden Stellung zur vertraulichen Behandlung zugesandt.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u72" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg133">Sie haben die Möglichkeit, eine zweite Nachfrage zu stellen.</seg>
+        </u>
+        <note type="speaker">Jürgen Trittin (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q11762" xml:id="ParlaMint-DE_2006-10-25-16-059.u73" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg134">Herr Staatsminister, vor dem Hintergrund, dass Sie dieses Programm dem Kabinett schon einmal zur Kenntnis gegeben haben, was dazu führte, dass dieses in einer Reihe von Presseorganen frei zirkulierte, frage ich: Zu welchem konkreten Zeitpunkt ist denn nun mit der formellen Beschlussfassung und der anschließenden Unterrichtung des Bundestages zu rechnen?</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u74" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg135">Es ist beabsichtigt, dass das Kabinett in seiner Sitzung Ende November über dieses Arbeitsprogramm entscheidet. Sie haben angedeutet, dass dies möglicherweise nicht rechtzeitig geschieht. Ich möchte in diesem Zusammenhang darauf hinweisen - ich glaube, das hat die Bundeskanzlerin bei der Unterrichtung des Deutschen Bundestages vor kurzem auch getan -, dass eine endgültige Festlegung aus Respekt vor der laufenden finnischen Präsidentschaft und auch vor dem Hintergrund, dass sich verschiedene Arbeitsfelder noch entwickeln, noch nicht getroffen werden konnte. Insofern wurde das Arbeitsprogramm damals in der gemeinsamen Sitzung mit dem Kommissionspräsidenten Barroso nur zur Kenntnis genommen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u75" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg136">Der Kollege Steenblock hat noch eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Rainder Steenblock (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1596319" xml:id="ParlaMint-DE_2006-10-25-16-059.u76" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg137">Vielen Dank, Frau Präsidentin. - Herr Staatsminister, beziehen sich Bundestag und Bundesregierung mit den in der gemeinsamen Vereinbarung über ihre Zusammenarbeit genannten Dokumenten und Vorhaben auch auf die Berliner Erklärung? Das heißt: Wird die Bundesregierung dem Parlament die Berliner Erklärung - dies wird eine gemeinsame Erklärung der Bundesregierung, des Europäischen Parlaments und der Kommission sein - vorab zu einer weiteren Bearbeitung zuleiten?</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u77" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg138">Herr Kollege Steenblock, ich hatte schon vor, Ihnen diese Frage schriftlich zu beantworten. Aber ich gehe auch gerne mündlich auf Ihre Frage ein.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg139">Natürlich findet ab Beginn der deutschen Präsidentschaft eine sehr intensive Konsultation mit den beteiligten Mitgliedstaaten statt, voraussichtlich dann auch mit den zwei zukünftigen Mitgliedstaaten, also 27 Staaten. Im Zuge dieses Konsultationsverfahrens wird der Bundestag unterrichtet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u78" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg140">Weitere Nachfragen können Sie an dieser Stelle nicht stellen, Herr Steenblock.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg141">Ich rufe die Frage 16 des Kollegen Jürgen Trittin auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg142">Wann werden dem Deutschen Bundestag die Programme der einzelnen Ressorts zur deutschen Ratspräsidentschaft vorgelegt werden?</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg143">Vielleicht bietet sich dort ein Anknüpfungspunkt. - Herr Staatsminister, Sie haben das Wort.</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister im für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u79" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg144">In der Bundesregierung haben wir das Arbeitsprogramm zwischen den Ressorts abgestimmt. Die entsprechenden Schwerpunkte und Zielsetzungen der einzelnen Ressorts sind in diese Abstimmung mit eingeflossen. Deshalb wird es, wie vorhin schon ausgeführt, voraussichtlich Ende November zu einer einheitlichen Abstimmung über das einheitliche Arbeitsprogramm kommen. Natürlich ist es den Ressorts freigestellt, in den Ausschüssen über ihre eigenen Arbeitsschwerpunkte und Zielsetzungen zu berichten.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u80" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg145">Sie haben die Möglichkeit zur Nachfrage.</seg>
+        </u>
+        <note type="speaker">Jürgen Trittin (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q11762" xml:id="ParlaMint-DE_2006-10-25-16-059.u81" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg146">Da die Programme der einzelnen Ressorts mit ihren jeweiligen Schwerpunkten in der Ratspräsidentschaft nicht der Beschlussfassung durch das Kabinett unterliegen, und da Sie sagen, dass der Bundestag erst dann unterrichtet würde: Wie vereinbart sich diese Praxis damit, dass zum Beispiel einzelne Ressorts in Brüssel ihre Schwerpunkte in Ratsformationen schon vorgestellt haben, der Deutsche Bundestag aber noch nicht unterrichtet wurde?</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u82" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg147">Ich wiederhole: In der Bundesregierung haben wir das Arbeitsprogramm entworfen. Darin sind die einzelnen Schwerpunktsetzungen und Zielsetzungen der einzelnen Ressorts eingeflossen. Es ist üblich, dass im Vorfeld über laufende Dossiers und Gesetzgebungsverfahren, bei denen abzusehen ist, dass sie in die deutsche Präsidentschaft einmünden werden, Informationen ausgetauscht werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u83" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg148">Eine zweite Nachfrage?</seg>
+        </u>
+        <note type="speaker">Jürgen Trittin (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q11762" xml:id="ParlaMint-DE_2006-10-25-16-059.u84" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg149">Herr Staatsminister, Sie können unterstellen, dass mir die Praxis bei Ratspräsidentschaften durchaus geläufig ist. Vor diesem Hintergrund frage ich Sie noch einmal mit Nachdruck: Wie konnte es passieren, dass der Schwerpunkt für die Innenpolitik in Brüssel schon vorgestellt worden ist, der verantwortliche Minister aber heute im Europaausschuss einem Gespräch an dieser Stelle ausgewichen ist? Ist es das, was Sie unter einer vertrauensvollen Zusammenarbeit zwischen Bundestag und Bundesregierung in Fragen der Europäischen Union verstehen?</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u85" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg150">Herr Kollege Trittin, ich muss mich wiederholen. Ich habe gesagt, dass die Bundesregierung voraussichtlich am Ende des Monats November über dieses Programm entscheiden wird. Dass es im Vorfeld Sondierungsgespräche gibt, ist richtig und bleibt jedem einzelnen Ressort unbenommen. Mir ist nicht bekannt, dass sozusagen das Programm vorgestellt worden ist. Wenn ich Sie richtig interpretiere, dann ist es so, dass im Vorfeld der deutschen Präsidentschaft mit den zuständigen Bereichen über ihre Schwerpunktsetzungen Gespräche geführt worden sind, ohne aber damit eine Vorstellung des deutschen Präsidentschaftsprogramms in Verbindung zu bringen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u86" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg151">Der Kollege Steenblock hat eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Rainder Steenblock (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1596319" xml:id="ParlaMint-DE_2006-10-25-16-059.u87" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg152">Vielen Dank, Frau Präsidentin. - Herr Staatsminister, Sie haben gerade betont, dass die Berliner Erklärung während der deutschen Ratspräsidentschaft eine ganz zentrale Rolle spielen wird, und gesagt, dass der Deutsche Bundestag darüber unterrichtet wird.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg153">Meine Frage ist: Erhält der Deutsche Bundestag bei so einem wichtigen Dokument die Möglichkeit einer Stellungnahme zu einem Zeitpunkt, zu dem er dieses Dokument nicht nur abschließend bewerten, sondern in seiner Entstehung auch politisch beeinflussen kann?</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u88" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg154">Herr Kollege Steenblock, Sie wissen auch aufgrund Ihrer langjährigen Erfahrung in der Europapolitik, dass es bei manchen Erklärungen einen aufwendigen und manchmal sehr schwierigen Abstimmungsbedarf geben wird. Dem wird die Bundesregierung in ihrer Präsidentschaft nachkommen. Sie wird die Mitgliedstaaten konsultieren und in dieser Phase auch den Bundestag darüber unterrichten. Ich bitte aber um Verständnis, dass eine stärkere Beteiligung wie möglicherweise in anderen Fällen - beispielsweise bei Gesetzgebungsverfahren - bei der Erarbeitung einer gemeinsamen Erklärung schwierig wäre. Wie Sie wissen, ist die Erklärung vor dem Hintergrund der Weichenstellung am Ende der deutschen Präsidentschaft zu sehen, wie es mit der europäischen Verfassung weitergeht. Ich kann Ihnen aber versichern, dass wir Sie, den Deutschen Bundestag, durch den Konsultationsmechanismus und gegebenenfalls vertraulich über Zwischenergebnisse unterrichten können.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u89" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg155">Wir bleiben im Geschäftsbereich des Auswärtigen Amtes. Ich rufe die Frage 17 des Abgeordneten Wolfgang Gehrcke, Fraktion Die Linke, auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg156">Welche konkreten Maßnahmen hat die Bundesregierung seit ihrer im Zusammenhang mit der Bundestagsentscheidung über den Einsatz der deutschen Marine im Rahmen der UNIFIL-Mission der Vereinten Nationen getätigten Ankündigung umfangreicher diplomatischer Initiativen zur Lösung des Nahostkonfliktes, insbesondere des israelisch-palästinensischen Konfliktes, eingeleitet und im Besonderen welche Gespräche und Verhandlungen haben mit der israelischen Regierung und dem palästinensischen Präsidenten stattgefunden?</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg157">Herr Staatsminister.</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u90" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg158">Herr Kollege Gehrcke, der Bundesminister des Auswärtigen hat sich auch im Rahmen der UNIFIL-Debatte im Deutschen Bundestag für die Wiederbelebung und mögliche Erweiterung des Aufgabenbereichs des Nahostquartetts ausgesprochen. Ihnen ist sicherlich auch bekannt, dass er unmittelbar nach der Bundestagsentscheidung am Rande der Generalversammlung der Vereinten Nationen Ende September zahlreiche Gespräche geführt hat, unter anderem auch mit Vertretern der im Quartett vertretenen Parteien, wie beispielsweise mit dem Generalsekretär der Vereinten Nationen, Herrn Kofi Annan, und dem russischen Außenminister. In diesen Gesprächen kam die bereits in der Quartetterklärung vom 20. September dieses Jahres geäußerte Bereitschaft zum Ausdruck, über eine Erweiterung des Aufgabenbereichs nachzudenken.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg159">Die Bundesregierung steht in ihrem Bemühen um eine einvernehmliche Lösung für den Nahostkonflikt darüber hinaus in regelmäßigem intensiven Kontakt mit den Regierungen der Länder in dieser Region und insbesondere auch mit den Konfliktparteien.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u91" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg160">Sie haben eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Wolfgang Gehrcke (DIE LINKE):</note>
+        <u who="#Q99456" xml:id="ParlaMint-DE_2006-10-25-16-059.u92" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg161">Danke sehr, Frau Präsidentin. - Ich habe sogar zwei Nachfragen. Können Sie mir in diesem Zusammenhang erklären, Herr Staatsminister, welche Bedeutung die Bundesregierung dem Bemühen des palästinensischen Präsidenten Abbas beimisst, im Wege eines Dialoges mit der Hamas eine Koalitionsregierung in Palästina zustande zu bringen, die auf der Grundlage des Gewaltverzichts und der Zweistaatenlösung - das heißt die Anerkennung Israels und der Verträge - zu einem verlässlichen Partner werden würde?</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u93" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg162">Ausgangspunkt der Diskussion nicht nur in der Europäischen Union, sondern auch im Quartett war bekanntlich, dass wir von einer gewählten palästinensischen Regierung erwarten, dass sie drei wesentliche Elemente anerkennt, nämlich das Existenzrecht des Staates Israel, das Eintreten in die Roadmap und in alle bisher getroffenen Vereinbarungen und den Gewaltverzicht. Wenn das durch beiderseitige Gespräche gerade der Konfliktparteien erfolgt, dann unterstützen wir dies.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u94" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg163">Ihre zweite Nachfrage.</seg>
+        </u>
+        <note type="speaker">Wolfgang Gehrcke (DIE LINKE):</note>
+        <u who="#Q99456" xml:id="ParlaMint-DE_2006-10-25-16-059.u95" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg164">Wenn ich Sie richtig verstanden habe, dann sind Sie für diesen Dialog. Können Sie mir in diesem Zusammenhang erklären, warum das Auswärtige Amt die Einreise einer Parlamentskollegin aus Palästina, die der Volksfront zur Befreiung Palästinas angehört, und des Regierungssprechers der Hamas, der allgemein als moderat gilt, zu einer Nahostkonferenz, die meine Fraktion veranstaltet und an der zahlreiche Gäste aus Israel, Palästina und aus verschiedenen europäischen Parlamenten teilnehmen, abgelehnt hat, obwohl wir die Absicht haben, die Bemühungen von Präsident Abbas zu unterstützen?</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u96" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg165">Wenn ich Ihre Fragen richtig verstanden habe, dann ging es darum, welche diplomatischen Bemühungen die Bundesregierung im Zusammenhang mit dem Nahostquartett unternimmt, die möglichen Dialoge der Konfliktparteien auf der staatlichen Ebene zu forcieren. Darauf habe ich bereits geantwortet. Ich glaube, es ist nicht Gegenstand meiner Antwort auf Ihre Fragen, auf eine Veranstaltung, die in Deutschland stattfindet, einzugehen.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg166">Im Übrigen weise ich darauf hin, dass sich die Bundesregierung genauso wie andere Regierungen an die Vereinbarungen der Europäischen Union gebunden fühlt, Repräsentanten der Hamas kein Visum auszustellen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u97" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg167">Der Kollege Paech hat noch eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Norman Paech (DIE LINKE):</note>
+        <u who="#Q98511" xml:id="ParlaMint-DE_2006-10-25-16-059.u98" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg168">Herr Staatsminister, darf ich dazu eine Nachfrage stellen? - Es geht um eine Konferenz, die keinen offiziellen Charakter hat. Sie wird von der Rosa-Luxemburg-Stiftung, aber auch mit unserer Beteiligung durchgeführt. Sie soll ermöglichen, dass Israelis und Palästinenser fern von ihrem umstrittenen Territorium einen Dialog führen. Können Sie inhaltlich begründen, warum Sie nur den Mitgliedern der palästinensischen Seite die Einreise verwehren?</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u99" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg169">Herr Kollege Paech, ich möchte auf meine vorhin gegebene Antwort zurückkommen. Die Ausgangsfrage ist, welche Initiativen die Bundesregierung nach der Entscheidung des Deutschen Bundestages hinsichtlich der Lösung des Nahostkonflikts unternimmt. Darauf habe ich bereits geantwortet. Ich glaube, was Sie ansprechen, betrifft einen ganz anderen Themenkreis.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Norman Paech [DIE LINKE]: Habe ich noch eine Nachfrage?</desc>
+        </vocal>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u100" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg170">Es tut mir Leid, aber weitere Nachfragen sind nicht möglich.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg171">Ich rufe die Frage 18 des Abgeordneten Omid Nouripour von der Fraktion des Bündnisses 90/Die Grünen auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg172">Wird die Bundesregierung, wie die "Süddeutsche Zeitung" berichtete, der laut Artikel das deutsche Ratspräsidentschaftsprogramm vorliegt (Ausgabe vom 11. Oktober 2006, Seite 8), während der deutschen EU-Ratspräsidentschaft einen Schwerpunkt auf wirtschafts- und sozialpolitische Themen setzen und, wenn ja, wann wird sie den Deutschen Bundestag über die Ausgestaltung dieses Schwerpunkts unterrichten?</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u101" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg173">Sehr geehrter Herr Kollege, ohne auf das abgestimmte Programm eingehen zu können, wie ich vorhin beim Kollegen Trittin und beim Kollegen Steenblock ausgeführt habe, hat die Diskussion deutlich gemacht, dass Themen wie Wirtschaft und Nachhaltigkeit sowie Fragen nach der sozialen Dimension natürlich eine Rolle spielen werden. Das zeigen bereits die Räte, die in der Vergangenheit stattgefunden haben. Die Diskussion, die im Deutschen Bundestag, aber auch in anderen Ländern geführt wurde, verdeutlicht, dass die Vollendung des Binnenmarktes als ein Schwerpunkt anzusehen ist. Da-rüber hinaus ist es genauso wichtig, auf Fragen nach Innovation und Forschung einzugehen wie auf Fragen nach der sozialen Dimension der Europäischen Union. Das hat bereits der Abstimmungsprozess innerhalb der Bundesregierung im Vorfeld verdeutlicht. Ich gehe daher davon aus, dass die Frage nach der sozialen Dimension ein wichtiger Punkt des Arbeitsprogramms sein wird. Ich erinnere in diesem Zusammenhang an die breite Diskussion über eine andere Gesetzesinitiative auf europäischer Ebene: die Dienstleistungsrichtlinie. Dabei wurde deutlich, dass es sinnvoll ist, nicht nur die Konsequenzen für die Unternehmen und die finanziellen Auswirkungen, sondern auch die sozialen Folgen einer Gesetzesinitiative zu berücksichtigen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u102" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg174">Der Abgeordnete Trittin hat eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Jürgen Trittin (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q11762" xml:id="ParlaMint-DE_2006-10-25-16-059.u103" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg175">Herr Staatsminister, da Sie darauf hingewiesen haben, dass die endgültige Beschlussfassung zu dem in Rede stehenden Arbeitsprogramm erst Ende November erfolgt, dass wir uns also in einer vergleichsweise offenen Situation befinden: Wie gedenkt die Bundesregierung mit der gestern in der Britischen Botschaft durch die britische Außenministerin erfolgten Aufforderung umzugehen, dass die Bundesrepublik Deutschland ihre Präsidentschaft in der EU und im Rahmen der G 8 nutzen sollte, um zu einem Neuanfang und zu verstärkten Bemühungen im Bereich des weltweiten Klimaschutzes zu kommen, weil dies die zentrale Herausforderung für die Sicherheit und den Frieden weltweit sei?</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u104" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg176">Herr Kollege Trittin, ich stimme Ihnen zu, was die Bedeutung dieses Themas angeht. Ich bin der Auffassung, dass verschiedene Aspekte im Rahmen sowohl der EU-Präsidentschaft als auch des G-8-Programms aufgegriffen werden. Ein Beispiel ist - das war bereits Gegenstand einer ersten Unterrichtung des Deutschen Bundestages - das Thema Energie. Dabei geht es nicht nur um Außenbeziehungen, sondern auch um Fragen nach der Energieeffizienz; denn wir wissen, dass bei Energieverschwendung viele Prozesse ablaufen, die die Umwelt schädigen. Darüber hinaus wissen wir um die enormen Auswirkungen des Klimawandels. Ich denke, das wird aufgrund von Impulsen, die in den letzten Wochen gegeben wurden, im Rahmen der Präsidentschaft aufgegriffen werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u105" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg177">Der Kollege Steenblock hat noch eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Rainder Steenblock (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1596319" xml:id="ParlaMint-DE_2006-10-25-16-059.u106" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg178">Herr Staatsminister, wie beurteilen Sie angesichts der zentralen Bedeutung des Energiethemas die Ergebnisse des Lahtigipfels und das Verhalten des russischen Präsidenten dort?</seg>
+        </u>
+        <note type="speaker">Günter Gloser, Staatsminister für Europa:</note>
+        <u who="#Q97674" xml:id="ParlaMint-DE_2006-10-25-16-059.u107" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg179">Sie wissen, Kollege Steenblock, dass das ein informelles Treffen war. Es diente in der Tat dem Austausch von verschiedenen Meinungen. Daneben ging es allerdings auch um das wichtige Thema der Energieaußenbeziehungen. Dazu gehört umgekehrt, als ein Energieabnehmer in der Europäischen Union darzulegen, welche Technologie wir anbieten können, um Energieeffizienz bei der Förderung von Energien sicherzustellen. Der Dialog ist noch nicht zu Ende. Ich glaube, dass das Thema gerade vor dem Hintergrund des zu erarbeitenden Aktionsplans Energie für den Frühjahrsgipfel im März wichtig bleibt.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u108" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg180">Herzlichen Dank, Herr Staatsminister. Die Fragen zu Ihrem Geschäftsbereich sind damit erschöpft.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg181">Ich rufe den Geschäftsbereich des Bundesministeriums des Innern auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Peter Altmaier zur Verfügung.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg182">Ich rufe die Frage 19 des Kollegen Omid Nouripour auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg183">Wann wird der Bundesminister des Innern, Dr. Wolfgang Schäuble, die per Pressemitteilung vom 2. Oktober 2006 bekannt gemachten verabredeten Schwerpunkte des gemeinsamen EU-Präsidentschaftsprogramms der Innenminister von Deutschland, Portugal und Slowenien für den Zeitraum 1. Januar 2007 bis 30. Juni 2008 in den zuständigen Ausschüssen des Deutschen Bundestages vorstellen?</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-10-25-16-059.u109" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg184">Sehr geehrter Herr Kollege, nach dem derzeitigen Stand der Planung ist es so, dass Bundesminister Schäuble den Innenausschuss des Deutschen Bundestages am 8. November 2006 und den Europaausschuss des Deutschen Bundestages am 17. Januar 2007 über die innenpolitischen Schwerpunkte der EU-Ratspräsidentschaft informieren wird. Wir werden in diesem Zusammenhang auch über die betroffenen Aspekte des gemeinsamen Programms mit Portugal und Slowenien informieren.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u110" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg185">Ihre erste Nachfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Omid Nouripour (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q71635" xml:id="ParlaMint-DE_2006-10-25-16-059.u111" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg186">Herr Staatssekretär Altmaier, hält die Bundesregierung es vor dem Hintergrund der Vereinbarung, die dieses Haus einstimmig getroffen hat, nämlich dass der Deutsche Bundestag besser von der Bundesregierung unterrichtet wird, eigentlich für angemessen, dass der Europaauschuss über vier Monate später als die Obleute des LIBE-Ausschusses im Europäischen Parlament unterrichtet wird? Ihr Haus hat uns bestätigt, dass dort am 14. September eine Unterrichtung mit dem Bundesinnenminister stattgefunden hat.</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-10-25-16-059.u112" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg187">Die Unterrichtungen der Ausschüsse erfolgen in Absprache mit den jeweiligen Ausschüssen. Es gab vonseiten des Bundesinnenministers den Wunsch, mit den Abgeordneten im Europäischen Parlament möglichst frühzeitig zusammenzukommen. Dabei hat es allerdings keine Unterrichtung über das Präsidentschaftsprogramm im eigentlichen Sinne gegeben, weil dieses zum damaligen Zeitpunkt noch nicht beschlossen war. Es handelte sich vielmehr darum, einen möglichst frühzeitigen Meinungsaustausch zu organisieren, um die Vorstellungen des Europäischen Parlaments in die Arbeit einbeziehen zu können und für deutsche Vorstellungen zu werben.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u113" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg188">Ihre zweite Nachfrage.</seg>
+        </u>
+        <note type="speaker">Omid Nouripour (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q71635" xml:id="ParlaMint-DE_2006-10-25-16-059.u114" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg189">Wenn ich Ihren Vorredner richtig verstanden habe, geht es auch darum, dass dieses Hohe Haus die Möglichkeit bekommen soll, Einfluss auf das Programm der EU-Ratspräsidentschaft zu nehmen. Wie stellt sich die Bundesregierung eine solche Einflussnahme vor, wenn wir erst am 17. Januar, also nachdem die Ratspräsidentschaft bereits begonnen hat, über das Programm im Bereich Innenpolitik unterrichtet werden?</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-10-25-16-059.u115" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg190">Das Bundesministerium des Innern unterrichtet sowohl den Innenausschuss des Deutschen Bundestages als auch den Europaausschuss regelmäßig und sehr umfassend im Vorhinein und im Nachhinein über die Debatten, die bei Ministerratssitzungen in Brüssel stattfinden. In der Zwischenzeit informieren wir auch über wichtige Debatten, die im Rahmen des Ausschusses der ständigen Vertreter und der jeweiligen Ratsarbeitsgruppen stattfinden. Wir haben dann jeweils die Möglichkeit, die in diesen Ausschüssen und im Deutschen Bundestag gemachten Anregungen in die Ausgestaltungen des jeweiligen Präsidentschaftsprogramms einfließen zu lassen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u116" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg191">Weitere Nachfragen liegen nicht vor.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg192">Die Frage 20 des Abgeordneten Hans-Christian Ströbele, die Frage 21 der Kollegin Gesine Lötzsch, die Frage 22 des Abgeordneten Hartfrid Wolff und die Frage 23 der Kollegin Sevim Dagdelen werden schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg193">Ich rufe die Frage 24 des Kollegen Volker Beck (Köln) auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg194">In welchen Bundesministerien und nachgeordneten Bundesbehörden werden Mitarbeiterinnen und Mitarbeiter aus Verbänden, Wirtschaftsunternehmen und überwiegend im Bundesbesitz befindlichen Gesellschaften beschäftigt?</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-10-25-16-059.u117" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg195">Herr Beck, ich möchte die Fragen 24 und 25 zusammen beantworten. Sind Sie damit einverstanden?</seg>
+        </u>
+        <note type="speaker">Volker Beck (Köln) (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q57322" xml:id="ParlaMint-DE_2006-10-25-16-059.u118" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg196">Ja.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u119" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg197">Dann rufe ich auch die Frage 25 des Abgeordneten Volker Beck (Köln) auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg198">Um welche Stellen - Planstellen, Besoldungsstellen und andere - und Bereiche handelt es sich und von wem werden sie - bitte nach Bundesministerien und Einrichtungen aufschlüsseln - vergütet?</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-10-25-16-059.u120" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg199">Herr Kollege Beck, soweit Sie sich auf Planstellen beziehen, möchte ich Ihnen mitteilen, dass auf Planstellen Mitarbeiterinnen und Mitarbeiter geführt werden, die dauerhaft in Bundesministerien oder nachgeordneten Behörden beschäftigt sind. Sie werden in der Regel im Eingangsamt verbeamtet oder eingestellt. Bei einer längeren beruflichen Erfahrung ist auch eine Einstellung in einem höheren Amt als Entgeltgruppe 13 möglich. Statistiken über diese Beamten liegen uns nicht vor. Sie wissen, dass es Politik der Bundesregierung ist, Verwaltungsaufwand zu reduzieren. Wir haben uns den Abbau überflüssiger Bürokratie zum Ziel gesetzt. Deshalb kann ich Ihnen zu diesem Punkt keine näheren Angaben machen.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg200">Ich kann aber hinzufügen, dass berufliche Erfahrungen im Einstellungsverfahren grundsätzlich positiv bewertet werden. Dazu gehören dann auch Tätigkeiten aus dem Bereich der Wirtschaft. Die zunehmende Komplexität der ministeriellen Aufgaben erfordert es, dass in vielen Bereichen auch Beschäftigte mit Kenntnissen eingestellt werden, die über Wissen und Berufserfahrungen von außerhalb des öffentlichen Dienstes verfügen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u121" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg201">Ihre erste Nachfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Volker Beck (Köln) (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q57322" xml:id="ParlaMint-DE_2006-10-25-16-059.u122" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg202">Ich nehme zunächst einmal zur Kenntnis, dass Sie die Fragen nicht beantwortet haben: Wir haben nach Mitarbeitern gefragt, die nicht vom Steuerzahler, sondern von ihren entsendenden Verbänden und Unternehmen bezahlt werden. Da kann es schlechterdings nicht um Personen gehen, die von Ihnen eine Vergütung bekommen. Sie haben einfach völlig neben der Sache geantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg203">Ich will ganz konkret wissen - mich interessiert keine Statistik -, in welchen Ministerien, in welchen Abteilungen es Mitarbeiter gibt, die nicht vom Staat für ihre Tätigkeit bezahlt werden, sondern von externen Unternehmen, Verbänden und dergleichen mehr. Es gab letzte Woche einen "Monitor"-Bericht, der verschiedene Fälle bekannt gemacht hat. Wir wollen wissen, in welchen Häusern, in welchen Abteilungen es sie gibt. Das geht aus der Frage unzweideutig hervor. Deshalb bitte ich Sie noch einmal um Beantwortung der Fragen.</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-10-25-16-059.u123" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg204">Ich kann diese Frage für das Bundesinnenministerium beantworten: Derzeit sind bei uns keine Mitarbeiterinnen und Mitarbeiter aus Verbänden, Wirtschaftsunternehmen oder überwiegend im Bundesbesitz befindlichen Gesellschaften mit einem Zeitvertrag oder als interne Berater tätig. Für die übrigen Ressorts wird dies in jeweils eigener Verantwortung geregelt. Wenn Sie dies wünschen, werden wir das gerne schriftlich konkretisieren.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg205">Nur weil Sie das in der Frage angesprochen haben, darf ich darauf hinweisen, dass Mitarbeiterinnen und Mitarbeiter, die für die Bundesregierung tätig sind, für diese Tätigkeit auch von der Bundesregierung bezahlt werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u124" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg206">Ihre nächste Nachfrage, bitte.</seg>
+        </u>
+        <note type="speaker">Volker Beck (Köln) (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q57322" xml:id="ParlaMint-DE_2006-10-25-16-059.u125" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg207">Ich habe diese Frage nicht dem Innenministerium gestellt, sondern der Bundesregierung. Es ist Ihre freie Entscheidung, diese Frage durch einen Vertreter des Innenministeriums zu beantworten. Das Bundeskanzleramt ist ja ebenfalls vertreten. Vielleicht kann uns das Bundeskanzleramt dazu Auskunft geben, unter welchen Bedingungen Mitarbeiter, die nicht vom Steuerzahler bezahlt werden, sondern von ihren entsendenden Verbänden, in Ministerien der Bundesregierung oder im Bundeskanzleramt beschäftigt werden und wie in solchen Fällen - ich will das gar nicht rundweg verurteilen - die Neutralität ihrer Arbeit und die Transparenz ihrer Arbeitsbedingungen sowohl verwaltungsintern als auch öffentlich gewährleistet werden.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u126" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg208">Die Bundesregierung entscheidet, wer antwortet. - Herr Staatssekretär Altmaier, bitte.</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-10-25-16-059.u127" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg209">Herr Kollege Beck, ich darf noch einmal sagen, dass alle Mitarbeiter der Bundesregierung für die Tätigkeit, die sie für die Bundesregierung verrichten, auch von der Bundesregierung bezahlt werden. Auf die Fälle, über die in der Sendung "Monitor" berichtet wurde, haben Sie sich in den eingereichten Fragen nicht bezogen; erst soeben haben Sie dies erwähnt. Wir sind aber gerne bereit, Ihnen auf diese Zusatzfrage schriftlich zu antworten.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u128" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg210">Herr Beck, Sie dürfen Ihre dritte Nachfrage stellen.</seg>
+        </u>
+        <note type="speaker">Volker Beck (Köln) (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q57322" xml:id="ParlaMint-DE_2006-10-25-16-059.u129" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg211">"Monitor" berichtet ausweislich des schriftlichen Sendeprotokolls davon, dass ein Mitarbeiter der Betreibergesellschaft Fraport AG im Bundesverkehrsministerium beschäftigt ist, und zwar seit September 2001, und dass er auch von der Fraport AG bezahlt wird. Wenn Ihre Aussage von vorhin richtig ist, müsste es Ihnen leicht fallen, festzustellen, dass diese Aussage nur falsch sein kann. Ist dem so? Wie können Sie uns darüber aufklären, dass "Monitor" hier falsch recherchiert hat?</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-10-25-16-059.u130" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg212">Ihre Frage, Herr Kollege, unterstellt, dass die Aussage von "Monitor" richtig ist. Wir werden dem nachgehen und werden Sie darüber in den nächsten Tagen schriftlich informieren.</seg>
+        </u>
+        <note type="speaker">Volker Beck (Köln) (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q57322" xml:id="ParlaMint-DE_2006-10-25-16-059.u131" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg213">Können Sie uns in diesem Zusammenhang vielleicht auch darüber Auskunft geben, ob Informationen des Inhalts richtig sind, dass eine Mitarbeiterin - hier ist sie namentlich genannt: Susann Vollrath - gegenwärtig in einer Doppelfunktion tätig ist, nämlich vier Tage für den Hauptverband der Deutschen Bauindustrie und am fünften Tag in dem entsprechenden Bundesministerium, wo sie für die Arbeitsgruppe "Public Private Partnership" zuständig ist, und diese Mitarbeiterin - das finde ich besonders elegant gelöst - von Herrn Heiko Stiepelmann im Hauptverband der Deutschen Bauindustrie deshalb auch besonders hervorgehoben wird -</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u132" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg214">Kollege Beck, ich bin ein geduldiger Mensch, aber ich muss sagen: Versuchen Sie, die Frage zu Ende zu bringen.</seg>
+        </u>
+        <note type="speaker">Volker Beck (Köln) (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q57322" xml:id="ParlaMint-DE_2006-10-25-16-059.u133" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg215">- ja -, der das als Dienstherr an vier Tagen in der Woche wie folgt bewertet: "Früher waren wir über Anhörungen in die Entscheidungsvorbereitungen eingebunden. Das war oft zu spät. Heute sind wir sehr viel früher beteiligt an der Entwicklung von Maßnahmen im Bereich von Public Private Partnership. Das ist für uns ein wesentlich effizienterer Ansatz. Wir haben einen Arbeitsvertrag mit dem Ministerium. Die Mitarbeiterin arbeitet im Interesse der Bundesrepublik Deutschland."?</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg216">Wie verhält es sich im Fall von Frau Vollrath und in wie vielen Fällen gibt es diese Art von seltsamen Jobsharing noch?</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-10-25-16-059.u134" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg217">Herr Kollege Beck, nachdem nunmehr klar geworden ist, worauf sich Ihre Frage bezieht - im Text der Frage war weder von Frau Vollrath noch von anderen konkreten Personen die Rede -, werden wir uns bemühen, darauf in angemessener Zeit eine Antwort zu geben.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u135" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg218">Die Kollegin Dückert hat noch eine Nachfrage.</seg>
+        </u>
+        <note type="speaker">Dr. Thea Dückert (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1423477" xml:id="ParlaMint-DE_2006-10-25-16-059.u136" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg219">Herr Staatssekretär, können Sie die Antwort des Presse- und Informationsamts der Bundesregierung vom 1. August 2006, gezeichnet von Rüdiger Petz, Chef vom Dienst, bestätigen, der in "Monitor" auf Anfrage gesagt hat, dass entsprechende Beschäftigte aus Unternehmen im Bundesumweltministerium, im Bundesministerium für Verkehr, Bau und Stadtentwicklung, im Ministerium für Ernährung, Landwirtschaft und Verbraucherschutz und im Bundesministerium für Arbeit und Soziales in der Tat tätig sind und dass diese Personen von den entsendenden Unternehmen oder Verbänden bezahlt werden?</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-10-25-16-059.u137" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg220">Wenn ein Sprecher der Bundesregierung die Frage in dieser Weise beantwortet hat, habe ich keinen Grund, daran zu zweifeln. Da mir dieser Text im Augenblick aber nicht vorliegt, bitte ich um Verständnis dafür, dass ich ihn nicht kommentieren kann.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u138" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg221">Kollegin Dückert, wir halten fest: Das war eine Nachfrage zur Beantwortung der Frage 24. Jetzt stellen Sie eine Nachfrage zur Beantwortung der Frage 25.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Dr. Uwe Küster [SPD]: Sie sind hilfreich, Frau Präsidentin!</desc>
+        </vocal>
+        <note type="speaker">Dr. Thea Dückert (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1423477" xml:id="ParlaMint-DE_2006-10-25-16-059.u139" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg222">Herr Staatssekretär, können Sie für die Bundesregierung die Richtigkeit der Antwort auf eine Kleine Anfrage aus diesem Hause bestätigen, in der aufgelistet wird, dass im Bundesministerium für Verkehr, Bau und Stadtentwicklung Mitarbeiter der Deutschen Flugsicherung AG, ein Mitarbeiter der KfW, ein Mitarbeiter des Deutschen Aero Club, ein Mitarbeiter von Fraport und ein Mitarbeiter der Flughafen Köln/Bonn GmbH beschäftigt sind?</seg>
+        </u>
+        <note type="speaker">Peter Altmaier, Parl. Staatssekretär beim Bundesminister des Innern:</note>
+        <u who="#Q65539" xml:id="ParlaMint-DE_2006-10-25-16-059.u140" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg223">Ich habe keinen Anlass, an der inhaltlichen Richtigkeit von Antworten der Bundesregierung zu zweifeln.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Volker Beck [Köln] [BÜNDNIS 90/DIE GRÜNEN]: Dann war Ihre Antwort vorhin falsch!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u141" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg224">Danke, Herr Staatssekretär.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg225">Wir kommen nun zum Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und Reaktorsicherheit. Es antwortet auf die Fragen die Parlamentarische Staatssekretärin Astrid Klug.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg226">Die Fragen 26 und 27 des Kollegen Hans-Josef Fell werden schriftlich beantwortet.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg227">Ich rufe die Frage 28 der Kollegin Sylvia Kotting-Uhl auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg228">Ist der Bundesregierung bekannt, ob neben Biblis A auch andere Atomkraftwerke von falsch montierten Dübeln betroffen sind, insbesondere die AKW Philippsburg II und Neckarwestheim I, und wird die Bundesregierung eine Überprüfung der übrigen Atomkraftwerke veranlassen?</seg>
+        </u>
+        <note type="speaker">Astrid Klug, Parl. Staatssekretärin beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q750622" xml:id="ParlaMint-DE_2006-10-25-16-059.u142" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg229">Verehrte Frau Kollegin Kotting-Uhl, Ihre Frage nach den im Atomkraftwerk Biblis A falsch montierten Dübeln und den möglichen Auswirkungen auf andere Atomkraftwerke beantworte ich wie folgt:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg230">Die Bundesregierung hat durch Schreiben des Bundesumweltministeriums vom 17. Oktober 2006, also unmittelbar nach Bekanntwerden der Probleme, an die atomrechtlichen Genehmigungs- und Aufsichtsbehörden der Länder eine Überprüfung aller anderen Kernkraftwerke veranlasst und um Bericht über die Ergebnisse gebeten. Die Überprüfungen sind noch nicht abgeschlossen.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u143" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg231">Sie haben eine Nachfrage. Bitte.</seg>
+        </u>
+        <note type="speaker">Sylvia Kotting-Uhl (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1568404" xml:id="ParlaMint-DE_2006-10-25-16-059.u144" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg232">Danke schön.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg233">Danke schön, Frau Staatssekretärin. - Ich habe in der Tat eine Nachfrage. Wie die Überprüfungen dann ausgefallen sind, kann ich also nicht fragen. Dann bleibe ich einmal bei Biblis A, zu dem wir das Ergebnis schon haben.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg234">Biblis A ist immer wieder für Überraschungen der besonderen Art gut. Es drängt sich der Verdacht auf, dass das etwas mit dem Sicherheitsmanagement des Konzerns zu tun hat, was auch der Geschäftsführer der Deutschen Umwelthilfe in einer Pressemitteilung so ausgedrückt hat. Fließen solche Ereignisse, die gerade bei Biblis A immer wieder, in regelmäßigen Abständen auftreten, auch in die Bewertung, in die Prüfung des Antrags auf Verlängerung der Laufzeiten ein, der vom Konzern gestellt wurde?</seg>
+        </u>
+        <note type="speaker">Astrid Klug, Parl. Staatssekretärin beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q750622" xml:id="ParlaMint-DE_2006-10-25-16-059.u145" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg235">Die Frage der Sicherheit spielt bei der Bewertung der Übertragung von Reststrommengen auf andere Kraftwerke natürlich eine Rolle. Sie wissen, dass durch die Übertragung kein Sicherheitsdefizit entstehen darf.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u146" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg236">Danke schön. - Eine zweite Nachfrage?</seg>
+          <vocal type="exclamat">
+            <desc>Sylvia Kotting-Uhl [BÜNDNIS 90/DIE GRÜNEN]: Nein!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg237">Dann rufe ich Frage 29 der Kollegin Sylvia Kotting-Uhl auf:</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg238">Wie schätzt die Bundesregierung das Gefährdungspotenzial durch falsch montierte Dübel ein und ist der Bundesregierung bekannt, warum diese Fehler erst jetzt aufgefallen sind?</seg>
+        </u>
+        <note type="speaker">Astrid Klug, Parl. Staatssekretärin beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q750622" xml:id="ParlaMint-DE_2006-10-25-16-059.u147" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg239">Ihre Frage hinsichtlich des Gefährdungspotenzials durch falsch montierte Dübel beantworte ich wie folgt: Aufgrund der falsch montierten Dübel in den Kernkraftwerken Biblis A und B ist die Verankerung von Anlagenteilen, zum Beispiel von Rohrleitungen am Gebäude, nicht mehr sichergestellt. Infolgedessen kann nicht mehr gesichert davon ausgegangen werden, dass die Lasten, die bei der Auslegung gegen Störfälle wie Erdbeben oder Abriss von Rohrleitungen zugrunde gelegt werden, abgetragen werden können. Die Ursache der Fehlmontage, die im Rahmen von Nachrüstungen erfolgte, ist allerdings noch nicht bekannt.</seg>
+        </u>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u148" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg240">Eine Nachfrage?</seg>
+        </u>
+        <note type="speaker">Sylvia Kotting-Uhl (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q1568404" xml:id="ParlaMint-DE_2006-10-25-16-059.u149" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg241">Ja, eine Nachfrage. Danke, Frau Präsidentin. - Frau Staatssekretärin, beim Herunterfahren des Reaktors nach Feststellung der Fehlmontage hat sich - darüber habe ich in der Presse weniger gelesen - ein Ventil nicht öffnen lassen. Gibt es Erklärungen dafür?</seg>
+        </u>
+        <note type="speaker">Astrid Klug, Parl. Staatssekretärin beim Bundesminister für Umwelt, Naturschutz und Reaktorsicherheit:</note>
+        <u who="#Q750622" xml:id="ParlaMint-DE_2006-10-25-16-059.u150" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg242">Es gibt dazu noch keine Erkenntnisse. Ich habe bereits gesagt, dass die Untersuchungen noch nicht abgeschlossen sind. So liegen uns noch keine Ergebnisse vor. Die Ergebnisse werden, wenn sie uns vorliegen, bewertet. Diese Bewertung wird sich natürlich auf die Beantwortung der Frage auswirken, welche Sanierungsmaßnahmen notwendig sind und wann die Reaktoren wieder hochgefahren werden können.</seg>
+        </u>
+        <vocal type="exclamat">
+          <desc>Sylvia Kotting-Uhl [BÜNDNIS 90/DIE GRÜNEN]: Danke schön!</desc>
+        </vocal>
+        <note type="speaker">Vizepräsidentin Petra Pau:</note>
+        <u who="#Q77195" xml:id="ParlaMint-DE_2006-10-25-16-059.u151" ana="#chair">
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg243">Ich bedanke mich bei Ihnen, Frau Staatssekretärin.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg244">Wir sind damit am Schluss unserer heutigen Tagesordnung.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg245">Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 26. Oktober 2006, 9 Uhr, ein.</seg>
+          <seg id="ParlaMint-DE_2006-10-25-16-059.seg246">Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluss: 15.17 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>
