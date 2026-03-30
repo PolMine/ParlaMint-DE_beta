@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_2019-07-24-19-109">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 19. Wahlperiode, 109. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 24.07.2019 (109. Sitzung der 19. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 19, Session 109 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 2019-07-24 (Session 109 in Legislative Period 19)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="109">109. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.19" n="19">19. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="109">Session 109</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.19" n="19">Legislative Period 19</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 24.07.2019</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 2019-07-24</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-05-16">https://www.bundestag.de/resource/blob/652630/45d3afd3d973978b75581d3ed89c8afd/19109-data.xml</idno>
+          <date when="2019-07-24">2019-07-24</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="2019-07-24">2019-07-24</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="1" ana="#DE-oath">
+        <head>Eidesleistung der Bundesministerin der Verteidigung</head>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u1" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg1">Liebe Kolleginnen und Kollegen, ich begrüße Sie. Bitte nehmen Sie Platz. Die Sitzung ist eröffnet.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg2">Ich habe die heutige Sitzung auf Verlangen der Bundeskanzlerin gemäß Artikel 39 Absatz 3 des Grundgesetzes in Verbindung mit § 21 Absatz 2 unserer Geschäftsordnung einberufen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg3">Wir können heute nicht in unserem Plenarsaal tagen, da in der sitzungsfreien Zeit dort notwendige Bauarbeiten stattfinden. Im Plenarsaal werden zurzeit die Induktionsschleifen zur Unterstützung von Hörgeschädigten, die Feuerlöschanlage und der Teppichboden erneuert. Wir waren uns im Ältestenrat einig, dass diese Arbeiten bis zur nächsten regulären Sitzungswoche – das ist die Haushaltswoche im September – abgeschlossen sein müssen. Deswegen mussten wir heute ins Paul-Löbe-Haus ausweichen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg4">Die Raumsituation ist nicht ideal. Frieren werden wir nicht.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg5">Mit Augenmaß und Kreativität werden wir aber gemeinsam auch an diesem Ort eine würdige Plenarsitzung durchführen – so wie der Namensgeber dieses Hauses einmal gesagt hat: „Es braucht nicht niederreißende Polemik, sondern aufbauende Tat.“</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg6">Übrigens: Als Paul Löbe Alterspräsident des ersten Bundestages war, hatte unser Parlament noch 410 Abgeordnete. Das war natürlich zu einer anderen Zeit – aber mit Blick auf die immer dringlichere Wahlrechtsreform ist es an diesem Ort eine Erwähnung wert.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der SPD und der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg7">Jetzt rufe ich den Tagesordnungspunkt 1 auf:</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg8">Eidesleistung der Bundesministerin der Verteidigung</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg9">Für den Bundespräsidenten hat mir der Erste Vizepräsident des Bundesrats, Herr Michael Müller, mitgeteilt, dass er am 17. Juli 2019 gemäß Artikel 64 Absatz 1 des Grundgesetzes für die Bundesrepublik Deutschland auf Vorschlag der Frau Bundeskanzlerin die Bundesministerin der Verteidigung, Frau Dr. Ursula von der Leyen, aus ihrem Amt als Bundesministerin entlassen und Frau Annegret Kramp-Karrenbauer zur Bundesministerin der Verteidigung ernannt hat.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg10">Nach Artikel 64 Absatz 2 des Grundgesetzes leistet eine Bundesministerin bei der Amtsübernahme den in Artikel 56 vorgesehenen Eid.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg11">Frau Kramp-Karrenbauer, ich bitte Sie jetzt, zur Eidesleistung zu mir bzw. zu dem Mikrofon zu kommen.</seg>
+          <incident type="action">
+            <desc>Die Anwesenden erheben sich</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg12">Ich darf Sie bitten, den im Grundgesetz vorgeschriebenen Text der Eidesformel zu sprechen.</seg>
+        </u>
+        <note type="speaker">Annegret Kramp-Karrenbauer, Bundesministerin der Verteidigung:</note>
+        <u who="#Q71359" xml:id="ParlaMint-DE_2019-07-24-19-109.u2" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg13">Ich schwöre, dass ich meine Kraft dem Wohle des deutschen Volkes widmen, seinen Nutzen mehren, Schaden von ihm wenden, das Grundgesetz und die Gesetze des Bundes wahren und verteidigen, meine Pflichten gewissenhaft erfüllen und Gerechtigkeit gegen jedermann üben werde. So wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u3" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg14">Danke sehr. – Frau Bundesministerin, Sie haben den notwendigen Eid geleistet.</seg>
+          <kinesic type="applause">
+            <desc>Beifall – Bundesministerin Annegret Kramp-Karrenbauer nimmt Gratulationen entgegen</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg15">Ich gratuliere Ihnen persönlich und im Namen des ganzen Hauses – wie auch der Beifall schon ausgedrückt hat – herzlich, und ich wünsche Ihnen für Ihre Aufgabe alles Gute und Gottes Segen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg16">Ihnen, sehr geehrte Frau Dr. von der Leyen, danke ich im Namen des ganzen Hauses für Ihre Tätigkeit als Abgeordnete und als Mitglied der Bundesregierung. Wir alle wünschen Ihnen für Ihre neue, für unser Europa so wichtige Aufgabe alles Gute, viel Erfolg und viel Glück.</seg>
+          <kinesic type="applause">
+            <desc>Anhaltender Beifall bei der CDU/CSU – Beifall bei der SPD, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg17">Dann rufe ich den Tagesordnungspunkt 2 auf:</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg18">Abgabe einer Regierungserklärung durch die Bundesministerin der Verteidigung</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg19">In Verantwortung für die Zukunft Deutschlands. Für eine starke Bundeswehr in einer Welt im Wandel.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg20">Es liegt uns ein Entschließungsantrag der Fraktion Die Linke vor.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg21">Nach einer interfraktionellen Vereinbarung sind für die Aussprache im Anschluss an die Regierungserklärung 60 Minuten vorgesehen. – Mangels Widerspruchs ist das so beschlossen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg22">Dann erteile ich jetzt das Wort zur Abgabe einer Regierungserklärung der Bundesministerin der Verteidigung, Frau Annegret Kramp-Karrenbauer.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+      </div>
+      <div type="debateSection" n="2" ana="#DE-government_declaration">
+        <head>Abgabe einer Regierungserklärung durch die Bundesministerin der Verteidigung: In Verantwortung für die Zukunft Deutschlands. Für eine starke Bundeswehr in einer Welt im Wandel.</head>
+        <note type="speaker">Annegret Kramp-Karrenbauer, Bundesministerin der Verteidigung:</note>
+        <u who="#Q71359" xml:id="ParlaMint-DE_2019-07-24-19-109.u4" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg23">Sehr geehrter Herr Präsident! Meine sehr geehrten Damen und Herren Abgeordnete! Ich spreche heute hier unter erkennbar außergewöhnlichen Umständen zu Ihnen, und außergewöhnlich und wertvoll ist die besondere Beziehung zwischen Parlament und Parlamentsarmee, zwischen dem Deutschen Bundestag und der Bundeswehr.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg24">Ich habe größten Respekt vor den Soldatinnen und Soldaten für ihren Dienst und den Mitarbeiterinnen und Mitarbeitern unserer Bundeswehr. Ich habe größten Respekt vor Ihrer Verantwortung als Abgeordnete des Deutschen Bundestages für unsere Bundeswehr. Dieser Respekt ist für mich die Grundlage meiner Arbeit und unserer Zusammenarbeit.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg25">In den letzten Tagen haben eine Reihe von Mitgliedern dieses Hauses Erwartungen zum Verteidigungsbereich geäußert, auch in den persönlichen Gesprächen mit mir. Für mich sind diese Erwartungen zuerst einmal Ausdruck Ihres Engagements für unsere Streitkräfte, für unsere Streitkräfte, auf die wir alle stolz sein können – ich jedenfalls bin es.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg26">Ich bin stolz auf die enorme Leistung der mehr als 180 000 Soldatinnen und Soldaten, die jeden Tag für Deutschlands Sicherheit einstehen und unsere Freiheit verteidigen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU und der SPD sowie bei Abgeordneten der AfD, der FDP und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg27">Und ich bin stolz auf die mehr als 60 000 zivilen Mitarbeiterinnen und Mitarbeiter, die genau dafür die Voraussetzungen schaffen, von der Ausrüstung bis zum Personalwesen. Und darin schließe ich ausdrücklich alle Familien mit ein; denn die haben oft ein schweres Los mit zu tragen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD, der AfD, der FDP und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg28">Meine sehr verehrten Damen und Herren, dieser Dienst braucht Respekt, dieser Dienst braucht Unterstützung, und zwar konkret und mit Priorität. Denn diese Frauen und Männer dienen. Sie dienen, damit wir in Frieden und Freiheit leben können, in einem Frieden, der leider nicht selbstverständlich ist, nicht selbstverständlich gerade in Zeiten, in denen sich die Welt rasant wandelt und die Sicherheitslage durch erhebliche Risiken geprägt ist; die aktuellen Entwicklungen in der Straße von Hormus zeugen davon.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg29">Gerade in diesen Zeiten ist unsere Bundeswehr eines der zentralen Instrumente unserer Sicherheit. Denn wir tragen Verantwortung, gerade auch als nichtständiges Mitglied im Sicherheitsrat der Vereinten Nationen. Wir tragen Verantwortung für eine internationale Ordnung, in der nicht das Recht des Stärkeren gilt, sondern die Stärke des Rechts.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD und des Abg. Cem Özdemir [BÜNDNIS 90/DIE GRÜNEN]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg30">Wir tragen Verantwortung für eine Friedensordnung, die eine freiheitliche Ordnung ist – freiheitlich deshalb, weil sie der unantastbaren Würde jedes einzelnen Menschen verpflichtet ist. Und wir tragen Verantwortung für die Verteidigung unseres Bündnisgebietes, die gemeinsamen Anstrengungen zur Landes- und Bündnisverteidigung im engen Schulterschluss mit unseren Freunden. Den Anspruch an unser Handeln gibt uns dabei das Grundgesetz vor: „in einem vereinten Europa dem Frieden der Welt zu dienen“.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg31">Meine sehr geehrten Damen und Herren, zu Recht hat Ursula von der Leyen deshalb letzte Woche in Brüssel festgestellt – ich darf sie zitieren –: Die Welt ruft nach mehr Europa, und die Welt braucht mehr Europa.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD, der FDP und des BÜNDNISSES 90/DIE GRÜNEN – Lachen bei der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg32">Wir wollen Europa stark machen, auch in handfesten militärischen Fähigkeiten. Vieles haben wir angestoßen, und wir haben mit der Ratspräsidentschaft im nächsten Jahr die Gelegenheit, die europäische Verteidigungsunion weiter auszugestalten, so wie wir uns das im Koalitionsvertrag vorgenommen haben. Aber dabei gilt unverändert: Deutschland ist und bleibt fest verankert im transatlantischen Bündnis, ist und bleibt fest verankert in der NATO.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg33">Die NATO ist der Garant unserer Sicherheit. Sie vereint als politische und militärische Allianz die Werte und die Interessen aller ihrer Mitglieder. Die historischen und kulturellen Erfahrungen und unsere politischen Überzeugungen binden uns dabei zusammen. Und genau dieses Band unterscheidet uns von den autoritären Kräften, die uns und die internationale Ordnung herausfordern.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg34">Meine sehr geehrten Damen und Herren, wir wissen, auf welcher Seite des Tisches wir sitzen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg35">Wir sind ein verlässlicher Verbündeter, der einen fairen Teil der gemeinsamen Aufgaben schultert, und das wird auch in Zukunft so bleiben. An dem Ziel der Bundesregierung, 2 Prozent anzustreben – ein Ziel, auf das sich alle Verbündeten wiederholt geeinigt haben –, halte ich daher fest.</seg>
+          <kinesic type="applause">
+            <desc>Anhaltender Beifall bei der CDU/CSU – Zurufe von der LINKEN: Buh!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg36">Auf dem Weg dorthin müssen und wollen wir bis 2024 ein Verteidigungsbudget in Höhe von 1,5 Prozent des Bruttoinlandsproduktes erreichen. Diesen Wert haben wir abgestimmt gegenüber der NATO angezeigt, und er entspricht im Minimum auch unserem Bedarf. Es geht hier – um das ganz deutlich zu sagen – nicht um Wünsche von außen, es geht hier nicht um Aufrüstung. Es geht hier um Ausrüstung und Personal, es geht um unsere Bundeswehr.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg37">Es geht um eine Bundeswehr, die die Aufgaben erfüllen kann, die wir ihr geben. Es geht um unser ureigenes Interesse, und in diesem Interesse liegen die Einsätze, die einsatzgleichen Verpflichtungen, die Dauereinsatzaufgaben und die nationale Krisenvorsorge. Rund 18 000 Soldatinnen und Soldaten sind zurzeit in diesen Aufgaben gebunden. Von der Präsenz an den Grenzen unseres östlichen Bündnisgebietes über die Stabilisierungsmissionen in Afghanistan und Mali bis zu den Beiträgen zur Bekämpfung des islamistischen Terrorismus in der Counter-Daesh-Koalition und unseren Stand-by-Verpflichtungen: Soldatinnen und Soldaten der Bundeswehr stehen gemeinsam mit den Frauen und Männern im Polizeidienst, bei der Entwicklungshilfe, im diplomatischen Dienst, in der zivilen Aufbauhilfe in genau dieser Minute an vielen Orten dieser Welt für Frieden und Freiheit ein, und das teilweise unter erheblicher persönlicher Gefahr. Das dürfen wir nie vergessen, meine sehr geehrten Damen und Herren.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD, der FDP und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg38">Sie verkörpern damit ganz praktisch unseren vernetzten Ansatz von Friedenspolitik, und sie verdienen unsere Anerkennung und unseren Dank.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg39">Unsere Mandate, unsere Einsätze sind nie Selbstzweck. Sie müssen immer wieder geprüft werden, und sie müssen sich an veränderte Entwicklungen anpassen. Dabei ist mir eins wichtig: Unsere Beiträge, die Gestaltung unserer Kontingente, die Obergrenze unserer Mandate und die Festlegung der Einsatzregeln – das alles sind und dürfen keine vordergründig parteipolitischen Fragen sein,</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der LINKEN</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg40">sondern müssen Fragen sein, die in Verantwortung für unsere Soldatinnen und Soldaten, in Verantwortung für unser Land und gemeinsam mit unseren Verbündeten und den Partnern entschieden werden müssen. Das heißt, dass wir Unterstützungsanfragen unserer Partner immer gewissenhaft prüfen müssen. Weder dürfen wir sie vorschnell bejahen, noch dürfen wir ihnen reflexartige Absagen erteilen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg41">Das heißt auch, dass wir unsere Einsatzregeln so gestalten, wie dies militärisch sinnvoll und partnerschaftlich geboten erscheint. An diesen Fragen muss sich unsere Diskussion über Einsätze und Mandate künftig orientieren. Das ist der richtige politische Maßstab.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg42">Meine sehr geehrten Damen und Herren, ich sage in aller Klarheit: Damit wir in Deutschland in Zukunft gut und sicher leben können, braucht es auch eine einsatzbereite Bundeswehr. Lange, ja vielleicht zu lange haben wir daran geglaubt, dass die Welt um uns herum immer friedlicher, die Ordnung immer stabiler wird. Die Entwicklungen der letzten Jahre haben gezeigt: Das war ein trügerisches Bild. Deshalb haben wir nach 25 Jahren des Sparens den Schalter umgelegt. Dafür bin ich allen, die daran mitgewirkt haben, und insbesondere meiner Vorgängerin von Herzen dankbar.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg43">Die Bundeswehr wächst wieder. Personal und Material: Alle Trendlinien zeigen endlich wieder aufwärts. Diese Trendwenden will ich fortsetzen, und diese Trendwenden müssen dauerhaft abgesichert werden. Die Grundlagen dafür liegen auf dem Tisch: das Weißbuch der Bundesregierung, darauf aufbauend die Konzeption der Bundeswehr und das Fähigkeitsprofil. Es ist – das wissen Sie – ein sehr ehrgeiziger Weg, aber dieser Weg ist erforderlich, weil es um unsere Sicherheit geht.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg44">Meine sehr geehrten Damen und Herren, die Basis dafür ist und bleibt eine verlässliche Finanzierung. Wir haben dazu und zu anderen Bereichen generelle Vereinbarungen im Koalitionsvertrag getroffen. Es bleibt festzuhalten: Wenn die Bundeswehr die Fähigkeiten zeigen soll, die wir von ihr verlangen und die wir erwarten, dann muss der Verteidigungshaushalt weiter ansteigen; dann brauchen wir 1,5 Prozent in 2024, und dann brauchen wir einen verlässlich und stetig wachsenden Pfad bis dorthin. Auch dafür werde ich mich einsetzen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU – Zurufe von der LINKEN: Buh!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg45">Ich weiß, dass das nicht einfach ist, dass es nicht einfach ist, die Anstrengungen der letzten Jahre fortzusetzen. Ich weiß, dass Geld alleine nicht ausreicht. Die Mittel, die Sie in diesem Haus zur Verfügung stellen, müssen schneller und reibungsloser als bisher sichtbar und spürbar in Personal und Material investiert werden. Das gilt für die dringend benötigten Großprojekte, die Projekte, die wir mit unseren europäischen Partnern gemeinsam entwickeln, wie das künftige Kampfflugzeug und den Kampfpanzer.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf des Abg. Jürgen Trittin [BÜNDNIS 90/DIE GRÜNEN]</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg46">Und das gilt für die nationalen Projekte, die Sie alle kennen. Wir werden bis zum Herbst entscheiden und verbindlich vorlegen, wann wir in dieser Legislaturperiode mit welchen Projekten in dieses Parlament zur Entscheidung gehen, meine sehr geehrten Damen und Herren.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg47">Das gilt aber auch – und das ist mir genauso wichtig – für den Grundbetrieb. Unsere Soldatinnen und Soldaten sollen Tag für Tag erleben, wie die Lücken bei Material und Ausrüstung endlich geschlossen werden: dass sie das bestmögliche Gerät, die bestmögliche Ausrüstung, die modernste persönliche Ausstattung nicht nur im Einsatz, nicht nur bei großen Übungen, sondern schon für die tägliche Ausbildung haben, dass wir genügend Flugstunden, einsatzklare Schiffe und gefechtsbereite Panzer haben, dass die Munitionslager voll sind, die Ersatzteile schnell ankommen, auch in der Fläche. Unsere Soldatinnen und Soldaten sollen das Gerät beherrschen, das sie im Einsatz nutzen. Wenn jeder Soldat das Gerät hat, das er für seine Aufgabe braucht – und ich betone: in seiner Einheit und nicht auf Leihschein –, dann ist die Bundeswehr wirklich auch ein attraktiver Arbeitgeber, und daran arbeiten wir.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg48">Was ist getan worden, und was müssen wir tun? Erstens. Die Agenda Nutzung ist gestartet. Mit ihr bringen wir Logistik und Ersatzteilversorgung nach vorne, nahe an die Truppe. Die Expertenempfehlungen zur Anpassung und zur Verbesserung der Beschaffungs- und Nutzungsorganisation liegen auf dem Tisch, und wir werden nach Ende der Sommerpause einen Vorschlag zur Umsetzung machen. Wir werden zweitens die Entscheidungsfreiheit der Kommandeure und Verantwortlichen vor Ort stärken auf der Grundlage des Programms „Innere Führung Heute“. Und drittens. Wir werden die Sichtbarkeit der Bundeswehr in unserem Land, in unserer Gesellschaft erhöhen: ob es das freie Bahnfahren in Uniform oder Gelöbnisse oder Zapfenstreiche in der Öffentlichkeit sind.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg49">Meine Damen und Herren, unsere Soldatinnen und Soldaten kommen aus der Mitte der Gesellschaft. Deshalb ist die Bundeswehr kein Platz und deshalb ist in der Bundeswehr kein Platz für Extremisten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der SPD, der FDP und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der der LINKEN und des Abg. Jürgen Kamann [fraktionslos]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg50">Deshalb gehört die Bundeswehr aber auch erkennbar und sichtbar in die Mitte unserer Gesellschaft, in die Mitte unserer Städte und Gemeinden. Ich habe daher alle Ministerpräsidenten angeschrieben und ihnen vorgeschlagen, zum Geburtstag der Bundeswehr am 12. November in ihren Bundesländern öffentliche Gelöbnisse durchzuführen.</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der LINKEN: Buh!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg51">Das wäre ein starkes Signal und ein starkes Zeichen der Anerkennung für unsere Soldatinnen und Soldaten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD, der AfD und der FDP und des Abg. Uwe Kamann [fraktionslos]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg52">Und: Für die Bundeswehr als Parlamentsarmee würde ich mir auch ein Gelöbnis vor dem Reichstag wünschen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der AfD und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg53">Meine sehr geehrten Damen und Herren, es gibt viel zu tun für eine einsatzbereite Bundeswehr, für eine Bundeswehr, auf die unser Land stolz sein kann.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg54">Lassen Sie mich zurückkommen auf Paul Löbe, den der Bundestagspräsident eben zitiert hat. „Es braucht nicht niederreißende Polemik, sondern aufbauende Tat.“ Das sollte uns auch heute leiten; denn es geht um unsere Bundeswehr, und es geht um unser Land.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg55">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Anhaltender Beifall und rhythmisches Klatschen bei der CDU/CSU – Beifall bei Abgeordneten der SPD und der FDP</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u5" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg56">Liebe Kolleginnen und Kollegen, bevor ich die Aussprache eröffne, möchte ich alle Rednerinnen und Redner des heutigen Tages darauf aufmerksam machen, dass anders als in unserem Plenarsaal die Redezeit am Rednerpult nicht angezeigt wird.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg57">Aber – es wird niemanden überraschen –: Die vereinbarten Redezeiten gelten gleichwohl. Die ablaufende Redezeit wird den Rednern auf dem Bildschirm gegenüber dem Rednerpult</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe: Aha!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg58">hinreichend deutlich – unübersehbar – angezeigt. Bitte achten Sie darauf. Ich bin ja gehalten, auf die Einhaltung der Redezeit zu achten.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg59">Für Zwischenfragen oder Zwischenbemerkungen in der Aussprache sollten Sie die im Saal aufgestellten Saalmikrofone benutzen. Weil wir angesichts der Anordnung dieses Saals keinen vollständigen Überblick haben, wäre es am besten, wenn Sie sich – wenn Sie eine Zwischenfrage stellen oder Zwischenbemerkung machen wollen – gleich zu einem Mikrofon begeben. Dann können wir es in jedem Fall eindeutig erkennen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg60">Mit diesen Hinweisen eröffne ich die Aussprache. Das Wort hat der Kollege Rüdiger Lucassen, AfD.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der AfD</desc>
+        </kinesic>
+        <note type="speaker">Rüdiger Lucassen (AfD):</note>
+        <u who="#Q40848063" xml:id="ParlaMint-DE_2019-07-24-19-109.u6" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg61">Herr Präsident! Meine Damen und Herren! Wer nicht weiß, dass Frau Kramp-Karrenbauer in der CDU ist, wer nicht weiß, dass Angela Merkel Bundeskanzlerin ist, und wer nicht weiß, dass die SPD in dieser Regierung steckt – wobei dies tatsächlich leicht zu übersehen ist –, der könnte jetzt denken: Donnerwetter! Ab morgen wird die Bundeswehr wieder auf die Beine gestellt. Herrliche Zeiten brechen an! Öffentliche Gelöbnisse am 12. November in den Bundesländern und vor dem Reichstag.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg62">Aber dieser Ankündigungsorgie steht die unverrückbare Realität der Ära Merkel gegenüber. Und die besteht vor allem aus Moderieren und Aussitzen. Noch vorige Woche sagte die Bundeskanzlerin über die neue Ministerin: Ich freue mich, dass Annegret Kramp-Karrenbauer sich entschieden hat, Verteidigungsministerin zu werden. Und sie wird es sehr gut machen nach meiner festen Überzeugung. – Zitat Ende.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg63">– Darauf hatte ich jetzt endlich mal gehofft. Ich habe es erreicht. Danke schön.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der AfD – Michael Grosse-Brömer [CDU/CSU]: Es hat geklappt!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg64">Was, Frau Bundeskanzlerin, überzeugt Sie eigentlich jedes Mal aufs Neue, dass völlig fachfremdes Personal, fernab jeder Affinität zu Streitkräften, die Bundeswehr gut führen kann?</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg65">Die Bundeswehr ist heute in der schlechtesten Verfassung seit ihrer Aufstellung in 1955. Diese erschreckende Diagnose galt auch schon vor fünf Jahren. Seitdem hat sich substanziell nichts verbessert, vieles ist aber weiter bergab gegangen: Schiffe, Panzer und Flugzeuge sind nicht einsatzbereit. Die Moral der Truppe ist am Boden. Genderunfug und aufgeweichte Standards in der Ausbildung haben das innere Gefüge unserer Streitkräfte zersetzt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der AfD – Britta Haßelmann [BÜNDNIS 90/DIE GRÜNEN]: Sie wissen doch gar nicht, was das ist, „gendern“!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg66">Ein handfester Betrugsskandal bei Auftragsvergabe um das Segelschulschiff „Gorch Fock“. Ein Günstlingsskandal um den illegalen Einsatz von Beratern.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg67">Das sicherheitspolitische Umfeld Europas ist angespannt wie seit 30 Jahren nicht. Und was macht die CDU-geführte Bundesregierung?</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Arbeiten!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg68">Sie begeht Verfassungsbruch. Artikel 87a: „Der Bund stellt Streitkräfte zur Verteidigung auf.“ Unsere Streitkräfte sind zur Landesverteidigung nicht befähigt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg69">In dieser äußerst kritischen Situation setzt die CDU eine sicherheitspolitische Novizin aus dem Saarland als Verteidigungsministerin ein,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der AfD – Widerspruch bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg70">eine Frau, die über einen deutsch-französischen Flugzeugträger fabuliert, eine Frau, die über deutsche Bodentruppen in Syrien nachdenkt. Meine Damen und Herren, die CDU ist zum größten Risiko für die deutsche Sicherheitspolitik geworden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der AfD – Widerspruch bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg71">Die Union benutzt das Verteidigungsministerium seit 14 Jahren als Steinbruch, um ihren Machterhalt zu sichern. Die CDU sieht das Amt des Verteidigungsministers als Trainee-Stelle, um Provinz- und Familienpolitikerinnen kanzlertauglich zu machen.</seg>
+          <kinesic type="applause">
+            <desc>Lebhafter Beifall bei der AfD – Widerspruch bei der CDU/CSU – Zuruf vom BÜNDNIS 90/DIE GRÜNEN: Peinlich! Peinlich!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg72">Um die Einsatzbereitschaft der Bundeswehr oder um die Soldaten selbst geht es der Union schon lange nicht mehr.</seg>
+          <incident type="action">
+            <desc>Britta Haßelmann [BÜNDNIS 90/DIE GRÜNEN]: Jetzt reicht es mit frauenfeindlichen Bemerkungen!</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg73">Wie die CDU mit der Sicherheit Deutschlands umgeht, ist skandalös. Es ist schlimmer als das: Es ist unpatriotisch!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg74">Um die Sicherheit Deutschlands schützen zu können, brauchen wir eine Bundeswehr, die zur Landes- und Bündnisverteidigung befähigt ist. Das ist ihr grundgesetzlicher Auftrag. Unsere Soldaten leisten ihren Eid darauf. Damit unsere Soldaten diesen Eid auch erfüllen können, brauchen sie materielle Vollausstattung. Die großen Beschaffungsvorhaben müssen zügig auf den Weg gebracht werden. Die Bundeswehr braucht auch die personelle Vollausstattung, um ihren Auftrag erfüllen zu können.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg75">Der fünfjährige Versuch, mit Werbekampagnen, YouTube-Filmchen und Girls Days</seg>
+          <vocal type="exclamat">
+            <desc>Britta Haßelmann [BÜNDNIS 90/DIE GRÜNEN]: Vorsicht!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg76">gute und genügend Rekruten zu gewinnen, ist gescheitert, genau wie die dazugehörige Ministerin. 20 000 Stellen sind nicht besetzt.</seg>
+          <vocal type="exclamat">
+            <desc>Britta Haßelmann [BÜNDNIS 90/DIE GRÜNEN]: Nicht noch so eine frauenfeindliche Bemerkung!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg77">Deutschland braucht die Wehrpflicht zurück.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg78">Frau Kramp-Karrenbauer sprach sich im Sommer sehr energisch für eine allgemeine Dienstpflicht aus. Die soll nach ihrer Vorstellung ja auch die Wehrpflicht enthalten. Ich nehme also an, Frau Ministerin, dass Sie bereits die Weisung erteilt haben, die Wiedereinsetzung der Wehrpflicht in Ihrem Hause zu prüfen. Ich nehme auch an, dass Sie bereits Weisung erteilt haben, die Investitionen der Bundeswehr im Hinblick auf „1,5 Prozent bis 2014 und das 2-Prozent-Ziel darüber hinaus“ auszuplanen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg79">Was unsere Bundeswehr vordringlich braucht, kostet zunächst nicht viel Geld. Unsere Bundeswehr braucht eine geistig-moralische Neuaufstellung.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der AfD – Widerspruch bei der SPD und dem BÜNDNIS 90/DIE GRÜNEN – Thomas Hitschler [SPD]: Wir können uns vorstellen, wie Sie das meinen!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg80">Geradlinigkeit, Ehrlichkeit und der Wille, dem deutschen Volk zu dienen, sind unabdingbare Voraussetzungen für gute Soldaten und eine schlagkräftige Armee mit der Befähigung zum Kampf. Wie aber kann man von seinen Soldaten dies alles verlangen, wenn sich die politische Leitung nicht daran hält? Beim Gelöbnis am letzten Samstag sagte die neue Ministerin den 400 angetretenen Rekruten: „Sie können sich auf mich verlassen.“ Noch vor zwei Wochen allerdings sagte die neue Ministerin auch, gar nicht Ministerin werden zu wollen. Und heute wurden Sie hier vereidigt. Ist das die Art Verlässlichkeit, die Sie meinen?</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg81">Mit ihrer Art, Politik zu machen, schädigt die Bundesregierung nachhaltig das Vertrauen der Bevölkerung in unseren Staat. Die Bundeskanzlerin installiert ihre sogenannten Kronprinzessinnen nach feudaler Art. Wahlergebnisse werden ignoriert, das gegebene Wort hat keinen Wert. Es geht um Macht und um Macht allein, auf dem Rücken unserer Soldaten und unserer aller Sicherheit. Und die Verteidigungspolitiker der CDU tragen dies alles mit. Im Ausschuss mühen Sie sich nach Kräften ab, um das konservative Gesicht der CDU zu erhalten. Aber im entscheidenden Moment geben Sie kampflos auf und lassen sich zu Staffagen degradieren. Die Nachfolgeregelung der Bundeskanzlerin ist in der CDU wichtiger als Fachkompetenz und der Dienst für unser Volk. Ehrlich gesagt, tun Sie mir leid.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg82">Der neuen Ministerin ist bereits viel Glück für ihr Amt gewünscht worden.</seg>
+          <incident type="action">
+            <desc>Katrin Göring-Eckardt [BÜNDNIS 90/DIE GRÜNEN]: Aufhören!</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg83">Vollkommen falsch! Unsere Bundeswehr ordentlich zu führen, ist nämlich keine Glückssache, sondern eine Frage des Sachverstands und des Herzens.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg84">Danke.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Anhaltender Beifall bei der AfD – Die Abgeordneten der AfD erheben sich – Uwe Kekeritz [BÜNDNIS 90/DIE GRÜNEN]: Niveaulos!</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u7" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg85">Jetzt erteile ich das Wort dem Vorsitzenden der SPD-Fraktion, Dr. Rolf Mützenich.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD</desc>
+        </kinesic>
+        <note type="speaker">Dr. Rolf Mützenich (SPD):</note>
+        <u who="#Q2163668" xml:id="ParlaMint-DE_2019-07-24-19-109.u8" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg86">Sehr geehrter Herr Präsident! Liebe Kolleginnen und Kollegen! Liebe Frau Kramp-Karrenbauer, im Namen meiner Fraktion möchte ich Ihnen gratulieren. Ich wünsche Ihnen Kraft und Konzentration für Ihre wichtige Aufgabe. Auf der Grundlage des Koalitionsvertrages bieten wir Ihnen gute Zusammenarbeit an.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg87">Gleichzeitig bin ich überzeugt: Das Ressort braucht eine Politikerin, die sich ohne Abstriche um die Bundeswehr kümmern kann. Allein das Haus bedeutet viel Arbeit; Ihre Vorgängerinnen und Vorgänger können Ihnen eine Menge davon erzählen. Ihre unmittelbare Vorgängerin hat Ihnen viel Arbeit hinterlassen, nämlich wichtige Baustellen und Herausforderungen. Allein vier will ich benennen: neue und wichtige Beschaffungsvorhaben, internationale Kooperationsprojekte, die Steigerung der Attraktivität der Bundeswehr, aber auch – diese Frage ist zwischen uns umstritten – die Privatisierung verteidigungspolitischer Aufgaben. Auch darüber werden Sie mit Ihrem Koalitionspartner noch das eine oder andere Wort wechseln müssen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg88">Genauso wichtig ist mir: Die Öffentlichkeit und wir werden Sie daran messen, ob die Berateraffäre aufgeklärt werden kann, ohne Rücksicht auf derzeit handelnde Personen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg89">Meine Damen und Herren, die uns bekannte internationale Ordnung steht seit Jahren unter Druck: Weltbevölkerung, Klimawandel, Flucht, Rückzug aus dem Multilateralismus, Aufstieg neuer Mächte, zerfallende Staatlichkeit. Deswegen war es gut, heute eine Regierungserklärung zu diesen Themen abzugeben, wie man die Bundeswehr einzubetten gedenkt.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg90">Ich stelle mir schon die Frage, ob vor dem Hintergrund der aktuellen Weltprobleme Ihr Begriff von Sicherheitspolitik ein angemessener, ein zeitgemäßer ist.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg91">In Ihrer Rede war viel von Stärke und Abschreckung die Rede. Unser Verständnis einer modernen Sicherheitspolitik ist breiter: ja, eine moderne Bundeswehr, die eingebettet ist in Demokratie, gemeinsame Sicherheit und den Aufbau einer europäischen Friedensordnung, auch – das sage ich ganz bewusst – unter Einschluss Russlands, wenn es gelingt,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg92">den Abbau von Spannungen und die Bereitschaft zum Dialog und insbesondere die Konflikt- und Krisenprävention und Rüstungskontrolle.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg93">Was ist der Maßstab dafür? Offensichtlich ist das aus Ihrer Sicht – das wurde insbesondere in Ihrer Rede deutlich – eine Frage des Geldes. Ich muss Ihnen sagen: 45 Milliarden Euro, die das Kabinett jetzt beschlossen hat, sind eine Menge Geld. Allein ein Drittel der neuen Mittel sind dem Verteidigungsministerium, Ihrem Ressort, zur Verfügung gestellt worden. Deswegen wäre mein bescheidener Ratschlag an Sie gewesen, am Wochenende diese Interviews nicht zu führen, in denen Sie mehr Verteidigungsmittel verlangt haben, sondern sich erst einmal die Zeit zu nehmen, sich die Schwachstellen in Ihrem Ressort anzuschauen und diese dann abzustellen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg94">Dabei hilft auch nicht der Bezug auf ein angebliches 2‑Prozent-Ziel.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Wir sind eine Verpflichtung eingegangen!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg95">Mich erinnert die Diskussion mehr und mehr an den Tanz um das goldene Kalb. Wir sollten besser über die Fähigkeiten der Bundeswehr reden, die wir in die NATO einbringen können, und diese Fähigkeiten letztlich stärken.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg96">Im Übrigen bleibt festzuhalten: Der Bundestag hat das Budgetrecht. Kein Bündnis und keine internationale Organisation kann sich das anmaßen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg97">Ohnehin ist Sicherheitspolitik – vielleicht darf ich das sehr bescheiden formulieren – längst nicht mehr das alleinige Feld der Regierung. Frau Ministerin, Ihnen steht ein selbstbewusstes Parlament gegenüber, das sich über Jahre außen- und sicherheitspolitische Expertise angeeignet hat. Es besitzt eigene Kompetenzen und Beteiligungsrechte, und die werden wir als sozialdemokratische Bundestagsfraktion immer wieder einfordern und stärken, meine Damen und Herren.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg98">Wenn ich ein Wort an den Kollegen Lucassen richten darf: Der Sozialdemokrat Paul Löbe, ein mutiger Reichstagsabgeordneter, der der NSDAP die Stirn geboten hat, wäre erschüttert, solche Worte von einer Partei in diesem Parlament zu hören. Ich möchte sehr deutlich sagen: Das, was Sie in Ihrem Pamphlet „Streitkraft Bundeswehr“ formuliert haben, entspricht nicht dem, wie wir Sozialdemokratinnen und Sozialdemokraten – und wahrscheinlich auch das übrige Parlament – uns die Bundeswehr vorstellen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, der FDP und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der CDU/CSU und der LINKEN – Zurufe von der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg99">Frau Ministerin, ich möchte kurz eine aktuelle Differenz zwischen uns und einem Teil der Union ansprechen. Wir hören immer wieder, dass das Mandat zur Bekämpfung des IS verlängert werden soll. Ich möchte Sie gerne unterrichten – vielleicht tauschen Sie sich auch mit Ihrer Vorgängerin darüber aus –: Es gab eine Kabinettsvorlage der gesamten Bundesregierung, am 31. Oktober dieses Jahres das Mandat einzustellen. Ich habe keine Kritik gehört, als die Niederlande, Belgien, Norwegen und Australien Kampfflugzeuge abgezogen haben. Ich finde, fünf Jahre Einsatz der Bundeswehr zur Bekämpfung des IS waren ein angemessener Beitrag. Deshalb war die Schlussfolgerung, die die Bundesregierung damals dem Parlament überantwortet hat, richtig. Das Mandat endet am 31. Oktober dieses Jahres.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD sowie bei Abgeordneten der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg100">Im Übrigen ist es angesichts der aktuellen Situation gut, sehr bewusst darüber zu reden, ob es richtig ist, einen militärischen Fußabdruck in einer Region zu hinterlassen, in der gegenwärtig neue Kriege drohen. Ich sage sehr deutlich an alle im Parlament: Allein bündnispolitische Erwägungen genügen nicht, seitdem ein Rassist im Weißen Haus sitzt, der sich durch Unberechenbarkeit und Egoismus auszeichnet.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN – Zurufe von der AfD: Pfui! – Dr. Alice Weidel [AfD]: Unglaublich! Das ist ja wohl eine Frechheit! Linksradikal ist das! – Jürgen Braun [AfD]: Unglaublich, dieser Mützenich!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg101">Deswegen, liebe Frau Bundeskanzlerin, möchte ich mich bei Ihnen für die klaren Worte auf der Pressekonferenz ganz herzlich bedanken. Ich finde, die politische Tonlage, die aus dem Weißen Haus kommt, ist gegenüber den europäischen Partnern nicht mehr angemessen. Vielen Dank dafür.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg102">Gleichzeitig wissen wir, dass die Region weiterhin unsere große Aufmerksamkeit und unser Engagement braucht. Frau Bundesverteidigungsministerin, Sie haben die Krise im Golf von Oman angesprochen. Ja, es ist richtig: Sie braucht unsere Aufmerksamkeit, aber insbesondere in Form von Diplomatie, der Hilfe zur Vermittlung, die der Bundesaußenminister tagtäglich anbietet, und auch in Form von humanitärer Hilfe, die wir durch den Haushalt gestärkt wissen wollen. Was ich in dieser Debatte an den Beiträgen aus London interessant finde, ist: Offensichtlich ist eine Regierung, die den Austritt aus der Europäischen Union versucht, nicht gewillt, eine Militäraktion mit den USA zu unternehmen. Vielmehr will sie mit der Europäischen Union zusammenarbeiten, weil sie sich dort besser aufgehoben fühlt. Ich finde, das bietet auf europäischer Ebene Chancen in der Diskussion mit Großbritannien. Ich hoffe, dass Premierminister Johnson in den Gesprächen mit der Europäischen Union in den nächsten Wochen von dem verheerenden Pfad abkommt. Das wäre uns wichtig.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg103">Wenn die Fragen, die ich eben gestellt habe, auch Ihnen, liebe Frau Kramp-Karrenbauer, wichtig sind, so werden wir als Koalitionspartner uns mit aller Kraft und Überzeugung in die Debatte einbringen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg104">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Anhaltender Beifall bei der SPD – Beifall bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u9" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg105">Nächster Redner ist der Fraktionsvorsitzende der FDP, Christian Lindner.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP</desc>
+        </kinesic>
+        <note type="speaker">Christian Lindner (FDP):</note>
+        <u who="#Q85806" xml:id="ParlaMint-DE_2019-07-24-19-109.u10" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg106">Herr Präsident! Liebe Kolleginnen! Liebe Kollegen! Frau Ministerin Kramp-Karrenbauer, die Öffentlichkeit hat intensiv Anteil an Ihrer Ernennung genommen. Auch über Ihre Eignung für dieses Staatsamt wurde debattiert, auch heute in dieser Sitzung. Von der Rede des Kollegen der AfD wird in Erinnerung bleiben, dass er Engagement im ländlichen Raum und für die Familienpolitik geradezu als Disqualifikation für ein höchstes Staatsamt betrachtet. Das sagt viel über diese Fraktion aus.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU sowie bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg107">Darüber hinaus wird gefragt: Kann man Bundesministerin der Verteidigung und Vorsitzende einer Partei sein? Ja, was spricht denn dagegen, wenn man Vorsitzende einer Partei und Regierungschefin sein kann? Wenn man Ministerpräsidentin und Innenministerin eines Landes war, dann hat man sicherheitspolitische Expertise.</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei Abgeordneten der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg108">Daher kann man sich über das, was öffentlich diskutiert wird, nur wundern.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg109">Das Einzige, woran Sie noch arbeiten müssen: Sie haben ausgeschlossen, ins Kabinett zu geben, um es dann doch zu tun. Sie werden Martin Schulz erklären müssen, wie so etwas geht.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit und Beifall bei der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg110">Wir werden keinen Anstoß daran nehmen; denn die Eignung einer Ministerin für ihr Amt zeigt sich nicht allein daran, was sie vorher getan hat, sondern ausschließlich an ihrer Amtsführung und daran, was sie für die Bundeswehr erreichen kann. In diesem Sinne wünschen wir Ihnen eine gute Hand und viel Erfolg, Frau Kramp-Karrenbauer.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg111">Frau Ministerin, wir trauen Ihnen Leadership zu.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg112">Die Sozialdemokratie ist ja inzwischen auf dem Weg in die Opposition. Die Rede des Kollegen Mützenich hat das überdeutlich gemacht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg113">Herr Mützenich, auch wir sind oft – um das Freundlichste zu sagen – irritiert über die Zitate, die der amerikanische Präsident liefert. Aber gerade in einer Zeit, in der die NATO von einer Spaltungstendenz bedroht ist, den amerikanischen Präsidenten „Rassist“ zu nennen,</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der SPD: Ist er auch!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg114">trägt nicht zu einer Entspannung bei.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der AfD sowie bei Abgeordneten der CDU/CSU und des Abg. Uwe Kamann [fraktionslos]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg115">Ich sage Ihnen, Herr Mützenich: Die Frau Bundeskanzlerin hat angemessenere Worte der Kritik gefunden als Sie.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP und der CDU/CSU – Zurufe von der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg116">Ins Zentrum gestellt hat die neue Verteidigungsministerin die Finanzierung der Bundeswehr. Aus dem 2-Prozent-Ziel für 2024 hat Frau Merkel aber schon bei der Münchner Sicherheitskonferenz das 1,5-Prozent-Ziel gemacht. Aber noch nicht einmal dieses 1,5-Prozent-Ziel wird mit der aktuellen mittelfristigen Finanzplanung erreicht. Das kann man ausrechnen, wie es unser Kollege Karsten Klein im Zusammenhang mit einer Kleinen Anfrage gemacht hat: Die mittelfristige Finanzplanung von Herrn Scholz sieht für 2023 1,25 Prozent vor, weil die Mittel nicht steigen, sondern konstant bleiben. Das bedeutet: Wenn wir Wirtschaftswachstum haben – trotz Peter Altmaier –,</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit und Beifall bei der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg117">dann sinkt der Anteil des Wehretats an der Wirtschaftsleistung. – Da ist also viel zu tun.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf des Abg. Michael Grosse-Brömer [CDU/CSU]</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg118">– Kollege Grosse-Brömer, ja, das war nicht nett, aber leider wahr. –</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit und Beifall bei der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg119">Wir werden Sie, Frau Ministerin, daran messen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg120">Wir erwarten von Ihnen Leadership in Bezug auf unsere internationale Verantwortung, also in Bezug auf die Weiterentwicklung von PESCO, in Bezug auf die Rüstungskontrolle und natürlich auch in Bezug auf die Frage, inwieweit wir die Bundeswehr einsetzen, um unsere legitimen Interessen zu verteidigen. Es ist doch völlig richtig, dass Deutschland zusammen mit Frankreich und Großbritannien jetzt in der Iran-Frage vermittelt und eben nicht unkritisch den Kurs der USA übernimmt. Dann dürfen wir uns bei der Sicherung der Seewege als Handelsnation aber auch nicht aus der Solidarität mit Franzosen und Briten verabschieden. Auch da haben wir Verantwortung zu übernehmen. Ich hätte mir gewünscht, dass Sie dazu etwas sagen, Frau Ministerin.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg121">Wir erwarten von Ihnen Leadership bei der Aufarbeitung unserer Auslandseinsätze. Es wird an einer Friedenslösung für Afghanistan gearbeitet. Wir wünschen uns Ihren unbefangenen Blick, Frau Kramp-Karrenbauer, bei der Evaluation des Afghanistan-Einsatzes und bei der Planung einer Exit-Strategie, die, sobald möglich, umgesetzt werden sollte.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg122">Zuletzt, Frau Kramp-Karrenbauer: Wir trauen Ihnen Leadership zu, auch wenn es darum geht, die schwierige Berateraffäre und das Missmanagement im Bereich Beschaffung bei der Bundeswehr aufzuarbeiten. Auch wenn Ihre Vorgängerin – herzlichen Glückwunsch! – in ein höchstes Amt befördert worden ist, darf jetzt nichts unter den Teppich gekehrt werden; denn sonst wird die Bilanz der Vorgängerin auch Ihre Bilanz werden, Frau Kramp-Karrenbauer.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg123">Wir wünschen Ihnen Glück und Erfolg, Frau Kramp-Karrenbauer; denn die Bundeswehr ist eine Parlamentsarmee. Es ist nicht Ihre Armee, es ist die Armee des Parlaments und des deutschen Volkes, und deshalb ist Ihr Erfolg auch unser aller Erfolg.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg124">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u11" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg125">Jetzt erteile ich das Wort dem Kollegen Dr. Johann Wadephul, CDU/CSU.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Dr. Johann David Wadephul (CDU/CSU):</note>
+        <u who="#Q1696501" xml:id="ParlaMint-DE_2019-07-24-19-109.u12" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg126">Herr Präsident! Meine lieben Kolleginnen und Kollegen! Herr Kollege Lindner, Sie haben den Sinn dieser Debatte bezweifelt. Ihr Beitrag und die Beiträge der anderen – das gilt auch für die, die noch folgen – zeigen doch, dass es sinnvoll ist, dass wir hier zusammenkommen und miteinander diskutieren. Lassen Sie uns diese Chance miteinander nutzen. In den Beiträgen tauchten unterschiedliche Auffassungen auf, die miteinander beleuchtet werden müssen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg127">Ich möchte mit dem beginnen, was der Kollege Lucassen uns hier vorgehalten hat. Er hat von Verfassungsbruch gesprochen. Ich finde das einigermaßen abenteuerlich, da es in Ihren Reihen wirre Köpfe gibt, die meinen, einen Aufstand der Generäle der Bundeswehr initiieren zu müssen, meine sehr verehrten Damen und Herren.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU, der SPD, der FDP und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg128">In diesem Zusammenhang, Herr Lucassen: Sie haben, wie manch ein anderer, einen bemerkenswerten beruflichen Weg hinter sich, sodass man denken könnte, da wäre eine gewisse Fachkenntnis vorhanden und Sie hätten Interesse an einem Austausch mit den Vertretern der demokratischen Parteien in diesem Hause. Aber solange Sie mit den völkischen Truppen von Herrn Höcke</seg>
+          <vocal type="exclamat">
+            <desc>Zurufe von der AfD</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg129">und mit derartigen Menschen wie diesem Mann, der zu einem Putsch in der Bundeswehr aufruft, gemeinsame Sache machen, stehen Sie außerhalb des demokratischen Spektrums der Bundesrepublik Deutschland und arbeiten wir nicht mit Ihnen zusammen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU, der SPD und der FDP sowie bei Abgeordneten der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg130">Die letzte Woche war doch eine schöne Woche für Deutschland und Europa: Zwei Frauen mit Regierungsverantwortung sind in neue Ämter gewählt worden.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der CDU/CSU – Lachen bei Abgeordneten der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg131">Das ist alles nicht selbstverständlich, wenn wir ehrlich sind. Ich möchte an dieser Stelle Ursula von der Leyen im Namen der CDU/CSU-Bundestagsfraktion sehr herzlich für ihr Wirken danken. Als Familienministerin und später als Arbeitsministerin haben Sie, manchmal auch gegen Widerstände im eigenen Laden, eine Trendwende in der Familienpolitik hinsichtlich der Frage der Vereinbarkeit von Familie und Beruf und eine Trendwende hinsichtlich der Strukturen der Jobcenter hingelegt. Und Sie haben für die Bundeswehr die existenziell notwendigen Trendwenden in den Bereichen Personal, Material und Finanzen eingeleitet. Frau von der Leyen, Sie haben sich verdient gemacht um die Bundesrepublik Deutschland. Dafür danken wir Ihnen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU – Lachen bei der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg132">Herr Kollege Mützenich, ich glaube, wir beide schätzen uns gegenseitig sehr; aber Ihre Rede war wohl ein bisschen ausgerichtet auf die Wahl des SPD-Fraktionsvorsitzenden im September.</seg>
+          <kinesic type="laughter">
+            <desc>Zuruf von der CDU/CSU: Ein bisschen? – Lachen bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg133">– Zustimmung in Ihrer Fraktion. Damit hätten wir das auch geklärt. – Ich hätte von Ihnen ein paar Worte zu der eigentümlichen Situation erwartet, in die wir gekommen sind: Der Spitzenkandidat, der die meisten Stimmen bekommen hat, wird von der sozialistischen Fraktion im Europaparlament abgelehnt. Dann ist die Bundeskanzlerin sogar bereit, den Zweitplatzierten, den Sozialisten Timmermans, zu unterstützen. Dieser Vorschlag war aber nicht mehrheitsfähig. Und dann haben SPD-Abgeordnete im Europaparlament nichts Besseres zu tun, als eine große institutionelle Krise auf europäischer Ebene zu riskieren, indem sie gegen Frau von der Leyen stimmen. – Das ist kein europäisches Verhalten gewesen. Dazu hätte ich von Ihnen ein paar Worte erwartet.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg134">Ich finde, dass Parteien der Mitte Deutschlands zum Ausdruck bringen sollten, dass Deutschland Amerika wahnsinnig viel zu verdanken hat: nicht weniger als die Befreiung vom Naziregime, nicht weniger als den Wiederaufbau, nicht weniger als die Wiedervereinigung. Sie können nachlesen, dass die amerikanische Unterstützung zu damaliger Zeit vielleicht sogar etwas stärker war als die französische und die englische Unterstützung. Wir sollten aus der Mitte dieses Parlamentes heraus keinen plumpen Antiamerikanismus betreiben, meine sehr verehrten Damen und Herren. Das ist unverantwortlich.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg135">Es gibt starke Freunde in Amerika, die uns schätzen. Denken Sie nur an die umjubelte Rede der Bundeskanzlerin an einer Universität in Amerika.</seg>
+          <vocal type="exclamat">
+            <desc>Jürgen Trittin [BÜNDNIS 90/DIE GRÜNEN]: Die halten alle Herrn Trump für einen Rassisten! Alle! – Zurufe von der SPD</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg136">Es gibt ein Amerika, das mit uns weiter zusammenarbeiten will. Mit diesem Amerika wollen auch wir zusammenarbeiten. Amerika ist unser wichtigster Bündnispartner, liebe Kolleginnen und Kollegen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie des Abg. Frank Müller-Rosentritt [FDP]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg137">Die Verabredungen sind nicht mit dem Präsidenten getroffen worden, sie sind noch nicht einmal bilateral mit den Vereinigten Staaten von Amerika getroffen worden, sondern sie sind mit der NATO getroffen worden, mit den kleinsten Partnerinnen und Partnern in der NATO. Unser Bundesaußenminister wird nicht müde, dafür zu werben, dass wir in dieser Zeit, in der der amerikanische Präsident andere Schwerpunkte setzt, einen neuen Multilateralismus brauchen. Er betont, dass wir mit anderen Partnern multilateral weiter zusammenarbeiten wollen. Und im Verteidigungsbereich ist der Multilateralismus nun einmal auf Ebene der NATO und der Europäischen Union angesiedelt. Wer sich nicht an Zusagen hält, der leistet einen Beitrag dazu, dass die gemeinsame Basis unseres Bündnisses erodiert, und das liegt nicht im europäischen und auch nicht im deutschen Interesse, meine sehr verehrten Damen und Herren.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg138">Die Worte zur Parlamentsarmee stimmen vollkommen; das war absolut richtig. Wir haben das Recht und die Pflicht, uns um die Bundeswehr zu kümmern. Das tun wir auch; die Verteidigungsministerin hat das gesagt. Niemand in der Bundesregierung und niemand in den Koalitionsfraktionen verfolgt das Ziel, die Außenpolitik, die Sicherheitspolitik und die Politik im Bereich wirtschaftliche Zusammenarbeit und Entwicklung nur militärisch zu betreiben. Niemand macht das.</seg>
+          <vocal type="exclamat">
+            <desc>Jürgen Trittin [BÜNDNIS 90/DIE GRÜNEN]: Wieso kürzen Sie dann die Mittel?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg139">Aber, meine sehr verehrten Damen und Herren, das gehört schon alles zusammen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg140">Wenn das Kabinett ein Weißbuch verabschiedet – das Parlament hat es gesehen –, wenn eine Konzeption der Bundeswehr entwickelt wird, wenn der Generalinspekteur daraus ein Aufgabenprofil für die Bundeswehr entwickelt, was einen entsprechenden Finanzbedarf bedeutet, lieber Kollege Mützenich, dann dürfen nicht unsere Verteidigungspolitiker das alles mittragen und die Haushaltspolitiker hinterher sagen: Das bezahlen wir nicht. – So kann man keine verlässliche Politik für die Bundeswehr machen. Sie braucht Verlässlichkeit, meine sehr verehrten Damen und Herren.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg141">Multilateralismus – auch wenn es nicht angenehm ist – bedeutet, dass Deutschland bereit ist, Verantwortung zu übernehmen, dass es in schwierigen Einsätzen da ist. Wenn wir, Deutschland – das haben die Bundeskanzlerin und der Außenminister gemacht, und das machen auch wir Außen- und Verteidigungspolitiker –, die Amerikaner bitten, in Syrien zu bleiben, und die Amerikaner sagen: „Ja, wir sind bereit, dort zu bleiben, wenn auch ihr mithelft, dass es dort insgesamt gelingen kann, eine Sicherheitsstruktur aufzubauen“, dann darf Deutschland sich nicht einfach wieder einen schlanken Fuß machen und sagen: Für Sicherheit sorgen schon andere; da machen wir uns nicht die Hände schmutzig. – Nein, dann müssen auch wir zu unserer Verantwortung stehen. Nur dann werden wir im Bündnis ernst genommen; nur dann werden wir die Amerikaner wieder überzeugen können, mit uns gemeinsam im Bündnis Politik zu formulieren und wirkliche Multilateralisten zu sein.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg142">Abschließend: Es ist viel über die Motivation, die Ziele usw. der Verteidigungsministerin gesagt worden. Ich finde, es gibt kein deutlicheres Zeichen für die Soldatinnen und Soldaten unserer Bundeswehr, die einen schweren Dienst leisten, als dass die Vorsitzende der größten Partei in Deutschland bereit ist, dieses risikoreiche Amt zu übernehmen. Wir sind Annegret Kramp-Karrenbauer dankbar, dass sie das Amt der Verteidigungsministerin übernimmt. Herr Kollege Kahrs, ich würde Ihre Worte etwas abwandeln: Wie reich ist die Bundeswehr, dass sie diese Verteidigungsministerin hat!</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg143">Herzlichen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u13" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg144">Nächster Redner ist der Vorsitzende der Fraktion Die Linke, Dr. Dietmar Bartsch.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der LINKEN</desc>
+        </kinesic>
+        <note type="speaker">Dr. Dietmar Bartsch (DIE LINKE):</note>
+        <u who="#Q99450" xml:id="ParlaMint-DE_2019-07-24-19-109.u14" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg145">Herr Präsident! Meine Damen und Herren! Die Veranstaltung hier ist schon ein bisschen grotesk: Sommerpause, alle MdBs zurückgeholt, gefühlte 90 Grad. Das wäre auch anders gegangen; das hätten wir anders lösen können. Aber sei’s drum.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN sowie bei Abgeordneten der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg146">Meine Damen und Herren, die letzten Wochen haben gezeigt: Unter Annegret Kramp-Karrenbauer wird die CDU zu einem Klub der Unglaubwürdigkeit. Sie, Frau Kramp-Karrenbauer, haben Monate für Manfred Weber als Kommissionspräsident geworben. Wir kennen das Ergebnis: Das Ergebnis ist Ursula von der Leyen. Sie hat aber gar nicht zur Wahl gestanden. Ich glaube, das ist eine schwere Verletzung der Demokratie. Was sollen die Wählerinnen und Wähler von dieser Unglaubwürdigkeit halten?</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg147">Dazu kommt: Frau von der Leyen ist mit den Stimmen von den Salvinis, den Webers und auch den Orbans gewählt worden. Immerhin hat Herr Weber noch die Stimmen von Herrn Orban abgelehnt. Aber sei’s drum.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg148">Frau Kramp-Karrenbauer, Ihre Glaubwürdigkeit als Verteidigungsministerin ist zum Start nahe null. Ministerien – das sehen wir – werden zu Verschiebebahnhöfen, um die Personalprobleme der Union zu regeln. Das Verteidigungsministerium soll zum Karrieresprungbrett der Kanzlerschaft werden. Das zeigt: Sie, Frau Kramp-Karrenbauer, haben ein instrumentelles Verhältnis zum Verteidigungsministerium. Wollten Sie sich nicht voll der CDU widmen? Noch in diesem Monat haben Sie gesagt – ich zitiere –:</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg149">Ich habe mich bewusst entschieden, aus einem Staatsamt in ein Parteiamt zu wechseln.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg150">Ist das glaubwürdig? Machen Sie jetzt eigentlich beides halbtags?</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg151">Kennen Sie die vielen Baustellen im Verteidigungsministerium, die heute schon alle genannt worden sind, von Beraterverträgen bis zum Chaos in der Beschaffung und, und, und? Was sollen die Wählerinnen und Wähler davon halten? Glaubwürdig ist das nicht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg152">Wenn Sie im Übrigen das Gewicht der CDU-Vorsitzenden wirklich in ein Zukunftsproblem einbringen wollten, dann hätten Sie doch Umweltministerin werden können. Das ist doch aktuell die Zukunftsfrage. Oder weil das ein SPD-Ressort ist, hätten Sie vielleicht das Ressort Wirtschaft und Energie übernehmen können. Energie ist doch auch eine Zukunftsfrage. Das wäre noch halbwegs glaubwürdig gewesen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg153">Nachdem Ihre einzige europapolitische Idee in einem Flugzeugträger bestand, haben Sie jetzt mit dem sogenannten 2-Prozent-Ziel gerade am Wochenende heftig nachgelegt. Ich will darauf verweisen – auch Kollege Mützenich hat das getan –: Das ist wider den Koalitionsvertrag. Ich will vor allen Dingen deutlich festhalten: Das entscheidet immer noch der Bundestag, keine Regierung und keine Ministerin. Wir haben eine Parlamentsarmee, und nur hier wird entschieden, nirgendwo anders.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN sowie bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg154">Diese 2 Prozent wären eine beispiellose Aufrüstung, die es in der Geschichte der Bundesrepublik so noch nicht gegeben hat. Nach Auffassung der Linken sind wir jetzt schon auf einem falschen Pfad. Ich war einmal Haushälter, und als ich 2014 aufhörte, hatte der Verteidigungshaushalt ein Volumen von 32 Milliarden Euro. 2018 waren es schon 38,5 Milliarden Euro, und in diesem Jahr werden es 43,2 Milliarden Euro.</seg>
+          <kinesic type="applause">
+            <desc>Beifall des Abg. Markus Grübel [CDU/CSU]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg155">Aber mit Ihrer Forderung ist das alles nichts. Ihre Forderung ist im Kern ein Kotau vor Trump und vor der Rüstungsindustrie, meine Damen und Herren.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN sowie bei Abgeordneten der SPD und des BÜNDNISSES 90/DIE GRÜNEN – Zuruf von der CDU/CSU: Peinlich!</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg156">Offensichtlich soll die NATO in ein globales Interventionsbündnis verwandelt werden.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg157">Willensstark sind Sie insbesondere in der Frage der Aufrüstung. Aber falls Ihnen das noch niemand gesagt hat: Nicht wer die höchste Zahl fordert, macht das Beste für die Bundeswehr. Schon die 1,5 Prozent sind ja im Kern schon 60 Milliarden Euro. Ihre Forderung ist nur entweder mit massiven Kürzungen im Sozialbereich finanzierbar oder durch Neuverschuldung, durch die unsere Kinder und Enkelkinder für diesen Rüstungswahn zahlen müssen. Sie sind unglaubwürdig, weil Sie gar nichts zur Finanzierung Ihrer Vorhaben sagen. Sie haben heute einen Eid geleistet. Wenn Sie diesen Eid erfüllen wollen, dann können Sie eine derartige Zusage nicht leisten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg158">Vor allen Dingen wird das immer mit Russland begründet. Ich will aber darauf hinweisen, dass die NATO-Mitgliedstaaten über ein Militärbudget von 1 000 Milliarden US-Dollar verfügen, Russland dagegen nur von 63 Milliarden US-Dollar.</seg>
+          <vocal type="exclamat">
+            <desc>Dr. Marie-Agnes Strack-Zimmermann [FDP]: Abteilung Märchenstunde!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg159">Wenn Sie 2 Prozent erreichen würden, würde sogar Deutschland allein darüberliegen, meine Damen und Herren.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg160">Lassen Sie mich sehr grundsätzlich sagen: Der Titel der Regierungserklärung macht deutlich: Sie definieren Verantwortungsübernahme vor allen Dingen militärisch. Sie haben von Stärke, von Abschreckung gesprochen. Aber, meine Damen und Herren, es gab einmal Zeiten, in denen in Deutschland mit Zurückhaltung über die Rolle des Militärs bei der Gestaltung deutscher Außenpolitik diskutiert wurde. Die scheinen offensichtlich vorbei zu sein.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg161">Militärische Potenziale als Instrumente deutscher Außenpolitik haben Sie offen artikuliert, Frau Kramp-Karrenbauer. Das wird Die Linke nicht akzeptieren. Sie reden hier im Übrigen über Gelöbnisse, sagen aber kein Wort zu dem Konflikt an der Straße von Hormus, und Sie haben auch kein Wort zu Syrien gesagt.</seg>
+          <kinesic type="applause">
+            <desc>Widerspruch bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg162">Frau Kramp-Karrenbauer, hören Sie auf, Aussagen zu treffen, die Halbwertzeiten von nur wenigen Tagen haben und die völlig unglaubwürdig sind! Die Wähler, die Soldaten und das Parlament haben Glaubwürdigkeit verdient und keine Selbstprofilierung mit Blick auf die Kanzlerschaft.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg163">Herzlichen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der LINKEN</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u15" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg164">Nächste Rednerin ist die Kollegin Agnieszka Brugger, Bündnis 90/Die Grünen.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Agnieszka Brugger (BÜNDNIS 90/DIE GRÜNEN):</note>
+        <u who="#Q109309" xml:id="ParlaMint-DE_2019-07-24-19-109.u16" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg165">Herr Präsident! Meine Damen und Herren! Bevor die neue Ministerin überhaupt richtig im Amt war, wusste eine altbackene Herrenriege schon, dass sie eine ganz furchtbare Wahl ist, und es wurde Gift und Galle versprüht. Ich habe mich gewundert, in welcher Gesellschaft sich da auch die FDP in ähnlicher Art und Weise geäußert hat. Herr Lindner, ich bin froh, dass Sie das heute hier geradegerückt haben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg166">Denn denen, die hier mit so einer ätzenden Häme kommentieren, geht es eben nicht um die Probleme der Bundeswehr, sondern denen geht es um das parteipolitische Klein-Klein.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der CDU/CSU: Sehr gut!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg167">Dass es nicht um die Bundeswehr geht, ist auch eine Ursache für die vielen schlechten Nachrichten der letzten Jahre.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg168">Frau Kramp-Karrenbauer, Ihre Vorgänger in diesem schwierigen Amt sind der Versuchung erlegen, die Bundeswehr als spannende Kulisse für ihre Selbstinszenierung auszunutzen. Ich hoffe, dass Sie einen anderen Weg wählen werden. Dieses Amt ist doch zu wichtig, als dass es nur eine Station für diejenigen ist, die sich selbst auf dem Weg nach oben sehen. Blitzlichtgewitter und bombastische Ankündigungen, davon gab es unter Ministern wie Karl-Theodor zu Guttenberg, aber auch unter Ursula von der Leyen wahrlich mehr als genug.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg169">Bei der großen Show sind aber zukunftsfeste Lösungen auf der Strecke geblieben. Das, was nun alle bei der Bundeswehr beklagen, ist das Werk von zehn Jahren konservativen Selbstdarstellern.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg170">Meine Damen und Herren, es braucht eine politische Führung, die weniger auf zackige Schlagzeilen und Ich-Show setzt, sondern sich ganz unglamourös und solide den immensen Problemen der Bundeswehr widmet und dabei die Soldatinnen und Soldaten wieder mitnimmt. Das ist Ihre Verantwortung, Frau Ministerin.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg171">Wenn Sie diese annehmen, dann wünschen wir auch aus der Opposition Ihnen in Ihrem neuen Amt gerade mit Blick auf die Menschen in der Bundeswehr alles Gute.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg172">Am Wochenende aber haben Sie dann wieder die gefühlt hundertste Runde im sinnlosen GroKo-Streit um das 2-Prozent-Ziel der NATO eingeläutet. Ich kann es wirklich nicht mehr hören: Es braucht nur noch viel mehr Geld und dann, ja dann wird endlich alles gut. – Glauben Sie in der Union dieses Märchen eigentlich selbst noch?</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg173">Der Verteidigungshaushalt ist von 2014 bis 2019 von 32 Milliarden auf über 43 Milliarden Euro angewachsen, und die Probleme sind definitiv nicht kleiner geworden. Wenn die Union es mit dem 2-Prozent-Ziel ernst meint, dann sprechen wir übrigens von 25 Milliarden Euro zusätzlich. Das würde Deutschland zur größten Militärmacht in Europa machen. Gerade in diesen schwierigen Zeiten braucht es starke Ideen für Rüstungskontrolle, Abrüstung und Dialog. Davon haben wir in Ihrer Rede nichts gehört, Frau Kramp-Karrenbauer. Da muss mehr kommen!</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN und bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg174">Nein, zu wenig Geld, das ist nicht das Problem. Ob die Skandale um die „Gorch Fock“ oder die Berateraffäre, als neue Ministerin im Amt ist es nun Ihre dringende Aufgabe, dafür zu sorgen, dass Kumpanei, Missmanagement und Geldverschwendung in der Rüstungspolitik nach so vielen Jahrzehnten endlich ein Ende haben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg175">Meine Damen und Herren, wir Grüne werden immer aufs Schärfste gefragt: Wie wollen Sie eigentlich Ihre Klimaschutzvorhaben finanzieren? – Ich würde gerne einmal zurückfragen: Wie wollen Sie von der Union eigentlich die krasse Forderung nach 25 zusätzlichen Milliarden für das Militär gegenfinanzieren? Die Schuldenbremse aufbohren? Ihre 2-Prozent-Forderung ist nicht nur sicherheitspolitisch fahrlässig, sondern sie ist auch finanzpolitisch völlig unseriös.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg176">Im Verteidigungsausschuss beschäftigt uns noch ein weiteres sehr ernstes Thema. Viele Soldatinnen und Soldaten tun ihren Dienst mit einer beeindruckenden Haltung und dem richtigen Verständnis von Kameradschaft. Auch von ihnen höre ich Bestürzung und große Sorge angesichts der Fälle von Rechtsextremismus und der erschreckenden Verbindungen zwischen ihnen. Auch hier sind schonungslose Aufklärung und klare Konsequenzen – da nehmen wir Sie beim Wort, Frau Ministerin – geboten; denn es darf in unseren Sicherheitsbehörden keinen Platz für Rechtsextremismus geben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN, bei der SPD und der LINKEN sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg177">Meine Damen und Herren, in einer Welt, die rauer geworden ist und in der einige unsere Friedensordnung unter Beschuss nehmen, liegt unsere Zukunft in Europa. Aber mehr Europa darf eben nicht bedeuten, blind Donald Trumps Milliardenforderungen nachzulaufen oder zu springen, wenn er mehr Militär fordert. Im Gegenteil: Es braucht eine klare gemeinsame Stimme gegen seine gefährliche Politik der Provokation. Gerade die aktuelle Situation in der Golfregion zeigt doch, wie Hardliner auf allen Seiten so lange an der Eskalationsspirale drehen, bis die Kriegsgefahr riesig wird. Mehr denn je braucht es jetzt einen starken Einsatz für Krisenprävention und Diplomatie.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg178">Mehr Europa, das verlangt auch, sich zur Humanität zu bekennen. Auf dem Mittelmeer hat die Bundeswehr in den letzten Jahren Tausende Menschenleben gerettet. Aber alle europäischen Rettungsaktivitäten sind jetzt eingestellt. Freiwillige Retterinnen und Retter werden drangsaliert und kriminalisiert. Frau Kramp-Karrenbauer, setzen Sie sich gemeinsam mit dem Außenminister für eine zivile Seenotrettungsmission und eine faire Verteilung der Geretteten ein!</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg179">Solange Menschen vor unseren Augen ertrinken, können wir nicht glaubwürdig über ein Europa der Werte sprechen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg180">Nicht zuletzt: Eine moderne Sicherheitspolitik geht nicht ohne konsequenten Klimaschutz. Wo das Zuhause von Menschen zerstört wird, verschärfen sich Konflikte und entstehen neue Krisen. Wer die Erneuerbaren ausbremst und auf Öl, Kohle und Gas setzt, zerstört nicht nur die Zukunft unserer Kinder, sondern macht uns auch abhängig von den Bad Guys dieser Welt und füllt deren Taschen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg181">Daher appellieren wir an Sie als Verteidigungsministerin, aber auch als Mitglied im Kabinett Merkel: Klimaschutz ist kein Thema, wo Umweltministerin Schulze Vorschlägchen machen darf, die dann von der Union gekillt werden. Klimaschutz, das ist die Megaherausforderung unserer Zeit, und die Antworten liegen längst auf dem Tisch: Ausbau der Erneuerbaren, Kohleausstieg, CO 2 -Preis, Klimaschutzgesetz.</seg>
+          <kinesic type="applause">
+            <desc>Widerspruch bei der CDU/CSU und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg182">Sie müssen einfach nur handeln, für das Klima, für unsere Kinder und für unsere Sicherheit.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg183">Vielen Dank für die Aufmerksamkeit.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u17" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg184">Jetzt erteile ich das Wort dem Kollegen Henning Otte, CDU/CSU.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Henning Otte (CDU/CSU):</note>
+        <u who="#Q98819" xml:id="ParlaMint-DE_2019-07-24-19-109.u18" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg185">Sehr geehrter Herr Präsident! Meine sehr verehrten Damen und Herren! Es ist gut, dass wir als Parlament heute hier im Deutschen Bundestag zusammenkommen, um der Vereidigung unserer neuen Bundesverteidigungsministerin beizuwohnen; denn das ist unser Anspruch als Parlament. Wir gratulieren Ihnen sehr herzlich, sehr geehrte Frau Ministerin, zur Übernahme dieses so wichtigen Amtes. Wir wünschen Ihnen alles Gute. Ich sage als verteidigungspolitischer Sprecher: Wir freuen uns auf die Zusammenarbeit mit Ihnen; denn Sie haben deutlich zum Ausdruck gebracht, dass für Sie der Mensch, die Soldatinnen und Soldaten, ganz im Mittelpunkt steht, und zwar sowohl in Ihrer Rede zum feierlichen Gelöbnis am 20. Juli als auch heute noch einmal. Herzlichen Dank dafür! Wir setzen uns ein für die Soldatinnen und Soldaten, für die zivilen Mitarbeiter und damit für die Sicherheit unseres Landes.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg186">Ich bin auch dem Herrn Bundestagspräsidenten dankbar, dass er zu dieser Sitzung eingeladen hat; denn es geht darum, dass wir schnell Fahrt aufnehmen, dass die Inhaberin der Befehls- und Kommandogewalt die Führung übernimmt. Es ist ein starkes politisches Signal, dass die Bundesvorsitzende der CDU bereit ist, diese Verantwortung zu übernehmen, sozusagen die Bundeswehr zur politischen Chefsache zu erklären, und das auch mit einer solchen Sitzung des Deutschen Bundestages. Herr Dr. Bartsch, wenn ich Sie richtig verstanden habe, hätten Sie offensichtlich gerne auf diese Sitzung verzichtet. Sie wären offensichtlich gern irgendwo anders gewesen als hier, wo das Herz der Demokratie schlägt, ganz im Sinne eines Salonsozialismus: Gern die Freiheit dieses Landes genießen, aber nicht bereit sein, etwas dafür zu geben, dass wir die Sicherheit gewährleisten können!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg187">Die Ministerin hat deutlich gesagt, dass wir unseren Soldaten auch Vertrauen schenken, dass wir ihnen politische Rückendeckung geben und dass wir den Entscheidungsträgern wieder mehr Freiheit geben; denn die Bundeswehr muss einsatzbereiter werden, und wir müssen ein verlässlicher Partner für unsere Bündnispartner sein. Dazu ist es wichtig, dass wir die finanzielle Ausstattung verbessern. Man kann nicht auf der einen Seite beklagen, dass die Bundeswehr mehr Material braucht, und auf der anderen Seite ihr die finanzielle Ausstattung versagen. Wir müssen deutlich machen, dass die personelle Schutzausstattung und das Großgerät schneller zufließen müssen. Dafür müssen wir die Vergabeverordnung anpassen. Wir machen deutlich – genauso wie das unsere Bundeskanzlerin gesagt hat –: 1,5 Prozent bis 2024 ist unser klares Ziel, um die Modernisierung voranzubringen und ein verlässlicher Partner zu sein. Damit machen wir deutlich: Die Sicherheit unseres Landes ist nicht verhandelbar. Das Ziel 2 Prozent ist ein klarer Ausdruck dafür, dass wir bereit sind, in die Sicherheit unseres Landes zu investieren, für heute, für die Zukunft und für die nachfolgenden Generationen. Das ist nachhaltige Sicherheitspolitik.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg188">Wenn die Kollegin Brugger hier anmerkt, was alles in Deutschland besser gemacht werden müsste, dann kann ich nur sagen: Das ist ein typisch grünes Spiel, ein bisschen hier, ein bisschen mehr bei den Auslandsmandaten, ein Teil der Grünen dafür, der andere dagegen, die dritte Gruppe enthält sich, ganz nach Beliebigkeit. – Nein, wir brauchen keine Beliebigkeit. Wir brauchen ein klares Ziel. Wir brauchen eine klare Strategie, um aus der Stärke heraus unseren Frieden zu gewährleisten.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg189">Deswegen rufe ich unserem Koalitionspartner zu: Steht zu den Zusagen, die auf dem NATO-Gipfel in Wales getroffen worden sind. Es war der Außenminister Steinmeier, der immer wieder gesagt hat: Die Erreichung des 2-Prozent-Ziels ist wichtig. Wir müssen damit deutlich machen: Das, was die Bundesregierung an Verpflichtungen eingegangen ist, das wollen wir auch halten und unterstützen. – Wir wollen nicht im Nachhinein die Worte des jetzigen Bundespräsidenten diskreditieren, sondern wir stehen dazu.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg190">Wir müssen eines deutlich machen: Sicherheitspolitik hat sich nicht an der Stimmungslage einer Partei zu orientieren, sondern an dem, wie die Lage ist. Der IS ist zwar bekämpft, aber noch nicht besiegt. Deswegen leisten wir einen Beitrag in Syrien: mit den Betankungsflugzeugen, mit den Aufklärungsflugzeugen. Deswegen leisten wir einen Beitrag im Irak, um die Ausbildung der irakischen Armee weiter zu verbessern, um deutlich zu machen: Wir wollen, dass Frieden und Freiheit für unser Land gewährleistet ist, dass Frieden und Freiheit auch in anderen Ländern gewährleistet werden kann.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg191">Da wissen wir uns eines Partners im Rahmen der transatlantischen Beziehungen sicher. Wir stehen zu den USA in guten und auch in manchmal nicht so guten Zeiten. Was soll wohl Herr Gabriel als neuer Präsident der Atlantik-Brücke darüber denken, Herr Müntefering</seg>
+          <kinesic type="laughter">
+            <desc>Lachen bei Abgeordneten der SPD, der FDP und des BÜNDNISSES 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg192">– Herr Mützenich! Herr Müntefering hätte das wahrscheinlich nicht gesagt, was Sie heute zum amerikanischen Präsidenten gesagt haben.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg193">Wir müssen die materielle Ausstattung verbessern. Daher müssen wir bereit sein, auch den Beschaffungsprozess zu verbessern, und zwar nicht nur national, sondern auch europäisch. Wir wollen den Weg der Verteidigungsunion weiter voranbringen, und wir haben mit Ursula von der Leyen als Präsidentin der Europäischen Kommission jetzt genau die Chance, den Weg, den Sie eingeleitet haben, beherzt weiterzugehen, die Verteidigungsunion voranzubringen. Aber wir müssen deutlich sagen: Wir müssen unsere nationalen Interessen auch weiter wahren.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg194">Deswegen, meine Damen und Herren, sage ich hier zum Abschluss: Die Bundeswehr ist der Garant für die Sicherheit und für den Frieden. Die zivilen Mitarbeiter, die militärischen Mitarbeiter, sie alle stehen mit ihren Angehörigen und Familien zusammen, um den Frieden, die Freiheit, die Einigkeit und auch das Recht Deutschlands zu wahren. Das machen wir in der Gemeinschaft innerhalb der Vereinten Nationen, der NATO, der OSZE und auch der Europäischen Union. Wir wollen transatlantisch bleiben. Wir müssen europäischer werden. Dafür muss Deutschland Verantwortung zeichnen. Wir als Union sind dazu bereit. Wir freuen uns, dass Sie als Verteidigungsministerin, liebe Frau Kramp-Karrenbauer, dies in Ihrer Rede deutlich zum Ausdruck gebracht haben. Wir stehen ein für unser Land.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg195">Herzlichen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u19" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg196">Jetzt erteile ich das Wort der Kollegin Marie-Agnes Strack-Zimmermann, FDP.</seg>
+        </u>
+        <note type="speaker">Dr. Marie-Agnes Strack-Zimmermann (FDP):</note>
+        <u who="#Q15391841" xml:id="ParlaMint-DE_2019-07-24-19-109.u20" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg197">Sehr geehrter Herr Präsident! Verehrte Damen und Herren! Sehr geehrte Frau Ministerin, wir gratulieren Ihnen herzlich zur Wahl. Wir werden als konstruktive Opposition an Ihrer Seite stehen. Für uns übrigens, Herr Wadephul, ist es kein großes Fest, wenn Frauen Minister werden; das ist bei den Freien Demokraten selbstverständlich.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP – Lachen beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg198">Liebe Frau Brugger, wenn Frauen sich in die erste Reihe begeben, müssen sie auch Druck abkönnen; da gibt es keinen Artenschutz. Das sollten Sie auch wissen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg199">Wir werden Sie begleiten. Aber Ihre Vorgängerin hat ja eine Menge Minenfelder und wenige blühende Truppenübungsplätze hinterlassen. Umso interessanter war, dass Sie sich so dezidiert zum 2-Prozent-Ziel geäußert haben. Die SPD hat wie gewohnt reflexartig reagiert. Aber den Vogel abgeschossen hat ihr Generalsekretär: Wer der Bundesrepublik unterstellt, eine Marionette von US-Präsident Trump zu sein, der entlarvt nicht nur seinen gering ausgeprägten Intellekt, sondern er stellt auch Deutschlands Bündnisverlässlichkeit infrage, und das ist unsäglich.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg200">Und nun zum Mitschreiben nur noch für die Sozialdemokratie, weil Sie offensichtlich Ihre Geschichte vergessen: Das 2-Prozent-Ziel trägt die Handschrift des ehemaligen SPD-Außenministers Frank-Walter Steinmeier. Es war übrigens auch der Sozialdemokrat Helmut Schmidt, der den NATO-Doppelbeschluss durchsetzte. Es war der Sozialdemokrat Peter Struck, der erklärte, die Sicherheit der Bundesrepublik werde am Hindukusch verteidigt. Es war der Sozialdemokrat Gerhard Schröder, der, übrigens zusammen mit den Grünen, die Bundeswehr nach Afghanistan geschickt hat. Das nur mal zur Erinnerung. Bei Ihnen scheint da ja ein Loch im Großhirn zu sein.</seg>
+          <kinesic type="applause">
+            <desc>Heiterkeit und Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg201">Frau Ministerin, abschließend: Sie haben Anspruch auf Schonfrist in den ersten 100 Tagen. Aber Sie wissen wie ich, dass wir im Grunde genommen diese Zeit nicht haben. Lösen Sie die Probleme! Ich wünsche Ihnen dabei sehr, sehr viel Glück. Beenden Sie das „Gorch Fock“-Desaster, das schwimmende Beispiel für Missmanagement, fehlende Kontrolle und Gutgläubigkeit den Staatssekretären gegenüber! Sorgen Sie dafür, dass in Ihrem Ministerium keine weiteren Aufträge ohne korrekte Ausschreibung erteilt werden! Es darf nicht mehr so sein, dass man sich nur kennen muss, um an lukrative Aufträge zu kommen. Wir behandeln das gerade im Beraterverträge-Untersuchungsausschuss.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg202">Frau Ministerin, mehr Mittel für die Bundeswehr, besseres Management, gepaart mit Mehrausgaben für die Diplomatie und die Entwicklungshilfe, wenn Sie diesen Weg gehen, haben Sie uns an Ihrer Seite.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u21" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg203">Jetzt erteile ich das Wort dem Kollegen Dr. Fritz Felgentreu.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg204">Da der Geräuschpegel allmählich ansteigt, bitte ich, auch den beiden letzten Rednern in dieser Debatte genügend Aufmerksamkeit zukommen zu lassen.</seg>
+        </u>
+        <note type="speaker">Dr. Fritz Felgentreu (SPD):</note>
+        <u who="#Q1466201" xml:id="ParlaMint-DE_2019-07-24-19-109.u22" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg205">Vielen Dank. – Herr Präsident! Meine Damen und Herren! Zunächst möchte ich Ihnen, sehr geehrte Frau Bundesministerin, zu Ihrem neuen Amt gratulieren und Ihnen eine glückliche Hand wünschen. Ich sage nichts Neues, wenn ich hinzufüge: Die Bundeswehr braucht jetzt eine Ministerin, die mit ganzer Tatkraft und Fortune die anstehenden Entscheidungen vorantreibt.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg206">Das große Thema der Verteidigungspolitik ist die volle Wiederherstellung der Einsatzbereitschaft der Bundeswehr, und zwar nicht nur für Auslandseinsätze, sondern auch für die Aufgaben der Bündnis- und Landesverteidigung. Nach jahrzehntelangem Ab- und Rückbau ist das eine schwere Aufgabe. Das ist längst auch denjenigen klar, die sich nicht täglich mit Verteidigungspolitik beschäftigen. Die Bundeswehr ist heute eine in der Geschichte der deutschen Streitkräfte einmalig kleine Armee, und sie wird es auch bleiben. Wir garantieren die Sicherheit des Landes mit weniger als 200 000 Soldatinnen und Soldaten. Das geht nur als Teil eines starken Bündnisses. Umso wichtiger ist, dass wir diese kleine Armee zu 100 Prozent mit Personal, Waffen und Gerät ausstatten, damit sie ihren Auftrag erfüllen kann.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD und der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg207">Wir haben dafür in der Koalition die Weichen gestellt; insbesondere dieses Haus hat seinen Teil getan. Jahr für Jahr stellt der Deutsche Bundestag zusätzliche Mittel bereit. Frau Ministerin, aus diesem Grund habe ich wenig Verständnis dafür, dass Sie am Wochenende in einer Ihrer ersten Verlautbarungen im Amt meinten beim Thema Verteidigungsetat den Koalitionspartner ein bisschen treiben zu müssen. Ich habe das als schlechten Start für die Zusammenarbeit empfunden. Deswegen gestatten Sie mir, uns allen kurz ein paar Fakten in Erinnerung zu rufen: Erstens. Wir haben in der Koalition eine klare Vereinbarung, bis 2024 eine NATO-Quote von 1,5 Prozent zu erreichen. Darüber hinaus könnte heute keine Koalition seriös planen. Zweitens. Die Bundesregierung hat der NATO dieses Ziel auch offiziell gemeldet. Damit sind wir verbindlich in der Pflicht, und das bestreitet auch niemand. Drittens – damit keine Missverständnisse aufkommen –: Erst seit die SPD wieder regiert, unternimmt dieses Land Jahr für Jahr größere Anstrengungen für Sicherheit und Verteidigung.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD – Widerspruch bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg208">Seit 2005 war ein Unionsminister nach dem anderen für Abbau und Fähigkeitsverlust verantwortlich.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der SPD: So ist das!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg209">Insbesondere die Amtszeit des Verteidigungsministers zu Guttenberg hat bis heute Nachwirkungen mit desaströsen Folgen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg210">Seit die SPD regiert, haben wir einen Aufwuchs des Etats um fast 40 Prozent erreicht. Im Haushalt 2019, für den Olaf Scholz verantwortlich zeichnet, haben wir einen Anstieg von 12 Prozent. Kein Finanzminister der Union hätte das geschafft.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei Abgeordneten der SPD – Lachen bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg211">Und wir werden weiter nicht lockerlassen, um die Bundeswehr wieder dahin zu bringen, wo dieses Land sie braucht.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg212">Sie, Frau Ministerin, lade ich ein, auf der vom Deutschen Bundestag geschaffenen Grundlage endlich die Ministerin für Personalaufbau und Fähigkeitsaufbau zu werden, die die Bundeswehr braucht. Sorgen Sie dafür, dass Verwaltung und Ministerium endlich schnell, zielgerichtet und effektiv arbeiten! Geben Sie die Richtung vor: bei der Inneren Führung, beim Schweren Transporthubschrauber, beim Mehrzweckkampfschiff, bei der Tornado-Nachfolge, bei der Raketenabwehr, bei der Speerspitzen-Brigade für 2023. Es ist viel liegen geblieben in den letzten Monaten. Es gibt unendlich viel zu tun.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg213">Und seien Sie versichert: Wenn Sie jetzt Schritt für Schritt umsetzen, was Ihres Amtes ist, dann werden Sie in der SPD-Fraktion einen konstruktiven Partner dafür haben.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg214">Vielen Dank.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u23" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg215">Voraussichtlich letzter Redner in dieser Debatte ist der Kollege Dr. Reinhard Brandl, CDU/CSU.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Dr. Reinhard Brandl (CDU/CSU):</note>
+        <u who="#Q111160" xml:id="ParlaMint-DE_2019-07-24-19-109.u24" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg216">Herr Präsident! Verehrte Kolleginnen und Kollegen! Es wäre uns in der Verteidigungspolitik viel geholfen, wenn alle in der SPD so wie der Kollege Felgentreu mehr Geld für die Bundeswehr wollen würden. Liebe Kolleginnen und Kollegen von der SPD, nehmen Sie sich ein Beispiel an Ihrem verteidigungspolitischen Sprecher! Er hat heute vieles Richtige gesagt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg217">Frau Bundesministerin, ich gratuliere Ihnen recht herzlich zu Ihrem Amt. Deutsche Verteidigungsministerin, das ist nicht das leichteste Amt unter der Sonne. Aber ich kann sagen: Es ist mit eines der interessantesten Ämter, die man in Deutschland erreichen kann. Sie haben eine tolle Truppe, und Sie haben Gestaltungsspielraum.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg218">Ich glaube, als Verteidigungsministerin kann man viel machen; man kann aber auch viel falsch machen. Ihre Vorgängerin, Frau von der Leyen, hat vieles, vieles richtig gemacht.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg219">Sie wird als die Ministerin in die Geschichte eingehen, die in der Bundeswehr die Trendwenden geschafft hat. Sie wird als die Ministerin in die Geschichte eingehen, die mit 32 Milliarden Euro übernommen und mit 45 Milliarden Euro übergeben hat. Das muss ihr erst einmal einer nachmachen. Frau von der Leyen, wir können Ihnen dankbar sein.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg220">Aber Geld ist nicht alles. Was die Ministerin geschafft hat, ist, dass sie den Mut gehabt hat, den Finger in die Wunde zu legen; denn es läuft nicht alles rund bei der Bundeswehr und bei der Beschaffungsorganisation.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg221">Was wir heute haben, ist die transparenteste Bundeswehr, die wir jemals hatten. Ich habe Ihnen hier beispielhaft den Rüstungsbericht mitgebracht. Es ist mittlerweile die neunte Ausgabe, 250 Seiten. Über jedes einzelne Rüstungsvorhaben wird im Detail berichtet, über Schwierigkeiten und über Risiken. Da läuft nicht alles rund. Herr Lucassen von der AfD, früher war auch nicht alles besser. Aber früher haben wir es nicht gewusst. Jetzt wissen wir es, und das ist wichtig, um die Probleme zu lösen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg222">Meine Damen und Herren, Geld ist nicht alles, aber es ist natürlich ein Teil der Lösung. Es ist auch kein Selbstzweck; denn es sind wir hier im Deutschen Bundestag, die unsere Soldatinnen und Soldaten in die Auslandseinsätze schicken. Es sind wir hier, die ihnen die Aufgaben geben, und es ist unsere verdammte Pflicht, ihnen zumindest die Ausrüstung zu geben, die sie zur Erfüllung ihres Auftrags brauchen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg223">Es geht um mehr Geld. Da will ich Ihnen eine ganz einfache Rechnung aufmachen. Allein um die Substanz zu erhalten, braucht die Bundeswehr eine knappe Milliarde Euro im Jahr mehr. Sie braucht dieses Geld, um die Personalkostensteigerung und die allgemeine Preisentwicklung aufzufangen. Wenn sie dieses Geld nicht bekommt, dann geht das zulasten der Substanz. Wir haben bei der Bundeswehr über viele, viele Jahre auf Kosten der Substanz gelebt, und das hat Frau von der Leyen abgestellt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg224">Aber diese Milliarde reicht nicht, um neue Fähigkeiten zu bekommen, um neue Antworten auf die Herausforderungen unserer Zeit zu geben. Meine Damen und Herren, überall auf der Welt verbreiten sich moderne Langstreckenraketentechnologien. Was wir in Deutschland haben, schützt uns gegen die Raketen der 1990er- und 2000er-Jahre. Das ist kein Schutz gegen die Bedrohungen unserer Zeit. Wir reden viel über den Cyberraum. Die Bundeswehr ist heute in der Lage, ihre eigenen Netze zu schützen. Sie ist bei Weitem nicht in der Lage, unser Land vor einem großflächigen Cyberangriff zu schützen. Der Schwere Transporthubschrauber ist 1972 in die Bundeswehr eingeführt worden. Kurz danach ist der Tornado eingeführt worden. Mit dem Material – das ist jetzt 40, 50 Jahre alt – schützen wir unser Land. Meine Damen und Herren, das ist nicht angemessen. Wir brauchen dringend mehr Investitionen.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg225">Zu den 2 Prozent, um die es hier allen geht. Da denkt man: Die kommen vom Himmel oder von Donald Trump. – Meine Damen und Herren, die Bundeswehr hat ein Fähigkeitsprofil vorgelegt, eine Finanzbedarfsanalyse vorgelegt, worin sie Punkt für Punkt begründet hat, was sie für die Erfüllung ihrer Aufgaben braucht. Von all den Rednern, die sich heute dagegen gewandt haben, die gesagt haben: „Nein, nicht zusätzlich Geld für die Bundeswehr; das führt nur zu einer Aufrüstung“, hat kein einziger gesagt, welche Aufgabe die Bundeswehr nicht erfüllen soll. Meine Damen und Herren, das gehört aber zur Seriosität dazu, wenn man sich hinstellt und sagt: Die Bundeswehr ist genügend finanziert.</seg>
+          <vocal type="exclamat">
+            <desc>Johannes Kahrs [SPD]: Ihr habt sie doch kaputtgespart!</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg226">Frau Kramp-Karrenbauer kann vieles, aber, liebe Kolleginnen und Kollegen, sie kann nicht zaubern.</seg>
+          <vocal type="exclamat">
+            <desc>Zuruf von der SPD: Ach so?</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg227">Sie wird die Unterstützung des Parlaments brauchen, um die Soldaten, um die Bundeswehr wieder optimal auszurüsten. Ich kann Ihnen, Frau Ministerin, von meiner Fraktion zusichern: Unsere Unterstützung haben Sie. Alles Gute und Gottes Segen für Ihr Amt!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Präsident Dr. Wolfgang Schäuble:</note>
+        <u who="#Q16019" xml:id="ParlaMint-DE_2019-07-24-19-109.u25" ana="#chair">
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg228">Damit schließe ich die Aussprache.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg229">Wir kommen zu dem Entschließungsantrag der Fraktion Die Linke auf der Drucksache 19/11870. Die Fraktion Die Linke wünscht Abstimmung in der Sache; die Fraktionen der CDU/CSU und SPD wünschen Überweisung, und zwar federführend an den Verteidigungsausschuss und mitberatend an den Auswärtigen Ausschuss.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg230">Nach ständiger Übung stimmen wir zunächst über den Antrag auf Ausschussüberweisung ab. Ich frage deshalb: Wer stimmt für die beantragte Überweisung? – Wer stimmt dagegen? – Dann haben alle Fraktionen mit Ausnahme der Fraktion Die Linke für die Überweisung gestimmt, und die Überweisung ist somit beschlossen. Damit stimmen wir über den Entschließungsantrag auf der Drucksache 19/11870 in der Sache nicht ab.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg231">Schon sind wir am Schluss unserer heutigen Tagesordnung.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg232">Ich danke Ihnen, dass Sie alle mitgeholfen haben, die Sitzung an diesem ungewöhnlichen Ort ordnungsgemäß abzuhalten.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg233">Ich berufe die nächste Sitzung des Deutschen Bundestages auf Dienstag, den 10. September 2019, 10 Uhr, ein.</seg>
+          <seg id="ParlaMint-DE_2019-07-24-19-109.seg234">Ich wünsche Ihnen weiterhin gute, erholsame Wochen und schließe die Sitzung.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluss: 13.39 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>

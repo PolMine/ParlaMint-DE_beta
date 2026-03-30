@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_2021-12-08-20-005">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="de">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages, 20. Wahlperiode, 5. Sitzung [ParlaMint]</title>
+        <title type="sub" xml:lang="de">Plenarprotokoll vom 08.12.2021 (5. Sitzung der 20. Wahlperiode)</title>
+        <title type="main" xml:lang="en">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag, Legislative Period 20, Session 5 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Plenary Protocol of 2021-12-08 (Session 5 in Legislative Period 20)</title>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.sitting" n="5">5. Sitzung</meeting>
+        <meeting xml:lang="de" corresp="#BT" ana="#parla.lower #parla.term #BT.20" n="20">20. Wahlperiode</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.sitting" n="5">Session 5</meeting>
+        <meeting xml:lang="en" corresp="#BT" ana="#parla.lower #parla.term #BT.20" n="20">Legislative Period 20</meeting>
+        <respStmt>
+          <persName ref="https://orcid.org/0000-0001-8970-8010">Andreas Blätte</persName>
+          <resp xml:lang="de">Projektplanung und -management, initiale Aufbereitung des GermaParl Korpus der Plenardebatten des Deutschen Bundestages v1 (1996 - 2016) einschließlich der Implementierung des ursprünglichen Aufbereitungsworkflows zur Erstellung von TEI/XML, der ursprünglichen Datenbeschaffung und der ursprünglichen Sammlung von Metadaten; Koordination der zeitlichen Erweiterung des Korpus im ursprünglichen TEI/XML-Format</resp>
+          <resp xml:lang="en">Project setup and management, initial creation of the GermaParl Corpus of Plenary Debates v1 (1996 - 2016) including the implementation of the initial preparation workflow to create structurally annotated TEI/XML, initial data retrieval and initial collection of metadata; Coordination of the temporal extension of the corpus in the initial TEI/XML format</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Christoph Leonhardt</persName>
+          <resp xml:lang="de">Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ursprünglichen TEI/XML-Format für den Zeitraum 1949 - 2025, Weiterentwicklung des Aufbereitungsworkflows zur Erstellung des Korpus im ParlaMint Encoding Standard, weitere Datenbeschaffung, Erweiterung der Metadaten, manuelle Korrekturen</resp>
+          <resp xml:lang="en">Advancement of the preparation workflow of GermaParl in the initial TEI/XML format for an extended period (1949 - 2025), advancement of the preparation workflow of GermaParl in the ParlaMint encoding standard, additional data retrieval, extension of the metadata collection, manual corrections</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">KonsortSWD (Consortium for the Social, Behavioural, Educational, and Economic Sciences)</orgName>
+          <orgName xml:lang="de">KonsortSWD (Konsortium für die Sozial-, Verhaltens-, Bildungs- und Wirtschaftswissenschaften)</orgName>
+          <ref target="https://www.konsortswd.de">https://www.konsortswd.de</ref>
+        </funder>
+        <funder>
+          <orgName xml:lang="en">Text+</orgName>
+          <orgName xml:lang="de">Text+</orgName>
+          <ref target="https://text-plus.org">https://text-plus.org</ref>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>TBA</edition>
+      </editionStmt>
+      <extent>
+        <measure/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="de">TBA</orgName>
+          <orgName xml:lang="en">TBA</orgName>
+          <ref target="TBA">TBA</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">TBA</idno>
+        <availability status="free">
+          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
+          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+        </availability>
+        <date when="TBA">TBA</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="de">Deutscher Bundestag - Plenarprotokoll vom 08.12.2021</title>
+          <title type="main" xml:lang="en">German Bundestag - Plenary Protocol of 2021-12-08</title>
+          <publisher>Deutscher Bundestag</publisher>
+          <idno type="URI" subtype="parliament" when="2023-12-14">https://www.bundestag.de/resource/blob/871012/12b36dddb4a43f7800e2d3a4dbe96750/20005.xml</idno>
+          <date when="2021-12-08">2021-12-08</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">TBA</p>
+        <p xml:lang="de">TBA</p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace>
+          <tagUsage gi="body"/>
+          <tagUsage gi="desc"/>
+          <tagUsage gi="div"/>
+          <tagUsage gi="gap"/>
+          <tagUsage gi="note"/>
+          <tagUsage gi="seg"/>
+          <tagUsage gi="text"/>
+          <tagUsage gi="time"/>
+          <tagUsage gi="u"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city" xml:lang="de">Berlin</name>
+          <name type="city" xml:lang="en">Berlin</name>
+          <name type="country" key="DE" xml:lang="en">Germany</name>
+          <name type="country" key="DE" xml:lang="de">Deutschland</name>
+          <date ana="#parla.sitting" when="2021-12-08">2021-12-08</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="debateSection" n="2" ana="#DE-election">
+        <head>Wahl des Bundeskanzlers</head>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u1" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg1">Liebe Gäste! Sehr verehrte Damen und Herren! Liebe Kolleginnen und Kollegen! Einen schönen guten Morgen! Die Sitzung ist eröffnet.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg2">Ich begrüße auf der Ehrentribüne die geschäftsführende Bundeskanzlerin Frau Dr. Angela Merkel.</seg>
+          <incident type="action">
+            <desc>Langanhaltender Beifall bei der CDU/CSU, der SPD, dem BÜNDNIS 90/DIE GRÜNEN, der FDP und der LINKEN – Die Abgeordneten der CDU/CSU, der SPD, des BÜNDNISSES 90/DIE GRÜNEN, der FDP und der LINKEN erheben sich</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg3">Weiterhin begrüße ich auch ehemalige Repräsentantinnen und Repräsentanten der Verfassungsorgane, seine Exzellenz den Apostolischen Nuntius und alle weiteren Gäste, die auf den Tribünen Platz genommen haben. Herzlich willkommen!</seg>
+          <kinesic type="applause">
+            <desc>Beifall</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg4">Damit rufe ich den Tagesordnungspunkt 2 auf:</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg5">Wahl des Bundeskanzlers</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg6">Der Herr Bundespräsident hat mir hierzu mitgeteilt:</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg7">Gemäß Artikel 63 Absatz 1 des Grundgesetzes für die Bundesrepublik Deutschland schlage ich dem Deutschen Bundestag vor, Herrn Olaf Scholz zum Bundeskanzler zu wählen.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg8">Ich bitte nun um Ihre Aufmerksamkeit für einige Hinweise zum Wahlverfahren. Die Wahl findet mit verdeckten Stimmkarten, also geheim, statt. Gewählt ist, wer die Stimmen der Mehrheit der Mitglieder des Bundestages, also mindestens 369 Stimmen, erhält. Für diese Wahl benötigen Sie Ihren blauen Wahlausweis aus Ihrem Stimmkartenfach in der Westlobby. Die Abgeordneten auf den Tribünen haben oder werden noch ihre Wahlausweise vom Plenarassistenzdienst erhalten. Bitte kontrollieren Sie, ob der Wahlausweis auch Ihren eigenen Namen trägt.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg9">Die Abgeordneten hier unten im Plenarsaal werden in der Abgeordnetenlobby wählen. Gehen Sie zum Wählen bitte erst nach Aufruf Ihres Namens, nicht alle auf einmal. In der Abgeordnetenlobby erhalten Sie an den Ausgabetischen eine blaue Stimmkarte und auch den amtlichen Wahlumschlag. Die Abgeordneten auf der Tribüne werden auf der Tribünenebene wählen. Dort befinden sich auch ein Ausgabetisch für die genannten Wahlunterlagen sowie eine Wahlkabine.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg10">Gültig sind nur Stimmen mit einem Kreuz bei „ja“, „nein“ oder „enthalte mich“. Ungültig sind Stimmen auf nichtamtlichen Stimmkarten sowie Stimmkarten, die mehr als ein Kreuz, kein Kreuz, andere Namen oder Zusätze enthalten. Sie dürfen Ihre Stimmkarte nur in der Wahlkabine ankreuzen, und Sie müssen ebenfalls noch in der Wahlkabine die Stimmkarte in den Umschlag legen. Die Schriftführerinnen und Schriftführer sind verpflichtet, jeden, der seine Stimmkarte außerhalb der Wahlkabine kennzeichnet oder in den Umschlag legt, zurückzuweisen. Die Stimmabgabe kann in diesem Fall jedoch vorschriftsmäßig wiederholt werden.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg11">Nachdem Sie die Stimmkarte in einer der Wahlkabinen gekennzeichnet und dort in den Wahlumschlag gelegt haben, gehen Sie bitte zu den Wahlurnen. Bevor Sie den Wahlumschlag in eine der Wahlurnen werfen, müssen Sie Ihren Wahlausweis einer der Schriftführerinnen oder einem der Schriftführer an der Wahlurne übergeben. Der Nachweis der Teilnahme an der Wahl kann nur durch die Abgabe des Wahlausweises erbracht werden.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg12">Das Fotografieren oder Filmen der ausgefüllten Stimmkarten stellt einen Verstoß gegen das Wahlgeheimnis dar und verletzt die Ordnung und Würde des Hauses. Für den Fall, dass ich von solchen Verstößen gegen das Wahlgeheimnis in dieser Sitzung oder auch später Kenntnis erhalte, behalte ich mir vor, Ordnungsmaßnahmen zu ergreifen.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg13">Ich bitte jetzt die eingeteilten Schriftführerinnen und Schriftführer, die vorgesehenen Plätze einzunehmen. Ich bitte Sie, den Namensaufruf zu verfolgen und sich nach Aufruf Ihres Namens zur Entgegennahme der Stimmkarte und des Wahlumschlages zu den Ausgabetischen zu begeben.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg14">Haben alle Schriftführerinnen und Schriftführer ihre Plätze in der Abgeordnetenlobby eingenommen? – Das ist der Fall.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg15">Ich eröffne die Wahl und bitte, mit dem Aufruf der Namen zu beginnen.</seg>
+          <incident type="incident">
+            <desc>Namensaufruf und Wahl</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg16">Meine Damen und Herren, der Namensaufruf ist beendet. Ich frage einmal, ob alle Mitglieder des Hauses – auch die Schriftführerinnen und Schriftführer – ihre Stimme abgegeben haben. – Ich höre, dass das der Fall ist. Ich schließe die Wahl und bitte die Schriftführerinnen und Schriftführer, mit der Auszählung zu beginnen.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg17">Zur Auszählung unterbreche ich die Sitzung für etwa 30 Minuten. Der Wiederbeginn der Sitzung wird rechtzeitig durch Klingelsignal angekündigt. Und: Während der Sitzungsunterbrechung dürfen Sie auch fotografieren.</seg>
+        </u>
+        <vocal type="interruption">
+          <desc>Unterbrechung von 9.44 bis 10.16 Uhr</desc>
+        </vocal>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u2" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg18">Meine Damen und Herren, nehmen Sie bitte Platz. Die unterbrochene Sitzung ist wieder eröffnet.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg19">Vielleicht ein paar Vorbemerkungen noch, bevor ich das Ergebnis der Wahl bekannt gebe: Normalerweise ist es hier im Saal während einer laufenden Sitzung nicht erlaubt, zu fotografieren. Heute ist aber ein besonderer Tag, und damit ich nicht 736 Ordnungsrufe erteilen muss, erlaube ich für diesen Tag allen Abgeordneten, zu fotografieren – aber bitte diskret!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN, der FDP und der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg20">Aber freuen Sie sich nicht zu früh, das gilt nur für heute.</seg>
+          <kinesic type="amusement">
+            <desc>Heiterkeit</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg21">Ab morgen gelten wieder die strengen Regeln.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg22">Jetzt aber zum wichtigen Teil: Ich gebe das von den Schriftführerinnen und Schriftführern ermittelte Ergebnis der Wahl bekannt: Mitgliederzahl 736, abgegebene Stimmen 707, ungültige Stimmzettel 3. Mit Ja haben gestimmt 395 Abgeordnete.</seg>
+          <incident type="action">
+            <desc>Langanhaltender Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP – Beifall bei Abgeordneten der CDU/CSU und der LINKEN – Die Abgeordneten der SPD, des BÜNDNISSES 90/DIE GRÜNEN und der FDP erheben sich</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg23">– Vielen Dank. Wir können das gleich weitermachen, aber ich wollte noch die anderen Stimmzahlen bekannt geben.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg24">Mit Nein haben gestimmt 303 Abgeordnete, Enthaltungen 6.</seg>
+          <incident type="editorial">
+            <desc>1</desc>
+          </incident>
+          <incident type="editorial">
+            <desc>Namensverzeichnis der Teilnehmerinnen und Teilnehmer an der Wahl siehe Anlage 2</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg25">Herr Olaf Scholz hat die erforderliche Mehrheit von mindestens 369 Stimmen erreicht. Er ist gemäß Artikel 63 Absatz 2 des Grundgesetzes zum Bundeskanzler der Bundesrepublik Deutschland gewählt.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU und der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg26">Jetzt kommt aber die alles entscheidende Frage. Ich frage Sie, Herr Abgeordneter Scholz: Nehmen Sie die Wahl an?</seg>
+        </u>
+        <note type="speaker">Olaf Scholz (SPD):</note>
+        <u who="#Q61053" xml:id="ParlaMint-DE_2021-12-08-20-005.u3" ana="#regular #DE-mp">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg27">Ja.</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD und der FDP sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN</desc>
+        </kinesic>
+        <note type="speaker">Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u4" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg28">Das war laut und vernehmlich. – Herr Bundeskanzler, ich gratulieren Ihnen im Namen des ganzen Hauses zu Ihrer Wahl. Auch persönlich wünsche ich Ihnen viel Kraft für die vor Ihnen liegenden Aufgaben.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg29">Das Ergebnis der Wahl werde ich jetzt unverzüglich dem Herrn Bundespräsidenten mitteilen.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg30">Voraussichtlich um 12 Uhr findet die Eidesleistung des Bundeskanzlers statt.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg31">Der Wiederbeginn der Sitzung wird rechtzeitig durch Klingelsignal angekündigt, und jetzt unterbreche ich die Sitzung.</seg>
+          <vocal type="interruption">
+            <desc>Unterbrechung von 10.20 bis 12.01 Uhr</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg32">Präsidentin Bärbel Bas:</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg33">Die unterbrochene Sitzung ist wieder eröffnet.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg34">Ich rufe den Tagesordnungspunkt 3 auf:</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg35">Eidesleistung des Bundeskanzlers</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg36">Der Herr Bundespräsident hat mir mit Schreiben vom heutigen Tage mitgeteilt:</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg37">Gemäß Artikel 63 Absatz 2 des Grundgesetzes für die Bundesrepublik Deutschland habe ich heute Herrn Abgeordneten Olaf Scholz zum Bundeskanzler ernannt.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg38">Nach Artikel 64 Absatz 2 des Grundgesetzes leistet der Bundeskanzler bei der Amtsübernahme vor dem Deutschen Bundestag den in Artikel 56 des Grundgesetzes vorgesehenen Eid.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg39">Herr Bundeskanzler, ich bitte Sie, zur Eidesleistung zu mir zu kommen.</seg>
+          <incident type="action">
+            <desc>Die Anwesenden erheben sich</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg40">Herr Bundeskanzler, ich halte die Urschrift des Grundgesetzes in meinen Händen. Ich bitte Sie, die in Artikel 56 vorgeschriebene Eidesformel zu sprechen.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="3" ana="#DE-oath">
+        <head>Eidesleistung des Bundeskanzlers</head>
+        <note type="speaker">Olaf Scholz, Bundeskanzler:</note>
+        <u who="#Q61053" xml:id="ParlaMint-DE_2021-12-08-20-005.u5" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg41">Ich schwöre, dass ich meine Kraft dem Wohle des deutschen Volkes widmen, seinen Nutzen mehren, Schaden von ihm wenden, das Grundgesetz und die Gesetze des Bundes wahren und verteidigen, meine Pflichten gewissenhaft erfüllen und Gerechtigkeit gegen jedermann üben werde.</seg>
+        </u>
+        <note type="speaker">Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u6" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg42">Vielen Dank. Ich danke Ihnen. – Viel Glück für Ihre Aufgabe.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, der CDU/CSU, dem BÜNDNIS 90/DIE GRÜNEN, der FDP und der LINKEN sowie bei Abgeordneten der AfD und des Abg. Stefan Seidler [fraktionslos]</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg43">Meine Damen und Herren, ich stelle fest, dass der Herr Bundeskanzler den vorgeschriebenen Eid vor dem Deutschen Bundestag geleistet hat.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg44">Herr Bundeskanzler, ich darf Ihnen auch noch mal auf diesem Wege für alle Ihre Aufgaben alle guten Wünsche mit auf den Weg geben.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg45">Die Sitzung wird voraussichtlich um 13.30 Uhr mit der Bekanntgabe der vom Bundespräsidenten ernannten Mitglieder der neuen Bundesregierung und ihrer Vereidigung fortgesetzt. Der Wiederbeginn der Sitzung wird rechtzeitig durch Klingelsignal angekündigt.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg46">Ich unterbreche die Sitzung.</seg>
+          <vocal type="interruption">
+            <desc>Unterbrechung von 12.03 bis 13.38 Uhr</desc>
+          </vocal>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg47">Präsidentin Bärbel Bas:</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg48">Meine Damen und Herren! Liebe Kolleginnen und Kollegen! Die unterbrochene Sitzung ist wieder eröffnet.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg49">Ich rufe auf den Tagesordnungspunkt 4:</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg50">Bekanntgabe der Bildung der Bundesregierung</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg51">Der Herr Bundespräsident hat mir hierzu mit Schreiben vom heutigen Tag mitgeteilt:</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg52">Gemäß Artikel 64 Absatz 1 des Grundgesetzes für die Bundesrepublik Deutschland habe ich heute auf Vorschlag des Herrn Bundeskanzlers ernannt:</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg53">Dr. Robert Habeck zum Bundesminister für Wirtschaft und Klimaschutz,</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN, bei der SPD und der FDP sowie bei Abgeordneten der CDU/CSU und der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg54">Christian Lindner zum Bundesminister der Finanzen,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP, der SPD und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg55">Nancy Faeser zur Bundesministerin des Innern und für Heimat,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg56">Annalena Baerbock zur Bundesministerin des Auswärtigen,</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN, bei der SPD und der FDP sowie bei Abgeordneten der CDU/CSU und der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg57">Dr. Marco Buschmann zum Bundesminister der Justiz,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP, der SPD und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg58">Hubertus Heil zum Bundesminister für Arbeit und Soziales,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU und der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg59">Christine Lambrecht zur Bundesministerin der Verteidigung,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg60">Cem Özdemir zum Bundesminister für Ernährung und Landwirtschaft,</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN, bei der SPD und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg61">Anne Spiegel zur Bundesministerin für Familie, Senioren, Frauen und Jugend,</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN, bei der SPD und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg62">Professor Dr. Karl Lauterbach zum Bundesminister für Gesundheit,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU und der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg63">Dr. Volker Wissing zum Bundesminister für Digitales und Verkehr,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP, der SPD und dem BÜNDNIS 90/DIE GRÜNEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg64">Steffi Lemke zur Bundesministerin für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz,</seg>
+          <kinesic type="applause">
+            <desc>Beifall beim BÜNDNIS 90/DIE GRÜNEN, bei der SPD und der FDP sowie bei Abgeordneten der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg65">Bettina Stark-Watzinger zur Bundesministerin für Bildung und Forschung,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der FDP, der SPD und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg66">Svenja Schulze zur Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung,</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg67">Klara Geywitz zur Bundesministerin für Wohnen, Stadtentwicklung und Bauwesen</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg68">und</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg69">Wolfgang Schmidt zum Bundesminister für besondere Aufgaben.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg70">Präsidentin Bärbel Bas:</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg71">Ich rufe auf den Tagesordnungspunkt 5:</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg72">Eidesleistung der Bundesministerinnen und Bundesminister</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg73">Meine Damen und Herren, nach Artikel 64 Absatz 2 des Grundgesetzes leisten die Bundesministerinnen und Bundesminister – –</seg>
+          <incident type="action">
+            <desc>Abgeordnete der SPD und des BÜNDNISSES 90/DIE GRÜNEN erheben sich</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg74">– Sie können sich mit Ihrer Bewegungsübung noch kurz zurückhalten.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg75">Nach Artikel 64 Absatz 2 des Grundgesetzes leisten die Bundesministerinnen und Bundesminister bei der Amtsübernahme vor dem Deutschen Bundestag den in Artikel 56 des Grundgesetzes vorgesehenen Eid.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg76">Ich werde den Eid jetzt vorsprechen und bitte dann die Mitglieder der Bundesregierung, einzeln zum Mikrofon zu kommen und den Eid mit den Worten „Ich schwöre es, so wahr mir Gott helfe“ oder „Ich schwöre es“ zu bekräftigen.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg77">Der Eid lautet:</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg78">Ich schwöre, dass ich meine Kraft dem Wohle des deutschen Volkes widmen, seinen Nutzen mehren, Schaden von ihm wenden, das Grundgesetz und die Gesetze des Bundes wahren und verteidigen, meine Pflichten gewissenhaft erfüllen und Gerechtigkeit gegen jedermann üben werde.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg79">Ich darf jetzt die Bundesministerinnen und Bundesminister zur Bekräftigung des Eides zu mir bitten.</seg>
+          <incident type="action">
+            <desc>Die Anwesenden erheben sich</desc>
+          </incident>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg80">Dr. Robert Habeck , Bundesminister für Wirtschaft und Klimaschutz.</seg>
+        </u>
+      </div>
+      <div type="debateSection" n="5" ana="#DE-oath">
+        <head>Eidesleistung der Bundesministerinnen und Bundesminister</head>
+        <note type="speaker">Dr. Robert Habeck, Bundesminister für Wirtschaft und Klimaschutz:</note>
+        <u who="#Q109943" xml:id="ParlaMint-DE_2021-12-08-20-005.u7" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg81">Ich schwöre es.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u8" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg82">Herzlichen Glückwunsch und viel Erfolg!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP</desc>
+        </kinesic>
+        <note type="speaker">Dr. Robert Habeck, Bundesminister für Wirtschaft und Klimaschutz:</note>
+        <u who="#Q109943" xml:id="ParlaMint-DE_2021-12-08-20-005.u9" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg83">Vielen Dank.</seg>
+        </u>
+        <note type="speaker">Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u10" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg84">Christian Lindner, Bundesminister der Finanzen.</seg>
+        </u>
+        <note type="speaker">Christian Lindner, Bundesminister der Finanzen:</note>
+        <u who="#Q85806" xml:id="ParlaMint-DE_2021-12-08-20-005.u11" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg85">Frau Präsidentin, ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u12" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg86">Herzlichen Glückwunsch und alles Gute für die Aufgabe!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP</desc>
+        </kinesic>
+        <note type="speaker">Christian Lindner, Bundesminister der Finanzen:</note>
+        <u who="#Q85806" xml:id="ParlaMint-DE_2021-12-08-20-005.u13" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg87">Vielen Dank.</seg>
+        </u>
+        <note type="speaker">Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u14" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg88">Nancy Faeser, Bundesministerin des Innern und für Heimat.</seg>
+        </u>
+        <note type="speaker">Nancy Faeser, Bundesministerin des Innern und für Heimat:</note>
+        <u who="#Q1288810" xml:id="ParlaMint-DE_2021-12-08-20-005.u15" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg89">Ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u16" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg90">Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Nancy Faeser, Bundesministerin des Innern und für Heimat:</note>
+        <u who="#Q1288810" xml:id="ParlaMint-DE_2021-12-08-20-005.u17" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg91">Danke schön. Vielen Dank.</seg>
+        </u>
+        <note type="speaker">Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u18" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg92">Annalena Baerbock, Bundesministerin des Auswärtigen.</seg>
+        </u>
+        <note type="speaker">Annalena Baerbock, Bundesministerin des Auswärtigen:</note>
+        <u who="#Q564328" xml:id="ParlaMint-DE_2021-12-08-20-005.u19" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg93">Ich schwöre es.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u20" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg94">Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Annalena Baerbock, Bundesministerin des Auswärtigen:</note>
+        <u who="#Q564328" xml:id="ParlaMint-DE_2021-12-08-20-005.u21" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg95">Danke schön.</seg>
+        </u>
+        <note type="speaker">Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u22" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg96">Dr. Marco Buschmann, Bundesminister der Justiz.</seg>
+        </u>
+        <note type="speaker">Dr. Marco Buschmann, Bundesminister der Justiz:</note>
+        <u who="#Q1893672" xml:id="ParlaMint-DE_2021-12-08-20-005.u23" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg97">Frau Präsidentin, ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u24" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg98">Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Dr. Marco Buschmann, Bundesminister der Justiz:</note>
+        <u who="#Q1893672" xml:id="ParlaMint-DE_2021-12-08-20-005.u25" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg99">Danke.</seg>
+        </u>
+        <note type="speaker">Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u26" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg100">Hubertus Heil, Bundesminister für Arbeit und Soziales.</seg>
+        </u>
+        <note type="speaker">Hubertus Heil, Bundesminister für Arbeit und Soziales:</note>
+        <u who="#Q71534" xml:id="ParlaMint-DE_2021-12-08-20-005.u27" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg101">Frau Präsidentin, ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u28" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg102">Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU und der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg103">Christine Lambrecht, Bundesministerin der Verteidigung.</seg>
+        </u>
+        <note type="speaker">Christine Lambrecht, Bundesministerin der Verteidigung:</note>
+        <u who="#Q1083648" xml:id="ParlaMint-DE_2021-12-08-20-005.u29" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg104">Frau Präsidentin, ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u30" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg105">Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Christine Lambrecht, Bundesministerin der Verteidigung:</note>
+        <u who="#Q1083648" xml:id="ParlaMint-DE_2021-12-08-20-005.u31" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg106">Danke schön.</seg>
+        </u>
+        <note type="speaker">Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u32" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg107">Cem Özdemir, Bundesminister für Ernährung und Landwirtschaft.</seg>
+        </u>
+        <note type="speaker">Cem Özdemir, Bundesminister für Ernährung und Landwirtschaft:</note>
+        <u who="#Q12839" xml:id="ParlaMint-DE_2021-12-08-20-005.u33" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg108">Frau Präsidentin, ich schwöre es.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u34" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg109">Vielen Dank. – Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg110">Anne Spiegel, Bundesministerin für Familie, Senioren, Frauen und Jugend.</seg>
+        </u>
+        <note type="speaker">Anne Spiegel, Bundesministerin für Familie, Senioren, Frauen und Jugend:</note>
+        <u who="#Q565807" xml:id="ParlaMint-DE_2021-12-08-20-005.u35" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg111">Frau Präsidentin, ich schwöre es.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u36" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg112">Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Anne Spiegel, Bundesministerin für Familie, Senioren, Frauen und Jugend:</note>
+        <u who="#Q565807" xml:id="ParlaMint-DE_2021-12-08-20-005.u37" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg113">Danke.</seg>
+        </u>
+        <note type="speaker">Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u38" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg114">Professor Dr. Karl Lauterbach, Bundesminister für Gesundheit.</seg>
+        </u>
+        <note type="speaker">Dr. Karl Lauterbach, Bundesminister für Gesundheit:</note>
+        <u who="#Q105676" xml:id="ParlaMint-DE_2021-12-08-20-005.u39" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg115">Frau Präsidentin, ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u40" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg116">Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg117">Dr. Volker Wissing, Bundesminister für Digitales und Verkehr.</seg>
+        </u>
+        <note type="speaker">Dr. Volker Wissing, Bundesminister für Digitales und Verkehr:</note>
+        <u who="#Q1278715" xml:id="ParlaMint-DE_2021-12-08-20-005.u41" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg118">Frau Präsidentin, ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u42" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg119">Alles Gute für Ihre Aufgabe und herzlichen Glückwunsch!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg120">Steffi Lemke, Bundesministerin für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz.</seg>
+        </u>
+        <note type="speaker">Steffi Lemke, Bundesministerin für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz:</note>
+        <u who="#Q1502854" xml:id="ParlaMint-DE_2021-12-08-20-005.u43" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg121">Frau Präsidentin, ich schwöre es.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u44" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg122">Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der LINKEN</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg123">Bettina Stark-Watzinger, Bundesministerin für Bildung und Forschung.</seg>
+        </u>
+        <note type="speaker">Bettina Stark-Watzinger, Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q39080194" xml:id="ParlaMint-DE_2021-12-08-20-005.u45" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg124">Frau Präsidentin, ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u46" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg125">Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Bettina Stark-Watzinger, Bundesministerin für Bildung und Forschung:</note>
+        <u who="#Q39080194" xml:id="ParlaMint-DE_2021-12-08-20-005.u47" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg126">Danke schön.</seg>
+        </u>
+        <note type="speaker">Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u48" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg127">Svenja Schulze, Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung.</seg>
+        </u>
+        <note type="speaker">Svenja Schulze, Bundesministerin für wirtschaftliche Zusammenarbeit und Entwicklung:</note>
+        <u who="#Q1407342" xml:id="ParlaMint-DE_2021-12-08-20-005.u49" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg128">Frau Präsidentin, ich schwöre es.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u50" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg129">Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg130">Klara Geywitz, Bundesministerin für Wohnen, Stadtentwicklung und Bauwesen.</seg>
+        </u>
+        <note type="speaker">Klara Geywitz, Bundesministerin für Wohnen, Stadtentwicklung und Bauwesen:</note>
+        <u who="#Q1744408" xml:id="ParlaMint-DE_2021-12-08-20-005.u51" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg131">Frau Präsidentin, ich schwöre es, so wahr mir Gott helfe.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u52" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg132">Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg133">Wolfgang Schmidt, Bundesminister für besondere Aufgaben.</seg>
+        </u>
+        <note type="speaker">Wolfgang Schmidt, Bundesminister für besondere Aufgaben:</note>
+        <u who="#Q18633046" xml:id="ParlaMint-DE_2021-12-08-20-005.u53" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg134">Frau Präsidentin, ich schwöre es.</seg>
+        </u>
+        <note type="speaker">Präsidentin Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u54" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg135">Herzlichen Glückwunsch und alles Gute für Ihre Aufgabe!</seg>
+        </u>
+        <kinesic type="applause">
+          <desc>Beifall bei der SPD, dem BÜNDNIS 90/DIE GRÜNEN und der FDP sowie bei Abgeordneten der CDU/CSU</desc>
+        </kinesic>
+        <note type="speaker">Wolfgang Schmidt, Bundesminister für besondere Aufgaben:</note>
+        <u who="#Q18633046" xml:id="ParlaMint-DE_2021-12-08-20-005.u55" ana="#regular #DE-government">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg136">Herzlichen Dank.</seg>
+        </u>
+        <note type="speaker">Bärbel Bas:</note>
+        <u who="#Q1019016" xml:id="ParlaMint-DE_2021-12-08-20-005.u56" ana="#chair">
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg137">Meine Damen und Herren, die Mitglieder der Bundesregierung haben den nach Artikel 64 Absatz 2 des Grundgesetzes vorgeschriebenen Eid vor dem Deutschen Bundestag geleistet. Ich spreche den Mitgliedern der Bundesregierung persönlich und auch im Namen des Hauses die besten Wünsche für die übernommenen Aufgaben aus.</seg>
+          <kinesic type="applause">
+            <desc>Beifall bei der SPD, der CDU/CSU, dem BÜNDNIS 90/DIE GRÜNEN, der FDP und der LINKEN sowie bei Abgeordneten der AfD</desc>
+          </kinesic>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg138">Wir sind damit am Schluss der Tagesordnung dieses besonderen Tages.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg139">Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 9. Dezember 2021, 9 Uhr, ein.</seg>
+          <seg id="ParlaMint-DE_2021-12-08-20-005.seg140">Die Sitzung ist geschlossen.</seg>
+        </u>
+        <incident type="editorial">
+          <desc>Schluss: 13.52 Uhr</desc>
+        </incident>
+      </div>
+    </body>
+  </text>
+</TEI>
