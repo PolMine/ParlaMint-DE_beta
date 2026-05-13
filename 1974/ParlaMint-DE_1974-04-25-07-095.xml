@@ -47,8 +47,8 @@
         <idno type="URI" subtype="handle">TBA</idno>
         <availability status="free">
           <licence>https://creativecommons.org/licenses/by/4.0/</licence>
-          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
-          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
         </availability>
         <date when="TBA">TBA</date>
       </publicationStmt>
@@ -68,16 +68,18 @@
         <p xml:lang="de">TBA</p>
       </projectDesc>
       <tagsDecl>
-        <namespace>
-          <tagUsage gi="body"/>
-          <tagUsage gi="desc"/>
-          <tagUsage gi="div"/>
-          <tagUsage gi="gap"/>
-          <tagUsage gi="note"/>
-          <tagUsage gi="seg"/>
-          <tagUsage gi="text"/>
-          <tagUsage gi="time"/>
-          <tagUsage gi="u"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="3"/>
+          <tagUsage gi="head" occurs="3"/>
+          <tagUsage gi="note" occurs="424"/>
+          <tagUsage gi="u" occurs="424"/>
+          <tagUsage gi="seg" occurs="1097"/>
+          <tagUsage gi="kinesic" occurs="338"/>
+          <tagUsage gi="vocal" occurs="135"/>
+          <tagUsage gi="incident" occurs="4"/>
+          <tagUsage gi="desc" occurs="477"/>
         </namespace>
       </tagsDecl>
     </encodingDesc>
@@ -92,7 +94,12 @@
         </setting>
       </settingDesc>
     </profileDesc>
-    <revisionDesc/>
+    <revisionDesc>
+      <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
+  </change>
+      <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.
+  </change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -103,13 +110,13 @@
         <head>Fragestunde — Drucksache 7/2008</head>
         <note type="speaker">Vizepräsident Frau Funcke:</note>
         <u who="#Q1485298" xml:id="ParlaMint-DE_1974-04-25-07-095.u60" ana="#chair">
-          <seg id="ParlaMint-DE_1974-04-25-07-095.seg231">Meine Damen und Herren, wir setzen die Sitzung fort. Ich rufe Punkt 1 auf:</seg>
-          <seg id="ParlaMint-DE_1974-04-25-07-095.seg232">Fragestunde — Drucksache 7/2008 Es sind noch einige Fragen aus dem Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten unbeantwortet. Ich höre aber gerade, daß Herr Minister Ertl noch auf dem Weg von Köln hierher ist. Können wir deshalb jetzt die Fragen aus dem nächsten Ressort, dem Geschäftsbereich des Bundeskanzlers und des Bundeskanzleramts, behandeln mit der Maßgabe, daß Kollegen, die sich darauf verlassen haben, daß zunächst die Landwirtschaft drankommt und daher jetzt abwesend sind, nachher noch die Chance haben, daß der Aufruf ihrer Fragen nachgeholt wird? Das würde bedeuten, Herr Staatssekretär Ravens, daß Sie eventuell bereit sein müßten, noch ein bißchen länger zu bleiben, damit diese Chance eingeräumt werden kann. — Wenn dagegen kein Widerspruch besteht, dann rufe ich jetzt die Fragen aus dem Geschäftsbereich des Bundeskanzlers und des Bundeskanzleramts auf. Die Frage 98 des Abgeordneten Dr. Aigner soll schriftlich beantwortet werden. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 99 des Abgeordneten Geisenhofer auf:</seg>
-          <seg id="ParlaMint-DE_1974-04-25-07-095.seg233">Treffen Pressemeldungen zu, Bundesminister Bahr sei wahrend seines letzten Moskaubesuchs bedeutet worden, im Fall der Errichtung des Umweltbundesamts in Berlin sei mit neuen Behinderungen im Transitverkehr zu rechnen, worauf auch Staastsekretär Gaus von Ost-Berlin hingewiesen worden sei, und wie hat die Bundesregierung — bejahendenfalls — darauf reagiert? Bitte schön, Herr Staatssekretär Ravens zur Beantwortung!</seg>
+          <seg xml:id="ParlaMint-DE_1974-04-25-07-095.seg231">Meine Damen und Herren, wir setzen die Sitzung fort. Ich rufe Punkt 1 auf:</seg>
+          <seg xml:id="ParlaMint-DE_1974-04-25-07-095.seg232">Fragestunde — Drucksache 7/2008 Es sind noch einige Fragen aus dem Geschäftsbereich des Bundesministers für Ernährung, Landwirtschaft und Forsten unbeantwortet. Ich höre aber gerade, daß Herr Minister Ertl noch auf dem Weg von Köln hierher ist. Können wir deshalb jetzt die Fragen aus dem nächsten Ressort, dem Geschäftsbereich des Bundeskanzlers und des Bundeskanzleramts, behandeln mit der Maßgabe, daß Kollegen, die sich darauf verlassen haben, daß zunächst die Landwirtschaft drankommt und daher jetzt abwesend sind, nachher noch die Chance haben, daß der Aufruf ihrer Fragen nachgeholt wird? Das würde bedeuten, Herr Staatssekretär Ravens, daß Sie eventuell bereit sein müßten, noch ein bißchen länger zu bleiben, damit diese Chance eingeräumt werden kann. — Wenn dagegen kein Widerspruch besteht, dann rufe ich jetzt die Fragen aus dem Geschäftsbereich des Bundeskanzlers und des Bundeskanzleramts auf. Die Frage 98 des Abgeordneten Dr. Aigner soll schriftlich beantwortet werden. Die Antwort wird als Anlage abgedruckt. Ich rufe die Frage 99 des Abgeordneten Geisenhofer auf:</seg>
+          <seg xml:id="ParlaMint-DE_1974-04-25-07-095.seg233">Treffen Pressemeldungen zu, Bundesminister Bahr sei wahrend seines letzten Moskaubesuchs bedeutet worden, im Fall der Errichtung des Umweltbundesamts in Berlin sei mit neuen Behinderungen im Transitverkehr zu rechnen, worauf auch Staastsekretär Gaus von Ost-Berlin hingewiesen worden sei, und wie hat die Bundesregierung — bejahendenfalls — darauf reagiert? Bitte schön, Herr Staatssekretär Ravens zur Beantwortung!</seg>
         </u>
         <note type="speaker">Ravens, Parl. Staatssekretär beim Bundeskanzler:</note>
         <u who="#Q85853" xml:id="ParlaMint-DE_1974-04-25-07-095.u61" ana="#regular #DE-government">
-          <seg id="ParlaMint-DE_1974-04-25-07-095.seg234">Herr Kollege, derartige Pressemeldungen treffen nicht zu. Bei den Gesprächen in Moskau wurde von beiden Seiten beachtet, daß für Fragen der Aktivitäten des Bundes in West-Berlin die Drei Mächte die Gesprächspartner der Bundesregierung sind. Die unterschiedliche Auffassung darüber, ob die Errichtung eines solchen Amtes in West-Berlin mit dem Viermächteabkommen vereinbar sei, ist nach Kenntnis der Bundesregierung nicht ausgeräumt. Die Vertreter der Bundesregierung haben bei jeder sich bietenden Gelegenheit darauf hingewiesen, daß sie die Auffassung der Drei Mächte teilen.</seg>
+          <seg xml:id="ParlaMint-DE_1974-04-25-07-095.seg234">Herr Kollege, derartige Pressemeldungen treffen nicht zu. Bei den Gesprächen in Moskau wurde von beiden Seiten beachtet, daß für Fragen der Aktivitäten des Bundes in West-Berlin die Drei Mächte die Gesprächspartner der Bundesregierung sind. Die unterschiedliche Auffassung darüber, ob die Errichtung eines solchen Amtes in West-Berlin mit dem Viermächteabkommen vereinbar sei, ist nach Kenntnis der Bundesregierung nicht ausgeräumt. Die Vertreter der Bundesregierung haben bei jeder sich bietenden Gelegenheit darauf hingewiesen, daß sie die Auffassung der Drei Mächte teilen.</seg>
         </u>
       </div>
       <gap reason="editorial">

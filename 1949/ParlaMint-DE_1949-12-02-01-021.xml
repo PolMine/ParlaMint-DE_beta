@@ -47,8 +47,8 @@
         <idno type="URI" subtype="handle">TBA</idno>
         <availability status="free">
           <licence>https://creativecommons.org/licenses/by/4.0/</licence>
-          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
-          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
         </availability>
         <date when="TBA">TBA</date>
       </publicationStmt>
@@ -68,16 +68,18 @@
         <p xml:lang="de">TBA</p>
       </projectDesc>
       <tagsDecl>
-        <namespace>
-          <tagUsage gi="body"/>
-          <tagUsage gi="desc"/>
-          <tagUsage gi="div"/>
-          <tagUsage gi="gap"/>
-          <tagUsage gi="note"/>
-          <tagUsage gi="seg"/>
-          <tagUsage gi="text"/>
-          <tagUsage gi="time"/>
-          <tagUsage gi="u"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="2"/>
+          <tagUsage gi="head" occurs="1"/>
+          <tagUsage gi="note" occurs="21"/>
+          <tagUsage gi="u" occurs="21"/>
+          <tagUsage gi="seg" occurs="58"/>
+          <tagUsage gi="kinesic" occurs="9"/>
+          <tagUsage gi="vocal" occurs="27"/>
+          <tagUsage gi="incident" occurs="1"/>
+          <tagUsage gi="desc" occurs="37"/>
         </namespace>
       </tagsDecl>
     </encodingDesc>
@@ -92,85 +94,41 @@
         </setting>
       </settingDesc>
     </profileDesc>
-    <revisionDesc/>
+    <revisionDesc>
+      <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
+  </change>
+      <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.
+  </change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
+      <div type="debateSection" n="U1">
+        <note type="speaker">Präsident Dr. Köhler:</note>
+        <u who="#Q70058" xml:id="ParlaMint-DE_1949-12-02-01-021.u1" ana="#chair">
+          <seg xml:id="ParlaMint-DE_1949-12-02-01-021.seg1">Ich eröffne die 21. Sitzung. Wir kommen nunmehr zur Abstimmung über den Antrag zu Punkt 14 der Tagesordnung der vorigen Sitzung:</seg>
+          <seg xml:id="ParlaMint-DE_1949-12-02-01-021.seg2">Mündlicher Bericht des Ausschusses für Heimatvertriebene über den Antrag der Fraktion des Zentrums und über den Antrag der Fraktion der CDU/CSU betreffend Wartegeld und Pensionen der ostvertriebenen Beamten (Drucksachen Nr. 210, 20 und 29 Ziffern 3 und 5).</seg>
+          <vocal type="exclamat">
+            <desc>Abg. Strauss: Zur Geschäftsordnung!</desc>
+          </vocal>
+          <seg xml:id="ParlaMint-DE_1949-12-02-01-021.seg3">— Es liegt eine Meldung zur Geschäftsordnung von Herrn Abgeordneten Strauss vor.</seg>
+        </u>
+        <note type="speaker">Strauss (CSU):</note>
+        <u who="#Q44620" xml:id="ParlaMint-DE_1949-12-02-01-021.u2" ana="#regular #DE-mp">
+          <seg xml:id="ParlaMint-DE_1949-12-02-01-021.seg4">Herr Präsident! Meine Damen und Herren! Ein Angehöriger meiner Fraktion hat die Beschlußfähigkeit des Hauses bezweifelt. Seine Überzeugung, daß zu der Abstimmung über eine so wichtige Angelegenheit die Anwesenheit der Mehrheit des Hauses notwendig ist, ist richtig. Politisch stelle ich dazu fest, daß meine Fraktion diese Abstimmung wünscht. Ich bitte, diesen Wunsch als Antrag zu betrachten.</seg>
+        </u>
+        <note type="speaker">Präsident Dr. Köhler:</note>
+        <u who="#Q70058" xml:id="ParlaMint-DE_1949-12-02-01-021.u3" ana="#chair">
+          <seg xml:id="ParlaMint-DE_1949-12-02-01-021.seg5">Das Wort zur Geschäftsordnung hat Herr Abgeordneter Dr. Falkner.</seg>
+        </u>
+        <note type="speaker">Dr. Falkner (BP):</note>
+        <u who="#Q1358025" xml:id="ParlaMint-DE_1949-12-02-01-021.u4" ana="#regular #DE-mp">
+          <seg xml:id="ParlaMint-DE_1949-12-02-01-021.seg6">Ich verzichte darauf! Es ist durch die Erklärung des Herrn Abgeordneten Strauss vorweggenommen.</seg>
+        </u>
+      </div>
       <gap reason="editorial">
         <desc xml:lang="en">Additional agenda items omitted (sampling)</desc>
       </gap>
-      <div type="debateSection" n="17" ana="#DE-motion">
-        <head>Antrag der Fraktion der SPD betreffend Einsetzung eines Ausschusses für den Erwerb von Ausstattungs- und Kunstgegenständen im Raume der vorläufigen Bundeshauptstadt (Drucksache Nr. 199)</head>
-        <note type="speaker">Präsident Dr. Köhler:</note>
-        <u who="#Q70058" xml:id="ParlaMint-DE_1949-12-02-01-021.u79" ana="#chair">
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg232">Wünscht jemand gegen den Antrag des Herrn Abgeordneten Strauss zu sprechen?</seg>
-          <kinesic type="kinesic">
-            <desc>Zuruf in der Mitte: Ich unterstütze den Antrag des Herrn Abgeordneten Strauss!</desc>
-          </kinesic>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg233">— Ich frage nur, ob jemand dagegen sprechen will. — Ich stelle fest: das ist nicht der Fall. Meine Damen und Herren, ich nehme das Einverständnis des Hauses an, daß gemäß dem Antrag des Herrn Abgeordneten Strauss abgestimmt wird.</seg>
-          <vocal type="exclamat">
-            <desc>Zuruf des Abg. Renner.</desc>
-          </vocal>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg234">Wir müssen zunächst über den Abänderungsantrag des Zentrums abstimmen , gegebenenfalls eine Gesetzesvorlage, die den vorstehenden Forderungen entspricht, unverzüglich vorzulegen. Wer für diesen Abänderungsantrag ist, den bitte ich, die Hand zu erheben. — Ich bitte um die Gegenprobe. - Das erste war die Mehrheit. Der Antrag ist angenommen. Wir kommen nunmehr zur Abstimmung über den Antrag auf Drucksache Nr. 210 unter Berücksichtigung der soeben vorgenommenen Abänderung. — Wer dafür ist, den bitte ich, die Hand zu erheben. — Danke! Gegenprobe! — Einstimmig angenommen.</seg>
-          <kinesic type="applause">
-            <desc>Beifall in der Mitte und rechts. — Abg. Dr. Baumgartner: Das Haus ist doch nicht beschlußfähig, Herr Präsident! — Heiterkeit.</desc>
-          </kinesic>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg235">— Herr Abgeordneter Dr. Baumgartner, darf ich darauf aufmerksam machen, daß Ihre Feststellung insoweit zu spät gekommen ist, als die Abstimmung bereits erfolgt war. Herr Abgeordneter Dr. Falkner hat auf das Wort verzichtet, nachdem er den Antrag des Herrn Abgeordneten Strauss gehört hatte. Das möchte ich ausdrücklich feststellen. Wir fahren in der Tagesordnung fort. Wir kämen nun zu Punkt 16 der Tagesordnung:</seg>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg236">Antrag der Fraktion der BP betreffend Streichung der Absätze 2 und 3 des § 103 der vorläufigen Geschäftsordnung (Drucksache Nr. 184).</seg>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg237">Wünschen die Herren Antragsteller das Wort? — Da niemand von den Herren Antragstellern mehr da ist, müssen wir diesen Punkt zurückstellen.</seg>
-          <vocal type="exclamat">
-            <desc>Hört! Hört!</desc>
-          </vocal>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg238">Wir kommen zu Punkt 17 der Tagesordnung: Antrag der Fraktion der SPD betreffend Einsetzung eines Ausschusses für den Erwerb von Ausstattungs- und Kunstgegenständen im Raume der vorläufigen Bundeshauptstadt (Drucksache Nr. 199).</seg>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg239">Wer von den Herren Antragstellern wünscht das Wort? — Bitte sehr, Herr Abgeordneter Erler!</seg>
-        </u>
-        <note type="speaker">Erler (SPD) , Antragsteller:</note>
-        <u who="#Q71365" xml:id="ParlaMint-DE_1949-12-02-01-021.u80" ana="#regular #DE-mp">
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg240">Meine sehr verehrten Damen und Herren! Die sozialdemokratische Fraktion hat Ihnen den Antrag vorgelegt, einen Ausschuß mit den in der Drucksache bezeichneten Aufgaben zu beauftragen. Es ist kein Zufall, daß dieser Antrag in diesem Zeitpunkt eingebracht worden ist, in dem auch aus anderen Parteien ähnliche Gesichtspunkte bei der Vergebung öffentlicher Aufträge geltend gemacht wurden. "Sie haben sowohl bei der Bayernpartei als auch auf anderen Seiten des Hauses in verschiedenen Ausschüssen bemerken können, daß man sich verschiedentlich Gedanken darüber gemacht hat, ob wirklich heute all die Bestimmungen, die über das Vergebungswesen für öffentliche Aufträge bestehen, noch in dem gebotenen Umfang angewendet werden. Wir haben ganz besonderen Anlaß, darauf hinzuweisen, daß es nicht nur notwendig ist, etwa nach regionalen Gesichtspunkten auf eine ordnungsmäßige Verteilung öffentlicher Aufträge zu achten, wie das besonders von der Bayernpartei in den Ausschußberatungen vertreten wurde, sondern wir wünschen auch, daß man darüber hinaus wieder zu jenen Grundsätzen öffentlicher Ausschreibungen, zu den gesunden Grundsätzen eines wirklich unparteiischen und der öffentlichen Kontrolle unterliegenden Auftragwesens zurückkehrt, das einst der Stolz der deutschen Verwaltung gewesen ist. Ich weiß, daß zu einem großen Teil in den vergangenen Jahren sehr stark improvisiert worden ist. Um nun mit einem kühnen Sprung, unter Weglassung vieler anderer Bemerkungen, die hier eigentlich am Platze wären, zum Gegenstand unseres Antrags zu kommen, kann ich feststellen, daß- wir ganz besonders den Eindruck haben, daß gerade bei dem größten zusammenhängenden Bauprojekt, das in der letzten Zeit der Bund begonnen hat, nämlich bei dem Ausbau Bonns zur Bundeshauptstadt, in vielen Dingen möglicherweise gesündigt worden ist. Wir haben bisher keine öffentlichen Ausschreibungen gesehen, und wir haben uns auch aus dem schönen Bild im Vorraum unseres Hauses keinen klaren Eindruck davon verschaffen können, wie und nach welchen Richtlinien nun eigentlich die Aufträge gesteuert worden sind. Der Antrag der sozialdemokratischen Fraktion beschäftigt sich nicht ausschließlich etwa mit Kunstgegenständen; obwohl auch diese dazu gehören, weil ja im Mittelpunkt des ganzen Bauvorhabens Bonn schließlich der Bundestag steht. Die Augen der Öffentlichkeit sind sehr stark auf das gerichtet, was wir tun. Man mag nun sagen, daß dieser Antrag vielleicht die Entschlußfähigkeit der Exekutive unnötig beeinträchtigt. Ich glaube, das ist nicht der Fall. Was wir mit diesem Ausschuß wollen, ist ja nicht, Aufträge zu vergeben, sondern die Regierung dazu anzuleiten und ihr dabei behilflich zu sein, das Auftragsvergebungsverfahren wieder auf ordentliche Grundlagen zu stellen. Das ist der eigentliche Sinn des Antrages. Es wird notwendig sein, sich einmal darüber Gedanken zu machen, wie bei diesem Großbauvorhaben in geeigneter Weise auch die Handwerker herangezogen werden, ohne daß einige Großbauunternehmer im wesentlichen den Rahm abschöpfen. Von seiten des Handwerks sind darüber ziemliche Klagen laut geworden. Es gibt eine Reihe von Beispielen in unserem eigenen Hause, die uns beweisen, daß es doch wohl auch für den Bundestag an der Zeit wäre, sich im Interesse seines eigenen Ansehens einmal darum zu kümmern, was hier um dieses Haus herum geschieht. Sie haben in einer erfreulicherweise wesentlich stärker besuchten Sitzung als der heutigen seinerzeit einmal einen tiefgreifenden Beschluß gefaßt, den Bundessitz in Bonn bestehen zu lassen und nicht woandershin zu verlegen. Mit diesem Beschluß, meine Herren, hat der Bundestag eine große Verantwortung auf sich genommen.</seg>
-          <vocal type="exclamat">
-            <desc>Sehr richtig!</desc>
-          </vocal>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg241">Er hat nämlich die Verantwortung für die Verausgabung von weit über 100 Millionen Mark an öffentlichen Mitteln an einem bestimmten Punkt, nämlich im Raum Bonn, übernommen. Sie wissen ja alle, was allein für Bauvorhaben aufgewendet werden mußte, nur um diese Stadt von Besatzungstruppen frei zu machen. Sie wissen alle, was wir für die Hohen Kommissare in relativ wenigen Wochen haben aufwenden müssen; das waren leider Beträge von zusammen über 75 Millionen Mark. Dazu kommt nun all das, was jetzt für die Einrichtung der Ministerien usw. erforderlich ist. In normalen Zeiten — das will ich zugeben — brauchen wir keinen solchen Ausschuß; da berät nämlich der Haushaltsausschuß des Bundestags diese Dinge auf Heller und Pfennig, bevor die Beträge ausgegeben werden. Da das jetzt nicht möglich ist, da wir hier Gelder ausgegeben haben und weiter ausgeben müssen, ohne daß uns ein zahlenmäßiger Haushaltsplan darüber vorgelegt werden konnte, ist es notwendig, daß wir uns durch einen solchen Ausschuß rechtzeitig über die Grundsätze der Vergebung der Arbeiten Rechenschaft ablegen lassen.</seg>
-          <kinesic type="applause">
-            <desc>Sehr richtig! bei der SPD.</desc>
-          </kinesic>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg242">Das ist das Ziel, welches wir mit unserem Antrag verfolgen. Es kommt darauf an, daß wir, wenn wir nun schon als Körperschaft durch den seinerzeitigen Beschluß die Verantwortung für diesen sehr erklecklichen Posten unseres künftigen Haushalts übernommen haben, dann auch uns selber vor unserem eigenen Gewissen die Gewißheit verschaffen, daß bei den dadurch notwendig gewordenen Ausgaben so sparsam, so zwéckmäßig und so richtig wie möglich verfahren wird. Ich wiederhole noch einmal: Wir wollen nicht Aufträge vergeben, sondern uns bemühen, in diesem Ausschuß erstens Klarheit zu gewinnen, nach welchen Grundsätzen bisher verfahren wurde, und zweitens behilflich zu sein, daß für die Vergebung all der Millionen, die wir künftig in dies Projekt noch werden hineinstecken müssen, saubere Grundsätze entwickelt werden. Ich glaube, Sie alle, die Sie noch hier sind, nehmen es ernst mit Ihrer parlamentarischen Arbeit; sonst wären Sie nicht mehr hier. Sie nehmen es also auch ernst mit der Verantwortung, die Ihnen auferlegt ist. Wenn Sie es wirklich ernst damit meinen, dann müssen Sie diesem unserm Antrag zustimmen.</seg>
-        </u>
-        <kinesic type="applause">
-          <desc>Bravo! bei der SPD.</desc>
-        </kinesic>
-        <note type="speaker">Präsident Dr. Köhler:</note>
-        <u who="#Q70058" xml:id="ParlaMint-DE_1949-12-02-01-021.u81" ana="#chair">
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg243">Meine Damen und Herren, ich eröffne die Aussprache. Das Wort hat der Herr Bundesminister der Justiz.</seg>
-          <vocal type="exclamat">
-            <desc>Abg. Dr. Baumgartner: Zur Geschäftsordnung, Herr Präsident!</desc>
-          </vocal>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg244">— Einen Moment, Herr Bundesminister!</seg>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg245">Zur Geschäftsordnung hat Herr Abgeordneter Baumgartner das Wort.</seg>
-        </u>
-        <note type="speaker">Dr. Baumgartner (BP):</note>
-        <u who="#Q102803" xml:id="ParlaMint-DE_1949-12-02-01-021.u82" ana="#regular #DE-mp">
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg246">Herr Präsident, ich bezweifle die Beschlußfähigkeit des Hauses.</seg>
-        </u>
-        <vocal type="exclamat">
-          <desc>Sehr richtig! rechts. — Zuruf links: Es ist ja Beratung!</desc>
-        </vocal>
-        <note type="speaker">Präsident Dr. Köhler:</note>
-        <u who="#Q70058" xml:id="ParlaMint-DE_1949-12-02-01-021.u83" ana="#chair">
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg247">Verzeihung! Ich darf einmal folgendes sagen: Wir befinden uns nicht allein in einer Beratung, sondern wir müssen ja nachher über einen Antrag abstimmen.</seg>
-          <vocal type="exclamat">
-            <desc>Zurufe.</desc>
-          </vocal>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg248">— Aber das Wort war ja schon erteilt.</seg>
-          <vocal type="exclamat">
-            <desc>Erneute Zurufe.</desc>
-          </vocal>
-          <seg id="ParlaMint-DE_1949-12-02-01-021.seg249">— Zunächst ist es Beratung. Die Beratung können wir fortsetzen, auch wenn die Beschlußfähigkeit nicht besteht. Ich werde vor der Abstimmung auf Ihre Anzweiflung der Beschlußfähigkeit zurückkommen, Herr Abgeordneter Dr. Baumgartner. Das Wort hat der Herr Bundesminister der Justiz.</seg>
-        </u>
-        <gap reason="editorial">
-          <desc xml:lang="en">Current agenda item shortened (sampling)</desc>
-        </gap>
-      </div>
     </body>
   </text>
 </TEI>

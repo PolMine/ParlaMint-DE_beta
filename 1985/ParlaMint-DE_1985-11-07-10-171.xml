@@ -47,8 +47,8 @@
         <idno type="URI" subtype="handle">TBA</idno>
         <availability status="free">
           <licence>https://creativecommons.org/licenses/by/4.0/</licence>
-          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
-          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
         </availability>
         <date when="TBA">TBA</date>
       </publicationStmt>
@@ -68,16 +68,18 @@
         <p xml:lang="de">TBA</p>
       </projectDesc>
       <tagsDecl>
-        <namespace>
-          <tagUsage gi="body"/>
-          <tagUsage gi="desc"/>
-          <tagUsage gi="div"/>
-          <tagUsage gi="gap"/>
-          <tagUsage gi="note"/>
-          <tagUsage gi="seg"/>
-          <tagUsage gi="text"/>
-          <tagUsage gi="time"/>
-          <tagUsage gi="u"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="10"/>
+          <tagUsage gi="head" occurs="10"/>
+          <tagUsage gi="note" occurs="359"/>
+          <tagUsage gi="u" occurs="359"/>
+          <tagUsage gi="seg" occurs="1444"/>
+          <tagUsage gi="kinesic" occurs="331"/>
+          <tagUsage gi="vocal" occurs="455"/>
+          <tagUsage gi="incident" occurs="11"/>
+          <tagUsage gi="desc" occurs="797"/>
         </namespace>
       </tagsDecl>
     </encodingDesc>
@@ -92,7 +94,12 @@
         </setting>
       </settingDesc>
     </profileDesc>
-    <revisionDesc/>
+    <revisionDesc>
+      <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
+  </change>
+      <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.
+  </change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -103,12 +110,12 @@
         <head>Beratung der Großen Anfrage der Abgeordneten Reschke, Conradi, Waltemathe, Müntefering, Lohmann (Witten) , Meininghaus, Menzel, Polkehn, Schmitt (Wiesbaden) , Dr. Sperling, Huonker, Wolfram (Recklinghausen) und der Fraktion der SPD Baulandsituation, Entwicklung der Baulandpreise, des Bodenrechts und der Bodensteuern — Drucksachen 10/2358, 10/3690 —</head>
         <note type="speaker">Vizepräsident Cronenberg:</note>
         <u who="#Q124036" xml:id="ParlaMint-DE_1985-11-07-10-171.u359" ana="#chair">
-          <seg id="ParlaMint-DE_1985-11-07-10-171.seg1439">Danke sehr. Ich rufe den Tagesordnungspunkt 10 auf:</seg>
-          <seg id="ParlaMint-DE_1985-11-07-10-171.seg1440">Beratung der Großen Anfrage der Abgeordneten Reschke, Conradi, Waltemathe, Müntefering, Lohmann (Witten)</seg>
-          <seg id="ParlaMint-DE_1985-11-07-10-171.seg1441">, Meininghaus, Menzel, Polkehn, Schmitt (Wiesbaden)</seg>
-          <seg id="ParlaMint-DE_1985-11-07-10-171.seg1442">, Dr. Sperling, Huonker, Wolfram (Recklinghausen)</seg>
-          <seg id="ParlaMint-DE_1985-11-07-10-171.seg1443">und der Fraktion der SPD Baulandsituation, Entwicklung der Baulandpreise, des Bodenrechts und der Bodensteuern — Drucksachen 10/2358, 10/3690 —</seg>
-          <seg id="ParlaMint-DE_1985-11-07-10-171.seg1444">Das Wort wird offensichtlich nicht gewünscht. Interfraktionell ist vereinbart worden, die Große Anfrage mit der Antwort der Bundesregierung ausnahmsweise und in Abweichung von der Geschäftsordnung an den Ausschuß für Raumordnung, Bauwesen und Städtebau zu überweisen. Diese Überweisung sollte jedoch kein Berufungsfall werden. Ich mache zusätzlich darauf aufmerksam, daß durch diese Überweisung Rechte der Fraktionen oder Mitglieder des Hauses nach § 101 der Geschäftsordnung nicht berührt werden. Ich gehe davon aus, daß lediglich eine Berichterstattung erfolgt, wenn die Große Anfrage nach der Ausschußberatung erneut im Plenum behandelt werden soll. Gibt es dazu anderweitige Vorschläge? — Das ist offensichtlich nicht der Fall. Dann ist die Überweisung mit den von mir genannten Konditionen und Einschränkungen so beschlossen. Wir sind am Ende der heutigen Tagesordnung. Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Freitag, den 8. November 1985, 8 Uhr ein und wünsche Ihnen einen angenehmen Abend. Die Sitzung ist geschlossen.</seg>
+          <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439">Danke sehr. Ich rufe den Tagesordnungspunkt 10 auf:</seg>
+          <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440">Beratung der Großen Anfrage der Abgeordneten Reschke, Conradi, Waltemathe, Müntefering, Lohmann (Witten)</seg>
+          <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441">, Meininghaus, Menzel, Polkehn, Schmitt (Wiesbaden)</seg>
+          <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1442">, Dr. Sperling, Huonker, Wolfram (Recklinghausen)</seg>
+          <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443">und der Fraktion der SPD Baulandsituation, Entwicklung der Baulandpreise, des Bodenrechts und der Bodensteuern — Drucksachen 10/2358, 10/3690 —</seg>
+          <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444">Das Wort wird offensichtlich nicht gewünscht. Interfraktionell ist vereinbart worden, die Große Anfrage mit der Antwort der Bundesregierung ausnahmsweise und in Abweichung von der Geschäftsordnung an den Ausschuß für Raumordnung, Bauwesen und Städtebau zu überweisen. Diese Überweisung sollte jedoch kein Berufungsfall werden. Ich mache zusätzlich darauf aufmerksam, daß durch diese Überweisung Rechte der Fraktionen oder Mitglieder des Hauses nach § 101 der Geschäftsordnung nicht berührt werden. Ich gehe davon aus, daß lediglich eine Berichterstattung erfolgt, wenn die Große Anfrage nach der Ausschußberatung erneut im Plenum behandelt werden soll. Gibt es dazu anderweitige Vorschläge? — Das ist offensichtlich nicht der Fall. Dann ist die Überweisung mit den von mir genannten Konditionen und Einschränkungen so beschlossen. Wir sind am Ende der heutigen Tagesordnung. Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Freitag, den 8. November 1985, 8 Uhr ein und wünsche Ihnen einen angenehmen Abend. Die Sitzung ist geschlossen.</seg>
         </u>
         <incident type="editorial">
           <desc>Schluß der Sitzung: 21.18 Uhr</desc>

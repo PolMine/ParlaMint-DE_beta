@@ -72,8 +72,8 @@
         <idno type="URI" subtype="handle">TBA</idno>
         <availability status="free">
           <licence>https://creativecommons.org/licenses/by/4.0/</licence>
-          <lang xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></lang>
-          <lang xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></lang>
+          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
         </availability>
         <date when="TBA">TBA</date>
       </publicationStmt>
@@ -118,19 +118,20 @@
         </segmentation>
       </editorialDecl>
       <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0"/>
-        <tagUsage gi="body" occurs="TBA"/>
-        <tagUsage gi="desc" occurs="TBA"/>
-        <tagUsage gi="div" occurs="TBA"/>
-        <tagUsage gi="gap" occurs="TBA"/>
-        <tagUsage gi="kinesic" occurs="TBA"/>
-        <tagUsage gi="note" occurs="TBA"/>
-        <tagUsage gi="pb" occurs="TBA"/>
-        <tagUsage gi="seg" occurs="TBA"/>
-        <tagUsage gi="text" occurs="TBA"/>
-        <tagUsage gi="time" occurs="TBA"/>
-        <tagUsage gi="u" occurs="TBA"/>
-        <tagUsage gi="vocal" occurs="TBA"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="body" occurs="4559"/>
+          <tagUsage gi="desc" occurs="2084996"/>
+          <tagUsage gi="div" occurs="26339"/>
+          <tagUsage gi="gap" occurs="1"/>
+          <tagUsage gi="head" occurs="24923"/>
+          <tagUsage gi="incident" occurs="51768"/>
+          <tagUsage gi="kinesic" occurs="1199566"/>
+          <tagUsage gi="note" occurs="1030057"/>
+          <tagUsage gi="seg" occurs="5159675"/>
+          <tagUsage gi="text" occurs="4559"/>
+          <tagUsage gi="u" occurs="1030057"/>
+          <tagUsage gi="vocal" occurs="833660"/>
+        </namespace>
       </tagsDecl>
       <classDecl>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
@@ -356,7 +357,12 @@
         <language ident="en" xml:lang="en">English</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc/>
+    <revisionDesc>
+      <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
+  </change>
+      <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.
+  </change>
+    </revisionDesc>
   </teiHeader>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1949/ParlaMint-DE_1949-12-02-01-021.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1956/ParlaMint-DE_1956-07-07-02-159.xml"/>
