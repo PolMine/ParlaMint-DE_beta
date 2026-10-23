@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_2014-10-09-18-057">
   <teiHeader xml:lang="en">
     <fileDesc>
@@ -47,8 +47,10 @@
         <idno type="URI" subtype="handle">TBA</idno>
         <availability status="free">
           <licence>https://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></p>
-          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
+          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>
+                    </p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                    </p>
         </availability>
         <date when="TBA">TBA</date>
       </publicationStmt>
@@ -95,6 +97,7 @@
       </settingDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-10-19"><name>Christoph Leonhardt</name>: Additional modifications towards valid ParlaMint encoding and inclusion of topic information.</change>
       <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
   </change>
       <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.
@@ -103,32 +106,32 @@
   </teiHeader>
   <text>
     <body>
-      <gap reason="editorial">
+      <gap reason="editorial" xml:id="ParlaMint-DE_2014-10-09-18-057.gap1">
         <desc xml:lang="en">Additional agenda items omitted (sampling)</desc>
       </gap>
       <div type="debateSection" n="4" ana="#DE-consultation #DE-recommendation #DE-election">
         <head>Beratung der Vierten Beschlussempfehlung des Wahlprüfungsausschusses</head>
-        <note type="speaker">Dr. Johann Wadephul (CDU/CSU):</note>
-        <u who="#Q1696501" xml:id="ParlaMint-DE_2014-10-09-18-057.u116" ana="#regular #DE-mp">
+        <note type="speaker" xml:id="ParlaMint-DE_2014-10-09-18-057.note116">Dr. Johann Wadephul (CDU/CSU):</note>
+        <u who="#Q1696501" xml:id="ParlaMint-DE_2014-10-09-18-057.u116" ana="#regular #DE-mp topic:gover">
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1101">Frau Präsidentin! Liebe Kolleginnen und Kollegen! Wir entscheiden heute über die Vierte Beschlussempfehlung des Wahlprüfungsausschusses in dieser Wahlperiode. Sie behandelt die letzten 9 von insgesamt 224 Einsprüchen gegen die Gültigkeit der Bundestagswahl 2013 und gibt Gelegenheit, ein kurzes Zwischenresümee der Arbeit des Wahlprüfungsausschusses zu ziehen, den Dank den Berichterstattern und den Mitgliedern des Ausschusses auszusprechen, die im Übrigen alle sehr gerührt sind, dass Sie, liebe Kolleginnen und Kollegen, in so großer Zahl diesem Bericht zuhören und über die Beschlussempfehlung abstimmen.</seg>
-          <kinesic type="applause">
+          <kinesic type="applause" xml:id="ParlaMint-DE_2014-10-09-18-057.kinesic371">
             <desc>Heiterkeit und Beifall</desc>
           </kinesic>
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1102">In der Sache ist die Beschlussempfehlung auch nicht ohne Bedeutung. Sollten Sie nämlich unserer Empfehlung nicht folgen wollen, hätte diese Sitzung ein jähes Ende. Deswegen sollte sich das jeder genau überlegen.</seg>
-          <kinesic type="amusement">
+          <kinesic type="amusement" xml:id="ParlaMint-DE_2014-10-09-18-057.kinesic372">
             <desc>Heiterkeit</desc>
           </kinesic>
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1103">Der Ausschuss ist froh, dass wir ein Jahr nach der Bundestagswahl und auch angesichts des Umstandes, dass wir erst zu Beginn dieses Jahres mit den Verfahren beginnen konnten, Ihnen jetzt einen abschließenden Bericht vorlegen können.</seg>
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1104">Keiner der 224 Wahleinsprüche war nach Auffassung des Ausschusses begründet. Begründet wäre er dann gewesen, wenn ein Wahlfehler benannt worden wäre, der entweder Einfluss auf die Sitzverteilung hatte oder das subjektive Wahlrecht der den Einspruch einlegenden Personen beim Wahlakt verletzte. Den Einsprüchen ließen sich solche Fehler allerdings nicht entnehmen.</seg>
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1105">Ich halte fest: Der Wahlprüfungsausschuss ist jedem Wahlfehler sorgfältig nachgegangen, hat das Bundesministerium des Innern, den Bundeswahlleiter, die Landeswahlleitungen und vereinzelt auch Kreiswahlleitungen um Stellungnahme gebeten.</seg>
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1106">Im Einzelfall hat es leider, wenn auch in sehr wenigen Fällen, Wahlfehler gegeben. So wurden zum Beispiel in Düsseldorf zum Teil mehrfach derselben Person Briefwahlunterlagen zugesandt. In Oberhausen erhielten rund 30 Menschen Stimmzettel aus dem Jahre 2009. Das Erfreuliche ist, es fiel auf.</seg>
-          <kinesic type="amusement">
+          <kinesic type="amusement" xml:id="ParlaMint-DE_2014-10-09-18-057.kinesic373">
             <desc>Heiterkeit</desc>
           </kinesic>
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1107">Auf die Sitzverteilung hatten diese ärgerlichen Fehler keinen Einfluss, da das gesamte Stimmenaufkommen für die Erst- und Zweitstimmen sehr hoch war. Der Wahlprüfungsausschuss hat gleichwohl die Erwartung, dass die betreffenden Wahlbehörden derartige Fehler in Zukunft vermeiden.</seg>
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1108">Ich möchte Ihnen mitteilen, welche Einspruchsgegenstände ansonsten typisch waren: nicht oder zu spät zugestellte Briefwahlunterlagen, die repräsentative Wahl-statistik, der Identitätsnachweis im Wahllokal, die Gestaltung des Stimmzettels oder das Schreibmittel in der Wahlkabine.</seg>
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1109">Zum Teil hat es auch kaum nachvollziehbare Einsprüche gegeben. Ein Bürger hat behauptet, das Wahlergebnis müsse manipuliert gewesen sein. Er hat nämlich 40 Minuten nach Schließung der Wahllokale die TV-Serie "Lindenstraße" geschaut. In dieser Folge war das Wahlergebnis schon adaptiert. Daraus hat er eine Manipulation hergeleitet. Der Wahlprüfungsausschuss hat das natürlich sorgfältig geprüft und ist zu dem Ergebnis gekommen, dass keine Manipulation vorlag. Ich kann das Geheimnis lüften: Es sind einfach mehrere Varianten gedreht worden, und die Verantwortlichen der sendenden TV-Anstalt haben es schlicht und ergreifend geschafft, die richtige Variante zu senden. Damit hatte sich das Thema geklärt.</seg>
-          <kinesic type="applause">
+          <kinesic type="applause" xml:id="ParlaMint-DE_2014-10-09-18-057.kinesic374">
             <desc>Heiterkeit und Beifall</desc>
           </kinesic>
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1110">Meine Damen und Herren, ein großer Teil der Einsprüche hat die Fünfprozentklausel betroffen. Sie wissen, welche Parteien knapp oder auch deutlich die Fünfprozenthürde verpasst haben. Wir haben uns ausführlich damit befasst. Die Ausschussmehrheit ist mit der Rechtsprechung des Bundesverfassungsgerichts der Auffassung, dass die Fünfprozentklausel verfassungskonform ist, weil sie die Bildung einer stabilen Mehrheit für die Wahl einer handlungsfähigen Regierung und deren fortlaufende Unterstützung im deutschen Parlament gewährleistet. Dies ist eine Folge, die die Verfassungsmütter und -väter aus der Weimarer Zeit gezogen haben. Wir halten das nach wie vor für rechtlich in Ordnung und verfassungskonform.</seg>
@@ -138,13 +141,13 @@
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1114">Ich empfehle Ihnen also guten Gewissens, unseren Beschlussempfehlungen zu folgen und damit dafür zu sorgen, dass diese Sitzung ihren Fortgang finden kann.</seg>
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1115">Herzlichen Dank für Ihre Aufmerksamkeit.</seg>
         </u>
-        <kinesic type="applause">
+        <kinesic type="applause" xml:id="ParlaMint-DE_2014-10-09-18-057.kinesic375">
           <desc>Beifall bei der CDU/CSU und der SPD sowie bei Abgeordneten der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN</desc>
         </kinesic>
-        <note type="speaker">Vizepräsidentin Ulla Schmidt:</note>
-        <u who="#Q61307" xml:id="ParlaMint-DE_2014-10-09-18-057.u117" ana="#chair">
+        <note type="speaker" xml:id="ParlaMint-DE_2014-10-09-18-057.note117">Vizepräsidentin Ulla Schmidt:</note>
+        <u who="#Q61307" xml:id="ParlaMint-DE_2014-10-09-18-057.u117" ana="#chair topic:mixed">
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1116">Vielen Dank. - Wir kommen jetzt zur Abstimmung. Wer stimmt für die Beschlussempfehlung des Wahlprüfungsausschusses? - Wer stimmt dagegen? - Wer enthält sich? - Damit ist die Beschlussempfehlung mit den Stimmen aller Fraktionen angenommen.</seg>
-          <kinesic type="applause">
+          <kinesic type="applause" xml:id="ParlaMint-DE_2014-10-09-18-057.kinesic376">
             <desc>Beifall bei Abgeordneten der CDU/CSU und der SPD</desc>
           </kinesic>
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1117">Ich rufe den Tagesordnungspunkt 8 auf:</seg>
@@ -168,7 +171,7 @@
           <seg xml:id="ParlaMint-DE_2014-10-09-18-057.seg1135">Ich bitte jetzt alle, Platz zu nehmen, die der Debatte folgen wollen. - Dann rufe ich Dr. Matthias Bartke, SPD-Fraktion, auf.</seg>
         </u>
       </div>
-      <gap reason="editorial">
+      <gap reason="editorial" xml:id="ParlaMint-DE_2014-10-09-18-057.gap2">
         <desc xml:lang="en">Additional agenda items omitted (sampling)</desc>
       </gap>
     </body>

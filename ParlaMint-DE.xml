@@ -139,10 +139,21 @@
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-CHES.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-politicalOrientation.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DE-taxonomy-metadata_sources"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DE-taxonomy-agenda_item_types"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DE-taxonomy-custom_speaker_types"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DE-taxonomy-metadata_sources.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DE-taxonomy-agenda_item_types.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-DE-taxonomy-custom_speaker_types.xml"/>
       </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="topic" matchPattern="(.+)" replacementPattern="#$1">
+          <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the Topic taxonomy categories in the corpus root TEI header.</p>
+        </prefixDef>
+      </listPrefixDef>
+      <appInfo>
+        <application ident="parlacap" version="1.0">
+          <label>ParlaCAP</label>
+          <desc>Automatic annotation with <ref target="https://www.comparativeagendas.net/pages/master-codebook">CAP (Comparative Agendas Project)</ref> major topic labels, produced with the multilingual ParlaCAP classifier, available from <ref target="https://huggingface.co/classla/ParlaCAP-Topic-Classifier">https://huggingface.co/classla/ParlaCAP-Topic-Classifier</ref>.</desc>
+        </application>
+      </appInfo>
     </encodingDesc>
     <profileDesc>
       <settingDesc>
@@ -358,6 +369,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-10-19"><name>Christoph Leonhardt</name>: Additional modifications towards valid ParlaMint encoding and inclusion of topic information.</change>
       <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
   </change>
       <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.

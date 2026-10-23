@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1949-12-02-01-021">
   <teiHeader xml:lang="en">
     <fileDesc>
@@ -47,8 +47,10 @@
         <idno type="URI" subtype="handle">TBA</idno>
         <availability status="free">
           <licence>https://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></p>
-          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
+          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>
+                    </p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                    </p>
         </availability>
         <date when="TBA">TBA</date>
       </publicationStmt>
@@ -95,6 +97,7 @@
       </settingDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-10-19"><name>Christoph Leonhardt</name>: Additional modifications towards valid ParlaMint encoding and inclusion of topic information.</change>
       <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
   </change>
       <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.
@@ -104,29 +107,29 @@
   <text>
     <body>
       <div type="debateSection" n="U1">
-        <note type="speaker">Präsident Dr. Köhler:</note>
-        <u who="#Q70058" xml:id="ParlaMint-DE_1949-12-02-01-021.u1" ana="#chair">
+        <note type="speaker" xml:id="ParlaMint-DE_1949-12-02-01-021.note1">Präsident Dr. Köhler:</note>
+        <u who="#Q70058" xml:id="ParlaMint-DE_1949-12-02-01-021.u1" ana="#chair topic:other">
           <seg xml:id="ParlaMint-DE_1949-12-02-01-021.seg1">Ich eröffne die 21. Sitzung. Wir kommen nunmehr zur Abstimmung über den Antrag zu Punkt 14 der Tagesordnung der vorigen Sitzung:</seg>
           <seg xml:id="ParlaMint-DE_1949-12-02-01-021.seg2">Mündlicher Bericht des Ausschusses für Heimatvertriebene über den Antrag der Fraktion des Zentrums und über den Antrag der Fraktion der CDU/CSU betreffend Wartegeld und Pensionen der ostvertriebenen Beamten (Drucksachen Nr. 210, 20 und 29 Ziffern 3 und 5).</seg>
-          <vocal type="exclamat">
+          <vocal type="exclamat" xml:id="ParlaMint-DE_1949-12-02-01-021.vocal1">
             <desc>Abg. Strauss: Zur Geschäftsordnung!</desc>
           </vocal>
           <seg xml:id="ParlaMint-DE_1949-12-02-01-021.seg3">— Es liegt eine Meldung zur Geschäftsordnung von Herrn Abgeordneten Strauss vor.</seg>
         </u>
-        <note type="speaker">Strauss (CSU):</note>
-        <u who="#Q44620" xml:id="ParlaMint-DE_1949-12-02-01-021.u2" ana="#regular #DE-mp">
+        <note type="speaker" xml:id="ParlaMint-DE_1949-12-02-01-021.note2">Strauss (CSU):</note>
+        <u who="#Q44620" xml:id="ParlaMint-DE_1949-12-02-01-021.u2" ana="#regular #DE-mp topic:other">
           <seg xml:id="ParlaMint-DE_1949-12-02-01-021.seg4">Herr Präsident! Meine Damen und Herren! Ein Angehöriger meiner Fraktion hat die Beschlußfähigkeit des Hauses bezweifelt. Seine Überzeugung, daß zu der Abstimmung über eine so wichtige Angelegenheit die Anwesenheit der Mehrheit des Hauses notwendig ist, ist richtig. Politisch stelle ich dazu fest, daß meine Fraktion diese Abstimmung wünscht. Ich bitte, diesen Wunsch als Antrag zu betrachten.</seg>
         </u>
-        <note type="speaker">Präsident Dr. Köhler:</note>
-        <u who="#Q70058" xml:id="ParlaMint-DE_1949-12-02-01-021.u3" ana="#chair">
+        <note type="speaker" xml:id="ParlaMint-DE_1949-12-02-01-021.note3">Präsident Dr. Köhler:</note>
+        <u who="#Q70058" xml:id="ParlaMint-DE_1949-12-02-01-021.u3" ana="#chair topic:other">
           <seg xml:id="ParlaMint-DE_1949-12-02-01-021.seg5">Das Wort zur Geschäftsordnung hat Herr Abgeordneter Dr. Falkner.</seg>
         </u>
-        <note type="speaker">Dr. Falkner (BP):</note>
-        <u who="#Q1358025" xml:id="ParlaMint-DE_1949-12-02-01-021.u4" ana="#regular #DE-mp">
+        <note type="speaker" xml:id="ParlaMint-DE_1949-12-02-01-021.note4">Dr. Falkner (BP):</note>
+        <u who="#Q1358025" xml:id="ParlaMint-DE_1949-12-02-01-021.u4" ana="#regular #DE-mp topic:other">
           <seg xml:id="ParlaMint-DE_1949-12-02-01-021.seg6">Ich verzichte darauf! Es ist durch die Erklärung des Herrn Abgeordneten Strauss vorweggenommen.</seg>
         </u>
       </div>
-      <gap reason="editorial">
+      <gap reason="editorial" xml:id="ParlaMint-DE_1949-12-02-01-021.gap1">
         <desc xml:lang="en">Additional agenda items omitted (sampling)</desc>
       </gap>
     </body>

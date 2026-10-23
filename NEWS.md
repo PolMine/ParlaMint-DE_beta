@@ -1,5 +1,16 @@
 # NEWS
 
+## [2026-10-21] [GermaParl v3.0.0-rc3] [Sample]
+- minor adjustments towards validation
+  - added IDs to transcriber comments
+  - added file name extensions to local taxonomy file paths
+- minor corrections of typos in shared taxonomies
+- removed affiliation information of guest speakers in listPerson
+- added topic annotation on utterance level, topic prefix and appInfo for ParlaCAP
+- added initial version of linguistically annotated variant in sample, including
+sentiment annotation and entity linking
+- added CoNLL-U representation of linguistically annotated variant
+
 ## [2026-05-13] [GermaParl v3.0.0-rc2]
 
 - this minor release mainly addresses the following issues:

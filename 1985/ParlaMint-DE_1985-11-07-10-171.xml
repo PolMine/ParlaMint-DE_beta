@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1985-11-07-10-171">
   <teiHeader xml:lang="en">
     <fileDesc>
@@ -47,8 +47,10 @@
         <idno type="URI" subtype="handle">TBA</idno>
         <availability status="free">
           <licence>https://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></p>
-          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
+          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>
+                    </p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                    </p>
         </availability>
         <date when="TBA">TBA</date>
       </publicationStmt>
@@ -95,6 +97,7 @@
       </settingDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-10-19"><name>Christoph Leonhardt</name>: Additional modifications towards valid ParlaMint encoding and inclusion of topic information.</change>
       <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
   </change>
       <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.
@@ -103,13 +106,13 @@
   </teiHeader>
   <text>
     <body>
-      <gap reason="editorial">
+      <gap reason="editorial" xml:id="ParlaMint-DE_1985-11-07-10-171.gap1">
         <desc xml:lang="en">Additional agenda items omitted (sampling)</desc>
       </gap>
       <div type="debateSection" n="10" ana="#DE-consultation">
         <head>Beratung der Großen Anfrage der Abgeordneten Reschke, Conradi, Waltemathe, Müntefering, Lohmann (Witten) , Meininghaus, Menzel, Polkehn, Schmitt (Wiesbaden) , Dr. Sperling, Huonker, Wolfram (Recklinghausen) und der Fraktion der SPD Baulandsituation, Entwicklung der Baulandpreise, des Bodenrechts und der Bodensteuern — Drucksachen 10/2358, 10/3690 —</head>
-        <note type="speaker">Vizepräsident Cronenberg:</note>
-        <u who="#Q124036" xml:id="ParlaMint-DE_1985-11-07-10-171.u359" ana="#chair">
+        <note type="speaker" xml:id="ParlaMint-DE_1985-11-07-10-171.note359">Vizepräsident Cronenberg:</note>
+        <u who="#Q124036" xml:id="ParlaMint-DE_1985-11-07-10-171.u359" ana="#chair topic:housi">
           <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1439">Danke sehr. Ich rufe den Tagesordnungspunkt 10 auf:</seg>
           <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1440">Beratung der Großen Anfrage der Abgeordneten Reschke, Conradi, Waltemathe, Müntefering, Lohmann (Witten)</seg>
           <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1441">, Meininghaus, Menzel, Polkehn, Schmitt (Wiesbaden)</seg>
@@ -117,7 +120,7 @@
           <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1443">und der Fraktion der SPD Baulandsituation, Entwicklung der Baulandpreise, des Bodenrechts und der Bodensteuern — Drucksachen 10/2358, 10/3690 —</seg>
           <seg xml:id="ParlaMint-DE_1985-11-07-10-171.seg1444">Das Wort wird offensichtlich nicht gewünscht. Interfraktionell ist vereinbart worden, die Große Anfrage mit der Antwort der Bundesregierung ausnahmsweise und in Abweichung von der Geschäftsordnung an den Ausschuß für Raumordnung, Bauwesen und Städtebau zu überweisen. Diese Überweisung sollte jedoch kein Berufungsfall werden. Ich mache zusätzlich darauf aufmerksam, daß durch diese Überweisung Rechte der Fraktionen oder Mitglieder des Hauses nach § 101 der Geschäftsordnung nicht berührt werden. Ich gehe davon aus, daß lediglich eine Berichterstattung erfolgt, wenn die Große Anfrage nach der Ausschußberatung erneut im Plenum behandelt werden soll. Gibt es dazu anderweitige Vorschläge? — Das ist offensichtlich nicht der Fall. Dann ist die Überweisung mit den von mir genannten Konditionen und Einschränkungen so beschlossen. Wir sind am Ende der heutigen Tagesordnung. Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Freitag, den 8. November 1985, 8 Uhr ein und wünsche Ihnen einen angenehmen Abend. Die Sitzung ist geschlossen.</seg>
         </u>
-        <incident type="editorial">
+        <incident type="editorial" xml:id="ParlaMint-DE_1985-11-07-10-171.incident11">
           <desc>Schluß der Sitzung: 21.18 Uhr</desc>
         </incident>
       </div>

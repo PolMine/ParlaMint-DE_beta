@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting" xml:id="ParlaMint-DE_1993-04-28-12-154">
   <teiHeader xml:lang="en">
     <fileDesc>
@@ -47,8 +47,10 @@
         <idno type="URI" subtype="handle">TBA</idno>
         <availability status="free">
           <licence>https://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></p>
-          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
+          <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>
+                    </p>
+          <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                    </p>
         </availability>
         <date when="TBA">TBA</date>
       </publicationStmt>
@@ -95,6 +97,7 @@
       </settingDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-10-19"><name>Christoph Leonhardt</name>: Additional modifications towards valid ParlaMint encoding and inclusion of topic information.</change>
       <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
   </change>
       <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.
@@ -103,34 +106,34 @@
   </teiHeader>
   <text>
     <body>
-      <gap reason="editorial">
+      <gap reason="editorial" xml:id="ParlaMint-DE_1993-04-28-12-154.gap1">
         <desc xml:lang="en">Additional agenda items omitted (sampling)</desc>
       </gap>
       <div type="debateSection" n="2" ana="#DE-question_time">
         <head>Fragestunde — Drucksache 12/4791 —</head>
-        <note type="speaker">Vizepräsident Hans Klein:</note>
-        <u who="#Q90844" xml:id="ParlaMint-DE_1993-04-28-12-154.u70" ana="#chair">
+        <note type="speaker" xml:id="ParlaMint-DE_1993-04-28-12-154.note70">Vizepräsident Hans Klein:</note>
+        <u who="#Q90844" xml:id="ParlaMint-DE_1993-04-28-12-154.u70" ana="#chair topic:domes">
           <seg xml:id="ParlaMint-DE_1993-04-28-12-154.seg73">Damit sind wir inklusive der zehn Zusatzminuten am Ende der Zeit, die für die Regierungsbefragung vorgesehen war. Wir kommen zu Tagesordnungspunkt 2: Fragestunde — Drucksache 12/4791 —</seg>
           <seg xml:id="ParlaMint-DE_1993-04-28-12-154.seg74">Ich rufe den Geschäftsbereich des Bundesministers der Finanzen auf. Zur Beantwortung der Fragen steht uns der Parlamentarische Staatssekretär Dr. Joachim Grünewald zur Verfügung. Herr Parlamentarischer Staatssekretär, ich bitte Sie um Beantwortung der Frage 1 des Kollegen Kubatschka:</seg>
           <seg xml:id="ParlaMint-DE_1993-04-28-12-154.seg75">Wie beurteilt die Bundesregierung den starken Anstieg der Herstellung und Verbreitung von Falschgeld, vor allem bei den 100- und 200-DM-Noten der als fälschungssicher geltenden neuen Banknotenserien, und was wird sie dagegen unternehmen?</seg>
         </u>
-        <note type="speaker">Dr. Joachim Grünewald, Parl. Staatssekretär beim Bundesminister für Finanzen:</note>
-        <u who="#Q1690121" xml:id="ParlaMint-DE_1993-04-28-12-154.u71" ana="#regular #DE-government">
+        <note type="speaker" xml:id="ParlaMint-DE_1993-04-28-12-154.note71">Dr. Joachim Grünewald, Parl. Staatssekretär beim Bundesminister für Finanzen:</note>
+        <u who="#Q1690121" xml:id="ParlaMint-DE_1993-04-28-12-154.u71" ana="#regular #DE-government topic:domes">
           <seg xml:id="ParlaMint-DE_1993-04-28-12-154.seg76">Herr Kollege Kubatschka, die Ausgabe und fälschungssichere Gestaltung von Banknoten fällt in die ausschließliche Zuständigkeit der Deutschen Bundesbank. Die Deutsche Bundesbank hat bereits vor der Ausgabe der neuen Banknoten in enger Zusammenarbeit mit der Polizei und dem Bundeskriminalamt eine Reihe von Maßnahmen ergriffen, um dem Wachstum des Falschgeldanfalls entgegenzuwirken. Die neuen Banknoten enthalten mehr und leichter prüfbare Sicherheitsmerkmale als die alten. Die Bundesbank bemüht sich, die Bevölkerung hierüber umfassend zu unterrichten, um die Erkennung von Falschgeld zu verbessern. Außerdem konnte durch technische Weiterentwicklungen die Fälschungssicherheit der Banknoten erhöht werden. Ein Beispiel hierfür ist der changierende Farbeffekt in den Wertzahlen der im Oktober 1992 herausgegebenen 500-DM- und 1 000-DM-Banknoten. Darüber hinaus wollen die Hersteller von Farbkopiergeräten noch in diesem Jahr integrierte Schutzverfahren in den Geräten installieren, die ein Kopieren von Banknoten verhindern.</seg>
         </u>
-        <note type="speaker">Vizepräsident Hans Klein:</note>
-        <u who="#Q90844" xml:id="ParlaMint-DE_1993-04-28-12-154.u72" ana="#chair">
+        <note type="speaker" xml:id="ParlaMint-DE_1993-04-28-12-154.note72">Vizepräsident Hans Klein:</note>
+        <u who="#Q90844" xml:id="ParlaMint-DE_1993-04-28-12-154.u72" ana="#chair topic:other">
           <seg xml:id="ParlaMint-DE_1993-04-28-12-154.seg77">Zusatzfrage, Herr Kollege Kubatschka.</seg>
         </u>
-        <note type="speaker">Horst Kubatschka (SPD):</note>
-        <u who="#Q105435" xml:id="ParlaMint-DE_1993-04-28-12-154.u73" ana="#regular #DE-mp">
+        <note type="speaker" xml:id="ParlaMint-DE_1993-04-28-12-154.note73">Horst Kubatschka (SPD):</note>
+        <u who="#Q105435" xml:id="ParlaMint-DE_1993-04-28-12-154.u73" ana="#regular #DE-mp topic:mixed">
           <seg xml:id="ParlaMint-DE_1993-04-28-12-154.seg78">Herr Staatssekretär, Sie haben uns sehr viele Maßnahmen aufgezählt, die wirken sollten. Wie erklären Sie sich dann die Tatsache, daß beispielsweise die 100-DM-Banknoten teilweise nicht mehr genommen werden, weil die Menschen Angst haben, einen „falschen Fünfziger" angedreht zu bekommen?</seg>
         </u>
-        <note type="speaker">Dr. Joachim Grünewald, Parl. Staatssekretär:</note>
-        <u who="#Q1690121" xml:id="ParlaMint-DE_1993-04-28-12-154.u74" ana="#regular #DE-government">
+        <note type="speaker" xml:id="ParlaMint-DE_1993-04-28-12-154.note74">Dr. Joachim Grünewald, Parl. Staatssekretär:</note>
+        <u who="#Q1690121" xml:id="ParlaMint-DE_1993-04-28-12-154.u74" ana="#regular #DE-government topic:domes">
           <seg xml:id="ParlaMint-DE_1993-04-28-12-154.seg79">Das Problem ist uns wie auch der Deutschen Bundesbank bekannt und in diesen Tagen in der öffentlichen Diskussion besonders virulent. Deshalb habe ich auch die entsprechenden Zahlen zur Hand: Bei der Deutschen Bundesbank wurden im Jahre 1992 etwa 14 000 Banknoten im Gesamtwert von 2,5 Millionen DM als falsch erkannt und dann natürlich aus dem Zahlungsverkehr gezogen. Beim gesamten Notenumlauf — etwa 2,2 Milliarden einzelne Banknoten in einem Gesamtwert von 213 Milliarden DM — kommen also, über den Daumen gepeilt, etwa sieben Fälschungen auf eine Millionen Banknoten.</seg>
         </u>
-        <gap reason="editorial">
+        <gap reason="editorial" xml:id="ParlaMint-DE_1993-04-28-12-154.gap2">
           <desc xml:lang="en">Current agenda item shortened (sampling)</desc>
         </gap>
       </div>
