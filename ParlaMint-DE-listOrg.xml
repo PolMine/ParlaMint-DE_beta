@@ -232,8 +232,8 @@
     <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/CDU/CSU-Fraktion_im_Deutschen_Bundestag</idno>
     <idno type="URI" subtype="wikimedia">http://www.wikidata.org/entity/Q1023134</idno>
     <state type="politicalOrientation">
-      <state type="Wikipedia" source="NA" ana="#orientation.CR"/>
-      <note>Based on the political orientation of the parties the parliamentary group represents.</note>
+      <state type="Wikipedia" ana="#orientation.CR"/>
+      <note>Based on the political orientation of the parties the parliamentary group represents. In case of the CDU/CSU parliamentary group, the assumed shared orientation is reported.</note>
     </state>
   </org>
   <org xml:id="parliamentaryGroup.DA" role="parliamentaryGroup" xml:lang="de">
@@ -799,7 +799,7 @@
     <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Party_for_a_Rule_of_Law_Offensive</idno>
     <idno type="URI" subtype="wikimedia">http://www.wikidata.org/entity/Q457217</idno>
     <state type="politicalOrientation">
-      <state type="Wikipedia" source="https://en.wikipedia.org/wiki/Party_for_a_Rule_of_Law_Offensive" ana="#orientation.RW"/>
+      <state type="Wikipedia" source="https://en.wikipedia.org/wiki/Party_for_a_Rule_of_Law_Offensive" ana="#orientation.R"/>
     </state>
   </org>
   <org xml:id="politicalParty.REP" role="politicalParty">
@@ -916,7 +916,7 @@
     <relation name="representing" active="#parliamentaryGroup.SPD" passive="#politicalParty.SPD" from="1949-09-07" to="2025-03-25"/>
     <relation name="representing" active="#parliamentaryGroup.WAV" passive="#politicalParty.WAV" from="1949-09-07" to="1951-12-06"/>
     <relation name="representing" active="#parliamentaryGroup.WAV" passive="#politicalParty.WAV" from="1953-03-25" to="1953-09-07"/>
-    <relation name="coalition" from="1949-09-20" to="1953-10-05" mutual="#parliamentaryGroup.CDU_CSU #parliamentaryGroup.FDP #parliamentaryGroup.DP #parliamentaryGroup.DP_DPB" ana="#BT.01"/>
+    <relation name="coalition" from="1949-09-20" to="1953-10-05" mutual="#parliamentaryGroup.CDU_CSU #parliamentaryGroup.FDP #parliamentaryGroup.DP" ana="#BT.01"/>
     <relation name="opposition" from="1949-09-20" to="1953-10-05" active="#parliamentaryGroup.BP #parliamentaryGroup.DRP_NR #parliamentaryGroup.DZP #parliamentaryGroup.FU #parliamentaryGroup.GB_BHE #parliamentaryGroup.KPD #parliamentaryGroup.SPD #parliamentaryGroup.WAV" passive="#government.DE" ana="#BT.01"/>
     <relation name="coalition" from="1953-10-20" to="1955-07-12" mutual="#parliamentaryGroup.CDU_CSU #parliamentaryGroup.FDP #parliamentaryGroup.GB_BHE #parliamentaryGroup.DP" ana="#BT.02"/>
     <relation name="opposition" from="1953-10-20" to="1955-07-12" active="#parliamentaryGroup.SPD" passive="#government.DE" ana="#BT.02"/>

@@ -1,5 +1,11 @@
 # NEWS
 
+## [2026-10-26] [GermaParl v3.0.0-rc4] [Sample]
+- additional adjustments towards validation
+  - addressed minor inconsistencies in `listOrg.xml` and `listPerson.xml`
+  - moved `gap` nodes inside of `div` nodes
+  - `ParlaMint-DE.ana.xml` now includes the correct `corpus component files`
+
 ## [2026-10-21] [GermaParl v3.0.0-rc3] [Sample]
 - minor adjustments towards validation
   - added IDs to transcriber comments

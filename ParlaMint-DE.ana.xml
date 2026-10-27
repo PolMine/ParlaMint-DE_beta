@@ -3,8 +3,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="de" type="main">Deutsches Plenardebattenkorpus ParlaMint-DE, Plenarprotokolle des Deutschen Bundestages [ParlaMint.ana SAMPLE]</title>
-        <title xml:lang="en" type="main">German parliamentary corpus ParlaMint-DE, Plenary Protocols of the German Bundestag [ParlaMint.ana SAMPLE]</title>
+        <title xml:lang="de" type="main">Deutsches Plenardebattenkorpus ParlaMint-DE [ParlaMint.ana SAMPLE]</title>
+        <title xml:lang="en" type="main">German parliamentary corpus ParlaMint-DE [ParlaMint.ana SAMPLE]</title>
         <title xml:lang="de" type="sub">Plenarprotokolle des Deutschen Bundestages - 1. bis 20. Wahlperiode (1949 - 2025)</title>
         <title xml:lang="en" type="sub">Plenary Protocols of the German Bundestag - Legislative Periods 1 to 20 (1949 - 2025)</title>
         <meeting n="1" corresp="#BT" ana="#parla.lower #parla.term #BT.01"/>
@@ -71,7 +71,7 @@
         </publisher>
         <idno type="URI" subtype="handle">TBA</idno>
         <availability status="free">
-          <licence>https://creativecommons.org/licenses/by/4.0/</licence>
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
           <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref></p>
           <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
         </availability>
@@ -391,21 +391,20 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-10-26"><name>Christoph Leonhardt</name>: Additional modifications towards valid ParlaMint encoding.</change>
       <change when="2026-10-19"><name>Christoph Leonhardt</name>: First linguistically annotated beta version of ParlaMint-DE, including sentiment annotation.</change>
       <change when="2026-10-19"><name>Christoph Leonhardt</name>: Additional modifications towards valid ParlaMint encoding and inclusion of topic information.</change>
-      <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.
-  </change>
-      <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.
-  </change>
+      <change when="2026-05-13"><name>Christoph Leonhardt</name>: Improvement of data quality and initial modifications based on validation towards ParlaMint encoding.</change>
+      <change when="2026-03-26"><name>Christoph Leonhardt</name> and <name>Andreas Blätte</name>: First build of ParlaMint-DE Beta as initially made available on GitHub.</change>
     </revisionDesc>
   </teiHeader>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1949/ParlaMint-DE_1949-12-02-01-021.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1956/ParlaMint-DE_1956-07-07-02-159.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1967/ParlaMint-DE_1967-09-08-05-120.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1974/ParlaMint-DE_1974-04-25-07-095.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/ParlaMint-DE_1985-11-07-10-171.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1993/ParlaMint-DE_1993-04-28-12-154.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-DE_2006-02-17-16-020.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-DE_2014-10-09-18-057.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-DE_2022-12-16-20-077.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1949/ParlaMint-DE_1949-12-02-01-021.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1956/ParlaMint-DE_1956-07-07-02-159.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1967/ParlaMint-DE_1967-09-08-05-120.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1974/ParlaMint-DE_1974-04-25-07-095.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1985/ParlaMint-DE_1985-11-07-10-171.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1993/ParlaMint-DE_1993-04-28-12-154.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-DE_2006-02-17-16-020.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-DE_2014-10-09-18-057.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-DE_2022-12-16-20-077.ana.xml"/>
 </teiCorpus>
